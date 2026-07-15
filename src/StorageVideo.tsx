@@ -75,9 +75,9 @@ const SCENES: SceneDef[] = [
   {dur: 76, kind: 'rent', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'in', scrim: 0.62}},
   {dur: 72, kind: 'text', text: 'Moving out costs|a weekend and a truck.', highlights: ['truck'], media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR', scrim: 0.48}},
   {dur: 98, kind: 'text', text: 'Recessions cause|moves, divorces, downsizing.', highlights: ['recessions'], media: {src: 'media/clip_truck.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
-  {dur: 42, kind: 'fills', media: {src: 'media/clip_yard.mp4', type: 'video', from: 120, effect: 'in', scrim: 0.5}},
+  {dur: 42, kind: 'fills'},
   {dur: 75, kind: 'revenue', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out', scrim: 0.64}},
-  {dur: 90, kind: 'moat', media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 90, effect: 'in', scrim: 0.58}},
+  {dur: 90, kind: 'moat'},
   {dur: 84, kind: 'outro', media: {src: 'media/clip_industrial.mp4', type: 'video', from: 150, effect: 'out', scrim: 0.58}},
 ];
 
@@ -427,13 +427,15 @@ const SceneMoat: React.FC = () => {
   const underline = interpolate(frame, [60, 86], [0, 100], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
+      {/* solid red background (no footage) */}
+      <AbsoluteFill style={{background: 'radial-gradient(125% 90% at 50% 42%, #FF2E2E 0%, #E31E1E 62%, #C21414 100%)'}} />
       <div style={{opacity: p1, transform: `translateY(${interpolate(p1, [0, 1], [22, 0])}px)`, fontFamily: HEAD, fontSize: 104, color: C.ink, textAlign: 'center', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 34}}>
         Nobody moves out.
       </div>
       <div style={{opacity: p2, transform: `scale(${interpolate(p2, [0, 1], [0.7, 1])})`, textAlign: 'center'}}>
-        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 34, letterSpacing: 8, color: C.sub, textTransform: 'uppercase'}}>That is the</div>
-        <div style={{fontFamily: HEAD, fontSize: 250, color: C.red, letterSpacing: 4, lineHeight: 0.95, textTransform: 'uppercase', textShadow: '0 0 80px rgba(255,46,46,0.45)'}}>Moat</div>
-        <div style={{height: 10, width: `${underline}%`, margin: '0 auto', borderRadius: 4, background: C.red, boxShadow: '0 0 30px rgba(255,46,46,0.6)'}} />
+        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 34, letterSpacing: 8, color: 'rgba(255,255,255,0.85)', textTransform: 'uppercase'}}>That is the</div>
+        <div style={{fontFamily: HEAD, fontSize: 250, color: C.ink, letterSpacing: 4, lineHeight: 0.95, textTransform: 'uppercase', textShadow: '0 6px 44px rgba(0,0,0,0.3)'}}>Moat</div>
+        <div style={{height: 10, width: `${underline}%`, margin: '0 auto', borderRadius: 4, background: C.ink, boxShadow: '0 0 26px rgba(0,0,0,0.25)'}} />
       </div>
     </AbsoluteFill>
   );
