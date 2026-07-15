@@ -46,15 +46,15 @@ const C = {
 // ---------------------------------------------------------------------------
 // Scene timeline (frames @ 30fps). Total = 1350 frames = 45.0s
 // ---------------------------------------------------------------------------
-type SceneDef = {dur: number; kind: string; text?: string; highlights?: string[]};
+type SceneDef = {dur: number; kind: string; text?: string; highlights?: string[]; reveal?: number[]};
 
 // Durations are tuned so each scene change lands on a detected pause in the
 // narration (public/voiceover.mp3, speech 0..32.7s). Total = 990 frames = 33.0s.
 const SCENES: SceneDef[] = [
   {dur: 74, kind: 'hook'},
   {dur: 84, kind: 'margin'},
-  {dur: 133, kind: 'lines', text: 'Metal boxes.|Cheap land.|Almost no staff.', highlights: ['staff']},
-  {dur: 84, kind: 'lines', text: 'No inventory.|Nothing to restock.|Nothing spoils.', highlights: ['spoils']},
+  {dur: 174, kind: 'lines', text: 'Metal boxes.|Cheap land.|Almost no staff.|No inventory.', highlights: ['staff'], reveal: [0, 42, 84, 134]},
+  {dur: 43, kind: 'lines', text: 'Nothing to restock.|Nothing spoils.', highlights: ['spoils'], reveal: [0, 20]},
   {dur: 78, kind: 'text', text: 'Once the building is up,|costs barely move.', highlights: ['barely', 'move']},
   {dur: 76, kind: 'rent'},
   {dur: 72, kind: 'text', text: 'Moving out costs|a weekend and a truck.', highlights: ['truck']},
@@ -315,7 +315,7 @@ const SceneMargin: React.FC = () => {
   );
 };
 
-const SceneLines: React.FC<{text: string; highlights?: string[]}> = ({text, highlights = [] }) => {
+const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number[]}> = ({text, highlights = [], reveal}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
   const lines = text.split('|');
@@ -324,7 +324,8 @@ const SceneLines: React.FC<{text: string; highlights?: string[]}> = ({text, high
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'flex-start', padding: '0 96px'}}>
       <div style={{display: 'flex', flexDirection: 'column', gap: 22}}>
         {lines.map((l, i) => {
-          const p = spring({frame: frame - (8 + i * 14), fps, config: {damping: 200}});
+          const appearAt = reveal ? reveal[i] : 8 + i * 14;
+          const p = spring({frame: frame - appearAt, fps, config: {damping: 200}});
           const x = interpolate(p, [0, 1], [-60, 0]);
           return (
             <div key={i} style={{opacity: p, transform: `translateX(${x}px)`, fontFamily: HEAD, fontSize: 108, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
@@ -523,7 +524,7 @@ const renderScene = (s: SceneDef) => {
     case 'margin':
       return <SceneMargin />;
     case 'lines':
-      return <SceneLines text={s.text!} highlights={s.highlights} />;
+      return <SceneLines text={s.text!} highlights={s.highlights} reveal={s.reveal} />;
     case 'text':
       return <SceneText text={s.text!} highlights={s.highlights} />;
     case 'rent':
