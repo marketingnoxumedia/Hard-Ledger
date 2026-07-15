@@ -18,23 +18,16 @@ import {loadFont as loadRobotoCondensed} from '@remotion/google-fonts/RobotoCond
 const {fontFamily: ANTON} = loadAnton();
 const {fontFamily: ROBOTO_CONDENSED} = loadRobotoCondensed();
 
-// Header type: Anton (condensed caps).
 const HEAD = ANTON;
-// Body type: Helvetica Now Display Condensed if installed locally, otherwise a
-// close free neo-grotesque condensed fallback bundled by the render.
 const BODY = `'Helvetica Now Display Condensed','Helvetica Now Display','${ROBOTO_CONDENSED}','Arial Narrow',sans-serif`;
 
-// ---------------------------------------------------------------------------
-// Composition constants
 // ---------------------------------------------------------------------------
 export const FPS = 30;
 export const WIDTH = 1080;
 export const HEIGHT = 1920;
 
-// Drop a narration track at public/voiceover.mp3 and flip this to true.
 const HAS_VOICEOVER = true;
 
-// Near-black canvas, monochrome type, exactly one red focal element per scene.
 const C = {
   bg: '#0A0A0A',
   ink: '#F4F4F4',
@@ -46,41 +39,65 @@ const C = {
 };
 
 // ---------------------------------------------------------------------------
-// Scene timeline (frames @ 30fps). Total = 1350 frames = 45.0s
-// ---------------------------------------------------------------------------
 type MediaCfg = {
   src: string;
   type: 'img' | 'video';
-  from?: number; // start frame for video segment
+  from?: number;
   effect?: 'in' | 'out' | 'panL' | 'panR';
   scrim?: number;
 };
+type StatCfg = {
+  pre?: string;
+  prefix?: string;
+  value: number;
+  decimals?: number;
+  suffix?: string;
+  post?: string;
+  bar?: number;
+};
 type SceneDef = {
   dur: number;
-  kind: string;
+  kind: 'hook' | 'lines' | 'text' | 'stat' | 'impact' | 'outro';
   text?: string;
+  kicker?: string;
   highlights?: string[];
   reveal?: number[];
+  size?: number;
+  stat?: StatCfg;
+  redBg?: boolean;
   media?: MediaCfg;
 };
 
-// Durations are tuned so each scene change lands on a detected pause in the
-// narration (public/voiceover.mp3, speech 0..32.7s). Total = 990 frames = 33.0s.
-// Durations tuned to the cloned voiceover (public/voiceover.mp3, speech ~26.9s).
-// Total = 810 frames = 27.0s.
+// ---------------------------------------------------------------------------
+// Timeline — narration public/voiceover.mp3 (~79.7s). Total 2398 frames = 79.93s
+// ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 75, kind: 'hook', media: {src: 'media/clip_industrial.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.55}},
-  {dur: 74, kind: 'margin', media: {src: 'media/p_cash_bills.jpeg', type: 'img', effect: 'in', scrim: 0.64}},
-  {dur: 86, kind: 'lines', text: 'Metal boxes.|Cheap land.|Almost no staff.|No inventory.', highlights: ['staff'], reveal: [0, 21, 43, 64], media: {src: 'media/clip_yard.mp4', type: 'video', from: 0, effect: 'panL', scrim: 0.58}},
-  {dur: 53, kind: 'lines', text: 'Nothing to restock.|Nothing spoils.', highlights: ['spoils'], reveal: [0, 18], media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
-  {dur: 79, kind: 'text', text: 'Once the building is up,|costs barely move.', highlights: ['barely', 'move'], media: {src: 'media/clip_industrial.mp4', type: 'video', from: 120, effect: 'out', scrim: 0.58}},
-  {dur: 68, kind: 'rent', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'in', scrim: 0.62}},
-  {dur: 78, kind: 'text', text: 'Moving out costs|a weekend and a truck.', highlights: ['truck'], media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR', scrim: 0.48}},
-  {dur: 53, kind: 'text', text: 'Recessions cause|moves, divorces, downsizing.', highlights: ['recessions'], media: {src: 'media/clip_truck.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
-  {dur: 21, kind: 'fills'},
-  {dur: 93, kind: 'revenue', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out', scrim: 0.64}},
-  {dur: 57, kind: 'moat'},
-  {dur: 73, kind: 'outro', media: {src: 'media/clip_industrial.mp4', type: 'video', from: 150, effect: 'out', scrim: 0.58}},
+  {dur: 96, kind: 'hook', text: "There's a business|on the edge of your town.", kicker: 'The asset nobody talks about', highlights: ['business'], size: 92, media: {src: 'media/clip_industrial.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.55}},
+  {dur: 108, kind: 'lines', text: 'No employees.|No product.|No customers|who ever leave.', highlights: ['leave'], reveal: [0, 22, 44, 68], media: {src: 'media/clip_yard.mp4', type: 'video', from: 0, effect: 'panL', scrim: 0.58}},
+  {dur: 108, kind: 'stat', stat: {pre: 'Last year it made', prefix: '$', value: 4.8, decimals: 1, suffix: 'B'}, media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'in', scrim: 0.64}},
+  {dur: 96, kind: 'text', text: 'Public Storage rents|simple, unstaffed|metal units.', highlights: ['unstaffed'], size: 90, media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
+  {dur: 84, kind: 'lines', text: 'Low labour.|Low upkeep.|Rent due monthly.', highlights: ['monthly'], reveal: [0, 22, 44], media: {src: 'media/clip_yard.mp4', type: 'video', from: 120, effect: 'panR', scrim: 0.58}},
+  {dur: 108, kind: 'text', text: 'A unit rented and forgotten|is close to pure margin.', highlights: ['margin'], size: 84, media: {src: 'media/p_cash_bills.jpeg', type: 'img', effect: 'in', scrim: 0.64}},
+  {dur: 100, kind: 'text', text: 'Once a facility is built,|it runs on almost nothing.', highlights: ['nothing'], size: 86, media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 90, effect: 'out', scrim: 0.58}},
+  {dur: 108, kind: 'lines', text: 'No inventory.|Minimal staff.|Automatic rent increases.', highlights: ['automatic'], reveal: [0, 24, 48], media: {src: 'media/clip_industrial.mp4', type: 'video', from: 120, effect: 'panL', scrim: 0.58}},
+  {dur: 66, kind: 'text', text: 'And customers|who rarely leave.', highlights: ['rarely'], size: 94, media: {src: 'media/clip_yard.mp4', type: 'video', from: 60, effect: 'in', scrim: 0.58}},
+  {dur: 108, kind: 'text', text: 'The moat is unglamorous —|and that is why it holds.', highlights: ['moat'], size: 86, media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 30, effect: 'in', scrim: 0.58}},
+  {dur: 96, kind: 'text', text: 'Moving them out costs|a weekend and a truck.', highlights: ['truck'], size: 90, media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR', scrim: 0.48}},
+  {dur: 126, kind: 'text', text: 'A small annual rent increase|is easier to accept|than to fight.', highlights: ['fight'], size: 82, media: {src: 'media/clip_truck.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
+  {dur: 78, kind: 'text', text: 'Occupancy holds|through downturns.', highlights: ['downturns'], size: 92, media: {src: 'media/clip_industrial.mp4', type: 'video', from: 60, effect: 'out', scrim: 0.58}},
+  {dur: 72, kind: 'text', text: 'Moves. Divorces.|Downsizing.', highlights: ['downsizing'], size: 94, media: {src: 'media/clip_truck.mp4', type: 'video', from: 90, effect: 'in', scrim: 0.58}},
+  {dur: 78, kind: 'text', text: 'The exact things|recessions produce.', highlights: ['recessions'], size: 90, media: {src: 'media/clip_industrial.mp4', type: 'video', from: 100, effect: 'in', scrim: 0.58}},
+  {dur: 54, kind: 'text', text: 'This is a REIT.', highlights: ['reit'], size: 112},
+  {dur: 96, kind: 'stat', stat: {prefix: '$', value: 4.8, decimals: 1, suffix: 'B', post: 'in annual revenue'}, media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out', scrim: 0.64}},
+  {dur: 90, kind: 'text', text: 'A fortress balance sheet.|Built on sheds.', highlights: ['sheds'], size: 90, media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 60, effect: 'in', scrim: 0.58}},
+  {dur: 90, kind: 'stat', stat: {pre: 'Operating margins', value: 79, suffix: '%', bar: 79}},
+  {dur: 66, kind: 'stat', stat: {pre: 'Same-store', value: 78, suffix: '%'}},
+  {dur: 72, kind: 'stat', stat: {pre: 'Net margin', value: 37, suffix: '%'}},
+  {dur: 114, kind: 'text', text: 'Once the building is up,|there is almost nothing|on the cost side.', highlights: ['nothing'], size: 82, media: {src: 'media/clip_yard.mp4', type: 'video', from: 30, effect: 'out', scrim: 0.58}},
+  {dur: 60, kind: 'impact', text: 'Boring is|beautiful.', redBg: true},
+  {dur: 132, kind: 'text', text: 'A shed you forget|you are paying for —|one of the most profitable|in the country.', highlights: ['profitable'], size: 76, media: {src: 'media/clip_industrial.mp4', type: 'video', from: 30, effect: 'in', scrim: 0.58}},
+  {dur: 84, kind: 'outro'},
+  {dur: 108, kind: 'text', text: 'The absence of a story|is part of why|the margins survive.', highlights: ['survive'], size: 82},
 ];
 
 const STARTS: number[] = (() => {
@@ -98,11 +115,8 @@ const easeInOut = Easing.bezier(0.22, 1, 0.36, 1);
 const useLocal = () => useCurrentFrame();
 
 // ---------------------------------------------------------------------------
-// Background: faint storage facade (neutral) + grid + vignette + grain
+// Media background
 // ---------------------------------------------------------------------------
-// Full-bleed Pexels media (photo or video) behind the text, with Ken Burns
-// motion, a dark desaturated treatment, a legibility scrim, and a dissolve
-// fade in/out at the scene edges.
 const MediaBackground: React.FC<{cfg: MediaCfg}> = ({cfg}) => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
@@ -110,36 +124,17 @@ const MediaBackground: React.FC<{cfg: MediaCfg}> = ({cfg}) => {
   const isImg = cfg.type === 'img';
   const range = isImg ? 0.26 : 0.15;
   const effect = cfg.effect ?? 'in';
-
-  const scale =
-    effect === 'out'
-      ? interpolate(p, [0, 1], [1 + range, 1])
-      : interpolate(p, [0, 1], [1, 1 + range]);
+  const scale = effect === 'out' ? interpolate(p, [0, 1], [1 + range, 1]) : interpolate(p, [0, 1], [1, 1 + range]);
   let tx = 0;
   if (effect === 'panL') tx = interpolate(p, [0, 1], [3.5, -3.5]);
   if (effect === 'panR') tx = interpolate(p, [0, 1], [-3.5, 3.5]);
-
-  const opacity = interpolate(
-    frame,
-    [0, 5, durationInFrames - 5, durationInFrames],
-    [0, 1, 1, 0],
-    {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
-  );
+  const opacity = interpolate(frame, [0, 5, durationInFrames - 5, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const src = staticFile(cfg.src);
-  const mediaStyle: React.CSSProperties = {
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover',
-  };
-
+  const mediaStyle: React.CSSProperties = {width: '100%', height: '100%', objectFit: 'cover'};
   return (
     <AbsoluteFill style={{opacity}}>
       <AbsoluteFill style={{transform: `scale(${scale}) translateX(${tx}%)`, transformOrigin: 'center'}}>
-        {isImg ? (
-          <Img src={src} style={mediaStyle} />
-        ) : (
-          <OffthreadVideo src={src} startFrom={cfg.from ?? 0} muted style={mediaStyle} />
-        )}
+        {isImg ? <Img src={src} style={mediaStyle} /> : <OffthreadVideo src={src} startFrom={cfg.from ?? 0} muted style={mediaStyle} />}
       </AbsoluteFill>
     </AbsoluteFill>
   );
@@ -149,88 +144,39 @@ const Grain: React.FC = () => {
   const frame = useCurrentFrame();
   const shift = (frame * 7) % 200;
   return (
-    <AbsoluteFill
-      style={{
-        opacity: 0.045,
-        mixBlendMode: 'overlay',
-        backgroundImage: 'radial-gradient(rgba(255,255,255,0.9) 0.5px, transparent 0.6px)',
-        backgroundSize: '3px 3px',
-        backgroundPosition: `${shift}px ${shift}px`,
-        pointerEvents: 'none',
-      }}
-    />
+    <AbsoluteFill style={{opacity: 0.045, mixBlendMode: 'overlay', backgroundImage: 'radial-gradient(rgba(255,255,255,0.9) 0.5px, transparent 0.6px)', backgroundSize: '3px 3px', backgroundPosition: `${shift}px ${shift}px`, pointerEvents: 'none'}} />
   );
 };
 
-// Global finishing pass rendered over the media but under the text: faint grid,
-// film grain and a vignette so all footage reads as one graded system.
-const Treatment: React.FC = () => {
-  return (
-    <AbsoluteFill style={{pointerEvents: 'none'}}>
-      <AbsoluteFill
-        style={{
-          backgroundImage: `linear-gradient(${C.line} 1px, transparent 1px), linear-gradient(90deg, ${C.line} 1px, transparent 1px)`,
-          backgroundSize: '90px 90px',
-          maskImage: 'radial-gradient(85% 65% at 50% 45%, black 20%, transparent 100%)',
-          opacity: 0.6,
-        }}
-      />
-      <Grain />
-    </AbsoluteFill>
-  );
-};
+const Treatment: React.FC = () => (
+  <AbsoluteFill style={{pointerEvents: 'none'}}>
+    <AbsoluteFill style={{backgroundImage: `linear-gradient(${C.line} 1px, transparent 1px), linear-gradient(90deg, ${C.line} 1px, transparent 1px)`, backgroundSize: '90px 90px', maskImage: 'radial-gradient(85% 65% at 50% 45%, black 20%, transparent 100%)', opacity: 0.6}} />
+    <Grain />
+  </AbsoluteFill>
+);
 
 // ---------------------------------------------------------------------------
-// Kinetic caption — Anton condensed caps, word-by-word, single red token(s)
+// Kinetic caption — Anton condensed caps, word-by-word, red highlight
 // ---------------------------------------------------------------------------
-const Caption: React.FC<{
-  text: string;
-  highlights?: string[];
-  size?: number;
-  align?: 'center' | 'flex-start';
-  lineDelay?: number;
-}> = ({text, highlights = [], size = 118, align = 'center', lineDelay = 0}) => {
+const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start'; lineDelay?: number}> = ({text, highlights = [], size = 112, align = 'center', lineDelay = 0}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const lines = text.split('|');
   const hset = highlights.map((h) => h.toLowerCase());
-  const isHi = (w: string) => hset.includes(w.replace(/[.,]/g, '').toLowerCase());
-
+  const isHi = (w: string) => hset.includes(w.replace(/[.,—-]/g, '').toLowerCase());
   let wordIndex = 0;
   return (
     <div style={{display: 'flex', flexDirection: 'column', gap: 2, alignItems: align, width: '100%'}}>
       {lines.map((line, li) => (
-        <div
-          key={li}
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: align === 'center' ? 'center' : 'flex-start',
-            gap: '0 20px',
-          }}
-        >
+        <div key={li} style={{display: 'flex', flexWrap: 'wrap', justifyContent: align === 'center' ? 'center' : 'flex-start', gap: '0 18px'}}>
           {line.split(' ').map((word, wi) => {
-            const appear = lineDelay + wordIndex * 2.2;
+            const appear = lineDelay + wordIndex * 2;
             wordIndex++;
             const p = spring({frame: frame - appear, fps, config: {damping: 200, mass: 0.6}});
-            const y = interpolate(p, [0, 1], [40, 0]);
+            const y = interpolate(p, [0, 1], [38, 0]);
             const hi = isHi(word);
             return (
-              <span
-                key={wi}
-                style={{
-                  display: 'inline-block',
-                  fontFamily: HEAD,
-                  fontSize: size,
-                  lineHeight: 0.98,
-                  letterSpacing: 0.5,
-                  textTransform: 'uppercase',
-                  color: hi ? C.red : C.ink,
-                  opacity: p,
-                  transform: `translateY(${y}px)`,
-                  textShadow: hi ? '0 0 40px rgba(255,46,46,0.35)' : 'none',
-                }}
-              >
+              <span key={wi} style={{display: 'inline-block', fontFamily: HEAD, fontSize: size, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase', color: hi ? C.red : C.ink, opacity: p, transform: `translateY(${y}px)`, textShadow: hi ? '0 0 40px rgba(255,46,46,0.35)' : 'none'}}>
                 {word}
               </span>
             );
@@ -241,27 +187,12 @@ const Caption: React.FC<{
   );
 };
 
-const Kicker: React.FC<{children: React.ReactNode; delay?: number; color?: string}> = ({
-  children,
-  delay = 4,
-  color = C.ink,
-}) => {
+const Kicker: React.FC<{children: React.ReactNode; delay?: number}> = ({children, delay = 4}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
   const p = spring({frame: frame - delay, fps, config: {damping: 200}});
   return (
-    <div
-      style={{
-        fontFamily: BODY,
-        fontWeight: 700,
-        fontSize: 26,
-        letterSpacing: 7,
-        textTransform: 'uppercase',
-        color,
-        opacity: p,
-        transform: `translateY(${interpolate(p, [0, 1], [-12, 0])}px)`,
-      }}
-    >
+    <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 26, letterSpacing: 7, textTransform: 'uppercase', color: C.ink, opacity: p, transform: `translateY(${interpolate(p, [0, 1], [-12, 0])}px)`}}>
       {children}
     </div>
   );
@@ -270,49 +201,18 @@ const Kicker: React.FC<{children: React.ReactNode; delay?: number; color?: strin
 // ---------------------------------------------------------------------------
 // Scenes
 // ---------------------------------------------------------------------------
-const SceneHook: React.FC = () => {
-  return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
-      <div style={{marginBottom: 46}}>
-        <Kicker>The asset nobody talks about</Kicker>
-      </div>
-      <Caption text="You drive past|this building|every day." highlights={['building']} size={132} lineDelay={10} />
-    </AbsoluteFill>
-  );
-};
+const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[]; size?: number}> = ({text, kicker, highlights, size = 92}) => (
+  <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
+    {kicker ? <div style={{marginBottom: 44}}><Kicker>{kicker}</Kicker></div> : null}
+    <Caption text={text} highlights={highlights} size={size} lineDelay={10} />
+  </AbsoluteFill>
+);
 
-const SceneMargin: React.FC = () => {
-  const frame = useLocal();
-  const {fps} = useVideoConfig();
-  const enter = spring({frame: frame - 6, fps, config: {damping: 200}});
-  const fill = interpolate(frame, [10, 56], [0, 79], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
-  const count = Math.round(fill);
-  return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
-      <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [26, 0])}px)`, textAlign: 'center'}}>
-        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: C.ink, textTransform: 'uppercase', marginBottom: 10}}>
-          It keeps
-        </div>
-        <div style={{display: 'flex', alignItems: 'baseline', justifyContent: 'center'}}>
-          <span style={{fontFamily: HEAD, fontSize: 320, color: C.red, lineHeight: 0.85, letterSpacing: 2, textShadow: '0 0 70px rgba(255,46,46,0.35)'}}>{count}</span>
-          <span style={{fontFamily: HEAD, fontSize: 140, color: C.red, lineHeight: 1}}>¢</span>
-        </div>
-        <div style={{fontFamily: BODY, fontWeight: 600, fontSize: 44, color: C.ink, marginTop: 6, textTransform: 'uppercase', letterSpacing: 1}}>
-          on every dollar
-        </div>
-      </div>
-      <div style={{width: 780, marginTop: 66, opacity: interpolate(frame, [12, 26], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}}>
-        <div style={{height: 44, width: '100%', borderRadius: 4, background: C.track, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.06)'}}>
-          <div style={{height: '100%', width: `${fill}%`, background: C.red, boxShadow: '0 0 30px rgba(255,46,46,0.45)'}} />
-        </div>
-        <div style={{display: 'flex', justifyContent: 'space-between', marginTop: 16, fontFamily: BODY, fontWeight: 600, fontSize: 24, letterSpacing: 2, textTransform: 'uppercase', color: C.ink}}>
-          <span>Kept · {count}%</span>
-          <span>Costs · {100 - count}%</span>
-        </div>
-      </div>
-    </AbsoluteFill>
-  );
-};
+const SceneText: React.FC<{text: string; highlights?: string[]; size?: number}> = ({text, highlights, size = 100}) => (
+  <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
+    <Caption text={text} highlights={highlights} size={size} lineDelay={6} />
+  </AbsoluteFill>
+);
 
 const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number[]}> = ({text, highlights = [], reveal}) => {
   const frame = useLocal();
@@ -321,15 +221,15 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
   const hset = highlights.map((h) => h.toLowerCase());
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'flex-start', padding: '0 96px'}}>
-      <div style={{display: 'flex', flexDirection: 'column', gap: 22}}>
+      <div style={{display: 'flex', flexDirection: 'column', gap: 20}}>
         {lines.map((l, i) => {
           const appearAt = reveal ? reveal[i] : 8 + i * 14;
-          const p = spring({frame: frame - appearAt, fps, config: {damping: 200}});
-          const x = interpolate(p, [0, 1], [-60, 0]);
+          const pv = spring({frame: frame - appearAt, fps, config: {damping: 200}});
+          const x = interpolate(pv, [0, 1], [-60, 0]);
           return (
-            <div key={i} style={{opacity: p, transform: `translateX(${x}px)`, fontFamily: HEAD, fontSize: 108, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
+            <div key={i} style={{opacity: pv, transform: `translateX(${x}px)`, fontFamily: HEAD, fontSize: 96, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
               {l.split(' ').map((w, wi) => {
-                const hi = hset.includes(w.replace(/[.,]/g, '').toLowerCase());
+                const hi = hset.includes(w.replace(/[.,—-]/g, '').toLowerCase());
                 return (
                   <span key={wi} style={{color: hi ? C.red : C.ink, textShadow: hi ? '0 0 40px rgba(255,46,46,0.35)' : 'none'}}>
                     {w}
@@ -345,98 +245,51 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
   );
 };
 
-const SceneText: React.FC<{text: string; highlights?: string[]; size?: number}> = ({text, highlights, size = 112}) => {
-  return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
-      <Caption text={text} highlights={highlights} size={size} lineDelay={6} />
-    </AbsoluteFill>
-  );
-};
-
-const SceneRent: React.FC = () => {
-  const frame = useLocal();
-  const {fps} = useVideoConfig();
-  const bars = [0.34, 0.5, 0.64, 0.8, 1];
-  return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
-      <div style={{display: 'flex', alignItems: 'flex-end', gap: 22, height: 430, marginBottom: 56}}>
-        {bars.map((h, i) => {
-          const p = spring({frame: frame - (10 + i * 10), fps, config: {damping: 200}});
-          const isLast = i === bars.length - 1;
-          return (
-            <div
-              key={i}
-              style={{
-                width: 92,
-                height: 430 * h * p,
-                borderRadius: '3px 3px 0 0',
-                background: isLast ? C.red : '#242424',
-                border: isLast ? 'none' : '1px solid rgba(255,255,255,0.06)',
-                boxShadow: isLast ? '0 0 34px rgba(255,46,46,0.4)' : 'none',
-              }}
-            />
-          );
-        })}
-      </div>
-      <Caption text="Rent rises every year.|Automatically." size={92} lineDelay={4} />
-    </AbsoluteFill>
-  );
-};
-
-const SceneFills: React.FC = () => {
-  const frame = useLocal();
-  const {fps} = useVideoConfig();
-  const p = spring({frame, fps, config: {damping: 13, mass: 0.8, stiffness: 120}});
-  const scale = interpolate(p, [0, 1], [0.6, 1]);
-  return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
-      <div style={{transform: `scale(${scale})`, opacity: Math.min(1, p * 1.4), fontFamily: HEAD, fontSize: 180, lineHeight: 0.9, letterSpacing: 1, textTransform: 'uppercase', textAlign: 'center', color: C.ink}}>
-        Storage<br />
-        <span style={{color: C.red, textShadow: '0 0 60px rgba(255,46,46,0.4)'}}>fills.</span>
-      </div>
-    </AbsoluteFill>
-  );
-};
-
-const SceneRevenue: React.FC = () => {
+const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
   const enter = spring({frame: frame - 4, fps, config: {damping: 200}});
-  const v = interpolate(frame, [8, 56], [0, 4.8], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const t = interpolate(frame, [8, 46], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const shown = stat.value * t;
+  const num = stat.decimals ? shown.toFixed(stat.decimals) : String(Math.round(shown));
+  const barW = stat.bar != null ? interpolate(frame, [10, 50], [0, stat.bar], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut}) : 0;
   return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 70}}>
-      <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [24, 0])}px)`, textAlign: 'center'}}>
+    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
+      <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [26, 0])}px)`, textAlign: 'center'}}>
+        {stat.pre ? <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: C.ink, textTransform: 'uppercase', marginBottom: 8}}>{stat.pre}</div> : null}
         <div style={{display: 'flex', alignItems: 'baseline', justifyContent: 'center'}}>
-          <span style={{fontFamily: HEAD, fontSize: 180, color: C.red, lineHeight: 1}}>$</span>
-          <span style={{fontFamily: HEAD, fontSize: 320, color: C.red, lineHeight: 0.85, letterSpacing: 2, textShadow: '0 0 70px rgba(255,46,46,0.35)'}}>{v.toFixed(1)}</span>
-          <span style={{fontFamily: HEAD, fontSize: 180, color: C.red, lineHeight: 1}}>B</span>
+          {stat.prefix ? <span style={{fontFamily: HEAD, fontSize: 170, color: C.red, lineHeight: 1}}>{stat.prefix}</span> : null}
+          <span style={{fontFamily: HEAD, fontSize: 300, color: C.red, lineHeight: 0.85, letterSpacing: 2, textShadow: '0 0 70px rgba(255,46,46,0.35)'}}>{num}</span>
+          {stat.suffix ? <span style={{fontFamily: HEAD, fontSize: 170, color: C.red, lineHeight: 1}}>{stat.suffix}</span> : null}
         </div>
-        <div style={{fontFamily: BODY, fontWeight: 600, fontSize: 48, color: C.ink, marginTop: 6, textTransform: 'uppercase', letterSpacing: 1}}>in annual revenue</div>
-        <div style={{fontFamily: BODY, fontWeight: 500, fontSize: 26, letterSpacing: 5, color: C.ink, marginTop: 18, textTransform: 'uppercase'}}>
-          U.S. self-storage industry
-        </div>
+        {stat.post ? <div style={{fontFamily: BODY, fontWeight: 600, fontSize: 46, color: C.ink, marginTop: 6, textTransform: 'uppercase', letterSpacing: 1}}>{stat.post}</div> : null}
       </div>
+      {stat.bar != null ? (
+        <div style={{width: 780, marginTop: 60, opacity: interpolate(frame, [12, 26], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}}>
+          <div style={{height: 40, width: '100%', borderRadius: 4, background: C.track, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.06)'}}>
+            <div style={{height: '100%', width: `${barW}%`, background: C.red, boxShadow: '0 0 30px rgba(255,46,46,0.45)'}} />
+          </div>
+        </div>
+      ) : null}
     </AbsoluteFill>
   );
 };
 
-const SceneMoat: React.FC = () => {
+const SceneImpact: React.FC<{text: string; redBg?: boolean}> = ({text, redBg}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
-  const p1 = spring({frame: frame - 2, fps, config: {damping: 200}});
-  const p2 = spring({frame: frame - 16, fps, config: {damping: 14, stiffness: 90}});
-  const underline = interpolate(frame, [28, 50], [0, 100], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const p = spring({frame, fps, config: {damping: 13, mass: 0.8, stiffness: 120}});
+  const scale = interpolate(p, [0, 1], [0.66, 1]);
+  const lines = text.split('|');
   return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
-      {/* solid red background (no footage) */}
-      <AbsoluteFill style={{background: 'radial-gradient(125% 90% at 50% 42%, #FF2E2E 0%, #E31E1E 62%, #C21414 100%)'}} />
-      <div style={{opacity: p1, transform: `translateY(${interpolate(p1, [0, 1], [22, 0])}px)`, fontFamily: HEAD, fontSize: 104, color: '#0A0A0A', textAlign: 'center', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 34, textShadow: 'none'}}>
-        Nobody moves out.
-      </div>
-      <div style={{opacity: p2, transform: `scale(${interpolate(p2, [0, 1], [0.7, 1])})`, textAlign: 'center'}}>
-        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 34, letterSpacing: 8, color: C.ink, textTransform: 'uppercase'}}>That is the</div>
-        <div style={{fontFamily: HEAD, fontSize: 250, color: C.ink, letterSpacing: 4, lineHeight: 0.95, textTransform: 'uppercase', textShadow: '0 6px 44px rgba(0,0,0,0.3)'}}>Moat</div>
-        <div style={{height: 10, width: `${underline}%`, margin: '0 auto', borderRadius: 4, background: C.ink, boxShadow: '0 0 26px rgba(0,0,0,0.25)'}} />
+    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
+      {redBg ? <AbsoluteFill style={{background: 'radial-gradient(125% 90% at 50% 42%, #FF2E2E 0%, #E31E1E 62%, #C21414 100%)'}} /> : null}
+      <div style={{transform: `scale(${scale})`, opacity: Math.min(1, p * 1.4), textAlign: 'center', fontFamily: HEAD, fontSize: 150, lineHeight: 0.92, letterSpacing: 1, textTransform: 'uppercase'}}>
+        {lines.map((l, i) => (
+          <div key={i} style={{color: redBg ? (i === 0 ? '#0A0A0A' : C.ink) : (i === lines.length - 1 ? C.red : C.ink), textShadow: redBg ? 'none' : i === lines.length - 1 ? '0 0 60px rgba(255,46,46,0.4)' : 'none'}}>
+            {l}
+          </div>
+        ))}
       </div>
     </AbsoluteFill>
   );
@@ -454,27 +307,10 @@ const SceneOutro: React.FC = () => {
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
       <div style={{display: 'flex', flexDirection: 'column', gap: 10, alignItems: 'center'}}>
         {parts.map((p, i) => {
-          const s = spring({frame: frame - (6 + i * 16), fps, config: {damping: 200}});
+          const s = spring({frame: frame - (6 + i * 14), fps, config: {damping: 200}});
           return (
-            <span
-              key={i}
-              style={{
-                fontFamily: HEAD,
-                fontSize: p.red ? 150 : 116,
-                textTransform: 'uppercase',
-                letterSpacing: 1,
-                color: C.ink,
-                opacity: s,
-                transform: `translateY(${interpolate(s, [0, 1], [34, 0])}px)`,
-              }}
-            >
-              {p.red ? (
-                <>
-                  Just <span style={{color: C.red, textShadow: '0 0 60px rgba(255,46,46,0.4)'}}>rent.</span>
-                </>
-              ) : (
-                p.t
-              )}
+            <span key={i} style={{fontFamily: HEAD, fontSize: p.red ? 150 : 116, textTransform: 'uppercase', letterSpacing: 1, color: C.ink, opacity: s, transform: `translateY(${interpolate(s, [0, 1], [34, 0])}px)`}}>
+              {p.red ? (<>Just <span style={{color: C.red, textShadow: '0 0 60px rgba(255,46,46,0.4)'}}>rent.</span></>) : p.t}
             </span>
           );
         })}
@@ -483,8 +319,6 @@ const SceneOutro: React.FC = () => {
   );
 };
 
-// ---------------------------------------------------------------------------
-// HUD — monochrome (keeps red reserved for the one focal token)
 // ---------------------------------------------------------------------------
 const Hud: React.FC = () => {
   const frame = useCurrentFrame();
@@ -503,9 +337,7 @@ const Hud: React.FC = () => {
           const wobble = 0.5 + 0.5 * Math.sin(frame / 4 + i * 0.6);
           const active = i / bars < progress;
           const h = 8 + 42 * base * (0.4 + 0.6 * wobble);
-          return (
-            <div key={i} style={{width: 6, height: h, borderRadius: 3, background: active ? C.sub : 'rgba(255,255,255,0.1)', opacity: active ? 0.85 : 0.5}} />
-          );
+          return <div key={i} style={{width: 6, height: h, borderRadius: 3, background: active ? C.sub : 'rgba(255,255,255,0.1)', opacity: active ? 0.85 : 0.5}} />;
         })}
       </div>
       <div style={{position: 'absolute', bottom: 90, left: 80, right: 80, height: 3, borderRadius: 3, background: 'rgba(255,255,255,0.08)'}}>
@@ -515,27 +347,18 @@ const Hud: React.FC = () => {
   );
 };
 
-// ---------------------------------------------------------------------------
-// Scene renderer
-// ---------------------------------------------------------------------------
 const renderScene = (s: SceneDef) => {
   switch (s.kind) {
     case 'hook':
-      return <SceneHook />;
-    case 'margin':
-      return <SceneMargin />;
+      return <SceneHook text={s.text!} kicker={s.kicker} highlights={s.highlights} size={s.size} />;
     case 'lines':
       return <SceneLines text={s.text!} highlights={s.highlights} reveal={s.reveal} />;
     case 'text':
-      return <SceneText text={s.text!} highlights={s.highlights} />;
-    case 'rent':
-      return <SceneRent />;
-    case 'fills':
-      return <SceneFills />;
-    case 'revenue':
-      return <SceneRevenue />;
-    case 'moat':
-      return <SceneMoat />;
+      return <SceneText text={s.text!} highlights={s.highlights} size={s.size} />;
+    case 'stat':
+      return <SceneStat stat={s.stat!} />;
+    case 'impact':
+      return <SceneImpact text={s.text!} redBg={s.redBg} />;
     case 'outro':
       return <SceneOutro />;
     default:
@@ -544,35 +367,17 @@ const renderScene = (s: SceneDef) => {
 };
 
 // ---------------------------------------------------------------------------
-// Main
-// ---------------------------------------------------------------------------
 export const StorageVideo: React.FC = () => {
   const frame = useCurrentFrame();
-
-  const globalOpacity = interpolate(
-    frame,
-    [0, 12, DURATION_IN_FRAMES - 16, DURATION_IN_FRAMES],
-    [0, 1, 1, 0],
-    {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
-  );
-
+  const globalOpacity = interpolate(frame, [0, 12, DURATION_IN_FRAMES - 16, DURATION_IN_FRAMES], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill style={{backgroundColor: C.bg}}>
       {HAS_VOICEOVER ? <Audio src={staticFile('voiceover.mp3')} /> : null}
-      {/* soft royalty-free music bed, ducked under the narration with fades */}
       <Audio
         src={staticFile('media/music.mp3')}
-        volume={(f) =>
-          interpolate(
-            f,
-            [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES],
-            [0, 0.16, 0.16, 0],
-            {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
-          )
-        }
+        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.16, 0.16, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       <AbsoluteFill style={{opacity: globalOpacity}}>
-        {/* media layer (Pexels stills + video) */}
         {SCENES.map((s, i) =>
           s.media ? (
             <Sequence key={`m${i}`} from={STARTS[i]} durationInFrames={s.dur} name={`bg-${i}-${s.kind}`}>
@@ -580,9 +385,7 @@ export const StorageVideo: React.FC = () => {
             </Sequence>
           ) : null,
         )}
-        {/* global grade over media, under text */}
         <Treatment />
-        {/* text / graphics layer */}
         {SCENES.map((s, i) => (
           <Sequence key={i} from={STARTS[i]} durationInFrames={s.dur} name={`${i}-${s.kind}`}>
             <SceneTransition>{renderScene(s)}</SceneTransition>
@@ -597,17 +400,6 @@ export const StorageVideo: React.FC = () => {
 const SceneTransition: React.FC<{children: React.ReactNode}> = ({children}) => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
-  const opacity = interpolate(
-    frame,
-    [0, 4, durationInFrames - 4, durationInFrames],
-    [0, 1, 1, 0],
-    {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
-  );
-  // Text-only shadow (halo on the glyphs, not an overlay on the clip) so type
-  // stays legible over full-brightness footage. Inherited by all descendant text.
-  return (
-    <AbsoluteFill style={{opacity, textShadow: '0 2px 22px rgba(0,0,0,0.6), 0 2px 5px rgba(0,0,0,0.72)'}}>
-      {children}
-    </AbsoluteFill>
-  );
+  const opacity = interpolate(frame, [0, 4, durationInFrames - 4, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  return <AbsoluteFill style={{opacity, textShadow: '0 2px 22px rgba(0,0,0,0.6), 0 2px 5px rgba(0,0,0,0.72)'}}>{children}</AbsoluteFill>;
 };
