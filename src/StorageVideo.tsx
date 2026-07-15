@@ -38,6 +38,11 @@ const C = {
   line: 'rgba(255,255,255,0.05)',
 };
 
+// One shared, soft DIRECTIONAL drop shadow for every caption (white and red
+// alike) — matches the reference's clean look: reads as depth, not a glow, and
+// needs no stroke or darkening of the footage.
+const SH = '1px 2px 5px rgba(0,0,0,0.55), 2px 4px 16px rgba(0,0,0,0.34)';
+
 // ---------------------------------------------------------------------------
 type MediaCfg = {
   src: string;
@@ -212,7 +217,7 @@ const Caption: React.FC<{text: string; highlights?: string[]; size?: number; ali
             const y = interpolate(p, [0, 1], [26, 0]);
             const hi = isHi(word);
             return (
-              <span key={wi} style={{display: 'inline-block', fontFamily: HEAD, fontSize: size, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase', color: hi ? C.red : C.ink, opacity: p, transform: `translateY(${y}px)`, textShadow: hi ? '0 0 40px rgba(255,46,46,0.35)' : 'none'}}>
+              <span key={wi} style={{display: 'inline-block', fontFamily: HEAD, fontSize: size, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase', color: hi ? C.red : C.ink, opacity: p, transform: `translateY(${y}px)`, textShadow: SH}}>
                 {word}
               </span>
             );
@@ -267,7 +272,7 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
               {l.split(' ').map((w, wi) => {
                 const hi = hset.includes(w.replace(/[.,—-]/g, '').toLowerCase());
                 return (
-                  <span key={wi} style={{color: hi ? C.red : C.ink, textShadow: hi ? '0 0 40px rgba(255,46,46,0.35)' : 'none'}}>
+                  <span key={wi} style={{color: hi ? C.red : C.ink, textShadow: SH}}>
                     {w}
                     {wi < l.split(' ').length - 1 ? ' ' : ''}
                   </span>
@@ -295,7 +300,7 @@ const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
         {stat.pre ? <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: C.ink, textTransform: 'uppercase', marginBottom: 8}}>{stat.pre}</div> : null}
         <div style={{display: 'flex', alignItems: 'baseline', justifyContent: 'center'}}>
           {stat.prefix ? <span style={{fontFamily: HEAD, fontSize: 170, color: C.red, lineHeight: 1}}>{stat.prefix}</span> : null}
-          <span style={{fontFamily: HEAD, fontSize: 300, color: C.red, lineHeight: 0.85, letterSpacing: 2, textShadow: '0 0 70px rgba(255,46,46,0.35)'}}>{num}</span>
+          <span style={{fontFamily: HEAD, fontSize: 300, color: C.red, lineHeight: 0.85, letterSpacing: 2, textShadow: SH}}>{num}</span>
           {stat.suffix ? <span style={{fontFamily: HEAD, fontSize: 170, color: C.red, lineHeight: 1}}>{stat.suffix}</span> : null}
         </div>
         {stat.post ? <div style={{fontFamily: BODY, fontWeight: 600, fontSize: 46, color: C.ink, marginTop: 6, textTransform: 'uppercase', letterSpacing: 1}}>{stat.post}</div> : null}
@@ -322,7 +327,7 @@ const SceneImpact: React.FC<{text: string; redBg?: boolean}> = ({text, redBg}) =
       {redBg ? <AbsoluteFill style={{background: 'radial-gradient(125% 90% at 50% 42%, #FF2E2E 0%, #E31E1E 62%, #C21414 100%)'}} /> : null}
       <div style={{transform: `scale(${scale})`, opacity: Math.min(1, p * 1.4), textAlign: 'center', fontFamily: HEAD, fontSize: 150, lineHeight: 0.92, letterSpacing: 1, textTransform: 'uppercase'}}>
         {lines.map((l, i) => (
-          <div key={i} style={{color: redBg ? (i === 0 ? '#0A0A0A' : C.ink) : (i === lines.length - 1 ? C.red : C.ink), textShadow: redBg ? 'none' : i === lines.length - 1 ? '0 0 60px rgba(255,46,46,0.4)' : 'none'}}>
+          <div key={i} style={{color: redBg ? (i === 0 ? '#0A0A0A' : C.ink) : (i === lines.length - 1 ? C.red : C.ink), textShadow: redBg ? 'none' : SH}}>
             {l}
           </div>
         ))}
@@ -346,7 +351,7 @@ const SceneOutro: React.FC = () => {
           const s = spring({frame: frame - (6 + i * 14), fps, config: {damping: 200}});
           return (
             <span key={i} style={{fontFamily: HEAD, fontSize: p.red ? 150 : 116, textTransform: 'uppercase', letterSpacing: 1, color: C.ink, opacity: s, transform: `translateY(${interpolate(s, [0, 1], [34, 0])}px)`}}>
-              {p.red ? (<>Just <span style={{color: C.red, textShadow: '0 0 60px rgba(255,46,46,0.4)'}}>rent.</span></>) : p.t}
+              {p.red ? (<>Just <span style={{color: C.red, textShadow: SH}}>rent.</span></>) : p.t}
             </span>
           );
         })}
@@ -364,7 +369,7 @@ const Hud: React.FC = () => {
     <>
       <div style={{position: 'absolute', top: 70, left: 80, display: 'flex', alignItems: 'center', gap: 14}}>
         <div style={{width: 11, height: 11, borderRadius: 11, background: C.sub}} />
-        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase'}}>The storage moat</span>
+        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>The storage moat</span>
       </div>
       <div style={{position: 'absolute', bottom: 120, left: 80, right: 80, height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
         {Array.from({length: bars}).map((_, i) => {
@@ -444,7 +449,7 @@ const SceneTransition: React.FC<{children: React.ReactNode; enter?: string}> = (
   const e = enterTransform(frame, enter);
   const opacity = interpolate(frame, [0, 4, durationInFrames - 4, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
   return (
-    <AbsoluteFill style={{opacity, transform: `translate(${e.tx}%, ${e.ty}%) scale(${e.sc})`, transformOrigin: 'center', textShadow: '0 2px 22px rgba(0,0,0,0.6), 0 2px 5px rgba(0,0,0,0.72)'}}>
+    <AbsoluteFill style={{opacity, transform: `translate(${e.tx}%, ${e.ty}%) scale(${e.sc})`, transformOrigin: 'center', textShadow: SH}}>
       {children}
     </AbsoluteFill>
   );
