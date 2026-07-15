@@ -30,7 +30,7 @@ export const WIDTH = 1080;
 export const HEIGHT = 1920;
 
 // Drop a narration track at public/voiceover.mp3 and flip this to true.
-const HAS_VOICEOVER = false;
+const HAS_VOICEOVER = true;
 
 // Near-black canvas, monochrome type, exactly one red focal element per scene.
 const C = {
@@ -48,19 +48,21 @@ const C = {
 // ---------------------------------------------------------------------------
 type SceneDef = {dur: number; kind: string; text?: string; highlights?: string[]};
 
+// Durations are tuned so each scene change lands on a detected pause in the
+// narration (public/voiceover.mp3, speech 0..32.7s). Total = 990 frames = 33.0s.
 const SCENES: SceneDef[] = [
-  {dur: 120, kind: 'hook'},
-  {dur: 135, kind: 'margin'},
-  {dur: 120, kind: 'lines', text: 'Metal boxes.|Cheap land.|Almost no staff.', highlights: ['staff']},
-  {dur: 120, kind: 'lines', text: 'No inventory.|Nothing to restock.|Nothing spoils.', highlights: ['spoils']},
-  {dur: 105, kind: 'text', text: 'Once the building is up,|costs barely move.', highlights: ['barely', 'move']},
-  {dur: 105, kind: 'rent'},
-  {dur: 105, kind: 'text', text: 'Moving out costs|a weekend and a truck.', highlights: ['truck']},
-  {dur: 120, kind: 'text', text: 'Recessions cause|moves, divorces, downsizing.', highlights: ['recessions']},
-  {dur: 75, kind: 'fills'},
-  {dur: 135, kind: 'revenue'},
-  {dur: 120, kind: 'moat'},
-  {dur: 90, kind: 'outro'},
+  {dur: 74, kind: 'hook'},
+  {dur: 84, kind: 'margin'},
+  {dur: 133, kind: 'lines', text: 'Metal boxes.|Cheap land.|Almost no staff.', highlights: ['staff']},
+  {dur: 84, kind: 'lines', text: 'No inventory.|Nothing to restock.|Nothing spoils.', highlights: ['spoils']},
+  {dur: 78, kind: 'text', text: 'Once the building is up,|costs barely move.', highlights: ['barely', 'move']},
+  {dur: 76, kind: 'rent'},
+  {dur: 72, kind: 'text', text: 'Moving out costs|a weekend and a truck.', highlights: ['truck']},
+  {dur: 98, kind: 'text', text: 'Recessions cause|moves, divorces, downsizing.', highlights: ['recessions']},
+  {dur: 42, kind: 'fills'},
+  {dur: 75, kind: 'revenue'},
+  {dur: 90, kind: 'moat'},
+  {dur: 84, kind: 'outro'},
 ];
 
 const STARTS: number[] = (() => {
@@ -284,7 +286,7 @@ const SceneMargin: React.FC = () => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
   const enter = spring({frame: frame - 6, fps, config: {damping: 200}});
-  const fill = interpolate(frame, [16, 66], [0, 79], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const fill = interpolate(frame, [10, 56], [0, 79], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const count = Math.round(fill);
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
@@ -400,7 +402,7 @@ const SceneRevenue: React.FC = () => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
   const enter = spring({frame: frame - 4, fps, config: {damping: 200}});
-  const v = interpolate(frame, [14, 74], [0, 4.8], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const v = interpolate(frame, [8, 56], [0, 4.8], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 70}}>
       <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [24, 0])}px)`, textAlign: 'center'}}>
