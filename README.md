@@ -3,7 +3,7 @@
 A 9:16, ~80-second kinetic-typography video built with [Remotion](https://remotion.dev),
 narrating the self-storage / Public Storage "moat" investment story.
 
-- **Format:** 1080 × 1920 (9:16 vertical), 30 fps, 2398 frames (~79.9s)
+- **Format:** 1080 × 1920 (9:16 vertical), 30 fps, 2328 frames (~77.6s)
 - **Composition id:** `StorageUnit`
 - **Source:** `src/StorageVideo.tsx` (all scenes + timeline), `src/Root.tsx` (composition)
 
@@ -69,17 +69,24 @@ and `outro`. Edit copy, highlight words, media, and timing directly in that arra
   silent clips, shown at full brightness with a Ken Burns move, a text-only drop
   shadow for legibility, and quick cuts between scenes.
 
-Media credits (Pexels): warehouse aerial (video 3969002), industrial area with
-warehouses & trucks (video 32338863), wood-pallet storage yard (video 31025294),
-semi truck (video 17899033), stack of dollar bills (photo 4386469), cash in a
-briefcase (photo 259027), moving truck at night (photo 26443249).
+Every footage scene uses a distinct background (no repeats). Media credits
+(Pexels, free license) — videos: warehouse aerial (3969002), industrial area
+(32338863), wood-pallet yard (31025294), semi truck (17899033), stock-market
+screen (7578613), counting dollars (6266251), US dollars (856668), suburban
+street aerial (29052852). Photos: dollar bills (4386469), cash briefcase
+(259027), moving truck at night (26443249), man carrying boxes (6169046),
+young man with boxes (7203789), labeled boxes (9603487), house keys (373550),
+aerial houses (3997060), padlock on metal door (18783949), steel construction
+(14213937).
 
-Music: "Healing" by Kevin MacLeod (incompetech.com), licensed under Creative
-Commons Attribution 4.0 (CC BY 4.0) — attribution required if published.
-It plays as a ducked bed (`public/media/music.mp3`) under the narration.
-
-Narration: generated with ElevenLabs (voice cloned from the client's reference
-video) at `public/voiceover.mp3`; scene cuts are timed to its speech.
+Audio (all in `public/`):
+- **Narration** — ElevenLabs voice cloned from the client's reference video,
+  sped +3% for pace (`voiceover.mp3`). Scene durations are timed to the read.
+- **Music** — upbeat instrumental generated with ElevenLabs Music
+  (`media/music.mp3`), ducked under the narration with fade in/out.
+- **SFX** — ElevenLabs sound-generation: `sfx_whoosh` on cuts, `sfx_impact` on
+  stat/impact beats, `sfx_chaching` on the revenue reveal. Cues live in the
+  `SFX` array in `src/StorageVideo.tsx`.
 
 ## Export note
 

@@ -69,35 +69,52 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// Timeline — narration public/voiceover.mp3 (~79.7s). Total 2398 frames = 79.93s
+// Timeline — narration public/voiceover.mp3 (+3% pace, ~77.4s). 2328 frames.
+// Every scene uses a distinct background (no repeats).
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 96, kind: 'hook', text: "There's a business|on the edge of your town.", kicker: 'The asset nobody talks about', highlights: ['business'], size: 92, media: {src: 'media/clip_industrial.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.55}},
-  {dur: 108, kind: 'lines', text: 'No employees.|No product.|No customers|who ever leave.', highlights: ['leave'], reveal: [0, 22, 44, 68], media: {src: 'media/clip_yard.mp4', type: 'video', from: 0, effect: 'panL', scrim: 0.58}},
-  {dur: 108, kind: 'stat', stat: {pre: 'Last year it made', prefix: '$', value: 4.8, decimals: 1, suffix: 'B'}, media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'in', scrim: 0.64}},
-  {dur: 96, kind: 'text', text: 'Public Storage rents|simple, unstaffed|metal units.', highlights: ['unstaffed'], size: 90, media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
-  {dur: 84, kind: 'lines', text: 'Low labour.|Low upkeep.|Rent due monthly.', highlights: ['monthly'], reveal: [0, 22, 44], media: {src: 'media/clip_yard.mp4', type: 'video', from: 120, effect: 'panR', scrim: 0.58}},
-  {dur: 108, kind: 'text', text: 'A unit rented and forgotten|is close to pure margin.', highlights: ['margin'], size: 84, media: {src: 'media/p_cash_bills.jpeg', type: 'img', effect: 'in', scrim: 0.64}},
-  {dur: 100, kind: 'text', text: 'Once a facility is built,|it runs on almost nothing.', highlights: ['nothing'], size: 86, media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 90, effect: 'out', scrim: 0.58}},
-  {dur: 108, kind: 'lines', text: 'No inventory.|Minimal staff.|Automatic rent increases.', highlights: ['automatic'], reveal: [0, 24, 48], media: {src: 'media/clip_industrial.mp4', type: 'video', from: 120, effect: 'panL', scrim: 0.58}},
-  {dur: 66, kind: 'text', text: 'And customers|who rarely leave.', highlights: ['rarely'], size: 94, media: {src: 'media/clip_yard.mp4', type: 'video', from: 60, effect: 'in', scrim: 0.58}},
-  {dur: 108, kind: 'text', text: 'The moat is unglamorous —|and that is why it holds.', highlights: ['moat'], size: 86, media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 30, effect: 'in', scrim: 0.58}},
-  {dur: 96, kind: 'text', text: 'Moving them out costs|a weekend and a truck.', highlights: ['truck'], size: 90, media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR', scrim: 0.48}},
-  {dur: 126, kind: 'text', text: 'A small annual rent increase|is easier to accept|than to fight.', highlights: ['fight'], size: 82, media: {src: 'media/clip_truck.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
-  {dur: 78, kind: 'text', text: 'Occupancy holds|through downturns.', highlights: ['downturns'], size: 92, media: {src: 'media/clip_industrial.mp4', type: 'video', from: 60, effect: 'out', scrim: 0.58}},
-  {dur: 72, kind: 'text', text: 'Moves. Divorces.|Downsizing.', highlights: ['downsizing'], size: 94, media: {src: 'media/clip_truck.mp4', type: 'video', from: 90, effect: 'in', scrim: 0.58}},
-  {dur: 78, kind: 'text', text: 'The exact things|recessions produce.', highlights: ['recessions'], size: 90, media: {src: 'media/clip_industrial.mp4', type: 'video', from: 100, effect: 'in', scrim: 0.58}},
-  {dur: 54, kind: 'text', text: 'This is a REIT.', highlights: ['reit'], size: 112},
-  {dur: 96, kind: 'stat', stat: {prefix: '$', value: 4.8, decimals: 1, suffix: 'B', post: 'in annual revenue'}, media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out', scrim: 0.64}},
-  {dur: 90, kind: 'text', text: 'A fortress balance sheet.|Built on sheds.', highlights: ['sheds'], size: 90, media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 60, effect: 'in', scrim: 0.58}},
-  {dur: 90, kind: 'stat', stat: {pre: 'Operating margins', value: 79, suffix: '%', bar: 79}},
-  {dur: 66, kind: 'stat', stat: {pre: 'Same-store', value: 78, suffix: '%'}},
-  {dur: 72, kind: 'stat', stat: {pre: 'Net margin', value: 37, suffix: '%'}},
-  {dur: 114, kind: 'text', text: 'Once the building is up,|there is almost nothing|on the cost side.', highlights: ['nothing'], size: 82, media: {src: 'media/clip_yard.mp4', type: 'video', from: 30, effect: 'out', scrim: 0.58}},
-  {dur: 60, kind: 'impact', text: 'Boring is|beautiful.', redBg: true},
-  {dur: 132, kind: 'text', text: 'A shed you forget|you are paying for —|one of the most profitable|in the country.', highlights: ['profitable'], size: 76, media: {src: 'media/clip_industrial.mp4', type: 'video', from: 30, effect: 'in', scrim: 0.58}},
-  {dur: 84, kind: 'outro'},
-  {dur: 108, kind: 'text', text: 'The absence of a story|is part of why|the margins survive.', highlights: ['survive'], size: 82},
+  {dur: 93, kind: 'hook', text: "There's a business|on the edge of your town.", kicker: 'The asset nobody talks about', highlights: ['business'], size: 92, media: {src: 'media/clip_suburb.mp4', type: 'video', effect: 'in'}},
+  {dur: 105, kind: 'lines', text: 'No employees.|No product.|No customers|who ever leave.', highlights: ['leave'], reveal: [0, 21, 43, 66], media: {src: 'media/p_18783949.jpeg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'stat', stat: {pre: 'Last year it made', prefix: '$', value: 4.8, decimals: 1, suffix: 'B'}, media: {src: 'media/clip_counting.mp4', type: 'video', effect: 'in'}},
+  {dur: 93, kind: 'text', text: 'Public Storage rents|simple, unstaffed|metal units.', highlights: ['unstaffed'], size: 90, media: {src: 'media/clip_warehouse.mp4', type: 'video', effect: 'out'}},
+  {dur: 82, kind: 'lines', text: 'Low labour.|Low upkeep.|Rent due monthly.', highlights: ['monthly'], reveal: [0, 21, 43], media: {src: 'media/p_373550.jpeg', type: 'img', effect: 'panR'}},
+  {dur: 105, kind: 'text', text: 'A unit rented and forgotten|is close to pure margin.', highlights: ['margin'], size: 84, media: {src: 'media/p_cash_bills.jpeg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', text: 'Once a facility is built,|it runs on almost nothing.', highlights: ['nothing'], size: 86, media: {src: 'media/clip_yard.mp4', type: 'video', effect: 'panL'}},
+  {dur: 105, kind: 'lines', text: 'No inventory.|Minimal staff.|Automatic rent increases.', highlights: ['automatic'], reveal: [0, 23, 47], media: {src: 'media/p_14213937.jpeg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', text: 'And customers|who rarely leave.', highlights: ['rarely'], size: 94, media: {src: 'media/p_7203789.jpeg', type: 'img', effect: 'out'}},
+  {dur: 105, kind: 'text', text: 'The moat is unglamorous —|and that is why it holds.', highlights: ['moat'], size: 86, media: {src: 'media/p_9603487.jpeg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', text: 'Moving them out costs|a weekend and a truck.', highlights: ['truck'], size: 90, media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR'}},
+  {dur: 122, kind: 'text', text: 'A small annual rent increase|is easier to accept|than to fight.', highlights: ['fight'], size: 82, media: {src: 'media/clip_truck.mp4', type: 'video', effect: 'in'}},
+  {dur: 76, kind: 'text', text: 'Occupancy holds|through downturns.', highlights: ['downturns'], size: 92, media: {src: 'media/clip_chart.mp4', type: 'video', effect: 'in'}},
+  {dur: 70, kind: 'text', text: 'Moves. Divorces.|Downsizing.', highlights: ['downsizing'], size: 94, media: {src: 'media/p_6169046.jpeg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', text: 'The exact things|recessions produce.', highlights: ['recessions'], size: 90, media: {src: 'media/clip_usdollars.mp4', type: 'video', effect: 'out'}},
+  {dur: 52, kind: 'text', text: 'This is a REIT.', highlights: ['reit'], size: 112},
+  {dur: 93, kind: 'stat', stat: {prefix: '$', value: 4.8, decimals: 1, suffix: 'B', post: 'in annual revenue'}, media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out'}},
+  {dur: 87, kind: 'text', text: 'A fortress balance sheet.|Built on sheds.', highlights: ['sheds'], size: 90, media: {src: 'media/p_3997060.jpeg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'stat', stat: {pre: 'Operating margins', value: 79, suffix: '%', bar: 79}},
+  {dur: 64, kind: 'stat', stat: {pre: 'Same-store', value: 78, suffix: '%'}},
+  {dur: 70, kind: 'stat', stat: {pre: 'Net margin', value: 37, suffix: '%'}},
+  {dur: 111, kind: 'text', text: 'Once the building is up,|there is almost nothing|on the cost side.', highlights: ['nothing'], size: 82},
+  {dur: 58, kind: 'impact', text: 'Boring is|beautiful.', redBg: true},
+  {dur: 128, kind: 'text', text: 'A shed you forget|you are paying for —|one of the most profitable|in the country.', highlights: ['profitable'], size: 76, media: {src: 'media/clip_industrial.mp4', type: 'video', effect: 'in'}},
+  {dur: 82, kind: 'outro'},
+  {dur: 105, kind: 'text', text: 'The absence of a story|is part of why|the margins survive.', highlights: ['survive'], size: 82},
+];
+
+// Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
+type SfxCue = {at: number; src: string; vol: number};
+const SFX: SfxCue[] = [
+  {at: 93, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 198, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 478, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 785, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 1047, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 1391, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1443, src: 'media/sfx_chaching.mp3', vol: 0.55},
+  {at: 1536, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 1623, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1844, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 1955, src: 'media/sfx_impact.mp3', vol: 0.7},
 ];
 
 const STARTS: number[] = (() => {
@@ -375,8 +392,13 @@ export const StorageVideo: React.FC = () => {
       {HAS_VOICEOVER ? <Audio src={staticFile('voiceover.mp3')} /> : null}
       <Audio
         src={staticFile('media/music.mp3')}
-        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.16, 0.16, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
+        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.14, 0.14, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
+      {SFX.map((s, i) => (
+        <Sequence key={`sfx${i}`} from={s.at} durationInFrames={60} name={`sfx-${i}`}>
+          <Audio src={staticFile(s.src)} volume={s.vol} />
+        </Sequence>
+      ))}
       <AbsoluteFill style={{opacity: globalOpacity}}>
         {SCENES.map((s, i) =>
           s.media ? (
