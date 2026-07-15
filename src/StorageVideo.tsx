@@ -174,7 +174,6 @@ const Treatment: React.FC = () => {
         }}
       />
       <Grain />
-      <AbsoluteFill style={{boxShadow: 'inset 0 0 440px rgba(0,0,0,0.92)'}} />
     </AbsoluteFill>
   );
 };
@@ -243,7 +242,7 @@ const Caption: React.FC<{
 const Kicker: React.FC<{children: React.ReactNode; delay?: number; color?: string}> = ({
   children,
   delay = 4,
-  color = C.sub,
+  color = C.ink,
 }) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
@@ -289,7 +288,7 @@ const SceneMargin: React.FC = () => {
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
       <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [26, 0])}px)`, textAlign: 'center'}}>
-        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: C.sub, textTransform: 'uppercase', marginBottom: 10}}>
+        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: C.ink, textTransform: 'uppercase', marginBottom: 10}}>
           It keeps
         </div>
         <div style={{display: 'flex', alignItems: 'baseline', justifyContent: 'center'}}>
@@ -304,7 +303,7 @@ const SceneMargin: React.FC = () => {
         <div style={{height: 44, width: '100%', borderRadius: 4, background: C.track, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.06)'}}>
           <div style={{height: '100%', width: `${fill}%`, background: C.red, boxShadow: '0 0 30px rgba(255,46,46,0.45)'}} />
         </div>
-        <div style={{display: 'flex', justifyContent: 'space-between', marginTop: 16, fontFamily: BODY, fontWeight: 600, fontSize: 24, letterSpacing: 2, textTransform: 'uppercase', color: C.muted}}>
+        <div style={{display: 'flex', justifyContent: 'space-between', marginTop: 16, fontFamily: BODY, fontWeight: 600, fontSize: 24, letterSpacing: 2, textTransform: 'uppercase', color: C.ink}}>
           <span>Kept · {count}%</span>
           <span>Costs · {100 - count}%</span>
         </div>
@@ -411,7 +410,7 @@ const SceneRevenue: React.FC = () => {
           <span style={{fontFamily: HEAD, fontSize: 180, color: C.red, lineHeight: 1}}>B</span>
         </div>
         <div style={{fontFamily: BODY, fontWeight: 600, fontSize: 48, color: C.ink, marginTop: 6, textTransform: 'uppercase', letterSpacing: 1}}>in annual revenue</div>
-        <div style={{fontFamily: BODY, fontWeight: 500, fontSize: 26, letterSpacing: 5, color: C.muted, marginTop: 18, textTransform: 'uppercase'}}>
+        <div style={{fontFamily: BODY, fontWeight: 500, fontSize: 26, letterSpacing: 5, color: C.ink, marginTop: 18, textTransform: 'uppercase'}}>
           U.S. self-storage industry
         </div>
       </div>
@@ -433,7 +432,7 @@ const SceneMoat: React.FC = () => {
         Nobody moves out.
       </div>
       <div style={{opacity: p2, transform: `scale(${interpolate(p2, [0, 1], [0.7, 1])})`, textAlign: 'center'}}>
-        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 34, letterSpacing: 8, color: 'rgba(255,255,255,0.85)', textTransform: 'uppercase'}}>That is the</div>
+        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 34, letterSpacing: 8, color: C.ink, textTransform: 'uppercase'}}>That is the</div>
         <div style={{fontFamily: HEAD, fontSize: 250, color: C.ink, letterSpacing: 4, lineHeight: 0.95, textTransform: 'uppercase', textShadow: '0 6px 44px rgba(0,0,0,0.3)'}}>Moat</div>
         <div style={{height: 10, width: `${underline}%`, margin: '0 auto', borderRadius: 4, background: C.ink, boxShadow: '0 0 26px rgba(0,0,0,0.25)'}} />
       </div>
@@ -493,7 +492,7 @@ const Hud: React.FC = () => {
     <>
       <div style={{position: 'absolute', top: 70, left: 80, display: 'flex', alignItems: 'center', gap: 14}}>
         <div style={{width: 11, height: 11, borderRadius: 11, background: C.sub}} />
-        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.muted, textTransform: 'uppercase'}}>The storage moat</span>
+        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase'}}>The storage moat</span>
       </div>
       <div style={{position: 'absolute', bottom: 120, left: 80, right: 80, height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
         {Array.from({length: bars}).map((_, i) => {
