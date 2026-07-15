@@ -66,55 +66,58 @@ type SceneDef = {
   stat?: StatCfg;
   redBg?: boolean;
   media?: MediaCfg;
+  enter?: 'slideL' | 'slideR' | 'slideUp' | 'zoom';
 };
 
 // ---------------------------------------------------------------------------
 // Timeline — narration public/voiceover.mp3 (+3% pace, ~77.4s). 2328 frames.
 // Every scene uses a distinct background (no repeats).
 // ---------------------------------------------------------------------------
+// Durations placed on exact spoken-word timestamps (ElevenLabs alignment) at
+// +6% pace. Total 2153 frames = ~71.8s. `enter` adds a transition on some cuts.
 const SCENES: SceneDef[] = [
-  {dur: 93, kind: 'hook', text: "There's a business|on the edge of your town.", kicker: 'The asset nobody talks about', highlights: ['business'], size: 92, media: {src: 'media/clip_suburb.mp4', type: 'video', effect: 'in'}},
-  {dur: 105, kind: 'lines', text: 'No employees.|No product.|No customers|who ever leave.', highlights: ['leave'], reveal: [0, 21, 43, 66], media: {src: 'media/p_18783949.jpeg', type: 'img', effect: 'in'}},
-  {dur: 105, kind: 'stat', stat: {pre: 'Last year it made', prefix: '$', value: 4.8, decimals: 1, suffix: 'B'}, media: {src: 'media/clip_counting.mp4', type: 'video', effect: 'in'}},
-  {dur: 93, kind: 'text', text: 'Public Storage rents|simple, unstaffed|metal units.', highlights: ['unstaffed'], size: 90, media: {src: 'media/clip_warehouse.mp4', type: 'video', effect: 'out'}},
-  {dur: 82, kind: 'lines', text: 'Low labour.|Low upkeep.|Rent due monthly.', highlights: ['monthly'], reveal: [0, 21, 43], media: {src: 'media/p_373550.jpeg', type: 'img', effect: 'panR'}},
-  {dur: 105, kind: 'text', text: 'A unit rented and forgotten|is close to pure margin.', highlights: ['margin'], size: 84, media: {src: 'media/p_cash_bills.jpeg', type: 'img', effect: 'in'}},
-  {dur: 97, kind: 'text', text: 'Once a facility is built,|it runs on almost nothing.', highlights: ['nothing'], size: 86, media: {src: 'media/clip_yard.mp4', type: 'video', effect: 'panL'}},
-  {dur: 105, kind: 'lines', text: 'No inventory.|Minimal staff.|Automatic rent increases.', highlights: ['automatic'], reveal: [0, 23, 47], media: {src: 'media/p_14213937.jpeg', type: 'img', effect: 'in'}},
-  {dur: 64, kind: 'text', text: 'And customers|who rarely leave.', highlights: ['rarely'], size: 94, media: {src: 'media/p_7203789.jpeg', type: 'img', effect: 'out'}},
-  {dur: 105, kind: 'text', text: 'The moat is unglamorous —|and that is why it holds.', highlights: ['moat'], size: 86, media: {src: 'media/p_9603487.jpeg', type: 'img', effect: 'in'}},
-  {dur: 93, kind: 'text', text: 'Moving them out costs|a weekend and a truck.', highlights: ['truck'], size: 90, media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR'}},
-  {dur: 122, kind: 'text', text: 'A small annual rent increase|is easier to accept|than to fight.', highlights: ['fight'], size: 82, media: {src: 'media/clip_truck.mp4', type: 'video', effect: 'in'}},
-  {dur: 76, kind: 'text', text: 'Occupancy holds|through downturns.', highlights: ['downturns'], size: 92, media: {src: 'media/clip_chart.mp4', type: 'video', effect: 'in'}},
-  {dur: 70, kind: 'text', text: 'Moves. Divorces.|Downsizing.', highlights: ['downsizing'], size: 94, media: {src: 'media/p_6169046.jpeg', type: 'img', effect: 'in'}},
-  {dur: 76, kind: 'text', text: 'The exact things|recessions produce.', highlights: ['recessions'], size: 90, media: {src: 'media/clip_usdollars.mp4', type: 'video', effect: 'out'}},
-  {dur: 52, kind: 'text', text: 'This is a REIT.', highlights: ['reit'], size: 112},
-  {dur: 93, kind: 'stat', stat: {prefix: '$', value: 4.8, decimals: 1, suffix: 'B', post: 'in annual revenue'}, media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out'}},
-  {dur: 87, kind: 'text', text: 'A fortress balance sheet.|Built on sheds.', highlights: ['sheds'], size: 90, media: {src: 'media/p_3997060.jpeg', type: 'img', effect: 'in'}},
-  {dur: 87, kind: 'stat', stat: {pre: 'Operating margins', value: 79, suffix: '%', bar: 79}},
-  {dur: 64, kind: 'stat', stat: {pre: 'Same-store', value: 78, suffix: '%'}},
-  {dur: 70, kind: 'stat', stat: {pre: 'Net margin', value: 37, suffix: '%'}},
-  {dur: 111, kind: 'text', text: 'Once the building is up,|there is almost nothing|on the cost side.', highlights: ['nothing'], size: 82},
-  {dur: 58, kind: 'impact', text: 'Boring is|beautiful.', redBg: true},
-  {dur: 128, kind: 'text', text: 'A shed you forget|you are paying for —|one of the most profitable|in the country.', highlights: ['profitable'], size: 76, media: {src: 'media/clip_industrial.mp4', type: 'video', effect: 'in'}},
-  {dur: 82, kind: 'outro'},
-  {dur: 105, kind: 'text', text: 'The absence of a story|is part of why|the margins survive.', highlights: ['survive'], size: 82},
+  {dur: 65, kind: 'hook', text: "There's a business|on the edge of your town.", kicker: 'The asset nobody talks about', highlights: ['business'], size: 92, media: {src: 'media/clip_suburb.mp4', type: 'video', effect: 'in'}},
+  {dur: 103, kind: 'lines', text: 'No employees.|No product.|No customers|who ever leave.', highlights: ['leave'], reveal: [0, 21, 43, 66], media: {src: 'media/p_18783949.jpeg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'stat', enter: 'zoom', stat: {pre: 'Last year it made', prefix: '$', value: 4.8, decimals: 1, suffix: 'B'}, media: {src: 'media/clip_counting.mp4', type: 'video', effect: 'in'}},
+  {dur: 89, kind: 'text', text: 'Public Storage rents|simple, unstaffed|metal units.', highlights: ['unstaffed'], size: 90, media: {src: 'media/clip_warehouse.mp4', type: 'video', effect: 'out'}},
+  {dur: 79, kind: 'lines', text: 'Low labour.|Low upkeep.|Rent due monthly.', highlights: ['monthly'], reveal: [0, 21, 43], media: {src: 'media/p_373550.jpeg', type: 'img', effect: 'panR'}},
+  {dur: 90, kind: 'text', text: 'A unit rented and forgotten|is close to pure margin.', highlights: ['margin'], size: 84, media: {src: 'media/p_cash_bills.jpeg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', enter: 'slideL', text: 'Once a facility is built,|it runs on almost nothing.', highlights: ['nothing'], size: 86, media: {src: 'media/clip_yard.mp4', type: 'video', effect: 'panL'}},
+  {dur: 98, kind: 'lines', text: 'No inventory.|Minimal staff.|Automatic rent increases.', highlights: ['automatic'], reveal: [0, 23, 47], media: {src: 'media/p_14213937.jpeg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', text: 'And customers|who rarely leave.', highlights: ['rarely'], size: 94, media: {src: 'media/p_7203789.jpeg', type: 'img', effect: 'out'}},
+  {dur: 131, kind: 'text', enter: 'slideR', text: 'The moat is unglamorous —|and that is why it holds.', highlights: ['moat'], size: 86, media: {src: 'media/p_9603487.jpeg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', text: 'Moving them out costs|a weekend and a truck.', highlights: ['truck'], size: 90, media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR'}},
+  {dur: 102, kind: 'text', text: 'A small annual rent increase|is easier to accept|than to fight.', highlights: ['fight'], size: 82, media: {src: 'media/clip_truck.mp4', type: 'video', effect: 'in'}},
+  {dur: 110, kind: 'text', enter: 'zoom', text: 'Occupancy holds|through downturns.', highlights: ['downturns'], size: 92, media: {src: 'media/clip_chart.mp4', type: 'video', effect: 'in'}},
+  {dur: 57, kind: 'text', text: 'Moves. Divorces.|Downsizing.', highlights: ['downsizing'], size: 94, media: {src: 'media/p_6169046.jpeg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', enter: 'slideL', text: 'The exact things|recessions produce.', highlights: ['recessions'], size: 90, media: {src: 'media/clip_usdollars.mp4', type: 'video', effect: 'out'}},
+  {dur: 38, kind: 'text', text: 'This is a REIT.', highlights: ['reit'], size: 112},
+  {dur: 89, kind: 'stat', stat: {prefix: '$', value: 4.8, decimals: 1, suffix: 'B', post: 'in annual revenue'}, media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out'}},
+  {dur: 88, kind: 'text', enter: 'slideR', text: 'A fortress balance sheet.|Built on sheds.', highlights: ['sheds'], size: 90, media: {src: 'media/p_3997060.jpeg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'stat', stat: {pre: 'Operating margins', value: 79, suffix: '%', bar: 79}},
+  {dur: 47, kind: 'stat', stat: {pre: 'Same-store', value: 78, suffix: '%'}},
+  {dur: 51, kind: 'stat', stat: {pre: 'Net margin', value: 37, suffix: '%'}},
+  {dur: 92, kind: 'text', text: 'Once the building is up,|there is almost nothing|on the cost side.', highlights: ['nothing'], size: 82},
+  {dur: 93, kind: 'impact', text: 'Boring is|beautiful.', redBg: true},
+  {dur: 113, kind: 'text', enter: 'zoom', text: 'A shed you forget|you are paying for —|one of the most profitable|in the country.', highlights: ['profitable'], size: 76, media: {src: 'media/clip_industrial.mp4', type: 'video', effect: 'in'}},
+  {dur: 62, kind: 'outro'},
+  {dur: 106, kind: 'text', text: 'The absence of a story|is part of why|the margins survive.', highlights: ['survive'], size: 82},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 93, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 198, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 478, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 785, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 1047, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 1391, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 1443, src: 'media/sfx_chaching.mp3', vol: 0.55},
-  {at: 1536, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 1623, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 1844, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 1955, src: 'media/sfx_impact.mp3', vol: 0.7},
+  {at: 65, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 168, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 420, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 694, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 959, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 1293, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1331, src: 'media/sfx_chaching.mp3', vol: 0.55},
+  {at: 1420, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 1508, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1687, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 1779, src: 'media/sfx_impact.mp3', vol: 0.7},
 ];
 
 const STARTS: number[] = (() => {
@@ -131,10 +134,25 @@ export const DURATION_IN_FRAMES = STARTS[STARTS.length - 1] + SCENES[SCENES.leng
 const easeInOut = Easing.bezier(0.22, 1, 0.36, 1);
 const useLocal = () => useCurrentFrame();
 
+// Entrance transition applied to a scene's media + text together, over ~9 frames.
+const enterTransform = (frame: number, enter?: string) => {
+  if (!enter) return {tx: 0, ty: 0, sc: 1, op: 1};
+  const t = interpolate(frame, [0, 9], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  let tx = 0;
+  let ty = 0;
+  let sc = 1;
+  if (enter === 'slideL') tx = (1 - t) * 100;
+  if (enter === 'slideR') tx = -(1 - t) * 100;
+  if (enter === 'slideUp') ty = (1 - t) * 100;
+  if (enter === 'zoom') sc = 1 + (1 - t) * 0.5;
+  const op = interpolate(frame, [0, 6], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  return {tx, ty, sc, op};
+};
+
 // ---------------------------------------------------------------------------
 // Media background
 // ---------------------------------------------------------------------------
-const MediaBackground: React.FC<{cfg: MediaCfg}> = ({cfg}) => {
+const MediaBackground: React.FC<{cfg: MediaCfg; enter?: string}> = ({cfg, enter}) => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
   const p = interpolate(frame, [0, durationInFrames], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
@@ -145,12 +163,13 @@ const MediaBackground: React.FC<{cfg: MediaCfg}> = ({cfg}) => {
   let tx = 0;
   if (effect === 'panL') tx = interpolate(p, [0, 1], [3.5, -3.5]);
   if (effect === 'panR') tx = interpolate(p, [0, 1], [-3.5, 3.5]);
-  const opacity = interpolate(frame, [0, 5, durationInFrames - 5, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const e = enterTransform(frame, enter);
+  const opacity = interpolate(frame, [0, 5, durationInFrames - 5, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
   const src = staticFile(cfg.src);
   const mediaStyle: React.CSSProperties = {width: '100%', height: '100%', objectFit: 'cover'};
   return (
     <AbsoluteFill style={{opacity}}>
-      <AbsoluteFill style={{transform: `scale(${scale}) translateX(${tx}%)`, transformOrigin: 'center'}}>
+      <AbsoluteFill style={{transform: `scale(${scale * e.sc}) translate(${tx + e.tx}%, ${e.ty}%)`, transformOrigin: 'center'}}>
         {isImg ? <Img src={src} style={mediaStyle} /> : <OffthreadVideo src={src} startFrom={cfg.from ?? 0} muted style={mediaStyle} />}
       </AbsoluteFill>
     </AbsoluteFill>
@@ -187,10 +206,10 @@ const Caption: React.FC<{text: string; highlights?: string[]; size?: number; ali
       {lines.map((line, li) => (
         <div key={li} style={{display: 'flex', flexWrap: 'wrap', justifyContent: align === 'center' ? 'center' : 'flex-start', gap: '0 18px'}}>
           {line.split(' ').map((word, wi) => {
-            const appear = lineDelay + wordIndex * 2;
+            const appear = lineDelay + wordIndex * 1.2;
             wordIndex++;
-            const p = spring({frame: frame - appear, fps, config: {damping: 200, mass: 0.6}});
-            const y = interpolate(p, [0, 1], [38, 0]);
+            const p = spring({frame: frame - appear, fps, config: {damping: 200, mass: 0.45}});
+            const y = interpolate(p, [0, 1], [26, 0]);
             const hi = isHi(word);
             return (
               <span key={wi} style={{display: 'inline-block', fontFamily: HEAD, fontSize: size, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase', color: hi ? C.red : C.ink, opacity: p, transform: `translateY(${y}px)`, textShadow: hi ? '0 0 40px rgba(255,46,46,0.35)' : 'none'}}>
@@ -221,13 +240,13 @@ const Kicker: React.FC<{children: React.ReactNode; delay?: number}> = ({children
 const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[]; size?: number}> = ({text, kicker, highlights, size = 92}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
     {kicker ? <div style={{marginBottom: 44}}><Kicker>{kicker}</Kicker></div> : null}
-    <Caption text={text} highlights={highlights} size={size} lineDelay={10} />
+    <Caption text={text} highlights={highlights} size={size} lineDelay={3} />
   </AbsoluteFill>
 );
 
 const SceneText: React.FC<{text: string; highlights?: string[]; size?: number}> = ({text, highlights, size = 100}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
-    <Caption text={text} highlights={highlights} size={size} lineDelay={6} />
+    <Caption text={text} highlights={highlights} size={size} lineDelay={2} />
   </AbsoluteFill>
 );
 
@@ -241,8 +260,8 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
       <div style={{display: 'flex', flexDirection: 'column', gap: 20}}>
         {lines.map((l, i) => {
           const appearAt = reveal ? reveal[i] : 8 + i * 14;
-          const pv = spring({frame: frame - appearAt, fps, config: {damping: 200}});
-          const x = interpolate(pv, [0, 1], [-60, 0]);
+          const pv = spring({frame: frame - appearAt, fps, config: {damping: 200, mass: 0.5}});
+          const x = interpolate(pv, [0, 1], [-42, 0]);
           return (
             <div key={i} style={{opacity: pv, transform: `translateX(${x}px)`, fontFamily: HEAD, fontSize: 96, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
               {l.split(' ').map((w, wi) => {
@@ -265,11 +284,11 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
 const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
-  const enter = spring({frame: frame - 4, fps, config: {damping: 200}});
-  const t = interpolate(frame, [8, 46], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const enter = spring({frame: frame - 2, fps, config: {damping: 200, mass: 0.5}});
+  const t = interpolate(frame, [4, 38], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const shown = stat.value * t;
   const num = stat.decimals ? shown.toFixed(stat.decimals) : String(Math.round(shown));
-  const barW = stat.bar != null ? interpolate(frame, [10, 50], [0, stat.bar], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut}) : 0;
+  const barW = stat.bar != null ? interpolate(frame, [6, 40], [0, stat.bar], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut}) : 0;
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
       <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [26, 0])}px)`, textAlign: 'center'}}>
@@ -403,14 +422,14 @@ export const StorageVideo: React.FC = () => {
         {SCENES.map((s, i) =>
           s.media ? (
             <Sequence key={`m${i}`} from={STARTS[i]} durationInFrames={s.dur} name={`bg-${i}-${s.kind}`}>
-              <MediaBackground cfg={s.media} />
+              <MediaBackground cfg={s.media} enter={s.enter} />
             </Sequence>
           ) : null,
         )}
         <Treatment />
         {SCENES.map((s, i) => (
           <Sequence key={i} from={STARTS[i]} durationInFrames={s.dur} name={`${i}-${s.kind}`}>
-            <SceneTransition>{renderScene(s)}</SceneTransition>
+            <SceneTransition enter={s.enter}>{renderScene(s)}</SceneTransition>
           </Sequence>
         ))}
         <Hud />
@@ -419,9 +438,14 @@ export const StorageVideo: React.FC = () => {
   );
 };
 
-const SceneTransition: React.FC<{children: React.ReactNode}> = ({children}) => {
+const SceneTransition: React.FC<{children: React.ReactNode; enter?: string}> = ({children, enter}) => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
-  const opacity = interpolate(frame, [0, 4, durationInFrames - 4, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  return <AbsoluteFill style={{opacity, textShadow: '0 2px 22px rgba(0,0,0,0.6), 0 2px 5px rgba(0,0,0,0.72)'}}>{children}</AbsoluteFill>;
+  const e = enterTransform(frame, enter);
+  const opacity = interpolate(frame, [0, 4, durationInFrames - 4, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
+  return (
+    <AbsoluteFill style={{opacity, transform: `translate(${e.tx}%, ${e.ty}%) scale(${e.sc})`, transformOrigin: 'center', textShadow: '0 2px 22px rgba(0,0,0,0.6), 0 2px 5px rgba(0,0,0,0.72)'}}>
+      {children}
+    </AbsoluteFill>
+  );
 };
