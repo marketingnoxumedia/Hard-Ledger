@@ -71,6 +71,13 @@ warehouses & trucks (video 32338863), wood-pallet storage yard (video 31025294),
 semi truck (video 17899033), stack of dollar bills (photo 4386469), cash in a
 briefcase (photo 259027), moving truck at night (photo 26443249).
 
+Music: "Healing" by Kevin MacLeod (incompetech.com), licensed under Creative
+Commons Attribution 4.0 (CC BY 4.0) — attribution required if published.
+It plays as a ducked bed (`public/media/music.mp3`) under the narration.
+
+Narration: generated with ElevenLabs (voice cloned from the client's reference
+video) at `public/voiceover.mp3`; scene cuts are timed to its speech.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

@@ -66,19 +66,21 @@ type SceneDef = {
 
 // Durations are tuned so each scene change lands on a detected pause in the
 // narration (public/voiceover.mp3, speech 0..32.7s). Total = 990 frames = 33.0s.
+// Durations tuned to the cloned voiceover (public/voiceover.mp3, speech ~26.9s).
+// Total = 810 frames = 27.0s.
 const SCENES: SceneDef[] = [
-  {dur: 74, kind: 'hook', media: {src: 'media/clip_industrial.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.55}},
-  {dur: 84, kind: 'margin', media: {src: 'media/p_cash_bills.jpeg', type: 'img', effect: 'in', scrim: 0.64}},
-  {dur: 174, kind: 'lines', text: 'Metal boxes.|Cheap land.|Almost no staff.|No inventory.', highlights: ['staff'], reveal: [0, 42, 84, 134], media: {src: 'media/clip_yard.mp4', type: 'video', from: 0, effect: 'panL', scrim: 0.58}},
-  {dur: 43, kind: 'lines', text: 'Nothing to restock.|Nothing spoils.', highlights: ['spoils'], reveal: [0, 20], media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
-  {dur: 78, kind: 'text', text: 'Once the building is up,|costs barely move.', highlights: ['barely', 'move'], media: {src: 'media/clip_industrial.mp4', type: 'video', from: 120, effect: 'out', scrim: 0.58}},
-  {dur: 76, kind: 'rent', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'in', scrim: 0.62}},
-  {dur: 72, kind: 'text', text: 'Moving out costs|a weekend and a truck.', highlights: ['truck'], media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR', scrim: 0.48}},
-  {dur: 98, kind: 'text', text: 'Recessions cause|moves, divorces, downsizing.', highlights: ['recessions'], media: {src: 'media/clip_truck.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
-  {dur: 42, kind: 'fills'},
-  {dur: 75, kind: 'revenue', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out', scrim: 0.64}},
-  {dur: 90, kind: 'moat'},
-  {dur: 84, kind: 'outro', media: {src: 'media/clip_industrial.mp4', type: 'video', from: 150, effect: 'out', scrim: 0.58}},
+  {dur: 75, kind: 'hook', media: {src: 'media/clip_industrial.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.55}},
+  {dur: 74, kind: 'margin', media: {src: 'media/p_cash_bills.jpeg', type: 'img', effect: 'in', scrim: 0.64}},
+  {dur: 86, kind: 'lines', text: 'Metal boxes.|Cheap land.|Almost no staff.|No inventory.', highlights: ['staff'], reveal: [0, 21, 43, 64], media: {src: 'media/clip_yard.mp4', type: 'video', from: 0, effect: 'panL', scrim: 0.58}},
+  {dur: 53, kind: 'lines', text: 'Nothing to restock.|Nothing spoils.', highlights: ['spoils'], reveal: [0, 18], media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
+  {dur: 79, kind: 'text', text: 'Once the building is up,|costs barely move.', highlights: ['barely', 'move'], media: {src: 'media/clip_industrial.mp4', type: 'video', from: 120, effect: 'out', scrim: 0.58}},
+  {dur: 68, kind: 'rent', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'in', scrim: 0.62}},
+  {dur: 78, kind: 'text', text: 'Moving out costs|a weekend and a truck.', highlights: ['truck'], media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR', scrim: 0.48}},
+  {dur: 53, kind: 'text', text: 'Recessions cause|moves, divorces, downsizing.', highlights: ['recessions'], media: {src: 'media/clip_truck.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
+  {dur: 21, kind: 'fills'},
+  {dur: 93, kind: 'revenue', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out', scrim: 0.64}},
+  {dur: 57, kind: 'moat'},
+  {dur: 73, kind: 'outro', media: {src: 'media/clip_industrial.mp4', type: 'video', from: 150, effect: 'out', scrim: 0.58}},
 ];
 
 const STARTS: number[] = (() => {
@@ -119,7 +121,7 @@ const MediaBackground: React.FC<{cfg: MediaCfg}> = ({cfg}) => {
 
   const opacity = interpolate(
     frame,
-    [0, 7, durationInFrames - 6, durationInFrames],
+    [0, 5, durationInFrames - 5, durationInFrames],
     [0, 1, 1, 0],
     {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
   );
@@ -421,9 +423,9 @@ const SceneRevenue: React.FC = () => {
 const SceneMoat: React.FC = () => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
-  const p1 = spring({frame: frame - 4, fps, config: {damping: 200}});
-  const p2 = spring({frame: frame - 42, fps, config: {damping: 14, stiffness: 90}});
-  const underline = interpolate(frame, [60, 86], [0, 100], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const p1 = spring({frame: frame - 2, fps, config: {damping: 200}});
+  const p2 = spring({frame: frame - 16, fps, config: {damping: 14, stiffness: 90}});
+  const underline = interpolate(frame, [28, 50], [0, 100], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
       {/* solid red background (no footage) */}
@@ -557,6 +559,18 @@ export const StorageVideo: React.FC = () => {
   return (
     <AbsoluteFill style={{backgroundColor: C.bg}}>
       {HAS_VOICEOVER ? <Audio src={staticFile('voiceover.mp3')} /> : null}
+      {/* soft royalty-free music bed, ducked under the narration with fades */}
+      <Audio
+        src={staticFile('media/music.mp3')}
+        volume={(f) =>
+          interpolate(
+            f,
+            [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES],
+            [0, 0.16, 0.16, 0],
+            {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
+          )
+        }
+      />
       <AbsoluteFill style={{opacity: globalOpacity}}>
         {/* media layer (Pexels stills + video) */}
         {SCENES.map((s, i) =>
@@ -585,7 +599,7 @@ const SceneTransition: React.FC<{children: React.ReactNode}> = ({children}) => {
   const {durationInFrames} = useVideoConfig();
   const opacity = interpolate(
     frame,
-    [0, 8, durationInFrames - 8, durationInFrames],
+    [0, 4, durationInFrames - 4, durationInFrames],
     [0, 1, 1, 0],
     {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
   );
