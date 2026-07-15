@@ -56,6 +56,27 @@ npx remotion render StorageUnit out/storage-unit.mp4 \
 | 11 | Moat | "Nobody moves out. That is the MOAT." | Green MOAT payoff + underline draw |
 | 12 | Outro | "No brand. No buzz. Just rent." | Stacked reveal |
 
-The video is text/animation only (no baked-in narration audio); drop a voiceover
-track over it in your editor, or wire an audio file into the composition with
-Remotion's `<Audio>` component.
+## Backgrounds & audio
+
+- Narration lives at `public/voiceover.mp3` and is enabled via the `HAS_VOICEOVER`
+  flag in `src/StorageVideo.tsx`. Scene cuts are timed to the speech pauses.
+- Each scene has a full-bleed background (mixed stills + video) in
+  `public/media/`, sourced from [Pexels](https://www.pexels.com) (free license).
+  Videos are pre-cropped to 1080×1920 silent clips; each is graded dark +
+  desaturated with a scrim for text legibility, given a Ken Burns move, and
+  dip-to-black cross-dissolved between scenes.
+
+Media credits (Pexels): warehouse aerial (video 3969002), industrial area with
+warehouses & trucks (video 32338863), wood-pallet storage yard (video 31025294),
+semi truck (video 17899033), stack of dollar bills (photo 4386469), cash in a
+briefcase (photo 259027), moving truck at night (photo 26443249).
+
+## Export note
+
+`out/storage-unit.mp4` is the full-quality master. For platforms with an upload
+cap, transcode a smaller copy, e.g.:
+
+```bash
+npx remotion ffmpeg -i out/storage-unit.mp4 -c:v libx264 -crf 21 -preset slow \
+  -c:a aac -b:a 160k -movflags +faststart out/storage-unit-web.mp4
+```

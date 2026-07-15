@@ -2,6 +2,8 @@ import React from 'react';
 import {
   AbsoluteFill,
   Audio,
+  Img,
+  OffthreadVideo,
   staticFile,
   Sequence,
   interpolate,
@@ -46,23 +48,37 @@ const C = {
 // ---------------------------------------------------------------------------
 // Scene timeline (frames @ 30fps). Total = 1350 frames = 45.0s
 // ---------------------------------------------------------------------------
-type SceneDef = {dur: number; kind: string; text?: string; highlights?: string[]; reveal?: number[]};
+type MediaCfg = {
+  src: string;
+  type: 'img' | 'video';
+  from?: number; // start frame for video segment
+  effect?: 'in' | 'out' | 'panL' | 'panR';
+  scrim?: number;
+};
+type SceneDef = {
+  dur: number;
+  kind: string;
+  text?: string;
+  highlights?: string[];
+  reveal?: number[];
+  media?: MediaCfg;
+};
 
 // Durations are tuned so each scene change lands on a detected pause in the
 // narration (public/voiceover.mp3, speech 0..32.7s). Total = 990 frames = 33.0s.
 const SCENES: SceneDef[] = [
-  {dur: 74, kind: 'hook'},
-  {dur: 84, kind: 'margin'},
-  {dur: 174, kind: 'lines', text: 'Metal boxes.|Cheap land.|Almost no staff.|No inventory.', highlights: ['staff'], reveal: [0, 42, 84, 134]},
-  {dur: 43, kind: 'lines', text: 'Nothing to restock.|Nothing spoils.', highlights: ['spoils'], reveal: [0, 20]},
-  {dur: 78, kind: 'text', text: 'Once the building is up,|costs barely move.', highlights: ['barely', 'move']},
-  {dur: 76, kind: 'rent'},
-  {dur: 72, kind: 'text', text: 'Moving out costs|a weekend and a truck.', highlights: ['truck']},
-  {dur: 98, kind: 'text', text: 'Recessions cause|moves, divorces, downsizing.', highlights: ['recessions']},
-  {dur: 42, kind: 'fills'},
-  {dur: 75, kind: 'revenue'},
-  {dur: 90, kind: 'moat'},
-  {dur: 84, kind: 'outro'},
+  {dur: 74, kind: 'hook', media: {src: 'media/clip_industrial.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.55}},
+  {dur: 84, kind: 'margin', media: {src: 'media/p_cash_bills.jpeg', type: 'img', effect: 'in', scrim: 0.64}},
+  {dur: 174, kind: 'lines', text: 'Metal boxes.|Cheap land.|Almost no staff.|No inventory.', highlights: ['staff'], reveal: [0, 42, 84, 134], media: {src: 'media/clip_yard.mp4', type: 'video', from: 0, effect: 'panL', scrim: 0.58}},
+  {dur: 43, kind: 'lines', text: 'Nothing to restock.|Nothing spoils.', highlights: ['spoils'], reveal: [0, 20], media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
+  {dur: 78, kind: 'text', text: 'Once the building is up,|costs barely move.', highlights: ['barely', 'move'], media: {src: 'media/clip_industrial.mp4', type: 'video', from: 120, effect: 'out', scrim: 0.58}},
+  {dur: 76, kind: 'rent', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'in', scrim: 0.62}},
+  {dur: 72, kind: 'text', text: 'Moving out costs|a weekend and a truck.', highlights: ['truck'], media: {src: 'media/p_truck_night.jpeg', type: 'img', effect: 'panR', scrim: 0.48}},
+  {dur: 98, kind: 'text', text: 'Recessions cause|moves, divorces, downsizing.', highlights: ['recessions'], media: {src: 'media/clip_truck.mp4', type: 'video', from: 0, effect: 'in', scrim: 0.58}},
+  {dur: 42, kind: 'fills', media: {src: 'media/clip_yard.mp4', type: 'video', from: 120, effect: 'in', scrim: 0.5}},
+  {dur: 75, kind: 'revenue', media: {src: 'media/p_cash_briefcase.jpeg', type: 'img', effect: 'out', scrim: 0.64}},
+  {dur: 90, kind: 'moat', media: {src: 'media/clip_warehouse.mp4', type: 'video', from: 90, effect: 'in', scrim: 0.58}},
+  {dur: 84, kind: 'outro', media: {src: 'media/clip_industrial.mp4', type: 'video', from: 150, effect: 'out', scrim: 0.58}},
 ];
 
 const STARTS: number[] = (() => {
@@ -82,61 +98,57 @@ const useLocal = () => useCurrentFrame();
 // ---------------------------------------------------------------------------
 // Background: faint storage facade (neutral) + grid + vignette + grain
 // ---------------------------------------------------------------------------
-const StorageFacade: React.FC<{intensity: number}> = ({intensity}) => {
+// Full-bleed Pexels media (photo or video) behind the text, with Ken Burns
+// motion, a dark desaturated treatment, a legibility scrim, and a dissolve
+// fade in/out at the scene edges.
+const MediaBackground: React.FC<{cfg: MediaCfg}> = ({cfg}) => {
   const frame = useCurrentFrame();
-  const cols = 6;
-  const rows = 5;
-  const drift = interpolate(frame, [0, DURATION_IN_FRAMES], [0, -60]);
-  const doors: React.ReactNode[] = [];
-  for (let r = 0; r < rows; r++) {
-    for (let c = 0; c < cols; c++) {
-      const idx = r * cols + c;
-      doors.push(
-        <div
-          key={idx}
-          style={{
-            position: 'relative',
-            borderRadius: 4,
-            background:
-              'repeating-linear-gradient(180deg,#181818 0px,#181818 6px,#101010 6px,#101010 12px)',
-            border: '1px solid rgba(255,255,255,0.04)',
-            boxShadow: 'inset 0 -8px 20px rgba(0,0,0,0.6)',
-          }}
-        >
-          <div
-            style={{
-              position: 'absolute',
-              left: '32%',
-              right: '32%',
-              bottom: 8,
-              height: 4,
-              borderRadius: 2,
-              background: 'rgba(255,255,255,0.06)',
-            }}
-          />
-        </div>,
-      );
-    }
-  }
+  const {durationInFrames} = useVideoConfig();
+  const p = interpolate(frame, [0, durationInFrames], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const isImg = cfg.type === 'img';
+  const range = isImg ? 0.26 : 0.15;
+  const effect = cfg.effect ?? 'in';
+
+  const scale =
+    effect === 'out'
+      ? interpolate(p, [0, 1], [1 + range, 1])
+      : interpolate(p, [0, 1], [1, 1 + range]);
+  let tx = 0;
+  if (effect === 'panL') tx = interpolate(p, [0, 1], [3.5, -3.5]);
+  if (effect === 'panR') tx = interpolate(p, [0, 1], [-3.5, 3.5]);
+
+  const opacity = interpolate(
+    frame,
+    [0, 7, durationInFrames - 6, durationInFrames],
+    [0, 1, 1, 0],
+    {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
+  );
+  const scrim = cfg.scrim ?? 0.58;
+  const src = staticFile(cfg.src);
+  const mediaStyle: React.CSSProperties = {
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
+    filter: 'grayscale(0.4) contrast(1.05) brightness(0.82)',
+  };
+
   return (
-    <AbsoluteFill style={{opacity: intensity}}>
-      <div
+    <AbsoluteFill style={{opacity}}>
+      <AbsoluteFill style={{transform: `scale(${scale}) translateX(${tx}%)`, transformOrigin: 'center'}}>
+        {isImg ? (
+          <Img src={src} style={mediaStyle} />
+        ) : (
+          <OffthreadVideo src={src} startFrom={cfg.from ?? 0} muted style={mediaStyle} />
+        )}
+      </AbsoluteFill>
+      {/* top/bottom heavier scrim for text legibility */}
+      <AbsoluteFill
         style={{
-          position: 'absolute',
-          left: -40,
-          right: -40,
-          top: 120 + drift,
-          bottom: 120,
-          display: 'grid',
-          gridTemplateColumns: `repeat(${cols},1fr)`,
-          gridTemplateRows: `repeat(${rows},1fr)`,
-          gap: 14,
-          transform: 'perspective(1400px) rotateX(6deg) scale(1.05)',
-          filter: 'blur(0.4px)',
+          background: `linear-gradient(180deg, rgba(8,8,8,${Math.min(0.92, scrim + 0.2)}) 0%, rgba(8,8,8,${scrim * 0.55}) 34%, rgba(8,8,8,${scrim * 0.6}) 64%, rgba(8,8,8,${Math.min(0.95, scrim + 0.28)}) 100%)`,
         }}
-      >
-        {doors}
-      </div>
+      />
+      {/* flat darken toward near-black theme */}
+      <AbsoluteFill style={{background: `rgba(10,10,10,${scrim * 0.45})`}} />
     </AbsoluteFill>
   );
 };
@@ -158,25 +170,21 @@ const Grain: React.FC = () => {
   );
 };
 
-const Background: React.FC<{facade: number}> = ({facade}) => {
+// Global finishing pass rendered over the media but under the text: faint grid,
+// film grain and a vignette so all footage reads as one graded system.
+const Treatment: React.FC = () => {
   return (
-    <AbsoluteFill>
-      <AbsoluteFill style={{background: C.bg}} />
-      <AbsoluteFill
-        style={{
-          background: 'radial-gradient(120% 75% at 50% 12%, #131313 0%, #0A0A0A 55%, #050505 100%)',
-        }}
-      />
-      <StorageFacade intensity={facade} />
+    <AbsoluteFill style={{pointerEvents: 'none'}}>
       <AbsoluteFill
         style={{
           backgroundImage: `linear-gradient(${C.line} 1px, transparent 1px), linear-gradient(90deg, ${C.line} 1px, transparent 1px)`,
           backgroundSize: '90px 90px',
-          maskImage: 'radial-gradient(80% 60% at 50% 45%, black 30%, transparent 100%)',
+          maskImage: 'radial-gradient(85% 65% at 50% 45%, black 20%, transparent 100%)',
+          opacity: 0.6,
         }}
       />
       <Grain />
-      <AbsoluteFill style={{boxShadow: 'inset 0 0 420px rgba(0,0,0,0.9)'}} />
+      <AbsoluteFill style={{boxShadow: 'inset 0 0 440px rgba(0,0,0,0.92)'}} />
     </AbsoluteFill>
   );
 };
@@ -542,26 +550,11 @@ const renderScene = (s: SceneDef) => {
   }
 };
 
-const facadeFor = (kind: string) => {
-  if (kind === 'hook') return 0.5;
-  if (kind === 'lines') return 0.28;
-  if (kind === 'outro') return 0.36;
-  return 0.14;
-};
-
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 export const StorageVideo: React.FC = () => {
   const frame = useCurrentFrame();
-
-  let currentKind = SCENES[0].kind;
-  for (let i = 0; i < SCENES.length; i++) {
-    if (frame >= STARTS[i] && frame < STARTS[i] + SCENES[i].dur) {
-      currentKind = SCENES[i].kind;
-      break;
-    }
-  }
 
   const globalOpacity = interpolate(
     frame,
@@ -574,7 +567,17 @@ export const StorageVideo: React.FC = () => {
     <AbsoluteFill style={{backgroundColor: C.bg}}>
       {HAS_VOICEOVER ? <Audio src={staticFile('voiceover.mp3')} /> : null}
       <AbsoluteFill style={{opacity: globalOpacity}}>
-        <Background facade={facadeFor(currentKind)} />
+        {/* media layer (Pexels stills + video) */}
+        {SCENES.map((s, i) =>
+          s.media ? (
+            <Sequence key={`m${i}`} from={STARTS[i]} durationInFrames={s.dur} name={`bg-${i}-${s.kind}`}>
+              <MediaBackground cfg={s.media} />
+            </Sequence>
+          ) : null,
+        )}
+        {/* global grade over media, under text */}
+        <Treatment />
+        {/* text / graphics layer */}
         {SCENES.map((s, i) => (
           <Sequence key={i} from={STARTS[i]} durationInFrames={s.dur} name={`${i}-${s.kind}`}>
             <SceneTransition>{renderScene(s)}</SceneTransition>
