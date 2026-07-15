@@ -429,7 +429,7 @@ const SceneMoat: React.FC = () => {
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
       {/* solid red background (no footage) */}
       <AbsoluteFill style={{background: 'radial-gradient(125% 90% at 50% 42%, #FF2E2E 0%, #E31E1E 62%, #C21414 100%)'}} />
-      <div style={{opacity: p1, transform: `translateY(${interpolate(p1, [0, 1], [22, 0])}px)`, fontFamily: HEAD, fontSize: 104, color: C.ink, textAlign: 'center', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 34}}>
+      <div style={{opacity: p1, transform: `translateY(${interpolate(p1, [0, 1], [22, 0])}px)`, fontFamily: HEAD, fontSize: 104, color: '#0A0A0A', textAlign: 'center', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 34, textShadow: 'none'}}>
         Nobody moves out.
       </div>
       <div style={{opacity: p2, transform: `scale(${interpolate(p2, [0, 1], [0.7, 1])})`, textAlign: 'center'}}>
