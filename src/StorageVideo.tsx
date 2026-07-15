@@ -123,13 +123,11 @@ const MediaBackground: React.FC<{cfg: MediaCfg}> = ({cfg}) => {
     [0, 1, 1, 0],
     {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
   );
-  const scrim = cfg.scrim ?? 0.58;
   const src = staticFile(cfg.src);
   const mediaStyle: React.CSSProperties = {
     width: '100%',
     height: '100%',
     objectFit: 'cover',
-    filter: 'grayscale(0.4) contrast(1.05) brightness(0.82)',
   };
 
   return (
@@ -141,14 +139,6 @@ const MediaBackground: React.FC<{cfg: MediaCfg}> = ({cfg}) => {
           <OffthreadVideo src={src} startFrom={cfg.from ?? 0} muted style={mediaStyle} />
         )}
       </AbsoluteFill>
-      {/* top/bottom heavier scrim for text legibility */}
-      <AbsoluteFill
-        style={{
-          background: `linear-gradient(180deg, rgba(8,8,8,${Math.min(0.92, scrim + 0.2)}) 0%, rgba(8,8,8,${scrim * 0.55}) 34%, rgba(8,8,8,${scrim * 0.6}) 64%, rgba(8,8,8,${Math.min(0.95, scrim + 0.28)}) 100%)`,
-        }}
-      />
-      {/* flat darken toward near-black theme */}
-      <AbsoluteFill style={{background: `rgba(10,10,10,${scrim * 0.45})`}} />
     </AbsoluteFill>
   );
 };
@@ -598,5 +588,11 @@ const SceneTransition: React.FC<{children: React.ReactNode}> = ({children}) => {
     [0, 1, 1, 0],
     {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
   );
-  return <AbsoluteFill style={{opacity}}>{children}</AbsoluteFill>;
+  // Text-only shadow (halo on the glyphs, not an overlay on the clip) so type
+  // stays legible over full-brightness footage. Inherited by all descendant text.
+  return (
+    <AbsoluteFill style={{opacity, textShadow: '0 2px 22px rgba(0,0,0,0.6), 0 2px 5px rgba(0,0,0,0.72)'}}>
+      {children}
+    </AbsoluteFill>
+  );
 };
