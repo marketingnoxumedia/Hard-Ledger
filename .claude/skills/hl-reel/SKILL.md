@@ -34,8 +34,10 @@ you can copy from: `StorageVideo.template.tsx`, `Root.template.tsx`,
   constant) on every caption, white and red alike — reads as depth, not a glow.
   No stroke, no colored glow, and never darken the footage to make text pop.
 - **Backgrounds:** most scenes have full-bleed Pexels media (stills + video),
-  **each asset used once — no repeats**, shown at full brightness with a Ken
-  Burns move; a few beats sit on solid black or a solid red "impact" card.
+  **each asset used once — no repeats within a reel AND no reuse across reels**
+  (every reel sources its own footage; see the hard rule below), shown at full
+  brightness with a Ken Burns move; a few beats sit on solid black or a solid
+  red "impact" card.
 - **Motion:** quick cuts; `enter: 'slideL'|'slideR'|'slideUp'|'zoom'` adds a
   transition on some in-between scenes (media + text move together).
 - **Audio:** ElevenLabs voice **cloned from the client's reference video**,
@@ -157,8 +159,14 @@ npx remotion ffmpeg -y -i out/storage-unit.mp4 -c:v libx264 -crf 27 -preset slow
 - **Legibility**: white text needs SOME separation on bright footage. Use the
   shared `SH` directional shadow — not a wide glow, not a stroke, and don't darken
   the video. Most "invisible white text" bugs come from a stray `textShadow:'none'`.
-- **No-repeat media**: every footage scene must use a distinct asset; convert a
-  couple of scenes to solid black/red if you're short one, rather than reusing.
+- **No-repeat media (HARD RULE)**: every footage scene uses a distinct asset,
+  AND no photo/video background is reused across reels — each reel sources its
+  own footage into `public/<name>/`. The only cross-reel sharing allowed is the
+  cloned voice, `media/logo.png`, and `media/sfx_*.mp3`. If you're short an
+  asset, convert a scene to solid black/red rather than reusing one. Before
+  rendering, verify: `grep -oE "src: '(media|yahoo|<other-reels>)/[^']+'"
+  src/<Name>Reel.tsx | grep -vE 'sfx_|logo'` must return nothing. Reusing
+  another reel's clip is a defect to fix, not a shortcut.
 - **Secrets**: the ElevenLabs key is the user's — use it only for API calls, never
   write it into files, the repo, or commit messages. Remind them to rotate it.
 - **Factual claims**: if a script names a real company / cites financials, render
@@ -171,12 +179,11 @@ Each reel is its own composition so earlier ones stay intact. To add one:
   component; point its two `<Audio>` srcs at a namespaced folder
   (`<name>/voiceover.mp3`, `<name>/music.mp3`); set the `HUD` label; replace the
   `SCENES` + `SFX` arrays.
-- Put that reel's media under `public/<name>/`. **Reuse shared assets** from
-  `public/media/` by referencing them directly — the cloned voice is reusable
-  across reels (same `voice_id`), and `media/logo.png` + `media/sfx_*.mp3` are
-  shared. Finance clips (`clip_chart`, `clip_counting`, `clip_usdollars`,
-  `p_cash_bills`, `p_cash_briefcase`) are reusable across reels too — the
-  no-repeat rule is per-video, not per-repo.
+- Put that reel's media under `public/<name>/`. **Only these are shared across
+  reels: the cloned voice (same `voice_id`), `media/logo.png`, and
+  `media/sfx_*.mp3`.** Everything visual — every photo and video background —
+  must be sourced fresh for each reel (see the hard rule below). Do NOT reference
+  another reel's clips (`media/clip_*`, `media/p_*`, `yahoo/*`, etc.).
 - Register a new `<Composition id="<Name>Reel" .../>` in `src/Root.tsx`
   (import its `DURATION_IN_FRAMES` aliased) and render that id.
 - Example in this repo: `src/YahooReel.tsx` (id `YahooReel`) — the "Yahoo, know
