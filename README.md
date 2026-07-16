@@ -97,6 +97,15 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`OwnershipReel`** — "The ownership gap" (wealth concentration: the top 1%'s
+  record share vs the bottom half). ~38s. Media credits (Pexels, free license) —
+  videos: aerial luxury yacht (31873241), rising candlestick chart (30289537),
+  dark trading-screen with green charts (38412249), aerial night skyline
+  (32258501). Photos: stacked gold bars (386318), white domed luxury mansion
+  (12594566). Note: the figures (top 1% ≈ a third of wealth, bottom 50% ≈ 2.5%,
+  top 10% ≈ 90% of stocks) track widely reported US Federal Reserve
+  distributional data but shift over time — verify against the latest release
+  before publishing.
 - **`AttReel`** — "The forecast trap" (AT&T reportedly walking away from mobile
   after a consultant forecast, then paying to re-enter). ~35s. Media credits
   (Pexels, free license) — videos: retro slider mobile phone (3878355), empty
