@@ -97,15 +97,16 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
-- **`WesternUnionReel`** — "Respect the novelty" (Western Union reportedly
-  passing on the telephone patent). ~60s. Media credits (Pexels, free license) —
-  videos: vintage rotary phone (1721320), hand with smartphone (8165696),
-  aerial city at night (4066335), circuit board (2376982). Photos: typewriter &
-  telephone on desk (7610808), vintage typewriter (1425146), antique
-  handwritten letter (37947882), power pylons at dusk (3334038), rotary-phone
-  flat lay (8706568), telephone poles at sunset (6726040). Note: the "offered
-  the telephone patent / called it a toy" anecdote is a widely repeated but
-  disputed / apocryphal story — treat it as folklore, not verified history.
+- **`AttReel`** — "The forecast trap" (AT&T reportedly walking away from mobile
+  after a consultant forecast, then paying to re-enter). ~35s. Media credits
+  (Pexels, free license) — videos: retro slider mobile phone (3878355), empty
+  boardroom pan (6951299), busy Times Square crowd (34539087). Photos: upward
+  glass skyscraper (374122), cellular tower (36962826), vintage telephone
+  switchboard (2267635). Note: the AT&T / McKinsey "~900k by 2000" forecast, the
+  ~$12.5B cost to re-enter (the 1994 McCaw Cellular acquisition), and the ~109M
+  actual-subscribers figure are widely cited but vary across retellings — treat
+  the specifics as approximate business folklore, not audited numbers, and
+  verify before publishing.
 
 ## Export note
 

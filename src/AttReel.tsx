@@ -75,47 +75,40 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// Western Union "Respect the novelty" reel. Durations placed on exact
-// spoken-word timestamps (ElevenLabs alignment) at +6% pace.
-// Total 1809 frames = ~60.3s. `enter` adds a transition on some cuts.
+// AT&T "The forecast trap" reel. Durations placed on exact spoken-word
+// timestamps (ElevenLabs alignment) at +6% pace.
+// Total 1063 frames = ~35.4s. `enter` adds a transition on some cuts.
 // Every scene uses a distinct background sourced fresh for this reel — no
 // footage is shared with any other reel (see the skill's hard rule).
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 153, kind: 'hook', text: 'The most valuable|communications company|was offered the|telephone patent.', kicker: "The incumbent's blind spot", highlights: ['patent'], size: 70, media: {src: 'westernunion/clip_phone.mp4', type: 'video', effect: 'in'}},
-  {dur: 95, kind: 'text', text: 'It called the|device a toy.|And passed.', highlights: ['toy'], size: 90},
-  {dur: 123, kind: 'text', text: 'In the 1870s, Western|Union ruled the telegraph.', highlights: ['telegraph'], size: 78, media: {src: 'westernunion/p_7610808.jpg', type: 'img', effect: 'in'}},
-  {dur: 153, kind: 'text', text: 'It saw the new device|as beneath its business.', highlights: ['beneath'], size: 80, media: {src: 'westernunion/p_1425146.jpg', type: 'img', effect: 'panR'}},
-  {dur: 78, kind: 'text', text: 'Bell offered his patent|to Western Union.', highlights: ['Bell'], size: 82, media: {src: 'westernunion/p_37947882.jpg', type: 'img', effect: 'in'}},
-  {dur: 90, kind: 'text', text: 'They waved it off|as a novelty.', highlights: ['novelty'], size: 88},
-  {dur: 89, kind: 'text', text: 'The dismissal was|rational at the time.', highlights: ['rational'], size: 84},
-  {dur: 89, kind: 'lines', text: 'Proven.|High-margin.|National.', highlights: ['national'], reveal: [0, 26, 52], media: {src: 'westernunion/p_3334038.jpg', type: 'img', effect: 'in'}},
-  {dur: 80, kind: 'text', text: 'The early phone was|short-range and static.', highlights: ['static'], size: 82, media: {src: 'westernunion/p_8706568.jpg', type: 'img', effect: 'panL'}},
-  {dur: 52, kind: 'text', text: 'Useful only over|a few miles.', highlights: ['miles'], size: 90},
-  {dur: 79, kind: 'text', text: 'As a better telegraph,|it looked worthless.', highlights: ['worthless'], size: 82},
-  {dur: 62, kind: 'text', enter: 'zoom', text: 'As a new medium,|it was everything.', highlights: ['everything'], size: 84, media: {src: 'westernunion/clip_network.mp4', type: 'video', effect: 'in'}},
-  {dur: 85, kind: 'text', text: 'The incumbent had no|reason to see it.', highlights: ['reason'], size: 84},
-  {dur: 101, kind: 'text', enter: 'slideL', text: 'The phone became one of|history’s most valuable|technologies.', highlights: ['valuable'], size: 76, media: {src: 'westernunion/clip_smartphone.mp4', type: 'video', effect: 'in'}},
-  {dur: 34, kind: 'text', text: 'The telegraph|faded.', highlights: ['faded'], size: 104, media: {src: 'westernunion/p_6726040.jpg', type: 'img', effect: 'out'}},
-  {dur: 100, kind: 'text', text: 'The lesson survives —|even if the quote|is apocryphal.', highlights: ['survives'], size: 78},
-  {dur: 99, kind: 'text', text: 'Incumbents mistake|the future|for a toy.', highlights: ['toy'], size: 84},
-  {dur: 34, kind: 'impact', text: 'Respect the|novelty.', redBg: true},
-  {dur: 122, kind: 'text', enter: 'slideR', text: 'Leaders dismiss it|right up until|it replaces them.', highlights: ['replaces'], size: 80, media: {src: 'westernunion/clip_circuit.mp4', type: 'video', effect: 'in'}},
-  {dur: 91, kind: 'text', text: 'It looks worse —|until it doesn’t.', highlights: ["doesn’t"], size: 88},
+  {dur: 126, kind: 'hook', text: 'In 1980, they asked|consultants if mobile phones|were worth chasing.', kicker: 'AT&T, 1980', highlights: ['chasing'], size: 66, media: {src: 'att/clip_mobile.mp4', type: 'video', effect: 'in'}},
+  {dur: 45, kind: 'text', text: 'Told no,|it walked away.', highlights: ['away'], size: 92},
+  {dur: 79, kind: 'stat', stat: {pre: 'Getting back cost', prefix: '$', value: 12.5, decimals: 1, suffix: 'B'}},
+  {dur: 33, kind: 'text', text: 'It was|AT&T.', highlights: ['AT&T'], size: 108, media: {src: 'att/p_374122.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', text: 'Its own Bell Labs|invented cellular|telephony.', highlights: ['cellular'], size: 80, media: {src: 'att/p_36962826.jpg', type: 'img', effect: 'in'}},
+  {dur: 111, kind: 'stat', stat: {pre: 'McKinsey projected', value: 900, suffix: 'K', post: 'subscribers by 2000'}},
+  {dur: 72, kind: 'text', text: 'A rounding error beside|the wired network.', highlights: ['rounding'], size: 80, media: {src: 'att/p_2267635.jpg', type: 'img', effect: 'panL'}},
+  {dur: 90, kind: 'text', text: 'So it called mobile|a niche. And stepped back.', highlights: ['niche'], size: 78, media: {src: 'att/clip_boardroom.mp4', type: 'video', effect: 'in'}},
+  {dur: 116, kind: 'text', enter: 'slideL', text: 'It walked away from one|of the century’s|biggest markets.', highlights: ['biggest'], size: 76, media: {src: 'att/clip_crowd.mp4', type: 'video', effect: 'in'}},
+  {dur: 40, kind: 'text', text: 'Then paid|to re-enter.', highlights: ['paid'], size: 92},
+  {dur: 88, kind: 'stat', stat: {pre: 'The real total that year', value: 109, suffix: 'M', post: 'subscribers'}},
+  {dur: 56, kind: 'stat', enter: 'zoom', stat: {pre: 'Off by more than', value: 100, suffix: 'x'}},
+  {dur: 51, kind: 'impact', text: 'A forecast|isn’t the future.', redBg: true},
+  {dur: 59, kind: 'text', text: 'Not even from the|people who built it.', highlights: ['built'], size: 80},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 153, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 371, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 781, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 1081, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 1228, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1329, src: 'media/sfx_whoosh.mp3', vol: 0.45},
-  {at: 1562, src: 'media/sfx_impact.mp3', vol: 0.72},
-  {at: 1596, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 1718, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 126, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 171, src: 'media/sfx_chaching.mp3', vol: 0.5},
+  {at: 250, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 380, src: 'media/sfx_impact.mp3', vol: 0.45},
+  {at: 653, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 809, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 897, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 953, src: 'media/sfx_impact.mp3', vol: 0.72},
 ];
 
 const STARTS: number[] = (() => {
@@ -361,7 +354,7 @@ const Hud: React.FC = () => {
     <>
       <div style={{position: 'absolute', top: 70, left: 80, display: 'flex', alignItems: 'center', gap: 14}}>
         <div style={{width: 11, height: 11, borderRadius: 11, background: C.sub}} />
-        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>Respect the novelty</span>
+        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>The forecast trap</span>
       </div>
       <div style={{position: 'absolute', bottom: 90, left: 80, right: 80, height: 3, borderRadius: 3, background: 'rgba(255,255,255,0.08)'}}>
         <div style={{height: '100%', width: `${progress * 100}%`, borderRadius: 3, background: C.sub}} />
@@ -390,14 +383,14 @@ const renderScene = (s: SceneDef) => {
 };
 
 // ---------------------------------------------------------------------------
-export const WesternUnionReel: React.FC = () => {
+export const AttReel: React.FC = () => {
   const frame = useCurrentFrame();
   const globalOpacity = interpolate(frame, [0, 12, DURATION_IN_FRAMES - 16, DURATION_IN_FRAMES], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill style={{backgroundColor: C.bg}}>
-      {HAS_VOICEOVER ? <Audio src={staticFile('westernunion/voiceover.mp3')} /> : null}
+      {HAS_VOICEOVER ? <Audio src={staticFile('att/voiceover.mp3')} /> : null}
       <Audio
-        src={staticFile('westernunion/music.mp3')}
+        src={staticFile('att/music.mp3')}
         volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.14, 0.14, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       {SFX.map((s, i) => (
