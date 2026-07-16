@@ -438,10 +438,22 @@ export const StorageVideo: React.FC = () => {
           </Sequence>
         ))}
         <Hud />
+        <LogoWatermark />
       </AbsoluteFill>
     </AbsoluteFill>
   );
 };
+
+// Bottom-center brand watermark — 45% opacity, hard edges (drop the client's
+// exact export at public/media/logo.png to replace).
+const LogoWatermark: React.FC = () => (
+  <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'center', pointerEvents: 'none'}}>
+    <Img
+      src={staticFile('media/logo.png')}
+      style={{width: 330, height: 'auto', opacity: 0.45, marginBottom: 200, borderRadius: 0}}
+    />
+  </AbsoluteFill>
+);
 
 const SceneTransition: React.FC<{children: React.ReactNode; enter?: string}> = ({children, enter}) => {
   const frame = useCurrentFrame();

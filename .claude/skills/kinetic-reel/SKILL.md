@@ -44,6 +44,9 @@ you can copy from: `StorageVideo.template.tsx`, `Root.template.tsx`,
   cha-ching on revenue) via an `SFX` cue array.
 - **HUD:** monochrome top label + faux waveform + progress bar.
 - Keep a `HUD` "brand" label per project (e.g. "THE STORAGE MOAT").
+- **Logo watermark:** the client's logo persists **bottom-center at 45% opacity,
+  hard edges** (`LogoWatermark` in the composition, reading
+  `public/media/logo.png`), sitting just above the waveform.
 
 ## Scene kinds (the `SCENES` array)
 
@@ -105,7 +108,18 @@ red (keep it to ONE concept per scene). `media` omitted ⇒ solid black beat.
    for every number, `impact` (redBg) for the punchline, `lines` for lists,
    `enter` transitions on ~1/4 of scenes. Set the `HUD` brand label.
 
-7. **Render + deliver** (see below), then send the compressed copy and commit.
+7. **Logo watermark** — put the client's logo at `public/media/logo.png`
+   (transparent background preferred). The composition overlays it via
+   `LogoWatermark` (bottom-center, 45% opacity, `borderRadius: 0` = hard edges).
+   If the client's file can't be read in the environment (chat attachments don't
+   always land on disk), rebuild the wordmark from `reference/Logo.template.tsx`
+   (a drawn `HardLedgerLogo` + a `Logo` still composition) and export a
+   transparent PNG: `npx remotion still Logo public/media/logo.png
+   --image-format=png --browser-executable=$EXE --ignore-certificate-errors`.
+   Tell the user it's a rebuild and swap their exact export in later — no code
+   change, same path.
+
+8. **Render + deliver** (see below), then send the compressed copy and commit.
 
 ## Rendering in this environment
 
