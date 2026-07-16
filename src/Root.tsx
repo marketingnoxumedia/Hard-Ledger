@@ -1,6 +1,7 @@
 import React from 'react';
 import {Composition} from 'remotion';
 import {StorageVideo, FPS, DURATION_IN_FRAMES, WIDTH, HEIGHT} from './StorageVideo';
+import {YahooReel, DURATION_IN_FRAMES as YAHOO_FRAMES} from './YahooReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -10,6 +11,14 @@ export const RemotionRoot: React.FC = () => {
         id="StorageUnit"
         component={StorageVideo}
         durationInFrames={DURATION_IN_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="YahooReel"
+        component={YahooReel}
+        durationInFrames={YAHOO_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

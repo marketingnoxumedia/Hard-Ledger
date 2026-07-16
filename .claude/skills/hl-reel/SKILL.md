@@ -164,6 +164,24 @@ npx remotion ffmpeg -y -i out/storage-unit.mp4 -c:v libx264 -crf 27 -preset slow
 - **Factual claims**: if a script names a real company / cites financials, render
   it as written but flag that it's unverified before publishing.
 
+## Multiple reels in one repo
+
+Each reel is its own composition so earlier ones stay intact. To add one:
+- Copy `src/StorageVideo.tsx` → `src/<Name>Reel.tsx`; rename the exported
+  component; point its two `<Audio>` srcs at a namespaced folder
+  (`<name>/voiceover.mp3`, `<name>/music.mp3`); set the `HUD` label; replace the
+  `SCENES` + `SFX` arrays.
+- Put that reel's media under `public/<name>/`. **Reuse shared assets** from
+  `public/media/` by referencing them directly — the cloned voice is reusable
+  across reels (same `voice_id`), and `media/logo.png` + `media/sfx_*.mp3` are
+  shared. Finance clips (`clip_chart`, `clip_counting`, `clip_usdollars`,
+  `p_cash_bills`, `p_cash_briefcase`) are reusable across reels too — the
+  no-repeat rule is per-video, not per-repo.
+- Register a new `<Composition id="<Name>Reel" .../>` in `src/Root.tsx`
+  (import its `DURATION_IN_FRAMES` aliased) and render that id.
+- Example in this repo: `src/YahooReel.tsx` (id `YahooReel`) — the "Yahoo, know
+  when to sell" story, alongside the original `StorageUnit`.
+
 ## Adapting the look
 
 Swap the `HUD` label, tune `SH`, or change the accent by editing `C.red`. Keep the
