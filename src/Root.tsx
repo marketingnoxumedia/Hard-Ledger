@@ -5,6 +5,7 @@ import {YahooReel, DURATION_IN_FRAMES as YAHOO_FRAMES} from './YahooReel';
 import {CarWashReel, DURATION_IN_FRAMES as CARWASH_FRAMES} from './CarWashReel';
 import {AttReel, DURATION_IN_FRAMES as ATT_FRAMES} from './AttReel';
 import {OwnershipReel, DURATION_IN_FRAMES as OWNERSHIP_FRAMES} from './OwnershipReel';
+import {LaundromatReel, DURATION_IN_FRAMES as LAUNDROMAT_FRAMES} from './LaundromatReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -46,6 +47,14 @@ export const RemotionRoot: React.FC = () => {
         id="OwnershipReel"
         component={OwnershipReel}
         durationInFrames={OWNERSHIP_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="LaundromatReel"
+        component={LaundromatReel}
+        durationInFrames={LAUNDROMAT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

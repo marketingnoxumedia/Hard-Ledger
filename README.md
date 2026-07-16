@@ -97,6 +97,16 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`LaundromatReel`** — "The laundromat play" (a boring, durable, recession-
+  resistant local cash business). ~53s, footage-forward (only three plain-black
+  beats and one red card). Media credits (Pexels, free license) — videos: coin
+  laundry storefront (9737915), laundry interiors/machines (8756951, 8756892,
+  8756955, 6482495, 8756884, 8756816, 5535852), folded-clothes stacking
+  (5116403). Photos: coin-laundry washers (9669475), patrons waiting (4397175),
+  fan of US dollars (4968663), apartment block with hanging laundry (7189284),
+  pile of quarters (8018103), woman folding in a laundromat (2927523). No hard
+  financials are quoted; the "recession-resistant / low-labour" framing is a
+  general business characterization — sanity-check before publishing.
 - **`OwnershipReel`** — "The ownership gap" (wealth concentration: the top 1%'s
   record share vs the bottom half). ~37s. Mostly full-bleed footage with just
   three plain-black beats (the two stats + one pivot line) and one red card.
