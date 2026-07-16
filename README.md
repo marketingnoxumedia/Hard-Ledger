@@ -98,11 +98,16 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
 - **`OwnershipReel`** — "The ownership gap" (wealth concentration: the top 1%'s
-  record share vs the bottom half). ~37s. Media credits (Pexels, free license) —
-  videos: aerial luxury yacht (31873241), rising candlestick chart (30289537),
-  dark trading-screen with green charts (38412249), aerial night skyline
-  (32258501). Photos: stacked gold bars (386318), white domed luxury mansion
-  (12594566). Note: the figures (top 1% ≈ a third of wealth, bottom 50% ≈ 2.5%,
+  record share vs the bottom half). ~37s. Mostly full-bleed footage with just
+  three plain-black beats (the two stats + one pivot line) and one red card.
+  Media credits (Pexels, free license) — videos: commuters in a station
+  (38342155), night street crowd (3542101), aerial luxury yacht (31873241), NYSE
+  facade (4319342), rising candlestick chart (30289537), dark trading-screen
+  with green charts (38412249), aerial night skyline (32258501). Photos: white
+  domed luxury mansion (12594566), stack of US dollars (7680623), stacked gold
+  bars (386318), aerial residential rooftops (16049973), counting cash at a desk
+  (6694965), business team in an office (1181370). Note: the figures (top 1% ≈ a
+  third of wealth, bottom 50% ≈ 2.5%,
   top 10% ≈ 90% of stocks) track widely reported US Federal Reserve
   distributional data but shift over time — verify against the latest release
   before publishing.
