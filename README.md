@@ -98,7 +98,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
 - **`OwnershipReel`** — "The ownership gap" (wealth concentration: the top 1%'s
-  record share vs the bottom half). ~38s. Media credits (Pexels, free license) —
+  record share vs the bottom half). ~37s. Media credits (Pexels, free license) —
   videos: aerial luxury yacht (31873241), rising candlestick chart (30289537),
   dark trading-screen with green charts (38412249), aerial night skyline
   (32258501). Photos: stacked gold bars (386318), white domed luxury mansion

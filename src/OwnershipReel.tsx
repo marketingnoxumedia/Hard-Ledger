@@ -77,40 +77,41 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 // "The ownership gap" reel — wealth concentration. Durations placed on exact
 // spoken-word timestamps (ElevenLabs alignment) at +6% pace.
-// Total 1144 frames = ~38.1s. `enter` adds a transition on some cuts.
+// Total 1111 frames = ~37.0s. `enter` adds a transition on some cuts.
 // Every scene uses a distinct background sourced fresh for this reel — no
 // footage is shared with any other reel (see the skill's hard rule).
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 78, kind: 'hook', text: 'One group owns|about a third|of everything.', kicker: 'The ownership gap', highlights: ['third'], size: 82, media: {src: 'ownership/clip_yacht.mp4', type: 'video', effect: 'in'}},
-  {dur: 37, kind: 'text', text: 'Not a third|of the income.', highlights: ['income'], size: 92},
-  {dur: 28, kind: 'text', text: 'A third|of the wealth.', highlights: ['wealth'], size: 100, media: {src: 'ownership/p_386318.jpg', type: 'img', effect: 'in'}},
-  {dur: 52, kind: 'text', text: 'That group is|the top one percent.', highlights: ['one', 'percent'], size: 84, media: {src: 'ownership/p_12594566.jpg', type: 'img', effect: 'panR'}},
-  {dur: 75, kind: 'text', text: 'And their share|just hit a record.', highlights: ['record'], size: 86},
-  {dur: 96, kind: 'stat', stat: {pre: 'The bottom half owns', value: 2.5, decimals: 1, suffix: '%'}},
-  {dur: 71, kind: 'lines', text: 'Half the population.|A fortieth|of the wealth.', highlights: ['fortieth'], reveal: [0, 24, 48]},
-  {dur: 59, kind: 'text', text: 'Wealth concentrates|faster than income.', highlights: ['faster'], size: 82, media: {src: 'ownership/clip_trading.mp4', type: 'video', effect: 'in'}},
-  {dur: 69, kind: 'text', text: 'Assets compound.|Wages don’t.', highlights: ['compound'], size: 90},
-  {dur: 90, kind: 'lines', text: 'Stocks. Property.|Businesses.|They grow on themselves.', highlights: ['grow'], reveal: [0, 26, 52]},
+  {dur: 39, kind: 'hook', text: 'The bottom half|of the country.', kicker: 'The ownership gap', highlights: ['half'], size: 88},
+  {dur: 72, kind: 'stat', stat: {pre: 'Owns just', value: 2.5, decimals: 1, suffix: '%', post: 'of its wealth'}},
+  {dur: 72, kind: 'lines', text: 'Half the population.|A fortieth|of the money.', highlights: ['fortieth'], reveal: [0, 24, 48]},
+  {dur: 65, kind: 'text', text: 'At the other end —|one percent of households.', highlights: ['one', 'percent'], size: 78, media: {src: 'ownership/p_12594566.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', text: 'Hold about a third|of everything.', highlights: ['third'], size: 84, media: {src: 'ownership/clip_yacht.mp4', type: 'video', effect: 'in'}},
+  {dur: 41, kind: 'text', text: 'Not a third|of the income.', highlights: ['income'], size: 92},
+  {dur: 38, kind: 'text', text: 'A third|of the wealth.', highlights: ['wealth'], size: 100, media: {src: 'ownership/p_386318.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', text: 'And that share|just hit a record.', highlights: ['record'], size: 86},
+  {dur: 41, kind: 'text', text: 'The reason|is mechanical.', highlights: ['mechanical'], size: 92},
+  {dur: 65, kind: 'text', text: 'Assets compound.|Wages don’t.', highlights: ['compound'], size: 90, media: {src: 'ownership/clip_trading.mp4', type: 'video', effect: 'in'}},
+  {dur: 83, kind: 'lines', text: 'Stocks. Property.|Businesses.|They grow on themselves.', highlights: ['grow'], reveal: [0, 26, 52]},
   {dur: 59, kind: 'text', text: 'A paycheck gets|taxed and spent.', highlights: ['spent'], size: 86},
-  {dur: 120, kind: 'stat', stat: {pre: 'The top 10% own', value: 90, suffix: '%', post: 'of all stocks'}},
-  {dur: 114, kind: 'text', enter: 'slideL', text: 'A rising market widens|the gap automatically.', highlights: ['automatically'], size: 78, media: {src: 'ownership/clip_market.mp4', type: 'video', effect: 'in'}},
-  {dur: 38, kind: 'text', text: 'Not only|earning more.', highlights: ['earning'], size: 94},
-  {dur: 73, kind: 'text', enter: 'zoom', text: 'They own things that|grow while they sleep.', highlights: ['sleep'], size: 80, media: {src: 'ownership/clip_citynight.mp4', type: 'video', effect: 'in'}},
-  {dur: 85, kind: 'impact', text: 'The wealth gap is|an ownership gap.', redBg: true},
+  {dur: 111, kind: 'stat', stat: {pre: 'The top 10% own', value: 90, suffix: '%', post: 'of all stocks'}},
+  {dur: 122, kind: 'text', enter: 'slideL', text: 'Every market rally|widens the gap|on its own.', highlights: ['rally'], size: 78, media: {src: 'ownership/clip_market.mp4', type: 'video', effect: 'in'}},
+  {dur: 39, kind: 'text', text: 'Not only|earning more.', highlights: ['earning'], size: 94},
+  {dur: 65, kind: 'text', enter: 'zoom', text: 'They own things that|rise while they sleep.', highlights: ['sleep'], size: 80, media: {src: 'ownership/clip_citynight.mp4', type: 'video', effect: 'in'}},
+  {dur: 75, kind: 'impact', text: 'The wealth gap is|an ownership gap.', redBg: true},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 78, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 143, src: 'media/sfx_whoosh.mp3', vol: 0.45},
-  {at: 270, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 496, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 714, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 834, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 986, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 1059, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 39, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 248, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 304, src: 'media/sfx_whoosh.mp3', vol: 0.45},
+  {at: 383, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 492, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 699, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 810, src: 'media/sfx_whoosh.mp3', vol: 0.5},
+  {at: 1036, src: 'media/sfx_impact.mp3', vol: 0.72},
 ];
 
 const STARTS: number[] = (() => {
