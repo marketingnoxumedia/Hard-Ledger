@@ -42,8 +42,8 @@ you can copy from: `StorageVideo.template.tsx`, `Root.template.tsx`,
   word-synced to the cuts; an upbeat **ElevenLabs Music** bed ducked under the
   voice; **ElevenLabs SFX** (whoosh on cuts, impact on stat/impact beats,
   cha-ching on revenue) via an `SFX` cue array.
-- **HUD:** monochrome top label + faux waveform + progress bar.
-- Keep a `HUD` "brand" label per project (e.g. "THE STORAGE MOAT").
+- **HUD:** monochrome top-left brand label + a thin bottom progress bar (no
+  waveform). Keep a `HUD` "brand" label per project (e.g. "THE STORAGE MOAT").
 - **Logo watermark:** the client's logo persists **bottom-center at 45% opacity,
   hard edges** (`LogoWatermark` in the composition, reading
   `public/media/logo.png`), sitting just above the waveform.

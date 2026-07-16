@@ -364,22 +364,11 @@ const SceneOutro: React.FC = () => {
 const Hud: React.FC = () => {
   const frame = useCurrentFrame();
   const progress = frame / DURATION_IN_FRAMES;
-  const bars = 40;
   return (
     <>
       <div style={{position: 'absolute', top: 70, left: 80, display: 'flex', alignItems: 'center', gap: 14}}>
         <div style={{width: 11, height: 11, borderRadius: 11, background: C.sub}} />
         <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>The storage moat</span>
-      </div>
-      <div style={{position: 'absolute', bottom: 120, left: 80, right: 80, height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-        {Array.from({length: bars}).map((_, i) => {
-          const seed = Math.sin(i * 12.9898) * 43758.5453;
-          const base = 0.25 + (seed - Math.floor(seed)) * 0.75;
-          const wobble = 0.5 + 0.5 * Math.sin(frame / 4 + i * 0.6);
-          const active = i / bars < progress;
-          const h = 8 + 42 * base * (0.4 + 0.6 * wobble);
-          return <div key={i} style={{width: 6, height: h, borderRadius: 3, background: active ? C.sub : 'rgba(255,255,255,0.1)', opacity: active ? 0.85 : 0.5}} />;
-        })}
       </div>
       <div style={{position: 'absolute', bottom: 90, left: 80, right: 80, height: 3, borderRadius: 3, background: 'rgba(255,255,255,0.08)'}}>
         <div style={{height: '100%', width: `${progress * 100}%`, borderRadius: 3, background: C.sub}} />
@@ -450,7 +439,7 @@ const LogoWatermark: React.FC = () => (
   <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'center', pointerEvents: 'none'}}>
     <Img
       src={staticFile('media/logo.png')}
-      style={{width: 330, height: 'auto', opacity: 0.45, marginBottom: 200, borderRadius: 0}}
+      style={{width: 330, height: 'auto', opacity: 0.45, marginBottom: 130, borderRadius: 0}}
     />
   </AbsoluteFill>
 );
