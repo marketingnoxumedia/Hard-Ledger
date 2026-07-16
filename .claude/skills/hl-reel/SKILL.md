@@ -1,5 +1,5 @@
 ---
-name: kinetic-reel
+name: hl-reel
 description: >-
   Build a 9:16 kinetic-typography short/reel with Remotion in this repo's house
   style — Anton condensed caps on a near-black canvas with ONE red focal word
