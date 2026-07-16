@@ -164,7 +164,10 @@ npx remotion ffmpeg -y -i out/storage-unit.mp4 -c:v libx264 -crf 27 -preset slow
   own footage into `public/<name>/`. The only cross-reel sharing allowed is the
   cloned voice, `media/logo.png`, and `media/sfx_*.mp3`. If you're short an
   asset, convert a scene to solid black/red rather than reusing one. Before
-  rendering, verify: `grep -oE "src: '(media|yahoo|<other-reels>)/[^']+'"
+  rendering, verify: `grep -oE "src: '[^']+'" src/<Name>Reel.tsx` should show
+  ONLY this reel's own `public/<name>/` assets plus the shared
+  `media/sfx_*.mp3` / `media/logo.png`. Equivalently, list every OTHER reel's
+  folder — `grep -oE "src: '(media|yahoo|carwash|westernunion)/[^']+'"
   src/<Name>Reel.tsx | grep -vE 'sfx_|logo'` must return nothing. Reusing
   another reel's clip is a defect to fix, not a shortcut.
 - **Secrets**: the ElevenLabs key is the user's — use it only for API calls, never
@@ -186,8 +189,10 @@ Each reel is its own composition so earlier ones stay intact. To add one:
   another reel's clips (`media/clip_*`, `media/p_*`, `yahoo/*`, etc.).
 - Register a new `<Composition id="<Name>Reel" .../>` in `src/Root.tsx`
   (import its `DURATION_IN_FRAMES` aliased) and render that id.
-- Example in this repo: `src/YahooReel.tsx` (id `YahooReel`) — the "Yahoo, know
-  when to sell" story, alongside the original `StorageUnit`.
+- Examples in this repo alongside the original `StorageUnit`: `src/YahooReel.tsx`
+  ("know when to sell"), `src/CarWashReel.tsx` ("the car wash play"), and
+  `src/WesternUnionReel.tsx` ("respect the novelty"). Each has its own footage
+  under `public/<name>/` — confirm with the grep below before rendering.
 
 ## Adapting the look
 

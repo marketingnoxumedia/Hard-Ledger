@@ -3,6 +3,7 @@ import {Composition} from 'remotion';
 import {StorageVideo, FPS, DURATION_IN_FRAMES, WIDTH, HEIGHT} from './StorageVideo';
 import {YahooReel, DURATION_IN_FRAMES as YAHOO_FRAMES} from './YahooReel';
 import {CarWashReel, DURATION_IN_FRAMES as CARWASH_FRAMES} from './CarWashReel';
+import {WesternUnionReel, DURATION_IN_FRAMES as WU_FRAMES} from './WesternUnionReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -28,6 +29,14 @@ export const RemotionRoot: React.FC = () => {
         id="CarWashReel"
         component={CarWashReel}
         durationInFrames={CARWASH_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="WesternUnionReel"
+        component={WesternUnionReel}
+        durationInFrames={WU_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

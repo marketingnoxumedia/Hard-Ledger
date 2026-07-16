@@ -88,6 +88,25 @@ Audio (all in `public/`):
   stat/impact beats, `sfx_chaching` on the revenue reveal. Cues live in the
   `SFX` array in `src/StorageVideo.tsx`.
 
+## Additional reels
+
+The repo holds several reels in the same house format, each its own Remotion
+composition with its own footage under `public/<name>/` (no photo/video
+background is reused across reels — only the cloned voice, `media/logo.png`, and
+`media/sfx_*.mp3` are shared):
+
+- **`YahooReel`** — "Know when to sell."
+- **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`WesternUnionReel`** — "Respect the novelty" (Western Union reportedly
+  passing on the telephone patent). ~60s. Media credits (Pexels, free license) —
+  videos: vintage rotary phone (1721320), hand with smartphone (8165696),
+  aerial city at night (4066335), circuit board (2376982). Photos: typewriter &
+  telephone on desk (7610808), vintage typewriter (1425146), antique
+  handwritten letter (37947882), power pylons at dusk (3334038), rotary-phone
+  flat lay (8706568), telephone poles at sunset (6726040). Note: the "offered
+  the telephone patent / called it a toy" anecdote is a widely repeated but
+  disputed / apocryphal story — treat it as folklore, not verified history.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
