@@ -97,6 +97,17 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`InflationReel`** — "The inflation tax" ($10,000 left in a safe since 1980
+  quietly loses ~75% of its purchasing power). ~32s, footage-forward with the
+  three count-up stat beats on black and one red card. Media credits (Pexels,
+  free license) — videos: a keypad safe lock (6573544), a vintage coin machine
+  (4836575), a rising candlestick chart (38395147). Photos: a "$10,000" currency
+  band (11624826), a stack of $20 bills (15633963), supermarket price shelves
+  (4437145), a produce aisle with price signs (264636), a supermarket checkout
+  (36772947), an hourglass (9771338). Note: the figures (a 1980 dollar ≈ 25¢
+  today, price level ~4× since 1980, $100 → ~$390) track long-run US CPI but
+  shift with the reference month — verify against the latest BLS data before
+  publishing.
 - **`LaundromatReel`** — "The laundromat play" (a boring, durable, recession-
   resistant local cash business). ~53s, footage-forward (only three plain-black
   beats and one red card). Media credits (Pexels, free license) — videos: coin

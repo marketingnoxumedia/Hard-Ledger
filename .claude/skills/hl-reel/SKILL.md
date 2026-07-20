@@ -167,7 +167,7 @@ npx remotion ffmpeg -y -i out/storage-unit.mp4 -c:v libx264 -crf 27 -preset slow
   rendering, verify: `grep -oE "src: '[^']+'" src/<Name>Reel.tsx` should show
   ONLY this reel's own `public/<name>/` assets plus the shared
   `media/sfx_*.mp3` / `media/logo.png`. Equivalently, list every OTHER reel's
-  folder — `grep -oE "src: '(media|yahoo|carwash|att|ownership|laundromat)/[^']+'"
+  folder — `grep -oE "src: '(media|yahoo|carwash|att|ownership|laundromat|inflation)/[^']+'"
   src/<Name>Reel.tsx | grep -vE 'sfx_|logo'` must return nothing. Reusing
   another reel's clip is a defect to fix, not a shortcut.
 - **Secrets**: the ElevenLabs key is the user's — use it only for API calls, never
@@ -192,7 +192,8 @@ Each reel is its own composition so earlier ones stay intact. To add one:
 - Examples in this repo alongside the original `StorageUnit`: `src/YahooReel.tsx`
   ("know when to sell"), `src/CarWashReel.tsx` ("the car wash play"),
   `src/AttReel.tsx` ("the forecast trap"), `src/OwnershipReel.tsx` ("the
-  ownership gap"), and `src/LaundromatReel.tsx` ("the laundromat play"). Each has
+  ownership gap"), `src/LaundromatReel.tsx` ("the laundromat play"), and
+  `src/InflationReel.tsx` ("the inflation tax"). Each has
   its own footage under `public/<name>/` — confirm with the grep below before
   rendering.
 
