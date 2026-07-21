@@ -97,6 +97,19 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`WasteReel`** — "Own the landfill" (Waste Management: the permit-protected
+  moat of a "hole in the ground"). ~50s. Media credits (Pexels, free license) —
+  videos: a front-loader garbage truck (34421895), a drone shot over a waste
+  facility (10170423). Photos: an aerial trash field (3174347), a landfill hill
+  with skyline (4454064), a landfill at dawn (5424849), an urban garbage truck
+  (35436630), a rubber stamp on documents (18687845), an aerial landfill with an
+  excavator (3181031), an aerial highway with a truck (20684574), trucks along a
+  road (15978610), an aerial fleet of refuse trucks (8783849), a scrap dumpsite
+  (128421), a landfill on a shore (5441305), an official document with a stamp
+  (9858904). **Unverified claims:** names a real company (Waste Management, NYSE:
+  WM) and cites ~$25B revenue, ~17% operating margin, >30% EBITDA margin, and
+  20+ years of dividend increases — verify against WM's latest 10-K before
+  publishing.
 - **`QuibiReel`** — "Money isn't demand" (Quibi burned ~$1.75B and folded ~6
   months after launch). ~48s. Media credits (Pexels, free license) — videos:
   sweeping spotlights (8515272), hand scrolling a phone (9785300). Photos: $100

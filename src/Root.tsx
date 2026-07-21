@@ -9,6 +9,7 @@ import {LaundromatReel, DURATION_IN_FRAMES as LAUNDROMAT_FRAMES} from './Laundro
 import {InflationReel, DURATION_IN_FRAMES as INFLATION_FRAMES} from './InflationReel';
 import {SciReel, DURATION_IN_FRAMES as SCI_FRAMES} from './SciReel';
 import {QuibiReel, DURATION_IN_FRAMES as QUIBI_FRAMES} from './QuibiReel';
+import {WasteReel, DURATION_IN_FRAMES as WASTE_FRAMES} from './WasteReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -82,6 +83,14 @@ export const RemotionRoot: React.FC = () => {
         id="QuibiReel"
         component={QuibiReel}
         durationInFrames={QUIBI_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="WasteReel"
+        component={WasteReel}
+        durationInFrames={WASTE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
