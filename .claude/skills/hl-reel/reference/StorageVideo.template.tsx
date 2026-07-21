@@ -405,7 +405,7 @@ export const StorageVideo: React.FC = () => {
       {HAS_VOICEOVER ? <Audio src={staticFile('voiceover.mp3')} /> : null}
       <Audio
         src={staticFile('media/music.mp3')}
-        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.14, 0.14, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
+        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.17, 0.17, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       {SFX.map((s, i) => (
         <Sequence key={`sfx${i}`} from={s.at} durationInFrames={60} name={`sfx-${i}`}>

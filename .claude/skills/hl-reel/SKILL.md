@@ -100,8 +100,12 @@ red (keep it to ONE concept per scene). `media` omitted ⇒ solid black beat.
 
 5. **Music + SFX (ElevenLabs)**:
    - Music: `POST /v1/music` with `{prompt, music_length_ms}` (match the video
-     length). Save to `public/media/music.mp3`; it plays ducked (~0.14) with a
-     fade envelope in the composition.
+     length). Prompt for an **upbeat, driving** instrumental (that's the tone the
+     client approved). Save to `public/media/music.mp3`; it plays ducked (~0.17)
+     under the full-volume narration, with a fade envelope in the composition.
+     Tune the level at the music `<Audio volume={…}>` line — the client likes it
+     present, not background wallpaper (`0.17` ≈ the current default; earlier
+     reels sat at `0.14`).
    - SFX: `POST /v1/sound-generation` with `{text, duration_seconds}` for
      `sfx_whoosh` / `sfx_impact` / `sfx_chaching`. Place cues in the `SFX` array
      at the `STARTS` of key scenes (cuts, stat reveals, revenue).
