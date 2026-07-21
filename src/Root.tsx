@@ -11,6 +11,7 @@ import {SciReel, DURATION_IN_FRAMES as SCI_FRAMES} from './SciReel';
 import {QuibiReel, DURATION_IN_FRAMES as QUIBI_FRAMES} from './QuibiReel';
 import {WasteReel, DURATION_IN_FRAMES as WASTE_FRAMES} from './WasteReel';
 import {LifetimeReel, DURATION_IN_FRAMES as LIFETIME_FRAMES} from './LifetimeReel';
+import {PestReel, DURATION_IN_FRAMES as PEST_FRAMES} from './PestReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -100,6 +101,14 @@ export const RemotionRoot: React.FC = () => {
         id="LifetimeReel"
         component={LifetimeReel}
         durationInFrames={LIFETIME_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PestReel"
+        component={PestReel}
+        durationInFrames={PEST_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

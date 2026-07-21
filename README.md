@@ -97,6 +97,17 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`PestReel`** — "It kills bugs" (Rollins / Orkin: recurring pest-control
+  revenue guaranteed by biology). ~43s. Media credits (Pexels, free license) —
+  photos: a technician fogging outside a house (19789841), code on a screen
+  (546819), cockroach macros (19294665, 11032990, 6526933), an exterminator in
+  a warehouse (32055757), a fumigation tech (4176548, 36302077), a tech fogging
+  a yard (19789837), a cockroach on a leaf (17177368), a printed receipt
+  (14647295), dashboard GPS navigation (30954662), an aerial intersection
+  (8148350), and an aerial suburban neighborhood (28490242). **Unverified
+  claims:** names a real company (Rollins, NYSE: ROL, parent of Orkin) and cites
+  ~24 straight years of revenue growth, ~$3.8B revenue, and a ~19% operating
+  margin — verify against Rollins's latest 10-K before publishing.
 - **`LifetimeReel`** — "When it starts working" (a lifetime of income, where it
   goes, and how two identical earners end up nowhere near each other). ~50s.
   Media credits (Pexels,
