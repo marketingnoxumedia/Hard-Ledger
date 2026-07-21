@@ -97,6 +97,18 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`LifetimeReel`** — "When it starts working" (a lifetime of income, where it
+  goes, and the cost of starting to invest late). ~51s. Media credits (Pexels,
+  free license) — videos: counting a stack of cash (5466769), dollar bills on a
+  table (11587838). Photos: an empty wallet (8515596), graduates in caps
+  (8106631), a cap and diploma (37945360), a house keychain (29094497), keys to
+  a new home (29726512), a grocery cart (15491800), a 1040 tax form with
+  calculator (6863178), coins forming a rising chart (30711884), a calendar with
+  marked dates (9810172), a coin going into a piggy bank (3943724). Note: the
+  figures (a ~$2.4M lifetime, ~$1.6M/$2.8M lifetime earnings by education,
+  housing/transport/food ≈ 63% of budget, and the 7% compounding examples) are
+  illustrative round numbers drawn from typical US averages — sanity-check the
+  specifics before publishing.
 - **`WasteReel`** — "Own the landfill" (Waste Management: the permit-protected
   moat of a "hole in the ground"). ~50s. Media credits (Pexels, free license) —
   videos: a front-loader garbage truck (34421895), a drone shot over a waste
