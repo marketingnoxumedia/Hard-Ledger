@@ -401,7 +401,7 @@ export const SciReel: React.FC = () => {
       {HAS_VOICEOVER ? <Audio src={staticFile('sci/voiceover.mp3')} /> : null}
       <Audio
         src={staticFile('sci/music.mp3')}
-        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.154, 0.154, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
+        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.1694, 0.1694, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       {SFX.map((s, i) => (
         <Sequence key={`sfx${i}`} from={s.at} durationInFrames={60} name={`sfx-${i}`}>
