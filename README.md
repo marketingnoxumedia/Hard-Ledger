@@ -98,7 +98,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
 - **`LifetimeReel`** — "When it starts working" (a lifetime of income, where it
-  goes, and the cost of starting to invest late). ~51s. Media credits (Pexels,
+  goes, and how two identical earners end up nowhere near each other). ~50s.
+  Media credits (Pexels,
   free license) — videos: counting a stack of cash (5466769), dollar bills on a
   table (11587838). Photos: an empty wallet (8515596), graduates in caps
   (8106631), a cap and diploma (37945360), a house keychain (29094497), keys to

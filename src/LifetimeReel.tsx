@@ -77,43 +77,43 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 // "When it starts working" reel — a lifetime of income, where it goes, and the
 // cost of starting late. Durations placed on exact spoken-word timestamps
-// (ElevenLabs alignment) at +6% pace. Total 1516 frames = ~50.5s. `enter` adds
+// (ElevenLabs alignment) at +6% pace. Total 1499 frames = ~50.0s. `enter` adds
 // a transition on some cuts. Every scene uses a distinct background sourced
 // fresh for this reel — no footage is shared with any other reel (see the
 // skill's hard rule).
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 66, kind: 'hook', text: '$5,000 a month.|For forty years.', kicker: 'A $2.4M life', highlights: ['forty'], size: 84, media: {src: 'lifetime/clip_count.mp4', type: 'video', effect: 'in'}},
-  {dur: 96, kind: 'stat', stat: {pre: 'About', prefix: '$', value: 2.4, decimals: 1, suffix: 'M', post: 'passes through'}, media: {src: 'lifetime/clip_stack.mp4', type: 'video', effect: 'in'}},
-  {dur: 103, kind: 'text', enter: 'slideL', text: 'Almost none of it|stops to stay.', highlights: ['none'], size: 84, media: {src: 'lifetime/p_8515596.jpg', type: 'img', effect: 'in'}},
-  {dur: 114, kind: 'stat', stat: {pre: 'High-school diploma', prefix: '$', value: 1.6, decimals: 1, suffix: 'M', post: 'a career'}, media: {src: 'lifetime/p_8106631.jpg', type: 'img', effect: 'in'}},
-  {dur: 71, kind: 'stat', stat: {pre: 'With a bachelor’s', prefix: '$', value: 2.8, decimals: 1, suffix: 'M'}, media: {src: 'lifetime/p_37945360.jpg', type: 'img', effect: 'in'}},
-  {dur: 59, kind: 'text', text: 'Housing takes|about a third.', highlights: ['housing'], size: 84, media: {src: 'lifetime/p_29094497.jpg', type: 'img', effect: 'in'}},
-  {dur: 130, kind: 'stat', enter: 'slideR', stat: {pre: 'Housing alone', prefix: '$', value: 790, suffix: 'K', post: 'of a $2.4M life'}, media: {src: 'lifetime/p_29726512.jpg', type: 'img', effect: 'in'}},
-  {dur: 92, kind: 'text', text: 'Transport and food —|another thirty percent.', highlights: ['thirty'], size: 74, media: {src: 'lifetime/p_15491800.jpg', type: 'img', effect: 'in'}},
-  {dur: 122, kind: 'stat', stat: {pre: 'The big three eat', value: 63, suffix: '%', bar: 63, post: 'of the budget'}},
-  {dur: 67, kind: 'text', text: 'Add taxes, health,|and insurance.', highlights: ['taxes'], size: 80, media: {src: 'lifetime/p_6863178.jpg', type: 'img', effect: 'in'}},
-  {dur: 83, kind: 'text', text: 'Where did it go?|Nearly everywhere.', highlights: ['everywhere'], size: 80},
-  {dur: 48, kind: 'text', enter: 'zoom', text: 'At a seven|percent return —', highlights: ['seven'], size: 86, media: {src: 'lifetime/p_30711884.jpg', type: 'img', effect: 'in'}},
-  {dur: 164, kind: 'stat', stat: {pre: '$500/mo from age 25', prefix: '$', value: 1.3, decimals: 1, suffix: 'M', post: 'by 65'}},
-  {dur: 103, kind: 'stat', stat: {pre: 'Waiting till 35', prefix: '$', value: 610, suffix: 'K'}},
-  {dur: 69, kind: 'text', text: 'That decade cost|more than half.', highlights: ['half'], size: 82, media: {src: 'lifetime/p_9810172.jpg', type: 'img', effect: 'in'}},
-  {dur: 86, kind: 'text', enter: 'slideL', text: 'What you keep|isn’t what you earn.', highlights: ['keep'], size: 82, media: {src: 'lifetime/p_3943724.jpg', type: 'img', effect: 'in'}},
-  {dur: 43, kind: 'impact', text: 'It’s when it|starts working.', redBg: true},
+  {dur: 101, kind: 'hook', text: 'Most people handle|over two million|in a lifetime.', kicker: 'A $2.4M life', highlights: ['million'], size: 78, media: {src: 'lifetime/clip_count.mp4', type: 'video', effect: 'in'}},
+  {dur: 45, kind: 'text', text: 'And never once|feel wealthy.', highlights: ['wealthy'], size: 86, media: {src: 'lifetime/p_8515596.jpg', type: 'img', effect: 'in'}},
+  {dur: 119, kind: 'text', enter: 'slideL', text: 'The money isn’t missing.|It’s already|spoken for.', highlights: ['spoken'], size: 76, media: {src: 'lifetime/clip_stack.mp4', type: 'video', effect: 'in'}},
+  {dur: 97, kind: 'stat', stat: {pre: 'High-school diploma', prefix: '$', value: 1.6, decimals: 1, suffix: 'M'}, media: {src: 'lifetime/p_8106631.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'stat', stat: {pre: 'A bachelor’s degree', prefix: '$', value: 2.8, decimals: 1, suffix: 'M'}, media: {src: 'lifetime/p_37945360.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'stat', stat: {pre: '$5,000/mo for 40 yrs', prefix: '$', value: 2.4, decimals: 1, suffix: 'M'}},
+  {dur: 44, kind: 'text', text: 'Housing takes|about a third.', highlights: ['housing'], size: 84, media: {src: 'lifetime/p_29094497.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', enter: 'slideR', text: 'Transport and food —|another thirty percent.', highlights: ['thirty'], size: 74, media: {src: 'lifetime/p_15491800.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'stat', stat: {pre: 'The big three eat', value: 63, suffix: '%', bar: 63, post: 'of the budget'}},
+  {dur: 95, kind: 'text', text: 'Before taxes, health|and insurance|touch the rest.', highlights: ['taxes'], size: 74, media: {src: 'lifetime/p_6863178.jpg', type: 'img', effect: 'in'}},
+  {dur: 149, kind: 'text', enter: 'slideL', text: 'Whatever you keep|comes from the third|that’s left.', highlights: ['keep'], size: 74, media: {src: 'lifetime/p_3943724.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', enter: 'zoom', text: 'At an assumed|seven percent —', highlights: ['seven'], size: 84, media: {src: 'lifetime/p_30711884.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'stat', stat: {pre: '$500/mo from age 25', prefix: '$', value: 1.3, decimals: 1, suffix: 'M', post: 'by 65'}},
+  {dur: 100, kind: 'stat', stat: {pre: 'Begun at 35', prefix: '$', value: 610, suffix: 'K'}},
+  {dur: 76, kind: 'text', text: 'Ten years is|more than half|the difference.', highlights: ['half'], size: 76, media: {src: 'lifetime/p_9810172.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', text: 'Two people can earn|identically for|forty years.', highlights: ['identically'], size: 74},
+  {dur: 54, kind: 'impact', text: 'And end up nowhere|near each other.', redBg: true},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 66, src: 'media/sfx_chaching.mp3', vol: 0.5},
+  {at: 146, src: 'media/sfx_whoosh.mp3', vol: 0.45},
   {at: 265, src: 'media/sfx_chaching.mp3', vol: 0.45},
-  {at: 509, src: 'media/sfx_whoosh.mp3', vol: 0.45},
-  {at: 731, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1003, src: 'media/sfx_whoosh.mp3', vol: 0.45},
-  {at: 1051, src: 'media/sfx_chaching.mp3', vol: 0.5},
-  {at: 1215, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1387, src: 'media/sfx_whoosh.mp3', vol: 0.45},
-  {at: 1473, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 441, src: 'media/sfx_chaching.mp3', vol: 0.5},
+  {at: 699, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1034, src: 'media/sfx_whoosh.mp3', vol: 0.45},
+  {at: 1080, src: 'media/sfx_chaching.mp3', vol: 0.5},
+  {at: 1190, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1366, src: 'media/sfx_whoosh.mp3', vol: 0.45},
+  {at: 1445, src: 'media/sfx_impact.mp3', vol: 0.72},
 ];
 
 const STARTS: number[] = (() => {
