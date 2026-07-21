@@ -97,6 +97,22 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`SciReel`** — "The invisible roll-up" (Service Corporation International, the
+  quiet national consolidator of local funeral homes and cemeteries). ~55s.
+  Media credits (Pexels, free license) — videos: memorial candle with teapot
+  (12123574), single candle flame (15667292). Photos: white funeral flowers with
+  ribbon (8986709), signing a business document (8441783), white steepled church
+  (27686680), rows of military headstones (18495412), brick chapel with bell
+  tower (7237663), brick chapel green roof (28674966), tree-lined cemetery
+  (13919893), white lilies on a grave (8963948), vintage cemetery (18759200),
+  signing a contract (261621), senior signing a document (618158), small chapel
+  in a park (28574958), cemetery headstone under blue sky (28525326), rows of
+  white crosses (36070577). **Unverified claims:** this reel names a real public
+  company (Service Corporation International, NYSE: SCI) and cites specific
+  figures — ~700k families/yr, ~1,490 funeral homes, ~496 cemeteries, $4.186B
+  revenue, ~22% operating margin, ~$928M operating income. Treat these as
+  approximate and verify against SCI's latest 10-K/annual report before
+  publishing.
 - **`InflationReel`** — "The inflation tax" ($10,000 left in a safe since 1980
   quietly loses ~75% of its purchasing power). ~32s, footage-forward with the
   three count-up stat beats on black and one red card. Media credits (Pexels,
