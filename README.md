@@ -97,6 +97,16 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`QuibiReel`** — "Money isn't demand" (Quibi burned ~$1.75B and folded ~6
+  months after launch). ~48s. Media credits (Pexels, free license) — videos:
+  sweeping spotlights (8515272), hand scrolling a phone (9785300). Photos: $100
+  bills (14820469), a film set with clapperboard (8088386), empty dark cinema
+  seats (7234225), hands holding a phone with a blank screen (6611922), scattered
+  $100 bills (5466788), a film-camera monitor (8089248), a hand holding cash
+  (14820420), empty numbered theater seats (8159242), a "CLOSED" storefront sign
+  (16723181). **Unverified claims:** names a real company (Quibi) and cites ~$1.75B
+  raised and an April→December 2020 timeline — widely reported but verify before
+  publishing.
 - **`SciReel`** — "The invisible roll-up" (Service Corporation International, the
   quiet national consolidator of local funeral homes and cemeteries). ~55s.
   Media credits (Pexels, free license) — videos: memorial candle with teapot

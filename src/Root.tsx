@@ -8,6 +8,7 @@ import {OwnershipReel, DURATION_IN_FRAMES as OWNERSHIP_FRAMES} from './Ownership
 import {LaundromatReel, DURATION_IN_FRAMES as LAUNDROMAT_FRAMES} from './LaundromatReel';
 import {InflationReel, DURATION_IN_FRAMES as INFLATION_FRAMES} from './InflationReel';
 import {SciReel, DURATION_IN_FRAMES as SCI_FRAMES} from './SciReel';
+import {QuibiReel, DURATION_IN_FRAMES as QUIBI_FRAMES} from './QuibiReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -73,6 +74,14 @@ export const RemotionRoot: React.FC = () => {
         id="SciReel"
         component={SciReel}
         durationInFrames={SCI_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="QuibiReel"
+        component={QuibiReel}
+        durationInFrames={QUIBI_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
