@@ -97,6 +97,18 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`ParcReel`** — "The cash-cow trap" (Xerox PARC invented modern computing and
+  captured almost none of it). ~48s. Media credits (Pexels, free license) —
+  photos: a vintage "General" desktop computer (35378672), a Commodore CRT
+  (9140593), a row of vintage CRT monitors (9140600), hands on a retro computer
+  (9140591), a green circuit board (459411), a photocopier in use (9301897,
+  3791246), stacks of cash (6266622), an Apple II with green screen (9140597),
+  vintage Apple Macintosh computers (37148208), a briefcase of cash (6266770),
+  an office tower at dusk (16960662), and a vintage Epson by a window (35014684).
+  **Unverified claims:** references real companies (Xerox, Apple, Microsoft) and
+  the historical PARC story (the 1979 Steve Jobs visit; PARC's invention of the
+  GUI, mouse and ethernet) — widely told but verify the specifics before
+  publishing.
 - **`PestReel`** — "It kills bugs" (Rollins / Orkin: recurring pest-control
   revenue guaranteed by biology). ~43s. Media credits (Pexels, free license) —
   photos: a technician fogging outside a house (19789841), code on a screen
