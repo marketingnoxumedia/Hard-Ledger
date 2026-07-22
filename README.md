@@ -97,6 +97,25 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`PayFirstReel`** — "Pay yourself first" (record household debt and a
+  rock-bottom saving rate are one story — the gap between spending and income
+  fills with ~21%-rate credit; wealth is what you remove before you spend, not
+  what's left after). ~42s, footage-forward with the red "wealth isn't what's
+  left over" `impact` card at the penultimate beat and a closing
+  coin-into-savings media beat rather than the red card. Media credits (Pexels,
+  free license) — photos: a pile of credit cards (32641818), cash and cards on
+  a desk (6266627), hands opening an empty wallet (8719576), a stressed person
+  with a card (7534380), a falling stock chart (7054384), a coin jar with a
+  calculator (9821387), red shopping bags (7318916), a hand holding a credit
+  card (5849580), a desk calendar (29509491), a coin going into a piggy bank
+  (1602726), a Mastercard close-up (210742), a person holding a gold card
+  (11006806), a bearish market-trend analysis (36633901), a hand holding a
+  "Savings" jar (9755383), a shopper with a bag and card (7679727), and a hand
+  dropping a coin into a gold piggy bank (12956000, closing beat). **Unverified
+  claims:** cites a record ~$18.8T in US household debt, a personal saving rate
+  in the low single digits (vs ~10% decades ago), and ~21% average card rates —
+  broadly consistent with recent NY Fed / BEA / Fed figures, but verify the
+  current numbers before publishing.
 - **`ToysReel`** — "The leverage trap" (Toys R Us wasn't beaten by a better
   product — a 2005 leveraged buyout loaded it with ~$5B of debt whose interest
   starved the stores as Amazon and Walmart arrived). ~50s, footage-forward with
