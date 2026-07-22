@@ -97,6 +97,26 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`ToysReel`** — "The leverage trap" (Toys R Us wasn't beaten by a better
+  product — a 2005 leveraged buyout loaded it with ~$5B of debt whose interest
+  starved the stores as Amazon and Walmart arrived). ~50s, footage-forward with
+  the red "leverage cuts both ways" `impact` card at the penultimate beat and a
+  closing lone-teddy-bear media beat rather than the red card. Media credits
+  (Pexels, free license) — photos: packaged plush toys on shelves (31112564),
+  toy robots and superheroes in a shop (6390193), tax documents with a
+  calculator (6863282), a vibrant toy-store interior (36625295), a business
+  handshake in suits (6918507), a fan of $100 bills on black (6590645), a desk
+  with a financial report and calculator (33175667), a woman shopping among
+  toys (29790215), penguin plush toys on shelves (691125), financial analysis
+  with a calculator (33175651), a stack of cardboard boxes in a warehouse
+  (29653988), scattered dollar bills on a dark surface (34746298), a sparse
+  supermarket hallway (7451936), an empty mall with a shuttered store
+  (27452443), a store "sale" sign (5699156), a clearance discount sign
+  (10826514), and a lone teddy bear slumped in a dim corner (30027302, closing
+  beat). **Unverified claims:** names a real company (Toys R Us) and cites the
+  ~$6.6B 2005 KKR/Bain/Vornado LBO, ~$5B of debt, ~$400M/yr interest, and the
+  2017 bankruptcy / 2018 US liquidation — widely reported but verify the
+  specifics before publishing.
 - **`CintasReel`** — "The rental machine" (Cintas rents businesses their own
   uniforms and launders them on recurring contracts — a garment becomes an
   annuity). ~48s, footage-forward with the "one garment / an annuity" red
