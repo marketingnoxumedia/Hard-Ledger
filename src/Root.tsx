@@ -14,6 +14,7 @@ import {LifetimeReel, DURATION_IN_FRAMES as LIFETIME_FRAMES} from './LifetimeRee
 import {PestReel, DURATION_IN_FRAMES as PEST_FRAMES} from './PestReel';
 import {ParcReel, DURATION_IN_FRAMES as PARC_FRAMES} from './ParcReel';
 import {RefundReel, DURATION_IN_FRAMES as REFUND_FRAMES} from './RefundReel';
+import {CintasReel, DURATION_IN_FRAMES as CINTAS_FRAMES} from './CintasReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -127,6 +128,14 @@ export const RemotionRoot: React.FC = () => {
         id="RefundReel"
         component={RefundReel}
         durationInFrames={REFUND_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="CintasReel"
+        component={CintasReel}
+        durationInFrames={CINTAS_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

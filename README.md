@@ -97,6 +97,24 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`CintasReel`** — "The rental machine" (Cintas rents businesses their own
+  uniforms and launders them on recurring contracts — a garment becomes an
+  annuity). ~48s, footage-forward with the "one garment / an annuity" red
+  `impact` card mid-reel and a closing service-van beat rather than the red
+  card. Media credits (Pexels, free license) — photos: shirts on a wooden
+  hanger rack (18880644), a stack of folded linens (11733651), warehouse staff
+  in uniform (4484152), hands holding folded shirts (4440574), dress shirts on
+  hangers (965632), an industrial washing machine (8774414), a worker in a
+  hi-vis safety vest (36122947), a driver at a service van (7843970), workers
+  handling fabric in a laundry (8774570), a worker with a cart of linens
+  (8774638), a professional handshake over a contract (17682883), uniformed
+  workers folding garments (31251590), industrial workers in safety gear
+  (32845683), an aerial city skyline (28279109), workers at industrial washers
+  (8774639), and a driver stepping out of a delivery van (6169135, closing
+  beat). **Unverified claims:** names a real public company (Cintas, NASDAQ:
+  CTAS) and cites ~1M+ business customers, ~$10.3B revenue, a ~22% operating
+  margin, and ~$1.8B profit — verify against Cintas's latest 10-K before
+  publishing.
 - **`RefundReel`** — "The refund trap" (a tax refund is your own money returned
   late, interest-free — a no-interest loan you didn't mean to make). ~41.5s,
   footage-forward and ending on a wall-clock beat rather than the red card (the
