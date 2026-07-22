@@ -67,6 +67,19 @@ red (keep it to ONE concept per scene). `media` omitted ⇒ solid black beat.
 
 `DURATION_IN_FRAMES` is derived from the sum of `dur`s — no need to set it.
 
+**Don't end every reel on the solid-red `impact` card.** The client flagged the
+red-background closer as too repetitive across reels — it had become the default
+last beat. The red `impact` card is a great punch, but VARY where the reel lands:
+rotate the closer so it isn't the same device every time. Good endings to mix in:
+- a full-bleed **media beat** whose caption carries the red focal word (close on
+  the footage, not a flat colour);
+- a **black beat** with the payoff line and one red token;
+- put the red `impact` card **mid-reel** (e.g. the thesis) and resolve on a
+  quieter media/black line after it;
+- a short reveal (`enter: 'zoom'`) on the final image.
+Use the solid-red card for maybe one reel in three, not as the house ending. One
+red focal token per scene is still the rule — this is only about the *final beat*.
+
 ## Build a new reel — step by step
 
 1. **Scaffold** (if not already a Remotion project): copy `reference/package.json`,
@@ -111,8 +124,10 @@ red (keep it to ONE concept per scene). `media` omitted ⇒ solid black beat.
      at the `STARTS` of key scenes (cuts, stat reveals, revenue).
 
 6. **Fill in `SCENES`** — write the beats: one red focal token each, pick `stat`
-   for every number, `impact` (redBg) for the punchline, `lines` for lists,
-   `enter` transitions on ~1/4 of scenes. Set the `HUD` brand label.
+   for every number, `impact` (redBg) for a punchline beat, `lines` for lists,
+   `enter` transitions on ~1/4 of scenes. Set the `HUD` brand label. **Vary the
+   closer — don't default to the red card as the ending** (see the scene-kinds
+   note above); rotate how each reel lands.
 
 7. **Logo watermark** — put the client's logo at `public/media/logo.png`
    (transparent background preferred). The composition overlays it via
