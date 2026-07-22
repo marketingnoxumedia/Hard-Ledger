@@ -97,6 +97,23 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`RefundReel`** — "The refund trap" (a tax refund is your own money returned
+  late, interest-free — a no-interest loan you didn't mean to make). ~41.5s,
+  footage-forward and ending on a wall-clock beat rather than the red card (the
+  red `impact` sits at the penultimate thesis beat). Media credits (Pexels, free
+  license) — photos: a blurred 1040 income-tax return (7688995), a macro of
+  stacked $100 bills (3531895), a hand fanning $20 bills (545065), a quartz clock
+  face (8102178), tax paperwork with a calculator (6694543), hands stacking coins
+  (9755376), the US Capitol dome (12505005), a hand dropping a stamped envelope
+  into a mailbox (1550334), a digital stock-market chart (7567223), a candlestick
+  trading screen (6770610), a hand holding a payroll cheque (6862457), a person
+  smiling with a fan of cash (7680634), assorted US bills on black (6590651), a
+  ribbon-wrapped gift (1661959), and a wooden wall clock (191703, closing beat).
+  **Unverified claims:** the figures are illustrative round numbers — a ~$3,300
+  average refund, ~$275/month overpaid, a 7% assumed return, and ~$335K
+  compounded over a career. They're arithmetic on stated assumptions, not a
+  claim about any specific person or year; sanity-check the average-refund and
+  return assumptions before publishing.
 - **`ParcReel`** — "The cash-cow trap" (Xerox PARC invented modern computing and
   captured almost none of it). ~48s. Media credits (Pexels, free license) —
   photos: a vintage "General" desktop computer (35378672), a Commodore CRT

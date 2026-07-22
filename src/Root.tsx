@@ -13,6 +13,7 @@ import {WasteReel, DURATION_IN_FRAMES as WASTE_FRAMES} from './WasteReel';
 import {LifetimeReel, DURATION_IN_FRAMES as LIFETIME_FRAMES} from './LifetimeReel';
 import {PestReel, DURATION_IN_FRAMES as PEST_FRAMES} from './PestReel';
 import {ParcReel, DURATION_IN_FRAMES as PARC_FRAMES} from './ParcReel';
+import {RefundReel, DURATION_IN_FRAMES as REFUND_FRAMES} from './RefundReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -118,6 +119,14 @@ export const RemotionRoot: React.FC = () => {
         id="ParcReel"
         component={ParcReel}
         durationInFrames={PARC_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="RefundReel"
+        component={RefundReel}
+        durationInFrames={REFUND_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
