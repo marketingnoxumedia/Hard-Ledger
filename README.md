@@ -97,6 +97,25 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`VulcanReel`** — "The gravel moat" (Vulcan Materials, the largest US
+  aggregates producer — its moat is physics: crushed stone is too cheap per
+  tonne and too costly to move for a distant rival to compete, and permitting
+  freezes the quarry map). ~46s, footage-forward with the red "weight is the
+  whole moat" `impact` card mid-reel and a closing quarry-aerial beat rather
+  than the red card. Media credits (Pexels, free license) — photos: an aerial
+  sand/aggregate quarry (33122147), a gray stone texture (237950), a crushed
+  gravel heap (5799727), a yellow mining truck (34150285), an open-pit mine
+  (33122148), excavators in a rocky pit (6553283), a shovel in a gravel pile
+  (26925731), an industrial quarry conveyor (31096912), an asphalt paver on a
+  road (37820986), a dump truck unloading rock (35177799), a highway paving
+  machine (29181420), a dump truck in a dusty quarry (14704774), a printed map
+  (31067412), an open-pit mining site (36236254), an aerial mining-earth
+  pattern (288096), city construction cranes (30617023), a sand quarry with
+  machinery (33122152), a macro gravel texture (4599912), and a top-down aerial
+  of a mine with conveyors (6542371, closing beat). **Unverified claims:** names
+  a real public company (Vulcan Materials, NYSE: VMC) and cites ~$7.9B revenue,
+  ~$1B net income, and its status as the largest US aggregates producer —
+  verify against Vulcan's latest 10-K before publishing.
 - **`PayFirstReel`** — "Pay yourself first" (record household debt and a
   rock-bottom saving rate are one story — the gap between spending and income
   fills with ~21%-rate credit; wealth is what you remove before you spend, not
