@@ -18,6 +18,7 @@ import {CintasReel, DURATION_IN_FRAMES as CINTAS_FRAMES} from './CintasReel';
 import {ToysReel, DURATION_IN_FRAMES as TOYS_FRAMES} from './ToysReel';
 import {PayFirstReel, DURATION_IN_FRAMES as PAYFIRST_FRAMES} from './PayFirstReel';
 import {VulcanReel, DURATION_IN_FRAMES as VULCAN_FRAMES} from './VulcanReel';
+import {SearsReel, DURATION_IN_FRAMES as SEARS_FRAMES} from './SearsReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -163,6 +164,14 @@ export const RemotionRoot: React.FC = () => {
         id="VulcanReel"
         component={VulcanReel}
         durationInFrames={VULCAN_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="SearsReel"
+        component={SearsReel}
+        durationInFrames={SEARS_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
