@@ -104,7 +104,7 @@ const SCENES: SceneDef[] = [
   {dur: 80, kind: 'stat', stat: {pre: 'Operating income', prefix: '$', value: 928, suffix: 'M'}},
   {dur: 48, kind: 'text', enter: 'zoom', text: 'The most certain|market on earth.', highlights: ['certain'], size: 80, media: {src: 'sci/clip_candle.mp4', type: 'video', effect: 'in'}},
   {dur: 92, kind: 'text', text: 'Consolidated quietly|under hundreds|of local signs.', highlights: ['quietly'], size: 72, media: {src: 'sci/p_36070577.jpg', type: 'img', effect: 'panL'}},
-  {dur: 76, kind: 'impact', text: 'No marketing war.|No demand risk.', redBg: true},
+  {dur: 76, kind: 'text', enter: 'zoom', text: 'No marketing war.|No demand risk.', highlights: ['demand'], size: 78, media: {src: 'sci/p_6375819.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.

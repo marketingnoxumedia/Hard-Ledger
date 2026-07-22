@@ -99,7 +99,7 @@ const SCENES: SceneDef[] = [
   {dur: 78, kind: 'stat', stat: {pre: 'Revenue', prefix: '$', value: 3.8, decimals: 1, suffix: 'B'}},
   {dur: 59, kind: 'stat', stat: {pre: 'Operating margin', value: 19, suffix: '%', bar: 19}},
   {dur: 56, kind: 'text', text: 'A problem that|never goes away…', highlights: ['problem'], size: 80, media: {src: 'pest/p_6526933.jpg', type: 'img', effect: 'in'}},
-  {dur: 84, kind: 'impact', text: '…makes revenue that|never goes away.', redBg: true},
+  {dur: 84, kind: 'text', enter: 'zoom', text: '…makes revenue that|never goes away.', highlights: ['revenue'], size: 76, media: {src: 'pest/p_20793769.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.

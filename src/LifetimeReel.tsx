@@ -99,7 +99,7 @@ const SCENES: SceneDef[] = [
   {dur: 100, kind: 'stat', stat: {pre: 'Begun at 35', prefix: '$', value: 610, suffix: 'K'}},
   {dur: 76, kind: 'text', text: 'Ten years is|more than half|the difference.', highlights: ['half'], size: 76, media: {src: 'lifetime/p_9810172.jpg', type: 'img', effect: 'in'}},
   {dur: 79, kind: 'text', text: 'Two people can earn|identically for|forty years.', highlights: ['identically'], size: 74},
-  {dur: 54, kind: 'impact', text: 'And end up nowhere|near each other.', redBg: true},
+  {dur: 54, kind: 'text', enter: 'zoom', text: 'And end up nowhere|near each other.', highlights: ['nowhere'], size: 76, media: {src: 'lifetime/p_17342281.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.

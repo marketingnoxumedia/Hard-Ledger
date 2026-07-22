@@ -100,7 +100,7 @@ const SCENES: SceneDef[] = [
   {dur: 51, kind: 'text', text: 'Technologies worth|trillions.', highlights: ['trillions'], size: 88, media: {src: 'parc/p_6266770.jpg', type: 'img', effect: 'in'}},
   {dur: 82, kind: 'text', enter: 'zoom', text: 'Invented in one building.|Monetised in|others.', highlights: ['others'], size: 76, media: {src: 'parc/p_16960662.jpg', type: 'img', effect: 'in'}},
   {dur: 56, kind: 'text', text: 'A breakthrough only pays|if you’ll disrupt…', highlights: ['disrupt'], size: 74, media: {src: 'parc/p_35014684.jpg', type: 'img', effect: 'in'}},
-  {dur: 64, kind: 'impact', text: '…your own|cash cow.', redBg: true},
+  {dur: 64, kind: 'text', enter: 'zoom', text: '…your own|cash cow.', highlights: ['cash'], size: 84, media: {src: 'parc/p_4588678.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.

@@ -104,7 +104,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (9140591), a green circuit board (459411), a photocopier in use (9301897,
   3791246), stacks of cash (6266622), an Apple II with green screen (9140597),
   vintage Apple Macintosh computers (37148208), a briefcase of cash (6266770),
-  an office tower at dusk (16960662), and a vintage Epson by a window (35014684).
+  an office tower at dusk (16960662), a vintage Epson by a window (35014684), and
+  a fan of burnt banknotes on a wooden table (4588678, closing beat).
   **Unverified claims:** references real companies (Xerox, Apple, Microsoft) and
   the historical PARC story (the 1979 Steve Jobs visit; PARC's invention of the
   GUI, mouse and ethernet) — widely told but verify the specifics before
@@ -116,7 +117,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   a warehouse (32055757), a fumigation tech (4176548, 36302077), a tech fogging
   a yard (19789837), a cockroach on a leaf (17177368), a printed receipt
   (14647295), dashboard GPS navigation (30954662), an aerial intersection
-  (8148350), and an aerial suburban neighborhood (28490242). **Unverified
+  (8148350), an aerial suburban neighborhood (28490242), and a suburban home
+  under a crescent moon at dusk (20793769, closing beat). **Unverified
   claims:** names a real company (Rollins, NYSE: ROL, parent of Orkin) and cites
   ~24 straight years of revenue growth, ~$3.8B revenue, and a ~19% operating
   margin — verify against Rollins's latest 10-K before publishing.
@@ -128,7 +130,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (8106631), a cap and diploma (37945360), a house keychain (29094497), keys to
   a new home (29726512), a grocery cart (15491800), a 1040 tax form with
   calculator (6863178), coins forming a rising chart (30711884), a calendar with
-  marked dates (9810172), a coin going into a piggy bank (3943724). Note: the
+  marked dates (9810172), a coin going into a piggy bank (3943724), and a forked
+  country road under a grey sky (17342281, closing beat). Note: the
   figures (a ~$2.4M lifetime, ~$1.6M/$2.8M lifetime earnings by education,
   housing/transport/food ≈ 63% of budget, and the 7% compounding examples) are
   illustrative round numbers drawn from typical US averages — sanity-check the
@@ -166,7 +169,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (13919893), white lilies on a grave (8963948), vintage cemetery (18759200),
   signing a contract (261621), senior signing a document (618158), small chapel
   in a park (28574958), cemetery headstone under blue sky (28525326), rows of
-  white crosses (36070577). **Unverified claims:** this reel names a real public
+  white crosses (36070577), and rows of white gravestones on green lawn
+  (6375819, closing beat). **Unverified claims:** this reel names a real public
   company (Service Corporation International, NYSE: SCI) and cites specific
   figures — ~700k families/yr, ~1,490 funeral homes, ~496 cemeteries, $4.186B
   revenue, ~22% operating margin, ~$928M operating income. Treat these as
