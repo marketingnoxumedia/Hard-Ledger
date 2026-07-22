@@ -101,16 +101,17 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   century before Amazon, then couldn't build the online version of itself
   because it would have undercut the stores that made the profit). ~43s,
   footage-forward with the red "bankrupt / 2018" `impact` card near the end and
-  a closing abandoned-store media beat rather than the red card. Media credits
-  (Pexels, free license) — photos: a historic shopping-arcade facade (32122734),
-  a vintage newspaper display (17660925), a stained-glass department-store dome
-  (36963719), a shopping cart on a laptop (5632382), a grand glass-ceilinged
-  store (15382149), an ornate department-store interior (11909534), a stack of
-  old newspapers (10669434), a retro lamp with newspaper (15044919), black-and-
-  white newsprint (13081133), warehouse fulfillment shelving (38195854), a
-  classic shopping center (18197630), a woman shopping online with a card
-  (6207729), a warehouse aisle of boxes (8377802), a logistics aisle with
-  pallets (24862481), a shuttered market alley (4960603), hanging vintage
+  a closing abandoned-store media beat rather than the red card. Mixes video
+  clips with stills. Media credits (Pexels, free license) — videos: shopping
+  online with a card at a laptop (6994676), a woman entering card details on a
+  laptop (6607112), parcels moving on a sorting conveyor (5903898), and an
+  automated warehouse packing line (32386619). Photos: a historic
+  shopping-arcade facade (32122734), a vintage newspaper display (17660925), a
+  stained-glass department-store dome (36963719), a grand glass-ceilinged store
+  (15382149), an ornate department-store interior (11909534), a stack of old
+  newspapers (10669434), a retro lamp with newspaper (15044919), black-and-
+  white newsprint (13081133), a classic shopping center (18197630), a warehouse
+  aisle of boxes (8377802), a shuttered market alley (4960603), hanging vintage
   newspapers (34392837), and an abandoned shopping cart in a derelict room
   (9539134, closing beat). **Unverified claims:** names a real company (Sears)
   and cites its ~century as a retail titan, its mail-order catalog heritage, and
