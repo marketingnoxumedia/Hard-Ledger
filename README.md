@@ -166,6 +166,29 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   bottle (video 4114386). The "79 days," blind-taste-test, and "stronger brand"
   points are historical claims rendered as written; sanity-check the specifics
   and clear the brand imagery for your use case before publishing.
+- **`RatioReel`** — "The goalpost moved" (home affordability is set by the
+  price-to-income *multiple*, not the sticker: around 1980 a typical US home
+  cost ~3× household income; today it's closer to ~5×, with the median home
+  around $410K against a median income near $84K — the house didn't change, the
+  multiple did, and higher mortgage rates on a bigger multiple compound the
+  squeeze, so the same job buys less house). ~53s, footage-forward and mixing
+  video clips with stills, with the red "the goalpost moved" `impact` card late
+  and a closing lit-home-at-dusk beat ("five times now") rather than the red
+  card. Media credits (Pexels, free license) — videos: an aerial suburban
+  neighborhood (4770380), hands counting cash with a calculator (8479058), a
+  worker framing a house (19654640), and a realtor greeting home-buying clients
+  (8814975). Photos: a white-picket-fence home (5587941), a two-storey suburban
+  house (164558), a "For Sale" yard sign at golden hour (32519068), a wallet of
+  dollar bills (4430243), a two-story home with driveway (5353883), a hand
+  holding a stack of bills (4691477), paper trend lines climbing (7947709), a
+  couple reviewing bills with concern (6963889), a classic red-brick house
+  (36086367), a modern family home (5071130), a check and financial ledgers
+  (15240212), mortgage-rate documents with a calculator (8292895), a home with a
+  prominent "For Sale" sign (7578855), a miniature house with keys and a
+  contract (12955837), and a warmly lit home at dusk (1396132, closing beat).
+  **Unverified claims:** the figures — ~3× income c.1980, ~5× today, ~$410K
+  median home, ~$84K median income — are illustrative and rendered as written;
+  they drift over time, so sanity-check against current data before publishing.
 - **`QwiksterReel`** — "The 3-week reversal" (Netflix's 2011 Qwikster fiasco:
   it split DVD and streaming, raised prices and renamed the DVD side, watched
   subscribers revolt, then killed the plan, admitted the mistake, and refocused

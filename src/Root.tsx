@@ -25,6 +25,7 @@ import {QwiksterReel, DURATION_IN_FRAMES as QWIKSTER_FRAMES} from './QwiksterRee
 import {MillionaireReel, DURATION_IN_FRAMES as MILLIONAIRE_FRAMES} from './MillionaireReel';
 import {WaterReel, DURATION_IN_FRAMES as WATER_FRAMES} from './WaterReel';
 import {CokeReel, DURATION_IN_FRAMES as COKE_FRAMES} from './CokeReel';
+import {RatioReel, DURATION_IN_FRAMES as RATIO_FRAMES} from './RatioReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -226,6 +227,14 @@ export const RemotionRoot: React.FC = () => {
         id="CokeReel"
         component={CokeReel}
         durationInFrames={COKE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="RatioReel"
+        component={RatioReel}
+        durationInFrames={RATIO_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
