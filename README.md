@@ -118,6 +118,30 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   first-generation" and "top professions" claims echo the *Millionaire Next
   Door* research and similar studies; treat the exact proportion as approximate
   and sanity-check before publishing.
+- **`WaterReel`** — "Regulation as a moat" (the American Water story: one
+  business whose demand can't fall to zero, with no substitute and no
+  legally-allowed competitor; the regulator *is* the business model — rates are
+  set to earn an allowed return on invested capital, so reinvesting in pipes and
+  plants is the mechanism by which earnings grow). ~59s, footage-forward and
+  mixing video clips with stills, with the red "regulation as a moat" `impact`
+  card late-mid and a closing reservoir-outfall beat ("engineered, not won")
+  rather than the red card. Media credits (Pexels, free license) — videos: a
+  drone shot of a water-treatment facility (5115937), water flowing from
+  discharge pipes (36928186), a running tap (2236003), and an aerial river
+  outfall/dam (27114632). Photos: a reservoir dam intake tower (13543724), large
+  iron pipes against the sky (4245539), a water-purification facility from the
+  air (5712211), clarifier and aeration basins from above (35425759), a circular
+  treatment structure (27490881), a gavel on a courtroom desk (5668484), a stack
+  of US dollar bills (30795043), a rising financial chart (30268012), a clean
+  glass of water on a table (7402619), large industrial water pipes with valves
+  (32502650), fanned hundred-dollar bills (18921474), a green financial graph
+  (5784807), blue water-treatment tanks (36926327), an aerial turquoise
+  reservoir (28283852), and a bullish upward chart (30268013, growth beat).
+  **Unverified claims:** the financials attributed to American Water (NYSE: AWK)
+  — ~$1.137B regulated net income, adjusted EPS up ~8.9%, ~$3.2B reinvested, and
+  a 7–9% growth target — are rendered as written in the client script and have
+  **not** been independently verified; confirm against the company's latest
+  filings before publishing.
 - **`QwiksterReel`** — "The 3-week reversal" (Netflix's 2011 Qwikster fiasco:
   it split DVD and streaming, raised prices and renamed the DVD side, watched
   subscribers revolt, then killed the plan, admitted the mistake, and refocused
