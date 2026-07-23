@@ -21,6 +21,7 @@ import {VulcanReel, DURATION_IN_FRAMES as VULCAN_FRAMES} from './VulcanReel';
 import {SearsReel, DURATION_IN_FRAMES as SEARS_FRAMES} from './SearsReel';
 import {FeeReel, DURATION_IN_FRAMES as FEE_FRAMES} from './FeeReel';
 import {FastenalReel, DURATION_IN_FRAMES as FASTENAL_FRAMES} from './FastenalReel';
+import {QwiksterReel, DURATION_IN_FRAMES as QWIKSTER_FRAMES} from './QwiksterReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -190,6 +191,14 @@ export const RemotionRoot: React.FC = () => {
         id="FastenalReel"
         component={FastenalReel}
         durationInFrames={FASTENAL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="QwiksterReel"
+        component={QwiksterReel}
+        durationInFrames={QWIKSTER_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

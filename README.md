@@ -97,6 +97,27 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`QwiksterReel`** — "The 3-week reversal" (Netflix's 2011 Qwikster fiasco:
+  it split DVD and streaming, raised prices and renamed the DVD side, watched
+  subscribers revolt, then killed the plan, admitted the mistake, and refocused
+  — all in ~3 weeks, before a decade of growth). ~52s, footage-forward and
+  mixing video clips with stills, with the red "reversing fast is a skill"
+  `impact` card near the end and a closing calendar recap beat rather than the
+  red card. Media credits (Pexels, free license) — videos: a hand with a TV
+  remote (7184588), a spinning optical disc (4211106), a red downtrend market
+  chart (35606045), and a rising market chart (38412249). Photos: a smart TV
+  showing a streaming interface (5202925), executives in a boardroom (7433849),
+  a U-turn road sign (9900008), a shelf of DVD movie cases (14213112), a
+  strategy meeting (7648468), a stack of CDs (4734714), a couple watching a
+  streaming TV (4009402), a man frustrated at a laptop (52608), a smart TV with
+  a smartphone (35490296), a woman frustrated with paperwork (6029065), a TV
+  streaming interface close-up (13806260), a woman with her head in her hands
+  (6028573), businessmen analyzing data (6285073), a spiral desk calendar
+  (29509513), colleagues reviewing documents (7433851), and a desk-calendar page
+  (29509510, closing beat). **Unverified claims:** names a real company (Netflix)
+  and the Qwikster episode — the ~800K subscriber loss, the stock drop, and the
+  ~3-week reversal in 2011 are widely reported but verify the specifics before
+  publishing.
 - **`FastenalReel`** — "Embed, don't sell" (Fastenal puts industrial vending /
   dispensing systems inside its customers' factories; a third of sales flow
   through them, and once you run the customer's inventory you're impossible to
