@@ -26,6 +26,7 @@ import {MillionaireReel, DURATION_IN_FRAMES as MILLIONAIRE_FRAMES} from './Milli
 import {WaterReel, DURATION_IN_FRAMES as WATER_FRAMES} from './WaterReel';
 import {CokeReel, DURATION_IN_FRAMES as COKE_FRAMES} from './CokeReel';
 import {RatioReel, DURATION_IN_FRAMES as RATIO_FRAMES} from './RatioReel';
+import {LabelReel, DURATION_IN_FRAMES as LABEL_FRAMES} from './LabelReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -235,6 +236,14 @@ export const RemotionRoot: React.FC = () => {
         id="RatioReel"
         component={RatioReel}
         durationInFrames={RATIO_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="LabelReel"
+        component={LabelReel}
+        durationInFrames={LABEL_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

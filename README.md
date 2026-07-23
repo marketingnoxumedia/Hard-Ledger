@@ -189,6 +189,30 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   **Unverified claims:** the figures — ~3× income c.1980, ~5× today, ~$410K
   median home, ~$84K median income — are illustrative and rendered as written;
   they drift over time, so sanity-check against current data before publishing.
+- **`LabelReel`** — "The unavoidable sliver" (Avery Dennison charges a fraction
+  of a cent per item on the labels, tags and adhesive materials on a huge share
+  of the world's packages, products and shipping boxes: the per-unit price is
+  beneath fighting over, yet collected across billions of units; every product
+  needs labelling — price tags, barcodes, shipping labels, RFID — and e-commerce
+  compounds it, all embedded in retail/logistics supply chains and hard to
+  displace). ~56s, footage-forward and mixing video clips with stills, with the
+  red "tiny part, huge scale" `impact` card late and a black payoff closer ("a
+  fraction of a cent, on nearly everything") rather than the red card; the ~16%
+  EBITDA-margin stat uses a proportional red bar. Media credits (Pexels, free
+  license) — videos: a retail self-checkout barcode scan (7457422), parcels on a
+  sorting conveyor (10472351), a printer producing labels for boxes (7217134),
+  and a labelled box on a conveyor belt (4156510). Photos: a package with barcode
+  and QR labels (7843978), a hand holding a labelled shipping box (4440792), jeans
+  with a price-and-barcode hangtag (7441481), stacked labelled cardboard boxes
+  (4440789), a calculator on dollar bills (5942528), a supermarket shelf with
+  priced milk cartons (7451957), a hand holding a strip of barcode labels
+  (6250876), an express-mail parcel (4440788), a stocked grocery aisle (16211537),
+  a warehouse of shelved boxes (38195854), a labelled warehouse aisle (5775099), a
+  close-up of hundred-dollar bills (14820416), and stacked cash on a desk
+  (6266701). **Unverified claims:** this reel names a real company (Avery
+  Dennison, NYSE: AVY) and cites financials — ~$8.9B revenue, ~16% EBITDA margin,
+  >$700M free cash flow — rendered as written and **not** independently verified;
+  confirm against the company's latest filings before publishing.
 - **`QwiksterReel`** — "The 3-week reversal" (Netflix's 2011 Qwikster fiasco:
   it split DVD and streaming, raised prices and renamed the DVD side, watched
   subscribers revolt, then killed the plan, admitted the mistake, and refocused
