@@ -142,6 +142,30 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   a 7–9% growth target — are rendered as written in the client script and have
   **not** been independently verified; confirm against the company's latest
   filings before publishing.
+- **`CokeReel`** — "Listen, then reverse" (the 1985 New Coke story: Coca-Cola
+  replaced its flagship with a reformulation that blind taste tests genuinely
+  preferred, hit a fierce consumer backlash, and brought the original back as
+  Coca-Cola Classic just 79 days later — a famous blunder undone fast, arguably
+  leaving a stronger brand; the research measured the drink, not the attachment).
+  ~50s, footage-forward and mixing video clips with stills, with the red "listen,
+  then reverse" `impact` card late and a closing clock beat ("replacement to
+  reversal") rather than the red card. Media credits (Pexels, free license) —
+  videos: a bottle of cola beside an empty glass (4114386), a stainless bottling
+  machine (8720278), a macro cola-fizz close-up (8676994), and glassware moving
+  through a production line (10615247). Photos: a glowing retro CRT television
+  (704555), a red "Original Taste" cola can in smoke (31763557), wet red soda
+  cans (6920721), a survey/results clipboard (9034980), a drinks-tasting judging
+  session (31715289), a bearish downward market chart (35118208), a jar of sugar
+  cubes (2523650), a vintage TV and rotary phone (28679905), a person taking
+  research notes (6712711), a man shouting into a vintage telephone (1587014), a
+  flip desk calendar (36239190), an April calendar page (29509489), a rising
+  staircase-and-arrow growth symbol (9822733), and a close-up clock face
+  (16371933, closing beat). **Note on brand imagery:** this reel names a real
+  company (Coca-Cola) and, as editorial reference to the actual 1985 event, shows
+  real Coca-Cola product imagery — an "Original Taste" can (31763557) and a Coke
+  bottle (video 4114386). The "79 days," blind-taste-test, and "stronger brand"
+  points are historical claims rendered as written; sanity-check the specifics
+  and clear the brand imagery for your use case before publishing.
 - **`QwiksterReel`** — "The 3-week reversal" (Netflix's 2011 Qwikster fiasco:
   it split DVD and streaming, raised prices and renamed the DVD side, watched
   subscribers revolt, then killed the plan, admitted the mistake, and refocused
