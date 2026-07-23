@@ -97,6 +97,25 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`FastenalReel`** — "Embed, don't sell" (Fastenal puts industrial vending /
+  dispensing systems inside its customers' factories; a third of sales flow
+  through them, and once you run the customer's inventory you're impossible to
+  switch out). ~47s, footage-forward and mixing video clips with stills, with
+  the red "embed / don't sell" `impact` card near the end and a closing bolt-
+  pile $8.2B stat beat rather than the red card. Media credits (Pexels, free
+  license) — videos: a CNC/laser cutting machine (30409127), an industrial lathe
+  (32063117), an industrial conveyor (32386524), and a tablet with data
+  analytics (36328573). Photos: a worker organizing inventory (31112245), bolts
+  in white bins (28867253), labeled parts bins (7018662), a pile of nuts and
+  bolts (21050460), hex bolts (30496227), organized warehouse shelving
+  (12234109), a macro of screws (28197097), a worker at a CNC machine
+  (32845701), tangled server cables (12266914), long rows of industrial shelves
+  (4224967), industrial shelving with molds (34718928), a worker in a red helmet
+  at a machine (15947455), screws on a dark background (17372998), and a heap of
+  rusty screws and bolts (15549169, closing beat). **Unverified claims:** names a
+  real public company (Fastenal, NASDAQ: FAST) and cites a ~third of sales
+  through vending, ~3,400 locations, ~$8.2B revenue, and a ~21% operating margin
+  — verify against Fastenal's latest 10-K before publishing.
 - **`FeeReel`** — "The 1% tax" (a fund fee almost nobody reads on their
   statement; over 30 years a 1% fee costs more than you originally invested,
   because it's taken every year including on the growth it prevents). ~41s,

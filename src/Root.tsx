@@ -20,6 +20,7 @@ import {PayFirstReel, DURATION_IN_FRAMES as PAYFIRST_FRAMES} from './PayFirstRee
 import {VulcanReel, DURATION_IN_FRAMES as VULCAN_FRAMES} from './VulcanReel';
 import {SearsReel, DURATION_IN_FRAMES as SEARS_FRAMES} from './SearsReel';
 import {FeeReel, DURATION_IN_FRAMES as FEE_FRAMES} from './FeeReel';
+import {FastenalReel, DURATION_IN_FRAMES as FASTENAL_FRAMES} from './FastenalReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -181,6 +182,14 @@ export const RemotionRoot: React.FC = () => {
         id="FeeReel"
         component={FeeReel}
         durationInFrames={FEE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="FastenalReel"
+        component={FastenalReel}
+        durationInFrames={FASTENAL_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
