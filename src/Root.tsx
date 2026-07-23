@@ -22,6 +22,7 @@ import {SearsReel, DURATION_IN_FRAMES as SEARS_FRAMES} from './SearsReel';
 import {FeeReel, DURATION_IN_FRAMES as FEE_FRAMES} from './FeeReel';
 import {FastenalReel, DURATION_IN_FRAMES as FASTENAL_FRAMES} from './FastenalReel';
 import {QwiksterReel, DURATION_IN_FRAMES as QWIKSTER_FRAMES} from './QwiksterReel';
+import {MillionaireReel, DURATION_IN_FRAMES as MILLIONAIRE_FRAMES} from './MillionaireReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -199,6 +200,14 @@ export const RemotionRoot: React.FC = () => {
         id="QwiksterReel"
         component={QwiksterReel}
         durationInFrames={QWIKSTER_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="MillionaireReel"
+        component={MillionaireReel}
+        durationInFrames={MILLIONAIRE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

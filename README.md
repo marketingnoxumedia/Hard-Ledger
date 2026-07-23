@@ -97,6 +97,27 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
+- **`MillionaireReel`** — "Built, not inherited" (most millionaires aren't
+  trust-fund heirs — around eight in ten are first-generation, built on ordinary
+  jobs and a high savings rate held for decades; the asset is the gap between
+  earning and spending, invested over time). ~41s, footage-forward and mixing
+  video clips with stills, with the red "the habit is the asset" `impact` card
+  near the end and a closing self-made-portrait beat rather than the red card.
+  Media credits (Pexels, free license) — videos: an aerial luxury mansion
+  (11400591), a hand adding coins to a savings jar (13107027), a young worker in
+  a workshop (8964296), and a rising business chart (7947438). Photos: a man
+  with champagne on a private jet (6700127), a young maker in a workshop
+  (3846638), a man with a laptop (8278872), a suburban house (5785100), a
+  confident professional (36712864), an accountant at a calculator (8276182), a
+  teacher at a classroom desk (8499635), a professional in glasses (4872063), a
+  hand adding a coin to a piggy bank (3848193), a vintage handwritten ledger
+  (164686), hands reviewing a family budget (7735778), a suburban home
+  (18280833), a woman poolside at a luxury resort (37651183), a businessman with
+  crossed arms (8344740), and a young professional portrait (7289738, closing
+  beat). **Unverified claims:** the figures are illustrative — the "~8 in 10
+  first-generation" and "top professions" claims echo the *Millionaire Next
+  Door* research and similar studies; treat the exact proportion as approximate
+  and sanity-check before publishing.
 - **`QwiksterReel`** — "The 3-week reversal" (Netflix's 2011 Qwikster fiasco:
   it split DVD and streaming, raised prices and renamed the DVD side, watched
   subscribers revolt, then killed the plan, admitted the mistake, and refocused
