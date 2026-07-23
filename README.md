@@ -97,25 +97,26 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
 
 - **`YahooReel`** — "Know when to sell."
 - **`CarWashReel`** — "The car wash play" (Wall Street car-wash rollup).
-- **`FeeReel`** — "The 1% tax" (a fund fee small enough that almost nobody
-  checks it quietly compounds against you — over a career it can cost more than
-  you started with). ~47s, footage-forward and mixing video clips with stills,
-  with the red "it compounds against you" `impact` card mid-reel and a closing
-  piggy-bank media beat rather than the red card. Media credits (Pexels, free
-  license) — videos: a person reviewing paperwork at a desk (6597520), an
-  animated market chart (29344546), a coin placed on rising coin stacks
-  (8661806), and financial charts on a screen (38670063). Photos: a magnifying
-  glass over "Terms and Conditions" (7821573), a banded stack of $100 bills
-  (11624813), piles of hundred-dollar bills (26668817), a plant sprouting from
-  stacked coins (11391951), an income statement with a calculator (8962521), a
-  calculator on a bar graph (209224), coins arranged incrementally (37416563),
-  an alarm clock beside rising coin stacks (11743789), a calculator on
-  financial graphs (20500268), a calculator with charts (8068819), hands
-  holding a phone with an investing app (7948056), a stock-trading app with
-  candlesticks (28682345), and a piggy bank with a coin stack (4056856, closing
-  beat). **Unverified claims:** the figures are illustrative arithmetic — a
-  ~$187K lifetime cost, $100K invested 30 years at 7% growing to ~$761K vs
-  ~$574K after a 1% annual fee, index funds under ~0.1% and some active funds at
+- **`FeeReel`** — "The 1% tax" (a fund fee almost nobody reads on their
+  statement; over 30 years a 1% fee costs more than you originally invested,
+  because it's taken every year including on the growth it prevents). ~41s,
+  footage-forward and mixing video clips with stills, with the red "one percent
+  / every year" `impact` card mid-reel and a closing black recap triad (one
+  percent / thirty years / $187K) rather than the red card. Media credits
+  (Pexels, free license) — videos: a person reviewing paperwork at a desk
+  (6597520), an animated market chart (29344546), a coin placed on rising coin
+  stacks (8661806), and financial charts on a screen (38670063). Photos: a
+  magnifying glass over "Terms and Conditions" (7821573), a banded stack of
+  $100 bills (11624813), piles of hundred-dollar bills (26668817), a plant
+  sprouting from stacked coins (11391951), an income statement with a calculator
+  (8962521), a calculator on a bar graph (209224), coins arranged incrementally
+  (37416563), an alarm clock beside rising coin stacks (11743789), a calculator
+  with charts (8068819), hands holding a phone with an investing app (7948056),
+  a stock-trading app with candlesticks (28682345), a sprinter on a track
+  (30159784), a runner crossing a finish line (18408979), and a piggy bank with
+  a coin stack (4056856). **Unverified claims:** the figures are illustrative
+  arithmetic — $100K invested 30 years at 7% growing to ~$761K vs ~$574K after a
+  1% annual fee, a ~$187K gap, index funds around 0.1% and some active funds at
   ~1%+. They're standard compounding math on stated assumptions; the expense-
   ratio ranges are broadly typical but sanity-check before publishing.
 - **`SearsReel`** — "The everything store" (Sears invented mail-order retail a

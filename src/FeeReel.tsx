@@ -75,50 +75,53 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// "The 1% tax" reel — a fund fee small enough that almost nobody checks it
-// quietly compounds against you, costing more over a career than you started
-// with. Durations placed on exact spoken-word timestamps (ElevenLabs alignment)
-// at +6% pace. Total 1414 frames = ~47s. Mixes video clips with stills. The red
-// `impact` card ("it compounds against you") sits mid-reel; the reel ends on a
-// piggy-bank media beat ("you control what you pay"), not the red card. Every
-// scene uses a distinct background sourced fresh for this reel — no footage
-// shared with any other reel (see the skill's hard rule).
+// "The 1% tax" reel — a fund fee almost nobody reads on their statement; over
+// 30 years a 1% fee costs more than you originally invested, because it's taken
+// every year including on the growth it prevents. Durations placed on exact
+// spoken-word timestamps (ElevenLabs alignment) at +6% pace. Total 1228 frames
+// = ~41s. Mixes video clips with stills. The red `impact` card ("one percent /
+// every year") sits mid-reel; the reel ends on a black recap triad (one percent
+// / thirty years / $187K), not the red card. Every scene uses a distinct
+// background sourced fresh for this reel — no footage shared with any other reel
+// (see the skill's hard rule).
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 43, kind: 'hook', text: 'There\'s|a fee.', kicker: 'The 1% tax', highlights: ['fee'], size: 118, media: {src: 'fee/p_7821573.jpg', type: 'img', effect: 'in'}},
-  {dur: 100, kind: 'text', text: 'Small enough that|almost nobody|checks it.', highlights: ['nobody'], size: 74, media: {src: 'fee/clip_docs.mp4', type: 'video', effect: 'in'}},
-  {dur: 64, kind: 'stat', stat: {pre: 'Over a career it takes', prefix: '$', value: 187, suffix: 'K'}, media: {src: 'fee/p_11624813.jpg', type: 'img', effect: 'in'}},
-  {dur: 37, kind: 'text', text: 'More than you|started with.', highlights: ['more'], size: 84},
-  {dur: 38, kind: 'stat', stat: {pre: 'The culprit', value: 1, suffix: '%'}},
-  {dur: 55, kind: 'stat', stat: {pre: 'Invest', prefix: '$', value: 100, suffix: 'K'}, media: {src: 'fee/p_26668817.jpg', type: 'img', effect: 'in'}},
-  {dur: 82, kind: 'text', enter: 'slideL', text: 'Thirty years|at seven percent.', highlights: ['seven'], size: 80, media: {src: 'fee/clip_chart.mp4', type: 'video', effect: 'in'}},
-  {dur: 72, kind: 'stat', stat: {pre: 'It grows to', prefix: '$', value: 761, suffix: 'K'}, media: {src: 'fee/p_11391951.jpg', type: 'img', effect: 'in'}},
-  {dur: 77, kind: 'text', text: 'Now add a|one-percent fee.', highlights: ['fee'], size: 82, media: {src: 'fee/p_8962521.jpg', type: 'img', effect: 'in'}},
-  {dur: 76, kind: 'stat', stat: {pre: 'You end with', prefix: '$', value: 574, suffix: 'K'}},
-  {dur: 71, kind: 'text', text: 'Why is the gap|so large?', highlights: ['gap'], size: 82, media: {src: 'fee/p_209224.jpg', type: 'img', effect: 'in'}},
-  {dur: 51, kind: 'text', text: 'The fee isn\'t|one percent once.', highlights: ['once'], size: 80, media: {src: 'fee/p_37416563.jpg', type: 'img', effect: 'in'}},
-  {dur: 71, kind: 'text', enter: 'slideR', text: 'It\'s one percent|every year.', highlights: ['every'], size: 84, media: {src: 'fee/p_11743789.jpg', type: 'img', effect: 'in'}},
-  {dur: 62, kind: 'text', text: 'On all the growth|it prevents.', highlights: ['prevents'], size: 80, media: {src: 'fee/p_20500268.jpg', type: 'img', effect: 'in'}},
-  {dur: 104, kind: 'impact', text: 'It compounds|against you.', redBg: true},
-  {dur: 100, kind: 'text', enter: 'zoom', text: 'The way you hoped|it would compound|for you.', highlights: ['compound'], size: 72, media: {src: 'fee/clip_coins.mp4', type: 'video', effect: 'in'}},
-  {dur: 68, kind: 'text', text: 'Find your|expense ratio.', highlights: ['expense'], size: 84, media: {src: 'fee/p_8068819.jpg', type: 'img', effect: 'in'}},
-  {dur: 82, kind: 'stat', stat: {pre: 'Index funds, under', value: 0.1, decimals: 1, suffix: '%'}, media: {src: 'fee/p_7948056.jpg', type: 'img', effect: 'in'}},
-  {dur: 42, kind: 'text', text: 'Active funds:|one percent|or more.', highlights: ['more'], size: 76, media: {src: 'fee/p_28682345.jpg', type: 'img', effect: 'in'}},
-  {dur: 63, kind: 'text', text: 'You can\'t control|the market.', highlights: ['market'], size: 82, media: {src: 'fee/clip_market.mp4', type: 'video', effect: 'in'}},
-  {dur: 56, kind: 'text', enter: 'zoom', text: 'You control|what you pay.', highlights: ['pay'], size: 84, media: {src: 'fee/p_4056856.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'hook', text: 'There\'s a line|on your statement.', kicker: 'The 1% tax', highlights: ['line'], size: 82, media: {src: 'fee/p_7821573.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', text: 'Almost nobody|reads it.', highlights: ['nobody'], size: 84, media: {src: 'fee/clip_docs.mp4', type: 'video', effect: 'in'}},
+  {dur: 53, kind: 'text', text: 'It can cost more|than you invested.', highlights: ['more'], size: 78, media: {src: 'fee/p_11624813.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'stat', stat: {pre: 'A', value: 1, suffix: '%', post: 'fee'}},
+  {dur: 38, kind: 'stat', stat: {prefix: '$', value: 100, suffix: 'K'}, media: {src: 'fee/p_26668817.jpg', type: 'img', effect: 'in'}},
+  {dur: 25, kind: 'text', text: 'Thirty|years.', highlights: ['thirty'], size: 100, media: {src: 'fee/p_11743789.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', text: 'Seven percent|a year.', highlights: ['seven'], size: 90, media: {src: 'fee/clip_chart.mp4', type: 'video', effect: 'in'}},
+  {dur: 68, kind: 'stat', stat: {pre: 'The gap', prefix: '$', value: 187, suffix: 'K'}, media: {src: 'fee/p_209224.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', enter: 'slideL', text: 'More than|you put in.', highlights: ['more'], size: 88, media: {src: 'fee/p_37416563.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'stat', stat: {pre: 'Without the fee', prefix: '$', value: 761, suffix: 'K'}, media: {src: 'fee/p_11391951.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'stat', stat: {pre: 'With it', prefix: '$', value: 574, suffix: 'K'}},
+  {dur: 39, kind: 'text', text: 'The fee isn\'t|taken once.', highlights: ['once'], size: 82, media: {src: 'fee/p_8962521.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'impact', text: 'One percent.|Every year.', redBg: true},
+  {dur: 48, kind: 'text', enter: 'zoom', text: 'On the growth|it prevented.', highlights: ['prevented'], size: 82, media: {src: 'fee/clip_coins.mp4', type: 'video', effect: 'in'}},
+  {dur: 59, kind: 'text', text: 'The cheapest funds|win races…', highlights: ['cheapest'], size: 78, media: {src: 'fee/p_30159784.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', text: '…they were never|expected to win.', highlights: ['win'], size: 78, media: {src: 'fee/p_18408979.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', text: 'Find your|expense ratio.', highlights: ['expense'], size: 84, media: {src: 'fee/p_8068819.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'stat', stat: {pre: 'Some funds, a', value: 0.1, decimals: 1, suffix: '%'}, media: {src: 'fee/p_7948056.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', text: 'Some charge|one percent|or more.', highlights: ['more'], size: 76, media: {src: 'fee/p_28682345.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', text: 'You can\'t control|the market.', highlights: ['market'], size: 82, media: {src: 'fee/clip_market.mp4', type: 'video', effect: 'in'}},
+  {dur: 35, kind: 'text', text: 'Only what|you pay.', highlights: ['pay'], size: 90, media: {src: 'fee/p_4056856.jpg', type: 'img', effect: 'in'}},
+  {dur: 119, kind: 'lines', text: 'One percent.|Thirty years.|$187K.', highlights: ['$187k'], reveal: [8, 46, 86]},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 43, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 143, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 244, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 419, src: 'media/sfx_chaching.mp3', vol: 0.5},
-  {at: 568, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 899, src: 'media/sfx_impact.mp3', vol: 0.72},
-  {at: 1171, src: 'media/sfx_impact.mp3', vol: 0.45},
-  {at: 1358, src: 'media/sfx_whoosh.mp3', vol: 0.45},
+  {at: 34, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 170, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 304, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 440, src: 'media/sfx_chaching.mp3', vol: 0.5},
+  {at: 521, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 621, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 786, src: 'media/sfx_whoosh.mp3', vol: 0.42},
+  {at: 929, src: 'media/sfx_impact.mp3', vol: 0.45},
+  {at: 1109, src: 'media/sfx_impact.mp3', vol: 0.6},
 ];
 
 const STARTS: number[] = (() => {
