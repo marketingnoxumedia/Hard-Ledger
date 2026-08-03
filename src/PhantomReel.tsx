@@ -92,14 +92,13 @@ type SceneDef = {
 // enough to never get cancelled. The save frame reveals the comparison —
 // $86 guessed vs $273 paid, per month, per US household (per West Monroe) — and
 // holds to the end while the voiceover continues, its footer swapping to "the
-// price isn't the problem" as that line is spoken (the count is). Beats are
-// spaced to the client's storyboard (~2s / 5s / 6s / 7s) so each holds its full
-// duration under a CONTINUOUS voiceover with no dead air: the VO is split at its
-// sentence boundaries and each beat placed at its mark, with music under the
-// holds. Total 606 frames = ~20s. Mixes two video clips (paying by card,
-// streaming at home) with a still; the save-frame comparison holds on black.
-// Every background is sourced fresh for this reel — no footage shared with any
-// other reel (hard rule).
+// price isn't the problem" as that line is spoken (the count is). The voiceover
+// runs CONTINUOUSLY with no dead air, and scene durations are placed on its
+// exact spoken-word timestamps (ElevenLabs alignment) at +6% pace — so the reel
+// lands at the natural ~12s of the read, not a padded runtime. Mixes two video
+// clips (paying by card, streaming at home) with a still; the save-frame
+// comparison holds on black. Every background is sourced fresh for this reel —
+// no footage shared with any other reel (hard rule).
 //
 // NOTE (unverified): the ~$86-guessed / ~$273-paid per-month subscriptions
 // figures are attributed to West Monroe in the client script and rendered as
@@ -107,20 +106,20 @@ type SceneDef = {
 // current figures before publishing.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 66, kind: 'hook', text: 'They guess|$86 a month.', kicker: 'Phantom subscriptions', highlights: ['$86'], size: 84, media: {src: 'phantom/p_11645171.jpg', type: 'img', effect: 'in'}},
-  {dur: 150, kind: 'text', enter: 'slideL', text: 'But the real|figure…', highlights: ['real'], size: 88, media: {src: 'phantom/clip_card.mp4', type: 'video', effect: 'in'}},
-  {dur: 180, kind: 'text', text: 'Small enough|to survive.', highlights: ['survive'], size: 88, media: {src: 'phantom/clip_tv.mp4', type: 'video', effect: 'in'}},
-  {dur: 210, kind: 'compare', compare: {a: {value: 86, prefix: '$', label: 'guessed'}, b: {value: 273, prefix: '$', label: 'paid'}, note: 'per month · US household', source: 'Source: West Monroe', swapAt: 120, swapNote: 'The price isn\'t the problem'}},
+  {dur: 71, kind: 'hook', text: 'They guess|$86 a month.', kicker: 'Phantom subscriptions', highlights: ['$86'], size: 84, media: {src: 'phantom/p_11645171.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', enter: 'slideL', text: 'But the real|figure…', highlights: ['real'], size: 88, media: {src: 'phantom/clip_card.mp4', type: 'video', effect: 'in'}},
+  {dur: 75, kind: 'text', text: 'Small enough|to survive.', highlights: ['survive'], size: 88, media: {src: 'phantom/clip_tv.mp4', type: 'video', effect: 'in'}},
+  {dur: 160, kind: 'compare', compare: {a: {value: 86, prefix: '$', label: 'guessed'}, b: {value: 273, prefix: '$', label: 'paid'}, note: 'per month · US household', source: 'Source: West Monroe', swapAt: 71, swapNote: 'The price isn\'t the problem'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 66, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 216, src: 'media/sfx_whoosh.mp3', vol: 0.38},
-  {at: 396, src: 'media/sfx_impact.mp3', vol: 0.58},
-  {at: 402, src: 'media/sfx_chaching.mp3', vol: 0.5},
-  {at: 516, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 71, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 125, src: 'media/sfx_whoosh.mp3', vol: 0.38},
+  {at: 200, src: 'media/sfx_impact.mp3', vol: 0.58},
+  {at: 206, src: 'media/sfx_chaching.mp3', vol: 0.5},
+  {at: 271, src: 'media/sfx_impact.mp3', vol: 0.5},
 ];
 
 const STARTS: number[] = (() => {

@@ -213,23 +213,21 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Dennison, NYSE: AVY) and cites financials — ~$8.9B revenue, ~16% EBITDA margin,
   >$700M free cash flow — rendered as written and **not** independently verified;
   confirm against the company's latest filings before publishing.
-- **`PhantomReel`** — "Phantom subscriptions" (a ~20s reel about the gap between
+- **`PhantomReel`** — "Phantom subscriptions" (a ~12s reel about the gap between
   what people think they spend on subscriptions and what they actually pay: they
   guess ~$86 a month, the real figure is ~$273, because each charge is small
   enough to never get cancelled; the save frame reveals the comparison — $86
   guessed vs $273 paid, per month, per US household, per West Monroe — and holds
   to the end while the footer swaps to "the price isn't the problem" as that line
-  is spoken, the count is). Storyboard-driven: the beats are spaced to the
-  client's marks (~2s / 5s / 6s / 7s) so each holds its full duration under a
-  continuous voiceover with no dead air — the VO is split at its sentence
-  boundaries and each beat placed at its mark, with music under the holds. Two
-  video clips over a still; the two-number count-up comparison save frame holds
-  on black. Media credits (Pexels, free license) — videos: a woman paying by card
-  at a laptop (6607112) and a man relaxing with a TV remote (7100958). Photo: a
-  man reacting with shock to his phone (11645171). **Unverified claim:** the
-  ~$86-guessed / ~$273-paid per-month figures are attributed to West Monroe in
-  the client script and rendered as written; confirm the source and the current
-  figures before publishing.
+  is spoken, the count is). The voiceover runs continuously with no dead air and
+  scene durations sit on its exact spoken-word timestamps, so the reel lands at
+  the natural pace of the read. Two video clips over a still; the two-number
+  count-up comparison save frame holds on black. Media credits (Pexels, free
+  license) — videos: a woman paying by card at a laptop (6607112) and a man
+  relaxing with a TV remote (7100958). Photo: a man reacting with shock to his
+  phone (11645171). **Unverified claim:** the ~$86-guessed / ~$273-paid per-month
+  figures are attributed to West Monroe in the client script and rendered as
+  written; confirm the source and the current figures before publishing.
 - **`AmazonReel`** — "The storefront was never the business" (a ~20s reel on
   Amazon's segment economics: the retail storefront barely earns — it's the
   front; retail carries almost all the revenue and almost none of the profit,
