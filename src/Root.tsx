@@ -29,6 +29,7 @@ import {RatioReel, DURATION_IN_FRAMES as RATIO_FRAMES} from './RatioReel';
 import {LabelReel, DURATION_IN_FRAMES as LABEL_FRAMES} from './LabelReel';
 import {PhantomReel, DURATION_IN_FRAMES as PHANTOM_FRAMES} from './PhantomReel';
 import {AmazonReel, DURATION_IN_FRAMES as AMAZON_FRAMES} from './AmazonReel';
+import {BlockbusterReel, DURATION_IN_FRAMES as BLOCK_FRAMES} from './BlockbusterReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -262,6 +263,14 @@ export const RemotionRoot: React.FC = () => {
         id="AmazonReel"
         component={AmazonReel}
         durationInFrames={AMAZON_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="BlockbusterReel"
+        component={BlockbusterReel}
+        durationInFrames={BLOCK_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
