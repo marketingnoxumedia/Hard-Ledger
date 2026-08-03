@@ -230,6 +230,25 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$86-guessed / ~$273-paid per-month figures are attributed to West Monroe in
   the client script and rendered as written; confirm the source and the current
   figures before publishing.
+- **`AmazonReel`** — "The storefront was never the business" (a ~20s reel on
+  Amazon's segment economics: the retail storefront barely earns — it's the
+  front; retail carries almost all the revenue and almost none of the profit,
+  while the cloud business, AWS, does the earning. The save frame lands the
+  point — per segment reporting, AWS is ~15% of Amazon's revenue yet the majority
+  of its operating income — then holds silent before the loop closer). Same
+  storyboard-driven build as `PhantomReel`: beats spaced to the client's marks
+  (2s / 4s / 4s / 4s / 4s / 2s) under a continuous voiceover with no dead air —
+  the VO is split at its sentence boundaries and each beat placed at its mark,
+  music under the holds. Three video clips over a store still; the save-frame
+  stat (multi-line, with a source line) and loop closer sit on black. Media
+  credits (Pexels, free license) — videos: a person shopping an online store on a
+  laptop (8937982), an order being fulfilled amid shipping boxes (6169422), and a
+  blue-lit server room (1085656). Photo: a modern grocery-store aisle (15491784).
+  **Unverified claim:** this reel names a real company (Amazon, NASDAQ: AMZN) and
+  characterises its segment economics — AWS ~15% of revenue but the majority of
+  operating income — as stated in the client script (attributed to Amazon's
+  10-K); rendered as written and **not** independently verified; confirm against
+  the latest 10-K before publishing.
 - **`QwiksterReel`** — "The 3-week reversal" (Netflix's 2011 Qwikster fiasco:
   it split DVD and streaming, raised prices and renamed the DVD side, watched
   subscribers revolt, then killed the plan, admitted the mistake, and refocused

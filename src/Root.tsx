@@ -28,6 +28,7 @@ import {CokeReel, DURATION_IN_FRAMES as COKE_FRAMES} from './CokeReel';
 import {RatioReel, DURATION_IN_FRAMES as RATIO_FRAMES} from './RatioReel';
 import {LabelReel, DURATION_IN_FRAMES as LABEL_FRAMES} from './LabelReel';
 import {PhantomReel, DURATION_IN_FRAMES as PHANTOM_FRAMES} from './PhantomReel';
+import {AmazonReel, DURATION_IN_FRAMES as AMAZON_FRAMES} from './AmazonReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -253,6 +254,14 @@ export const RemotionRoot: React.FC = () => {
         id="PhantomReel"
         component={PhantomReel}
         durationInFrames={PHANTOM_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="AmazonReel"
+        component={AmazonReel}
+        durationInFrames={AMAZON_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
