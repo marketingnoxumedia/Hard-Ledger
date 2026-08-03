@@ -213,6 +213,21 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Dennison, NYSE: AVY) and cites financials — ~$8.9B revenue, ~16% EBITDA margin,
   >$700M free cash flow — rendered as written and **not** independently verified;
   confirm against the company's latest filings before publishing.
+- **`PhantomReel`** — "Phantom subscriptions" (a short ~17s loop: people guess
+  less than half of their real subscription spend — streaming, apps, memberships,
+  cloud storage — each priced to sit just below the cancel line and charged
+  automatically on cards nobody checks; the save frame lands ~$3,300 a year per
+  US household on autopay, per West Monroe, then holds silent into the "nobody
+  signed up for that" loop closer). A tighter, storyboard-driven reel: two video
+  clips over stills, a count-up save-frame stat with a source line, and a ~2.5s
+  silent hold spliced into the voiceover before the closer; the save frame and
+  closer sit on black. Media credits (Pexels, free license) — videos: a man
+  relaxing with a TV remote (7100958) and a woman paying by card at a laptop
+  (6607112). Photos: a man reacting with shock to his phone (11645171) and a fan
+  of credit cards beside a phone (32642487). **Unverified claim:** the
+  ~$3,300/household/year figure is attributed to West Monroe in the client script
+  and rendered as written; confirm the source and the current figure before
+  publishing.
 - **`QwiksterReel`** — "The 3-week reversal" (Netflix's 2011 Qwikster fiasco:
   it split DVD and streaming, raised prices and renamed the DVD side, watched
   subscribers revolt, then killed the plan, admitted the mistake, and refocused
