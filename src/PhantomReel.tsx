@@ -62,57 +62,62 @@ type StatCfg = {
   source?: string;
   comma?: boolean;
 };
+type CompareCfg = {
+  a: {value: number; prefix?: string; label: string};
+  b: {value: number; prefix?: string; label: string};
+  note?: string;
+  source?: string;
+};
 type SceneDef = {
   dur: number;
-  kind: 'hook' | 'lines' | 'text' | 'stat' | 'impact' | 'outro';
+  kind: 'hook' | 'lines' | 'text' | 'stat' | 'impact' | 'compare' | 'outro';
   text?: string;
   kicker?: string;
   highlights?: string[];
   reveal?: number[];
   size?: number;
   stat?: StatCfg;
+  compare?: CompareCfg;
   redBg?: boolean;
   media?: MediaCfg;
   enter?: 'slideL' | 'slideR' | 'slideUp' | 'zoom';
 };
 
 // ---------------------------------------------------------------------------
-// "Phantom subscriptions" reel — a short, punchy loop. People underestimate
-// their own subscription spend (they guess less than half): streaming, apps,
-// memberships, cloud storage, each priced to sit just below the level where
-// it would get cancelled, charged automatically on cards nobody checks. The
-// save frame lands the number — ~$3,300 a year per US household, on autopay
-// (per West Monroe) — and holds silent before the loop closer. Durations
-// placed on exact spoken-word timestamps (ElevenLabs alignment) at +6% pace,
-// with a ~2.5s silent hold spliced into the voiceover before the closer.
-// Total 507 frames = ~17s. Mixes two video clips (streaming at home, paying by
-// card) with stills; the save frame and the "nobody signed up for that" loop
-// closer sit on black. Every background is sourced fresh for this reel — no
-// footage shared with any other reel (hard rule).
+// "Phantom subscriptions" reel — a short, punchy loop about the gap between what
+// people THINK they spend on subscriptions and what they actually pay. They
+// guess ~$86 a month; the real figure is ~$273, because each charge is small
+// enough to never get cancelled. The save frame reveals the comparison —
+// $86 guessed vs $273 paid, per month, per US household (per West Monroe) — and
+// holds silent before the loop closer: the price isn't the problem, the count
+// is. Durations placed on exact spoken-word timestamps (ElevenLabs alignment) at
+// +6% pace, with a ~2.5s silent hold spliced into the voiceover before the
+// closer. Total 444 frames = ~15s. Mixes two video clips (paying by card,
+// streaming at home) with a still; the save-frame comparison and the loop closer
+// sit on black. Every background is sourced fresh for this reel — no footage
+// shared with any other reel (hard rule).
 //
-// NOTE (unverified): the ~$3,300/household/year subscriptions figure is
-// attributed to West Monroe in the client script and is rendered as written;
-// it has NOT been independently verified — confirm the source and current
-// figure before publishing.
+// NOTE (unverified): the ~$86-guessed / ~$273-paid per-month subscriptions
+// figures are attributed to West Monroe in the client script and rendered as
+// written; they have NOT been independently verified — confirm the source and
+// current figures before publishing.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 47, kind: 'hook', text: 'They guess|less than half.', kicker: 'Phantom subscriptions', highlights: ['half'], size: 82, media: {src: 'phantom/p_11645171.jpg', type: 'img', effect: 'in'}},
-  {dur: 117, kind: 'text', text: 'It\'s the|subscriptions.', highlights: ['subscriptions'], size: 92, media: {src: 'phantom/clip_tv.mp4', type: 'video', effect: 'in'}},
-  {dur: 81, kind: 'text', enter: 'slideL', text: 'Priced to stay|under the line.', highlights: ['under'], size: 80, media: {src: 'phantom/p_32642487.jpg', type: 'img', effect: 'in'}},
-  {dur: 85, kind: 'text', text: 'On cards|nobody checks.', highlights: ['checks'], size: 84, media: {src: 'phantom/clip_card.mp4', type: 'video', effect: 'in'}},
-  {dur: 133, kind: 'stat', stat: {pre: 'On autopay', prefix: '$', value: 3300, comma: true, post: 'a year, per US household', source: 'Source: West Monroe'}},
-  {dur: 44, kind: 'text', text: 'Nobody signed up|for that.', highlights: ['nobody'], size: 84},
+  {dur: 66, kind: 'hook', text: 'They guess|$86 a month.', kicker: 'Phantom subscriptions', highlights: ['$86'], size: 84, media: {src: 'phantom/p_11645171.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', enter: 'slideL', text: 'But the real|figure…', highlights: ['real'], size: 88, media: {src: 'phantom/clip_card.mp4', type: 'video', effect: 'in'}},
+  {dur: 78, kind: 'text', text: 'Small enough|to survive.', highlights: ['survive'], size: 88, media: {src: 'phantom/clip_tv.mp4', type: 'video', effect: 'in'}},
+  {dur: 164, kind: 'compare', compare: {a: {value: 86, prefix: '$', label: 'guessed'}, b: {value: 273, prefix: '$', label: 'paid'}, note: 'per month · US household', source: 'Source: West Monroe'}},
+  {dur: 78, kind: 'text', text: 'The price isn\'t|the problem.|The count is.', highlights: ['count'], size: 78},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 47, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 164, src: 'media/sfx_whoosh.mp3', vol: 0.35},
-  {at: 245, src: 'media/sfx_whoosh.mp3', vol: 0.38},
-  {at: 330, src: 'media/sfx_impact.mp3', vol: 0.58},
-  {at: 335, src: 'media/sfx_chaching.mp3', vol: 0.5},
-  {at: 463, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 66, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 124, src: 'media/sfx_whoosh.mp3', vol: 0.38},
+  {at: 202, src: 'media/sfx_impact.mp3', vol: 0.58},
+  {at: 208, src: 'media/sfx_chaching.mp3', vol: 0.5},
+  {at: 366, src: 'media/sfx_impact.mp3', vol: 0.55},
 ];
 
 const STARTS: number[] = (() => {
@@ -311,6 +316,33 @@ const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
   );
 };
 
+// Two-number comparison save frame (e.g. $86 guessed vs $273 paid), with a
+// count-up on both figures. The second row is the red focal (the shocking real
+// number); a note + source sit beneath.
+const SceneCompare: React.FC<{cfg: CompareCfg}> = ({cfg}) => {
+  const frame = useLocal();
+  const {fps} = useVideoConfig();
+  const enter = spring({frame: frame - 2, fps, config: {damping: 200, mass: 0.5}});
+  const t = interpolate(frame, [4, 40], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const fmt = (v: number, prefix?: string) => (prefix ?? '') + Math.round(v * t).toLocaleString('en-US');
+  return (
+    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 70}}>
+      <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [28, 0])}px)`, display: 'flex', flexDirection: 'column', gap: 18, alignItems: 'center'}}>
+        <div style={{display: 'flex', alignItems: 'baseline', gap: 26, justifyContent: 'center'}}>
+          <span style={{fontFamily: HEAD, fontSize: 200, lineHeight: 0.9, color: C.ink, letterSpacing: 1, textShadow: SH}}>{fmt(cfg.a.value, cfg.a.prefix)}</span>
+          <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 46, letterSpacing: 5, color: C.sub, textTransform: 'uppercase'}}>{cfg.a.label}</span>
+        </div>
+        <div style={{display: 'flex', alignItems: 'baseline', gap: 26, justifyContent: 'center'}}>
+          <span style={{fontFamily: HEAD, fontSize: 250, lineHeight: 0.9, color: C.red, letterSpacing: 1, textShadow: SH}}>{fmt(cfg.b.value, cfg.b.prefix)}</span>
+          <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 52, letterSpacing: 5, color: C.ink, textTransform: 'uppercase'}}>{cfg.b.label}</span>
+        </div>
+        {cfg.note ? <div style={{fontFamily: BODY, fontWeight: 600, fontSize: 34, letterSpacing: 2, color: C.ink, textTransform: 'uppercase', marginTop: 26}}>{cfg.note}</div> : null}
+        {cfg.source ? <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 24, letterSpacing: 4, color: C.muted, textTransform: 'uppercase', marginTop: 12}}>{cfg.source}</div> : null}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const SceneImpact: React.FC<{text: string; redBg?: boolean}> = ({text, redBg}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
@@ -335,9 +367,9 @@ const SceneOutro: React.FC = () => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
   const parts = [
-    {t: 'You guessed half.', red: false},
-    {t: 'It was double.', red: false},
-    {t: 'On autopay.', red: true},
+    {t: 'Not the price.', red: false},
+    {t: 'The count.', red: false},
+    {t: '$273.', red: true},
   ];
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
@@ -346,7 +378,7 @@ const SceneOutro: React.FC = () => {
           const s = spring({frame: frame - (6 + i * 14), fps, config: {damping: 200}});
           return (
             <span key={i} style={{fontFamily: HEAD, fontSize: p.red ? 138 : 116, textTransform: 'uppercase', letterSpacing: 1, color: C.ink, opacity: s, transform: `translateY(${interpolate(s, [0, 1], [34, 0])}px)`}}>
-              {p.red ? (<>On <span style={{color: C.red, textShadow: SH}}>autopay.</span></>) : p.t}
+              {p.red ? (<><span style={{color: C.red, textShadow: SH}}>$273.</span></>) : p.t}
             </span>
           );
         })}
@@ -384,6 +416,8 @@ const renderScene = (s: SceneDef) => {
       return <SceneStat stat={s.stat!} />;
     case 'impact':
       return <SceneImpact text={s.text!} redBg={s.redBg} />;
+    case 'compare':
+      return <SceneCompare cfg={s.compare!} />;
     case 'outro':
       return <SceneOutro />;
     default:
