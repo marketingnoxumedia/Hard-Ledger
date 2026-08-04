@@ -228,6 +228,26 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   phone (11645171). **Unverified claim:** the ~$86-guessed / ~$273-paid per-month
   figures are attributed to West Monroe in the client script and rendered as
   written; confirm the source and the current figures before publishing.
+- **`DriftReel`** — "Drift is the default" (the long-form ~57s companion to the
+  `PhantomReel` loop: people guess ~$86/month on subscriptions but the average US
+  household actually runs ~$273/month, ~$3,300/year — streaming, apps,
+  memberships, cloud storage — small recurring charges designed to stay below the
+  notice-and-cancel line; most name less than half of what they pay, ~4 in 10 pay
+  for a subscription they no longer use, and it accrues $9 and $14 at a time on
+  cards no one checks). Continuous voiceover, scene durations on its exact
+  spoken-word timestamps; two count-up comparison beats ($86 vs $273, $86 vs
+  $3,300), the red "drift is the default" `impact` card mid-late, and several
+  beats on black. Media credits (Pexels, free license) — videos: scrolling an app
+  store (14377147), a contactless card tap on a terminal (11158789), a close-up
+  of coins (5651775), and coins with small bills on a table (6326928). Photos: a
+  woman reviewing finances on her phone (5900034), a dark phone home screen of
+  apps (89955), a fan of $100 bills (5466807), a magnifier over "terms and
+  conditions" (7821937), a woman with her hand to her head over paperwork
+  (6919751), a hand holding a fan of hundreds (14820411), and a woman holding up
+  bills (5900089). **Unverified claims:** the figures — ~$86 guessed, ~$273/month,
+  ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
+  similar surveys and are rendered as written; confirm the sources and current
+  figures before publishing.
 - **`AmazonReel`** — "The storefront was never the business" (a ~20s reel on
   Amazon's segment economics: the retail storefront barely earns — it's the
   front; retail carries almost all the revenue and almost none of the profit,

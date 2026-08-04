@@ -30,6 +30,7 @@ import {LabelReel, DURATION_IN_FRAMES as LABEL_FRAMES} from './LabelReel';
 import {PhantomReel, DURATION_IN_FRAMES as PHANTOM_FRAMES} from './PhantomReel';
 import {AmazonReel, DURATION_IN_FRAMES as AMAZON_FRAMES} from './AmazonReel';
 import {BlockbusterReel, DURATION_IN_FRAMES as BLOCK_FRAMES} from './BlockbusterReel';
+import {DriftReel, DURATION_IN_FRAMES as DRIFT_FRAMES} from './DriftReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -271,6 +272,14 @@ export const RemotionRoot: React.FC = () => {
         id="BlockbusterReel"
         component={BlockbusterReel}
         durationInFrames={BLOCK_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="DriftReel"
+        component={DriftReel}
+        durationInFrames={DRIFT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
