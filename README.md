@@ -251,20 +251,19 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   story: around 2000 a DVD-by-mail startup offered to sell itself; Blockbuster
   declined — and reportedly laughed. Blockbuster later filed for bankruptcy; the
   startup was Netflix. The save frame lands the gap — Netflix became worth on the
-  order of ~8,000× the price Blockbuster refused to pay — then holds silent into
-  the loop closer: on the information available at the time, it was a reasonable
-  no). Same storyboard-driven build as `AmazonReel`: beats spaced to the client's
-  marks (2/4/4/4/4/2s) under a continuous voiceover with no dead air, the VO
-  split at its sentence boundaries and placed at each mark with music under the
-  holds. Three video clips over an abandoned-mall still; the save-frame stat
-  (multi-line) and loop closer sit on black. Media credits (Pexels, free
-  license) — videos: an optical disc catching the light (4211105), a hand
-  browsing a rack of media cases in a store (31760354), and a family on the couch
-  for a movie night (6336598). Photo: the interior of a dead / abandoned shopping
-  mall (35437549). **Unverified claim:** this recounts the widely-reported
-  Blockbuster/Netflix anecdote and frames the outcome gap as ~8,000×, an
-  illustrative order-of-magnitude figure rendered as written; sanity-check the
-  anecdote and the multiple before publishing.
+  order of 8,000× the price Blockbuster refused to pay — before the loop closer:
+  on the information available at the time, it was a reasonable no). The voiceover
+  runs continuously with no dead air and scene durations sit on its exact
+  spoken-word timestamps, so the reel lands at the natural ~13s of the read.
+  Three video clips over an abandoned-mall still; the save-frame stat (multi-line)
+  and loop closer sit on black. Media credits (Pexels, free license) — videos: an
+  optical disc catching the light (4211105), a hand browsing a rack of media
+  cases in a store (31760354), and a family on the couch for a movie night
+  (6336598). Photo: the interior of a dead / abandoned shopping mall (35437549).
+  **Unverified claim:** this recounts the widely-reported Blockbuster/Netflix
+  anecdote and frames the outcome gap as 8,000×, an illustrative
+  order-of-magnitude figure rendered as written; sanity-check the anecdote and
+  the multiple before publishing.
 - **`QwiksterReel`** — "The 3-week reversal" (Netflix's 2011 Qwikster fiasco:
   it split DVD and streaming, raised prices and renamed the DVD side, watched
   subscribers revolt, then killed the plan, admitted the mistake, and refocused

@@ -90,40 +90,39 @@ type SceneDef = {
 // DVD-by-mail startup offered to sell itself; Blockbuster declined — and
 // reportedly laughed. Blockbuster later filed for bankruptcy; the startup was
 // Netflix. The save frame lands the gap: Netflix went on to be worth on the
-// order of ~8,000× the price Blockbuster refused to pay, then holds silent
-// before the loop closer — and yet, on the information available at the time, it
-// was a reasonable no. Beats are spaced to the client's storyboard (2s / 4s /
-// 4s / 4s / 4s / 2s) so each holds its full duration under a continuous
-// voiceover with no dead air: the VO is split at its sentence boundaries and
-// each beat placed at its mark, with music under the holds. Total 612 frames =
-// ~20s. Mixes three video clips (a disc, a media-store browse, a family movie
-// night) with an abandoned-mall still; the save frame and loop closer sit on
-// black. Every background is sourced fresh for this reel (hard rule).
+// order of 8,000× the price Blockbuster refused to pay — and yet, on the
+// information available at the time, it was a reasonable no. The voiceover runs
+// CONTINUOUSLY with no dead air, and scene durations are placed on its exact
+// spoken-word timestamps (ElevenLabs alignment) at +6% pace — so the reel lands
+// at the natural ~13s of the read. Mixes three video clips (a disc, a
+// media-store browse, a family movie night) with an abandoned-mall still; the
+// save frame and loop closer sit on black. Every background is sourced fresh for
+// this reel (hard rule).
 //
 // NOTE (unverified): this reel recounts the widely-reported Blockbuster/Netflix
-// anecdote and characterises the outcome gap as ~8,000× — an illustrative
+// anecdote and characterises the outcome gap as 8,000× — an illustrative
 // order-of-magnitude figure, rendered as written in the client script and NOT
 // independently verified. Sanity-check the anecdote and the multiple before
 // publishing.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 72, kind: 'hook', text: 'The company that|said no is gone.', kicker: 'The reasonable no', highlights: ['gone'], size: 76, media: {src: 'block/p_35437549.jpg', type: 'img', effect: 'in'}},
-  {dur: 120, kind: 'text', text: 'A DVD-by-mail startup|offered to|sell itself.', highlights: ['sell'], size: 66, media: {src: 'block/clip_disc.mp4', type: 'video', effect: 'in'}},
-  {dur: 120, kind: 'text', enter: 'slideL', text: 'Blockbuster declined.|It laughed.', highlights: ['declined'], size: 78, media: {src: 'block/clip_store.mp4', type: 'video', effect: 'in'}},
-  {dur: 120, kind: 'text', text: 'The startup|was Netflix.', highlights: ['netflix'], size: 88, media: {src: 'block/clip_stream.mp4', type: 'video', effect: 'in'}},
-  {dur: 120, kind: 'stat', stat: {pre: 'The gap', prefix: '~', value: 8000, comma: true, suffix: '×', post: 'what Netflix became, against the price|Blockbuster refused to pay for it'}},
-  {dur: 60, kind: 'text', text: 'It was a|reasonable no.', highlights: ['reasonable'], size: 84},
+  {dur: 52, kind: 'hook', text: 'The company that|said no is gone.', kicker: 'The reasonable no', highlights: ['gone'], size: 76, media: {src: 'block/p_35437549.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', text: 'A DVD-by-mail startup|offered to|sell itself.', highlights: ['sell'], size: 66, media: {src: 'block/clip_disc.mp4', type: 'video', effect: 'in'}},
+  {dur: 60, kind: 'text', enter: 'slideL', text: 'Blockbuster declined.|It laughed.', highlights: ['declined'], size: 78, media: {src: 'block/clip_store.mp4', type: 'video', effect: 'in'}},
+  {dur: 102, kind: 'text', text: 'The startup|was Netflix.', highlights: ['netflix'], size: 88, media: {src: 'block/clip_stream.mp4', type: 'video', effect: 'in'}},
+  {dur: 53, kind: 'stat', stat: {pre: 'The gap', value: 8000, comma: true, suffix: '×', post: 'what Netflix became, against the price|Blockbuster refused to pay for it'}},
+  {dur: 45, kind: 'text', text: 'It was a|reasonable no.', highlights: ['reasonable'], size: 84},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 72, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 192, src: 'media/sfx_whoosh.mp3', vol: 0.38},
-  {at: 312, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 432, src: 'media/sfx_impact.mp3', vol: 0.58},
-  {at: 438, src: 'media/sfx_chaching.mp3', vol: 0.5},
-  {at: 552, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 52, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 135, src: 'media/sfx_whoosh.mp3', vol: 0.38},
+  {at: 195, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 297, src: 'media/sfx_impact.mp3', vol: 0.58},
+  {at: 303, src: 'media/sfx_chaching.mp3', vol: 0.5},
+  {at: 350, src: 'media/sfx_impact.mp3', vol: 0.55},
 ];
 
 const STARTS: number[] = (() => {
