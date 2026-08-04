@@ -248,6 +248,27 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`AwsReel`** — "The cloud is the business" (the long-form ~43s companion to
+  `AmazonReel`: you think of Amazon as a store, and the store is most of what it
+  sells but less than half of what it earns. Its own segment reporting flips the
+  picture — retail, North America + International, brings in over 80% of revenue
+  while AWS is under a fifth; on operating income it reverses, AWS earning more
+  than half of all operating income on that small slice of sales. Retail makes
+  money now, but AWS earns far out of proportion to its size, so investors price
+  Amazon on the segment that earns, not the one that's visible). Continuous
+  voiceover, scene durations on its exact spoken-word timestamps; two segment
+  stats (>80% / >50%), the "on profit, it flips" red `impact` card, and a closing
+  <20%-of-sales vs >50%-of-profit comparison. Media credits (Pexels, free
+  license) — videos: a POV shopping-cart run through a store (5137848), a busy
+  supermarket checkout (37101039), and a server room (5028622). Photos: a
+  warm-lit grocery storefront at night (12805817), a cardboard delivery parcel on
+  a doorstep (6170463), a printed quarterly bar-chart report (7947849), and two
+  blue-lit server racks (37730211, 17323801). **Unverified claim:** this names a
+  real company (Amazon, NASDAQ: AMZN) and characterises its segment economics —
+  retail >80% of revenue, AWS under a fifth of revenue but >50% of operating
+  income — as stated in the client script (attributed to Amazon's own segment
+  reporting); rendered as written and **not** independently verified; confirm
+  against the latest 10-K before publishing.
 - **`AmazonReel`** — "The storefront was never the business" (a ~20s reel on
   Amazon's segment economics: the retail storefront barely earns — it's the
   front; retail carries almost all the revenue and almost none of the profit,
