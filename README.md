@@ -248,6 +248,28 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`LotteryReel`** — "Wealth is a habit" (a ~50s reel on the lottery-bankruptcy
+  twist: the oft-repeated "most winners go broke" stat has no real source; the
+  finding that does is stranger — a big win doesn't stop bankruptcy, it reschedules
+  it. Researchers tracked lottery winners for five years and found big winners
+  about 50% more likely to file than smaller winners, but not right away: a large
+  prize delays bankruptcy by a few years rather than preventing it, with filings
+  clustered three to five years after the win and about 1 in 18 big winners filing
+  within five years. A windfall lifts spending immediately; holding wealth takes
+  longer to build than the money takes to spend. A lump sum is income, wealth is a
+  habit — more money doesn't fix money habits, it amplifies them). Continuous
+  voiceover, scene durations on its exact spoken-word timestamps; two stats
+  (50% / 1-in-18), the "wealth is a habit" red `impact` card mid-tail, and a
+  "postponed, not prevented" calendar closer. Media credits (Pexels, free
+  license) — videos: lottery tickets spinning on a roller (2982434) and a man in
+  a parked sports car (30763728). Photos: a stack of $100 bills (14820469), an
+  hourglass (8573370), an empty wallet (8515596), and a wall calendar (32381238).
+  **Unverified claim:** this cites a real academic finding on lottery winners and
+  bankruptcy (large winners ~50% more likely to file than small winners; filings
+  clustered ~3–5 years post-win; ~1 in 18 big winners filed within five years —
+  figures associated with Hankins, Hoekstra & Skiba, "The Ticket to Easy
+  Street?"); rendered as written and **not** independently verified; confirm the
+  study and figures before publishing.
 - **`MarginReel`** — "Margin tells the business" (a ~44s reel on revenue vs
   margin: two companies each ring up a dollar of sales — one keeps about two
   cents, the other about a third. Revenue is the size of the pipe; margin is what
