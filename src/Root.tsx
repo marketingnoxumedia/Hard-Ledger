@@ -34,6 +34,7 @@ import {DriftReel, DURATION_IN_FRAMES as DRIFT_FRAMES} from './DriftReel';
 import {AwsReel, DURATION_IN_FRAMES as AWS_FRAMES} from './AwsReel';
 import {ToyReel, DURATION_IN_FRAMES as TOY_FRAMES} from './ToyReel';
 import {SaverReel, DURATION_IN_FRAMES as SAVER_FRAMES} from './SaverReel';
+import {MarginReel, DURATION_IN_FRAMES as MARGIN_FRAMES} from './MarginReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -307,6 +308,14 @@ export const RemotionRoot: React.FC = () => {
         id="SaverReel"
         component={SaverReel}
         durationInFrames={SAVER_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="MarginReel"
+        component={MarginReel}
+        durationInFrames={MARGIN_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

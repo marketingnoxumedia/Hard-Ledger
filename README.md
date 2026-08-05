@@ -248,6 +248,27 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`MarginReel`** — "Margin tells the business" (a ~44s reel on revenue vs
+  margin: two companies each ring up a dollar of sales — one keeps about two
+  cents, the other about a third. Revenue is the size of the pipe; margin is what
+  actually stays, and two identical top lines can hide an order-of-magnitude gap.
+  A grocer like Kroger keeps roughly 1–2¢ per dollar because competition and
+  perishables leave almost no room; enterprise software like Microsoft keeps
+  around 35¢, because serving one more customer costs almost nothing. Volume hides
+  the gap — the grocer moves enormous revenue to earn what the software firm earns
+  on a fraction of it. Revenue tells you the size; margin tells you the business).
+  Continuous voiceover, scene durations on its exact spoken-word timestamps; two
+  margin stats (2¢ / 35¢), the "margin tells the business" red `impact` card
+  mid-tail, and a closing 2¢-vs-35¢-kept comparison as the payoff. Media credits
+  (Pexels, free license) — videos: a checkout belt with a barcode scanner
+  (29832466) and a shopper walking a grocery aisle (4081583). Photos: US dollar
+  bills (6468225), a network of steel pipes (2310904), a refrigerated produce
+  case (28670064), a server rack (37605910), a stocked warehouse aisle (4483608),
+  and scattered coins (1006060). **Unverified claim:** this names real companies
+  (Kroger, NYSE: KR; Microsoft, NASDAQ: MSFT) and characterises their net margins
+  — a grocer at ~1–2¢ on the dollar, enterprise software at ~35¢ — as
+  illustrative, order-of-magnitude figures; rendered as written and **not**
+  independently verified; confirm against current filings before publishing.
 - **`SaverReel`** — "Rate beats salary" (a ~45s reel on savings rate vs salary:
   two workers, same 30 years, same market. One earns $150K and saves 5%; the
   other earns $60K and saves 20% — so the higher earner invests $7,500 a year and
