@@ -32,6 +32,7 @@ import {AmazonReel, DURATION_IN_FRAMES as AMAZON_FRAMES} from './AmazonReel';
 import {BlockbusterReel, DURATION_IN_FRAMES as BLOCK_FRAMES} from './BlockbusterReel';
 import {DriftReel, DURATION_IN_FRAMES as DRIFT_FRAMES} from './DriftReel';
 import {AwsReel, DURATION_IN_FRAMES as AWS_FRAMES} from './AwsReel';
+import {ToyReel, DURATION_IN_FRAMES as TOY_FRAMES} from './ToyReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -289,6 +290,14 @@ export const RemotionRoot: React.FC = () => {
         id="AwsReel"
         component={AwsReel}
         durationInFrames={AWS_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ToyReel"
+        component={ToyReel}
+        durationInFrames={TOY_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

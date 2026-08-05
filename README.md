@@ -248,6 +248,29 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`ToyReel`** — "Looks like a toy" (the long-form ~60s companion to
+  `BlockbusterReel`: in 2000 Blockbuster could have bought Netflix for about $50M
+  and laughed it off. On the numbers of the day refusing looked sound — the
+  stores were profitable, the brand national, late fees dependable, and Netflix
+  was tiny, unprofitable, and dependent on the mail; buying it also meant funding
+  a model whose success would kill the very late fees paying the bills. Streaming
+  arrived, late fees died, customers left, and Blockbuster filed for bankruptcy in
+  2010, while Netflix went on to be worth over $400B — roughly 8,000× the price
+  Blockbuster wouldn't pay. The danger wasn't a bigger rival; it was a tiny one
+  solving the customer's real annoyance). Continuous voiceover, scene durations
+  on its exact spoken-word timestamps; three stats ($50M / $400B / 8,000×), the
+  "looks like a toy" red `impact` card mid-tail, and a closing $50M-refused vs
+  $400B-gone comparison as the payoff. Media credits (Pexels, free license) —
+  videos: a hand browsing crates of records in a media store (6825964) and a
+  woman lit by screen glow watching at night (9808085). Photos: a vintage CRT TV
+  on a wood floor (333984), a long shopping receipt held in two hands (4959907),
+  a person holding up a shiny disc (15092992), a neon "Video World" rental-store
+  interior (15588865), and a shuttered brick storefront (8387508). **Unverified
+  claim:** this names real companies (Blockbuster, Netflix) and cites a
+  widely-reported anecdote — the ~$50M Netflix offer Blockbuster declined circa
+  2000, its 2010 bankruptcy, Netflix later worth over $400B, and the resulting
+  ~8,000× gap; rendered as written and **not** independently verified; confirm the
+  figures before publishing.
 - **`AwsReel`** — "The cloud is the business" (the long-form ~43s companion to
   `AmazonReel`: you think of Amazon as a store, and the store is most of what it
   sells but less than half of what it earns. Its own segment reporting flips the
