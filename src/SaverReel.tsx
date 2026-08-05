@@ -128,7 +128,7 @@ const SCENES: SceneDef[] = [
   {dur: 49, kind: 'impact', text: 'Rate beats|salary.', redBg: true},
   {dur: 64, kind: 'text', enter: 'zoom', text: 'Net worth is|the gap.', highlights: ['gap'], size: 88, media: {src: 'saver/p_growth.jpg', type: 'img', effect: 'in'}},
   {dur: 44, kind: 'text', text: 'Not the size|of the paycheck.', highlights: ['paycheck'], size: 82},
-  {dur: 87, kind: 'lines', text: 'Earned less.|Saved more.|Retired richer.', highlights: ['richer'], reveal: [6, 30, 54], media: {src: 'saver/clip_calm.mp4', type: 'video', effect: 'in'}},
+  {dur: 92, kind: 'lines', text: 'Earned less.|Saved more.|Retired richer.', highlights: ['richer'], reveal: [8, 32, 53], media: {src: 'saver/clip_calm.mp4', type: 'video', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
