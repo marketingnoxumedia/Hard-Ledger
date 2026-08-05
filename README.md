@@ -248,6 +248,28 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`SaverReel`** — "Rate beats salary" (a ~45s reel on savings rate vs salary:
+  two workers, same 30 years, same market. One earns $150K and saves 5%; the
+  other earns $60K and saves 20% — so the higher earner invests $7,500 a year and
+  the lower earner $12,000. Run both at an assumed 7% for 30 years and the pots
+  flip — the higher earner reaches about $0.7M, the lower earner about $1.1M. The
+  one who put in more each year wins, regardless of who earned more: the salary
+  set the ceiling, the savings rate decided the outcome, and a raise you spend
+  changes nothing. Net worth tracks the gap between earning and spending, not the
+  size of the paycheck). Continuous voiceover, scene durations on its exact
+  spoken-word timestamps; single-figure stats ($150K / $60K / 5% / 20% / 7%), two
+  contrast comparisons ($7,500 vs $12,000 invested per year, $0.7M vs $1.1M pots),
+  the "rate beats salary" red `impact` card mid-tail, and an earned-less /
+  saved-more / retired-richer `lines` closer over the final clip. Media credits
+  (Pexels, free license) — videos: two colleagues at a laptop (6930964) and a
+  retired couple walking a beach path (8630075). Photos: a market ticker board
+  (210607), a seaside bench overlooking the water (18260123), hands stacking coins
+  into growing piles (9755376), a glass tower shot looking up (614228), a person
+  with paper shopping bags (6238591), and a coin jar sprouting a green shoot
+  (9755390). **Illustration, not a forecast:** the figures are a worked example,
+  not real people — two hypothetical savers compounded at an assumed 7% for 30
+  years ($150K×5% = $7,500/yr ≈ $0.7M; $60K×20% = $12,000/yr ≈ $1.1M); the 7%
+  return and rounded pot figures are illustrative.
 - **`ToyReel`** — "Looks like a toy" (the long-form ~60s companion to
   `BlockbusterReel`: in 2000 Blockbuster could have bought Netflix for about $50M
   and laughed it off. On the numbers of the day refusing looked sound — the
