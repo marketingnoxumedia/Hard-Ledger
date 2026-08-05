@@ -248,6 +248,25 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`BottleReel`** — "The label, not the liquid" (a ~36s reel on bottled water:
+  you buy it by the case and think you're paying for water, but the water is the
+  cheapest thing in the bottle — almost every cent goes to everything around it.
+  From the tap the same volume costs a fraction of a cent per litre; on the shelf,
+  a dollar or more. The gap isn't the liquid — it's packaging, branding, logistics
+  and retail margin. You're buying convenience and a label; the contents are the
+  smallest cost in the chain, the water a rounding error. The product isn't the
+  water, it's everything wrapped around it — price tracks the packaging, not the
+  thing inside). Continuous voiceover, scene durations on its exact spoken-word
+  timestamps; two per-litre stats (<1¢ tap / $1+ bottled), a four-item cost list
+  (packaging / branding / logistics / retail margin), the "price tracks the
+  packaging" red `impact` card mid-tail, and a closing <1¢-vs-$1 comparison. Media
+  credits (Pexels, free license) — videos: a running tap (11593539) and a water
+  bottling/filling line (36968920). Photos: a case of capped bottles (15524063),
+  a clear plastic bottle (11860562), a poured glass (4965574), and a
+  bottle-to-glass pour (8074426). **Illustration:** the per-litre figures are
+  round, order-of-magnitude values (tap at a fraction of a cent per litre vs
+  bottled at roughly a dollar or more), not a quoted price for any brand or
+  region; confirm local figures before publishing.
 - **`LotteryReel`** — "Wealth is a habit" (a ~50s reel on the lottery-bankruptcy
   twist: the oft-repeated "most winners go broke" stat has no real source; the
   finding that does is stranger — a big win doesn't stop bankruptcy, it reschedules
