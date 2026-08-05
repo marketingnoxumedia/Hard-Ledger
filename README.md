@@ -248,6 +248,27 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`KodakReel`** — "The future in its own lab" (a ~53s reel on Kodak: in 1975 an
+  engineer showed his employer a machine that would erase its entire business, and
+  they shelved it. It was Kodak; the engineer was Steven Sasson and the machine was
+  the world's first digital camera — Kodak held the future of photography in its
+  own lab. Leadership buried it, and on the numbers of the day that was rational:
+  film and processing earned on every roll shot, developed and printed — a
+  recurring, high-margin stream a one-off camera sale could never match, while the
+  prototype was slow and coarse and the market looked like nothing. Then digital
+  exploded, led by everyone else, and Kodak filed for bankruptcy in 2012, killed by
+  the thing it invented). Continuous voiceover, scene durations on its exact
+  spoken-word timestamps; the "future in its own lab" red `impact` card mid-tail,
+  and an "invented 1975 / bankrupt 2012" media closer. Media credits (Pexels, free
+  license) — videos: hands with a vintage film camera (30563209) and a smartphone
+  taking a photo (3198273). Photos: Kodak 35mm film (13780814), a film camera
+  (36979005), a pile of film rolls (4042775), a darkroom with prints (6133433), a
+  shuttered storefront (1362906), and a vintage-camera still-life (4372403).
+  **Unverified (historical):** this names a real company (Kodak) and person (Steven
+  Sasson) and recounts the well-documented story — Sasson built the first digital
+  camera prototype at Kodak in 1975; Kodak filed Chapter 11 in 2012 — rendered as
+  written and **not** independently re-verified; a Kodak-branded film box appears as
+  illustrative b-roll. Confirm specifics before publishing.
 - **`BottleReel`** — "The label, not the liquid" (a ~36s reel on bottled water:
   you buy it by the case and think you're paying for water, but the water is the
   cheapest thing in the bottle — almost every cent goes to everything around it.

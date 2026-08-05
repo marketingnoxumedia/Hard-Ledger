@@ -37,6 +37,7 @@ import {SaverReel, DURATION_IN_FRAMES as SAVER_FRAMES} from './SaverReel';
 import {MarginReel, DURATION_IN_FRAMES as MARGIN_FRAMES} from './MarginReel';
 import {LotteryReel, DURATION_IN_FRAMES as LOTTERY_FRAMES} from './LotteryReel';
 import {BottleReel, DURATION_IN_FRAMES as BOTTLE_FRAMES} from './BottleReel';
+import {KodakReel, DURATION_IN_FRAMES as KODAK_FRAMES} from './KodakReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -334,6 +335,14 @@ export const RemotionRoot: React.FC = () => {
         id="BottleReel"
         component={BottleReel}
         durationInFrames={BOTTLE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="KodakReel"
+        component={KodakReel}
+        durationInFrames={KODAK_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
