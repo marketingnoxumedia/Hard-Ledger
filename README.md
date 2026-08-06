@@ -248,6 +248,36 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`ExciteReel`** — "Distribution fades" (a ~57s reel on Excite passing on Google
+  in 1999: you could have bought the future of search for less than the price of a
+  house — the sellers even dropped their price, and the buyer still said no. The
+  buyer was Excite, a top web portal; the company for sale was Google, two Stanford
+  students with a noticeably better search engine. Google's founders offered ~$1M,
+  then dropped to ~$750K; Excite declined, on every portal's logic of the day —
+  traffic was the asset, search a commodity that just sent users away, and paying
+  to make visitors leave faster looked like a bad trade. Nobody yet knew the money
+  was in answering the query. Google's search took over the internet, Excite faded
+  into irrelevance, and Alphabet grew into a company worth well over a trillion
+  dollars — from a price Excite thought too high. Distribution fades; a genuinely
+  better product compounds, sometimes by a factor of a million). Continuous
+  voiceover, scene durations on its exact spoken-word timestamps; $1M / $750K /
+  $1T+ count-up stats, a mid-tail "distribution fades" red `impact` card, and a
+  $750K-refused-vs-$1T-gone closing comparison. Full-bleed footage on nearly every
+  beat (only the closing comparison is black). Media credits (Pexels, free
+  license) — photos: a 90s CRT desk setup (36763947), a magnifying glass (4144768),
+  macro dollar bills (4386475), scattered hundreds (5466789), a man with a
+  magnifier (6614797), a CRT typing scene (5185179), two founders coding (1181263),
+  code on a laptop (12899151), fanned hundreds (10149293), stacked bills (545064),
+  vintage PC accessories (8720273), a vintage office team (8872441), a blue-lit
+  server (17489163), a floppy-disk computer (37919866), banknotes on a surface
+  (5466821), a magnifying glass on blue (4205767), a night city skyline (30373052),
+  a b&w vintage Macintosh (12950487), an illuminated skyline (16422868), bills with
+  a laptop (5980800), and a finance-concept money stack (32553499). **Unverified
+  (historical):** names real companies (Excite, Google, Alphabet) and recounts the
+  widely-reported ~1999 episode (a ~$1M then ~$750K offer Excite passed on;
+  Alphabet later exceeding a $1T market cap) — the commonly-cited version of the
+  story, rendered as written and **not** independently re-verified; confirm before
+  publishing.
 - **`VendReel`** — "The route, not the snacks" (a ~67s reel on the vending-route
   business: a business with no employees, no hours and no rent that collects the
   cash before anyone consumes a thing, and runs while the owner sleeps. It's a
