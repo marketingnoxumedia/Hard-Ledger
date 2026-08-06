@@ -248,6 +248,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`HoursReel`** — "The value inside the hour" (a ~50s reel on the hours-worked
+  vs productivity myth: there's a belief that more hours means more produced and
+  more earned, but compare whole countries and the numbers don't back it up. It's
+  easy to believe — effort is the part you control, visible busyness looks like
+  productivity, and hours are simple to count while value isn't. Across countries,
+  longer hours don't track higher output; several nations work fewer hours per
+  worker and produce more per hour than places that grind longer. Past a point,
+  extra hours bring fatigue and diminishing returns — a rested worker out-produces
+  an exhausted one on the same task in less time; output is capped by focus and
+  energy, not the clock. Treating hours as the goal confuses effort with results —
+  the question isn't how long it took, it's how much value each hour created. The
+  lever was never the length of the day; it's the value inside each hour).
+  Continuous voiceover, scene durations on its exact spoken-word timestamps; a
+  "value isn't" black beat, the "the lever was never the length of the day" red
+  `impact` card near the end, and a "fewer hours / more produced / across
+  economies" closer. Full-bleed footage on nearly every beat. Media credits
+  (Pexels, free license) — photos: a wall clock with desk supplies (5477685), a
+  flag-pinned world map (8828597), a laptop world-map screen (7411970), a person
+  at a desk (5717792), a man rubbing tired eyes (8867253), an overworked man with
+  a cup (8472560), a white analog clock (7016218), a b&w world-map silhouette
+  (5725589), a relaxed man with coffee and laptop (4939594), a serene woman on a
+  laptop (6443357), a worker asleep at a desk late at night (36713392), a woman
+  asleep on her desk (9062785), a woman relaxing with coffee and laptop
+  (35962978), a focused worker by a cafe window (4925870), a coffee break in
+  sunlight (9222386), a round black wall clock (1010480), an overworked man
+  staring at a laptop (6837647), a wooden-framed clock (191703), a serene coffee
+  workspace (8472577), a vintage alarm clock (37808313), and a relaxed morning
+  laptop scene (6613598). General productivity explainer — no company named and no
+  figures asserted; the cross-country claim reflects the widely-reported OECD
+  hours-vs-productivity pattern (directional), so confirm specifics before
+  publishing.
 - **`ExciteReel`** — "Distribution fades" (a ~57s reel on Excite passing on Google
   in 1999: you could have bought the future of search for less than the price of a
   house — the sellers even dropped their price, and the buyer still said no. The
