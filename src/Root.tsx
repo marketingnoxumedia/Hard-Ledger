@@ -44,6 +44,7 @@ import {SpreadReel, DURATION_IN_FRAMES as SPREAD_FRAMES} from './SpreadReel';
 import {VendReel, DURATION_IN_FRAMES as VEND_FRAMES} from './VendReel';
 import {ExciteReel, DURATION_IN_FRAMES as EXCITE_FRAMES} from './ExciteReel';
 import {HoursReel, DURATION_IN_FRAMES as HOURS_FRAMES} from './HoursReel';
+import {IndexReel, DURATION_IN_FRAMES as INDEX_FRAMES} from './IndexReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -397,6 +398,14 @@ export const RemotionRoot: React.FC = () => {
         id="HoursReel"
         component={HoursReel}
         durationInFrames={HOURS_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="IndexReel"
+        component={IndexReel}
+        durationInFrames={INDEX_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

@@ -248,6 +248,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`IndexReel`** — "The return was always there" (a ~51s reel on index investing
+  and patience: there's a return that's been available for a hundred years, it beats
+  most professional investors, and it asks for no skill — only patience. It's the
+  broad US stock market: over the long run it's returned about ten percent a year,
+  roughly seven after inflation, so as a rule of thumb money doubles about every
+  seven years — ten thousand becomes twenty, then forty, without adding a cent,
+  though the average hides wild up-and-down years inside it. The catch: over fifteen
+  years, about ninety percent of professional large-cap funds fail to beat that
+  simple index; the experts, with all their tools, mostly trail it. You don't beat
+  the market by being clever, you capture it by staying in — the horizon does the
+  heavy lifting and the usual enemy is impatience, not stock-picking. The return was
+  always available; the hard part was never the strategy — it was sitting still).
+  Continuous voiceover, scene durations on its exact spoken-word timestamps; a
+  "sitting still" red `impact` card near the end and a "10% the return / 90% the
+  pros, behind" black compare closer that lays the whole thesis in one frame.
+  Full-bleed footage on nearly every beat. Media credits (Pexels, free license) —
+  photos: stacked euro coins (9648153), a suited professional (5831522), a calm
+  seated figure (11743785), a stock-market screen (11798249), a rising chart
+  (38821936), an inflation-worn note (38877603), a compounding growth chart
+  (10531120), a seven-year calendar (12920750), a growing money plant (12198523),
+  a century-old ledger detail (8369695), a volatile market chart (38782891), a
+  magnifier over data (36755611), a fifteen-year horizon chart (38782896), a
+  ninety-percent gauge (38343508), a downcast analyst (7567554), a trailing chart
+  (5831255), a clever-looking trader (7567440), a steady long-term investor
+  (4912789), a distant horizon (38877604), a frustrated impatient trader (5831256),
+  and an ever-available market board (12198531). **Unverified claims:** the figures
+  — ~10% nominal / ~7% real long-run US equity returns, the ~7-year doubling rule of
+  thumb, and ~90% of active large-cap funds trailing the index over fifteen years —
+  echo long-run market history and SPIVA-style persistence studies and are rendered
+  as an illustration, not advice; confirm the current sources and figures before
+  publishing.
 - **`HoursReel`** — "The value inside the hour" (a ~50s reel on the hours-worked
   vs productivity myth: there's a belief that more hours means more produced and
   more earned, but compare whole countries and the numbers don't back it up. It's
