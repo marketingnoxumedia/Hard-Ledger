@@ -248,6 +248,32 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`SpreadReel`** — "A maybe vs a bill" (a ~46s reel on cash-vs-mortgage
+  arithmetic: paying cash for a house feels safe, but sometimes the arithmetic
+  favours carrying a mortgage you don't need. Say you have $500K and a $500K home.
+  Option A: pay cash — the money sits in the walls earning nothing. Option B: take
+  a mortgage at ~4% and invest the $500K at an expected ~6%. The loan costs ~$20K a
+  year in interest; the money earns ~$30K, if returns hold — a spread of ~2%, about
+  $10K a year in favour of financing. But it's a spread bet, not free money: the 6%
+  is an expectation, the mortgage payment is a certainty. A certain cost against an
+  uncertain return — what matters is the margin of safety, not the average. The
+  return is a maybe; the payment is a bill). Continuous voiceover, scene durations
+  on its exact spoken-word timestamps; a $500K and $10K/yr stat, two comparisons
+  (4%-vs-6%, $20K-vs-$30K), and a mid-tail "margin of safety" red `impact` card.
+  Full-bleed footage on nearly every beat (only the two comparisons sit on black).
+  Media credits (Pexels, free license) — photos: a suburban home at dusk (186077),
+  keys with documents and a calculator (27505120), a key handoff with a sold sign
+  (8293717), a fan of $100 bills (15206825), a red-brick home (31602311), a forked
+  dirt road (17342282), a hand holding a stack of cash (7231804), a minimalist
+  house gable (358636), a person holding loan documents (8872719), a candlestick
+  display (35118250), a rural road junction (35368202), a fan of banknotes
+  (14820437), casino chips with dice and cards (269630), a candlestick analysis
+  chart (38892300), papers marked paid and due (7111490), a mechanical balance
+  scale (16204377), red dice falling mid-air (6990398), a hand holding a past-due
+  bill (7926666), and a scenic village of homes (18189047). **Illustration, not
+  advice:** a worked arithmetic example — the 4% rate, 6% expected return and the
+  ~$20K / ~$30K / ~$10K figures are round, assumed numbers to show the spread;
+  actual rates and returns vary and the return is uncertain.
 - **`RunwayReel`** — "Short on years, not money" (a ~52s reel on retirement
   savings: the typical American near retirement has about $185K saved — the median
   for households nearing 65 — and for most it only tops up other income, not a
