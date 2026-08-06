@@ -248,6 +248,32 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`LeaseReel`** — "One path ends the payment" (a ~47s reel on leasing forever vs
+  buying and holding a car: two people drive the same kind of car for ten years —
+  one ends the decade owning nothing and still writing a monthly cheque, the other
+  is paid off and still driving. They didn't pick different cars; they picked
+  different ways to hold one. Lease continuously and you're always in a new car but
+  carry a permanent payment; buy once and keep it and you pay more up front, or
+  finance for a few years, then the loan ends and the cost trends toward zero. Over
+  a long horizon holding is usually the cheaper path, and the longer the car is
+  kept the wider the gap — terms, rates and upkeep move the size of it, not the
+  direction. One path ends the payment; the other never does). Continuous
+  voiceover, scene durations on its exact spoken-word timestamps; a "different ways
+  to hold it" black beat and a "one path ends the payment" red `impact` card near
+  the end, closing on a vintage odometer ("the other never does"). Full-bleed
+  footage on nearly every beat. Media credits (Pexels, free license) — photos: a
+  key handover (8482859), a stack of bills (5900179), cars on a dealership lot
+  (5864164), a fork in an open road (22775934), an open highway (6333640), a clean
+  new SUV in a showroom (9542003), a monthly payment/calculator (6963887), cash in
+  hand (4394806), signing paperwork (8112169), a market chart on a laptop
+  (7108092), a dealership key handover (7489107), a relaxed driver (3785441), a
+  declining chart (5561912), a new car detail (6817007), bills and a calendar
+  (5900184), a piggy bank (3833052), a financial chart (6203470), a mechanic at
+  work (8478259), and a vintage car odometer (7409808). **Illustration, not
+  advice:** a conceptual comparison — no specific prices, rates or figures are
+  asserted, and "holding is usually cheaper over a long horizon" depends on lease
+  terms, interest rates, resale value and upkeep; confirm the numbers for a real
+  decision before publishing.
 - **`IndexReel`** — "The return was always there" (a ~51s reel on index investing
   and patience: there's a return that's been available for a hundred years, it beats
   most professional investors, and it asks for no skill — only patience. It's the
