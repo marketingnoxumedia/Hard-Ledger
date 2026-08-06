@@ -262,13 +262,22 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   voiceover, scene durations on its exact spoken-word timestamps; two staggered
   `lines` lists (cost to serve; how they shed accounts), the "not all revenue is
   good revenue" red `impact` card near the end, and a "fewer customers / more
-  profit / both true" closer over empty cafe chairs. Media credits (Pexels, free
-  license) — videos: call-center agents with headsets (8865706) and a customer
-  paying at a cafe counter (6683943). Photos: a headset support agent (7709255), a
-  business handshake (8837510), scattered receipts (7680681), a chart on a monitor
-  (5833762), a rising green line (38821934), and empty cafe chairs (18001286).
-  General management principle (customer-level profitability / cost to serve) — not
-  about a specific named company, and no financial figures are asserted.
+  profit / both true" closer over empty cafe chairs. Full-bleed footage carries
+  nearly every beat (only two black beats plus the one red card). Media credits
+  (Pexels, free license) — videos: call-center agents with headsets (8865706) and
+  a customer paying at a cafe counter (6683943). Photos: a headset support agent
+  (7709255), counting cash (4968545), euro bills with a calculator (7654163), two
+  businessmen in discussion (6285071), a boutique returns counter (36730430), a
+  cash-counting machine (6266447), a brainstorm session (7693692), a business
+  handshake (8837510), a pen analyzing rates (8292880), scattered receipts
+  (7680681), top-down data sheets (6694560), a hand at a chart on a monitor
+  (5833762), a hand pointing to a market drop (9301837), a cashier handing over a
+  bag (7667454), a card payment at a boutique (36730429), a rising green line
+  (38821934), an accountant signing with a calculator (8296977), a "loss"
+  thumbs-down whiteboard (7172860), employees cooperating in an office (12903168),
+  and empty cafe chairs (18001286). General management principle (customer-level
+  profitability / cost to serve) — not about a specific named company, and no
+  financial figures are asserted.
 - **`KodakReel`** — "The future in its own lab" (a ~53s reel on Kodak: in 1975 an
   engineer showed his employer a machine that would erase its entire business, and
   they shelved it. It was Kodak; the engineer was Steven Sasson and the machine was

@@ -100,12 +100,13 @@ type SceneDef = {
 // the ones that stayed paid the bills. Not all revenue is good revenue. The
 // voiceover runs continuously with no dead air and scene durations sit on its
 // exact spoken-word timestamps (ElevenLabs alignment) at +6% pace — total 1741
-// frames = ~58s. Mixes two video clips (call-center agents, a counter payment)
-// with stills (a headset agent, a handshake, scattered receipts, a chart on a
-// monitor, a rising green line, empty cafe chairs); two staggered lists (cost to
-// serve; how they shed accounts), the "not all revenue is good revenue" red
-// impact card near the end, and a "fewer customers / more profit / both true"
-// closer. Every background is sourced fresh for this reel (hard rule).
+// frames = ~58s. Full-bleed footage on nearly every beat (two video clips —
+// call-center agents, a counter payment — plus ~20 stills spanning money,
+// retail, offices, ledgers and charts), with only two black beats and the one
+// red "not all revenue is good revenue" impact card near the end; two staggered
+// lists (cost to serve; how they shed accounts) and a "fewer customers / more
+// profit / both true" closer. Every background is sourced fresh for this reel
+// (hard rule).
 //
 // NOTE: this reel states a general management principle (customer-level
 // profitability — that cost to serve can exceed an account's revenue, so firing
@@ -114,29 +115,29 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 124, kind: 'hook', text: 'They fire paying|customers.', kicker: 'Busy isn\'t profitable', highlights: ['fire'], size: 82, media: {src: 'cull/clip_service.mp4', type: 'video', effect: 'in'}},
-  {dur: 30, kind: 'text', text: 'The revenue|leaves.', highlights: ['leaves'], size: 92},
-  {dur: 32, kind: 'text', text: 'The profit|goes up.', highlights: ['up'], size: 92},
-  {dur: 72, kind: 'text', text: 'Both true,|at once.', highlights: ['both'], size: 88},
+  {dur: 30, kind: 'text', text: 'The revenue|leaves.', highlights: ['leaves'], size: 92, media: {src: 'cull/p_leave.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', text: 'The profit|goes up.', highlights: ['up'], size: 92, media: {src: 'cull/p_calc.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', enter: 'slideL', text: 'Both true,|at once.', highlights: ['both'], size: 88, media: {src: 'cull/p_two.jpg', type: 'img', effect: 'in'}},
   {dur: 35, kind: 'text', enter: 'zoom', text: 'Every customer has|a cost to serve.', highlights: ['cost'], size: 74, media: {src: 'cull/p_support.jpg', type: 'img', effect: 'in'}},
-  {dur: 147, kind: 'lines', text: 'Support.|Returns.|Discounts.|Hassle.', highlights: ['support'], reveal: [6, 34, 62, 90]},
-  {dur: 60, kind: 'text', text: 'Sometimes it exceeds|what they pay.', highlights: ['exceeds'], size: 74},
-  {dur: 103, kind: 'text', text: 'The instinct runs|the other way.', highlights: ['instinct'], size: 76},
+  {dur: 147, kind: 'lines', text: 'Support.|Returns.|Discounts.|Hassle.', highlights: ['support'], reveal: [6, 34, 62, 90], media: {src: 'cull/p_counter.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', text: 'Sometimes it exceeds|what they pay.', highlights: ['exceeds'], size: 74, media: {src: 'cull/p_counter2.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', text: 'The instinct runs|the other way.', highlights: ['instinct'], size: 76, media: {src: 'cull/p_brainstorm.jpg', type: 'img', effect: 'in'}},
   {dur: 76, kind: 'text', enter: 'slideL', text: 'Every account|feels like a win.', highlights: ['win'], size: 76, media: {src: 'cull/p_deal.jpg', type: 'img', effect: 'in'}},
-  {dur: 49, kind: 'text', text: 'Cutting one feels|like harm.', highlights: ['harm'], size: 78},
+  {dur: 49, kind: 'text', text: 'Cutting one feels|like harm.', highlights: ['harm'], size: 78, media: {src: 'cull/p_pen.jpg', type: 'img', effect: 'in'}},
   {dur: 145, kind: 'text', enter: 'slideR', text: 'The real cost is|scattered.', highlights: ['scattered'], size: 78, media: {src: 'cull/p_desk.jpg', type: 'img', effect: 'in'}},
   {dur: 32, kind: 'text', text: 'Spread too thin|to see.', highlights: ['thin'], size: 82},
-  {dur: 89, kind: 'text', text: 'It never lands|on one line.', highlights: ['never'], size: 80},
+  {dur: 89, kind: 'text', enter: 'slideL', text: 'It never lands|on one line.', highlights: ['never'], size: 80, media: {src: 'cull/p_sheets.jpg', type: 'img', effect: 'in'}},
   {dur: 110, kind: 'text', enter: 'zoom', text: 'Measure profit|per customer.', highlights: ['profit'], size: 78, media: {src: 'cull/p_analytics.jpg', type: 'img', effect: 'in'}},
-  {dur: 45, kind: 'text', text: 'A slice are|losing money.', highlights: ['losing'], size: 80},
-  {dur: 69, kind: 'text', text: 'So the company|sheds them.', highlights: ['sheds'], size: 82},
-  {dur: 78, kind: 'lines', text: 'Raise their price.|Drop the losers.|Steer them away.', highlights: ['drop'], reveal: [6, 30, 54]},
+  {dur: 45, kind: 'text', text: 'A slice are|losing money.', highlights: ['losing'], size: 80, media: {src: 'cull/p_drop.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', enter: 'slideR', text: 'So the company|sheds them.', highlights: ['sheds'], size: 82, media: {src: 'cull/p_bag.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'lines', text: 'Raise their price.|Drop the losers.|Steer them away.', highlights: ['drop'], reveal: [6, 30, 54], media: {src: 'cull/p_pay2.jpg', type: 'img', effect: 'in'}},
   {dur: 28, kind: 'text', text: 'Revenue|falls.', highlights: ['falls'], size: 92},
   {dur: 56, kind: 'text', enter: 'zoom', text: 'Margin|rises.', highlights: ['rises'], size: 96, media: {src: 'cull/p_up.jpg', type: 'img', effect: 'in'}},
-  {dur: 60, kind: 'text', text: 'Lower revenue,|higher profit.', highlights: ['higher'], size: 80},
-  {dur: 47, kind: 'text', text: 'The ones that left|were the drag.', highlights: ['drag'], size: 78},
+  {dur: 60, kind: 'text', text: 'Lower revenue,|higher profit.', highlights: ['higher'], size: 80, media: {src: 'cull/p_sign.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', text: 'The ones that left|were the drag.', highlights: ['drag'], size: 78, media: {src: 'cull/p_thumbsdown.jpg', type: 'img', effect: 'in'}},
   {dur: 81, kind: 'text', enter: 'slideL', text: 'The ones that stayed|paid the bills.', highlights: ['stayed'], size: 76, media: {src: 'cull/clip_pay.mp4', type: 'video', effect: 'in'}},
   {dur: 40, kind: 'impact', text: 'Not all revenue|is good revenue.', redBg: true},
-  {dur: 46, kind: 'text', text: 'Busy and profitable|aren\'t the same.', highlights: ['busy'], size: 76},
+  {dur: 46, kind: 'text', enter: 'slideR', text: 'Busy and profitable|aren\'t the same.', highlights: ['busy'], size: 76, media: {src: 'cull/p_team.jpg', type: 'img', effect: 'in'}},
   {dur: 87, kind: 'lines', text: 'Fewer customers.|More profit.|Both true.', highlights: ['profit'], reveal: [6, 30, 54], media: {src: 'cull/p_end.jpg', type: 'img', effect: 'in'}},
 ];
 
