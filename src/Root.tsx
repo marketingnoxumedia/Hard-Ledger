@@ -39,6 +39,7 @@ import {LotteryReel, DURATION_IN_FRAMES as LOTTERY_FRAMES} from './LotteryReel';
 import {BottleReel, DURATION_IN_FRAMES as BOTTLE_FRAMES} from './BottleReel';
 import {KodakReel, DURATION_IN_FRAMES as KODAK_FRAMES} from './KodakReel';
 import {CullReel, DURATION_IN_FRAMES as CULL_FRAMES} from './CullReel';
+import {RunwayReel, DURATION_IN_FRAMES as RUNWAY_FRAMES} from './RunwayReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -352,6 +353,14 @@ export const RemotionRoot: React.FC = () => {
         id="CullReel"
         component={CullReel}
         durationInFrames={CULL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="RunwayReel"
+        component={RunwayReel}
+        durationInFrames={RUNWAY_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

@@ -248,6 +248,33 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`RunwayReel`** — "Short on years, not money" (a ~52s reel on retirement
+  savings: the typical American near retirement has about $185K saved — the median
+  for households nearing 65 — and for most it only tops up other income, not a
+  salary. Drawn down safely at 4%, it produces only ~$7,400 a year, about $600 a
+  month on top of Social Security — enough to cover a gap for a few years, not to
+  fund thirty. The figure isn't fixed by fate; it tracks when saving started. At an
+  assumed 7%, the same $300 a month reaches ~$790K from age 25 but only ~$245K from
+  40. Same money, different runway — most people near retirement aren't short on
+  money, they're short on years). Continuous voiceover, scene durations on its
+  exact spoken-word timestamps; five count-up stats ($185K / $7,400 / 4% / 30yrs /
+  7%), a $245K-vs-$790K comparison, and the "short on years" red `impact` card near
+  the end. Full-bleed footage on nearly every beat (only the comparison sits on
+  black). Media credits (Pexels, free license) — photos: a senior couple by the sea
+  (8170251), a calculator on $100s (5466795), counting cash (5900189), a printed
+  line chart (590045), a couple on a couch (5591274), an income growth chart with
+  coins (6289026), a calculator on banknotes (4386406), a couple buying groceries
+  (8422672), a person holding cash (5466811), a calculator with a notebook
+  (5466785), a highway at sunset (1046606), a highway under dramatic sky
+  (13681232), a lonely road to the horizon (35999387), an accountant with bills
+  (4386327), a finance review with a pencil (7876507), a blue bar graph (7947754),
+  a black piggy bank with coins (3943727), a calculator on dollar bills (5942527), a
+  black-and-white desert highway (1038935), a person computing with bills
+  (5900225), and a warm older couple outdoors (16519714). **Illustration /
+  unverified:** the ~$185K median and the 4% drawdown math (~$7,400/yr) echo widely
+  reported figures; the $300/mo → ~$790K (from 25) vs ~$245K (from 40) projections
+  are a worked example at an assumed 7% return, not a forecast — confirm the median
+  and assumptions before publishing.
 - **`CullReel`** — "Busy isn't profitable" (a ~58s reel on firing unprofitable
   customers: some companies quietly shed paying customers on purpose and make more
   money after — the revenue leaves, the profit goes up, both true at once. Every
