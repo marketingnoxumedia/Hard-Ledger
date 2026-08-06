@@ -248,6 +248,36 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`OwnersReel`** — "Markets reward owners, not earners" (a ~55s reel on who
+  actually owns the stock market: it gets called everyone's market, but when it
+  booms almost none of the gain reaches most households — because of who owns it.
+  The wealthiest ~10% of US households own about 90% of all stocks; the bottom half
+  own roughly 1%. So when the market rises 20%, almost all of that gain flows to the
+  people already holding nearly all the shares — a booming market and a struggling
+  household can share the same country and the same year. The divide isn't mainly
+  income, it's ownership: wages get taxed and spent while assets compound on their
+  own, and at the very top ~1% of households now hold a record ~31% of all US
+  wealth. The households pulling away aren't necessarily out-earning everyone — they
+  own things that grow while they sleep. Markets reward owners, not earners, and
+  most people watch the gains from the wrong side of that line). Continuous
+  voiceover, scene durations on its exact spoken-word timestamps; the red "markets
+  reward owners, not earners" `impact` card sits near the end and the reel closes on
+  a black 10%-own-ninety vs half-the-country-owns-one comparison. Full-bleed footage
+  on nearly every beat. Media credits (Pexels, free license) — photos: a stock
+  ticker board (534216), a modest suburban house (12619604), a hand over market data
+  (7567445), a brick manor and lawn (8143683), an empty wallet (8719574), a green
+  rising chart (186461), cash changing hands (3768145), a trading-floor screen
+  (11798250), a market surge board (187041), a worried household (7927581), a payslip
+  at a desk (8872389), house keys/home ownership (12505403), tax paperwork (6927335),
+  a money plant compounding (6774947), an aerial luxury estate (9150640), a steep
+  growth chart (7108043), an office worker (7654610), someone asleep at night
+  (6541074), stacked coins as assets (8369680), and a person looking out a window
+  (16634008). **Real figures — verify before publishing:** the "top 10% own ~90% of
+  stocks", "bottom 50% own ~1%", and "top 1% hold a record ~31% of US wealth" stats
+  echo the Federal Reserve Distributional Financial Accounts and are widely reported,
+  but the exact shares move each quarter and the "market rises 20%" is an
+  illustrative round number; confirm the current DFA figures before publishing.
+  (Distinct from `OwnershipReel`, "the ownership gap.")
 - **`LeaseReel`** — "One path ends the payment" (a ~47s reel on leasing forever vs
   buying and holding a car: two people drive the same kind of car for ten years —
   one ends the decade owning nothing and still writing a monthly cheque, the other
