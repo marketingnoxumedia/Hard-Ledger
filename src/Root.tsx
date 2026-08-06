@@ -41,6 +41,7 @@ import {KodakReel, DURATION_IN_FRAMES as KODAK_FRAMES} from './KodakReel';
 import {CullReel, DURATION_IN_FRAMES as CULL_FRAMES} from './CullReel';
 import {RunwayReel, DURATION_IN_FRAMES as RUNWAY_FRAMES} from './RunwayReel';
 import {SpreadReel, DURATION_IN_FRAMES as SPREAD_FRAMES} from './SpreadReel';
+import {VendReel, DURATION_IN_FRAMES as VEND_FRAMES} from './VendReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -370,6 +371,14 @@ export const RemotionRoot: React.FC = () => {
         id="SpreadReel"
         component={SpreadReel}
         durationInFrames={SPREAD_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="VendReel"
+        component={VendReel}
+        durationInFrames={VEND_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

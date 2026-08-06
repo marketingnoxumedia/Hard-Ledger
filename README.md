@@ -248,6 +248,38 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`VendReel`** — "The route, not the snacks" (a ~67s reel on the vending-route
+  business: a business with no employees, no hours and no rent that collects the
+  cash before anyone consumes a thing, and runs while the owner sleeps. It's a
+  vending route — a fleet of machines in offices, gyms and lobbies selling around
+  the clock, where the business is the route and the placement, not the snacks.
+  Customers pay before they consume, the machines never take a day off, and the
+  operator borrows space in someone else's building and pays no storefront rent.
+  What looks like a snack business is really a logistics one — returns follow route
+  density, not the margin on a single chocolate bar. The economics live in
+  placement: a busy spot and a tight restock route make a small money pump, a bad
+  location is dead weight. There's no honest single figure for profit per machine;
+  one machine is a rounding error, a well-run route of dozens is a real, low-touch
+  business — boring and repeatable beats exciting and fragile). Continuous
+  voiceover, scene durations on its exact spoken-word timestamps; an offices /
+  gyms / lobbies `lines` beat, the "boring beats fragile" red `impact` card near
+  the end, and a "no staff / no rent / paid before the bite" closer over a night
+  vending row. Full-bleed footage on nearly every beat (only the "no honest single
+  figure" line is black). Media credits (Pexels, free license) — videos: a lit
+  drink machine (5758028) and a lone machine at a roadside at night (25810707).
+  Photos: a hand of coins (6328870), a Tokyo vending machine at night (34492643),
+  a beverage machine row (20210396), soda/candy machines in a building (4062275),
+  a sticker-covered street machine (31327341), silver coins in a hand (3943720), a
+  woman choosing a drink (37380681), a red soda machine at night (9395585), a
+  street machine (21840652), a courier unloading a van (6169177), machines on a
+  street (20576570), Kyoto night machines (30251193), a Tokyo street machine
+  (37533033), assorted chocolate bars (32402905), machines beside a bin (27152951),
+  gourmet chocolate bars (8794094), candy on a dark surface (14147300), a hand
+  truck of boxes (6169660), a lone snack machine (38803615), and a cluster of city
+  machines (16029615). General small-business explainer — no company named and no
+  profit figure asserted (the script says there's no honest single number);
+  incidental brand packaging appears in the machine b-roll but no brand is
+  referenced.
 - **`SpreadReel`** — "A maybe vs a bill" (a ~46s reel on cash-vs-mortgage
   arithmetic: paying cash for a house feels safe, but sometimes the arithmetic
   favours carrying a mortgage you don't need. Say you have $500K and a $500K home.
