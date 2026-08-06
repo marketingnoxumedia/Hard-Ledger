@@ -248,6 +248,27 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`CullReel`** — "Busy isn't profitable" (a ~58s reel on firing unprofitable
+  customers: some companies quietly shed paying customers on purpose and make more
+  money after — the revenue leaves, the profit goes up, both true at once. Every
+  customer carries a cost to serve — support, returns, discounts, hassle — and for
+  some accounts that cost quietly exceeds everything they ever pay. The instinct
+  runs the other way (revenue is visible, every account feels like a win, so
+  dropping one looks like self-harm), but cost to serve is scattered and never
+  lands on one line. Measure profit per customer instead of revenue and a slice of
+  accounts are losing money, so the company sheds them — raising prices, dropping
+  the money-losers, steering them elsewhere. Revenue falls, margin rises: the
+  accounts that left were the drag, the ones that stayed paid the bills). Continuous
+  voiceover, scene durations on its exact spoken-word timestamps; two staggered
+  `lines` lists (cost to serve; how they shed accounts), the "not all revenue is
+  good revenue" red `impact` card near the end, and a "fewer customers / more
+  profit / both true" closer over empty cafe chairs. Media credits (Pexels, free
+  license) — videos: call-center agents with headsets (8865706) and a customer
+  paying at a cafe counter (6683943). Photos: a headset support agent (7709255), a
+  business handshake (8837510), scattered receipts (7680681), a chart on a monitor
+  (5833762), a rising green line (38821934), and empty cafe chairs (18001286).
+  General management principle (customer-level profitability / cost to serve) — not
+  about a specific named company, and no financial figures are asserted.
 - **`KodakReel`** — "The future in its own lab" (a ~53s reel on Kodak: in 1975 an
   engineer showed his employer a machine that would erase its entire business, and
   they shelved it. It was Kodak; the engineer was Steven Sasson and the machine was
