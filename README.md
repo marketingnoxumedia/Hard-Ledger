@@ -248,6 +248,36 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`RentReel`** — "It depends" (a ~57s reel debunking the rent-vs-buy slogan:
+  there's a belief that renting is throwing money away and buying is always the
+  smart move — but sometimes buying is the more expensive mistake. The belief is
+  easy to hold because rent leaves nothing to point to while a mortgage feels like
+  forced saving, but buying carries costs the slogan ignores — interest, property
+  taxes, maintenance, insurance, transaction fees — and the down payment has an
+  opportunity cost, since that money could have been invested. Whether buying wins
+  depends on how long you stay, local price-to-rent ratios, and what the cash would
+  otherwise earn. Owners build equity but tie up capital; renters keep flexibility
+  and can invest the difference — the same house can favour buying in one city and
+  renting in another. The honest answer is a calculation, not a maxim; change the
+  inputs and it often flips within a few years of break-even. Renting isn't always
+  waste, buying isn't always smart — it depends). Continuous voiceover, scene
+  durations on its exact spoken-word timestamps; a black hidden-cost list (interest
+  / property taxes / maintenance / insurance / fees), a red "a calculation, not a
+  slogan" `impact` card near the end, and a close on a house-with-sign ("it
+  depends"). Full-bleed footage on nearly every beat. Media credits (Pexels, free
+  license) — photos: a for-rent sign (12933051), a for-sale sign (7937763), a
+  stressed homeowner with bills (5900161), a thoughtful person (6919706), an empty
+  rental (8962228), house keys as forced saving (7599735), a home budget calculator
+  (5900160), cash as a down payment (5900186), an investing chart (7948072), moving
+  boxes (4554249), an apartment tower for price-to-rent (20538974), coins the cash
+  could earn (5466814), house keys and equity (8293781), a mover with a box
+  (7203775), coins invested as the difference (5466798), a balance scale (7707115),
+  a city skyline (17113690), a budget calculation (4386366), an investment chart at
+  break-even (6802052), an apartment building (11839273), and a house with a sign
+  (8469940). **Illustration, not advice:** a conceptual explainer with no asserted
+  prices or figures; whether renting or buying wins genuinely depends on time
+  horizon, local price-to-rent, mortgage rate and the opportunity cost of the down
+  payment — directional, not a recommendation for any specific market.
 - **`OwnersReel`** — "Markets reward owners, not earners" (a ~55s reel on who
   actually owns the stock market: it gets called everyone's market, but when it
   booms almost none of the gain reaches most households — because of who owns it.
