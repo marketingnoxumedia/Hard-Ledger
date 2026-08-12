@@ -308,6 +308,40 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   savings rate, ordinary incomes + high savings among many millionaires) echo the
   Federal Reserve's Survey of Consumer Finances and *The Millionaire Next Door* —
   confirm current figures and sources before publishing.
+- **`BlackberryReel`** — "The strength trap" (a ~53s reel on BlackBerry: one company
+  owned the business smartphone — every exec and government office carried its
+  device — and when the iPhone arrived it called the touchscreen a fad serious
+  professionals would never want. Its physical keyboard and secure email were the
+  whole advantage and the whole trap: doubling down looked like discipline, not
+  denial, because that was exactly why enterprises and governments had standardised
+  on it and customers said they wanted it — right up until those buyers changed
+  their minds. Touchscreens and apps became the entire market, the differentiator
+  turned into ballast, and BlackBerry went from number one to a rounding error, a
+  company that once defined the smartphone vanishing from it in a few years. The
+  lesson: your strength can be the trap — the hardest feature to drop is the one
+  that made you; number one to almost zero, it held the keyboard the whole way
+  down). Continuous voiceover, scene durations on its exact spoken-word timestamps;
+  a black "and the whole trap" beat, a red "your strength is the trap" `impact`
+  card in the tail, and a close on an abandoned BlackBerry keyboard rather than the
+  red card. Full-bleed footage on nearly every beat, mixing video b-roll with
+  stills. Media credits (Pexels, free license) — videos: a suited exec texting
+  (852250), a finger on a touchscreen (6279147), a professional reviewing a device
+  (6930642), a crowd absorbed in phones (8088617), and scrolling a social feed
+  (38410501). Photos: an exec on a phone by a window (6699308), a finger on a
+  touchscreen (4278336), a poised businessman (34762353), a BlackBerry Passport
+  keyboard (87736), a bright corporate office (31071841), a padlock on a dark latch
+  (37095097), a boardroom of executives (6949494), hands on a slide-out keyboard
+  phone (34387186), a finger on a glowing touchscreen (27788817), a business
+  handshake (6918529), a rusty anchor and chains (6588323), a lone obsolete phone
+  (4224099), a collection of retro phones (16388464), a pile of phones for recycling
+  (19037726), a keyboard-equipped business PDA (28266696), an abandoned BlackBerry in
+  ivy (1474232), a moody vintage phone (28266692), and a BlackBerry keyboard with a
+  red petal (1474234). **Illustration / real company:** the BlackBerry story is
+  rendered as written — the broad arc (dominance in late-2000s business phones,
+  dismissing touch, collapse to negligible share) is widely reported, but "number
+  one," "a rounding error," and the timeline are characterisations, not exact
+  figures; a few vintage b-roll phones carry other brands' logos (HP, Sony, Nokia)
+  as period relics of the "phone graveyard." Confirm specifics before publishing.
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car

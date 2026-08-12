@@ -51,6 +51,7 @@ import {RentReel, DURATION_IN_FRAMES as RENT_FRAMES} from './RentReel';
 import {SudsReel, DURATION_IN_FRAMES as SUDS_FRAMES} from './SudsReel';
 import {DrawReel, DURATION_IN_FRAMES as DRAW_FRAMES} from './DrawReel';
 import {KeepReel, DURATION_IN_FRAMES as KEEP_FRAMES} from './KeepReel';
+import {BlackberryReel, DURATION_IN_FRAMES as BLACKBERRY_FRAMES} from './BlackberryReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -460,6 +461,14 @@ export const RemotionRoot: React.FC = () => {
         id="KeepReel"
         component={KeepReel}
         durationInFrames={KEEP_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="BlackberryReel"
+        component={BlackberryReel}
+        durationInFrames={BLACKBERRY_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
