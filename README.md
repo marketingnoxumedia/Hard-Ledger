@@ -248,6 +248,33 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`DrawReel`** — "The rate, not the balance" (a ~51s reel on the retirement
+  withdrawal-rate rule: two people retire with the same million dollars — one never
+  runs out, the other goes broke, on the same balance and the same markets. The only
+  difference is how fast they spend. On a $1M portfolio, drawing 4% a year is
+  $40,000 (a rate that has historically tended to last decades) while 8% is $80,000
+  — double the income and a far higher risk of running dry. The rule of thumb:
+  withdraw around 4% and a portfolio has a strong chance of lasting a long
+  retirement; double the rate and you roughly double the odds of running out. The
+  rate, not the balance, sets the outcome — two retirees with identical savings can
+  land in completely different places purely on spending speed, and timing compounds
+  it, since a bad market early hurts the fast spender most). Continuous voiceover,
+  scene durations on its exact spoken-word timestamps; count-up stats for the dollar
+  figures, a red "the rate, not the balance" `impact` card mid-tail, and a 4%-vs-8%
+  ("lasts decades" vs "can run dry") comparison closer. Full-bleed footage on nearly
+  every beat, mixing video b-roll with stills. Media credits (Pexels, free license)
+  — videos: a retired couple on a beach (7237634), hands budgeting cash (6326861), a
+  draining hourglass (1196530), and a market chart (38168755). Photos: a content
+  senior (8871552), an empty wallet (31330436), a market chart (6770775), a fan of
+  cash (6266445), a savings jar (585292), a cash pile (6266280), counted bills
+  (5466818), a relaxed senior couple (7330926), spread cash (6801640), a retirement
+  planner (11350082), a calculator and notes (6863253), an empty wallet (11348104),
+  two diverging roads (1117267), a wallet and card (6863252), and a market chart
+  (6781273). **Illustration / guideline, not advice:** the "~4% withdrawal rate" is
+  the widely-cited rule of thumb (Bengen / the Trinity study); real outcomes depend
+  on asset mix, sequence-of-returns risk, fees, inflation and how long retirement
+  lasts, and the $1M / 4% / 8% / $40k / $80k figures are round illustrative numbers —
+  "a guideline, not a guarantee." Confirm before publishing.
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
