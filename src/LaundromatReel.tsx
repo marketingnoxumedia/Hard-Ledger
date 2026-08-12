@@ -75,46 +75,65 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// "The laundromat play" reel — boring, durable cash flow. Durations placed on
-// exact spoken-word timestamps (ElevenLabs alignment) at +6% pace.
-// Total 1581 frames = ~52.7s. `enter` adds a transition on some cuts.
-// Every scene uses a distinct background sourced fresh for this reel — no
-// footage is shared with any other reel (see the skill's hard rule).
+// "Boring cash that compounds" reel — the laundromat (rebuilt). There's a cash
+// business on your corner that barely notices a recession, employs almost no one,
+// and gets paid in quarters; nobody who owns one ever brags about it — that's the
+// point. It's a laundromat: a room of machines customers operate themselves, paying
+// per load, so self-service means the customers supply the labour. It's defended by
+// what it lacks — no staff to manage, no inventory to buy, no brand to hold up,
+// machines that run for years on simple maintenance, and demand anchored to renters
+// without in-unit laundry, a base that grows, not shrinks, when money gets tight.
+// That steady local demand doesn't vanish when the economy dips — people still need
+// clean clothes in a downturn. The appeal is durable cash flow on almost no
+// staffing; margins swing too much with rent and utilities to quote an honest single
+// figure. Durability beats excitement: a well-located laundromat is the kind of
+// boring cash flow that quietly compounds. The voiceover runs continuously with no
+// dead air and scene durations sit on its exact spoken-word timestamps (ElevenLabs
+// alignment) at +6% pace — total 1574 frames = ~52s. Mixes video b-roll (a
+// laundromat interior, coins, a spinning drum, tumbling dryers) with stills, one
+// black beat (the "no staff / no inventory / no brand" list) and one red "durability
+// beats excitement" impact card, closing on footage. Every background is sourced
+// fresh for this reel (hard rule).
+//
+// NOTE (illustration, not figures): a conceptual explainer on why a laundromat is
+// durable, low-staff cash flow; the script deliberately quotes no margin or price
+// ("swing too much ... to quote an honest single figure"). No company is named —
+// directional, confirm specifics before publishing.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 41, kind: 'hook', text: 'There’s a business|on your corner.', kicker: 'Boring & durable', highlights: ['corner'], size: 82, media: {src: 'laundromat/clip_storefront.mp4', type: 'video', effect: 'in'}},
-  {dur: 39, kind: 'text', text: 'It survives|recessions.', highlights: ['recessions'], size: 92, media: {src: 'laundromat/p_4397175.jpg', type: 'img', effect: 'in'}},
-  {dur: 52, kind: 'text', enter: 'slideL', text: 'Runs with|almost no staff.', highlights: ['staff'], size: 88, media: {src: 'laundromat/clip_inside.mp4', type: 'video', effect: 'in'}},
-  {dur: 67, kind: 'text', text: 'Paid in cash —|by the fistful.', highlights: ['cash'], size: 86, media: {src: 'laundromat/p_4968663.jpg', type: 'img', effect: 'in'}},
-  {dur: 80, kind: 'lines', text: 'No app.|No brand.|No founder story.', highlights: ['brand'], reveal: [0, 22, 44]},
-  {dur: 29, kind: 'text', enter: 'zoom', text: 'It’s a|laundromat.', highlights: ['laundromat'], size: 104, media: {src: 'laundromat/p_9669475.jpg', type: 'img', effect: 'in'}},
-  {dur: 110, kind: 'lines', text: 'Machines customers|operate themselves.|Paying per load.', highlights: ['themselves'], reveal: [0, 30, 60], media: {src: 'laundromat/clip_loading.mp4', type: 'video', effect: 'in'}},
-  {dur: 74, kind: 'text', enter: 'slideR', text: 'Self-service — the|customers supply|the labour.', highlights: ['labour'], size: 74, media: {src: 'laundromat/clip_folding.mp4', type: 'video', effect: 'in'}},
-  {dur: 53, kind: 'text', text: 'It’s defended|by what it lacks.', highlights: ['lacks'], size: 84, media: {src: 'laundromat/clip_closeup.mp4', type: 'video', effect: 'in'}},
-  {dur: 122, kind: 'lines', text: 'No staff to manage.|No inventory to buy.|No brand to hold up.', highlights: ['inventory'], reveal: [0, 30, 60]},
-  {dur: 86, kind: 'text', enter: 'slideL', text: 'Machines that run for years|on simple maintenance.', highlights: ['years'], size: 74, media: {src: 'laundromat/clip_spin.mp4', type: 'video', effect: 'in'}},
-  {dur: 185, kind: 'lines', text: 'Renters with no|laundry at home —|a base that grows|when money gets tight.', highlights: ['grows'], reveal: [0, 26, 52, 80], media: {src: 'laundromat/p_7189284.jpg', type: 'img', effect: 'panL'}},
-  {dur: 26, kind: 'text', enter: 'zoom', text: 'That’s|the model.', highlights: ['model'], size: 104, media: {src: 'laundromat/clip_carts.mp4', type: 'video', effect: 'in'}},
-  {dur: 106, kind: 'text', enter: 'slideR', text: 'Steady local demand|that doesn’t vanish|when the economy dips.', highlights: ['steady'], size: 74, media: {src: 'laundromat/clip_cart.mp4', type: 'video', effect: 'in'}},
-  {dur: 129, kind: 'text', text: 'No headline|margin to quote.', highlights: ['margin'], size: 84, media: {src: 'laundromat/p_8018103.jpg', type: 'img', effect: 'in'}},
-  {dur: 79, kind: 'text', text: 'The point isn’t a number.|It’s the shape|of the cash flow.', highlights: ['shape'], size: 74},
-  {dur: 85, kind: 'lines', text: 'Low labour.|Steady use.|Recession resistant.', highlights: ['recession', 'resistant'], reveal: [0, 26, 52], media: {src: 'laundromat/clip_clothes.mp4', type: 'video', effect: 'in'}},
-  {dur: 51, kind: 'impact', text: 'Durability|beats excitement.', redBg: true},
-  {dur: 167, kind: 'text', text: 'A well-located laundromat|is boring, durable cash|that quietly compounds.', highlights: ['compounds'], size: 70, media: {src: 'laundromat/p_2927523.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'hook', text: 'A cash business|on your corner.', kicker: 'Boring cash that compounds', highlights: ['cash'], size: 84, media: {src: 'laundromat/v_inside.mp4', type: 'video', effect: 'in'}},
+  {dur: 99, kind: 'text', text: 'It barely notices|a recession.', highlights: ['recession'], size: 80, media: {src: 'laundromat/p_recession.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', text: 'And it\'s paid|in quarters.', highlights: ['quarters'], size: 86, media: {src: 'laundromat/v_coins.mp4', type: 'video', effect: 'in'}},
+  {dur: 47, kind: 'text', text: 'Nobody ever|brags about it.', highlights: ['nobody'], size: 84, media: {src: 'laundromat/p_brags.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', enter: 'zoom', text: 'It\'s a|laundromat.', highlights: ['laundromat'], size: 104, media: {src: 'laundromat/v_spin.mp4', type: 'video', effect: 'in'}},
+  {dur: 113, kind: 'text', text: 'Customers run|the machines.', highlights: ['customers'], size: 84, media: {src: 'laundromat/p_customers.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', text: 'They supply|the labour.', highlights: ['labour'], size: 88, media: {src: 'laundromat/p_labour.jpg', type: 'img', effect: 'in'}},
+  {dur: 23, kind: 'text', text: 'Defended by|what it lacks.', highlights: ['lacks'], size: 84, media: {src: 'laundromat/p_lacks.jpg', type: 'img', effect: 'in'}},
+  {dur: 130, kind: 'lines', text: 'No staff.|No inventory.|No brand.', highlights: ['brand'], reveal: [8, 40, 72]},
+  {dur: 78, kind: 'text', enter: 'slideL', text: 'Machines run|for years.', highlights: ['years'], size: 90, media: {src: 'laundromat/p_years.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', text: 'Demand anchored|to renters.', highlights: ['renters'], size: 84, media: {src: 'laundromat/p_renters.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', enter: 'slideR', text: 'A base that grows|when times get tight.', highlights: ['grows'], size: 76, media: {src: 'laundromat/p_grows.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', text: 'Demand doesn\'t|vanish in a dip.', highlights: ['vanish'], size: 80, media: {src: 'laundromat/p_vanish.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', enter: 'zoom', text: 'Clean clothes,|even in a downturn.', highlights: ['downturn'], size: 74, media: {src: 'laundromat/v_dry.mp4', type: 'video', effect: 'in'}},
+  {dur: 44, kind: 'text', text: 'Durable|cash flow.', highlights: ['durable'], size: 92, media: {src: 'laundromat/p_durable.jpg', type: 'img', effect: 'in'}},
+  {dur: 112, kind: 'text', text: 'On almost|no staffing.', highlights: ['no'], size: 88, media: {src: 'laundromat/p_nostaff.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', text: 'No honest|single figure.', highlights: ['figure'], size: 82, media: {src: 'laundromat/p_figure.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'impact', text: 'Durability|beats excitement.', redBg: true},
+  {dur: 91, kind: 'text', enter: 'slideL', text: 'A well-located|laundromat.', highlights: ['well-located'], size: 84, media: {src: 'laundromat/v_store.mp4', type: 'video', effect: 'in'}},
+  {dur: 37, kind: 'text', text: 'Boring cash that|quietly compounds.', highlights: ['compounds'], size: 78, media: {src: 'laundromat/p_compounds.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', text: 'Quarters in.|Clean clothes out.', highlights: ['out'], size: 82, media: {src: 'laundromat/p_out.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', text: 'Barely a soul|on payroll.', highlights: ['payroll'], size: 84, media: {src: 'laundromat/p_payroll.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 80, src: 'media/sfx_whoosh.mp3', vol: 0.45},
-  {at: 132, src: 'media/sfx_chaching.mp3', vol: 0.5},
-  {at: 279, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 418, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 667, src: 'media/sfx_whoosh.mp3', vol: 0.5},
-  {at: 938, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1070, src: 'media/sfx_chaching.mp3', vol: 0.5},
-  {at: 1363, src: 'media/sfx_impact.mp3', vol: 0.72},
-  {at: 1414, src: 'media/sfx_whoosh.mp3', vol: 0.45},
+  {at: 162, src: 'media/sfx_chaching.mp3', vol: 0.5}, // paid in quarters
+  {at: 277, src: 'media/sfx_impact.mp3', vol: 0.5}, // reveal — it's a laundromat
+  {at: 540, src: 'media/sfx_whoosh.mp3', vol: 0.4}, // no staff / no inventory / no brand
+  {at: 1031, src: 'media/sfx_whoosh.mp3', vol: 0.4}, // clean clothes in a downturn
+  {at: 1287, src: 'media/sfx_impact.mp3', vol: 0.62}, // red card — durability beats excitement
+  {at: 1531, src: 'media/sfx_impact.mp3', vol: 0.5}, // close — barely a soul on payroll
 ];
 
 const STARTS: number[] = (() => {
@@ -360,7 +379,7 @@ const Hud: React.FC = () => {
     <>
       <div style={{position: 'absolute', top: 70, left: 80, display: 'flex', alignItems: 'center', gap: 14}}>
         <div style={{width: 11, height: 11, borderRadius: 11, background: C.sub}} />
-        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>The laundromat play</span>
+        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>Boring cash that compounds</span>
       </div>
       <div style={{position: 'absolute', bottom: 90, left: 80, right: 80, height: 3, borderRadius: 3, background: 'rgba(255,255,255,0.08)'}}>
         <div style={{height: '100%', width: `${progress * 100}%`, borderRadius: 3, background: C.sub}} />

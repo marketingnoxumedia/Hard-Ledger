@@ -1060,16 +1060,34 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   today, price level ~4× since 1980, $100 → ~$390) track long-run US CPI but
   shift with the reference month — verify against the latest BLS data before
   publishing.
-- **`LaundromatReel`** — "The laundromat play" (a boring, durable, recession-
-  resistant local cash business). ~53s, footage-forward (only three plain-black
-  beats and one red card). Media credits (Pexels, free license) — videos: coin
-  laundry storefront (9737915), laundry interiors/machines (8756951, 8756892,
-  8756955, 6482495, 8756884, 8756816, 5535852), folded-clothes stacking
-  (5116403). Photos: coin-laundry washers (9669475), patrons waiting (4397175),
-  fan of US dollars (4968663), apartment block with hanging laundry (7189284),
-  pile of quarters (8018103), woman folding in a laundromat (2927523). No hard
-  financials are quoted; the "recession-resistant / low-labour" framing is a
-  general business characterization — sanity-check before publishing.
+- **`LaundromatReel`** — "Boring cash that compounds" (a ~52s reel on the laundromat
+  — rebuilt with a fuller script and fresh footage: a cash business on your corner
+  that barely notices a recession, employs almost no one, and gets paid in quarters;
+  nobody who owns one ever brags about it — that's the point. It's a laundromat, a
+  room of machines customers operate themselves paying per load, so self-service
+  means the customers supply the labour. It's defended by what it lacks — no staff to
+  manage, no inventory to buy, no brand to hold up, machines that run for years on
+  simple maintenance, and demand anchored to renters without in-unit laundry, a base
+  that grows, not shrinks, when money gets tight. That steady local demand doesn't
+  vanish when the economy dips; people still need clean clothes in a downturn. The
+  appeal is durable cash flow on almost no staffing — durability beats excitement,
+  and a well-located laundromat is the kind of boring cash flow that quietly
+  compounds). Continuous voiceover, scene durations on its exact spoken-word
+  timestamps; a "no staff / no inventory / no brand" black beat, a red "durability
+  beats excitement" `impact` card near the end, and a close on an empty laundromat.
+  Full-bleed footage on nearly every beat, mixing video b-roll with stills. Media
+  credits (Pexels, free license) — videos: a laundromat interior (8756892), scattered
+  coins (7118320), a spinning washer drum (4119968), tumbling dryers (5535856), and
+  an empty laundromat (8756816). Photos: a calm laundromat (7282378), a plain
+  laundromat (4700400), a customer loading a machine (11852050), hands loading
+  laundry (5901622), a row of machines (10207554), a machine close-up (4386143), an
+  apartment building (38894397), a city apartment block (1330753), folded laundry
+  (7282433), a stack of coins (7738887), an empty laundromat (5816934), coins
+  (8844580), coins growing (3943714), folded clothes (4440566), and an empty
+  self-service laundromat (3639870). **Illustration, not figures:** a conceptual
+  explainer; the script deliberately quotes no margin or price ("swing too much ...
+  to quote an honest single figure") and names no company — the recession-resistant /
+  low-labour framing is directional, sanity-check before publishing.
 - **`OwnershipReel`** — "The ownership gap" (wealth concentration: the top 1%'s
   record share vs the bottom half). ~37s. Mostly full-bleed footage with just
   three plain-black beats (the two stats + one pivot line) and one red card.
