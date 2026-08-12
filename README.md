@@ -264,16 +264,17 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   durations on its exact spoken-word timestamps; a black "no app / no founder / just
   soap & water" list, a car-wash reveal, a red "recurring changes everything"
   `impact` card near the end, and a close on a soapy hand-wash ("a subscription with
-  soap"). Full-bleed footage on nearly every beat. Media credits (Pexels, free
-  license) — photos: a boardroom handshake (8101922), a car in a wash (6872151), a
-  subscription card (6237886), a car-wash tunnel reveal (10446281), foam and
-  membership (6873010), a card payment (11952304), a signed contract (7567600), an
-  empty wash bay (32667420), a foam brush (6873020), an aerial commercial lot
-  (9716297), a stack of cash (11624907), a deal over money (5520322), a private-
-  equity handshake (7792841), a car-wash frontage (20435095), an aerial lot with
-  building (15984741), cars at a wash (4870724), aerial real estate (13185326),
-  paperwork (175045), an empty land plot (15422584), wash-tunnel rollers (6872140),
-  and a soapy hand-wash (6873179). **Illustration, not figures:** the "Wall Street /
+  soap"). Full-bleed footage on nearly every beat, mixing video b-roll with stills.
+  Media credits (Pexels, free license) — videos: a drive-through automatic wash
+  (4816721), a car in a misty wash bay (6873167), a pressure-wash spray (6872468),
+  a driveway hand-wash (4849139), foam being applied (6873500), and a sponge on a
+  soapy car (6873324). Photos: a boardroom handshake (8101922), a subscription card
+  (6237886), a card payment (11952304), a signed contract (7567600), an empty wash
+  bay (32667420), an aerial commercial lot (9716297), a stack of cash (11624907), a
+  deal over money (5520322), a private-equity handshake (7792841), a car-wash
+  frontage (20435095), an aerial lot with building (15984741), cars at a wash
+  (4870724), aerial real estate (13185326), paperwork (175045), and an empty land
+  plot (15422584). **Illustration, not figures:** the "Wall Street /
   private equity buying and rolling up car washes into membership chains" trend is
   widely reported; the script deliberately quotes no operator margin or price
   ("varies too much for an honest single figure") and names no company — directional,

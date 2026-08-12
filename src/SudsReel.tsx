@@ -114,15 +114,15 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 95, kind: 'hook', text: 'Wall Street is|quietly buying.', kicker: 'A subscription with soap', highlights: ['buying'], size: 84, media: {src: 'suds/p_wall.jpg', type: 'img', effect: 'in'}},
-  {dur: 22, kind: 'text', text: 'Through in|four minutes.', highlights: ['four'], size: 88, media: {src: 'suds/p_fourmin.jpg', type: 'img', effect: 'in'}},
+  {dur: 22, kind: 'text', text: 'Through in|four minutes.', highlights: ['four'], size: 88, media: {src: 'suds/v_drive.mp4', type: 'video', effect: 'in'}},
   {dur: 110, kind: 'lines', text: 'No app.|No founder.|Just soap & water.', highlights: ['founder'], reveal: [10, 40, 70]},
   {dur: 25, kind: 'text', text: 'A charge that|never stops.', highlights: ['never'], size: 84, media: {src: 'suds/p_never.jpg', type: 'img', effect: 'in'}},
-  {dur: 123, kind: 'text', enter: 'zoom', text: 'It\'s the|car wash.', highlights: ['wash'], size: 100, media: {src: 'suds/p_reveal.jpg', type: 'img', effect: 'in'}},
-  {dur: 116, kind: 'text', text: 'Unlimited monthly|memberships.', highlights: ['unlimited'], size: 80, media: {src: 'suds/p_unlimited.jpg', type: 'img', effect: 'in'}},
+  {dur: 123, kind: 'text', enter: 'zoom', text: 'It\'s the|car wash.', highlights: ['wash'], size: 100, media: {src: 'suds/v_reveal.mp4', type: 'video', effect: 'in'}},
+  {dur: 116, kind: 'text', text: 'Unlimited monthly|memberships.', highlights: ['unlimited'], size: 80, media: {src: 'suds/v_spray.mp4', type: 'video', effect: 'in'}},
   {dur: 100, kind: 'text', text: 'Recurring|subscription revenue.', highlights: ['recurring'], size: 78, media: {src: 'suds/p_recurring.jpg', type: 'img', effect: 'in'}},
   {dur: 92, kind: 'text', enter: 'slideL', text: 'It\'s the contract,|not the wash.', highlights: ['contract'], size: 80, media: {src: 'suds/p_contract.jpg', type: 'img', effect: 'in'}},
   {dur: 27, kind: 'text', text: 'Paid, show up|or not.', highlights: ['paid'], size: 84, media: {src: 'suds/p_empty.jpg', type: 'img', effect: 'in'}},
-  {dur: 48, kind: 'text', text: 'Cost per wash|is low.', highlights: ['low'], size: 84, media: {src: 'suds/p_cost.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', text: 'Cost per wash|is low.', highlights: ['low'], size: 84, media: {src: 'suds/v_hand.mp4', type: 'video', effect: 'in'}},
   {dur: 139, kind: 'text', enter: 'slideR', text: 'The land|holds its value.', highlights: ['land'], size: 84, media: {src: 'suds/p_land.jpg', type: 'img', effect: 'in'}},
   {dur: 139, kind: 'text', text: 'Predictable|monthly cash.', highlights: ['predictable'], size: 82, media: {src: 'suds/p_cash.jpg', type: 'img', effect: 'in'}},
   {dur: 78, kind: 'text', text: 'A buyer pays|a premium.', highlights: ['premium'], size: 84, media: {src: 'suds/p_premium.jpg', type: 'img', effect: 'in'}},
@@ -134,8 +134,8 @@ const SCENES: SceneDef[] = [
   {dur: 38, kind: 'text', text: 'No honest|single figure.', highlights: ['no'], size: 82, media: {src: 'suds/p_figure.jpg', type: 'img', effect: 'in'}},
   {dur: 87, kind: 'impact', text: 'Recurring changes|everything.', redBg: true},
   {dur: 83, kind: 'text', text: 'Attached to|a piece of land.', highlights: ['land'], size: 80, media: {src: 'suds/p_plot.jpg', type: 'img', effect: 'in'}},
-  {dur: 30, kind: 'text', text: 'A roll-up|target.', highlights: ['roll-up'], size: 90, media: {src: 'suds/p_target.jpg', type: 'img', effect: 'in'}},
-  {dur: 106, kind: 'text', enter: 'zoom', text: 'A subscription|with soap.', highlights: ['soap'], size: 86, media: {src: 'suds/p_soap.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', text: 'A roll-up|target.', highlights: ['roll-up'], size: 90, media: {src: 'suds/v_foam.mp4', type: 'video', effect: 'in'}},
+  {dur: 106, kind: 'text', enter: 'zoom', text: 'A subscription|with soap.', highlights: ['soap'], size: 86, media: {src: 'suds/v_sponge.mp4', type: 'video', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
@@ -235,9 +235,9 @@ const Caption: React.FC<{text: string; highlights?: string[]; size?: number; ali
       {lines.map((line, li) => (
         <div key={li} style={{display: 'flex', flexWrap: 'wrap', justifyContent: align === 'center' ? 'center' : 'flex-start', gap: '0 18px'}}>
           {line.split(' ').map((word, wi) => {
-            const appear = lineDelay + wordIndex * 1.2;
+            const appear = lineDelay + wordIndex * 0.7;
             wordIndex++;
-            const p = spring({frame: frame - appear, fps, config: {damping: 200, mass: 0.45}});
+            const p = spring({frame: frame - appear, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
             const y = interpolate(p, [0, 1], [26, 0]);
             const hi = isHi(word);
             return (
@@ -269,13 +269,13 @@ const Kicker: React.FC<{children: React.ReactNode; delay?: number}> = ({children
 const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[]; size?: number}> = ({text, kicker, highlights, size = 92}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
     {kicker ? <div style={{marginBottom: 44}}><Kicker>{kicker}</Kicker></div> : null}
-    <Caption text={text} highlights={highlights} size={size} lineDelay={3} />
+    <Caption text={text} highlights={highlights} size={size} lineDelay={1} />
   </AbsoluteFill>
 );
 
 const SceneText: React.FC<{text: string; highlights?: string[]; size?: number}> = ({text, highlights, size = 100}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
-    <Caption text={text} highlights={highlights} size={size} lineDelay={2} />
+    <Caption text={text} highlights={highlights} size={size} lineDelay={0} />
   </AbsoluteFill>
 );
 
@@ -288,8 +288,8 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'flex-start', padding: '0 96px'}}>
       <div style={{display: 'flex', flexDirection: 'column', gap: 20}}>
         {lines.map((l, i) => {
-          const appearAt = reveal ? reveal[i] : 8 + i * 14;
-          const pv = spring({frame: frame - appearAt, fps, config: {damping: 200, mass: 0.5}});
+          const appearAt = reveal ? reveal[i] : 6 + i * 12;
+          const pv = spring({frame: frame - appearAt, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
           const x = interpolate(pv, [0, 1], [-42, 0]);
           return (
             <div key={i} style={{opacity: pv, transform: `translateX(${x}px)`, fontFamily: HEAD, fontSize: 96, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
@@ -501,11 +501,17 @@ export const SudsReel: React.FC = () => {
           ) : null,
         )}
         <Treatment />
-        {SCENES.map((s, i) => (
-          <Sequence key={i} from={STARTS[i]} durationInFrames={s.dur} name={`${i}-${s.kind}`}>
-            <SceneTransition enter={s.enter}>{renderScene(s)}</SceneTransition>
-          </Sequence>
-        ))}
+        {SCENES.map((s, i) => {
+          // Captions lead the cut by a few frames so the text is fully on screen
+          // as the word is spoken (compensates for the reveal's rise time).
+          const TLEAD = 3;
+          const tf = Math.max(0, STARTS[i] - TLEAD);
+          return (
+            <Sequence key={i} from={tf} durationInFrames={STARTS[i] + s.dur - tf} name={`${i}-${s.kind}`}>
+              <SceneTransition enter={s.enter}>{renderScene(s)}</SceneTransition>
+            </Sequence>
+          );
+        })}
         <Hud />
         <LogoWatermark />
       </AbsoluteFill>
@@ -528,7 +534,7 @@ const SceneTransition: React.FC<{children: React.ReactNode; enter?: string}> = (
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
   const e = enterTransform(frame, enter);
-  const opacity = interpolate(frame, [0, 4, durationInFrames - 4, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
+  const opacity = interpolate(frame, [0, 2, durationInFrames - 3, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
   return (
     <AbsoluteFill style={{opacity, transform: `translate(${e.tx}%, ${e.ty}%) scale(${e.sc})`, transformOrigin: 'center', textShadow: SH}}>
       {children}
