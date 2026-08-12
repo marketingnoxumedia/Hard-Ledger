@@ -409,6 +409,36 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   SPIVA data before publishing. (Note: overlaps thematically with `IndexReel`, which
   cites the same ~90% stat within a broader compounding-and-patience story; this
   reel is the focused active-vs-index myth-bust.)
+- **`HeadstartReel`** — "The ten-year head start" (a ~52s reel on compounding and
+  starting early: two people save the exact same $500 a month at the same assumed
+  7% return for their whole careers, and one ends up with more than double the
+  other — the only difference is a ten-year head start. Begin at 25 and stop at 65
+  and about $240K of your own money grows, as an illustration, to roughly $1.3M;
+  begin at 35 instead, pay in about $60K less, and you end near $610K. A ten-year
+  delay roughly halves the result on barely less money in, because compounding pays
+  growth on past growth, so the earliest dollars matter most — the first decade
+  isn't a quarter of the outcome, it's closer to half. Time did more of the work
+  than the money: the gap wasn't effort, it was years. Same $500 a month — $1.3M,
+  or $610K). Continuous voiceover, scene durations on its exact spoken-word
+  timestamps; two count-up stat beats ($1.3M for the 25-start, $610K for the
+  35-start), two black beats, a red "it's closer to half" `impact` card mid-tail,
+  and a close on the two outcomes over coins ("$1.3M or $610K") rather than the red
+  card. Full-bleed footage on nearly every beat, mixing video b-roll with stills.
+  Media credits (Pexels, free license) — videos: coins dropping into a savings jar
+  (34263260), a collage of a coin added to a growing stack (5849643), and a macro
+  of coins (5651783). Photos: a savings jar (9929281), coins spilling (259209), an
+  antique clock (280254), a fan of $100 bills (14820466), stacked bills (5466791),
+  a calendar (35013837), a young adult (8727454), an older adult (30372403), coins
+  into a jar (8369778), stacked bills (11624755), coins into a jar (8369776), a
+  seedling growing from coins (6775160), a vintage hourglass (3570733), a piggy
+  bank (11933549), and fanned cash (10905773). **Illustration, not advice or a
+  quote:** the $500/mo, 7% return, $240K/$60K contributions, and $1.3M/$610K
+  outcomes are round illustrative figures to show how a ten-year head start
+  compounds — actual results depend on the return, fees, taxes, sequence and
+  contribution timing; 7% is an assumed nominal average, not a promise. Confirm the
+  math and assumptions before publishing. (Note: the "$500/mo from 25 → $1.3M"
+  figure also appears as a closing beat in `LifetimeReel`; this reel is the focused
+  head-start comparison.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
