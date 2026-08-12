@@ -204,9 +204,9 @@ const Caption: React.FC<{text: string; highlights?: string[]; size?: number; ali
       {lines.map((line, li) => (
         <div key={li} style={{display: 'flex', flexWrap: 'wrap', justifyContent: align === 'center' ? 'center' : 'flex-start', gap: '0 18px'}}>
           {line.split(' ').map((word, wi) => {
-            const appear = lineDelay + wordIndex * 1.2;
+            const appear = lineDelay + wordIndex * 0.7;
             wordIndex++;
-            const p = spring({frame: frame - appear, fps, config: {damping: 200, mass: 0.45}});
+            const p = spring({frame: frame - appear, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
             const y = interpolate(p, [0, 1], [26, 0]);
             const hi = isHi(word);
             return (
@@ -238,13 +238,13 @@ const Kicker: React.FC<{children: React.ReactNode; delay?: number}> = ({children
 const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[]; size?: number}> = ({text, kicker, highlights, size = 92}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
     {kicker ? <div style={{marginBottom: 44}}><Kicker>{kicker}</Kicker></div> : null}
-    <Caption text={text} highlights={highlights} size={size} lineDelay={3} />
+    <Caption text={text} highlights={highlights} size={size} lineDelay={1} />
   </AbsoluteFill>
 );
 
 const SceneText: React.FC<{text: string; highlights?: string[]; size?: number}> = ({text, highlights, size = 100}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
-    <Caption text={text} highlights={highlights} size={size} lineDelay={2} />
+    <Caption text={text} highlights={highlights} size={size} lineDelay={0} />
   </AbsoluteFill>
 );
 
@@ -257,8 +257,8 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'flex-start', padding: '0 96px'}}>
       <div style={{display: 'flex', flexDirection: 'column', gap: 20}}>
         {lines.map((l, i) => {
-          const appearAt = reveal ? reveal[i] : 8 + i * 14;
-          const pv = spring({frame: frame - appearAt, fps, config: {damping: 200, mass: 0.5}});
+          const appearAt = reveal ? reveal[i] : 6 + i * 12;
+          const pv = spring({frame: frame - appearAt, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
           const x = interpolate(pv, [0, 1], [-42, 0]);
           return (
             <div key={i} style={{opacity: pv, transform: `translateX(${x}px)`, fontFamily: HEAD, fontSize: 96, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
@@ -282,7 +282,7 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
 const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
-  const enter = spring({frame: frame - 2, fps, config: {damping: 200, mass: 0.5}});
+  const enter = spring({frame: frame - 2, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
   const t = interpolate(frame, [4, 38], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const shown = stat.value * t;
   const num = stat.decimals ? shown.toFixed(stat.decimals) : String(Math.round(shown));
@@ -414,11 +414,15 @@ export const RefundReel: React.FC = () => {
           ) : null,
         )}
         <Treatment />
-        {SCENES.map((s, i) => (
-          <Sequence key={i} from={STARTS[i]} durationInFrames={s.dur} name={`${i}-${s.kind}`}>
-            <SceneTransition enter={s.enter}>{renderScene(s)}</SceneTransition>
-          </Sequence>
-        ))}
+        {SCENES.map((s, i) => {
+          const TLEAD = 3;
+          const tf = Math.max(0, STARTS[i] - TLEAD);
+          return (
+            <Sequence key={i} from={tf} durationInFrames={STARTS[i] + s.dur - tf} name={`${i}-${s.kind}`}>
+              <SceneTransition enter={s.enter}>{renderScene(s)}</SceneTransition>
+            </Sequence>
+          );
+        })}
         <Hud />
         <LogoWatermark />
       </AbsoluteFill>
@@ -441,7 +445,7 @@ const SceneTransition: React.FC<{children: React.ReactNode; enter?: string}> = (
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
   const e = enterTransform(frame, enter);
-  const opacity = interpolate(frame, [0, 4, durationInFrames - 4, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
+  const opacity = interpolate(frame, [0, 2, durationInFrames - 3, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
   return (
     <AbsoluteFill style={{opacity, transform: `translate(${e.tx}%, ${e.ty}%) scale(${e.sc})`, transformOrigin: 'center', textShadow: SH}}>
       {children}

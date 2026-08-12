@@ -313,7 +313,7 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
 const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
-  const enter = spring({frame: frame - 2, fps, config: {damping: 200, mass: 0.5}});
+  const enter = spring({frame: frame - 2, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
   const t = interpolate(frame, [4, 38], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const shown = stat.value * t;
   const num = stat.decimals
@@ -357,7 +357,7 @@ const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
 const SceneCompare: React.FC<{cfg: CompareCfg}> = ({cfg}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
-  const enter = spring({frame: frame - 2, fps, config: {damping: 200, mass: 0.5}});
+  const enter = spring({frame: frame - 2, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
   const t = interpolate(frame, [4, 40], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const fmt = (s: {value: number; prefix?: string; suffix?: string; decimals?: number}) => {
     const shown = s.value * t;
