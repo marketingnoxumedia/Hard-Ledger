@@ -53,6 +53,7 @@ import {DrawReel, DURATION_IN_FRAMES as DRAW_FRAMES} from './DrawReel';
 import {KeepReel, DURATION_IN_FRAMES as KEEP_FRAMES} from './KeepReel';
 import {BlackberryReel, DURATION_IN_FRAMES as BLACKBERRY_FRAMES} from './BlackberryReel';
 import {SanitationReel, DURATION_IN_FRAMES as SANITATION_FRAMES} from './SanitationReel';
+import {ActiveReel, DURATION_IN_FRAMES as ACTIVE_FRAMES} from './ActiveReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -478,6 +479,14 @@ export const RemotionRoot: React.FC = () => {
         id="SanitationReel"
         component={SanitationReel}
         durationInFrames={SANITATION_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ActiveReel"
+        component={ActiveReel}
+        durationInFrames={ACTIVE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

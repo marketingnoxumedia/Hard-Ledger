@@ -376,6 +376,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   an honest number; the claims (low competition, recurring servicing, disgust as a
   barrier to entry) are a qualitative characterisation of the industry, not measured
   data. Confirm before publishing.
+- **`ActiveReel`** — "The average wins" (a ~57s myth-bust reel on active vs. index
+  investing: there's a belief that professionals beat the market — that paying an
+  expert to pick stocks beats the plain average — but the people paid to do it
+  mostly lose to it. It sounds obvious that a paid professional with research and
+  tools should beat a free, do-nothing index, but over 15 years about 90% of active
+  large-cap funds fail to beat the S&P 500 — nine in ten, behind a simple index —
+  and at 20 years the failure rate climbs to ~92%. Fees and trading costs drag the
+  experts below the index, and last year's table-toppers rarely repeat, so the drag
+  is structural, not bad luck: after fees, the average active dollar has to trail
+  the market it collectively makes up. The index wins less by being clever than by
+  being cheap and staying in — so if nine in ten pros can't beat it, matching it
+  isn't settling, it's the option that usually wins: nine in ten professionals,
+  beaten by the average). Continuous voiceover, scene durations on its exact
+  spoken-word timestamps; opens flat on the myth, two count-up stat beats (90% with
+  a filling bar / 92%), two black beats, a red "matching it isn't settling" `impact`
+  card in the tail, and a close on a rising chart ("beaten by the average") rather
+  than the red card. Full-bleed footage on nearly every beat, mixing video b-roll
+  with stills. Media credits (Pexels, free license) — videos: a stock price board
+  (7579943), a market ticker board (38431825), and a rising chart animation
+  (5849646). Photos: business people in a strategy meeting (36733312), a trading
+  screen (16594725), a professional with a laptop (36733315), multiple market
+  monitors (38412413), a market chart screen (10653886), a diverse group of
+  professionals (7108454), a calculator with cash (7111588), a falling candlestick
+  chart (5831268), a gold trophy (7005047), concrete structural pillars (8254160),
+  coins with a calculator (7054801), stacked coins (6927350), a rising graph screen
+  (38375328), colleagues in a meeting (7793096), and a financial trading graph
+  (38975904). **Illustration — real data, rendered as written:** the 90% (15-yr)
+  and 92% (20-yr) active-underperformance figures track the widely-cited S&P Dow
+  Jones Indices SPIVA scorecard, but the exact percentages shift by category, region
+  and reporting period; "nine in ten" is a round restatement. Confirm the latest
+  SPIVA data before publishing. (Note: overlaps thematically with `IndexReel`, which
+  cites the same ~90% stat within a broader compounding-and-patience story; this
+  reel is the focused active-vs-index myth-bust.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
