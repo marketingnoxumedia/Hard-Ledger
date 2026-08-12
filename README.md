@@ -248,6 +248,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
+  buying car washes: it's a business you drive through in four minutes — no app, no
+  founder, just soap, water and a monthly charge that never stops. The modern car
+  wash stopped charging per wash and started selling unlimited monthly memberships,
+  turning a one-off service into recurring, subscription revenue. What attracts the
+  money isn't the wash, it's the contract behind it — members pay every month
+  whether they show up or not, cost per wash is low, and the land underneath holds
+  its value; a weather-dependent one-off purchase becomes predictable monthly cash,
+  exactly the cash-flow profile a financial buyer pays a premium for. So private
+  equity has been rolling up independent washes into large chains, buying two assets
+  in one purchase — the recurring membership base and the appreciating real estate
+  under it. Recurring changes everything: attach a subscription to a piece of land
+  and an unglamorous service becomes a roll-up target). Continuous voiceover, scene
+  durations on its exact spoken-word timestamps; a black "no app / no founder / just
+  soap & water" list, a car-wash reveal, a red "recurring changes everything"
+  `impact` card near the end, and a close on a soapy hand-wash ("a subscription with
+  soap"). Full-bleed footage on nearly every beat. Media credits (Pexels, free
+  license) — photos: a boardroom handshake (8101922), a car in a wash (6872151), a
+  subscription card (6237886), a car-wash tunnel reveal (10446281), foam and
+  membership (6873010), a card payment (11952304), a signed contract (7567600), an
+  empty wash bay (32667420), a foam brush (6873020), an aerial commercial lot
+  (9716297), a stack of cash (11624907), a deal over money (5520322), a private-
+  equity handshake (7792841), a car-wash frontage (20435095), an aerial lot with
+  building (15984741), cars at a wash (4870724), aerial real estate (13185326),
+  paperwork (175045), an empty land plot (15422584), wash-tunnel rollers (6872140),
+  and a soapy hand-wash (6873179). **Illustration, not figures:** the "Wall Street /
+  private equity buying and rolling up car washes into membership chains" trend is
+  widely reported; the script deliberately quotes no operator margin or price
+  ("varies too much for an honest single figure") and names no company — directional,
+  confirm specifics before publishing. (Distinct from `CarWashReel`, "the car wash
+  play.")
 - **`RentReel`** — "It depends" (a ~57s reel debunking the rent-vs-buy slogan:
   there's a belief that renting is throwing money away and buying is always the
   smart move — but sometimes buying is the more expensive mistake. The belief is

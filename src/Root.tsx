@@ -48,6 +48,7 @@ import {IndexReel, DURATION_IN_FRAMES as INDEX_FRAMES} from './IndexReel';
 import {LeaseReel, DURATION_IN_FRAMES as LEASE_FRAMES} from './LeaseReel';
 import {OwnersReel, DURATION_IN_FRAMES as OWNERS_FRAMES} from './OwnersReel';
 import {RentReel, DURATION_IN_FRAMES as RENT_FRAMES} from './RentReel';
+import {SudsReel, DURATION_IN_FRAMES as SUDS_FRAMES} from './SudsReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -433,6 +434,14 @@ export const RemotionRoot: React.FC = () => {
         id="RentReel"
         component={RentReel}
         durationInFrames={RENT_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="SudsReel"
+        component={SudsReel}
+        durationInFrames={SUDS_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
