@@ -342,6 +342,40 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   one," "a rounding error," and the timeline are characterisations, not exact
   figures; a few vintage b-roll phones carry other brands' logos (HP, Sony, Nokia)
   as period relics of the "phone graveyard." Confirm specifics before publishing.
+- **`SanitationReel`** — "The disgust moat" (a ~53s reel on portable sanitation as a
+  moat business: there's a recurring-revenue business with almost no competition
+  for a simple reason — nobody wants to run it, and the very thing that makes people
+  avoid it is exactly what protects it. It's the companies that rent and service
+  portable toilets for construction sites and events on recurring contracts. The
+  moat is other people's reluctance: the work is unpleasant enough that competitors
+  don't rush in, so pricing stays rational with no brand or technology edge; the
+  servicing recurs — units are cleaned on a schedule — and the contracts renew
+  whether anyone thinks about them or not. Construction and events guarantee steady
+  demand, and the unpleasantness itself is the barrier that keeps rivals out. Low
+  competition plus recurring servicing is a quietly strong model — a reputation for
+  gross is a kind of protection, and the same thing that makes people avoid a
+  business defends the ones already in it: nobody wants it, so nobody enters —
+  that's the moat). Continuous voiceover, scene durations on its exact spoken-word
+  timestamps; no count-up stat (margins vary too much by route to quote honestly),
+  two black beats, a red "gross is protection" `impact` card mid-tail, and a close
+  on the units themselves ("that's the moat") rather than the red card. Full-bleed
+  footage on nearly every beat, mixing video b-roll with stills. Media credits
+  (Pexels, free license) — videos: construction workers on a site (19832500), an
+  aerial building site (35025685), and an aerial night event stage (2361938).
+  Photos: a lone portable toilet (28759904), a worker holding a hard hat (34670931),
+  a graffitied street porta-potty (12081508), a fenced empty site in B&W (26648941),
+  a row of teal units (2949748), blue units at a construction site (25461701), a
+  hand signing a contract (7054502), hands in cleaning gloves (28576636), a vacant
+  lot (7519198), a worker reviewing documents (18504013), putting on cleaning gloves
+  (28576645), marking a date on a calendar (11773871), a spiral wall calendar
+  (29509502), a row of units under trees (34585129), two units in a field (9000864),
+  a smiling worker in a safety vest (34670926), a red row of units (17527938), an
+  empty lot with a distant crane (20074182), and a top-down grid of units
+  (35437525). **Illustration, not verified data:** the reel deliberately quotes no
+  figure — it states outright that operator margins vary too much by route to give
+  an honest number; the claims (low competition, recurring servicing, disgust as a
+  barrier to entry) are a qualitative characterisation of the industry, not measured
+  data. Confirm before publishing.
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
