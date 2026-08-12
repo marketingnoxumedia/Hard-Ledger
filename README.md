@@ -275,6 +275,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   on asset mix, sequence-of-returns risk, fees, inflation and how long retirement
   lasts, and the $1M / 4% / 8% / $40k / $80k figures are round illustrative numbers —
   "a guideline, not a guarantee." Confirm before publishing.
+- **`KeepReel`** — "Income vs. wealth" (a ~60s reel busting the belief that a big
+  salary means you're rich: income and wealth aren't the same thing. Income is
+  visible — the car, the title, the address — so the paycheck becomes the
+  scoreboard, but net worth tracks the savings rate far more than the salary.
+  Studies of actual millionaires keep finding ordinary incomes paired with high
+  savings and decades of investing; lifestyle expands to fill income, so a raise
+  without a higher savings rate leaves net worth flat. Income is what flows in;
+  net worth is what you keep — someone earning $300K who spends all of it builds
+  nothing, while someone on $90K who keeps a fifth quietly compounds into real
+  wealth. The decisive number was never the paycheck; it's the gap between earning
+  and spending, compounded over time. Income sets the ceiling, the savings rate
+  decides how much of it becomes wealth: a big salary is income, what you keep is
+  wealth — they're not the same). Continuous voiceover, scene durations on its
+  exact spoken-word timestamps; opens flat on the myth (no count-up), a red "the
+  gap between earning and spending" `impact` card in the tail, and a close on a
+  modest home ("they're not the same"). Full-bleed footage on nearly every beat,
+  mixing video b-roll with stills, with two black beats for rhythm. Media credits
+  (Pexels, free license) — videos: a convertible on the open road (8629198), a
+  parked Lamborghini (14052063), rising financial charts on a screen (7580445),
+  US coins in a savings jar (3752537), and a close-up of vintage coins on a
+  turntable (7348172). Photos: a jar of saved cash (7927422), two diverging paths
+  (7519009), a hand to the head over bills (7927426), a luxury watch (38264003), a
+  stadium scoreboard (6862449), a rising stock chart (6289041), an ordinary older
+  couple (33552524), a modest kitchen (12513371), a growing plant in coins
+  (7318903), a flat market line (4965011), a full savings jar (9822690), an empty
+  wallet (7927429), two houses side by side (12956000), a ceiling detail (7518782),
+  a person weighing decisions (11624819), cash flowing in (35345626), and a modest
+  home (10286038). **Illustration, not verified data:** the $300K / $90K / "keeps
+  a fifth" figures are round, illustrative numbers used to make the point, not
+  measured statistics; the broader claims (income ≠ wealth, net worth tracks the
+  savings rate, ordinary incomes + high savings among many millionaires) echo the
+  Federal Reserve's Survey of Consumer Finances and *The Millionaire Next Door* —
+  confirm current figures and sources before publishing.
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car

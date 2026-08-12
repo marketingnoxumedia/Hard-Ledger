@@ -50,6 +50,7 @@ import {OwnersReel, DURATION_IN_FRAMES as OWNERS_FRAMES} from './OwnersReel';
 import {RentReel, DURATION_IN_FRAMES as RENT_FRAMES} from './RentReel';
 import {SudsReel, DURATION_IN_FRAMES as SUDS_FRAMES} from './SudsReel';
 import {DrawReel, DURATION_IN_FRAMES as DRAW_FRAMES} from './DrawReel';
+import {KeepReel, DURATION_IN_FRAMES as KEEP_FRAMES} from './KeepReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -451,6 +452,14 @@ export const RemotionRoot: React.FC = () => {
         id="DrawReel"
         component={DrawReel}
         durationInFrames={DRAW_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="KeepReel"
+        component={KeepReel}
+        durationInFrames={KEEP_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
