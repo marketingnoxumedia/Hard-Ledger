@@ -573,27 +573,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   and empty cafe chairs (18001286). General management principle (customer-level
   profitability / cost to serve) — not about a specific named company, and no
   financial figures are asserted.
-- **`KodakReel`** — "The future in its own lab" (a ~53s reel on Kodak: in 1975 an
-  engineer showed his employer a machine that would erase its entire business, and
-  they shelved it. It was Kodak; the engineer was Steven Sasson and the machine was
-  the world's first digital camera — Kodak held the future of photography in its
-  own lab. Leadership buried it, and on the numbers of the day that was rational:
-  film and processing earned on every roll shot, developed and printed — a
-  recurring, high-margin stream a one-off camera sale could never match, while the
-  prototype was slow and coarse and the market looked like nothing. Then digital
-  exploded, led by everyone else, and Kodak filed for bankruptcy in 2012, killed by
-  the thing it invented). Continuous voiceover, scene durations on its exact
-  spoken-word timestamps; the "future in its own lab" red `impact` card mid-tail,
-  and an "invented 1975 / bankrupt 2012" media closer. Media credits (Pexels, free
-  license) — videos: hands with a vintage film camera (30563209) and a smartphone
-  taking a photo (3198273). Photos: Kodak 35mm film (13780814), a film camera
-  (36979005), a pile of film rolls (4042775), a darkroom with prints (6133433), a
-  shuttered storefront (1362906), and a vintage-camera still-life (4372403).
-  **Unverified (historical):** this names a real company (Kodak) and person (Steven
-  Sasson) and recounts the well-documented story — Sasson built the first digital
-  camera prototype at Kodak in 1975; Kodak filed Chapter 11 in 2012 — rendered as
-  written and **not** independently re-verified; a Kodak-branded film box appears as
-  illustrative b-roll. Confirm specifics before publishing.
+- **`KodakReel`** — "The future in its own lab" (a ~58s reel on Kodak — rebuilt with
+  video b-roll and a fuller script: there was a device locked in a drawer that could
+  have owned the next fifty years of photography, and the company that invented it
+  made sure almost no one saw it, because selling it would have killed the business
+  it already had. It was Kodak — in 1975 its engineer Steven Sasson built the world's
+  first digital camera, so Kodak held the future of photography in its own lab.
+  Shelving it was rational: film and processing earned on every roll shot, developed
+  and printed — a recurring, very-high-margin stream a one-off camera could never
+  match, while the prototype was slow and coarse and the market looked like nothing.
+  Digital exploded anyway, led by everyone else, and Kodak filed for bankruptcy in
+  2012 — from 1975 to 2012 it invented the thing that would destroy it, sat on it for
+  decades, and was killed by it regardless. Defending a profitable present blinds a
+  company to the future in its own lab; cannibalise yourself, or someone else will).
+  Continuous voiceover, scene durations on its exact spoken-word timestamps; a
+  "looked like nothing" black beat, a red "cannibalise yourself, or be eaten"
+  `impact` card near the end, and a close on a vintage camera. Full-bleed footage on
+  nearly every beat, mixing video b-roll with stills. Media credits (Pexels, free
+  license) — videos: a vintage camera in hand (3627134), a Kodak film strip
+  (10276178), a spinning film reel (856593), smartphone photography (7857000), and a
+  family phone photo (3198273). Photos: a vintage camera (3945326), a film roll in
+  shadow (16438451), a film strip (3939961), a retro camera (3733981), a lab
+  engineer (8439003), lab electronics (8533076), a research lab (8439005), a lab
+  shelf (8666440), a darkroom with prints (8114057), Kodak film boxes (11469206), a
+  lone film camera (3945336), a moody darkroom (7205373), an abandoned office
+  (35090156), an empty office (2294135), an old camera in shadow (3585012), a dark
+  darkroom (8113904), and a vintage cine camera (3945312). **Historical — well
+  documented, verify before publishing:** names a real company (Kodak) and person
+  (Steven Sasson); Sasson built the first digital camera prototype at Kodak in 1975
+  and Kodak filed Chapter 11 in January 2012. Widely documented facts rendered as
+  written; a Kodak-branded film strip appears as illustrative b-roll. Confirm
+  specifics before publishing.
 - **`BottleReel`** — "The label, not the liquid" (a ~36s reel on bottled water:
   you buy it by the case and think you're paying for water, but the water is the
   cheapest thing in the bottle — almost every cent goes to everything around it.

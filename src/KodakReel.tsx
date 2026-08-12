@@ -86,69 +86,68 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// "The future in its own lab" reel — Kodak. In 1975 an engineer showed his
-// employer a machine that would erase its entire business; they looked at the
-// future of their industry and shelved it. It was Kodak, the engineer Steven
-// Sasson, and the machine the world's first digital camera — Kodak held the
-// future of photography in its own lab. Leadership buried it, and on the numbers
-// of the day that was rational: film and processing earned on every roll shot,
-// developed and printed — a recurring, high-margin stream a one-off camera sale
-// could never match, while the prototype was slow and coarse and the market
-// looked like nothing. Then digital exploded, led by everyone else, and Kodak
-// filed for bankruptcy in 2012 — killed by the thing it invented. The instinct
-// to defend a profitable present blinds a company to the future in its own lab.
-// The voiceover runs continuously with no dead air and scene durations sit on its
-// exact spoken-word timestamps (ElevenLabs alignment) at +6% pace — total 1588
-// frames = ~53s. Mixes two video clips (a vintage camera, a smartphone photo)
-// with stills (Kodak film, a film camera, a pile of film rolls, a darkroom, a
-// shuttered storefront, a camera still-life); the "future in its own lab" red
-// impact card mid-tail, and an "invented 1975 / bankrupt 2012" closer. Every
-// background is sourced fresh for this reel (hard rule).
+// "The future in its own lab" reel — Kodak (rebuilt). There was a device locked in
+// a drawer that could have owned the next fifty years of photography, and the
+// company that invented it made sure almost no one saw it, because selling it would
+// have killed the business it already had. It was Kodak: in 1975 its engineer
+// Steven Sasson built the world's first digital camera, so Kodak held the future of
+// photography in its own lab. Shelving it was rational — film and processing earned
+// on every roll shot, developed and printed, a recurring stream at very high
+// margins a one-off camera could never match; the prototype was slow and coarse and
+// the market looked like nothing. Digital exploded anyway, led by everyone else, and
+// Kodak filed for bankruptcy in 2012: from 1975 to 2012 it invented the thing that
+// would destroy it, sat on it for decades, and was killed by it regardless.
+// Defending a profitable present blinds a company to the future in its own lab —
+// cannibalise yourself, or someone else will. The voiceover runs continuously with
+// no dead air and scene durations sit on its exact spoken-word timestamps
+// (ElevenLabs alignment) at +6% pace — total 1755 frames = ~58s. Mixes video b-roll
+// (a vintage camera in hand, a Kodak film strip, a spinning film reel, smartphone
+// photography) with stills, one black beat ("looked like nothing") and one red
+// "cannibalise yourself" impact card, closing on footage. Every background is
+// sourced fresh for this reel (hard rule).
 //
-// NOTE (historical, unverified): this reel names a real company (Kodak) and
-// person (Steven Sasson) and recounts the well-documented story — Sasson built
-// the first digital camera prototype at Kodak in 1975; Kodak filed for Chapter 11
-// bankruptcy in 2012. Rendered as written per the client script and NOT
-// independently re-verified; confirm the specifics before publishing. Includes a
-// Kodak-branded film box as illustrative b-roll.
+// NOTE (historical — well documented, verify before publishing): names a real
+// company (Kodak) and person (Steven Sasson). Sasson built the first digital camera
+// prototype at Kodak in 1975; Kodak filed for Chapter 11 bankruptcy in January 2012.
+// These are widely documented facts, rendered as written; confirm the specifics
+// before publishing. Includes a Kodak-branded film strip as illustrative b-roll.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 117, kind: 'hook', text: 'In 1975,|one machine.', kicker: 'The future in its own lab', highlights: ['1975'], size: 88, media: {src: 'kodak/clip_camera.mp4', type: 'video', effect: 'in'}},
-  {dur: 67, kind: 'text', text: 'It would erase|the whole business.', highlights: ['erase'], size: 74},
-  {dur: 41, kind: 'text', text: 'The future of|their industry.', highlights: ['future'], size: 80},
-  {dur: 17, kind: 'text', text: 'They|shelved it.', highlights: ['shelved'], size: 92},
-  {dur: 50, kind: 'text', enter: 'zoom', text: 'It was|Kodak.', highlights: ['kodak'], size: 100, media: {src: 'kodak/p_film.jpg', type: 'img', effect: 'in'}},
-  {dur: 58, kind: 'text', text: 'The engineer:|Steven Sasson.', highlights: ['sasson'], size: 78},
-  {dur: 75, kind: 'text', enter: 'slideL', text: 'The world\'s first|digital camera.', highlights: ['digital'], size: 78, media: {src: 'kodak/p_camera.jpg', type: 'img', effect: 'in'}},
-  {dur: 60, kind: 'text', text: 'Photography\'s future,|in its own lab.', highlights: ['lab'], size: 74},
-  {dur: 72, kind: 'text', text: 'Leadership|buried it.', highlights: ['buried'], size: 86},
-  {dur: 64, kind: 'text', text: 'And it was|rational.', highlights: ['rational'], size: 86},
-  {dur: 44, kind: 'text', enter: 'slideR', text: 'Film earned on|every roll.', highlights: ['every'], size: 80, media: {src: 'kodak/p_rolls.jpg', type: 'img', effect: 'in'}},
-  {dur: 72, kind: 'text', text: 'Shot, developed,|printed.', highlights: ['printed'], size: 80, media: {src: 'kodak/p_darkroom.jpg', type: 'img', effect: 'in'}},
-  {dur: 32, kind: 'text', text: 'Recurring stream,|high margins.', highlights: ['margins'], size: 78},
-  {dur: 92, kind: 'text', text: 'A one-off sale|couldn\'t match it.', highlights: ['one-off'], size: 78},
-  {dur: 95, kind: 'text', text: 'The prototype:|slow and coarse.', highlights: ['coarse'], size: 78},
-  {dur: 36, kind: 'text', text: 'The threat|looked distant.', highlights: ['distant'], size: 82},
-  {dur: 44, kind: 'text', text: 'The market looked|like nothing.', highlights: ['nothing'], size: 78},
-  {dur: 98, kind: 'text', enter: 'zoom', text: 'Then digital|exploded.', highlights: ['exploded'], size: 92, media: {src: 'kodak/clip_phone.mp4', type: 'video', effect: 'in'}},
-  {dur: 56, kind: 'text', text: 'Bankrupt.|2012.', highlights: ['2012'], size: 92, media: {src: 'kodak/p_bankrupt.jpg', type: 'img', effect: 'in'}},
-  {dur: 59, kind: 'text', text: 'It invented the thing|that killed it.', highlights: ['invented'], size: 74},
-  {dur: 49, kind: 'text', text: 'Sat on it|for decades.', highlights: ['decades'], size: 84},
-  {dur: 54, kind: 'text', text: 'Killed by it|anyway.', highlights: ['killed'], size: 86},
-  {dur: 72, kind: 'text', text: 'Defending a|profitable present.', highlights: ['present'], size: 78},
-  {dur: 40, kind: 'impact', text: 'The future|in its own lab.', redBg: true},
-  {dur: 124, kind: 'text', enter: 'zoom', text: 'Invented, 1975.|Bankrupt, 2012.', highlights: ['2012'], size: 76, media: {src: 'kodak/p_end.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'hook', text: 'A camera locked|in a drawer.', kicker: 'The future in its own lab', highlights: ['drawer'], size: 84, media: {src: 'kodak/v_hold.mp4', type: 'video', effect: 'in'}},
+  {dur: 104, kind: 'text', text: 'It could own|photography.', highlights: ['photography'], size: 82, media: {src: 'kodak/p_own.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', text: 'Almost no one|saw it.', highlights: ['saw'], size: 84, media: {src: 'kodak/p_hidden.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', text: 'It would kill|the business.', highlights: ['kill'], size: 84, media: {src: 'kodak/p_kill.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', enter: 'zoom', text: 'It was|Kodak.', highlights: ['kodak'], size: 104, media: {src: 'kodak/v_kodak.mp4', type: 'video', effect: 'in'}},
+  {dur: 61, kind: 'text', text: 'The year:|1975.', highlights: ['1975'], size: 92, media: {src: 'kodak/p_1975.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', text: 'Engineer|Steven Sasson.', highlights: ['sasson'], size: 82, media: {src: 'kodak/p_sasson.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', enter: 'slideL', text: 'The first|digital camera.', highlights: ['digital'], size: 86, media: {src: 'kodak/p_digital.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', text: 'The future,|in its lab.', highlights: ['future'], size: 84, media: {src: 'kodak/p_lab.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', text: 'Shelving it|was rational.', highlights: ['rational'], size: 84, media: {src: 'kodak/p_shelf.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', enter: 'slideR', text: 'Film earned|every roll.', highlights: ['roll'], size: 84, media: {src: 'kodak/v_reel.mp4', type: 'video', effect: 'in'}},
+  {dur: 66, kind: 'text', text: 'Shot, developed,|printed.', highlights: ['printed'], size: 82, media: {src: 'kodak/p_darkroom.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', text: 'Recurring, high|margins.', highlights: ['margins'], size: 82, media: {src: 'kodak/p_margins.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', text: 'A one-off camera|couldn\'t match it.', highlights: ['one-off'], size: 78, media: {src: 'kodak/p_oneoff.jpg', type: 'img', effect: 'in'}},
+  {dur: 141, kind: 'text', enter: 'zoom', text: 'Slow, coarse,|hard to view.', highlights: ['slow'], size: 82, media: {src: 'kodak/p_grainy.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'impact', text: 'The market looked|like nothing.'},
+  {dur: 49, kind: 'text', text: 'Then digital|exploded.', highlights: ['exploded'], size: 90, media: {src: 'kodak/v_phone.mp4', type: 'video', effect: 'in'}},
+  {dur: 64, kind: 'text', text: 'Led by|everyone else.', highlights: ['everyone'], size: 84, media: {src: 'kodak/v_family.mp4', type: 'video', effect: 'in'}},
+  {dur: 59, kind: 'text', text: 'Bankrupt|by 2012.', highlights: ['2012'], size: 90, media: {src: 'kodak/p_bankrupt.jpg', type: 'img', effect: 'in'}},
+  {dur: 130, kind: 'text', enter: 'slideR', text: 'From 1975|to 2012.', highlights: ['2012'], size: 88, media: {src: 'kodak/p_time.jpg', type: 'img', effect: 'in'}},
+  {dur: 152, kind: 'text', enter: 'slideL', text: 'Invented it. Sat on it.|Killed by it.', highlights: ['killed'], size: 76, media: {src: 'kodak/p_dust.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', text: 'It blinds you|to your own lab.', highlights: ['blinds'], size: 78, media: {src: 'kodak/p_blind.jpg', type: 'img', effect: 'in'}},
+  {dur: 129, kind: 'impact', text: 'Cannibalise yourself,|or be eaten.', redBg: true},
+  {dur: 53, kind: 'text', text: 'Built in 1975.|Gone by 2012.', highlights: ['2012'], size: 86, media: {src: 'kodak/p_end.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 225, src: 'media/sfx_impact.mp3', vol: 0.45}, // shelved it
-  {at: 242, src: 'media/sfx_impact.mp3', vol: 0.5}, // It was Kodak
-  {at: 1036, src: 'media/sfx_whoosh.mp3', vol: 0.42}, // digital exploded
-  {at: 1134, src: 'media/sfx_impact.mp3', vol: 0.6}, // bankrupt 2012
-  {at: 1424, src: 'media/sfx_impact.mp3', vol: 0.62}, // the future in its own lab
-  {at: 1464, src: 'media/sfx_impact.mp3', vol: 0.5}, // closer
+  {at: 317, src: 'media/sfx_impact.mp3', vol: 0.5}, // reveal — it was Kodak
+  {at: 1048, src: 'media/sfx_whoosh.mp3', vol: 0.42}, // digital exploded
+  {at: 1161, src: 'media/sfx_impact.mp3', vol: 0.55}, // bankrupt by 2012
+  {at: 1350, src: 'media/sfx_impact.mp3', vol: 0.5}, // invented it / killed by it
+  {at: 1573, src: 'media/sfx_impact.mp3', vol: 0.62}, // red card — cannibalise yourself
+  {at: 1702, src: 'media/sfx_impact.mp3', vol: 0.5}, // close
 ];
 
 const STARTS: number[] = (() => {
