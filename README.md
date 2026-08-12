@@ -439,6 +439,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   math and assumptions before publishing. (Note: the "$500/mo from 25 → $1.3M"
   figure also appears as a closing beat in `LifetimeReel`; this reel is the focused
   head-start comparison.)
+- **`BrandReel`** — "Paying for the name" (a ~50s reel on the name-brand premium:
+  two products sit on the same shelf, one noticeably cheaper, and in plenty of
+  cases they were made in the same factory to the same standard — you're often
+  paying for the name. Compared against the store's own-label version of the same
+  item, the name brand costs more and the store label frequently costs noticeably
+  less; what the extra usually buys isn't a better product, it's the brand and the
+  marketing. In many categories the store version is made to similar standards,
+  sometimes on the same production lines, so a chunk of the premium pays for the
+  label and shelf position and advertising, not the contents. Sometimes the premium
+  is justified — real differences in quality or taste exist — and sometimes it
+  isn't; the only way to know is to compare the actual items: ingredients, specs,
+  reviews. Where the specs match, the extra buys the name. Same shelf, two prices,
+  sometimes the same maker). Continuous voiceover, scene durations on its exact
+  spoken-word timestamps; no count-up stat, two black beats ("you're paying for
+  the name", "sometimes it isn't"), a red "the specs match? you buy the name"
+  `impact` card near the tail, and a close on footage ("sometimes the same maker")
+  rather than the red card. Full-bleed footage on nearly every beat, mixing video
+  b-roll with stills. Media credits (Pexels, free license) — videos: a blurred
+  supermarket aisle (13752470), a generic production/packaging line (32386521),
+  and a blurred store interior (853782). Photos: discounted goods (12039676), a
+  factory interior (36823725), a production line (34221997), two plain cans
+  (9462408), a price tag (11417942), sale tags (6114606), a blank container
+  (4464884), a marketing/advertising scene (14853183), unbranded bottles
+  (18631424), a plain can (8015704), a generic jar (8947553), a store shelf
+  (2449665), a plain box (8015797), a market aisle (34066399), plated food
+  (4451867), two plain cans (9462352), unbranded pouches (12024976), and a price
+  tag (6114347). **Brand-safety:** every product and shelf shown is generic,
+  unbranded, or blurred — no real brand logos or trade dress appear, deliberately,
+  since the reel is *about* brands. **General characterization, not a claim about
+  any specific product:** "made in the same factory / on the same production lines"
+  and "the store label costs less" are broadly true across many categories but vary
+  by item and retailer — verify per-category before attaching to any named brand or
+  store, and don't imply a specific private-label/name-brand pair unless confirmed.
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
