@@ -1082,17 +1082,36 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   revenue, ~22% operating margin, ~$928M operating income. Treat these as
   approximate and verify against SCI's latest 10-K/annual report before
   publishing.
-- **`InflationReel`** — "The inflation tax" ($10,000 left in a safe since 1980
-  quietly loses ~75% of its purchasing power). ~32s, footage-forward with the
-  three count-up stat beats on black and one red card. Media credits (Pexels,
-  free license) — videos: a keypad safe lock (6573544), a vintage coin machine
-  (4836575), a rising candlestick chart (38395147). Photos: a "$10,000" currency
-  band (11624826), a stack of $20 bills (15633963), supermarket price shelves
-  (4437145), a produce aisle with price signs (264636), a supermarket checkout
-  (36772947), an hourglass (9771338). Note: the figures (a 1980 dollar ≈ 25¢
-  today, price level ~4× since 1980, $100 → ~$390) track long-run US CPI but
-  shift with the reference month — verify against the latest BLS data before
-  publishing.
+- **`InflationReel`** — "The inflation tax" (a ~51s reel — rebuilt with a fuller
+  script and fresh footage: $10,000 hidden under a mattress since 1980 and never
+  touched; every bill is still there, but it now buys only about $2,500 worth.
+  Nobody took it — prices did. The price level has roughly quadrupled since 1980,
+  so a 1980 dollar buys about 25¢ today, and what cost $100 then costs about $390
+  now: same items, four times the dollars. That's why idle cash is riskier than it
+  looks — the mattress money melted to a fraction of its buying power, while the
+  same $10,000 in stocks would be worth far more, even after inflation. The loss
+  came from doing nothing: cash isn't neutral — left alone it slowly loses, quietly
+  every year, until decades add up to most of it. Standing still doesn't hold your
+  place; it moves you backwards. Same bills, a quarter of the value, 46 years
+  later). Continuous voiceover, scene durations on its exact spoken-word timestamps;
+  three count-up stat beats on black ($2,500 / 25¢ / $390), two black text beats
+  ("even after inflation," "cash isn't neutral"), a red "it moves you backwards"
+  `impact` card in the tail, and a close on footage (a vintage calendar, "46 years
+  later") rather than the red card. Full-bleed footage on nearly every beat, mixing
+  video b-roll with stills. Media credits (Pexels, free license) — videos: hands
+  fanning US $100 bills (5466780), a supermarket aisle POV (29376327), a descending
+  escalator (3563056), and hands counting US cash (6700265). Photos: US bills on
+  black (6590647), a banded stack of bills (6266268), a neatly made bed (8112905),
+  a $2.00 produce price chalkboard (7456532), a basket of fresh groceries (9070110),
+  a store receipt with sale tags (6127098), dollar bills on a wooden table
+  (4430247), melting ice on dark marble (10526899), a seedling sprouting from coins
+  (5550904), a single chair in a dark room (12586595), a vintage hourglass (7224866),
+  an antique wall clock (35980873), a close-up US quarter (64824), and an old
+  vintage calendar (11177238). **Illustration, verify before publishing:** the
+  $10,000 / $2,500 / 25¢ / ~4× / $100→$390 / "46 years" figures track long-run US
+  CPI (Bureau of Labor Statistics) but shift with the exact reference month and the
+  stocks-vs-cash comparison depends on the period and index — confirm against the
+  latest BLS data before publishing.
 - **`LaundromatReel`** — "Boring cash that compounds" (a ~52s reel on the laundromat
   — rebuilt with a fuller script and fresh footage: a cash business on your corner
   that barely notices a recession, employs almost no one, and gets paid in quarters;

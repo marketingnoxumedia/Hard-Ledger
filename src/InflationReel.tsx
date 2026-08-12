@@ -75,39 +75,53 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// "The inflation tax" reel — money sitting still loses value. Durations placed
-// on exact spoken-word timestamps (ElevenLabs alignment) at +6% pace.
-// Total 963 frames = ~32.1s. `enter` adds a transition on some cuts.
+// "The inflation tax" reel — $10,000 under a mattress since 1980 quietly loses
+// most of its value; cash left idle melts to a fraction of its buying power.
+// Durations placed on exact spoken-word timestamps (ElevenLabs alignment) at
+// +6% pace. Total 1535 frames = ~51.2s. `enter` adds a transition on some cuts.
 // Every scene uses a distinct background sourced fresh for this reel — no
-// footage is shared with any other reel (see the skill's hard rule).
+// footage is shared with any other reel (see the skill's hard rule). Opens on
+// US cash, lands a red "it moves you backwards" card in the tail, and closes on
+// footage ("46 years later") rather than the red card.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 98, kind: 'hook', text: 'Ten thousand dollars,|locked in a safe,|in 1980.', kicker: 'The inflation tax', highlights: ['safe'], size: 74, media: {src: 'inflation/clip_vault.mp4', type: 'video', effect: 'in'}},
-  {dur: 33, kind: 'text', text: 'And never|touched it.', highlights: ['never'], size: 92, media: {src: 'inflation/p_11624826.jpg', type: 'img', effect: 'in'}},
-  {dur: 45, kind: 'text', enter: 'slideR', text: 'Every bill|is still there.', highlights: ['every'], size: 90, media: {src: 'inflation/p_15633963.jpg', type: 'img', effect: 'in'}},
-  {dur: 89, kind: 'stat', stat: {pre: 'Today it buys', prefix: '$', value: 2500, post: 'worth'}},
-  {dur: 52, kind: 'text', text: 'Nobody took it.|Prices did.', highlights: ['prices'], size: 88, media: {src: 'inflation/p_4437145.jpg', type: 'img', effect: 'in'}},
-  {dur: 98, kind: 'stat', stat: {pre: 'A 1980 dollar now buys', value: 25, suffix: '¢', post: 'today'}},
-  {dur: 85, kind: 'text', enter: 'slideL', text: 'The price level|roughly quadrupled.', highlights: ['quadrupled'], size: 80, media: {src: 'inflation/p_264636.jpg', type: 'img', effect: 'in'}},
-  {dur: 139, kind: 'stat', stat: {pre: '$100 in 1980 now costs', prefix: '$', value: 390}},
-  {dur: 61, kind: 'lines', text: 'Same goods.|Four times|the dollars.', highlights: ['four'], reveal: [0, 20, 40], media: {src: 'inflation/p_36772947.jpg', type: 'img', effect: 'in'}},
-  {dur: 89, kind: 'text', enter: 'slideL', text: 'The same ten thousand|in stocks — worth|far more.', highlights: ['stocks'], size: 74, media: {src: 'inflation/clip_chart.mp4', type: 'video', effect: 'in'}},
-  {dur: 42, kind: 'text', text: 'Even after|inflation.', highlights: ['inflation'], size: 92, media: {src: 'inflation/clip_door.mp4', type: 'video', effect: 'in'}},
-  {dur: 64, kind: 'text', enter: 'zoom', text: 'The loss came from|doing nothing at all.', highlights: ['nothing'], size: 80, media: {src: 'inflation/p_9771338.jpg', type: 'img', effect: 'in'}},
-  {dur: 68, kind: 'impact', text: 'Standing still|goes backwards.', redBg: true},
+  {dur: 99, kind: 'hook', text: 'Ten thousand dollars,|under a mattress,|since 1980.', kicker: 'The inflation tax', highlights: ['mattress'], size: 74, media: {src: 'inflation/v_hook.mp4', type: 'video', effect: 'in'}},
+  {dur: 26, kind: 'text', text: 'And never|touched.', highlights: ['never'], size: 96, media: {src: 'inflation/p_untouched.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', enter: 'slideR', text: 'Every bill|is still there.', highlights: ['every'], size: 90, media: {src: 'inflation/p_bills.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'stat', stat: {pre: 'Today it buys', prefix: '$', value: 2500, post: 'worth'}},
+  {dur: 24, kind: 'text', text: 'Nobody|took it.', highlights: ['nobody'], size: 96, media: {src: 'inflation/p_bed.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', text: 'Prices|took it.', highlights: ['prices'], size: 96, media: {src: 'inflation/v_prices.mp4', type: 'video', effect: 'in'}},
+  {dur: 82, kind: 'text', enter: 'slideL', text: 'The price level|quadrupled.', highlights: ['quadrupled'], size: 84, media: {src: 'inflation/p_quad.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'stat', stat: {pre: 'A 1980 dollar now buys', value: 25, suffix: '¢', post: 'today'}},
+  {dur: 115, kind: 'text', text: 'Put it|in goods.', highlights: ['goods'], size: 96, media: {src: 'inflation/p_goods.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'stat', stat: {pre: '$100 in 1980 now costs', prefix: '$', value: 390}},
+  {dur: 79, kind: 'lines', text: 'Same items.|Four times|the dollars.', highlights: ['four'], reveal: [0, 20, 40], media: {src: 'inflation/p_receipt.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', enter: 'slideL', text: 'Idle cash|is riskier|than it looks.', highlights: ['riskier'], size: 78, media: {src: 'inflation/p_cashstill.jpg', type: 'img', effect: 'in'}},
+  {dur: 118, kind: 'text', text: 'It melted|in your hands.', highlights: ['melted'], size: 88, media: {src: 'inflation/p_melt.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', enter: 'slideL', text: 'The same ten grand|in stocks —|far more.', highlights: ['stocks'], size: 76, media: {src: 'inflation/p_stock.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', text: 'Even after|inflation.', highlights: ['inflation'], size: 92},
+  {dur: 55, kind: 'text', enter: 'zoom', text: 'The loss came from|doing nothing.', highlights: ['nothing'], size: 82, media: {src: 'inflation/p_idle.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', text: 'Cash|isn’t neutral.', highlights: ['neutral'], size: 100},
+  {dur: 59, kind: 'text', text: 'Left alone,|it slowly loses.', highlights: ['loses'], size: 84, media: {src: 'inflation/p_down.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', text: 'Quietly —|every single year.', highlights: ['every'], size: 82, media: {src: 'inflation/p_clock.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', enter: 'slideUp', text: 'Standing still|doesn’t hold|your place.', highlights: ['still'], size: 78, media: {src: 'inflation/v_escalator.mp4', type: 'video', effect: 'in'}},
+  {dur: 32, kind: 'impact', text: 'It moves you|backwards.', redBg: true},
+  {dur: 25, kind: 'text', text: 'Same bills.', highlights: ['bills'], size: 104, media: {src: 'inflation/v_samecash.mp4', type: 'video', effect: 'in'}},
+  {dur: 39, kind: 'text', enter: 'slideL', text: 'A quarter|of the value.', highlights: ['quarter'], size: 92, media: {src: 'inflation/p_coins.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', text: '46 years|later.', highlights: ['46'], size: 100, media: {src: 'inflation/p_calendar.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 98, src: 'media/sfx_whoosh.mp3', vol: 0.45},
-  {at: 176, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 317, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 500, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 639, src: 'media/sfx_whoosh.mp3', vol: 0.45},
-  {at: 700, src: 'media/sfx_chaching.mp3', vol: 0.5},
-  {at: 831, src: 'media/sfx_whoosh.mp3', vol: 0.45},
-  {at: 895, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 99, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 200, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 450, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 615, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 848, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1241, src: 'media/sfx_whoosh.mp3', vol: 0.45},
+  {at: 1326, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 1448, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
@@ -277,7 +291,7 @@ const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
   const enter = spring({frame: frame - 2, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
   const t = interpolate(frame, [4, 38], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const shown = stat.value * t;
-  const num = stat.decimals ? shown.toFixed(stat.decimals) : String(Math.round(shown));
+  const num = stat.decimals ? shown.toFixed(stat.decimals) : Math.round(shown).toLocaleString('en-US');
   const barW = stat.bar != null ? interpolate(frame, [6, 40], [0, stat.bar], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut}) : 0;
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
@@ -390,7 +404,7 @@ export const InflationReel: React.FC = () => {
       {HAS_VOICEOVER ? <Audio src={staticFile('inflation/voiceover.mp3')} /> : null}
       <Audio
         src={staticFile('inflation/music.mp3')}
-        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.14, 0.14, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
+        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.2244, 0.2244, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       {SFX.map((s, i) => (
         <Sequence key={`sfx${i}`} from={s.at} durationInFrames={60} name={`sfx-${i}`}>
