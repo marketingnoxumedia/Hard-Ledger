@@ -56,6 +56,7 @@ import {SanitationReel, DURATION_IN_FRAMES as SANITATION_FRAMES} from './Sanitat
 import {ActiveReel, DURATION_IN_FRAMES as ACTIVE_FRAMES} from './ActiveReel';
 import {HeadstartReel, DURATION_IN_FRAMES as HEADSTART_FRAMES} from './HeadstartReel';
 import {BrandReel, DURATION_IN_FRAMES as BRAND_FRAMES} from './BrandReel';
+import {NokiaReel, DURATION_IN_FRAMES as NOKIA_FRAMES} from './NokiaReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -505,6 +506,14 @@ export const RemotionRoot: React.FC = () => {
         id="BrandReel"
         component={BrandReel}
         durationInFrames={BRAND_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="NokiaReel"
+        component={NokiaReel}
+        durationInFrames={NOKIA_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

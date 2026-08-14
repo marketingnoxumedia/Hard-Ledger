@@ -472,6 +472,46 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   and "the store label costs less" are broadly true across many categories but vary
   by item and retailer — verify per-category before attaching to any named brand or
   store, and don't imply a specific private-label/name-brand pair unless confirmed.
+- **`NokiaReel`** — "When the game changes" (a ~60s reel on Nokia losing the
+  smartphone: at its peak it sold close to half the world's phones, but leadership
+  in handsets didn't transfer to the smartphone that replaced it. Clinging to its
+  own software felt like strength, not stubbornness — Nokia led global handset
+  share, owned world-class hardware and distribution, and had beaten every previous
+  challenger by out-manufacturing them; adopting an outside operating system meant
+  handing control to a partner and admitting its own software was finished, a
+  concession a market leader almost never makes. The iPhone and Android defined the
+  smartphone and moved the contest to software and apps, where Nokia's hardware lead
+  counted for nothing; in 2014 it sold its phone business to Microsoft. When the
+  basis of competition shifts, defending the old battlefield brilliantly is still
+  how you lose — half the world's phones, then sold for parts). Continuous
+  voiceover, scene durations on its exact spoken-word timestamps; one count-up stat
+  (~50% of the world's phones), two black beats ("felt like strength / not
+  stubbornness", "leaders almost never do that"), a red "a former king / sold off"
+  `impact` card near the tail, and a close on footage (e-waste, "sold for parts")
+  rather than the red card. Full-bleed footage on nearly every beat, mixing video
+  b-roll with stills. Media credits (Pexels, free license) — videos: an electronics
+  assembly/conveyor line (32386534), a hand using a modern smartphone (10374888),
+  scrolling code on a screen (5473795), and a pile of electronic waste (14593616).
+  Photos: a single dark feature phone (28266695), a candybar keypad phone (896895),
+  a world globe (269724), a vintage rotary phone (13620775), a hand gripping a flip
+  phone (8680077), a stack of old phones (5744290), a phone circuit board
+  (5554949), a blank phone mockup (6373164), an office handshake (8112186), a
+  contract being signed (955392), a decayed feature phone in leaves (27910251), a
+  blank modern smartphone (8217435), programming code (2004161), a cracked phone
+  screen (288479), a corporate handshake (4963359), a chess game (13814951), and a
+  red market-downtrend chart (38933572). **Brand-safety:** the reel names Nokia,
+  iPhone, Android and Microsoft in voiceover as the subject/context, but the footage
+  is deliberately generic — devices shown are vintage keypad phones, unbranded
+  smartphones, blank mockups, circuit boards, or (for the decay beats) a worn
+  discarded phone; competitor-logo shots were rejected during sourcing. Confirm no
+  unintended readable brand marks before publishing. **Illustration / general
+  characterization, not verified financials:** "close to half the world's phones" is
+  a rounded characterization of Nokia's peak share (verify the exact figure and
+  scope — mobile handsets vs smartphones differ), and the 2014 sale to Microsoft is
+  a real event stated without a price; confirm the specific numbers and framing
+  before publishing. (Note: this is thematically close to `BlackberryReel` — "The
+  strength trap," also a dominant phone maker losing to iPhone/Android — so schedule
+  the two well apart; each uses entirely separate footage.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
