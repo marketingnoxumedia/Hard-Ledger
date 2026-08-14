@@ -59,6 +59,7 @@ import {BrandReel, DURATION_IN_FRAMES as BRAND_FRAMES} from './BrandReel';
 import {NokiaReel, DURATION_IN_FRAMES as NOKIA_FRAMES} from './NokiaReel';
 import {PalletReel, DURATION_IN_FRAMES as PALLET_FRAMES} from './PalletReel';
 import {DepreciationReel, DURATION_IN_FRAMES as DEPRECIATION_FRAMES} from './DepreciationReel';
+import {GoldReel, DURATION_IN_FRAMES as GOLD_FRAMES} from './GoldReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -532,6 +533,14 @@ export const RemotionRoot: React.FC = () => {
         id="DepreciationReel"
         component={DepreciationReel}
         durationInFrames={DEPRECIATION_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="GoldReel"
+        component={GoldReel}
+        durationInFrames={GOLD_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

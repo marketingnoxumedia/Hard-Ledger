@@ -584,6 +584,42 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   show the shape of car depreciation — real depreciation varies widely by make,
   model, mileage, condition and market. Present as a general illustration, not a
   guarantee for any specific vehicle.
+- **`GoldReel`** — "Store of value" (a ~63s reel busting the idea that gold is the
+  best long-run store of wealth: gold gets called the ultimate store of value, but
+  over a century stocks didn't just beat it, they buried it. A dollar in US stocks in
+  1926 grew, after inflation, to roughly $1,081 by 2025; the same dollar in gold
+  reached only about $5. Gold roughly held its purchasing power while stocks
+  multiplied it hundreds of times, because the businesses behind stocks reinvest and
+  grow, whereas gold pays no dividend and earns only what the next buyer will pay.
+  The mix-up is between safe and growing: gold is a hedge that preserves value,
+  stocks are a stake in businesses that expand — both real jobs, but only one
+  compounds; over decades, something that barely grows quietly falls behind. A dollar
+  in stocks: about a thousand; in gold: about five). Continuous voiceover, scene
+  durations on its exact spoken-word timestamps; two count-up stats ($1,081 for
+  stocks vs $5 for gold), two black beats ("they buried it", "but — measure it"), a
+  red "both real jobs / only one compounds" `impact` card near the tail, and a close
+  on footage (gold coins, "in gold: about five") rather than the red card. Full-bleed
+  footage on nearly every beat, mixing video b-roll with stills. Media credits
+  (Pexels, free license) — videos: a gold-bars animation (8733007), a moving market
+  chart (38557069), and gold coins falling in slow motion (32017747). Photos: gold
+  bars in a vault (32570273), a pile of gold coins (19704271), antique coins
+  (318820), a typewriter reading "Crisis" (4057659), a printed stock-price report
+  (102152), a $100 banknote (14820446), a single gold bar (35065436), a stack of gold
+  bars (33539235), a plant growing from coins (5550910), gold coins on black
+  (8442324), an industrial facility (36915547), a brick-smokestack factory (28572048),
+  a balance scale (8666805), stacked gold bars (33539242), a glass-skyscraper skyline
+  (13012283), an hourglass (11069123), a snail (5341217), a red-vs-green trend chart
+  (27288569), and the New York Stock Exchange facade (36050277). **Brand-safety:**
+  the reel names no company — footage is generic gold/finance imagery. Chart/ticker
+  shots were chosen without a dominant readable company name or brokerage logo; the
+  NYSE facade shows the exchange's own lettering (a public landmark standing in for
+  "stocks," not a commercial brand). An ambiguous green-tinted-coin closing clip was
+  caught in preview and swapped for a clean gold-coins shot. Confirm no stray tickers
+  read as a single company before publishing. **Illustration / verify the figures:**
+  the ~$1,081-vs-$5 (a 1926 dollar to 2025, real) contrast reflects widely-cited
+  long-run return studies but the exact endpoints depend on the index, dates,
+  inflation series and assumptions — verify the specific numbers and cite the source
+  before publishing; gold's real return in particular varies a lot by start/end date.
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
