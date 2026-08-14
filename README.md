@@ -620,6 +620,45 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   long-run return studies but the exact endpoints depend on the index, dates,
   inflation series and assumptions — verify the specific numbers and cite the source
   before publishing; gold's real return in particular varies a lot by start/end date.
+- **`BordersReel`** — "The outsourced channel" (a ~62s reel on how Borders handed
+  its future to Amazon: a book-retail giant looked at the internet, judged building
+  an online store too expensive, and in 2001 handed its entire web business to a
+  small rival — Amazon. Outsourcing looked like prudence, not surrender: e-commerce
+  was lossmaking, Amazon's platform already worked, and the deal gave Borders an
+  online presence with no capital outlay. What it quietly handed over was the
+  customer relationship and the purchase data — the two assets that would decide the
+  next decade — so Borders never built its own online muscle, customers or data, and
+  when shopping moved online for good it had nothing of its own to stand on. It filed
+  for bankruptcy ten years later, in 2011. Don't outsource the future: give a rival
+  the channel about to matter most and you hand over your customers and everything
+  you'd have learned). Continuous voiceover, scene durations on its exact spoken-word
+  timestamps; no count-up stat (the punch is the 2001 → 2011 year contrast in big
+  type), three black beats ("that rival was Amazon", "nothing of its own to stand
+  on", "ten years later"), a red "don't outsource the future" `impact` card near the
+  tail, and a close on footage (packing up, "outsourced 2001 / bankrupt 2011") rather
+  than the red card. Full-bleed footage on nearly every beat, mixing video b-roll
+  with stills. Media credits (Pexels, free license) — videos: a bookstore corridor
+  (19231459), online shopping on a laptop (8937985), and packing books into a box
+  (4520154). Photos: an e-commerce cart on a laptop (6214472), a business handshake
+  (33175650), a wall of books (7167083), a bookstore interior (1850021), a vintage
+  cash register (27038010), a boardroom meeting (6950031), a market-crash chart
+  (5561922), a fulfillment warehouse (4277794), an e-commerce site on a laptop
+  (17485352), counting cash (6328893), a shopper with a bag (4127641), a data-center
+  server room (5480781), a chessboard (17768376), partly-empty store shelves
+  (4437145), a generic "closed" sign (5961722), a symbolic handover of keys
+  (8470846), a shuttered closed storefront (10971626), a lit storefront window
+  (24554242), and an analytics dashboard (7109243). **Brand-safety:** the reel names
+  Borders and Amazon in voiceover only — all footage is generic, with no Borders or
+  Amazon logos/signage. Two auto-sourced shots were caught in preview and swapped: a
+  box with a prominent USPS/Express-Mail logo (and a Patagonia jacket) on the "2001"
+  beat, and a storefront plastered with lottery/beer/tobacco ads on the "2011" beat —
+  replaced with a plain key-handover and a plain shuttered storefront. Confirm no
+  stray brand marks before publishing. **Real companies/dates — verify:** the Borders
+  outsourcing-to-Amazon deal (2001) and Borders' bankruptcy (2011) are real events
+  rendered as written; double-check the specifics and framing before publishing.
+  (Note: shares the "incumbent killed by the digital shift" theme with
+  `BlockbusterReel`, `KodakReel` and `SearsReel` — schedule them apart; each uses
+  entirely separate footage.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
