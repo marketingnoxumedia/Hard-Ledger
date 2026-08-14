@@ -550,6 +550,40 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   "own-the-infrastructure / rent-it-forever moat" thesis overlaps thematically with
   `WasteReel` — "own the landfill"; the two use entirely separate footage, but
   schedule them apart.)
+- **`DepreciationReel`** — "The depreciation curve" (a ~58s reel on the hidden cost
+  of buying new: a new car loses about a fifth of its value the instant it becomes
+  yours — faster than fuel, insurance or repairs, and almost nobody counts it. A
+  $40K car is worth about $32K within a year, so driving it off the lot quietly
+  spends ~$8K in year-one depreciation. The drop is steepest first — down ~20% after
+  one year, ~60% after five, worth less than half its sticker before the warranty
+  ends — most of the value leaving in the years you can't see it going. Which is why
+  a 2-3 year old car is a different deal: it has already taken the worst of the fall
+  while keeping most of its life; the first owner paid for the new smell. New isn't a
+  cost, it's a luxury — the depreciation curve is the real price tag). Continuous
+  voiceover, scene durations on its exact spoken-word timestamps; three count-up
+  stats ($8K year-one drop, then 20% and 60% "down" with animated bars for the
+  curve), two black beats ("almost nobody counts it", "the curve is the real price
+  tag"), a red "new isn't a cost / it's a luxury" `impact` card near the tail, and a
+  close on footage (cash counting, "$8K, gone in a year") rather than the red card.
+  Full-bleed footage on nearly every beat, mixing video b-roll with stills. Media
+  credits (Pexels, free license) — videos: an aerial car lot (34448142), a car
+  driving off on a road (5558025), and hands counting cash (6197173). Photos: a car-
+  key handover (97079), a fuel nozzle (21811094), a shiny new car (4257581), a
+  showroom (14615222), a "for sale" placard at a car (7414901), a calendar (273153),
+  cash banknotes (15633962), a red downtrend chart (38963049), a pre-owned car lot at
+  night (12700837), signing paperwork (8730998), a dashboard/odometer (241188), an
+  older convertible (16636019), a descending mountain road (8274863), a car engine
+  bay (11455717), a clean car interior (15223424), a sale price tag (7564282), and a
+  row of new cars in a lot with a city skyline (29566907). **Brand-safety:** the reel
+  is about cars generally, not any one make — footage varies makes/colors and avoids
+  badge-dominated shots; a dealership exterior with a giant illuminated brand sign
+  was caught in preview and swapped for a generic mixed-make car-lot shot, so no
+  single brand is associated with "losing value". Confirm no readable brand badges
+  before publishing. **Illustration, not verified data:** the $40K→$32K, ~20%/~60%
+  depreciation curve, and ~$8K year-one figure are round, illustrative numbers to
+  show the shape of car depreciation — real depreciation varies widely by make,
+  model, mileage, condition and market. Present as a general illustration, not a
+  guarantee for any specific vehicle.
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
