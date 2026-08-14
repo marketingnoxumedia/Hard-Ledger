@@ -512,6 +512,44 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   before publishing. (Note: this is thematically close to `BlackberryReel` — "The
   strength trap," also a dominant phone maker losing to iPhone/Android — so schedule
   the two well apart; each uses entirely separate footage.)
+- **`PalletReel`** — "The pallet pool" (a ~71s reel on the CHEP/Brambles blue-pallet
+  pooling moat: look under almost anything you buy and you'll find the same blue
+  platform. Brambles, through CHEP, owns a pool of ~348 million blue pallets and
+  never sells them — it issues, collects, repairs and reissues the same platform for
+  years, so one pallet earns many times over. The pooling is the moat: a rival can
+  build a pallet but can't cheaply replicate the network of 750+ collection/service
+  centres that makes the pool work. That circular pool of wooden platforms brought
+  in ~$6.67B at ~20% margin, roughly $1.37B in profit. Own the platform everything
+  sits on, rent it forever, and a commodity becomes infrastructure — 348 million
+  pallets, $6.67B, rented, never sold). Continuous voiceover, scene durations on its
+  exact spoken-word timestamps; four count-up stats (348M pallets, 750+ centres,
+  $6.67B revenue, $1.37B profit), two black beats ("never sells a single one",
+  "pooling beats selling"), a red "renting beats selling" `impact` card mid-reel, and
+  a close on footage (a blue-pallet hero, "rented, never sold") rather than the red
+  card. Full-bleed footage on nearly every beat, mixing video b-roll with stills.
+  Media credits (Pexels, free license) — videos: a wide warehouse aisle (37208833), a
+  forklift moving loads (37651089), an industrial conveyor line (34394492), and a
+  forklift loading pallets outdoors (32838797). Photos: stacked blue pallets
+  (10096887), stacked wooden pallets in a yard (9565565), loading a truck (27490857),
+  an aerial pallet yard (9552902), a neat stack of pallets (9498584), a man repairing
+  a pallet (12134140), an aerial logistics centre with trucks (2804929), a single
+  wooden pallet (11001887), loading-dock bays with trailers (27099093), stacked port
+  containers (2091159), warehouse workers (4483862), an aerial logistics yard
+  (16726161), semi-trucks on a highway (30344500), US banknotes (16809843), crates on
+  a pallet base (11911889), a tall warehouse racking aisle (5860937), a port with
+  gantry cranes (20581299), and a blue-pallet hero shot (10096886). **Brand-safety:**
+  the reel names Brambles/CHEP in voiceover as the subject, but all footage is
+  generic — plain blue/wooden pallets, warehouses, forklifts, trucks, containers and
+  cash, with no CHEP or retailer logos/signage (a "global brands" container shot was
+  rejected during sourcing). The blue pallets carry only normal stamped handling
+  codes, not brand marks; confirm no readable branding before publishing.
+  **Illustration / verify the financials:** ~348M pallets, 750+ centres, $6.67B
+  revenue, ~20% margin and ~$1.37B profit are figures for a recent year stated as
+  round characterizations — confirm the exact numbers, currency (Brambles reports in
+  US$) and reporting period against Brambles' filings before publishing. (Note: the
+  "own-the-infrastructure / rent-it-forever moat" thesis overlaps thematically with
+  `WasteReel` — "own the landfill"; the two use entirely separate footage, but
+  schedule them apart.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
