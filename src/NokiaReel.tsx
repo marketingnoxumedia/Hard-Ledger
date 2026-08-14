@@ -83,51 +83,51 @@ type SceneDef = {
 // and apps, where Nokia's hardware lead counted for nothing; in 2014 it sold its
 // phone business to Microsoft. When the basis of competition shifts, defending the
 // old battlefield brilliantly is still how you lose. Durations placed on exact
-// spoken-word timestamps (ElevenLabs alignment) at +6% pace. Total 1790 frames =
-// ~59.7s. `enter` adds a transition on some cuts. Every scene uses a distinct
+// spoken-word timestamps (ElevenLabs alignment) at +6% pace. Total 1691 frames =
+// ~56.4s. `enter` adds a transition on some cuts. Every scene uses a distinct
 // background sourced fresh for this reel — no footage is shared with any other reel
 // (see the skill's hard rule). One count-up stat (~50% of phones), two black beats,
 // a red "former king" card near the tail, and a close on footage rather than the
 // red card.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 46, kind: 'hook', text: 'At its peak.|One company.', kicker: 'When the game changes', highlights: ['one'], size: 92, media: {src: 'nokia/v_hook.mp4', type: 'video', effect: 'in'}},
-  {dur: 83, kind: 'stat', stat: {pre: 'Near', value: 50, suffix: '%', post: "of the world's phones"}},
-  {dur: 67, kind: 'text', enter: 'slideR', text: 'Then a new|phone arrived.', highlights: ['new'], size: 90, media: {src: 'nokia/v_new.mp4', type: 'video', effect: 'in'}},
-  {dur: 37, kind: 'text', text: "Its dominance didn't|transfer.", highlights: ['transfer'], size: 88, media: {src: 'nokia/p_transfer.jpg', type: 'img', effect: 'in'}},
-  {dur: 76, kind: 'text', text: 'It was|Nokia.', highlights: ['nokia'], size: 108, media: {src: 'nokia/p_retro.jpg', type: 'img', effect: 'in'}},
-  {dur: 92, kind: 'text', text: "The world's|dominant maker.", highlights: ['dominant'], size: 88, media: {src: 'nokia/p_dominant.jpg', type: 'img', effect: 'in'}},
-  {dur: 73, kind: 'text', enter: 'slideR', text: "The lead didn't|carry over.", highlights: ['carry'], size: 90, media: {src: 'nokia/p_carry.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'hook', text: 'At its peak.|One company.', kicker: 'When the game changes', highlights: ['one'], size: 92, media: {src: 'nokia/v_hook.mp4', type: 'video', effect: 'in'}},
+  {dur: 73, kind: 'stat', stat: {pre: 'Near', value: 50, suffix: '%', post: "of the world's phones"}},
+  {dur: 64, kind: 'text', enter: 'slideR', text: 'Then a new|phone arrived.', highlights: ['new'], size: 90, media: {src: 'nokia/v_new.mp4', type: 'video', effect: 'in'}},
+  {dur: 36, kind: 'text', text: "Its dominance didn't|transfer.", highlights: ['transfer'], size: 88, media: {src: 'nokia/p_transfer.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', text: 'It was|Nokia.', highlights: ['nokia'], size: 108, media: {src: 'nokia/p_retro.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', text: "The world's|dominant maker.", highlights: ['dominant'], size: 88, media: {src: 'nokia/p_dominant.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', enter: 'slideR', text: "The lead didn't|carry over.", highlights: ['carry'], size: 90, media: {src: 'nokia/p_carry.jpg', type: 'img', effect: 'in'}},
   {dur: 47, kind: 'text', text: 'Clinging to its|own software.', highlights: ['clinging'], size: 88, media: {src: 'nokia/p_clinging.jpg', type: 'img', effect: 'in'}},
-  {dur: 77, kind: 'text', text: 'Felt like strength.|Not stubbornness.', highlights: ['strength'], size: 86},
-  {dur: 55, kind: 'text', text: 'It led global|handset share.', highlights: ['share'], size: 88, media: {src: 'nokia/p_share.jpg', type: 'img', effect: 'in'}},
-  {dur: 76, kind: 'text', text: 'World-class hardware|and distribution.', highlights: ['hardware'], size: 82, media: {src: 'nokia/p_hardware.jpg', type: 'img', effect: 'in'}},
-  {dur: 101, kind: 'text', enter: 'slideL', text: 'It beat every|challenger.', highlights: ['challenger'], size: 90, media: {src: 'nokia/p_challenger.jpg', type: 'img', effect: 'in'}},
-  {dur: 74, kind: 'text', text: 'Adopting outside|software?', highlights: ['outside'], size: 88, media: {src: 'nokia/p_adopt.jpg', type: 'img', effect: 'in'}},
-  {dur: 89, kind: 'text', text: 'Meant handing over|control.', highlights: ['control'], size: 88, media: {src: 'nokia/p_control.jpg', type: 'img', effect: 'in'}},
-  {dur: 76, kind: 'text', text: 'Admit your software|is finished.', highlights: ['finished'], size: 88, media: {src: 'nokia/p_finished.jpg', type: 'img', effect: 'in'}},
-  {dur: 60, kind: 'text', text: 'Leaders almost|never do that.', highlights: ['never'], size: 90},
-  {dur: 35, kind: 'text', text: 'Then iPhone|and Android.', highlights: ['iphone'], size: 92, media: {src: 'nokia/p_smartphone.jpg', type: 'img', effect: 'in'}},
-  {dur: 60, kind: 'text', text: 'They defined the|smartphone.', highlights: ['smartphone'], size: 88, media: {src: 'nokia/v_apps.mp4', type: 'video', effect: 'in'}},
-  {dur: 92, kind: 'text', enter: 'slideL', text: 'The contest moved|to software.', highlights: ['software'], size: 88, media: {src: 'nokia/p_software.jpg', type: 'img', effect: 'in'}},
-  {dur: 35, kind: 'text', text: 'The hardware lead|meant nothing.', highlights: ['nothing'], size: 86, media: {src: 'nokia/p_nothing.jpg', type: 'img', effect: 'in'}},
-  {dur: 120, kind: 'text', text: '2014. Sold to|Microsoft.', highlights: ['2014'], size: 92, media: {src: 'nokia/p_deal.jpg', type: 'img', effect: 'in'}},
-  {dur: 126, kind: 'impact', text: 'A former king.|Sold off.', redBg: true},
-  {dur: 69, kind: 'text', enter: 'slideL', text: 'Defending the|old battlefield.', highlights: ['old'], size: 88, media: {src: 'nokia/p_battlefield.jpg', type: 'img', effect: 'in'}},
-  {dur: 36, kind: 'text', text: 'Still how|you lose.', highlights: ['lose'], size: 100, media: {src: 'nokia/p_decline.jpg', type: 'img', effect: 'in'}},
-  {dur: 88, kind: 'text', enter: 'zoom', text: 'Half the phones.|Sold for parts.', highlights: ['parts'], size: 92, media: {src: 'nokia/v_close.mp4', type: 'video', effect: 'in'}},
+  {dur: 76, kind: 'text', text: 'Felt like strength.|Not stubbornness.', highlights: ['strength'], size: 86},
+  {dur: 52, kind: 'text', text: 'It led global|handset share.', highlights: ['share'], size: 88, media: {src: 'nokia/p_share.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', text: 'World-class hardware|and distribution.', highlights: ['hardware'], size: 82, media: {src: 'nokia/p_hardware.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', enter: 'slideL', text: 'It beat every|challenger.', highlights: ['challenger'], size: 90, media: {src: 'nokia/p_challenger.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', text: 'Adopting outside|software?', highlights: ['outside'], size: 88, media: {src: 'nokia/p_adopt.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', text: 'Meant handing over|control.', highlights: ['control'], size: 88, media: {src: 'nokia/p_control.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', text: 'Admit your software|is finished.', highlights: ['finished'], size: 88, media: {src: 'nokia/p_finished.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', text: 'Leaders almost|never do that.', highlights: ['never'], size: 90},
+  {dur: 37, kind: 'text', text: 'Then iPhone|and Android.', highlights: ['iphone'], size: 92, media: {src: 'nokia/p_smartphone.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', text: 'They defined the|smartphone.', highlights: ['smartphone'], size: 88, media: {src: 'nokia/v_apps.mp4', type: 'video', effect: 'in'}},
+  {dur: 94, kind: 'text', enter: 'slideL', text: 'The contest moved|to software.', highlights: ['software'], size: 88, media: {src: 'nokia/p_software.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', text: 'The hardware lead|meant nothing.', highlights: ['nothing'], size: 86, media: {src: 'nokia/p_nothing.jpg', type: 'img', effect: 'in'}},
+  {dur: 115, kind: 'text', text: '2014. Sold to|Microsoft.', highlights: ['2014'], size: 92, media: {src: 'nokia/p_deal.jpg', type: 'img', effect: 'in'}},
+  {dur: 118, kind: 'impact', text: 'A former king.|Sold off.', redBg: true},
+  {dur: 70, kind: 'text', enter: 'slideL', text: 'Defending the|old battlefield.', highlights: ['old'], size: 88, media: {src: 'nokia/p_battlefield.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', text: 'Still how|you lose.', highlights: ['lose'], size: 100, media: {src: 'nokia/p_decline.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', enter: 'zoom', text: 'Half the phones.|Sold for parts.', highlights: ['parts'], size: 92, media: {src: 'nokia/v_close.mp4', type: 'video', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 46, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 129, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 521, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1129, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1351, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 1471, src: 'media/sfx_impact.mp3', vol: 0.72},
-  {at: 1702, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 45, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 118, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 486, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1044, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1266, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1381, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 1601, src: 'media/sfx_impact.mp3', vol: 0.5},
 ];
 
 const STARTS: number[] = (() => {

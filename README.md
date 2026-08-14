@@ -472,7 +472,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   and "the store label costs less" are broadly true across many categories but vary
   by item and retailer — verify per-category before attaching to any named brand or
   store, and don't imply a specific private-label/name-brand pair unless confirmed.
-- **`NokiaReel`** — "When the game changes" (a ~60s reel on Nokia losing the
+- **`NokiaReel`** — "When the game changes" (a ~56s reel on Nokia losing the
   smartphone: at its peak it sold close to half the world's phones, but leadership
   in handsets didn't transfer to the smartphone that replaced it. Clinging to its
   own software felt like strength, not stubbornness — Nokia led global handset
