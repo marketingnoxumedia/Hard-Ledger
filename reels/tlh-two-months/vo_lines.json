@@ -3,18 +3,20 @@
   "note": "Spoken text only. Stage directions from the approved script are stripped; the pauses they call for are cut in as silence at the timings below, not spoken and not left to the TTS to invent. Text is verbatim — do not edit to fit timing.",
   "voice": {
     "engine": "ElevenLabs (direct API)",
-    "name": "Bella",
-    "voice_id": "hpp4J3VqNfWAUOO0d1Us",
-    "labels": "american · middle_aged · professional · informative_educational",
+    "name": "Gwen",
+    "voice_id": "QByd5J8pzbnMMEP2G7eR",
+    "source": "ElevenLabs shared library (community-uploaded, not a premade voice — check terms before this becomes permanent brand sound)",
+    "labels": "american · middle_aged · calm · warm alto · narrative_story",
     "model_id": "eleven_multilingual_v2",
     "settings": {
       "stability": 0.45,
       "similarity_boost": 0.75,
       "style": 0.0,
-      "use_speaker_boost": true
+      "use_speaker_boost": true,
+      "speed": 0.8
     },
-    "locked": "2026-08-17 — chosen by ear. This is the Little Hive house voice: use it for every reel so the account is recognisable by sound alone. Do not swap without re-auditioning.",
-    "target_wpm": "141 net of pauses (123 gross across 42.4s) — confirm against the render report"
+    "locked": "2026-08-17 — chosen by ear after auditioning six voices on the actual script lines, not on generic demo copy. The alto register reads as warmth rather than performance.",
+    "measured": "148 wpm net across the full script, inside the 135-150 house band. Note short samples under-read pace: she measured 145 on three lines but 154 on the whole script."
   },
   "lines": [
     {

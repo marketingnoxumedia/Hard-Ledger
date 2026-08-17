@@ -20,16 +20,18 @@ SPEC = os.path.join(HERE, "vo_lines.json")
 CUT_LENGTH = 42.4
 MODEL = "eleven_multilingual_v2"      # highest fidelity English; turbo trades quality for latency we don't need
 
-# House voice — locked. Bella, American, middle-aged, chosen by ear on 2026-08-17.
-# Do not change without re-auditioning; the account is meant to be recognisable by sound.
-VOICE_ID = "hpp4J3VqNfWAUOO0d1Us"
+# House voice — locked. Gwen, American, middle-aged, alto: "Warm, Alto, Professional".
+# Chosen by ear on 2026-08-17 after auditioning six voices on the actual script lines.
+# The alto register is the point — it reads as warmth rather than performance, which is
+# what the reassurance temperature needs. Do not change without re-auditioning.
+VOICE_ID = "QByd5J8pzbnMMEP2G7eR"
 VOICE_SETTINGS = {
     "stability": 0.45,          # low enough to keep the read alive, high enough to avoid drift between beats
     "similarity_boost": 0.75,
     "style": 0.0,               # style > 0 adds performance; the brief explicitly does not want performing
     "use_speaker_boost": True,
-    # Bella's default read measured 173 wpm — brisk, and above the 135-150 house band.
-    # 0.80 brings her to roughly 145: unhurried, which is what the reassurance temperature needs.
+    # Gwen read 145 wpm on the short audition lines but 154 across the full script — short
+    # samples under-read pace. 0.80 puts the whole script at ~145, inside the house band.
     "speed": 0.80,
 }
 

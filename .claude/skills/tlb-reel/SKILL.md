@@ -128,12 +128,13 @@ Specify: pace in words per minute against the runtime, where she slows or warms,
 
 **The house voice is locked — do not re-audition it per reel.** Recognisability by sound is the whole point, so treat this as settled unless the user reopens it:
 
-- **Bella**, ElevenLabs, `voice_id hpp4J3VqNfWAUOO0d1Us` — american, middle-aged, professional/warm. Chosen by ear 2026-08-17.
-- Model `eleven_multilingual_v2`; settings stability `0.45`, similarity_boost `0.75`, style `0.0`, speaker boost on. Style stays at zero because anything above it adds performance, and this voice is reading to one person rather than performing.
+- **Gwen**, ElevenLabs, `voice_id QByd5J8pzbnMMEP2G7eR` — american, middle-aged, warm alto. Chosen by ear 2026-08-17, auditioned on real script lines rather than demo copy.
+- Model `eleven_multilingual_v2`; settings stability `0.45`, similarity_boost `0.75`, style `0.0`, speed `0.80`, speaker boost on. Style stays at zero because anything above it adds performance, and this voice is reading to one person rather than performing.
+- Audition on the actual script, never on demo copy: a voice can carry generic promo lines and fall apart on the quiet close. Short samples also under-read pace — Gwen measured 145 wpm on three lines and 154 on the full script.
 - Render per beat and cut the script's pauses in as measured silence, rather than generating one take and letting the model invent its own timing. `reels/tlh-two-months/render_vo.py` does this and prints a per-beat drift report; reuse it.
 - Access is via the ElevenLabs API directly and needs `ELEVENLABS_API_KEY` in the environment. Never put the key in the repo or ask for it in chat.
 
-Note the register when writing direction: Bella is american and warm, and the descriptor "bright" is the risk — watch for the upsell lift the brief rules out, especially on closing lines.
+Gwen comes from the shared (community) library rather than the premade set, so check the voice terms before treating her as permanent brand sound. Thousands of voices are reachable there with an API key; the 7-voice default list is not the whole field.
 
 House defaults: **135–150 wpm**, which is the honest ceiling for a 60–75 word script inside 20–35 seconds with room to breathe. She slows on the payoff line and warms into the CTA. No upsell brightness, no sing-song lift at the end of sentences, no clinical flatness, no urgency.
 
