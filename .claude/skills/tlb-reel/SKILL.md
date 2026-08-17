@@ -128,13 +128,16 @@ Specify: pace in words per minute against the runtime, where she slows or warms,
 
 **The house voice is locked — do not re-audition it per reel.** Recognisability by sound is the whole point, so treat this as settled unless the user reopens it:
 
-- **Gwen**, ElevenLabs, `voice_id QByd5J8pzbnMMEP2G7eR` — american, middle-aged, warm alto. Chosen by ear 2026-08-17, auditioned on real script lines rather than demo copy.
-- Model `eleven_multilingual_v2`; settings stability `0.45`, similarity_boost `0.75`, style `0.0`, speed `0.80`, speaker boost on. Style stays at zero because anything above it adds performance, and this voice is reading to one person rather than performing.
+- **Eleanor**, ElevenLabs, `voice_id DcADU5DwsQtYalQf4OwN` — "Warm British & Midlands Narration", middle-aged. Chosen by ear 2026-08-17, auditioned on real script lines rather than demo copy. British English also settles the script's "favourite".
+- Model `eleven_multilingual_v2`; settings stability `0.35`, similarity_boost `0.80`, style `0.0`, speed `0.85`, speaker boost on. **Low stability is what makes it sound human** — it lets delivery vary between phrases, where high stability produces the flat even cadence that reads as machine. Style stays at zero because it adds performance, not humanity.
+- Renders are **not deterministic**: the same speed setting has produced a 9 wpm spread across takes. Measure the whole script, and re-render if a take lands wide of the target rather than trusting the setting.
 - Audition on the actual script, never on demo copy: a voice can carry generic promo lines and fall apart on the quiet close. Short samples also under-read pace — Gwen measured 145 wpm on three lines and 154 on the full script.
 - Render per beat and cut the script's pauses in as measured silence, rather than generating one take and letting the model invent its own timing. `reels/tlh-two-months/render_vo.py` does this and prints a per-beat drift report; reuse it.
 - Access is via the ElevenLabs API directly and needs `ELEVENLABS_API_KEY` in the environment. Never put the key in the repo or ask for it in chat.
 
-Gwen comes from the shared (community) library rather than the premade set, so check the voice terms before treating her as permanent brand sound. Thousands of voices are reachable there with an API key; the 7-voice default list is not the whole field.
+Eleanor comes from the shared (community) library rather than the premade set, so check the voice terms before treating her as permanent brand sound. Thousands of voices are reachable there with an API key; the 7-voice default list is not the whole field.
+
+**Never clone a voice from a clip the account does not own.** A voice lifted from another vendor's demo, a creator's video, or any recording without the speaker's consent breaches ElevenLabs' cloning terms and appropriates a real performer. Cloning is for a voice the account records with permission — the user's own, or a hired VO who agreed to it.
 
 House defaults: **135–150 wpm**, which is the honest ceiling for a 60–75 word script inside 20–35 seconds with room to breathe. She slows on the payoff line and warms into the CTA. No upsell brightness, no sing-song lift at the end of sentences, no clinical flatness, no urgency.
 

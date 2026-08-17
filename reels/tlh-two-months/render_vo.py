@@ -20,21 +20,21 @@ SPEC = os.path.join(HERE, "vo_lines.json")
 CUT_LENGTH = 42.4
 MODEL = "eleven_multilingual_v2"      # highest fidelity English; turbo trades quality for latency we don't need
 
-# House voice — locked. Gwen, American, middle-aged, alto: "Warm, Alto, Professional".
-# Chosen by ear on 2026-08-17 after auditioning six voices on the actual script lines.
-# The alto register is the point — it reads as warmth rather than performance, which is
-# what the reassurance temperature needs. Do not change without re-auditioning.
-VOICE_ID = "QByd5J8pzbnMMEP2G7eR"
+# House voice — locked. Eleanor, "Warm British & Midlands Narration", middle-aged.
+# Chosen by ear 2026-08-17 after auditioning on the real script lines. British English
+# also settles the script's "favourite", which an American read had been fighting.
+VOICE_ID = "DcADU5DwsQtYalQf4OwN"
 VOICE_SETTINGS = {
-    "stability": 0.45,          # low enough to keep the read alive, high enough to avoid drift between beats
-    "similarity_boost": 0.75,
+    "stability": 0.35,   # low stability lets delivery vary between phrases — high stability is
+                         # exactly what produces the flat, even cadence that reads as machine.
+    "similarity_boost": 0.80,
     "style": 0.0,               # style > 0 adds performance; the brief explicitly does not want performing
     "use_speaker_boost": True,
     # Target 150 wpm, the top of the house band. Calibrated by measurement, not arithmetic:
     # renders are not deterministic, so the same speed varies a few wpm run to run
     # (0.80 gave 148, 0.81 gave 143, 0.83 gave 151, 0.84 gave 152). 0.83 lands closest.
     # Always measure the whole script — she read 145 on three lines and 154 on the full one.
-    "speed": 0.83,
+    "speed": 0.85,
 }
 
 
