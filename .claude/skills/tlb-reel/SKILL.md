@@ -124,7 +124,16 @@ House defaults, unless the script or user says otherwise:
 
 The voiceover is a woman — the house voice, kept consistent across every reel so the account becomes recognizable by sound alone. Warm, unhurried, conversational; she sounds like someone who has done this before and likes children. Reading a script aloud to one person, not performing to an audience.
 
-Specify: pace in words per minute against the runtime, where she slows or warms, which lines take a smile, and where a breath falls. If TTS is used, name the voice and its ID and lock it as the house voice for future reels.
+Specify: pace in words per minute against the runtime, where she slows or warms, which lines take a smile, and where a breath falls.
+
+**The house voice is locked — do not re-audition it per reel.** Recognisability by sound is the whole point, so treat this as settled unless the user reopens it:
+
+- **Bella**, ElevenLabs, `voice_id hpp4J3VqNfWAUOO0d1Us` — american, middle-aged, professional/warm. Chosen by ear 2026-08-17.
+- Model `eleven_multilingual_v2`; settings stability `0.45`, similarity_boost `0.75`, style `0.0`, speaker boost on. Style stays at zero because anything above it adds performance, and this voice is reading to one person rather than performing.
+- Render per beat and cut the script's pauses in as measured silence, rather than generating one take and letting the model invent its own timing. `reels/tlh-two-months/render_vo.py` does this and prints a per-beat drift report; reuse it.
+- Access is via the ElevenLabs API directly and needs `ELEVENLABS_API_KEY` in the environment. Never put the key in the repo or ask for it in chat.
+
+Note the register when writing direction: Bella is american and warm, and the descriptor "bright" is the risk — watch for the upsell lift the brief rules out, especially on closing lines.
 
 House defaults: **135–150 wpm**, which is the honest ceiling for a 60–75 word script inside 20–35 seconds with room to breathe. She slows on the payoff line and warms into the CTA. No upsell brightness, no sing-song lift at the end of sentences, no clinical flatness, no urgency.
 
