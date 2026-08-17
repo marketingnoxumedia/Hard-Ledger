@@ -108,9 +108,21 @@ def logo(img, x, y, w=120):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--selects", required=True)
+    ap.add_argument("--watermark", help="PNG wordmark, ideally with transparency")
+    ap.add_argument("--watermark-opacity", type=float, default=0.45)
+    ap.add_argument("--watermark-width", type=int, default=620)
     ap.add_argument("--out", default=os.path.join(OUT, "TLH_two-months_REEL.mp4"))
     args = ap.parse_args()
     selects = json.load(open(args.selects))
+
+    mark = None
+    if args.watermark:
+        m = Image.open(args.watermark).convert("RGBA")
+        m = m.resize((args.watermark_width, round(m.height * args.watermark_width / m.width)))
+        # Instagram's bottom 600px carries the caption, audio strip and action buttons, so a
+        # literal bottom-centre mark would sit under the UI. This hangs it off the bottom of
+        # the live band instead: the lowest it can go and still be seen.
+        mark = (m, (W - m.width)//2, LIVE_B - m.height - 10, args.watermark_opacity)
     shots = {s["id"]: s for s in json.load(open(os.path.join(HERE,"shots.json")))["shots"]}
 
     # ---- timeline from measured audio
@@ -172,7 +184,13 @@ def main():
                 chip(img, c["text"], 430, GREEN, CREAM, a, 76, False, underline="Two months" in c["text"])
             else:
                 chip(img, c["text"], 820, GREEN, CREAM, a, 68, True)
-        logo(img, X_MIN, 1190, 120) if now < card_in else logo(img, W//2-80, 1090, 160)
+        if mark:
+            m, mx, my, op = mark
+            faded = m.copy()
+            faded.putalpha(m.getchannel("A").point(lambda v: int(v*op)))
+            img.alpha_composite(faded, (mx, my if now < card_in else my - 120))
+        else:
+            logo(img, X_MIN, 1190, 120) if now < card_in else logo(img, W//2-80, 1090, 160)
         img.save(os.path.join(ov, f"o{i:05d}.png"))
     print(f"overlay: {n} frames")
 

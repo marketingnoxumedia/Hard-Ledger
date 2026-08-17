@@ -30,9 +30,11 @@ VOICE_SETTINGS = {
     "similarity_boost": 0.75,
     "style": 0.0,               # style > 0 adds performance; the brief explicitly does not want performing
     "use_speaker_boost": True,
-    # Gwen read 145 wpm on the short audition lines but 154 across the full script — short
-    # samples under-read pace. 0.80 puts the whole script at ~145, inside the house band.
-    "speed": 0.80,
+    # Target 150 wpm, the top of the house band. Calibrated by measurement, not arithmetic:
+    # renders are not deterministic, so the same speed varies a few wpm run to run
+    # (0.80 gave 148, 0.81 gave 143, 0.83 gave 151, 0.84 gave 152). 0.83 lands closest.
+    # Always measure the whole script — she read 145 on three lines and 154 on the full one.
+    "speed": 0.83,
 }
 
 
