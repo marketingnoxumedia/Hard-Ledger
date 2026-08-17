@@ -1,0 +1,74 @@
+{
+ "S1": {
+  "id": 7281350,
+  "credit": "Sarah  Chai",
+  "page": "https://www.pexels.com/video/close-up-video-of-a-baby-7281350/",
+  "res": "1080x1920",
+  "file": "footage/S1.mp4",
+  "mb": 5.1
+ },
+ "S2": {
+  "id": 7267524,
+  "credit": "Sarah  Chai",
+  "page": "https://www.pexels.com/video/a-baby-feeding-on-a-baby-bottle-7267524/",
+  "res": "1080x1920",
+  "file": "footage/S2.mp4",
+  "mb": 4.4
+ },
+ "S3a": {
+  "id": 7267522,
+  "credit": "Sarah  Chai",
+  "page": "https://www.pexels.com/video/mother-playing-with-a-child-7267522/",
+  "res": "1080x1920",
+  "file": "footage/S3a.mp4",
+  "mb": 5.6
+ },
+ "S3b": {
+  "id": 5487369,
+  "credit": "olia danilevich",
+  "page": "https://www.pexels.com/video/woman-reading-a-book-5487369/",
+  "res": "1080x1920",
+  "file": "footage/S3b.mp4",
+  "mb": 8.3
+ },
+ "S4": {
+  "id": 7267511,
+  "credit": "Sarah  Chai",
+  "page": "https://www.pexels.com/video/7267511/",
+  "res": "1080x1920",
+  "note": "replaced sleeping newborn"
+ },
+ "S5": {
+  "id": 10888279,
+  "credit": "Altaf Shah",
+  "page": "https://www.pexels.com/video/baby-smaling-and-making-face-expressions-10888279/",
+  "res": "1080x1920",
+  "file": "footage/S5.mp4",
+  "mb": 17.3
+ },
+ "S6": {
+  "id": 6622839,
+  "credit": "Keira Burton",
+  "page": "https://www.pexels.com/video/baby-putting-hands-in-mouth-6622839/",
+  "res": "1080x1920",
+  "file": "footage/S6.mp4",
+  "mb": 6.4
+ },
+ "S7": {
+  "id": 7267521,
+  "credit": "Sarah  Chai",
+  "page": "https://www.pexels.com/video/woman-carrying-crying-baby-7267521/",
+  "res": "1080x1920",
+  "file": "footage/S7.mp4",
+  "mb": 3.5
+ },
+ "S8": {
+  "id": 7279088,
+  "credit": "Sarah  Chai",
+  "page": "https://www.pexels.com/video/mother-carrying-her-baby-7279088/",
+  "res": "1080x1920",
+  "file": "footage/S8.mp4",
+  "mb": 4.4
+ },
+ "_licence": "Pexels License. Attribution not required but logged for the QC licence check. NOT model-released \u2014 the child beats need an Envato Elements swap before publication."
+}

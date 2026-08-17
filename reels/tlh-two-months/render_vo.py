@@ -28,6 +28,9 @@ VOICE_SETTINGS = {
     "similarity_boost": 0.75,
     "style": 0.0,               # style > 0 adds performance; the brief explicitly does not want performing
     "use_speaker_boost": True,
+    # Bella's default read measured 173 wpm — brisk, and above the 135-150 house band.
+    # 0.80 brings her to roughly 145: unhurried, which is what the reassurance temperature needs.
+    "speed": 0.80,
 }
 
 

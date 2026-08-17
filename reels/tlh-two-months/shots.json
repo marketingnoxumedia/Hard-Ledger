@@ -1,0 +1,217 @@
+{
+  "reel": "The Little Hive — Two months",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "duration": 42.4,
+  "note": "source=envato marks beats showing an identifiable child beside a developmental claim; Envato Elements carries the model release. Pexels covers texture, rooms and light.",
+  "shots": [
+    {
+      "id": "S1",
+      "in": 0.0,
+      "out": 5.2,
+      "kind": "motion",
+      "source": "envato",
+      "framing": "close",
+      "queries": [
+        "newborn gazing at parent face close up",
+        "two month old baby alert quiet awake",
+        "infant looking up at mother home",
+        "baby eye contact feeding pause"
+      ],
+      "fallback": "newborn face close up daylight indoors",
+      "criteria": "6-12wk. Eyes open, converged above frame. Head bobble is a yes. REJECT sleeping baby, raised surface without a hand on them, propped bottle, any crib with bumpers/pillows/soft toys in background.",
+      "motion": [
+        "push",
+        1.0,
+        1.02
+      ]
+    },
+    {
+      "id": "S2",
+      "in": 5.2,
+      "out": 8.9,
+      "kind": "motion",
+      "source": "envato",
+      "framing": "close",
+      "queries": [
+        "baby locks eyes with mother close up",
+        "infant mutual gaze parent vertical",
+        "newborn looking into camera lens",
+        "two month old baby face to face parent"
+      ],
+      "fallback": "infant tracking face with eyes",
+      "criteria": "The gaze must ARRIVE, not already be parked. REJECT baby looking past/through. REJECT studio gloss.",
+      "motion": [
+        "push",
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "S3a",
+      "in": 8.9,
+      "out": 12.0,
+      "kind": "motion",
+      "source": "envato",
+      "framing": "mid-close",
+      "queries": [
+        "baby tracking parent face across room",
+        "infant follows face with eyes",
+        "newborn watching mother talk",
+        "two month old visual tracking"
+      ],
+      "fallback": "baby attentive watching adult speak",
+      "criteria": "Eyes following, slow head turn ideal. No rolling, no reaching. REJECT tracking a TOY — the line is about faces.",
+      "motion": [
+        "drift",
+        -0.03,
+        0.0
+      ]
+    },
+    {
+      "id": "S3b",
+      "in": 12.0,
+      "out": 15.1,
+      "kind": "still",
+      "source": "pexels",
+      "framing": "wide",
+      "queries": [
+        "living room window daylight sofa lived in",
+        "warm domestic interior natural light",
+        "home window light curtain calm",
+        "cosy living room morning light"
+      ],
+      "fallback": "cosy living room morning light",
+      "criteria": "Real room, visible clutter is a plus. Cream and warm wood, daylight. REJECT cold north light, styled minimalism, ANY red in frame, any crib or sleep surface.",
+      "motion": [
+        "driftpush",
+        -0.04,
+        1.01
+      ]
+    },
+    {
+      "id": "S4",
+      "in": 15.1,
+      "out": 21.2,
+      "kind": "motion",
+      "source": "envato",
+      "framing": "mid-2shot",
+      "queries": [
+        "first social smile baby two months",
+        "newborn smiling at mother close up",
+        "infant smiles back at parent",
+        "six week old baby first smile"
+      ],
+      "fallback": "parent talking to newborn face to face smiling",
+      "criteria": "HARDEST BEAT. Genuine social smile on a body that still reads 6-12wk. Judge by body not smile: fuller cheeks, steady head, teeth = too old. Fallback is parent smiling with baby three-quarter/back of head — the script says SOME babies smile back.",
+      "motion": [
+        "hold",
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "S5",
+      "in": 21.2,
+      "out": 26.5,
+      "kind": "motion",
+      "source": "envato",
+      "framing": "very-close",
+      "queries": [
+        "baby cooing mouth close up",
+        "infant making sounds vocalising",
+        "newborn open mouth babbling quiet",
+        "two month old baby gurgling"
+      ],
+      "fallback": "baby mouth close up expression change",
+      "criteria": "Rounded vowel mouth, relaxed face. REJECT ANY crying or distressed baby — the line exists to distinguish these from crying. REJECT consonant babbling on an older baby.",
+      "motion": [
+        "hold",
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "S6",
+      "in": 26.5,
+      "out": 31.2,
+      "kind": "motion",
+      "source": "envato",
+      "framing": "mid",
+      "queries": [
+        "parent imitating baby sounds turn taking",
+        "mother talking to infant response",
+        "serve and return interaction newborn",
+        "parent baby conversation face to face"
+      ],
+      "fallback": "adult speaking to baby held in arms",
+      "criteria": "The WAITING must be visible — a clip with a natural pause beats a prettier one without. REJECT parent filming themselves or glancing at a phone.",
+      "motion": [
+        "drift",
+        0.02,
+        0.0
+      ]
+    },
+    {
+      "id": "S7",
+      "in": 31.2,
+      "out": 37.1,
+      "kind": "still",
+      "source": "envato",
+      "framing": "mid-close",
+      "queries": [
+        "newborn calm portrait parent arms daylight",
+        "infant resting quiet awake home",
+        "two month old baby peaceful held",
+        "baby in arms window light still"
+      ],
+      "fallback": "newborn portrait natural light indoors",
+      "criteria": "ONE baby, calm, unremarkable. TRAP: the line names two ages — NO split screen, NO two babies, NO timeline graphic, NO age labels. That is rule 5.",
+      "motion": [
+        "push",
+        1.0,
+        1.03
+      ]
+    },
+    {
+      "id": "S8",
+      "in": 37.1,
+      "out": 39.5,
+      "kind": "still",
+      "source": "envato",
+      "framing": "close",
+      "queries": [
+        "parent leaning close to baby face",
+        "mother whispering to newborn",
+        "infant and parent foreheads close",
+        "quiet moment parent baby daylight"
+      ],
+      "fallback": "close up parent holding newborn tenderly",
+      "criteria": "Intimate, quiet, parent mid-speech. CONTINUITY ANCHOR — must match S1/S2 for baby, room and light direction.",
+      "motion": [
+        "push",
+        1.0,
+        1.005
+      ]
+    },
+    {
+      "id": "S9",
+      "in": 39.5,
+      "out": 42.4,
+      "kind": "card",
+      "source": "none",
+      "framing": "card",
+      "queries": [],
+      "fallback": "",
+      "criteria": "Warm Cream card, Forest Green type, logo centred. No stock asset.",
+      "motion": [
+        "hold",
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}
