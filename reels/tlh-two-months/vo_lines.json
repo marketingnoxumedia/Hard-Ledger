@@ -1,0 +1,26 @@
+{
+  "reel": "The Little Hive — Two months",
+  "note": "Spoken text only. Stage directions from the approved script are stripped; the pauses they call for are cut in as silence at the timings below, not spoken and not left to the TTS to invent. Text is verbatim — do not edit to fit timing.",
+  "voice": {
+    "engine": "elevenlabs (via higgsfield text2speech_v2, variant: elevenlabs)",
+    "voice_id": "PENDING — user picks by ear from the shortlist, then this is locked as the Little Hive house voice for every future reel",
+    "voice_type": "preset",
+    "target_wpm": "141 net of pauses (123 gross across 42.4s)"
+  },
+  "cost_observed": {
+    "full_script_single_take": "1.5 credits",
+    "measured_on": "2026-08-17"
+  },
+  "lines": [
+    { "id": "L1", "in": 0.0,  "out": 3.7,  "text": "Have you noticed your two-month-old looking right at you?", "direction": "Genuine question. Lift on 'noticed' resolves down, not up.", "breath_after": 1.5 },
+    { "id": "L2", "in": 5.2,  "out": 8.5,  "text": "Two months is when they start looking back.", "direction": "Flat and certain. Do not push it.", "breath_after": 0.4 },
+    { "id": "L3", "in": 8.9,  "out": 12.0, "text": "Faces become the most interesting thing in the room.", "direction": "Warms here.", "breath_after": 0.0 },
+    { "id": "L4", "in": 12.0, "out": 14.7, "text": "And yours is the favourite.", "direction": "Warmth on 'favourite' — the smile behind it, not volume.", "breath_after": 0.4 },
+    { "id": "L5", "in": 15.1, "out": 20.6, "text": "Smile at them, talk to them — some babies will smile back.", "direction": "Slows, per the script. ~125 wpm. The dash is a real half-beat pause.", "breath_after": 0.6 },
+    { "id": "L6", "in": 21.2, "out": 25.7, "text": "Listen for sounds that aren't crying. A grumble. A small vowel.", "direction": "Practical, a touch brisker. Air between the two short sentences.", "breath_after": 0.8 },
+    { "id": "L7", "in": 26.5, "out": 30.6, "text": "Make the sound back, then wait. Often, they go again.", "direction": "TAKES THE SMILE, on 'Often, they go again'. Hold the comma.", "breath_after": 0.6 },
+    { "id": "L8", "in": 31.2, "out": 36.6, "text": "Some do this at six weeks. Some nearer three months. Both are ordinary.", "direction": "Even, unhurried. State it as fact — added warmth reads as consolation.", "breath_after": 0.5 },
+    { "id": "L9", "in": 37.1, "out": 38.9, "text": "Say something back.", "direction": "Slow and quieter, ~6dB down, almost to herself.", "breath_after": 0.6 },
+    { "id": "L10", "in": 39.5, "out": 42.4, "text": "Save this for the week it happens.", "direction": "Lighter, an aside. Same voice, less projection. No upsell lift.", "breath_after": 0.0 }
+  ]
+}
