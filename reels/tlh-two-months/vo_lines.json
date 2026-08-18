@@ -14,11 +14,11 @@
       "similarity_boost": 0.8,
       "style": 0.0,
       "use_speaker_boost": true,
-      "speed": 0.85
+      "speed": 0.95
     },
-    "locked": "2026-08-17 — chosen by ear after auditioning on the real script lines. British English also settles the script's 'favourite', which the American voices had been fighting.",
-    "why_these_settings": "stability 0.35 lets delivery vary between phrases; high stability is what produces the flat even cadence that reads as machine. style stays 0 — it adds performance, not humanity.",
-    "measured": "152 wpm net across the full script against a 150 target, which is inside the run-to-run variance. Renders are NOT deterministic: the same speed setting has produced a 9 wpm spread across takes, so measure the whole script and re-render if a take lands wide."
+    "locked": "2026-08-17 — chosen by ear after auditioning on the real script lines. British English also settles the script's 'favourite', which the American voices had been fighting. Re-direction 2026-08-18: adjusted for conversational 'talking like a mom' delivery at faster pace.",
+    "why_these_settings": "stability 0.35 lets delivery vary between phrases; high stability produces flat machine cadence. style stays 0 — no performance gloss. speed 0.95 for faster pacing (was 0.85/152wpm → target ~160 wpm). Delivery directions guide conversational, maternal warmth over narrative tone.",
+    "measured": "Render and measure each take. Targets ~160 wpm for faster, conversational pacing. Renders are NOT deterministic: measure the whole script and re-render if a take lands wide of target."
   },
   "lines": [
     {
@@ -26,7 +26,7 @@
       "in": 0.0,
       "out": 3.7,
       "text": "Have you noticed your two-month-old looking right at you?",
-      "direction": "Genuine question. Lift on 'noticed' resolves down, not up.",
+      "direction": "Real question to another parent, like you're chatting over coffee. Curious, warm, not performed. Gentle lift on 'noticed', natural resolve.",
       "breath_after": 1.5
     },
     {
@@ -34,7 +34,7 @@
       "in": 5.2,
       "out": 8.5,
       "text": "Two months is when they start looking back.",
-      "direction": "Flat and certain. Do not push it.",
+      "direction": "Simple fact shared mom-to-mom. Warm certainty, not lecture. Conversational pace.",
       "breath_after": 0.4
     },
     {
@@ -42,7 +42,7 @@
       "in": 8.9,
       "out": 12.0,
       "text": "Faces become the most interesting thing in the room.",
-      "direction": "Warms here.",
+      "direction": "Warm, delighted observation. Like you're noticing it in real time with a friend. Natural warmth, not performed.",
       "breath_after": 0.0
     },
     {
@@ -50,7 +50,7 @@
       "in": 12.0,
       "out": 14.7,
       "text": "And yours is the favourite.",
-      "direction": "Warmth on 'favourite' — the smile behind it, not volume.",
+      "direction": "Sweet, knowing warmth. The smile is in your voice, not performed. Like you're in on a secret together.",
       "breath_after": 0.4
     },
     {
@@ -58,7 +58,7 @@
       "in": 15.1,
       "out": 20.6,
       "text": "Smile at them, talk to them — some babies will smile back.",
-      "direction": "Slows, per the script. ~125 wpm. The dash is a real half-beat pause.",
+      "direction": "Warm encouragement, like you're inviting her to try something. Slow down here to let it land. Conversational, not instructional.",
       "breath_after": 0.6
     },
     {
@@ -66,7 +66,7 @@
       "in": 21.2,
       "out": 25.7,
       "text": "Listen for sounds that aren't crying. A grumble. A small vowel.",
-      "direction": "Practical, a touch brisker. Air between the two short sentences.",
+      "direction": "Practical tip from someone who knows. Conversational pace, natural rhythm. Let the short phrases breathe.",
       "breath_after": 0.8
     },
     {
@@ -74,7 +74,7 @@
       "in": 26.5,
       "out": 30.6,
       "text": "Make the sound back, then wait. Often, they go again.",
-      "direction": "TAKES THE SMILE, on 'Often, they go again'. Hold the comma.",
+      "direction": "Warm, encouraging. The smile comes on 'Often, they go again' — the moment of connection. Natural pace, not narration.",
       "breath_after": 0.6
     },
     {
@@ -82,7 +82,7 @@
       "in": 31.2,
       "out": 36.6,
       "text": "Some do this at six weeks. Some nearer three months. Both are ordinary.",
-      "direction": "Even, unhurried. State it as fact — added warmth reads as consolation.",
+      "direction": "Reassuring, mom-to-mom. Not performing reassurance, just stating what's true. Warm and normal.",
       "breath_after": 0.5
     },
     {
@@ -90,7 +90,7 @@
       "in": 37.1,
       "out": 38.9,
       "text": "Say something back.",
-      "direction": "Slow and quieter, ~6dB down, almost to herself.",
+      "direction": "Quiet, intimate, like an aside just to you. Slower, softer, genuine. The heart of it.",
       "breath_after": 0.6
     },
     {
@@ -98,7 +98,7 @@
       "in": 39.5,
       "out": 42.4,
       "text": "Save this for the week it happens.",
-      "direction": "Lighter, an aside. Same voice, less projection. No upsell lift.",
+      "direction": "Lighter touch, like a knowing tip between friends. Not an instruction, just a moment. Natural and warm.",
       "breath_after": 0.0
     }
   ]

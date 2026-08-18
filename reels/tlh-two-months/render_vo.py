@@ -30,11 +30,10 @@ VOICE_SETTINGS = {
     "similarity_boost": 0.80,
     "style": 0.0,               # style > 0 adds performance; the brief explicitly does not want performing
     "use_speaker_boost": True,
-    # Target 150 wpm, the top of the house band. Calibrated by measurement, not arithmetic:
-    # renders are not deterministic, so the same speed varies a few wpm run to run
-    # (0.80 gave 148, 0.81 gave 143, 0.83 gave 151, 0.84 gave 152). 0.83 lands closest.
-    # Always measure the whole script — she read 145 on three lines and 154 on the full one.
-    "speed": 0.85,
+    # Target 160 wpm for faster conversational pacing (up from 150 target with 0.85 speed).
+    # Speed 0.95 should yield ~160 wpm. Calibrated by measurement, not arithmetic:
+    # renders are not deterministic, so always measure the whole script and re-render if landing wide.
+    "speed": 0.95,
 }
 
 
