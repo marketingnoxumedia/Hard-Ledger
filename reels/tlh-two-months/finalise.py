@@ -35,7 +35,7 @@ TEXT = {
  "L2": [("feature-cream","Two months is when they start looking back.")],
  "L3": [("caption","Faces become the most"), ("caption","interesting thing in the room.")],
  "L4": [("caption","And yours is the favourite.")],
- "L5": [("caption","Smile at them, talk to them"), ("caption","— some babies will smile back.")],
+ "L5": [("caption","Smile at them, talk to them"), ("caption","some babies will smile back.")],
  "L6": [("feature-sky","Listen for sounds that aren't crying."), ("feature-sky","A grumble. A small vowel.")],
  "L7": [("feature-sky","Make the sound back, then wait."), ("feature-sky","Often, they go again.")],
  "L8": [("caption","Some do this at six weeks."), ("caption","Some nearer three months."),
