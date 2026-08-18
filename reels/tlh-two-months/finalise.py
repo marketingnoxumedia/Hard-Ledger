@@ -16,8 +16,8 @@ OUT = os.path.join(HERE, "out")
 W, H, FPS = 1080, 1920, 30
 
 GREEN, HONEY, SKY, CREAM, BLACK = (47,94,59), (244,180,0), (200,221,242), (255,247,232), (43,43,43)
-FD = "/usr/share/fonts/truetype/dejavu/"
-def F(sz): return ImageFont.truetype(FD + "DejaVuSans-Bold.ttf", sz)
+FD = "/usr/share/fonts/truetype/liberation/"
+def F(sz): return ImageFont.truetype(FD + "LiberationSans-Regular.ttf", sz)
 
 LIVE_T, LIVE_B, X_MIN, X_MAX = 350, 1300, 90, 900
 MAX_TEXT_W = X_MAX - X_MIN - 48
