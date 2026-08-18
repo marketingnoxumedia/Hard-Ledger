@@ -26,8 +26,8 @@
       "in": 0.0,
       "out": 3.7,
       "text": "Have you noticed your two-month-old looking right at you?",
-      "direction": "Real question to another parent, like you're chatting over coffee. Curious, warm, not performed. Gentle lift on 'noticed', natural resolve.",
-      "breath_after": 1.5
+      "direction": "Real question — genuine curiosity. Warm, conversational. Lift up on 'you?' at the end, let it stay up like you're really asking. Not a statement.",
+      "breath_after": 0.8
     },
     {
       "id": "L2",
