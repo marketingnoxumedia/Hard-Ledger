@@ -18,7 +18,7 @@ W, H, FPS = 1080, 1920, 30
 GREEN, HONEY, SKY, CREAM, BLACK = (47,94,59), (244,180,0), (200,221,242), (255,247,232), (43,43,43)
 FD = "/usr/share/fonts/truetype/"
 def F(sz): return ImageFont.truetype(FD + "Poppins-Light.ttf", sz)
-def FR(sz): return ImageFont.truetype(FD + "Poppins-Regular.ttf", sz)
+def FM(sz): return ImageFont.truetype(FD + "Poppins-Medium.ttf", sz)
 
 LIVE_T, LIVE_B, X_MIN, X_MAX = 350, 1300, 90, 900
 MAX_TEXT_W = X_MAX - X_MIN - 48
@@ -77,7 +77,7 @@ def fit(draw, text, target, max_lines=2, min_sz=30, font_fn=F):
 
 def chip(img, text, top, fg, bg, alpha, size, centre, underline=False, font_fn=F):
     d = ImageDraw.Draw(img, "RGBA")
-    f, lines = fit(d, text, size, font_fn=font_fn)
+    f, lines = fit(d, text, size, font_fn=font_fn) if font_fn != FM else fit(d, text, size, font_fn=FM)
     hs = [d.textbbox((0,0), l, font=f)[3] - d.textbbox((0,0), l, font=f)[1] for l in lines]
     total = sum(hs) + 14*(len(lines)-1)
     boxw = max(d.textbbox((0,0), l, font=f)[2] for l in lines) + 48
@@ -184,7 +184,7 @@ def main():
             elif c["kind"] == "feature-cream":
                 chip(img, c["text"], 430, GREEN, CREAM, a, 76, False, underline="Two months" in c["text"])
             else:
-                chip(img, c["text"], 820, GREEN, CREAM, a, 68, True, font_fn=FR)
+                chip(img, c["text"], 820, GREEN, CREAM, a, 68, True, font_fn=FM)
         if mark:
             m, mx, my, op = mark
             faded = m.copy()
