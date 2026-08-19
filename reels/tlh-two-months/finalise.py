@@ -18,6 +18,7 @@ W, H, FPS = 1080, 1920, 30
 GREEN, HONEY, SKY, CREAM, BLACK = (47,94,59), (244,180,0), (200,221,242), (255,247,232), (43,43,43)
 FD = "/usr/share/fonts/truetype/"
 def F(sz): return ImageFont.truetype(FD + "Poppins-Light.ttf", sz)
+def FR(sz): return ImageFont.truetype(FD + "Poppins-Regular.ttf", sz)
 
 LIVE_T, LIVE_B, X_MIN, X_MAX = 350, 1300, 90, 900
 MAX_TEXT_W = X_MAX - X_MIN - 48
@@ -41,7 +42,7 @@ TEXT = {
  "L8": [("caption","Some do this at six weeks."), ("caption","Some nearer three months."),
         ("feature-cream","Both are ordinary.")],
  "L9": [("caption","Say something back.")],
- "L10":[("card","Save this for the week it happens.")],
+ "L10":[("card","SAVE THIS FOR THE WEEK IT HAPPENS")],
 }
 
 
@@ -57,10 +58,10 @@ def run(cmd):
         sys.exit(f"ffmpeg failed: {' '.join(cmd[:6])}...\n{r.stderr[-700:]}")
 
 
-def fit(draw, text, target, max_lines=2, min_sz=30):
+def fit(draw, text, target, max_lines=2, min_sz=30, font_fn=F):
     words, sz = text.split(), target
     while sz >= min_sz:
-        f, lines, cur, ok = F(sz), [], "", True
+        f, lines, cur, ok = font_fn(sz), [], "", True
         for w in words:
             t = (cur + " " + w).strip()
             if draw.textlength(t, font=f) <= MAX_TEXT_W: cur = t
@@ -71,12 +72,12 @@ def fit(draw, text, target, max_lines=2, min_sz=30):
         if cur: lines.append(cur)
         if ok and len(lines) <= max_lines: return f, lines
         sz -= 2
-    return F(min_sz), [text]
+    return font_fn(min_sz), [text]
 
 
-def chip(img, text, top, fg, bg, alpha, size, centre, underline=False):
+def chip(img, text, top, fg, bg, alpha, size, centre, underline=False, font_fn=F):
     d = ImageDraw.Draw(img, "RGBA")
-    f, lines = fit(d, text, size)
+    f, lines = fit(d, text, size, font_fn=font_fn)
     hs = [d.textbbox((0,0), l, font=f)[3] - d.textbbox((0,0), l, font=f)[1] for l in lines]
     total = sum(hs) + 14*(len(lines)-1)
     boxw = max(d.textbbox((0,0), l, font=f)[2] for l in lines) + 48
@@ -183,7 +184,7 @@ def main():
             elif c["kind"] == "feature-cream":
                 chip(img, c["text"], 430, GREEN, CREAM, a, 76, False, underline="Two months" in c["text"])
             else:
-                chip(img, c["text"], 820, GREEN, CREAM, a, 68, True)
+                chip(img, c["text"], 820, GREEN, CREAM, a, 68, True, font_fn=FR)
         if mark:
             m, mx, my, op = mark
             faded = m.copy()
