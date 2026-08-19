@@ -165,7 +165,7 @@ def main():
     # ---- overlay frames
     ov = os.path.join(OUT,"overlay"); os.makedirs(ov, exist_ok=True)
     for f in os.listdir(ov): os.remove(os.path.join(ov,f))
-    n = int(total*FPS)
+    n = math.ceil(total*FPS)
     card_in = tl[-1]["in"]
     for i in range(n):
         now = i/FPS
