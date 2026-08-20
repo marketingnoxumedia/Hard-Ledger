@@ -228,15 +228,20 @@ def main():
     run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",lst,
          "-c:v","libx264","-pix_fmt","yuv420p","-r",str(FPS),bed])
 
-    # ---- generate upbeat background music
+    # ---- generate upbeat background music with melodic pattern
     music_file = os.path.join(OUT, "bg_music.wav")
     music_duration = int(total) + 1
-    # Brighter melodic pattern: higher frequencies (1000, 1250, 1500 Hz) for better audibility
+    # Create a simple melodic pattern using the pentatonic scale
+    # Notes: E4(330Hz), G4(392Hz), B4(494Hz) - bright and upbeat
     run(["ffmpeg","-y","-loglevel","error",
-         "-f","lavfi","-i",f"sine=f=1000:d={music_duration}",
-         "-f","lavfi","-i",f"sine=f=1250:d={music_duration}",
-         "-f","lavfi","-i",f"sine=f=1500:d={music_duration}",
-         "-filter_complex","[0:a][1:a][2:a]amix=inputs=3",
+         "-f","lavfi","-i",f"sine=f=330:d={music_duration}",
+         "-f","lavfi","-i",f"sine=f=392:d={music_duration}",
+         "-f","lavfi","-i",f"sine=f=494:d={music_duration}",
+         "-filter_complex",
+         f"[0:a]volume=0.2[v0];"
+         f"[1:a]volume=0.25[v1];"
+         f"[2:a]volume=0.2[v2];"
+         f"[v0][v1][v2]amix=inputs=3:normalize=0",
          "-c:a","pcm_s24le","-ar","48000",music_file])
 
     # ---- final composite with music mix
