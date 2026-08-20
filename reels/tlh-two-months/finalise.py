@@ -228,13 +228,30 @@ def main():
     run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",lst,
          "-c:v","libx264","-pix_fmt","yuv420p","-r",str(FPS),bed])
 
-    # ---- final composite with voiceover only
-    run(["ffmpeg","-y","-loglevel","error","-i",bed,"-framerate",str(FPS),
-         "-i",os.path.join(ov,"o%05d.png"),"-i",stem,
-         "-filter_complex","[0:v][1:v]overlay=0:0:format=auto[v]",
-         "-map","[v]","-map","2:a","-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p",
-         "-b:v","14M","-maxrate","16M","-bufsize","24M","-c:a","aac","-b:a","256k","-ar","48000",
-         "-af","loudnorm=I=-14:TP=-1:LRA=11","-movflags","+faststart",args.out])
+    # ---- check for ElevenLabs music
+    music_file = os.path.join(OUT, "elevenlabs_music.mp3")
+    has_music = os.path.exists(music_file)
+
+    if has_music:
+        # Generate with music mixing
+        run(["ffmpeg","-y","-loglevel","error","-i",bed,"-framerate",str(FPS),
+             "-i",os.path.join(ov,"o%05d.png"),"-i",stem,"-i",music_file,
+             "-filter_complex",
+             "[0:v][1:v]overlay=0:0:format=auto[v];"
+             "[2:a]volume=1.0[vo];"
+             "[3:a]volume=0.4[music];"
+             "[vo][music]amix=inputs=2:duration=first,loudnorm=I=-14:TP=-1:LRA=11[audio]",
+             "-map","[v]","-map","[audio]","-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p",
+             "-b:v","14M","-maxrate","16M","-bufsize","24M","-c:a","aac","-b:a","256k","-ar","48000",
+             "-movflags","+faststart",args.out])
+    else:
+        # Generate without music
+        run(["ffmpeg","-y","-loglevel","error","-i",bed,"-framerate",str(FPS),
+             "-i",os.path.join(ov,"o%05d.png"),"-i",stem,
+             "-filter_complex","[0:v][1:v]overlay=0:0:format=auto[v]",
+             "-map","[v]","-map","2:a","-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p",
+             "-b:v","14M","-maxrate","16M","-bufsize","24M","-c:a","aac","-b:a","256k","-ar","48000",
+             "-af","loudnorm=I=-14:TP=-1:LRA=11","-movflags","+faststart",args.out])
     print(f"wrote {args.out} ({dur(args.out):.2f}s)")
     if missing: print(f"SLATE for: {', '.join(missing)}")
     return 0
