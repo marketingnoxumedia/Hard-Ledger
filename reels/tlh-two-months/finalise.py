@@ -228,20 +228,22 @@ def main():
     run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",lst,
          "-c:v","libx264","-pix_fmt","yuv420p","-r",str(FPS),bed])
 
-    # ---- generate upbeat background music with melodic pattern
-    music_file = os.path.join(OUT, "bg_music.wav")
+    # ---- generate upbeat background music - harmonic pad
+    music_file = os.path.join(OUT, "music_bed.wav")
     music_duration = int(total) + 1
-    # Create a simple melodic pattern using the pentatonic scale
-    # Notes: E4(330Hz), G4(392Hz), B4(494Hz) - bright and upbeat
+    # Create a warm, pleasant harmonic pad using layered bass frequencies
+    # Frequencies: 110Hz (A2), 165Hz (E3), 220Hz (A3), 247Hz (B3) - warm and upbeat
     run(["ffmpeg","-y","-loglevel","error",
-         "-f","lavfi","-i",f"sine=f=330:d={music_duration}",
-         "-f","lavfi","-i",f"sine=f=392:d={music_duration}",
-         "-f","lavfi","-i",f"sine=f=494:d={music_duration}",
+         "-f","lavfi","-i",f"sine=f=110:d={music_duration}",
+         "-f","lavfi","-i",f"sine=f=165:d={music_duration}",
+         "-f","lavfi","-i",f"sine=f=220:d={music_duration}",
+         "-f","lavfi","-i",f"sine=f=247:d={music_duration}",
          "-filter_complex",
-         f"[0:a]volume=0.2[v0];"
-         f"[1:a]volume=0.25[v1];"
-         f"[2:a]volume=0.2[v2];"
-         f"[v0][v1][v2]amix=inputs=3:normalize=0",
+         "[0:a]volume=0.15[a0];"
+         "[1:a]volume=0.12[a1];"
+         "[2:a]volume=0.10[a2];"
+         "[3:a]volume=0.08[a3];"
+         "[a0][a1][a2][a3]amix=inputs=4:duration=first,loudnorm=I=-18",
          "-c:a","pcm_s24le","-ar","48000",music_file])
 
     # ---- final composite with music mix
