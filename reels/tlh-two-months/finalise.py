@@ -246,17 +246,24 @@ def main():
          "[a0][a1][a2][a3]amix=inputs=4:duration=first,loudnorm=I=-18",
          "-c:a","pcm_s24le","-ar","48000",music_file])
 
-    # ---- final composite with music mix
+    # ---- final composite (video + voiceover only first)
+    temp_out = os.path.join(OUT, "_temp_no_music.mp4")
     run(["ffmpeg","-y","-loglevel","error","-i",bed,"-framerate",str(FPS),
-         "-i",os.path.join(ov,"o%05d.png"),"-i",stem,"-i",music_file,
+         "-i",os.path.join(ov,"o%05d.png"),"-i",stem,
          "-filter_complex",
-         "[0:v][1:v]overlay=0:0:format=auto[v];"
-         "[2:a]volume=1.0[vo];"
-         "[3:a]volume=0.50[music];"
-         "[vo][music]amix=inputs=2:duration=first,loudnorm=I=-14:TP=-1:LRA=11[audio]",
-         "-map","[v]","-map","[audio]","-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p",
+         "[0:v][1:v]overlay=0:0:format=auto[v]",
+         "-map","[v]","-map","2:a","-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p",
          "-b:v","14M","-maxrate","16M","-bufsize","24M","-c:a","aac","-b:a","256k","-ar","48000",
-         "-movflags","+faststart",args.out])
+         "-af","loudnorm=I=-14:TP=-1:LRA=11","-movflags","+faststart",temp_out])
+
+    # ---- add music on top in a second pass
+    run(["ffmpeg","-y","-loglevel","error","-i",temp_out,"-i",music_file,
+         "-filter_complex",
+         "[0:a]volume=1.0[vo];"
+         "[1:a]volume=0.6[music];"
+         "[vo][music]amix=inputs=2:duration=first",
+         "-c:v","copy","-c:a","aac","-b:a","256k","-movflags","+faststart",args.out])
+    os.remove(temp_out)
     print(f"wrote {args.out} ({dur(args.out):.2f}s)")
     if missing: print(f"SLATE for: {', '.join(missing)}")
     return 0
