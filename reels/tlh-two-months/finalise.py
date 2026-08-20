@@ -233,13 +233,13 @@ def main():
     has_music = os.path.exists(music_file)
 
     if has_music:
-        # Generate with music mixing (volume reduced by 10% total)
+        # Generate with music mixing (volume reduced by 15% total)
         run(["ffmpeg","-y","-loglevel","error","-i",bed,"-framerate",str(FPS),
              "-i",os.path.join(ov,"o%05d.png"),"-i",stem,"-i",music_file,
              "-filter_complex",
              "[0:v][1:v]overlay=0:0:format=auto[v];"
              "[2:a]volume=1.0[vo];"
-             "[3:a]volume=0.361[music];"
+             "[3:a]volume=0.343[music];"
              "[vo][music]amix=inputs=2:duration=first,loudnorm=I=-14:TP=-1:LRA=11[audio]",
              "-map","[v]","-map","[audio]","-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p",
              "-b:v","14M","-maxrate","16M","-bufsize","24M","-c:a","aac","-b:a","256k","-ar","48000",
