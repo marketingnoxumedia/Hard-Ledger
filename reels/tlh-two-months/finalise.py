@@ -17,8 +17,10 @@ W, H, FPS = 1080, 1920, 30
 
 GREEN, HONEY, SKY, CREAM, BLACK = (47,94,59), (244,180,0), (200,221,242), (255,247,232), (43,43,43)
 FD = "/usr/share/fonts/truetype/"
+FD_OT = "/usr/share/fonts/opentype/"
 def F(sz): return ImageFont.truetype(FD + "Poppins-Light.ttf", sz)
 def FM(sz): return ImageFont.truetype(FD + "Poppins-Medium.ttf", sz)
+def FK(sz): return ImageFont.truetype(FD_OT + "kaushanscript/KaushanScript-Regular.otf", sz)
 
 LIVE_T, LIVE_B, X_MIN, X_MAX = 350, 1300, 90, 900
 MAX_TEXT_W = X_MAX - X_MIN - 48
@@ -118,12 +120,8 @@ def main():
 
     mark = None
     if args.watermark:
-        m = Image.open(args.watermark).convert("RGBA")
-        m = m.resize((args.watermark_width, round(m.height * args.watermark_width / m.width)))
-        # Instagram's bottom 600px carries the caption, audio strip and action buttons, so a
-        # literal bottom-centre mark would sit under the UI. This hangs it off the bottom of
-        # the live band instead: the lowest it can go and still be seen.
-        mark = (m, (W - m.width)//2, LIVE_B - m.height - 10, args.watermark_opacity)
+        # Render "The Little Beee" text with Kaushan Script instead of loading PNG
+        mark = ("text", args.watermark_opacity)
     shots = {s["id"]: s for s in json.load(open(os.path.join(HERE,"shots.json")))["shots"]}
 
     # ---- timeline from measured audio
@@ -186,10 +184,18 @@ def main():
             else:
                 chip(img, c["text"], 820, GREEN, CREAM, a, 68, True, font_fn=FM)
         if mark:
-            m, mx, my, op = mark
-            faded = m.copy()
-            faded.putalpha(m.getchannel("A").point(lambda v: int(v*op)))
-            img.alpha_composite(faded, (mx, my if now < card_in else my - 120))
+            mark_type, op = mark
+            if mark_type == "text":
+                d = ImageDraw.Draw(img, "RGBA")
+                font = FK(90)
+                text = "The Little Beee"
+                bbox = d.textbbox((0,0), text, font=font)
+                text_w = bbox[2] - bbox[0]
+                text_h = bbox[3] - bbox[1]
+                x = (W - text_w) // 2
+                y = LIVE_B - 150 if now < card_in else LIVE_B - 270
+                a = int(255 * op)
+                d.text((x, y), text, font=font, fill=(*GREEN, a))
         else:
             logo(img, X_MIN, 1190, 120) if now < card_in else logo(img, W//2-80, 1090, 160)
         img.save(os.path.join(ov, f"o{i:05d}.png"))
