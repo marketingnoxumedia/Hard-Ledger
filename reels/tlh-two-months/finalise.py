@@ -158,7 +158,7 @@ def main():
         c = t
         for (kind, txt), wgt in zip(pieces, weights):
             span = a * wgt/tot
-            cues.append({"kind": kind, "text": txt, "in": round(c,3),
+            cues.append({"kind": kind, "text": txt, "line": lid, "in": round(c,3),
                          "out": round(c + span + (gap if (kind,txt)==pieces[-1] else 0.0), 3)})
             c += span
         t += length
