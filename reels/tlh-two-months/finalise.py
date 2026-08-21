@@ -47,6 +47,13 @@ TEXT = {
  "L10":[("card","SAVE THIS FOR THE WEEK IT HAPPENS")],
 }
 
+# line id -> bee character (positioned left of text)
+BEES = {
+ "L1": "01_explorer", "L2": "03_happy", "L3": "14_thinker", "L4": "03_happy",
+ "L5": "03_happy", "L6": "02_reading", "L7": "06_music", "L8": "14_thinker",
+ "L9": "03_happy", "L10": "20_celebration",
+}
+
 
 def dur(p):
     r = subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",p],
@@ -107,6 +114,19 @@ def logo(img, x, y, w=120):
     d.line([cx-bw*0.10, cy-bh/2+3, cx-bw*0.10, cy+bh/2-3], fill=(*GREEN,255), width=3)
     d.line([cx+bw*0.18, cy-bh/2+4, cx+bw*0.18, cy+bh/2-4], fill=(*GREEN,255), width=3)
     d.ellipse([cx-bw*0.30, cy-bh*1.25, cx+bw*0.16, cy-bh*0.15], outline=(*GREEN,255), width=3)
+
+
+def render_bee(img, bee_name, x, y, size, alpha):
+    """Composite a bee character to the left of text at specified size and alpha."""
+    bee_path = os.path.join(OUT, f"{bee_name}.png")
+    if not os.path.exists(bee_path): return
+    bee = Image.open(bee_path).convert("RGBA")
+    bee = bee.resize((size, size), Image.LANCZOS)
+    # Multiply bee's alpha channel by animation alpha
+    r, g, b, a = bee.split()
+    a = a.point(lambda p: int(p * alpha))
+    bee.putalpha(a)
+    img.alpha_composite(bee, (x, y))
 
 
 def main():
@@ -175,14 +195,19 @@ def main():
             if not (c["in"] <= now < c["out"]): continue
             a = min(1.0, (now-c["in"])/0.25, (c["out"]-now)/0.15)
             if a <= 0: continue
+            bee_char = BEES.get(c["line"])
             if c["kind"] == "caption":
                 chip(img, c["text"], 980, BLACK, SKY, a, 46, True)
+                if bee_char: render_bee(img, bee_char, X_MIN, 880, 180, a)
             elif c["kind"] == "feature-sky":
                 chip(img, c["text"], 430, BLACK, SKY, a, 64, False)
+                if bee_char: render_bee(img, bee_char, X_MIN, 250, 220, a)
             elif c["kind"] == "feature-cream":
                 chip(img, c["text"], 430, GREEN, CREAM, a, 76, False, underline="Two months" in c["text"])
+                if bee_char: render_bee(img, bee_char, X_MIN, 220, 250, a)
             else:
                 chip(img, c["text"], 820, GREEN, CREAM, a, 68, True, font_fn=FM)
+                if bee_char: render_bee(img, bee_char, W//2 - 220//2 - 100, 670, 220, a)
         if mark:
             mark_type, op = mark
             if mark_type == "text":
