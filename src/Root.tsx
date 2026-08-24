@@ -65,6 +65,7 @@ import {RevenueReel, DURATION_IN_FRAMES as REVENUE_FRAMES} from './RevenueReel';
 import {OutputReel, DURATION_IN_FRAMES as OUTPUT_FRAMES} from './OutputReel';
 import {GrindReel, DURATION_IN_FRAMES as GRIND_FRAMES} from './GrindReel';
 import {PerHourReel, DURATION_IN_FRAMES as PERHOUR_FRAMES} from './PerHourReel';
+import {HardestReel, DURATION_IN_FRAMES as HARDEST_FRAMES} from './HardestReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -586,6 +587,14 @@ export const RemotionRoot: React.FC = () => {
         id="PerHourReel"
         component={PerHourReel}
         durationInFrames={PERHOUR_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="HardestReel"
+        component={HardestReel}
+        durationInFrames={HARDEST_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
