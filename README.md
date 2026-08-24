@@ -799,6 +799,47 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   100 hours" correlation is a stylized characterization — verify the exact OECD numbers
   before publishing. (Note: this is the SAME core topic as `HoursReel` / `OutputReel` /
   `GrindReel`; publish only one of the four, or schedule them far apart.)
+- **`HardestReel`** — "The hours myth" (a ~56s reel — a curiosity-hook variant of
+  `PerHourReel`: same body and numbers, but it opens on a question ("why does the
+  country that works the most hours produce the LEAST per hour?") instead of leading
+  with the figure, and uses entirely fresh footage. Germany works ~1,343 hours a year,
+  Mexico ~2,207, and Germany still produces more per hour — a gap of about 864 hours,
+  roughly a hundred extra eight-hour days. Across ~40 developed economies the pattern
+  holds: the more a country works on average, the less it tends to make per hour, with
+  every extra 100 annual hours lining up with roughly $10 less output per hour. Hours
+  measure effort, not output; past a point more time in the chair adds fatigue, not
+  value — the lever was never the length of the day, it's what gets made inside each
+  hour). Continuous voiceover (cloned voice, +6% pace, loudness-normalized), scene
+  durations on its exact spoken-word timestamps; five count-up stats (1,343 / 2,207 /
+  864 / 40 / $10 — the fast "Mexico 2,207" line holds through "Germany produces more"
+  so both opening numbers stay count-ups), one black "Value isn't" beat, a red "the
+  lever was never the length of the day" `impact` card near the tail, and a close on
+  footage (a quiet empty office, "what were those extra days buying?") rather than the
+  red card. Full-bleed footage on nearly every beat, mixing video b-roll with stills.
+  Media credits (Pexels, free license) — videos: a woman striding through a glass-walled
+  office (7652208), a blurred anonymous commuter crowd (853946), a candlestick chart on
+  screen (30289540), a woman on a treadmill (6455384), a jeweler's precise handwork
+  (6262797), and a quiet empty office (8347240). Photos: a man checking a wristwatch
+  (5951320), a plain twin-bell alarm clock (7558438), a man working late at a lamplit
+  desk (8369251), hands on a keyboard (6143822), a laptop buried in crumpled paper with
+  a "focus time" note (8386571), 2021 calendar pages (5417674), a hand writing in a
+  day-planner (4968703), rows of data/printouts (6779570), business charts (7605981), a
+  downward bar chart (5561919), generic gold coins (34579924), an exhausted worker
+  (7255321), and a stressed man gripping his hair (7792752). **Brand-safety:** imagery
+  is kept deliberately neutral — no flags, landmarks, currency, or country-identifying
+  footage; the two countries are named only in the voiceover and on the stat labels.
+  The media subagent rejected and swapped a long list of candidates carrying brand/
+  nation/currency cues (Euro/złoty/lire/US coins, several branded or city-labelled
+  clocks, Milano/Harajuku/Turkish transit signage, Binance/Belarus trading screens,
+  branded treadmills, a Siemens box). One clip auto-sourced with a prominent Cyrillic
+  keyboard on the "looking busy" beat (5185074) was caught in preview and swapped for a
+  keyboard-free overwhelm shot (8386571) so no regional cue reads on a country-
+  comparison reel. **FLAG — named figures are illustrative:** the 1,343 vs 2,207 hour
+  figures are per-worker averages of the kind the OECD publishes and the "~$10 less
+  output per hour per extra 100 hours" correlation is a stylized characterization —
+  verify the exact OECD numbers before publishing. (Note: this is a NEAR-DUPLICATE of
+  `PerHourReel` — same body, curiosity hook — and the same core topic as `HoursReel` /
+  `OutputReel` / `GrindReel`; publish only one, or space them well apart.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
