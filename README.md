@@ -659,6 +659,43 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (Note: shares the "incumbent killed by the digital shift" theme with
   `BlockbusterReel`, `KodakReel` and `SearsReel` — schedule them apart; each uses
   entirely separate footage.)
+- **`RevenueReel`** — "Not all revenue is good" (a ~58s reel on why a company would
+  deliberately shed paying customers and make more money once they leave: every
+  customer carries a cost to serve — support, returns, discounts, rework — and for
+  some accounts that cost quietly exceeds everything they pay. But revenue is visible
+  and every account feels like a win, so dropping a customer looks like self-harm,
+  while cost to serve is scattered thin enough that it never lands on a line anyone is
+  judged by. Measure profit per customer instead of revenue and a slice of accounts
+  are losing money; shed them — raise prices, drop the money-losers — and revenue
+  falls while margin rises. The accounts that left were the drag; the ones that stayed
+  paid the bills. Not all revenue is good revenue; busy and profitable aren't the same
+  thing). Continuous voiceover, scene durations on its exact spoken-word timestamps;
+  no count-up stat (it's a principle, not a figure), two black beats ("the instinct
+  runs the other way", "which customers walked out?"), a red "not all revenue is good
+  revenue" `impact` card near the tail, and a close on footage (a customer walking
+  away) rather than the red card. Full-bleed footage on nearly every beat, mixing
+  video b-roll with stills. Media credits (Pexels, free license) — videos: a busy
+  checkout (8421362), a moving financial chart (38395147), and a customer walking
+  through a store (5700362). Photos: a customer leaving through shop doors (16073011),
+  paying by card at a checkout (8475161), a call-center agent (8681899), an invoice on
+  a clipboard (7651555), a register printing a receipt (19224085), scissors cutting
+  paper (3951825), scattered desk papers (11952176), a stack of cardboard boxes
+  (7203701), a spreadsheet on a laptop (34639577), a calculator with documents
+  (33175673), a phone showing red market losses (28682350), an exit sign (878832), a
+  retail price tag (11702921), a downward financial graph (8369831), a ship's anchor
+  (17485780), a stack of dollar bills (4430244), a hectic office (8468112), and a
+  rising profit chart with a thumbs-up (7172858). **Brand-safety:** all footage is
+  generic — no readable retailer/app logos. **Sensitivity note:** the auto-sourced
+  closing clip read as a homeless person pushing a cart of belongings through an empty
+  garage — pairing that with "never paying their way" was tone-deaf, so it was caught
+  in preview and swapped for an ordinary customer walking through a store. Confirm the
+  closing footage reads as a regular customer before publishing. **Illustration, not a
+  specific company:** the "revenue falls / margin rises" story is a general business
+  principle with no named company or figures — present it as a concept, not a claim
+  about anyone in particular. (Note: this is the SAME idea as `CullReel` — "Busy isn't
+  profitable," also about firing unprofitable customers — this is a differently-angled
+  second take with entirely separate footage; publish one or the other, or schedule
+  them well apart, so the feed doesn't repeat the concept.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car

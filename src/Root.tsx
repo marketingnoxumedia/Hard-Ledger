@@ -61,6 +61,7 @@ import {PalletReel, DURATION_IN_FRAMES as PALLET_FRAMES} from './PalletReel';
 import {DepreciationReel, DURATION_IN_FRAMES as DEPRECIATION_FRAMES} from './DepreciationReel';
 import {GoldReel, DURATION_IN_FRAMES as GOLD_FRAMES} from './GoldReel';
 import {BordersReel, DURATION_IN_FRAMES as BORDERS_FRAMES} from './BordersReel';
+import {RevenueReel, DURATION_IN_FRAMES as REVENUE_FRAMES} from './RevenueReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -550,6 +551,14 @@ export const RemotionRoot: React.FC = () => {
         id="BordersReel"
         component={BordersReel}
         durationInFrames={BORDERS_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="RevenueReel"
+        component={RevenueReel}
+        durationInFrames={REVENUE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
