@@ -696,6 +696,41 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   profitable," also about firing unprofitable customers — this is a differently-angled
   second take with entirely separate footage; publish one or the other, or schedule
   them well apart, so the feed doesn't repeat the concept.)
+- **`OutputReel`** — "Hours aren't output" (a ~53s reel on the hours-worked-vs-
+  productivity myth: if more hours always meant more output, why do some countries
+  work far fewer hours and still produce more per hour? Effort is what you can
+  control and busyness reads as productivity, and hours are simple to count while
+  value isn't — but across countries longer average hours don't track higher output;
+  several nations work fewer hours per worker yet produce more per hour than places
+  that grind longer. Past a point extra hours bring fatigue and diminishing returns:
+  a rested worker out-produces an exhausted one on the same task in less time,
+  because output is capped by focus and energy, not the clock. Treating hours as the
+  goal confuses effort with results — the lever was never the length of the day, it's
+  the value inside each hour). Continuous voiceover, scene durations on its exact
+  spoken-word timestamps; no count-up stat (it's a concept), two black beats ("value
+  isn't", "same task / less time"), a red "the lever was never the length of the day"
+  `impact` card near the tail, and a close on footage (working late, "what was it all
+  buying?") rather than the red card. Full-bleed footage on nearly every beat, mixing
+  video b-roll with stills. Media credits (Pexels, free license) — videos: a ticking
+  clock (5571638), an artisan hand-carving a sculpture (34133304), and a man working
+  late at a desk (8369273). Photos: a world map (6564830), a thoughtful person
+  (11464447), a bricklayer at hard labor (30571028), a cluttered busy desk (6539020),
+  a retro punch clock with time cards (23549137), a flat line graph (6203473), a calm
+  worker at a tidy desk (7654428), an exhausted worker on a stack of files (6538615),
+  a rising-then-flattening curve (5849595), a rested person in morning light (321599),
+  one lit bulb among dark ones (12198521), a wall clock (20050353), a hedge maze
+  (12040985), an hourglass (11162131), a faceted diamond (4997548), and an office
+  building lit at night (14711252). **Brand-safety:** all footage is generic — no
+  readable company logos; the establishing clock carries a decorative "Old Town
+  Clocks / London" maker's label (a stylistic clock face, not a commercial brand).
+  Confirm no stray marks before publishing. **Illustration / general
+  characterization:** the "fewer hours, more output per hour across countries" claim
+  reflects widely-cited cross-country productivity comparisons (e.g. OECD output-per-
+  hour data) but is stated generally with no specific numbers or nations — verify and,
+  if you want, cite a source before publishing. (Note: this is the SAME topic as
+  `HoursReel` — also "The value inside the hour," the hours-vs-productivity myth —
+  built as a differently-worded second take with a different HUD and entirely
+  separate footage; publish one or the other, or schedule them well apart.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
