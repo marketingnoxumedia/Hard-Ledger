@@ -88,7 +88,9 @@ type SceneDef = {
 // 2,207 / 864 / 40 / $10), one black beat ("Value isn't"), one red "the lever was
 // never the length of the day" card near the tail, and a close on footage (a
 // rhetorical question) rather than the red card. Durations placed on exact spoken-word
-// timestamps (ElevenLabs alignment) at +6% pace. Total 1674 frames = ~55.8s. `enter`
+// timestamps (ElevenLabs alignment) at +6% pace, plus a deliberate 3-second silent
+// "breath" beat between the hook and the myth (a held "Germany produces more." card on
+// black; 3s of silence inserted into the VO at that boundary). Total 1764 frames = ~58.8s. `enter`
 // adds a transition on some cuts. Every scene uses a distinct background sourced fresh
 // for THIS reel — no footage is shared with PerHourReel or any other reel (hard rule).
 // FLAG: the country hour figures are illustrative (per-worker averages of the kind
@@ -103,6 +105,9 @@ const SCENES: SceneDef[] = [
   {dur: 53, kind: 'text', enter: 'slideL', text: 'produce the least|per hour?', highlights: ['least'], size: 92, media: {src: 'hardest/p_clockwatch.jpg', type: 'img', effect: 'in'}},
   {dur: 92, kind: 'stat', stat: {pre: 'Germany, per worker', value: 1343, post: 'Hours a year'}, media: {src: 'hardest/p_clock.jpg', type: 'img', effect: 'in'}},
   {dur: 75, kind: 'stat', stat: {pre: 'Mexico, per worker', value: 2207, post: 'Hours a year'}, media: {src: 'hardest/p_late.jpg', type: 'img', effect: 'in'}},
+  // 3-second held "breath" beat between the hook and the myth — 3s of VO silence was
+  // inserted at this boundary; the payoff line holds on black while it lands.
+  {dur: 90, kind: 'impact', text: 'Germany|produces more.'},
   {dur: 61, kind: 'text', text: 'Effort is the part|you control.', highlights: ['effort'], size: 90, media: {src: 'hardest/p_effort.jpg', type: 'img', effect: 'in'}},
   {dur: 77, kind: 'text', enter: 'slideL', text: 'Looking busy reads|as productive.', highlights: ['busy'], size: 86, media: {src: 'hardest/p_busy.jpg', type: 'img', effect: 'in'}},
   {dur: 80, kind: 'text', text: 'Hours are easy to count.|Value isn\'t.', highlights: ['value'], size: 90},
@@ -124,16 +129,20 @@ const SCENES: SceneDef[] = [
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
+// NOTE: a 90-frame (3s) breath beat is inserted at frame 309, so every cue at or
+// after the hook/myth boundary is shifted +90 from the pre-pause timeline.
 const SFX: SfxCue[] = [
   {at: 89, src: 'media/sfx_whoosh.mp3', vol: 0.4},
   {at: 142, src: 'media/sfx_impact.mp3', vol: 0.5},
   {at: 234, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 447, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 527, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 880, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1152, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1392, src: 'media/sfx_impact.mp3', vol: 0.72},
-  {at: 1617, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 309, src: 'media/sfx_impact.mp3', vol: 0.42},
+  {at: 399, src: 'media/sfx_whoosh.mp3', vol: 0.35},
+  {at: 537, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 617, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 970, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1242, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1482, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 1707, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
