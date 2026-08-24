@@ -95,9 +95,9 @@ type SceneDef = {
 // is a general characterization; verify specifics before publishing.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 101, kind: 'hook', text: 'Some countries work|far fewer hours.', kicker: 'The grind myth', highlights: ['fewer'], size: 88, media: {src: 'grind/v_hook.mp4', type: 'video', effect: 'in'}},
-  {dur: 55, kind: 'text', enter: 'slideR', text: 'Yet produce|more per hour.', highlights: ['more'], size: 90, media: {src: 'grind/p_globe.jpg', type: 'img', effect: 'in'}},
-  {dur: 40, kind: 'text', text: 'Than the ones|grinding longest.', highlights: ['grinding'], size: 90, media: {src: 'grind/p_grind.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'hook', text: 'Why do some countries|work far fewer hours,', kicker: 'The grind myth', highlights: ['fewer'], size: 78, media: {src: 'grind/v_hook.mp4', type: 'video', effect: 'in'}},
+  {dur: 55, kind: 'text', enter: 'slideR', text: 'yet produce|more per hour,', highlights: ['more'], size: 90, media: {src: 'grind/p_globe.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', text: 'than the ones|grinding longest?', highlights: ['grinding'], size: 88, media: {src: 'grind/p_grind.jpg', type: 'img', effect: 'in'}},
   {dur: 43, kind: 'text', text: 'The belief is|easy to hold.', highlights: ['belief'], size: 90, media: {src: 'grind/p_think.jpg', type: 'img', effect: 'in'}},
   {dur: 59, kind: 'text', text: 'Effort is what|you control.', highlights: ['effort'], size: 90, media: {src: 'grind/p_effort.jpg', type: 'img', effect: 'in'}},
   {dur: 86, kind: 'text', enter: 'slideL', text: 'Busyness reads|as productivity.', highlights: ['busyness'], size: 86, media: {src: 'grind/p_busy.jpg', type: 'img', effect: 'in'}},
@@ -117,8 +117,8 @@ const SCENES: SceneDef[] = [
   {dur: 51, kind: 'text', text: "It's the value|per hour.", highlights: ['value'], size: 92, media: {src: 'grind/p_gem.jpg', type: 'img', effect: 'in'}},
   {dur: 66, kind: 'impact', text: 'The lever was never|the length of the day.', redBg: true},
   {dur: 61, kind: 'text', enter: 'slideL', text: "It's the value|inside each hour.", highlights: ['value'], size: 90, media: {src: 'grind/v_craft.mp4', type: 'video', effect: 'in'}},
-  {dur: 100, kind: 'text', text: 'The longest hours|don\'t build the most.', highlights: ['longest'], size: 86, media: {src: 'grind/p_late.jpg', type: 'img', effect: 'in'}},
-  {dur: 38, kind: 'text', enter: 'zoom', text: 'What was it|all buying?', highlights: ['all'], size: 92, media: {src: 'grind/v_close.mp4', type: 'video', effect: 'in'}},
+  {dur: 100, kind: 'text', text: 'If the longest hours|don\'t build the most,', highlights: ['longest'], size: 84, media: {src: 'grind/p_late.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', enter: 'zoom', text: 'what was all that|time buying?', highlights: ['time'], size: 90, media: {src: 'grind/v_close.mp4', type: 'video', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
