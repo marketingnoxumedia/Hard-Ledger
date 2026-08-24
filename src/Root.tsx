@@ -64,6 +64,7 @@ import {BordersReel, DURATION_IN_FRAMES as BORDERS_FRAMES} from './BordersReel';
 import {RevenueReel, DURATION_IN_FRAMES as REVENUE_FRAMES} from './RevenueReel';
 import {OutputReel, DURATION_IN_FRAMES as OUTPUT_FRAMES} from './OutputReel';
 import {GrindReel, DURATION_IN_FRAMES as GRIND_FRAMES} from './GrindReel';
+import {PerHourReel, DURATION_IN_FRAMES as PERHOUR_FRAMES} from './PerHourReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -577,6 +578,14 @@ export const RemotionRoot: React.FC = () => {
         id="GrindReel"
         component={GrindReel}
         durationInFrames={GRIND_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PerHourReel"
+        component={PerHourReel}
+        durationInFrames={PERHOUR_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
