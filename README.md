@@ -764,6 +764,41 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   generally with no numbers or named nations — verify/cite before publishing. (Note:
   this is the SAME topic as `HoursReel` and `OutputReel`; the three are near-identical
   in message — publish only one, or schedule them far apart.)
+- **`PerHourReel`** — "The productivity gap" (a ~55s reel — a data-driven fourth take
+  on hours-worked vs output-per-hour, after `HoursReel` / `OutputReel` / `GrindReel`;
+  this one leads with concrete numbers and entirely fresh footage. Germany's average
+  worker puts in ~1,343 hours a year, Mexico's ~2,207 — a gap of about 864 hours,
+  roughly a hundred extra eight-hour days — yet output per hour runs the other way.
+  Line up ~40 developed economies and the pattern holds: the more a country works on
+  average, the less it tends to make per hour, with every extra 100 annual hours lining
+  up with roughly $10 less output per hour. Hours measure effort, not output; past a
+  point more time in the chair adds fatigue, not value — the lever was never the length
+  of the day, it's what gets made inside each hour). Continuous voiceover (cloned voice,
+  +6% pace, loudness-evened), scene durations on its exact spoken-word timestamps; five
+  count-up stats (1,343 / 2,207 / 864 / 40 / $10), one black "Value isn't" beat, a red
+  "the lever was never the length of the day" `impact` card near the tail, and a close
+  on footage (a lone worker leaving an empty office, "what were those extra days
+  buying?") rather than the red card. Full-bleed footage on nearly every beat, mixing
+  video b-roll with stills. Media credits (Pexels, free license) — videos: an open-plan
+  office at work (5683815), automated factory robotics (32386590), an anonymous blurred
+  commuter crowd (852107), an animated finance chart display (38736274), a person on a
+  treadmill (4945121), a maker at focused workshop work (2480790), and a lone worker
+  leaving an empty office (5483205). Photos: an analog wall clock (9367466), a man
+  working late (17511838), hands on a keyboard (6684793), a cluttered desk (6913349), a
+  paper calendar (7059605), a planner being filled in (7428213), a data/analytics
+  screen (6120209), an abstract bar chart (38933571), a downward-trending graph
+  (7172863), a pile of generic coins (144233), an exhausted businessman (8428065), and
+  an overwhelmed worker (7984780). **Brand-safety:** imagery is kept deliberately
+  neutral — no flags, landmarks, currency, or country-identifying footage; the two
+  countries are named only in the voiceover and on the stat labels. Generic-coins,
+  anonymous-crowd, and abstract-chart shots were chosen specifically to avoid
+  country-specific currency, transit signage, or branded screens; a stock actor in the
+  closing clip wears a prop lanyard with a fictional name (no real company). **FLAG —
+  named figures are illustrative:** the 1,343 vs 2,207 hour figures are per-worker
+  averages of the kind the OECD publishes and the "~$10 less output per hour per extra
+  100 hours" correlation is a stylized characterization — verify the exact OECD numbers
+  before publishing. (Note: this is the SAME core topic as `HoursReel` / `OutputReel` /
+  `GrindReel`; publish only one of the four, or schedule them far apart.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
