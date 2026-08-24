@@ -731,6 +731,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   `HoursReel` — also "The value inside the hour," the hours-vs-productivity myth —
   built as a differently-worded second take with a different HUD and entirely
   separate footage; publish one or the other, or schedule them well apart.)
+- **`GrindReel`** — "The grind myth" (a ~52s reel — a third take on the hours-worked-
+  vs-productivity idea, after `HoursReel` and `OutputReel`; same body, a reworded
+  "grinding longest" hook, and entirely fresh footage. Why do some countries work far
+  fewer hours yet produce more per hour than the ones grinding longest? Effort is what
+  you can control and busyness reads as productivity, and hours are simple to count
+  while value isn't — but across countries longer average hours don't track higher
+  output. Past a point extra hours bring fatigue and diminishing returns: a rested
+  worker out-produces an exhausted one on the same task in less time, because output
+  is capped by focus and energy, not the clock. The lever was never the length of the
+  day — it's the value inside each hour). Continuous voiceover (loudness-evened so it
+  holds a steady level), scene durations on its exact spoken-word timestamps; no
+  count-up stat, three black beats, a red "the lever was never the length of the day"
+  `impact` card near the tail, and a close on footage (office towers at dusk, "what
+  was it all buying?") rather than the red card. Full-bleed footage on nearly every
+  beat, mixing video b-roll with stills. Media credits (Pexels, free license) —
+  videos: a clean macro clock face (7033786), a maker at a wood lathe (6790004), and
+  lit office towers at dusk (38735892). Photos: a vintage globe (30792661), a woman
+  working late (9062790), a thoughtful man (6144062), a blacksmith forging (37226044),
+  a cluttered desk (7794043), vintage time cards in a rack (38814009), a plain line
+  chart (7172774), a calm worker at a tidy desk (7034739), a burnt-out worker
+  (5712122), a rising-then-flattening curve (9034758), a relaxed person with coffee
+  (39093467), a single lit bulb (355978), an alarm clock (4185554), a labyrinth
+  (3715428), an hourglass (35215486), a cut diamond (5276885), and an office lit at
+  night (15389577). **Brand-safety:** all footage is generic — no company logos; an
+  auto-sourced establishing clock stamped "Made in China" / "Polaris" was caught in
+  preview (pairing that with "some countries work fewer hours" reads as an unintended
+  dig at one country) and swapped for a plain, text-free clock face. Confirm no stray
+  marks before publishing. **Illustration / general characterization:** the "fewer
+  hours, more output per hour across countries" claim reflects widely-cited cross-
+  country productivity comparisons (e.g. OECD output-per-hour data) but is stated
+  generally with no numbers or named nations — verify/cite before publishing. (Note:
+  this is the SAME topic as `HoursReel` and `OutputReel`; the three are near-identical
+  in message — publish only one, or schedule them far apart.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car

@@ -63,6 +63,7 @@ import {GoldReel, DURATION_IN_FRAMES as GOLD_FRAMES} from './GoldReel';
 import {BordersReel, DURATION_IN_FRAMES as BORDERS_FRAMES} from './BordersReel';
 import {RevenueReel, DURATION_IN_FRAMES as REVENUE_FRAMES} from './RevenueReel';
 import {OutputReel, DURATION_IN_FRAMES as OUTPUT_FRAMES} from './OutputReel';
+import {GrindReel, DURATION_IN_FRAMES as GRIND_FRAMES} from './GrindReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -568,6 +569,14 @@ export const RemotionRoot: React.FC = () => {
         id="OutputReel"
         component={OutputReel}
         durationInFrames={OUTPUT_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="GrindReel"
+        component={GrindReel}
+        durationInFrames={GRIND_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
