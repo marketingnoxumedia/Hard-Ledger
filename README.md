@@ -844,6 +844,42 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   verify the exact OECD numbers before publishing. (Note: this is a NEAR-DUPLICATE of
   `PerHourReel` — same body, curiosity hook — and the same core topic as `HoursReel` /
   `OutputReel` / `GrindReel`; publish only one, or space them well apart.)
+- **`CapitalReel`** — "What's behind the hour" (a punchy ~38s reel — the WHY behind the
+  productivity gap, and the first take that explains the mechanism rather than just
+  showing the correlation. Germany works ~1,300 hours a year, Mexico >2,200 — but that
+  doesn't mean Germans work harder or others work worse. Productivity isn't mainly
+  effort; it's what sits behind each worker: machinery, technology, capital,
+  infrastructure, logistics, management. One worker has a shovel, one has an excavator —
+  who moves more dirt? Economies get rich not from more hours but from making every hour
+  worth more, closing on "why isn't each hour worth more?"). Continuous voiceover (cloned
+  voice, +6% pace, normalized), scene durations on its exact spoken-word timestamps; two
+  count-up stats (1,300 / 2,200+), two staggered list beats (machinery/technology/capital,
+  infrastructure/logistics/management), the shovel-vs-excavator example as the memorable
+  core, three black beats (the myth stated "in the dark" before the reveal, plus a
+  pre-close bridge), one red "they get rich from more per hour" `impact` card mid-reel,
+  and a close on footage (a dusk city skyline) rather than the red card. Full-bleed
+  footage on nearly every beat, mixing video b-roll with stills. Media credits (Pexels,
+  free license) — videos: an automated line with a yellow robotic arm (32386532), a
+  tight excavator-bucket dig (16002856), and a dusk city skyline (3642642). Photos: a man
+  checking a wristwatch (13801775), a wall of antique clocks (38699699), a woman working
+  late (30215681), workers hauling planks (28913835), a hand on a machine pendant control
+  (4487675), an industrial welding robot arm (11951215), port gantry cranes at dusk
+  (4940272), a boot pressing a spade into soil (8993775), an excavator on a pile of moved
+  earth (27986719), a modern city skyline (12593065), and a contemplative man (8498405).
+  **Brand-safety:** this reel features heavy machinery, which usually carries prominent
+  brand logos — the sourcing pass rejected a large number of otherwise-good candidates
+  for legible branding (excavators/machines stamped CAT, Komatsu, Hitachi, Doosan, Case,
+  Deere, Sany, XCMG, Kobelco and others; robot lines marked Yaskawa/Fanuc/Festo; container
+  and port shots with Maersk, Evergreen, MSC, COSCO, CMA CGM, Eurogate; a 3M Peltor
+  operator shot; a Sydney Tower landmark; and a ship flying a national flag). The final 14
+  have no legible logos, no flags, and no country-identifying landmarks; countries are
+  named only in the VO and stat labels. **FLAG — figures are illustrative:** the ~1,300 /
+  ~2,200 hour figures are per-worker averages of the kind the OECD publishes — verify
+  before publishing. (Note: this is the 6th reel on the hours-vs-productivity theme, but
+  the only one that explains the *mechanism* — capital/tooling per worker — so it's a
+  genuinely distinct angle from `HoursReel` / `OutputReel` / `GrindReel` / `PerHourReel` /
+  `HardestReel` rather than a duplicate; still, mind how many of these publish close
+  together.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
