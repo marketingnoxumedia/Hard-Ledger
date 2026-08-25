@@ -88,7 +88,10 @@ type SceneDef = {
 // 2,207 / 864 / 40 / $10), one black beat ("Value isn't"), one red "the lever was
 // never the length of the day" card near the tail, and a close on footage (a
 // rhetorical question) rather than the red card. Durations placed on exact spoken-word
-// timestamps (ElevenLabs alignment) at +6% pace. Total 1674 frames = ~55.8s. `enter`
+// timestamps (ElevenLabs alignment) at +6% pace, plus a deliberate 3-second held pause
+// right after the opening question — the question stays on screen while 3s of silence
+// (a heartbeat plays under it, music ducked) let it land, then the numbers reveal.
+// Total 1764 frames = ~58.8s. `enter`
 // adds a transition on some cuts. Every scene uses a distinct background sourced fresh
 // for THIS reel — no footage is shared with PerHourReel or any other reel (hard rule).
 // FLAG: the country hour figures are illustrative (per-worker averages of the kind
@@ -100,7 +103,10 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 89, kind: 'hook', text: 'Why does the country|that works the most', kicker: 'The hours myth', highlights: ['most'], size: 82, media: {src: 'hardest/v_hook.mp4', type: 'video', effect: 'in'}},
-  {dur: 53, kind: 'text', enter: 'slideL', text: 'produce the least|per hour?', highlights: ['least'], size: 92, media: {src: 'hardest/p_clockwatch.jpg', type: 'img', effect: 'in'}},
+  // The opening question sits for a beat: after "...per hour?" the VO holds 3s of
+  // silence (a heartbeat plays under it) before the reveal. This beat spans that hold
+  // — 53 frames of question + ~90 frames of held silence — then the numbers land.
+  {dur: 143, kind: 'text', enter: 'slideL', text: 'produce the least|per hour?', highlights: ['least'], size: 92, media: {src: 'hardest/p_clockwatch.jpg', type: 'img', effect: 'in'}},
   {dur: 92, kind: 'stat', stat: {pre: 'Germany, per worker', value: 1343, post: 'Hours a year'}, media: {src: 'hardest/p_clock.jpg', type: 'img', effect: 'in'}},
   {dur: 75, kind: 'stat', stat: {pre: 'Mexico, per worker', value: 2207, post: 'Hours a year'}, media: {src: 'hardest/p_late.jpg', type: 'img', effect: 'in'}},
   {dur: 61, kind: 'text', text: 'Effort is the part|you control.', highlights: ['effort'], size: 90, media: {src: 'hardest/p_effort.jpg', type: 'img', effect: 'in'}},
@@ -124,16 +130,19 @@ const SCENES: SceneDef[] = [
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
+// NOTE: a 90-frame (3s) held pause is inserted after the opening question (at
+// frame ~120), so every cue at or after the question/reveal boundary is +90 from
+// the pre-pause timeline. A heartbeat plays through the pause (see the composition).
 const SFX: SfxCue[] = [
   {at: 89, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 142, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 234, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 447, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 527, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 880, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1152, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1392, src: 'media/sfx_impact.mp3', vol: 0.72},
-  {at: 1617, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 232, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 324, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 537, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 617, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 970, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1242, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1482, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 1707, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
@@ -416,8 +425,17 @@ export const HardestReel: React.FC = () => {
       {HAS_VOICEOVER ? <Audio src={staticFile('hardest/voiceover.mp3')} /> : null}
       <Audio
         src={staticFile('hardest/music.mp3')}
-        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.1, 0.1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
+        volume={(f) => {
+          const base = interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.1, 0.1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+          // Duck the bed under the heartbeat pause so the heartbeat reads clearly.
+          const duck = interpolate(f, [112, 126, 205, 220], [1, 0.4, 0.4, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+          return base * duck;
+        }}
       />
+      {/* Heartbeat under the 3-second held pause after the opening question. */}
+      <Sequence from={120} durationInFrames={92} name="heartbeat">
+        <Audio src={staticFile('media/sfx_heartbeat.mp3')} volume={0.62} />
+      </Sequence>
       {SFX.map((s, i) => (
         <Sequence key={`sfx${i}`} from={s.at} durationInFrames={60} name={`sfx-${i}`}>
           <Audio src={staticFile(s.src)} volume={s.vol} />
