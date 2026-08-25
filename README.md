@@ -799,7 +799,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   100 hours" correlation is a stylized characterization — verify the exact OECD numbers
   before publishing. (Note: this is the SAME core topic as `HoursReel` / `OutputReel` /
   `GrindReel`; publish only one of the four, or schedule them far apart.)
-- **`HardestReel`** — "The hours myth" (a ~59s reel — a curiosity-hook variant of
+- **`HardestReel`** — "The hours myth" (a ~56s reel — a curiosity-hook variant of
   `PerHourReel`: same body and numbers, but it opens on a question ("why does the
   country that works the most hours produce the LEAST per hour?") instead of leading
   with the figure, and uses entirely fresh footage. Germany works ~1,343 hours a year,
@@ -812,10 +812,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   hour). Continuous voiceover (cloned voice, +6% pace, loudness-normalized), scene
   durations on its exact spoken-word timestamps; five count-up stats (1,343 / 2,207 /
   864 / 40 / $10 — the fast "Mexico 2,207" line holds through "Germany produces more"
-  so both opening numbers stay count-ups), a deliberate 3-second silent "breath" beat
-  between the hook and the myth (a held "Germany produces more." card on black with 3s
-  of silence inserted into the VO at that boundary; the music bed keeps playing under it
-  so it reads as intentional), one black "Value isn't" beat, a red "the
+  so both opening numbers stay count-ups), one black "Value isn't" beat, a red "the
   lever was never the length of the day" `impact` card near the tail, and a close on
   footage (a quiet empty office, "what were those extra days buying?") rather than the
   red card. Full-bleed footage on nearly every beat, mixing video b-roll with stills.
