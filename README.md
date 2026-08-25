@@ -844,7 +844,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   verify the exact OECD numbers before publishing. (Note: this is a NEAR-DUPLICATE of
   `PerHourReel` — same body, curiosity hook — and the same core topic as `HoursReel` /
   `OutputReel` / `GrindReel`; publish only one, or space them well apart.)
-- **`CapitalReel`** — "What's behind the hour" (a punchy ~38s reel — the WHY behind the
+- **`CapitalReel`** — "What's behind the hour" (a punchy ~40s reel — the WHY behind the
   productivity gap, and the first take that explains the mechanism rather than just
   showing the correlation. Germany works ~1,300 hours a year, Mexico >2,200 — but that
   doesn't mean Germans work harder or others work worse. Productivity isn't mainly
@@ -855,7 +855,9 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   voice, +6% pace, normalized), scene durations on its exact spoken-word timestamps; two
   count-up stats (1,300 / 2,200+), two staggered list beats (machinery/technology/capital,
   infrastructure/logistics/management), the shovel-vs-excavator example as the memorable
-  core, three black beats (the myth stated "in the dark" before the reveal, plus a
+  core, a short ~1.5s pause after the opening question (the question holds on screen while
+  45 frames of silence sit before the stats reveal), three black beats (the myth stated
+  "in the dark" before the reveal, plus a
   pre-close bridge), one red "they get rich from more per hour" `impact` card mid-reel,
   and a close on footage (a dusk city skyline) rather than the red card. Full-bleed
   footage on nearly every beat, mixing video b-roll with stills. Media credits (Pexels,

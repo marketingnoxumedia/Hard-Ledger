@@ -87,7 +87,9 @@ type SceneDef = {
 // beats (the myth stated in the dark before the reveal + a pre-close bridge), one red
 // "more from every hour" `impact` card, and a close on footage (a rhetorical question)
 // rather than the red card. Durations on exact spoken-word timestamps (ElevenLabs
-// alignment) at +6% pace. Total 1200 frames = ~40s. `enter` adds a transition on some
+// alignment) at +6% pace, plus a short ~1.5s pause after the opening question (the
+// question holds on screen while 45 frames of silence sit before the reveal). Total
+// 1200 frames = ~40s. `enter` adds a transition on some
 // cuts. Every scene uses a distinct background sourced fresh for THIS reel — no footage
 // shared with any other reel (hard rule). FLAG: the hour figures (~1,300 / ~2,200) are
 // illustrative per-worker averages of the kind the OECD publishes — verify before
@@ -96,7 +98,10 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 90, kind: 'hook', text: 'What if 800 extra|hours a year...', kicker: 'What\'s behind the hour', highlights: ['800'], size: 84, media: {src: 'capital/v_hook.mp4', type: 'video', effect: 'in'}},
-  {dur: 93, kind: 'text', enter: 'slideL', text: 'made your country|less productive?', highlights: ['less'], size: 86, media: {src: 'capital/p_hours.jpg', type: 'img', effect: 'in'}},
+  // Short ~1.5s pause after the opening question: 45 frames of silence are inserted in
+  // the VO right after "...less productive?", and this beat holds the question on screen
+  // through it before the reveal begins.
+  {dur: 138, kind: 'text', enter: 'slideL', text: 'made your country|less productive?', highlights: ['less'], size: 86, media: {src: 'capital/p_hours.jpg', type: 'img', effect: 'in'}},
   {dur: 115, kind: 'stat', stat: {pre: 'Germany, per worker', value: 1300, post: 'Hours a year'}, media: {src: 'capital/p_clock.jpg', type: 'img', effect: 'in'}},
   {dur: 65, kind: 'stat', stat: {pre: 'Mexico, per worker', prefix: '', value: 2200, suffix: '+', post: 'Hours a year'}, media: {src: 'capital/p_late.jpg', type: 'img', effect: 'in'}},
   {dur: 32, kind: 'text', text: 'Not because they|work harder.', highlights: ['harder'], size: 90, media: {src: 'capital/p_labor.jpg', type: 'img', effect: 'in'}},
@@ -117,14 +122,16 @@ const SCENES: SceneDef[] = [
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
+// NOTE: a 45-frame (~1.5s) pause is inserted after the opening question (at frame ~138),
+// so every cue at or after the question/reveal boundary is +45 from the pre-pause timeline.
 const SFX: SfxCue[] = [
   {at: 90, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 183, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 298, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 468, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 763, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 928, src: 'media/sfx_impact.mp3', vol: 0.72},
-  {at: 1110, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 228, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 343, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 513, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 808, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 973, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 1155, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
