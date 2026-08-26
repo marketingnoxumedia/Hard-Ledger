@@ -882,6 +882,41 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   genuinely distinct angle from `HoursReel` / `OutputReel` / `GrindReel` / `PerHourReel` /
   `HardestReel` rather than a duplicate; still, mind how many of these publish close
   together.)
+- **`StillReel`** — "Just sit still" (a ~55s reel on index investing vs the pros, built
+  off a punchy hook. Why do 9 in 10 professional investors lose to a strategy that takes
+  zero skill? The broad US market has returned ~10%/yr for a century (~7% real); at ~10%
+  money doubles roughly every 7 years — $10K → $20K → $40K with nothing added — yet over
+  15 years ~90% of pro stock funds fail to beat that simple index; the experts mostly
+  lose to the average. You don't beat the market by being clever, you capture it by
+  staying in — the horizon does the heavy lifting and the real enemy is impatience, not
+  stock-picking; the hard part was sitting still, closing on "so why think you're
+  smarter?"). Continuous voiceover (cloned voice, +6% pace, normalized), scene durations
+  on its exact spoken-word timestamps; three count-up stats (10% / 7% / 90%), the
+  $10K→$20K→$40K doubling, six black beats (the punch-lines land in the dark), one red
+  "the real enemy is impatience" `impact` card mid-reel, and a close on footage (a
+  golden-hour skyline) rather than the red card. Media credits (Pexels, free license) —
+  videos: an abstract green candlestick chart with streaming prices (34645321), a generic
+  multi-panel data dashboard (34128979), a calm open road to distant mountains (29342443),
+  and a dusk city skyline (34398523). Photos: a dartboard with scattered darts (32623458),
+  a candlestick chart on a dark screen (38947200), a trader's hand at monitors (5831253),
+  scattered banknotes (15633961), coins spilling from a jar (259165), stacked cash bundles
+  (14655998), hands holding an empty wallet (10994723), a finance meeting (5668495), an
+  analyst at a data board (8353793), a long desert road at dawn (2990770), a rising area
+  chart (7947635), a relaxed man with coffee (7155739), business professionals (7434018),
+  and a level road to the horizon (31340924). **Brand-safety:** finance footage is full
+  of logos/tickers, so the sourcing pass rejected many candidates for legible branding
+  (full ticker heat-maps with NVDA/AAPL/Micron, TradingView/Binance-style UIs, HP and
+  Apple logos on monitors, crypto coins, a Panasonic projector, a NASA poster, route
+  signage). The final set has no exchange/broker/platform brands, no real tickers (the
+  analyst board shows only fictional ones — BLW, AZX, OTAO…), no news chyrons, no flags,
+  and no country-identifying landmarks. **FLAG — figures are illustrative and cite real
+  data:** ~10% nominal / ~7% real long-run US equity return, rule-of-72 doubling, and the
+  "~90% of active funds trail the index over 15 years" claim (SPIVA-style) are widely
+  cited but approximate — verify against S&P/SPIVA before publishing, and treat this as
+  general market commentary, not investment advice. (Note: this is the 3rd reel on this
+  exact topic — `IndexReel` "The return was always there" is a near-identical earlier
+  cut and `ActiveReel` "The average wins" is the same myth-bust — so publish only one of
+  the three, or space them far apart.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
