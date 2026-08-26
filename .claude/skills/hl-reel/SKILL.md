@@ -80,6 +80,56 @@ rotate the closer so it isn't the same device every time. Good endings to mix in
 Use the solid-red card for maybe one reel in three, not as the house ending. One
 red focal token per scene is still the rule — this is only about the *final beat*.
 
+## Hook pause & question close (house conventions — do these every reel)
+
+**1. Short pause after the hook.** After the opening hook line fully finishes,
+the VO holds a short beat before the reveal/body begins — it lets the hook land
+and lifts retention. Bake this into every reel:
+
+- Keep it **short: ~1–1.5s** (≈30–45 frames) by default. Only go longer (2–3s,
+  optionally with a heartbeat `sfx_*` under it) when the user asks for a dramatic
+  beat.
+- Implement it on the **rendered `voiceover.mp3`**, not by eyeballing: find the
+  deep silence gap **right after the hook's final word** and splice digital
+  silence in there. Scan the VO energy at fine (~10ms) resolution first and split
+  **in the gap after the word completes — never mid-word** (a stop consonant like
+  the "-ct-" in "produ*ct*ive" reads as a false gap; cutting there clips the word
+  and the pause sounds like it's *inside* the word). Then:
+  ```bash
+  # split the continuous VO at the post-hook gap (e.g. 4.93s), insert ~1.5s silence
+  ffmpeg -y -i vo.mp3 -ss 0    -to 4.93 -ar 44100 -ac 1 a.wav
+  ffmpeg -y -i vo.mp3 -ss 4.93          -ar 44100 -ac 1 b.wav
+  python3 - <<'PY'  # 1.5s of true silence (anullsrc isn't in the bundled ffmpeg)
+  import wave; sr=44100; n=int(sr*1.5)
+  w=wave.open('sil.wav','wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr)
+  w.writeframes(b'\x00\x00'*n); w.close()
+  PY
+  printf "file 'a.wav'\nfile 'sil.wav'\nfile 'b.wav'\n" > cat.txt
+  ffmpeg -y -f concat -safe 0 -i cat.txt -ar 44100 -ac 1 -b:a 64k public/<name>/voiceover.mp3
+  ```
+- **Hold the hook caption through the silence:** add the inserted frame count
+  (e.g. +45) to the `dur` of the hook's last beat so its caption stays on screen
+  during the pause. Every later beat and every `SFX.at` shifts by that same
+  amount — the simplest correct move is to keep the printed `DURS` but bump only
+  that one beat's `dur`, which pushes all downstream starts automatically; then
+  add the same offset to each SFX cue at/after the boundary.
+- **Regenerate the music** to cover the new (longer) total length, and verify
+  after render: the pause window should read as near-silence VO with only the
+  ducked music bed under it (measure per-window RMS to confirm), and the reveal
+  must still land on its word.
+
+**2. The close is always a question.** Write the final line as a **rhetorical
+question** the viewer answers in their head ("So why think you're smarter?",
+"What were those extra days buying?"). If the supplied script's close isn't a
+question, rephrase it into one — this is the house close. Keep varying the *visual*
+of the final beat (see the closer note above); only the *phrasing* is fixed.
+
+- **Highlight gotcha for question closes:** the red-token matcher strips
+  `. , — -` from a caption word but NOT `?`. So if the focal red word is the last
+  word before the `?`, the match fails silently (the word renders white). Either
+  set the highlight to include the mark (`highlights: ['smarter?']`) or pick a
+  red word that isn't adjacent to the `?`.
+
 ## Build a new reel — step by step
 
 1. **Scaffold** (if not already a Remotion project): copy `reference/package.json`,
@@ -101,6 +151,8 @@ red focal token per scene is still the rule — this is only about the *final be
    `DURS` array (paste into `SCENES[].dur`) and `STARTS` (for SFX cue frames).
    Apply the printed `atempo` to make `public/voiceover.mp3`. This is what makes
    captions land exactly on the spoken word — do NOT eyeball scene durations.
+   Then add the **short post-hook pause** to that `voiceover.mp3` and hold the
+   hook beat through it (see "Hook pause & question close" above).
 
 4. **Media (Pexels, unique per scene)** — one distinct asset per media scene:
    - Photos: grab the numeric id from a `pexels.com/photo/...-<id>/` URL; download
@@ -127,7 +179,9 @@ red focal token per scene is still the rule — this is only about the *final be
    for every number, `impact` (redBg) for a punchline beat, `lines` for lists,
    `enter` transitions on ~1/4 of scenes. Set the `HUD` brand label. **Vary the
    closer — don't default to the red card as the ending** (see the scene-kinds
-   note above); rotate how each reel lands.
+   note above); rotate how each reel lands. **Phrase the close as a rhetorical
+   question** (house rule — see "Hook pause & question close" above), and mind the
+   `?` highlight gotcha noted there.
 
 7. **Logo watermark** — put the client's logo at `public/media/logo.png`
    (transparent background preferred). The composition overlays it via
