@@ -882,7 +882,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   genuinely distinct angle from `HoursReel` / `OutputReel` / `GrindReel` / `PerHourReel` /
   `HardestReel` rather than a duplicate; still, mind how many of these publish close
   together.)
-- **`StillReel`** — "Just sit still" (a ~55s reel on index investing vs the pros, built
+- **`StillReel`** — "Just sit still" (a ~57s reel on index investing vs the pros, built
   off a punchy hook. Why do 9 in 10 professional investors lose to a strategy that takes
   zero skill? The broad US market has returned ~10%/yr for a century (~7% real); at ~10%
   money doubles roughly every 7 years — $10K → $20K → $40K with nothing added — yet over
@@ -890,8 +890,10 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   lose to the average. You don't beat the market by being clever, you capture it by
   staying in — the horizon does the heavy lifting and the real enemy is impatience, not
   stock-picking; the hard part was sitting still, closing on "so why think you're
-  smarter?"). Continuous voiceover (cloned voice, +6% pace, normalized), scene durations
-  on its exact spoken-word timestamps; three count-up stats (10% / 7% / 90%), the
+  smarter?"). Continuous voiceover (cloned voice, +6% pace, normalized) with a short
+  ~1.5s pause spliced in after the hook (the hook holds on screen while the silence sits
+  before the reveal — a house convention), scene durations on its exact spoken-word
+  timestamps; three count-up stats (10% / 7% / 90%), the
   $10K→$20K→$40K doubling, six black beats (the punch-lines land in the dark), one red
   "the real enemy is impatience" `impact` card mid-reel, and a close on footage (a
   golden-hour skyline) rather than the red card. Media credits (Pexels, free license) —

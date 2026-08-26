@@ -88,7 +88,9 @@ type SceneDef = {
 // Three count-up stats (10% / 7% / 90%), six black beats (the punch-lines land in the
 // dark), one red "the real enemy is impatience" `impact` card mid-reel, and a close on
 // footage (a rhetorical question) rather than the red card. Durations on exact spoken-
-// word timestamps (ElevenLabs alignment) at +6% pace. Total 1658 frames = ~55.3s.
+// word timestamps (ElevenLabs alignment) at +6% pace, plus a short ~1.5s pause after
+// the hook (the hook holds on screen while 45 frames of silence sit before the reveal).
+// Total 1703 frames = ~56.8s.
 // `enter` adds a transition on some cuts. Every scene uses a distinct background sourced
 // fresh for THIS reel (public/still/) — no footage shared with any other reel (hard
 // rule). FLAG — figures are illustrative and cite real data: ~10% nominal / ~7% real
@@ -99,7 +101,10 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 107, kind: 'hook', text: 'Why do 9 in 10 pros|lose money?', kicker: 'Just sit still', highlights: ['9'], size: 84, media: {src: 'still/v_hook.mp4', type: 'video', effect: 'in'}},
-  {dur: 108, kind: 'text', enter: 'slideL', text: 'To a strategy|with zero skill.', highlights: ['zero'], size: 88, media: {src: 'still/p_darts.jpg', type: 'img', effect: 'in'}},
+  // Short ~1.5s pause after the hook (house convention): 45 frames of silence are
+  // spliced into the VO right after "...zero skill?", and this beat holds the hook on
+  // screen through it before the reveal begins.
+  {dur: 153, kind: 'text', enter: 'slideL', text: 'To a strategy|with zero skill.', highlights: ['zero'], size: 88, media: {src: 'still/p_darts.jpg', type: 'img', effect: 'in'}},
   {dur: 67, kind: 'stat', stat: {pre: 'The market, per year', value: 10, suffix: '%', post: 'For a century'}, media: {src: 'still/p_chart.jpg', type: 'img', effect: 'in'}},
   {dur: 50, kind: 'text', text: 'Almost none|beat it.', highlights: ['none'], size: 100, media: {src: 'still/p_traders.jpg', type: 'img', effect: 'in'}},
   {dur: 45, kind: 'text', enter: 'slideL', text: 'The whole|US stock market.', highlights: ['whole'], size: 92, media: {src: 'still/v_market.mp4', type: 'video', effect: 'in'}},
@@ -127,15 +132,17 @@ const SCENES: SceneDef[] = [
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
 type SfxCue = {at: number; src: string; vol: number};
+// NOTE: a 45-frame (~1.5s) pause is spliced after the hook (at frame ~152), so every
+// cue at or after the hook/reveal boundary is +45 from the pre-pause timeline.
 const SFX: SfxCue[] = [
   {at: 107, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 215, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 377, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 451, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 769, src: 'media/sfx_impact.mp3', vol: 0.45},
-  {at: 835, src: 'media/sfx_impact.mp3', vol: 0.62},
-  {at: 1255, src: 'media/sfx_impact.mp3', vol: 0.72},
-  {at: 1624, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 260, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 422, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 496, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 814, src: 'media/sfx_impact.mp3', vol: 0.45},
+  {at: 880, src: 'media/sfx_impact.mp3', vol: 0.62},
+  {at: 1300, src: 'media/sfx_impact.mp3', vol: 0.72},
+  {at: 1669, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
