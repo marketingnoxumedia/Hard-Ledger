@@ -72,6 +72,7 @@ import {ShedReel, DURATION_IN_FRAMES as SHED_FRAMES} from './ShedReel';
 import {PaymentReel, DURATION_IN_FRAMES as PAYMENT_FRAMES} from './PaymentReel';
 import {NeverstopReel, DURATION_IN_FRAMES as NEVERSTOP_FRAMES} from './NeverstopReel';
 import {WonderReel, DURATION_IN_FRAMES as WONDER_FRAMES} from './WonderReel';
+import {RallyReel, DURATION_IN_FRAMES as RALLY_FRAMES} from './RallyReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -649,6 +650,14 @@ export const RemotionRoot: React.FC = () => {
         id="WonderReel"
         component={WonderReel}
         durationInFrames={WONDER_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="RallyReel"
+        component={RallyReel}
+        durationInFrames={RALLY_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

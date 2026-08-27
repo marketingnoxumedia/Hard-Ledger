@@ -1054,6 +1054,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   gap, not its direction — verify before publishing. (Note: this is the SAME lease-vs-buy topic
   as `LeaseReel`, `PaymentReel` and `NeverstopReel` — publish only one, or run this as a
   deliberate A/B against NeverstopReel.)
+- **`RallyReel`** — "Owners, not earners" (a ~54s reel on US stock-ownership / wealth
+  concentration. You think the stock market is everyone's market; it isn't. The top 10% of
+  households own about 90% of all stocks, the bottom half roughly 1%. The line that divides
+  wealth isn't mainly income — it's who owns the assets that compound. When the market rises
+  20%, almost all of that gain flows to the top 10% who already hold nearly every share, so a
+  booming market and a struggling household sit in the same year. At the very top, the
+  wealthiest 1% now hold a record ~31% of all household wealth: wages get taxed and spent,
+  assets grow on themselves, and ownership pulls further ahead every year. Markets reward
+  owners, not earners. Numbers-driven: four count-up `stat` beats (90% / 1% / 20% / 31%).
+  Continuous voiceover (cloned voice, +6% pace, normalized) with a short ~1.5s pause after the
+  hook (the hook holds through the silence before the "top 10%" reveal — house convention);
+  scene durations on its exact spoken-word timestamps; eight black beats for the punch-lines,
+  one red "Markets reward owners. Not earners." `impact` card as the mid-tail thesis, and a
+  rhetorical question close ("who was it really for?") on footage (a dusk cityscape) rather
+  than the red card. Media credits (Pexels, free license) — videos: an anonymous crowd across
+  a city plaza (27700659), an abstract green data-viz chart ticking up (18743334), a lit city
+  skyline at night (10093263), and a wide dusk cityscape (36145164). Photos: a green stock
+  chart on screen (4604639), a motion-blurred commuter crowd (29736026), an upward analytics
+  dashboard (97080), a private mansion with pool (8143671), a "STOCK MARKET" flat-lay with
+  $100 bills (6801681), a tired worker in coveralls (37301862), a cash-counting machine with
+  bills (6266699), a wallet of banknotes (31550977), an illustrated money tree (6289031), and
+  a razor-wire fence against the sky (20597291). **Brand-safety:** finance footage is thick
+  with tickers, chyrons and logos, so the sourcing pass rejected many candidates for legible
+  branding — crypto tickers (DOGE/BTC/TRON) and a Binance watermark, a "coinmarketcap.com" URL,
+  a Nike swoosh, "PKP Intercity" rail livery, "Chicago Tribune" / "Prudential" / Nissan
+  building-and-grille marks, and downward-trending charts were all caught and swapped; the
+  first `v_close` pick was also replaced post-hand-off because a "Deloitte" sign was legible on
+  a tower. The final set has no legible tickers, chyrons, company names, plates or flags.
+  **FLAG — real figures, round approximations:** the ~90% of stocks (top 10%), ~1% (bottom
+  half), and record ~31% of wealth (top 1%) are widely-cited US wealth-concentration numbers
+  but drift with the data vintage; the "market rises 20%" is illustrative. Verify the current
+  figures before publishing. (Note: this is the SAME topic as the existing `OwnershipReel`
+  ("the ownership gap") — publish only one, or run this as a deliberate A/B / refreshed take.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
