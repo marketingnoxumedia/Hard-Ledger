@@ -69,6 +69,7 @@ import {HardestReel, DURATION_IN_FRAMES as HARDEST_FRAMES} from './HardestReel';
 import {CapitalReel, DURATION_IN_FRAMES as CAPITAL_FRAMES} from './CapitalReel';
 import {StillReel, DURATION_IN_FRAMES as STILL_FRAMES} from './StillReel';
 import {ShedReel, DURATION_IN_FRAMES as SHED_FRAMES} from './ShedReel';
+import {PaymentReel, DURATION_IN_FRAMES as PAYMENT_FRAMES} from './PaymentReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -622,6 +623,14 @@ export const RemotionRoot: React.FC = () => {
         id="ShedReel"
         component={ShedReel}
         durationInFrames={SHED_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PaymentReel"
+        component={PaymentReel}
+        durationInFrames={PAYMENT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

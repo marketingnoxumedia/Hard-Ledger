@@ -955,6 +955,36 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   publishing. (Note: this is the SAME topic as the repo's flagship `StorageVideo` /
   `StorageUnit` "The storage moat" — the reel this whole skill is based on — so publish only
   one of the two, or space them far apart.)
+- **`PaymentReel`** — "The endless payment" (a ~45s reel on car lease-vs-buy as two
+  spending *shapes* rather than a price tag. Two people drive the same car for ten years;
+  one ends the decade owning nothing and still paying, the other stopped paying years ago —
+  the only difference is how they hold it. One leases continuously (always a new car, but
+  the monthly payment never stops); the other buys once and keeps it (more up front, then
+  the loan simply ends and the cost trends toward zero). Over a long horizon holding is the
+  cheaper path, and the longer the car is kept the wider the gap grows — closing on "same
+  car, same years, what was that endless payment actually buying?" This is a *conceptual*
+  comparison, so it carries no count-up stat beats; the numbers are shapes, not figures.
+  Continuous voiceover (cloned voice, +6% pace, normalized) with a short ~1.5s pause after
+  the hook (the hook line holds while silence sits before the "The only difference…" reveal —
+  house convention); scene durations sit on its exact spoken-word timestamps; four black
+  beats for the punch-lines, one red "Leasing buys an endless payment." `impact` card as the
+  mid-tail thesis, and a question close that resolves on footage (a car on an empty road at
+  dusk) rather than the red card. Media credits (Pexels, free license) — videos: an interior
+  driving POV (15330792), a top-down lot of covered new cars (5972216), an open road
+  (34566528), and a car on a road at dusk (4203568). Photos: two parked cars (108160), a hand
+  making a payment (9304427), a paid-off / keys-in-hand moment (4160236), a car dealership lot
+  (34298678), a person keeping/washing their own car (12969398), cash up front (7680565), loan
+  paperwork ending (48148), a recurring monthly payment (7688524), an owner with a settled car
+  (35810979), a widening gap/road (1578750), and US twenty-dollar bills spread out (15633962).
+  **Brand-safety:** car footage is thick with manufacturer badges, dealer signage and licence
+  plates, so the sourcing pass rejected many candidates for legible branding — VW, Mercedes,
+  Corvette, Ford and Honda badges, Cuban and Turkish plates, a Union Jack, and a 7-Eleven
+  storefront were all caught and swapped. The final set shows no manufacturer badges, no
+  dealer/brand signage, no readable plates, and no flags. **FLAG — illustrative, not a
+  quote:** the reel makes no dollar claim; the lease-costs-more-over-a-long-hold conclusion is
+  a general characterization of the two structures — specific lease terms, rates and resale
+  move the *size* of the gap, not its direction. (Note: this is the SAME topic as the repo's
+  existing `LeaseReel` — publish only one of the two, or space them far apart.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
