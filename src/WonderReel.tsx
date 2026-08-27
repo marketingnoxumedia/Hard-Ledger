@@ -92,7 +92,7 @@ type SceneDef = {
 // punch-lines, one red "leasing rents access, permanently" `impact` card as the mid-tail
 // thesis, and a rhetorical question close on footage (a car at dusk) rather than the red
 // card. Durations on exact spoken-word timestamps (ElevenLabs alignment) at +6% pace. Total
-// 1732 frames = ~57.7s. `enter` adds a transition on some cuts. Every scene uses a distinct
+// 1730 frames = ~57.7s. `enter` adds a transition on some cuts. Every scene uses a distinct
 // background sourced fresh for THIS reel (public/wonder/) — no footage shared with
 // NeverstopReel, PaymentReel, LeaseReel, or any other reel (hard rule). FLAG: illustrative —
 // the $400/mo, 120-vs-60-payments and "drive five years for free" figures are a clean model
@@ -101,10 +101,12 @@ type SceneDef = {
 // badges/logos, no dealership brands, no plates, no flags).
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 111, kind: 'hook', text: 'Two drivers,|same car budget.', kicker: 'The never-ending payment', highlights: ['budget'], size: 86, media: {src: 'wonder/v_hook.mp4', type: 'video', effect: 'in'}},
-  // Short ~1.5s pause after the hook (house convention): 45 frames of silence are spliced
-  // into the VO right after "...thousands of dollars apart?", and this beat holds through it.
-  {dur: 107, kind: 'text', text: 'Thousands of|dollars apart.', highlights: ['thousands'], size: 92, media: {src: 'wonder/p_money.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'hook', text: 'Two drivers,|same car budget.', kicker: 'The never-ending payment', highlights: ['budget'], size: 86, media: {src: 'wonder/v_hook.mp4', type: 'video', effect: 'in'}},
+  // The hook is read as a QUESTION (rising terminal intonation) — a separate expressive
+  // ElevenLabs take spliced in at the pause seam, leaving the brand-flat body untouched.
+  // Short ~1.5s pause after the hook (house convention): 45 frames of silence sit right
+  // after "...thousands of dollars apart?", and this beat holds the hook through it.
+  {dur: 91, kind: 'text', text: 'Thousands of|dollars apart.', highlights: ['thousands'], size: 92, media: {src: 'wonder/p_money.jpg', type: 'img', effect: 'in'}},
   {dur: 76, kind: 'stat', stat: {pre: 'EACH SPENDS', prefix: '$', value: 400, post: 'A MONTH'}, media: {src: 'wonder/p_budget.jpg', type: 'img', effect: 'in'}},
   {dur: 44, kind: 'text', text: 'One pays every|single month.', highlights: ['every'], size: 92, media: {src: 'wonder/p_calendar.jpg', type: 'img', effect: 'in'}},
   {dur: 55, kind: 'text', text: 'The other stops|halfway through.', highlights: ['stops'], size: 90},
@@ -126,21 +128,21 @@ const SCENES: SceneDef[] = [
   {dur: 52, kind: 'text', text: 'The lever was never|which car.', highlights: ['never'], size: 88},
   {dur: 48, kind: 'text', text: 'It\'s whether the|payment stops.', highlights: ['stops'], size: 90},
   {dur: 117, kind: 'text', enter: 'slideL', text: 'Same car,|same budget.', highlights: ['budget'], size: 98, media: {src: 'wonder/p_free.jpg', type: 'img', effect: 'in'}},
-  {dur: 38, kind: 'text', enter: 'zoom', text: 'What was it|really buying?', highlights: ['buying?'], size: 90, media: {src: 'wonder/v_close.mp4', type: 'video', effect: 'in'}},
+  {dur: 49, kind: 'text', enter: 'zoom', text: 'What was it|really buying?', highlights: ['buying?'], size: 90, media: {src: 'wonder/v_close.mp4', type: 'video', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
-// NOTE: a 45-frame (~1.5s) pause is spliced after the hook (at frame ~156), so cues at
-// or after the reveal (frame 218) are already on the post-pause timeline.
+// NOTE: a 45-frame (~1.5s) pause is spliced after the hook (at frame ~160), so cues at
+// or after the reveal (frame 205) are already on the post-pause timeline.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 218, src: 'media/sfx_whoosh.mp3', vol: 0.4},   // reveal after the pause ($400 stat)
-  {at: 644, src: 'media/sfx_whoosh.mp3', vol: 0.4},   // "the payment never ends" punch
-  {at: 725, src: 'media/sfx_impact.mp3', vol: 0.5},   // 120 payments stat
-  {at: 861, src: 'media/sfx_impact.mp3', vol: 0.5},   // 60 payments stat
-  {at: 1114, src: 'media/sfx_impact.mp3', vol: 0.45}, // "a loan ends"
-  {at: 1317, src: 'media/sfx_impact.mp3', vol: 0.72}, // red thesis card
-  {at: 1694, src: 'media/sfx_whoosh.mp3', vol: 0.4},  // close
+  {at: 205, src: 'media/sfx_whoosh.mp3', vol: 0.4},   // reveal after the pause ($400 stat)
+  {at: 631, src: 'media/sfx_whoosh.mp3', vol: 0.4},   // "the payment never ends" punch
+  {at: 712, src: 'media/sfx_impact.mp3', vol: 0.5},   // 120 payments stat
+  {at: 848, src: 'media/sfx_impact.mp3', vol: 0.5},   // 60 payments stat
+  {at: 1101, src: 'media/sfx_impact.mp3', vol: 0.45}, // "a loan ends"
+  {at: 1304, src: 'media/sfx_impact.mp3', vol: 0.72}, // red thesis card
+  {at: 1681, src: 'media/sfx_whoosh.mp3', vol: 0.4},  // close
 ];
 
 const STARTS: number[] = (() => {
