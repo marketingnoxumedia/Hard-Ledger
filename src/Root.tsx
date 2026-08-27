@@ -71,6 +71,7 @@ import {StillReel, DURATION_IN_FRAMES as STILL_FRAMES} from './StillReel';
 import {ShedReel, DURATION_IN_FRAMES as SHED_FRAMES} from './ShedReel';
 import {PaymentReel, DURATION_IN_FRAMES as PAYMENT_FRAMES} from './PaymentReel';
 import {NeverstopReel, DURATION_IN_FRAMES as NEVERSTOP_FRAMES} from './NeverstopReel';
+import {WonderReel, DURATION_IN_FRAMES as WONDER_FRAMES} from './WonderReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -640,6 +641,14 @@ export const RemotionRoot: React.FC = () => {
         id="NeverstopReel"
         component={NeverstopReel}
         durationInFrames={NEVERSTOP_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="WonderReel"
+        component={WonderReel}
+        durationInFrames={WONDER_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

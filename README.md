@@ -1018,6 +1018,42 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   structures, not a cited case; specific lease terms, rates and resale move the *size* of the
   gap, not its direction — verify before publishing. (Note: this is the SAME lease-vs-buy topic
   as the existing `LeaseReel` and `PaymentReel` — publish only one, or space them far apart.)
+- **`WonderReel`** — "The never-ending payment" (a ~58s reel — an **A/B twin of `NeverstopReel`**:
+  the same numbers-driven car lease-vs-buy message and structure, its own fresh footage, and a
+  different hook opener ("Did you ever wonder…" vs "Want to know…"). Two drivers on the same
+  $400/month car budget end up thousands apart: over ten years one leases and pays every single
+  month, the other buys, finances for five years, then drives five years for free. A lease feels
+  smart — a newish car, a fixed cost, nothing up front — so the payment never feels like the
+  problem; but lease continuously and it never ends. Ten years in: 120 payments and you own
+  nothing. Buy: about 60 payments, then the loan ends and the cost drops toward zero. Leasing
+  rents access permanently — you pay for the newest model, not for something you keep; the lever
+  was never which car, it's whether the payment ever stops. Numbers-driven: three count-up `stat`
+  beats ($400/mo, 120 payments, 60 payments). Continuous voiceover (cloned voice, +6% pace,
+  normalized) with a short ~1.5s pause after the hook (the hook holds through the silence before
+  the "$400 a month" reveal — house convention); scene durations on its exact spoken-word
+  timestamps; eight black beats for the punch-lines, one red "Leasing rents access. Permanently."
+  `impact` card as the mid-tail thesis, and a rhetorical question close on footage (a car at
+  dusk) rather than the red card. Media credits (Pexels, free license) — videos: a driver-POV of
+  a curvy hill road (19201236), a top-down aerial of a packed car lot (5982899), an empty road
+  curving toward sunset (20063577), and a single car at golden-hour sunset (13681532). Photos: a
+  hand on a calculator beside bills (5900228), a flip desk calendar (2504924), a handshake with
+  car keys handed over (7144207), a wet shiny car detail (20381587), a hand passing a $20 bill
+  (4968385), a tall stack of aged documents (7654130), two empty cupped palms (2844473), a man
+  stamping paperwork (7654118), an open road from inside a car (36651210), a plain black key fob
+  (11017012), and a macro of dollar bills (9043018). **Brand-safety:** car footage is thick with
+  manufacturer badges and plates, so the sourcing pass rejected many candidates for legible
+  branding — an Audi sedan + Turkish plate, a Casio calculator, a Pirelli "Scorpion Verde" tire,
+  Infiniti dealership signage + grille badge, Ford / Peugeot / Corvette key fobs, a "Tile"
+  tracker, and Qlik / Decathlon / ProUctenka.cz text on statements and receipts were all caught
+  and swapped. (The hook clip was also re-sourced post-hand-off — the agent's first pick,
+  15330792, is already `PaymentReel`'s hook, so it was replaced with 19201236 to keep every
+  reel's footage unique.) The final set shows no manufacturer badges, no dealer signage, no
+  readable plates, and no flags. **FLAG — illustrative, not a quote:** the $400/mo,
+  120-vs-60-payments and "drive five years for free" figures are a clean model of the two
+  structures, not a cited case; specific lease terms, rates and resale move the *size* of the
+  gap, not its direction — verify before publishing. (Note: this is the SAME lease-vs-buy topic
+  as `LeaseReel`, `PaymentReel` and `NeverstopReel` — publish only one, or run this as a
+  deliberate A/B against NeverstopReel.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
