@@ -1088,6 +1088,38 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   but drift with the data vintage; the "market rises 20%" is illustrative. Verify the current
   figures before publishing. (Note: this is the SAME topic as the existing `OwnershipReel`
   ("the ownership gap") — publish only one, or run this as a deliberate A/B / refreshed take.)
+- **`NumbersReel`** — "Run the numbers" (a ~51s reel on the rent-vs-buy myth. "Renting is
+  throwing money away" is one of the most expensive things people believe; sometimes buying is
+  the worse move — it depends on numbers most people never run. The belief is easy to hold (rent
+  leaves nothing to point to, a mortgage feels like forced saving), but buying carries costs the
+  slogan ignores — interest, property taxes, maintenance, insurance, fees — and the down payment
+  has an opportunity cost: that cash could have been invested. Whether buying wins depends on how
+  long you stay, the local price-to-rent ratio, and what the cash would otherwise earn. Owners
+  build equity but tie up capital; renters keep flexibility and invest the difference. The same
+  house can favor buying in one city and renting in another. The honest answer is a calculation,
+  not a slogan — change the inputs and it flips. This is a *conceptual* reel, so it carries no
+  count-up stats; two `lines` beats carry the five costs and the three inputs. Continuous
+  voiceover (cloned voice, +6% pace, normalized) with a short ~1.5s pause after the hook (the
+  hook holds through the silence before the reveal — house convention); scene durations on its
+  exact spoken-word timestamps; black beats for the lists and punch-lines, one red "A
+  calculation, not a slogan." `impact` card as the mid-tail thesis, and a rhetorical question
+  close ("which way do the numbers tip?") on footage (a dusk skyline) rather than the red card.
+  Media credits (Pexels, free license) — videos: a golden-hour aerial over a suburban
+  neighborhood (12240430), a city apartment/rental block (4693665), a hand unlocking a house
+  door (8292925), and a city skyline at dusk (4687314). Photos: a generic "Home For Sale" yard
+  sign (8482510), a loan-agreement document (7841821), a calculator with coins (7111553),
+  home-repair tools (4792495), banded stacks of $100 bills (6266282), coins over financial
+  charts (12955794), a bright apartment living room (6480208), a warmly-lit house at dusk
+  (4933643), stacked moving boxes (4553261), and a row of similar houses (25242991).
+  **Brand-safety:** real-estate footage is full of agency signage and addresses, so the sourcing
+  pass rejected candidates for legible branding — an "Electrolux" fridge, "TOPEX" tool branding,
+  a visible house number, Canadian/USA flag drone shots, and all crypto-coin/ticker images were
+  caught and swapped; the "For Sale" sign is generic (no agency name, phone, or URL). The final
+  set has no realtor/lender brands, no readable addresses or plates, and no flags. **FLAG — no
+  hard figures:** the reel makes no numeric claim; the rent-vs-buy conclusion is a general
+  characterization (the answer genuinely depends on the inputs), so nothing needs fact-checking
+  beyond the framing. (Note: this is the SAME topic as the existing `RentReel` ("Rent vs. buy —
+  it depends") — publish only one, or run this as a deliberate A/B / refreshed take.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
