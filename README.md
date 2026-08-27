@@ -919,6 +919,42 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   exact topic — `IndexReel` "The return was always there" is a near-identical earlier
   cut and `ActiveReel` "The average wins" is the same myth-bust — so publish only one of
   the three, or space them far apart.)
+- **`ShedReel`** — "Boring is the moat" (a ~65s reel on self-storage as a boring-but-
+  highly-profitable business, built off a punchy hook. A company with almost no staff
+  pulls in ~$4.8B a year and you drive past it every week without a glance: self-storage.
+  Metal units on cheap land, run by the customers themselves; the company owns the boxes
+  and collects the rent. The moat is what it doesn't need — no inventory, almost no staff,
+  cheap upkeep — and once your things are inside, moving out costs a weekend and a truck,
+  so the small annual rent bumps just get paid. Recessions don't empty the units (moves,
+  divorces, downsizing are what a downturn produces), so rent rises automatically and
+  customers rarely leave — which is how metal boxes keep ~79 cents of every dollar at the
+  facility level and land ~37% net margin. Boring is the moat, closing on "what's the most
+  profitable thing you'll drive past today? A shed you forgot you were paying for."
+  Continuous voiceover (cloned voice, +6% pace, normalized) with a short ~1.5s pause after
+  the hook (the hook holds while silence sits before the "It's self-storage" reveal — house
+  convention); scene durations on its exact spoken-word timestamps; three count-up stats
+  ($4.8B / 79% / 37%), a cha-ching on the revenue reveal, seven black beats (punch-lines
+  and lists in the dark), one red "Boring is the moat" `impact` card near the tail, and a
+  question close that resolves on footage (a shed at dusk) rather than the red card. Media
+  credits (Pexels, free license) — videos: a roadside pass of a long metal storage building
+  (13307522), a commercial-strip driving POV (3782354), two men loading boxes into an
+  unbranded van (9507657), and a suburban intersection drive (4707180). Photos: a metal
+  storage aisle (5759037), colourful numbered unit doors (32038719), a metal roll-up shutter
+  (12534135), a person accessing a unit (14580631), a padlocked door (33550139), stacked
+  moving boxes (6347891), a crashing red chart (38963051), a couple carrying boxes (4246086),
+  a pile of worn boxes (36504458), hands counting cash (6328944), a calculator keypad
+  (7054402), a bland building + empty lot (933588), an entry keypad (6682880), and a lone
+  shed at golden hour (2904295). **Brand-safety:** self-storage footage is full of operator
+  signage and truck brands, so the sourcing pass rejected many candidates for legible
+  branding — a "SHURGARD SELF-STORAGE" box, a Chevrolet steering-wheel logo, an Evergreen
+  shipping container, an Ocado/Howdens aerial, a visible national flag, and an Italian
+  "VIETATO"/"TIENDA" sign were all caught and swapped. The final set has no storage-brand
+  logos, no truck brands, no flags, no country-identifying signage. **FLAG — figures are
+  illustrative:** the ~$4.8B revenue / ~79% facility-level / ~37% net-margin numbers echo a
+  large public self-storage operator but are round approximations — verify before
+  publishing. (Note: this is the SAME topic as the repo's flagship `StorageVideo` /
+  `StorageUnit` "The storage moat" — the reel this whole skill is based on — so publish only
+  one of the two, or space them far apart.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
