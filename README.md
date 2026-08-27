@@ -1063,8 +1063,9 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   wealthiest 1% now hold a record ~31% of all household wealth: wages get taxed and spent,
   assets grow on themselves, and ownership pulls further ahead every year. Markets reward
   owners, not earners. Numbers-driven: four count-up `stat` beats (90% / 1% / 20% / 31%).
-  Continuous voiceover (cloned voice, +6% pace, normalized) with a short ~1.5s pause after the
-  hook (the hook holds through the silence before the "top 10%" reveal — house convention);
+  Continuous voiceover (cloned voice, +6% pace, normalized) with a short ~1.5s pause inside the
+  hook — after "...everyone's market." and BEFORE the "It isn't." punch, so the statement lands,
+  silence holds, then the punch drops (house convention, placed for the beat);
   scene durations on its exact spoken-word timestamps; eight black beats for the punch-lines,
   one red "Markets reward owners. Not earners." `impact` card as the mid-tail thesis, and a
   rhetorical question close ("who was it really for?") on footage (a dusk cityscape) rather

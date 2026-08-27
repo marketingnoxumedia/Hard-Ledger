@@ -98,11 +98,12 @@ type SceneDef = {
 // tickers/brands, no chyrons, no logos).
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 67, kind: 'hook', text: 'You think it\'s|everyone\'s market.', kicker: 'Owners, not earners', highlights: ['everyone\'s'], size: 82, media: {src: 'rally/v_hook.mp4', type: 'video', effect: 'in'}},
-  // Short ~1.5s pause after the hook (house convention): 45 frames of silence are spliced
-  // into the VO right after "...It isn't.", and this beat holds the hook through it.
-  {dur: 63, kind: 'text', text: 'It isn\'t.', highlights: ['isn\'t'], size: 120},
-  {dur: 67, kind: 'text', text: 'The wealthiest|ten percent.', highlights: ['wealthiest'], size: 90, media: {src: 'rally/p_stocks.jpg', type: 'img', effect: 'in'}},
+  // Short ~1.5s pause spliced into the VO right after "...everyone's market." and BEFORE
+  // "It isn't." — the hook statement lands, silence holds, then the punch drops. This hook
+  // beat holds its caption through the silence (its 67f of audio + 45f of pause = 112).
+  {dur: 112, kind: 'hook', text: 'You think it\'s|everyone\'s market.', kicker: 'Owners, not earners', highlights: ['everyone\'s'], size: 82, media: {src: 'rally/v_hook.mp4', type: 'video', effect: 'in'}},
+  {dur: 30, kind: 'text', text: 'It isn\'t.', highlights: ['isn\'t'], size: 120},
+  {dur: 55, kind: 'text', text: 'The wealthiest|ten percent.', highlights: ['wealthiest'], size: 90, media: {src: 'rally/p_stocks.jpg', type: 'img', effect: 'in'}},
   {dur: 82, kind: 'stat', stat: {pre: 'THEY OWN', value: 90, suffix: '%', post: 'OF ALL STOCKS'}},
   {dur: 111, kind: 'stat', stat: {pre: 'THE BOTTOM HALF OWN', value: 1, suffix: '%', post: 'OF STOCKS'}, media: {src: 'rally/p_crowd.jpg', type: 'img', effect: 'in'}},
   {dur: 53, kind: 'text', text: 'The divide isn\'t|mainly income.', highlights: ['income'], size: 88},
@@ -126,11 +127,11 @@ const SCENES: SceneDef[] = [
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
-// NOTE: a 45-frame (~1.5s) pause is spliced after the hook (at frame ~83), so cues at or
-// after the reveal (frame 130) are already on the post-pause timeline.
+// NOTE: a 45-frame (~1.5s) pause is spliced into the hook (after "...market.", before "It
+// isn't."), so cues from the "It isn't." punch (frame 112) on are on the post-pause timeline.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
-  {at: 130, src: 'media/sfx_whoosh.mp3', vol: 0.4},   // reveal after the pause
+  {at: 112, src: 'media/sfx_whoosh.mp3', vol: 0.4},   // "It isn't." punch after the pause
   {at: 197, src: 'media/sfx_impact.mp3', vol: 0.5},   // 90% stat
   {at: 279, src: 'media/sfx_impact.mp3', vol: 0.5},   // 1% stat
   {at: 502, src: 'media/sfx_impact.mp3', vol: 0.5},   // 20% stat
