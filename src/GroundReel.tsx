@@ -424,7 +424,7 @@ export const GroundReel: React.FC = () => {
       {HAS_VOICEOVER ? <Audio src={staticFile('ground/voiceover.mp3')} /> : null}
       <Audio
         src={staticFile('ground/music.mp3')}
-        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.1, 0.1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
+        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.17, 0.17, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       {SFX.map((s, i) => (
         <Sequence key={`sfx${i}`} from={s.at} durationInFrames={60} name={`sfx-${i}`}>
