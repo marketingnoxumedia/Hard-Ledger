@@ -1182,6 +1182,38 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   the framing before publishing. (Note: this is the SAME topic as the existing `DrawReel` ("The
   rate, not the balance") and `SpeedReel` — publish only one, or run this as a deliberate A/B
   against SpeedReel.)
+- **`CeilingReel`** — "Income vs. wealth" (a ~53s reel on why a big salary isn't wealth. You
+  think a big salary means you're rich? Plenty of people earning $300K a year have almost nothing
+  saved — income and wealth aren't the same thing. Income is visible (the car, the title, the
+  address) while net worth stays invisible, so the paycheck becomes the scoreboard. But net worth
+  tracks the savings rate far more than the salary — studies of real millionaires keep finding
+  ordinary incomes, high savings, decades of investing — and lifestyle expands to fill income, so
+  a raise without more saving leaves net worth flat. Income is what flows in; net worth is what
+  you keep. Someone on $300K who spends it all builds nothing; someone on $90K who keeps a fifth
+  compounds into real wealth — same effort, decades apart. The decisive number was never the
+  paycheck: income sets the ceiling, the savings rate decides how much becomes wealth. Continuous
+  voiceover (cloned voice, +6% pace, normalized) with a short ~1.5s pause after the hook (the hook
+  holds through the silence before the reveal — house convention); scene durations on its exact
+  spoken-word timestamps; a $300K count-up `stat`, two staggered `lines` beats (the car/title/
+  address and ordinary-incomes/high-savings/decades), black beats for the punch-lines, one red
+  "It was never the paycheck." `impact` card as the mid-tail thesis, and a rhetorical question
+  close ("what were you measuring?") on footage (a suburban street at dusk) rather than the red
+  card. Media credits (Pexels, free license) — videos: a suited businessman (6100893), a modern
+  luxury living room (31617700), a stop-motion rising arrow (7055025), and a suburban neighborhood
+  at sunset (19959745). Photos: a blank "Payroll" document (6289029), a hand with a car key at a
+  door (4930676), a suburban two-car-garage house (8583638), a near-empty wallet (8719570), a
+  piggy bank with coins (6052793), a rising bar chart with coins (11333721), a fan of $100 bills
+  (32553500), an ordinary office worker (8691820), and an older couple reviewing finances
+  (39191612). **Brand-safety:** the sourcing pass rejected a Ferrari-badged car, Bitcoin coins,
+  Peugeot/emblem key fobs, and a religiously-specific interior; the "Payroll" doc is blank (no
+  employer name), the car/key shows no readable badge or plate. The car-key photo was also
+  re-sourced post-hand-off because the agent's first pick collided with NeverstopReel's clip. No
+  car badges, employer names, readable plates, or addresses remain. **FLAG — illustrative:** the
+  $300K/$90K/"keeps a fifth" figures are a clean model of the income-vs-savings-rate point, not
+  specific claims; the "studies of real millionaires" line references the popular finding
+  (ordinary incomes + high savings) — worth a light check before publishing. (Note: this is the
+  SAME topic as the existing `KeepReel` ("Income vs. wealth") — publish only one, or run this as a
+  deliberate A/B / refreshed take.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
