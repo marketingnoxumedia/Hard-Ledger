@@ -1243,6 +1243,38 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   with the exact base month and current data — verify against current CPI before publishing. (Note:
   this is the SAME topic as the existing `InflationReel` ("The inflation tax") — publish only one,
   or run this as a deliberate A/B / refreshed take.)
+- **`GroundReel`** — "When the ground shifts" (a ~58s reel on BlackBerry, whose strength became
+  its trap. A company went from owning the smartphone to selling almost none a few years later, by
+  defending the one thing that made it great: in the late 2000s its physical keyboard and secure
+  email were the whole advantage — and the whole trap. When the iPhone arrived it called the
+  all-touchscreen phone a fad serious pros would never want, and that looked like discipline, not
+  denial — the keyboard and secure email were exactly why enterprises had standardised on it and
+  customers said they wanted them; chasing a touchscreen meant walking away from the buyers who
+  actually paid. Until those buyers changed their minds. Touchscreens and apps became the entire
+  market, the differentiator turned into ballast, and share went from number one to a rounding
+  error — a company that once defined the smartphone vanished from it. The lesson: your strength
+  can be the trap; the hardest feature to drop is the one that made you. Continuous voiceover
+  (cloned voice, +6% pace, normalized) with a short ~1.5s pause after the hook (the hook holds
+  through the silence before the reveal — house convention); scene durations on its exact
+  spoken-word timestamps; black beats for the punch-lines, one red "Your strength is the trap."
+  `impact` card as the mid-tail thesis, and a rhetorical question close ("when the ground shifts…
+  is it quietly holding you in place?") on footage (an aerial of cracked, shifting ground) rather
+  than the red card. This is the **A/B twin of `BlackberryReel`** ("The strength trap"), which
+  opens and closes declaratively; GroundReel opens on a question ("…to selling almost none a few
+  years later?") and closes on one, with entirely its own fresh footage — no asset is shared with
+  BlackberryReel or any other reel. Media credits (Pexels, free license) — videos: a suited exec
+  on a mobile phone (6285683), a finger tapping a modern touchscreen (6611938), a corporate team
+  meeting (7643614), a subway carriage of commuters on their phones (37689041), and an aerial over
+  a cracked dry riverbed (30124780). Photos: a physical-keyboard BlackBerry-style phone on a desk
+  (1474237), a bright modern office meeting (36733421), an extreme closeup of a phone keypad
+  (216581), a glossy touchscreen closeup (5703424), a boardroom of executives (8134067), a business
+  handshake (9870223), a weathered anchor chain (38201429), a lone obsolete keypad phone on rocky
+  ground (10785779), a row of discarded old phones (270257), and a hand holding an obsolete
+  cellphone (14127221). **Illustration of a real company (BlackBerry):** the broad arc —
+  late-2000s business-phone dominance, dismissing the touchscreen, keyboard/secure-email lock-in,
+  and collapse to a rounding error — is rendered as written and accurate in outline; no specific
+  market-share percentages or financials are shown, and imagery carries no BlackBerry or competitor
+  logos or legible brand marks.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car

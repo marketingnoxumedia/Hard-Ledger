@@ -78,6 +78,7 @@ import {SpeedReel, DURATION_IN_FRAMES as SPEED_FRAMES} from './SpeedReel';
 import {NestReel, DURATION_IN_FRAMES as NEST_FRAMES} from './NestReel';
 import {CeilingReel, DURATION_IN_FRAMES as CEILING_FRAMES} from './CeilingReel';
 import {MattressReel, DURATION_IN_FRAMES as MATTRESS_FRAMES} from './MattressReel';
+import {GroundReel, DURATION_IN_FRAMES as GROUND_FRAMES} from './GroundReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -703,6 +704,14 @@ export const RemotionRoot: React.FC = () => {
         id="MattressReel"
         component={MattressReel}
         durationInFrames={MATTRESS_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="GroundReel"
+        component={GroundReel}
+        durationInFrames={GROUND_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

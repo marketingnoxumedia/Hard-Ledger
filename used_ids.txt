@@ -1203,3 +1203,19 @@
 30268013
 12444594
 14976142
+# GroundReel (When the ground shifts) — BlackBerry A/B twin
+6285683 ground/v_hook.mp4
+6611938 ground/v_touch.mp4
+7643614 ground/v_office.mp4
+37689041 ground/v_crowd.mp4
+30124780 ground/v_close.mp4
+1474237 ground/p_reveal.jpg
+36733421 ground/p_office.jpg
+216581 ground/p_keyboard.jpg
+5703424 ground/p_fad.jpg
+8134067 ground/p_boardroom.jpg
+9870223 ground/p_paid.jpg
+38201429 ground/p_anchor.jpg
+10785779 ground/p_lone.jpg
+270257 ground/p_recycle.jpg
+14127221 ground/p_made.jpg
