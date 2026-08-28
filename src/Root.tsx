@@ -79,6 +79,7 @@ import {NestReel, DURATION_IN_FRAMES as NEST_FRAMES} from './NestReel';
 import {CeilingReel, DURATION_IN_FRAMES as CEILING_FRAMES} from './CeilingReel';
 import {MattressReel, DURATION_IN_FRAMES as MATTRESS_FRAMES} from './MattressReel';
 import {GroundReel, DURATION_IN_FRAMES as GROUND_FRAMES} from './GroundReel';
+import {UglyReel, DURATION_IN_FRAMES as UGLY_FRAMES} from './UglyReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -712,6 +713,14 @@ export const RemotionRoot: React.FC = () => {
         id="GroundReel"
         component={GroundReel}
         durationInFrames={GROUND_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="UglyReel"
+        component={UglyReel}
+        durationInFrames={UGLY_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

@@ -376,6 +376,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   an honest number; the claims (low competition, recurring servicing, disgust as a
   barrier to entry) are a qualitative characterisation of the industry, not measured
   data. Confirm before publishing.
+- **`UglyReel`** — "Nobody will touch it" (a ~56s reel; the **A/B twin of `SanitationReel`**,
+  same portable-sanitation moat but opening and closing on questions rather than declaratively).
+  One of the most defensible small businesses is one almost nobody will start: renting and
+  servicing portable toilets for construction sites and events on recurring contracts. The moat
+  is other people's reluctance — the work is unpleasant enough that competitors don't rush in, so
+  pricing stays rational with no brand or technology edge; the servicing recurs because units are
+  cleaned on a schedule, and the contracts renew whether anyone thinks about them or not.
+  Construction and events guarantee demand, and the unpleasantness itself is the barrier keeping
+  rivals out. The lesson: a reputation for gross is a kind of protection; what makes people avoid
+  a business defends the ones already in it. Question hook ("...one almost nobody will start?")
+  and a rhetorical question close ("who's really winning — the pretty business, or the one nobody
+  will touch?"); a ~1.5s post-hook pause (the hook holds through the silence before the reveal —
+  house convention), a red "Gross is protection." `impact` card as the mid-tail thesis, and the
+  close on a lone portable toilet rather than the red card. Numbers-honest: no margin figure is
+  asserted (it states outright that margins vary too much by route). Continuous cloned voiceover
+  (+6% pace, normalized); scene durations on exact spoken-word timestamps; music normalized and
+  mixed at 0.17. Entirely its own fresh footage under `public/ugly/` — no asset shared with
+  SanitationReel or any other reel. Media credits (Pexels, free license) — videos: a top-down
+  aerial of a lone excavator in rubble (29704052), gloved hands cleaning in a tiled washroom
+  (9472840), workers pressure-washing a public space (32621171), a night outdoor event (14881072),
+  and a golden-hour construction skyline in silhouette (32636373). Photos: a pair of portable
+  toilets in a field (9000867), a lone portable toilet in woodland (33424674), pink cleaning
+  gloves with a sponge (4440530), a generic "CONTRACT" template document (7841410), a desk
+  calendar (29509476), and a sunny festival crowd (17842575). **Brand-safety:** footage was
+  screened for legible marks — construction/equipment clips showing brand logos (an excavator
+  make, a power-tool make, an ad billboard, event ad-flags) and a "FIRM GRIP" work glove were
+  rejected and either dropped to black beats or re-sourced clean. The one unavoidable exception is
+  the small rental-company wordmark moulded on the portable toilets in the reveal (porta-potties
+  always carry one); it is minor and incidental to the subject. No other legible company names or
+  logos remain. **FLAG — same caveat as SanitationReel:** the "quietly strong model" claim is a
+  qualitative characterisation of the industry (low competition, recurring servicing, reluctance
+  as a barrier), not measured data, and no margin figure is given. Confirm the framing before
+  publishing.
 - **`ActiveReel`** — "The average wins" (a ~57s myth-bust reel on active vs. index
   investing: there's a belief that professionals beat the market — that paying an
   expert to pick stocks beats the plain average — but the people paid to do it

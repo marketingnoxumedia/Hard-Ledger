@@ -1219,3 +1219,15 @@
 10785779 ground/p_lone.jpg
 270257 ground/p_recycle.jpg
 14127221 ground/p_made.jpg
+# UglyReel (Nobody will touch it) — SanitationReel A/B twin
+29704052 ugly/v_hook.mp4
+9472840 ugly/v_units.mp4
+32621171 ugly/v_service.mp4
+14881072 ugly/v_event.mp4
+32636373 ugly/v_dusk.mp4
+9000867 ugly/p_row.jpg
+33424674 ugly/p_potty.jpg
+4440530 ugly/p_gloves.jpg
+7841410 ugly/p_contract.jpg
+29509476 ugly/p_calendar.jpg
+17842575 ugly/p_event.jpg
