@@ -1214,6 +1214,35 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (ordinary incomes + high savings) — worth a light check before publishing. (Note: this is the
   SAME topic as the existing `KeepReel` ("Income vs. wealth") — publish only one, or run this as a
   deliberate A/B / refreshed take.)
+- **`MattressReel`** — "The safe illusion" (a ~54s reel on inflation quietly eating idle cash.
+  You think cash is the safe place to keep your money? $10,000 hidden under a mattress in 1980,
+  untouched, buys only about $2,500 worth today — nobody took it, prices did. Cash feels solid
+  (the number never drops), so it feels like the no-risk thing, but since 1980 the price level
+  roughly quadrupled: a 1980 dollar buys ~25 cents now, and what cost $100 then costs ~$390 today.
+  It isn't a one-year blip — it compounds every year in the background; that same $10K in the
+  market would be worth far more, even after inflation, and the loss came from doing nothing at
+  all. Cash isn't neutral: held long enough it slowly loses, and the safe-feeling choice is the
+  one quietly shrinking — standing still doesn't hold your place, it moves you backwards.
+  Numbers-driven: three count-up `stat` beats ($2,500 / 25¢ / $390). Continuous voiceover (cloned
+  voice, +6% pace, normalized) with a short ~1.5s pause after the hook (the hook holds through the
+  silence before the reveal — house convention); scene durations on its exact spoken-word
+  timestamps; black beats for the punch-lines, one red "It moves you backwards." `impact` card as
+  the mid-tail thesis, and a rhetorical question close ("what is cash protecting you from?") on
+  footage (a dim wall clock) rather than the red card. Media credits (Pexels, free license) —
+  videos: stacks of banded $100 bills (6266286), a shopping-cart aisle glide (29068393), abstract
+  rising green arrows (34934562), and a dim analog wall clock (9945032). Photos: rolled cash in a
+  jar (7680552), a worn rolled bill on red (4938241), scattered $100 bills (11624902), unbranded
+  fresh produce (6653621), a stack of US quarters (12920771), a row of safe handles (8466227), an
+  aged leather wallet (12444594), and a minimalist wall clock (14976142). **Brand-safety:** the
+  sourcing pass rejected euro price tags on a grocery clip, crypto-token coins, a "Master Lock"
+  lockbox, and a recognizable trading-app UI; the chart photo was also dropped after hand-off
+  because it collided with WaterReel's clip, so the "even after inflation" beat renders on black
+  (the rising-market clip already precedes it). No store/retailer brands, legible tickers, or
+  non-US currency remain. **FLAG — real figures:** the "US price level ~4x since 1980 / a 1980
+  dollar buys ~25¢ / $100 → ~$390" numbers are broadly correct CPI-based approximations but drift
+  with the exact base month and current data — verify against current CPI before publishing. (Note:
+  this is the SAME topic as the existing `InflationReel` ("The inflation tax") — publish only one,
+  or run this as a deliberate A/B / refreshed take.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car
