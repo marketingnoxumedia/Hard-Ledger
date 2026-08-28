@@ -80,6 +80,7 @@ import {CeilingReel, DURATION_IN_FRAMES as CEILING_FRAMES} from './CeilingReel';
 import {MattressReel, DURATION_IN_FRAMES as MATTRESS_FRAMES} from './MattressReel';
 import {GroundReel, DURATION_IN_FRAMES as GROUND_FRAMES} from './GroundReel';
 import {UglyReel, DURATION_IN_FRAMES as UGLY_FRAMES} from './UglyReel';
+import {ForecastReel, DURATION_IN_FRAMES as FORECAST_FRAMES} from './ForecastReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -721,6 +722,14 @@ export const RemotionRoot: React.FC = () => {
         id="UglyReel"
         component={UglyReel}
         durationInFrames={UGLY_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ForecastReel"
+        component={ForecastReel}
+        durationInFrames={FORECAST_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

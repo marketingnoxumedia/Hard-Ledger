@@ -1231,3 +1231,17 @@
 7841410 ugly/p_contract.jpg
 29509476 ugly/p_calendar.jpg
 17842575 ugly/p_event.jpg
+# ForecastReel (What a forecast is worth) — AttReel A/B twin
+8102790 forecast/v_hook.mp4
+5736195 forecast/v_lab.mp4
+8847933 forecast/v_board.mp4
+34576168 forecast/v_crowd.mp4
+34398886 forecast/v_close.mp4
+37401990 forecast/p_brick.jpg
+7947854 forecast/p_study.jpg
+36359722 forecast/p_tower.jpg
+33419837 forecast/p_wired.jpg
+7947757 forecast/p_chart.jpg
+6773517 forecast/p_deal.jpg
+11624820 forecast/p_money.jpg
+19570444 forecast/p_skyline.jpg

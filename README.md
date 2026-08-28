@@ -2164,6 +2164,36 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   actual-subscribers figure are widely cited but vary across retellings — treat
   the specifics as approximate business folklore, not audited numbers, and
   verify before publishing.
+- **`ForecastReel`** — "What a forecast is worth" (a ~58s reel; the fuller **A/B twin of
+  `AttReel`**, telling the same AT&T/McKinsey story at length and opening/closing on questions
+  rather than the older ~35s declarative cut). AT&T's Bell Labs invented cellular technology, then
+  in 1980 asked McKinsey how big US mobile would get by 2000; the study came back at ~900,000
+  subscribers — a rounding error next to the wired network. Saying no looked disciplined: handsets
+  were heavy and costly, coverage thin, and the wired business was the crown jewel, so betting on a
+  gadget the study called tiny was hard to justify to a board, and AT&T stepped back. By 2000 the
+  US had over 100 million cellular subscribers — the forecast undershot reality by more than 120x —
+  and to get back into the business it had walked away from, AT&T bought McCaw Cellular in 1994 for
+  ~$12.6 billion. The lesson: a forecast isn't the future; even the company that invented the
+  technology mistook a slow start for a small market. Question hook ("...pay $12.6 billion to undo
+  one bad forecast?") and a rhetorical question close ("what's any forecast actually worth?"); a
+  ~1.5s post-hook pause (the hook holds through the silence before the reveal — house convention);
+  four count-up `stat` beats (900K / 100M / 120x / $12.6B), a red "A forecast isn't the future."
+  `impact` card as the mid-tail thesis, and the question close on a moody night skyline rather than
+  the red card. Continuous cloned voiceover (+6% pace, normalized); durations on exact spoken-word
+  timestamps; music normalized and mixed at 0.17. Entirely its own fresh footage under
+  `public/forecast/` — no asset shared with AttReel or any other reel. Media credits (Pexels, free
+  license) — videos: a hand on a vintage keypad phone (8102790), a soldering iron on a circuit
+  board (5736195), executives reviewing documents (8847933), a packed subway crowd on smartphones
+  (34576168), and a night city skyline (34398886). Photos: a red 80s brick phone (37401990), a
+  printed report with a bar chart (7947854), a cellular tower (36359722), a vintage rotary phone
+  (33419837), a financial trend chart (7947757), a business handshake (6773517), a banded bundle on
+  US $100 bills (11624820), and corporate glass towers (19570444). **Brand-safety:** footage was
+  screened for legible marks — a SONY-branded phone, a distasteful placeholder form, and Cyrillic
+  prop money were rejected and re-sourced; the shipped assets carry no phone-maker, carrier,
+  AT&T/McKinsey, or other legible company marks. **FLAG — real company / real figures:** AT&T, Bell
+  Labs, McKinsey, and the McCaw acquisition are named as written, and the ~900K-forecast /
+  100M-by-2000 / ~120x / ~$12.6B (1994) figures are widely cited but approximate (they vary across
+  retellings — the same caveat AttReel carries); verify before publishing.
 
 ## Export note
 
