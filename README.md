@@ -1151,6 +1151,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   sequence, horizon and fees; verify the framing before publishing. (Note: this is the SAME topic
   as the existing `DrawReel` ("The rate, not the balance") — publish only one, or run this as a
   deliberate A/B / refreshed take.)
+- **`NestReel`** — "The withdrawal rate" (a ~52s reel — an **A/B twin of `SpeedReel`**: the same
+  numbers-driven retirement-withdrawal-rate message and captions, its own fresh footage, and a
+  different hook opener ("Want to know…" vs "Did you ever wonder…"). Two people retire with the
+  exact same $1,000,000; one runs out, the other never does — same balance, same markets, the
+  only difference is how fast they spend. One draws $40,000 a year (4%, historically lasts
+  decades), the other $80,000 (8%, a far higher chance of running dry). It isn't about better
+  investments — same portfolio, same returns; double the withdrawal rate and you roughly double
+  the risk of running out, and a bad market early hurts the fast spender most. The balance was
+  never the whole game — the rate is the hidden variable. Numbers-driven: four count-up `stat`
+  beats ($40k / $80k / 4% / 8%). Continuous voiceover (cloned voice, +6% pace, normalized) with a
+  short ~1.5s pause after the hook (the hook holds through the silence before the reveal — house
+  convention); scene durations on its exact spoken-word timestamps; black beats for the
+  punch-lines (including the "same balance, same markets" beat), one red "The rate is the hidden
+  variable." `impact` card as the mid-tail thesis, and a rhetorical question close ("which retiree
+  were you?") on footage (a golden-hour lake) rather than the red card. Media credits (Pexels,
+  free license) — videos: a relaxed older couple at home (7329851), an hourglass with running
+  sand (5660498), and a golden-hour lake at sunset (33825393). Photos: a coin dropping into a
+  piggy bank (12357530), a content senior by a lake (5934345), a stressed senior over papers
+  (6975209), an unbranded calculator with cash (7680697), an abstract two-line chart (7580844), a
+  red declining candlestick chart (38892298), a wallet with a single $1 bill (17674675), a fan of
+  $100 bills (14820438), and a forked forest road (31747091). **Brand-safety:** finance footage
+  is full of tickers, app UIs and logos, so the sourcing pass rejected a "Casio fx-350ES"
+  calculator and crypto/forex chart screens, and skipped foreign-currency cash/calculator shots;
+  the intended market clip was also dropped post-hand-off (its 9:16 crop collapsed to an off-brand
+  cash collage), so the "same markets" beat renders on black. The final set has no legible
+  tickers, app UIs, fund/brokerage brands, or recognizable people. **FLAG — illustrative rule of
+  thumb:** the "4% lasts decades / 8% far higher risk" figures are the widely-cited safe-withdrawal
+  heuristic, not a guarantee — real outcomes depend on returns, sequence, horizon and fees; verify
+  the framing before publishing. (Note: this is the SAME topic as the existing `DrawReel` ("The
+  rate, not the balance") and `SpeedReel` — publish only one, or run this as a deliberate A/B
+  against SpeedReel.)
 - **`SudsReel`** — "A subscription with soap" (a ~62s reel on why Wall Street is
   buying car washes: it's a business you drive through in four minutes — no app, no
   founder, just soap, water and a monthly charge that never stops. The modern car

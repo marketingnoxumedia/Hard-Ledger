@@ -75,6 +75,7 @@ import {WonderReel, DURATION_IN_FRAMES as WONDER_FRAMES} from './WonderReel';
 import {RallyReel, DURATION_IN_FRAMES as RALLY_FRAMES} from './RallyReel';
 import {NumbersReel, DURATION_IN_FRAMES as NUMBERS_FRAMES} from './NumbersReel';
 import {SpeedReel, DURATION_IN_FRAMES as SPEED_FRAMES} from './SpeedReel';
+import {NestReel, DURATION_IN_FRAMES as NEST_FRAMES} from './NestReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -676,6 +677,14 @@ export const RemotionRoot: React.FC = () => {
         id="SpeedReel"
         component={SpeedReel}
         durationInFrames={SPEED_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="NestReel"
+        component={NestReel}
+        durationInFrames={NEST_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
