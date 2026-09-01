@@ -572,6 +572,42 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   and "the store label costs less" are broadly true across many categories but vary
   by item and retailer — verify per-category before attaching to any named brand or
   store, and don't imply a specific private-label/name-brand pair unless confirmed.
+- **`PremiumReel`** — "What the label buys" (a ~49s reel; the **A/B twin of `BrandReel`** ("Paying
+  for the name"), same store-label vs name-brand premium myth-bust but opening and closing on
+  questions rather than declaratively). You think the name brand is the better product — so why is
+  the store label beside it often made in the same factory, to the same standard, for about a third
+  less? The premium feels earned (a trusted name, a higher price; expensive reads as better), but
+  often that store label is made to the same spec, sometimes on the same production line — so part
+  of the premium pays for the label, not the contents; for shelf space and ads, not what's inside.
+  It isn't true everywhere, which is the point: sometimes the premium is a real difference in
+  quality, sometimes not, and the only way to know is to compare the actual items, not the names.
+  The honest rule isn't "always buy cheap" — the label alone tells you nothing about what's inside;
+  where the specs match the extra buys the name, where they don't it can be worth it. Question hook
+  ("...made in the same factory, to the same standard, for a third less?") and a rhetorical
+  question close ("what are you actually paying extra for?"); a ~1.5s post-hook pause (the hook
+  holds through the silence before the reveal — house convention); one red "The label, not the
+  contents." `impact` card as the mid-tail thesis, and the question close on footage. **Media-dense
+  by request:** 18 of 21 beats carry footage, with only 2 flat-black beats plus the one red card.
+  Continuous cloned voiceover (+6% pace, normalized); durations on exact spoken-word timestamps;
+  music normalized and mixed at 0.17. Entirely its own fresh footage under `public/premium/` — no
+  asset shared with BrandReel, LabelReel, or any other reel. Media credits (Pexels, free license) —
+  videos: a faceless shopper with a basket (8801825), abstract factory machinery (32386600), a
+  blank-can fill line (5532761), a woman examining a plain jar (5104005), a hand at a plain-bread
+  shelf (4121749), and hands over receipts with a calculator (7710751). Photos: two blank white
+  bottles (8015462), an amber pump bottle on stones (8789609), an upscale blank jar (18350286), a
+  shopper with a blank list (8422697), blank cans in a rack (5532658), a blank billboard (16695395),
+  a blurred warehouse aisle with a cart (5498024), a chef tasting (3338538), nested carts
+  (11018212), a plain open tin (35972716), a blank label card (7967626), and a rustic artisan loaf
+  (5732762). **Brand-safety (four sourcing passes — the hardest of the set, since the reel is about
+  brands):** every readable brand, store sign, and foreign-language label was screened out —
+  rejected among many: SPAR, S.PELLEGRINO, Carlsberg, Nescafé, Uncle Ben's, Cheetos/Lay's shelves, a
+  Cyrillic produce case, a handwritten "LARANJA BAHIA" sign, semi-legible wine labels, and branded
+  perfume bottles (Chanel/Tom Ford). A blank white price tag was also dropped for a white-on-white
+  legibility clash and replaced with the dark amber bottle. Shipped assets carry no product/store/ad
+  brand, wordmark, or readable/foreign label. **FLAG — general characterization:** "same factory /
+  same standard / ~a third less" is broadly true in many private-label categories but varies by
+  item and retailer; no specific brand or figure is asserted — same caveat as BrandReel. Same topic
+  as BrandReel — publish only one twin to a given audience.)
 - **`NokiaReel`** — "When the game changes" (a ~56s reel on Nokia losing the
   smartphone: at its peak it sold close to half the world's phones, but leadership
   in handsets didn't transfer to the smartphone that replaced it. Clinging to its

@@ -1279,3 +1279,22 @@
 32167341 wait/p_rest.jpg
 33414459 wait/p_years.jpg
 31112120 wait/v_timemoney.mp4
+# PremiumReel (What the label buys) — BrandReel A/B twin, media-dense (18 media/2 black/1 red)
+8801825 premium/v_shelf.mp4
+32386600 premium/v_factory.mp4
+5532761 premium/v_line.mp4
+5104005 premium/v_compare.mp4
+4121749 premium/v_shelf2.mp4
+7710751 premium/v_close.mp4
+8015462 premium/p_twoproducts.jpg
+8789609 premium/p_pricetag.jpg
+18350286 premium/p_fancy.jpg
+8422697 premium/p_shopper.jpg
+5532658 premium/p_conveyor.jpg
+16695395 premium/p_ads.jpg
+5498024 premium/p_shelf2.jpg
+3338538 premium/p_quality.jpg
+11018212 premium/p_cart.jpg
+35972716 premium/p_plain.jpg
+7967626 premium/p_labels.jpg
+5732762 premium/p_premium2.jpg
