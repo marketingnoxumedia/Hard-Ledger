@@ -102,7 +102,7 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 68, kind: 'hook', text: 'It sold one|in two phones.', kicker: 'The old battlefield', highlights: ['two'], size: 84, media: {src: 'throne/v_hook.mp4', type: 'video', effect: 'in'}},
-  {dur: 80, kind: 'text', enter: 'slideL', text: 'Then sold the|whole business off—', highlights: ['whole'], size: 82, media: {src: 'throne/p_brick.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', enter: 'slideL', text: 'Then sold the|whole business off', highlights: ['whole'], size: 82, media: {src: 'throne/p_brick.jpg', type: 'img', effect: 'in'}},
   // Short ~1.5s pause after the hook (house convention): 45 frames of silence are spliced into the
   // VO right after "...for parts?", and this black beat holds through it (22 -> 67).
   {dur: 67, kind: 'text', text: 'for|parts?', highlights: ['parts?'], size: 104},
@@ -110,25 +110,25 @@ const SCENES: SceneDef[] = [
   {dur: 94, kind: 'text', enter: 'slideL', text: 'Then clung to what|had always won.', highlights: ['clung'], size: 82, media: {src: 'throne/p_king.jpg', type: 'img', effect: 'in'}},
   {dur: 36, kind: 'text', text: 'The dominant|phone maker.', highlights: ['dominant'], size: 88, media: {src: 'throne/v_retro.mp4', type: 'video', effect: 'in'}},
   {dur: 82, kind: 'stat', stat: {pre: 'AT ITS PEAK', value: 50, suffix: '%', post: 'OF PHONES SOLD'}, media: {src: 'throne/p_factory.jpg', type: 'img', effect: 'in'}},
-  {dur: 70, kind: 'text', text: 'But leading the|phone market—', highlights: ['leading'], size: 84, media: {src: 'throne/p_keypad.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', text: 'But leading the|phone market', highlights: ['leading'], size: 84, media: {src: 'throne/p_keypad.jpg', type: 'img', effect: 'in'}},
   {dur: 57, kind: 'text', enter: 'slideL', text: "didn't win the|smartphone.", highlights: ['smartphone'], size: 88, media: {src: 'throne/v_touch.mp4', type: 'video', effect: 'in'}},
   {dur: 38, kind: 'text', text: 'It stuck with|aging software.', highlights: ['aging'], size: 88, media: {src: 'throne/p_menu.jpg', type: 'img', effect: 'in'}},
   {dur: 73, kind: 'text', text: 'Its confidence|was earned.', highlights: ['confidence'], size: 88, media: {src: 'throne/p_throne.jpg', type: 'img', effect: 'in'}},
   {dur: 37, kind: 'text', text: 'World-class|hardware.', highlights: ['hardware'], size: 92, media: {src: 'throne/p_hardware.jpg', type: 'img', effect: 'in'}},
   {dur: 72, kind: 'text', enter: 'slideL', text: 'It out-manufactured|every rival.', highlights: ['rival'], size: 82, media: {src: 'throne/v_assembly.mp4', type: 'video', effect: 'in'}},
-  {dur: 43, kind: 'text', text: 'An outside OS|meant—', highlights: ['outside'], size: 90, media: {src: 'throne/p_smartphone.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', text: 'An outside OS|meant', highlights: ['outside'], size: 90, media: {src: 'throne/p_smartphone.jpg', type: 'img', effect: 'in'}},
   {dur: 82, kind: 'text', text: 'handing control|to a partner.', highlights: ['control'], size: 86, media: {src: 'throne/p_handshake.jpg', type: 'img', effect: 'in'}},
   {dur: 37, kind: 'text', text: 'Its software|was finished.', highlights: ['finished'], size: 88, media: {src: 'throne/p_chess.jpg', type: 'img', effect: 'in'}},
   {dur: 92, kind: 'text', text: 'No leader|concedes that.', highlights: ['concedes'], size: 90},
   {dur: 49, kind: 'text', enter: 'slideL', text: 'The contest moved|to software.', highlights: ['software'], size: 84, media: {src: 'throne/v_apps.mp4', type: 'video', effect: 'in'}},
   {dur: 50, kind: 'text', text: "Hardware share|didn't help.", highlights: ['share'], size: 88, media: {src: 'throne/p_appgrid.jpg', type: 'img', effect: 'in'}},
-  {dur: 79, kind: 'text', text: 'In 2014—', highlights: ['2014'], size: 100, media: {src: 'throne/p_corporate.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', text: 'In 2014', highlights: ['2014'], size: 100, media: {src: 'throne/p_corporate.jpg', type: 'img', effect: 'in'}},
   {dur: 30, kind: 'text', text: 'sold to|Microsoft.', highlights: ['microsoft'], size: 92, media: {src: 'throne/p_deal.jpg', type: 'img', effect: 'in'}},
   {dur: 66, kind: 'impact', text: 'A former king,|reduced to a sale.', redBg: true},
-  {dur: 68, kind: 'text', enter: 'slideL', text: 'When the basis of|competition shifts—', highlights: ['shifts'], size: 80, media: {src: 'throne/p_chessboard.jpg', type: 'img', effect: 'in'}},
-  {dur: 60, kind: 'text', text: 'defending the old|battlefield—', highlights: ['battlefield'], size: 84, media: {src: 'throne/v_discard.mp4', type: 'video', effect: 'in'}},
+  {dur: 68, kind: 'text', enter: 'slideL', text: 'When the basis of|competition shifts', highlights: ['shifts'], size: 80, media: {src: 'throne/p_chessboard.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', text: 'defending the old|battlefield', highlights: ['battlefield'], size: 84, media: {src: 'throne/v_discard.mp4', type: 'video', effect: 'in'}},
   {dur: 65, kind: 'text', text: 'is still how|you lose.', highlights: ['lose'], size: 90, media: {src: 'throne/p_recycle.jpg', type: 'img', effect: 'in'}},
-  {dur: 32, kind: 'text', text: 'If the leader is|this blind—', highlights: ['blind'], size: 84, media: {src: 'throne/v_crowd.mp4', type: 'video', effect: 'in'}},
+  {dur: 32, kind: 'text', text: 'If the leader is|this blind', highlights: ['blind'], size: 84, media: {src: 'throne/v_crowd.mp4', type: 'video', effect: 'in'}},
   {dur: 63, kind: 'text', enter: 'zoom', text: "what's shifting|under the leaders now?", highlights: ['shifting'], size: 80, media: {src: 'throne/v_close.mp4', type: 'video', effect: 'in'}},
 ];
 
