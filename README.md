@@ -517,17 +517,23 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   two count-up `stat` beats ($1.3M / $610K, both on black), one red "It's closer to half." `impact`
   card as the mid-tail thesis, and the question close on a golden sunrise rather than the red card.
   Continuous cloned voiceover (+6% pace, normalized); durations on exact spoken-word timestamps;
-  music normalized and mixed at 0.17. Entirely its own fresh footage under `public/wait/` — no
-  asset shared with HeadstartReel or any other reel. Media credits (Pexels, free license) — videos:
-  a moody coin macro (5651766), an abstract rising particle wave (29717425), a young woman at a
-  window at golden hour (8091712), a ticking alarm clock (30084927), and a misty countryside
-  sunrise (29119700). Photos: a US-dollar savings jar (7680554), an optimistic young man (37159572),
-  a thoughtful older man (32063767), a fan of US $100 bills (10149619), a hand marking a calendar
-  (7580934), and a vintage hourglass (9771338). **Brand-safety:** footage was screened for legible
-  marks — candidates with foreign currency (euro/zloty coins), an Apple-logo laptop, and
+  music normalized and mixed at 0.17. Media-dense by request: 19 of the 22 beats carry footage,
+  with only 2 flat-black beats (the two count-up stats) plus the one red card. Entirely its own
+  fresh footage under `public/wait/` — no asset shared with HeadstartReel or any other reel. Media
+  credits (Pexels, free license) — videos: a moody coin macro (5651766), an abstract rising
+  particle wave (29717425), a young woman at a window at golden hour (8091712), a ticking alarm
+  clock (30084927), a misty countryside sunrise (29119700), a dark US-coin macro (5651768),
+  sprouting seedlings (8522207), and a falling-sand hourglass (31112120). Photos: a US-dollar
+  savings jar (7680554), an optimistic young man (37159572), a thoughtful older man (32063767), a
+  fan of US $100 bills (10149619), a hand marking a calendar (7580934), a vintage hourglass
+  (9771338), a B&W forked dirt road (18295331), a single folded US $1 bill (12584119), a bundle of
+  US $20 bills (15633963), faceless clasped hands at rest (32167341), and a B&W tree-ring
+  cross-section (33414459). **Brand-safety:** footage was screened for legible marks across two
+  sourcing passes — candidates with foreign currency (euro/zloty coins), an Apple-logo laptop, and
   trading-screen tickers/brands (COIN360/TradingView/"FUNDS") were rejected and re-sourced; a
-  bright cartoon growth-chart still was dropped after hand-off as off-brand (that stat now renders
-  on black). Shipped assets carry no bank/brokerage/fund brand, ticker, or legible company mark.
+  bright cartoon growth-chart still was dropped as off-brand (that stat now renders on black), and a
+  dessert/food still (originally on the "not a quarter" beat) was replaced with a moody US-cash
+  macro. Shipped assets carry no bank/brokerage/fund brand, ticker, or legible company mark.
   **FLAG — illustrative figures:** the $500/mo, 7%, $240K/$60K-in, and $1.3M/$610K numbers are a
   compounding illustration (returns are not guaranteed and ignore inflation, taxes and fees) —
   present them as an example, not a promise, and confirm the math before publishing. Same topic as

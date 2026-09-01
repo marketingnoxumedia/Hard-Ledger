@@ -1270,3 +1270,12 @@
 10149619 wait/p_cash.jpg
 7580934 wait/p_calendar.jpg
 9771338 wait/p_hourglass.jpg
+# WaitReel rework — 8 added media (black beats -> footage), p_portion re-sourced
+5651768 wait/v_stack.mp4
+18295331 wait/p_paths.jpg
+12584119 wait/p_fewcash.jpg
+8522207 wait/v_grow.mp4
+15633963 wait/p_portion.jpg
+32167341 wait/p_rest.jpg
+33414459 wait/p_years.jpg
+31112120 wait/v_timemoney.mp4
