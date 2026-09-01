@@ -503,6 +503,36 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   math and assumptions before publishing. (Note: the "$500/mo from 25 → $1.3M"
   figure also appears as a closing beat in `LifetimeReel`; this reel is the focused
   head-start comparison.)
+- **`WaitReel`** — "The cost of waiting" (a ~48s reel; the **A/B twin of `HeadstartReel`** ("The
+  ten-year head start"), same $500/mo compounding story but opening and closing on questions rather
+  than flat lines + the two figures). Two people save the same $500 a month at an assumed 7%
+  return; the only difference is a ten-year head start. Begin at 25 and stop at 65 — about $240K of
+  your own money grows, as an illustration, to roughly $1.3M. Begin at 35 instead: you pay in about
+  $60K less and end near $610K — a ten-year delay roughly halves the result on barely less money
+  in. Compounding pays growth on past growth, so the earliest dollars matter most; the first decade
+  is closer to half the outcome than a quarter. Time did more of the work than the money — the gap
+  was years, not effort. Question hook ("...why a ten-year head start can be worth more than the
+  money itself?") and a rhetorical question close ("what is waiting to start actually costing?"); a
+  ~1.5s post-hook pause (the hook holds through the silence before the reveal — house convention);
+  two count-up `stat` beats ($1.3M / $610K, both on black), one red "It's closer to half." `impact`
+  card as the mid-tail thesis, and the question close on a golden sunrise rather than the red card.
+  Continuous cloned voiceover (+6% pace, normalized); durations on exact spoken-word timestamps;
+  music normalized and mixed at 0.17. Entirely its own fresh footage under `public/wait/` — no
+  asset shared with HeadstartReel or any other reel. Media credits (Pexels, free license) — videos:
+  a moody coin macro (5651766), an abstract rising particle wave (29717425), a young woman at a
+  window at golden hour (8091712), a ticking alarm clock (30084927), and a misty countryside
+  sunrise (29119700). Photos: a US-dollar savings jar (7680554), an optimistic young man (37159572),
+  a thoughtful older man (32063767), a fan of US $100 bills (10149619), a hand marking a calendar
+  (7580934), and a vintage hourglass (9771338). **Brand-safety:** footage was screened for legible
+  marks — candidates with foreign currency (euro/zloty coins), an Apple-logo laptop, and
+  trading-screen tickers/brands (COIN360/TradingView/"FUNDS") were rejected and re-sourced; a
+  bright cartoon growth-chart still was dropped after hand-off as off-brand (that stat now renders
+  on black). Shipped assets carry no bank/brokerage/fund brand, ticker, or legible company mark.
+  **FLAG — illustrative figures:** the $500/mo, 7%, $240K/$60K-in, and $1.3M/$610K numbers are a
+  compounding illustration (returns are not guaranteed and ignore inflation, taxes and fees) —
+  present them as an example, not a promise, and confirm the math before publishing. Same topic as
+  HeadstartReel (and the "$500/mo → $1.3M" beat in LifetimeReel) — publish only one twin to a given
+  audience.)
 - **`BrandReel`** — "Paying for the name" (a ~50s reel on the name-brand premium:
   two products sit on the same shelf, one noticeably cheaper, and in plenty of
   cases they were made in the same factory to the same standard — you're often

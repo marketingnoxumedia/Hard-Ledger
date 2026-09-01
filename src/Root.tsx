@@ -82,6 +82,7 @@ import {GroundReel, DURATION_IN_FRAMES as GROUND_FRAMES} from './GroundReel';
 import {UglyReel, DURATION_IN_FRAMES as UGLY_FRAMES} from './UglyReel';
 import {ForecastReel, DURATION_IN_FRAMES as FORECAST_FRAMES} from './ForecastReel';
 import {PassiveReel, DURATION_IN_FRAMES as PASSIVE_FRAMES} from './PassiveReel';
+import {WaitReel, DURATION_IN_FRAMES as WAIT_FRAMES} from './WaitReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -739,6 +740,14 @@ export const RemotionRoot: React.FC = () => {
         id="PassiveReel"
         component={PassiveReel}
         durationInFrames={PASSIVE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="WaitReel"
+        component={WaitReel}
+        durationInFrames={WAIT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

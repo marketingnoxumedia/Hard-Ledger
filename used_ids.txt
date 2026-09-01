@@ -1258,3 +1258,15 @@
 39076656 passive/p_desk.jpg
 29611783 passive/p_market.jpg
 10567351 passive/p_calm.jpg
+# WaitReel (The cost of waiting) — HeadstartReel A/B twin
+5651766 wait/v_hook.mp4
+29717425 wait/v_growth.mp4
+8091712 wait/v_young.mp4
+30084927 wait/v_clock.mp4
+29119700 wait/v_close.mp4
+7680554 wait/p_jar.jpg
+37159572 wait/p_young.jpg
+32063767 wait/p_older.jpg
+10149619 wait/p_cash.jpg
+7580934 wait/p_calendar.jpg
+9771338 wait/p_hourglass.jpg
