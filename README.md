@@ -648,6 +648,54 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   before publishing. (Note: this is thematically close to `BlackberryReel` — "The
   strength trap," also a dominant phone maker losing to iPhone/Android — so schedule
   the two well apart; each uses entirely separate footage.)
+- **`ThroneReel`** — "The old battlefield" (a ~56s reel; the **A/B twin of `NokiaReel`**
+  ("When the game changes"), same Nokia-lost-the-smartphone case study but opening and
+  closing on questions rather than declaratively, and carried on the recurring chess /
+  "old battlefield" motif). Want to know how a company that sold one in every two phones
+  ended up selling the whole business for parts? Nokia ruled mobile — nearly half of every
+  phone sold at its peak — then clung to what had always won: it led handset share, owned
+  world-class hardware, and out-manufactured every rival, so switching to an outside OS
+  meant handing control to a partner and admitting its own software was finished, a
+  concession a market leader almost never makes. The iPhone and Android moved the contest
+  to software, where hardware share didn't help; in 2014 Nokia sold its phone business to
+  Microsoft. When the basis of competition shifts, defending the old battlefield
+  brilliantly is still how you lose. Question hook ("...selling the whole business for
+  parts?") and a rhetorical question close ("what's shifting under the leaders now?"); a
+  ~1.5s post-hook pause (the hook holds through the silence before the reveal — house
+  convention); one count-up stat (~50% of phones sold at peak), one red "A former king,
+  reduced to a sale." `impact` card near the tail, and the question close on footage
+  (aerial night city) rather than the red card. **Media-dense by request:** 24 of 27 beats
+  carry footage, with only 2 flat-black beats ("for parts?", "No leader concedes that.")
+  plus the one red card. Continuous cloned voiceover (+6% pace, normalized); durations on
+  exact spoken-word timestamps; music normalized and mixed at 0.17. Entirely its own fresh
+  footage under `public/throne/` — no asset shared with NokiaReel or any other reel. Media
+  credits (Pexels, free license) — videos: a hand moving a chess piece (33688494), a black
+  rotary phone on books (7119842), an industrial press/assembly line (34775736), a finger
+  tapping a device edge (853987), a phone photo-editing app UI (6962182), an aerial night
+  cityscape (34690800), a night traffic overpass (8088611), and a logo-less dark phone
+  face-down (9558109). Photos: a moody rotary phone dial (8715128), vintage green wall
+  phones (35286031), a crystal chess king (15913924), phone circuit boards in trays
+  (5554948), a worn keypad macro (29435052), a bare circuit board (6755078), a carved
+  wooden throne chair (8674795), a white king over fallen chess pieces (29107599), a green
+  CRT reading "GAME OVER" (35247741), the back of an unbranded dark-blue smartphone
+  (10883732), an office handshake (12903031), a chessboard silhouette (112855), a dark
+  analytics/share dashboard (27141307), a low-angle B&W skyscraper (35525661), hands
+  signing a contract (5387258), and motherboard e-waste (38411739). **Brand-safety:** the
+  reel names Nokia, iPhone, Android and Microsoft in voiceover as the subject/context, but
+  the footage is deliberately generic — no device, screen, sign, or contract carries a
+  readable brand mark or wordmark. Because a clean brand-free candybar *mobile* was not
+  available, the "phone" beats lean on rotary/vintage phones, keypads, circuit boards and a
+  chess "battlefield" motif; rejected during two sourcing passes: SONY, Motorola, PSION,
+  HP, XEROX, Deloitte, Instagram and Chrome shots. Confirm no unintended readable brand
+  marks before publishing. **Note — chess motif:** chess recurs across four beats (hook,
+  "clung to what had always won", "software was finished", "basis of competition shifts")
+  as the deliberate "old battlefield" through-line; each is a visually distinct shot.
+  **Illustration / general characterization, not verified financials:** "~50% / one in two
+  phones" is a rounded characterization of Nokia's peak share (verify the exact figure and
+  scope — handsets vs smartphones differ), and the 2014 sale to Microsoft is a real event
+  stated without a price; confirm the specifics before publishing. Same topic as NokiaReel
+  and thematically close to BlackberryReel/GroundReel — schedule these apart and publish
+  only one twin to a given audience.)
 - **`PalletReel`** — "The pallet pool" (a ~71s reel on the CHEP/Brambles blue-pallet
   pooling moat: look under almost anything you buy and you'll find the same blue
   platform. Brambles, through CHEP, owns a pool of ~348 million blue pallets and
