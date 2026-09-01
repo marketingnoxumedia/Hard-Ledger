@@ -442,6 +442,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   SPIVA data before publishing. (Note: overlaps thematically with `IndexReel`, which
   cites the same ~90% stat within a broader compounding-and-patience story; this
   reel is the focused active-vs-index myth-bust.)
+- **`PassiveReel`** — "What the fee buys" (a ~49s reel; the **A/B twin of `ActiveReel`** ("The
+  average wins"), same active-vs-index myth-bust but opening and closing on questions rather than
+  the flat myth + red card). The consensus is that a paid professional with research and tools
+  should beat a free, do-nothing index — but over 15 years about 90% of active large-cap funds
+  underperform the S&P 500, and it isn't luck evening out: stretch to 20 years and the failure rate
+  climbs to ~92%. Fees and trading costs drag the experts below the index they chase, last stretch's
+  winners rarely repeat, and after fees the average active dollar has to trail the market it
+  collectively makes up — so the drag is structural, not bad picking; the index wins by being cheap
+  and staying in. Question hook ("...nine out of ten pros lose to a strategy that takes zero
+  skill?") and a rhetorical question close ("what exactly is the fee paying for?"); a ~1.5s
+  post-hook pause (the hook holds through the silence before the reveal — house convention); two
+  count-up `stat` beats (90% with a bar / 92%), one red "The drag is structural." `impact` card as
+  the mid-tail thesis, and the question close on an empty office rather than the red card.
+  Continuous cloned voiceover (+6% pace, normalized); durations on exact spoken-word timestamps;
+  music normalized and mixed at 0.17. Entirely its own fresh footage under `public/passive/` — no
+  asset shared with ActiveReel, IndexReel, StillReel, or any other reel. Media credits (Pexels, free
+  license) — videos: a hand pointing at blurred chart monitors (39006630), abstract candlestick +
+  volume charts (38209367), long-shadow figures walking (4698492), hands counting US bills
+  (8134702), and an empty modern office (5483080). Photos: an analyst reviewing charts (7698817), a
+  rising neon line chart (39212619), a team in a meeting (7643748), a phone calculator over a chart
+  (35719588), an over-the-shoulder trading desk (39076656), a candlestick wall (29611783), and a
+  minimalist empty desk (10567351). **Brand-safety:** footage was screened hard for legible marks —
+  many candidates were rejected for readable tickers or brands (an "S&P 500/SPX/NDX" tablet, a
+  "Binance/BNB-USDT" screen, HP-bezel + "TradingView.com"/"Bybit" home-office monitors, a "CASIO"
+  wordmark, a "Captain America"/LinkedIn poster); the `v_charts` clip was cropped to remove a
+  "Binance" header. Shipped assets carry no fund/brokerage/index brand, ticker, or legible company
+  mark. **FLAG — real data, rendered as written:** the "~90% (15-yr) / ~92% (20-yr)
+  active-underperformance" figures track the widely-cited SPIVA scorecard but shift by category,
+  region and period ("nine in ten" is a round restatement) — confirm the latest SPIVA data before
+  publishing. Same topic as ActiveReel (and overlaps IndexReel) — publish only one of the twins to
+  a given audience.)
 - **`HeadstartReel`** — "The ten-year head start" (a ~52s reel on compounding and
   starting early: two people save the exact same $500 a month at the same assumed
   7% return for their whole careers, and one ends up with more than double the

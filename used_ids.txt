@@ -1245,3 +1245,16 @@
 6773517 forecast/p_deal.jpg
 11624820 forecast/p_money.jpg
 19570444 forecast/p_skyline.jpg
+# PassiveReel (What the fee buys) — ActiveReel A/B twin
+39006630 passive/v_hook.mp4
+38209367 passive/v_charts.mp4
+4698492 passive/v_crowd.mp4
+8134702 passive/v_money.mp4
+5483080 passive/v_close.mp4
+7698817 passive/p_pro.jpg
+39212619 passive/p_index.jpg
+7643748 passive/p_group.jpg
+35719588 passive/p_fees.jpg
+39076656 passive/p_desk.jpg
+29611783 passive/p_market.jpg
+10567351 passive/p_calm.jpg
