@@ -92,8 +92,9 @@ type SceneDef = {
 // `stat` beat (~50% of phones sold), one red "A former king, reduced to a sale." `impact` card as
 // the mid-tail thesis, and the question close on footage. **Media-dense:** 24 of 27 beats carry
 // footage, with only 2 flat-black beats plus the one red card. Durations on exact ElevenLabs
-// spoken-word timestamps at +6% pace; music normalized and mixed at 0.17. Total 1681 frames =
-// ~56.0s. Entirely its own fresh footage under public/throne/ — no asset shared with NokiaReel,
+// spoken-word timestamps at +6% pace; music normalized and mixed at 0.17. Total 1755 frames =
+// ~58.5s (the close beat holds long enough for the full spoken question to finish and decay).
+// Entirely its own fresh footage under public/throne/ — no asset shared with NokiaReel,
 // BlackberryReel, GroundReel, KodakReel, or any other reel. Imagery is generic — no phone-maker,
 // carrier, Nokia/Microsoft/Apple, or app-brand logos or legible marks. **FLAG — real company:**
 // Nokia, Microsoft, the ~50% peak share and the 2014 sale are named/rendered as written and are
@@ -129,7 +130,7 @@ const SCENES: SceneDef[] = [
   {dur: 60, kind: 'text', text: 'defending the old|battlefield', highlights: ['battlefield'], size: 84, media: {src: 'throne/v_discard.mp4', type: 'video', effect: 'in'}},
   {dur: 65, kind: 'text', text: 'is still how|you lose.', highlights: ['lose'], size: 90, media: {src: 'throne/p_recycle.jpg', type: 'img', effect: 'in'}},
   {dur: 32, kind: 'text', text: 'If the leader is|this blind', highlights: ['blind'], size: 84, media: {src: 'throne/v_crowd.mp4', type: 'video', effect: 'in'}},
-  {dur: 63, kind: 'text', enter: 'zoom', text: "what's shifting|under the leaders now?", highlights: ['shifting'], size: 80, media: {src: 'throne/v_close.mp4', type: 'video', effect: 'in'}},
+  {dur: 137, kind: 'text', enter: 'zoom', text: "what's shifting|under the leaders now?", highlights: ['shifting'], size: 80, media: {src: 'throne/v_close.mp4', type: 'video', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
