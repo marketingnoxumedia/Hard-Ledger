@@ -85,6 +85,7 @@ import {PassiveReel, DURATION_IN_FRAMES as PASSIVE_FRAMES} from './PassiveReel';
 import {WaitReel, DURATION_IN_FRAMES as WAIT_FRAMES} from './WaitReel';
 import {PremiumReel, DURATION_IN_FRAMES as PREMIUM_FRAMES} from './PremiumReel';
 import {ThroneReel, DURATION_IN_FRAMES as THRONE_FRAMES} from './ThroneReel';
+import {PoolReel, DURATION_IN_FRAMES as POOL_FRAMES} from './PoolReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -766,6 +767,14 @@ export const RemotionRoot: React.FC = () => {
         id="ThroneReel"
         component={ThroneReel}
         durationInFrames={THRONE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PoolReel"
+        component={PoolReel}
+        durationInFrames={POOL_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

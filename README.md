@@ -734,6 +734,55 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   "own-the-infrastructure / rent-it-forever moat" thesis overlaps thematically with
   `WasteReel` — "own the landfill"; the two use entirely separate footage, but
   schedule them apart.)
+- **`PoolReel`** — "The rented platform" (a ~55s reel; the **A/B twin of `PalletReel`**
+  ("The pallet pool"), same Brambles/CHEP wooden-pallet pooling moat but opening and
+  closing on rhetorical questions rather than declaratively, and — unlike PalletReel —
+  landing 348M only in the hook so the count-up stats don't repeat it). A wooden pallet
+  looks worth almost nothing, yet one company owns ~348 million of them, rents them out
+  endlessly, and never sells a single one: Brambles, through CHEP, runs a pool of pallets
+  rented to makers and retailers, then collected, repaired and reissued for years. Renting
+  beats selling because the same pallet earns many times over — and the pooling is the
+  moat: a rival can build a pallet, but not the network of collection points (a fleet
+  served by 750+ centres worldwide) that makes the pool work. That circular pool brought in
+  ~$6.67B at about a 20% margin, ~$1.37B profit. Own the platform everything sits on, rent
+  it forever, and a commodity becomes infrastructure. Question hook ("...rent them out
+  endlessly, and never sell a single one?") and a rhetorical question close ("what else
+  moves the entire economy while you've never once looked at it?"); a ~1.5s post-hook pause
+  (the hook holds through the silence before the reveal — house convention); three count-up
+  stats (750+ centres, $6.67B revenue, $1.37B profit), one red "A commodity became
+  infrastructure." `impact` card as the mid-tail thesis, and the question close on footage
+  (an aerial highway interchange) rather than the red card. **Media-dense:** 21 of 24 beats
+  carry footage, with only 2 flat-black beats ("But not the network.", "It moves the whole
+  economy.") plus the one red card. Continuous cloned voiceover (+6% pace, normalized);
+  durations on exact spoken-word timestamps; music normalized and mixed at 0.17. Entirely
+  its own fresh footage under `public/pool/` — no asset shared with PalletReel or any other
+  reel. Media credits (Pexels, free license) — videos: a weathered pallet-slat close-up
+  (11191776), a backlit warehouse forklift (31352807), a courier loading boxes from a van
+  (6170600), a hand pallet-jack in a warehouse (6167610), hands repairing a wooden pallet
+  (8447829), parcels moving on a conveyor into a truck (4473271), banknotes being counted
+  (31750574), a high-bay warehouse aisle (4294436), and an aerial highway interchange
+  (6543308). Photos: a
+  stack of brown pallets in a yard (23625701), a tall racking aisle of palletized cartons
+  (10697106), neatly stacked pallets (39275653), pallets gathered in a lot (635096), a
+  cracked weathered pallet (10864361), an aerial pallet-recycling yard (9541900), a lone
+  wooden pallet against a wall (33597923), a distribution-depot exterior (20021122), a
+  top-down truck depot (35501716), a currency band on $100 bills (11624826), a dark
+  candlestick trading chart (39228928), and paver blocks resting on a wooden pallet
+  (37528609). **Brand-safety:** the reel names Brambles/CHEP in voiceover as the subject,
+  but the footage is deliberately generic — plain brown WOODEN pallets, warehouses,
+  forklifts, depots, cash and ports, with NO CHEP blue pool pallets and no readable brand
+  marks, logos, or truck livery. Rejected during sourcing: blue/plastic pool pallets and an
+  EPAL pallet-pool stamp; JUNGHEINRICH, HYSTER and International wordmarks; CASCADE, KLATT,
+  Stertil, CASIO and an Amazon "prime" truck; and "DO NOT STACK" warning signage. A frame
+  audit of the first render caught three more and they were re-sourced: a "Port Of
+  Baltimore" crane sign (with the identifiable Key Bridge), a "TRAYECTO" trailer livery, and
+  EVERGREEN/ONE/COSCO shipping-container brands — replaced with a brand-free highway
+  interchange, a parcel conveyor, and a plain-van box load. Confirm no unintended readable
+  marks before publishing. **Illustration / verify the financials:**
+  ~348M pallets, 750+ centres, ~$6.67B revenue, ~20% margin and ~$1.37B profit are round
+  characterizations for a recent year — confirm the exact numbers, currency (Brambles
+  reports in US$) and reporting period against Brambles' filings before publishing. Same
+  topic as PalletReel — publish only one twin to a given audience, and schedule apart.)
 - **`DepreciationReel`** — "The depreciation curve" (a ~58s reel on the hidden cost
   of buying new: a new car loses about a fifth of its value the instant it becomes
   yours — faster than fuel, insurance or repairs, and almost nobody counts it. A

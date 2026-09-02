@@ -1323,3 +1323,25 @@
 35525661 throne/p_corporate.jpg
 5387258 throne/p_deal.jpg
 38411739 throne/p_recycle.jpg
+# PoolReel (The rented platform) — PalletReel A/B twin, media-dense (21 media/2 black/1 red)
+11191776 pool/v_hook.mp4
+23625701 pool/p_yard.jpg
+31352807 pool/v_forklift.mp4
+10697106 pool/p_aisle.jpg
+39275653 pool/p_stacked.jpg
+6170600 pool/v_dock.mp4
+635096 pool/p_collect.jpg
+6167610 pool/v_handle.mp4
+10864361 pool/p_worn.jpg
+8447829 pool/v_repair.mp4
+9541900 pool/p_field.jpg
+33597923 pool/p_single.jpg
+4473271 pool/v_hub.mp4
+20021122 pool/p_centre.jpg
+35501716 pool/p_depot.jpg
+11624826 pool/p_ledger.jpg
+39228928 pool/p_chart.jpg
+31750574 pool/v_cash.mp4
+37528609 pool/p_under.jpg
+4294436 pool/v_warehouse.mp4
+6543308 pool/v_port.mp4
