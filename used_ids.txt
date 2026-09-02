@@ -1345,3 +1345,26 @@
 37528609 pool/p_under.jpg
 4294436 pool/v_warehouse.mp4
 6543308 pool/v_port.mp4
+# NewCarReel (The new-car tax) — DepreciationReel A/B twin, media-dense (22 media/2 black/1 red)
+33596417 newcar/v_hook.mp4
+12306835 newcar/v_wall.mp4
+12768472 newcar/v_road.mp4
+10296902 newcar/p_first.jpg
+5982900 newcar/p_lot.jpg
+7144212 newcar/p_worth.jpg
+9216589 newcar/p_fuel.jpg
+10610187 newcar/p_driveoff.jpg
+4968666 newcar/p_cash.jpg
+31161428 newcar/p_pump.jpg
+32723685 newcar/p_downhill.jpg
+38343510 newcar/p_chart.jpg
+38933569 newcar/p_chart2.jpg
+1111320 newcar/p_sticker.jpg
+2622122 newcar/p_dash.jpg
+29566900 newcar/p_usedlot.jpg
+27365322 newcar/v_used.mp4
+14667496 newcar/p_interior.jpg
+7144201 newcar/p_key.jpg
+38164944 newcar/p_showroom.jpg
+30254179 newcar/v_luxury.mp4
+6942638 newcar/v_close.mp4

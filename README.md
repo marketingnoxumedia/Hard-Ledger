@@ -817,6 +817,53 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   show the shape of car depreciation — real depreciation varies widely by make,
   model, mileage, condition and market. Present as a general illustration, not a
   guarantee for any specific vehicle.
+- **`NewCarReel`** — "The new-car tax" (a ~58s reel; the **A/B twin of `DepreciationReel`**
+  ("The depreciation curve"), same new-car-depreciation case but opening and closing on
+  rhetorical questions rather than declaratively). The most expensive year of a new car is
+  the first: a $40K car is worth about $32K within twelve months, and nobody drove it into
+  a wall. A new car sheds ~20% of its value in year one — faster than fuel, insurance or
+  repairs — so driving it off the lot quietly spends ~$8K in year-one depreciation. The drop
+  is steepest first: ~20% down after one year, ~60% after five, worth less than half its
+  sticker before the warranty ends, most of the value leaving in the years you can't see it
+  going. Which is why a two- or three-year-old car is a different deal — it has already taken
+  the worst of the fall while keeping most of its life; the first owner paid for the new
+  smell. New isn't a cost, it's a luxury; the depreciation curve is the real price tag.
+  Question hook ("...the most expensive year of owning a new car?") and a rhetorical question
+  close ("who really paid for that new smell?"); a ~1.2s post-hook pause (the hook holds
+  through the silence before the reveal — house convention); three count-up stats ($8K
+  year-one drop, then 20% and 60% "down" with animated bars for the curve), one red "the
+  curve is the real price tag" `impact` card as the mid-tail thesis, and the question close
+  on footage (a car driving away) rather than the red card. **Media-dense:** 22 of 25 beats
+  carry footage, with only 2 flat-black beats ("Value you never see leave.", "Most vanishes
+  before year three.") plus the one red card. Continuous cloned voiceover (+6% pace,
+  normalized); durations on exact spoken-word timestamps; music normalized and mixed at 0.17.
+  Entirely its own fresh footage under `public/newcar/` — no asset shared with
+  DepreciationReel or any other reel. Media credits (Pexels, free license) — videos: a glossy
+  new-car detail glide (33596417), mixed-color motorway traffic from above (12306835), a lone
+  car down a tree-lined road (12768472), an aerial packed car lot (27365322), a luxury-car
+  city glide (30254179), and a car driving away for the close (6942638). Photos: a
+  brand-new 0-km instrument cluster (10296902), an aerial new-car stock lot (5982900), a
+  key-and-handshake handover (7144212), a fuel filler (9216589), an empty open road to the
+  horizon (10610187), a fan of banknotes (4968666), three fuel nozzles (31161428), a red car
+  on a descending mountain road (32723685), a red descending candlestick chart (38343510), a
+  second downtrend chart (38933569), a blank price tag on a dark ground (1111320), an
+  odometer/speedo (2622122), a row of pre-owned cars (29566900), a clean leather
+  interior (14667496), a car-key handover (7144201), and a new car with a red gift bow
+  (38164944). **Brand-safety:** the reel is about cars in general, not any one make — footage
+  varies makes/colors and avoids badge-dominated shots, dealership brand signs and readable
+  plates, so no single brand is tied to "losing value". A frame audit of the first render
+  caught three more and they were re-sourced: a "LODGY" model wordmark with a license plate
+  and foreign parking signage, a readable Bentley grille badge, and a readable Turkish
+  newspaper on a windshield — replaced with an empty open road, a red-bow new car (cropped
+  above its readable tire/tagline text), and a blank price tag. Rejected during sourcing:
+  Bentley, VW/GTI, Ford, Hyundai, Mercedes, Toyota, Nissan/Nismo, Honda, Mitsubishi, Polestar,
+  Lexus, Ferrari and Tesla badges/signs; NISSAN/Infiniti/Hertz/Polaris dealer signage; and
+  readable license plates and model wordmarks (a "TOYOTA" grille and an Audi Q3 with a plate
+  were caught at full res and re-sourced). Confirm no readable brand badges before publishing. **Illustration, not
+  verified data:** the $40K→$32K, ~20%/~60% depreciation curve and ~$8K year-one figure are
+  round, illustrative numbers showing the shape of car depreciation — real depreciation
+  varies widely by make, model, mileage, condition and market. Same topic as DepreciationReel
+  — publish only one twin to a given audience, and schedule apart.)
 - **`GoldReel`** — "Store of value" (a ~63s reel busting the idea that gold is the
   best long-run store of wealth: gold gets called the ultimate store of value, but
   over a century stocks didn't just beat it, they buried it. A dollar in US stocks in
