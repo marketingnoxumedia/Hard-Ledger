@@ -104,7 +104,7 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 103, kind: 'hook', text: 'You think Amazon|just won.', kicker: 'The vendor trap', highlights: ['won'], size: 90, media: {src: 'vendor/v_hook.mp4', type: 'video', effect: 'in'}},
-  {dur: 99, kind: 'text', text: 'So why did Borders|hand it away—', highlights: ['hand'], size: 82, media: {src: 'vendor/p_handover.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', text: 'So why did Borders|hand it away', highlights: ['hand'], size: 82, media: {src: 'vendor/p_handover.jpg', type: 'img', effect: 'in'}},
   // Short ~1.2s pause after the hook QUESTION (house convention): 36 frames of silence are spliced
   // into the VO right after "...before it collapsed?", and this beat holds through it (42 -> 78).
   {dur: 78, kind: 'text', text: 'years before|it collapsed?', highlights: ['collapsed?'], size: 90, media: {src: 'vendor/p_aisle.jpg', type: 'img', effect: 'in'}},
