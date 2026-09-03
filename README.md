@@ -2411,6 +2411,30 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   revenue, ~22% operating margin, ~$928M operating income. Treat these as
   approximate and verify against SCI's latest 10-K/annual report before
   publishing.
+- **`CertainReel`** — "The certain market" (Service Corporation International) —
+  the **question-hook / question-close A/B twin of `SciReel`.** Same case (the
+  quiet national consolidator of local funeral homes and cemeteries, funded by
+  pre-need contracts years in advance, at ~22% operating margins), but this cut
+  opens on a question ("Do you know this company? … almost none know its name")
+  with a ~1.2s post-hook pause, and closes on one ("How many others are you
+  walking past?"). ~57s. Its own footage under `public/certain/` — no asset
+  shared with SciReel or any other reel. Media credits (Pexels, free license) —
+  videos: glass corporate tower (7065900), market-price ticker (7578632),
+  memorial candle flame (5767251), residential walking POV (37368966, closing
+  beat). Photos: overcast small-town main street (17485603), white lilies close-up
+  (13256146), white clapboard chapel (3508134), softly-blurred headstone rows
+  (8050335), storefront with awning (14992893), plain white facade (17904894),
+  empty church pews (13980225), hushed lobby interior (6758531), hand signing a
+  document (7054505), coin savings jar (7680466), aerial suburban rooftops
+  (7937274), aerial green memorial park (2524353), fan of banknotes (7680556),
+  calculator on a chart (7580854), rising coin stacks (19693228), tree-lined
+  residential street (12551268). **Unverified claims:** names a real public
+  company (Service Corporation International, NYSE: SCI) and cites specific
+  figures — ~700k families/yr, ~1,490 funeral homes, ~496 cemeteries, $4.186B
+  revenue, ~22% operating margin, ~$928M operating income. Treat as approximate
+  and verify against SCI's latest 10-K/annual report before publishing. **Twin
+  note:** same topic as `SciReel` — publish only one twin to a given audience,
+  scheduled apart.
 - **`InflationReel`** — "The inflation tax" (a ~51s reel — rebuilt with a fuller
   script and fresh footage: $10,000 hidden under a mattress since 1980 and never
   touched; every bill is still there, but it now buys only about $2,500 worth.

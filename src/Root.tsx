@@ -8,6 +8,7 @@ import {OwnershipReel, DURATION_IN_FRAMES as OWNERSHIP_FRAMES} from './Ownership
 import {LaundromatReel, DURATION_IN_FRAMES as LAUNDROMAT_FRAMES} from './LaundromatReel';
 import {InflationReel, DURATION_IN_FRAMES as INFLATION_FRAMES} from './InflationReel';
 import {SciReel, DURATION_IN_FRAMES as SCI_FRAMES} from './SciReel';
+import {CertainReel, DURATION_IN_FRAMES as CERTAIN_FRAMES} from './CertainReel';
 import {QuibiReel, DURATION_IN_FRAMES as QUIBI_FRAMES} from './QuibiReel';
 import {WasteReel, DURATION_IN_FRAMES as WASTE_FRAMES} from './WasteReel';
 import {LifetimeReel, DURATION_IN_FRAMES as LIFETIME_FRAMES} from './LifetimeReel';
@@ -154,6 +155,14 @@ export const RemotionRoot: React.FC = () => {
         id="SciReel"
         component={SciReel}
         durationInFrames={SCI_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="CertainReel"
+        component={CertainReel}
+        durationInFrames={CERTAIN_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
