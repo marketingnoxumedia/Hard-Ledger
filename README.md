@@ -2291,6 +2291,28 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   gap runs into the millions, wider than degree vs no degree" track widely-cited
   lifetime-earnings-by-major research (Georgetown CEW-style) but are directional
   — sanity-check the specifics before publishing.
+- **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
+  take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
+  the balance again in interest; a fixed $250/month clears the same debt in ~2
+  years with ~$1,100 interest — interest runs on the balance, so the faster it
+  falls the less it costs). ~55s, question hook ("$5,000 on a card — over 15
+  years to clear?") with a ~1.2s post-hook pause, red thesis card "Solvent / And
+  indebted" mid-tail, and a question close ("15 years of this — paying for
+  what?"). Stat-heavy and media-dense (18 media / 2 black / 1 red). Its own
+  footage under `public/minimum/`. Media credits (Pexels, free license) — videos:
+  an hourglass (1188938), a card tap at a terminal (6540557), scissors making a
+  cut (6949983, closing beat). Photos: a plain card held up (7821729), a calendar
+  grid (11706725), hands counting cash over a planner (4475523), a rising coin
+  stack (7111600), a pile of $10 bills (6590636), a red gauge at the top
+  (12187076), a hand of $100 bills (14820436), bills falling by a flag (4386420),
+  cash into an envelope (11809349), a hand stamping a document (6358840), a piggy
+  bank with coins (3943716), a balance scale (8431782), a rising trend chart
+  (6801648), a falling chart (38808472), and a close-up clock (280277).
+  **Unverified figures — verify before publishing:** the ~$1.25T total US card
+  debt and ~21% average APR track recent reporting, and the amortization figures
+  ($5K at ~21% ≈ 15+ yrs / ~$5K interest on the minimum vs ~2 yrs / ~$1,100 on a
+  fixed $250) are standard minimum-payment math on stated assumptions — sanity-
+  check the rate and minimum-payment formula before publishing.
 - **`SearsReel`** — "The everything store" (Sears invented mail-order retail a
   century before Amazon, then couldn't build the online version of itself
   because it would have undercut the stores that made the profit). ~43s,

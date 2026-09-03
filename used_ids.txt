@@ -1489,3 +1489,22 @@
 2801126 major/p_signpost.jpg
 6517121 major/p_halves.jpg
 16739537 major/v_crossroads.mp4
+# MinimumReel (The minimum trap) — original, media-dense (18 media/2 black/1 red)
+7821729 minimum/p_card.jpg
+11706725 minimum/p_calendar.jpg
+4475523 minimum/p_statement.jpg
+7111600 minimum/p_interestup.jpg
+6590636 minimum/p_debtpile.jpg
+12187076 minimum/p_gauge.jpg
+14820436 minimum/p_5kcash.jpg
+1188938 minimum/v_hourglass.mp4
+4386420 minimum/p_moneydrain.jpg
+11809349 minimum/p_envelope.jpg
+6358840 minimum/p_paidstamp.jpg
+3943716 minimum/p_fewcoins.jpg
+8431782 minimum/p_twostacks.jpg
+6540557 minimum/v_swipe.mp4
+6801648 minimum/p_growthline.jpg
+38808472 minimum/p_downchart.jpg
+280277 minimum/p_clock.jpg
+6949983 minimum/v_scissors.mp4
