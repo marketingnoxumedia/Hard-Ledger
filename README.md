@@ -2219,6 +2219,32 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   1% annual fee, a ~$187K gap, index funds around 0.1% and some active funds at
   ~1%+. They're standard compounding math on stated assumptions; the expense-
   ratio ranges are broadly typical but sanity-check before publishing.
+- **`DragReel`** — "The certain drag" (the same fund-fee case) — the
+  **question-hook / question-close A/B twin of `FeeReel`.** Same math ($100K, 30
+  years, 7% gross, a 0.05% index fee vs ~1%, a ~$180K gap on identical market
+  exposure), but this cut opens on a question ("What does a 1% fee cost?") with a
+  ~1.2s post-hook pause, adds the angle that the expensive fund probably won't
+  even win (~90% of active funds trail the index over 15 years), and closes on a
+  question ("What is that 1% actually buying?"). ~55.7s, media-dense (20 media /
+  2 black / 1 red thesis card "The fee is certain / The upside isn't"). Its own
+  footage under `public/drag/` — no asset shared with FeeReel or any other reel.
+  Media credits (Pexels, free license) — videos: an animated rising chart
+  (5849656), a clock face with a sweeping hand (7034335), a person reviewing
+  paperwork at a desk (6100900, closing beat). Photos: a magnifying glass over a
+  balance sheet (7821675), a banded stack of $100 bills (11341267), a hand
+  dropping a coin (35877869), an aerial forked road (8976192), a single coin on
+  wood (28103488), a hand on a stack of coins (6328873), gold coins spilling from
+  a jar (20843727), a short pile of gold coins (19673920), a brass balance scale
+  (6077861), a full-year wall calendar (6193140), a seedling in soil (17497507),
+  an empty numbered running track (6033939), a bar-chart illustration under a
+  magnifier (5842061), an hourglass with running sand (10180294), a hand turning
+  a dial (8180073), golden eggs in a nest (6625217), and a hand signing an
+  approval form (955393). **Unverified figures — verify before publishing:** the
+  $755K / $574K / ~$180K outcomes are illustrative compounding on a flat 7% gross
+  with the stated fees over 30 years, and "~90% of active funds trail the index
+  over 15 years" tracks the SPIVA-style finding — sanity-check the specifics.
+  **Twin note:** same topic as `FeeReel` — publish only one twin to a given
+  audience, scheduled apart.
 - **`SearsReel`** — "The everything store" (Sears invented mail-order retail a
   century before Amazon, then couldn't build the online version of itself
   because it would have undercut the stores that made the profit). ~43s,

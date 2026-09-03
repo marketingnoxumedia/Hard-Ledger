@@ -9,6 +9,7 @@ import {LaundromatReel, DURATION_IN_FRAMES as LAUNDROMAT_FRAMES} from './Laundro
 import {InflationReel, DURATION_IN_FRAMES as INFLATION_FRAMES} from './InflationReel';
 import {SciReel, DURATION_IN_FRAMES as SCI_FRAMES} from './SciReel';
 import {CertainReel, DURATION_IN_FRAMES as CERTAIN_FRAMES} from './CertainReel';
+import {DragReel, DURATION_IN_FRAMES as DRAG_FRAMES} from './DragReel';
 import {QuibiReel, DURATION_IN_FRAMES as QUIBI_FRAMES} from './QuibiReel';
 import {WasteReel, DURATION_IN_FRAMES as WASTE_FRAMES} from './WasteReel';
 import {LifetimeReel, DURATION_IN_FRAMES as LIFETIME_FRAMES} from './LifetimeReel';
@@ -163,6 +164,14 @@ export const RemotionRoot: React.FC = () => {
         id="CertainReel"
         component={CertainReel}
         durationInFrames={CERTAIN_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="DragReel"
+        component={DragReel}
+        durationInFrames={DRAG_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

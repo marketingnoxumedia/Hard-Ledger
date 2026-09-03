@@ -1431,3 +1431,24 @@
 5767251 certain/v_candle.mp4
 12551268 certain/p_flag.jpg
 37368966 certain/v_road.mp4
+# DragReel (The certain drag) — FeeReel A/B twin, media-dense (20 media/2 black/1 red)
+7821675 drag/p_wonder.jpg
+11341267 drag/p_hundredk.jpg
+35877869 drag/p_leak.jpg
+8976192 drag/p_twopaths.jpg
+28103488 drag/p_singlecoin.jpg
+6328873 drag/p_skim.jpg
+20843727 drag/p_tallstack.jpg
+19673920 drag/p_shortstack.jpg
+5849656 drag/v_chart.mp4
+6100900 drag/v_review.mp4
+6077861 drag/p_scale.jpg
+6193140 drag/p_calendar.jpg
+7034335 drag/v_clock.mp4
+17497507 drag/p_sprout.jpg
+6033939 drag/p_race.jpg
+5842061 drag/p_bars.jpg
+10180294 drag/p_hourglass.jpg
+8180073 drag/p_dial.jpg
+6625217 drag/p_nestegg.jpg
+955393 drag/p_stamp.jpg
