@@ -2313,6 +2313,29 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ($5K at ~21% ≈ 15+ yrs / ~$5K interest on the minimum vs ~2 yrs / ~$1,100 on a
   fixed $250) are standard minimum-payment math on stated assumptions — sanity-
   check the rate and minimum-payment formula before publishing.
+- **`HeirsReel`** — "Building vs keeping" (why so many family fortunes vanish
+  within three generations: the skill that BUILDS wealth — an individual feat of
+  earning, saving, investing, and compounding — and the skill that KEEPS it
+  across decades and many heirs — a coordination problem of governance,
+  discipline, and shared values — are almost opposites; creation rewards
+  concentration and risk, preservation rewards restraint, so the mindset that
+  makes a fortune won't automatically protect one). ~52s, question hook
+  ("Fortunes gone in 3 generations?") with a ~1.2s post-hook pause, red thesis
+  card "The mindset that makes it / won't protect it" mid-reel, and a question
+  close ("Harder to make it, or make it last?"). Media-dense (18 media / 2 black
+  / 1 red). Its own footage under `public/heirs/`. Media credits (Pexels, free
+  license) — videos: a seedling growing (30252372), a grandfather and child
+  walking a forest trail (10420165, closing beat). Photos: a grand mansion
+  (38255315), a hand laying brick (39325789), a safe-dial macro (35625441), an
+  aerial forked path (14240460), a campfire in snow (2004385), a lone cliff
+  silhouette (1533863), a family with an advisor at a table (8205336), a
+  multi-generation family hug (6148958), a handshake (6773401), a young hand on an
+  elderly hand (32768955), tossed dice (20502040), a ship's anchor (12069400), a
+  fan of cash held to the face (4968649), a decaying columned mansion (27568960),
+  hands cupping a seedling (5027798), and a watchmaker's hands (8327868).
+  **Conceptual — no hard figures to verify:** the only number is "three
+  generations," used as framing (the well-known "shirtsleeves to shirtsleeves"
+  pattern), not a precise statistic.
 - **`SearsReel`** — "The everything store" (Sears invented mail-order retail a
   century before Amazon, then couldn't build the online version of itself
   because it would have undercut the stores that made the profit). ~43s,

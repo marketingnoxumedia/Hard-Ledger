@@ -1508,3 +1508,22 @@
 38808472 minimum/p_downchart.jpg
 280277 minimum/p_clock.jpg
 6949983 minimum/v_scissors.mp4
+# HeirsReel (Building vs keeping) — original, media-dense (18 media/2 black/1 red)
+38255315 heirs/p_estate.jpg
+39325789 heirs/p_builder.jpg
+35625441 heirs/p_vault.jpg
+14240460 heirs/p_fork.jpg
+2004385 heirs/p_opposite.jpg
+1533863 heirs/p_solo.jpg
+30252372 heirs/v_growth.mp4
+8205336 heirs/p_meeting.jpg
+6148958 heirs/p_family.jpg
+6773401 heirs/p_handshake.jpg
+32768955 heirs/p_generations.jpg
+20502040 heirs/p_risk.jpg
+12069400 heirs/p_restraint.jpg
+4968649 heirs/p_spending.jpg
+27568960 heirs/p_erosion.jpg
+5027798 heirs/p_steward.jpg
+8327868 heirs/p_craft.jpg
+10420165 heirs/v_legacy.mp4
