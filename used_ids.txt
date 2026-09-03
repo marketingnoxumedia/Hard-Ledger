@@ -1452,3 +1452,21 @@
 8180073 drag/p_dial.jpg
 6625217 drag/p_nestegg.jpg
 955393 drag/p_stamp.jpg
+# MonthsReel (Cash buys time) — original, media-dense (17 media/2 black/1 red)
+10984775 months/p_closed.jpg
+269318 months/p_idea.jpg
+29521529 months/p_whiteboard.jpg
+8347237 months/v_emptyoffice.mp4
+9242916 months/p_prototype.jpg
+31711911 months/p_emptyshop.jpg
+910122 months/p_wallet.jpg
+13111767 months/p_deskmoney.jpg
+31599622 months/p_crowd.jpg
+6863247 months/p_jarempty.jpg
+12996956 months/p_fuelgauge.jpg
+8028798 months/v_compass.mp4
+30215686 months/p_latework.jpg
+1059381 months/p_calendar.jpg
+30923399 months/p_sunrise.jpg
+28271326 months/p_runway.jpg
+5637953 months/v_founder.mp4

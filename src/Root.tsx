@@ -10,6 +10,7 @@ import {InflationReel, DURATION_IN_FRAMES as INFLATION_FRAMES} from './Inflation
 import {SciReel, DURATION_IN_FRAMES as SCI_FRAMES} from './SciReel';
 import {CertainReel, DURATION_IN_FRAMES as CERTAIN_FRAMES} from './CertainReel';
 import {DragReel, DURATION_IN_FRAMES as DRAG_FRAMES} from './DragReel';
+import {MonthsReel, DURATION_IN_FRAMES as MONTHS_FRAMES} from './MonthsReel';
 import {QuibiReel, DURATION_IN_FRAMES as QUIBI_FRAMES} from './QuibiReel';
 import {WasteReel, DURATION_IN_FRAMES as WASTE_FRAMES} from './WasteReel';
 import {LifetimeReel, DURATION_IN_FRAMES as LIFETIME_FRAMES} from './LifetimeReel';
@@ -172,6 +173,14 @@ export const RemotionRoot: React.FC = () => {
         id="DragReel"
         component={DragReel}
         durationInFrames={DRAG_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="MonthsReel"
+        component={MonthsReel}
+        durationInFrames={MONTHS_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

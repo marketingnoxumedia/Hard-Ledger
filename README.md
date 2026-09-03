@@ -2245,6 +2245,28 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   over 15 years" tracks the SPIVA-style finding — sanity-check the specifics.
   **Twin note:** same topic as `FeeReel` — publish only one twin to a given
   audience, scheduled apart.
+- **`MonthsReel`** — "Cash buys time" (why ~half of new US businesses close
+  within five years — it's rarely a bad idea; the top causes are no market need
+  (~35%) and running out of cash (~38%); cash is really time/runway, and every
+  extra month is another chance for a wrong-for-now idea to find its market).
+  ~48s, question hook ("Why do half fail in five years?") with a ~1.2s post-hook
+  pause, red thesis card "Cash isn't safety / It's time" mid-tail, and a question
+  close ("Short of ideas, or months?"). Media-dense (17 media / 2 black / 1 red).
+  Its own footage under `public/months/`. Media credits (Pexels, free license) —
+  videos: an empty modern office (8347237), a hand holding a compass (8028798), a
+  founder looking out a window (5637953, closing beat). Photos: a closed shop's
+  roller shutter (10984775), a lightbulb (269318), a sticky-note planning wall
+  (29521529), a 3D-printed gear prototype (9242916), an empty cafe (31711911), an
+  empty wallet (910122), an hourglass beside coin stacks (13111767), shuttered
+  market stalls (31599622), a jar with the last coins spilling out (6863247), a
+  fuel gauge on empty (12996956), a person working late (30215686), a hand-drawn
+  month calendar (1059381), a dawn over the ocean (30923399), and a long empty
+  highway (28271326). **Unverified figures — verify before publishing:** "~half
+  of new businesses close within five years" (BLS-style survival data) and the
+  ~35% no-market-need / ~38% ran-out-of-cash split (CB-Insights-style
+  post-mortems) are widely cited but approximate — the causes overlap in the
+  source data (a failure can be counted under both), so they're "top reasons,"
+  not a clean partition. Sanity-check before publishing.
 - **`SearsReel`** — "The everything store" (Sears invented mail-order retail a
   century before Amazon, then couldn't build the online version of itself
   because it would have undercut the stores that made the profit). ~43s,
