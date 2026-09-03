@@ -1368,3 +1368,24 @@
 38164944 newcar/p_showroom.jpg
 30254179 newcar/v_luxury.mp4
 6942638 newcar/v_close.mp4
+# VaultReel (Safe vs growing) — GoldReel A/B twin, media-dense (20 media/2 black/1 red)
+31750573 vault/v_hook.mp4
+29336323 vault/p_goldbar.jpg
+7080470 vault/p_goldcoins.jpg
+25913209 vault/p_vault.jpg
+28892477 vault/p_antique.jpg
+7948045 vault/p_crisis.jpg
+29336321 vault/p_goldstack.jpg
+9648243 vault/p_goldpile.jpg
+7364046 vault/p_buyer.jpg
+15253932 vault/p_scale.jpg
+30445101 vault/v_marketchart.mp4
+6596225 vault/v_growth.mp4
+6266645 vault/v_compound.mp4
+5253412 vault/v_close.mp4
+5909815 vault/p_inflation.jpg
+6476254 vault/p_business.jpg
+31352672 vault/p_factory.jpg
+9226624 vault/p_twojobs.jpg
+18671240 vault/p_slow.jpg
+6676154 vault/p_horizon.jpg

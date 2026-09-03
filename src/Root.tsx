@@ -87,6 +87,7 @@ import {PremiumReel, DURATION_IN_FRAMES as PREMIUM_FRAMES} from './PremiumReel';
 import {ThroneReel, DURATION_IN_FRAMES as THRONE_FRAMES} from './ThroneReel';
 import {PoolReel, DURATION_IN_FRAMES as POOL_FRAMES} from './PoolReel';
 import {NewCarReel, DURATION_IN_FRAMES as NEWCAR_FRAMES} from './NewCarReel';
+import {VaultReel, DURATION_IN_FRAMES as VAULT_FRAMES} from './VaultReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -784,6 +785,14 @@ export const RemotionRoot: React.FC = () => {
         id="NewCarReel"
         component={NewCarReel}
         durationInFrames={NEWCAR_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="VaultReel"
+        component={VaultReel}
+        durationInFrames={VAULT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

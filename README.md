@@ -900,6 +900,46 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   long-run return studies but the exact endpoints depend on the index, dates,
   inflation series and assumptions — verify the specific numbers and cite the source
   before publishing; gold's real return in particular varies a lot by start/end date.
+- **`VaultReel`** — "Safe vs growing" (a ~55s reel; the **A/B twin of `GoldReel`** ("Store
+  of value"), same gold-vs-stocks store-of-value case but opening and closing on rhetorical
+  questions rather than declaratively). The asset people trust most to protect wealth is one
+  of the worst at growing it: since 1926, a dollar in gold is worth about $5 today (after
+  inflation) while the same dollar in stocks is worth about $1,081. Gold feels safe —
+  tangible, ancient, climbs in the crises people remember — but both figures are real, and
+  gold roughly held its value while stocks multiplied it hundreds of times. It isn't one
+  lucky stretch: gold earns nothing (no dividend; its only return is what the next buyer
+  pays), while stocks compound because the businesses underneath them reinvest and grow.
+  Safe and growing are two different jobs; confusing them is the quiet, expensive mistake —
+  over decades a store of value that barely grows just falls behind. Question hook ("...one
+  of the worst at growing it?") and a rhetorical question close ("for a 30-year goal:
+  something that sits, or something that compounds?"); a ~1.2s post-hook pause (the hook
+  holds through the silence before the reveal — house convention); two count-up stats ($5
+  gold vs $1,081 stocks), one red "Confusing them is expensive." `impact` card as the
+  mid-tail thesis, and the question close on footage (coins on dark wood) rather than the
+  red card. **Media-dense:** 20 of 23 beats carry footage, with only 2 flat-black beats
+  ("Not one lucky stretch.", "just falls behind.") plus the one red card. Continuous cloned
+  voiceover (+6% pace, normalized); durations on exact spoken-word timestamps; music
+  normalized and mixed at 0.17. Entirely its own fresh footage under `public/vault/` — no
+  asset shared with GoldReel or any other reel. Media credits (Pexels, free license) —
+  videos: coins cascading into a vault (31750573), a rising trading chart on a laptop
+  (30445101), wheatgrass sprouting from a pot (6596225), hands counting a growing cash stack
+  (6266645), and coins on dark wood for the close (5253412). Photos: a "999.9 fine" gold bar
+  on cash (29336323), gold coins on wood (7080470), numbered safe-deposit boxes (25913209),
+  antique coins in a display case (28892477), a red/green "stock report" screen (7948045), a
+  stack of 1000g gold bars (29336321), a heap of gold coins (9648243), a hand offering a
+  gold ingot (7364046), an antique balance scale (15253932), a pile of crumpled banknotes
+  (5909815), a team over business charts (6476254), factory press machines (31352672), two
+  contrasting front doors (9226624), a snail (18671240), and an hourglass (6676154).
+  **Brand-safety:** the reel names no company — footage is generic gold/finance imagery;
+  chart/screen shots were chosen without a dominant readable company name or brokerage logo
+  (a declining crypto-ticker screen, Bitcoin replica coins, and PERONI/GLOBAL INTERGOLD/MÜNZE
+  ÖSTERREICH/PAMP-marked bullion were rejected during sourcing). Confirm no stray ticker
+  reads as a single company before publishing. **Illustration / verify the figures:** the
+  ~$5-vs-$1,081 (a 1926 dollar to today, real) contrast reflects widely-cited long-run
+  return studies, but the exact endpoints depend on the index, dates, inflation series and
+  assumptions — verify the specific numbers and cite the source before publishing; gold's
+  real return in particular varies a lot by start/end date. Same topic as GoldReel — publish
+  only one twin to a given audience, and schedule apart.)
 - **`BordersReel`** — "The outsourced channel" (a ~62s reel on how Borders handed
   its future to Amazon: a book-retail giant looked at the internet, judged building
   an online store too expensive, and in 2001 handed its entire web business to a
