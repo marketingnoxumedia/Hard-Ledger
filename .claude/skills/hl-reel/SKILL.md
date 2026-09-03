@@ -160,6 +160,27 @@ of the final beat (see the closer note above); only the *phrasing* is fixed.
   set the highlight to include the mark (`highlights: ['smarter?']`) or pick a
   red word that isn't adjacent to the `?`.
 
+**3. No trailing dashes in on-screen captions (house rule — the client asks for
+this every reel).** A caption line that continues into the next beat is often
+written with a trailing em-dash or hyphen (e.g. `'So why did Borders|hand it
+away—'`, `'A promise made|to shareholders—'`). The dash reads fine in a script
+but looks like a typo on screen, and the client has asked to remove it on
+ThroneReel, NewCarReel, VaultReel, and VendorReel — so just don't ship it. When
+you write the `SCENES`:
+- **Drop any trailing `—`/`-` at the end of a caption line.** A mid-sentence
+  continuation needs no terminal punctuation — the next caption carries the
+  thought (and its `?`/`.`). `'hand it away—'` → `'hand it away'`. Do NOT
+  substitute a `?` or `.` the sentence doesn't actually end on.
+- **Keep intra-word hyphens** — real compound spellings render correctly and stay:
+  `E-commerce`, `book-retail`, `30-year`, `all-in`. Only the *trailing* dash goes.
+- Because the highlight matcher strips `. , — -` from a caption word before
+  comparing, removing a trailing dash never breaks an existing red highlight —
+  it's a pure on-screen cleanup. (Remember the separate hyphen gotcha, though: a
+  *highlight token* is matched against the stripped word, so a red word like
+  "30-year" needs `highlights: ['30year']`, not `['30-year']`.)
+- If you already rendered with a trailing dash, the fix is one caption edit +
+  re-render + re-compress + push — no timing or audio change.
+
 ## Build a new reel — step by step
 
 1. **Scaffold** (if not already a Remotion project): copy `reference/package.json`,
