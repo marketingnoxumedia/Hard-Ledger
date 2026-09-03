@@ -1527,3 +1527,24 @@
 5027798 heirs/p_steward.jpg
 8327868 heirs/p_craft.jpg
 10420165 heirs/v_legacy.mp4
+# SafeReel (Safe isn't risk-free) — original (idle cash vs inflation), media-dense (20 media/2 black/1 red)
+7821689 safe/p_balance.jpg
+16503709 safe/p_flatline.jpg
+26077633 safe/p_lowyield.jpg
+8058803 safe/p_pricetags.jpg
+16697108 safe/p_shrink.jpg
+7680483 safe/p_untouched.jpg
+32334240 safe/p_safebox.jpg
+39240106 safe/v_grocery.mp4
+5909820 safe/p_erode.jpg
+13668628 safe/p_smallpile.jpg
+34547571 safe/p_mirror.jpg
+35317730 safe/p_fog.jpg
+18874311 safe/p_calmchart.jpg
+7527875 safe/p_sand.jpg
+39183702 safe/p_snowball.jpg
+5357833 safe/p_umbrella.jpg
+6694561 safe/p_wallet.jpg
+7504584 safe/p_calendar.jpg
+36463257 safe/p_downhill.jpg
+7125823 safe/v_review.mp4

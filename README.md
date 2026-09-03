@@ -2336,6 +2336,32 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   **Conceptual — no hard figures to verify:** the only number is "three
   generations," used as framing (the well-known "shirtsleeves to shirtsleeves"
   pattern), not a precise statistic.
+- **`SafeReel`** — "Safe isn't risk-free" (idle cash quietly loses buying power
+  to inflation even though the account balance never drops: a ~0.5% account with
+  ~3% inflation loses about 2.5% of its purchasing power a year — a negative real
+  return, with nobody withdrawing a cent; because the number never drops the loss
+  is invisible, compounding into a real loss). Nominal safety isn't real safety —
+  cash guards you from a market dip but exposes you to inflation, right for money
+  you need soon, costly for money you keep for years. ~56.6s, question hook ("Your
+  money loses value — but the number never drops?") with a ~1.2s post-hook pause,
+  red thesis card "Safe / Not risk-free" mid-tail, and a question close ("What is
+  'safe' money quietly costing you?"). Media-dense (20 media / 2 black / 1 red).
+  Its own footage under `public/safe/`. Media credits (Pexels, free license) —
+  videos: a supermarket-aisle POV (39240106), a man reviewing papers (7125823,
+  closing beat). Photos: a balance-sheet under a magnifier (7821689), abstract
+  flat neon lines (16503709), a one-cent penny (26077633), blank price tags
+  (8058803), a deflating balloon (16697108), cash tucked in a jar (7680483), a
+  home safe (32334240), a torn banknote (5909820), a small pile of bills
+  (13668628), autumn trees mirrored in a lake (34547571), a figure walking into
+  fog (35317730), an abstract green step field (18874311), sand running through
+  fingers (7527875), a snow roller (39183702), a woman under an umbrella
+  (5357833), a hand offering cash (6694561), a year wall-planner (7504584), and a
+  descending staircase (36463257). **Illustrative figures — verify before
+  publishing:** the 0.5% yield / 3% inflation / ~2.5% real-loss example is
+  round-number arithmetic on stated assumptions, not a claim about any specific
+  account or period (real cash returns vary by year). **Theme note:** same
+  idle-cash-vs-inflation theme as `MattressReel` and `InflationReel` — publish
+  only one of the three to a given audience.
 - **`SearsReel`** — "The everything store" (Sears invented mail-order retail a
   century before Amazon, then couldn't build the online version of itself
   because it would have undercut the stores that made the profit). ~43s,

@@ -14,6 +14,7 @@ import {MonthsReel, DURATION_IN_FRAMES as MONTHS_FRAMES} from './MonthsReel';
 import {MajorReel, DURATION_IN_FRAMES as MAJOR_FRAMES} from './MajorReel';
 import {MinimumReel, DURATION_IN_FRAMES as MINIMUM_FRAMES} from './MinimumReel';
 import {HeirsReel, DURATION_IN_FRAMES as HEIRS_FRAMES} from './HeirsReel';
+import {SafeReel, DURATION_IN_FRAMES as SAFE_FRAMES} from './SafeReel';
 import {QuibiReel, DURATION_IN_FRAMES as QUIBI_FRAMES} from './QuibiReel';
 import {WasteReel, DURATION_IN_FRAMES as WASTE_FRAMES} from './WasteReel';
 import {LifetimeReel, DURATION_IN_FRAMES as LIFETIME_FRAMES} from './LifetimeReel';
@@ -208,6 +209,14 @@ export const RemotionRoot: React.FC = () => {
         id="HeirsReel"
         component={HeirsReel}
         durationInFrames={HEIRS_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="SafeReel"
+        component={SafeReel}
+        durationInFrames={SAFE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
