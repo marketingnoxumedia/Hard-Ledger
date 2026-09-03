@@ -1389,3 +1389,25 @@
 9226624 vault/p_twojobs.jpg
 18671240 vault/p_slow.jpg
 6676154 vault/p_horizon.jpg
+# VendorReel (The vendor trap) — BordersReel A/B twin, media-dense (21 media/2 black/1 red)
+8567117 vendor/v_hook.mp4
+8441789 vendor/p_handover.jpg
+2553427 vendor/p_aisle.jpg
+15898141 vendor/p_store.jpg
+29976380 vendor/p_books.jpg
+1581692 vendor/p_nodigital.jpg
+7433853 vendor/p_boardroom.jpg
+38821173 vendor/p_losschart.jpg
+6214471 vendor/p_laptop.jpg
+6347550 vendor/p_customer.jpg
+37730212 vendor/p_data.jpg
+8937986 vendor/v_online.mp4
+16971219 vendor/v_warehouse.mp4
+7855144 vendor/v_close.mp4
+6580389 vendor/p_empty.jpg
+8815843 vendor/p_deal.jpg
+5414058 vendor/p_closed.jpg
+8532289 vendor/p_future.jpg
+14775626 vendor/p_shoppers.jpg
+38984817 vendor/p_learn.jpg
+3184459 vendor/p_vendor.jpg

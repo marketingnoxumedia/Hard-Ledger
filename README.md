@@ -979,6 +979,48 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (Note: shares the "incumbent killed by the digital shift" theme with
   `BlockbusterReel`, `KodakReel` and `SearsReel` — schedule them apart; each uses
   entirely separate footage.)
+- **`VendorReel`** — "The vendor trap" (a ~59s reel; the **A/B twin of `BordersReel`** ("The
+  outsourced channel"), same Borders-outsourced-to-Amazon case but opening and closing on
+  rhetorical questions rather than declaratively). A bookstore giant didn't just lose to a
+  better rival — in the early 2000s Borders had no digital arm of its own and handed its
+  entire online store to Amazon. Outsourcing looked like prudence, not surrender: e-commerce
+  was lossmaking, Amazon's platform already worked, and the deal gave Borders an online
+  presence for nothing. But what it quietly handed over was the customer and the purchase
+  data — the two assets that would decide the next decade — so Borders never built its own
+  online muscle, customers or data, and when shopping moved online for good it had nothing to
+  stand on. It handed its digital future to a rival in 2001 and filed for bankruptcy in 2011.
+  Don't outsource the future: give a rival the channel about to matter most and you hand over
+  your customers and everything you'd have learned. Question hook ("...why did Borders hand
+  its entire online store to Amazon, years before it collapsed?") and a rhetorical question
+  close ("who's really building the business — them, or the vendor?"); a ~1.2s post-hook
+  pause (the hook holds through the silence before the reveal — house convention); the punch
+  is the 2001 → 2011 year contrast in big type (no count-up stat), one red "The two assets
+  that decide it all." `impact` card as the mid-tail thesis, and the question close on
+  footage (packing up) rather than the red card. **Media-dense:** 21 of 24 beats carry
+  footage, with only 2 flat-black beats ("Borders built none of it.", "Nothing left to stand
+  on.") plus the one red card. Continuous cloned voiceover (+6% pace, normalized); durations
+  on exact spoken-word timestamps; music normalized and mixed at 0.17. Entirely its own fresh
+  footage under `public/vendor/` — no asset shared with BordersReel or any other reel. Media
+  credits (Pexels, free license) — videos: a moody library aisle (8567117), hands browsing a
+  listings site on a laptop (8937986), a fulfillment warehouse with racking (16971219), and
+  someone wrapping/packing an item (7855144). Photos: a business handshake (8441789), a
+  second-hand bookstore aisle (2553427), a bookshop interior (15898141), a wall of books
+  (29976380), an antique brass cash register (1581692), two executives in a boardroom
+  (7433853), a red descending candlestick chart (38821173), a "shop now" e-commerce laptop
+  (6214471), a shopper with a plain tote (6347550), a data-center server rack (37730212),
+  bare emptied shelves (6580389), a contract being signed (8815843), a "sorry we're closed"
+  sign (5414058), a dark road to the mountains (8532289), a motion-blur crowd of shoppers
+  (14775626), a fictional analytics dashboard (38984817), and a freelancer at a laptop
+  (3184459). **Brand-safety:** the reel names Borders and Amazon in voiceover only — all
+  footage is generic, with no Borders or Amazon logos/boxes/signage and no other readable
+  brand marks. Heavy screening was needed: rejected during sourcing were the literal
+  Amazon.com storefront, Apple/Nike/Citi checkout screens, TESLA/TSLA/MRNA tickers, an
+  adidas "closed" sign, Uncle Ben's and other product/mall-brand signage (Mackage, kate
+  spade, BOSS), foreign-language book titles, and boxes with readable supplier logos +
+  plates. Confirm no stray brand marks before publishing. **Real companies/dates — verify:**
+  the Borders outsourcing-to-Amazon deal (2001) and Borders' bankruptcy (2011) are real
+  events rendered as written; double-check the specifics and framing before publishing. Same
+  topic as BordersReel — publish only one twin to a given audience, and schedule apart.)
 - **`RevenueReel`** — "Not all revenue is good" (a ~58s reel on why a company would
   deliberately shed paying customers and make more money once they leave: every
   customer carries a cost to serve — support, returns, discounts, rework — and for
