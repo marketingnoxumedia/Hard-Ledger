@@ -102,7 +102,7 @@ type SceneDef = {
 // varies a lot by start/end date.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 107, kind: 'hook', text: 'The asset you trust|to protect wealth—', kicker: 'Safe vs growing', highlights: ['protect'], size: 82, media: {src: 'vault/v_hook.mp4', type: 'video', effect: 'in'}},
+  {dur: 107, kind: 'hook', text: 'The asset you trust|to protect wealth', kicker: 'Safe vs growing', highlights: ['protect'], size: 82, media: {src: 'vault/v_hook.mp4', type: 'video', effect: 'in'}},
   // Short ~1.2s pause after the hook QUESTION (house convention): 36 frames of silence are spliced
   // into the VO right after "...worst at growing it?", and this beat holds through it (79 -> 115).
   {dur: 115, kind: 'text', text: 'is the worst|at growing it?', highlights: ['growing'], size: 88, media: {src: 'vault/p_goldbar.jpg', type: 'img', effect: 'in'}},
@@ -111,7 +111,7 @@ const SCENES: SceneDef[] = [
   {dur: 38, kind: 'text', text: 'Gold feels|safe.', highlights: ['safe'], size: 100, media: {src: 'vault/p_vault.jpg', type: 'img', effect: 'in'}},
   {dur: 68, kind: 'text', text: 'Tangible.|Ancient.', highlights: ['ancient'], size: 96, media: {src: 'vault/p_antique.jpg', type: 'img', effect: 'in'}},
   {dur: 77, kind: 'text', enter: 'slideL', text: 'It climbs in|every crisis.', highlights: ['crisis'], size: 86, media: {src: 'vault/p_crisis.jpg', type: 'img', effect: 'in'}},
-  {dur: 55, kind: 'text', text: 'Both — after|inflation.', highlights: ['inflation'], size: 90, media: {src: 'vault/p_inflation.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', text: 'Both, after|inflation.', highlights: ['inflation'], size: 90, media: {src: 'vault/p_inflation.jpg', type: 'img', effect: 'in'}},
   {dur: 71, kind: 'text', text: 'Gold: a dollar|into five.', highlights: ['five'], size: 88, media: {src: 'vault/p_goldstack.jpg', type: 'img', effect: 'in'}},
   {dur: 78, kind: 'text', enter: 'slideL', text: 'Stocks: past|a thousand.', highlights: ['thousand'], size: 88, media: {src: 'vault/v_growth.mp4', type: 'video', effect: 'in'}},
   {dur: 61, kind: 'text', text: 'One held.|One multiplied.', highlights: ['multiplied'], size: 84, media: {src: 'vault/p_scale.jpg', type: 'img', effect: 'in'}},
@@ -123,9 +123,9 @@ const SCENES: SceneDef[] = [
   {dur: 78, kind: 'text', text: 'One sits.|The other works.', highlights: ['works'], size: 88, media: {src: 'vault/p_factory.jpg', type: 'img', effect: 'in'}},
   {dur: 66, kind: 'text', enter: 'slideL', text: 'Safe and growing:|two jobs.', highlights: ['two'], size: 84, media: {src: 'vault/p_twojobs.jpg', type: 'img', effect: 'in'}},
   {dur: 56, kind: 'impact', text: 'Confusing them|is expensive.', redBg: true},
-  {dur: 94, kind: 'text', text: 'A store that|barely grows—', highlights: ['barely'], size: 84, media: {src: 'vault/p_slow.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', text: 'A store that|barely grows', highlights: ['barely'], size: 84, media: {src: 'vault/p_slow.jpg', type: 'img', effect: 'in'}},
   {dur: 58, kind: 'text', text: 'just falls|behind.', highlights: ['behind'], size: 96},
-  {dur: 66, kind: 'text', enter: 'slideL', text: 'For a 30-year|goal—', highlights: ['30year'], size: 90, media: {src: 'vault/p_horizon.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', enter: 'slideL', text: 'For a 30-year|goal.', highlights: ['30year'], size: 90, media: {src: 'vault/p_horizon.jpg', type: 'img', effect: 'in'}},
   {dur: 84, kind: 'text', enter: 'zoom', text: 'sit, or|compound?', highlights: ['compound?'], size: 100, media: {src: 'vault/v_close.mp4', type: 'video', effect: 'in'}},
 ];
 
