@@ -2267,6 +2267,30 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   post-mortems) are widely cited but approximate — the causes overlap in the
   source data (a failure can be counted under both), so they're "top reasons,"
   not a clean partition. Sanity-check before publishing.
+- **`MajorReel`** — "What you study" (a myth-bust: two people with the same
+  degree can end up millions apart in lifetime earnings because the field of
+  study — the major — not the credential, sets the path; the gap between the
+  highest- and lowest-paying majors runs into the millions, wider than the gap
+  between degree and no degree). ~55s, question hook ("Two people, same degree —
+  millions apart?") with a ~1.2s post-hook pause, red thesis card "The field /
+  Not the diploma" mid-reel, and a question close ("Which decision actually
+  mattered?"). Media-dense (18 media / 2 black / 1 red). Its own footage under
+  `public/major/`. Media credits (Pexels, free license) — videos: students
+  crossing a campus lawn (7683346), a packed lecture hall (37451040), a person
+  walking to a fork in a path (16739537, closing beat). Photos: silhouetted
+  graduates at sunset (8093042), an unequal coin-stack gap (730647), a
+  ribbon-tied diploma (12794087), a stack of plain-spine books (11911071), a pay
+  envelope with cash (11327902), a numbered finish-line track (32255498),
+  chemistry flasks (8539752), an engineer over blueprints (6285159), a welder
+  (22863131), a tape measure (4919433), a heap of banded dollar bundles (259132),
+  a ladder against sky (30696818), a student's hands writing (7128758), a
+  blank-arrow signpost (2801126), and an orange cut in half (6517121).
+  **Unverified claims — verify before publishing:** "same degree, millions
+  apart," "an engineering bachelor's can out-earn the typical master's," "some
+  bachelor's paths trail a high-school diploma," and "the highest-vs-lowest major
+  gap runs into the millions, wider than degree vs no degree" track widely-cited
+  lifetime-earnings-by-major research (Georgetown CEW-style) but are directional
+  — sanity-check the specifics before publishing.
 - **`SearsReel`** — "The everything store" (Sears invented mail-order retail a
   century before Amazon, then couldn't build the online version of itself
   because it would have undercut the stores that made the profit). ~43s,

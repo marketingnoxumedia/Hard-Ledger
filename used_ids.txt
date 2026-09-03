@@ -1470,3 +1470,22 @@
 30923399 months/p_sunrise.jpg
 28271326 months/p_runway.jpg
 5637953 months/v_founder.mp4
+# MajorReel (What you study) — original myth-bust, media-dense (18 media/2 black/1 red)
+8093042 major/p_grads.jpg
+730647 major/p_gap.jpg
+12794087 major/p_diploma.jpg
+11911071 major/p_books.jpg
+7683346 major/v_campus.mp4
+11327902 major/p_paychecks.jpg
+32255498 major/p_finishline.jpg
+8539752 major/p_lab.jpg
+6285159 major/p_engineer.jpg
+22863131 major/p_tradework.jpg
+4919433 major/p_ruler.jpg
+37451040 major/v_lecture.mp4
+259132 major/p_millions.jpg
+30696818 major/p_ladders.jpg
+7128758 major/p_study.jpg
+2801126 major/p_signpost.jpg
+6517121 major/p_halves.jpg
+16739537 major/v_crossroads.mp4
