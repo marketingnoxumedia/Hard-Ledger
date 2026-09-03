@@ -102,13 +102,13 @@ type SceneDef = {
 // make, model, mileage, condition and market. Present as a general illustration, not a guarantee.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 79, kind: 'hook', text: 'The priciest year|of a new car?', kicker: 'The new-car tax', highlights: ['priciest'], size: 88, media: {src: 'newcar/v_hook.mp4', type: 'video', effect: 'in'}},
+  // Short ~1.2s pause after the hook QUESTION (house convention): 36 frames of silence are spliced
+  // into the VO right after "...owning a new car?", and this hook beat holds through it (79 -> 115).
+  {dur: 115, kind: 'hook', text: 'The priciest year|of a new car?', kicker: 'The new-car tax', highlights: ['priciest'], size: 88, media: {src: 'newcar/v_hook.mp4', type: 'video', effect: 'in'}},
   {dur: 40, kind: 'text', text: "It's the|first one.", highlights: ['first'], size: 96, media: {src: 'newcar/p_first.jpg', type: 'img', effect: 'in'}},
   {dur: 53, kind: 'text', enter: 'slideL', text: 'A $40k car—', highlights: ['$40k'], size: 100, media: {src: 'newcar/p_lot.jpg', type: 'img', effect: 'in'}},
   {dur: 79, kind: 'text', text: 'worth $32k|in a year.', highlights: ['$32k'], size: 92, media: {src: 'newcar/p_worth.jpg', type: 'img', effect: 'in'}},
-  // Short ~1.2s pause after the hook (house convention): 36 frames of silence are spliced into the
-  // VO right after "...into a wall.", and this beat holds through it (47 -> 83).
-  {dur: 83, kind: 'text', text: 'Nobody drove it|into a wall.', highlights: ['nobody'], size: 90, media: {src: 'newcar/v_wall.mp4', type: 'video', effect: 'in'}},
+  {dur: 47, kind: 'text', text: 'Nobody drove it|into a wall.', highlights: ['nobody'], size: 90, media: {src: 'newcar/v_wall.mp4', type: 'video', effect: 'in'}},
   {dur: 113, kind: 'text', text: 'It sheds a fifth|in year one.', highlights: ['fifth'], size: 84, media: {src: 'newcar/v_road.mp4', type: 'video', effect: 'in'}},
   {dur: 105, kind: 'text', enter: 'slideL', text: 'Faster than fuel|or repairs.', highlights: ['faster'], size: 82, media: {src: 'newcar/p_fuel.jpg', type: 'img', effect: 'in'}},
   {dur: 73, kind: 'text', text: 'Drive it|off the lot—', highlights: ['drive'], size: 92, media: {src: 'newcar/p_driveoff.jpg', type: 'img', effect: 'in'}},
@@ -132,8 +132,8 @@ const SCENES: SceneDef[] = [
 ];
 
 // Sound-effect cues (frame, file, gain). Placed on key beats, not every cut.
-// NOTE: a 36-frame (~1.2s) pause is spliced after the hook (at frame ~251), so cues from the
-// reveal (frame 334) on are already on the post-pause timeline.
+// NOTE: a 36-frame (~1.2s) pause is spliced after the hook question (at frame ~79), so every cue
+// below is already on the post-pause timeline.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 334, src: 'media/sfx_whoosh.mp3', vol: 0.4},    // reveal after the pause ("It sheds a fifth")
