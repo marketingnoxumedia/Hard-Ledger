@@ -98,6 +98,7 @@ import {VaultReel, DURATION_IN_FRAMES as VAULT_FRAMES} from './VaultReel';
 import {VendorReel, DURATION_IN_FRAMES as VENDOR_FRAMES} from './VendorReel';
 import {RealReel, DURATION_IN_FRAMES as REAL_FRAMES} from './RealReel';
 import {WantedReel, DURATION_IN_FRAMES as WANTED_FRAMES} from './WantedReel';
+import {AutopayReel, DURATION_IN_FRAMES as AUTOPAY_FRAMES} from './AutopayReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -883,6 +884,14 @@ export const RemotionRoot: React.FC = () => {
         id="WantedReel"
         component={WantedReel}
         durationInFrames={WANTED_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="AutopayReel"
+        component={AutopayReel}
+        durationInFrames={AUTOPAY_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

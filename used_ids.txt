@@ -1589,3 +1589,19 @@
 3184327 wanted/p_teamwork.jpg
 1002703 wanted/p_growth.jpg
 5534473 wanted/v_reflect.mp4
+# AutopayReel (The autopay trap) — A/B twin of DriftReel (forgotten subscriptions), media-dense (15 media/2 black/1 red)
+38466607 autopay/p_remote.jpg
+37669736 autopay/p_facedown.jpg
+5635111 autopay/p_calendar10.jpg
+6963017 autopay/p_investjar.jpg
+4106935 autopay/v_drain.mp4
+5393415 autopay/p_dust.jpg
+401213 autopay/p_plantcoins.jpg
+12198528 autopay/p_twojars.jpg
+6590620 autopay/p_banknote.jpg
+3616891 autopay/p_card.jpg
+6747066 autopay/v_compound.mp4
+11873897 autopay/p_hourglass.jpg
+8018103 autopay/p_smallcoins.jpg
+10124559 autopay/p_fork.jpg
+32789559 autopay/v_reflect.mp4

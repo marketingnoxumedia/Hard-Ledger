@@ -248,6 +248,31 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$3,300/year, ~4 in 10 with an unused subscription — echo West Monroe and
   similar surveys and are rendered as written; confirm the sources and current
   figures before publishing.
+- **`AutopayReel`** — "The autopay trap" (A/B twin of `DriftReel`: where
+  `DriftReel`/`PhantomReel` land on the perception gap — you spend more on
+  subscriptions than you think — this cut leads on the compounding OPPORTUNITY
+  COST of one forgotten $50/mo sub over ten years: you pay in $6,000 for access
+  you barely use, versus ~$8,700 if that same $50 were invested at an assumed 7%;
+  the charge drifts out on autopay, felt month to month by no one, which is why a
+  decade slips by unexamined — the point isn't to cancel everything, only to
+  choose where the money goes). ~45.3s, question hook ("A forgotten $50 sub —
+  what's a decade cost?") with a ~1.2s post-hook pause, two count-up stat beats
+  ($6,000 paid / ~$8,700 compounded), the red "Small / Recurring" `impact` card
+  mid-tail, and a question close ("Which one would you actually miss?").
+  Media-dense (15 media / 2 black / 1 red). Its own footage under
+  `public/autopay/`. Media credits (Pexels, free license) — videos: water
+  draining in a sink (4106935), US coins accumulating (6747066), and a lone man
+  sitting pensively (32789559, closing beat). Photos: a TV remote on a blanket
+  (38466607), a face-down phone (37669736), a wall calendar (5635111), hands on a
+  calculator (6963017), a dusty old keyboard (5393415), a seedling in soil
+  (401213), ascending coin stacks (12198528), a US $50 bill (6590620), a blank
+  card in hand (3616891), an hourglass (11873897), a pile of US coins (8018103),
+  and a forked forest trail (10124559). **Illustrative figures — verify before
+  publishing:** the $50/mo, 7% return, $6,000-paid and ~$8,700-compounded numbers
+  are round-number arithmetic on stated assumptions, not a claim about any
+  specific product or period; real returns vary by year. **Theme note:** same
+  forgotten-subscription case as `DriftReel` and `PhantomReel` — publish only one
+  subscription reel to a given audience.
 - **`DrawReel`** — "The rate, not the balance" (a ~51s reel on the retirement
   withdrawal-rate rule: two people retire with the same million dollars — one never
   runs out, the other goes broke, on the same balance and the same markets. The only
