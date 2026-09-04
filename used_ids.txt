@@ -1548,3 +1548,23 @@
 7504584 safe/p_calendar.jpg
 36463257 safe/p_downhill.jpg
 7125823 safe/v_review.mp4
+# RealReel (Nominal vs real) — A/B twin of SafeReel (idle cash vs inflation), media-dense (19 media/2 black/1 red)
+11624906 real/p_cashstack.jpg
+38764230 real/p_coin.jpg
+7986975 real/p_prices.jpg
+3675620 real/p_meltcoin.jpg
+164527 real/p_stash.jpg
+7828324 real/p_piggy.jpg
+145683 real/p_vaultdoor.jpg
+5924970 real/v_shopping.mp4
+4386370 real/p_dissolve.jpg
+18671201 real/p_reflection.jpg
+1367192 real/p_hidden.jpg
+33639667 real/p_flatgreen.jpg
+1178684 real/p_hourglass.jpg
+15505900 real/p_stairsdown.jpg
+3581959 real/p_shield.jpg
+915915 real/p_purse.jpg
+273011 real/p_yearplanner.jpg
+35118242 real/p_declineline.jpg
+8087768 real/v_thinking.mp4

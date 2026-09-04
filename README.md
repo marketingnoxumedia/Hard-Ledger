@@ -2362,6 +2362,32 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   account or period (real cash returns vary by year). **Theme note:** same
   idle-cash-vs-inflation theme as `MattressReel` and `InflationReel` — publish
   only one of the three to a given audience.
+- **`RealReel`** — "Nominal vs real" (A/B twin of `SafeReel`: cash isn't the
+  risk-free choice it looks like — an account paying ~0.5% while prices rise ~3%
+  loses about 2.5% of its buying power a year, a negative real return, even though
+  nobody withdrew a cent and the balance never falls; because the number holds,
+  the loss is invisible, compounding into a real loss). Nominal safety isn't real
+  safety — cash guards a market dip but exposes you to inflation, right for money
+  you need soon, costly for money you keep for years. ~50.7s, challenge hook ("You
+  think cash is risk-free. So why does an account paying 0.5%, while prices rise 3,
+  lose about 2.5% of its buying power a year?") with a ~1.2s post-hook pause, red
+  thesis card "Safe / Not risk-free" mid-tail, and a question close ("What is
+  'safe' money quietly costing you?"). Media-dense (19 media / 2 black / 1 red).
+  Its own footage under `public/real/`. Media credits (Pexels, free license) —
+  videos: unbranded studio mini shopping carts (5924970), a pensive older man at a
+  window (8087768, closing beat). Photos: a fan of $100 bills (11624906), a
+  quarter-dollar macro (38764230), red sale tags (7986975), melting ice cubes
+  (3675620), rolled banknotes (164527), a red piggy bank (7828324), a steel chain
+  link (145683), a fan of $20 bills (4386370), a brick building mirrored in water
+  (18671201), a misty forest (1367192), abstract green lines (33639667), an
+  hourglass (1178684), a descending spiral staircase (15505900), an umbrella
+  silhouette in rain (3581959), a leather wallet with bills (915915), a monthly
+  calendar grid (273011), and a downward candlestick chart (35118242).
+  **Illustrative figures — verify before publishing:** the 0.5% yield / 3%
+  inflation / ~2.5% real-loss example is round-number arithmetic on stated
+  assumptions, not a claim about any specific account or period. **Theme note:**
+  same idle-cash-vs-inflation theme as `SafeReel`, `MattressReel` and
+  `InflationReel` — publish only one of the four to a given audience.
 - **`SearsReel`** — "The everything store" (Sears invented mail-order retail a
   century before Amazon, then couldn't build the online version of itself
   because it would have undercut the stores that made the profit). ~43s,
