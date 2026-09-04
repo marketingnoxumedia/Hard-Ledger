@@ -2267,6 +2267,30 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   post-mortems) are widely cited but approximate — the causes overlap in the
   source data (a failure can be counted under both), so they're "top reasons,"
   not a clean partition. Sanity-check before publishing.
+- **`WantedReel`** — "Why startups fail" (A/B twin of `MonthsReel`, myth-bust
+  framing: hindsight rewrites a failed startup into "the idea was obviously bad,"
+  but studied up close the top two causes are no market need ~35% and running out
+  of cash ~38% — being beaten by a rival ranks lower; survival is confirming real
+  demand and protecting the runway that buys time to learn; ideas are cheap,
+  proven demand and cash are the whole game). ~47.4s, question hook ("Want to know
+  why most startups fail?") with a ~1.2s post-hook pause held on the hook beat,
+  red thesis card "Rarely / the idea" mid-tail, and a question close ("What were
+  those failed founders really missing?"). Media-dense (20 media / 2 black / 1
+  red). Its own footage under `public/wanted/`. Media credits (Pexels, free
+  license) — videos: shoppers buying at a market (5701054), a founder reflecting
+  at a window (5534473, closing beat). Photos: a founder working late (12899129),
+  a glowing lightbulb (3217852), an empty pocket with a few coins (7927424),
+  stacked unsold boxes (20187073), a rear-view mirror (8811463), soft-focus
+  newsprint (5138716), a magnifier over a metrics sheet (7947749), an empty cafe
+  (7934522), a short stack of coins (19266676), an arm-wrestle (7322494), a dark
+  empty office (9331582), unsold cardboard stock (12354555), an empty piggy bank
+  (4146006), a chalkboard of equations (6238050), a long empty road (9175181), a
+  wall of blank sticky notes (6991363), a team collaborating (3184327), a green
+  seedling (1002703). **Unverified figures — verify before publishing:** the ~35%
+  no-market-need / ~38% ran-out-of-cash split (CB-Insights-style post-mortems) is
+  widely cited but approximate and the causes overlap in the source data (a
+  failure can be counted under both). **Theme note:** same why-startups-fail case
+  as `MonthsReel` — publish only one of the two to a given audience.
 - **`MajorReel`** — "What you study" (a myth-bust: two people with the same
   degree can end up millions apart in lifetime earnings because the field of
   study — the major — not the credential, sets the path; the gap between the

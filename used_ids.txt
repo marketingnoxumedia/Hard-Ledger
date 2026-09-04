@@ -1568,3 +1568,24 @@
 273011 real/p_yearplanner.jpg
 35118242 real/p_declineline.jpg
 8087768 real/v_thinking.mp4
+# WantedReel (Why startups fail) — A/B twin of MonthsReel (myth-bust: it's rarely the idea), media-dense (20 media/2 black/1 red)
+12899129 wanted/p_founder.jpg
+3217852 wanted/p_lightbulb.jpg
+7927424 wanted/p_emptywallet.jpg
+20187073 wanted/p_emptyshelf.jpg
+8811463 wanted/p_rearview.jpg
+5138716 wanted/p_headline.jpg
+7947749 wanted/p_microscope.jpg
+7934522 wanted/p_nocustomers.jpg
+19266676 wanted/p_coins.jpg
+5701054 wanted/v_market.mp4
+7322494 wanted/p_rival.jpg
+9331582 wanted/p_calm.jpg
+12354555 wanted/p_unsoldstock.jpg
+4146006 wanted/p_zerobank.jpg
+6238050 wanted/p_brainstorm.jpg
+9175181 wanted/p_runway.jpg
+6991363 wanted/p_stickynotes.jpg
+3184327 wanted/p_teamwork.jpg
+1002703 wanted/p_growth.jpg
+5534473 wanted/v_reflect.mp4
