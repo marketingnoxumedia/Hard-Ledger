@@ -2340,6 +2340,30 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   gap runs into the millions, wider than degree vs no degree" track widely-cited
   lifetime-earnings-by-major research (Georgetown CEW-style) but are directional
   — sanity-check the specifics before publishing.
+- **`TuitionReel`** — "The tuition trap" (A/B twin of `MajorReel`: where
+  `MajorReel` argues "what you study matters more than that you studied," this cut
+  leads on the COST side — real, inflation-adjusted tuition is about 3x its 1980
+  level while real wages barely moved, so a summer job that once funded a year of
+  college now takes years of debt; that gap became the trillions in student debt,
+  and a degree is an investment whose price and return both swing hugely by field
+  — borrow $30K for an $80K job vs $120K for a $40K one). ~42.3s, question hook
+  ("Why won't a summer job cover tuition now?") with a ~1.2s post-hook pause, a 3x
+  count-up stat, red "Trillions / Student debt" card mid-tail, and a question
+  close ("What is a degree worth now?"). Media-dense (16 media / 2 black / 1 red).
+  Its own footage under `public/tuition/`. Media credits (Pexels, free license) —
+  videos: a rising paper-cutout bar chart (5839005), an aerial of diverging trails
+  (32600359), a graduate on steps (7712279, closing beat). Photos: a gothic
+  university quad (29737876), a flat sea horizon (14635958), a blank receipt roll
+  (9755391), a lawnmower at golden hour (6728919), a student with a loaded
+  backpack (5538594), an empty lecture hall (356065), a typewriter typing "salary
+  check" (5198201), a person counting cash over financial papers (6693644),
+  ribbon-tied diplomas (7942430), a brass balance scale (13208025), a confident
+  professional (36819484), a person stressed over bills (6964351), and a hand
+  signing a form (955394). **Illustrative figures — verify before publishing:**
+  "~3x real tuition since 1980," "real wages barely moved," "trillions in student
+  debt," and the $30K/$80K vs $120K/$40K ROI pairs are directional, widely-cited
+  framing, not a single audited dataset. **Theme note:** same college-value case
+  as `MajorReel` — publish only one college reel to a given audience.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

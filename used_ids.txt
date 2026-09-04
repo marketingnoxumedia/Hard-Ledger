@@ -1605,3 +1605,20 @@
 8018103 autopay/p_smallcoins.jpg
 10124559 autopay/p_fork.jpg
 32789559 autopay/v_reflect.mp4
+# TuitionReel (The tuition trap) — A/B twin of MajorReel (college value / cost tripled since 1980), media-dense (16 media/2 black/1 red)
+29737876 tuition/p_campus.jpg
+5839005 tuition/v_risingchart.mp4
+14635958 tuition/p_flatline.jpg
+9755391 tuition/p_receipt.jpg
+6728919 tuition/p_summerjob.jpg
+5538594 tuition/p_backpack.jpg
+356065 tuition/p_lecturehall.jpg
+5198201 tuition/p_paystub.jpg
+6693644 tuition/p_loanform.jpg
+7942430 tuition/p_diploma.jpg
+13208025 tuition/p_scale.jpg
+32600359 tuition/v_paths.mp4
+36819484 tuition/p_success.jpg
+6964351 tuition/p_burden.jpg
+955394 tuition/p_signing.jpg
+7712279 tuition/v_grad.mp4
