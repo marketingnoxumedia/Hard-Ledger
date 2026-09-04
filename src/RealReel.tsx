@@ -99,11 +99,11 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 84, kind: 'hook', text: 'You think cash|is risk-free.', kicker: 'Nominal vs real', highlights: ['riskfree'], size: 84, media: {src: 'real/p_cashstack.jpg', type: 'img', effect: 'in'}},
-  {dur: 53, kind: 'stat', stat: {pre: 'So why does', value: 0.5, decimals: 1, suffix: '%', post: 'an account pay'}, media: {src: 'real/p_coin.jpg', type: 'img', effect: 'in'}},
-  {dur: 51, kind: 'stat', stat: {pre: 'While prices rise', value: 3, suffix: '%'}, media: {src: 'real/p_prices.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'stat', stat: {pre: 'So why does an account paying', value: 0.5, decimals: 1, suffix: '%'}, media: {src: 'real/p_coin.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'stat', stat: {pre: 'while prices rise', value: 3, suffix: '%'}, media: {src: 'real/p_prices.jpg', type: 'img', effect: 'in'}},
   // 77 -> 113: a 36-frame (~1.2s) pause is spliced into the VO right after the
   // hook question ("…buying power every year?"), and this beat holds through it.
-  {dur: 113, kind: 'stat', stat: {pre: 'It loses', value: 2.5, decimals: 1, suffix: '%', post: 'a year'}, media: {src: 'real/p_meltcoin.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'stat', stat: {pre: 'lose about', value: 2.5, decimals: 1, suffix: '%', post: 'of buying power a year?'}, media: {src: 'real/p_meltcoin.jpg', type: 'img', effect: 'in'}},
   {dur: 38, kind: 'text', text: 'Nobody withdrew|a cent.', highlights: ['nobody'], size: 84, media: {src: 'real/p_stash.jpg', type: 'img', effect: 'in'}},
   {dur: 42, kind: 'text', text: 'Cash feels|risk-free.', highlights: ['riskfree'], size: 88, media: {src: 'real/p_piggy.jpg', type: 'img', effect: 'in'}},
   {dur: 102, kind: 'text', enter: 'slideL', text: 'The balance can\'t fall.|It looks safe.', highlights: ['safe'], size: 76, media: {src: 'real/p_vaultdoor.jpg', type: 'img', effect: 'in'}},
