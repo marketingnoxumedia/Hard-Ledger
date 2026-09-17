@@ -2364,6 +2364,30 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   debt," and the $30K/$80K vs $120K/$40K ROI pairs are directional, widely-cited
   framing, not a single audited dataset. **Theme note:** same college-value case
   as `MajorReel` — publish only one college reel to a given audience.
+- **`ReturnReel`** — "The real ROI" (a second A/B twin on college value, distinct
+  from both `MajorReel` ("what you study") and `TuitionReel` ("the tuition trap" /
+  cost side): this cut leads on the INVESTMENT framing — a degree is a price AND a
+  return; the price tripled (real tuition ~3x its 1980 level) while pay didn't, so
+  the gap became trillions in student debt, but the part that matters is that the
+  return swings hugely by field — borrow $30K for an $80K job vs $120K for a $40K
+  one; same word on the diploma, opposite outcome). ~39.7s, question hook ("The
+  same diploma — smartest money, or the worst?") with a ~1.2s post-hook pause, a
+  3x count-up stat, red "Trillions / Student debt" card mid-reel, and a question
+  close ("Which number are you actually buying?"). Media-dense (14 media / 2 black
+  / 1 red). Its own footage under `public/return/`. Media credits (Pexels, free
+  license) — videos: a 3D bar chart climbing to 3x (39570107), an aerial of
+  diverging forest trails (35132715), a graduate waving a cap (8060928, closing
+  beat). Photos: a 3D hand holding a "$" coin (8817677), a blank price tag
+  (7966577), two opposite road arrows (8629452), a lone $1 bill (6590627), an
+  empty lifeguard chair (4705023), a young man head-in-hands (33715989), a
+  confident professional (36712868), an overwhelmed young worker (12911952), US
+  bills stacked on books (5632406), blurred lecture-hall seats (1423655), and a
+  calculator over a portfolio worksheet (6801682). **Illustrative figures — verify
+  before publishing:** "~3x real tuition since 1980," "trillions in student debt,"
+  and the $30K/$80K vs $120K/$40K ROI pairs are directional, widely-cited framing,
+  not a single audited dataset. **Theme note:** same college-value case as
+  `MajorReel` and `TuitionReel` — publish only one college reel to a given
+  audience.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

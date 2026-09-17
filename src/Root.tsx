@@ -100,6 +100,7 @@ import {RealReel, DURATION_IN_FRAMES as REAL_FRAMES} from './RealReel';
 import {WantedReel, DURATION_IN_FRAMES as WANTED_FRAMES} from './WantedReel';
 import {AutopayReel, DURATION_IN_FRAMES as AUTOPAY_FRAMES} from './AutopayReel';
 import {TuitionReel, DURATION_IN_FRAMES as TUITION_FRAMES} from './TuitionReel';
+import {ReturnReel, DURATION_IN_FRAMES as RETURN_FRAMES} from './ReturnReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -901,6 +902,14 @@ export const RemotionRoot: React.FC = () => {
         id="TuitionReel"
         component={TuitionReel}
         durationInFrames={TUITION_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ReturnReel"
+        component={ReturnReel}
+        durationInFrames={RETURN_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

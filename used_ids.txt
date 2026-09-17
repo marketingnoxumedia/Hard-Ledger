@@ -1622,3 +1622,18 @@
 6964351 tuition/p_burden.jpg
 955394 tuition/p_signing.jpg
 7712279 tuition/v_grad.mp4
+# ReturnReel (The real ROI) — 2nd A/B twin of MajorReel (college value / degree ROI by field), media-dense (14 media/2 black/1 red)
+8817677 return/p_coinflip.jpg
+7966577 return/p_pricetag.jpg
+8629452 return/p_arrows.jpg
+39570107 return/v_climb.mp4
+6590627 return/p_wages.jpg
+4705023 return/p_summerjob2.jpg
+33715989 return/p_debtweight.jpg
+35132715 return/v_diverge.mp4
+36712868 return/p_highroi.jpg
+12911952 return/p_lowroi.jpg
+5632406 return/p_diploma2.jpg
+1423655 return/p_classroom.jpg
+6801682 return/p_ledger.jpg
+8060928 return/v_grad2.mp4
