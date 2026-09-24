@@ -1654,3 +1654,22 @@
 39212618 clarity/p_chartup1.jpg
 39494584 clarity/p_chartup2.jpg
 3150346 clarity/v_gosignal.mp4
+
+# BellReel (No bell) — A/B twin of ClarityReel (same Clarity Act / Sept 2026 news, SEC 24-hour-trading angle), media-dense (17 media/2 black/1 red), adds a two-bar chart beat
+10786530 bell/p_wallst.jpg
+12837026 bell/p_afterhours.jpg
+5378701 bell/p_bell.jpg
+5624978 bell/p_clock.jpg
+24376267 bell/p_capitol2.jpg
+38503730 bell/p_sec.jpg
+8850721 bell/p_exempt.jpg
+35930741 bell/p_chain.jpg
+7579561 bell/v_ticker.mp4
+33795954 bell/p_hourglass.jpg
+1148820 bell/p_serverroom.jpg
+39334005 bell/p_uptrend.jpg
+17194840 bell/p_cables.jpg
+38240712 bell/p_bell2.jpg
+8865787 bell/v_floor.mp4
+19555268 bell/v_rails.mp4
+28464336 bell/v_night.mp4

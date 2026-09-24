@@ -2425,6 +2425,41 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   promptly. **Voice:** this reel alone uses a distinct upbeat voice cloned from a
   client-supplied reference (energetic settings), not the shared house cloned
   voice used on every other reel.
+- **`BellReel`** — "No bell" (an A/B TWIN of ClarityReel off the same news event —
+  the Clarity Act dying, Sept 2026 — but the SEC's 24-hour-trading / "no bell"
+  angle instead of ClarityReel's CFTC/perps angle. Thesis: Wall Street doesn't
+  need Congress to change the rules — it just needs the market to stop closing.
+  The stock market runs on one bell, 9:30–4:00, weekdays only — 6.5 hours a day,
+  the other 17.5 locked. The Senate killed the Clarity Act; eight days later the
+  SEC granted an innovation exemption putting tokenised US stocks on public
+  blockchains — and a blockchain has one thing the NYSE doesn't: no bell. The
+  catch: it's an exemption, not a law — five years, then back on the table. Payoff:
+  the winner is whoever owns the rails that never switch off. Close: the bell still
+  rings at four, it just doesn't mean anything anymore.) ~55s. **Like ClarityReel,
+  this NEWS reel breaks two house conventions by client direction:** a hard-cut
+  declarative hook ("Wall Street doesn't need Congress." — no withheld-subject
+  question, so no post-hook pause) and a non-question CTA close ("Keep your eyes
+  open."). Red "No bell" thesis card mid-reel; two staggered `lines` beats (every
+  stock / trade / pension; tokenized stocks / public chains / zero votes). **Adds
+  a new two-bar `chart` scene kind** — the client asked for the chart explicitly:
+  the exchange's 6.5h against the chain's 24h, the taller chain bar glowing red,
+  resolving to a ~3.7× stat. Media-dense (17 media / 2 black / 1 red); the close
+  lands on a night-city skyline. Its own footage under `public/bell/`. Media
+  credits (Pexels, free license) — videos: a moving market-data ticker (7579561),
+  a busy office floor of people at desks (8865787), POV down railroad tracks
+  (19555268), an aerial night cityscape (28464336, closing beat). Photos: a
+  financial-district skyline (10786530), an empty after-hours office (12837026), a
+  brass counter bell (5378701), an analog wall clock (5624978), the US Capitol
+  (24376267), a neoclassical federal facade (38503730), a red approval check-mark
+  (8850721), heavy industrial chain links (35930741), an hourglass (33795954), a
+  dark server room (1148820), a rising line chart (39334005), glowing fiber-optic
+  cables (17194840), and a masonry bell tower (38240712). **TIME-SENSITIVE /
+  UNVERIFIED — verify before publishing:** the Clarity Act Senate vote and its
+  Sept-2026 date, the SEC innovation-exemption / tokenised-US-stocks / 5-year,
+  zero-vote moves, and the 6.5h-vs-24h / ~3.7× framing are dated news supplied by
+  the author; rendered as written and to be re-checked against primary sources at
+  publish time. **Voice:** uses the same distinct upbeat cloned voice as ClarityReel
+  (energetic settings), not the shared house cloned voice.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

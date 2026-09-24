@@ -102,6 +102,7 @@ import {AutopayReel, DURATION_IN_FRAMES as AUTOPAY_FRAMES} from './AutopayReel';
 import {TuitionReel, DURATION_IN_FRAMES as TUITION_FRAMES} from './TuitionReel';
 import {ReturnReel, DURATION_IN_FRAMES as RETURN_FRAMES} from './ReturnReel';
 import {ClarityReel, DURATION_IN_FRAMES as CLARITY_FRAMES} from './ClarityReel';
+import {BellReel, DURATION_IN_FRAMES as BELL_FRAMES} from './BellReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -919,6 +920,14 @@ export const RemotionRoot: React.FC = () => {
         id="ClarityReel"
         component={ClarityReel}
         durationInFrames={CLARITY_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="BellReel"
+        component={BellReel}
+        durationInFrames={BELL_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
