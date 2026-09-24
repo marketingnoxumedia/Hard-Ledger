@@ -2506,15 +2506,20 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   real reputational/legal risk if any detail is wrong — EVERY claim (names, quotes,
   attributions, numbers) must be checked against primary sources before this
   publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of
-  the series. **Style:** unlike every other reel, MemoReel is RESTYLED to a gritty
-  monochrome "leaked-dossier" look modelled on a client-supplied reference video —
-  duotone (grayscale + high-contrast) footage, heavy film grain + vignette, one
-  flat mottled-paper beat, left-aligned editorial typography (Archivo Black) with a
-  big-focal-word / small-annotation hierarchy, a localized bottom scrim for
-  legibility, mono data cards (a huge count-up $2T and a white/red two-bar chart),
-  a black editorial thesis beat instead of a red card, and a subtly stepped (~12fps)
-  Ken Burns. Hard Ledger's one-red-focal-word accent is kept throughout; the script,
-  upbeat VO, music and beat timings are unchanged from the named-people cut.
+  the series. **Style:** unlike every other reel, MemoReel is RESTYLED as a gritty
+  monochrome COLLAGE modelled on a client-supplied reference video. A light
+  cracked-paper ground (with corner register marks) alternates with black beats;
+  subjects are CUT OUT (backgrounds removed with rembg → `public/memo/cut/*.png`)
+  and pasted as grayscale objects (cash, calendar, globe, phone) or a pure-black
+  SILHOUETTE (the raised hand); scenes that don't isolate cleanly (Capitol, UN
+  chamber, neural net, printing press, the shadowed figure, the podium, the vault,
+  the skyline) are shown as framed photo/video PANELS. Left-aligned editorial
+  typography (Archivo Black) with a big-focal-word / small-annotation hierarchy and
+  a red-tick rule; mono data cards (a huge count-up $2T and a white/red two-bar
+  chart); a black editorial thesis beat; a subtly stepped (~12fps) Ken Burns.
+  Hard Ledger's one-red-focal-word accent is kept throughout; the script, upbeat
+  VO, music and beat timings are unchanged from the named-people cut. (Cut-outs are
+  derived from this reel's existing Pexels assets, so no new ids.)
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
