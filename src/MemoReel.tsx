@@ -86,70 +86,75 @@ type SceneDef = {
 // "One memo" reel (MemoReel) — the third entry in the fast NEWS-reel series
 // (after ClarityReel and BellReel), but a NEW topic: an AI-company mega-IPO and a
 // political memo, not the crypto/Clarity-Act story. Thesis: Washington doesn't
-// need to regulate the AI firm — it just needs one memo before the IPO. Funds /
+// need to regulate Anthropic — it just needs one memo before the IPO. Funds /
 // pensions / indexes line up for the biggest listing in years, ~$2T on the table,
-// the date slips a month. On 23 Sept at the UN Security Council, Anthropic's CEO
-// says AI could threaten humanity and offers to slow down; same room, a White
-// House adviser calls that a "globalist scheme," and within a day a memo
-// circulates naming the CEO the face of "AI doomerism." The flip: safety was the
-// pitch, safety is now the risk. The catch: the memo is reported, not published;
-// the listing's still on; but investors price the story, not the paperwork. A
+// the date slips from October to November. On 23 Sept at the UN Security Council,
+// Dario Amodei (Anthropic's CEO) says AI could threaten humanity and offers to
+// slow down; same session, White House science adviser Michael Kratsios calls it
+// a "globalist scheme," and Axios reports a White House memo naming Amodei the
+// face of "AI doomerism" — after Trump had already gone after him on Truth Social,
+// now on paper. The catch: the memo is reported, not published; Daniela Amodei
+// (the president) denies formal ties; no policy changed; the listing's still on. A
 // two-bar chart contrasts the largest listing ever (Aramco, ~$1.7T) with this one
-// (~$2T). Payoff: the banks get paid either way — the memo is their risk to sell,
-// not to carry. Close: the bell's set for November, if the memo lets it ring.
-// Like the rest of the series, this reel keeps the hard-cut DECLARATIVE hook (no
-// post-hook pause) and the non-question CTA close ("Keep your eyes open.") by
-// client direction, and uses the per-reel UPBEAT cloned voice. Durations on exact
-// ElevenLabs spoken timestamps; tempo is ADAPTIVE (atempo ~1.18, computed to keep
-// the reel under the 60s platform cap) — total 1740 frames = ~58s. Reuses the
-// two-bar `chart` scene kind (extended with $/T value formatting). Media-dense:
-// 18 of 21 beats carry footage, 2 flat-black beats + 1 red card. Own footage
-// under public/memo/ — no asset shared with any other reel (skill hard rule).
-// **TIME-SENSITIVE / UNVERIFIED — verify before publishing (elevated risk):** this
-// reel makes contested, attributed claims about NAMED real people and companies
-// (Anthropic and its CEO; a White House science adviser; the "globalist scheme"
-// and "AI doomerism" characterisations; the reported-but-unpublished memo; the UN
-// Security Council remarks; the ~$2T IPO valuation, the slipped date, and the
-// Aramco ~$1.7T comparison). All of it is dated news supplied by the author,
-// rendered as written; because it names individuals and carries reputational/legal
-// risk if any detail is wrong, EVERY claim must be checked against primary sources
-// before this publishes.
+// (~$2T). The flip: safety was the pitch, safety is now the risk — and the banks
+// get paid either way. Close is a CTA QUESTION: "Would you buy the biggest IPO
+// ever, with the White House against its CEO? Tell me below." (This replaces the
+// series' "Keep your eyes open." close by client direction.) Keeps the hard-cut
+// DECLARATIVE hook (no post-hook pause) and uses the per-reel UPBEAT cloned voice.
+// Durations on exact ElevenLabs spoken timestamps; tempo is ADAPTIVE and CAPPED
+// (atempo ~1.15 here, computed per generation to keep the reel safely under the
+// 60s platform cap without sounding rushed) — total 1725 frames = ~57.5s. Reuses
+// the two-bar `chart` scene kind ($/T value formatting). Media-dense: 19 of 21
+// beats carry footage, 1 flat-black beat + 1 red card. Own footage under
+// public/memo/ — no asset shared with any other reel (skill hard rule).
+// **TIME-SENSITIVE / UNVERIFIED — ELEVATED RISK, verify before publishing:** this
+// reel makes contested, attributed claims about NAMED real people and companies —
+// Anthropic; Dario Amodei and Daniela Amodei; White House adviser Michael
+// Kratsios; Donald Trump; and it attributes the memo to Axios and a prior attack
+// to Truth Social. It also states the "globalist scheme" / "AI doomerism"
+// characterisations, the reported-but-unpublished memo, the UN Security Council
+// remarks, the ~$2T valuation, the slipped date, and the Aramco ~$1.7T comparison.
+// All of it is dated news supplied by the author, rendered as written; because it
+// names individuals and attributes quotes/reporting, it carries real
+// reputational/legal risk if any detail is wrong — EVERY claim (names, quotes,
+// attributions, numbers) must be checked against primary sources before this
+// publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 81, kind: 'hook', text: 'Washington doesn\'t|need to regulate.', kicker: 'One memo', highlights: ['regulate'], size: 78, media: {src: 'memo/p_washington.jpg', type: 'img', effect: 'in'}},
-  {dur: 90, kind: 'text', text: 'It just needs|one memo.', highlights: ['memo'], size: 82, media: {src: 'memo/p_memo.jpg', type: 'img', effect: 'in'}},
-  {dur: 96, kind: 'lines', text: 'Every fund.|Every pension.|Every index.', highlights: ['index'], reveal: [0, 28, 58], media: {src: 'memo/v_index.mp4', type: 'video', effect: 'in'}},
-  {dur: 77, kind: 'text', text: 'The biggest listing|in years.', highlights: ['biggest'], size: 80, media: {src: 'memo/p_listing.jpg', type: 'img', effect: 'in'}},
-  {dur: 67, kind: 'stat', stat: {prefix: '$', value: 2, decimals: 0, suffix: 'T', post: 'ON THE TABLE'}, media: {src: 'memo/p_money.jpg', type: 'img', effect: 'in'}},
-  {dur: 69, kind: 'text', enter: 'slideL', text: 'October.|Then November.', highlights: ['november'], size: 84, media: {src: 'memo/p_calendar.jpg', type: 'img', effect: 'in'}},
-  {dur: 83, kind: 'text', text: 'September 23.|UN Security Council.', highlights: ['council'], size: 72, media: {src: 'memo/p_un.jpg', type: 'img', effect: 'in'}},
-  {dur: 108, kind: 'text', text: 'AI could|threaten humanity.', highlights: ['humanity'], size: 82, media: {src: 'memo/v_ai.mp4', type: 'video', effect: 'in'}},
-  {dur: 54, kind: 'text', text: 'And offers|to slow down.', highlights: ['slow'], size: 84, media: {src: 'memo/p_slow.jpg', type: 'img', effect: 'in'}},
-  {dur: 131, kind: 'text', enter: 'slideL', text: 'Same room.|Globalist scheme.', highlights: ['globalist'], size: 78, media: {src: 'memo/p_globe.jpg', type: 'img', effect: 'in'}},
-  {dur: 64, kind: 'text', text: 'Within a day,|a memo circulates.', highlights: ['memo'], size: 76, media: {src: 'memo/v_print.mp4', type: 'video', effect: 'in'}},
-  {dur: 103, kind: 'text', text: 'The face of|AI doomerism.', highlights: ['doomerism'], size: 80, media: {src: 'memo/p_face.jpg', type: 'img', effect: 'in'}},
-  {dur: 103, kind: 'impact', text: 'The pitch|is the risk.', redBg: true},
-  {dur: 51, kind: 'text', text: 'Reported.|Not published.', highlights: ['not'], size: 84},
-  {dur: 32, kind: 'text', text: 'The listing|is still on.', highlights: ['on'], size: 84, media: {src: 'memo/p_greenlight.jpg', type: 'img', effect: 'in'}},
-  {dur: 109, kind: 'text', text: 'They price the story,|not the paperwork.', highlights: ['story'], size: 78},
-  {dur: 146, kind: 'chart', chart: {a: {label: 'ARAMCO', value: 1.7}, b: {label: 'ANTHROPIC', value: 2, red: true}, prefix: '$', suffix: 'T', decimals: 1, unit: 'BIGGEST IPO EVER'}, media: {src: 'memo/p_floor.jpg', type: 'img', effect: 'in'}},
-  {dur: 50, kind: 'text', text: 'The banks get paid|either way.', highlights: ['banks'], size: 78, media: {src: 'memo/p_bank.jpg', type: 'img', effect: 'in'}},
-  {dur: 77, kind: 'text', enter: 'slideL', text: 'Their risk to sell.|Not to carry.', highlights: ['sell'], size: 82, media: {src: 'memo/p_deal.jpg', type: 'img', effect: 'in'}},
-  {dur: 96, kind: 'text', text: 'November.|If the memo lets it ring.', highlights: ['november'], size: 74, media: {src: 'memo/p_openbell.jpg', type: 'img', effect: 'in'}},
-  {dur: 53, kind: 'text', enter: 'zoom', text: 'Keep your|eyes open.', highlights: ['open'], size: 84, media: {src: 'memo/p_dawn.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'hook', text: 'Washington doesn\'t|need to regulate.', kicker: 'One memo', highlights: ['regulate'], size: 78, media: {src: 'memo/p_washington.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', text: 'It just needs|one memo.', highlights: ['memo'], size: 82, media: {src: 'memo/p_memo.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'lines', text: 'Every fund.|Every pension.|Every index.', highlights: ['index'], reveal: [0, 27, 54], media: {src: 'memo/v_index.mp4', type: 'video', effect: 'in'}},
+  {dur: 69, kind: 'text', text: 'The biggest listing|in years.', highlights: ['biggest'], size: 80, media: {src: 'memo/p_listing.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'stat', stat: {prefix: '$', value: 2, decimals: 0, suffix: 'T', post: 'ON THE TABLE'}, media: {src: 'memo/p_money.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', enter: 'slideL', text: 'October|to November.', highlights: ['november'], size: 84, media: {src: 'memo/p_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', text: 'September 23.|UN Security Council.', highlights: ['council'], size: 72, media: {src: 'memo/p_un.jpg', type: 'img', effect: 'in'}},
+  {dur: 146, kind: 'text', text: 'Dario Amodei:|AI risks humanity.', highlights: ['humanity'], size: 74, media: {src: 'memo/v_ai.mp4', type: 'video', effect: 'in'}},
+  {dur: 43, kind: 'text', text: 'And offers|to slow down.', highlights: ['slow'], size: 84, media: {src: 'memo/p_slow.jpg', type: 'img', effect: 'in'}},
+  {dur: 136, kind: 'text', enter: 'slideL', text: 'Michael Kratsios:|globalist scheme.', highlights: ['globalist'], size: 70, media: {src: 'memo/p_globe.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', text: 'Axios reports|a memo.', highlights: ['memo'], size: 82, media: {src: 'memo/v_print.mp4', type: 'video', effect: 'in'}},
+  {dur: 89, kind: 'text', text: 'The face of|AI doomerism.', highlights: ['doomerism'], size: 80, media: {src: 'memo/p_face.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', enter: 'slideL', text: 'First Truth Social.|Now on paper.', highlights: ['paper'], size: 78, media: {src: 'memo/p_social.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', text: 'Reported.|Not published.', highlights: ['not'], size: 84},
+  {dur: 65, kind: 'text', text: 'Daniela Amodei|denies ties.', highlights: ['denies'], size: 80, media: {src: 'memo/p_press.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', text: 'No policy changed.|The listing\'s still on.', highlights: ['on'], size: 76, media: {src: 'memo/p_greenlight.jpg', type: 'img', effect: 'in'}},
+  {dur: 137, kind: 'chart', chart: {a: {label: 'ARAMCO', value: 1.7}, b: {label: 'ANTHROPIC', value: 2, red: true}, prefix: '$', suffix: 'T', decimals: 1, unit: 'BIGGEST IPO EVER'}, media: {src: 'memo/p_floor.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'impact', text: 'The pitch|is the risk.', redBg: true},
+  {dur: 57, kind: 'text', text: 'The banks get paid|either way.', highlights: ['banks'], size: 78, media: {src: 'memo/p_bank.jpg', type: 'img', effect: 'in'}},
+  {dur: 134, kind: 'text', text: 'Would you buy|the biggest IPO ever?', highlights: ['buy'], size: 74, media: {src: 'memo/p_buy.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', enter: 'zoom', text: 'Tell me|below.', highlights: ['below'], size: 88, media: {src: 'memo/p_dawn.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). No post-hook pause (hard-cut declarative
-// hook). Impact on the open, the red "No bell" card and the 3.7x stat; whooshes
-// on the chain, the chart and the close.
+// hook). Impact on the open, the $2T stat and the red "pitch is the risk" card;
+// whooshes on the chain, the chart and the CTA close.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 171, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 344, src: 'media/sfx_impact.mp3', vol: 0.45},
-  {at: 1023, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 1318, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1687, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 147, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 303, src: 'media/sfx_impact.mp3', vol: 0.45},
+  {at: 1265, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1402, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1691, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {

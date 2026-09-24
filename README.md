@@ -2462,42 +2462,51 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (energetic settings), not the shared house cloned voice.
 - **`MemoReel`** — "One memo" (the third fast NEWS reel in the series, but a NEW
   topic — an AI-company mega-IPO and a political memo, not the crypto/Clarity-Act
-  story. Thesis: Washington doesn't need to regulate the AI firm — it just needs
-  one memo before the IPO. Funds / pensions / indexes line up for the biggest
-  listing in years, ~$2T on the table, the date slips a month. On 23 Sept at the
-  UN Security Council, Anthropic's CEO says AI could threaten humanity and offers
-  to slow down; same room, a White House adviser calls that a "globalist scheme,"
-  and within a day a memo circulates naming the CEO the face of "AI doomerism."
-  The flip: safety was the pitch, safety is now the risk. The catch: the memo is
-  reported, not published; the listing's still on; but investors price the story,
-  not the paperwork. Payoff: the banks get paid either way — the memo's their risk
-  to sell, not to carry. Close: the bell's set for November, if the memo lets it
-  ring.) ~58s. **Like the rest of the series, it keeps the hard-cut declarative
-  hook (no post-hook pause) and the non-question CTA close ("Keep your eyes
-  open.").** Red "The pitch is the risk" thesis card mid-reel; one staggered
-  `lines` beat (every fund / pension / index); a two-bar `chart` beat contrasting
-  the largest listing ever (Aramco ~$1.7T) with this one (~$2T). Tempo is
-  ADAPTIVE — the atempo is computed per generation (~1.18 here) to keep the reel
-  under the 60s platform cap despite the upbeat clone's variable pacing.
-  Media-dense (18 media / 2 black / 1 red); the close lands on a city skyline at
-  dawn. Its own footage under `public/memo/`. Media credits (Pexels, free license)
-  — videos: a market-data ticker (14003675), an abstract neural network (35163081),
-  a printing press (855469). Photos: the US Capitol at night (4705378), a typed memo
-  (261679), a market-listing screen (10653885), a bundle of $100 bills (5912587), a
-  month calendar (5417675), a formal legislative chamber (32266769), a raised-palm
-  stop gesture (5202006), Earth at night from space (30596264), a shadowed
-  anonymous figure (19222036), a green glow (28905655), a dark server room
-  (5203849), a bank vault (14866072), a business handshake (7734571), a ceremonial
-  bell (20069741), and a city skyline at dawn (29585684). **TIME-SENSITIVE /
-  UNVERIFIED — ELEVATED RISK, verify before publishing:** this reel makes contested,
-  attributed claims about NAMED real people and companies (Anthropic and its CEO; a
-  White House science adviser; the "globalist scheme" and "AI doomerism"
-  characterisations; a reported-but-unpublished memo; the UN Security Council
-  remarks; the ~$2T valuation, the slipped date, and the Aramco ~$1.7T comparison).
-  All of it is dated news supplied by the author and rendered as written; because it
-  names individuals and carries reputational/legal risk if any detail is wrong,
-  EVERY claim must be checked against primary sources before this publishes.
-  **Voice:** uses the same distinct upbeat cloned voice as the rest of the series.
+  story. **Revised to a named-people cut.** Thesis: Washington doesn't need to
+  regulate Anthropic — it just needs one memo before the IPO. Funds / pensions /
+  indexes line up for the biggest listing in years, ~$2T on the table, the date
+  slips from October to November. On 23 Sept at the UN Security Council, Dario
+  Amodei (Anthropic's CEO) says AI could threaten humanity and offers to slow
+  down; same session, White House science adviser Michael Kratsios calls it a
+  "globalist scheme," and Axios reports a White House memo naming Amodei the face
+  of "AI doomerism" — after Trump had already gone after him on Truth Social, now
+  on paper. The catch: the memo is reported, not published; Daniela Amodei (the
+  president) denies formal ties; no policy changed; the listing's still on. A
+  two-bar chart contrasts the largest listing ever (Aramco ~$1.7T) with this one
+  (~$2T). The flip: safety was the pitch, safety is now the risk — and the banks
+  get paid either way. Close is a CTA question: "Would you buy the biggest IPO
+  ever, with the White House against its CEO? Tell me below.") ~57.5s. **Keeps the
+  hard-cut declarative hook (no post-hook pause); the close is now a CTA QUESTION
+  ("Tell me below.") rather than the series' "Keep your eyes open."** Red "The
+  pitch is the risk" thesis card; one staggered `lines` beat (every fund / pension
+  / index); a two-bar `chart` beat (Aramco $1.7T vs Anthropic $2T). Tempo is
+  ADAPTIVE and CAPPED — the atempo is computed per generation (~1.15 here) to keep
+  the dense named script safely under the 60s platform cap without sounding rushed.
+  Media-dense (19 media / 1 black / 1 red); the close lands on a city skyline at
+  dawn. People shown are anonymous/illustrative only (the named individuals are
+  NOT depicted — e.g. a globe stands in for Kratsios, an empty podium for Daniela
+  Amodei's denial). Its own footage under `public/memo/`. Media credits (Pexels,
+  free license) — videos: a market-data ticker (14003675), an abstract neural
+  network (35163081), a printing press (855469). Photos: the US Capitol at night
+  (4705378), a typed memo (261679), a market-listing screen (10653885), a bundle
+  of $100 bills (5912587), a month calendar (5417675), a formal legislative chamber
+  (32266769), a raised-palm stop gesture (5202006), Earth at night from space
+  (30596264), a shadowed anonymous figure (19222036), a phone showing a generic
+  social feed (9785021), an empty press podium (37012314), a green glow (28905655),
+  a dark server room (5203849), a bank vault (14866072), a trading-app buy screen
+  (6347705), and a city skyline at dawn (29585684). **TIME-SENSITIVE / UNVERIFIED
+  — ELEVATED RISK, verify before publishing:** this reel makes contested, attributed
+  claims about NAMED real people and companies — Anthropic; Dario Amodei and Daniela
+  Amodei; White House adviser Michael Kratsios; Donald Trump — and attributes the
+  memo to Axios and a prior attack to Truth Social, plus the "globalist scheme" /
+  "AI doomerism" characterisations, the reported-but-unpublished memo, the UN
+  Security Council remarks, the ~$2T valuation, the slipped date, and the Aramco
+  ~$1.7T comparison. All of it is dated news supplied by the author and rendered as
+  written; because it names individuals and attributes quotes/reporting, it carries
+  real reputational/legal risk if any detail is wrong — EVERY claim (names, quotes,
+  attributions, numbers) must be checked against primary sources before this
+  publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of
+  the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
