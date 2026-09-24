@@ -12,14 +12,14 @@ import {
   useVideoConfig,
   Easing,
 } from 'remotion';
-import {loadFont as loadAnton} from '@remotion/google-fonts/Anton';
-import {loadFont as loadRobotoCondensed} from '@remotion/google-fonts/RobotoCondensed';
+import {loadFont as loadArchivoBlack} from '@remotion/google-fonts/ArchivoBlack';
+import {loadFont as loadArchivoNarrow} from '@remotion/google-fonts/ArchivoNarrow';
 
-const {fontFamily: ANTON} = loadAnton();
-const {fontFamily: ROBOTO_CONDENSED} = loadRobotoCondensed();
+const {fontFamily: ARCHIVO_BLACK} = loadArchivoBlack();
+const {fontFamily: ARCHIVO_NARROW} = loadArchivoNarrow();
 
-const HEAD = ANTON;
-const BODY = `'Helvetica Now Display Condensed','Helvetica Now Display','${ROBOTO_CONDENSED}','Arial Narrow',sans-serif`;
+const HEAD = ARCHIVO_BLACK;
+const BODY = `'${ARCHIVO_NARROW}','Arial Narrow',sans-serif`;
 
 // ---------------------------------------------------------------------------
 export const FPS = 30;
@@ -29,18 +29,23 @@ export const HEIGHT = 1920;
 const HAS_VOICEOVER = true;
 
 const C = {
-  bg: '#0A0A0A',
-  ink: '#F4F4F4',
-  sub: '#9A9A9A',
-  muted: '#585858',
+  bg: '#0C0C0C',
+  ink: '#F2F2F2',
+  sub: '#B7B2A6',
+  muted: '#7C776C',
   red: '#FF2E2E',
-  track: '#1B1B1B',
-  line: 'rgba(255,255,255,0.05)',
+  paperBg: '#C7C1B4',
+  paperInk: '#16140E',
+  paperSub: '#4A463C',
 };
 
-// One shared, soft DIRECTIONAL drop shadow for every caption (white and red
-// alike) — reads as depth, not a glow, needs no stroke or darkening.
-const SH = '1px 2px 5px rgba(0,0,0,0.55), 2px 4px 16px rgba(0,0,0,0.34)';
+// Legibility shadow for text sitting on treated footage.
+const SH = '0 2px 6px rgba(0,0,0,0.6), 0 4px 22px rgba(0,0,0,0.4)';
+
+// Procedural film-grain and paper-fibre textures (inline SVG turbulence) — the
+// core of the "leaked dossier" treatment that mimics the reference video.
+const GRAIN = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")";
+const PAPER = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.012' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E\")";
 
 // ---------------------------------------------------------------------------
 type MediaCfg = {
@@ -78,47 +83,31 @@ type SceneDef = {
   stat?: StatCfg;
   chart?: ChartCfg;
   redBg?: boolean;
+  paper?: boolean;
   media?: MediaCfg;
   enter?: 'slideL' | 'slideR' | 'slideUp' | 'zoom';
 };
 
 // ---------------------------------------------------------------------------
-// "One memo" reel (MemoReel) — the third entry in the fast NEWS-reel series
-// (after ClarityReel and BellReel), but a NEW topic: an AI-company mega-IPO and a
-// political memo, not the crypto/Clarity-Act story. Thesis: Washington doesn't
-// need to regulate Anthropic — it just needs one memo before the IPO. Funds /
-// pensions / indexes line up for the biggest listing in years, ~$2T on the table,
-// the date slips from October to November. On 23 Sept at the UN Security Council,
-// Dario Amodei (Anthropic's CEO) says AI could threaten humanity and offers to
-// slow down; same session, White House science adviser Michael Kratsios calls it
-// a "globalist scheme," and Axios reports a White House memo naming Amodei the
-// face of "AI doomerism" — after Trump had already gone after him on Truth Social,
-// now on paper. The catch: the memo is reported, not published; Daniela Amodei
-// (the president) denies formal ties; no policy changed; the listing's still on. A
-// two-bar chart contrasts the largest listing ever (Aramco, ~$1.7T) with this one
-// (~$2T). The flip: safety was the pitch, safety is now the risk — and the banks
-// get paid either way. Close is a CTA QUESTION: "Would you buy the biggest IPO
-// ever, with the White House against its CEO? Tell me below." (This replaces the
-// series' "Keep your eyes open." close by client direction.) Keeps the hard-cut
-// DECLARATIVE hook (no post-hook pause) and uses the per-reel UPBEAT cloned voice.
-// Durations on exact ElevenLabs spoken timestamps; tempo is ADAPTIVE and CAPPED
-// (atempo ~1.15 here, computed per generation to keep the reel safely under the
-// 60s platform cap without sounding rushed) — total 1725 frames = ~57.5s. Reuses
-// the two-bar `chart` scene kind ($/T value formatting). Media-dense: 19 of 21
-// beats carry footage, 1 flat-black beat + 1 red card. Own footage under
-// public/memo/ — no asset shared with any other reel (skill hard rule).
-// **TIME-SENSITIVE / UNVERIFIED — ELEVATED RISK, verify before publishing:** this
-// reel makes contested, attributed claims about NAMED real people and companies —
-// Anthropic; Dario Amodei and Daniela Amodei; White House adviser Michael
-// Kratsios; Donald Trump; and it attributes the memo to Axios and a prior attack
-// to Truth Social. It also states the "globalist scheme" / "AI doomerism"
-// characterisations, the reported-but-unpublished memo, the UN Security Council
-// remarks, the ~$2T valuation, the slipped date, and the Aramco ~$1.7T comparison.
-// All of it is dated news supplied by the author, rendered as written; because it
-// names individuals and attributes quotes/reporting, it carries real
-// reputational/legal risk if any detail is wrong — EVERY claim (names, quotes,
-// attributions, numbers) must be checked against primary sources before this
-// publishes.
+// "One memo" reel (MemoReel) — RESTYLED to the gritty monochrome "leaked
+// dossier" look of the client's reference video (the "China doesn't need to
+// shoot down the jet" promo), while KEEPING Hard Ledger's one-red-focal-word
+// accent. The script, upbeat cloned VO, music and every beat timing are
+// UNCHANGED from the named-people cut — only the visual system is new:
+//   • Duotone footage — grayscale + high contrast, heavy film grain, vignette;
+//     one flat PAPER beat (light mottled stock, dark ink) for editorial rhythm.
+//   • Editorial LEFT-aligned typography (Archivo Black) with a big-word / small-
+//     annotation hierarchy: the line carrying the red focal word is set large,
+//     the other line becomes a small tracked annotation above/below it.
+//   • Mono data cards — a huge editorial count-up number for the $2T stat and a
+//     white/red two-bar chart (Aramco $1.7T vs Anthropic $2T).
+//   • The mid-reel thesis ("The pitch / is the risk") is a black editorial beat
+//     with the red on the payoff line, not a red card.
+//   • A subtly stepped (~12fps) Ken Burns move for the reference's choppy feel.
+// Same news content and the SAME elevated-risk flag applies: it names real people
+// (Dario & Daniela Amodei, Michael Kratsios, Trump) and attributes reporting to
+// Axios / Truth Social; every claim must be primary-source verified before this
+// publishes. ~57.5s.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 70, kind: 'hook', text: 'Washington doesn\'t|need to regulate.', kicker: 'One memo', highlights: ['regulate'], size: 78, media: {src: 'memo/p_washington.jpg', type: 'img', effect: 'in'}},
@@ -134,7 +123,7 @@ const SCENES: SceneDef[] = [
   {dur: 72, kind: 'text', text: 'Axios reports|a memo.', highlights: ['memo'], size: 82, media: {src: 'memo/v_print.mp4', type: 'video', effect: 'in'}},
   {dur: 89, kind: 'text', text: 'The face of|AI doomerism.', highlights: ['doomerism'], size: 80, media: {src: 'memo/p_face.jpg', type: 'img', effect: 'in'}},
   {dur: 92, kind: 'text', enter: 'slideL', text: 'First Truth Social.|Now on paper.', highlights: ['paper'], size: 78, media: {src: 'memo/p_social.jpg', type: 'img', effect: 'in'}},
-  {dur: 49, kind: 'text', text: 'Reported.|Not published.', highlights: ['not'], size: 84},
+  {dur: 49, kind: 'text', paper: true, text: 'Reported.|Not published.', highlights: ['not'], size: 84},
   {dur: 65, kind: 'text', text: 'Daniela Amodei|denies ties.', highlights: ['denies'], size: 80, media: {src: 'memo/p_press.jpg', type: 'img', effect: 'in'}},
   {dur: 67, kind: 'text', text: 'No policy changed.|The listing\'s still on.', highlights: ['on'], size: 76, media: {src: 'memo/p_greenlight.jpg', type: 'img', effect: 'in'}},
   {dur: 137, kind: 'chart', chart: {a: {label: 'ARAMCO', value: 1.7}, b: {label: 'ANTHROPIC', value: 2, red: true}, prefix: '$', suffix: 'T', decimals: 1, unit: 'BIGGEST IPO EVER'}, media: {src: 'memo/p_floor.jpg', type: 'img', effect: 'in'}},
@@ -144,9 +133,7 @@ const SCENES: SceneDef[] = [
   {dur: 34, kind: 'text', enter: 'zoom', text: 'Tell me|below.', highlights: ['below'], size: 88, media: {src: 'memo/p_dawn.jpg', type: 'img', effect: 'in'}},
 ];
 
-// Sound-effect cues (frame, file, gain). No post-hook pause (hard-cut declarative
-// hook). Impact on the open, the $2T stat and the red "pitch is the risk" card;
-// whooshes on the chain, the chart and the CTA close.
+// Sound-effect cues (frame, file, gain).
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
@@ -170,42 +157,45 @@ export const DURATION_IN_FRAMES = STARTS[STARTS.length - 1] + SCENES[SCENES.leng
 
 const easeInOut = Easing.bezier(0.22, 1, 0.36, 1);
 const useLocal = () => useCurrentFrame();
+const norm = (w: string) => w.replace(/[.,—…:-]/g, '').toLowerCase();
 
-// Entrance transition applied to a scene's media + text together, over ~9 frames.
+// Entrance transition applied to a scene's media + text together, over ~8 frames.
 const enterTransform = (frame: number, enter?: string) => {
   if (!enter) return {tx: 0, ty: 0, sc: 1, op: 1};
-  const t = interpolate(frame, [0, 9], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const t = interpolate(frame, [0, 8], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   let tx = 0;
   let ty = 0;
   let sc = 1;
-  if (enter === 'slideL') tx = (1 - t) * 100;
-  if (enter === 'slideR') tx = -(1 - t) * 100;
-  if (enter === 'slideUp') ty = (1 - t) * 100;
-  if (enter === 'zoom') sc = 1 + (1 - t) * 0.5;
-  const op = interpolate(frame, [0, 6], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  if (enter === 'slideL') tx = (1 - t) * 70;
+  if (enter === 'slideR') tx = -(1 - t) * 70;
+  if (enter === 'slideUp') ty = (1 - t) * 70;
+  if (enter === 'zoom') sc = 1 + (1 - t) * 0.4;
+  const op = interpolate(frame, [0, 5], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return {tx, ty, sc, op};
 };
 
 // ---------------------------------------------------------------------------
-// Media background
+// Duotone media background — grayscale + contrast, subtle stepped (~12fps) Ken
+// Burns move for the reference's choppy feel.
 // ---------------------------------------------------------------------------
 const MediaBackground: React.FC<{cfg: MediaCfg; enter?: string}> = ({cfg, enter}) => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
-  const p = interpolate(frame, [0, durationInFrames], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const stepped = Math.round(frame / 2.5) * 2.5; // ~12fps stutter on the slow move
+  const p = interpolate(stepped, [0, durationInFrames], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const isImg = cfg.type === 'img';
-  const range = isImg ? 0.26 : 0.15;
+  const range = isImg ? 0.22 : 0.13;
   const effect = cfg.effect ?? 'in';
   const scale = effect === 'out' ? interpolate(p, [0, 1], [1 + range, 1]) : interpolate(p, [0, 1], [1, 1 + range]);
   let tx = 0;
-  if (effect === 'panL') tx = interpolate(p, [0, 1], [3.5, -3.5]);
-  if (effect === 'panR') tx = interpolate(p, [0, 1], [-3.5, 3.5]);
+  if (effect === 'panL') tx = interpolate(p, [0, 1], [3, -3]);
+  if (effect === 'panR') tx = interpolate(p, [0, 1], [-3, 3]);
   const e = enterTransform(frame, enter);
   const opacity = interpolate(frame, [0, 5, durationInFrames - 5, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
   const src = staticFile(cfg.src);
-  const mediaStyle: React.CSSProperties = {width: '100%', height: '100%', objectFit: 'cover'};
+  const mediaStyle: React.CSSProperties = {width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(1) contrast(1.32) brightness(0.9)'};
   return (
-    <AbsoluteFill style={{opacity}}>
+    <AbsoluteFill style={{opacity, backgroundColor: '#000'}}>
       <AbsoluteFill style={{transform: `scale(${scale * e.sc}) translate(${tx + e.tx}%, ${e.ty}%)`, transformOrigin: 'center'}}>
         {isImg ? <Img src={src} style={mediaStyle} /> : <OffthreadVideo src={src} startFrom={cfg.from ?? 0} muted style={mediaStyle} />}
       </AbsoluteFill>
@@ -213,79 +203,92 @@ const MediaBackground: React.FC<{cfg: MediaCfg; enter?: string}> = ({cfg, enter}
   );
 };
 
-const Grain: React.FC = () => {
+// Flat paper beat — light mottled stock, for editorial rhythm.
+const PaperBackground: React.FC = () => {
   const frame = useCurrentFrame();
-  const shift = (frame * 7) % 200;
+  const {durationInFrames} = useVideoConfig();
+  const opacity = interpolate(frame, [0, 4, durationInFrames - 4, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
-    <AbsoluteFill style={{opacity: 0.045, mixBlendMode: 'overlay', backgroundImage: 'radial-gradient(rgba(255,255,255,0.9) 0.5px, transparent 0.6px)', backgroundSize: '3px 3px', backgroundPosition: `${shift}px ${shift}px`, pointerEvents: 'none'}} />
+    <AbsoluteFill style={{opacity, backgroundColor: C.paperBg}}>
+      <AbsoluteFill style={{backgroundImage: PAPER, backgroundSize: '600px 600px', mixBlendMode: 'multiply', opacity: 0.5}} />
+      <AbsoluteFill style={{background: 'radial-gradient(120% 90% at 50% 45%, transparent 45%, rgba(80,74,60,0.4) 100%)'}} />
+    </AbsoluteFill>
   );
 };
 
-const Treatment: React.FC = () => (
-  <AbsoluteFill style={{pointerEvents: 'none'}}>
-    <AbsoluteFill style={{backgroundImage: `linear-gradient(${C.line} 1px, transparent 1px), linear-gradient(90deg, ${C.line} 1px, transparent 1px)`, backgroundSize: '90px 90px', maskImage: 'radial-gradient(85% 65% at 50% 45%, black 20%, transparent 100%)', opacity: 0.6}} />
-    <Grain />
-  </AbsoluteFill>
+// Localized bottom scrim so lower-left text reads over bright footage (the
+// reference does the same — text sits in a darkened lower band; the upper frame
+// stays at full brightness). Not used on paper beats (dark ink on light stock).
+const Scrim: React.FC = () => (
+  <AbsoluteFill style={{background: 'linear-gradient(to top, rgba(0,0,0,0.68) 0%, rgba(0,0,0,0.36) 24%, rgba(0,0,0,0) 52%)'}} />
 );
 
+// Global treatment: moving film grain + vignette over everything (below text).
+const Treatment: React.FC = () => {
+  const frame = useCurrentFrame();
+  const gx = (frame * 11) % 160;
+  const gy = (frame * 7) % 160;
+  return (
+    <AbsoluteFill style={{pointerEvents: 'none'}}>
+      <AbsoluteFill style={{background: 'radial-gradient(115% 80% at 50% 42%, transparent 40%, rgba(0,0,0,0.6) 100%)'}} />
+      <AbsoluteFill style={{backgroundImage: GRAIN, backgroundSize: '160px 160px', backgroundPosition: `${gx}px ${gy}px`, opacity: 0.15, mixBlendMode: 'overlay'}} />
+    </AbsoluteFill>
+  );
+};
+
 // ---------------------------------------------------------------------------
-// Kinetic caption — Anton condensed caps, word-by-word, red highlight
+// Editorial caption — left-aligned, big focal line + small annotation line(s).
+// The line carrying the red focal word is set large; the other line(s) become a
+// small tracked annotation. `dark` = dark ink on a paper beat.
 // ---------------------------------------------------------------------------
-const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start'; lineDelay?: number}> = ({text, highlights = [], size = 112, align = 'center', lineDelay = 0}) => {
+const EditorialCaption: React.FC<{text: string; highlights?: string[]; size?: number; dark?: boolean}> = ({text, highlights = [], size = 84, dark = false}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const lines = text.split('|');
   const hset = highlights.map((h) => h.toLowerCase());
-  const isHi = (w: string) => hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase());
-  let wordIndex = 0;
+  const isHi = (w: string) => hset.includes(norm(w));
+  const bigIdx = Math.max(0, lines.findIndex((l) => l.split(' ').some(isHi)));
+  const inkColor = dark ? C.paperInk : C.ink;
+  const subColor = dark ? C.paperSub : C.sub;
+  let wIndex = 0;
   return (
-    <div style={{display: 'flex', flexDirection: 'column', gap: 2, alignItems: align, width: '100%'}}>
-      {lines.map((line, li) => (
-        <div key={li} style={{display: 'flex', flexWrap: 'wrap', justifyContent: align === 'center' ? 'center' : 'flex-start', gap: '0 18px'}}>
-          {line.split(' ').map((word, wi) => {
-            const appear = lineDelay + wordIndex * 0.7;
-            wordIndex++;
-            const p = spring({frame: frame - appear, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
-            const y = interpolate(p, [0, 1], [26, 0]);
-            const hi = isHi(word);
+    <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'flex-start', padding: '0 78px 300px 80px'}}>
+      {!dark ? <Scrim /> : null}
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 12, maxWidth: 940}}>
+        {lines.map((line, li) => {
+          if (li === bigIdx) {
             return (
-              <span key={wi} style={{display: 'inline-block', fontFamily: HEAD, fontSize: size, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase', color: hi ? C.red : C.ink, opacity: p, transform: `translateY(${y}px)`, textShadow: SH}}>
-                {word}
-              </span>
+              <div key={li} style={{display: 'flex', flexWrap: 'wrap', gap: '0 20px'}}>
+                {line.split(' ').map((word, k) => {
+                  const appear = wIndex * 1.4;
+                  wIndex++;
+                  const pv = spring({frame: frame - appear, fps, config: {damping: 24, mass: 0.4, stiffness: 240}});
+                  const y = interpolate(pv, [0, 1], [30, 0]);
+                  return (
+                    <span key={k} style={{display: 'inline-block', fontFamily: HEAD, fontSize: size, lineHeight: 0.9, letterSpacing: -1, textTransform: 'uppercase', color: isHi(word) ? C.red : inkColor, opacity: pv, transform: `translateY(${y}px)`, textShadow: dark ? 'none' : SH}}>
+                      {word}
+                    </span>
+                  );
+                })}
+              </div>
             );
-          })}
-        </div>
-      ))}
-    </div>
+          }
+          const af = interpolate(frame, [2, 12], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+          return (
+            <div key={li} style={{fontFamily: BODY, fontWeight: 700, fontSize: 33, letterSpacing: 4, textTransform: 'uppercase', color: subColor, opacity: af, transform: `translateY(${interpolate(af, [0, 1], [10, 0])}px)`, textShadow: dark ? 'none' : SH}}>
+              {line}
+            </div>
+          );
+        })}
+      </div>
+    </AbsoluteFill>
   );
 };
 
-const Kicker: React.FC<{children: React.ReactNode; delay?: number}> = ({children, delay = 4}) => {
-  const frame = useLocal();
-  const {fps} = useVideoConfig();
-  const p = spring({frame: frame - delay, fps, config: {damping: 200}});
-  return (
-    <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 26, letterSpacing: 7, textTransform: 'uppercase', color: C.ink, opacity: p, transform: `translateY(${interpolate(p, [0, 1], [-12, 0])}px)`}}>
-      {children}
-    </div>
-  );
-};
-
-// ---------------------------------------------------------------------------
-// Scenes
-// ---------------------------------------------------------------------------
-const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[]; size?: number}> = ({text, kicker, highlights, size = 92}) => (
-  <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
-    {kicker ? <div style={{marginBottom: 44}}><Kicker>{kicker}</Kicker></div> : null}
-    <Caption text={text} highlights={highlights} size={size} lineDelay={1} />
-  </AbsoluteFill>
+const SceneText: React.FC<{text: string; highlights?: string[]; size?: number; dark?: boolean}> = ({text, highlights, size = 84, dark}) => (
+  <EditorialCaption text={text} highlights={highlights} size={size} dark={dark} />
 );
-
-const SceneText: React.FC<{text: string; highlights?: string[]; size?: number}> = ({text, highlights, size = 100}) => (
-  <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
-    <Caption text={text} highlights={highlights} size={size} lineDelay={0} />
-  </AbsoluteFill>
-);
+const SceneHook = SceneText;
 
 const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number[]}> = ({text, highlights = [], reveal}) => {
   const frame = useLocal();
@@ -293,23 +296,21 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
   const lines = text.split('|');
   const hset = highlights.map((h) => h.toLowerCase());
   return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'flex-start', padding: '0 96px'}}>
-      <div style={{display: 'flex', flexDirection: 'column', gap: 20}}>
+    <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'flex-start', padding: '0 78px 300px 80px'}}>
+      <Scrim />
+      <div style={{display: 'flex', flexDirection: 'column', gap: 8}}>
         {lines.map((l, i) => {
           const appearAt = reveal ? reveal[i] : 6 + i * 12;
-          const pv = spring({frame: frame - appearAt, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
-          const x = interpolate(pv, [0, 1], [-42, 0]);
+          const pv = spring({frame: frame - appearAt, fps, config: {damping: 24, mass: 0.4, stiffness: 240}});
+          const x = interpolate(pv, [0, 1], [-40, 0]);
           return (
-            <div key={i} style={{opacity: pv, transform: `translateX(${x}px)`, fontFamily: HEAD, fontSize: 96, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
-              {l.split(' ').map((w, wi) => {
-                const hi = hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase());
-                return (
-                  <span key={wi} style={{color: hi ? C.red : C.ink, textShadow: SH}}>
-                    {w}
-                    {wi < l.split(' ').length - 1 ? ' ' : ''}
-                  </span>
-                );
-              })}
+            <div key={i} style={{opacity: pv, transform: `translateX(${x}px)`, fontFamily: HEAD, fontSize: 92, lineHeight: 0.92, letterSpacing: -1, textTransform: 'uppercase'}}>
+              {l.split(' ').map((w, wi) => (
+                <span key={wi} style={{color: hset.includes(norm(w)) ? C.red : C.ink, textShadow: SH}}>
+                  {w}
+                  {wi < l.split(' ').length - 1 ? ' ' : ''}
+                </span>
+              ))}
             </div>
           );
         })}
@@ -321,117 +322,77 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
 const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
-  const enter = spring({frame: frame - 2, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
-  const t = interpolate(frame, [4, 38], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const enter = spring({frame: frame - 2, fps, config: {damping: 24, mass: 0.4, stiffness: 240}});
+  const t = interpolate(frame, [4, 34], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const shown = stat.value * t;
   const num = stat.decimals ? shown.toFixed(stat.decimals) : Math.round(shown).toLocaleString('en-US');
-  const barW = stat.bar != null ? interpolate(frame, [6, 40], [0, stat.bar], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut}) : 0;
   return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
-      <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [26, 0])}px)`, textAlign: 'center'}}>
-        {stat.pre ? <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: C.ink, textTransform: 'uppercase', marginBottom: 8}}>{stat.pre}</div> : null}
-        <div style={{display: 'flex', alignItems: 'baseline', justifyContent: 'center'}}>
-          {stat.prefix ? <span style={{fontFamily: HEAD, fontSize: 170, color: C.red, lineHeight: 1}}>{stat.prefix}</span> : null}
-          <span style={{fontFamily: HEAD, fontSize: 300, color: C.red, lineHeight: 0.85, letterSpacing: 2, textShadow: SH}}>{num}</span>
-          {stat.suffix ? <span style={{fontFamily: HEAD, fontSize: 170, color: C.red, lineHeight: 1}}>{stat.suffix}</span> : null}
+    <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'flex-start', padding: '0 78px 290px 80px'}}>
+      <Scrim />
+      <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [28, 0])}px)`, textAlign: 'left'}}>
+        {stat.pre ? <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 33, letterSpacing: 4, color: C.sub, textTransform: 'uppercase', marginBottom: 6}}>{stat.pre}</div> : null}
+        <div style={{display: 'flex', alignItems: 'baseline'}}>
+          {stat.prefix ? <span style={{fontFamily: HEAD, fontSize: 190, color: C.red, lineHeight: 0.85}}>{stat.prefix}</span> : null}
+          <span style={{fontFamily: HEAD, fontSize: 300, color: C.red, lineHeight: 0.8, letterSpacing: -4, textShadow: SH}}>{num}</span>
+          {stat.suffix ? <span style={{fontFamily: HEAD, fontSize: 190, color: C.red, lineHeight: 0.85}}>{stat.suffix}</span> : null}
         </div>
-        {stat.post ? <div style={{fontFamily: BODY, fontWeight: 600, fontSize: 46, color: C.ink, marginTop: 6, textTransform: 'uppercase', letterSpacing: 1}}>{stat.post}</div> : null}
+        {stat.post ? <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 40, color: C.ink, marginTop: 8, textTransform: 'uppercase', letterSpacing: 3}}>{stat.post}</div> : null}
       </div>
-      {stat.bar != null ? (
-        <div style={{width: 780, marginTop: 60, opacity: interpolate(frame, [12, 26], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}}>
-          <div style={{height: 40, width: '100%', borderRadius: 4, background: C.track, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.06)'}}>
-            <div style={{height: '100%', width: `${barW}%`, background: C.red, boxShadow: '0 0 30px rgba(255,46,46,0.45)'}} />
-          </div>
-        </div>
-      ) : null}
     </AbsoluteFill>
   );
 };
 
-// Two-bar comparison chart (NYSE hours vs chain hours) — the client asked for
-// this frame explicitly. Bars grow from the baseline; the taller "chain" bar is
-// red and glows. Values count up above each bar.
+// Two-bar comparison chart — mono editorial (white/gray vs red), values above.
 const SceneChart: React.FC<{chart: ChartCfg}> = ({chart}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
-  const enter = spring({frame: frame - 2, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
-  const t = interpolate(frame, [6, 44], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const enter = spring({frame: frame - 2, fps, config: {damping: 24, mass: 0.4, stiffness: 240}});
+  const t = interpolate(frame, [6, 42], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const maxVal = Math.max(chart.a.value, chart.b.value);
-  const H = 900;
+  const H = 820;
   const dec = chart.decimals ?? 0;
   const fmt = (v: number) => (chart.prefix ?? '') + (dec ? v.toFixed(dec) : Math.round(v).toString()) + (chart.suffix ?? '');
   const Bar: React.FC<{d: {label: string; value: number; red?: boolean}}> = ({d}) => {
     const h = (d.value / maxVal) * H * t;
     const shown = d.value * t;
     return (
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: 260}}>
-        <div style={{fontFamily: HEAD, fontSize: 92, color: d.red ? C.red : C.ink, lineHeight: 1, marginBottom: 10, textShadow: SH}}>{fmt(shown)}</div>
-        <div style={{width: 200, height: H, display: 'flex', alignItems: 'flex-end'}}>
-          <div
-            style={{
-              width: '100%',
-              height: Math.max(4, h),
-              borderRadius: 6,
-              background: d.red ? C.red : '#4A4A50',
-              border: d.red ? 'none' : '1px solid rgba(255,255,255,0.28)',
-              boxShadow: d.red ? '0 0 46px rgba(255,46,46,0.5)' : 'none',
-            }}
-          />
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', width: 250}}>
+        <div style={{fontFamily: HEAD, fontSize: 86, color: d.red ? C.red : C.ink, lineHeight: 1, marginBottom: 12, letterSpacing: -2, textShadow: SH}}>{fmt(shown)}</div>
+        <div style={{width: 190, height: H, display: 'flex', alignItems: 'flex-end'}}>
+          <div style={{width: '100%', height: Math.max(4, h), background: d.red ? C.red : '#E8E4DA', boxShadow: d.red ? '0 0 40px rgba(255,46,46,0.4)' : 'none'}} />
         </div>
-        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 34, letterSpacing: 4, color: C.ink, textTransform: 'uppercase', marginTop: 20, textShadow: SH}}>{d.label}</div>
+        <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 32, letterSpacing: 3, color: C.sub, textTransform: 'uppercase', marginTop: 18}}>{d.label}</div>
       </div>
     );
   };
   return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
-      <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [26, 0])}px)`, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <div style={{display: 'flex', gap: 70, alignItems: 'flex-end'}}>
+    <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'flex-start', padding: '0 78px 210px 80px'}}>
+      <Scrim />
+      <div style={{opacity: enter}}>
+        {chart.unit ? <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 32, letterSpacing: 5, color: C.sub, textTransform: 'uppercase', marginBottom: 26}}>{chart.unit}</div> : null}
+        <div style={{display: 'flex', gap: 60, alignItems: 'flex-end'}}>
           <Bar d={chart.a} />
           <Bar d={chart.b} />
         </div>
-        {chart.unit ? <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 28, letterSpacing: 6, color: C.sub, textTransform: 'uppercase', marginTop: 30}}>{chart.unit}</div> : null}
       </div>
     </AbsoluteFill>
   );
 };
 
-const SceneImpact: React.FC<{text: string; redBg?: boolean}> = ({text, redBg}) => {
+// Mid-reel thesis — black editorial beat, red on the payoff line (no red card).
+const SceneImpact: React.FC<{text: string}> = ({text}) => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
-  const p = spring({frame, fps, config: {damping: 13, mass: 0.8, stiffness: 120}});
-  const scale = interpolate(p, [0, 1], [0.66, 1]);
   const lines = text.split('|');
   return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
-      {redBg ? <AbsoluteFill style={{background: 'radial-gradient(125% 90% at 50% 42%, #FF2E2E 0%, #E31E1E 62%, #C21414 100%)'}} /> : null}
-      <div style={{transform: `scale(${scale})`, opacity: Math.min(1, p * 1.4), textAlign: 'center', fontFamily: HEAD, fontSize: 150, lineHeight: 0.92, letterSpacing: 1, textTransform: 'uppercase'}}>
-        {lines.map((l, i) => (
-          <div key={i} style={{color: redBg ? (i === 0 ? '#0A0A0A' : C.ink) : (i === lines.length - 1 ? C.red : C.ink), textShadow: redBg ? 'none' : SH}}>
-            {l}
-          </div>
-        ))}
-      </div>
-    </AbsoluteFill>
-  );
-};
-
-const SceneOutro: React.FC = () => {
-  const frame = useLocal();
-  const {fps} = useVideoConfig();
-  const parts = [
-    {t: 'Open all hours.', red: false},
-    {t: 'Owned by someone.', red: false},
-    {t: 'Watch the rails.', red: true},
-  ];
-  return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
-      <div style={{display: 'flex', flexDirection: 'column', gap: 10, alignItems: 'center'}}>
-        {parts.map((p, i) => {
-          const s = spring({frame: frame - (6 + i * 14), fps, config: {damping: 200}});
+    <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'flex-start', padding: '0 78px 300px 80px', backgroundColor: '#000'}}>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
+        {lines.map((l, i) => {
+          const s = spring({frame: frame - i * 5, fps, config: {damping: 20, mass: 0.6, stiffness: 150}});
           return (
-            <span key={i} style={{fontFamily: HEAD, fontSize: p.red ? 150 : 116, textTransform: 'uppercase', letterSpacing: 1, color: C.ink, opacity: s, transform: `translateY(${interpolate(s, [0, 1], [34, 0])}px)`}}>
-              {p.red ? (<>Watch the <span style={{color: C.red, textShadow: SH}}>rails.</span></>) : p.t}
-            </span>
+            <div key={i} style={{fontFamily: HEAD, fontSize: 132, lineHeight: 0.88, letterSpacing: -2, textTransform: 'uppercase', color: i === lines.length - 1 ? C.red : C.ink, opacity: s, transform: `translateY(${interpolate(s, [0, 1], [40, 0])}px)`, textShadow: SH}}>
+              {l}
+            </div>
           );
         })}
       </div>
@@ -439,37 +400,31 @@ const SceneOutro: React.FC = () => {
   );
 };
 
+const SceneOutro: React.FC = () => null;
+
 // ---------------------------------------------------------------------------
-const Hud: React.FC = () => {
-  const frame = useCurrentFrame();
-  const progress = frame / DURATION_IN_FRAMES;
-  return (
-    <>
-      <div style={{position: 'absolute', top: 70, left: 80, display: 'flex', alignItems: 'center', gap: 14}}>
-        <div style={{width: 11, height: 11, borderRadius: 11, background: C.sub}} />
-        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>One memo</span>
-      </div>
-      <div style={{position: 'absolute', bottom: 90, left: 80, right: 80, height: 3, borderRadius: 3, background: 'rgba(255,255,255,0.08)'}}>
-        <div style={{height: '100%', width: `${progress * 100}%`, borderRadius: 3, background: C.sub}} />
-      </div>
-    </>
-  );
-};
+const Hud: React.FC = () => (
+  <div style={{position: 'absolute', top: 74, left: 80, display: 'flex', alignItems: 'center', gap: 12}}>
+    <div style={{width: 22, height: 22, background: C.red}} />
+    <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 26, letterSpacing: 6, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>One memo</span>
+  </div>
+);
 
 const renderScene = (s: SceneDef) => {
+  const dark = !!s.paper;
   switch (s.kind) {
     case 'hook':
-      return <SceneHook text={s.text!} kicker={s.kicker} highlights={s.highlights} size={s.size} />;
+      return <SceneHook text={s.text!} highlights={s.highlights} size={s.size} dark={dark} />;
     case 'lines':
       return <SceneLines text={s.text!} highlights={s.highlights} reveal={s.reveal} />;
     case 'text':
-      return <SceneText text={s.text!} highlights={s.highlights} size={s.size} />;
+      return <SceneText text={s.text!} highlights={s.highlights} size={s.size} dark={dark} />;
     case 'stat':
       return <SceneStat stat={s.stat!} />;
     case 'chart':
       return <SceneChart chart={s.chart!} />;
     case 'impact':
-      return <SceneImpact text={s.text!} redBg={s.redBg} />;
+      return <SceneImpact text={s.text!} />;
     case 'outro':
       return <SceneOutro />;
     default:
@@ -499,6 +454,10 @@ export const MemoReel: React.FC = () => {
             <Sequence key={`m${i}`} from={STARTS[i]} durationInFrames={s.dur} name={`bg-${i}-${s.kind}`}>
               <MediaBackground cfg={s.media} enter={s.enter} />
             </Sequence>
+          ) : s.paper ? (
+            <Sequence key={`m${i}`} from={STARTS[i]} durationInFrames={s.dur} name={`paper-${i}`}>
+              <PaperBackground />
+            </Sequence>
           ) : null,
         )}
         <Treatment />
@@ -518,13 +477,12 @@ export const MemoReel: React.FC = () => {
   );
 };
 
-// Bottom-center brand watermark — 45% opacity, hard edges (drop the client's
-// exact export at public/media/logo.png to replace).
+// Bottom-center brand watermark, desaturated for the mono look.
 const LogoWatermark: React.FC = () => (
   <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'center', pointerEvents: 'none'}}>
     <Img
       src={staticFile('media/logo.png')}
-      style={{width: 330, height: 'auto', opacity: 0.45, marginBottom: 130, borderRadius: 0}}
+      style={{width: 300, height: 'auto', opacity: 0.4, marginBottom: 110, borderRadius: 0, filter: 'grayscale(0.35) brightness(1.05)'}}
     />
   </AbsoluteFill>
 );
@@ -535,7 +493,7 @@ const SceneTransition: React.FC<{children: React.ReactNode; enter?: string}> = (
   const e = enterTransform(frame, enter);
   const opacity = interpolate(frame, [0, 2, durationInFrames - 3, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
   return (
-    <AbsoluteFill style={{opacity, transform: `translate(${e.tx}%, ${e.ty}%) scale(${e.sc})`, transformOrigin: 'center', textShadow: SH}}>
+    <AbsoluteFill style={{opacity, transform: `translate(${e.tx}%, ${e.ty}%) scale(${e.sc})`, transformOrigin: 'center'}}>
       {children}
     </AbsoluteFill>
   );
