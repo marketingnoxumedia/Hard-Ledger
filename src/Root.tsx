@@ -103,6 +103,7 @@ import {TuitionReel, DURATION_IN_FRAMES as TUITION_FRAMES} from './TuitionReel';
 import {ReturnReel, DURATION_IN_FRAMES as RETURN_FRAMES} from './ReturnReel';
 import {ClarityReel, DURATION_IN_FRAMES as CLARITY_FRAMES} from './ClarityReel';
 import {BellReel, DURATION_IN_FRAMES as BELL_FRAMES} from './BellReel';
+import {MemoReel, DURATION_IN_FRAMES as MEMO_FRAMES} from './MemoReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -928,6 +929,14 @@ export const RemotionRoot: React.FC = () => {
         id="BellReel"
         component={BellReel}
         durationInFrames={BELL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="MemoReel"
+        component={MemoReel}
+        durationInFrames={MEMO_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

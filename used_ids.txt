@@ -1673,3 +1673,23 @@
 8865787 bell/v_floor.mp4
 19555268 bell/v_rails.mp4
 28464336 bell/v_night.mp4
+
+# MemoReel (One memo) — NEWS reel series #3 (AI mega-IPO + political memo; NEW topic, not crypto), media-dense (18 media/2 black/1 red), two-bar chart
+4705378 memo/p_washington.jpg
+261679 memo/p_memo.jpg
+10653885 memo/p_listing.jpg
+5912587 memo/p_money.jpg
+5417675 memo/p_calendar.jpg
+32266769 memo/p_un.jpg
+5202006 memo/p_slow.jpg
+30596264 memo/p_globe.jpg
+14003675 memo/v_index.mp4
+19222036 memo/p_face.jpg
+28905655 memo/p_greenlight.jpg
+5203849 memo/p_floor.jpg
+14866072 memo/p_bank.jpg
+7734571 memo/p_deal.jpg
+20069741 memo/p_openbell.jpg
+29585684 memo/p_dawn.jpg
+35163081 memo/v_ai.mp4
+855469 memo/v_print.mp4

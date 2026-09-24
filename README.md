@@ -2460,6 +2460,44 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   the author; rendered as written and to be re-checked against primary sources at
   publish time. **Voice:** uses the same distinct upbeat cloned voice as ClarityReel
   (energetic settings), not the shared house cloned voice.
+- **`MemoReel`** — "One memo" (the third fast NEWS reel in the series, but a NEW
+  topic — an AI-company mega-IPO and a political memo, not the crypto/Clarity-Act
+  story. Thesis: Washington doesn't need to regulate the AI firm — it just needs
+  one memo before the IPO. Funds / pensions / indexes line up for the biggest
+  listing in years, ~$2T on the table, the date slips a month. On 23 Sept at the
+  UN Security Council, Anthropic's CEO says AI could threaten humanity and offers
+  to slow down; same room, a White House adviser calls that a "globalist scheme,"
+  and within a day a memo circulates naming the CEO the face of "AI doomerism."
+  The flip: safety was the pitch, safety is now the risk. The catch: the memo is
+  reported, not published; the listing's still on; but investors price the story,
+  not the paperwork. Payoff: the banks get paid either way — the memo's their risk
+  to sell, not to carry. Close: the bell's set for November, if the memo lets it
+  ring.) ~58s. **Like the rest of the series, it keeps the hard-cut declarative
+  hook (no post-hook pause) and the non-question CTA close ("Keep your eyes
+  open.").** Red "The pitch is the risk" thesis card mid-reel; one staggered
+  `lines` beat (every fund / pension / index); a two-bar `chart` beat contrasting
+  the largest listing ever (Aramco ~$1.7T) with this one (~$2T). Tempo is
+  ADAPTIVE — the atempo is computed per generation (~1.18 here) to keep the reel
+  under the 60s platform cap despite the upbeat clone's variable pacing.
+  Media-dense (18 media / 2 black / 1 red); the close lands on a city skyline at
+  dawn. Its own footage under `public/memo/`. Media credits (Pexels, free license)
+  — videos: a market-data ticker (14003675), an abstract neural network (35163081),
+  a printing press (855469). Photos: the US Capitol at night (4705378), a typed memo
+  (261679), a market-listing screen (10653885), a bundle of $100 bills (5912587), a
+  month calendar (5417675), a formal legislative chamber (32266769), a raised-palm
+  stop gesture (5202006), Earth at night from space (30596264), a shadowed
+  anonymous figure (19222036), a green glow (28905655), a dark server room
+  (5203849), a bank vault (14866072), a business handshake (7734571), a ceremonial
+  bell (20069741), and a city skyline at dawn (29585684). **TIME-SENSITIVE /
+  UNVERIFIED — ELEVATED RISK, verify before publishing:** this reel makes contested,
+  attributed claims about NAMED real people and companies (Anthropic and its CEO; a
+  White House science adviser; the "globalist scheme" and "AI doomerism"
+  characterisations; a reported-but-unpublished memo; the UN Security Council
+  remarks; the ~$2T valuation, the slipped date, and the Aramco ~$1.7T comparison).
+  All of it is dated news supplied by the author and rendered as written; because it
+  names individuals and carries reputational/legal risk if any detail is wrong,
+  EVERY claim must be checked against primary sources before this publishes.
+  **Voice:** uses the same distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
