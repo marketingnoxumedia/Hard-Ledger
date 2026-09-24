@@ -75,62 +75,63 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// "Go time" reel (ClarityReel) — a NEWS reel (not the usual evergreen case
-// study), departing from two house conventions by the client's explicit
-// direction: a hard-cut DECLARATIVE hook (no withheld-subject question, so no
-// post-hook pause) and a SAVE-CTA close instead of the rhetorical question. The
-// story: the US Senate voted down the Clarity Act (the bill to sort out who
-// regulates crypto), but days later the CFTC chair said "it's go time" and the
-// agency moved anyway — tokenised stocks cleared, wallet apps into derivatives, a
-// custody plan to the White House, two draft rulebooks filed — all without the
-// bill. The catch: the CFTC can regulate leveraged trading but not the spot
-// market, which still needs a vote; so money moved to perps and two tokens ran.
-// Fast cuts; the red card is the "It's go time" quote (mid-reel), and the reel
-// ends on a black CTA card. Durations on exact ElevenLabs spoken-word timestamps
-// at +6% pace (no pause splice). Total 1245 frames = ~41.5s; the VO ends ~39.5s
-// and the final CTA card holds ~1.8s over the music bed. **Media-dense:** 16 of
-// 19 beats carry footage (the four regulatory actions are one staggered checklist
-// beat), with 2 flat-black beats plus the one red card. Own footage under
-// public/clarity/ — no asset shared with any other reel (skill hard rule).
-// **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** every claim here
-// (the Clarity Act Senate vote and its date, the CFTC-chair "it's go time" quote,
-// the four regulatory actions, and the Lighter $5.40 ATH / Hyperliquid figures)
-// is dated news the author supplied and confirmed; it is rendered as written and
-// must be re-checked against primary sources before publishing, as prices and
-// regulatory status move daily.
+// "Go time" reel (ClarityReel) — a fast crypto-regulation NEWS reel (not the
+// usual evergreen case study), departing from two house conventions by the
+// client's explicit direction: a hard-cut DECLARATIVE hook (no withheld-subject
+// question, so no post-hook pause) and a non-question CTA close ("Keep your eyes
+// open."). The thesis: Congress doesn't need to pass the crypto bill — the
+// regulator just stopped waiting. The Senate blocked the Clarity Act (Sept 2026),
+// but eight days later CFTC chair Mike Selig said "it's go time" and made five
+// moves with zero votes: tokenised US stocks cleared onto public blockchains,
+// wallet apps routed to regulated derivatives, two draft rulebooks at the White
+// House. The catch: not spot — spot still needs Congress. So money moved to perps
+// and two tokens ran. The payoff frames it Congress 0 / CFTC 5. Fast cuts; the red
+// card is the "It's go time" quote (mid-reel); three staggered `lines` beats carry
+// the chain, the 8-days/5-moves/0-votes stat, and the three regulatory actions.
+// Durations on exact ElevenLabs spoken-word timestamps at +6% pace (no pause
+// splice). Total 1362 frames = ~45.4s. **Media-dense:** 15 of 17 beats carry
+// footage, with 1 flat-black beat plus the one red card; the close lands on the
+// green "go" signal. Own footage under public/clarity/ — reused within this reel's
+// own folder, no asset shared with any other reel (skill hard rule). **The
+// "Congress 0 / CFTC 5" payoff is rendered as a caption contrast, not a literal
+// two-bar glowing chart (not a composition primitive).** **TIME-SENSITIVE /
+// UNVERIFIED — verify before publishing:** every claim (the Clarity Act Senate
+// vote and its Sept-2026 date, the "Mike Selig / it's go time" CNBC quote, the
+// five moves, and the Lighter $5.40 ATH / Hyperliquid figures) is dated news the
+// author supplied and confirmed; it is rendered as written and must be re-checked
+// against primary sources at publish time, as prices and regulatory status move
+// daily.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 51, kind: 'hook', text: 'The bill died.|The rules didn\'t.', kicker: 'Go time', highlights: ['rules'], size: 84, media: {src: 'clarity/p_capitol.jpg', type: 'img', effect: 'in'}},
-  {dur: 81, kind: 'text', text: 'Eight days ago,|the Senate said no.', highlights: ['no'], size: 80, media: {src: 'clarity/p_senate.jpg', type: 'img', effect: 'in'}},
-  {dur: 61, kind: 'text', text: 'The one bill to|regulate crypto.', highlights: ['crypto'], size: 80, media: {src: 'clarity/p_crypto.jpg', type: 'img', effect: 'in'}},
-  {dur: 40, kind: 'text', text: 'Everyone assumed|that was it.', highlights: ['assumed'], size: 84, media: {src: 'clarity/p_gavel.jpg', type: 'img', effect: 'in'}},
-  {dur: 26, kind: 'text', text: 'Back to|limbo.', highlights: ['limbo'], size: 92, media: {src: 'clarity/p_fog.jpg', type: 'img', effect: 'in'}},
-  {dur: 108, kind: 'text', enter: 'slideL', text: 'Then the CFTC chair|went on live TV.', highlights: ['CFTC'], size: 76, media: {src: 'clarity/v_studio.mp4', type: 'video', effect: 'in'}},
-  {dur: 37, kind: 'impact', text: 'It\'s|go time.', redBg: true},
-  {dur: 35, kind: 'text', text: 'They never|needed the bill.', highlights: ['never'], size: 84, media: {src: 'clarity/p_greenlight.jpg', type: 'img', effect: 'in'}},
-  {dur: 28, kind: 'text', text: 'In a single|week.', highlights: ['week'], size: 92, media: {src: 'clarity/p_calendar.jpg', type: 'img', effect: 'in'}},
-  {dur: 285, kind: 'lines', text: 'Tokenized stocks.|Wallet apps.|A custody plan.|Two rulebooks.', highlights: ['two'], reveal: [0, 86, 145, 207], media: {src: 'clarity/p_checklist.jpg', type: 'img', effect: 'in'}},
-  {dur: 48, kind: 'text', text: 'But there\'s a line|they can\'t cross.', highlights: ['line'], size: 80},
-  {dur: 37, kind: 'text', text: 'They can regulate|leverage.', highlights: ['leverage'], size: 82, media: {src: 'clarity/p_leverage.jpg', type: 'img', effect: 'in'}},
-  {dur: 47, kind: 'text', text: 'They can\'t touch|the spot market.', highlights: ['spot'], size: 80, media: {src: 'clarity/p_boundary.jpg', type: 'img', effect: 'in'}},
-  {dur: 36, kind: 'text', text: 'That still|needs a vote.', highlights: ['vote'], size: 84, media: {src: 'clarity/p_ballot.jpg', type: 'img', effect: 'in'}},
-  {dur: 47, kind: 'text', enter: 'slideL', text: 'So the money|moved to perps.', highlights: ['perps'], size: 82, media: {src: 'clarity/v_trading.mp4', type: 'video', effect: 'in'}},
-  {dur: 84, kind: 'stat', stat: {pre: 'Lighter token, an ATH', prefix: '$', value: 5.40, decimals: 2}, media: {src: 'clarity/p_chartup1.jpg', type: 'img', effect: 'in'}},
-  {dur: 64, kind: 'stat', stat: {pre: 'Hyperliquid, off its ATH', value: 2, suffix: '%'}, media: {src: 'clarity/p_chartup2.jpg', type: 'img', effect: 'in'}},
-  {dur: 75, kind: 'text', enter: 'zoom', text: 'Congress said no.|Regulators heard go.', highlights: ['go'], size: 78, media: {src: 'clarity/v_gosignal.mp4', type: 'video', from: 165, effect: 'in'}},
-  {dur: 55, kind: 'text', text: 'Save this before|the next headline.', highlights: ['save'], size: 82},
+  {dur: 71, kind: 'hook', text: 'Congress doesn\'t need|to pass the bill.', kicker: 'Go time', highlights: ['need'], size: 80, media: {src: 'clarity/p_capitol.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', text: 'Regulators stopped|waiting for one.', highlights: ['waiting'], size: 82, media: {src: 'clarity/p_greenlight.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'lines', text: 'Every exchange.|Every stablecoin.|Every token.', highlights: ['token'], reveal: [0, 28, 59], media: {src: 'clarity/p_crypto.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', text: 'It all runs|on a rulebook.', highlights: ['rulebook'], size: 82, media: {src: 'clarity/p_gavel.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', text: 'Unless|there isn\'t one.', highlights: ['unless'], size: 88, media: {src: 'clarity/p_fog.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', enter: 'slideL', text: 'September 2026:|the Senate blocks it.', highlights: ['blocks'], size: 76, media: {src: 'clarity/p_senate.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', text: 'The bill that decides|who regulates crypto.', highlights: ['crypto'], size: 74, media: {src: 'clarity/p_boundary.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'lines', text: '8 days later.|5 moves.|0 votes.', highlights: ['0'], reveal: [0, 27, 53], media: {src: 'clarity/p_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', enter: 'slideL', text: 'CFTC chair|Mike Selig.', highlights: ['Selig'], size: 84, media: {src: 'clarity/v_studio.mp4', type: 'video', effect: 'in'}},
+  {dur: 26, kind: 'impact', text: 'It\'s|go time.', redBg: true},
+  {dur: 253, kind: 'lines', text: 'Tokenized stocks.|Wallets to derivatives.|Two rulebooks filed.', highlights: ['two'], reveal: [0, 97, 172], media: {src: 'clarity/p_checklist.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', text: 'Not spot.|Spot needs Congress.', highlights: ['spot'], size: 82},
+  {dur: 40, kind: 'text', enter: 'slideL', text: 'So the money|moved to perps.', highlights: ['perps'], size: 82, media: {src: 'clarity/v_trading.mp4', type: 'video', effect: 'in'}},
+  {dur: 74, kind: 'stat', stat: {pre: 'Lighter, an all-time high', prefix: '$', value: 5.40, decimals: 2}, media: {src: 'clarity/p_chartup1.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'stat', stat: {pre: 'Hyperliquid, off its ATH', value: 2, suffix: '%'}, media: {src: 'clarity/p_chartup2.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'text', enter: 'slideL', text: 'Congress: zero.|CFTC: five.', highlights: ['five'], size: 88, media: {src: 'clarity/p_leverage.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', enter: 'zoom', text: 'The bill\'s dead.|Keep your eyes open.', highlights: ['open'], size: 78, media: {src: 'clarity/v_gosignal.mp4', type: 'video', from: 165, effect: 'in'}},
 ];
 
-// Sound-effect cues (frame, file, gain). No post-hook pause on this reel (hard-cut
-// declarative hook). Impact on the open, the red "go time" card and the ATH stat;
-// whooshes on the checklist drop and the close.
+// Sound-effect cues (frame, file, gain). No post-hook pause (hard-cut declarative
+// hook). Impact on the open, the red "go time" card and the ATH stat; whooshes on
+// the chain and the close.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 367, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 467, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 967, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1115, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 130, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 639, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1023, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1274, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {

@@ -2389,33 +2389,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   `MajorReel` and `TuitionReel` — publish only one college reel to a given
   audience.
 - **`ClarityReel`** — "Go time" (a fast crypto-regulation NEWS reel — a format
-  departure from the evergreen case studies: the US Senate voted down the Clarity
-  Act, the bill to sort out who regulates crypto, but days later the CFTC chair
-  said "it's go time" and the agency moved without it — tokenised US stocks
-  cleared to trade, wallet apps into derivatives, a custody plan to the White
-  House, two draft rulebooks filed. The catch: the CFTC can regulate leveraged
-  trading but not the spot market, which still needs a vote, so money moved to
-  perps and two tokens ran). ~41.5s. **By the client's explicit direction this
-  reel breaks two house conventions:** a hard-cut declarative hook ("The bill
-  died. The rules didn't." — no withheld-subject question, so no post-hook pause)
-  and a save-CTA close ("Save this before the next headline.") instead of the
-  rhetorical question. Red "It's go time" quote card mid-reel; the four regulatory
-  actions are one staggered checklist beat. Media-dense (16 media / 2 black / 1
-  red). Its own footage under `public/clarity/`. Media credits (Pexels, free
-  license) — videos: a TV studio set (14367163), an abstract finance motion
-  graphic (5849611), a pedestrian signal turning green (6415387, closing beat).
-  Photos: the US Capitol (6580465), a legislative chamber (9623142), abstract data
-  fibers (8640331), a gavel (6077326), a foggy road (10812874), a green traffic
-  light (11574912), a "this week" planner (7718762), a stack of filed papers
-  (20062955), a balance scale (8431786), double-yellow road lines (16682389), a
-  ballot drop (1550337), cut-out up-arrows (7679944), and an abstract candlestick
-  chart (39315994). **TIME-SENSITIVE / UNVERIFIED — verify before publishing:**
-  every claim (the Clarity Act Senate vote and its date, the CFTC-chair "it's go
-  time" quote, the four regulatory actions, and the Lighter ~$5.40 ATH /
-  Hyperliquid ~2%-off figures) is dated news supplied and confirmed by the author;
-  it is rendered as written and must be re-checked against primary sources at
-  publish time, as crypto prices and regulatory status move daily. Being a dated
-  news reel, it also has a short shelf life — publish promptly.
+  departure from the evergreen case studies: Congress doesn't need to pass the
+  crypto bill; the regulator just stopped waiting. The Senate blocked the Clarity
+  Act (Sept 2026), but eight days later CFTC chair Mike Selig said "it's go time"
+  and made five moves with zero votes — tokenised US stocks cleared onto public
+  blockchains, wallet apps routed to regulated derivatives, two draft rulebooks at
+  the White House. The catch: not spot — spot still needs Congress; so money moved
+  to perps and two tokens ran. Framed Congress 0 / CFTC 5). ~45.4s. **By the
+  client's explicit direction this reel breaks two house conventions:** a hard-cut
+  declarative hook ("Congress doesn't need to pass the bill." — no withheld-subject
+  question, so no post-hook pause) and a non-question CTA close ("Keep your eyes
+  open.") instead of the rhetorical question. Red "It's go time" quote card
+  mid-reel; three staggered `lines` beats carry the chain (every exchange /
+  stablecoin / token), the 8-days / 5-moves / 0-votes stat, and the three
+  regulatory actions. The "Congress 0 / CFTC 5" payoff is a caption contrast, not
+  a literal two-bar chart (not a composition primitive). Media-dense (15 media / 1
+  black / 1 red); the close lands on the green "go" signal. Its own footage under
+  `public/clarity/`. Media credits (Pexels, free license) — videos: a TV studio
+  set (14367163), an abstract finance motion graphic (5849611), a pedestrian
+  signal turning green (6415387, closing beat). Photos: the US Capitol (6580465),
+  a green traffic light (11574912), abstract data fibers (8640331), a gavel
+  (6077326), a foggy road (10812874), a legislative chamber (9623142),
+  double-yellow road lines (16682389), a "this week" planner (7718762), a stack of
+  filed papers (20062955), cut-out up-arrows (7679944), an abstract candlestick
+  chart (39315994), and a balance scale (8431786). **TIME-SENSITIVE / UNVERIFIED —
+  verify before publishing:** every claim (the Clarity Act Senate vote and its
+  Sept-2026 date, the "Mike Selig / it's go time" CNBC quote, the five moves, and
+  the Lighter ~$5.40 ATH / Hyperliquid ~2%-off figures) is dated news supplied and
+  confirmed by the author; it is rendered as written and must be re-checked against
+  primary sources at publish time, as crypto prices and regulatory status move
+  daily. Being a dated news reel, it also has a short shelf life — publish
+  promptly.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
