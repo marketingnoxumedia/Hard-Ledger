@@ -119,7 +119,7 @@ const SCENES: SceneDef[] = [
   {dur: 79, kind: 'stat', stat: {pre: 'Lighter, an all-time high', prefix: '$', value: 5.40, decimals: 2}, media: {src: 'clarity/p_chartup1.jpg', type: 'img', effect: 'in'}},
   {dur: 73, kind: 'stat', stat: {pre: 'Hyperliquid, off its ATH', value: 2, suffix: '%'}, media: {src: 'clarity/p_chartup2.jpg', type: 'img', effect: 'in'}},
   {dur: 120, kind: 'text', enter: 'slideL', text: 'Congress: zero.|CFTC: five.', highlights: ['five'], size: 88, media: {src: 'clarity/p_leverage.jpg', type: 'img', effect: 'in'}},
-  {dur: 105, kind: 'text', enter: 'zoom', text: 'The bill\'s dead.|Keep your eyes open.', highlights: ['open'], size: 78, media: {src: 'clarity/v_gosignal.mp4', type: 'video', from: 165, effect: 'in'}},
+  {dur: 105, kind: 'text', enter: 'zoom', text: 'The bill\'s dead.|Keep your eyes open.', highlights: ['open'], size: 78, media: {src: 'clarity/v_gosignal.mp4', type: 'video', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). No post-hook pause (hard-cut declarative

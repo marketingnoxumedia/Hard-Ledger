@@ -2395,7 +2395,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   and made five moves with zero votes — tokenised US stocks cleared onto public
   blockchains, wallet apps routed to regulated derivatives, two draft rulebooks at
   the White House. The catch: not spot — spot still needs Congress; so money moved
-  to perps and two tokens ran. Framed Congress 0 / CFTC 5). ~45.4s. **By the
+  to perps and two tokens ran. Framed Congress 0 / CFTC 5). ~51s. **By the
   client's explicit direction this reel breaks two house conventions:** a hard-cut
   declarative hook ("Congress doesn't need to pass the bill." — no withheld-subject
   question, so no post-hook pause) and a non-question CTA close ("Keep your eyes
@@ -2404,15 +2404,18 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   stablecoin / token), the 8-days / 5-moves / 0-votes stat, and the three
   regulatory actions. The "Congress 0 / CFTC 5" payoff is a caption contrast, not
   a literal two-bar chart (not a composition primitive). Media-dense (15 media / 1
-  black / 1 red); the close lands on the green "go" signal. Its own footage under
-  `public/clarity/`. Media credits (Pexels, free license) — videos: a TV studio
-  set (14367163), an abstract finance motion graphic (5849611), a pedestrian
-  signal turning green (6415387, closing beat). Photos: the US Capitol (6580465),
-  a green traffic light (11574912), abstract data fibers (8640331), a gavel
-  (6077326), a foggy road (10812874), a legislative chamber (9623142),
-  double-yellow road lines (16682389), a "this week" planner (7718762), a stack of
-  filed papers (20062955), cut-out up-arrows (7679944), an abstract candlestick
-  chart (39315994), and a balance scale (8431786). **TIME-SENSITIVE / UNVERIFIED —
+  black / 1 red); the close lands on a green "go" traffic signal. Its own footage
+  under `public/clarity/`. **Backgrounds fully re-sourced — all-new footage per
+  beat; the script, upbeat voice, music and the red/black brand layer are
+  unchanged.** Media credits (Pexels, free license) — videos: a broadcast
+  interview set (6883837), a blurred trading screen of scrolling figures
+  (7579577), a traffic light on green (3150346, closing beat). Photos: the US
+  Capitol at dusk (3369102), a green neon glow (10196788), an abstract glowing
+  network (14314638), a gavel on its block (5668481), an empty foggy road
+  (14744912), a legislative chamber (32266781), an abstract split light-streak
+  (15303326), a spiral desk calendar (11333728), a checklist pad (6192131),
+  rising green candlesticks (39212618), candlesticks pulling back off a high
+  (39494584), and a bronze balance scale (5668882). **TIME-SENSITIVE / UNVERIFIED —
   verify before publishing:** every claim (the Clarity Act Senate vote and its
   Sept-2026 date, the "Mike Selig / it's go time" CNBC quote, the five moves, and
   the Lighter ~$5.40 ATH / Hyperliquid ~2%-off figures) is dated news supplied and
