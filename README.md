@@ -2419,7 +2419,9 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   confirmed by the author; it is rendered as written and must be re-checked against
   primary sources at publish time, as crypto prices and regulatory status move
   daily. Being a dated news reel, it also has a short shelf life — publish
-  promptly.
+  promptly. **Voice:** this reel alone uses a distinct upbeat voice cloned from a
+  client-supplied reference (energetic settings), not the shared house cloned
+  voice used on every other reel.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

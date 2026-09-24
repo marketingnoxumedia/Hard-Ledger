@@ -103,23 +103,23 @@ type SceneDef = {
 // daily.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 71, kind: 'hook', text: 'Congress doesn\'t need|to pass the bill.', kicker: 'Go time', highlights: ['need'], size: 80, media: {src: 'clarity/p_capitol.jpg', type: 'img', effect: 'in'}},
-  {dur: 59, kind: 'text', text: 'Regulators stopped|waiting for one.', highlights: ['waiting'], size: 82, media: {src: 'clarity/p_greenlight.jpg', type: 'img', effect: 'in'}},
-  {dur: 98, kind: 'lines', text: 'Every exchange.|Every stablecoin.|Every token.', highlights: ['token'], reveal: [0, 28, 59], media: {src: 'clarity/p_crypto.jpg', type: 'img', effect: 'in'}},
-  {dur: 46, kind: 'text', text: 'It all runs|on a rulebook.', highlights: ['rulebook'], size: 82, media: {src: 'clarity/p_gavel.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'hook', text: 'Congress doesn\'t need|to pass the bill.', kicker: 'Go time', highlights: ['need'], size: 80, media: {src: 'clarity/p_capitol.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', text: 'Regulators stopped|waiting for one.', highlights: ['waiting'], size: 82, media: {src: 'clarity/p_greenlight.jpg', type: 'img', effect: 'in'}},
+  {dur: 123, kind: 'lines', text: 'Every exchange.|Every stablecoin.|Every token.', highlights: ['token'], reveal: [0, 30, 67], media: {src: 'clarity/p_crypto.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', text: 'It all runs|on a rulebook.', highlights: ['rulebook'], size: 82, media: {src: 'clarity/p_gavel.jpg', type: 'img', effect: 'in'}},
   {dur: 38, kind: 'text', text: 'Unless|there isn\'t one.', highlights: ['unless'], size: 88, media: {src: 'clarity/p_fog.jpg', type: 'img', effect: 'in'}},
-  {dur: 85, kind: 'text', enter: 'slideL', text: 'September 2026:|the Senate blocks it.', highlights: ['blocks'], size: 76, media: {src: 'clarity/p_senate.jpg', type: 'img', effect: 'in'}},
-  {dur: 76, kind: 'text', text: 'The bill that decides|who regulates crypto.', highlights: ['crypto'], size: 74, media: {src: 'clarity/p_boundary.jpg', type: 'img', effect: 'in'}},
-  {dur: 76, kind: 'lines', text: '8 days later.|5 moves.|0 votes.', highlights: ['0'], reveal: [0, 27, 53], media: {src: 'clarity/p_calendar.jpg', type: 'img', effect: 'in'}},
-  {dur: 90, kind: 'text', enter: 'slideL', text: 'CFTC chair|Mike Selig.', highlights: ['Selig'], size: 84, media: {src: 'clarity/v_studio.mp4', type: 'video', effect: 'in'}},
-  {dur: 26, kind: 'impact', text: 'It\'s|go time.', redBg: true},
-  {dur: 253, kind: 'lines', text: 'Tokenized stocks.|Wallets to derivatives.|Two rulebooks filed.', highlights: ['two'], reveal: [0, 97, 172], media: {src: 'clarity/p_checklist.jpg', type: 'img', effect: 'in'}},
-  {dur: 65, kind: 'text', text: 'Not spot.|Spot needs Congress.', highlights: ['spot'], size: 82},
-  {dur: 40, kind: 'text', enter: 'slideL', text: 'So the money|moved to perps.', highlights: ['perps'], size: 82, media: {src: 'clarity/v_trading.mp4', type: 'video', effect: 'in'}},
-  {dur: 74, kind: 'stat', stat: {pre: 'Lighter, an all-time high', prefix: '$', value: 5.40, decimals: 2}, media: {src: 'clarity/p_chartup1.jpg', type: 'img', effect: 'in'}},
-  {dur: 63, kind: 'stat', stat: {pre: 'Hyperliquid, off its ATH', value: 2, suffix: '%'}, media: {src: 'clarity/p_chartup2.jpg', type: 'img', effect: 'in'}},
-  {dur: 114, kind: 'text', enter: 'slideL', text: 'Congress: zero.|CFTC: five.', highlights: ['five'], size: 88, media: {src: 'clarity/p_leverage.jpg', type: 'img', effect: 'in'}},
-  {dur: 88, kind: 'text', enter: 'zoom', text: 'The bill\'s dead.|Keep your eyes open.', highlights: ['open'], size: 78, media: {src: 'clarity/v_gosignal.mp4', type: 'video', from: 165, effect: 'in'}},
+  {dur: 87, kind: 'text', enter: 'slideL', text: 'September 2026:|the Senate blocks it.', highlights: ['blocks'], size: 76, media: {src: 'clarity/p_senate.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', text: 'The bill that decides|who regulates crypto.', highlights: ['crypto'], size: 74, media: {src: 'clarity/p_boundary.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'lines', text: '8 days later.|5 moves.|0 votes.', highlights: ['0'], reveal: [0, 31, 58], media: {src: 'clarity/p_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', enter: 'slideL', text: 'CFTC chair|Mike Selig.', highlights: ['Selig'], size: 84, media: {src: 'clarity/v_studio.mp4', type: 'video', effect: 'in'}},
+  {dur: 27, kind: 'impact', text: 'It\'s|go time.', redBg: true},
+  {dur: 275, kind: 'lines', text: 'Tokenized stocks.|Wallets to derivatives.|Two rulebooks filed.', highlights: ['two'], reveal: [0, 97, 185], media: {src: 'clarity/p_checklist.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', text: 'Not spot.|Spot needs Congress.', highlights: ['spot'], size: 82},
+  {dur: 64, kind: 'text', enter: 'slideL', text: 'So the money|moved to perps.', highlights: ['perps'], size: 82, media: {src: 'clarity/v_trading.mp4', type: 'video', effect: 'in'}},
+  {dur: 79, kind: 'stat', stat: {pre: 'Lighter, an all-time high', prefix: '$', value: 5.40, decimals: 2}, media: {src: 'clarity/p_chartup1.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'stat', stat: {pre: 'Hyperliquid, off its ATH', value: 2, suffix: '%'}, media: {src: 'clarity/p_chartup2.jpg', type: 'img', effect: 'in'}},
+  {dur: 120, kind: 'text', enter: 'slideL', text: 'Congress: zero.|CFTC: five.', highlights: ['five'], size: 88, media: {src: 'clarity/p_leverage.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'text', enter: 'zoom', text: 'The bill\'s dead.|Keep your eyes open.', highlights: ['open'], size: 78, media: {src: 'clarity/v_gosignal.mp4', type: 'video', from: 165, effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). No post-hook pause (hard-cut declarative
@@ -128,10 +128,10 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 130, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 639, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 1023, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1274, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 155, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 721, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1160, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1432, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
