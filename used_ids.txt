@@ -1637,3 +1637,20 @@
 1423655 return/p_classroom.jpg
 6801682 return/p_ledger.jpg
 8060928 return/v_grad2.mp4
+# ClarityReel (Go time) — crypto-regulation NEWS reel (Clarity Act died, CFTC moved anyway), media-dense (16 media/2 black/1 red)
+6580465 clarity/p_capitol.jpg
+9623142 clarity/p_senate.jpg
+8640331 clarity/p_crypto.jpg
+6077326 clarity/p_gavel.jpg
+10812874 clarity/p_fog.jpg
+14367163 clarity/v_studio.mp4
+11574912 clarity/p_greenlight.jpg
+7718762 clarity/p_calendar.jpg
+20062955 clarity/p_checklist.jpg
+8431786 clarity/p_leverage.jpg
+16682389 clarity/p_boundary.jpg
+1550337 clarity/p_ballot.jpg
+5849611 clarity/v_trading.mp4
+7679944 clarity/p_chartup1.jpg
+39315994 clarity/p_chartup2.jpg
+6415387 clarity/v_gosignal.mp4
