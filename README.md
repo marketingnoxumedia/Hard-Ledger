@@ -2488,15 +2488,16 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   scheme" beat (both from Wikimedia Commons, US-government works, public domain —
   see the note below and `used_ids.txt`). The Amodeis are NOT depicted — they stay
   on neutral b-roll (AI imagery for Dario, an empty podium for Daniela). A few
-  beats use higher-energy "meme-feel" b-roll. **Four beats use CLIENT-SUPPLIED
+  beats use higher-energy "meme-feel" b-roll. **Three beats use CLIENT-SUPPLIED
   GIFs** (uploaded by the client, who owns the editorial + licensing decision):
   a writing cartoon on "one memo" (static webp), a **Disney Donald Duck** money GIF
-  on "$2T", a **Paramount+** "Working" typing clip on "Axios reports a memo", and a
-  Robert Downey Jr. scene on "the face of AI doomerism" (static webp). **These four
-  are COPYRIGHTED third-party clips — used at the client's direction and risk, NOT
-  brand-safe/licensed stock; they are the client's to clear before publishing.**
-  (The two `.webp` uploads arrived as single static frames; re-upload as `.gif`
-  for motion.) The remaining meme-energy beats are brand-safe Pexels: a hyped crowd
+  on "$2T", and a **Paramount+** "Working" typing clip on "Axios reports a memo".
+  **These are COPYRIGHTED third-party clips — used at the client's direction and
+  risk, NOT brand-safe/licensed stock; they are the client's to clear before
+  publishing.** (The `.webp` upload arrived as a single static frame; re-upload as
+  `.gif` for motion.) "The face of AI doomerism" uses a brand-safe doomsday
+  storm-clouds clip (Pexels 33704416) after the client's Marvel/RDJ webp uploads
+  came through static. The remaining meme-energy beats are brand-safe Pexels: a hyped crowd
   for the listing, a wide-eyed phone reaction for the CTA, an inverted line-cartoon
   pondering on "October → November", and hands raking cash on "banks get paid".
   Media credits — Pexels (free license): a market-data ticker video (14003675), an
