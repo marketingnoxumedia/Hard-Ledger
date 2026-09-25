@@ -1683,7 +1683,7 @@
 5203849 memo/p_floor.jpg
 37012314 memo/p_press.jpg
 29585684 memo/p_dawn.jpg
-33704416 memo/v_doom.mp4
+client-upload:doctor_doom.gif memo/g_doom.mp4 (Marvel, animated 42f, from giphy link)
 # client-supplied GIFs on 4 beats — COPYRIGHTED (Disney/Universal/Paramount+/artist); client's editorial+licensing call, NOT stock/no-reuse-tracked
 client-upload:kermit_typewriter.gif memo/g_memo.mp4 (Disney/Muppets, animated 23f, from giphy link)
 client-upload:donald_duck_money.gif memo/g_money.mp4 (Disney)

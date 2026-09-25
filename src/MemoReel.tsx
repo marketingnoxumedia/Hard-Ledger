@@ -132,7 +132,7 @@ const SCENES: SceneDef[] = [
   {dur: 43, kind: 'text', text: 'And offers|to slow down.', highlights: ['slow'], size: 84, media: {src: 'memo/p_slow.jpg', type: 'img', effect: 'in'}},
   {dur: 136, kind: 'text', enter: 'slideL', text: 'Michael Kratsios:|globalist scheme.', highlights: ['globalist'], size: 70, media: {src: 'memo/p_kratsios.jpg', type: 'img', effect: 'out'}},
   {dur: 72, kind: 'text', text: 'Axios reports|a memo.', highlights: ['memo'], size: 82, media: {src: 'memo/g_axios.mp4', type: 'video', effect: 'in'}},
-  {dur: 89, kind: 'text', text: 'The face of|AI doomerism.', highlights: ['doomerism'], size: 80, media: {src: 'memo/v_doom.mp4', type: 'video', effect: 'in'}},
+  {dur: 89, kind: 'text', text: 'The face of|AI doomerism.', highlights: ['doomerism'], size: 80, media: {src: 'memo/g_doom.mp4', type: 'video', effect: 'in'}},
   {dur: 92, kind: 'text', enter: 'slideL', text: 'First Truth Social.|Now on paper.', highlights: ['paper'], size: 78, media: {src: 'memo/p_trump.jpg', type: 'img', effect: 'out'}},
   {dur: 49, kind: 'text', text: 'Reported.|Not published.', highlights: ['not'], size: 84},
   {dur: 65, kind: 'text', text: 'Daniela Amodei|denies ties.', highlights: ['denies'], size: 80, media: {src: 'memo/p_press.jpg', type: 'img', effect: 'in'}},
