@@ -1676,9 +1676,6 @@
 
 # MemoReel (One memo) — NEWS reel series #3 (AI mega-IPO + political memo; NEW topic, not crypto). Revised to a named-people cut (Dario/Daniela Amodei, Kratsios, Trump, Axios) with a CTA-question close; media-dense (19 media/1 black/1 red), two-bar chart
 4705378 memo/p_washington.jpg
-261679 memo/p_memo.jpg
-5912587 memo/p_money.jpg
-5417675 memo/p_calendar.jpg
 32266769 memo/p_un.jpg
 5202006 memo/p_slow.jpg
 14003675 memo/v_index.mp4
@@ -1687,12 +1684,16 @@
 5203849 memo/p_floor.jpg
 37012314 memo/p_press.jpg
 29585684 memo/p_dawn.jpg
+# GIF/meme-energy looping clips (Pexels video)
+6100897 memo/v_memo2.mp4
+4393479 memo/v_cashrain.mp4
+18128143 memo/v_cal.mp4
+6266433 memo/v_banks.mp4
 35163081 memo/v_ai.mp4
 855469 memo/v_print.mp4
 # meme-energy b-roll (Pexels)
 2842763 memo/p_hype.jpg
 8213139 memo/p_fomo.jpg
-4968668 memo/p_cash2.jpg
 # public-figure portraits — Wikimedia Commons, PUBLIC DOMAIN (US federal govt works, no attribution required)
 wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg memo/p_trump.jpg
 wikimedia:Michael_J._K._Kratsios_official_photo.jpg memo/p_kratsios.jpg

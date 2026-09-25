@@ -122,11 +122,11 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   {dur: 70, kind: 'hook', text: 'Washington doesn\'t|need to regulate.', kicker: 'One memo', highlights: ['regulate'], size: 78, media: {src: 'memo/p_washington.jpg', type: 'img', effect: 'in'}},
-  {dur: 77, kind: 'text', text: 'It just needs|one memo.', highlights: ['memo'], size: 82, media: {src: 'memo/p_memo.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', text: 'It just needs|one memo.', highlights: ['memo'], size: 82, media: {src: 'memo/v_memo2.mp4', type: 'video', effect: 'in'}},
   {dur: 87, kind: 'lines', text: 'Every fund.|Every pension.|Every index.', highlights: ['index'], reveal: [0, 27, 54], media: {src: 'memo/v_index.mp4', type: 'video', effect: 'in'}},
   {dur: 69, kind: 'text', text: 'The biggest listing|in years.', highlights: ['biggest'], size: 80, media: {src: 'memo/p_hype.jpg', type: 'img', effect: 'in'}},
-  {dur: 45, kind: 'stat', stat: {prefix: '$', value: 2, decimals: 0, suffix: 'T', post: 'ON THE TABLE'}, media: {src: 'memo/p_money.jpg', type: 'img', effect: 'in'}},
-  {dur: 78, kind: 'text', enter: 'slideL', text: 'October|to November.', highlights: ['november'], size: 84, media: {src: 'memo/p_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'stat', stat: {prefix: '$', value: 2, decimals: 0, suffix: 'T', post: 'ON THE TABLE'}, media: {src: 'memo/v_cashrain.mp4', type: 'video', effect: 'in'}},
+  {dur: 78, kind: 'text', enter: 'slideL', text: 'October|to November.', highlights: ['november'], size: 84, media: {src: 'memo/v_cal.mp4', type: 'video', effect: 'in'}},
   {dur: 80, kind: 'text', text: 'September 23.|UN Security Council.', highlights: ['council'], size: 72, media: {src: 'memo/p_un.jpg', type: 'img', effect: 'in'}},
   {dur: 146, kind: 'text', text: 'Dario Amodei:|AI risks humanity.', highlights: ['humanity'], size: 74, media: {src: 'memo/v_ai.mp4', type: 'video', effect: 'in'}},
   {dur: 43, kind: 'text', text: 'And offers|to slow down.', highlights: ['slow'], size: 84, media: {src: 'memo/p_slow.jpg', type: 'img', effect: 'in'}},
@@ -139,7 +139,7 @@ const SCENES: SceneDef[] = [
   {dur: 67, kind: 'text', text: 'No policy changed.|The listing\'s still on.', highlights: ['on'], size: 76, media: {src: 'memo/p_greenlight.jpg', type: 'img', effect: 'in'}},
   {dur: 137, kind: 'chart', chart: {a: {label: 'ARAMCO', value: 1.7}, b: {label: 'ANTHROPIC', value: 2, red: true}, prefix: '$', suffix: 'T', decimals: 1, unit: 'BIGGEST IPO EVER'}, media: {src: 'memo/p_floor.jpg', type: 'img', effect: 'in'}},
   {dur: 98, kind: 'impact', text: 'The pitch|is the risk.', redBg: true},
-  {dur: 57, kind: 'text', text: 'The banks get paid|either way.', highlights: ['banks'], size: 78, media: {src: 'memo/p_cash2.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', text: 'The banks get paid|either way.', highlights: ['banks'], size: 78, media: {src: 'memo/v_banks.mp4', type: 'video', effect: 'in'}},
   {dur: 134, kind: 'text', text: 'Would you buy|the biggest IPO ever?', highlights: ['buy'], size: 74, media: {src: 'memo/p_fomo.jpg', type: 'img', effect: 'in'}},
   {dur: 34, kind: 'text', enter: 'zoom', text: 'Tell me|below.', highlights: ['below'], size: 88, media: {src: 'memo/p_dawn.jpg', type: 'img', effect: 'in'}},
 ];

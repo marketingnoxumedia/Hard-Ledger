@@ -2488,17 +2488,22 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   scheme" beat (both from Wikimedia Commons, US-government works, public domain —
   see the note below and `used_ids.txt`). The Amodeis are NOT depicted — they stay
   on neutral b-roll (AI imagery for Dario, an empty podium for Daniela). A few
-  beats use higher-energy "meme-feel" (but brand-safe, no copyrighted memes) b-roll
-  — a hyped crowd for the listing, a wide-eyed phone reaction for the CTA, a
-  cash-fan for the banks beat. Its own footage under `public/memo/`. Media credits
-  — Pexels (free license): a market-data ticker video (14003675), an abstract
-  neural network (35163081), a printing press (855469), the US Capitol at night
-  (4705378), a typed memo (261679), a bundle of $100 bills (5912587), a month
-  calendar (5417675), a legislative chamber (32266769), a raised-palm stop gesture
+  beats use higher-energy "meme-feel" (but brand-safe, no copyrighted memes/GIFs,
+  no Disney/IP) b-roll: a hyped crowd for the listing and a wide-eyed phone
+  reaction for the CTA (stills), plus short looping GIF-style CLIPS on four beats —
+  a memo being signed ("one memo"), cash raining on a table ("$2T"), a generic
+  inverted line-cartoon character pondering ("October → November" — a stand-in for
+  the requested Disney/Mickey idea, which can't be used for copyright reasons), and
+  hands raking cash ("banks get paid"). Its own footage under `public/memo/`. Media
+  credits — Pexels (free license): a market-data ticker video (14003675), an
+  abstract neural network (35163081), a printing press (855469), a memo-signing clip
+  (6100897), a cash-rain clip (4393479), a pondering line-cartoon clip (18128143,
+  colour-inverted to white-on-black), a cash-rake clip (6266433), the US Capitol at
+  night (4705378), a legislative chamber (32266769), a raised-palm stop gesture
   (5202006), a shadowed anonymous figure (19222036), an empty press podium
   (37012314), a green glow (28905655), a dark server room (5203849), a hyped crowd
-  (2842763), a wide-eyed phone reaction (8213139), a cash-fan (4968668), and a city
-  skyline at dawn (29585684). Public-domain portraits (Wikimedia Commons, US
+  (2842763), a wide-eyed phone reaction (8213139), and a city skyline at dawn
+  (29585684). Public-domain portraits (Wikimedia Commons, US
   federal government works, no attribution required): Donald Trump — Official
   Presidential Portrait (2025); Michael Kratsios — official U.S. government
   portrait. **TIME-SENSITIVE / UNVERIFIED
