@@ -1685,7 +1685,7 @@
 29585684 memo/p_dawn.jpg
 33704416 memo/v_doom.mp4
 # client-supplied GIFs on 4 beats — COPYRIGHTED (Disney/Universal/Paramount+/artist); client's editorial+licensing call, NOT stock/no-reuse-tracked
-client-upload:kermit_typewriter.webp memo/g_memo.mp4 (Disney/Muppets, static)
+client-upload:kermit_typewriter.gif memo/g_memo.mp4 (Disney/Muppets, animated 23f, from giphy link)
 client-upload:donald_duck_money.gif memo/g_money.mp4 (Disney)
 client-upload:paramount_working.gif memo/g_axios.mp4 (Paramount+)
 # GIF/meme-energy looping clips (Pexels video)
