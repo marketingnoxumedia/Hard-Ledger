@@ -2490,7 +2490,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   on neutral b-roll (AI imagery for Dario, an empty podium for Daniela). A few
   beats use higher-energy "meme-feel" b-roll. **Three beats use CLIENT-SUPPLIED
   GIFs** (uploaded by the client, who owns the editorial + licensing decision):
-  a writing cartoon on "one memo" (static webp), a **Disney Donald Duck** money GIF
+  Kermit at a typewriter on "one memo" (Disney/Muppets, static webp), a **Disney Donald Duck** money GIF
   on "$2T", and a **Paramount+** "Working" typing clip on "Axios reports a memo".
   **These are COPYRIGHTED third-party clips — used at the client's direction and
   risk, NOT brand-safe/licensed stock; they are the client's to clear before
