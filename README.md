@@ -2506,18 +2506,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   real reputational/legal risk if any detail is wrong — EVERY claim (names, quotes,
   attributions, numbers) must be checked against primary sources before this
   publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of
-  the series. **Style:** unlike every other reel, MemoReel is RESTYLED to match a
-  client-supplied reference video: FULL-BLEED high-contrast duotone footage
-  (grayscale + heavy contrast) filling every frame, with ENORMOUS centered
-  headline type over it (Archivo Black, sized per beat so the longest word fills
-  the width without clipping) and a small tracked eyebrow annotation. Gritty
-  treatment — halftone/photocopy dot screen, film grain, a centre-weighted
-  darkening for legibility and drama, and a punchy ~12fps Ken Burns push. Snappy
-  scale-pop text animation. A giant red hero number for the $2T stat; a white/red
-  two-bar chart and a black thesis beat. Hard Ledger's one-red-focal-word accent
-  is kept throughout; the script, upbeat VO, music and beat timings are unchanged
-  from the named-people cut. (Uses this reel's existing Pexels footage full-bleed —
-  no new ids.)
+  the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
