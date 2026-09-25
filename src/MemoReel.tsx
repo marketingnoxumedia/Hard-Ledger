@@ -231,9 +231,8 @@ const Treatment: React.FC = () => (
 // ---------------------------------------------------------------------------
 // Kinetic caption — Anton condensed caps, word-by-word, red highlight
 // ---------------------------------------------------------------------------
-const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start'; lineDelay?: number}> = ({text, highlights = [], size = 112, align = 'center', lineDelay = 0}) => {
+const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start'; typewriter?: boolean}> = ({text, highlights = [], size = 112, align = 'center', typewriter = false}) => {
   const frame = useCurrentFrame();
-  const {fps} = useVideoConfig();
   const lines = text.split('|');
   const hset = highlights.map((h) => h.toLowerCase());
   const isHi = (w: string) => hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase());
@@ -243,13 +242,13 @@ const Caption: React.FC<{text: string; highlights?: string[]; size?: number; ali
       {lines.map((line, li) => (
         <div key={li} style={{display: 'flex', flexWrap: 'wrap', justifyContent: align === 'center' ? 'center' : 'flex-start', gap: '0 18px'}}>
           {line.split(' ').map((word, wi) => {
-            const appear = lineDelay + wordIndex * 0.7;
-            wordIndex++;
-            const p = spring({frame: frame - appear, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
-            const y = interpolate(p, [0, 1], [26, 0]);
+            const gi = wordIndex++;
+            // typewriter mode reveals word-by-word; other modes render static and
+            // let the scene-level TextAnim wrapper handle enter/exit.
+            const op = typewriter ? interpolate(frame, [3 + gi * 2, 6 + gi * 2], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1;
             const hi = isHi(word);
             return (
-              <span key={wi} style={{display: 'inline-block', fontFamily: HEAD, fontSize: size, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase', color: hi ? C.red : C.ink, opacity: p, transform: `translateY(${y}px)`, textShadow: SH}}>
+              <span key={wi} style={{display: 'inline-block', fontFamily: HEAD, fontSize: size, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase', color: hi ? C.red : C.ink, opacity: op, textShadow: SH}}>
                 {word}
               </span>
             );
@@ -274,33 +273,33 @@ const Kicker: React.FC<{children: React.ReactNode; delay?: number}> = ({children
 // ---------------------------------------------------------------------------
 // Scenes
 // ---------------------------------------------------------------------------
-const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[]; size?: number}> = ({text, kicker, highlights, size = 92}) => (
+const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[]; size?: number; mode?: string}> = ({text, kicker, highlights, size = 92, mode}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
     {kicker ? <div style={{marginBottom: 44}}><Kicker>{kicker}</Kicker></div> : null}
-    <Caption text={text} highlights={highlights} size={size} lineDelay={1} />
+    <Caption text={text} highlights={highlights} size={size} typewriter={mode === 'type'} />
   </AbsoluteFill>
 );
 
-const SceneText: React.FC<{text: string; highlights?: string[]; size?: number}> = ({text, highlights, size = 100}) => (
+const SceneText: React.FC<{text: string; highlights?: string[]; size?: number; mode?: string}> = ({text, highlights, size = 100, mode}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
-    <Caption text={text} highlights={highlights} size={size} lineDelay={0} />
+    <Caption text={text} highlights={highlights} size={size} typewriter={mode === 'type'} />
   </AbsoluteFill>
 );
 
-const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number[]}> = ({text, highlights = [], reveal}) => {
+const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number[]; mode?: string}> = ({text, highlights = [], reveal, mode}) => {
   const frame = useLocal();
-  const {fps} = useVideoConfig();
   const lines = text.split('|');
   const hset = highlights.map((h) => h.toLowerCase());
+  const typewriter = mode === 'type';
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'flex-start', padding: '0 96px'}}>
       <div style={{display: 'flex', flexDirection: 'column', gap: 20}}>
         {lines.map((l, i) => {
-          const appearAt = reveal ? reveal[i] : 6 + i * 12;
-          const pv = spring({frame: frame - appearAt, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
-          const x = interpolate(pv, [0, 1], [-42, 0]);
+          // typewriter reveals line-by-line; other modes are static (the TextAnim
+          // wrapper animates the whole block in/out).
+          const op = typewriter ? interpolate(frame, [3 + i * 8, 9 + i * 8], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1;
           return (
-            <div key={i} style={{opacity: pv, transform: `translateX(${x}px)`, fontFamily: HEAD, fontSize: 96, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
+            <div key={i} style={{opacity: op, fontFamily: HEAD, fontSize: 96, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
               {l.split(' ').map((w, wi) => {
                 const hi = hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase());
                 return (
@@ -320,15 +319,13 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
 
 const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
   const frame = useLocal();
-  const {fps} = useVideoConfig();
-  const enter = spring({frame: frame - 2, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
   const t = interpolate(frame, [4, 38], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const shown = stat.value * t;
   const num = stat.decimals ? shown.toFixed(stat.decimals) : Math.round(shown).toLocaleString('en-US');
   const barW = stat.bar != null ? interpolate(frame, [6, 40], [0, stat.bar], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut}) : 0;
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 80}}>
-      <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [26, 0])}px)`, textAlign: 'center'}}>
+      <div style={{textAlign: 'center'}}>
         {stat.pre ? <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: C.ink, textTransform: 'uppercase', marginBottom: 8}}>{stat.pre}</div> : null}
         <div style={{display: 'flex', alignItems: 'baseline', justifyContent: 'center'}}>
           {stat.prefix ? <span style={{fontFamily: HEAD, fontSize: 170, color: C.red, lineHeight: 1}}>{stat.prefix}</span> : null}
@@ -353,8 +350,6 @@ const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
 // red and glows. Values count up above each bar.
 const SceneChart: React.FC<{chart: ChartCfg}> = ({chart}) => {
   const frame = useLocal();
-  const {fps} = useVideoConfig();
-  const enter = spring({frame: frame - 2, fps, config: {damping: 22, mass: 0.4, stiffness: 220}});
   const t = interpolate(frame, [6, 44], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
   const maxVal = Math.max(chart.a.value, chart.b.value);
   const H = 900;
@@ -384,7 +379,7 @@ const SceneChart: React.FC<{chart: ChartCfg}> = ({chart}) => {
   };
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
-      <div style={{opacity: enter, transform: `translateY(${interpolate(enter, [0, 1], [26, 0])}px)`, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         <div style={{display: 'flex', gap: 70, alignItems: 'flex-end'}}>
           <Bar d={chart.a} />
           <Bar d={chart.b} />
@@ -396,15 +391,11 @@ const SceneChart: React.FC<{chart: ChartCfg}> = ({chart}) => {
 };
 
 const SceneImpact: React.FC<{text: string; redBg?: boolean}> = ({text, redBg}) => {
-  const frame = useLocal();
-  const {fps} = useVideoConfig();
-  const p = spring({frame, fps, config: {damping: 13, mass: 0.8, stiffness: 120}});
-  const scale = interpolate(p, [0, 1], [0.66, 1]);
   const lines = text.split('|');
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
       {redBg ? <AbsoluteFill style={{background: 'radial-gradient(125% 90% at 50% 42%, #FF2E2E 0%, #E31E1E 62%, #C21414 100%)'}} /> : null}
-      <div style={{transform: `scale(${scale})`, opacity: Math.min(1, p * 1.4), textAlign: 'center', fontFamily: HEAD, fontSize: 150, lineHeight: 0.92, letterSpacing: 1, textTransform: 'uppercase'}}>
+      <div style={{textAlign: 'center', fontFamily: HEAD, fontSize: 150, lineHeight: 0.92, letterSpacing: 1, textTransform: 'uppercase'}}>
         {lines.map((l, i) => (
           <div key={i} style={{color: redBg ? (i === 0 ? '#0A0A0A' : C.ink) : (i === lines.length - 1 ? C.red : C.ink), textShadow: redBg ? 'none' : SH}}>
             {l}
@@ -456,14 +447,49 @@ const Hud: React.FC = () => {
   );
 };
 
-const renderScene = (s: SceneDef) => {
+// Text enter/exit animation modes, rotated across beats so the motion varies.
+const ANIMS = ['pop', 'slide', 'type', 'blur'];
+
+const TextAnim: React.FC<{mode: string; children: React.ReactNode}> = ({mode, children}) => {
+  const frame = useCurrentFrame();
+  const {durationInFrames, fps} = useVideoConfig();
+  const E = 11;
+  const X = 9;
+  const ein = interpolate(frame, [0, E], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  const eout = interpolate(frame, [durationInFrames - X, durationInFrames], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  let opacity = 1;
+  let ty = 0;
+  let sc = 1;
+  let blur = 0;
+  if (mode === 'pop') {
+    const s = spring({frame, fps, config: {damping: 12, mass: 0.7, stiffness: 170}});
+    sc = interpolate(s, [0, 1], [0.55, 1]) * interpolate(eout, [0, 1], [1, 1.3]);
+    opacity = Math.min(ein * 1.6, 1) * (1 - eout);
+  } else if (mode === 'slide') {
+    ty = interpolate(ein, [0, 1], [170, 0]) + interpolate(eout, [0, 1], [0, -170]);
+    opacity = ein * (1 - eout);
+  } else if (mode === 'type') {
+    opacity = Math.min(ein * 3, 1) * (1 - Math.min(eout * 2.2, 1));
+  } else if (mode === 'blur') {
+    blur = interpolate(ein, [0, 1], [28, 0]) + interpolate(eout, [0, 1], [0, 28]);
+    sc = interpolate(ein, [0, 1], [1.1, 1]);
+    opacity = ein * (1 - eout);
+  }
+  return (
+    <AbsoluteFill style={{opacity, transform: `translateY(${ty}px) scale(${sc})`, filter: blur > 0.1 ? `blur(${blur}px)` : undefined, transformOrigin: 'center'}}>
+      {children}
+    </AbsoluteFill>
+  );
+};
+
+const renderScene = (s: SceneDef, mode: string) => {
   switch (s.kind) {
     case 'hook':
-      return <SceneHook text={s.text!} kicker={s.kicker} highlights={s.highlights} size={s.size} />;
+      return <SceneHook text={s.text!} kicker={s.kicker} highlights={s.highlights} size={s.size} mode={mode} />;
     case 'lines':
-      return <SceneLines text={s.text!} highlights={s.highlights} reveal={s.reveal} />;
+      return <SceneLines text={s.text!} highlights={s.highlights} reveal={s.reveal} mode={mode} />;
     case 'text':
-      return <SceneText text={s.text!} highlights={s.highlights} size={s.size} />;
+      return <SceneText text={s.text!} highlights={s.highlights} size={s.size} mode={mode} />;
     case 'stat':
       return <SceneStat stat={s.stat!} />;
     case 'chart':
@@ -505,9 +531,10 @@ export const MemoReel: React.FC = () => {
         {SCENES.map((s, i) => {
           const TLEAD = 3;
           const tf = Math.max(0, STARTS[i] - TLEAD);
+          const mode = ANIMS[i % ANIMS.length];
           return (
-            <Sequence key={i} from={tf} durationInFrames={STARTS[i] + s.dur - tf} name={`${i}-${s.kind}`}>
-              <SceneTransition enter={s.enter}>{renderScene(s)}</SceneTransition>
+            <Sequence key={i} from={tf} durationInFrames={STARTS[i] + s.dur - tf} name={`${i}-${s.kind}-${mode}`}>
+              <TextAnim mode={mode}>{renderScene(s, mode)}</TextAnim>
             </Sequence>
           );
         })}
@@ -529,14 +556,3 @@ const LogoWatermark: React.FC = () => (
   </AbsoluteFill>
 );
 
-const SceneTransition: React.FC<{children: React.ReactNode; enter?: string}> = ({children, enter}) => {
-  const frame = useCurrentFrame();
-  const {durationInFrames} = useVideoConfig();
-  const e = enterTransform(frame, enter);
-  const opacity = interpolate(frame, [0, 2, durationInFrames - 3, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
-  return (
-    <AbsoluteFill style={{opacity, transform: `translate(${e.tx}%, ${e.ty}%) scale(${e.sc})`, transformOrigin: 'center', textShadow: SH}}>
-      {children}
-    </AbsoluteFill>
-  );
-};
