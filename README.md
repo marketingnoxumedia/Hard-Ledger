@@ -2488,22 +2488,25 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   scheme" beat (both from Wikimedia Commons, US-government works, public domain —
   see the note below and `used_ids.txt`). The Amodeis are NOT depicted — they stay
   on neutral b-roll (AI imagery for Dario, an empty podium for Daniela). A few
-  beats use higher-energy "meme-feel" (but brand-safe, no copyrighted memes/GIFs,
-  no Disney/IP) b-roll: a hyped crowd for the listing and a wide-eyed phone
-  reaction for the CTA (stills), plus short looping GIF-style CLIPS on four beats —
-  a memo being signed ("one memo"), cash raining on a table ("$2T"), a generic
-  inverted line-cartoon character pondering ("October → November" — a stand-in for
-  the requested Disney/Mickey idea, which can't be used for copyright reasons), and
-  hands raking cash ("banks get paid"). Its own footage under `public/memo/`. Media
-  credits — Pexels (free license): a market-data ticker video (14003675), an
-  abstract neural network (35163081), a printing press (855469), a memo-signing clip
-  (6100897), a cash-rain clip (4393479), a pondering line-cartoon clip (18128143,
-  colour-inverted to white-on-black), a cash-rake clip (6266433), the US Capitol at
-  night (4705378), a legislative chamber (32266769), a raised-palm stop gesture
-  (5202006), a shadowed anonymous figure (19222036), an empty press podium
-  (37012314), a green glow (28905655), a dark server room (5203849), a hyped crowd
-  (2842763), a wide-eyed phone reaction (8213139), and a city skyline at dawn
-  (29585684). Public-domain portraits (Wikimedia Commons, US
+  beats use higher-energy "meme-feel" b-roll. **Four beats use CLIENT-SUPPLIED
+  GIFs** (uploaded by the client, who owns the editorial + licensing decision):
+  a writing cartoon on "one memo" (static webp), a **Disney Donald Duck** money GIF
+  on "$2T", a **Paramount+** "Working" typing clip on "Axios reports a memo", and a
+  Robert Downey Jr. scene on "the face of AI doomerism" (static webp). **These four
+  are COPYRIGHTED third-party clips — used at the client's direction and risk, NOT
+  brand-safe/licensed stock; they are the client's to clear before publishing.**
+  (The two `.webp` uploads arrived as single static frames; re-upload as `.gif`
+  for motion.) The remaining meme-energy beats are brand-safe Pexels: a hyped crowd
+  for the listing, a wide-eyed phone reaction for the CTA, an inverted line-cartoon
+  pondering on "October → November", and hands raking cash on "banks get paid".
+  Media credits — Pexels (free license): a market-data ticker video (14003675), an
+  abstract neural network (35163081), a pondering line-cartoon clip (18128143,
+  colour-inverted), a cash-rake clip (6266433), the US Capitol at night (4705378),
+  a legislative chamber (32266769), a raised-palm stop gesture (5202006), an empty
+  press podium (37012314), a green glow (28905655), a dark server room (5203849), a
+  hyped crowd (2842763), a wide-eyed phone reaction (8213139), and a city skyline at
+  dawn (29585684). Client-supplied copyrighted GIFs (not stock): `g_memo`, `g_money`
+  (Disney), `g_axios` (Paramount+), `g_doom` — see `used_ids.txt`. Public-domain portraits (Wikimedia Commons, US
   federal government works, no attribution required): Donald Trump — Official
   Presidential Portrait (2025); Michael Kratsios — official U.S. government
   portrait. **TIME-SENSITIVE / UNVERIFIED

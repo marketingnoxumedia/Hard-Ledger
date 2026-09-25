@@ -1679,18 +1679,19 @@
 32266769 memo/p_un.jpg
 5202006 memo/p_slow.jpg
 14003675 memo/v_index.mp4
-19222036 memo/p_face.jpg
 28905655 memo/p_greenlight.jpg
 5203849 memo/p_floor.jpg
 37012314 memo/p_press.jpg
 29585684 memo/p_dawn.jpg
+# client-supplied GIFs on 4 beats — COPYRIGHTED (Disney/Universal/Paramount+/artist); client's editorial+licensing call, NOT stock/no-reuse-tracked
+client-upload:writing_cartoon.webp memo/g_memo.mp4 (static)
+client-upload:donald_duck_money.gif memo/g_money.mp4 (Disney)
+client-upload:paramount_working.gif memo/g_axios.mp4 (Paramount+)
+client-upload:rdj_fight.webp memo/g_doom.mp4 (static)
 # GIF/meme-energy looping clips (Pexels video)
-6100897 memo/v_memo2.mp4
-4393479 memo/v_cashrain.mp4
 18128143 memo/v_cal.mp4
 6266433 memo/v_banks.mp4
 35163081 memo/v_ai.mp4
-855469 memo/v_print.mp4
 # meme-energy b-roll (Pexels)
 2842763 memo/p_hype.jpg
 8213139 memo/p_fomo.jpg
