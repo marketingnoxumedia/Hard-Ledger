@@ -1704,21 +1704,17 @@ wikimedia:Michael_J._K._Kratsios_official_photo.jpg memo/p_kratsios.jpg
 # CageReel (The cage) — NEWS reel series #4 (REPLACES MemoReel). Topic: Nvidia ships tools to "cage" agentic AI the same morning OpenAI reports a model "escaped," read against the AI-IPO frenzy. Evolved MemoReel style: 4-mode rotating text anim, real faces for the 2 named people, 2 stat cards + market lines card + mid-tail red card, CTA-question close. Media-dense (20 media / 2 black / 1 red). Own footage under public/cage/.
 # --- Pexels stills (front half) ---
 7859350 cage/p_gpu.jpg
-13926767 cage/p_bell.jpg
 4508751 cage/p_server.jpg
 6636500 cage/p_chips.jpg
-19310450 cage/p_fence.jpg
 39398848 cage/p_ticker.jpg
 39353380 cage/p_selloff.jpg
 # --- Pexels stills (back half) ---
 6357114 cage/p_ipo.jpg
 10653885 cage/p_trading.jpg
 7841145 cage/p_box.jpg
-14265347 cage/p_cage2.jpg
 8640331 cage/p_flow.jpg
 1448561 cage/p_chips2.jpg
 5795580 cage/p_lock.jpg
-14866072 cage/p_vault.jpg
 6347702 cage/p_buy.jpg
 18441167 cage/p_night.jpg
 # --- Pexels video ---
@@ -1726,3 +1722,9 @@ wikimedia:Michael_J._K._Kratsios_official_photo.jpg memo/p_kratsios.jpg
 # --- public-figure faces ---
 wikimedia:Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg cage/p_amodei.jpg (CC BY 2.0 — credit "Kimberly White / TechCrunch, CC BY 2.0" on publish)
 wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg cage/p_trump.jpg (PUBLIC DOMAIN, US federal govt work; same portrait as retired memo/p_trump.jpg)
+
+# --- client-supplied GIFs (Giphy links) placed on 4 beats — COPYRIGHTED third-party meme/film clips; client's editorial + licensing call, NOT brand-safe stock / not no-reuse-tracked ---
+giphy:fUuTpJQtUTTgrogcIb cage/g_bell.mp4 (cat ringing a service bell -> 'before the bell')
+giphy:KYyQJ1ze5f9CK6V7D7 cage/g_fence.mp4 (goat leaving a barn stall -> 'nobody builds a fence'; NOTE burned-in '@akash sidhu 123' watermark)
+giphy:ZBK7b4vHYyb0n70zJq cage/g_why.mp4 (skeptical side-eye reaction -> 'so why cage it that morning')
+giphy:mbxT8VSgvdlg3PfM7J cage/g_wins.mp4 (auction paddle '300' bid, film clip -> 'whoever sells the cage wins')

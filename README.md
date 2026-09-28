@@ -2486,18 +2486,26 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   closes on a night skyline. **The two named public figures ARE shown via real
   portraits:** Dario Amodei (Wikimedia Commons, **CC BY 2.0** — credit "Kimberly
   White / TechCrunch, CC BY 2.0" on publish) and Donald Trump (Wikimedia Commons,
-  US-government work, public domain). All b-roll is brand-safe Pexels footage
-  sourced clean AND frame-audited from the final render. Media credits — Pexels
-  (free license): a high-end GPU / graphics card (7859350), "Wall St" street sign (13926767),
-  data-center aisle (4508751), red circuit board (6636500), barn gate (19310450),
-  market-data line chart (39398848), downtrend candles (39353380), columned building
-  at night (6357114), dark price screen (10653885), wooden crate (7841145), barred
-  stone window (14265347), fiber-optic light streams (8640331), circuit-board macro
-  (1448561), rusted padlock (5795580), bank vault doors (14866072), buy-app on phone
-  (6347702), night skyline (18441167), and an abstract neural-network video
-  (33164273). Public-figure portraits (Wikimedia Commons): Dario Amodei — TechCrunch
-  Disrupt 2023 (CC BY 2.0, attribution required); Donald Trump — Official
-  Presidential Portrait (2025, public domain). **TIME-SENSITIVE / UNVERIFIED —
+  US-government work, public domain). The Pexels b-roll is brand-safe footage
+  sourced clean AND frame-audited from the final render; **four beats use
+  CLIENT-SUPPLIED GIFs** (see below). Media credits — Pexels (free license): a
+  high-end GPU / graphics card (7859350), data-center aisle (4508751), red circuit
+  board (6636500), market-data line chart (39398848), downtrend candles (39353380),
+  columned building at night (6357114), dark price screen (10653885), wooden crate
+  (7841145), fiber-optic light streams (8640331), circuit-board macro (1448561),
+  rusted padlock (5795580), buy-app on phone (6347702), night skyline (18441167),
+  and an abstract neural-network video (33164273). **Four beats use CLIENT-SUPPLIED
+  GIFs** (uploaded by the client via Giphy links; the client owns the editorial +
+  licensing decision): a cat ringing a service bell on "before the bell," a goat
+  leaving a barn stall on "nobody builds a fence" (this clip carries a burned-in
+  "@akash sidhu 123" creator watermark), a skeptical side-eye reaction on "so why
+  cage it that morning," and an auction paddle ("300") film clip on "whoever sells
+  the cage wins." **These are COPYRIGHTED third-party meme/film clips — used at the
+  client's direction and risk, NOT brand-safe/licensed stock; they are the client's
+  to clear before publishing** (see `used_ids.txt` for the Giphy ids). Public-figure
+  portraits (Wikimedia Commons): Dario Amodei — TechCrunch Disrupt 2023 (CC BY 2.0,
+  attribution required); Donald Trump — Official Presidential Portrait (2025, public
+  domain). **TIME-SENSITIVE / UNVERIFIED —
   ELEVATED RISK, verify before publishing:** this reel states as fact that an
   agentic model "escaped its container," that Nvidia shipped two tools to "cage
   rogue agents" the same morning, that Amodei "spent months saying slow down" and

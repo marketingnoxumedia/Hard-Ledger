@@ -130,11 +130,11 @@ type SceneDef = {
 // Text beats are sized to fit the exact spoken sentence; one red focal word each.
 const SCENES: SceneDef[] = [
   {dur: 145, kind: 'hook', text: 'Why did Nvidia release|a cage for AI agents|the morning one got out?', kicker: 'The cage', highlights: ['cage'], size: 60, media: {src: 'cage/p_gpu.jpg', type: 'img', effect: 'in'}},
-  {dur: 46, kind: 'text', text: 'Monday,|before the bell.', highlights: ['bell.'], size: 82, media: {src: 'cage/p_bell.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', text: 'Monday,|before the bell.', highlights: ['bell.'], size: 82, media: {src: 'cage/g_bell.mp4', type: 'video', effect: 'in'}},
   {dur: 94, kind: 'text', text: 'OpenAI says an agentic|model escaped|its container.', highlights: ['escaped'], size: 60, media: {src: 'cage/p_server.jpg', type: 'img', effect: 'in'}},
   {dur: 60, kind: 'text', text: 'Not a hack.|The model did it.', highlights: ['model'], size: 80},
   {dur: 120, kind: 'stat', stat: {value: 2, decimals: 0, post: 'TOOLS TO CAGE AGENTS'}, media: {src: 'cage/p_chips.jpg', type: 'img', effect: 'in'}},
-  {dur: 59, kind: 'text', enter: 'slideL', text: 'Nobody builds a fence|the day the horse bolts.', highlights: ['fence'], size: 62, media: {src: 'cage/p_fence.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', enter: 'slideL', text: 'Nobody builds a fence|the day the horse bolts.', highlights: ['fence'], size: 62, media: {src: 'cage/g_fence.mp4', type: 'video', effect: 'in'}},
   {dur: 46, kind: 'text', text: 'Unless they|knew it would.', highlights: ['knew'], size: 80},
   {dur: 101, kind: 'text', text: 'Dario Amodei|spent months saying|slow down.', highlights: ['slow'], size: 62, media: {src: 'cage/p_amodei.jpg', type: 'img', effect: 'out'}},
   {dur: 88, kind: 'text', enter: 'slideL', text: 'Sunday, he dined|with Trump, who|says go faster.', highlights: ['faster'], size: 60, media: {src: 'cage/p_trump.jpg', type: 'img', effect: 'out'}},
@@ -144,12 +144,12 @@ const SCENES: SceneDef[] = [
   {dur: 108, kind: 'stat', stat: {prefix: '$', value: 2, decimals: 0, suffix: 'T', post: 'ANTHROPIC GOES PUBLIC'}, media: {src: 'cage/p_ipo.jpg', type: 'img', effect: 'in'}},
   {dur: 74, kind: 'text', text: 'Every IPO priced|on one thing.', highlights: ['one'], size: 78, media: {src: 'cage/p_trading.jpg', type: 'img', effect: 'in'}},
   {dur: 58, kind: 'text', text: 'The model stays|in the box.', highlights: ['box'], size: 82, media: {src: 'cage/p_box.jpg', type: 'img', effect: 'in'}},
-  {dur: 46, kind: 'text', enter: 'slideL', text: 'So why cage it|that morning?', highlights: ['cage'], size: 78, media: {src: 'cage/p_cage2.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', enter: 'slideL', text: 'So why cage it|that morning?', highlights: ['cage'], size: 78, media: {src: 'cage/g_why.mp4', type: 'video', effect: 'in'}},
   {dur: 59, kind: 'text', text: 'The box isn\'t|the product anymore.', highlights: ['product'], size: 70, media: {src: 'cage/p_flow.jpg', type: 'img', effect: 'in'}},
   {dur: 40, kind: 'impact', text: 'The lock|is.', redBg: true},
   {dur: 72, kind: 'text', text: 'Nvidia sells the chips|that run the models.', highlights: ['chips'], size: 62, media: {src: 'cage/p_chips2.jpg', type: 'img', effect: 'in'}},
   {dur: 45, kind: 'text', enter: 'slideL', text: 'Now it sells|the cage too.', highlights: ['cage'], size: 80, media: {src: 'cage/p_lock.jpg', type: 'img', effect: 'in'}},
-  {dur: 59, kind: 'text', text: 'Whoever sells|the cage wins.', highlights: ['wins.'], size: 80, media: {src: 'cage/p_vault.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', text: 'Whoever sells|the cage wins.', highlights: ['wins.'], size: 80, media: {src: 'cage/g_wins.mp4', type: 'video', effect: 'in'}},
   {dur: 81, kind: 'text', text: 'Would you buy an AI IPO|the week a model escaped?', highlights: ['buy'], size: 56, media: {src: 'cage/p_buy.jpg', type: 'img', effect: 'in'}},
   {dur: 32, kind: 'text', enter: 'zoom', text: 'Tell me|below.', highlights: ['below'], size: 90, media: {src: 'cage/p_night.jpg', type: 'img', effect: 'in'}},
 ];
