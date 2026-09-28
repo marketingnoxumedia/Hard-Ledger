@@ -2488,7 +2488,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   White / TechCrunch, CC BY 2.0" on publish) and Donald Trump (Wikimedia Commons,
   US-government work, public domain). All b-roll is brand-safe Pexels footage
   sourced clean AND frame-audited from the final render. Media credits — Pexels
-  (free license): barred-room cage (10474995), "Wall St" street sign (13926767),
+  (free license): a high-end GPU / graphics card (7859350), "Wall St" street sign (13926767),
   data-center aisle (4508751), red circuit board (6636500), barn gate (19310450),
   market-data line chart (39398848), downtrend candles (39353380), columned building
   at night (6357114), dark price screen (10653885), wooden crate (7841145), barred

@@ -129,7 +129,7 @@ type SceneDef = {
 // numbers — which is what's spoken on those beats — rather than full sentences.
 // Text beats are sized to fit the exact spoken sentence; one red focal word each.
 const SCENES: SceneDef[] = [
-  {dur: 145, kind: 'hook', text: 'Why did Nvidia release|a cage for AI agents|the morning one got out?', kicker: 'The cage', highlights: ['cage'], size: 60, media: {src: 'cage/p_cage.jpg', type: 'img', effect: 'in'}},
+  {dur: 145, kind: 'hook', text: 'Why did Nvidia release|a cage for AI agents|the morning one got out?', kicker: 'The cage', highlights: ['cage'], size: 60, media: {src: 'cage/p_gpu.jpg', type: 'img', effect: 'in'}},
   {dur: 46, kind: 'text', text: 'Monday,|before the bell.', highlights: ['bell.'], size: 82, media: {src: 'cage/p_bell.jpg', type: 'img', effect: 'in'}},
   {dur: 94, kind: 'text', text: 'OpenAI says an agentic|model escaped|its container.', highlights: ['escaped'], size: 60, media: {src: 'cage/p_server.jpg', type: 'img', effect: 'in'}},
   {dur: 60, kind: 'text', text: 'Not a hack.|The model did it.', highlights: ['model'], size: 80},

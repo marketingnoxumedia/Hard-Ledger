@@ -1703,7 +1703,7 @@ wikimedia:Michael_J._K._Kratsios_official_photo.jpg memo/p_kratsios.jpg
 
 # CageReel (The cage) — NEWS reel series #4 (REPLACES MemoReel). Topic: Nvidia ships tools to "cage" agentic AI the same morning OpenAI reports a model "escaped," read against the AI-IPO frenzy. Evolved MemoReel style: 4-mode rotating text anim, real faces for the 2 named people, 2 stat cards + market lines card + mid-tail red card, CTA-question close. Media-dense (20 media / 2 black / 1 red). Own footage under public/cage/.
 # --- Pexels stills (front half) ---
-10474995 cage/p_cage.jpg
+7859350 cage/p_gpu.jpg
 13926767 cage/p_bell.jpg
 4508751 cage/p_server.jpg
 6636500 cage/p_chips.jpg
