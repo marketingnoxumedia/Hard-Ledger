@@ -2460,68 +2460,55 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   the author; rendered as written and to be re-checked against primary sources at
   publish time. **Voice:** uses the same distinct upbeat cloned voice as ClarityReel
   (energetic settings), not the shared house cloned voice.
-- **`MemoReel`** — "One memo" (the third fast NEWS reel in the series, but a NEW
-  topic — an AI-company mega-IPO and a political memo, not the crypto/Clarity-Act
-  story. **Revised to a named-people cut.** Thesis: Washington doesn't need to
-  regulate Anthropic — it just needs one memo before the IPO. Funds / pensions /
-  indexes line up for the biggest listing in years, ~$2T on the table, the date
-  slips from October to November. On 23 Sept at the UN Security Council, Dario
-  Amodei (Anthropic's CEO) says AI could threaten humanity and offers to slow
-  down; same session, White House science adviser Michael Kratsios calls it a
-  "globalist scheme," and Axios reports a White House memo naming Amodei the face
-  of "AI doomerism" — after Trump had already gone after him on Truth Social, now
-  on paper. The catch: the memo is reported, not published; Daniela Amodei (the
-  president) denies formal ties; no policy changed; the listing's still on. A
-  two-bar chart contrasts the largest listing ever (Aramco ~$1.7T) with this one
-  (~$2T). The flip: safety was the pitch, safety is now the risk — and the banks
-  get paid either way. Close is a CTA question: "Would you buy the biggest IPO
-  ever, with the White House against its CEO? Tell me below.") ~57.5s. **Keeps the
-  hard-cut declarative hook (no post-hook pause); the close is now a CTA QUESTION
-  ("Tell me below.") rather than the series' "Keep your eyes open."** Red "The
-  pitch is the risk" thesis card; one staggered `lines` beat (every fund / pension
-  / index); a two-bar `chart` beat (Aramco $1.7T vs Anthropic $2T). Tempo is
-  ADAPTIVE and CAPPED — the atempo is computed per generation (~1.15 here) to keep
-  the dense named script safely under the 60s platform cap without sounding rushed.
-  Media-dense (19 media / 1 black / 1 red); the close lands on a city skyline at
-  dawn. **Named public figures ARE shown via public-domain official portraits:**
-  Donald Trump on the Truth Social beat and Michael Kratsios on the "globalist
-  scheme" beat (both from Wikimedia Commons, US-government works, public domain —
-  see the note below and `used_ids.txt`). The Amodeis are NOT depicted — they stay
-  on neutral b-roll (AI imagery for Dario, an empty podium for Daniela). A few
-  beats use higher-energy "meme-feel" b-roll. **Four beats use CLIENT-SUPPLIED
-  GIFs** (uploaded by the client, who owns the editorial + licensing decision):
-  Kermit at a typewriter on "one memo" (Disney/Muppets, animated GIF), a **Disney Donald Duck** money GIF
-  on "$2T", and a **Paramount+** "Working" typing clip on "Axios reports a memo".
-  **These are COPYRIGHTED third-party clips — used at the client's direction and
-  risk, NOT brand-safe/licensed stock; they are the client's to clear before
-  publishing.** (The `.webp` upload arrived as a single static frame; re-upload as
-  `.gif` for motion.) "The face of AI doomerism" uses the client's
-  Marvel Doctor Doom GIF (from a Giphy link; copyrighted, client's call). The remaining meme-energy beats are brand-safe Pexels: a hyped crowd
-  for the listing, a wide-eyed phone reaction for the CTA, an inverted line-cartoon
-  pondering on "October → November", and hands raking cash on "banks get paid".
-  Media credits — Pexels (free license): a market-data ticker video (14003675), an
-  abstract neural network (35163081), a pondering line-cartoon clip (18128143,
-  colour-inverted), a cash-rake clip (6266433), the US Capitol at night (4705378),
-  a legislative chamber (32266769), a raised-palm stop gesture (5202006), an empty
-  press podium (37012314), a green glow (28905655), a dark server room (5203849), a
-  hyped crowd (2842763), a wide-eyed phone reaction (8213139), and a city skyline at
-  dawn (29585684). Client-supplied copyrighted GIFs (not stock): `g_memo`, `g_money`
-  (Disney), `g_axios` (Paramount+), `g_doom` — see `used_ids.txt`. Public-domain portraits (Wikimedia Commons, US
-  federal government works, no attribution required): Donald Trump — Official
-  Presidential Portrait (2025); Michael Kratsios — official U.S. government
-  portrait. **TIME-SENSITIVE / UNVERIFIED
-  — ELEVATED RISK, verify before publishing:** this reel makes contested, attributed
-  claims about NAMED real people and companies — Anthropic; Dario Amodei and Daniela
-  Amodei; White House adviser Michael Kratsios; Donald Trump — and attributes the
-  memo to Axios and a prior attack to Truth Social, plus the "globalist scheme" /
-  "AI doomerism" characterisations, the reported-but-unpublished memo, the UN
-  Security Council remarks, the ~$2T valuation, the slipped date, and the Aramco
-  ~$1.7T comparison. All of it is dated news supplied by the author and rendered as
-  written; because it names individuals and attributes quotes/reporting, it carries
-  real reputational/legal risk if any detail is wrong — EVERY claim (names, quotes,
-  attributions, numbers) must be checked against primary sources before this
-  publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of
-  the series.
+- **`CageReel`** — "The cage" (the fourth fast NEWS reel in the series; **REPLACES
+  MemoReel** at the client's direction). Topic: Nvidia ships tools to "cage"
+  agentic AI on the same morning OpenAI reports a model "escaped its container,"
+  read against the year's AI-IPO frenzy. Structure follows the client's QUESTION /
+  STORY / ANSWER / CTA script. Thesis: nobody builds a fence the day the horse
+  bolts — unless they knew it would; the box (containment) isn't the product
+  anymore, the lock is, and Nvidia, which sells the chips that run the models, now
+  sells the cage too. Beats: hook question ("Why cage AI agents the morning one got
+  out?"), Monday before the bell, a model escaped its container, a black "not a hack
+  / the model did it" beat, a stat card (2 tools to cage rogue agents), the
+  fence/horse-bolts line, a black "unless they knew" beat, Dario Amodei ("slow
+  down") and Donald Trump ("go faster") shown on their real faces, "the model waits
+  for neither," a staggered market `lines` card (Dow -0.3% / S&P -0.4% / Nasdaq
+  -0.9%), a 3x tech-selloff stat, a ~$2T Anthropic-IPO stat, "every IPO priced on
+  one thing," "the model stays in the box," "so why cage it that morning," "the box
+  isn't the product," a solid-red "The lock is" card (mid-tail, not the ending),
+  "it sells the chips that run the models," "now it sells the cage too," "whoever
+  sells the cage wins," the CTA question "Would you buy an AI IPO?", and the CTA
+  close "Tell me below." ~58s. Hard-cut declarative hook (no post-hook pause).
+  Inherits MemoReel's evolved style: a FOUR-MODE rotating text enter/exit animation
+  (pop / slide / type / blur, cycled across beats). Two stat cards + one staggered
+  `lines` card + a mid-tail red card. Tempo ADAPTIVE and CAPPED (~1.14 here) to keep
+  the dense script under the 60s cap. Media-dense (20 media / 2 black / 1 red);
+  closes on a night skyline. **The two named public figures ARE shown via real
+  portraits:** Dario Amodei (Wikimedia Commons, **CC BY 2.0** — credit "Kimberly
+  White / TechCrunch, CC BY 2.0" on publish) and Donald Trump (Wikimedia Commons,
+  US-government work, public domain). All b-roll is brand-safe Pexels footage
+  sourced clean AND frame-audited from the final render. Media credits — Pexels
+  (free license): barred-room cage (10474995), "Wall St" street sign (13926767),
+  data-center aisle (4508751), red circuit board (6636500), barn gate (19310450),
+  market-data line chart (39398848), downtrend candles (39353380), columned building
+  at night (6357114), dark price screen (10653885), wooden crate (7841145), barred
+  stone window (14265347), fiber-optic light streams (8640331), circuit-board macro
+  (1448561), rusted padlock (5795580), bank vault doors (14866072), buy-app on phone
+  (6347702), night skyline (18441167), and an abstract neural-network video
+  (33164273). Public-figure portraits (Wikimedia Commons): Dario Amodei — TechCrunch
+  Disrupt 2023 (CC BY 2.0, attribution required); Donald Trump — Official
+  Presidential Portrait (2025, public domain). **TIME-SENSITIVE / UNVERIFIED —
+  ELEVATED RISK, verify before publishing:** this reel states as fact that an
+  agentic model "escaped its container," that Nvidia shipped two tools to "cage
+  rogue agents" the same morning, that Amodei "spent months saying slow down" and
+  "dined with Trump" (who "says go faster"), specific one-day index moves (Dow
+  -0.3% / S&P -0.4% / Nasdaq -0.9%), a "3x" tech selloff, and a ~$2T Anthropic IPO
+  valuation. All of it is dated news supplied by the author and rendered as written;
+  because it names individuals (Nvidia, OpenAI, Anthropic, Dario Amodei, Donald
+  Trump) and attributes actions/quotes, it carries real reputational/legal risk if
+  any detail is wrong — EVERY claim (names, events, attributions, numbers) must be
+  checked against primary sources before this publishes. **Voice:** uses the same
+  distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

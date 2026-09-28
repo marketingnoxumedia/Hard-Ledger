@@ -1698,3 +1698,31 @@ client-upload:paramount_working.gif memo/g_axios.mp4 (Paramount+)
 # public-figure portraits — Wikimedia Commons, PUBLIC DOMAIN (US federal govt works, no attribution required)
 wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg memo/p_trump.jpg
 wikimedia:Michael_J._K._Kratsios_official_photo.jpg memo/p_kratsios.jpg
+
+# MemoReel RETIRED (replaced by CageReel per client) — removed from Root.tsx and src/; public/memo/ assets remain in repo (kept here so their ids are not reused).
+
+# CageReel (The cage) — NEWS reel series #4 (REPLACES MemoReel). Topic: Nvidia ships tools to "cage" agentic AI the same morning OpenAI reports a model "escaped," read against the AI-IPO frenzy. Evolved MemoReel style: 4-mode rotating text anim, real faces for the 2 named people, 2 stat cards + market lines card + mid-tail red card, CTA-question close. Media-dense (20 media / 2 black / 1 red). Own footage under public/cage/.
+# --- Pexels stills (front half) ---
+10474995 cage/p_cage.jpg
+13926767 cage/p_bell.jpg
+4508751 cage/p_server.jpg
+6636500 cage/p_chips.jpg
+19310450 cage/p_fence.jpg
+39398848 cage/p_ticker.jpg
+39353380 cage/p_selloff.jpg
+# --- Pexels stills (back half) ---
+6357114 cage/p_ipo.jpg
+10653885 cage/p_trading.jpg
+7841145 cage/p_box.jpg
+14265347 cage/p_cage2.jpg
+8640331 cage/p_flow.jpg
+1448561 cage/p_chips2.jpg
+5795580 cage/p_lock.jpg
+14866072 cage/p_vault.jpg
+6347702 cage/p_buy.jpg
+18441167 cage/p_night.jpg
+# --- Pexels video ---
+33164273 cage/v_ai.mp4
+# --- public-figure faces ---
+wikimedia:Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg cage/p_amodei.jpg (CC BY 2.0 — credit "Kimberly White / TechCrunch, CC BY 2.0" on publish)
+wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg cage/p_trump.jpg (PUBLIC DOMAIN, US federal govt work; same portrait as retired memo/p_trump.jpg)

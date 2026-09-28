@@ -83,78 +83,85 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// "One memo" reel (MemoReel) — the third entry in the fast NEWS-reel series
-// (after ClarityReel and BellReel), but a NEW topic: an AI-company mega-IPO and a
-// political memo, not the crypto/Clarity-Act story. Thesis: Washington doesn't
-// need to regulate Anthropic — it just needs one memo before the IPO. Funds /
-// pensions / indexes line up for the biggest listing in years, ~$2T on the table,
-// the date slips from October to November. On 23 Sept at the UN Security Council,
-// Dario Amodei (Anthropic's CEO) says AI could threaten humanity and offers to
-// slow down; same session, White House science adviser Michael Kratsios calls it
-// a "globalist scheme," and Axios reports a White House memo naming Amodei the
-// face of "AI doomerism" — after Trump had already gone after him on Truth Social,
-// now on paper. The catch: the memo is reported, not published; Daniela Amodei
-// (the president) denies formal ties; no policy changed; the listing's still on. A
-// two-bar chart contrasts the largest listing ever (Aramco, ~$1.7T) with this one
-// (~$2T). The flip: safety was the pitch, safety is now the risk — and the banks
-// get paid either way. Close is a CTA QUESTION: "Would you buy the biggest IPO
-// ever, with the White House against its CEO? Tell me below." (This replaces the
-// series' "Keep your eyes open." close by client direction.) Keeps the hard-cut
-// DECLARATIVE hook (no post-hook pause) and uses the per-reel UPBEAT cloned voice.
-// Durations on exact ElevenLabs spoken timestamps; tempo is ADAPTIVE and CAPPED
-// (atempo ~1.15 here, computed per generation to keep the reel safely under the
-// 60s platform cap without sounding rushed) — total 1725 frames = ~57.5s. Reuses
-// the two-bar `chart` scene kind ($/T value formatting). Media-dense: 19 of 21
-// beats carry footage, 1 flat-black beat + 1 red card. Own footage under
-// public/memo/ — no asset shared with any other reel (skill hard rule).
+// "The cage" reel (CageReel) — the fourth entry in the fast NEWS-reel series
+// (after ClarityReel, BellReel and MemoReel; it REPLACES MemoReel), a NEW topic:
+// Nvidia shipping tools to "cage" agentic AI on the same morning OpenAI reports a
+// model escaped its container — read against the year's AI-IPO frenzy. Thesis:
+// nobody builds a fence the day the horse bolts, unless they knew it would; the
+// box (containment) isn't the product anymore, the lock is — and Nvidia, which
+// sells the chips that run the models, now sells the cage too. Structure follows
+// the client's QUESTION / STORY / ANSWER / CTA script. Beats: hook question
+// (why cage AI agents the morning one got out), Monday-before-the-bell, a model
+// escaped its container, a black "not a hack / the model did it" beat, a stat
+// card (2 tools to cage rogue agents), the fence/horse-bolts line, a black
+// "unless they knew" beat, Dario Amodei (slow down) on his real face, Trump (go
+// faster) on his real face, "the model waits for neither," a staggered market
+// card (Dow -0.3% / S&P -0.4% / Nasdaq -0.9%), a 3x tech-selloff stat, a ~$2T
+// Anthropic-IPO stat, "every IPO priced on one thing," "the model stays in the
+// box," "so why cage it that morning," "the box isn't the product," a solid-red
+// "the lock is" card (mid-tail, not the ending), "it sells the chips that run the
+// models," "now it sells the cage too," "whoever sells the cage wins," the CTA
+// QUESTION "would you buy an AI IPO?", and the CTA close "tell me below."
+// Hard-cut DECLARATIVE hook (no post-hook pause), per-reel UPBEAT cloned voice.
+// Durations on exact ElevenLabs spoken timestamps; tempo ADAPTIVE and CAPPED
+// (atempo ~1.14 here) — total 1740 frames = ~58s. Media-dense: 20 of 23 beats
+// carry footage, 2 flat-black beats + 1 red card. Real public-domain / CC faces
+// for the two named people (Dario Amodei — CC BY 2.0, Kimberly White/TechCrunch;
+// Donald Trump — official portrait). 4-style rotating text enter/exit animation
+// (pop / slide / type / blur) inherited from the evolved MemoReel style. Own
+// footage under public/cage/ — no asset shared with any other reel (skill hard
+// rule) beyond the shared cloned voice / logo / sfx.
 // **TIME-SENSITIVE / UNVERIFIED — ELEVATED RISK, verify before publishing:** this
 // reel makes contested, attributed claims about NAMED real people and companies —
-// Anthropic; Dario Amodei and Daniela Amodei; White House adviser Michael
-// Kratsios; Donald Trump; and it attributes the memo to Axios and a prior attack
-// to Truth Social. It also states the "globalist scheme" / "AI doomerism"
-// characterisations, the reported-but-unpublished memo, the UN Security Council
-// remarks, the ~$2T valuation, the slipped date, and the Aramco ~$1.7T comparison.
-// All of it is dated news supplied by the author, rendered as written; because it
-// names individuals and attributes quotes/reporting, it carries real
-// reputational/legal risk if any detail is wrong — EVERY claim (names, quotes,
-// attributions, numbers) must be checked against primary sources before this
-// publishes.
+// Nvidia; OpenAI; Anthropic; Dario Amodei; Donald Trump. It states as fact that
+// an agentic model "escaped its container," that Nvidia shipped two tools to
+// "cage rogue agents" the same morning, that Amodei "spent months saying slow
+// down" and "dined with Trump" (who "says go faster"), specific one-day index
+// moves (Dow -0.3% / S&P -0.4% / Nasdaq -0.9%), a "3x" tech selloff, and a ~$2T
+// Anthropic IPO valuation. All of it is dated news supplied by the author,
+// rendered as written; because it names individuals and attributes actions/
+// quotes, it carries real reputational/legal risk if any detail is wrong — EVERY
+// claim (names, events, attributions, numbers) must be checked against primary
+// sources before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 70, kind: 'hook', text: 'Washington doesn\'t|need to regulate.', kicker: 'One memo', highlights: ['regulate'], size: 78, media: {src: 'memo/p_washington.jpg', type: 'img', effect: 'in'}},
-  {dur: 77, kind: 'text', text: 'It just needs|one memo.', highlights: ['memo'], size: 82, media: {src: 'memo/g_memo.mp4', type: 'video', effect: 'in'}},
-  {dur: 87, kind: 'lines', text: 'Every fund.|Every pension.|Every index.', highlights: ['index'], reveal: [0, 27, 54], media: {src: 'memo/v_index.mp4', type: 'video', effect: 'in'}},
-  {dur: 69, kind: 'text', text: 'The biggest listing|in years.', highlights: ['biggest'], size: 80, media: {src: 'memo/p_hype.jpg', type: 'img', effect: 'in'}},
-  {dur: 45, kind: 'stat', stat: {prefix: '$', value: 2, decimals: 0, suffix: 'T', post: 'ON THE TABLE'}, media: {src: 'memo/g_money.mp4', type: 'video', effect: 'in'}},
-  {dur: 78, kind: 'text', enter: 'slideL', text: 'October|to November.', highlights: ['november'], size: 84, media: {src: 'memo/v_cal.mp4', type: 'video', effect: 'in'}},
-  {dur: 80, kind: 'text', text: 'September 23.|UN Security Council.', highlights: ['council'], size: 72, media: {src: 'memo/p_un.jpg', type: 'img', effect: 'in'}},
-  {dur: 146, kind: 'text', text: 'Dario Amodei:|AI risks humanity.', highlights: ['humanity'], size: 74, media: {src: 'memo/v_ai.mp4', type: 'video', effect: 'in'}},
-  {dur: 43, kind: 'text', text: 'And offers|to slow down.', highlights: ['slow'], size: 84, media: {src: 'memo/p_slow.jpg', type: 'img', effect: 'in'}},
-  {dur: 136, kind: 'text', enter: 'slideL', text: 'Michael Kratsios:|globalist scheme.', highlights: ['globalist'], size: 70, media: {src: 'memo/p_kratsios.jpg', type: 'img', effect: 'out'}},
-  {dur: 72, kind: 'text', text: 'Axios reports|a memo.', highlights: ['memo'], size: 82, media: {src: 'memo/g_axios.mp4', type: 'video', effect: 'in'}},
-  {dur: 89, kind: 'text', text: 'The face of|AI doomerism.', highlights: ['doomerism'], size: 80, media: {src: 'memo/g_doom.mp4', type: 'video', effect: 'in'}},
-  {dur: 92, kind: 'text', enter: 'slideL', text: 'First Truth Social.|Now on paper.', highlights: ['paper'], size: 78, media: {src: 'memo/p_trump.jpg', type: 'img', effect: 'out'}},
-  {dur: 49, kind: 'text', text: 'Reported.|Not published.', highlights: ['not'], size: 84},
-  {dur: 65, kind: 'text', text: 'Daniela Amodei|denies ties.', highlights: ['denies'], size: 80, media: {src: 'memo/p_press.jpg', type: 'img', effect: 'in'}},
-  {dur: 67, kind: 'text', text: 'No policy changed.|The listing\'s still on.', highlights: ['on'], size: 76, media: {src: 'memo/p_greenlight.jpg', type: 'img', effect: 'in'}},
-  {dur: 137, kind: 'chart', chart: {a: {label: 'ARAMCO', value: 1.7}, b: {label: 'ANTHROPIC', value: 2, red: true}, prefix: '$', suffix: 'T', decimals: 1, unit: 'BIGGEST IPO EVER'}, media: {src: 'memo/p_floor.jpg', type: 'img', effect: 'in'}},
-  {dur: 98, kind: 'impact', text: 'The pitch|is the risk.', redBg: true},
-  {dur: 57, kind: 'text', text: 'The banks get paid|either way.', highlights: ['banks'], size: 78, media: {src: 'memo/v_banks.mp4', type: 'video', effect: 'in'}},
-  {dur: 134, kind: 'text', text: 'Would you buy|the biggest IPO ever?', highlights: ['buy'], size: 74, media: {src: 'memo/p_fomo.jpg', type: 'img', effect: 'in'}},
-  {dur: 34, kind: 'text', enter: 'zoom', text: 'Tell me|below.', highlights: ['below'], size: 88, media: {src: 'memo/p_dawn.jpg', type: 'img', effect: 'in'}},
+  {dur: 145, kind: 'hook', text: 'Why cage AI agents|the morning one got out?', kicker: 'The cage', highlights: ['out?'], size: 74, media: {src: 'cage/p_cage.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', text: 'Monday.|Before the bell.', highlights: ['bell.'], size: 84, media: {src: 'cage/p_bell.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', text: 'A model escaped|its container.', highlights: ['escaped'], size: 82, media: {src: 'cage/p_server.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', text: 'Not a hack.|The model did it.', highlights: ['model'], size: 82},
+  {dur: 120, kind: 'stat', stat: {value: 2, decimals: 0, post: 'TOOLS TO CAGE AGENTS'}, media: {src: 'cage/p_chips.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', enter: 'slideL', text: 'Nobody builds a fence|the day the horse bolts.', highlights: ['fence'], size: 66, media: {src: 'cage/p_fence.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', text: 'Unless they|knew.', highlights: ['knew'], size: 88},
+  {dur: 101, kind: 'text', text: 'Dario Amodei:|slow down.', highlights: ['slow'], size: 80, media: {src: 'cage/p_amodei.jpg', type: 'img', effect: 'out'}},
+  {dur: 88, kind: 'text', enter: 'slideL', text: 'Trump says|go faster.', highlights: ['faster'], size: 84, media: {src: 'cage/p_trump.jpg', type: 'img', effect: 'out'}},
+  {dur: 79, kind: 'text', text: 'The model waits|for neither.', highlights: ['neither'], size: 82, media: {src: 'cage/v_ai.mp4', type: 'video', effect: 'in'}},
+  {dur: 166, kind: 'lines', text: 'Dow -0.3%|S&P -0.4%|Nasdaq -0.9%', highlights: ['-0.9%'], reveal: [0, 57, 104], media: {src: 'cage/p_ticker.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'stat', stat: {value: 3, suffix: 'x', post: 'TECH SOLD OFF HARDER'}, media: {src: 'cage/p_selloff.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'stat', stat: {prefix: '$', value: 2, decimals: 0, suffix: 'T', post: 'ANTHROPIC GOES PUBLIC'}, media: {src: 'cage/p_ipo.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', text: 'Every IPO priced|on one thing.', highlights: ['one'], size: 78, media: {src: 'cage/p_trading.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', text: 'The model stays|in the box.', highlights: ['box'], size: 82, media: {src: 'cage/p_box.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', enter: 'slideL', text: 'So why cage it|that morning?', highlights: ['cage'], size: 78, media: {src: 'cage/p_cage2.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', text: 'The box isn\'t|the product.', highlights: ['product'], size: 82, media: {src: 'cage/p_flow.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'impact', text: 'The lock|is.', redBg: true},
+  {dur: 72, kind: 'text', text: 'It sells the chips|that run the models.', highlights: ['chips'], size: 70, media: {src: 'cage/p_chips2.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', enter: 'slideL', text: 'Now it sells|the cage too.', highlights: ['cage'], size: 82, media: {src: 'cage/p_lock.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', text: 'Whoever sells|the cage wins.', highlights: ['wins.'], size: 80, media: {src: 'cage/p_vault.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', text: 'Would you buy|an AI IPO?', highlights: ['buy'], size: 80, media: {src: 'cage/p_buy.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', enter: 'zoom', text: 'Tell me|below.', highlights: ['below'], size: 90, media: {src: 'cage/p_night.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). No post-hook pause (hard-cut declarative
-// hook). Impact on the open, the $2T stat and the red "pitch is the risk" card;
-// whooshes on the chain, the chart and the CTA close.
+// hook). Impact on the open, the escape, the stat cards and the red "lock" card;
+// whooshes on the market card and the CTA close.
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 147, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 303, src: 'media/sfx_impact.mp3', vol: 0.45},
-  {at: 1265, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1402, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 1691, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 191, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 345, src: 'media/sfx_impact.mp3', vol: 0.45},
+  {at: 838, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1066, src: 'media/sfx_impact.mp3', vol: 0.45},
+  {at: 1411, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1627, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
@@ -235,7 +242,7 @@ const Caption: React.FC<{text: string; highlights?: string[]; size?: number; ali
   const frame = useCurrentFrame();
   const lines = text.split('|');
   const hset = highlights.map((h) => h.toLowerCase());
-  const isHi = (w: string) => hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase());
+  const isHi = (w: string) => hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase()) || hset.includes(w.toLowerCase());
   let wordIndex = 0;
   return (
     <div style={{display: 'flex', flexDirection: 'column', gap: 2, alignItems: align, width: '100%'}}>
@@ -301,7 +308,8 @@ const SceneLines: React.FC<{text: string; highlights?: string[]; reveal?: number
           return (
             <div key={i} style={{opacity: op, fontFamily: HEAD, fontSize: 96, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase'}}>
               {l.split(' ').map((w, wi) => {
-                const hi = hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase());
+                const cw = w.replace(/[.,—…-]/g, '').toLowerCase();
+                const hi = hset.includes(cw) || hset.includes(w.toLowerCase());
                 return (
                   <span key={wi} style={{color: hi ? C.red : C.ink, textShadow: SH}}>
                     {w}
@@ -345,9 +353,9 @@ const SceneStat: React.FC<{stat: StatCfg}> = ({stat}) => {
   );
 };
 
-// Two-bar comparison chart (NYSE hours vs chain hours) — the client asked for
-// this frame explicitly. Bars grow from the baseline; the taller "chain" bar is
-// red and glows. Values count up above each bar.
+// Two-bar comparison chart — bars grow from the baseline; the taller bar is red
+// and glows; values count up above each bar. (Kept from the series' chart kind;
+// not used in this reel but available.)
 const SceneChart: React.FC<{chart: ChartCfg}> = ({chart}) => {
   const frame = useLocal();
   const t = interpolate(frame, [6, 44], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
@@ -393,9 +401,8 @@ const SceneChart: React.FC<{chart: ChartCfg}> = ({chart}) => {
 const SceneImpact: React.FC<{text: string; redBg?: boolean}> = ({text, redBg}) => {
   const lines = text.split('|');
   return (
-    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
-      {redBg ? <AbsoluteFill style={{background: 'radial-gradient(125% 90% at 50% 42%, #FF2E2E 0%, #E31E1E 62%, #C21414 100%)'}} /> : null}
-      <div style={{textAlign: 'center', fontFamily: HEAD, fontSize: 150, lineHeight: 0.92, letterSpacing: 1, textTransform: 'uppercase'}}>
+    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', background: redBg ? 'radial-gradient(125% 90% at 50% 42%, #FF2E2E 0%, #E31E1E 62%, #C21414 100%)' : undefined}}>
+      <div style={{position: 'relative', zIndex: 1, textAlign: 'center', fontFamily: HEAD, fontSize: 150, lineHeight: 0.92, letterSpacing: 1, textTransform: 'uppercase'}}>
         {lines.map((l, i) => (
           <div key={i} style={{color: redBg ? (i === 0 ? '#0A0A0A' : C.ink) : (i === lines.length - 1 ? C.red : C.ink), textShadow: redBg ? 'none' : SH}}>
             {l}
@@ -410,9 +417,9 @@ const SceneOutro: React.FC = () => {
   const frame = useLocal();
   const {fps} = useVideoConfig();
   const parts = [
-    {t: 'Open all hours.', red: false},
-    {t: 'Owned by someone.', red: false},
-    {t: 'Watch the rails.', red: true},
+    {t: 'The box was', red: false},
+    {t: 'the product.', red: false},
+    {t: 'Now the lock.', red: true},
   ];
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
@@ -421,7 +428,7 @@ const SceneOutro: React.FC = () => {
           const s = spring({frame: frame - (6 + i * 14), fps, config: {damping: 200}});
           return (
             <span key={i} style={{fontFamily: HEAD, fontSize: p.red ? 150 : 116, textTransform: 'uppercase', letterSpacing: 1, color: C.ink, opacity: s, transform: `translateY(${interpolate(s, [0, 1], [34, 0])}px)`}}>
-              {p.red ? (<>Watch the <span style={{color: C.red, textShadow: SH}}>rails.</span></>) : p.t}
+              {p.red ? (<>Now the <span style={{color: C.red, textShadow: SH}}>lock.</span></>) : p.t}
             </span>
           );
         })}
@@ -438,7 +445,7 @@ const Hud: React.FC = () => {
     <>
       <div style={{position: 'absolute', top: 70, left: 80, display: 'flex', alignItems: 'center', gap: 14}}>
         <div style={{width: 11, height: 11, borderRadius: 11, background: C.sub}} />
-        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>One memo</span>
+        <span style={{fontFamily: BODY, fontWeight: 700, fontSize: 22, letterSpacing: 5, color: C.ink, textTransform: 'uppercase', textShadow: SH}}>The cage</span>
       </div>
       <div style={{position: 'absolute', bottom: 90, left: 80, right: 80, height: 3, borderRadius: 3, background: 'rgba(255,255,255,0.08)'}}>
         <div style={{height: '100%', width: `${progress * 100}%`, borderRadius: 3, background: C.sub}} />
@@ -504,14 +511,14 @@ const renderScene = (s: SceneDef, mode: string) => {
 };
 
 // ---------------------------------------------------------------------------
-export const MemoReel: React.FC = () => {
+export const CageReel: React.FC = () => {
   const frame = useCurrentFrame();
   const globalOpacity = interpolate(frame, [0, 12, DURATION_IN_FRAMES - 16, DURATION_IN_FRAMES], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill style={{backgroundColor: C.bg}}>
-      {HAS_VOICEOVER ? <Audio src={staticFile('memo/voiceover.mp3')} /> : null}
+      {HAS_VOICEOVER ? <Audio src={staticFile('cage/voiceover.mp3')} /> : null}
       <Audio
-        src={staticFile('memo/music.mp3')}
+        src={staticFile('cage/music.mp3')}
         volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.17, 0.17, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       {SFX.map((s, i) => (
@@ -555,4 +562,3 @@ const LogoWatermark: React.FC = () => (
     />
   </AbsoluteFill>
 );
-

@@ -103,7 +103,7 @@ import {TuitionReel, DURATION_IN_FRAMES as TUITION_FRAMES} from './TuitionReel';
 import {ReturnReel, DURATION_IN_FRAMES as RETURN_FRAMES} from './ReturnReel';
 import {ClarityReel, DURATION_IN_FRAMES as CLARITY_FRAMES} from './ClarityReel';
 import {BellReel, DURATION_IN_FRAMES as BELL_FRAMES} from './BellReel';
-import {MemoReel, DURATION_IN_FRAMES as MEMO_FRAMES} from './MemoReel';
+import {CageReel, DURATION_IN_FRAMES as CAGE_FRAMES} from './CageReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -934,9 +934,9 @@ export const RemotionRoot: React.FC = () => {
         height={HEIGHT}
       />
       <Composition
-        id="MemoReel"
-        component={MemoReel}
-        durationInFrames={MEMO_FRAMES}
+        id="CageReel"
+        component={CageReel}
+        durationInFrames={CAGE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
