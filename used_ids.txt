@@ -1746,3 +1746,21 @@ giphy:mbxT8VSgvdlg3PfM7J cage/g_wins.mp4 (auction paddle '300' bid, film clip ->
 5935749 cheque/p_vote.jpg (generic "VOTE" ballot box, no party/candidate)
 # --- public-figure face ---
 wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg cheque/p_trump.jpg (PUBLIC DOMAIN, US federal govt work; same portrait as cage/p_trump.jpg)
+
+# MicronReel (The cycle) — NEWS reel series #6. Topic: Micron's Q4 earnings REACTION — beat + raised outlook but the stock fell ~2%; thesis "a floor is only good news if you weren't paying for the ceiling"; the company quietly conceding it's a cycle (26 agreements / ~35% of revenue through 2030) while the stock is up ~280% YTD. Hard-condensed from ~370 to ~150 words to fit <60s (client's call). Evolved style: verbatim-leaning captions + number cards (-2%, 26/35%/2030, +280%), 4-mode text anim. NO faces for the named CFO/CEO/analyst (generic role-label b-roll). Media-dense (14 media / 2 black / 1 red). Own footage under public/micron/.
+# --- Pexels stills (front half) ---
+36169773 micron/p_chip.jpg (dark black-chip circuit macro; brand-free RAM/DRAM sticks don't exist on Pexels, so a generic silicon macro stands in)
+12960362 micron/p_bell2.jpg (abstract red/green LED ticker board, numbers illegible)
+7947847 micron/p_margin.jpg (printed "Revenue report" page, placeholder numbers)
+12092846 micron/p_podium.jpg (lone microphone on a dark stage — face-free stand-in for the exec/earnings-call beats)
+38905596 micron/p_drop.jpg (dark candlestick screen with a downward dip, generic axis only)
+5834243 micron/p_slow.jpg (candlestick + MA chart rising then leveling off)
+7841411 micron/p_contract.jpg (printed "CONTRACT" doc with placeholder [ABC], pen)
+# --- Pexels stills (back half) ---
+30792466 micron/p_bust.jpg (storm clouds over a city skyline — the coming bust)
+39494586 micron/p_soar.jpg (green candlesticks climbing up-and-right)
+32655950 micron/p_ceiling.jpg (architectural oculus/dome looking up — "the ceiling")
+31650949 micron/p_terminal.jpg (trader's multi-screen desk, no brand/tickers)
+17739892 micron/p_desk.jpg (empty modern boardroom table)
+8336038 micron/p_hedge.jpg (B&W chessboard, king vs king — hedging)
+6141336 micron/p_hold.jpg (grasping hand in near-darkness — "still holding?"; REPLACED the agent's pick 7947740, which was a recognizable Robinhood app screen)

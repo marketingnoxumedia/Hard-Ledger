@@ -2557,6 +2557,45 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   author and rendered as written; EVERY figure, date, name and causal claim must be
   checked against primary sources before this publishes. **Voice:** uses the same
   distinct upbeat cloned voice as the rest of the series.
+- **`MicronReel`** — "The cycle" (the sixth fast NEWS reel in the series). NEW topic:
+  Micron's Q4 earnings **reaction**. It beat on revenue and profit, raised its
+  outlook, and the CFO called margins a "new floor" that climbs from there — yet the
+  stock **fell ~2%** the next morning. Thesis: a floor is only good news if you
+  weren't already paying for the ceiling. The overlooked signals — margins now climb
+  only on "more moderate" price increases (the rises are slowing), and the CEO's
+  **26 customer agreements locking ~35% of revenue through 2030** (insurance against
+  the memory boom-and-bust) — read as the company quietly conceding it's a cycle,
+  exactly the scenario a stock **up ~280% this year** was priced to rule out. Follows
+  the client's QUESTION / STORY / ANSWER / CTA script; close is a CTA question ("Up
+  280%. Still holding?"). **HARD-CONDENSED from ~370 words to ~150 to fit the sub-60s
+  cap (client's call — the named analyst, the exact compensation line, and other
+  earnings-call detail trimmed).** Tempo ADAPTIVE and CAPPED; the cut brought it
+  under the cap so it runs a comfortable atempo ~1.14 — total 1725 frames = ~57.5s.
+  Captions are verbatim-leaning with big **number cards** for the CARD callouts (−2%;
+  26 agreements / 35% through 2030; +280%). 4-mode rotating text animation
+  (pop/slide/type/blur). Media-dense (14 media / 2 black / 1 red; a solid-red "Not
+  bad news. A cycle." card mid-tail, closing on a grasping hand in darkness).
+  **No faces are shown for the named CFO, CEO or analyst** — clean, clearly-licensed
+  photos of corporate execs/analysts are unreliable, so those beats use generic
+  b-roll (a lone microphone, etc.) with role labels. All b-roll is brand-safe Pexels
+  footage sourced clean AND frame-audited from the final render — note brand-free
+  RAM/DRAM sticks don't exist on Pexels, so the hook uses a generic dark chip macro,
+  and the "still holding?" beat uses a grasping hand (a recognizable Robinhood app
+  screen was rejected). Media credits — Pexels (free license): chip macro (36169773),
+  LED ticker board (12960362), revenue-report page (7947847), lone microphone
+  (12092846), falling candlestick screen (38905596), flattening chart (5834243),
+  contract document (7841411), storm over a skyline (30792466), rising green chart
+  (39494586), architectural oculus (32655950), trader's multi-screen desk (31650949),
+  empty boardroom (17739892), chessboard (8336038), grasping hand in darkness
+  (6141336). **TIME-SENSITIVE / UNVERIFIED — ELEVATED RISK, verify before
+  publishing:** market-moving, attributed claims — Micron beat on revenue/profit and
+  raised guidance; a ~2% next-day drop; the CFO's "new floor" / "more moderate price
+  increases" remarks; the CEO's "26 agreements / ~35% of revenue through 2030"; the
+  stock up ~280% YTD; and SK Hynix / Samsung named as rivals. All supplied by the
+  author and rendered as written; EVERY figure, quote, attribution and date must be
+  checked against primary sources (the actual earnings call / filings) before this
+  publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of the
+  series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
