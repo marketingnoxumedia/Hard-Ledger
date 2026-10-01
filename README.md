@@ -2517,6 +2517,46 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   any detail is wrong — EVERY claim (names, events, attributions, numbers) must be
   checked against primary sources before this publishes. **Voice:** uses the same
   distinct upbeat cloned voice as the rest of the series.
+- **`ChequeReel`** — "One in twenty" (the fifth fast NEWS reel in the series). NEW
+  topic: the $500 "Working Families Obamacare Refund" cheques. Thesis: this isn't a
+  healthcare refund — it's a refund of the **HealthCare.gov website user fee**.
+  Insurers pay that fee (now ~2.5% of premiums); enrolment held up, the fund
+  overflowed into a **~$500M surplus**, and insurers pass the fee to full-price
+  customers — so only full-price buyers (over 400% of the poverty line, no subsidy)
+  get $500 back, while subsidized and state-exchange enrollees (mostly blue states)
+  paid nothing into HealthCare.gov and get no cheque, and the people whose premiums
+  doubled when the enhanced subsidies expired get nothing. ~950k cheques to 30
+  states, each signed by Donald Trump, posted ~5 weeks before the midterms. Follows
+  the client's QUESTION / STORY / ANSWER / CTA script; close is a CTA question ("Did
+  you get one? Which state?"). **HARD-CONDENSED from ~420 words to ~205 to fit the
+  sub-60s cap (client's call — some fee/subsidy detail trimmed).** Tempo ADAPTIVE
+  and CAPPED (atempo ~1.33 — fast/dense) — total 1797 frames = ~59.9s. Captions are
+  verbatim-leaning with big **number cards** for the CARD callouts ($500 / 950,000 /
+  30 states; the $500M surplus; and the $500 ← $500M ← 950,000 payoff). 4-mode
+  rotating text animation (pop/slide/type/blur). Media-dense (13 media / 2 black / 1
+  red; a solid-red "Not a flaw. By design." card mid-tail, closing on a ballot box).
+  **Donald Trump is shown via his public-domain official portrait** (Wikimedia
+  Commons, US-government work; same portrait as CageReel). All b-roll is brand-safe
+  Pexels footage sourced clean AND frame-audited from the final render — note the
+  hook uses US cash in a black envelope as a brand-safe stand-in for a literal
+  cheque (clean cheque shots were unusable), and the "website fee" beat uses a
+  generic web form, NOT the real HealthCare.gov or any insurer logo. Media credits —
+  Pexels (free license): cash-in-envelope (4386368), US map on asphalt (19784164),
+  White House at night (31474056), generic web form (7709273), fanned cash
+  (6590643), hands exchanging cash (4968384), suburban house (4832530), state
+  capitol dome (17581789), person with a claim form (6919757), generic invoice
+  (7688524), hands counting cash (4475469), "VOTE" ballot box (5935749).
+  Public-figure portrait: Donald Trump — Official Presidential Portrait (2025,
+  public domain). **TIME-SENSITIVE / UNVERIFIED — ELEVATED RISK, verify before
+  publishing:** heavy factual + political claims — 19M Obamacare enrollees; $500
+  cheques to ~950,000 people in 30 states signed by Donald Trump ~35 days before the
+  midterms; the "Working Families Obamacare Refund" framing; the HealthCare.gov
+  user-fee rate (~1.5%→2.5%); a ~$500M surplus; the >400%-of-poverty / ~$63k
+  eligibility; the subsidized / state-exchange / "mostly blue states" exclusions;
+  and the claim that those whose premiums doubled get nothing. All supplied by the
+  author and rendered as written; EVERY figure, date, name and causal claim must be
+  checked against primary sources before this publishes. **Voice:** uses the same
+  distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

@@ -104,6 +104,7 @@ import {ReturnReel, DURATION_IN_FRAMES as RETURN_FRAMES} from './ReturnReel';
 import {ClarityReel, DURATION_IN_FRAMES as CLARITY_FRAMES} from './ClarityReel';
 import {BellReel, DURATION_IN_FRAMES as BELL_FRAMES} from './BellReel';
 import {CageReel, DURATION_IN_FRAMES as CAGE_FRAMES} from './CageReel';
+import {ChequeReel, DURATION_IN_FRAMES as CHEQUE_FRAMES} from './ChequeReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -937,6 +938,14 @@ export const RemotionRoot: React.FC = () => {
         id="CageReel"
         component={CageReel}
         durationInFrames={CAGE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ChequeReel"
+        component={ChequeReel}
+        durationInFrames={CHEQUE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

@@ -1728,3 +1728,21 @@ giphy:fUuTpJQtUTTgrogcIb cage/g_bell.mp4 (cat ringing a service bell -> 'before 
 giphy:KYyQJ1ze5f9CK6V7D7 cage/g_fence.mp4 (goat leaving a barn stall -> 'nobody builds a fence'; NOTE burned-in '@akash sidhu 123' watermark)
 giphy:ZBK7b4vHYyb0n70zJq cage/g_why.mp4 (skeptical side-eye reaction -> 'so why cage it that morning')
 giphy:mbxT8VSgvdlg3PfM7J cage/g_wins.mp4 (auction paddle '300' bid, film clip -> 'whoever sells the cage wins')
+
+# ChequeReel (One in twenty) — NEWS reel series #5. Topic: the $500 "Working Families Obamacare Refund" cheques = a refund of the HealthCare.gov website USER-FEE surplus. Hard-condensed from ~420 to ~205 words to fit the <60s cap (client's call). Evolved style: verbatim-leaning captions + big number cards for the CARD callouts, 4-mode text anim, Trump PD face. Media-dense (13 media / 2 black / 1 red). Own footage under public/cheque/.
+# --- Pexels stills (front half) ---
+4386368 cheque/p_cheque.jpg (US cash in a black envelope — brand-safe SUBSTITUTE for a literal paper cheque; clean cheque shots were Cyrillic-keyboard or collided)
+19784164 cheque/p_map.jpg (US map on dark asphalt)
+31474056 cheque/p_whitehouse.jpg (B&W night White House)
+7709273 cheque/p_laptop.jpg (generic web form — NOT the real HealthCare.gov, no insurer brand)
+6590643 cheque/p_cash.jpg (US bills fanned on black)
+4968384 cheque/p_handsmoney.jpg (hands exchanging US cash)
+# --- Pexels stills (back half) ---
+4832530 cheque/p_house.jpg (suburban home)
+17581789 cheque/p_capitol.jpg (US state capitol dome)
+6919757 cheque/p_bills.jpg (stressed person with a medical/claim form)
+7688524 cheque/p_receipt.jpg (generic invoice + calculator, placeholder text only)
+4475469 cheque/p_money2.jpg (hands counting US $20s on near-black)
+5935749 cheque/p_vote.jpg (generic "VOTE" ballot box, no party/candidate)
+# --- public-figure face ---
+wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg cheque/p_trump.jpg (PUBLIC DOMAIN, US federal govt work; same portrait as cage/p_trump.jpg)
