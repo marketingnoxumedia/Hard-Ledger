@@ -107,6 +107,7 @@ import {CageReel, DURATION_IN_FRAMES as CAGE_FRAMES} from './CageReel';
 import {ChequeReel, DURATION_IN_FRAMES as CHEQUE_FRAMES} from './ChequeReel';
 import {MicronReel, DURATION_IN_FRAMES as MICRON_FRAMES} from './MicronReel';
 import {DieselReel, DURATION_IN_FRAMES as DIESEL_FRAMES} from './DieselReel';
+import {JobsReel, DURATION_IN_FRAMES as JOBS_FRAMES} from './JobsReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -964,6 +965,14 @@ export const RemotionRoot: React.FC = () => {
         id="DieselReel"
         component={DieselReel}
         durationInFrames={DIESEL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="JobsReel"
+        component={JobsReel}
+        durationInFrames={JOBS_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

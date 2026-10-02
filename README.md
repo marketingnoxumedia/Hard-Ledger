@@ -2634,6 +2634,40 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   supplied by the author and rendered as written; EVERY figure, date, name and causal
   claim must be checked against primary sources before this publishes. **Voice:** uses
   the same distinct upbeat cloned voice as the rest of the series.
+- **`JobsReel`** — "Trading the Fed" (the eighth fast NEWS reel in the series). NEW
+  topic: the September US jobs report missing badly (**29k vs ~90k expected**) — yet
+  **stocks rose**. Thesis: stocks aren't trading the economy, they're trading the Fed
+  — a weak jobs print means no rate hike, no hike means yields fall, and falling
+  yields lift stocks, so the market called a bad report "relief." Signals:
+  unemployment up to **4.2%**, July revised to a loss; stocks and bonds up, oil down;
+  the Fed had been hiking, markets priced **~69% odds** of another hike with the
+  **10-year at ~5.3%** and bonds in their **worst quarter since 1994**; then the weak
+  print cut hike odds to **~22%** within an hour. Payoff: good news is bad news, bad
+  news is good news — until the day it's just bad. Follows the client's QUESTION /
+  STORY / ANSWER / CTA script; close is a CTA question ("Is the Fed done?").
+  **HARD-CONDENSED from ~190 words to ~165 to fit the sub-60s cap (client's call).**
+  Tempo ADAPTIVE and CAPPED; comfortable atempo ~1.24 — total 1725 frames = ~57.5s.
+  **Verbatim captions** on the text beats + big **number cards** for the CARD callouts
+  (4.2% / July −10k; 69% / 10-yr 5.3% / worst since 1994; 69%→22%). 4-mode rotating
+  text animation. Media-dense (13 media / 1 black / 1 red; a solid-red "Bad news is
+  good news." card mid-tail, closing on a gavel). **No faces** — the actors here are
+  institutions (Wall Street, the Fed, Treasury), not named individuals. All b-roll is
+  brand-safe Pexels footage sourced clean AND frame-audited from the final render — no
+  "Federal Reserve" seal/wordmark, no exchange logos, no tickers or app UIs (the Fed
+  beat is a generic columned facade; the bonds beat is the "U.S. TREASURY" engraving
+  on currency). Media credits — Pexels (free license): "HIRING" chalkboard (5598328),
+  office clock (35758724), layoff with a box (7581040), green/red chart (39558511),
+  columned facade (28198537), U.S. Treasury engraving (4386155), worker with head in
+  hands (36713398), abstract line chart (39415759), hands pulling strings (5566169),
+  balance scale (8431786), relief/exhale portrait (5294105), storm over a skyline
+  (4028941), judge's gavel (6077189). **TIME-SENSITIVE / UNVERIFIED — ELEVATED RISK,
+  verify before publishing:** market-moving figures — a 29k September jobs print vs
+  ~90k expected; unemployment 4.2%; July revised to −10k; stocks/bonds up and oil down
+  on the day; ~69% prior hike odds; the 10-year at ~5.3%; bonds' worst quarter since
+  1994; and hike odds dropping to ~22% within an hour. All supplied by the author and
+  rendered as written; EVERY figure, date and causal claim must be checked against
+  primary sources before this publishes. **Voice:** uses the same distinct upbeat
+  cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

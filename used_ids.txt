@@ -1782,3 +1782,20 @@ wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg
 18784617 diesel/p_tap.jpg (pipelines running to the horizon — "turn the tap back on")
 # --- public-figure face ---
 wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official portrait, Shealah Craighead/White House; PUBLIC DOMAIN, US federal govt work; deliberately a DIFFERENT Trump photo from cage/cheque's 2025 portrait)
+
+# JobsReel (Trading the Fed) — NEWS reel series #8. Topic: weak Sept jobs report (29k vs ~90k) yet stocks ROSE — markets trade the Fed, not the economy (weak jobs -> no hike -> yields fall -> stocks rise). Hard-condensed from ~190 to ~165 words to fit <60s. Verbatim text beats + number cards (4.2%/July -10k; 69%/10yr 5.3%/worst since 1994; 69%->22%). No faces (institutions only). Media-dense (13 media / 1 black / 1 red). Own footage under public/jobs/.
+# --- Pexels stills (front half) ---
+5598328 jobs/p_jobs.jpg ("HIRING" chalk on black)
+35758724 jobs/p_clock.jpg (office wall clock; generic "QUARTZ" only)
+7581040 jobs/p_layoff.jpg (man carrying a box of desk belongings)
+39558511 jobs/p_up.jpg (green/red candlesticks, +0.14%, no tickers)
+28198537 jobs/p_fed.jpg (Corinthian-columned facade, no inscription/seal)
+4386155 jobs/p_bonds.jpg (US currency "U.S. TREASURY" engraving — the topic itself)
+36713398 jobs/p_weak.jpg (lone worker, face in hands)
+# --- Pexels stills (back half) ---
+39415759 jobs/p_odds.jpg (abstract glowing line chart on near-black grid)
+5566169 jobs/p_strings.jpg (hands pulling taut strings to a hooded figure — puppet/control)
+8431786 jobs/p_yields.jpg (balance scale, one pan down one up — "yields fall, stocks rise")
+5294105 jobs/p_relief.jpg (man eyes closed, hand to brow, exhaling — "relief")
+4028941 jobs/p_storm.jpg (storm clouds over a city skyline)
+6077189 jobs/p_done.jpg (judge's gavel on a sound block — "is the Fed done?")
