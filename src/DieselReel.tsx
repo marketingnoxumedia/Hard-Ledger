@@ -113,19 +113,19 @@ type SceneDef = {
 // against primary sources before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 169, kind: 'hook', text: 'The world is|running out of diesel.|One country can fix it.|So why stop selling?', kicker: 'The tap', highlights: ['selling?'], size: 54, media: {src: 'diesel/p_diesel.jpg', type: 'img', effect: 'in'}},
-  {dur: 113, kind: 'text', text: 'Thursday.|China halts|its fuel exports.', highlights: ['exports.'], size: 64, media: {src: 'diesel/p_refinery.jpg', type: 'img', effect: 'in'}},
+  {dur: 169, kind: 'hook', text: 'The world is running out of diesel.|One country has enough to fix it.|So why did it just|stop selling?', kicker: 'The tap', highlights: ['selling?'], size: 50, media: {src: 'diesel/p_diesel.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'text', text: 'Thursday.|Chinese refiners suspend|October fuel exports.', highlights: ['exports.'], size: 56, media: {src: 'diesel/p_refinery.jpg', type: 'img', effect: 'in'}},
   {dur: 75, kind: 'text', text: 'Except Hong Kong|and Macau.|No date to restart.', highlights: ['restart.'], size: 58, media: {src: 'diesel/p_port.jpg', type: 'img', effect: 'in'}},
-  {dur: 88, kind: 'text', enter: 'slideL', text: 'The biggest refining|hub on earth.', highlights: ['hub'], size: 64, media: {src: 'diesel/p_hub.jpg', type: 'img', effect: 'out'}},
-  {dur: 152, kind: 'text', text: 'In August, exporting|more than ever.|Then, overnight,|nothing.', highlights: ['nothing.'], size: 56, media: {src: 'diesel/p_valve.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', enter: 'slideL', text: 'China is the biggest|refining hub on earth.', highlights: ['hub'], size: 60, media: {src: 'diesel/p_hub.jpg', type: 'img', effect: 'out'}},
+  {dur: 152, kind: 'text', text: 'In August, it was exporting|more than before the Iran war.|Then, overnight, nothing.', highlights: ['nothing.'], size: 48, media: {src: 'diesel/p_valve.jpg', type: 'img', effect: 'in'}},
   {dur: 194, kind: 'lines', text: '$100+ OIL|US DIESEL: 5-YR LOW|EAST COAST -33%', highlights: ['-33%'], reveal: [0, 65, 130], media: {src: 'diesel/p_barrels.jpg', type: 'img', effect: 'in'}},
-  {dur: 104, kind: 'text', enter: 'slideL', text: '7 days earlier,|Trump asked Xi|for more.', highlights: ['more.'], size: 62, media: {src: 'diesel/p_trump.jpg', type: 'img', effect: 'out'}},
+  {dur: 104, kind: 'text', enter: 'slideL', text: 'Seven days earlier,|Trump asked Xi|to send more.', highlights: ['more.'], size: 60, media: {src: 'diesel/p_trump.jpg', type: 'img', effect: 'out'}},
   {dur: 119, kind: 'stat', stat: {prefix: '-', value: 20, decimals: 0, suffix: 'M', post: 'BARRELS SHORT AT HOME'}, media: {src: 'diesel/p_tanks.jpg', type: 'img', effect: 'in'}},
   {dur: 110, kind: 'stat', stat: {prefix: '$', value: 75, decimals: 0, post: 'DIESEL MARGIN PER BARREL'}, media: {src: 'diesel/p_gauge.jpg', type: 'img', effect: 'in'}},
-  {dur: 69, kind: 'text', text: 'So why stop selling|at the top?', highlights: ['top?'], size: 76},
-  {dur: 116, kind: 'text', text: 'A barrel in a tank|beats a barrel|on a ship.', highlights: ['ship.'], size: 58, media: {src: 'diesel/p_ship.jpg', type: 'img', effect: 'in'}},
-  {dur: 120, kind: 'text', enter: 'slideL', text: 'At home, it holds|prices down.|Abroad, it\'s leverage.', highlights: ['leverage.'], size: 56, media: {src: 'diesel/p_station.jpg', type: 'img', effect: 'in'}},
-  {dur: 66, kind: 'text', text: 'Five weeks before|the midterms.', highlights: ['midterms.'], size: 64, media: {src: 'diesel/p_flag.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', text: 'So why stop selling|when the price|is highest?', highlights: ['highest?'], size: 70},
+  {dur: 116, kind: 'text', text: 'Because a barrel in a|Chinese tank beats|a barrel on a ship.', highlights: ['ship.'], size: 54, media: {src: 'diesel/p_ship.jpg', type: 'img', effect: 'in'}},
+  {dur: 120, kind: 'text', enter: 'slideL', text: 'At home, it holds prices|down through winter.|Abroad, it\'s leverage.', highlights: ['leverage.'], size: 52, media: {src: 'diesel/p_station.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', text: 'Five weeks before|the US midterms.', highlights: ['midterms.'], size: 62, media: {src: 'diesel/p_flag.jpg', type: 'img', effect: 'in'}},
   {dur: 128, kind: 'impact', text: 'It won\'t sell.|It wants you to|know it could.', redBg: true},
   {dur: 102, kind: 'text', enter: 'zoom', text: 'Does China turn|the tap back on?|Tell me below.', highlights: ['below.'], size: 58, media: {src: 'diesel/p_tap.jpg', type: 'img', effect: 'in'}},
 ];
