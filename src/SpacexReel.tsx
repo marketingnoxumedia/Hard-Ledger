@@ -114,7 +114,7 @@ type SceneDef = {
 // prospectus / filings) before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 158, kind: 'hook', text: 'What do you call|a rocket company|where rockets are|just 1%?', kicker: 'The belief', highlights: ['1%?'], size: 54, media: {src: 'spacex/p_rocket.jpg', type: 'img', effect: 'in'}},
+  {dur: 158, kind: 'hook', text: 'What do you call a rocket|company where rockets are|just 1% of the business?', kicker: 'The belief', highlights: ['1%'], size: 54, media: {src: 'spacex/p_rocket.jpg', type: 'img', effect: 'in'}},
   {dur: 195, kind: 'stat', stat: {pre: 'THE LARGEST OPPORTUNITY', prefix: '$', value: 28.5, decimals: 1, suffix: 'T', post: 'IN HUMAN HISTORY, IT SAYS'}, media: {src: 'spacex/p_prospectus.jpg', type: 'img', effect: 'in'}},
   {dur: 238, kind: 'lines', text: 'LAUNCH: $370B|STARLINK: $1.6T|AI: $26.5T', highlights: ['$26.5T'], reveal: [0, 80, 160], media: {src: 'spacex/p_earth.jpg', type: 'img', effect: 'in'}},
   {dur: 169, kind: 'stat', stat: {prefix: '$', value: 22.7, decimals: 1, suffix: 'T', post: '= THE DIGITAL ECONOMY'}, media: {src: 'spacex/p_digital.jpg', type: 'img', effect: 'in'}},
@@ -124,8 +124,8 @@ const SCENES: SceneDef[] = [
   {dur: 66, kind: 'text', text: 'An AI company|with a rocket|for a logo.', highlights: ['logo.'], size: 60, media: {src: 'spacex/p_brand.jpg', type: 'img', effect: 'in'}},
   {dur: 88, kind: 'text', enter: 'slideL', text: 'The $28 trillion|isn\'t a market.', highlights: ['market.'], size: 62, media: {src: 'spacex/p_cosmos.jpg', type: 'img', effect: 'in'}},
   {dur: 106, kind: 'text', text: 'It\'s a story big enough|the number|stops mattering.', highlights: ['story'], size: 54, media: {src: 'spacex/p_story.jpg', type: 'img', effect: 'in'}},
-  {dur: 136, kind: 'text', text: 'Not selling launches.|A claim on the|digital economy.', highlights: ['claim'], size: 54, media: {src: 'spacex/p_world.jpg', type: 'img', effect: 'out'}},
-  {dur: 83, kind: 'text', text: 'Its market:|1,000 times|its revenue.', highlights: ['1,000'], size: 60, media: {src: 'spacex/p_gap.jpg', type: 'img', effect: 'in'}},
+  {dur: 136, kind: 'text', text: 'SpaceX isn\'t selling launches.|It\'s selling a claim on the|entire digital economy.', highlights: ['claim'], size: 50, media: {src: 'spacex/p_world.jpg', type: 'img', effect: 'out'}},
+  {dur: 83, kind: 'text', text: 'Its market is|1,000 times|its revenue.', highlights: ['1,000'], size: 60, media: {src: 'spacex/p_gap.jpg', type: 'img', effect: 'in'}},
   {dur: 65, kind: 'impact', text: 'Not the market.|The belief.', redBg: true},
   {dur: 95, kind: 'text', enter: 'zoom', text: 'Space company|or AI company?|Tell me below.', highlights: ['below.'], size: 58, media: {src: 'spacex/p_cta.jpg', type: 'img', effect: 'in'}},
 ];
