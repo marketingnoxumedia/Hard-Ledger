@@ -1815,3 +1815,19 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 7355365 spacex/p_brand.jpg (red+cream toy rocket on white — "rockets as the brand/icon")
 4275891 spacex/p_gap.jpg (tiny figure dwarfed in a vast cavern — scale mismatch)
 5194003 spacex/p_cta.jpg (silhouette under the Milky Way — "you decide")
+
+# LandlordReel (The landlord) — NEWS reel series #10, A/B TWIN of SpacexReel (same company, different angle). Topic: SpaceX owns 1M+ Nvidia GPUs and rents them to AI firms — an AI-compute landlord, not a rocket company (yet). Hard-condensed to ~165 words to fit <60s. Verbatim text beats + number cards (780k/+440k; 1.2M; $26B/yr & $150M/mo; $18.7B rev / -$4.9B loss; 2028). NO faces. Media-dense (12 media / 1 black / 1 red). Own footage under public/landlord/ (no asset shared with SpacexReel or any other reel).
+# --- Pexels stills (front half) ---
+6385893 landlord/p_gpu.jpg (red/black GPU PCB, no maker logo)
+5408005 landlord/p_serverhall.jpg (data-center server-rack aisle)
+30467757 landlord/p_rocket.jpg (rocket engine cluster in a dark hangar; no livery)
+8962327 landlord/p_keys.jpg ("HOUSE FOR RENT" yard sign, blank info box)
+7680565 landlord/p_cash.jpg (hands counting US cash)
+6779714 landlord/p_ledger.jpg (accounting statement, placeholder figures)
+# --- Pexels stills (back half) ---
+12244791 landlord/p_satellite.jpg (CGI deep-space probe/satellite in a starfield)
+18015296 landlord/p_pad.jpg (rocket booster standing vertical; no wordmarks)
+5420670 landlord/p_launch.jpg (rocket liftoff with flame plume; emblem not legible)
+2881233 landlord/p_rack.jpg (network-fiber cables plugged into servers)
+35758486 landlord/p_building.jpg (apartment high-rise at night)
+16563643 landlord/p_decide.jpg (silhouette on a ridge under the Milky Way)

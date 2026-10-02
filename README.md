@@ -2705,6 +2705,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   author and rendered as written; EVERY figure, quote and attribution must be checked
   against primary sources (the actual prospectus / filings) before this publishes.
   **Voice:** uses the same distinct upbeat cloned voice as the rest of the series.
+- **`LandlordReel`** — "The landlord" (the tenth fast NEWS reel; an **A/B TWIN of
+  SpacexReel** — same company, adjacent thesis, different angle). Topic: SpaceX is
+  about to own **1M+ Nvidia GPUs** and rents them to AI companies — it's really an
+  **AI-compute landlord**, not a rocket company (yet). Signals: ~**780k** GPUs running
+  + ~**440k** switching on (over **1.2M** chips); **Anthropic & Google** pay ~**$26B/yr**
+  to rent SpaceX's computers, one startup (Reflection) ~**$150M/mo**; last year
+  ~**$18.7B** revenue but a ~**$4.9B loss**; the plan it's funding is **data centres in
+  orbit, first launches 2028**. Thesis: SpaceX can't afford its own future yet, so it
+  does the one thing that pays today — buy chips, rent them to AI firms — a landlord
+  saving up for the space company. Follows the client's QUESTION / STORY / ANSWER /
+  CTA script; close is a CTA question ("Would you buy the landlord to get the
+  rocket?"). **HARD-CONDENSED to ~165 words to fit the sub-60s cap (client's call).**
+  Tempo ADAPTIVE and CAPPED (atempo ~1.26) — total 1725 frames = ~57.5s. **Verbatim
+  captions** on the text beats + big **number cards** for the CARD callouts (780k /
+  +440k; 1.2M; $26B/yr & $150M/mo; $18.7B rev / −$4.9B loss; 2028). 4-mode rotating
+  text animation. Media-dense (12 media / 1 black / 1 red; a solid-red "It's a
+  landlord." card mid-tail, closing on a figure under the stars). **No faces.** All
+  b-roll is brand-safe Pexels footage sourced clean AND frame-audited from the final
+  render — generic compute/rockets/buildings, **NO Nvidia/SpaceX logos or branded
+  rocket livery** (the agents rejected every branded chip/rocket shot). Media credits —
+  Pexels (free license): red GPU board (6385893), server-rack aisle (5408005), rocket
+  engine cluster (30467757), "house for rent" sign (8962327), counting cash (7680565),
+  accounting statement (6779714), deep-space probe (12244791), rocket booster upright
+  (18015296), rocket liftoff (5420670), server fiber cables (2881233), apartment
+  high-rise (35758486), figure under the Milky Way (16563643). No asset is shared with
+  SpacexReel or any other reel. **TIME-SENSITIVE / UNVERIFIED — ELEVATED RISK, verify
+  before publishing:** contested claims about SpaceX — ~780k Nvidia GPUs running plus
+  ~440k more (1.2M+ chips); Anthropic/Google renting compute for ~$26B/yr and a startup
+  ~$150M/mo; ~$18.7B revenue and a ~$4.9B loss last year; and an orbital-data-centre
+  plan with first launches in 2028. All supplied by the author and rendered as written;
+  EVERY figure, name and causal claim must be checked against primary sources before
+  this publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of
+  the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
