@@ -1799,3 +1799,19 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 5294105 jobs/p_relief.jpg (man eyes closed, hand to brow, exhaling — "relief")
 4028941 jobs/p_storm.jpg (storm clouds over a city skyline)
 6077189 jobs/p_done.jpg (judge's gavel on a sound block — "is the Fed done?")
+
+# SpacexReel (The belief) — NEWS reel series #9. Topic: SpaceX IPO prospectus claiming a ~$28.5T market (rockets ~1%); a TAM so big it becomes a story — "the belief, not the market." Hard-condensed to ~170 words to fit <60s. Verbatim text beats + number cards ($28.5T/1%; $370B/$1.6T/$26.5T; $22.7T; $12.5B; $1T vs $400B / 18x). NO faces (Musk named, not shown). Media-dense (12 media / 1 black / 1 red). Own footage under public/spacex/.
+# --- Pexels stills (front half) ---
+11086520 spacex/p_rocket.jpg (distant rocket ascending, dark sky; no livery)
+7658352 spacex/p_prospectus.jpg (financial statement, placeholder line items)
+586072 spacex/p_earth.jpg (space-station solar array/hardware over Earth; no legible branding)
+30547618 spacex/p_digital.jpg (red/orange digital circuit lattice on near-black)
+7063762 spacex/p_revenue.jpg (pennies + open accounting ledger — "tiny actual revenue")
+20376408 spacex/p_target.jpg (Mars-like red planet on black)
+# --- Pexels stills (back half) ---
+3180831 spacex/p_cosmos.jpg (deep-space nebula + starfield)
+5389623 spacex/p_story.jpg (red spotlight beams on an empty stage)
+30596268 spacex/p_world.jpg (Earth at night, city lights)
+7355365 spacex/p_brand.jpg (red+cream toy rocket on white — "rockets as the brand/icon")
+4275891 spacex/p_gap.jpg (tiny figure dwarfed in a vast cavern — scale mismatch)
+5194003 spacex/p_cta.jpg (silhouette under the Milky Way — "you decide")

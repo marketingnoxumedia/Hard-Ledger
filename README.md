@@ -2668,6 +2668,41 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   rendered as written; EVERY figure, date and causal claim must be checked against
   primary sources before this publishes. **Voice:** uses the same distinct upbeat
   cloned voice as the rest of the series.
+- **`SpacexReel`** — "The belief" (the ninth fast NEWS reel in the series). NEW topic:
+  SpaceX's IPO prospectus claiming a **~$28.5 trillion** addressable market, of which
+  rockets are ~**1%**. Thesis: a market so big it stops being a number and becomes a
+  story — SpaceX isn't selling a rocket company, it's selling a claim on the entire
+  digital economy, with rockets as the brand; when a company's addressable market is
+  ~**1,000× its revenue**, the market isn't the point, the belief is. Breakdown:
+  launch ~**$370B**, Starlink ~**$1.6T**, AI ~**$26.5T** (most of it, ~**$22.7T**, a
+  single "enterprise applications = the entire digital economy" line) against
+  ~**$12.5B** actual H1 revenue; Musk's ~**$1T-by-2030** target vs Wall Street's
+  **<$400B**, at ~**18× next-year sales**. Follows the client's QUESTION / STORY /
+  ANSWER / CTA script; close is a CTA question ("Space company or AI company?").
+  **HARD-CONDENSED to ~170 words to fit the sub-60s cap (client's call).** Tempo
+  ADAPTIVE and CAPPED (atempo ~1.33 — dense numbers) — total 1790 frames = ~59.7s.
+  **Verbatim captions** on the text beats + big **number cards** for the CARD callouts
+  ($28.5T / 1%; $370B / $1.6T / $26.5T; $22.7T; $12.5B; $1T vs $400B / 18×). 4-mode
+  rotating text animation. Media-dense (12 media / 1 black / 1 red; a solid-red "Not
+  the market. The belief." card mid-tail, closing on a silhouette under the stars).
+  **No faces** — Elon Musk is named but not shown (clean licensing for his photos is
+  unreliable; the "Musk's target" beat is a number card). All b-roll is brand-safe
+  Pexels footage sourced clean AND frame-audited from the final render — generic
+  rockets/space/data/cosmos, NO SpaceX/Starlink logos or branded Falcon/Starship
+  livery (the agents rejected every branded rocket/Dragon shot). Media credits —
+  Pexels (free license): rocket ascending (11086520), financial statement (7658352),
+  space hardware over Earth (586072), digital circuit lattice (30547618), pennies +
+  ledger (7063762), Mars-like planet (20376408), nebula (3180831), red stage
+  spotlights (5389623), Earth at night (30596268), toy rocket (7355365), figure in a
+  cavern (4275891), silhouette under the Milky Way (5194003). **TIME-SENSITIVE /
+  UNVERIFIED — ELEVATED RISK, verify before publishing:** contested claims about
+  SpaceX's (private) IPO prospectus — the ~$28.5T TAM and its launch/Starlink/AI
+  breakdown; the ~$22.7T "enterprise applications / digital economy" line; ~$12.5B H1
+  revenue; a "largest opportunity in human history" quote; Musk's ~$1T-by-2030 target;
+  a Wall Street <$400B estimate; and an ~18× sales multiple. All supplied by the
+  author and rendered as written; EVERY figure, quote and attribution must be checked
+  against primary sources (the actual prospectus / filings) before this publishes.
+  **Voice:** uses the same distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
