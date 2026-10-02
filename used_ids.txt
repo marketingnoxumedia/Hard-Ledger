@@ -1831,3 +1831,20 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 2881233 landlord/p_rack.jpg (network-fiber cables plugged into servers)
 35758486 landlord/p_building.jpg (apartment high-rise at night)
 16563643 landlord/p_decide.jpg (silhouette on a ridge under the Milky Way)
+
+# TeslaReel (The bar) — NEWS reel series #11. Topic: Tesla stock +5% on a quarter it delivered FEWER cars — it only beat a lowered Wall St bar; stagnation behind the beat. Hard-condensed to ~155 words to fit <60s. Verbatim text beats + number cards (486,532 vs 497,099; Street 461,974/beat 25k; 98%/8,295; 13.7 vs 15.9 GWh; -21% YTD). NO faces. NO Tesla vehicles/logos (all generic). Media-dense (13 media / 1 black / 1 red). Own footage under public/tesla/.
+# --- Pexels stills (front half) ---
+3864110 tesla/p_cars.jpg (aerial car-storage lot, varied small cars, no badges)
+29976478 tesla/p_factory.jpg (automated welding sparks, near-black)
+29566896 tesla/p_lot.jpg (top-down rows of new SUVs, badges not legible)
+39315993 tesla/p_up.jpg (green candlesticks rising, +2.75%)
+33000152 tesla/p_trading.jpg (hand/stylus on trading screens)
+24916070 tesla/p_flat.jpg (flat empty road to the horizon)
+36594160 tesla/p_battery.jpg (industrial battery-cell bank, worker face-away)
+# --- Pexels stills (back half) ---
+39415760 tesla/p_down.jpg (steep downtrend candlesticks)
+3763878 tesla/p_lowbar.jpg (a single low athletics hurdle on a track)
+5411023 tesla/p_treadmill.jpg (dark B&W treadmill — running in place)
+15488504 tesla/p_limbo.jpg (lowered yellow barrier/gate arms)
+16664158 tesla/p_twomodels.jpg (row of identical vintage VW Beetles — "same model", not Tesla)
+19049357 tesla/p_cta.jpg (aerial forest crossroads — "you decide")

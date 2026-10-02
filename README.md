@@ -2738,6 +2738,38 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   EVERY figure, name and causal claim must be checked against primary sources before
   this publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of
   the series.
+- **`TeslaReel`** — "The bar" (the eleventh fast NEWS reel in the series). NEW topic:
+  Tesla's stock jumped ~**5%** on a Q3 where it **delivered fewer cars**. Thesis: the
+  stock didn't rise on growth — it rose because Tesla beat a **lowered Wall Street
+  bar**; a beat on falling expectations masks stagnation. Signals: **486,532**
+  deliveries vs **497,099** a year earlier (down ~2%) but the stock opened **+5%**;
+  the Street wanted ~**461,974** (Goldman ~435k) so Tesla "beat" by ~**25,000**; Q3
+  2023 was about the same (three years, **zero growth**); ~**98%** of deliveries are
+  still two models (Model 3 & Y), everything else ~**8,295**; energy storage missed at
+  **13.7 GWh** vs **15.9** expected; the stock is still ~**−21% YTD**. Answer: it just
+  fell less than the forecast, and the bar keeps dropping. Follows the client's
+  QUESTION / STORY / ANSWER / CTA script; close is a CTA question ("Beat or
+  decline?"). **HARD-CONDENSED to ~155 words to fit the sub-60s cap (client's call).**
+  Tempo ADAPTIVE and CAPPED (atempo ~1.19) — total 1725 frames = ~57.5s. **Verbatim
+  captions** on the text beats + big **number cards** for the CARD callouts (486,532
+  vs 497,099; Street 461,974 / beat 25k; 98% / 8,295; 13.7 vs 15.9 GWh; −21% YTD).
+  4-mode rotating text animation. Media-dense (13 media / 1 black / 1 red; a solid-red
+  "The bar keeps dropping." card mid-tail, closing on a forest crossroads). **No
+  faces, and NO Tesla vehicles or logos** — the reel names Tesla, so all footage is
+  generic (distant car lots with no legible badges, a generic battery bank not a
+  Powerwall/Megapack, vintage VW Beetles for the "two models" beat). Media credits —
+  Pexels (free license): car-storage lot (3864110), welding sparks (29976478), rows of
+  SUVs (29566896), green up-chart (39315993), trading screens (33000152), flat road
+  (24916070), battery bank (36594160), downtrend chart (39415760), low hurdle
+  (3763878), treadmill (5411023), lowered barrier arms (15488504), vintage Beetles
+  (16664158), forest crossroads (19049357). **TIME-SENSITIVE / UNVERIFIED — ELEVATED
+  RISK, verify before publishing:** market-moving figures about Tesla, and names
+  Goldman — Q3 deliveries 486,532 vs 497,099 (−2%) with the stock +5%; a Street
+  estimate ~461,974 and Goldman ~435k (beat by ~25k); ~zero growth vs Q3 2023; ~98%
+  two models / ~8,295 other; energy storage 13.7 vs 15.9 GWh; and ~−21% YTD. All
+  supplied by the author and rendered as written; EVERY figure, name and causal claim
+  must be checked against primary sources before this publishes. **Voice:** uses the
+  same distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
