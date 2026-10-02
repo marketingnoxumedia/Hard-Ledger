@@ -2596,6 +2596,43 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   checked against primary sources (the actual earnings call / filings) before this
   publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of the
   series.
+- **`DieselReel`** — "The tap" (the seventh fast NEWS reel in the series). NEW topic:
+  China suspending October diesel/fuel **exports** while the world is short of
+  diesel — energy as leverage. Thesis: a barrel in a Chinese tank beats a barrel on
+  a ship; at home it holds prices down through winter, abroad it's leverage — and
+  five weeks before the US midterms, China doesn't need to sell the fuel, it just
+  needs the world to know it could. Signals: refiners suspend exports (except
+  HK/Macau) with no restart date; China the biggest refining hub, which in August
+  exported more than before "the Iran war," then nothing; **oil back above $100**, US
+  diesel at **5-year lows**, the East Coast down **~a third**; Trump asked Xi for more
+  a week earlier; Beijing cites domestic supply (Kpler: **~20M barrels short**); Asian
+  diesel margins jumped to **~$75/bbl**. Follows the client's QUESTION / STORY /
+  ANSWER / CTA script; close is a CTA question ("Does China turn the tap back on?").
+  **HARD-CONDENSED from ~225 words to ~160 to fit the sub-60s cap (client's call).**
+  Tempo ADAPTIVE and CAPPED; comfortable atempo ~1.20 — total 1725 frames = ~57.5s.
+  Verbatim-leaning captions + big **number cards** for the CARD callouts ($100+ oil /
+  5-yr low / EC −33%; −20M barrels; $75). 4-mode rotating text animation. Media-dense
+  (13 media / 1 black / 1 red; a solid-red "It won't sell. It wants you to know it
+  could." card mid-tail, closing on a pipeline-to-horizon). **Donald Trump shown via
+  his public-domain official portrait** on the "Trump asked Xi" beat (same portrait as
+  CageReel/ChequeReel). All b-roll brand-safe Pexels footage, sourced clean AND
+  frame-audited from the final render — generic refineries/tanks/ports/pipelines, no
+  oil-company logos or national flags on infrastructure (the one flag is the American
+  flag on the US-midterms beat). Media credits — Pexels (free license): fuel-pump
+  nozzles (11116153), refinery at night (10407689), port cranes at dusk (4940270),
+  refinery complex (10407692), shut-off valve (7616004), oil drums (3151717), tank
+  farm (9407369), pressure gauge (16679540), tanker at sea (33333666), lone fuel pump
+  at night (34056286), American flag (30962230), pipelines to the horizon (18784617).
+  Public-figure portrait: Donald Trump — Official Presidential Portrait (2025, public
+  domain). **TIME-SENSITIVE / UNVERIFIED — ELEVATED RISK, verify before publishing:**
+  contested geopolitical + market claims — China/PetroChina suspending October fuel
+  exports with no restart date (except HK/Macau); China as the biggest refining hub;
+  oil above $100; US diesel at 5-year lows and the East Coast down ~a third; a
+  Trump-Xi request a week prior; Beijing's domestic-supply rationale and the Kpler
+  ~20M-barrel figure; ~$75/bbl Asian diesel margins; and US-midterms timing. All
+  supplied by the author and rendered as written; EVERY figure, date, name and causal
+  claim must be checked against primary sources before this publishes. **Voice:** uses
+  the same distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

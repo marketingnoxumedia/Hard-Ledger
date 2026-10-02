@@ -1764,3 +1764,21 @@ wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg
 17739892 micron/p_desk.jpg (empty modern boardroom table)
 8336038 micron/p_hedge.jpg (B&W chessboard, king vs king — hedging)
 6141336 micron/p_hold.jpg (grasping hand in near-darkness — "still holding?"; REPLACED the agent's pick 7947740, which was a recognizable Robinhood app screen)
+
+# DieselReel (The tap) — NEWS reel series #7. Topic: China suspending October diesel/fuel EXPORTS while the world is short — energy as leverage, 5 weeks before the US midterms. Hard-condensed from ~225 to ~160 words to fit <60s (client's call). Evolved style: verbatim-leaning captions + number cards ($100+ oil / 5-yr low / EC -33%; -20M barrels; $75), 4-mode text anim, Trump PD face on the "Trump asked Xi" beat. Media-dense (13 media / 1 black / 1 red). Own footage under public/diesel/.
+# --- Pexels stills (front half) ---
+11116153 diesel/p_diesel.jpg (row of fuel-pump nozzles)
+10407689 diesel/p_refinery.jpg (refinery lit at night, aerial)
+4940270 diesel/p_port.jpg (port gantry cranes at dusk)
+10407692 diesel/p_hub.jpg (sprawling refinery/petrochemical complex)
+7616004 diesel/p_valve.jpg (large shut-off handwheel valve)
+3151717 diesel/p_barrels.jpg (stacked steel oil drums; only generic "MOTOR FUEL" surplus stencils, no brand)
+# --- Pexels stills (back half) ---
+9407369 diesel/p_tanks.jpg (aerial fuel tank farm)
+16679540 diesel/p_gauge.jpg (industrial pressure gauge; units/standards only, no maker)
+33333666 diesel/p_ship.jpg (single oil/fuel tanker at sea, B&W; no name/livery/flag)
+34056286 diesel/p_station.jpg (lone dark fuel pump at night; wordmark cropped out, no brand)
+30962230 diesel/p_flag.jpg (American flag, moody B&W — for US midterms)
+18784617 diesel/p_tap.jpg (pipelines running to the horizon — "turn the tap back on")
+# --- public-figure face ---
+wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg diesel/p_trump.jpg (PUBLIC DOMAIN, US federal govt work; same portrait as cage/cheque)
