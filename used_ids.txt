@@ -1781,4 +1781,4 @@ wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg
 30962230 diesel/p_flag.jpg (American flag, moody B&W — for US midterms)
 18784617 diesel/p_tap.jpg (pipelines running to the horizon — "turn the tap back on")
 # --- public-figure face ---
-wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg diesel/p_trump.jpg (PUBLIC DOMAIN, US federal govt work; same portrait as cage/cheque)
+wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official portrait, Shealah Craighead/White House; PUBLIC DOMAIN, US federal govt work; deliberately a DIFFERENT Trump photo from cage/cheque's 2025 portrait)

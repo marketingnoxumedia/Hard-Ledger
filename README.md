@@ -2614,8 +2614,9 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   5-yr low / EC −33%; −20M barrels; $75). 4-mode rotating text animation. Media-dense
   (13 media / 1 black / 1 red; a solid-red "It won't sell. It wants you to know it
   could." card mid-tail, closing on a pipeline-to-horizon). **Donald Trump shown via
-  his public-domain official portrait** on the "Trump asked Xi" beat (same portrait as
-  CageReel/ChequeReel). All b-roll brand-safe Pexels footage, sourced clean AND
+  his public-domain 2017 official portrait** (Shealah Craighead / White House) on the
+  "Trump asked Xi" beat — a deliberately DIFFERENT Trump photo from CageReel/ChequeReel's
+  2025 portrait. All b-roll brand-safe Pexels footage, sourced clean AND
   frame-audited from the final render — generic refineries/tanks/ports/pipelines, no
   oil-company logos or national flags on infrastructure (the one flag is the American
   flag on the US-midterms beat). Media credits — Pexels (free license): fuel-pump
