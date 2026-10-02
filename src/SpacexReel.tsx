@@ -86,7 +86,9 @@ type SceneDef = {
 // "The belief" reel (SpacexReel) — the ninth entry in the fast NEWS-reel series
 // (after ClarityReel, BellReel, CageReel, ChequeReel, MicronReel, DieselReel,
 // JobsReel). NEW topic: SpaceX's IPO prospectus claiming a ~$28.5 TRILLION
-// addressable market, of which rockets are ~1%. Thesis: a market so big it stops
+// addressable market, of which rockets are ~1% (riddle hook: "what do you
+// call a rocket company where rockets are 1%?" -> "an AI company with a rocket for
+// a logo"). Thesis: a market so big it stops
 // being a number and becomes a story — SpaceX isn't selling a rocket company, it's
 // selling a claim on the entire digital economy, with rockets as the brand; when a
 // company's addressable market is ~1,000x its revenue, the market isn't the point,
@@ -112,20 +114,20 @@ type SceneDef = {
 // prospectus / filings) before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 202, kind: 'hook', text: 'SpaceX says its market|is $28.5 trillion.|Rockets are 1%.|What\'s the other 99?', kicker: 'The belief', highlights: ['99?'], size: 52, media: {src: 'spacex/p_rocket.jpg', type: 'img', effect: 'in'}},
-  {dur: 199, kind: 'text', text: 'Open the prospectus.|"The largest opportunity|in human history."', highlights: ['history."'], size: 54, media: {src: 'spacex/p_prospectus.jpg', type: 'img', effect: 'in'}},
-  {dur: 210, kind: 'lines', text: 'LAUNCH: $370B|STARLINK: $1.6T|AI: $26.5T', highlights: ['$26.5T'], reveal: [0, 70, 140], media: {src: 'spacex/p_earth.jpg', type: 'img', effect: 'in'}},
-  {dur: 211, kind: 'stat', stat: {prefix: '$', value: 22.7, decimals: 1, suffix: 'T', post: '= THE DIGITAL ECONOMY'}, media: {src: 'spacex/p_digital.jpg', type: 'img', effect: 'in'}},
-  {dur: 113, kind: 'stat', stat: {prefix: '$', value: 12.5, decimals: 1, suffix: 'B', post: 'ACTUAL REVENUE, H1'}, media: {src: 'spacex/p_revenue.jpg', type: 'img', effect: 'in'}},
-  {dur: 212, kind: 'lines', text: 'MUSK: $1T BY 2030|WALL ST: UNDER $400B|18x NEXT-YEAR SALES', highlights: ['18x'], reveal: [0, 70, 140], media: {src: 'spacex/p_target.jpg', type: 'img', effect: 'in'}},
-  {dur: 68, kind: 'text', text: 'So what\'s the|other 99%?', highlights: ['99%?'], size: 76},
-  {dur: 36, kind: 'text', text: 'Everything.|That\'s the trick.', highlights: ['Everything.'], size: 74, media: {src: 'spacex/p_cosmos.jpg', type: 'img', effect: 'in'}},
-  {dur: 128, kind: 'text', enter: 'slideL', text: 'A market so big|it stops being a number|and becomes a story.', highlights: ['story.'], size: 54, media: {src: 'spacex/p_story.jpg', type: 'img', effect: 'in'}},
-  {dur: 151, kind: 'text', text: 'Not a rocket company.|A claim on the|entire digital economy.', highlights: ['claim'], size: 54, media: {src: 'spacex/p_world.jpg', type: 'img', effect: 'out'}},
-  {dur: 46, kind: 'text', text: 'Rockets are|just the brand.', highlights: ['brand.'], size: 72, media: {src: 'spacex/p_brand.jpg', type: 'img', effect: 'in'}},
-  {dur: 69, kind: 'text', text: 'Its market:|1,000 times|its revenue.', highlights: ['1,000'], size: 60, media: {src: 'spacex/p_gap.jpg', type: 'img', effect: 'in'}},
-  {dur: 63, kind: 'impact', text: 'Not the market.|The belief.', redBg: true},
-  {dur: 82, kind: 'text', enter: 'zoom', text: 'Space company|or AI company?|Tell me below.', highlights: ['below.'], size: 58, media: {src: 'spacex/p_cta.jpg', type: 'img', effect: 'in'}},
+  {dur: 158, kind: 'hook', text: 'What do you call|a rocket company|where rockets are|just 1%?', kicker: 'The belief', highlights: ['1%?'], size: 54, media: {src: 'spacex/p_rocket.jpg', type: 'img', effect: 'in'}},
+  {dur: 195, kind: 'stat', stat: {pre: 'THE LARGEST OPPORTUNITY', prefix: '$', value: 28.5, decimals: 1, suffix: 'T', post: 'IN HUMAN HISTORY, IT SAYS'}, media: {src: 'spacex/p_prospectus.jpg', type: 'img', effect: 'in'}},
+  {dur: 238, kind: 'lines', text: 'LAUNCH: $370B|STARLINK: $1.6T|AI: $26.5T', highlights: ['$26.5T'], reveal: [0, 80, 160], media: {src: 'spacex/p_earth.jpg', type: 'img', effect: 'in'}},
+  {dur: 169, kind: 'stat', stat: {prefix: '$', value: 22.7, decimals: 1, suffix: 'T', post: '= THE DIGITAL ECONOMY'}, media: {src: 'spacex/p_digital.jpg', type: 'img', effect: 'in'}},
+  {dur: 131, kind: 'stat', stat: {prefix: '$', value: 12.5, decimals: 1, suffix: 'B', post: 'ACTUAL REVENUE, H1'}, media: {src: 'spacex/p_revenue.jpg', type: 'img', effect: 'in'}},
+  {dur: 166, kind: 'lines', text: 'MUSK: $1T BY 2030|WALL ST: UNDER $400B|18x NEXT-YEAR SALES', highlights: ['18x'], reveal: [0, 55, 110], media: {src: 'spacex/p_target.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', text: 'So what do you|call it?', highlights: ['it?'], size: 80},
+  {dur: 66, kind: 'text', text: 'An AI company|with a rocket|for a logo.', highlights: ['logo.'], size: 60, media: {src: 'spacex/p_brand.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', enter: 'slideL', text: 'The $28 trillion|isn\'t a market.', highlights: ['market.'], size: 62, media: {src: 'spacex/p_cosmos.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'text', text: 'It\'s a story big enough|the number|stops mattering.', highlights: ['story'], size: 54, media: {src: 'spacex/p_story.jpg', type: 'img', effect: 'in'}},
+  {dur: 136, kind: 'text', text: 'Not selling launches.|A claim on the|digital economy.', highlights: ['claim'], size: 54, media: {src: 'spacex/p_world.jpg', type: 'img', effect: 'out'}},
+  {dur: 83, kind: 'text', text: 'Its market:|1,000 times|its revenue.', highlights: ['1,000'], size: 60, media: {src: 'spacex/p_gap.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'impact', text: 'Not the market.|The belief.', redBg: true},
+  {dur: 95, kind: 'text', enter: 'zoom', text: 'Space company|or AI company?|Tell me below.', highlights: ['below.'], size: 58, media: {src: 'spacex/p_cta.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). No post-hook pause (hard-cut declarative
@@ -134,11 +136,11 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 401, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 611, src: 'media/sfx_impact.mp3', vol: 0.45},
-  {at: 935, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1645, src: 'media/sfx_impact.mp3', vol: 0.6},
-  {at: 1708, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 353, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 591, src: 'media/sfx_impact.mp3', vol: 0.45},
+  {at: 891, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1565, src: 'media/sfx_impact.mp3', vol: 0.6},
+  {at: 1630, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {

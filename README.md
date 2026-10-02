@@ -2670,10 +2670,12 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   cloned voice as the rest of the series.
 - **`SpacexReel`** — "The belief" (the ninth fast NEWS reel in the series). NEW topic:
   SpaceX's IPO prospectus claiming a **~$28.5 trillion** addressable market, of which
-  rockets are ~**1%**. Thesis: a market so big it stops being a number and becomes a
-  story — SpaceX isn't selling a rocket company, it's selling a claim on the entire
-  digital economy, with rockets as the brand; when a company's addressable market is
-  ~**1,000× its revenue**, the market isn't the point, the belief is. Breakdown:
+  rockets are ~**1%**. Revised to a riddle hook ("what do you call a rocket company
+  where rockets are 1%?") answered "an AI company with a rocket for a logo." Thesis:
+  the $28.5T isn't a market, it's a story big enough that the number stops mattering —
+  SpaceX isn't selling launches, it's selling a claim on the entire digital economy;
+  when a company's market is ~**1,000× its revenue**, the market isn't the point, the
+  belief is. Breakdown:
   launch ~**$370B**, Starlink ~**$1.6T**, AI ~**$26.5T** (most of it, ~**$22.7T**, a
   single "enterprise applications = the entire digital economy" line) against
   ~**$12.5B** actual H1 revenue; Musk's ~**$1T-by-2030** target vs Wall Street's
