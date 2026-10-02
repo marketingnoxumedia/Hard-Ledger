@@ -1848,3 +1848,20 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 15488504 tesla/p_limbo.jpg (lowered yellow barrier/gate arms)
 16664158 tesla/p_twomodels.jpg (row of identical vintage VW Beetles — "same model", not Tesla)
 19049357 tesla/p_cta.jpg (aerial forest crossroads — "you decide")
+
+# BalticReel (The sea lane) — NEWS reel series #12. Topic: Russia's nuclear threat over Kaliningrad is really about the Baltic sea lane / its seaborne oil exports. Hard-condensed to ~160 words to fit <60s. Verbatim text beats + cards (Poland/Lithuania/NATO; 3 countries / 3 days); the Baltic-oil card is "a large share" (NO percentage — client's call, no invented stat). NO faces. Media-dense (13 media / 1 black / 1 red). Own footage under public/baltic/.
+# --- Pexels stills (front half) ---
+12171952 baltic/p_warning.jpg (radiation/fallout warning sign)
+35241517 baltic/p_note.jpg (wax-sealed envelope — the note)
+7327336 baltic/p_nuke.jpg (lone missile climbing over sea)
+8828587 baltic/p_map.jpg (pushpins on a central/eastern Europe map, English labels)
+12748681 baltic/p_military.jpg (aerial armored tank column)
+33144955 baltic/p_coldwar.jpg (old radar antenna silhouette, stormy sky)
+11086515 baltic/p_launch.jpg (missile ascending, near-black sky)
+# --- Pexels stills (back half) ---
+18959229 baltic/p_warship.jpg (warship superstructure silhouette at dusk)
+27275198 baltic/p_tanker.jpg (aerial oil tanker, no name/livery)
+20125592 baltic/p_sea.jpg (near-black open water)
+38863293 baltic/p_strait.jpg (ship transiting the narrow Corinth Canal — a chokepoint)
+12530458 baltic/p_sealane.jpg (top-down container ship — the sea lane)
+16222424 baltic/p_standoff.jpg (two opposing chess kings — "who blinks first?")

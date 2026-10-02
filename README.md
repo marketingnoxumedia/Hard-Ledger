@@ -2770,6 +2770,46 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   supplied by the author and rendered as written; EVERY figure, name and causal claim
   must be checked against primary sources before this publishes. **Voice:** uses the
   same distinct upbeat cloned voice as the rest of the series.
+- **`BalticReel`** — "The sea lane" (the twelfth fast NEWS reel in the series). NEW
+  topic: Russia threatening nuclear war over **Kaliningrad**. Thesis: it isn't about
+  the exclave, it's about the **water** around it — closing the Baltic wouldn't
+  blockade a province, it would blockade **Russia's seaborne oil**; the nuclear note
+  is the price tag Moscow is putting on that sea lane. Beats: a written note to NATO
+  threatening its "entire arsenal, nuclear weapons included" if Kaliningrad is
+  isolated; Kaliningrad as a Russian exclave between Poland and Lithuania, ringed by
+  NATO; NATO's "defensive alliance, stop the threats" reply; a senior European
+  official calling it the **first such threat since the Cold War**; **three countries
+  / three days** of statements + simulated nuclear-capable missile launches near the
+  EU; analyst **Nikolai Sokov** naming a Baltic blockade as the real fear; and **"a
+  large share"** of Russia's seaborne oil leaving via the Baltic (**no percentage** —
+  rendered as "a large share" per client; NOT an invented statistic). Follows the
+  client's QUESTION / STORY / ANSWER / CTA script; close is a CTA question ("Who
+  blinks first?"). **HARD-CONDENSED to ~160 words to fit the sub-60s cap (client's
+  call).** Tempo ADAPTIVE and CAPPED (atempo ~1.23) — total 1725 frames = ~57.5s.
+  **Verbatim captions** on the text beats + number/geo cards (Poland/Lithuania/NATO;
+  3 countries / 3 days). 4-mode rotating text animation. Media-dense (13 media / 1
+  black / 1 red; a solid-red "The price: nuclear." card mid-tail, closing on two
+  opposing chess kings). **No faces.** All b-roll is brand-safe Pexels footage sourced
+  clean AND frame-audited — generic missiles/warships/tankers/maps, **NO national
+  flags, military insignia, readable ship names, or leaders' faces** (the agents
+  rejected many named/flagged ships and marked hardware). Media credits — Pexels (free
+  license): fallout-warning sign (12171952), wax-sealed note (35241517), missile over
+  sea (7327336), Europe pushpin map (8828587), aerial tank column (12748681), radar
+  antenna (33144955), missile launch (11086515), warship silhouette (18959229), oil
+  tanker (27275198), open sea (20125592), Corinth-Canal chokepoint (38863293),
+  container-ship lane (12530458), chess standoff (16222424). **TIME-SENSITIVE /
+  UNVERIFIED — ELEVATED RISK, verify before publishing:** this reel makes grave,
+  contested geopolitical claims and concerns NUCLEAR brinkmanship — a written Russian
+  note to NATO threatening its "entire arsenal, nuclear weapons included" over
+  Kaliningrad; NATO's reply; a "first since the Cold War" characterisation attributed
+  to a senior European defence official; "three countries / three days" of embassy
+  statements and simulated nuclear-capable missile launches near the EU; analyst
+  Nikolai Sokov's named assessment; and the (unquantified) claim that a large share of
+  Russia's seaborne oil ships through the Baltic. All supplied by the author and
+  rendered as written; because it attributes statements to real institutions and
+  individuals, EVERY claim must be checked against primary sources before this
+  publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of the
+  series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
