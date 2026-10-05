@@ -1865,3 +1865,16 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 38863293 baltic/p_strait.jpg (ship transiting the narrow Corinth Canal — a chokepoint)
 12530458 baltic/p_sealane.jpg (top-down container ship — the sea lane)
 16222424 baltic/p_standoff.jpg (two opposing chess kings — "who blinks first?")
+
+# MortgageReel (Priced in) — NEWS reel series #13. Topic: UK fixed mortgage deals collapsed while the Bank of England HELD the base rate — a mortgage is priced in the bond market, and gilt yields repriced on Gulf-war risk, so a UK fixed rate is now a bet on the Gulf. Hard-condensed to ~160 words to fit <60s. Verbatim text beats + number cards (5yr 6.00%/2yr 5.98%; Barclays x4 / 6 lenders x3; 1,494->9; 5,000,000 by 2028; diesel £2 / energy +4%). NO faces, NO bank/estate-agent/fuel brand marks. Media-dense (11 media / 2 black / 1 red). Own footage under public/mortgage/.
+20703515 mortgage/p_houses.jpg (row of red-brick terraced houses, no agency boards)
+34135038 mortgage/p_keys.jpg (house keys on blank/hand-drawn property paperwork)
+8704354 mortgage/p_towers.jpg (B&W modern glass office tower, no logos)
+39368611 mortgage/p_chart.jpg (abstract declining red area chart on a dark grid)
+7947742 mortgage/p_bonds.jpg (generic candlestick "Stock Report" screen, no tickers/brand)
+10400836 mortgage/p_lend.jpg (hands passing a banded bundle of banknotes, no faces/brand)
+9716237 mortgage/p_estate.jpg (aerial suburban housing estate, no signage)
+20500734 mortgage/p_fuel.jpg (green diesel pump nozzle, no fuel-brand marks)
+30849138 mortgage/p_city.jpg (neoclassical columned financial-district facade, no logos)
+15973758 mortgage/p_gulf.jpg (offshore oil platform silhouette at sunset, no names/flags)
+8470837 mortgage/p_cta.jpg (hands holding a house key before a blurred "SOLD" sign, no agency name)

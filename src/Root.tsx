@@ -112,6 +112,7 @@ import {SpacexReel, DURATION_IN_FRAMES as SPACEX_FRAMES} from './SpacexReel';
 import {LandlordReel, DURATION_IN_FRAMES as LANDLORD_FRAMES} from './LandlordReel';
 import {TeslaReel, DURATION_IN_FRAMES as TESLA_FRAMES} from './TeslaReel';
 import {BalticReel, DURATION_IN_FRAMES as BALTIC_FRAMES} from './BalticReel';
+import {MortgageReel, DURATION_IN_FRAMES as MORTGAGE_FRAMES} from './MortgageReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1009,6 +1010,14 @@ export const RemotionRoot: React.FC = () => {
         id="BalticReel"
         component={BalticReel}
         durationInFrames={BALTIC_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="MortgageReel"
+        component={MortgageReel}
+        durationInFrames={MORTGAGE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

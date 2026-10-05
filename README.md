@@ -2810,6 +2810,43 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   individuals, EVERY claim must be checked against primary sources before this
   publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of the
   series.
+- **`MortgageReel`** — "Priced in" (the thirteenth fast NEWS reel in the series). NEW
+  topic: **UK fixed mortgage deals collapsing while the Bank of England HELD the base
+  rate.** Thesis: a mortgage isn't priced on **Threadneedle Street**, it's priced in
+  the **bond market** — and gilt yields have repriced on **Gulf-war** risk, so a UK
+  household's fixed rate is now effectively a bet on the Gulf. Beats: the average
+  5-year fix hitting **6.00%** (2-year **5.98%**), first time in three years;
+  **Barclays raising fixed rates 4×** and six more lenders **3× each** in September;
+  fixed deals under 5% collapsing from **1,494 to 9** (a **~99% wipeout** Moneyfacts
+  called "brutal"); the base rate **unchanged**; gilt yields climbing since the Gulf
+  war; **~5,000,000 households** rolling off fixed deals by **2028**; **diesel over
+  £2/litre** and **energy +4%** the same week; close on "the bond market is pricing a
+  war." Follows the client's QUESTION / STORY / ANSWER / CTA script; close is a CTA
+  question ("When does your fix end?"). **HARD-CONDENSED to ~160 words to fit the
+  sub-60s cap (client's call).** Tempo ADAPTIVE (atempo ~1.08) — total 1725 frames =
+  ~57.5s. **Verbatim captions** on the text beats + number cards (rates; x4/x3 lender
+  hikes; 1,494→9; 5,000,000 by 2028; £2 / +4%). 4-mode rotating text animation.
+  Media-dense (11 media / 2 black / 1 red; a solid-red "A 99% wipeout." card mid-reel,
+  closing on house-keys over a blurred "SOLD" sign). **No faces, no bank / estate-agent
+  / fuel brand marks.** All b-roll is brand-safe Pexels footage sourced clean AND
+  frame-audited — generic terraced houses, keys on blank paperwork, logo-free office
+  towers, abstract declining charts, a generic candlestick screen, a cash handover, an
+  aerial housing estate, a logo-free diesel nozzle, a columned financial facade, an oil
+  platform silhouette (the agents rejected Bitcoin/Binance/bank-name trading screens).
+  Media credits — Pexels (free license): terraced houses (20703515), keys on paperwork
+  (34135038), glass office tower (8704354), declining chart (39368611), candlestick
+  screen (7947742), cash handover (10400836), aerial estate (9716237), diesel nozzle
+  (20500734), neoclassical facade (30849138), oil-platform silhouette (15973758),
+  key-over-SOLD-sign (8470837). **TIME-SENSITIVE / UNVERIFIED — ELEVATED RISK, verify
+  before publishing:** this reel states specific, dated UK financial figures (avg 5-yr
+  fix 6.00% / 2-yr 5.98% on a named Monday; Barclays 4× and six more lenders 3× each in
+  September; sub-5% deals 1,494 → 9; a 99% wipeout; Moneyfacts' "brutal"; the base rate
+  held; ~5m households off fixed deals by 2028; diesel over £2/litre; energy +4%) and
+  draws a causal link from the Gulf war to UK gilt yields and mortgage pricing. All
+  supplied by the author and rendered as written; because it names real lenders and
+  makes a market-causation claim tied to an ongoing conflict, EVERY figure and the
+  causal claim must be checked against primary sources before this publishes.
+  **Voice:** uses the same distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
