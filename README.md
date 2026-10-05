@@ -2987,6 +2987,41 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   `ChequeReel` ($500 Obamacare refund, one-in-twenty) but is a distinct story ($5,000
   tariff dividend, one-in-six, "can tariffs pay? no"). **Voice:** uses the same distinct
   upbeat cloned voice as the rest of the series.
+- **`DiggerReel`** — "The last star" (the eighteenth fast NEWS reel in the series). NEW
+  topic: **Tom Cruise's film "Digger" opens to ~$8M** — a historic box-office bomb — and
+  what it says about the **death of the movie star**. Thesis: **Cruise was never the
+  product, the franchise was**; take away the jet / mission / sequel number and you have
+  an original film that cost ~$180M. **Hollywood doesn't pay for stars anymore; it pays
+  for what it has already sold once.** Beats: Digger (Cruise, from Warner Bros) in
+  **3,321** cinemas; an **$8M** North-America open / **5th** place / **$20M** worldwide;
+  ~**$2,400** per cinema; a ~**$180M** budget where experts wanted a **$40M** open and
+  Warner hoped for **$18M**, but it got **$8M**; a projected **$150-200M** loss; an Anne
+  Hathaway thriller opening to **$32M** the same weekend (**4× Cruise**); and Warner's
+  year (**$438M** domestic vs **$1.8B** a year earlier). Follows the client's QUESTION /
+  STORY / ANSWER / CTA script; close is a CTA question ("Who's the last real movie
+  star?"). **HARD-CONDENSED to ~170 words to fit the sub-60s cap (client's call).** Tempo
+  ADAPTIVE (atempo ~1.26) — total 1725 frames = ~57.5s. **Verbatim captions** on the text
+  beats + number cards (3,321; $8M/$20M; $2,400; budget $180M/$40M/$8M; -$200M; $32M;
+  $438M vs $1.8B). 4-mode rotating text animation. Media-dense (13 media / 1 black / 1
+  red; a solid-red "It pays for what sold once." thesis card, closing on an empty
+  spotlight). **Brand / film / actor names are editorial** (spoken + shown as text);
+  **the footage is brand-free** — empty/packed cinemas, a marquee, a box office, a movie
+  camera, a film strip, a clapperboard, an oil-rig silhouette, a jet silhouette, a gold
+  star bokeh, a spotlight beam — **no studio or cinema-chain logos, no real movie posters
+  / titles / stills, and no Cruise / Hathaway / celebrity faces** (no identifiable faces
+  at all; the agents rejected a "WALCHE" venue sign, a screen showing content, and
+  readable marks). Media credits — Pexels (free license): empty seats (3709370), "TEATR"
+  marquee (37557083), box office (35260661), empty row (22908923), movie camera
+  (34516665), red down-chart (38808474), packed audience (7513412), film strip (32728014),
+  oil-rig silhouette (34389695), jet silhouette (18903553), clapperboard (29508639), gold
+  star bokeh (1556654), spotlight beam (4722576). **TIME-SENSITIVE / UNVERIFIED — verify
+  before publishing:** names real people (Tom Cruise, Anne Hathaway), a real studio
+  (Warner Bros) and films (Digger, Verity) and cites specific figures (3,321 cinemas; $8M
+  NA open / 5th / $20M worldwide; ~$2,400 per cinema; $160-180M budget; ~$40M expert
+  minimum; Warner hoped $18M; projected $150-200M loss; Hathaway thriller $32M; Warner's
+  year $438M vs $1.8B). All supplied by the author and rendered as written; confirm every
+  figure and attributed claim against primary sources before this publishes. **Voice:**
+  uses the same distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

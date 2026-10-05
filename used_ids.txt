@@ -1937,3 +1937,18 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 18449922 tariff/p_bond.jpg (generic certificate/security paper — the "borrowed" idea)
 5498233 tariff/p_grocery.jpg (shopping cart sharp, shelves/shoppers blurred unreadable)
 6862442 tariff/p_cheque.jpg (anonymous hands holding a generic template cheque, no routing/bank)
+
+# DiggerReel (The last star) — NEWS reel series #18. Topic: Tom Cruise's film "Digger" opens to ~$8M (a historic box-office bomb) and the death of the movie star. Thesis: Cruise was never the product, the franchise was; Hollywood pays for what it has already sold once. Hard-condensed to ~170 words to fit <60s. Verbatim text beats + number cards (3,321 screens; $8M/$20M; $2,400/screen; budget $180M/$40M/$8M; -$200M; Hathaway $32M; $438M vs $1.8B). Brand/film/actor names editorial (VO + text); FOOTAGE brand-free — generic cinema/Hollywood imagery, no studio/cinema-chain logos, no movie posters/titles/stills, no Cruise/Hathaway/celebrity faces (no identifiable faces). Media-dense (13 media / 1 black / 1 red). Own footage under public/digger/.
+3709370 digger/p_seats.jpg (dark empty auditorium, rows of seats, blank screen)
+37557083 digger/p_marquee.jpg (red neon "TEATR" generic theater sign at night)
+35260661 digger/p_boxoffice.jpg (row of ticket-booth windows, dramatic diagonal light)
+22908923 digger/p_emptyrow.jpg (near-empty theater, dark-red seats, plain seat numbers)
+34516665 digger/p_camera.jpg (professional cine-camera rig, red backlight)
+38808474 digger/p_redchart.jpg (red candlestick/line chart on black — losses)
+7513412 digger/p_packed.jpg (packed auditorium, silhouetted heads, blank white screen)
+32728014 digger/p_reel.jpg (B&W vintage film strip close-up, bokeh)
+34389695 digger/p_derrick.jpg (offshore oil rig silhouette at orange sunset — oil tycoon)
+18903553 digger/p_jet.jpg (fighter-jet silhouette banking against amber sky, no markings)
+29508639 digger/p_clapper.jpg (blank film clapperboard, generic field labels only)
+1556654 digger/p_star.jpg (abstract gold star-shaped bokeh on dark red)
+4722576 digger/p_spotlight.jpg (single theatrical spotlight beam through smoke)
