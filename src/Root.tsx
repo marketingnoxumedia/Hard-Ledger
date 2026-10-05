@@ -113,6 +113,7 @@ import {LandlordReel, DURATION_IN_FRAMES as LANDLORD_FRAMES} from './LandlordRee
 import {TeslaReel, DURATION_IN_FRAMES as TESLA_FRAMES} from './TeslaReel';
 import {BalticReel, DURATION_IN_FRAMES as BALTIC_FRAMES} from './BalticReel';
 import {MortgageReel, DURATION_IN_FRAMES as MORTGAGE_FRAMES} from './MortgageReel';
+import {CondoReel, DURATION_IN_FRAMES as CONDO_FRAMES} from './CondoReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1018,6 +1019,14 @@ export const RemotionRoot: React.FC = () => {
         id="MortgageReel"
         component={MortgageReel}
         durationInFrames={MORTGAGE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="CondoReel"
+        component={CondoReel}
+        durationInFrames={CONDO_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

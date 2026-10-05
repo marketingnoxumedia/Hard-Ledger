@@ -2847,6 +2847,40 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   makes a market-causation claim tied to an ongoing conflict, EVERY figure and the
   causal claim must be checked against primary sources before this publishes.
   **Voice:** uses the same distinct upbeat cloned voice as the rest of the series.
+- **`CondoReel`** — "The name" (the fourteenth fast NEWS reel in the series). NEW
+  topic: **Miami's branded residences** — hotel-licensed luxury condo towers. Thesis:
+  the hotel **doesn't build or own the tower**; it **licenses its name**, sets the
+  standards, and takes a fee the developer passes on to the buyer. **Nobu earns a
+  royalty on a tower it never owned; you earn a lobby.** The best business in Miami
+  real estate isn't building condos — **it's lending them a name.** Beats: **48**
+  branded towers finished / **55** under way (the **#2** market on earth); **50%+** of
+  South Florida's new luxury condos carry a hotel name (Nobu / Four Seasons /
+  Anantara); the amenity flex (**75 floors / 100,000 sq ft / helipad**); the licensing
+  mechanism "the brochure skips"; and **Savills' ~30% "name" premium.** Follows the
+  client's QUESTION / STORY / ANSWER / CTA script; close is a CTA question ("Would you
+  pay the premium?"). **HARD-CONDENSED to ~165 words to fit the sub-60s cap (client's
+  call).** Tempo ADAPTIVE (atempo ~1.17) — total 1725 frames = ~57.5s. **Verbatim
+  captions** on the text beats + number cards (48/55/#2; 50%+; 75/100,000/helipad;
+  +30%). 4-mode rotating text animation. Media-dense (12 media / 2 black / 1 red; a
+  solid-red "It's lending them a name." thesis card mid-tail, closing on a penthouse
+  view). **Brand names are editorial** (spoken + shown as text, because the reel is
+  about them); **the footage is brand-free** — generic luxury towers, skylines,
+  balconies, a rooftop pool, construction, a contract signing, cash/keys, an opulent
+  lobby, a scale model, fine dining, a brass door-pull, a penthouse — **no hotel /
+  developer / agency logos, no identifiable branded-building signage, no identifiable
+  faces** (anonymous / back-turned figures only; the agents rejected visible currency
+  faces, "APA HOTEL" signage, and engraved real-name plaques). Media credits — Pexels
+  (free license): glass tower (5362096), skyline+cranes (35482397), balcony facade
+  (5556585), rooftop pool (14546230), construction (2323080), contract signing
+  (7504780), house keys (333837), marble lobby (695193), tower scale model (35630647),
+  fine dining (30469688), brass door-pull (36404052), penthouse view (8572163).
+  **UNVERIFIED — verify before publishing:** states specific counts (48 built / 55 under
+  way; "second biggest market on earth"; 50%+ of South Florida's new luxury condos
+  branded; a 75-storey tower; 100,000 sq ft of amenities + a helipad) and attributes a
+  **~30% price premium to Savills**. The ~30% figure is a **commonly-cited** number
+  used here **per the client's call, NOT a verified quote** — confirm Savills' exact
+  figure and all the counts against primary sources before this publishes. **Voice:**
+  uses the same distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

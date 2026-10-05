@@ -1878,3 +1878,17 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 30849138 mortgage/p_city.jpg (neoclassical columned financial-district facade, no logos)
 15973758 mortgage/p_gulf.jpg (offshore oil platform silhouette at sunset, no names/flags)
 8470837 mortgage/p_cta.jpg (hands holding a house key before a blurred "SOLD" sign, no agency name)
+
+# CondoReel (The name) — NEWS reel series #14. Topic: Miami's BRANDED residences (hotel-licensed luxury condo towers). Thesis: the hotel doesn't build or own the tower — it licenses its NAME and takes a fee the developer passes to the buyer; the best business isn't building condos, it's lending them a name. Hard-condensed to ~165 words to fit <60s. Verbatim text beats + number cards (48/55/#2; 50%+; 75/100,000/helipad; +30% premium). Brand NAMES are editorial (VO + text); FOOTAGE is brand-free — no hotel/developer/agency logos or identifiable branded-tower signage. NO identifiable faces (anonymous/back-turned only). Media-dense (12 media / 2 black / 1 red). Own footage under public/condo/. The +30% Savills premium is a commonly-cited figure used per client's call, NOT a verified quote.
+5362096 condo/p_tower.jpg (gleaming glass high-rise, low angle, no signage)
+35482397 condo/p_skyline.jpg (dusk skyline silhouette with construction cranes)
+5556585 condo/p_balconies.jpg (twilight luxury glass-rail balcony facade)
+14546230 condo/p_helipad.jpg (rooftop infinity pool on a skyscraper terrace)
+2323080 condo/p_construction.jpg (high-rise under construction, tower cranes, no logos)
+7504780 condo/p_contract.jpg (hand signing a document, no face, no readable text)
+333837 condo/p_cash.jpg (macro pile of house keys on dark surface, B&W)
+695193 condo/p_lobby.jpg (opulent chandeliered marble lobby, anonymous seated figure)
+35630647 condo/p_model.jpg (metallic architectural scale model of towers, blurred panels)
+30469688 condo/p_dining.jpg (elegant fine-dining plated dishes, no menu/logo)
+36404052 condo/p_nameplate.jpg (brass door-pull on a dark-wood luxury door, no text)
+8572163 condo/p_penthouse.jpg (penthouse interior, anonymous back-turned figure at windows)
