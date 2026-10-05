@@ -1907,3 +1907,18 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 35814411 feldberg/p_village.jpg (cluster of snowy chalet rooftops at golden sunrise)
 34613802 feldberg/p_summit.jpg (majestic single golden-hour summit against deep blue)
 20061882 feldberg/p_fork.jpg (aerial snowy Y-fork in a road — which way / which bet)
+
+# WesterlyReel (The curtain) — NEWS reel series #16. Topic: a hotel building a second, pricier hotel INSIDE itself (Aruba Hilton's "The Westerly") — price discrimination on infrastructure already owned. Thesis: at 93% occupancy there are no more nights to sell, so you sell the same night for more — a slice of rooms wrapped in a velvet rope; not a new hotel, a new price for the old one. Hard-condensed to ~170 words to fit <60s. Verbatim text beats + number cards (since 1959 / 93%; $100M+; 161 rooms; 3 more resorts). Brand NAMES editorial (VO + text); FOOTAGE brand-free — no hotel/airline logos, no identifiable famous hotel exteriors, no readable door/room numbers, no identifiable faces (anonymous/distant/back-turned). Media-dense (13 media / 2 black / 1 red). Own footage under public/westerly/.
+36477913 westerly/p_resort.jpg (beachfront luxury hotel tower at dusk, no signage)
+20194835 westerly/p_beach.jpg (upscale beach club loungers/umbrellas, one distant back-turned figure)
+12652920 westerly/p_suite.jpg (pristine luxury seaside suite, ocean view, no room number)
+2079615 westerly/p_build.jpg (building wrapped in scaffolding — under construction)
+2149421 westerly/p_rooftop.jpg (rooftop infinity pool with glass railing, ocean horizon)
+1591240 westerly/p_door.jpg (ornate closed baroque double door — the door others can't use)
+30114340 westerly/p_aerial.jpg (aerial resort: pools, cabanas, beach; distant anonymous sunbathers)
+15679390 westerly/p_curtain.jpg (gold/black hanging drapery — curtain stand-in, studio, no marks)
+4034153 westerly/p_pool.jpg (ground-level tropical resort pool ringed by palms)
+2880505 westerly/p_crowd.jpg (aerial of a fully packed beach — no nights left to sell)
+7821343 westerly/p_price.jpg (silver concierge bell on black; only a blurred generic "RECEPTION" bokeh)
+18573164 westerly/p_rope.jpg (gold stanchion + red velvet rope — VIP exclusivity)
+18117654 westerly/p_hallway.jpg (moody dark hotel corridor with two lit doors)

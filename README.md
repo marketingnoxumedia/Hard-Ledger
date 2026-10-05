@@ -2914,6 +2914,41 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   date). All supplied by the author and rendered as written; confirm the figures, the
   attributed quotes, and the study against primary sources before this publishes.
   **Voice:** uses the same distinct upbeat cloned voice as the rest of the series.
+- **`WesterlyReel`** — "The curtain" (the sixteenth fast NEWS reel in the series). NEW
+  topic: **a hotel building a second, pricier hotel inside itself** (the Aruba Hilton's
+  "The Westerly") — price discrimination on infrastructure you already own. Thesis: at
+  **93%** occupancy there are no more nights to sell, so the only way to grow is to
+  **sell the same night for more** — take a slice of rooms, wrap them in a name and a
+  **velvet rope**, and charge boutique prices on resort infrastructure already paid for.
+  **It isn't a new hotel; it's a new price for the old one.** Beats: a **1959** resort
+  averaging **93%** occupancy; the owner (Milton Berlinski) not wanting to touch it;
+  **$100M+** for a second hotel inside the first (The Westerly, **161 rooms**, swim-up
+  suites); same beach/pools/spa plus "a door the other guests can't walk through";
+  Hilton's Americas president on skipping the infrastructure; a Skift editor's "a
+  curtain built out of drywall"; the same playbook at **3 more resorts**. Follows the
+  client's QUESTION / STORY / ANSWER / CTA script; close is a CTA question ("Would you
+  pay for the drywall?"). **HARD-CONDENSED to ~170 words to fit the sub-60s cap
+  (client's call).** Tempo ADAPTIVE (atempo ~1.19) — total 1725 frames = ~57.5s.
+  **Verbatim captions** on the text beats + number cards (1959/93%; $100M+; 161 rooms;
+  3 more resorts). 4-mode rotating text animation. Media-dense (13 media / 2 black / 1
+  red; a solid-red "A new price for the old one." thesis card, closing on a hotel
+  corridor). **Brand names are editorial** (spoken + shown as text); **the footage is
+  brand-free** — generic luxury resorts/interiors, **no hotel/airline logos, no
+  identifiable famous hotel exteriors, no readable door/room numbers, no identifiable
+  faces** (anonymous / distant / back-turned only; the agents rejected a visible face,
+  Burj Al Arab / Marina Bay, named hotels and an Air Canada curtain). Media credits —
+  Pexels (free license): resort tower (36477913), beach club (20194835), suite
+  (12652920), scaffolding (2079615), rooftop pool (2149421), ornate door (1591240),
+  resort aerial (30114340), drapery curtain (15679390), resort pool (4034153), packed
+  beach (2880505), concierge bell (7821343), velvet rope (18573164), hotel corridor
+  (18117654). **UNVERIFIED — verify before publishing:** names a real owner (Milton
+  Berlinski) and real brands (Hilton, The Westerly, Skift, and del Coronado / Grand
+  Wailea / Punta Cana as "three more resorts") and cites specific figures (open since
+  1959; ~93% occupancy; $100M+ spend; 161 rooms; statements attributed to Hilton's
+  Americas president and a Skift editor). All supplied by the author and rendered as
+  written; confirm the figures and attributed quotes against primary sources before
+  this publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of
+  the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
