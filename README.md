@@ -2881,6 +2881,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   used here **per the client's call, NOT a verified quote** — confirm Savills' exact
   figure and all the counts against primary sources before this publishes. **Voice:**
   uses the same distinct upbeat cloned voice as the rest of the series.
+- **`FeldbergReel`** — "The snow line" (the fifteenth fast NEWS reel in the series).
+  NEW topic: **a ski resort (Feldberg, Germany's Black Forest) making artificial snow
+  on a mountain whose springs are drying up** — climate risk vs. sunk-cost denial.
+  Thesis: **Feldberg is paying to delay a decision** (snowmaking spread across every
+  lift ticket); France's **Métabief paid once to make it** (ran the numbers, set an end
+  date, stopped replacing lifts). **Only one of them knows what its mountain is worth.**
+  Beats: **12** lifts by **1968**; the **36-year ranger's** "I have no idea"; **4**
+  winters with no Christmas snow; lifts closed **22 March**; the resort's answer —
+  **100 snow guns / 2 reservoirs**; but snow needs water and Feldberg's springs are
+  drying up; a **2,200-resort study** (**53%** high snow-risk at +2 degrees, **98%** at
+  +4); and **Métabief's 2030–2040** end date. Follows the client's QUESTION / STORY /
+  ANSWER / CTA script; close is a CTA question ("Which bet would you take?").
+  **HARD-CONDENSED to ~165 words to fit the sub-60s cap (client's call).** Tempo
+  ADAPTIVE (atempo ~1.15) — total 1725 frames = ~57.5s. **Verbatim captions** on the
+  text beats + number cards (12/1968; 4 winters; 22 March; 100 guns; 53%→98%; Métabief
+  2030-2040). 4-mode rotating text animation. **Closer VARIED** — no red card this reel
+  (after three in a row); lands on a mountain-summit "what it's worth" beat + CTA.
+  Media-dense (13 media / 2 black / 0 red). **No resort / lift-brand logos, no readable
+  piste/trail signage, and no identifiable faces** — no photo stands in for the named
+  ranger; people are anonymous, distant, or back-turned (the agents rejected
+  TechnoAlpin / Alpe d'Huez / SHRED / IWC-LAAX / GONDOLA-signed shots and semi-visible
+  faces). Media credits — Pexels (free license): snow cannon (14552167), chairlift
+  (3651800), ridge figure (38891560), bare slope (15512911), closed lift (30092587),
+  snow guns (19777497), dried lakebed (30678632), alpine panorama (4081283), disused
+  lift station (29251880), turnstiles (6631838), chalet rooftops (35814411), summit
+  (34613802), road fork (20061882). **UNVERIFIED — verify before publishing:** names a
+  real ranger (**Achim Laber**, ~36 yrs) and two real resorts (Feldberg, Métabief) and
+  cites specific figures (12 lifts by 1968; 4 winters without Christmas snow; lifts
+  closed 22 March last winter; 100 snow guns + 2 reservoirs; a 2,200-resort study
+  finding 53% high snow-risk at +2° warming and 98% at +4°; Métabief's 2030–2040 end
+  date). All supplied by the author and rendered as written; confirm the figures, the
+  attributed quotes, and the study against primary sources before this publishes.
+  **Voice:** uses the same distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2

@@ -1892,3 +1892,18 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 30469688 condo/p_dining.jpg (elegant fine-dining plated dishes, no menu/logo)
 36404052 condo/p_nameplate.jpg (brass door-pull on a dark-wood luxury door, no text)
 8572163 condo/p_penthouse.jpg (penthouse interior, anonymous back-turned figure at windows)
+
+# FeldbergReel (The snow line) — NEWS reel series #15. Topic: a Black Forest ski resort (Feldberg) making artificial snow while its springs dry up — climate risk vs. sunk-cost denial. Thesis: Feldberg pays to DELAY a decision; France's Metabief PAID ONCE to make it (set an end date, stopped replacing lifts). Hard-condensed to ~165 words to fit <60s. Verbatim text beats + number cards (12 lifts/1968; 4 winters no Christmas snow; closed 22 March; 100 snow guns/2 reservoirs; 2,200-resort study 53% at +2 / 98% at +4; Metabief 2030-2040). NO resort/lift-brand logos or readable piste signage; NO identifiable faces (no stand-in for the named ranger; anonymous/distant only). Media-dense (13 media / 2 black / 0 red — closer varied to a summit beat). Own footage under public/feldberg/.
+14552167 feldberg/p_snowgun.jpg (snow cannon blasting a plume at blue hour, deserted)
+3651800 feldberg/p_lift.jpg (backlit chairlift, one distant goggled rider, seat no. only)
+38891560 feldberg/p_ridge.jpg (lone distant back-turned figure on a snowy ridge)
+15512911 feldberg/p_bareslope.jpg (brown grassy alpine slope, only patchy snow — the no-snow look)
+30092587 feldberg/p_closedlift.jpg (deserted chairlift, empty chairs fading into fog)
+19777497 feldberg/p_guns.jpg (two snow guns throwing snow, faceless distant skier silhouettes)
+30678632 feldberg/p_dryspring.jpg (aerial dried lakebed / drought flats — drying water source)
+4081283 feldberg/p_alps.jpg (sweeping snow-capped alpine panorama, many peaks)
+29251880 feldberg/p_oldlift.jpg (disused stone lift station + weathered pylon — end-of-skiing)
+6631838 feldberg/p_ticket.jpg (row of stainless access-gate turnstiles, generic)
+35814411 feldberg/p_village.jpg (cluster of snowy chalet rooftops at golden sunrise)
+34613802 feldberg/p_summit.jpg (majestic single golden-hour summit against deep blue)
+20061882 feldberg/p_fork.jpg (aerial snowy Y-fork in a road — which way / which bet)
