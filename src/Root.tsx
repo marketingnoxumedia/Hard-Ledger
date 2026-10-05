@@ -116,6 +116,7 @@ import {MortgageReel, DURATION_IN_FRAMES as MORTGAGE_FRAMES} from './MortgageRee
 import {CondoReel, DURATION_IN_FRAMES as CONDO_FRAMES} from './CondoReel';
 import {FeldbergReel, DURATION_IN_FRAMES as FELDBERG_FRAMES} from './FeldbergReel';
 import {WesterlyReel, DURATION_IN_FRAMES as WESTERLY_FRAMES} from './WesterlyReel';
+import {TariffReel, DURATION_IN_FRAMES as TARIFF_FRAMES} from './TariffReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1045,6 +1046,14 @@ export const RemotionRoot: React.FC = () => {
         id="WesterlyReel"
         component={WesterlyReel}
         durationInFrames={WESTERLY_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="TariffReel"
+        component={TariffReel}
+        durationInFrames={TARIFF_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

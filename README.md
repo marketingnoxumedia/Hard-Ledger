@@ -2949,6 +2949,44 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   written; confirm the figures and attributed quotes against primary sources before
   this publishes. **Voice:** uses the same distinct upbeat cloned voice as the rest of
   the series.
+- **`TariffReel`** — "One in six" (the seventeenth fast NEWS reel in the series). NEW
+  topic: **can tariffs pay for a $5,000 cheque to every American adult?** No — not by
+  the government's own numbers. Thesis: tariff revenue covers about **$1 in $6** of the
+  ~**$1.25T** bill; the other five get **borrowed**, at the highest long rates in 24
+  years, into an economy where **prices are already rising** — the cheque comes once,
+  the debt is forever. Beats: Trump's Oval-Office "**hundreds of billions** / **$5,000**
+  to every adult"; the arithmetic (every adult × $5,000 ≈ **$1.25 trillion**); FY25
+  tariff revenue **$195B** (**1 in 6**); net tariff revenue **negative** in some months;
+  the rest borrowed — **$40T** debt, 30-yr yield **5.6%** (a 24-yr high); 2020-21 cheques
+  preceded **1.4% → 9.1%** inflation; inflation today **3.4%** with rates rising. Follows
+  the client's QUESTION / STORY / ANSWER / CTA script; close is a CTA question ("Would
+  you take the five thousand?"). **HARD-CONDENSED to ~160 words to fit the sub-60s cap
+  (client's call).** Tempo ADAPTIVE (atempo ~1.16) — total 1725 frames = ~57.5s.
+  **Verbatim captions** on the text beats + number cards ($5,000; $1.25T; $195B / 1 in
+  6; net negative; $40T / 5.6%; 1.4%-9.1%; 3.4%). 4-mode rotating text animation.
+  Media-dense (13 media / 1 black / 1 red; a solid-red "Cheque: once. Debt: forever."
+  thesis card, closing on a cheque). **No politicians / no identifiable faces** — Trump
+  is named in the VO only; the Oval-Office beat is the **White House**, not his face.
+  **Footage is brand-free** — US Capitol / White House / Treasury / a columned govt
+  facade (public landmarks, not brands), cash, a pizza-as-fraction, a red down-chart, a
+  rising chart, a single dollar, a certificate, a blurred grocery aisle, a generic
+  template cheque — **no bank/app/ticker logos, no identifiable faces** (the agents
+  rejected prop money, PERMANENT MARKER / BULLS / PRADA marks, bank signage, and a
+  cheque with real routing numbers). Media credits — Pexels (free license): Capitol
+  (37298774), White House (7017147), crowd-from-behind (30043599), cash pile (32553545),
+  pizza fraction (30504707), red down-chart (39463634), Treasury (14955941), rising chart
+  (7947993), govt facade (6534073), one-dollar bill (29484267), certificate (18449922),
+  grocery cart (5498233), template cheque (6862442). **TIME-SENSITIVE / UNVERIFIED —
+  verify before publishing:** attributes a specific statement to **Donald Trump** (Oval
+  Office, ~28 Sep) and cites specific figures (every adult × $5,000 ≈ $1.25T; FY2025
+  tariff revenue ~$195B ≈ 1 in 6; net tariff revenue negative in some months / SCOTUS-
+  ordered refunds; US debt past $40T in Aug; 30-yr yield ~5.6%, a 24-yr high; 2020-21
+  cheques then 1.4%→9.1% inflation; inflation ~3.4%). All supplied by the author and
+  rendered as written; confirm the quote and every figure against primary sources before
+  this publishes. **Note:** shares the "government cheque + one-in-N ratio" device with
+  `ChequeReel` ($500 Obamacare refund, one-in-twenty) but is a distinct story ($5,000
+  tariff dividend, one-in-six, "can tariffs pay? no"). **Voice:** uses the same distinct
+  upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
