@@ -113,7 +113,7 @@ type SceneDef = {
 // before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 187, kind: 'hook', text: 'Why did fifteen hundred|mortgage deals vanish|in a month — with the Bank|of England holding rates?', kicker: 'Priced in', highlights: ['vanish'], size: 50, media: {src: 'mortgage/p_houses.jpg', type: 'img', effect: 'in'}},
+  {dur: 187, kind: 'hook', text: 'Why did fifteen hundred|mortgage deals vanish|in a month with the Bank|of England holding rates?', kicker: 'Priced in', highlights: ['vanish'], size: 50, media: {src: 'mortgage/p_houses.jpg', type: 'img', effect: 'in'}},
   {dur: 170, kind: 'lines', text: '5-YR FIX 6.00%|2-YR FIX 5.98%|FIRST TIME IN 3 YEARS', highlights: ['6.00%'], reveal: [0, 56, 112], media: {src: 'mortgage/p_keys.jpg', type: 'img', effect: 'in'}},
   {dur: 178, kind: 'lines', text: 'BARCLAYS x4|SIX LENDERS x3 EACH|IN ONE MONTH', highlights: ['x4'], reveal: [0, 60, 120], media: {src: 'mortgage/p_towers.jpg', type: 'img', effect: 'in'}},
   {dur: 134, kind: 'lines', text: 'DEALS UNDER 5%|SEPTEMBER: 1,494|TODAY: 9', highlights: ['9'], reveal: [0, 46, 92], media: {src: 'mortgage/p_chart.jpg', type: 'img', effect: 'in'}},
