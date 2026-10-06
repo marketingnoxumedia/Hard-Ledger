@@ -3039,9 +3039,13 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Temu→"Tee-moo") so the voice pronounces them correctly while the captions keep the real
   spelling. **20 beats: 16 footage / 3 number
   cards** (JAECOO 10,813 / TESLA 9,929; £29K vs £44K / 0% APR / 3 IN 5 TRADED DOWN; 23% /
-  CHERY > FORD, over brand-safe non-car dark media) **/ 1 solid-red impact** (the mid-reel
-  "that's not even the craziest part" turn) **/ 1 black** (the "couldn't afford British ones"
-  thesis). **CAR / COMPANY names are editorial** (spoken + shown as text only); **the footage
+  CHERY > FORD, over brand-safe non-car dark media) **/ 0 red / 2 black** (the "they couldn't
+  afford to finance any more" line and the "couldn't afford British ones" thesis). Captions
+  are timed so each spoken line is on screen exactly when it is voiced — the "couldn't afford
+  to finance any more" line gets its own synced beat, with the £29K stats card landing right
+  after it (where the script places the card); the earlier red "craziest part" card was
+  dropped (its line is spoken over the £29K card). **CAR / COMPANY names are editorial**
+  (spoken + shown as text only); **the footage
   is strictly BRAND-FREE** — generic unbadged cars, SUV silhouettes, a Range-Rover-shaped
   silhouette with no readable badge, money, UK finance paperwork, roads, an export car-port —
   **no car badges, emblems, grille logos, maker wordmarks, dealer signage, readable number
