@@ -3032,30 +3032,25 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   a BMW/Mercedes/Range Rover they couldn't finance; **Chinese brands at 23%** of the UK
   market, **Chery now out-sells Ford**; the playbook (copy the aspirational shape, undercut
   by a third, subsidise the loan, pick the one tariff-free rich European market — Britain).
-  **FULL ORIGINAL VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script
-  (client: "follow the script" → the long version) — restores the Ford Puma, the "Temu Range
-  Rover" nickname, the 7-year warranty, the one-in-six / 300k+ cars / Chery-tripled market
-  lines, and the "UK is the preview" close — with a short **post-hook pause**; close is a
-  **CTA question** ("Would you drive the Temu Range Rover?"). Tempo lightly capped (atempo
-  ~1.12) — **~2787 frames = ~93s**. **25 beats: 23 footage / 3 three-line number cards**
-  (JAECOO 10,813 / TESLA 9,929 / FORD 6,958; £29K vs £44K / 0% APR / 3 IN 5 TRADED DOWN;
-  23% / 300,000+ / CHERY > FORD, over brand-safe non-car dark media) **/ 1 solid-red impact**
-  (the mid-reel "that's not even the craziest part" turn) **/ 1 black** (the "couldn't afford
-  British ones" thesis). **CAR / COMPANY names are editorial** (spoken + shown as text only); **the footage
+  **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a short
+  **post-hook pause**; close is a **CTA question** ("Would you drive the Temu Range Rover?").
+  Natural pace (atempo 1.0) — **~1988 frames = ~66s**. **20 beats: 16 footage / 3 number
+  cards** (JAECOO 10,813 / TESLA 9,929; £29K vs £44K / 0% APR / 3 IN 5 TRADED DOWN; 23% /
+  CHERY > FORD, over brand-safe non-car dark media) **/ 1 solid-red impact** (the mid-reel
+  "that's not even the craziest part" turn) **/ 1 black** (the "couldn't afford British ones"
+  thesis). **CAR / COMPANY names are editorial** (spoken + shown as text only); **the footage
   is strictly BRAND-FREE** — generic unbadged cars, SUV silhouettes, a Range-Rover-shaped
   silhouette with no readable badge, money, UK finance paperwork, roads, an export car-port —
   **no car badges, emblems, grille logos, maker wordmarks, dealer signage, readable number
   plates, or identifiable faces** (sourcing rejected an Audi badge + "F-JU 272" plate, a
   TfL roundel, "ONE LINE" containers, a Chevrolet bowtie, a Corvette key fob, crypto-logo
-  coins, and branded calculators). 23 distinct brand-free clips, each used once, none reused
+  coins, and branded calculators). 18 distinct brand-free clips, each used once, none reused
   across other reels. Media credits — Pexels (free license): motorway (2815175), car-paint
   macro (9549134), SUV at dusk (27443726), hilltop SUV silhouette (17845049), 4x4 roof-rack
   (12984746), black SUV at dusk (5258329), car sketch (28614717), night tail-lights
   (1699588), blurred avenue (37112448), abstract light-trails (1679719), car port (3848788),
   windscreen POV (37832996), £5 note (5909809), gold coins (19613743), credit application
-  (7821513), calculator (36543210), key in palm (7647753), scissors/cut (5412462); plus 5
-  new for the full script — car lot (29380377), wax seal (36824939), aerial car storage lot
-  (34298681), podium (12914280), open road to horizon (1137340).
+  (7821513), calculator (36543210), key in palm (7647753), scissors/cut (5412462).
   **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** names real brands (Jaecoo,
   Chery, Tesla, Ford, Range Rover, BMW, Mercedes, Evoque) and cites figures (Jaecoo 7 10,813
   vs Tesla Model 3 9,929 in Sept; £29k vs £44k; 0% finance; 3 in 5 traded down; Chinese
