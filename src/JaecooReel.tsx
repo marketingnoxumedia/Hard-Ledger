@@ -110,26 +110,26 @@ type SceneDef = {
 // as written; confirm every figure against primary sources before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 231, kind: 'hook', text: "How did a Chinese car|nobody had heard of|two years ago become|Britain's bestselling car?", kicker: 'The silhouette', highlights: ['car?'], size: 46, media: {src: 'jaecoo/j_motorway.jpg', type: 'img', effect: 'in'}},
-  {dur: 61, kind: 'text', text: "But there's one thing|most people overlook.", highlights: ['overlook.'], size: 50, media: {src: 'jaecoo/j_panel.jpg', type: 'img', effect: 'in'}},
-  {dur: 56, kind: 'text', text: "It isn't winning|on price.", highlights: ['price.'], size: 54, media: {src: 'jaecoo/j_notes.jpg', type: 'img', effect: 'in'}},
+  {dur: 207, kind: 'hook', text: "How did a Chinese car|nobody had heard of|two years ago become|Britain's bestselling car?", kicker: 'The silhouette', highlights: ['car?'], size: 46, media: {src: 'jaecoo/j_motorway.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', text: "But there's one thing|most people overlook.", highlights: ['overlook.'], size: 50, media: {src: 'jaecoo/j_panel.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', text: "It isn't winning|on price.", highlights: ['price.'], size: 54, media: {src: 'jaecoo/j_notes.jpg', type: 'img', effect: 'in'}},
   {dur: 90, kind: 'text', enter: 'slideL', text: 'September, the Jaecoo 7,|built by Chery,|out-sold the Tesla Model 3.', highlights: ['out-sold'], size: 46, media: {src: 'jaecoo/j_suvdusk.jpg', type: 'img', effect: 'in'}},
-  {dur: 71, kind: 'lines', text: 'JAECOO 10,813|TESLA 9,929', highlights: ['10,813'], reveal: [0, 28], media: {src: 'jaecoo/j_nightroad.jpg', type: 'img', effect: 'in'}},
-  {dur: 41, kind: 'text', text: 'It looks like|a Range Rover.', highlights: ['rover.'], size: 54, media: {src: 'jaecoo/j_silhouette.jpg', type: 'img', effect: 'in'}},
-  {dur: 115, kind: 'text', text: 'Twenty-nine thousand pounds|against forty-four|for an Evoque.', highlights: ['forty-four'], size: 46, media: {src: 'jaecoo/j_coins.jpg', type: 'img', effect: 'in'}},
-  {dur: 127, kind: 'text', enter: 'slideL', text: 'But the product is|the monthly payment.|Zero percent finance.', highlights: ['payment.'], size: 46, media: {src: 'jaecoo/j_contract.jpg', type: 'img', effect: 'in'}},
-  {dur: 138, kind: 'text', text: "And three in five buyers|came out of a BMW, Mercedes|or Range Rover they couldn't|afford to finance any more.", highlights: ['afford'], size: 42, media: {src: 'jaecoo/j_keys.jpg', type: 'img', effect: 'in'}},
-  {dur: 74, kind: 'lines', text: '£29K vs £44K|0% APR|3 IN 5 TRADED DOWN', highlights: ['0%'], reveal: [0, 25, 50], media: {src: 'jaecoo/j_calculator.jpg', type: 'img', effect: 'in'}},
-  {dur: 57, kind: 'impact', text: "But that's not even|the craziest part.", highlights: ['craziest'], redBg: true},
-  {dur: 130, kind: 'text', text: 'Chinese brands took|twenty-three percent|of the UK market in September.', highlights: ['twenty-three'], size: 44, media: {src: 'jaecoo/j_trafficuk.jpg', type: 'img', effect: 'in'}},
-  {dur: 72, kind: 'lines', text: '23%|CHERY > FORD', highlights: ['23%'], reveal: [0, 28], media: {src: 'jaecoo/j_trafficblur.jpg', type: 'img', effect: 'in'}},
-  {dur: 70, kind: 'text', text: "Here's exactly|how they do it.", highlights: ['exactly'], size: 52, media: {src: 'jaecoo/j_sketch.jpg', type: 'img', effect: 'in'}},
-  {dur: 64, kind: 'text', text: 'Copy the shape|people aspire to.', highlights: ['shape'], size: 50, media: {src: 'jaecoo/j_silhouette2.jpg', type: 'img', effect: 'in'}},
-  {dur: 88, kind: 'text', enter: 'slideUp', text: 'Undercut it by a third.|Subsidise the loan.', highlights: ['third.'], size: 48, media: {src: 'jaecoo/j_cut.jpg', type: 'img', effect: 'in'}},
-  {dur: 110, kind: 'text', text: 'Pick the one rich market|in Europe with|no tariff wall.', highlights: ['tariff'], size: 46, media: {src: 'jaecoo/j_port.jpg', type: 'img', effect: 'in'}},
-  {dur: 139, kind: 'text', text: "Britain didn't learn|to love Chinese cars.|It learned it couldn't|afford British ones.", highlights: ['british'], size: 46},
-  {dur: 170, kind: 'text', enter: 'slideL', text: "The Range Rover isn't losing|to a better car.|It's losing to a cheaper payment|with the same silhouette.", highlights: ['silhouette.'], size: 44, media: {src: 'jaecoo/j_silhouette3.jpg', type: 'img', effect: 'in'}},
-  {dur: 84, kind: 'text', enter: 'zoom', text: 'Would you drive|the Temu Range Rover?|Tell me below.', highlights: ['below.'], size: 48, media: {src: 'jaecoo/j_pov.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'lines', text: 'JAECOO 10,813|TESLA 9,929', highlights: ['10,813'], reveal: [0, 26], media: {src: 'jaecoo/j_nightroad.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', text: 'It looks like|a Range Rover.', highlights: ['rover.'], size: 54, media: {src: 'jaecoo/j_silhouette.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'text', text: 'Twenty-nine thousand pounds|against forty-four|for an Evoque.', highlights: ['forty-four'], size: 46, media: {src: 'jaecoo/j_coins.jpg', type: 'img', effect: 'in'}},
+  {dur: 142, kind: 'text', enter: 'slideL', text: 'But the product is|the monthly payment.|Zero percent finance.', highlights: ['payment.'], size: 46, media: {src: 'jaecoo/j_contract.jpg', type: 'img', effect: 'in'}},
+  {dur: 158, kind: 'text', text: "And three in five buyers|came out of a BMW, Mercedes|or Range Rover they couldn't|afford to finance any more.", highlights: ['afford'], size: 42, media: {src: 'jaecoo/j_keys.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'lines', text: '£29K vs £44K|0% APR|3 IN 5 TRADED DOWN', highlights: ['0%'], reveal: [0, 10, 20], media: {src: 'jaecoo/j_calculator.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'impact', text: "But that's not even|the craziest part.", highlights: ['craziest'], redBg: true},
+  {dur: 142, kind: 'text', text: 'Chinese brands took|twenty-three percent|of the UK market in September.', highlights: ['twenty-three'], size: 44, media: {src: 'jaecoo/j_trafficuk.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'lines', text: '23%|CHERY > FORD', highlights: ['23%'], reveal: [0, 30], media: {src: 'jaecoo/j_trafficblur.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', text: "Here's exactly|how they do it.", highlights: ['exactly'], size: 52, media: {src: 'jaecoo/j_sketch.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', text: 'Copy the shape|people aspire to.', highlights: ['shape'], size: 50, media: {src: 'jaecoo/j_silhouette2.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', enter: 'slideUp', text: 'Undercut it by a third.|Subsidise the loan.', highlights: ['third.'], size: 48, media: {src: 'jaecoo/j_cut.jpg', type: 'img', effect: 'in'}},
+  {dur: 125, kind: 'text', text: 'Pick the one rich market|in Europe with|no tariff wall.', highlights: ['tariff'], size: 46, media: {src: 'jaecoo/j_port.jpg', type: 'img', effect: 'in'}},
+  {dur: 169, kind: 'text', text: "Britain didn't learn|to love Chinese cars.|It learned it couldn't|afford British ones.", highlights: ['british'], size: 46},
+  {dur: 183, kind: 'text', enter: 'slideL', text: "The Range Rover isn't losing|to a better car.|It's losing to a cheaper payment|with the same silhouette.", highlights: ['silhouette.'], size: 44, media: {src: 'jaecoo/j_silhouette3.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', enter: 'zoom', text: 'Would you drive|the Temu Range Rover?|Tell me below.', highlights: ['below.'], size: 48, media: {src: 'jaecoo/j_pov.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Impacts punch the open, the JAECOO/TESLA and the
@@ -139,13 +139,13 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 438, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 665, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 930, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 434, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 653, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 953, src: 'media/sfx_impact.mp3', vol: 0.5},
   {at: 1004, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1191, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1595, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1904, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1212, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1624, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1976, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {

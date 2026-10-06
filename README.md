@@ -3034,7 +3034,10 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   by a third, subsidise the loan, pick the one tariff-free rich European market — Britain).
   **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a short
   **post-hook pause**; close is a **CTA question** ("Would you drive the Temu Range Rover?").
-  Natural pace (atempo 1.0) — **~1988 frames = ~66s**. **20 beats: 16 footage / 3 number
+  Near-natural pace (atempo ~1.05) — **~2067 frames = ~69s**. Brand names are respelled
+  phonetically in the VO input only (Jaecoo→"Jay-koo", Chery→"Sherry", Evoque→"Evoke",
+  Temu→"Tee-moo") so the voice pronounces them correctly while the captions keep the real
+  spelling. **20 beats: 16 footage / 3 number
   cards** (JAECOO 10,813 / TESLA 9,929; £29K vs £44K / 0% APR / 3 IN 5 TRADED DOWN; 23% /
   CHERY > FORD, over brand-safe non-car dark media) **/ 1 solid-red impact** (the mid-reel
   "that's not even the craziest part" turn) **/ 1 black** (the "couldn't afford British ones"
