@@ -3035,23 +3035,26 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   AI data centres need machines to make + test chips, Japan makes both; a weak yen; a BOJ
   rate-hike spread). Follows the client's QUESTION / STORY / ANSWER / CTA script; close is
   a CTA question ("Is Japan the AI trade nobody's talking about?"). **REVISION (client:
-  "follow the script"):** captions are **verbatim to the script** and the number cards
-  match the script's **exact CARD specs** (34 YEARS → 2 YEARS; NIKKEI 70,729; 1989: 38,957
-  / 2024: RECLAIMED; TOKYO ELECTRON +78% YTD; MIZUHO +86% / MUFG +60% / ¥163), trimmed only
-  to hold the sub-60s cap. Tempo ADAPTIVE (atempo ~1.20) — total 1725 frames = ~57.5s.
-  4-mode rotating text animation. **16 beats: 12 media / 3 black (incl. the 34Y→2Y number
-  card on black) / 1 red** (a solid-red "Didn't recover. Repurposed." thesis card, closing
-  on a Tokyo night). **Company / index
+  "follow the script" → "full script"):** captions are **verbatim to the script with every
+  line kept — nothing dropped** — and the number cards match the script's **exact CARD
+  specs** (34 YEARS → 2 YEARS; NIKKEI 70,729; 1989: 38,957 / 2024: RECLAIMED; TOKYO ELECTRON
+  +78% YTD; MIZUHO +86% / MUFG +60% / ¥163). Because the complete read is kept, this reel
+  runs **over the usual 60s cap by design** — tempo is capped (atempo ~1.33) and total is
+  **2581 frames = ~86s**. 4-mode rotating text animation. **19 beats: 14 media / 5 black
+  (the 34Y→2Y number card plus four narration/reflection beats) / 0 red** — no solid-red
+  card this reel; it closes on a Tokyo night. **Company / index
   names are editorial** (spoken + shown as text); **the footage is brand-free** — an
-  aerial Tokyo, an abstract data-number wall, a retro cityscape, a candlestick chart, a
-  rainy alley, a chip macro, finance towers, a data centre, yen notes, neoclassical
-  columns, a CNC machine, a neon reflection — **no company logos, no readable brand neon,
-  no flags, no identifiable faces** (the agents rejected boards full of Sony / Nintendo /
-  Canon / NVDA tickers, crypto-app UI, and readable bank/brand signage). Media credits —
-  Pexels (free license): aerial Tokyo (31148079), data-number wall (9951077), retro
-  cityscape (10413174), candlestick chart (38821937), rainy alley (39469558), chip macro
-  (34924856), finance towers (2132660), data centre (17489153), yen notes (29916084),
-  columns (31965503), CNC machine (10406128), neon reflection (1936741). **TIME-SENSITIVE
+  aerial Tokyo, a bull/market sculpture, an abstract data-number wall, a retro cityscape, a
+  candlestick chart, a rainy alley, a chip macro, finance towers, a data centre, yen notes,
+  neoclassical columns, a CNC machine, rusted pipes meeting glass, a neon reflection —
+  **no company logos, no readable brand neon, no flags, no identifiable faces** (the agents
+  rejected boards full of Sony / Nintendo / Canon / NVDA tickers, crypto-app UI, and
+  readable bank/brand signage). Media credits —
+  Pexels (free license): aerial Tokyo (31148079), market sculpture (25587673), data-number
+  wall (9951077), retro cityscape (10413174), candlestick chart (38821937), rainy alley
+  (39469558), chip macro (34924856), finance towers (2132660), data centre (17489153), yen
+  notes (29916084), columns (31965503), CNC machine (10406128), rusted pipes + glass
+  (30335240), neon reflection (1936741). **TIME-SENSITIVE
   / UNVERIFIED — verify before publishing:** names real companies/indices (Nikkei, Toyota,
   Sony, Tokyo Electron, Mizuho, Mitsubishi UFJ, Bank of Japan) and cites specific figures
   (Nikkei ~70,729; 1989 peak ~38,957 reclaimed Feb 2024 after 34 yrs; Tokyo Electron +78%

@@ -1953,8 +1953,9 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 1556654 digger/p_star.jpg (abstract gold star-shaped bokeh on dark red)
 4722576 digger/p_spotlight.jpg (single theatrical spotlight beam through smoke)
 
-# NikkeiReel (The toolshed) — NEWS reel series #19. Topic: Japan's Nikkei doubles in ~2 years after a 34-year recovery — really an AI-supply-chain trade. Thesis: Japan isn't bought as Japan; it's the "toolshed" for America's AI build-out (machines that make + test chips), priced in a yen that's never been cheaper, with banks earning a spread as the BOJ hikes. The Nikkei didn't recover — it got repurposed. Hard-condensed to ~155 words to fit <60s. Verbatim text beats + number cards (70,729; 1989 38,957 / 34 yrs; Tokyo Electron +78%; Mizuho +86% / MUFG +60% / yen 163). Company/index names editorial (VO + text); FOOTAGE brand-free — generic Japan/markets/semiconductor/finance imagery, no company logos, no readable brand neon, no flags, no identifiable faces. Media-dense (12 media / 2 black / 1 red). Own footage under public/nikkei/.
+# NikkeiReel (The toolshed) — NEWS reel series #19. Topic: Japan's Nikkei doubles in ~2 years after a 34-year recovery — really an AI-supply-chain trade. Thesis: Japan isn't bought as Japan; it's the "toolshed" for America's AI build-out (machines that make + test chips), priced in a yen that's never been cheaper, with banks earning a spread as the BOJ hikes. The Nikkei didn't recover — it got repurposed. FULL-SCRIPT version: every scripted line kept verbatim (nothing dropped) + number cards (70,729; 1989 38,957 / 34 yrs; Tokyo Electron +78%; Mizuho +86% / MUFG +60% / yen 163); runs ~86s by design (over the 60s norm, author's call). Company/index names editorial (VO + text); FOOTAGE brand-free — generic Japan/markets/semiconductor/finance imagery, no company logos, no readable brand neon, no flags, no identifiable faces. 19 beats: 14 media / 5 black / 0 red. Own footage under public/nikkei/.
 31148079 nikkei/p_tokyo.jpg (aerial Tokyo at night, cityscape, signage tiny/unreadable)
+25587673 nikkei/p_exchange.jpg (bull/market sculpture — exchange feel, no brand marks)
 9951077 nikkei/p_ticker.jpg (abstract wall of glowing green data numbers, no symbols/brand)
 10413174 nikkei/p_vintage.jpg (faded film-look high-rise cityscape with red crane — bubble era)
 38821937 nikkei/p_chart.jpg (green/red candlestick chart rising, only a bare price number)
@@ -1965,4 +1966,5 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 29916084 nikkei/p_yen.jpg (yen banknotes + coins; only inherent issuer line on notes)
 31965503 nikkei/p_institution.jpg (neoclassical column capitals — central-bank feel)
 10406128 nikkei/p_factory.jpg (CNC milling machine cutting metal — precision toolshed)
+30335240 nikkei/p_repurpose.jpg (rusted industrial pipes meeting new glass — "repurposed")
 1936741 nikkei/p_night.jpg (abstract neon reflection in a wet street, illegible)
