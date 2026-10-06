@@ -1953,7 +1953,7 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 1556654 digger/p_star.jpg (abstract gold star-shaped bokeh on dark red)
 4722576 digger/p_spotlight.jpg (single theatrical spotlight beam through smoke)
 
-# NikkeiReel (The toolshed) — NEWS reel series #19. Topic: Japan's Nikkei doubles in ~2 years after a 34-year recovery — really an AI-supply-chain trade. Thesis: Japan isn't bought as Japan; it's the "toolshed" for America's AI build-out (machines that make + test chips), priced in a yen that's never been cheaper, with banks earning a spread as the BOJ hikes. The Nikkei didn't recover — it got repurposed. FULL-SCRIPT version: every scripted line kept verbatim (nothing dropped) + number cards (70,729; 1989 38,957 / 34 yrs; Tokyo Electron +78%; Mizuho +86% / MUFG +60% / yen 163); runs ~86s by design (over the 60s norm, author's call). Company/index names editorial (VO + text); FOOTAGE brand-free — generic Japan/markets/semiconductor/finance imagery, no company logos, no readable brand neon, no flags, no identifiable faces. 19 beats: 14 media / 5 black / 0 red. Own footage under public/nikkei/.
+# NikkeiReel (The toolshed) — NEWS reel series #19. Topic: Japan's Nikkei doubles in ~2 years after a 34-year recovery — really an AI-supply-chain trade. Thesis: Japan isn't bought as Japan; it's the "toolshed" for America's AI build-out (machines that make + test chips), priced in a yen that's never been cheaper, with banks earning a spread as the BOJ hikes. The Nikkei didn't recover — it got repurposed. FULL-SCRIPT version: every scripted line kept verbatim (nothing dropped) + number cards (70,729; 1989 38,957 / 34 yrs; Tokyo Electron +78%; Mizuho +86% / MUFG +60% / yen 163); runs ~86s by design (over the 60s norm, author's call). MAX-MEDIA-DENSE 30-BEAT cut (author chose max media): 28 footage beats (incl. all 5 number cards over footage) / 2 black / 0 red; 28 distinct brand-free clips (14 original + 14 new below), each used once, none reused across other reels. Company/index names editorial (VO + text); FOOTAGE brand-free — generic Japan/markets/semiconductor/finance imagery, no company logos, no readable brand neon, no flags, no identifiable faces. Own footage under public/nikkei/.
 31148079 nikkei/p_tokyo.jpg (aerial Tokyo at night, cityscape, signage tiny/unreadable)
 25587673 nikkei/p_exchange.jpg (bull/market sculpture — exchange feel, no brand marks)
 9951077 nikkei/p_ticker.jpg (abstract wall of glowing green data numbers, no symbols/brand)
@@ -1968,3 +1968,17 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 10406128 nikkei/p_factory.jpg (CNC milling machine cutting metal — precision toolshed)
 30335240 nikkei/p_repurpose.jpg (rusted industrial pipes meeting new glass — "repurposed")
 1936741 nikkei/p_night.jpg (abstract neon reflection in a wet street, illegible)
+14963655 nikkei/n_floor.jpg (dark after-hours trading desk by night window, monitors off, no screens/logos)
+7679943 nikkei/n_rising.jpg (four cardboard arrows pointing up — abstract, no text, not a candlestick)
+31229239 nikkei/n_skyline.jpg (wide daytime aerial Tokyo skyline, signage unreadable at altitude)
+28390683 nikkei/n_turn.jpg (macro of interlocking brass/steel watch gears — pivot/mechanism)
+3371352 nikkei/n_burst.jpg (single soap bubble on soft abstract field — bubble-burst metaphor)
+9260176 nikkei/n_sunrise.jpg (generic city skyline over water at sunrise — recovery feel)
+20766286 nikkei/n_clock.jpg (close-up hourglass, red sand streaming — passage of time)
+38231115 nikkei/n_crowd.jpg (B&W anonymous commuter silhouettes from behind in a tunnel, no faces)
+5118460 nikkei/n_wafer.jpg (gloved hands holding an iridescent semiconductor/wafer substrate, fab detail)
+17194838 nikkei/n_fibre.jpg (purple/white fibre-optic strands cascading on black, dark, abstract)
+4134179 nikkei/n_blueprint.jpg (technical engineering drawing close-up with drafting ruler, generic notes)
+8439000 nikkei/n_robotarm.jpg (silver articulated industrial robotic arm with gripper, no wordmark)
+33588626 nikkei/n_vault.jpg (dimly lit room of vintage safety-deposit boxes and keys, no brand)
+7186390 nikkei/n_coins.jpg (close-up pile of assorted silver/copper coins — currency engravings only, no logo)

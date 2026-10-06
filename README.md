@@ -3040,21 +3040,26 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   specs** (34 YEARS → 2 YEARS; NIKKEI 70,729; 1989: 38,957 / 2024: RECLAIMED; TOKYO ELECTRON
   +78% YTD; MIZUHO +86% / MUFG +60% / ¥163). Because the complete read is kept, this reel
   runs **over the usual 60s cap by design** — tempo is capped (atempo ~1.33) and total is
-  **2581 frames = ~86s**. 4-mode rotating text animation. **19 beats: 14 media / 5 black
-  (the 34Y→2Y number card plus four narration/reflection beats) / 0 red** — no solid-red
-  card this reel; it closes on a Tokyo night. **Company / index
-  names are editorial** (spoken + shown as text); **the footage is brand-free** — an
-  aerial Tokyo, a bull/market sculpture, an abstract data-number wall, a retro cityscape, a
-  candlestick chart, a rainy alley, a chip macro, finance towers, a data centre, yen notes,
-  neoclassical columns, a CNC machine, rusted pipes meeting glass, a neon reflection —
-  **no company logos, no readable brand neon, no flags, no identifiable faces** (the agents
-  rejected boards full of Sony / Nintendo / Canon / NVDA tickers, crypto-app UI, and
-  readable bank/brand signage). Media credits —
-  Pexels (free license): aerial Tokyo (31148079), market sculpture (25587673), data-number
-  wall (9951077), retro cityscape (10413174), candlestick chart (38821937), rainy alley
-  (39469558), chip macro (34924856), finance towers (2132660), data centre (17489153), yen
-  notes (29916084), columns (31965503), CNC machine (10406128), rusted pipes + glass
-  (30335240), neon reflection (1936741). **TIME-SENSITIVE
+  **2576 frames = ~86s**. 4-mode rotating text animation. **MAX-MEDIA-DENSE 30-BEAT cut
+  (client chose max media over the 19-beat version): 28 footage beats** (including all 5
+  number cards, each over footage) **/ 2 black** (the two reflection turns) **/ 0 red** — no
+  solid-red card this reel; it closes on a Tokyo night. **28 distinct brand-free clips**
+  (the original 14 plus 14 newly sourced), each used once, **none reused across the other
+  reels**. **Company / index names are editorial** (spoken + shown as text); **the footage
+  is brand-free** — the original set (aerial Tokyo, bull/market sculpture, data-number wall,
+  retro cityscape, candlestick chart, rainy alley, chip macro, finance towers, data centre,
+  yen notes, columns, CNC machine, rusted pipes, neon reflection) plus 14 new: a dark
+  trading desk, up-arrows, a daytime Tokyo aerial, watch gears, a soap bubble, a dawn
+  skyline, an hourglass, commuter silhouettes, a silicon wafer, red fibre-optics, an
+  engineering blueprint, a robot arm, a vault of deposit boxes, and a coin pile —
+  **no company logos, no readable brand neon, no flags, no identifiable faces** (sourcing
+  rejected boards full of Sony / Nintendo / Canon / NVDA tickers, crypto-logo coins, robot
+  arms with UR / FANUC / Nikon / FESTO / NIRYO livery, and readable bank/brand signage).
+  New media credits — Pexels (free license): trading desk (14963655), up-arrows (7679943),
+  Tokyo aerial (31229239), gears (28390683), soap bubble (3371352), dawn skyline (9260176),
+  hourglass (20766286), commuters (38231115), wafer (5118460), fibre-optics (17194838),
+  blueprint (4134179), robot arm (8439000), vault boxes (33588626), coin pile (7186390)
+  — on top of the original 14 ids. **TIME-SENSITIVE
   / UNVERIFIED — verify before publishing:** names real companies/indices (Nikkei, Toyota,
   Sony, Tokyo Electron, Mizuho, Mitsubishi UFJ, Bank of Japan) and cites specific figures
   (Nikkei ~70,729; 1989 peak ~38,957 reclaimed Feb 2024 after 34 yrs; Tokyo Electron +78%
