@@ -3032,8 +3032,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   pays nothing, **Treasuries pay 5.3%** — the most in **24 years** — so cash earns **~2% real**
   while gold earns zero, and every time a hike looks likely that gap widens and gold loses).
   **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a short
-  **post-hook pause**; close is a **CTA question** ("Still holding gold?"). Natural pace
-  (atempo 1.0) — **~2444 frames = ~81s**. **21 beats: 15 footage / 3 number cards** (JAN
+  **post-hook pause**; close is a **CTA question** ("Still holding gold?"). Pace sped up at the client's
+  request (atempo ~1.2) — **~2038 frames = ~68s**. **21 beats: 15 footage / 3 number cards** (JAN
   $5,608 / NOW $4,121 / −26%; HIKE ODDS 64% → 22%; 10YR 5.3% − CPI 3.4% = +1.9% REAL — each
   landing on the line whose figures it shows) **/ 1 solid-red impact** ("the craziest part")
   **/ 2 black** ("that's what moved it" and "never an inflation hedge"). **NOT a duplicate of
