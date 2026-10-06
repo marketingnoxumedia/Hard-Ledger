@@ -3034,12 +3034,14 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   behind (**Mizuho +86%**, **MUFG +60%**) with the **yen ~163/$**; and the mechanism (US
   AI data centres need machines to make + test chips, Japan makes both; a weak yen; a BOJ
   rate-hike spread). Follows the client's QUESTION / STORY / ANSWER / CTA script; close is
-  a CTA question ("Is Japan the AI trade nobody's talking about?"). **HARD-CONDENSED to
-  ~155 words to fit the sub-60s cap (client's call).** Tempo ADAPTIVE (atempo ~1.22) —
-  total 1725 frames = ~57.5s. **Verbatim captions** on the text beats + number cards
-  (70,729; 1989 38,957 / 34 yrs; Tokyo Electron +78%; Mizuho +86% / MUFG +60% / yen 163).
-  4-mode rotating text animation. Media-dense (12 media / 2 black / 1 red; a solid-red
-  "Not recovered. Repurposed." thesis card, closing on a Tokyo night). **Company / index
+  a CTA question ("Is Japan the AI trade nobody's talking about?"). **REVISION (client:
+  "follow the script"):** captions are **verbatim to the script** and the number cards
+  match the script's **exact CARD specs** (34 YEARS → 2 YEARS; NIKKEI 70,729; 1989: 38,957
+  / 2024: RECLAIMED; TOKYO ELECTRON +78% YTD; MIZUHO +86% / MUFG +60% / ¥163), trimmed only
+  to hold the sub-60s cap. Tempo ADAPTIVE (atempo ~1.20) — total 1725 frames = ~57.5s.
+  4-mode rotating text animation. **16 beats: 12 media / 3 black (incl. the 34Y→2Y number
+  card on black) / 1 red** (a solid-red "Didn't recover. Repurposed." thesis card, closing
+  on a Tokyo night). **Company / index
   names are editorial** (spoken + shown as text); **the footage is brand-free** — an
   aerial Tokyo, an abstract data-number wall, a retro cityscape, a candlestick chart, a
   rainy alley, a chip macro, finance towers, a data centre, yen notes, neoclassical

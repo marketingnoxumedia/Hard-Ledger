@@ -94,12 +94,13 @@ type SceneDef = {
 // Toyota/Sony; the banks right behind (Mizuho +86%, MUFG +60%) with the yen ~163/$; the
 // mechanism (US AI data centres need machines to make + test chips, Japan makes both; a
 // weak yen; a BOJ rate-hike spread). Close is a CTA QUESTION. Follows the client's
-// QUESTION / STORY / ANSWER / CTA script, HARD-CONDENSED to ~155 words to fit the <60s cap
-// (client's call). Tempo ADAPTIVE (atempo ~1.22) -- total 1725 frames = ~57.5s. VERBATIM
-// captions on the text beats + number cards for the data callouts (70,729; 1989 38,957 /
-// 34 yrs; Tokyo Electron +78%; Mizuho +86% / MUFG +60% / yen 163). 4-mode rotating text
-// animation. Media-dense: 12 media / 2 black / 1 red (a solid-red "Not recovered.
-// Repurposed." thesis card, closing on a Tokyo night). Company/index NAMES are editorial
+// QUESTION / STORY / ANSWER / CTA script. REVISION (client: "follow the script"): captions
+// are now VERBATIM to the script and the number cards match the script's exact CARD specs
+// (34 YEARS -> 2 YEARS; NIKKEI 70,729; 1989: 38,957 / 2024: RECLAIMED; TOKYO ELECTRON +78%
+// YTD; MIZUHO +86% / MUFG +60% / Y163), trimmed only to hold the <60s cap. Tempo ADAPTIVE
+// (atempo ~1.20) -- total 1725 frames = ~57.5s. 4-mode rotating text animation. 16 beats:
+// 12 media / 3 black (incl. the 34Y->2Y number card on black) / 1 red (a solid-red
+// "Didn't recover. Repurposed." thesis card, closing on a Tokyo night). Company/index NAMES are editorial
 // (VO + text); FOOTAGE is brand-free -- generic Japan / markets / semiconductor / finance
 // imagery, NO company logos, NO readable brand neon, NO flags, NO identifiable faces. Own
 // footage under public/nikkei/.
@@ -111,21 +112,22 @@ type SceneDef = {
 // publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 161, kind: 'hook', text: 'Why did a market that took|34 years to recover|now double in 2?', kicker: 'The toolshed', highlights: ['2?'], size: 48, media: {src: 'nikkei/p_tokyo.jpg', type: 'img', effect: 'in'}},
-  {dur: 85, kind: 'lines', text: 'NIKKEI|70,729|3-MONTH HIGH', highlights: ['70,729'], reveal: [0, 28, 56], media: {src: 'nikkei/p_ticker.jpg', type: 'img', effect: 'in'}},
-  {dur: 191, kind: 'lines', text: '1989 PEAK: 38,957|RECLAIMED 2024|34 YEARS', highlights: ['34'], reveal: [0, 64, 128], media: {src: 'nikkei/p_vintage.jpg', type: 'img', effect: 'in'}},
-  {dur: 71, kind: 'text', text: "Now it's double|the bubble peak.|In 2.5 years.", highlights: ['double'], size: 52, media: {src: 'nikkei/p_chart.jpg', type: 'img', effect: 'in'}},
-  {dur: 87, kind: 'text', text: "But the names driving it|aren't Toyota|or Sony.", highlights: ['sony'], size: 52, media: {src: 'nikkei/p_street.jpg', type: 'img', effect: 'in'}},
-  {dur: 91, kind: 'lines', text: 'TOKYO ELECTRON|+78% THIS YEAR|CHIP MACHINES', highlights: ['+78%'], reveal: [0, 30, 60], media: {src: 'nikkei/p_chip.jpg', type: 'img', effect: 'in'}},
-  {dur: 184, kind: 'lines', text: 'MIZUHO +86%|MUFG +60%|YEN 163 TO $1', highlights: ['+86%'], reveal: [0, 61, 122], media: {src: 'nikkei/p_bank.jpg', type: 'img', effect: 'in'}},
-  {dur: 156, kind: 'text', enter: 'slideL', text: 'Every AI data centre|needs machines to make chips|and to test them.|Japan makes both.', highlights: ['both.'], size: 46, media: {src: 'nikkei/p_server.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'hook', text: 'Why is the stock market|that took 34 years to recover|now doubling in two?', kicker: 'The toolshed', highlights: ['two?'], size: 46, media: {src: 'nikkei/p_tokyo.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'lines', text: '34 YEARS|→|2 YEARS', highlights: ['2'], reveal: [0, 20, 40]},
+  {dur: 79, kind: 'lines', text: 'NIKKEI|70,729', highlights: ['70,729'], reveal: [0, 28], media: {src: 'nikkei/p_ticker.jpg', type: 'img', effect: 'in'}},
+  {dur: 219, kind: 'lines', text: '1989: 38,957|2024: RECLAIMED', highlights: ['reclaimed'], reveal: [0, 90], media: {src: 'nikkei/p_vintage.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', text: "Now it's nearly double|the bubble peak.|In two and a half years.", highlights: ['double'], size: 50, media: {src: 'nikkei/p_chart.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', text: "The names driving it|aren't Toyota or Sony.", highlights: ['sony'], size: 52, media: {src: 'nikkei/p_street.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'lines', text: 'TOKYO ELECTRON|+78% YTD', highlights: ['+78%'], reveal: [0, 28], media: {src: 'nikkei/p_chip.jpg', type: 'img', effect: 'in'}},
+  {dur: 183, kind: 'lines', text: 'MIZUHO +86%|MUFG +60%|¥163', highlights: ['+86%'], reveal: [0, 61, 122], media: {src: 'nikkei/p_bank.jpg', type: 'img', effect: 'in'}},
+  {dur: 169, kind: 'text', enter: 'slideL', text: 'Every AI data centre needs|machines to make the chips,|and machines to test them.|Japan makes both.', highlights: ['both.'], size: 44, media: {src: 'nikkei/p_server.jpg', type: 'img', effect: 'in'}},
   {dur: 87, kind: 'text', text: 'A weak yen turns|every dollar|into more yen.', highlights: ['dollar'], size: 52, media: {src: 'nikkei/p_yen.jpg', type: 'img', effect: 'in'}},
-  {dur: 121, kind: 'text', text: 'The Bank of Japan|raising rates means|banks earn a spread.', highlights: ['spread.'], size: 50, media: {src: 'nikkei/p_institution.jpg', type: 'img', effect: 'in'}},
-  {dur: 68, kind: 'text', text: 'So why double|after 34 years?', highlights: ['years?'], size: 58},
-  {dur: 166, kind: 'text', enter: 'slideL', text: "Japan isn't bought|as Japan.|It's the toolshed for|America's AI build-out.", highlights: ['toolshed'], size: 46, media: {src: 'nikkei/p_factory.jpg', type: 'img', effect: 'in'}},
-  {dur: 60, kind: 'text', text: "In a currency|that's never|been cheaper.", highlights: ['cheaper.'], size: 56},
-  {dur: 76, kind: 'impact', text: 'Not recovered.|Repurposed.', redBg: true},
-  {dur: 121, kind: 'text', enter: 'zoom', text: "Is Japan the AI trade|nobody's talking about?|Tell me below.", highlights: ['below.'], size: 50, media: {src: 'nikkei/p_night.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', text: 'The Bank of Japan|raising rates means|banks earn a spread again.', highlights: ['spread'], size: 48, media: {src: 'nikkei/p_institution.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', text: "This isn't the 1989 market|coming back.|It's a different one.", highlights: ['different'], size: 50},
+  {dur: 146, kind: 'text', enter: 'slideL', text: "Japan isn't being bought|as Japan. It's the toolshed|for America's AI build-out.", highlights: ['toolshed'], size: 46, media: {src: 'nikkei/p_factory.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', text: "Priced in a currency|that's never been cheaper.", highlights: ['cheaper.'], size: 54},
+  {dur: 66, kind: 'impact', text: "Didn't recover.|Repurposed.", redBg: true},
+  {dur: 109, kind: 'text', enter: 'zoom', text: "Is Japan the AI trade|nobody's talking about?|Tell me below.", highlights: ['below.'], size: 50, media: {src: 'nikkei/p_night.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Impact on the open, the 1989/34-year card and the
@@ -134,11 +136,11 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 246, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 686, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1234, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1528, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1604, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 241, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 713, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1260, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1550, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1616, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
