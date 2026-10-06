@@ -120,6 +120,7 @@ import {TariffReel, DURATION_IN_FRAMES as TARIFF_FRAMES} from './TariffReel';
 import {DiggerReel, DURATION_IN_FRAMES as DIGGER_FRAMES} from './DiggerReel';
 import {NikkeiReel, DURATION_IN_FRAMES as NIKKEI_FRAMES} from './NikkeiReel';
 import {JaecooReel, DURATION_IN_FRAMES as JAECOO_FRAMES} from './JaecooReel';
+import {HedgeReel, DURATION_IN_FRAMES as HEDGE_FRAMES} from './HedgeReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1081,6 +1082,14 @@ export const RemotionRoot: React.FC = () => {
         id="JaecooReel"
         component={JaecooReel}
         durationInFrames={JAECOO_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="HedgeReel"
+        component={HedgeReel}
+        durationInFrames={HEDGE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

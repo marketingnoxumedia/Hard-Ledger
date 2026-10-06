@@ -3022,6 +3022,36 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   year $438M vs $1.8B). All supplied by the author and rendered as written; confirm every
   figure and attributed claim against primary sources before this publishes. **Voice:**
   uses the same distinct upbeat cloned voice as the rest of the series.
+- **`HedgeReel`** — "The Fed bet" (fast NEWS reel). NEW topic: **why gold is falling during
+  a war with inflation rising.** Thesis: **gold was never an inflation hedge — it's a bet
+  against the Fed;** it only wins when rates can't keep up with prices, and right now they
+  can, so gold is **losing to the one asset it was meant to protect you from — cash.** Beats:
+  gold's **January record ($5,608)** vs **~$4,121** now (**−26%**, −6% in September) while CPI
+  runs **3.4** and oil is near **$100**; gold rose this week **not** on the war or inflation
+  but because **a weak jobs report cut Fed-hike odds from 64% to 22%**; the mechanism (gold
+  pays nothing, **Treasuries pay 5.3%** — the most in **24 years** — so cash earns **~2% real**
+  while gold earns zero, and every time a hike looks likely that gap widens and gold loses).
+  **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a short
+  **post-hook pause**; close is a **CTA question** ("Still holding gold?"). Natural pace
+  (atempo 1.0) — **~2444 frames = ~81s**. **21 beats: 15 footage / 3 number cards** (JAN
+  $5,608 / NOW $4,121 / −26%; HIKE ODDS 64% → 22%; 10YR 5.3% − CPI 3.4% = +1.9% REAL — each
+  landing on the line whose figures it shows) **/ 1 solid-red impact** ("the craziest part")
+  **/ 2 black** ("that's what moved it" and "never an inflation hedge"). **NOT a duplicate of
+  `GoldReel`** ("Store of value", the gold-vs-stocks long-run case) — this is the timely
+  gold-vs-Fed-rates story with its own distinct footage. **Finance names/figures are
+  editorial** (spoken + shown as text); **the footage is strictly BRAND-FREE** — gold bullion
+  (generic "FINE GOLD" purity only, **no refiner stamps**), molten gold, abstract rising gold,
+  a bullion vault, a declining and a rising chart, a red down-arrow, an oil pump-jack, an
+  empty office, a neoclassical central-bank-style facade, a $100 Treasury-seal macro, cracked
+  earth, cash, an empty hand, a balance scale, a rate sheet, gold coins — **no brand logos,
+  wordmarks, tickers, flags, or identifiable faces** (sourcing rejected ARGOR-HERAEUS/GLOBAL
+  INTERGOLD stamped bars, Britannia flag bars, and charts with J.P.Morgan/UBS/Itaú broker
+  names). 18 distinct brand-free clips, each used once, none reused across other reels; all
+  Pexels ids collision-checked against the full ledger. **TIME-SENSITIVE / UNVERIFIED — verify
+  before publishing:** cites specific figures (gold $5,608 Jan → ~$4,121, −26%; CPI 3.4; oil
+  ~$100; Fed-hike odds 64% → 22%; 10yr 5.3%, most in 24 yrs; ~+1.9% real). All author-supplied
+  and rendered as written; confirm against primary sources before publishing. **Voice:** the
+  same upbeat cloned voice as the rest of the series.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
