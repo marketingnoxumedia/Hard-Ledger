@@ -118,6 +118,7 @@ import {FeldbergReel, DURATION_IN_FRAMES as FELDBERG_FRAMES} from './FeldbergRee
 import {WesterlyReel, DURATION_IN_FRAMES as WESTERLY_FRAMES} from './WesterlyReel';
 import {TariffReel, DURATION_IN_FRAMES as TARIFF_FRAMES} from './TariffReel';
 import {DiggerReel, DURATION_IN_FRAMES as DIGGER_FRAMES} from './DiggerReel';
+import {NikkeiReel, DURATION_IN_FRAMES as NIKKEI_FRAMES} from './NikkeiReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1063,6 +1064,14 @@ export const RemotionRoot: React.FC = () => {
         id="DiggerReel"
         component={DiggerReel}
         durationInFrames={DIGGER_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="NikkeiReel"
+        component={NikkeiReel}
+        durationInFrames={NIKKEI_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

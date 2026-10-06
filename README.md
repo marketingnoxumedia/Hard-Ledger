@@ -3022,6 +3022,40 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   year $438M vs $1.8B). All supplied by the author and rendered as written; confirm every
   figure and attributed claim against primary sources before this publishes. **Voice:**
   uses the same distinct upbeat cloned voice as the rest of the series.
+- **`NikkeiReel`** — "The toolshed" (the nineteenth fast NEWS reel in the series). NEW
+  topic: **Japan's Nikkei doubles in ~2 years after a 34-year recovery** — and why it's
+  really an **AI-supply-chain trade**. Thesis: **Japan isn't being bought as Japan; it's
+  the "toolshed" for America's AI build-out** (the machines that make and test chips),
+  priced in a **yen that's never been cheaper**, with banks finally earning a spread as
+  the BOJ raises rates. **The Nikkei didn't recover — it got repurposed.** Beats: the
+  Nikkei closing above **70,000** (70,729); the **1989** peak near **38,957** and the
+  **34-year** wait to reclaim it in 2024; now nearly double in **2.5 years**; the leaders
+  are chip-equipment names (**Tokyo Electron +78%**), not Toyota/Sony; the banks right
+  behind (**Mizuho +86%**, **MUFG +60%**) with the **yen ~163/$**; and the mechanism (US
+  AI data centres need machines to make + test chips, Japan makes both; a weak yen; a BOJ
+  rate-hike spread). Follows the client's QUESTION / STORY / ANSWER / CTA script; close is
+  a CTA question ("Is Japan the AI trade nobody's talking about?"). **HARD-CONDENSED to
+  ~155 words to fit the sub-60s cap (client's call).** Tempo ADAPTIVE (atempo ~1.22) —
+  total 1725 frames = ~57.5s. **Verbatim captions** on the text beats + number cards
+  (70,729; 1989 38,957 / 34 yrs; Tokyo Electron +78%; Mizuho +86% / MUFG +60% / yen 163).
+  4-mode rotating text animation. Media-dense (12 media / 2 black / 1 red; a solid-red
+  "Not recovered. Repurposed." thesis card, closing on a Tokyo night). **Company / index
+  names are editorial** (spoken + shown as text); **the footage is brand-free** — an
+  aerial Tokyo, an abstract data-number wall, a retro cityscape, a candlestick chart, a
+  rainy alley, a chip macro, finance towers, a data centre, yen notes, neoclassical
+  columns, a CNC machine, a neon reflection — **no company logos, no readable brand neon,
+  no flags, no identifiable faces** (the agents rejected boards full of Sony / Nintendo /
+  Canon / NVDA tickers, crypto-app UI, and readable bank/brand signage). Media credits —
+  Pexels (free license): aerial Tokyo (31148079), data-number wall (9951077), retro
+  cityscape (10413174), candlestick chart (38821937), rainy alley (39469558), chip macro
+  (34924856), finance towers (2132660), data centre (17489153), yen notes (29916084),
+  columns (31965503), CNC machine (10406128), neon reflection (1936741). **TIME-SENSITIVE
+  / UNVERIFIED — verify before publishing:** names real companies/indices (Nikkei, Toyota,
+  Sony, Tokyo Electron, Mizuho, Mitsubishi UFJ, Bank of Japan) and cites specific figures
+  (Nikkei ~70,729; 1989 peak ~38,957 reclaimed Feb 2024 after 34 yrs; Tokyo Electron +78%
+  YTD; Mizuho +86%; MUFG +60%; yen ~163/$). All supplied by the author and rendered as
+  written; confirm every figure against primary sources before this publishes. **Voice:**
+  uses the same distinct upbeat cloned voice as the rest of the series.
 - **`MinimumReel`** — "The minimum trap" (why a $5,000 credit-card balance can
   take 15+ years to clear: at ~21% APR, paying only the minimum you pay roughly
   the balance again in interest; a fixed $250/month clears the same debt in ~2
