@@ -91,13 +91,15 @@ type SceneDef = {
 // prohibited ads, 15B higher-risk ads/day; its safety team estimated the platforms are in 1 in 3
 // US scams, seniors lost $7.7B to online fraud (up 59%); to be banned an advertiser must score
 // >=95% scam -- below that they aren't removed, they're charged more; suspected fraud is upsold.
-// Close is a CTA QUESTION. Full VERBATIM of the client's QUESTION / STORY / ANSWER / CTA script,
+// Close is a tag/share CTA. Full VERBATIM of the client's QUESTION / STORY / ANSWER / CTA script,
 // nothing dropped, with 4 number cards ($294 "CURE" / DEEPFAKE; $16B = 10% OF REVENUE / 15B ADS
 // A DAY; 1 IN 3 US SCAMS / SENIORS -$7.7B / +59%; UNDER 95% / PAY MORE, STAY LIVE), each landing
-// as its facts are spoken. Short post-hook pause after the opening question. Sped VO (atempo
-// ~1.22) -- total 2209 frames = ~74s. 4-mode rotating text animation. 20 beats: 18 media (incl.
-// 3 video b-roll + 4 number cards over brand-safe media), 1 solid-red impact ("premium customer"
-// turn) and 1 black ("makes it work").
+// as its facts are spoken. Short post-hook pause after the opening question. Script v2 (new hook
+// "...running on Facebook? Less than you think.", an expanded answer -- "stay under 95% and pay
+// the surcharge" -- and a tag-driven CTA). Sped VO (atempo 1.33) -- total 2339 frames = ~78s.
+// 4-mode rotating text animation. 22 beats: 19 media (incl. 3 video b-roll + 4 number cards over
+// brand-safe media), 1 solid-red impact ("premium customer" turn) and 2 black ("less than you
+// think" and "makes it work").
 // NB: NEW topic -- own distinct footage under public/scam/, NO reuse of any other reel's clips.
 // NAMES/figures are editorial (VO + text only); FOOTAGE is strictly BRAND-FREE AND FACE-FREE --
 // generic scam/fraud/social/finance b-roll, NO Meta/Facebook/Instagram logos or app UI, NO Mark
@@ -110,26 +112,28 @@ type SceneDef = {
 // primary sources (and legal review for a named-company accusation) before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 213, kind: 'hook', text: 'Why does Meta keep running an ad|its own system says is|94% likely to be a scam?', kicker: 'Priced in', highlights: ['scam?'], size: 42, media: {src: 'scam/sc_warn.jpg', type: 'img', effect: 'in'}},
-  {dur: 171, kind: 'text', text: 'Mark Cuban gets emails every week|from pensioners who bought|his $294 diabetes cure.', highlights: ['$294'], size: 42, media: {src: 'scam/sc_inbox.jpg', type: 'img', effect: 'in'}},
-  {dur: 53, kind: 'lines', text: "$294 'CURE'|DEEPFAKE", highlights: ['deepfake'], reveal: [0, 26], media: {src: 'scam/sc_mask.jpg', type: 'img', effect: 'in'}},
-  {dur: 123, kind: 'text', enter: 'slideL', text: 'His face, his voice,|running as a paid ad|on Facebook.', highlights: ['Facebook.'], size: 46, media: {src: 'scam/sc_feed.mp4', type: 'video', effect: 'in'}},
-  {dur: 46, kind: 'text', text: "Here's the piece|you're missing.", highlights: ['missing.'], size: 50, media: {src: 'scam/sc_magnify.jpg', type: 'img', effect: 'in'}},
-  {dur: 67, kind: 'text', text: "Meta's internal documents,|reported by Reuters.", highlights: ['Reuters.'], size: 46, media: {src: 'scam/sc_docs.jpg', type: 'img', effect: 'in'}},
-  {dur: 168, kind: 'text', text: 'About $16 billion of its|2024 revenue —|roughly 10%.', highlights: ['$16'], size: 44, media: {src: 'scam/sc_revenue.jpg', type: 'img', effect: 'in'}},
-  {dur: 208, kind: 'lines', enter: 'slideL', text: '$16B = 10% OF REVENUE|15B ADS A DAY', highlights: ['15B'], reveal: [0, 34], media: {src: 'scam/sc_ads.jpg', type: 'img', effect: 'in'}},
-  {dur: 54, kind: 'text', text: 'And this is where|things get interesting.', highlights: ['interesting.'], size: 48, media: {src: 'scam/sc_pivot.jpg', type: 'img', effect: 'in'}},
-  {dur: 173, kind: 'text', enter: 'slideUp', text: "Meta's safety team estimated|its platforms are involved|in a third of all US scams.", highlights: ['third'], size: 44, media: {src: 'scam/sc_web.mp4', type: 'video', effect: 'in'}},
-  {dur: 220, kind: 'lines', text: '1 IN 3 US SCAMS|SENIORS -$7.7B|+59%', highlights: ['+59%'], reveal: [0, 24, 48], media: {src: 'scam/sc_senior.jpg', type: 'img', effect: 'in'}},
-  {dur: 49, kind: 'text', text: 'This is the part|that makes it work.', highlights: ['work.'], size: 54},
-  {dur: 163, kind: 'text', enter: 'slideR', text: 'To get banned, an advertiser|has to score at least|95% likely to be a scam.', highlights: ['95%'], size: 44, media: {src: 'scam/sc_gauge.jpg', type: 'img', effect: 'in'}},
+  {dur: 128, kind: 'hook', text: 'What does it take to keep|a scam ad running|on Facebook?', kicker: 'Priced in', highlights: ['Facebook?'], size: 44, media: {src: 'scam/sc_warn.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', text: 'Less than|you think.', highlights: ['think.'], size: 56},
+  {dur: 197, kind: 'text', text: 'Mark Cuban gets emails every week|from pensioners who bought|his $294 diabetes cure.', highlights: ['$294'], size: 42, media: {src: 'scam/sc_inbox.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'lines', text: "$294 'CURE'|DEEPFAKE", highlights: ['deepfake'], reveal: [0, 26], media: {src: 'scam/sc_mask.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'text', enter: 'slideL', text: 'His face, his voice,|running as a paid ad|on Facebook.', highlights: ['Facebook.'], size: 46, media: {src: 'scam/sc_feed.mp4', type: 'video', effect: 'in'}},
+  {dur: 44, kind: 'text', text: "Here's the piece|you're missing.", highlights: ['missing.'], size: 50, media: {src: 'scam/sc_magnify.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', text: "Meta's internal documents,|reported by Reuters.", highlights: ['Reuters.'], size: 46, media: {src: 'scam/sc_docs.jpg', type: 'img', effect: 'in'}},
+  {dur: 165, kind: 'text', text: 'About $16 billion of its|2024 revenue —|roughly 10%.', highlights: ['$16'], size: 44, media: {src: 'scam/sc_revenue.jpg', type: 'img', effect: 'in'}},
+  {dur: 187, kind: 'lines', enter: 'slideL', text: '$16B = 10% OF REVENUE|15B ADS A DAY', highlights: ['15B'], reveal: [0, 34], media: {src: 'scam/sc_ads.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', text: 'And this is where|things get interesting.', highlights: ['interesting.'], size: 48, media: {src: 'scam/sc_pivot.jpg', type: 'img', effect: 'in'}},
+  {dur: 158, kind: 'text', enter: 'slideUp', text: "Meta's safety team estimated|its platforms are involved|in a third of all US scams.", highlights: ['third'], size: 44, media: {src: 'scam/sc_web.mp4', type: 'video', effect: 'in'}},
+  {dur: 239, kind: 'lines', text: '1 IN 3 US SCAMS|SENIORS -$7.7B|+59%', highlights: ['+59%'], reveal: [0, 24, 48], media: {src: 'scam/sc_senior.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', text: 'This is the part|that makes it work.', highlights: ['work.'], size: 54},
+  {dur: 142, kind: 'text', enter: 'slideR', text: 'To get banned, an advertiser|has to score at least|95% likely to be a scam.', highlights: ['95%'], size: 44, media: {src: 'scam/sc_gauge.jpg', type: 'img', effect: 'in'}},
   {dur: 53, kind: 'text', text: 'Below that,|they aren\'t removed.', highlights: ['removed.'], size: 50, media: {src: 'scam/sc_greenlight.jpg', type: 'img', effect: 'in'}},
-  {dur: 57, kind: 'lines', text: 'UNDER 95%|PAY MORE, STAY LIVE', highlights: ['95%'], reveal: [0, 28], media: {src: 'scam/sc_price.jpg', type: 'img', effect: 'in'}},
-  {dur: 79, kind: 'text', text: 'Suspected fraud|isn\'t blocked.|It\'s upsold.', highlights: ['upsold.'], size: 48, media: {src: 'scam/sc_upsell.mp4', type: 'video', effect: 'in'}},
-  {dur: 103, kind: 'text', enter: 'slideL', text: 'Because a scammer at 94%|isn\'t a risk to Meta.', highlights: ['94%'], size: 44, media: {src: 'scam/sc_risk.jpg', type: 'img', effect: 'in'}},
-  {dur: 32, kind: 'impact', text: "He's a|premium customer.", highlights: ['customer.'], redBg: true},
-  {dur: 87, kind: 'text', text: "The system isn't|failing to catch them.|It's pricing them.", highlights: ['pricing'], size: 46, media: {src: 'scam/sc_net.jpg', type: 'img', effect: 'in'}},
-  {dur: 90, kind: 'text', enter: 'zoom', text: 'Who in your family|is on Facebook the most?|Tell me below.', highlights: ['below.'], size: 46, media: {src: 'scam/sc_family.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'lines', text: 'UNDER 95%|PAY MORE, STAY LIVE', highlights: ['95%'], reveal: [0, 28], media: {src: 'scam/sc_price.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', text: 'Suspected fraud|isn\'t blocked.|It\'s upsold.', highlights: ['upsold.'], size: 48, media: {src: 'scam/sc_upsell.mp4', type: 'video', effect: 'in'}},
+  {dur: 160, kind: 'text', enter: 'slideL', text: 'So what does it take?|Stay under 95%,|and pay the surcharge.', highlights: ['surcharge.'], size: 44, media: {src: 'scam/sc_pricetag.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', enter: 'slideL', text: 'A scammer at 94%|isn\'t a risk to Meta.', highlights: ['94%'], size: 46, media: {src: 'scam/sc_risk.jpg', type: 'img', effect: 'in'}},
+  {dur: 25, kind: 'impact', text: "He's a|premium customer.", highlights: ['customer.'], redBg: true},
+  {dur: 90, kind: 'text', text: "The system isn't|failing to catch them.|It's pricing them.", highlights: ['pricing'], size: 46, media: {src: 'scam/sc_net.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', enter: 'zoom', text: 'Someone in your family|is on Facebook right now.|Tag them — see this|before the next ad does.', highlights: ['tag'], size: 44, media: {src: 'scam/sc_family.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Impacts punch the open, the -26% and 64%->22% and
@@ -139,13 +143,13 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 384, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 841, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1049, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1276, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1761, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 2000, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2119, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 356, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 813, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1000, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1220, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1714, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2092, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2207, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {

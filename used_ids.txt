@@ -2095,4 +2095,5 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 31750576 scam/sc_upsell.mp4 (cascade of plain silver coins pouring/piling, Czech koruna only — money multiplying "upsold", no brand/logo/faces)
 33715990 scam/sc_risk.jpg (man shrugging with open palms, relaxed, plain studio bg — "isn't a risk", no brand/text; distinct from the gauge)
 5511462 scam/sc_net.jpg (hanging circular fishing/dip nets against blue sky — "catch them", no brand/text/people)
+6250874 scam/sc_pricetag.jpg (hand holding a vertical strip of generic barcode labels on pink — "pricing/surcharge", barcodes carry no brand name)
 7117619 scam/sc_family.jpg (grandmother and granddaughter leaning together looking at a phone, screen off — CTA, no app UI/logo on phone)

@@ -3113,27 +3113,28 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   breaking event and figures (Irkutsk lab death, ~200 observed; WHO assessment; the 1994 Surat
   plague — 56 deaths, ~500k fled, up to $2B lost). All author-supplied and rendered as written;
   confirm every claim against primary sources before publishing.
-- **`ScamReel`** — "Priced in" (fast NEWS reel). NEW topic: **why a platform keeps running an ad
-  its own system flags as 94% likely to be a scam.** Thesis: **a scammer at 94% isn't a risk to
+- **`ScamReel`** — "Priced in" (fast NEWS reel). NEW topic: **what it takes to keep a scam ad
+  running on Facebook — "less than you think."** Thesis: **a scammer at 94% isn't a risk to
   Meta, he's a premium customer — the system isn't failing to catch them, it's pricing them.**
   Beats: a **$294 "diabetes cure" deepfake** of **Mark Cuban's** face/voice as a paid **Facebook**
   ad; **Meta internal docs (reported by Reuters)** — **~$16B** of 2024 revenue (**~10%**) expected
   from scam/prohibited ads, **15B** higher-risk ads a day; its safety team estimated the platforms
   are in **1 in 3 US scams**, **seniors lost $7.7B** to online fraud (**+59%**); to be banned an
   advertiser must score **≥95%** scam — below that they aren't removed, they're **charged more**;
-  suspected fraud is **upsold**. **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA
-  script with a short **post-hook pause**; close is a **CTA question** ("Who in your family is on
-  Facebook the most?"). Sped VO (atempo ~1.22) — **2209 frames = ~74s**. **20 beats: 18 media**
-  (incl. **3 video b-roll** — a phone feed, a spreading network, a cascade of coins — **+ 4 number
-  cards**: $294 "CURE" / DEEPFAKE; $16B = 10% OF REVENUE / 15B ADS A DAY; 1 IN 3 US SCAMS /
-  SENIORS −$7.7B / +59%; UNDER 95% / PAY MORE, STAY LIVE) **/ 1 solid-red impact** ("premium
-  customer") **/ 1 black** ("makes it work"). **Its own distinct footage under `public/scam/`.**
+  suspected fraud is **upsold** — *stay under 95% and pay the surcharge.* **Full VERBATIM** of the
+  client's QUESTION / STORY / ANSWER / CTA script with a short **post-hook pause**; close is a
+  **tag/share CTA** ("Someone in your family is on Facebook right now. Tag them."). Sped VO (atempo
+  1.33) — **2339 frames = ~78s**. **22 beats: 19 media** (incl. **3 video b-roll** — a phone feed,
+  a spreading network, a cascade of coins — **+ 4 number cards**: $294 "CURE" / DEEPFAKE; $16B =
+  10% OF REVENUE / 15B ADS A DAY; 1 IN 3 US SCAMS / SENIORS −$7.7B / +59%; UNDER 95% / PAY MORE,
+  STAY LIVE) **/ 1 solid-red impact** ("premium customer") **/ 2 black** ("less than you think",
+  "makes it work"). **Its own distinct footage under `public/scam/`.**
   **Footage strictly BRAND-FREE AND FACE-FREE** — a generic "ERROR" phone, a blank mannequin head
   (the deepfake), a "TOP SECRET FILES" prop folder, a server panel, a tachometer in the red, a POS
   tap, a fishing net — **no Meta/Facebook/Instagram logos or app UI, no Mark Cuban likeness (real
   or deepfake), no Reuters logo, no brand logos or identifiable public figures** (sourcing rejected
   an Instagram profile grid, Bitcoin-logo coin clips, Visa/mBank cards, and SEAT/WIKA-branded
-  gauges). 18 distinct clips, each used once; all Pexels ids collision-checked against the ledger.
+  gauges). 19 distinct clips, each used once; all Pexels ids collision-checked against the ledger.
   Tense tech-exposé underscore under the cloned voice. **EDITORIAL / UNVERIFIED — verify before
   publishing:** makes serious allegations about a **named company** and cites specific figures
   attributed to Reuters reporting ($16B/~10%, 15B ads/day, 1-in-3 US scams, seniors −$7.7B/+59%,
