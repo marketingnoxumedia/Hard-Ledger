@@ -3086,6 +3086,33 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   and claims (Irkutsk lab death 5 Oct, ~200 under observation; CDC/WHO assessments; a formal US
   diplomatic request and a scheduled Trump–Putin call). All author-supplied and rendered as
   written; confirm every claim against primary sources before publishing.
+- **`CoverupReel`** — "The cover-up" (fast NEWS reel). **A/B twin of `SilenceReel`** — same
+  Irkutsk plague event, but a **different angle: the economic cost of silence.** Thesis: **a
+  plague nobody will explain is an economic problem with no cure** — markets, airlines and ports
+  don't price the pathogen, they **price the silence;** Russia is already losing **the one thing
+  that keeps the bill small — credibility.** Beats: the Irkutsk lab death (**~200 observed**); an
+  official **reportedly said plague**, the **wording was changed**, a **local warning deleted**;
+  Russia says **under control**, WHO **low risk**, **treatable** — on paper **contained**; then
+  the **1994 Surat** precedent — **56 deaths**, **half a million fled** in days, **airlines
+  cancelled**, **ports turned away ships**, **up to $2 billion** lost — *the disease didn't cost
+  $2B, the uncertainty did.* **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA
+  script with a short **post-hook pause**; close is a **CTA question** ("Which costs more — the
+  outbreak or the cover-up?"). Sped VO (atempo ~1.14) — **2239 frames = ~75s**. **24 beats: 22
+  media** (incl. **4 video b-roll** — a rotating globe, microscope microbes, an aerial fleeing
+  crowd, a falling-market screen — **+ 3 summary cards**: IRKUTSK / ~200 OBSERVED; WHO: LOW RISK
+  / TREATABLE; 1994 SURAT / 56 DEATHS / −$2 BILLION) **/ 1 solid-red impact** ("the silence
+  around it") **/ 1 black** ("makes it work"). **Its own distinct footage under `public/coverup/`
+  — no reuse of `SilenceReel`'s clips** or any other reel's. **Footage strictly BRAND-FREE AND
+  FACE-FREE** — a columned facade, a suited figure from behind, a red-pen strike-through, an
+  empty ward, a shattered-glass crack, a balance scale — **no Trump/Putin likenesses, no flags
+  (Russia/US/India), no CDC/WHO/agency seals, no airline livery, no brand logos or
+  foreign-language signage** (sourcing rejected a hammer-and-sickle emblem, Cyrillic/Hindi signs,
+  Ryanair/Alaska liveries, COVID-labelled vials, and broadcaster chyrons). 22 distinct clips,
+  each used once; all Pexels ids collision-checked against the full ledger. Tense news-underscore
+  bed under the cloned voice. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** cites a
+  breaking event and figures (Irkutsk lab death, ~200 observed; WHO assessment; the 1994 Surat
+  plague — 56 deaths, ~500k fled, up to $2B lost). All author-supplied and rendered as written;
+  confirm every claim against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
