@@ -3057,6 +3057,34 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$100; Fed-hike odds 64% → 22%; 10yr 5.3%, most in 24 yrs; ~+1.9% real). All author-supplied
   and rendered as written; confirm against primary sources before publishing. **Voice:** the
   same upbeat cloned voice as the rest of the series.
+- **`SilenceReel`** — "The silence" (fast NEWS reel). NEW topic: **why the US is offering
+  Russia help with a disease it already knows how to cure.** Thesis: **the threat isn't the
+  bacteria, it's the information** — antibiotics fix plague, but **nothing fixes a government
+  that won't say what happened.** Beats: a **lab technician dies** at the **Anti-Plague
+  Institute in Irkutsk** (**5 Oct**, **~200 observed**); **pneumonic plague is bacterial** and
+  treatable (**CDC stockpile**, **WHO rates risk low**) — on paper a **contained local
+  incident**; yet the **State Department sends Moscow a formal request**, **Trump offers help**,
+  a **Putin call is scheduled**; what Washington **can't treat is the silence** (no cause of
+  death, no lab records, nothing to the WHO). **Full VERBATIM** of the client's QUESTION /
+  STORY / ANSWER / CTA script with a short **post-hook pause**; close is a **CTA question**
+  ("Should the US be asking, or demanding?"). Sped VO (atempo ~1.08) — **2477 frames = ~83s**.
+  **24 beats: 21 media** (incl. **4 video b-roll** — a petri dish, cells under a microscope, a
+  gloved test-tube, an abstract data wave — **+ 3 summary cards**: IRKUTSK / 5 OCTOBER / ~200
+  OBSERVED; TREATABLE / WHO: LOW RISK; FORMAL REQUEST SENT / PUTIN CALL SCHEDULED) **/ 1
+  solid-red impact** ("silence") **/ 2 black** ("makes it work", "what isn't in the statement").
+  **NEW topic — not a duplicate of any existing reel.** **Names/figures/event are editorial**
+  (spoken + shown as text); **the footage is strictly BRAND-FREE AND FACE-FREE** — generic lab,
+  medical, and diplomatic b-roll (a brutalist facade, a red rotary phone, a wax-sealed letter,
+  vault doors, a lone microphone, a declined handshake) — **no Trump/Putin likenesses, no
+  national flags, no CDC/WHO/State-Dept seals, no brand logos, wordmarks, or foreign-language
+  signage** (sourcing rejected COVID-labelled vials, a Cyrillic broadcaster chyron, brand
+  wordmarks on a phone, and a flag behind a gavel). 21 distinct clips, each used once, none
+  reused across reels; all Pexels ids collision-checked against the full ledger. **A tense,
+  restrained news-underscore bed** (not the upbeat finance music) under the cloned voice.
+  **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** cites a specific breaking event
+  and claims (Irkutsk lab death 5 Oct, ~200 under observation; CDC/WHO assessments; a formal US
+  diplomatic request and a scheduled Trump–Putin call). All author-supplied and rendered as
+  written; confirm every claim against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
