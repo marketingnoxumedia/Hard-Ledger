@@ -3067,7 +3067,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   a **Putin call is scheduled**; what Washington **can't treat is the silence** (no cause of
   death, no lab records, nothing to the WHO). **Full VERBATIM** of the client's QUESTION /
   STORY / ANSWER / CTA script with a short **post-hook pause**; close is a **CTA question**
-  ("Should the US be asking, or demanding?"). Sped VO (atempo ~1.08) — **2477 frames = ~83s**.
+  ("Should the US be asking, or demanding?"). Sped VO (atempo ~1.25, client asked for a faster
+  read) — **2156 frames = ~72s**.
   **24 beats: 21 media** (incl. **4 video b-roll** — a petri dish, cells under a microscope, a
   gloved test-tube, an abstract data wave — **+ 3 summary cards**: IRKUTSK / 5 OCTOBER / ~200
   OBSERVED; TREATABLE / WHO: LOW RISK; FORMAL REQUEST SENT / PUTIN CALL SCHEDULED) **/ 1
