@@ -94,8 +94,8 @@ type SceneDef = {
 // Full VERBATIM of the client's QUESTION / STORY / ANSWER / CTA script, nothing dropped, with 3
 // summary cards (IRKUTSK / 5 OCTOBER / ~200 OBSERVED; TREATABLE / WHO: LOW RISK; FORMAL REQUEST
 // SENT / PUTIN CALL SCHEDULED), each landing as its facts are spoken. Short post-hook pause
-// after the opening question. Sped VO (atempo ~1.25, client: "read faster") -- total 2156
-// frames = ~72s. 4-mode
+// after the opening question (the hook question itself sped an extra 10% per client).
+// Sped VO (atempo ~1.25, hook ~1.375) -- total ~2137 frames = ~71s. 4-mode
 // rotating text animation. 24 beats: 21 media (incl. 4 video b-roll + 3 summary cards over
 // brand-safe media), 1 solid-red impact ("silence" turn) and 2 black (the "makes it work" and
 // "what isn't in the statement" reflection lines).
@@ -110,28 +110,28 @@ type SceneDef = {
 // rendered as written; confirm every claim against primary sources before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 236, kind: 'hook', text: 'Why is America offering|to help Russia with a disease|it already knows how to cure?', kicker: 'The silence', highlights: ['cure?'], size: 44, media: {src: 'silence/s_bacteria.mp4', type: 'video', effect: 'in'}},
+  {dur: 219, kind: 'hook', text: 'Why is America offering|to help Russia with a disease|it already knows how to cure?', kicker: 'The silence', highlights: ['cure?'], size: 44, media: {src: 'silence/s_bacteria.mp4', type: 'video', effect: 'in'}},
   {dur: 155, kind: 'text', text: 'Fifth of October.|A lab technician dies|at the Anti-Plague Institute.', highlights: ['dies'], size: 46, media: {src: 'silence/s_institute.jpg', type: 'img', effect: 'in'}},
-  {dur: 40, kind: 'text', enter: 'slideL', text: 'Suspected|pneumonic plague.', highlights: ['plague.'], size: 54, media: {src: 'silence/s_micro.mp4', type: 'video', effect: 'in'}},
-  {dur: 66, kind: 'lines', text: 'IRKUTSK|5 OCTOBER|~200 OBSERVED', highlights: ['~200'], reveal: [0, 20, 40], media: {src: 'silence/s_map.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', enter: 'slideL', text: 'Suspected|pneumonic plague.', highlights: ['plague.'], size: 54, media: {src: 'silence/s_micro.mp4', type: 'video', effect: 'in'}},
+  {dur: 67, kind: 'lines', text: 'IRKUTSK|5 OCTOBER|~200 OBSERVED', highlights: ['~200'], reveal: [0, 20, 40], media: {src: 'silence/s_map.jpg', type: 'img', effect: 'in'}},
   {dur: 100, kind: 'text', text: "Russia says it's|under control,|and little else.", highlights: ['else.'], size: 48, media: {src: 'silence/s_podium.jpg', type: 'img', effect: 'in'}},
   {dur: 26, kind: 'text', text: "Here's the piece|you're missing.", highlights: ['missing.'], size: 50, media: {src: 'silence/s_magnify.jpg', type: 'img', effect: 'in'}},
   {dur: 95, kind: 'text', enter: 'slideUp', text: 'Pneumonic plague|is bacterial.|Antibiotics treat it.', highlights: ['bacterial.'], size: 46, media: {src: 'silence/s_pills.jpg', type: 'img', effect: 'in'}},
-  {dur: 57, kind: 'text', text: 'The CDC has|the stockpile.', highlights: ['stockpile.'], size: 50, media: {src: 'silence/s_stockpile.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', text: 'The CDC has|the stockpile.', highlights: ['stockpile.'], size: 50, media: {src: 'silence/s_stockpile.jpg', type: 'img', effect: 'in'}},
   {dur: 78, kind: 'text', text: 'The WHO rates the|public risk as low.', highlights: ['low.'], size: 48, media: {src: 'silence/s_riskgauge.jpg', type: 'img', effect: 'in'}},
   {dur: 84, kind: 'lines', text: 'TREATABLE|WHO: LOW RISK', highlights: ['treatable'], reveal: [0, 34], media: {src: 'silence/s_doc.jpg', type: 'img', effect: 'in'}},
   {dur: 67, kind: 'text', text: 'And this is where|things get interesting.', highlights: ['interesting.'], size: 48, media: {src: 'silence/s_pivot.jpg', type: 'img', effect: 'in'}},
-  {dur: 130, kind: 'text', enter: 'slideL', text: 'The State Department|sends Moscow a formal|diplomatic request anyway.', highlights: ['anyway.'], size: 44, media: {src: 'silence/s_letter.jpg', type: 'img', effect: 'in'}},
+  {dur: 131, kind: 'text', enter: 'slideL', text: 'The State Department|sends Moscow a formal|diplomatic request anyway.', highlights: ['anyway.'], size: 44, media: {src: 'silence/s_letter.jpg', type: 'img', effect: 'in'}},
   {dur: 22, kind: 'text', text: 'Trump offers help.', highlights: ['help.'], size: 52, media: {src: 'silence/s_phone.jpg', type: 'img', effect: 'in'}},
-  {dur: 66, kind: 'lines', text: 'FORMAL REQUEST SENT|PUTIN CALL SCHEDULED', highlights: ['scheduled'], reveal: [0, 34], media: {src: 'silence/s_diplo.jpg', type: 'img', effect: 'in'}},
-  {dur: 86, kind: 'text', text: 'The US is escalating|over something|it says it can handle.', highlights: ['escalating'], size: 46, media: {src: 'silence/s_table.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'lines', text: 'FORMAL REQUEST SENT|PUTIN CALL SCHEDULED', highlights: ['scheduled'], reveal: [0, 34], media: {src: 'silence/s_diplo.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', text: 'The US is escalating|over something|it says it can handle.', highlights: ['escalating'], size: 46, media: {src: 'silence/s_table.jpg', type: 'img', effect: 'in'}},
   {dur: 88, kind: 'text', text: 'This is the part|that makes it work.', highlights: ['work.'], size: 54},
   {dur: 72, kind: 'impact', text: 'What Washington|can\'t treat is|silence.', highlights: ['silence.'], redBg: true},
   {dur: 160, kind: 'text', enter: 'slideR', text: 'No confirmed cause of death.|No lab records.|Nothing to the WHO.', highlights: ['who.'], size: 44, media: {src: 'silence/s_records.jpg', type: 'img', effect: 'in'}},
   {dur: 43, kind: 'text', text: "The threat isn't|what's in the sample.", highlights: ['sample.'], size: 48, media: {src: 'silence/s_vial.mp4', type: 'video', effect: 'in'}},
-  {dur: 43, kind: 'text', text: "It's what isn't|in the statement.", highlights: ['statement.'], size: 52},
-  {dur: 90, kind: 'text', enter: 'slideL', text: "The threat isn't the bacteria.|It's the information.", highlights: ['information.'], size: 46, media: {src: 'silence/s_data.mp4', type: 'video', effect: 'in'}},
-  {dur: 148, kind: 'text', text: 'Antibiotics fix plague.|Nothing fixes a government|that won\'t say what happened.', highlights: ['happened.'], size: 44, media: {src: 'silence/s_door.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', text: "It's what isn't|in the statement.", highlights: ['statement.'], size: 52},
+  {dur: 91, kind: 'text', enter: 'slideL', text: "The threat isn't the bacteria.|It's the information.", highlights: ['information.'], size: 46, media: {src: 'silence/s_data.mp4', type: 'video', effect: 'in'}},
+  {dur: 147, kind: 'text', text: 'Antibiotics fix plague.|Nothing fixes a government|that won\'t say what happened.', highlights: ['happened.'], size: 44, media: {src: 'silence/s_door.jpg', type: 'img', effect: 'in'}},
   {dur: 102, kind: 'text', text: "That's the help|America is offering,|and the help Russia isn't taking.", highlights: ['taking.'], size: 44, media: {src: 'silence/s_handshake.jpg', type: 'img', effect: 'in'}},
   {dur: 93, kind: 'text', enter: 'zoom', text: 'Should the US be asking,|or demanding?|Tell me below.', highlights: ['below.'], size: 46, media: {src: 'silence/s_gavel.jpg', type: 'img', effect: 'in'}},
 ];
@@ -143,13 +143,13 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 431, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 853, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 937, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1156, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1396, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1714, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 2054, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 413, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 835, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 919, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1139, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1379, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1696, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 2036, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
