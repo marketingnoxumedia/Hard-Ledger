@@ -2003,7 +2003,7 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 7647753 jaecoo/j_keys.jpg (open palm holding a plain black car key fob, no readable brand/emblem, no face)
 5412462 jaecoo/j_cut.jpg (black scissors cutting torn teal/orange paper — a "price cut" concept, no brand)
 
-# HedgeReel (The Fed bet) — NEWS reel. Topic: why gold is falling during a war with inflation rising — gold's Jan record ($5,608) vs ~$4,121 now (-26%), while CPI 3.4 and oil ~$100; gold rose this week only because a weak jobs report cut Fed-hike odds 64%->22%; mechanism (gold pays nothing, Treasuries pay 5.3% — most in 24 yrs — so cash earns ~2% real while gold earns zero; every time a hike looks likely the gap widens and gold loses). Thesis: gold was never an inflation hedge — it's a bet against the Fed; it loses to cash when rates keep up with prices. Full verbatim script (~81s) with 3 number cards (JAN $5,608 / NOW $4,121 / -26%; HIKE ODDS 64% -> 22%; 10YR 5.3% - CPI 3.4% = +1.9% REAL). 21 beats: 15 footage / 3 cards (over dark media) / 1 red / 2 black. NOT a dup of GoldReel ("Store of value", gold-vs-stocks long run) — distinct gold-vs-Fed-rates story, own footage. FINANCE names/figures editorial; FOOTAGE brand-free — gold bullion (no refiner stamps), charts, central-bank building, cash, oil; no brand logos/wordmarks/tickers/flags/faces. Own footage under public/hedge/.
+# HedgeReel (The Fed bet) — NEWS reel. Topic: why gold is falling during a war with inflation rising — gold's Jan record ($5,608) vs ~$4,121 now (-26%), while CPI 3.4 and oil ~$100; gold rose this week only because a weak jobs report cut Fed-hike odds 64%->22%; mechanism (gold pays nothing, Treasuries pay 5.3% — most in 24 yrs — so cash earns ~2% real while gold earns zero; every time a hike looks likely the gap widens and gold loses). Thesis: gold was never an inflation hedge — it's a bet against the Fed; it loses to cash when rates keep up with prices. Full verbatim script with 3 number cards (JAN $5,608 / NOW $4,121 / -26%; HIKE ODDS 64% -> 22%; 10YR 5.3% - CPI 3.4% = +1.9% REAL). MAX MEDIA-DENSE 30-beat re-cut (sped VO atempo ~1.2, ~68s): 28 media (25 footage incl. 5 video b-roll + 3 cards over dark media) / 1 red / 1 black. +10 new brand-free clips appended below (ids 30201205, 7879902, 12291818, 4256870, 31802320, 100733, 8266768, 4459324, 34522437, 36053943). NOT a dup of GoldReel ("Store of value", gold-vs-stocks long run) — distinct gold-vs-Fed-rates story, own footage. FINANCE names/figures editorial; FOOTAGE brand-free — gold bullion (no refiner stamps), charts, central-bank building, cash, oil; no brand logos/wordmarks/tickers/flags/faces. Own footage under public/hedge/.
 33539244 hedge/g_bars.jpg (CGI stacked gold bars, "FINE GOLD 999.9" generic purity only, no refiner brand)
 30836332 hedge/g_glint.jpg (extreme close-up of molten gold in a foundry crucible, abstract)
 21031387 hedge/g_peak.jpg (abstract vertical gold light streaks on dark — rising/record feel, no text)
@@ -2022,3 +2022,13 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 6037111 hedge/g_zero.jpg (a single empty open palm on near-black — "earns zero")
 7472644 hedge/g_scale.jpg (antique two-pan balance scale with coins in a pan — weighing)
 4038853 hedge/g_cashpile.jpg (overhead pile of US $20 bills, currency only)
+30201205 hedge/g_ingot.jpg (single FINE GOLD 999.9 bar held in a metal-mesh glove, generic purity text only, no refiner brand)
+7879902 hedge/g_cpi.jpg (brand-free wire grocery basket — parsley, tomatoes, potatoes; no store/product logos)
+12291818 hedge/g_war.mp4 (dark backlit soldier silhouettes advancing through smoke — no face/flag/insignia/text)
+4256870 hedge/g_fedbldg.jpg (generic neoclassical columned facade against blue sky — no name/flag/signage)
+31802320 hedge/g_mech.mp4 (macro of interlocking metal gears turning with sparks — brand-free, no text)
+100733 hedge/g_24yr.jpg (aged rusted analog clock on weathered wood — "decades" feel, no wordmark)
+8266768 hedge/g_price.jpg (fuel-pump digit display, generic "¢/LITRE 87 OCTANE" words/digits only, no station brand/logo)
+4459324 hedge/g_hike.mp4 (dark close-up of ascending escalator steps receding upward — "rising again", no text)
+34522437 hedge/g_myth.jpg (dim tarnished natural gold specimen glowing on pure black — no refiner stamp/brand)
+36053943 hedge/g_nowcan.mp4 (abstract green neon waveform on near-black — reads as a live green market line, no ticker/logo)

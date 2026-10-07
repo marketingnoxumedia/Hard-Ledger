@@ -95,10 +95,10 @@ type SceneDef = {
 // CTA QUESTION. Full VERBATIM of the client's QUESTION / STORY / ANSWER / CTA script, nothing
 // dropped, with 3 number cards (JAN $5,608 / NOW $4,121 / -26%; HIKE ODDS 64% -> 22%; 10YR
 // 5.3% - CPI 3.4% = +1.9% REAL). Each card lands on the line whose figures it shows (no
-// pre-showing). Short post-hook pause after the opening question. Natural pace (atempo 1.0) --
-// total ~2444 frames = ~81s. 4-mode rotating text animation. 21 beats: 15 footage / 3 number
-// cards (over brand-safe dark media) / 1 solid-red impact ("the craziest part" turn) / 2
-// black (the "that's what moved it" and "never an inflation hedge" beats).
+// pre-showing). Sped VO (atempo ~1.2) -- total 2031 frames = ~68s. 4-mode rotating text
+// animation. MAX MEDIA-DENSE 30-beat cut (same VO/music, re-split into 30 beats via STT):
+// 28 media beats (25 footage incl. 5 video b-roll + 3 number cards over brand-safe media),
+// 1 solid-red impact ("the craziest part" turn) and 1 black ("that's what moved it").
 // NB: NOT a duplicate of GoldReel ("Store of value", gold-vs-stocks long run) -- this is the
 // timely gold-vs-Fed-rates story; own distinct footage, no reuse.
 // FINANCE NAMES/figures are editorial (VO + text only); FOOTAGE is strictly BRAND-FREE --
@@ -110,27 +110,36 @@ type SceneDef = {
 // every figure against primary sources before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 134, kind: 'hook', text: 'Why is gold falling|during a war,|with inflation rising?', kicker: 'The Fed bet', highlights: ['rising?'], size: 46, media: {src: 'hedge/g_bars.jpg', type: 'img', effect: 'in'}},
+  {dur: 136, kind: 'hook', text: 'Why is gold falling|during a war,|with inflation rising?', kicker: 'The Fed bet', highlights: ['rising?'], size: 46, media: {src: 'hedge/g_bars.jpg', type: 'img', effect: 'in'}},
   {dur: 79, kind: 'text', text: "But there's one thing|most people overlook.", highlights: ['overlook.'], size: 50, media: {src: 'hedge/g_glint.jpg', type: 'img', effect: 'in'}},
-  {dur: 113, kind: 'text', enter: 'slideL', text: 'Gold hit a record in January:|five thousand six hundred dollars.', highlights: ['record'], size: 46, media: {src: 'hedge/g_peak.jpg', type: 'img', effect: 'in'}},
-  {dur: 69, kind: 'text', text: "Today it's around|four thousand one hundred.", highlights: [], size: 48, media: {src: 'hedge/g_down.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', enter: 'slideL', text: 'Gold hit a record|in January:', highlights: ['record'], size: 50, media: {src: 'hedge/g_peak.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', text: 'Five thousand|six hundred dollars.', highlights: ['dollars.'], size: 52, media: {src: 'hedge/g_ingot.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', text: "Today it's around|four thousand|one hundred.", highlights: [], size: 48, media: {src: 'hedge/g_down.jpg', type: 'img', effect: 'in'}},
   {dur: 116, kind: 'lines', text: 'JAN  $5,608|NOW  $4,121|-26%', highlights: ['-26%'], reveal: [0, 24, 48], media: {src: 'hedge/g_chart.jpg', type: 'img', effect: 'in'}},
-  {dur: 112, kind: 'text', text: 'While inflation runs|at three point four|and oil is near a hundred.', highlights: ['hundred.'], size: 46, media: {src: 'hedge/g_oil.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', text: 'While inflation runs|at three point four.', highlights: [], size: 48, media: {src: 'hedge/g_cpi.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', text: 'And oil is near|a hundred.', highlights: ['hundred.'], size: 50, media: {src: 'hedge/g_oil.jpg', type: 'img', effect: 'in'}},
   {dur: 64, kind: 'impact', text: "But that's not even|the craziest part.", highlights: ['craziest'], redBg: true},
-  {dur: 108, kind: 'text', enter: 'slideUp', text: 'Gold rose this week.|Not because of the war.|Not because of inflation.', highlights: ['rose'], size: 46, media: {src: 'hedge/g_rose.jpg', type: 'img', effect: 'in'}},
-  {dur: 132, kind: 'text', text: 'Because a weak jobs report|cut the odds of a Fed rate hike|this month', highlights: ['jobs'], size: 44, media: {src: 'hedge/g_jobs.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', enter: 'slideUp', text: 'Gold rose|this week.', highlights: ['rose'], size: 56, media: {src: 'hedge/g_rose.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', text: 'Not because of the war.|Not because of inflation.', highlights: [], size: 44, media: {src: 'hedge/g_war.mp4', type: 'video', effect: 'in'}},
+  {dur: 55, kind: 'text', text: 'Because a weak|jobs report', highlights: ['jobs'], size: 48, media: {src: 'hedge/g_jobs.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', text: 'cut the odds of a|Fed rate hike|this month', highlights: ['hike'], size: 46, media: {src: 'hedge/g_fedbldg.jpg', type: 'img', effect: 'in'}},
   {dur: 61, kind: 'lines', text: 'HIKE ODDS|64% → 22%', highlights: ['22%'], reveal: [0, 30], media: {src: 'hedge/g_fed.jpg', type: 'img', effect: 'in'}},
-  {dur: 41, kind: 'text', text: "That's it.|That's what moved it.", highlights: ['moved'], size: 52},
-  {dur: 96, kind: 'text', text: "Here's exactly how they do it.|Gold pays nothing.", highlights: ['nothing.'], size: 48, media: {src: 'hedge/g_vault.jpg', type: 'img', effect: 'in'}},
-  {dur: 193, kind: 'text', enter: 'slideL', text: 'Treasuries now pay|five point three percent,|the most in twenty-four years.|Inflation is three point four.', highlights: ['five'], size: 42, media: {src: 'hedge/g_bonds.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', text: "That's it.|That's what|moved it.", highlights: ['moved'], size: 54},
+  {dur: 46, kind: 'text', text: "Here's exactly|how they do it.", highlights: [], size: 50, media: {src: 'hedge/g_mech.mp4', type: 'video', effect: 'in'}},
+  {dur: 50, kind: 'text', text: 'Gold pays|nothing.', highlights: ['nothing.'], size: 58, media: {src: 'hedge/g_vault.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', enter: 'slideL', text: 'Treasuries now pay|5.3%.', highlights: ['5.3%'], size: 50, media: {src: 'hedge/g_bonds.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', text: 'The most in|24 years.', highlights: ['24'], size: 50, media: {src: 'hedge/g_24yr.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', text: 'Inflation is|3.4%.', highlights: ['3.4%'], size: 52, media: {src: 'hedge/g_price.jpg', type: 'img', effect: 'in'}},
   {dur: 95, kind: 'lines', text: '10YR 5.3% - CPI 3.4%|= +1.9% REAL', highlights: ['+1.9%'], reveal: [0, 40], media: {src: 'hedge/g_cash.jpg', type: 'img', effect: 'in'}},
-  {dur: 41, kind: 'text', text: 'Gold earns zero.', highlights: ['zero.'], size: 54, media: {src: 'hedge/g_zero.jpg', type: 'img', effect: 'in'}},
-  {dur: 143, kind: 'text', enter: 'slideR', text: "Every time the Fed|looks like it'll hike again,|that gap widens, and gold loses.", highlights: ['loses.'], size: 44, media: {src: 'hedge/g_gap.jpg', type: 'img', effect: 'in'}},
-  {dur: 79, kind: 'text', text: 'Gold was never|an inflation hedge.', highlights: ['hedge.'], size: 52},
-  {dur: 44, kind: 'text', text: "It's a bet|against the Fed.", highlights: ['fed.'], size: 52, media: {src: 'hedge/g_scale.jpg', type: 'img', effect: 'in'}},
-  {dur: 123, kind: 'text', enter: 'slideL', text: "It only wins when rates|can't keep up with prices.|Right now they can.", highlights: ['can.'], size: 46, media: {src: 'hedge/g_rates.jpg', type: 'img', effect: 'in'}},
-  {dur: 130, kind: 'text', text: 'So gold is losing to the one asset|it was meant to protect you from.|Cash.', highlights: ['cash.'], size: 42, media: {src: 'hedge/g_cashpile.jpg', type: 'img', effect: 'in'}},
-  {dur: 65, kind: 'text', enter: 'zoom', text: 'Still holding gold?|Tell me below.', highlights: ['below.'], size: 50, media: {src: 'hedge/g_goldend.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', text: 'Gold earns|zero.', highlights: ['zero.'], size: 58, media: {src: 'hedge/g_zero.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', text: "Every time the Fed|looks like it'll|hike again,", highlights: ['hike'], size: 46, media: {src: 'hedge/g_hike.mp4', type: 'video', effect: 'in'}},
+  {dur: 71, kind: 'text', enter: 'slideR', text: 'that gap widens,|and gold loses.', highlights: ['loses.'], size: 50, media: {src: 'hedge/g_gap.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', text: 'Gold was never|an inflation hedge.', highlights: ['hedge.'], size: 52, media: {src: 'hedge/g_myth.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', text: "It's a bet|against the Fed.", highlights: ['fed.'], size: 54, media: {src: 'hedge/g_scale.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', enter: 'slideL', text: "It only wins when rates|can't keep up|with prices.", highlights: ['prices.'], size: 46, media: {src: 'hedge/g_rates.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', text: 'Right now|they can.', highlights: ['can.'], size: 56, media: {src: 'hedge/g_nowcan.mp4', type: 'video', effect: 'in'}},
+  {dur: 130, kind: 'text', text: 'So gold is losing|to the one asset|it was meant to|protect you from. Cash.', highlights: ['cash.'], size: 42, media: {src: 'hedge/g_cashpile.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', enter: 'zoom', text: 'Still holding gold?|Tell me below.', highlights: ['below.'], size: 50, media: {src: 'hedge/g_goldend.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Impacts punch the open, the -26% and 64%->22% and
@@ -140,13 +149,13 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 395, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 623, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 927, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1029, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1318, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1597, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1973, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 397, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 625, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 929, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1031, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1320, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1599, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1975, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {

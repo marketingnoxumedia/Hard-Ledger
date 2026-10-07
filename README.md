@@ -3033,10 +3033,12 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   while gold earns zero, and every time a hike looks likely that gap widens and gold loses).
   **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a short
   **post-hook pause**; close is a **CTA question** ("Still holding gold?"). Pace sped up at the client's
-  request (atempo ~1.2) — **~2038 frames = ~68s**. **21 beats: 15 footage / 3 number cards** (JAN
-  $5,608 / NOW $4,121 / −26%; HIKE ODDS 64% → 22%; 10YR 5.3% − CPI 3.4% = +1.9% REAL — each
-  landing on the line whose figures it shows) **/ 1 solid-red impact** ("the craziest part")
-  **/ 2 black** ("that's what moved it" and "never an inflation hedge"). **NOT a duplicate of
+  request (atempo ~1.2) — **2031 frames = ~68s**. Re-cut **MAX MEDIA-DENSE at 30 beats** (same
+  VO + music, re-split via STT): **28 media beats** — **25 footage** (incl. **5 video b-roll**:
+  gold-bar macro, soldier silhouettes, turning gears, an ascending escalator, a green waveform)
+  **+ 3 number cards** (JAN $5,608 / NOW $4,121 / −26%; HIKE ODDS 64% → 22%; 10YR 5.3% − CPI
+  3.4% = +1.9% REAL — each landing on the line whose figures it shows) **/ 1 solid-red impact**
+  ("the craziest part") **/ 1 black** ("that's what moved it"). **NOT a duplicate of
   `GoldReel`** ("Store of value", the gold-vs-stocks long-run case) — this is the timely
   gold-vs-Fed-rates story with its own distinct footage. **Finance names/figures are
   editorial** (spoken + shown as text); **the footage is strictly BRAND-FREE** — gold bullion
@@ -3046,8 +3048,11 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   earth, cash, an empty hand, a balance scale, a rate sheet, gold coins — **no brand logos,
   wordmarks, tickers, flags, or identifiable faces** (sourcing rejected ARGOR-HERAEUS/GLOBAL
   INTERGOLD stamped bars, Britannia flag bars, and charts with J.P.Morgan/UBS/Itaú broker
-  names). 18 distinct brand-free clips, each used once, none reused across other reels; all
-  Pexels ids collision-checked against the full ledger. **TIME-SENSITIVE / UNVERIFIED — verify
+  names). 28 distinct brand-free clips (18 original + 10 new for the 30-beat re-cut: a gloved
+  single FINE GOLD bar, a grocery basket, soldier silhouettes, a columned facade, turning
+  gears, an aged clock, a fuel-pump price board, an ascending escalator, a dim gold specimen,
+  a green waveform), each used once, none reused across other reels; all Pexels ids
+  collision-checked against the full ledger. **TIME-SENSITIVE / UNVERIFIED — verify
   before publishing:** cites specific figures (gold $5,608 Jan → ~$4,121, −26%; CPI 3.4; oil
   ~$100; Fed-hike odds 64% → 22%; 10yr 5.3%, most in 24 yrs; ~+1.9% real). All author-supplied
   and rendered as written; confirm against primary sources before publishing. **Voice:** the
