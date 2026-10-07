@@ -123,6 +123,7 @@ import {JaecooReel, DURATION_IN_FRAMES as JAECOO_FRAMES} from './JaecooReel';
 import {HedgeReel, DURATION_IN_FRAMES as HEDGE_FRAMES} from './HedgeReel';
 import {SilenceReel, DURATION_IN_FRAMES as SILENCE_FRAMES} from './SilenceReel';
 import {CoverupReel, DURATION_IN_FRAMES as COVERUP_FRAMES} from './CoverupReel';
+import {ScamReel, DURATION_IN_FRAMES as SCAM_FRAMES} from './ScamReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1108,6 +1109,14 @@ export const RemotionRoot: React.FC = () => {
         id="CoverupReel"
         component={CoverupReel}
         durationInFrames={COVERUP_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ScamReel"
+        component={ScamReel}
+        durationInFrames={SCAM_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
