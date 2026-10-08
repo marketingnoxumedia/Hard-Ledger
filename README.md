@@ -3249,7 +3249,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   gets the sky, you keep the ground** — Starlink reaches anywhere on earth **except the phone bill.**
   **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a short **post-hook
   pause**; close is a **CTA question** ("Is Musk right, or just late?"). Sped VO (atempo 1.33) —
-  **2549 frames = ~85s**. **26 beats: 23 media** (incl. **5 video b-roll** — a scrolling phone,
+  **2570 frames = ~86s** (final CTA beat extended so the whole VO, through "tell me below," plays
+  with a clean tail). **26 beats: 23 media** (incl. **5 video b-roll** — a scrolling phone,
   hands signing, a ticking clock, a data tunnel, a card checkout — **+ 4 summary cards**: CERTAIN
   OLIGARCHS / CHOKEHOLD; JIO + AIRTEL SELL STARLINK; 3 LICENCES / SAME STAGE / SECURITY REVIEW; SAME
   QUEUE / REVIEW / PAPERWORK — **+ a $1.9B·2030 stat + a 1,000,000,000-subscriptions card**) **/ 1

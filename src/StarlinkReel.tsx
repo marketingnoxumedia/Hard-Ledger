@@ -94,7 +94,8 @@ type SceneDef = {
 // "3 LICENCES / SAME STAGE / SECURITY REVIEW"; "SAME QUEUE / REVIEW / PAPERWORK"; a $1.9B
 // 2030-market stat; a 1,000,000,000-subscriptions card) landing as their facts are spoken.
 // Short ~1s post-hook pause after the opening question. Sped VO (atempo 1.33) -- total
-// 2556 frames = ~85s. 4-mode rotating text animation. 26 beats: 23 media (incl. 5 video
+// 2570 frames = ~86s (final CTA beat extended so the whole VO, through "tell me below",
+// plays with a clean tail). 4-mode rotating text animation. 26 beats: 23 media (incl. 5 video
 // b-roll + 4 summary cards + 1 stat over brand-safe media), 1 solid-red impact ("anywhere
 // but the phone bill") and 2 black ("he names nobody" / "but nobody tells you this part").
 // Close is a CTA QUESTION.
@@ -136,7 +137,7 @@ const SCENES: SceneDef[] = [
   {dur: 143, kind: 'text', enter: 'slideR', text: 'The $1.9 billion|was never the prize.|The subscribers are.', highlights: ['subscribers'], size: 44, media: {src: 'starlink/sl_subscribers.jpg', type: 'img', effect: 'in'}},
   {dur: 41, kind: 'text', text: 'It can reach|anywhere on earth.', highlights: ['earth'], size: 48, media: {src: 'starlink/sl_earth.jpg', type: 'img', effect: 'in'}},
   {dur: 110, kind: 'impact', text: 'Anywhere|but the|phone bill.', highlights: ['bill.'], redBg: true},
-  {dur: 49, kind: 'text', enter: 'zoom', text: 'Is Musk right,|or just late?|Tell me below.', highlights: ['below'], size: 44, media: {src: 'starlink/sl_cta.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', enter: 'zoom', text: 'Is Musk right,|or just late?|Tell me below.', highlights: ['below'], size: 44, media: {src: 'starlink/sl_cta.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Impacts punch the open, the "chokehold" card,
