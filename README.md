@@ -3235,6 +3235,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Putin call; an unverified 2nd case; the FSB/strain question; a US demarche + WHO ask; Russia's
   90%-clear reply). All author-supplied and rendered as written; confirm every claim (and the
   direct quotes) against primary sources before publishing.
+- **`StarlinkReel`** — "The queue" (fast NEWS reel). NEW topic: **why Elon Musk is picking a fight
+  with the two men who agreed to sell Starlink in India.** Thesis: **Musk isn't fighting a ban —
+  he's fighting a queue, and the men at the front of it are also his distributors.** Beats: Musk's
+  Wednesday **X** post blaming **"certain oligarchs"** / a **"monopolistic chokehold"** (he names
+  nobody — **Ambani's Jio, Mittal's Airtel**); but in **2025 both signed deals to distribute
+  Starlink** devices in India — not just rivals, his **retailers**; India's ministry says all
+  **three satellite licences** (Starlink, Jio, **OneWeb**) sit at the **same stage**, waiting on a
+  **security review** before anyone gets spectrum; **Starlink has waited four years**; the market
+  is forecast at **$1.9B by 2030** but the real prize is India's **1,000,000,000 internet
+  subscriptions**, almost all on networks Ambani and Mittal own; the playbook — **let him in slowly,
+  same queue/review/paperwork, then sell his product through your shops to your customers**; **he
+  gets the sky, you keep the ground** — Starlink reaches anywhere on earth **except the phone bill.**
+  **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a short **post-hook
+  pause**; close is a **CTA question** ("Is Musk right, or just late?"). Sped VO (atempo 1.33) —
+  **2549 frames = ~85s**. **26 beats: 23 media** (incl. **5 video b-roll** — a scrolling phone,
+  hands signing, a ticking clock, a data tunnel, a card checkout — **+ 4 summary cards**: CERTAIN
+  OLIGARCHS / CHOKEHOLD; JIO + AIRTEL SELL STARLINK; 3 LICENCES / SAME STAGE / SECURITY REVIEW; SAME
+  QUEUE / REVIEW / PAPERWORK — **+ a $1.9B·2030 stat + a 1,000,000,000-subscriptions card**) **/ 1
+  solid-red impact** ("anywhere but the phone bill") **/ 2 black** ("he names nobody" / "but nobody
+  tells you this part"). **Its own distinct footage under `public/starlink/` — no reuse of any other
+  reel.** **Footage strictly BRAND-FREE AND FACE-FREE** — a generic satellite, a dish, steel chain,
+  two cell towers, a neoclassical facade, a silhouette queue, interlocking gears, a boom barrier, a
+  data tunnel, a crowd from above — **no Musk/Ambani/Mittal likenesses, no SpaceX/Starlink/Tesla/X/
+  Jio/Reliance/Airtel/OneWeb logos or wordmarks, no national flags or seals, no landmarks or
+  foreign-language signage** (sourcing rejected the SpaceX Dragon photos carrying a "SpaceX"
+  wordmark, plus ABUS/Master lock brands, a VW badge + plate, a HIKVISION label, Turkish/Dutch
+  on-screen text, and a G-Technology/Thunderbolt drive). 23 distinct clips, each used once; all
+  Pexels ids collision-checked against the ledger. Driving tech-business news-underscore bed under
+  the cloned voice. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** attributes a
+  specific **X post to Musk**, **2025 distribution deals to Jio/Airtel**, a licence-stage claim to
+  **India's ministry**, and market/subscriber figures (**$1.9B by 2030; >1bn subscriptions**). All
+  author-supplied and rendered as written; confirm every claim (and the Musk quote) against primary
+  sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
