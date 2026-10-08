@@ -124,6 +124,7 @@ import {HedgeReel, DURATION_IN_FRAMES as HEDGE_FRAMES} from './HedgeReel';
 import {SilenceReel, DURATION_IN_FRAMES as SILENCE_FRAMES} from './SilenceReel';
 import {CoverupReel, DURATION_IN_FRAMES as COVERUP_FRAMES} from './CoverupReel';
 import {ScamReel, DURATION_IN_FRAMES as SCAM_FRAMES} from './ScamReel';
+import {NoteReel, DURATION_IN_FRAMES as NOTE_FRAMES} from './NoteReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1117,6 +1118,14 @@ export const RemotionRoot: React.FC = () => {
         id="ScamReel"
         component={ScamReel}
         durationInFrames={SCAM_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="NoteReel"
+        component={NoteReel}
+        durationInFrames={NOTE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

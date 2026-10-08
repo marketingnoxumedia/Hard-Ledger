@@ -3140,6 +3140,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   attributed to Reuters reporting ($16B/~10%, 15B ads/day, 1-in-3 US scams, seniors −$7.7B/+59%,
   the 94%/95% thresholds). All author-supplied and rendered as written; **get a primary-source and
   legal review** for the named-company accusation before this publishes.
+- **`NoteReel`** — "The note" (fast NEWS reel). **Third A/B reel on the Irkutsk plague event**
+  (with `SilenceReel` and `CoverupReel`), a new angle: **international-health-law enforcement.**
+  Thesis: **the demarche isn't about one death — it's about whether the only rule the world has
+  on outbreaks still works when the country involved says no;** Russia may be right, but **if it
+  isn't, nobody can make it say so.** Beats: a **28-year-old technician** at Russia's Anti-Plague
+  Institute dies (**official cause "undetermined"**); **two stories** — a **broken test tube**,
+  **~200 contacts** in quarantine, a **leaked** anti-plague order the watchdog calls **fake**;
+  **Washington sends a demarche**, **Trump schedules a Putin call**, the **WHO asks publicly** —
+  Russia's reply: **help with the US measles outbreak** and a **New Mexico plague death**; every
+  WHO member signed the **IHR** (**notify within 24h**) but the WHO **can ask, not enforce** — the
+  system runs on the country telling the truth. **Full VERBATIM** of the client's QUESTION / STORY
+  / ANSWER / CTA script with a short **post-hook pause**; close is a **CTA question** ("Should any
+  country be allowed to investigate its own lab?"). Sped VO (atempo ~1.32) — **2417 frames = ~81s**.
+  **24 beats: 21 media** (incl. **3 video b-roll** — a gloved test tube, an aerial desert, Earth
+  at night — **+ 4 summary cards**: OFFICIAL CAUSE "UNDETERMINED"; 2 STORIES / 1 FAKE DOCUMENT;
+  DEMARCHE / PUTIN CALL / RUSSIA: HELP WITH MEASLES; 196 COUNTRIES / 24 HOURS / 0 ENFORCEMENT)
+  **/ 1 solid-red impact** ("Russia may be right… nobody can make it say so") **/ 2 black** ("makes
+  it work", "isn't about one death"). **Its own distinct footage under `public/note/` — no reuse
+  of `SilenceReel`/`CoverupReel` clips.** **Footage strictly BRAND-FREE AND FACE-FREE** — an
+  unmarked envelope, a lab-results sheet, a forking road, a crumpled-paper "fake," a vintage
+  phone, a gavel, a "THE LAW" book, a red brushstroke "?", an empty lab — **no Trump/Putin
+  likenesses, no flags (Russia/US), no WHO/UN/agency seals, no brand logos or foreign-language
+  signage, and no identifiable likeness of the deceased** (sourcing rejected Ukrainian/Cyrillic
+  tax forms, a "LivePlan" wordmark, "Dhaka Law Reports"/named-firm spines, and a heraldic crest).
+  21 distinct clips, each used once; all Pexels ids collision-checked against the ledger. Tense
+  geopolitical news-underscore bed under the cloned voice. **TIME-SENSITIVE / UNVERIFIED — verify
+  before publishing:** cites a breaking event and claims (Irkutsk lab death, official cause
+  "undetermined", a leaked "fake" order, ~200 in quarantine; a US demarche + scheduled Trump–Putin
+  call; Russia's measles/New Mexico reply; the IHR's 24h-notify with no enforcement). All
+  author-supplied and rendered as written; confirm every claim against primary sources before
+  publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
