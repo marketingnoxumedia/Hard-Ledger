@@ -3204,6 +3204,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~7 US cases/yr; the July Arizona plague death; plague science; one unshared lab result). All
   author-supplied and rendered as written; confirm every claim (and the Jha/Tulane attributions)
   against primary sources before publishing.
+- **`BetReel`** — "The bet" (fast NEWS reel). **Fifth reel on the Irkutsk plague event** (with
+  `SilenceReel`, `CoverupReel`, `NoteReel`, `DelayReel`), a new angle: **the White House.** Thesis:
+  **"we don't think so" isn't a finding — it's a bet.** You can't rule out what you haven't seen,
+  and by Washington's own account it's seen **"a little bit"**; **the President isn't reporting
+  intelligence, he's reporting hope.** Beats (Oval Office, quoted): Trump **"we don't think so"** /
+  **"sharing a little bit"** / "expect them to share a lot"; his own comparison — **"China didn't
+  say much in 2020, Russia isn't either"** (ruled it out and raised the doubt in one answer);
+  **Trump says a Putin call is scheduled**, the **Kremlin says no specific discussion**; a **2nd
+  worker** reported, **Russia calls it false**; **Rubio** asked on camera about the **FSB** and a
+  **modified strain**; the exchange — a **US demarche** + **WHO asks for the lab results**, Russia
+  describes (**no plague, 90% clear**). **Full VERBATIM** of the client's QUESTION / STORY / ANSWER
+  / CTA script with a short **post-hook pause**; close is a **CTA question** ("Do you take 'we don't
+  think so' as an answer?"). Sped VO (atempo ~1.23) — **2658 frames = ~89s**. **23 beats: 21 media**
+  (incl. **3 video b-roll** — a mic, a chess standoff, rolling dice — **+ 3 summary cards**: "WE
+  DON'T THINK SO" / SHARING A LITTLE BIT; CHINA DIDN'T SAY MUCH / RUSSIA ISN'T EITHER; TRUMP: CALL
+  SCHEDULED / KREMLIN: NOT DISCUSSED / 2ND CASE: FALSE) **/ 1 solid-red impact** ("he's reporting
+  hope") **/ 1 black** ("but nobody tells you this part"). **Its own distinct footage under
+  `public/bet/` — no reuse of the other four Irkutsk reels.** **Footage strictly BRAND-FREE AND
+  FACE-FREE** — an empty briefing room, an ornate study, a red hotline, a marble colonnade, a
+  shadowed corridor, a chess standoff, red dice, a sealed envelope — **no Trump/Rubio/Putin
+  likenesses, no flags (US/Russia/China), no White House/presidential/FSB/WHO seals, no landmarks
+  (White House/Kremlin), no brand logos or foreign-language signage** (sourcing rejected RØDE/
+  Neumann/maono mic logos, a Siemens poster, a Tanger annual report on a tablet, Polish court
+  signage + a Dell logo, and a "witeg"-branded lab; the one face is an anonymous hand-over-mouth
+  stock model for "silence," not a public figure). 21 distinct clips, each used once; all Pexels
+  ids collision-checked against the ledger. Tense political-thriller news-underscore bed under the
+  cloned voice. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** **attributes direct
+  quotes to Trump and Rubio** and cites a breaking event (Oval Office remarks; a scheduled-vs-not
+  Putin call; an unverified 2nd case; the FSB/strain question; a US demarche + WHO ask; Russia's
+  90%-clear reply). All author-supplied and rendered as written; confirm every claim (and the
+  direct quotes) against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the

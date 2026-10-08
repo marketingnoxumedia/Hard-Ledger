@@ -126,6 +126,7 @@ import {CoverupReel, DURATION_IN_FRAMES as COVERUP_FRAMES} from './CoverupReel';
 import {ScamReel, DURATION_IN_FRAMES as SCAM_FRAMES} from './ScamReel';
 import {NoteReel, DURATION_IN_FRAMES as NOTE_FRAMES} from './NoteReel';
 import {DelayReel, DURATION_IN_FRAMES as DELAY_FRAMES} from './DelayReel';
+import {BetReel, DURATION_IN_FRAMES as BET_FRAMES} from './BetReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1135,6 +1136,14 @@ export const RemotionRoot: React.FC = () => {
         id="DelayReel"
         component={DelayReel}
         durationInFrames={DELAY_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="BetReel"
+        component={BetReel}
+        durationInFrames={BET_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
