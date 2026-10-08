@@ -3171,6 +3171,39 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   call; Russia's measles/New Mexico reply; the IHR's 24h-notify with no enforcement). All
   author-supplied and rendered as written; confirm every claim against primary sources before
   publishing.
+- **`DelayReel`** — "The delay" (fast NEWS reel). **Fourth reel on the Irkutsk plague event**
+  (with `SilenceReel`, `CoverupReel`, `NoteReel`), a new angle: **the science.** Thesis: **plague
+  doesn't scare scientists — they've had the cure since the 1940s; what scares them is a lab that
+  won't show its test results.** A disease you can treat in two days **shouldn't take a week to
+  explain — the delay isn't a detail, the delay is the diagnosis.** Beats: the Irkutsk death
+  (cause **"undetermined"**, **~200 observed**); an **unverified second case**, Russia says **90%
+  clear**, WHO **"until we get answers"**; **plague isn't rare** (**~7 US cases a year**) — an
+  **Arizona** man caught pneumonic plague **from a sick cat** and died **8 hours** after hospital,
+  yet **no diplomatic note**, because everyone knew what it was; the science (**droplet, 3–6 feet**,
+  symptoms in 1–2 days, **treat within 48 hours**, **beaten for 80 years**) — the only question is
+  **one test: wild strain or lab strain?** (**Ashish Jha** on a weapons program; a **Tulane**
+  microbiologist on coincidence); **one lab result settles it. Russia hasn't shared it.** **Full
+  VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a short **post-hook
+  pause**; close is a **CTA question** ("Would you trust a lab that investigates itself?"). **Its
+  longest script yet** — the VO reads at the **max safe speed (atempo 1.33)** to land **2815
+  frames = ~94s**. **25 beats: 22 media** (incl. **3 video b-roll** — a sick cat, a desert, a water
+  droplet — **+ 4 summary cards**: IRKUTSK / "UNDETERMINED" / ~200 OBSERVED; 2ND CASE (UNVERIFIED)
+  / RUSSIA 90% CLEAR / WHO "UNTIL WE GET ANSWERS"; USA ~7 CASES / YEAR / ARIZONA 2025 DEAD IN 8
+  HOURS; 3–6 FEET / 48 HOURS / 1 TEST RESULT) **/ 1 solid-red impact** ("the delay is the
+  diagnosis") **/ 2 black** ("but nobody tells you this part", "treat in two days shouldn't take a
+  week"). **Its own distinct footage under `public/delay/` — no reuse of the other three Irkutsk
+  reels.** **Footage strictly BRAND-FREE AND FACE-FREE** — an hourglass, an isolation figure, a
+  warning light, bacterial colonies, a sick cat, an IV drip, an expert in silhouette, rolling dice,
+  an apothecary bottle, a sealed lab door — **no real-person likenesses (incl. Ashish Jha / Trump /
+  Putin / the deceased), no flags, no WHO/UN/agency/hospital seals, no brand logos or
+  foreign-language signage** (sourcing rejected a Kodak timer, Cyrillic ER/exit signs, "med imagem"
+  branding, and named medical forms). 22 distinct clips, each used once; all Pexels ids
+  collision-checked against the ledger. Tense science-doc news-underscore bed under the cloned
+  voice. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** cites a breaking event, an
+  **attributed expert quote**, and claims (Irkutsk death; an unverified 2nd case; Russia 90% clear;
+  ~7 US cases/yr; the July Arizona plague death; plague science; one unshared lab result). All
+  author-supplied and rendered as written; confirm every claim (and the Jha/Tulane attributions)
+  against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the

@@ -125,6 +125,7 @@ import {SilenceReel, DURATION_IN_FRAMES as SILENCE_FRAMES} from './SilenceReel';
 import {CoverupReel, DURATION_IN_FRAMES as COVERUP_FRAMES} from './CoverupReel';
 import {ScamReel, DURATION_IN_FRAMES as SCAM_FRAMES} from './ScamReel';
 import {NoteReel, DURATION_IN_FRAMES as NOTE_FRAMES} from './NoteReel';
+import {DelayReel, DURATION_IN_FRAMES as DELAY_FRAMES} from './DelayReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1126,6 +1127,14 @@ export const RemotionRoot: React.FC = () => {
         id="NoteReel"
         component={NoteReel}
         durationInFrames={NOTE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="DelayReel"
+        component={DelayReel}
+        durationInFrames={DELAY_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
