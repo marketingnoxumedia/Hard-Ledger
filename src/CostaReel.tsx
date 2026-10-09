@@ -294,7 +294,10 @@ const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[];
 
 const SceneText: React.FC<{text: string; highlights?: string[]; size?: number; mode?: string}> = ({text, highlights, size = 100, mode}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
-    <Caption text={text} highlights={highlights} size={size} typewriter={mode === 'type'} lineSync={mode !== 'type'} />
+    {/* Always reveal line-by-line in time with the voice; never the fast word
+        typewriter (which revealed the whole caption in ~1s and ran ahead of the VO).
+        The block still enters/exits via the TextAnim mode. */}
+    <Caption text={text} highlights={highlights} size={size} typewriter={false} lineSync />
   </AbsoluteFill>
 );
 
