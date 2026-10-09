@@ -227,20 +227,36 @@ const Treatment: React.FC = () => (
 // ---------------------------------------------------------------------------
 // Kinetic caption — Anton condensed caps, word-by-word, red highlight
 // ---------------------------------------------------------------------------
-const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start'; typewriter?: boolean}> = ({text, highlights = [], size = 112, align = 'center', typewriter = false}) => {
+const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start'; typewriter?: boolean; lineSync?: boolean}> = ({text, highlights = [], size = 112, align = 'center', typewriter = false, lineSync = false}) => {
   const frame = useCurrentFrame();
+  const {durationInFrames} = useVideoConfig();
   const lines = text.split('|');
   const hset = highlights.map((h) => h.toLowerCase());
   const isHi = (w: string) => hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase()) || hset.includes(w.toLowerCase());
+  // lineSync: reveal each line as it is spoken, so a multi-line caption tracks the
+  // voice instead of showing every line at once. Reveal time is weighted by each
+  // line's length (longer lines take proportionally longer to say) across the beat.
+  const lineOp: number[] = (() => {
+    if (!lineSync || typewriter || lines.length < 2) return lines.map(() => 1);
+    const lens = lines.map((l) => Math.max(1, l.length));
+    const total = lens.reduce((a, b) => a + b, 0);
+    let cum = 0;
+    return lines.map((l, i) => {
+      const start = (cum / total) * durationInFrames;
+      cum += lens[i];
+      return i === 0 ? 1 : interpolate(frame, [start - 2, start + 8], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+    });
+  })();
   let wordIndex = 0;
   return (
     <div style={{display: 'flex', flexDirection: 'column', gap: 2, alignItems: align, width: '100%'}}>
       {lines.map((line, li) => (
-        <div key={li} style={{display: 'flex', flexWrap: 'wrap', justifyContent: align === 'center' ? 'center' : 'flex-start', gap: '0 18px'}}>
+        <div key={li} style={{display: 'flex', flexWrap: 'wrap', justifyContent: align === 'center' ? 'center' : 'flex-start', gap: '0 18px', opacity: lineOp[li]}}>
           {line.split(' ').map((word, wi) => {
             const gi = wordIndex++;
-            // typewriter mode reveals word-by-word; other modes render static and
-            // let the scene-level TextAnim wrapper handle enter/exit.
+            // typewriter mode reveals word-by-word; lineSync reveals line-by-line
+            // (handled above); other modes render static and let the scene-level
+            // TextAnim wrapper handle enter/exit.
             const op = typewriter ? interpolate(frame, [3 + gi * 2, 6 + gi * 2], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1;
             const hi = isHi(word);
             return (
@@ -278,7 +294,7 @@ const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[];
 
 const SceneText: React.FC<{text: string; highlights?: string[]; size?: number; mode?: string}> = ({text, highlights, size = 100, mode}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
-    <Caption text={text} highlights={highlights} size={size} typewriter={mode === 'type'} />
+    <Caption text={text} highlights={highlights} size={size} typewriter={mode === 'type'} lineSync={mode !== 'type'} />
   </AbsoluteFill>
 );
 
