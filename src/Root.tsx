@@ -128,6 +128,7 @@ import {NoteReel, DURATION_IN_FRAMES as NOTE_FRAMES} from './NoteReel';
 import {DelayReel, DURATION_IN_FRAMES as DELAY_FRAMES} from './DelayReel';
 import {BetReel, DURATION_IN_FRAMES as BET_FRAMES} from './BetReel';
 import {StarlinkReel, DURATION_IN_FRAMES as STARLINK_FRAMES} from './StarlinkReel';
+import {PlaystationReel, DURATION_IN_FRAMES as PLAYSTATION_FRAMES} from './PlaystationReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1153,6 +1154,14 @@ export const RemotionRoot: React.FC = () => {
         id="StarlinkReel"
         component={StarlinkReel}
         durationInFrames={STARLINK_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PlaystationReel"
+        component={PlaystationReel}
+        durationInFrames={PLAYSTATION_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
