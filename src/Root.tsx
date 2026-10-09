@@ -131,6 +131,7 @@ import {StarlinkReel, DURATION_IN_FRAMES as STARLINK_FRAMES} from './StarlinkRee
 import {PlaystationReel, DURATION_IN_FRAMES as PLAYSTATION_FRAMES} from './PlaystationReel';
 import {OilReel, DURATION_IN_FRAMES as OIL_FRAMES} from './OilReel';
 import {OnePctReel, DURATION_IN_FRAMES as ONEPCT_FRAMES} from './OnePctReel';
+import {CostaReel, DURATION_IN_FRAMES as COSTA_FRAMES} from './CostaReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1180,6 +1181,14 @@ export const RemotionRoot: React.FC = () => {
         id="OnePctReel"
         component={OnePctReel}
         durationInFrames={ONEPCT_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="CostaReel"
+        component={CostaReel}
+        durationInFrames={COSTA_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
