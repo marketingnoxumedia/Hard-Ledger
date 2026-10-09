@@ -95,7 +95,7 @@ type SceneDef = {
 // households off a fix by 2028; fixed deals under 5% down from 1,500 to 9 vs 389 variable --
 // the fix locks you in, the variable rides the base rate, the choice is now a bet on a war.
 // Full VERBATIM QUESTION/STORY/ANSWER/CTA with a ~1s post-hook pause; close is a CTA QUESTION
-// ("When does your fix end?"). Sped VO (atempo ~1.17) -- total 2555 frames = ~85s (final CTA
+// ("When does your fix end?"). Sped VO (atempo ~1.23, ~5% faster) -- total 2437 frames = ~81s (final CTA
 // beat extended for a clean tail). 25 beats: 23 media (incl. 5 video b-roll + 2 cards:
 // SAME HOUSE/+£233 A MONTH/£2,800 A YEAR; BASE RATE UNCHANGED/+0.2% EXPECTED/5,000,000 BY 2028
 // -- plus a 6.00% fix stat) / 1 red impact ("it's in the Gulf") / 1 black ("but nobody tells
@@ -114,31 +114,31 @@ type SceneDef = {
 // as written; confirm every figure against primary sources before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 159, kind: 'hook', text: 'What does a one percent rise|in your mortgage rate|actually cost you?', kicker: 'One percent', highlights: ['cost'], size: 42, media: {src: 'onepct/op_house.mp4', type: 'video', effect: 'in'}},
-  {dur: 208, kind: 'stat', stat: {pre: 'UK 5-YEAR FIX', value: 6.00, decimals: 2, suffix: '%', post: 'HIGHEST SINCE 2023'}, media: {src: 'onepct/op_chart.jpg', type: 'img', effect: 'in'}},
-  {dur: 59, kind: 'text', text: "Moneyfacts' word|for it: disastrous.", highlights: ['disastrous.'], size: 48, media: {src: 'onepct/op_doc.jpg', type: 'img', effect: 'in'}},
-  {dur: 56, kind: 'text', text: 'But nobody tells you|this part.', highlights: ['part.'], size: 54},
-  {dur: 160, kind: 'text', enter: 'slideL', text: 'Take a £200,000 mortgage|over 25 years.', highlights: ['£200,000'], size: 44, media: {src: 'onepct/op_keys.jpg', type: 'img', effect: 'in'}},
-  {dur: 192, kind: 'text', text: 'At 4%: £1,056 a month.|At 6%: £1,289.', highlights: ['£1,289.'], size: 44, media: {src: 'onepct/op_calc.mp4', type: 'video', effect: 'in'}},
-  {dur: 149, kind: 'lines', text: 'SAME HOUSE|+£233 A MONTH|£2,800 A YEAR', highlights: ['+£233'], reveal: [0, 22, 44], media: {src: 'onepct/op_coins.jpg', type: 'img', effect: 'in'}},
-  {dur: 32, kind: 'text', text: 'For the|same house.', highlights: ['house.'], size: 52, media: {src: 'onepct/op_terrace.jpg', type: 'img', effect: 'in'}},
-  {dur: 53, kind: 'text', text: "But that's not even|the craziest part.", highlights: ['craziest'], size: 48, media: {src: 'onepct/op_craziest.jpg', type: 'img', effect: 'in'}},
-  {dur: 91, kind: 'text', enter: 'slideUp', text: "The Bank of England|didn't move.", highlights: ["didn't"], size: 46, media: {src: 'onepct/op_boe.jpg', type: 'img', effect: 'in'}},
-  {dur: 57, kind: 'text', text: 'Lenders price off|swap rates.', highlights: ['swap'], size: 48, media: {src: 'onepct/op_swap.mp4', type: 'video', effect: 'in'}},
-  {dur: 105, kind: 'text', enter: 'slideR', text: 'And swap rates move|with the Middle East.', highlights: ['middle'], size: 46, media: {src: 'onepct/op_gulf.mp4', type: 'video', effect: 'in'}},
-  {dur: 151, kind: 'text', text: 'One analyst expects|another 0.2%|on top.', highlights: ['0.2%'], size: 46, media: {src: 'onepct/op_analyst.jpg', type: 'img', effect: 'in'}},
-  {dur: 104, kind: 'lines', text: 'BASE RATE: UNCHANGED|+0.2% EXPECTED|5,000,000 BY 2028', highlights: ['5,000,000'], reveal: [0, 22, 44], media: {src: 'onepct/op_households.jpg', type: 'img', effect: 'in'}},
-  {dur: 39, kind: 'text', text: "Here's exactly|how they do it.", highlights: [], size: 50, media: {src: 'onepct/op_pivot.jpg', type: 'img', effect: 'in'}},
-  {dur: 112, kind: 'text', enter: 'slideL', text: 'Fixed deals under 5%:|down from 1,500|to nine.', highlights: ['nine.'], size: 44, media: {src: 'onepct/op_fewoptions.jpg', type: 'img', effect: 'in'}},
-  {dur: 124, kind: 'text', text: 'Variable deals under 5%:|still 389.', highlights: ['389.'], size: 46, media: {src: 'onepct/op_variable.jpg', type: 'img', effect: 'in'}},
-  {dur: 68, kind: 'text', text: 'The fix|locks you in.', highlights: ['locks'], size: 52, media: {src: 'onepct/op_lock.jpg', type: 'img', effect: 'in'}},
-  {dur: 61, kind: 'text', text: 'The variable|rides the base rate.', highlights: ['rides'], size: 48, media: {src: 'onepct/op_wave.mp4', type: 'video', effect: 'in'}},
-  {dur: 107, kind: 'text', enter: 'slideUp', text: 'Which one you pick|is now a bet|on a war.', highlights: ['war.'], size: 46, media: {src: 'onepct/op_dice.jpg', type: 'img', effect: 'in'}},
-  {dur: 45, kind: 'text', text: "One percent|isn't one percent.", highlights: ['percent.'], size: 50, media: {src: 'onepct/op_onepct.jpg', type: 'img', effect: 'in'}},
-  {dur: 219, kind: 'text', enter: 'slideR', text: "It's £233 a month —|every month —|for as long as it runs.", highlights: ['£233'], size: 42, media: {src: 'onepct/op_recurring.jpg', type: 'img', effect: 'in'}},
-  {dur: 86, kind: 'text', text: 'The number that sets it|isn’t in|Threadneedle Street.', highlights: ['isn’t'], size: 42, media: {src: 'onepct/op_district.jpg', type: 'img', effect: 'in'}},
-  {dur: 34, kind: 'impact', text: "It's in|the Gulf.", highlights: ['gulf.'], redBg: true},
-  {dur: 84, kind: 'text', enter: 'zoom', text: 'When does|your fix end?|Tell me below.', highlights: ['below'], size: 46, media: {src: 'onepct/op_cta.jpg', type: 'img', effect: 'in'}},
+  {dur: 149, kind: 'hook', text: 'What does a one percent rise|in your mortgage rate|actually cost you?', kicker: 'One percent', highlights: ['cost'], size: 42, media: {src: 'onepct/op_house.mp4', type: 'video', effect: 'in'}},
+  {dur: 195, kind: 'stat', stat: {pre: 'UK 5-YEAR FIX', value: 6.00, decimals: 2, suffix: '%', post: 'HIGHEST SINCE 2023'}, media: {src: 'onepct/op_chart.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', text: "Moneyfacts' word|for it: disastrous.", highlights: ['disastrous.'], size: 48, media: {src: 'onepct/op_doc.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', text: 'But nobody tells you|this part.', highlights: ['part.'], size: 54},
+  {dur: 139, kind: 'text', enter: 'slideL', text: 'Take a £200,000 mortgage|over 25 years.', highlights: ['£200,000'], size: 44, media: {src: 'onepct/op_keys.jpg', type: 'img', effect: 'in'}},
+  {dur: 164, kind: 'text', text: 'At 4%: £1,056 a month.|At 6%: £1,289.', highlights: ['£1,289.'], size: 44, media: {src: 'onepct/op_calc.mp4', type: 'video', effect: 'in'}},
+  {dur: 133, kind: 'lines', text: 'SAME HOUSE|+£233 A MONTH|£2,800 A YEAR', highlights: ['+£233'], reveal: [0, 22, 44], media: {src: 'onepct/op_coins.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', text: 'For the|same house.', highlights: ['house.'], size: 52, media: {src: 'onepct/op_terrace.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', text: "But that's not even|the craziest part.", highlights: ['craziest'], size: 48, media: {src: 'onepct/op_craziest.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', enter: 'slideUp', text: "The Bank of England|didn't move.", highlights: ["didn't"], size: 46, media: {src: 'onepct/op_boe.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', text: 'Lenders price off|swap rates.', highlights: ['swap'], size: 48, media: {src: 'onepct/op_swap.mp4', type: 'video', effect: 'in'}},
+  {dur: 87, kind: 'text', enter: 'slideR', text: 'And swap rates move|with the Middle East.', highlights: ['middle'], size: 46, media: {src: 'onepct/op_gulf.mp4', type: 'video', effect: 'in'}},
+  {dur: 157, kind: 'text', text: 'One analyst expects|another 0.2%|on top.', highlights: ['0.2%'], size: 46, media: {src: 'onepct/op_analyst.jpg', type: 'img', effect: 'in'}},
+  {dur: 136, kind: 'lines', text: 'BASE RATE: UNCHANGED|+0.2% EXPECTED|5,000,000 BY 2028', highlights: ['5,000,000'], reveal: [0, 22, 44], media: {src: 'onepct/op_households.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', text: "Here's exactly|how they do it.", highlights: [], size: 50, media: {src: 'onepct/op_pivot.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', enter: 'slideL', text: 'Fixed deals under 5%:|down from 1,500|to nine.', highlights: ['nine.'], size: 44, media: {src: 'onepct/op_fewoptions.jpg', type: 'img', effect: 'in'}},
+  {dur: 127, kind: 'text', text: 'Variable deals under 5%:|still 389.', highlights: ['389.'], size: 46, media: {src: 'onepct/op_variable.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', text: 'The fix|locks you in.', highlights: ['locks'], size: 52, media: {src: 'onepct/op_lock.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', text: 'The variable|rides the base rate.', highlights: ['rides'], size: 48, media: {src: 'onepct/op_wave.mp4', type: 'video', effect: 'in'}},
+  {dur: 89, kind: 'text', enter: 'slideUp', text: 'Which one you pick|is now a bet|on a war.', highlights: ['war.'], size: 46, media: {src: 'onepct/op_dice.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', text: "One percent|isn't one percent.", highlights: ['percent.'], size: 50, media: {src: 'onepct/op_onepct.jpg', type: 'img', effect: 'in'}},
+  {dur: 201, kind: 'text', enter: 'slideR', text: "It's £233 a month,|every month,|for as long as it runs.", highlights: ['£233'], size: 42, media: {src: 'onepct/op_recurring.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', text: 'The number that sets it|isn’t in|Threadneedle Street.', highlights: ['isn’t'], size: 42, media: {src: 'onepct/op_district.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'impact', text: "It's in|the Gulf.", highlights: ['gulf.'], redBg: true},
+  {dur: 78, kind: 'text', enter: 'zoom', text: 'When does|your fix end?|Tell me below.', highlights: ['below'], size: 46, media: {src: 'onepct/op_cta.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Impacts punch the open, the "but nobody" turn, the
@@ -148,15 +148,15 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 426, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 834, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1015, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1216, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1321, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1576, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1980, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 2351, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2471, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 401, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 756, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 923, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1104, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1348, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1484, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1902, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2326, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2359, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
