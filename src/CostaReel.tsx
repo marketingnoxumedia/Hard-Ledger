@@ -113,26 +113,26 @@ type SceneDef = {
 // claims against primary sources before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 225, kind: 'hook', text: 'How does the company|that sells more drinks|than anyone on earth|fail at coffee?', kicker: 'The lease', highlights: ['fail'], size: 40, media: {src: 'costa/ct_soda.mp4', type: 'video', effect: 'in'}},
-  {dur: 98, kind: 'text', enter: 'slideL', text: '2018. Coca-Cola buys|Costa Coffee|from Whitbread.', highlights: ['costa'], size: 44, media: {src: 'costa/ct_cafe.jpg', type: 'img', effect: 'in'}},
+  {dur: 225, kind: 'hook', reveal: [2, 33, 83, 112], text: 'How does the company|that sells more drinks|than anyone on earth|fail at coffee?', kicker: 'The lease', highlights: ['fail'], size: 40, media: {src: 'costa/ct_soda.mp4', type: 'video', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [0, 16, 46], enter: 'slideL', text: '2018. Coca-Cola buys|Costa Coffee|from Whitbread.', highlights: ['costa'], size: 44, media: {src: 'costa/ct_cafe.jpg', type: 'img', effect: 'in'}},
   {dur: 66, kind: 'stat', stat: {pre: 'COKE PAID', prefix: '$', value: 5.1, decimals: 1, suffix: 'B', post: 'FOR COSTA, 2018'}, media: {src: 'costa/ct_money.jpg', type: 'img', effect: 'in'}},
   {dur: 113, kind: 'lines', text: "2,700 SHOPS|20,000 STAFF|BRITAIN'S BIGGEST", highlights: ["britain's"], reveal: [0, 22, 44], media: {src: 'costa/ct_shops.jpg', type: 'img', effect: 'in'}},
-  {dur: 43, kind: 'text', text: 'But nobody tells you|this part.', highlights: ['part.'], size: 54},
-  {dur: 148, kind: 'text', enter: 'slideUp', text: 'Eight years on, Coke|is trying to sell it.|Again.', highlights: ['again.'], size: 44, media: {src: 'costa/ct_forsale.jpg', type: 'img', effect: 'in'}},
-  {dur: 203, kind: 'text', enter: 'slideR', text: 'Private equity shrugged.|Pulled in January.|A buyer walked on price.', highlights: ['walked'], size: 42, media: {src: 'costa/ct_walkaway.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: 'But nobody tells you|this part.', highlights: ['part.'], size: 54},
+  {dur: 148, kind: 'text', reveal: [2, 42, 72], enter: 'slideUp', text: 'Eight years on, Coke|is trying to sell it.|Again.', highlights: ['again.'], size: 44, media: {src: 'costa/ct_forsale.jpg', type: 'img', effect: 'in'}},
+  {dur: 203, kind: 'text', reveal: [2, 59, 103], enter: 'slideR', text: 'Private equity shrugged.|Pulled in January.|A buyer walked on price.', highlights: ['walked'], size: 42, media: {src: 'costa/ct_walkaway.jpg', type: 'img', effect: 'in'}},
   {dur: 72, kind: 'lines', text: 'PULLED: JAN 2026|RELISTED: NOW|PRICE: UNKNOWN', highlights: ['unknown'], reveal: [0, 22, 44], media: {src: 'costa/ct_auction.jpg', type: 'img', effect: 'in'}},
-  {dur: 48, kind: 'text', text: "But that's not even|the craziest part.", highlights: ['craziest'], size: 48, media: {src: 'costa/ct_craziest.jpg', type: 'img', effect: 'in'}},
-  {dur: 138, kind: 'text', enter: 'slideL', text: 'Costa lost nearly|£20 million|across 2023 and 2024.', highlights: ['£20'], size: 44, media: {src: 'costa/ct_loss.jpg', type: 'img', effect: 'in'}},
-  {dur: 208, kind: 'text', text: 'Its own CEO is confident:|new HQ, iced drinks,|matcha for the young.', highlights: ['matcha'], size: 42, media: {src: 'costa/ct_iced.mp4', type: 'video', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [0, 15], text: "But that's not even|the craziest part.", highlights: ['craziest'], size: 48, media: {src: 'costa/ct_craziest.jpg', type: 'img', effect: 'in'}},
+  {dur: 138, kind: 'text', reveal: [2, 28, 56], enter: 'slideL', text: 'Costa lost nearly|£20 million|across 2023 and 2024.', highlights: ['£20'], size: 44, media: {src: 'costa/ct_loss.jpg', type: 'img', effect: 'in'}},
+  {dur: 208, kind: 'text', reveal: [2, 82, 152], text: 'Its own CEO is confident:|new HQ, iced drinks,|matcha for the young.', highlights: ['matcha'], size: 42, media: {src: 'costa/ct_iced.mp4', type: 'video', effect: 'in'}},
   {dur: 80, kind: 'lines', text: '2023-24 LOSS: £20M|NEW HQ: JAN 2027|OWNER WANTS OUT', highlights: ['£20m'], reveal: [0, 22, 44], media: {src: 'costa/ct_hq.jpg', type: 'img', effect: 'in'}},
-  {dur: 51, kind: 'text', text: "Here's exactly|how they do it.", highlights: [], size: 50, media: {src: 'costa/ct_pivot.jpg', type: 'img', effect: 'in'}},
-  {dur: 198, kind: 'text', enter: 'slideUp', text: "Coke's model is syrup.|Bottlers bottle it.|Coke owns the brand.", highlights: ['brand.'], size: 44, media: {src: 'costa/ct_syrup.mp4', type: 'video', effect: 'in'}},
-  {dur: 192, kind: 'text', text: 'Costa is the opposite:|rent, baristas, milk,|2,700 leases.', highlights: ['leases.'], size: 42, media: {src: 'costa/ct_counter.mp4', type: 'video', effect: 'in'}},
-  {dur: 94, kind: 'text', enter: 'slideL', text: 'Coke bought the business|it never knew how to run.|A shop.', highlights: ['shop.'], size: 42, media: {src: 'costa/ct_emptyshop.jpg', type: 'img', effect: 'in'}},
-  {dur: 82, kind: 'text', text: "Coca-Cola didn't|fail at coffee.|It failed at counters.", highlights: ['counters.'], size: 44, media: {src: 'costa/ct_cupcounter.jpg', type: 'img', effect: 'in'}},
-  {dur: 151, kind: 'text', enter: 'slideR', text: 'It spent $5 billion|to own what it avoided|for a century:|the overheads.', highlights: ['overheads.'], size: 42, media: {src: 'costa/ct_overheads.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [0, 20], text: "Here's exactly|how they do it.", highlights: [], size: 50, media: {src: 'costa/ct_pivot.jpg', type: 'img', effect: 'in'}},
+  {dur: 198, kind: 'text', reveal: [2, 51, 126], enter: 'slideUp', text: "Coke's model is syrup.|Bottlers bottle it.|Coke owns the brand.", highlights: ['brand.'], size: 44, media: {src: 'costa/ct_syrup.mp4', type: 'video', effect: 'in'}},
+  {dur: 192, kind: 'text', reveal: [2, 35, 122], text: 'Costa is the opposite:|rent, baristas, milk,|2,700 leases.', highlights: ['leases.'], size: 42, media: {src: 'costa/ct_counter.mp4', type: 'video', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [0, 2, 50], enter: 'slideL', text: 'Coke bought the business|it never knew how to run.|A shop.', highlights: ['shop.'], size: 42, media: {src: 'costa/ct_emptyshop.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 13, 62], text: "Coca-Cola didn't|fail at coffee.|It failed at counters.", highlights: ['counters.'], size: 44, media: {src: 'costa/ct_cupcounter.jpg', type: 'img', effect: 'in'}},
+  {dur: 151, kind: 'text', reveal: [2, 54, 99, 132], enter: 'slideR', text: 'It spent $5 billion|to own what it avoided|for a century:|the overheads.', highlights: ['overheads.'], size: 42, media: {src: 'costa/ct_overheads.jpg', type: 'img', effect: 'in'}},
   {dur: 72, kind: 'impact', text: 'The brand|wasn’t the problem.|The lease was.', highlights: ['lease'], redBg: true},
-  {dur: 93, kind: 'text', enter: 'zoom', text: 'Should Coke never have|bought it, or just|can’t run it? Tell me below.', highlights: ['below'], size: 40, media: {src: 'costa/ct_cta.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [0, 20, 51], enter: 'zoom', text: 'Should Coke never have|bought it, or just|can’t run it? Tell me below.', highlights: ['below'], size: 40, media: {src: 'costa/ct_cta.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Impacts punch the open, the "chokehold" card,
@@ -227,17 +227,23 @@ const Treatment: React.FC = () => (
 // ---------------------------------------------------------------------------
 // Kinetic caption — Anton condensed caps, word-by-word, red highlight
 // ---------------------------------------------------------------------------
-const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start'; typewriter?: boolean; lineSync?: boolean}> = ({text, highlights = [], size = 112, align = 'center', typewriter = false, lineSync = false}) => {
+const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start'; typewriter?: boolean; lineSync?: boolean; lineReveal?: number[]}> = ({text, highlights = [], size = 112, align = 'center', typewriter = false, lineSync = false, lineReveal}) => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
   const lines = text.split('|');
   const hset = highlights.map((h) => h.toLowerCase());
   const isHi = (w: string) => hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase()) || hset.includes(w.toLowerCase());
-  // lineSync: reveal each line as it is spoken, so a multi-line caption tracks the
-  // voice instead of showing every line at once. Reveal time is weighted by each
-  // line's length (longer lines take proportionally longer to say) across the beat.
+  // Reveal each caption line as it is spoken so the text tracks the voice instead
+  // of showing every line at once. Prefer lineReveal: exact per-line frames measured
+  // from the VO (relative to the beat start; the caption's local frame leads the beat
+  // by ~3, so a line fades in ~3 frames before its word). Otherwise fall back to a
+  // length-weighted estimate across the beat.
   const lineOp: number[] = (() => {
-    if (!lineSync || typewriter || lines.length < 2) return lines.map(() => 1);
+    if (typewriter) return lines.map(() => 1);
+    if (lineReveal && lineReveal.length === lines.length) {
+      return lineReveal.map((rf) => interpolate(frame, [rf, rf + 8], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}));
+    }
+    if (!lineSync || lines.length < 2) return lines.map(() => 1);
     const lens = lines.map((l) => Math.max(1, l.length));
     const total = lens.reduce((a, b) => a + b, 0);
     let cum = 0;
@@ -285,19 +291,19 @@ const Kicker: React.FC<{children: React.ReactNode; delay?: number}> = ({children
 // ---------------------------------------------------------------------------
 // Scenes
 // ---------------------------------------------------------------------------
-const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[]; size?: number; mode?: string}> = ({text, kicker, highlights, size = 92, mode}) => (
+const SceneHook: React.FC<{text: string; kicker?: string; highlights?: string[]; size?: number; mode?: string; reveal?: number[]}> = ({text, kicker, highlights, size = 92, mode, reveal}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
     {kicker ? <div style={{marginBottom: 44}}><Kicker>{kicker}</Kicker></div> : null}
-    <Caption text={text} highlights={highlights} size={size} typewriter={mode === 'type'} />
+    <Caption text={text} highlights={highlights} size={size} typewriter={false} lineReveal={reveal} />
   </AbsoluteFill>
 );
 
-const SceneText: React.FC<{text: string; highlights?: string[]; size?: number; mode?: string}> = ({text, highlights, size = 100, mode}) => (
+const SceneText: React.FC<{text: string; highlights?: string[]; size?: number; mode?: string; reveal?: number[]}> = ({text, highlights, size = 100, mode, reveal}) => (
   <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 84}}>
     {/* Always reveal line-by-line in time with the voice; never the fast word
         typewriter (which revealed the whole caption in ~1s and ran ahead of the VO).
         The block still enters/exits via the TextAnim mode. */}
-    <Caption text={text} highlights={highlights} size={size} typewriter={false} lineSync />
+    <Caption text={text} highlights={highlights} size={size} typewriter={false} lineSync lineReveal={reveal} />
   </AbsoluteFill>
 );
 
@@ -498,11 +504,11 @@ const TextAnim: React.FC<{mode: string; children: React.ReactNode}> = ({mode, ch
 const renderScene = (s: SceneDef, mode: string) => {
   switch (s.kind) {
     case 'hook':
-      return <SceneHook text={s.text!} kicker={s.kicker} highlights={s.highlights} size={s.size} mode={mode} />;
+      return <SceneHook text={s.text!} kicker={s.kicker} highlights={s.highlights} size={s.size} mode={mode} reveal={s.reveal} />;
     case 'lines':
       return <SceneLines text={s.text!} highlights={s.highlights} reveal={s.reveal} mode={mode} />;
     case 'text':
-      return <SceneText text={s.text!} highlights={s.highlights} size={s.size} mode={mode} />;
+      return <SceneText text={s.text!} highlights={s.highlights} size={s.size} mode={mode} reveal={s.reveal} />;
     case 'stat':
       return <SceneStat stat={s.stat!} />;
     case 'chart':
