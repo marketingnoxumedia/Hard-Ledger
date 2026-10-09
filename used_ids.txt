@@ -1,0 +1,2282 @@
+52608
+64824
+87736
+89955
+97079
+102152
+128421
+144233
+164558
+164686
+175045
+186077
+186461
+187041
+191703
+209224
+210607
+210742
+237950
+241188
+259027
+259165
+259209
+261621
+269630
+269724
+273153
+280254
+288096
+288479
+318820
+321599
+333984
+355978
+358636
+373550
+374122
+386318
+459411
+534216
+545064
+545065
+546819
+585292
+590045
+614228
+618158
+691125
+704555
+852107
+852250
+853782
+853946
+856593
+856668
+878832
+896895
+933588
+955392
+965632
+1006060
+1010480
+1038935
+1046606
+1085656
+1117267
+1181263
+1181370
+1196530
+1330753
+1474232
+1474234
+1550334
+1587014
+1602726
+1661959
+1850021
+2004161
+2091159
+2236003
+2267635
+2294135
+2310904
+2361938
+2449665
+2480790
+2523650
+2804929
+2904295
+2949748
+2982434
+2990770
+3174347
+3181031
+3198273
+3531895
+3542101
+3563056
+3570733
+3585012
+3627134
+3639870
+3642642
+3715428
+3733981
+3752537
+3768145
+3782354
+3785441
+3833052
+3846638
+3848193
+3878355
+3939961
+3943714
+3943720
+3943724
+3943727
+3945312
+3945326
+3945336
+3951825
+3969002
+3997060
+4009402
+4056856
+4057659
+4062275
+4081583
+4114386
+4119968
+4127641
+4144768
+4156510
+4185554
+4205767
+4211105
+4211106
+4224099
+4224967
+4245539
+4246086
+4257581
+4277794
+4278336
+4319342
+4386143
+4386327
+4386366
+4386406
+4386469
+4386475
+4394806
+4430243
+4430244
+4430247
+4437145
+4440566
+4440574
+4440788
+4440789
+4440792
+4451867
+4454064
+4464884
+4483608
+4483862
+4484152
+4487675
+4520154
+4554249
+4599912
+4691477
+4700400
+4707180
+4734714
+4770380
+4816721
+4849139
+4870724
+4872063
+4912789
+4925870
+4939594
+4940272
+4945121
+4959907
+4960603
+4963359
+4965011
+4965574
+4968545
+4968703
+4997548
+5028622
+5071130
+5115937
+5137848
+5185074
+5185179
+5202925
+5276885
+5341217
+5353883
+5417674
+5424849
+5441305
+5466769
+5466780
+5466785
+5466788
+5466789
+5466791
+5466795
+5466798
+5466807
+5466811
+5466814
+5466818
+5466821
+5473795
+5477685
+5480781
+5483205
+5520322
+5535856
+5550904
+5550910
+5554949
+5558025
+5561912
+5561919
+5561922
+5571638
+5587941
+5591274
+5651775
+5651783
+5668484
+5668495
+5683815
+5699156
+5700362
+5712122
+5712211
+5717792
+5725589
+5744290
+5758028
+5759037
+5775099
+5784807
+5785100
+5799727
+5816934
+5831253
+5831255
+5831256
+5831268
+5831522
+5833762
+5849580
+5849595
+5849643
+5849646
+5860937
+5864164
+5900034
+5900089
+5900160
+5900161
+5900179
+5900184
+5900186
+5900189
+5900225
+5901622
+5903898
+5942527
+5942528
+5951320
+5961722
+5980800
+6028573
+6029065
+6114347
+6114606
+6120209
+6127098
+6143822
+6144062
+6169046
+6169177
+6169422
+6169660
+6170463
+6197173
+6203470
+6203473
+6214472
+6237886
+6238591
+6250876
+6262797
+6266251
+6266268
+6266280
+6266445
+6266447
+6266622
+6266627
+6266701
+6266770
+6279147
+6285071
+6285073
+6289026
+6289041
+6326861
+6326928
+6328870
+6328893
+6328944
+6333640
+6336598
+6347891
+6373164
+6390193
+6443357
+6455384
+6468225
+6538615
+6539020
+6541074
+6553283
+6564830
+6588323
+6590645
+6590647
+6590651
+6597520
+6607112
+6611922
+6613598
+6614797
+6682880
+6683943
+6684793
+6694543
+6694560
+6694965
+6699308
+6700127
+6700265
+6712711
+6770610
+6770775
+6774947
+6775160
+6779570
+6781273
+6790004
+6801640
+6802052
+6817007
+6825964
+6837647
+6862449
+6862457
+6863178
+6863252
+6863253
+6863282
+6872468
+6873167
+6873324
+6873500
+6913349
+6918507
+6918529
+6919706
+6919751
+6920721
+6927335
+6927350
+6930642
+6930964
+6949494
+6950031
+6951299
+6963887
+6963889
+6990398
+6994676
+7005047
+7016218
+7018662
+7033786
+7034739
+7054384
+7054402
+7054502
+7054801
+7059605
+7100958
+7108043
+7108092
+7108454
+7109243
+7111490
+7111588
+7118320
+7155739
+7167083
+7172774
+7172858
+7172860
+7172863
+7184588
+7203701
+7203775
+7203789
+7205373
+7217134
+7224866
+7231804
+7234225
+7237634
+7237663
+7255321
+7282378
+7282433
+7318903
+7318916
+7330926
+7348172
+7402619
+7409808
+7411970
+7414901
+7428213
+7433849
+7433851
+7434018
+7441481
+7451936
+7451957
+7456532
+7457422
+7489107
+7518782
+7519009
+7519198
+7534380
+7558438
+7564282
+7567223
+7567440
+7567445
+7567554
+7567600
+7578613
+7578855
+7579943
+7580445
+7599735
+7605981
+7648468
+7651555
+7652208
+7654163
+7654428
+7654610
+7667454
+7679727
+7680623
+7680634
+7680681
+7688995
+7693692
+7707115
+7709255
+7735778
+7738887
+7792752
+7792841
+7793096
+7794043
+7821573
+7821937
+7843970
+7843978
+7857000
+7876507
+7926666
+7927422
+7927426
+7927429
+7927581
+7937763
+7947438
+7947635
+7947709
+7947754
+7947849
+7948056
+7948072
+7984780
+8015704
+8015797
+8068819
+8074426
+8088386
+8088617
+8089248
+8101922
+8102178
+8106631
+8112169
+8112186
+8112905
+8113904
+8114057
+8143683
+8148350
+8159242
+8170251
+8217435
+8254160
+8274863
+8276182
+8278872
+8292880
+8292895
+8293717
+8293781
+8296977
+8344740
+8347240
+8353793
+8369251
+8369273
+8369680
+8369695
+8369776
+8369778
+8369831
+8377802
+8386571
+8387508
+8421362
+8422672
+8428065
+8439003
+8439005
+8441783
+8442324
+8468112
+8469940
+8470846
+8472560
+8472577
+8475161
+8478259
+8479058
+8482859
+8498405
+8499635
+8515272
+8515596
+8533076
+8573370
+8629198
+8630075
+8661806
+8666440
+8666805
+8676994
+8680077
+8681899
+8719574
+8719576
+8720273
+8720278
+8727454
+8730998
+8733007
+8756816
+8756892
+8774414
+8774570
+8774638
+8774639
+8783849
+8794094
+8814975
+8828597
+8837510
+8844580
+8865706
+8867253
+8871552
+8872389
+8872441
+8872719
+8937982
+8937985
+8947553
+8962228
+8962521
+8963948
+8964296
+8986709
+8993775
+9000864
+9034758
+9034980
+9062785
+9062790
+9070110
+9140591
+9140593
+9140597
+9140600
+9150640
+9222386
+9301837
+9367466
+9395585
+9462352
+9462408
+9498584
+9507657
+9542003
+9552902
+9565565
+9603487
+9648153
+9716297
+9755376
+9755383
+9755390
+9785300
+9808085
+9810172
+9821387
+9822690
+9822733
+9858904
+9900008
+9929281
+10096886
+10096887
+10149293
+10170423
+10207554
+10276178
+10286038
+10374888
+10472351
+10526899
+10531120
+10615247
+10653886
+10669434
+10826514
+10905773
+10971626
+10994723
+11001887
+11006806
+11069123
+11158789
+11162131
+11177238
+11348104
+11350082
+11391951
+11400591
+11417942
+11455717
+11464447
+11469206
+11587838
+11593539
+11624755
+11624813
+11624819
+11624907
+11645171
+11702921
+11733651
+11743785
+11743789
+11773871
+11798249
+11798250
+11839273
+11852050
+11860562
+11909534
+11911889
+11933549
+11951215
+11952176
+11952304
+12024976
+12039676
+12040985
+12081508
+12123574
+12134140
+12198521
+12198523
+12198531
+12234109
+12266914
+12505005
+12505403
+12513371
+12534135
+12586595
+12593065
+12594566
+12619604
+12700837
+12805817
+12899151
+12903168
+12920750
+12933051
+12950487
+12955837
+12956000
+13012283
+13081133
+13107027
+13185326
+13307522
+13543724
+13620775
+13681232
+13752470
+13801775
+13806260
+13814951
+13919893
+14052063
+14147300
+14213112
+14213937
+14377147
+14580631
+14593616
+14615222
+14647295
+14655998
+14704774
+14711252
+14820411
+14820416
+14820420
+14820437
+14820446
+14820466
+14820469
+14853183
+15044919
+15092992
+15206825
+15223424
+15240212
+15382149
+15389577
+15422584
+15491784
+15491800
+15524063
+15588865
+15633961
+15633962
+15667292
+15947455
+15978610
+15984741
+16002856
+16029615
+16049973
+16073011
+16204377
+16211537
+16388464
+16422868
+16438451
+16519714
+16594725
+16634008
+16636019
+16723181
+16726161
+16809843
+16960662
+17113690
+17177368
+17342282
+17372998
+17485352
+17485780
+17489163
+17511838
+17527938
+17660925
+17682883
+17768376
+17899033
+18001286
+18189047
+18197630
+18260123
+18280833
+18408979
+18495412
+18504013
+18631424
+18687845
+18759200
+18783949
+18880644
+18921474
+19037726
+19224085
+19231459
+19654640
+19704271
+19789837
+19789841
+19832500
+20050353
+20074182
+20210396
+20435095
+20538974
+20576570
+20581299
+20684574
+21050460
+21811094
+21840652
+22775934
+23549137
+24554242
+25461701
+25810707
+26443249
+26648941
+26668817
+26925731
+27038010
+27099093
+27114632
+27152951
+27288569
+27452443
+27490857
+27490881
+27505120
+27686680
+27788817
+27910251
+27986719
+28197097
+28266692
+28266695
+28266696
+28279109
+28283852
+28490242
+28525326
+28572048
+28574958
+28576636
+28576645
+28670064
+28674966
+28679905
+28682345
+28682350
+28759904
+28867253
+28913835
+29052852
+29094497
+29181420
+29342443
+29344546
+29376327
+29509489
+29509491
+29509502
+29509513
+29566907
+29653988
+29726512
+29790215
+29832466
+30159784
+30215681
+30251193
+30268012
+30289537
+30289540
+30344500
+30372403
+30373052
+30409127
+30496227
+30571028
+30617023
+30711884
+30763728
+30792661
+30795043
+30954662
+31025294
+31067412
+31071841
+31096912
+31112245
+31112564
+31251590
+31327341
+31330436
+31340924
+31602311
+31715289
+31760354
+31763557
+31873241
+32017747
+32038719
+32055757
+32063117
+32122734
+32258501
+32338863
+32381238
+32386521
+32386524
+32386532
+32386534
+32386590
+32386619
+32402905
+32502650
+32519068
+32553499
+32570273
+32623458
+32641818
+32667420
+32838797
+32845683
+32845701
+33122147
+33122148
+33122152
+33175650
+33175651
+33175667
+33175673
+33539235
+33539242
+33550139
+33552524
+34066399
+34128979
+34133304
+34150285
+34221997
+34263260
+34387186
+34392837
+34394492
+34398523
+34421895
+34448142
+34492643
+34539087
+34579924
+34585129
+34639577
+34645321
+34670926
+34670931
+34718928
+34746298
+34762353
+35013837
+35014684
+35025685
+35065436
+35090156
+35118208
+35118250
+35177799
+35215486
+35345626
+35368202
+35378672
+35425759
+35436630
+35437525
+35437549
+35490296
+35606045
+35962978
+35980873
+35999387
+36050277
+36070577
+36086367
+36122947
+36236254
+36239190
+36328573
+36504458
+36625295
+36633901
+36712864
+36713392
+36730429
+36730430
+36733312
+36733315
+36755611
+36763947
+36823725
+36915547
+36926327
+36928186
+36962826
+36963719
+36968920
+37095097
+37101039
+37148208
+37208833
+37226044
+37380681
+37416563
+37533033
+37605910
+37651089
+37651183
+37808313
+37820986
+37919866
+37945360
+38168755
+38195854
+38264003
+38342155
+38343508
+38375328
+38395147
+38410501
+38412249
+38412413
+38431825
+38557069
+38670063
+38699699
+38735892
+38736274
+38782891
+38782896
+38803615
+38814009
+38821934
+38821936
+38877603
+38877604
+38892300
+38894397
+38933571
+38933572
+38947200
+38963049
+38963051
+38975904
+39093467
+11367262
+33763794
+32060910
+38880705
+5466806
+5386754
+8292838
+16352272
+4968548
+4959926
+15267098
+6358834
+2513977
+97075
+259191
+15330792
+5982899
+20063577
+13681532
+5900228
+2504924
+7144207
+20381587
+4968385
+7654130
+2844473
+7654118
+36651210
+11017012
+9043018
+19201236
+27700659
+18743334
+10093263
+7316610
+4604639
+29736026
+97080
+8143671
+6801681
+37301862
+6266699
+31550977
+6289031
+20597291
+36145164
+12240430
+4693665
+8292925
+4687314
+8482510
+7841821
+7111553
+4792495
+6266282
+12955794
+6480208
+4933643
+4553261
+25242991
+5798907
+34645214
+35590093
+28975117
+5849596
+6867997
+3921418
+4386325
+6801639
+7947741
+12001949
+10149610
+1578750
+9608654
+12357530
+5934345
+6975209
+7680697
+7580844
+38892298
+17674675
+14820438
+31747091
+7329851
+5849642
+5660498
+33825393
+6100893
+31617700
+7055025
+19959745
+6289029
+12969398
+8583638
+8719570
+6052793
+11333721
+32553500
+8691820
+39191612
+4930676
+6266286
+29068393
+34934562
+9945032
+7680552
+4938241
+11624902
+6653621
+12920771
+8466227
+30268013
+12444594
+14976142
+# GroundReel (When the ground shifts) — BlackBerry A/B twin
+6285683 ground/v_hook.mp4
+6611938 ground/v_touch.mp4
+7643614 ground/v_office.mp4
+37689041 ground/v_crowd.mp4
+30124780 ground/v_close.mp4
+1474237 ground/p_reveal.jpg
+36733421 ground/p_office.jpg
+216581 ground/p_keyboard.jpg
+5703424 ground/p_fad.jpg
+8134067 ground/p_boardroom.jpg
+9870223 ground/p_paid.jpg
+38201429 ground/p_anchor.jpg
+10785779 ground/p_lone.jpg
+270257 ground/p_recycle.jpg
+14127221 ground/p_made.jpg
+# UglyReel (Nobody will touch it) — SanitationReel A/B twin
+29704052 ugly/v_hook.mp4
+9472840 ugly/v_units.mp4
+32621171 ugly/v_service.mp4
+14881072 ugly/v_event.mp4
+32636373 ugly/v_dusk.mp4
+9000867 ugly/p_row.jpg
+33424674 ugly/p_potty.jpg
+4440530 ugly/p_gloves.jpg
+7841410 ugly/p_contract.jpg
+29509476 ugly/p_calendar.jpg
+17842575 ugly/p_event.jpg
+# ForecastReel (What a forecast is worth) — AttReel A/B twin
+8102790 forecast/v_hook.mp4
+5736195 forecast/v_lab.mp4
+8847933 forecast/v_board.mp4
+34576168 forecast/v_crowd.mp4
+34398886 forecast/v_close.mp4
+37401990 forecast/p_brick.jpg
+7947854 forecast/p_study.jpg
+36359722 forecast/p_tower.jpg
+33419837 forecast/p_wired.jpg
+7947757 forecast/p_chart.jpg
+6773517 forecast/p_deal.jpg
+11624820 forecast/p_money.jpg
+19570444 forecast/p_skyline.jpg
+# PassiveReel (What the fee buys) — ActiveReel A/B twin
+39006630 passive/v_hook.mp4
+38209367 passive/v_charts.mp4
+4698492 passive/v_crowd.mp4
+8134702 passive/v_money.mp4
+5483080 passive/v_close.mp4
+7698817 passive/p_pro.jpg
+39212619 passive/p_index.jpg
+7643748 passive/p_group.jpg
+35719588 passive/p_fees.jpg
+39076656 passive/p_desk.jpg
+29611783 passive/p_market.jpg
+10567351 passive/p_calm.jpg
+# WaitReel (The cost of waiting) — HeadstartReel A/B twin
+5651766 wait/v_hook.mp4
+29717425 wait/v_growth.mp4
+8091712 wait/v_young.mp4
+30084927 wait/v_clock.mp4
+29119700 wait/v_close.mp4
+7680554 wait/p_jar.jpg
+37159572 wait/p_young.jpg
+32063767 wait/p_older.jpg
+10149619 wait/p_cash.jpg
+7580934 wait/p_calendar.jpg
+9771338 wait/p_hourglass.jpg
+# WaitReel rework — 8 added media (black beats -> footage), p_portion re-sourced
+5651768 wait/v_stack.mp4
+18295331 wait/p_paths.jpg
+12584119 wait/p_fewcash.jpg
+8522207 wait/v_grow.mp4
+15633963 wait/p_portion.jpg
+32167341 wait/p_rest.jpg
+33414459 wait/p_years.jpg
+31112120 wait/v_timemoney.mp4
+# PremiumReel (What the label buys) — BrandReel A/B twin, media-dense (18 media/2 black/1 red)
+8801825 premium/v_shelf.mp4
+32386600 premium/v_factory.mp4
+5532761 premium/v_line.mp4
+5104005 premium/v_compare.mp4
+4121749 premium/v_shelf2.mp4
+7710751 premium/v_close.mp4
+8015462 premium/p_twoproducts.jpg
+8789609 premium/p_pricetag.jpg
+18350286 premium/p_fancy.jpg
+8422697 premium/p_shopper.jpg
+5532658 premium/p_conveyor.jpg
+16695395 premium/p_ads.jpg
+5498024 premium/p_shelf2.jpg
+3338538 premium/p_quality.jpg
+11018212 premium/p_cart.jpg
+35972716 premium/p_plain.jpg
+7967626 premium/p_labels.jpg
+5732762 premium/p_premium2.jpg
+# ThroneReel (The old battlefield) — NokiaReel A/B twin, media-dense (24 media/2 black/1 red)
+33688494 throne/v_hook.mp4
+7119842 throne/v_retro.mp4
+34775736 throne/v_assembly.mp4
+853987 throne/v_touch.mp4
+6962182 throne/v_apps.mp4
+34690800 throne/v_close.mp4
+8088611 throne/v_crowd.mp4
+9558109 throne/v_discard.mp4
+8715128 throne/p_brick.jpg
+35286031 throne/p_oldphones.jpg
+15913924 throne/p_king.jpg
+5554948 throne/p_factory.jpg
+29435052 throne/p_keypad.jpg
+6755078 throne/p_hardware.jpg
+8674795 throne/p_throne.jpg
+29107599 throne/p_chess.jpg
+35247741 throne/p_menu.jpg
+10883732 throne/p_smartphone.jpg
+12903031 throne/p_handshake.jpg
+112855 throne/p_chessboard.jpg
+27141307 throne/p_appgrid.jpg
+35525661 throne/p_corporate.jpg
+5387258 throne/p_deal.jpg
+38411739 throne/p_recycle.jpg
+# PoolReel (The rented platform) — PalletReel A/B twin, media-dense (21 media/2 black/1 red)
+11191776 pool/v_hook.mp4
+23625701 pool/p_yard.jpg
+31352807 pool/v_forklift.mp4
+10697106 pool/p_aisle.jpg
+39275653 pool/p_stacked.jpg
+6170600 pool/v_dock.mp4
+635096 pool/p_collect.jpg
+6167610 pool/v_handle.mp4
+10864361 pool/p_worn.jpg
+8447829 pool/v_repair.mp4
+9541900 pool/p_field.jpg
+33597923 pool/p_single.jpg
+4473271 pool/v_hub.mp4
+20021122 pool/p_centre.jpg
+35501716 pool/p_depot.jpg
+11624826 pool/p_ledger.jpg
+39228928 pool/p_chart.jpg
+31750574 pool/v_cash.mp4
+37528609 pool/p_under.jpg
+4294436 pool/v_warehouse.mp4
+6543308 pool/v_port.mp4
+# NewCarReel (The new-car tax) — DepreciationReel A/B twin, media-dense (22 media/2 black/1 red)
+33596417 newcar/v_hook.mp4
+12306835 newcar/v_wall.mp4
+12768472 newcar/v_road.mp4
+10296902 newcar/p_first.jpg
+5982900 newcar/p_lot.jpg
+7144212 newcar/p_worth.jpg
+9216589 newcar/p_fuel.jpg
+10610187 newcar/p_driveoff.jpg
+4968666 newcar/p_cash.jpg
+31161428 newcar/p_pump.jpg
+32723685 newcar/p_downhill.jpg
+38343510 newcar/p_chart.jpg
+38933569 newcar/p_chart2.jpg
+1111320 newcar/p_sticker.jpg
+2622122 newcar/p_dash.jpg
+29566900 newcar/p_usedlot.jpg
+27365322 newcar/v_used.mp4
+14667496 newcar/p_interior.jpg
+7144201 newcar/p_key.jpg
+38164944 newcar/p_showroom.jpg
+30254179 newcar/v_luxury.mp4
+6942638 newcar/v_close.mp4
+# VaultReel (Safe vs growing) — GoldReel A/B twin, media-dense (20 media/2 black/1 red)
+31750573 vault/v_hook.mp4
+29336323 vault/p_goldbar.jpg
+7080470 vault/p_goldcoins.jpg
+25913209 vault/p_vault.jpg
+28892477 vault/p_antique.jpg
+7948045 vault/p_crisis.jpg
+29336321 vault/p_goldstack.jpg
+9648243 vault/p_goldpile.jpg
+7364046 vault/p_buyer.jpg
+15253932 vault/p_scale.jpg
+30445101 vault/v_marketchart.mp4
+6596225 vault/v_growth.mp4
+6266645 vault/v_compound.mp4
+5253412 vault/v_close.mp4
+5909815 vault/p_inflation.jpg
+6476254 vault/p_business.jpg
+31352672 vault/p_factory.jpg
+9226624 vault/p_twojobs.jpg
+18671240 vault/p_slow.jpg
+6676154 vault/p_horizon.jpg
+# VendorReel (The vendor trap) — BordersReel A/B twin, media-dense (21 media/2 black/1 red)
+8567117 vendor/v_hook.mp4
+8441789 vendor/p_handover.jpg
+2553427 vendor/p_aisle.jpg
+15898141 vendor/p_store.jpg
+29976380 vendor/p_books.jpg
+1581692 vendor/p_nodigital.jpg
+7433853 vendor/p_boardroom.jpg
+38821173 vendor/p_losschart.jpg
+6214471 vendor/p_laptop.jpg
+6347550 vendor/p_customer.jpg
+37730212 vendor/p_data.jpg
+8937986 vendor/v_online.mp4
+16971219 vendor/v_warehouse.mp4
+7855144 vendor/v_close.mp4
+6580389 vendor/p_empty.jpg
+8815843 vendor/p_deal.jpg
+5414058 vendor/p_closed.jpg
+8532289 vendor/p_future.jpg
+14775626 vendor/p_shoppers.jpg
+38984817 vendor/p_learn.jpg
+3184459 vendor/p_vendor.jpg
+17485603 certain/p_street.jpg
+13256146 certain/p_lily.jpg
+3508134 certain/p_chapel.jpg
+7065900 certain/v_corp.mp4
+8050335 certain/p_cemetery.jpg
+14992893 certain/p_shopfront.jpg
+17904894 certain/p_facade.jpg
+13980225 certain/p_pews.jpg
+6758531 certain/p_reception.jpg
+7578632 certain/v_ticker.mp4
+7054505 certain/p_signing.jpg
+7680466 certain/p_savings.jpg
+7937274 certain/p_rooftops.jpg
+2524353 certain/p_memorialpark.jpg
+7680556 certain/p_cash.jpg
+7580854 certain/p_calc.jpg
+19693228 certain/p_coins.jpg
+5767251 certain/v_candle.mp4
+12551268 certain/p_flag.jpg
+37368966 certain/v_road.mp4
+# DragReel (The certain drag) — FeeReel A/B twin, media-dense (20 media/2 black/1 red)
+7821675 drag/p_wonder.jpg
+11341267 drag/p_hundredk.jpg
+35877869 drag/p_leak.jpg
+8976192 drag/p_twopaths.jpg
+28103488 drag/p_singlecoin.jpg
+6328873 drag/p_skim.jpg
+20843727 drag/p_tallstack.jpg
+19673920 drag/p_shortstack.jpg
+5849656 drag/v_chart.mp4
+6100900 drag/v_review.mp4
+6077861 drag/p_scale.jpg
+6193140 drag/p_calendar.jpg
+7034335 drag/v_clock.mp4
+17497507 drag/p_sprout.jpg
+6033939 drag/p_race.jpg
+5842061 drag/p_bars.jpg
+10180294 drag/p_hourglass.jpg
+8180073 drag/p_dial.jpg
+6625217 drag/p_nestegg.jpg
+955393 drag/p_stamp.jpg
+# MonthsReel (Cash buys time) — original, media-dense (17 media/2 black/1 red)
+10984775 months/p_closed.jpg
+269318 months/p_idea.jpg
+29521529 months/p_whiteboard.jpg
+8347237 months/v_emptyoffice.mp4
+9242916 months/p_prototype.jpg
+31711911 months/p_emptyshop.jpg
+910122 months/p_wallet.jpg
+13111767 months/p_deskmoney.jpg
+31599622 months/p_crowd.jpg
+6863247 months/p_jarempty.jpg
+12996956 months/p_fuelgauge.jpg
+8028798 months/v_compass.mp4
+30215686 months/p_latework.jpg
+1059381 months/p_calendar.jpg
+30923399 months/p_sunrise.jpg
+28271326 months/p_runway.jpg
+5637953 months/v_founder.mp4
+# MajorReel (What you study) — original myth-bust, media-dense (18 media/2 black/1 red)
+8093042 major/p_grads.jpg
+730647 major/p_gap.jpg
+12794087 major/p_diploma.jpg
+11911071 major/p_books.jpg
+7683346 major/v_campus.mp4
+11327902 major/p_paychecks.jpg
+32255498 major/p_finishline.jpg
+8539752 major/p_lab.jpg
+6285159 major/p_engineer.jpg
+22863131 major/p_tradework.jpg
+4919433 major/p_ruler.jpg
+37451040 major/v_lecture.mp4
+259132 major/p_millions.jpg
+30696818 major/p_ladders.jpg
+7128758 major/p_study.jpg
+2801126 major/p_signpost.jpg
+6517121 major/p_halves.jpg
+16739537 major/v_crossroads.mp4
+# MinimumReel (The minimum trap) — original, media-dense (18 media/2 black/1 red)
+7821729 minimum/p_card.jpg
+11706725 minimum/p_calendar.jpg
+4475523 minimum/p_statement.jpg
+7111600 minimum/p_interestup.jpg
+6590636 minimum/p_debtpile.jpg
+12187076 minimum/p_gauge.jpg
+14820436 minimum/p_5kcash.jpg
+1188938 minimum/v_hourglass.mp4
+4386420 minimum/p_moneydrain.jpg
+11809349 minimum/p_envelope.jpg
+6358840 minimum/p_paidstamp.jpg
+3943716 minimum/p_fewcoins.jpg
+8431782 minimum/p_twostacks.jpg
+6540557 minimum/v_swipe.mp4
+6801648 minimum/p_growthline.jpg
+38808472 minimum/p_downchart.jpg
+280277 minimum/p_clock.jpg
+6949983 minimum/v_scissors.mp4
+# HeirsReel (Building vs keeping) — original, media-dense (18 media/2 black/1 red)
+38255315 heirs/p_estate.jpg
+39325789 heirs/p_builder.jpg
+35625441 heirs/p_vault.jpg
+14240460 heirs/p_fork.jpg
+2004385 heirs/p_opposite.jpg
+1533863 heirs/p_solo.jpg
+30252372 heirs/v_growth.mp4
+8205336 heirs/p_meeting.jpg
+6148958 heirs/p_family.jpg
+6773401 heirs/p_handshake.jpg
+32768955 heirs/p_generations.jpg
+20502040 heirs/p_risk.jpg
+12069400 heirs/p_restraint.jpg
+4968649 heirs/p_spending.jpg
+27568960 heirs/p_erosion.jpg
+5027798 heirs/p_steward.jpg
+8327868 heirs/p_craft.jpg
+10420165 heirs/v_legacy.mp4
+# SafeReel (Safe isn't risk-free) — original (idle cash vs inflation), media-dense (20 media/2 black/1 red)
+7821689 safe/p_balance.jpg
+16503709 safe/p_flatline.jpg
+26077633 safe/p_lowyield.jpg
+8058803 safe/p_pricetags.jpg
+16697108 safe/p_shrink.jpg
+7680483 safe/p_untouched.jpg
+32334240 safe/p_safebox.jpg
+39240106 safe/v_grocery.mp4
+5909820 safe/p_erode.jpg
+13668628 safe/p_smallpile.jpg
+34547571 safe/p_mirror.jpg
+35317730 safe/p_fog.jpg
+18874311 safe/p_calmchart.jpg
+7527875 safe/p_sand.jpg
+39183702 safe/p_snowball.jpg
+5357833 safe/p_umbrella.jpg
+6694561 safe/p_wallet.jpg
+7504584 safe/p_calendar.jpg
+36463257 safe/p_downhill.jpg
+7125823 safe/v_review.mp4
+# RealReel (Nominal vs real) — A/B twin of SafeReel (idle cash vs inflation), media-dense (19 media/2 black/1 red)
+11624906 real/p_cashstack.jpg
+38764230 real/p_coin.jpg
+7986975 real/p_prices.jpg
+3675620 real/p_meltcoin.jpg
+164527 real/p_stash.jpg
+7828324 real/p_piggy.jpg
+145683 real/p_vaultdoor.jpg
+5924970 real/v_shopping.mp4
+4386370 real/p_dissolve.jpg
+18671201 real/p_reflection.jpg
+1367192 real/p_hidden.jpg
+33639667 real/p_flatgreen.jpg
+1178684 real/p_hourglass.jpg
+15505900 real/p_stairsdown.jpg
+3581959 real/p_shield.jpg
+915915 real/p_purse.jpg
+273011 real/p_yearplanner.jpg
+35118242 real/p_declineline.jpg
+8087768 real/v_thinking.mp4
+# WantedReel (Why startups fail) — A/B twin of MonthsReel (myth-bust: it's rarely the idea), media-dense (20 media/2 black/1 red)
+12899129 wanted/p_founder.jpg
+3217852 wanted/p_lightbulb.jpg
+7927424 wanted/p_emptywallet.jpg
+20187073 wanted/p_emptyshelf.jpg
+8811463 wanted/p_rearview.jpg
+5138716 wanted/p_headline.jpg
+7947749 wanted/p_microscope.jpg
+7934522 wanted/p_nocustomers.jpg
+19266676 wanted/p_coins.jpg
+5701054 wanted/v_market.mp4
+7322494 wanted/p_rival.jpg
+9331582 wanted/p_calm.jpg
+12354555 wanted/p_unsoldstock.jpg
+4146006 wanted/p_zerobank.jpg
+6238050 wanted/p_brainstorm.jpg
+9175181 wanted/p_runway.jpg
+6991363 wanted/p_stickynotes.jpg
+3184327 wanted/p_teamwork.jpg
+1002703 wanted/p_growth.jpg
+5534473 wanted/v_reflect.mp4
+# AutopayReel (The autopay trap) — A/B twin of DriftReel (forgotten subscriptions), media-dense (15 media/2 black/1 red)
+38466607 autopay/p_remote.jpg
+37669736 autopay/p_facedown.jpg
+5635111 autopay/p_calendar10.jpg
+6963017 autopay/p_investjar.jpg
+4106935 autopay/v_drain.mp4
+5393415 autopay/p_dust.jpg
+401213 autopay/p_plantcoins.jpg
+12198528 autopay/p_twojars.jpg
+6590620 autopay/p_banknote.jpg
+3616891 autopay/p_card.jpg
+6747066 autopay/v_compound.mp4
+11873897 autopay/p_hourglass.jpg
+8018103 autopay/p_smallcoins.jpg
+10124559 autopay/p_fork.jpg
+32789559 autopay/v_reflect.mp4
+# TuitionReel (The tuition trap) — A/B twin of MajorReel (college value / cost tripled since 1980), media-dense (16 media/2 black/1 red)
+29737876 tuition/p_campus.jpg
+5839005 tuition/v_risingchart.mp4
+14635958 tuition/p_flatline.jpg
+9755391 tuition/p_receipt.jpg
+6728919 tuition/p_summerjob.jpg
+5538594 tuition/p_backpack.jpg
+356065 tuition/p_lecturehall.jpg
+5198201 tuition/p_paystub.jpg
+6693644 tuition/p_loanform.jpg
+7942430 tuition/p_diploma.jpg
+13208025 tuition/p_scale.jpg
+32600359 tuition/v_paths.mp4
+36819484 tuition/p_success.jpg
+6964351 tuition/p_burden.jpg
+955394 tuition/p_signing.jpg
+7712279 tuition/v_grad.mp4
+# ReturnReel (The real ROI) — 2nd A/B twin of MajorReel (college value / degree ROI by field), media-dense (14 media/2 black/1 red)
+8817677 return/p_coinflip.jpg
+7966577 return/p_pricetag.jpg
+8629452 return/p_arrows.jpg
+39570107 return/v_climb.mp4
+6590627 return/p_wages.jpg
+4705023 return/p_summerjob2.jpg
+33715989 return/p_debtweight.jpg
+35132715 return/v_diverge.mp4
+36712868 return/p_highroi.jpg
+12911952 return/p_lowroi.jpg
+5632406 return/p_diploma2.jpg
+1423655 return/p_classroom.jpg
+6801682 return/p_ledger.jpg
+8060928 return/v_grad2.mp4
+# ClarityReel (Go time) — crypto-regulation NEWS reel (Clarity Act died, CFTC moved anyway), media-dense (15 media/2 black/1 red)
+# Backgrounds fully re-sourced (fresh footage, all-new ids) — brand layer/script/voice unchanged.
+3369102 clarity/p_capitol.jpg
+32266781 clarity/p_senate.jpg
+14314638 clarity/p_crypto.jpg
+5668481 clarity/p_gavel.jpg
+14744912 clarity/p_fog.jpg
+6883837 clarity/v_studio.mp4
+10196788 clarity/p_greenlight.jpg
+11333728 clarity/p_calendar.jpg
+6192131 clarity/p_checklist.jpg
+5668882 clarity/p_leverage.jpg
+15303326 clarity/p_boundary.jpg
+7579577 clarity/v_trading.mp4
+39212618 clarity/p_chartup1.jpg
+39494584 clarity/p_chartup2.jpg
+3150346 clarity/v_gosignal.mp4
+
+# BellReel (No bell) — A/B twin of ClarityReel (same Clarity Act / Sept 2026 news, SEC 24-hour-trading angle), media-dense (17 media/2 black/1 red), adds a two-bar chart beat
+10786530 bell/p_wallst.jpg
+12837026 bell/p_afterhours.jpg
+5378701 bell/p_bell.jpg
+5624978 bell/p_clock.jpg
+24376267 bell/p_capitol2.jpg
+38503730 bell/p_sec.jpg
+8850721 bell/p_exempt.jpg
+35930741 bell/p_chain.jpg
+7579561 bell/v_ticker.mp4
+33795954 bell/p_hourglass.jpg
+1148820 bell/p_serverroom.jpg
+39334005 bell/p_uptrend.jpg
+17194840 bell/p_cables.jpg
+38240712 bell/p_bell2.jpg
+8865787 bell/v_floor.mp4
+19555268 bell/v_rails.mp4
+28464336 bell/v_night.mp4
+
+# MemoReel (One memo) — NEWS reel series #3 (AI mega-IPO + political memo; NEW topic, not crypto). Revised to a named-people cut (Dario/Daniela Amodei, Kratsios, Trump, Axios) with a CTA-question close; media-dense (19 media/1 black/1 red), two-bar chart
+4705378 memo/p_washington.jpg
+32266769 memo/p_un.jpg
+5202006 memo/p_slow.jpg
+14003675 memo/v_index.mp4
+28905655 memo/p_greenlight.jpg
+5203849 memo/p_floor.jpg
+37012314 memo/p_press.jpg
+29585684 memo/p_dawn.jpg
+client-upload:doctor_doom.gif memo/g_doom.mp4 (Marvel, animated 42f, from giphy link)
+# client-supplied GIFs on 4 beats — COPYRIGHTED (Disney/Universal/Paramount+/artist); client's editorial+licensing call, NOT stock/no-reuse-tracked
+client-upload:kermit_typewriter.gif memo/g_memo.mp4 (Disney/Muppets, animated 23f, from giphy link)
+client-upload:donald_duck_money.gif memo/g_money.mp4 (Disney)
+client-upload:paramount_working.gif memo/g_axios.mp4 (Paramount+)
+# GIF/meme-energy looping clips (Pexels video)
+18128143 memo/v_cal.mp4
+6266433 memo/v_banks.mp4
+35163081 memo/v_ai.mp4
+# meme-energy b-roll (Pexels)
+2842763 memo/p_hype.jpg
+8213139 memo/p_fomo.jpg
+# public-figure portraits — Wikimedia Commons, PUBLIC DOMAIN (US federal govt works, no attribution required)
+wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg memo/p_trump.jpg
+wikimedia:Michael_J._K._Kratsios_official_photo.jpg memo/p_kratsios.jpg
+
+# MemoReel RETIRED (replaced by CageReel per client) — removed from Root.tsx and src/; public/memo/ assets remain in repo (kept here so their ids are not reused).
+
+# CageReel (The cage) — NEWS reel series #4 (REPLACES MemoReel). Topic: Nvidia ships tools to "cage" agentic AI the same morning OpenAI reports a model "escaped," read against the AI-IPO frenzy. Evolved MemoReel style: 4-mode rotating text anim, real faces for the 2 named people, 2 stat cards + market lines card + mid-tail red card, CTA-question close. Media-dense (20 media / 2 black / 1 red). Own footage under public/cage/.
+# --- Pexels stills (front half) ---
+7859350 cage/p_gpu.jpg
+4508751 cage/p_server.jpg
+6636500 cage/p_chips.jpg
+39398848 cage/p_ticker.jpg
+39353380 cage/p_selloff.jpg
+# --- Pexels stills (back half) ---
+6357114 cage/p_ipo.jpg
+10653885 cage/p_trading.jpg
+7841145 cage/p_box.jpg
+8640331 cage/p_flow.jpg
+1448561 cage/p_chips2.jpg
+5795580 cage/p_lock.jpg
+6347702 cage/p_buy.jpg
+18441167 cage/p_night.jpg
+# --- Pexels video ---
+33164273 cage/v_ai.mp4
+# --- public-figure faces ---
+wikimedia:Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg cage/p_amodei.jpg (CC BY 2.0 — credit "Kimberly White / TechCrunch, CC BY 2.0" on publish)
+wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg cage/p_trump.jpg (PUBLIC DOMAIN, US federal govt work; same portrait as retired memo/p_trump.jpg)
+
+# --- client-supplied GIFs (Giphy links) placed on 4 beats — COPYRIGHTED third-party meme/film clips; client's editorial + licensing call, NOT brand-safe stock / not no-reuse-tracked ---
+giphy:fUuTpJQtUTTgrogcIb cage/g_bell.mp4 (cat ringing a service bell -> 'before the bell')
+giphy:KYyQJ1ze5f9CK6V7D7 cage/g_fence.mp4 (goat leaving a barn stall -> 'nobody builds a fence'; NOTE burned-in '@akash sidhu 123' watermark)
+giphy:ZBK7b4vHYyb0n70zJq cage/g_why.mp4 (skeptical side-eye reaction -> 'so why cage it that morning')
+giphy:mbxT8VSgvdlg3PfM7J cage/g_wins.mp4 (auction paddle '300' bid, film clip -> 'whoever sells the cage wins')
+
+# ChequeReel (One in twenty) — NEWS reel series #5. Topic: the $500 "Working Families Obamacare Refund" cheques = a refund of the HealthCare.gov website USER-FEE surplus. Hard-condensed from ~420 to ~205 words to fit the <60s cap (client's call). Evolved style: verbatim-leaning captions + big number cards for the CARD callouts, 4-mode text anim, Trump PD face. Media-dense (13 media / 2 black / 1 red). Own footage under public/cheque/.
+# --- Pexels stills (front half) ---
+4386368 cheque/p_cheque.jpg (US cash in a black envelope — brand-safe SUBSTITUTE for a literal paper cheque; clean cheque shots were Cyrillic-keyboard or collided)
+19784164 cheque/p_map.jpg (US map on dark asphalt)
+31474056 cheque/p_whitehouse.jpg (B&W night White House)
+7709273 cheque/p_laptop.jpg (generic web form — NOT the real HealthCare.gov, no insurer brand)
+6590643 cheque/p_cash.jpg (US bills fanned on black)
+4968384 cheque/p_handsmoney.jpg (hands exchanging US cash)
+# --- Pexels stills (back half) ---
+4832530 cheque/p_house.jpg (suburban home)
+17581789 cheque/p_capitol.jpg (US state capitol dome)
+6919757 cheque/p_bills.jpg (stressed person with a medical/claim form)
+7688524 cheque/p_receipt.jpg (generic invoice + calculator, placeholder text only)
+4475469 cheque/p_money2.jpg (hands counting US $20s on near-black)
+5935749 cheque/p_vote.jpg (generic "VOTE" ballot box, no party/candidate)
+# --- public-figure face ---
+wikimedia:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg cheque/p_trump.jpg (PUBLIC DOMAIN, US federal govt work; same portrait as cage/p_trump.jpg)
+
+# MicronReel (The cycle) — NEWS reel series #6. Topic: Micron's Q4 earnings REACTION — beat + raised outlook but the stock fell ~2%; thesis "a floor is only good news if you weren't paying for the ceiling"; the company quietly conceding it's a cycle (26 agreements / ~35% of revenue through 2030) while the stock is up ~280% YTD. Hard-condensed from ~370 to ~150 words to fit <60s (client's call). Evolved style: verbatim-leaning captions + number cards (-2%, 26/35%/2030, +280%), 4-mode text anim. NO faces for the named CFO/CEO/analyst (generic role-label b-roll). Media-dense (14 media / 2 black / 1 red). Own footage under public/micron/.
+# --- Pexels stills (front half) ---
+36169773 micron/p_chip.jpg (dark black-chip circuit macro; brand-free RAM/DRAM sticks don't exist on Pexels, so a generic silicon macro stands in)
+12960362 micron/p_bell2.jpg (abstract red/green LED ticker board, numbers illegible)
+7947847 micron/p_margin.jpg (printed "Revenue report" page, placeholder numbers)
+12092846 micron/p_podium.jpg (lone microphone on a dark stage — face-free stand-in for the exec/earnings-call beats)
+38905596 micron/p_drop.jpg (dark candlestick screen with a downward dip, generic axis only)
+5834243 micron/p_slow.jpg (candlestick + MA chart rising then leveling off)
+7841411 micron/p_contract.jpg (printed "CONTRACT" doc with placeholder [ABC], pen)
+# --- Pexels stills (back half) ---
+30792466 micron/p_bust.jpg (storm clouds over a city skyline — the coming bust)
+39494586 micron/p_soar.jpg (green candlesticks climbing up-and-right)
+32655950 micron/p_ceiling.jpg (architectural oculus/dome looking up — "the ceiling")
+31650949 micron/p_terminal.jpg (trader's multi-screen desk, no brand/tickers)
+17739892 micron/p_desk.jpg (empty modern boardroom table)
+8336038 micron/p_hedge.jpg (B&W chessboard, king vs king — hedging)
+6141336 micron/p_hold.jpg (grasping hand in near-darkness — "still holding?"; REPLACED the agent's pick 7947740, which was a recognizable Robinhood app screen)
+
+# DieselReel (The tap) — NEWS reel series #7. Topic: China suspending October diesel/fuel EXPORTS while the world is short — energy as leverage, 5 weeks before the US midterms. Hard-condensed from ~225 to ~160 words to fit <60s (client's call). Evolved style: verbatim-leaning captions + number cards ($100+ oil / 5-yr low / EC -33%; -20M barrels; $75), 4-mode text anim, Trump PD face on the "Trump asked Xi" beat. Media-dense (13 media / 1 black / 1 red). Own footage under public/diesel/.
+# --- Pexels stills (front half) ---
+11116153 diesel/p_diesel.jpg (row of fuel-pump nozzles)
+10407689 diesel/p_refinery.jpg (refinery lit at night, aerial)
+4940270 diesel/p_port.jpg (port gantry cranes at dusk)
+10407692 diesel/p_hub.jpg (sprawling refinery/petrochemical complex)
+7616004 diesel/p_valve.jpg (large shut-off handwheel valve)
+3151717 diesel/p_barrels.jpg (stacked steel oil drums; only generic "MOTOR FUEL" surplus stencils, no brand)
+# --- Pexels stills (back half) ---
+9407369 diesel/p_tanks.jpg (aerial fuel tank farm)
+16679540 diesel/p_gauge.jpg (industrial pressure gauge; units/standards only, no maker)
+33333666 diesel/p_ship.jpg (single oil/fuel tanker at sea, B&W; no name/livery/flag)
+34056286 diesel/p_station.jpg (lone dark fuel pump at night; wordmark cropped out, no brand)
+30962230 diesel/p_flag.jpg (American flag, moody B&W — for US midterms)
+18784617 diesel/p_tap.jpg (pipelines running to the horizon — "turn the tap back on")
+# --- public-figure face ---
+wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official portrait, Shealah Craighead/White House; PUBLIC DOMAIN, US federal govt work; deliberately a DIFFERENT Trump photo from cage/cheque's 2025 portrait)
+
+# JobsReel (Trading the Fed) — NEWS reel series #8. Topic: weak Sept jobs report (29k vs ~90k) yet stocks ROSE — markets trade the Fed, not the economy (weak jobs -> no hike -> yields fall -> stocks rise). Hard-condensed from ~190 to ~165 words to fit <60s. Verbatim text beats + number cards (4.2%/July -10k; 69%/10yr 5.3%/worst since 1994; 69%->22%). No faces (institutions only). Media-dense (13 media / 1 black / 1 red). Own footage under public/jobs/.
+# --- Pexels stills (front half) ---
+5598328 jobs/p_jobs.jpg ("HIRING" chalk on black)
+35758724 jobs/p_clock.jpg (office wall clock; generic "QUARTZ" only)
+7581040 jobs/p_layoff.jpg (man carrying a box of desk belongings)
+39558511 jobs/p_up.jpg (green/red candlesticks, +0.14%, no tickers)
+28198537 jobs/p_fed.jpg (Corinthian-columned facade, no inscription/seal)
+4386155 jobs/p_bonds.jpg (US currency "U.S. TREASURY" engraving — the topic itself)
+36713398 jobs/p_weak.jpg (lone worker, face in hands)
+# --- Pexels stills (back half) ---
+39415759 jobs/p_odds.jpg (abstract glowing line chart on near-black grid)
+5566169 jobs/p_strings.jpg (hands pulling taut strings to a hooded figure — puppet/control)
+8431786 jobs/p_yields.jpg (balance scale, one pan down one up — "yields fall, stocks rise")
+5294105 jobs/p_relief.jpg (man eyes closed, hand to brow, exhaling — "relief")
+4028941 jobs/p_storm.jpg (storm clouds over a city skyline)
+6077189 jobs/p_done.jpg (judge's gavel on a sound block — "is the Fed done?")
+
+# SpacexReel (The belief) — NEWS reel series #9. Topic: SpaceX IPO prospectus claiming a ~$28.5T market (rockets ~1%); a TAM so big it becomes a story — "the belief, not the market." Hard-condensed to ~170 words to fit <60s. Verbatim text beats + number cards ($28.5T/1%; $370B/$1.6T/$26.5T; $22.7T; $12.5B; $1T vs $400B / 18x). NO faces (Musk named, not shown). Media-dense (12 media / 1 black / 1 red). Own footage under public/spacex/.
+# --- Pexels stills (front half) ---
+11086520 spacex/p_rocket.jpg (distant rocket ascending, dark sky; no livery)
+7658352 spacex/p_prospectus.jpg (financial statement, placeholder line items)
+586072 spacex/p_earth.jpg (space-station solar array/hardware over Earth; no legible branding)
+30547618 spacex/p_digital.jpg (red/orange digital circuit lattice on near-black)
+7063762 spacex/p_revenue.jpg (pennies + open accounting ledger — "tiny actual revenue")
+20376408 spacex/p_target.jpg (Mars-like red planet on black)
+# --- Pexels stills (back half) ---
+3180831 spacex/p_cosmos.jpg (deep-space nebula + starfield)
+5389623 spacex/p_story.jpg (red spotlight beams on an empty stage)
+30596268 spacex/p_world.jpg (Earth at night, city lights)
+7355365 spacex/p_brand.jpg (red+cream toy rocket on white — "rockets as the brand/icon")
+4275891 spacex/p_gap.jpg (tiny figure dwarfed in a vast cavern — scale mismatch)
+5194003 spacex/p_cta.jpg (silhouette under the Milky Way — "you decide")
+
+# LandlordReel (The landlord) — NEWS reel series #10, A/B TWIN of SpacexReel (same company, different angle). Topic: SpaceX owns 1M+ Nvidia GPUs and rents them to AI firms — an AI-compute landlord, not a rocket company (yet). Hard-condensed to ~165 words to fit <60s. Verbatim text beats + number cards (780k/+440k; 1.2M; $26B/yr & $150M/mo; $18.7B rev / -$4.9B loss; 2028). NO faces. Media-dense (12 media / 1 black / 1 red). Own footage under public/landlord/ (no asset shared with SpacexReel or any other reel).
+# --- Pexels stills (front half) ---
+6385893 landlord/p_gpu.jpg (red/black GPU PCB, no maker logo)
+5408005 landlord/p_serverhall.jpg (data-center server-rack aisle)
+30467757 landlord/p_rocket.jpg (rocket engine cluster in a dark hangar; no livery)
+8962327 landlord/p_keys.jpg ("HOUSE FOR RENT" yard sign, blank info box)
+7680565 landlord/p_cash.jpg (hands counting US cash)
+6779714 landlord/p_ledger.jpg (accounting statement, placeholder figures)
+# --- Pexels stills (back half) ---
+12244791 landlord/p_satellite.jpg (CGI deep-space probe/satellite in a starfield)
+18015296 landlord/p_pad.jpg (rocket booster standing vertical; no wordmarks)
+5420670 landlord/p_launch.jpg (rocket liftoff with flame plume; emblem not legible)
+2881233 landlord/p_rack.jpg (network-fiber cables plugged into servers)
+35758486 landlord/p_building.jpg (apartment high-rise at night)
+16563643 landlord/p_decide.jpg (silhouette on a ridge under the Milky Way)
+
+# TeslaReel (The bar) — NEWS reel series #11. Topic: Tesla stock +5% on a quarter it delivered FEWER cars — it only beat a lowered Wall St bar; stagnation behind the beat. Hard-condensed to ~155 words to fit <60s. Verbatim text beats + number cards (486,532 vs 497,099; Street 461,974/beat 25k; 98%/8,295; 13.7 vs 15.9 GWh; -21% YTD). NO faces. NO Tesla vehicles/logos (all generic). Media-dense (13 media / 1 black / 1 red). Own footage under public/tesla/.
+# --- Pexels stills (front half) ---
+3864110 tesla/p_cars.jpg (aerial car-storage lot, varied small cars, no badges)
+29976478 tesla/p_factory.jpg (automated welding sparks, near-black)
+29566896 tesla/p_lot.jpg (top-down rows of new SUVs, badges not legible)
+39315993 tesla/p_up.jpg (green candlesticks rising, +2.75%)
+33000152 tesla/p_trading.jpg (hand/stylus on trading screens)
+24916070 tesla/p_flat.jpg (flat empty road to the horizon)
+36594160 tesla/p_battery.jpg (industrial battery-cell bank, worker face-away)
+# --- Pexels stills (back half) ---
+39415760 tesla/p_down.jpg (steep downtrend candlesticks)
+3763878 tesla/p_lowbar.jpg (a single low athletics hurdle on a track)
+5411023 tesla/p_treadmill.jpg (dark B&W treadmill — running in place)
+15488504 tesla/p_limbo.jpg (lowered yellow barrier/gate arms)
+16664158 tesla/p_twomodels.jpg (row of identical vintage VW Beetles — "same model", not Tesla)
+19049357 tesla/p_cta.jpg (aerial forest crossroads — "you decide")
+
+# BalticReel (The sea lane) — NEWS reel series #12. Topic: Russia's nuclear threat over Kaliningrad is really about the Baltic sea lane / its seaborne oil exports. Hard-condensed to ~160 words to fit <60s. Verbatim text beats + cards (Poland/Lithuania/NATO; 3 countries / 3 days); the Baltic-oil card is "a large share" (NO percentage — client's call, no invented stat). NO faces. Media-dense (13 media / 1 black / 1 red). Own footage under public/baltic/.
+# --- Pexels stills (front half) ---
+12171952 baltic/p_warning.jpg (radiation/fallout warning sign)
+35241517 baltic/p_note.jpg (wax-sealed envelope — the note)
+7327336 baltic/p_nuke.jpg (lone missile climbing over sea)
+8828587 baltic/p_map.jpg (pushpins on a central/eastern Europe map, English labels)
+12748681 baltic/p_military.jpg (aerial armored tank column)
+33144955 baltic/p_coldwar.jpg (old radar antenna silhouette, stormy sky)
+11086515 baltic/p_launch.jpg (missile ascending, near-black sky)
+# --- Pexels stills (back half) ---
+18959229 baltic/p_warship.jpg (warship superstructure silhouette at dusk)
+27275198 baltic/p_tanker.jpg (aerial oil tanker, no name/livery)
+20125592 baltic/p_sea.jpg (near-black open water)
+38863293 baltic/p_strait.jpg (ship transiting the narrow Corinth Canal — a chokepoint)
+12530458 baltic/p_sealane.jpg (top-down container ship — the sea lane)
+16222424 baltic/p_standoff.jpg (two opposing chess kings — "who blinks first?")
+
+# MortgageReel (Priced in) — NEWS reel series #13. Topic: UK fixed mortgage deals collapsed while the Bank of England HELD the base rate — a mortgage is priced in the bond market, and gilt yields repriced on Gulf-war risk, so a UK fixed rate is now a bet on the Gulf. Hard-condensed to ~160 words to fit <60s. Verbatim text beats + number cards (5yr 6.00%/2yr 5.98%; Barclays x4 / 6 lenders x3; 1,494->9; 5,000,000 by 2028; diesel £2 / energy +4%). NO faces, NO bank/estate-agent/fuel brand marks. Media-dense (11 media / 2 black / 1 red). Own footage under public/mortgage/.
+20703515 mortgage/p_houses.jpg (row of red-brick terraced houses, no agency boards)
+34135038 mortgage/p_keys.jpg (house keys on blank/hand-drawn property paperwork)
+8704354 mortgage/p_towers.jpg (B&W modern glass office tower, no logos)
+39368611 mortgage/p_chart.jpg (abstract declining red area chart on a dark grid)
+7947742 mortgage/p_bonds.jpg (generic candlestick "Stock Report" screen, no tickers/brand)
+10400836 mortgage/p_lend.jpg (hands passing a banded bundle of banknotes, no faces/brand)
+9716237 mortgage/p_estate.jpg (aerial suburban housing estate, no signage)
+20500734 mortgage/p_fuel.jpg (green diesel pump nozzle, no fuel-brand marks)
+30849138 mortgage/p_city.jpg (neoclassical columned financial-district facade, no logos)
+15973758 mortgage/p_gulf.jpg (offshore oil platform silhouette at sunset, no names/flags)
+8470837 mortgage/p_cta.jpg (hands holding a house key before a blurred "SOLD" sign, no agency name)
+
+# CondoReel (The name) — NEWS reel series #14. Topic: Miami's BRANDED residences (hotel-licensed luxury condo towers). Thesis: the hotel doesn't build or own the tower — it licenses its NAME and takes a fee the developer passes to the buyer; the best business isn't building condos, it's lending them a name. Hard-condensed to ~165 words to fit <60s. Verbatim text beats + number cards (48/55/#2; 50%+; 75/100,000/helipad; +30% premium). Brand NAMES are editorial (VO + text); FOOTAGE is brand-free — no hotel/developer/agency logos or identifiable branded-tower signage. NO identifiable faces (anonymous/back-turned only). Media-dense (12 media / 2 black / 1 red). Own footage under public/condo/. The +30% Savills premium is a commonly-cited figure used per client's call, NOT a verified quote.
+5362096 condo/p_tower.jpg (gleaming glass high-rise, low angle, no signage)
+35482397 condo/p_skyline.jpg (dusk skyline silhouette with construction cranes)
+5556585 condo/p_balconies.jpg (twilight luxury glass-rail balcony facade)
+14546230 condo/p_helipad.jpg (rooftop infinity pool on a skyscraper terrace)
+2323080 condo/p_construction.jpg (high-rise under construction, tower cranes, no logos)
+7504780 condo/p_contract.jpg (hand signing a document, no face, no readable text)
+333837 condo/p_cash.jpg (macro pile of house keys on dark surface, B&W)
+695193 condo/p_lobby.jpg (opulent chandeliered marble lobby, anonymous seated figure)
+35630647 condo/p_model.jpg (metallic architectural scale model of towers, blurred panels)
+30469688 condo/p_dining.jpg (elegant fine-dining plated dishes, no menu/logo)
+36404052 condo/p_nameplate.jpg (brass door-pull on a dark-wood luxury door, no text)
+8572163 condo/p_penthouse.jpg (penthouse interior, anonymous back-turned figure at windows)
+
+# FeldbergReel (The snow line) — NEWS reel series #15. Topic: a Black Forest ski resort (Feldberg) making artificial snow while its springs dry up — climate risk vs. sunk-cost denial. Thesis: Feldberg pays to DELAY a decision; France's Metabief PAID ONCE to make it (set an end date, stopped replacing lifts). Hard-condensed to ~165 words to fit <60s. Verbatim text beats + number cards (12 lifts/1968; 4 winters no Christmas snow; closed 22 March; 100 snow guns/2 reservoirs; 2,200-resort study 53% at +2 / 98% at +4; Metabief 2030-2040). NO resort/lift-brand logos or readable piste signage; NO identifiable faces (no stand-in for the named ranger; anonymous/distant only). Media-dense (13 media / 2 black / 0 red — closer varied to a summit beat). Own footage under public/feldberg/.
+14552167 feldberg/p_snowgun.jpg (snow cannon blasting a plume at blue hour, deserted)
+3651800 feldberg/p_lift.jpg (backlit chairlift, one distant goggled rider, seat no. only)
+38891560 feldberg/p_ridge.jpg (lone distant back-turned figure on a snowy ridge)
+15512911 feldberg/p_bareslope.jpg (brown grassy alpine slope, only patchy snow — the no-snow look)
+30092587 feldberg/p_closedlift.jpg (deserted chairlift, empty chairs fading into fog)
+19777497 feldberg/p_guns.jpg (two snow guns throwing snow, faceless distant skier silhouettes)
+30678632 feldberg/p_dryspring.jpg (aerial dried lakebed / drought flats — drying water source)
+4081283 feldberg/p_alps.jpg (sweeping snow-capped alpine panorama, many peaks)
+29251880 feldberg/p_oldlift.jpg (disused stone lift station + weathered pylon — end-of-skiing)
+6631838 feldberg/p_ticket.jpg (row of stainless access-gate turnstiles, generic)
+35814411 feldberg/p_village.jpg (cluster of snowy chalet rooftops at golden sunrise)
+34613802 feldberg/p_summit.jpg (majestic single golden-hour summit against deep blue)
+20061882 feldberg/p_fork.jpg (aerial snowy Y-fork in a road — which way / which bet)
+
+# WesterlyReel (The curtain) — NEWS reel series #16. Topic: a hotel building a second, pricier hotel INSIDE itself (Aruba Hilton's "The Westerly") — price discrimination on infrastructure already owned. Thesis: at 93% occupancy there are no more nights to sell, so you sell the same night for more — a slice of rooms wrapped in a velvet rope; not a new hotel, a new price for the old one. Hard-condensed to ~170 words to fit <60s. Verbatim text beats + number cards (since 1959 / 93%; $100M+; 161 rooms; 3 more resorts). Brand NAMES editorial (VO + text); FOOTAGE brand-free — no hotel/airline logos, no identifiable famous hotel exteriors, no readable door/room numbers, no identifiable faces (anonymous/distant/back-turned). Media-dense (13 media / 2 black / 1 red). Own footage under public/westerly/.
+36477913 westerly/p_resort.jpg (beachfront luxury hotel tower at dusk, no signage)
+20194835 westerly/p_beach.jpg (upscale beach club loungers/umbrellas, one distant back-turned figure)
+12652920 westerly/p_suite.jpg (pristine luxury seaside suite, ocean view, no room number)
+2079615 westerly/p_build.jpg (building wrapped in scaffolding — under construction)
+2149421 westerly/p_rooftop.jpg (rooftop infinity pool with glass railing, ocean horizon)
+1591240 westerly/p_door.jpg (ornate closed baroque double door — the door others can't use)
+30114340 westerly/p_aerial.jpg (aerial resort: pools, cabanas, beach; distant anonymous sunbathers)
+15679390 westerly/p_curtain.jpg (gold/black hanging drapery — curtain stand-in, studio, no marks)
+4034153 westerly/p_pool.jpg (ground-level tropical resort pool ringed by palms)
+2880505 westerly/p_crowd.jpg (aerial of a fully packed beach — no nights left to sell)
+7821343 westerly/p_price.jpg (silver concierge bell on black; only a blurred generic "RECEPTION" bokeh)
+18573164 westerly/p_rope.jpg (gold stanchion + red velvet rope — VIP exclusivity)
+18117654 westerly/p_hallway.jpg (moody dark hotel corridor with two lit doors)
+
+# TariffReel (One in six) — NEWS reel series #17. Topic: can tariffs pay for a $5,000 cheque to every American adult? No — tariff revenue covers ~$1 in $6 of the ~$1.25T bill; the other five get borrowed, at the highest long rates in 24 years, into prices already rising. The cheque comes once; the debt is forever. Hard-condensed to ~160 words to fit <60s. Verbatim text beats + number cards ($5,000; $1.25T; $195B / 1 in 6; net negative; $40T / 5.6%; 1.4%->9.1%; 3.4%). Trump named in VO only — NO politician faces (Oval-Office beat = White House). FOOTAGE brand-free — generic US-fiscal imagery, no bank/app/ticker logos, no identifiable faces. Media-dense (13 media / 1 black / 1 red). Own footage under public/tariff/.
+37298774 tariff/p_capitol.jpg (US Capitol dome, stormy dusk)
+7017147 tariff/p_whitehouse.jpg (White House South Portico, one tiny distant figure)
+30043599 tariff/p_crowd.jpg (group of people shot entirely from behind at sunset)
+32553545 tariff/p_cash.jpg (full-frame pile of US currency)
+30504707 tariff/p_pie.jpg (pizza cut into slices with one separated — the 1-in-6 fraction)
+39463634 tariff/p_redchart.jpg (red declining candlestick chart, no ticker/brand)
+14955941 tariff/p_debt.jpg (US Treasury building at dusk — "THE TREASURY DEPARTMENT" landmark name)
+7947993 tariff/p_inflation.jpg (rising red bar chart on paper; generic "MARKET RESEARCH" text only)
+6534073 tariff/p_fed.jpg (neoclassical columned govt facade — generic public building)
+29484267 tariff/p_dollar.jpg (close-up single US one-dollar bill on near-black)
+18449922 tariff/p_bond.jpg (generic certificate/security paper — the "borrowed" idea)
+5498233 tariff/p_grocery.jpg (shopping cart sharp, shelves/shoppers blurred unreadable)
+6862442 tariff/p_cheque.jpg (anonymous hands holding a generic template cheque, no routing/bank)
+
+# DiggerReel (The last star) — NEWS reel series #18. Topic: Tom Cruise's film "Digger" opens to ~$8M (a historic box-office bomb) and the death of the movie star. Thesis: Cruise was never the product, the franchise was; Hollywood pays for what it has already sold once. Hard-condensed to ~170 words to fit <60s. Verbatim text beats + number cards (3,321 screens; $8M/$20M; $2,400/screen; budget $180M/$40M/$8M; -$200M; Hathaway $32M; $438M vs $1.8B). Brand/film/actor names editorial (VO + text); FOOTAGE brand-free — generic cinema/Hollywood imagery, no studio/cinema-chain logos, no movie posters/titles/stills, no Cruise/Hathaway/celebrity faces (no identifiable faces). Media-dense (13 media / 1 black / 1 red). Own footage under public/digger/.
+3709370 digger/p_seats.jpg (dark empty auditorium, rows of seats, blank screen)
+37557083 digger/p_marquee.jpg (red neon "TEATR" generic theater sign at night)
+35260661 digger/p_boxoffice.jpg (row of ticket-booth windows, dramatic diagonal light)
+22908923 digger/p_emptyrow.jpg (near-empty theater, dark-red seats, plain seat numbers)
+34516665 digger/p_camera.jpg (professional cine-camera rig, red backlight)
+38808474 digger/p_redchart.jpg (red candlestick/line chart on black — losses)
+7513412 digger/p_packed.jpg (packed auditorium, silhouetted heads, blank white screen)
+32728014 digger/p_reel.jpg (B&W vintage film strip close-up, bokeh)
+34389695 digger/p_derrick.jpg (offshore oil rig silhouette at orange sunset — oil tycoon)
+18903553 digger/p_jet.jpg (fighter-jet silhouette banking against amber sky, no markings)
+29508639 digger/p_clapper.jpg (blank film clapperboard, generic field labels only)
+1556654 digger/p_star.jpg (abstract gold star-shaped bokeh on dark red)
+4722576 digger/p_spotlight.jpg (single theatrical spotlight beam through smoke)
+
+# NikkeiReel (The toolshed) — NEWS reel series #19. Topic: Japan's Nikkei doubles in ~2 years after a 34-year recovery — really an AI-supply-chain trade. Thesis: Japan isn't bought as Japan; it's the "toolshed" for America's AI build-out (machines that make + test chips), priced in a yen that's never been cheaper, with banks earning a spread as the BOJ hikes. The Nikkei didn't recover — it got repurposed. FULL-SCRIPT version: every scripted line kept verbatim (nothing dropped) + number cards (70,729; 1989 38,957 / 34 yrs; Tokyo Electron +78%; Mizuho +86% / MUFG +60% / yen 163); runs ~86s by design (over the 60s norm, author's call). MAX-MEDIA-DENSE 30-BEAT cut (author chose max media): 28 footage beats (incl. all 5 number cards over footage) / 2 black / 0 red; 28 distinct brand-free clips (14 original + 14 new below), each used once, none reused across other reels. Company/index names editorial (VO + text); FOOTAGE brand-free — generic Japan/markets/semiconductor/finance imagery, no company logos, no readable brand neon, no flags, no identifiable faces. Own footage under public/nikkei/.
+31148079 nikkei/p_tokyo.jpg (aerial Tokyo at night, cityscape, signage tiny/unreadable)
+25587673 nikkei/p_exchange.jpg (bull/market sculpture — exchange feel, no brand marks)
+9951077 nikkei/p_ticker.jpg (abstract wall of glowing green data numbers, no symbols/brand)
+10413174 nikkei/p_vintage.jpg (faded film-look high-rise cityscape with red crane — bubble era)
+38821937 nikkei/p_chart.jpg (green/red candlestick chart rising, only a bare price number)
+39469558 nikkei/p_street.jpg (rainy Japanese alley at night, generic "Open" sign, unbranded)
+34924856 nikkei/p_chip.jpg (macro black IC chip on copper circuit board, no logo)
+2132660 nikkei/p_bank.jpg (low-angle dark glass financial-district towers, no signage)
+17489153 nikkei/p_server.jpg (blue-lit data-centre server blades, generic spec text only)
+29916084 nikkei/p_yen.jpg (yen banknotes + coins; only inherent issuer line on notes)
+31965503 nikkei/p_institution.jpg (neoclassical column capitals — central-bank feel)
+10406128 nikkei/p_factory.jpg (CNC milling machine cutting metal — precision toolshed)
+30335240 nikkei/p_repurpose.jpg (rusted industrial pipes meeting new glass — "repurposed")
+1936741 nikkei/p_night.jpg (abstract neon reflection in a wet street, illegible)
+14963655 nikkei/n_floor.jpg (dark after-hours trading desk by night window, monitors off, no screens/logos)
+7679943 nikkei/n_rising.jpg (four cardboard arrows pointing up — abstract, no text, not a candlestick)
+31229239 nikkei/n_skyline.jpg (wide daytime aerial Tokyo skyline, signage unreadable at altitude)
+28390683 nikkei/n_turn.jpg (macro of interlocking brass/steel watch gears — pivot/mechanism)
+3371352 nikkei/n_burst.jpg (single soap bubble on soft abstract field — bubble-burst metaphor)
+9260176 nikkei/n_sunrise.jpg (generic city skyline over water at sunrise — recovery feel)
+20766286 nikkei/n_clock.jpg (close-up hourglass, red sand streaming — passage of time)
+38231115 nikkei/n_crowd.jpg (B&W anonymous commuter silhouettes from behind in a tunnel, no faces)
+5118460 nikkei/n_wafer.jpg (gloved hands holding an iridescent semiconductor/wafer substrate, fab detail)
+17194838 nikkei/n_fibre.jpg (purple/white fibre-optic strands cascading on black, dark, abstract)
+4134179 nikkei/n_blueprint.jpg (technical engineering drawing close-up with drafting ruler, generic notes)
+8439000 nikkei/n_robotarm.jpg (silver articulated industrial robotic arm with gripper, no wordmark)
+33588626 nikkei/n_vault.jpg (dimly lit room of vintage safety-deposit boxes and keys, no brand)
+7186390 nikkei/n_coins.jpg (close-up pile of assorted silver/copper coins — currency engravings only, no logo)
+
+# JaecooReel (The silhouette) — NEWS reel. Topic: how a Chinese car nobody had heard of two years ago became Britain's bestselling car — the Jaecoo 7 (built by Chery) out-selling the Tesla Model 3, looking like a Range Rover at GBP29k vs GBP44k, winning on the monthly payment (0% finance) with 3 in 5 buyers trading down from a BMW/Mercedes/Range Rover; Chinese brands at 23% of the UK market, Chery now out-selling Ford. Thesis: Britain didn't learn to love Chinese cars, it learned it couldn't afford British ones — the Range Rover is losing to a cheaper payment with the same silhouette. Full verbatim script (~66s) with 3 number cards (JAECOO 10,813 / TESLA 9,929; £29K vs £44K / 0% APR / 3 IN 5 TRADED DOWN; 23% / CHERY > FORD). 20 beats: 16 footage / 3 cards (over brand-safe non-car media) / 1 red impact / 1 black thesis. CAR/COMPANY names editorial (VO + text); FOOTAGE strictly BRAND-FREE — generic unbadged cars, silhouettes, money, finance paperwork, roads, ports; NO badges/emblems/grille logos/maker wordmarks/dealer signs/readable plates/faces. Own footage under public/jaecoo/.
+2815175 jaecoo/j_motorway.jpg (aerial of cars on a multi-lane motorway with UK-blue signs, vehicles tiny/no plates)
+9549134 jaecoo/j_panel.jpg (extreme close-up of a glossy teal car hood/paint with raindrops, no badge)
+27443726 jaecoo/j_suvdusk.jpg (boxy SUV on sand at dusk, near-silhouette side profile, no readable plate/badge)
+17845049 jaecoo/j_silhouette.jpg (boxy luxury-SUV full silhouette on a hilltop against dusk sky, unbadged)
+12984746 jaecoo/j_silhouette2.jpg (backlit extreme-crop of a 4x4 roof rack at sunset, "4X4" generic text only)
+5258329 jaecoo/j_silhouette3.jpg (black SUV at dusk backlit by low sun near a tower, near-silhouette front 3/4)
+28614717 jaecoo/j_sketch.jpg (monochrome pencil design sketch of a generic boxy car on a sketchpad)
+1699588 jaecoo/j_nightroad.jpg (curving night highway, red tail-light trails, streetlamps, no plates/signage)
+37112448 jaecoo/j_trafficuk.jpg (busy dusk avenue, cars heavily motion-blurred, distant tower silhouette, no plates)
+1679719 jaecoo/j_trafficblur.jpg (abstract night traffic light-trails on pure black, no vehicles/text)
+3848788 jaecoo/j_port.jpg (top-down aerial of a RORO ship + rows of export cars at a dock, generic deck marks only)
+37832996 jaecoo/j_pov.jpg (driver POV through windscreen at dusk, open road ahead, dark dash silhouette, no wheel logo)
+5909809 jaecoo/j_notes.jpg (a hand holding a British £5 banknote, hands only, currency printing only)
+19613743 jaecoo/j_coins.jpg (close-packed pile of gold coins, English "NEW PENCE/ONE POUND" only, no crypto/portrait)
+7821513 jaecoo/j_contract.jpg (hands filling a generic CONSUMER CREDIT CARD APPLICATION form with a pen, no brand)
+36543210 jaecoo/j_calculator.jpg (scientific calculator on paperwork, dark amber light, illegible notes, no brand)
+7647753 jaecoo/j_keys.jpg (open palm holding a plain black car key fob, no readable brand/emblem, no face)
+5412462 jaecoo/j_cut.jpg (black scissors cutting torn teal/orange paper — a "price cut" concept, no brand)
+
+# HedgeReel (The Fed bet) — NEWS reel. Topic: why gold is falling during a war with inflation rising — gold's Jan record ($5,608) vs ~$4,121 now (-26%), while CPI 3.4 and oil ~$100; gold rose this week only because a weak jobs report cut Fed-hike odds 64%->22%; mechanism (gold pays nothing, Treasuries pay 5.3% — most in 24 yrs — so cash earns ~2% real while gold earns zero; every time a hike looks likely the gap widens and gold loses). Thesis: gold was never an inflation hedge — it's a bet against the Fed; it loses to cash when rates keep up with prices. Full verbatim script with 3 number cards (JAN $5,608 / NOW $4,121 / -26%; HIKE ODDS 64% -> 22%; 10YR 5.3% - CPI 3.4% = +1.9% REAL). MAX MEDIA-DENSE 30-beat re-cut (sped VO atempo ~1.2, ~68s): 28 media (25 footage incl. 5 video b-roll + 3 cards over dark media) / 1 red / 1 black. +10 new brand-free clips appended below (ids 30201205, 7879902, 12291818, 4256870, 31802320, 100733, 8266768, 4459324, 34522437, 36053943). NOT a dup of GoldReel ("Store of value", gold-vs-stocks long run) — distinct gold-vs-Fed-rates story, own footage. FINANCE names/figures editorial; FOOTAGE brand-free — gold bullion (no refiner stamps), charts, central-bank building, cash, oil; no brand logos/wordmarks/tickers/flags/faces. Own footage under public/hedge/.
+33539244 hedge/g_bars.jpg (CGI stacked gold bars, "FINE GOLD 999.9" generic purity only, no refiner brand)
+30836332 hedge/g_glint.jpg (extreme close-up of molten gold in a foundry crucible, abstract)
+21031387 hedge/g_peak.jpg (abstract vertical gold light streaks on dark — rising/record feel, no text)
+38205600 hedge/g_vault.jpg (rows of gold ingots in a secure display case, no brand/text)
+7272219 hedge/g_goldend.jpg (moody dark close-up of gold coins, detail unreadable, no brand)
+16091673 hedge/g_down.jpg (bold red field with a white diagonal down arrow — market falling graphic)
+39334007 hedge/g_chart.jpg (dark financial line/bar chart screen, generic axis numbers only, no ticker)
+39463635 hedge/g_rose.jpg (green ascending stock chart on dark grid — a brief rise, no ticker)
+8292883 hedge/g_rates.jpg (rate sheet with generic % figures by era, hand + pen + calculator, no brand)
+16862261 hedge/g_oil.jpg (oil pump-jack silhouette against an orange sunset, no oil-company brand)
+20988575 hedge/g_jobs.jpg (empty open-plan office, dark monitors, generic EXIT sign — weak jobs feel)
+14212986 hedge/g_fed.jpg (neoclassical courthouse/central-bank facade with columns, no name/flag)
+32688417 hedge/g_bonds.jpg (macro of a $100 bill's green "DEPARTMENT OF THE TREASURY 1789" seal)
+7393950 hedge/g_gap.jpg (a fissure splitting dry cracked earth — abstract widening gap)
+6590646 hedge/g_cash.jpg (US $50 and $100 banknotes on a black background, currency only)
+6037111 hedge/g_zero.jpg (a single empty open palm on near-black — "earns zero")
+7472644 hedge/g_scale.jpg (antique two-pan balance scale with coins in a pan — weighing)
+4038853 hedge/g_cashpile.jpg (overhead pile of US $20 bills, currency only)
+30201205 hedge/g_ingot.jpg (single FINE GOLD 999.9 bar held in a metal-mesh glove, generic purity text only, no refiner brand)
+7879902 hedge/g_cpi.jpg (brand-free wire grocery basket — parsley, tomatoes, potatoes; no store/product logos)
+12291818 hedge/g_war.mp4 (dark backlit soldier silhouettes advancing through smoke — no face/flag/insignia/text)
+4256870 hedge/g_fedbldg.jpg (generic neoclassical columned facade against blue sky — no name/flag/signage)
+31802320 hedge/g_mech.mp4 (macro of interlocking metal gears turning with sparks — brand-free, no text)
+100733 hedge/g_24yr.jpg (aged rusted analog clock on weathered wood — "decades" feel, no wordmark)
+8266768 hedge/g_price.jpg (fuel-pump digit display, generic "¢/LITRE 87 OCTANE" words/digits only, no station brand/logo)
+4459324 hedge/g_hike.mp4 (dark close-up of ascending escalator steps receding upward — "rising again", no text)
+34522437 hedge/g_myth.jpg (dim tarnished natural gold specimen glowing on pure black — no refiner stamp/brand)
+36053943 hedge/g_nowcan.mp4 (abstract green neon waveform on near-black — reads as a live green market line, no ticker/logo)
+# SilenceReel (The silence) — NEWS reel. Topic: why the US is offering Russia help with a disease it already knows how to cure. A lab technician dies at the Anti-Plague Institute in Irkutsk (5 Oct, ~200 observed); pneumonic plague is bacterial/treatable (CDC stockpile, WHO rates risk low) — on paper a contained local incident; yet the State Department sends a formal request, Trump offers help, a Putin call is scheduled. Thesis: the threat isn't the bacteria, it's the information — nothing fixes a government that won't say what happened. Full verbatim QUESTION/STORY/ANSWER/CTA script with post-hook pause (sped VO atempo ~1.08, ~83s). 24 beats: 21 media (incl. 4 video b-roll + 3 summary cards: IRKUTSK/5 OCTOBER/~200 OBSERVED; TREATABLE/WHO: LOW RISK; FORMAL REQUEST SENT/PUTIN CALL SCHEDULED) / 1 red ("silence" turn) / 2 black. NEW topic, not a dup of any existing reel. NAMES/figures/event editorial; FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic lab/medical/diplomatic b-roll, NO Trump/Putin likenesses, NO flags, NO CDC/WHO/State-Dept seals, no brand logos/wordmarks/foreign-language signage/identifiable faces. Own footage under public/silence/.
+4123377 silence/s_bacteria.mp4 (petri dish, yellow culture medium with dark colonies — clinical macro, no text/brand)
+4015825 silence/s_institute.jpg (cold brutalist concrete facade, overcast — not a known landmark, no signage/flag/Cyrillic)
+4178359 silence/s_micro.mp4 (dense cellular specimen under a microscope, dim — no text/brand/face)
+34851018 silence/s_map.jpg (dark navy abstract contour/grid, map-like texture — quiet under-card, no country names/flags)
+6878175 silence/s_podium.jpg (single dramatic microphone on a stand, black bg — no people/flags/logos)
+14438833 silence/s_magnify.jpg (magnifying glass + fountain pen on blank kraft paper — no text/brand)
+29110698 silence/s_pills.jpg (maroon capsules + white tablets, dark moody macro — no brand/readable text)
+9259964 silence/s_stockpile.jpg (row of clear unlabeled glass vials with crimp caps — no readable brand labels)
+6097759 silence/s_riskgauge.jpg (gloved, masked healthcare worker writing on a clipboard — generic model, face obscured, no logo/seal/flag)
+261679 silence/s_doc.jpg (close-up of a generic English contract with a pen — no letterhead/seal/logo, no foreign text)
+136351 silence/s_pivot.jpg (single lit white chess pawn, blurred dark pieces behind — moody B/W, no brand/text)
+36824936 silence/s_letter.jpg (white envelope with a red wax seal on a desk — generic stamp, no agency letterhead/seal/flag)
+21855130 silence/s_phone.jpg (red rotary desk phone on a dark wooden shelf — no brand/text/face/flag)
+9271438 silence/s_diplo.jpg (empty formal meeting room, long table and dark chairs — no people/flags/logos)
+9869632 silence/s_table.jpg (two sets of hands across a negotiating table, one gripping a wrist — faces cropped, no flags/logos)
+265024 silence/s_records.jpg (two lever-arch binders with blank white labels — reads "empty files", no org name)
+8852384 silence/s_vial.mp4 (blue-gloved hands handling a test tube/pipette, clinical — no face; background label blurred)
+28561007 silence/s_data.mp4 (monochrome abstract particle wave on dark/grey — reads "information", no tickers/text/brand)
+19882101 silence/s_door.jpg (two heavy steel vault doors on a brick wall — no brand/sign/text)
+2440805 silence/s_handshake.jpg (single hand reaching out against a black background, B&W — a hand not met, no face/flag/logo)
+6324813 silence/s_gavel.jpg (lone microphone silhouette in an orange spotlight/smoke on near-black — stark closer, no brand/face/flag/text)
+# CoverupReel (The cover-up) — NEWS reel, A/B TWIN of SilenceReel (same Irkutsk plague event, DIFFERENT angle: the economic cost of silence). A lab technician dies at Russia's Anti-Plague Institute in Irkutsk (~200 observed); an official reportedly said plague, the wording was changed, a local warning deleted; Russia says under control, WHO low risk, treatable — on paper contained; the 1994 SURAT precedent (56 deaths, ~500k fled, airlines/ports shut, up to $2B lost). Thesis: a plague nobody will explain is an economic problem with no cure — markets price the silence, not the pathogen; Russia is losing the one thing that keeps the bill small — credibility. Full verbatim QUESTION/STORY/ANSWER/CTA script with post-hook pause (sped VO atempo ~1.14, ~75s). 24 beats: 22 media (incl. 4 video b-roll + 3 summary cards: IRKUTSK/~200 OBSERVED; WHO: LOW RISK/TREATABLE; 1994 SURAT/56 DEATHS/-$2 BILLION) / 1 red ("the silence around it" turn) / 1 black. OWN footage under public/coverup/ — NO reuse of SilenceReel (public/silence/) clips. NAMES/figures/event editorial; FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic lab/medical/economic/crowd b-roll, NO Trump/Putin likenesses, NO flags (Russia/US/India), NO CDC/WHO/agency seals, no brand logos/wordmarks/airline livery/foreign-language signage/identifiable faces or landmarks.
+2695085 coverup/c_globe.mp4 (slowly rotating Earth from space on a starfield — continents only, no borders/labels/text)
+32260212 coverup/c_institute.jpg (monumental neoclassical columned facade under overcast sky — no flag/seal/signage/Cyrillic, not a known landmark)
+34912747 coverup/c_micro.mp4 (dark clinical microscope field, green glowing microorganisms drifting on black — no text/brand)
+37323513 coverup/c_map.jpg (dim grey region map with glowing edges and numbered location pins — abstract, no readable names/flags)
+3729557 coverup/c_magnify.jpg (B&W magnifying glass over a printed page of math formulas — English only, no brand/logo)
+8572125 coverup/c_official.jpg (suited figure from behind, silhouetted at a high-rise window over a generic city — no identifiable face/flag/logo)
+7968067 coverup/c_edit.jpg (hand marking up a typed page with a red pen, strike-throughs — hands only, generic text, no org name)
+10880679 coverup/c_podium.jpg (empty formal hall with an empty stage and rows of seats, moody light — no people/flags/seals/text)
+30336386 coverup/c_pills.jpg (clean macro of a blister pack of amber capsules on dark wood — blank foil, no brand/text)
+46275 coverup/c_doc.jpg (close-up of a printed English page of body text on a dark background — no letterhead/seal/logo/foreign text)
+27601763 coverup/c_pivot.jpg (single domino tile on a black background, minimalist — no brand/face/text)
+5538934 coverup/c_city.jpg (top-down anonymous produce market — baskets/vendors from directly above, no faces/signage/brands/flags/landmark)
+36673526 coverup/c_exodus.mp4 (aerial top-down crosswalk, dense crowd streaming across — faces tiny/indistinct, no flags/signage/logos/landmark)
+20584545 coverup/c_airport.jpg (empty airport gate, jet bridge, quiet tarmac, generic "A6" gate sign — no airline brand/livery/faces/flag)
+4386374 coverup/c_money.jpg (dark macro of "20" bill corners on black — quiet under-card, no currency portrait/brand/ticker/logo)
+12920835 coverup/c_uncertain.jpg (dark glowing field of 3D question marks on near-black — no face/brand, only "?")
+38859052 coverup/c_markets.mp4 (dark screen, red declining area chart + falling line, right-cropped to exclude a broker label — only generic time-axis labels, no ticker/logo)
+5998520 coverup/c_cure.jpg (single syringe with blue liquid on a black background — no label/brand/text, distinct from pills)
+16052956 coverup/c_econ.jpg (red disc with a downward-pointing white arrow — no ticker/brand/logo/face/text)
+236380 coverup/c_notyet.jpg (empty multi-bed hospital ward — reads as a quarantine ward, no brand/signage/faces)
+33530412 coverup/c_cred.jpg (radial shattered glass from an impact point — "losing credibility", no face/brand/text)
+6077519 coverup/c_close.jpg (balanced brass scale with both pans empty, B&W — "which costs more?", no brand/face/flag/text)
+# ScamReel (Priced in) — NEWS reel. NEW topic: why a platform keeps running an ad its own system flags as 94% likely to be a scam. A $294 "diabetes cure" DEEPFAKE of Mark Cuban's face/voice as a paid Facebook ad; Meta internal docs (reported by Reuters) — ~$16B of 2024 revenue (~10%) expected from scam/prohibited ads, 15B higher-risk ads/day; safety team estimated platforms are in 1 in 3 US scams, seniors lost $7.7B to online fraud (+59%); to be banned an advertiser must score >=95% scam — below that they aren't removed, they're charged more; suspected fraud is upsold. Thesis: a scammer at 94% isn't a risk, he's a premium customer — the system isn't failing to catch them, it's pricing them. Full verbatim QUESTION/STORY/ANSWER/CTA with post-hook pause (sped VO atempo ~1.22, ~74s). 20 beats: 18 media (incl. 3 video b-roll + 4 number cards: $294 "CURE"/DEEPFAKE; $16B=10% OF REVENUE/15B ADS A DAY; 1 IN 3 US SCAMS/SENIORS -$7.7B/+59%; UNDER 95%/PAY MORE, STAY LIVE) / 1 red ("premium customer" turn) / 1 black. OWN footage under public/scam/. NAMES/figures editorial; FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic scam/fraud/social/finance b-roll, NO Meta/Facebook/Instagram logos or app UI, NO Mark Cuban likeness (real or deepfake), NO Reuters/news-outlet logos, no brand logos/wordmarks/identifiable public figures. EDITORIAL allegation about a named company — legal review + primary-source check before publish.
+3747159 scam/sc_warn.jpg (smartphone on a red surface showing a generic white "ERROR" screen — no brand/app-UI, no face)
+8531094 scam/sc_inbox.jpg (elderly woman at a laptop, hands covering her face, distressed — face hidden/not identifiable, no laptop logo/text)
+10034103 scam/sc_mask.jpg (smooth blank faceless mannequin head — not a real person, reads as deepfake/impersonation, no text/brand)
+6611940 scam/sc_feed.mp4 (hand scrolling a phone with a blank glowing screen, person on a couch at night, face away — no app chrome/brand/face)
+7319085 scam/sc_magnify.jpg (magnifying glass over paper of abstract cipher glyphs — invented symbols not a real language, no brand/face)
+8371713 scam/sc_docs.jpg (hand lifting a kraft folder labeled "TOP SECRET FILES" from a box — generic prop label, no real org letterhead/seal/brand, hand only)
+37730211 scam/sc_revenue.jpg (macro of a blue-lit perforated server front panel — no brand logo/text, data-center "billions in revenue")
+18337612 scam/sc_ads.jpg (dark abstract cyber grid of glowing teal/gold squares receding into black — no platform UI/brand/metrics text, quiet under-card)
+9760257 scam/sc_pivot.jpg (row of domino tiles on a reflective dark surface — the domino-effect pivot, no brand/face/text)
+35002915 scam/sc_web.mp4 (abstract animated network of glowing nodes connected by lines on black — no text/logo/faces)
+8964666 scam/sc_senior.jpg (senior man alone on a stool, head in hands by a window, moody/dark, face hidden — quiet under-card, no logo/UI/text)
+29214382 scam/sc_gauge.jpg (tachometer with a bold red needle sweeping up into the red zone, motion-blur — no car brand, generic dash words only)
+11412596 scam/sc_greenlight.jpg (green checkmarks ticked inside circles with a marker on white paper — "approved", no brand/text)
+8475145 scam/sc_price.jpg (hand tapping a blank grey card on a POS terminal — "pay more/charged", blank card, no logo/number/brand)
+31750576 scam/sc_upsell.mp4 (cascade of plain silver coins pouring/piling, Czech koruna only — money multiplying "upsold", no brand/logo/faces)
+33715990 scam/sc_risk.jpg (man shrugging with open palms, relaxed, plain studio bg — "isn't a risk", no brand/text; distinct from the gauge)
+5511462 scam/sc_net.jpg (hanging circular fishing/dip nets against blue sky — "catch them", no brand/text/people)
+6250874 scam/sc_pricetag.jpg (hand holding a vertical strip of generic barcode labels on pink — "pricing/surcharge", barcodes carry no brand name)
+7117619 scam/sc_family.jpg (grandmother and granddaughter leaning together looking at a phone, screen off — CTA, no app UI/logo on phone)
+# NoteReel (The note) — NEWS reel, THIRD A/B reel on the Irkutsk plague event (with SilenceReel & CoverupReel), NEW angle: international-health-law ENFORCEMENT. A 28yo technician at Russia's Anti-Plague Institute dies (official cause "undetermined"); two stories — a broken test tube, ~200 contacts in quarantine, a leaked anti-plague order the watchdog calls fake; Washington sends a demarche, Trump schedules a Putin call, the WHO asks publicly — Russia offers to help with the US measles outbreak and cites a New Mexico plague death; every WHO member signed the IHR (notify within 24h) but the WHO can ask, not enforce — the system runs on the country telling the truth. Thesis: the demarche isn't about one death — it's about whether the world's only outbreak rule works when the country says no; Russia may be right, but if it isn't, nobody can make it say so. Full verbatim QUESTION/STORY/ANSWER/CTA with post-hook pause (sped VO atempo ~1.32, ~81s). 24 beats: 21 media (incl. 3 video b-roll + 4 summary cards: OFFICIAL CAUSE "UNDETERMINED"; 2 STORIES/1 FAKE DOCUMENT; DEMARCHE/PUTIN CALL/RUSSIA: HELP WITH MEASLES; 196 COUNTRIES/24 HOURS/0 ENFORCEMENT) / 1 red ("Russia may be right... nobody can make it say so") / 2 black. OWN footage under public/note/ — NO reuse of SilenceReel/CoverupReel clips. NAMES/figures/event editorial; FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic lab/medical/diplomatic/legal b-roll, NO Trump/Putin likenesses, NO flags (Russia/US), NO WHO/UN/agency seals, no brand logos/wordmarks/foreign-language signage/identifiable faces or landmarks (incl. the deceased).
+8250860 note/n_note.jpg (blank cream envelope + unmarked tags on a black surface — unmarked stationery, no text/seal/logo/flag/face)
+19954875 note/n_institute.jpg (anonymous modern glass-and-concrete research facade at dusk, few lit windows — no signage/flag/Cyrillic/landmark/face)
+8442278 note/n_cert.jpg (English clinical lab-results sheet, gloved hand only — no org seal/letterhead/name/face)
+11176866 note/n_file.jpg (dim quiet archive of aged card-index files, illegible cursive tabs — under-card, no readable/foreign text/logo/face)
+5491019 note/n_magnify.jpg (magnifier over a generic English newspaper body-text column — no masthead/publication/brand/logo)
+8514116 note/n_split.jpg (misty forest dirt road forking into two diverging paths — "two stories", no text/people/brand)
+13532394 note/n_tube.mp4 (gloved hands handling a glass test tube/specimen at a bench with a flame — no face/flag/org-logo; only an illegible Latin specimen scrawl)
+20062955 note/n_leak.jpg (stack of white paper sheets in dramatic directional shadow — "a leaked document", no text/brand/foreign script/face)
+13156208 note/n_fake.jpg (crumpled paper balls discarded in a wastebasket — rejected/"fake" document, no text/brand/face)
+4442506 note/n_pivot.jpg (single lit match with flame on pure black — the pivot/turn, no face/brand/text)
+6918484 note/n_demarche.jpg (hands holding a blank lilac envelope over a glass table — a note handed over, no face/text/seal/logo/flag)
+19504834 note/n_phone.jpg (two vintage handset phones on a dark chair, moody — "a call with Putin", no faces/brand/text)
+39303926 note/n_measles.jpg (gloved hands drawing a syringe from a vial under a blue ring light — clinical/quiet under-card, no face/legible label)
+30245088 note/n_newmexico.mp4 (aerial high-desert mesa, scrub, open sky — "New Mexico", no signage/flag/landmark; a distant unbranded semi)
+8441784 note/n_treaty.jpg (a suited figure signing a generic English application form with a fountain pen — no faces/org/seal/flag)
+6133070 note/n_clock.jpg (stark Roman-numeral clock face on black — "within 24 hours", no brand on dial/people)
+37726687 note/n_enforce.jpg (a wooden gavel resting on its block, a hand loosely at the handle — "can ask, cannot enforce", no face/flag/seal/logo/text)
+854225 note/n_globe.mp4 (Earth at night rotating from space, city lights, continents only — "196 countries", no borders-with-labels/flags/text)
+8731037 note/n_rule.jpg (a book titled "THE LAW" with a hand-drawn scales icon — "the only rule the world has", generic title/symbol, no real org/seal/flag, fingertip only)
+6757684 note/n_asking.jpg (a single red painted brushstroke question mark on white — "what the note is really asking", abstract, no text/face/brand)
+3735741 note/n_lab.jpg (empty lab bench with trays, brass taps, drawers — CTA "investigate its own lab", no faces/logos/signage/foreign text)
+# DelayReel (The delay) — NEWS reel, FOURTH A/B reel on the Irkutsk plague event (with SilenceReel/CoverupReel/NoteReel), NEW angle: the SCIENCE/epidemiology. Thesis: plague doesn't scare scientists (cure since the 1940s) — what scares them is a lab that won't show its test results; a disease you can treat in 2 days shouldn't take a week to explain — the delay isn't a detail, the delay is the diagnosis. Beats: the Irkutsk death (cause "undetermined", ~200 observed); an unverified 2nd case, Russia 90% clear, WHO "until we get answers"; plague isn't rare (~7 US cases/yr) — an Arizona man caught pneumonic plague from a sick cat and died 8h after hospital, no diplomatic note because everyone knew what it was; the science (droplet 3-6ft, symptoms 1-2 days, treat within 48h, beaten 80 years) — the only question is one test: wild strain or lab strain? (Ashish Jha on a weapons program; a Tulane microbiologist on coincidence); one lab result settles it, Russia hasn't shared it. Full verbatim QUESTION/STORY/ANSWER/CTA, longest script, sped VO at max atempo 1.33 (~94s). 25 beats: 22 media (incl. 3 video b-roll + 4 cards: IRKUTSK/"UNDETERMINED"/~200 OBSERVED; 2ND CASE (UNVERIFIED)/RUSSIA 90% CLEAR/WHO "UNTIL WE GET ANSWERS"; USA ~7 CASES/YR/ARIZONA 2025 DEAD IN 8 HOURS; 3-6 FEET/48 HOURS/1 TEST RESULT) / 1 red ("the delay is the diagnosis") / 2 black. OWN footage under public/delay/ — NO reuse of any other reel's. NAMES/figures/event editorial; FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic lab/medical/desert/animal b-roll, NO real-person likenesses (incl. Ashish Jha/named experts/Trump/Putin/the deceased), NO flags, NO WHO/UN/agency/hospital seals, no brand logos/wordmarks/foreign-language signage/identifiable landmarks.
+37492073 delay/d_clock48.jpg (rustic wooden hourglass, sand mostly run through — "countdown", no text/brand)
+9589790 delay/d_institute.jpg (austere anonymous concrete-panel facade at dusk, thin window strip — no landmark/flag/signage)
+8376141 delay/d_cert.jpg (clinician's hand with a stethoscope writing on a form, illegible cursive — no letterhead/seal/name/logo)
+8250879 delay/d_file.jpg (kraft dossier corner on pure black, lots of negative space — quiet under-card, no text)
+4176611 delay/d_secondcase.jpg (lone figure in white isolation coverall + respirator, face obscured — "a second case", no flag/logo/text)
+38717735 delay/d_clear.jpg (blue-gloved hand holding a clear test tube on a dark bg — "tested clear", no brand/text)
+16262110 delay/d_record.jpg (a microphone in silhouette on a dark desk — "on the record", no readable brand)
+5052053 delay/d_craziest.jpg (lone red warning/alarm light on weathered metal — stark turn, no text/brand)
+19728524 delay/d_rare.jpg (dark bacterial colonies on orange agar with a counting grid, no words — "plague isn't rare")
+5531091 delay/d_cat.mp4 (sleepy Siamese resting on a couch, drowsy/unwell — "a sick cat", no collar tag/owner face/brand)
+33538174 delay/d_hospital.jpg (IV drip bottle on a stand in a dim room, dramatic light, bed rail — "8 hours after hospital", no face/brand/signage)
+28219557 delay/d_desert.mp4 (wide anonymous red-rock-and-sagebrush Southwest scene at dusk — "Arizona", no named landmark/flag/logo/text)
+1073051 delay/d_pivot.jpg (glowing coiled filament inside a bulb on black — "here's how", no brand/face/text)
+4189573 delay/d_droplet.mp4 (slow-motion water droplets hitting water — "spreads by droplet", no brand/face/text)
+5357088 delay/d_48.jpg (vintage brass hourglass, sand running out — "treat within 48 hours", no brand/text)
+8940346 delay/d_strain.jpg (three petri dishes with different-colored agar — "wild vs lab strain", only generic handwritten sample numbers, no signage/brand)
+31746947 delay/d_jha.jpg (lone figure in full silhouette under a spotlight — an expert at a podium, NO identifiable face/flag/logo/text)
+11827675 delay/d_coincidence.jpg (red dice tumbling mid-air — "may be coincidence", no readable text/brand/face)
+38897492 delay/d_testtube.jpg (single sealed test tube, teal solution, dark quiet bg — "one test result", gloved hand only, no brand/text)
+8616966 delay/d_cure.jpg (antique apothecary bottle, glass stopper, amber liquid — "the cure since the 1940s", no label/brand/text)
+8947694 delay/d_labresults.jpg (plain closed kraft folder with an elastic band, leaning shut — "a lab that won't show its results", no brand/label/text)
+29035772 delay/d_lab.jpg (a sealed heavy door with a small wired-glass window — biosafety-door motif for the CTA, no signage/logo/foreign text)
+# BetReel (The bet) — NEWS reel, FIFTH A/B reel on the Irkutsk plague event (with SilenceReel/CoverupReel/NoteReel/DelayReel), NEW angle: the WHITE HOUSE / Trump's response. Thesis: "we don't think so" isn't a finding, it's a bet — you can't rule out what you haven't seen, and by Washington's own account it's seen "a little bit"; the President isn't reporting intelligence, he's reporting hope. Beats (Oval Office, quoted): Trump "we don't think so"/"sharing a little bit"/"share a lot"; his own comparison — "China didn't say much in 2020, Russia isn't either"; Trump says a Putin call is scheduled but the Kremlin says no specific discussion; a 2nd worker reported, Russia calls it false; Rubio asked on camera about the FSB and a modified strain; the exchange — US demarche + WHO asks for lab results, Russia describes (no plague, 90% clear). Full verbatim QUESTION/STORY/ANSWER/CTA with post-hook pause (sped VO atempo ~1.23, ~89s). 23 beats: 21 media (incl. 3 video b-roll + 3 cards: "WE DON'T THINK SO"/SHARING A LITTLE BIT; CHINA DIDN'T SAY MUCH/RUSSIA ISN'T EITHER; TRUMP: CALL SCHEDULED/KREMLIN: NOT DISCUSSED/2ND CASE: FALSE) / 1 red ("he's reporting hope") / 1 black. OWN footage under public/bet/ — NO reuse of any other reel's. QUOTES/NAMES/event editorial; FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic press-room/diplomatic/gambling b-roll, NO Trump/Rubio/Putin likenesses, NO flags (US/Russia/China), NO White House/presidential/FSB/WHO seals, NO identifiable landmarks (White House/Kremlin), no brand logos/wordmarks/foreign-language signage. (bet_china = anonymous stock model, hand over mouth = "silence", not a public figure.)
+6949382 bet/bet_podium.jpg (empty formal committee/briefing room, gooseneck mics, blank screens, wood paneling, no people — no faces/flags/seals/logos)
+39854410 bet/bet_oval.jpg (ornate study, grand curtained window, writing desk, a landscape painting — "the Oval Office", no person/flag/seal/text)
+6093304 bet/bet_mic.mp4 (dark abstract close-up of a microphone grille — "asked on camera", no face/brand/text)
+5710916 bet/bet_card1.jpg (dim empty meeting room, scattered chairs, quiet spotlight — under-card, no signage/logo/face/text)
+2370767 bet/bet_breath.jpg (macro of a single black mic grille on pure black — "same breath", no branding/text/face)
+7561569 bet/bet_china.jpg (a hand covering an anonymous man's mouth — "silence / didn't say much", generic stock model, no flag/landmark/Chinese text/logo)
+17869840 bet/bet_card2.jpg (dim edge-on stack of papers/documents — under-card, quiet, no readable text/seal/logo)
+2137613 bet/bet_craziest.jpg (shadowed corridor with a dramatic red glow down the middle — the stark turn, no text/brand/face)
+18186512 bet/bet_call.jpg (red hotline handset off-the-hook with a coiled cord against a plain wall — "a call is scheduled", no brand/face/text)
+34294101 bet/bet_kremlin.jpg (empty marble colonnade leading to a closed grand arched door — generic grandeur, no Kremlin landmark/flag/Cyrillic/face)
+33557157 bet/bet_2nd.jpg (dim B&W empty hospital bed with an IV pole and a light beam — "a second worker", no face/logo/signage)
+5668485 bet/bet_card3.jpg (stack of black ring-binders/folders on a dark desk, dim — under-card, no face/flag/seal/logo/text)
+8327684 bet/bet_pivot.jpg (macro of interlocking clock gear teeth — "here's exactly how they do it", no face/logo/text)
+1764956 bet/bet_demarche.jpg (bundle of folded white letters tied with twine — a sealed confidential demand, no face/seal/logo/text)
+12725453 bet/bet_who.jpg (two hands passing a plain kraft envelope across, no faces — a formal request handed over, no flag/logo/text)
+23522931 bet/bet_reply.jpg (single stage microphone, B&W with bokeh — "the other side describing it", no face/logo/readable text)
+6058628 bet/bet_exchange.mp4 (close-up chess standoff, black vs white pieces, no faces — "the whole exchange", no flag/logo/text)
+34805837 bet/bet_bet.mp4 (red dice rolling/settling on a plain white surface — "it's a bet", no face/text/casino brand)
+2166149 bet/bet_unseen.jpg (B&W hand emerging from darkness onto a wall — "can't rule out what you haven't seen", no face-identity/logo/text)
+6918488 bet/bet_labresult.jpg (hands closing a grey envelope over a sheet of paper — "the lab result nobody has", no face/brand/readable text)
+3735742 bet/bet_lab.jpg (empty vintage lab beside a glass cabinet, sink and stands — CTA "a lab that investigates itself", no signage/logo/foreign text/face)
+# StarlinkReel (The queue) — NEWS reel. Thesis: Musk's "certain oligarchs block Starlink" X post targets the two men (Ambani/Jio, Mittal/Airtel) who ALSO signed 2025 deals to DISTRIBUTE Starlink in India. Not a ban — a queue: all three licences (Starlink, Jio, OneWeb) sit at the same security-review stage, while incumbents sell his hardware through their shops to the ~1bn subscribers they own. He gets the sky; they keep the ground (the phone bill). Full verbatim QUESTION/STORY/ANSWER/CTA with ~1s post-hook pause (sped VO atempo 1.33, ~85s). 26 beats: 23 media (incl. 5 video b-roll + 4 cards: CERTAIN OLIGARCHS/CHOKEHOLD; JIO+AIRTEL SELL STARLINK; 3 LICENCES/SAME STAGE/SECURITY REVIEW; SAME QUEUE/REVIEW/PAPERWORK + a $1.9B 2030 stat + a 1,000,000,000-subscriptions card) / 1 red ("anywhere but the phone bill") / 2 black. OWN footage under public/starlink/ — NO reuse of any other reel's. NAMES/COMPANIES/EVENT editorial (VO+text only); FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic satellite/telecom/retail/bureaucracy b-roll, NO Musk/Ambani/Mittal likenesses, NO brand logos/wordmarks (SpaceX/Starlink/Tesla/X/Jio/Reliance/Airtel/OneWeb), NO national flags or seals, NO identifiable landmarks or foreign-language signage. (SpaceX Dragon photos w/ visible wordmark were rejected during sourcing.)
+12244842 starlink/sl_satellite.jpg (CGI generic deep-space probe/satellite, dish antenna + body, on a black starfield — hook, no markings/brand/face)
+14513394 starlink/sl_phone.mp4 (close-up thumb scrolling a phone, generic dark on-screen imagery — "on X", no app UI/readable text/logo/face)
+5790645 starlink/sl_dish.jpg (generic mesh satellite dish/antenna pointed at a cloudy sky, low angle — "blocked", no brand/face; tiny illegible feed-arm text only)
+17615320 starlink/sl_chain.jpg (heavy steel chain links, close-up, shallow DOF — "monopolistic chokehold", no padlock-brand/face/text)
+9290878 starlink/sl_towers.jpg (two telecom/cell towers w/ antennas + microwave dishes against sky — "Jio / Airtel", no signage/logo/face)
+8471105 starlink/sl_sign.mp4 (close-up hands signing a contract, pen on paper over a desk — "both signed deals", chest-down, no face/logo; generic body text on page)
+18036096 starlink/sl_shop.jpg (retro radio on a store shelf, blurred devices behind — "retailers", generic dial labels only, no maker logo/face)
+18502393 starlink/sl_ministry.jpg (imposing neoclassical entrance, stone columns + bronze doors + steps — "India's ministry", no flag/seal/signage/face)
+761295 starlink/sl_queue.jpg (a line of people in full silhouette against bright sky — "same stage / the queue", completely faceless)
+16435203 starlink/sl_craziest.jpg (tangled knot/mass of red + white rope on a dark bg — "the craziest part", abstract, no brand/face)
+11267667 starlink/sl_clock.mp4 (moody close-up of a square analog clock face ticking, looped to 8s — "waited four years", no brand/face)
+39638970 starlink/sl_market.jpg (abstract candlestick + rising-volume trading chart on a dark blue-grid screen — "$1.9B market by 2030", numeric data only, no ticker/company name/face)
+4566809 starlink/sl_crowd.jpg (aerial drone view of a crowded beach shoreline, dozens of tiny faceless people from directly above — "a billion subscriptions", no signage/brand/flag)
+29890356 starlink/sl_fiber.mp4 (abstract blue glowing data-grid light tunnel — "networks they own", no brand/text/face)
+149387 starlink/sl_pivot.jpg (B&W macro of three interlocking metal gears/cogs — "here's exactly how they do it", no brand/text/face)
+5853118 starlink/sl_gate.jpg (a red-and-white boom barrier arm closed across a rural road, blurred trees/rain — "let him in, slowly", no signage/plate/brand/face)
+7657392 starlink/sl_paperwork.jpg (two wooden rubber stamps on white paper/a folder, abstract ink marks — "same paperwork", no readable text/brand/face)
+7362621 starlink/sl_checkout.mp4 (hands only — one holds a generic card terminal, another inserts a plain card, frosted-glass backdrop — "through your shops", no face/brand/text)
+479333 starlink/sl_sky.jpg (blue sky with white cumulus clouds — "he gets the sky", no aircraft/logo/text)
+7808333 starlink/sl_line.jpg (yellow circular floor queue-markers w/ white footprint symbols on a tiled floor, no people — "he's fighting a queue", no brand/text)
+28201137 starlink/sl_subscribers.jpg (nighttime concert crowd silhouettes, many raised arms holding up phones against stage haze, cropped to hands+phones — "the subscribers", no recognizable faces, no app/logo on screens)
+30596225 starlink/sl_earth.jpg (full globe of Earth from space, Americas, blue oceans + clouds on black — "anywhere on earth", no overlaid text/brand)
+2207799 starlink/sl_cta.jpg (a single hand holding a white smartphone with a blank black screen on a white bg — CTA, iPhone form factor but NO logo/wordmark/app visible)
+# PlaystationReel (The exchange) — NEWS reel. Thesis: a used PS5 Pro sells for more than a new one because the PlayStation isn't a console right now — it's a memory chip with a controller; Sony can't make enough, the used market sets the price, and GameStop is the exchange running a ~$600 spread the leaked memo itself calls "intentional" (buy-in $800, resell $1,399). Beats: leaked GameStop memo (used $1,399.99 vs new $899.99, "intentional"); the new one is sold out, open market ~$1,500, so used is still a discount; GameStop pays $800 to trade in vs a $699.99 (2024) launch = appreciating asset; mechanism — Sony blamed a memory shortage (same chips sending Micron +280%), GTA 6 lands Nov 19 (finite supply + hard deadline); close — not scalping, market-making. Full verbatim QUESTION/STORY/ANSWER/CTA with ~1s post-hook pause (sped VO atempo 1.28, ~83s). 27 beats: 24 media (incl. 5 video b-roll + 3 cards: USED $1,399.99/NEW $899.99; OPEN MARKET ~$1,500/DISCOUNT; BUY $800/SELL $1,399/GTA 6 NOV 19 + a $800 trade-in stat + a +280% Micron stat) / 1 red ("a memory chip with a controller") / 2 black. OWN footage under public/ps5/ — NO reuse of any other reel's. COMPANIES/PRICES/EVENT editorial (VO+text only); FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic electronics/retail/markets b-roll, NO PlayStation/PS5 console, NO DualSense controller shape, NO Sony/GameStop/Micron/Nintendo/Xbox/Rockstar/GTA logos/wordmarks/box-art/product likenesses, NO readable chip/ticker/store labels, NO banknote portrait faces, NO human faces. (Sourcing rejected: LivePlan/LG/Intel/Sega/Ingersoll wordmarks, Investing.com/yahoo/Binance/TradingView watermarks, a PlayStation-glyph arcade stick, Coles/Barilla branding, a $50 Grant portrait, and a Portuguese "NOVEMBRO" calendar.)
+4810618 ps5/ps_console.mp4 (close-up RGB-backlit laptop keyboard, center keys glowing purple-to-amber — abstract gaming, NOT a console/controller; tiny cropped OS-taskbar sliver only, no brand/face)
+7841822 ps5/ps_memo.jpg (a printed "CONTRACT" page with generic at-will/non-disclosure body text and an "[ABC]" placeholder on a wood desk — "a leaked memo", no real company/logo/face)
+1111319 ps5/ps_pricetag.jpg (a blank cream perforated swing/price tag on dark navy — "the price", no brand/text/face)
+5313361 ps5/ps_swap.jpg (tight close-up of two hands shaking, a deal/handoff, blurred wall — "$500 more", hands only, no face/brand)
+6980523 ps5/ps_intentional.jpg (the word "SUMMARY" hand-stamped in black ink on teal paper — a bold stamped mark for "intentional", no brand/face)
+36126272 ps5/ps_empty.jpg (bare industrial metal storage racks, mostly empty — "the new one doesn't exist / sold out", no signage/brand/face)
+3929080 ps5/ps_soldout.mp4 (slow vertical pan across empty supermarket shelves, only generic price rails — "sold out everywhere", no readable store name/brand/face)
+10938208 ps5/ps_market.jpg (a wall of plain unlabeled white cardboard boxes — resale/open-market inventory, no brand/face)
+7986986 ps5/ps_discount.jpg (a diagonal row of bold red "SALE" swing tags on red — "still a discount", generic word only, no store brand/face)
+15559030 ps5/ps_craziest.jpg (a chaotic tangle of blue wires/cables with connectors on pale bg — "the craziest part", abstract, generic wire-ID numbers only, no brand/face)
+4386477 ps5/ps_cash.jpg (a tightly rolled banknote seen end-on, red band, on white marble — "$800 trade-in", faint "50" core only, no portrait face/brand)
+4506241 ps5/ps_launch.jpg (a hand slicing open a plain brown cardboard box with a red cutter — "launched in 2024", unboxing, no console/box-art/brand/face)
+39368612 ps5/ps_profit.jpg (a dark-screen candlestick chart with a rising yellow moving-average and green candles — "you made money", no ticker/company name/face)
+6755158 ps5/ps_chip.mp4 (copper BGA-style chip/contact-pad grid, slow macro pan on dark slate — "a memory chip", no text/brand/face)
+5831266 ps5/ps_micron.jpg (a strong rising candlestick chart climbing to a peak on a bright screen — "Micron +280%", only OHLC price numbers, no ticker/company name/face)
+6782362 ps5/ps_livingroom.jpg (cozy living room, blue sofa + marble table, wall TV switched OFF/blank — "in your living room", no console/TV-logo/face)
+6823618 ps5/ps_deadline.jpg (minimalist English calendar grid, MO–SU + dates, a bare hand circling one date with a teal marker — "a hard deadline / Nov 19", no month-name/foreign text/brand/face)
+7707125 ps5/ps_spread.jpg (a brass balance-scale pan heaped with foreign coins — "buy low / sell high spread", no brand/face)
+1432670 ps5/ps_teardown.jpg (macro of a bare motherboard: pink RAM/DIMM slot + capacitors, generic component codes only — "it's a chip, not a console", no brand name/face)
+3191576 ps5/ps_exchange.mp4 (a stock-exchange monitoring board of colored number cells, buy/sell, all numeric — "GameStop is the exchange", no ticker names/brand/face)
+32540344 ps5/ps_stack.jpg (a pyramid of rubber-banded US banknote bundles on orange leather, seen edge-on / reverse side — "a $600 spread on every unit", no prominent portrait face/brand)
+34129037 ps5/ps_marketmaking.mp4 (abstract CGI financial dashboard: glowing line graph, radar rings, numeric grid — "market-making", generic dashboard words only, no ticker/brand/face)
+34024589 ps5/ps_pivot.jpg (a bare hand/forearm moving a black chess piece mid-game — "here's exactly how they do it", head out of frame, no brand/face)
+15794052 ps5/ps_cta.jpg (two hands exchanging banknotes, reverse side shown — CTA "would you sell yours back?", hands only, no portrait face/brand)
+# OilReel (The handoff) — NEWS reel. Thesis: BP sold its 37.2% of the Bay du Nord offshore oil project ~3 months before Shell bought 30%, because they weren't valuing the same thing — BP saw a bill due at the 2027 investment decision and sold; Shell bought a 30% OPTION on 2031 oil at a price set while Brent sits near $100. Same barrels are a liability or an asset depending on who holds the chequebook. Beats: Friday — Shell takes 30% of Equinor's Bay du Nord (C$14B, 500km off Newfoundland, Canada's first deepwater field); in July BP sold 37.2% and walked away, neither deal priced, 90 days apart; nobody has even decided to build it (FID early 2027, first oil 2031, shelved 2023, revived at $100, no green light); mechanism — a 30% option on 2031 oil, Iran war month nine, no = lose an entry fee, yes = ~170k barrels/day for decades; close — the field didn't change, the balance sheets did. Full verbatim QUESTION/STORY/ANSWER/CTA with ~1s post-hook pause (sped VO atempo 1.30, ~85s). 25 beats: 23 media (incl. 5 video b-roll + 2 cards: JULY BP OUT 37.2%/OCT SHELL IN 30%/90 DAYS; FID 2027/FIRST OIL 2031/SHELVED 2023 + a 170,000 barrels/day stat) / 1 red ("same barrels — liability or asset") / 1 black. OWN footage under public/oil/ — NO reuse of any other reel's. COMPANIES/FIGURES/EVENT editorial (VO+text only); FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic offshore-rig/ocean/barrels/markets b-roll, NO BP/Shell/Equinor/Exxon/Chevron/Total logos/wordmarks or branded rigs/barrels, NO readable tickers/company names on charts, NO national flags or Canadian/Newfoundland landmarks, NO human faces. (Sourcing rejected a "SHELL DRAUGEN" rig wordmark, ASCO, LIEBHERR, Gessler/PINTU DARURAT exit signs, Glen Moray, a Form-1040 bill, NVTK/CAKEUSDT tickers, TradingView watermarks, a Logitech logo, and Portuguese/Chinese signage.)
+34294261 oil/o_rig.mp4 (offshore drilling rig, lit red/white derrick silhouetted against an orange sunset reflecting on calm water — hook, no logo/name/face; generic containment boom at waterline)
+13199842 oil/o_platform.jpg (a single rusty yellow offshore wellhead platform alone in open sea under blue sky — "Shell takes 30%", no text/markings/face)
+36159020 oil/o_ocean.mp4 (top-down aerial of dark deepwater swell with white foam, no land/vessels — "500 km off Newfoundland", no brand/face)
+11588930 oil/o_deepwater.jpg (moody near-black rippled deep-sea surface, no horizon — "deepwater field", no brand/face)
+36546502 oil/o_horizon.jpg (a lone sailboat far out on a vast teal sea, hazy horizon — "farther from shore than any project", no identifiable face/brand)
+5780736 oil/o_walkaway.jpg (backlit silhouette of a lone figure walking away down a corridor toward a bright exit — "BP walked away", face not identifiable; generic EXIT pictogram + extinguisher, no brand)
+12585927 oil/o_handoff.jpg (two hands passing a wooden relay baton against a sunlit sky — "one supermajor out, another in", hands only, no face/brand)
+38790017 oil/o_craziest.jpg (churning green-grey stormy sea with whitecaps under dark clouds — "the craziest part", tiny unbranded buoy, no brand/face)
+15305123 oil/o_idle.jpg (silhouette of an unfinished concrete building skeleton at dusk — "nobody has decided to build it yet", no brand/landmark/face)
+6690930 oil/o_timeline.jpg (minimalist planner page: "PLANNER" header, a 1-5 number axis and a "TO DO" column, muted blue/cream — under the FID 2027/2031 card, generic English words only, no brand/face)
+38782894 oil/o_pricechart.jpg (dark screen with rising moving-average lines above candlesticks + volume — "oil went to a hundred", only a bare "952.86 / -0.54%" readout, no ticker/company name/face)
+8732915 oil/o_nogreen.jpg (tight night close-up of a glowing red traffic signal on a dark pole — "still no green light", no brand/face)
+13764772 oil/o_pivot.jpg (B&W macro of two rusted interlocking cast-iron gears meshing — "here's exactly how they do it", no brand/face)
+5537824 oil/o_barrels.mp4 (slow shot along a row of plain unbranded wooden barrels, a bare hand/forearm on the near barrel — "Shell isn't buying today's oil", no face across full clip, no label/brand)
+4968569 oil/o_option.jpg (a printed "Contract" page with lorem-ipsum body and a slim gold pen across it, blurred desk behind — "a 30% option", no letterhead/logo/face)
+3945008 oil/o_brent.mp4 (abstract red candlestick + glowing line chart on a dark grid with down-arrows — "Brent sits near a hundred", no tickers/company/platform text, no face)
+596925 oil/o_exit.jpg (the word "EXIT" in big black letters on a lit marquee-bulb sign against black — "Shell loses an entry fee", generic word only, no brand/face)
+9339478 oil/o_pipeline.mp4 (vertical slice of a large oil refinery — distillation towers, pipe racks, dome + cylinder storage tanks, steam — "170k barrels a day", tanks carry only generic asset numbers, no brand/name/face)
+3690392 oil/o_split.jpg (close-up of a steel rail with bolted fasteners, a second rail diverging behind — "weren't looking at the same project", no signage/brand/face)
+7111489 oil/o_bill.jpg (flat-lay: a plain black calculator beside a pink "TAXES" envelope with number magnets — "a bill due in 2027", generic English word only, no brand/face)
+35157029 oil/o_future.jpg (serene coastal sunrise, sun on the horizon over a calm sea with low rock silhouettes — "where oil might be in 2031", no brand/face)
+5669619 oil/o_balance.jpg (a brass balance scale with empty pans, a black gavel and ledgers on a wooden desk — "the balance sheets changed", no readable brand/face)
+2786527 oil/o_cta.jpg (rows of plain industrial storage drums packed side by side — CTA "who's right, the seller or the buyer?", one faint handwritten "120L" volume mark only, no logo/brand/face)
+# OnePctReel (One percent) — NEWS reel, A/B TWIN of MortgageReel ("Priced in") on the SAME UK event (5-year fix hits 6% while the Bank of England HELD the base rate) but a NEW angle: the PERSONAL COST. Thesis: one percent isn't one percent — on a £200k/25yr mortgage a 4%->6% move is +£233 a month (~£2,800 a year) for the same house, every month for the life of the deal; and the number that sets it isn't on Threadneedle Street, it's in the Gulf (lenders price off swap rates, swap rates move with the Middle East). Beats: avg 5-yr fix hits 6% (Moneyfacts: "disastrous"); the £200k example (4%=£1,056 vs 6%=£1,289 = +£233/mo); BoE didn't move, lenders price off swap rates tied to the Middle East, +0.2% expected, 5,000,000 households off a fix by 2028; fixed <5% down from 1,500 to 9 vs 389 variable — the fix locks you in, the variable rides the base rate, the choice is a bet on a war. Full verbatim QUESTION/STORY/ANSWER/CTA with ~1s post-hook pause (sped VO atempo 1.17, ~85s). 25 beats: 23 media (incl. 5 video b-roll + 2 cards: SAME HOUSE/+£233 A MONTH/£2,800 A YEAR; BASE RATE UNCHANGED/+0.2% EXPECTED/5,000,000 BY 2028 + a 6.00% fix stat) / 1 red ("it's in the Gulf") / 1 black. A/B twin of MortgageReel — OWN footage under public/onepct/, NO reuse of public/mortgage/ or any other reel's. FIGURES/EVENT editorial (VO+text only); FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic housing/documents/markets/Gulf-oil b-roll, NO Bank of England/Moneyfacts/Halifax/Nationwide/Barclays/HSBC/NatWest/Lloyds/Rightmove/Zoopla logos, NO Bank of England/Threadneedle Street building or identifiable London landmarks, NO banknote/coin portrait faces, NO national flags/foreign signage, NO human faces. (Sourcing rejected Master Lock/STRONGHOLD MADE IN BRITAIN padlocks, a Canada govt wordmark, Salesforce Tower + a Coca-Cola billboard, National Association of Realtors/Federal Reserve text, BINANCE/TradingView charts, Bitcoin coins, a Queen Elizabeth coin profile, a euro coin, and Cyrillic signage.)
+35049965 onepct/op_house.mp4 (B&W pan along a residential road, generic UK semi-detached houses with tiled roofs behind a fence, lamppost — hook, a parked car with no readable plate, no face/brand/board)
+39334008 onepct/op_chart.jpg (neon multi-colour line/area chart spiking upward on a dark screen — under the 6.00% fix stat, only generic indicator text, no ticker/company name/face)
+7841414 onepct/op_doc.jpg (a "Lease Agreement" document with two silver pens on a wooden desk — "Moneyfacts' word: disastrous", placeholder body text only, no bank/lender name/logo/face)
+101808 onepct/op_keys.jpg (a black-fobbed key inserted in a door lock, soft green garden bokeh — "take a £200k mortgage", no brand/face)
+6962695 onepct/op_calc.mp4 (close-up of hands working a plain black calculator over finance paperwork — "at 4% vs 6%", hands only, no face, no brand on the calculator; paperwork is a generic US tax form, no lender branding)
+7080559 onepct/op_coins.jpg (cupped hands holding a loose pile of shiny generic gold coins, warm bokeh — "£1,056 a month", denomination-neutral, no currency name/map/crypto/portrait, holder's face out of frame)
+8031882 onepct/op_terrace.jpg (a white-painted brick suburban house, black front door + shutters, green lawn — "for the same house", a house number "805" only, no identifying address/board/face)
+19791867 onepct/op_craziest.jpg (a dramatic towering storm cloud lit by lightning over a dark sea at dusk — "the craziest part", no brand/face)
+15409331 onepct/op_boe.jpg (an imposing weathered stone colonnade, four round columns and a carved entablature — "the Bank of England didn't move", generic classical facade, NO signage/seal/flag/landmark text, no face)
+34128971 onepct/op_swap.mp4 (abstract black-and-white field of scattered glowing numbers / data streams — "lenders price off swap rates", no ticker/company/platform text, no face)
+3010887 onepct/op_gulf.mp4 (slow pan over an arid rocky desert hillside with scrub and distant bare mountains — "swap rates move with the Middle East", no flags/landmarks/signage/face)
+590020 onepct/op_analyst.jpg (a hand holding a blue pen pointing at a colourful printed bar chart with a rising line below — "another 0.2% expected", hand only, no face, no ticker/company name)
+7937293 onepct/op_households.jpg (overhead aerial of a dense estate of terraced houses, tiled rooftops + back gardens — "5,000,000 households", parked cars, no face/landmark)
+3785926 onepct/op_pivot.jpg (a cluster of interlocking golden/brass cogs and gears on matte black — "here's exactly how they do it", no brand/face)
+4503950 onepct/op_fewoptions.jpg (bare wooden wall-shelves against a plain wall with a single amber bottle left on the top shelf — "fixed deals down from 1,500 to 9", no brand/signage/face)
+39511471 onepct/op_variable.jpg (a neon cyan/red zig-zag line chart on a dark blue grid, plunging hard at right — "the variable rides the base rate", only a lone "19" axis tick, no ticker/company/face)
+277574 onepct/op_lock.jpg (a closed rust-corroded antique padlock, markings illegible, on a sunlit wooden board — "the fix locks you in", no legible brand/face)
+7318086 onepct/op_wave.mp4 (a center-crop of choppy, foaming turbulent sea — "the variable rides the base rate / volatility", no face/brand)
+707837 onepct/op_dice.jpg (three translucent red dice stacked on a dark blue-grey surface — "a bet on a war", no casino brand/face)
+30183807 onepct/op_onepct.jpg (a single bold yellow neon "%" symbol on a sunlit wall with soft leaf shadows — "one percent isn't one percent", no text/brand/face)
+12052483 onepct/op_recurring.jpg (a close-up calendar grid of numeric dates with a pink push-pin marking a date — "every month, for as long as the deal runs", English/numeric only, no brand/face)
+16895158 onepct/op_district.jpg (an abstract low-angle of a curved glass office tower at blue-hour dusk — "not in Threadneedle Street", generic, no identifiable London landmark/signage/flag/face)
+16231038 onepct/op_cta.jpg (a brass twin-bell alarm clock on a black background — CTA "when does your fix end?", only a generic "QUARTZ" descriptor, no brand/face)
+# CostaReel (The lease) — NEWS reel. Thesis: Coca-Cola bought Costa Coffee for $5.1bn (2018) and is now (again) trying to sell it; Coke didn't fail at coffee, it failed at COUNTERS — its model is selling syrup/brand (asset-light), Costa is the opposite (rent, baristas, milk, 2,700 leases), the one business Coke never knew how to run; it spent a century avoiding overheads, then bought them. The brand was never the problem, the lease was. Beats: 2018 Coke buys Costa from Whitbread ($5.1bn, 2,700 shops, 20,000 staff, Britain's biggest); 8 years on it's selling again (late-2025 process pulled Jan, a buyer walked on price, back on the block per Semafor, price unknown); Costa lost ~£20m across 2023-24 yet the CEO is confident (new HQ, iced drinks + matcha), owner wants out; mechanism — syrup vs leases. Full verbatim QUESTION/STORY/ANSWER/CTA with ~1s post-hook pause (sped VO atempo 1.18, ~83s). 23 beats: 21 media (incl. 5 video b-roll + 3 cards: 2,700 SHOPS/20,000 STAFF/BRITAIN'S BIGGEST; SALE 1 PULLED JAN 2026/SALE 2 NOW/PRICE UNKNOWN; 2023-24 LOSS £20M/NEW HQ JAN 2027/OWNER WANTS OUT + a $5.1B stat) / 1 red ("the brand wasn't the problem, the lease was") / 1 black. OWN footage under public/costa/ — NO reuse of CokeReel's (public/coke/) or any other reel's. COMPANIES/FIGURES/EVENT editorial (VO+text only); FOOTAGE strictly BRAND-FREE AND FACE-FREE — generic cafe/retail/markets/bottling b-roll, NO Coca-Cola/Coke (no red cans/bottles/script)/Costa (no maroon logo/branded cups)/Whitbread/Pepsi/Starbucks logos/wordmarks/branded cups-cans or shop signage, NO banknote portrait faces, NO flags/landmarks, NO human faces. (Sourcing rejected a Starbucks menu board, Miller & Miller syrup, Coors Light/Heinz/Ohio-Lottery signage, OTH Coffee Roastery/NOMAD/BOON cup wordmarks, euro notes and a $100 Franklin stack, and foreign-language signage.)
+8676986 costa/ct_soda.mp4 (macro of a dark cola fizzing over ice in a plain unbranded glass on near-black — hook "sells more drinks than anyone on earth", no can/bottle/logo/face)
+34686217 costa/ct_cafe.jpg (a cozy generic cafe interior — wood tables, black chairs, warm backlit window — "biggest coffee chain in Britain", no menu boards/logo cups/faces; a small table emblem + tiny QR card only)
+4809442 costa/ct_money.jpg (a figure holding up thick rubber-banded bundles of banknotes edge-on, dollar-like green/grey — "$5.1 billion", no legible denomination/currency word, no portrait, the holder's face fully hidden behind the cash)
+38150409 costa/ct_shops.jpg (a row of weathered closed metal roller-shutter shopfronts under a corrugated roof — "2,700 shops", zero text/signage/faces)
+8482511 costa/ct_forsale.jpg (a red-and-white "HOME FOR SALE" sign on a post against timber cladding — "Coke is trying to sell it", generic wording, no agency brand/face)
+30717724 costa/ct_walkaway.jpg (a lone figure, back/silhouette, walking out through a dark stone archway toward light — "one buyer walked on price", no face)
+6077326 costa/ct_auction.jpg (a wooden-and-gold auction gavel resting on its block, a blurred second gavel behind — "back on the block", hands/no face, no brand)
+10313037 costa/ct_craziest.jpg (a bold red painted arrow pointing right across pale corrugated metal — "the craziest part", no brand/face)
+28165814 costa/ct_loss.jpg (a red/green candlestick chart trending downward on a light screen — "lost nearly £20 million", no ticker/company name/face)
+37892936 costa/ct_iced.mp4 (hands-only pour of bright-green matcha from a small glass into a plain clear tumbler, soft window light — "iced drinks and matcha", no branded cup/logo/face)
+37320179 costa/ct_hq.jpg (low-angle corner of a modern blue-glass corporate tower against a cloudy sky — "new headquarters opening", no company name/logo/landmark/face)
+3785930 costa/ct_pivot.jpg (a cluster of golden interlocking cogs/gears on matte black — "here's exactly how they do it", generic machining marks only, no brand/face)
+7141501 costa/ct_syrup.mp4 (hands tip a clear glass jug, a thick dark syrup ribbon pouring down — "Coke's whole model is selling syrup", no brand/logo/face)
+13736529 costa/ct_counter.mp4 (a barista's hands cradle a stainless milk pitcher under an espresso steam wand — "rent, baristas, milk", hands/body only, no face, plain apron, no branded cup)
+32367382 costa/ct_emptyshop.jpg (a bare vacant retail unit, frosted plate-glass windows in a dark frame above empty paving — "the one business it never knew to run: a shop", no brand signage/face)
+37584492 costa/ct_cupcounter.jpg (a plain unbranded white paper cup on a dark cafe counter beside a chrome tap — "it failed at counters", no brand/face)
+38778721 costa/ct_overheads.jpg (empty red/yellow/green cafe chairs against a maroon wall, out-of-focus chair in foreground — "the overheads", no brand/logo/face)
+14055589 costa/ct_cta.jpg (a single finished ribbed-white cup on a wood coaster on a dark table, blurred street window behind — CTA "should Coke have bought it?", no brand/logo/face)
