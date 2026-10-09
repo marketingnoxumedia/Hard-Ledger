@@ -3331,6 +3331,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   shelved 2023 / ~160–175k bbl/day figures, and a "Brent near $100 / Iran war month nine" backdrop. All
   author-supplied and rendered as written; confirm every figure, date and stake against primary sources
   before publishing.
+- **`OnePctReel`** — "One percent" (fast NEWS reel). **A/B twin of `MortgageReel` ("Priced in")** on the
+  **same UK event** (the 5-year fix hitting 6% while the Bank of England HELD the base rate) but a **new
+  angle: the personal cost.** Thesis: **one percent isn't one percent** — on a normal **£200k / 25-year**
+  mortgage a 4%→6% move is **+£233 a month** (~£2,800 a year) for the same house, every month for the life
+  of the deal; and **the number that sets it isn't on Threadneedle Street, it's in the Gulf** (lenders
+  price off swap rates, swap rates move with the Middle East). Beats: the average **5-yr fix hits 6.00%**
+  (Moneyfacts: **"disastrous"**); the **£200k** worked example (**4% = £1,056** vs **6% = £1,289 = +£233/mo**,
+  £2,800/yr); the **BoE didn't move**, lenders price off **swap rates** tied to the **Middle East**,
+  **+0.2% expected**, **5,000,000 households** off a fix by **2028**; **fixed deals under 5% down from 1,500
+  to 9** vs **389 variable** — the fix **locks you in**, the variable **rides the base rate**, the choice is
+  now **a bet on a war.** **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a
+  short **post-hook pause**; close is a **CTA question** ("When does your fix end?"). Sped VO (atempo 1.17)
+  — **2555 frames = ~85s** (final CTA beat extended for a clean tail). **25 beats: 23 media** (incl. **5
+  video b-roll** — a terraced street, a calculator, a swap-data board, a Gulf desert, turbulent water —
+  **+ 2 cards**: SAME HOUSE / +£233 A MONTH / £2,800 A YEAR; BASE RATE UNCHANGED / +0.2% EXPECTED /
+  5,000,000 BY 2028 — **+ a 6.00% fix stat**) **/ 1 solid-red impact** ("it's in the Gulf") **/ 1 black**
+  ("but nobody tells you this part"). **A/B twin — its own distinct footage under `public/onepct/`, no
+  reuse of `MortgageReel`'s (`public/mortgage/`) or any other reel.** **Footage strictly BRAND-FREE AND
+  FACE-FREE** — a residential street, a lease document, house keys, a coin pile, a stone colonnade, a Gulf
+  desert, a padlock, red dice, a neon "%", a calendar — **no Bank of England / Moneyfacts / Halifax /
+  Nationwide / Barclays / HSBC / NatWest / Lloyds / Rightmove / Zoopla logos, no Bank of England /
+  Threadneedle Street building or identifiable London landmarks, no banknote or coin portrait faces, no
+  national flags, no faces** (sourcing rejected Master Lock / "MADE IN BRITAIN" padlocks, a Canada govt
+  wordmark, Salesforce Tower + a Coca-Cola billboard, National Association of Realtors / Federal Reserve
+  text, BINANCE / TradingView charts, Bitcoin coins, a Queen Elizabeth coin profile, and a euro coin). 23
+  distinct clips, each used once; all Pexels ids collision-checked against the ledger. Cold mounting-bill
+  news-underscore bed under the cloned voice. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:**
+  attributes a 6.00% 5-yr fix and a "disastrous" quote to Moneyfacts, the £200k example figures (4%=£1,056
+  / 6%=£1,289 / +£233), a +0.2% analyst call, 5m households off a fix by 2028, and the fixed/variable deal
+  counts (1,500→9 / 389), plus a causal swap-rate/Middle-East link. All author-supplied and rendered as
+  written; confirm every figure against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
