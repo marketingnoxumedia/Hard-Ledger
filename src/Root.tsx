@@ -130,6 +130,7 @@ import {BetReel, DURATION_IN_FRAMES as BET_FRAMES} from './BetReel';
 import {StarlinkReel, DURATION_IN_FRAMES as STARLINK_FRAMES} from './StarlinkReel';
 import {PlaystationReel, DURATION_IN_FRAMES as PLAYSTATION_FRAMES} from './PlaystationReel';
 import {OilReel, DURATION_IN_FRAMES as OIL_FRAMES} from './OilReel';
+import {OnePctReel, DURATION_IN_FRAMES as ONEPCT_FRAMES} from './OnePctReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1171,6 +1172,14 @@ export const RemotionRoot: React.FC = () => {
         id="OilReel"
         component={OilReel}
         durationInFrames={OIL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="OnePctReel"
+        component={OnePctReel}
+        durationInFrames={ONEPCT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
