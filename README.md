@@ -3373,9 +3373,9 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   **£20M** across **2023–24** yet the **CEO is confident** (new HQ, iced drinks + **matcha**), the owner
   **wants out** anyway; the mechanism — **syrup vs leases.** **Full VERBATIM** of the client's QUESTION /
   STORY / ANSWER / CTA script with a short **post-hook pause**; close is a **CTA question** ("Should Coke
-  never have bought it, or just can't run it?"). Sped VO (atempo 1.18) — **2494 frames = ~83s** (final
-  CTA beat extended for a clean tail). **23 beats: 21 media** (incl. **5 video b-roll** — fizzing cola,
-  a matcha pour, a syrup pour, a bottling line, a barista counter — **+ 3 cards**: 2,700 SHOPS / 20,000
+  never have bought it, or just can't run it?"). Sped VO (atempo ~1.37, ~10% faster) — **2247 frames = ~75s** (final
+  CTA beat extended for a clean tail). **20 beats: 18 media** (incl. **4 video b-roll** — fizzing cola,
+  a matcha pour, a syrup pour, a barista counter — **+ 3 cards**: 2,700 SHOPS / 20,000
   STAFF / BRITAIN'S BIGGEST; SALE 1 PULLED JAN 2026 / SALE 2 NOW / PRICE UNKNOWN; 2023-24 LOSS £20M / NEW
   HQ JAN 2027 / OWNER WANTS OUT — **+ a $5.1B stat**) **/ 1 solid-red impact** ("the brand wasn't the
   problem, the lease was") **/ 1 black** ("but nobody tells you this part"). **Its own distinct footage
@@ -3386,8 +3386,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   cups / storefronts), no Whitbread / Pepsi / Starbucks logos, no branded cups or shop signage, no
   banknote portrait faces, no national flags or landmarks, no faces** (sourcing rejected a Starbucks
   menu board, Miller & Miller syrup, Coors Light / Heinz / Ohio-Lottery signage, OTH Coffee Roastery /
-  NOMAD / BOON cup wordmarks, euro notes and a $100 Franklin stack, and foreign-language signage). 21
-  distinct clips, each used once; all Pexels ids collision-checked against the ledger. Cold
+  NOMAD / BOON cup wordmarks, euro notes and a $100 Franklin stack, and foreign-language signage). 18 distinct clips, each used once; all Pexels ids collision-checked against the ledger. Cold
   corporate-takeover news-underscore bed under the cloned voice. **TIME-SENSITIVE / UNVERIFIED — verify
   before publishing:** attributes a 2018 $5.1bn Costa acquisition (2,700 shops / 20,000 staff), a
   pulled-then-renewed 2025/26 sale process (per Semafor), a ~£20m 2023-24 loss, CEO-confidence / new-HQ
