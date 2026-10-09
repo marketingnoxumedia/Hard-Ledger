@@ -94,7 +94,7 @@ type SceneDef = {
 // unknown); Costa lost ~£20m across 2023-24 yet the CEO is confident (new HQ, iced drinks +
 // matcha), the owner wants out; the mechanism -- syrup vs leases. Full VERBATIM QUESTION/STORY/
 // ANSWER/CTA with a ~1s post-hook pause; close is a CTA QUESTION ("Should Coke never have bought
-// it, or just can't run it?"). Sped VO (atempo ~1.37, ~10% faster) -- total 2247 frames = ~75s (final CTA
+// it, or just can't run it?"). Sped VO (atempo ~1.20) -- total 2375 frames = ~79s (final CTA
 // beat extended for a clean tail). 20 beats: 18 media (incl. 4 video b-roll + 3 cards: 2,700
 // SHOPS/20,000 STAFF/BRITAIN'S BIGGEST; SALE 1 PULLED JAN 2026/SALE 2 NOW/PRICE UNKNOWN; 2023-24
 // LOSS £20M/NEW HQ JAN 2027/OWNER WANTS OUT -- plus a $5.1B stat) / 1 red impact ("the brand
@@ -113,26 +113,26 @@ type SceneDef = {
 // claims against primary sources before this publishes.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  {dur: 194, kind: 'hook', text: 'How does the company|that sells more drinks|than anyone on earth|fail at coffee?', kicker: 'The lease', highlights: ['fail'], size: 40, media: {src: 'costa/ct_soda.mp4', type: 'video', effect: 'in'}},
-  {dur: 87, kind: 'text', enter: 'slideL', text: '2018. Coca-Cola buys|Costa Coffee|from Whitbread.', highlights: ['costa'], size: 44, media: {src: 'costa/ct_cafe.jpg', type: 'img', effect: 'in'}},
-  {dur: 54, kind: 'stat', stat: {pre: 'COKE PAID', prefix: '$', value: 5.1, decimals: 1, suffix: 'B', post: 'FOR COSTA, 2018'}, media: {src: 'costa/ct_money.jpg', type: 'img', effect: 'in'}},
-  {dur: 97, kind: 'lines', text: "2,700 SHOPS|20,000 STAFF|BRITAIN'S BIGGEST", highlights: ["britain's"], reveal: [0, 22, 44], media: {src: 'costa/ct_shops.jpg', type: 'img', effect: 'in'}},
-  {dur: 40, kind: 'text', text: 'But nobody tells you|this part.', highlights: ['part.'], size: 54},
+  {dur: 225, kind: 'hook', text: 'How does the company|that sells more drinks|than anyone on earth|fail at coffee?', kicker: 'The lease', highlights: ['fail'], size: 40, media: {src: 'costa/ct_soda.mp4', type: 'video', effect: 'in'}},
+  {dur: 98, kind: 'text', enter: 'slideL', text: '2018. Coca-Cola buys|Costa Coffee|from Whitbread.', highlights: ['costa'], size: 44, media: {src: 'costa/ct_cafe.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'stat', stat: {pre: 'COKE PAID', prefix: '$', value: 5.1, decimals: 1, suffix: 'B', post: 'FOR COSTA, 2018'}, media: {src: 'costa/ct_money.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'lines', text: "2,700 SHOPS|20,000 STAFF|BRITAIN'S BIGGEST", highlights: ["britain's"], reveal: [0, 22, 44], media: {src: 'costa/ct_shops.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', text: 'But nobody tells you|this part.', highlights: ['part.'], size: 54},
   {dur: 148, kind: 'text', enter: 'slideUp', text: 'Eight years on, Coke|is trying to sell it.|Again.', highlights: ['again.'], size: 44, media: {src: 'costa/ct_forsale.jpg', type: 'img', effect: 'in'}},
-  {dur: 187, kind: 'text', enter: 'slideR', text: 'Private equity shrugged.|Pulled in January.|A buyer walked on price.', highlights: ['walked'], size: 42, media: {src: 'costa/ct_walkaway.jpg', type: 'img', effect: 'in'}},
-  {dur: 82, kind: 'lines', text: 'PULLED: JAN 2026|RELISTED: NOW|PRICE: UNKNOWN', highlights: ['unknown'], reveal: [0, 22, 44], media: {src: 'costa/ct_auction.jpg', type: 'img', effect: 'in'}},
-  {dur: 55, kind: 'text', text: "But that's not even|the craziest part.", highlights: ['craziest'], size: 48, media: {src: 'costa/ct_craziest.jpg', type: 'img', effect: 'in'}},
-  {dur: 134, kind: 'text', enter: 'slideL', text: 'Costa lost nearly|£20 million|across 2023 and 2024.', highlights: ['£20'], size: 44, media: {src: 'costa/ct_loss.jpg', type: 'img', effect: 'in'}},
-  {dur: 198, kind: 'text', text: 'Its own CEO is confident:|new HQ, iced drinks,|matcha for the young.', highlights: ['matcha'], size: 42, media: {src: 'costa/ct_iced.mp4', type: 'video', effect: 'in'}},
+  {dur: 203, kind: 'text', enter: 'slideR', text: 'Private equity shrugged.|Pulled in January.|A buyer walked on price.', highlights: ['walked'], size: 42, media: {src: 'costa/ct_walkaway.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'lines', text: 'PULLED: JAN 2026|RELISTED: NOW|PRICE: UNKNOWN', highlights: ['unknown'], reveal: [0, 22, 44], media: {src: 'costa/ct_auction.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', text: "But that's not even|the craziest part.", highlights: ['craziest'], size: 48, media: {src: 'costa/ct_craziest.jpg', type: 'img', effect: 'in'}},
+  {dur: 138, kind: 'text', enter: 'slideL', text: 'Costa lost nearly|£20 million|across 2023 and 2024.', highlights: ['£20'], size: 44, media: {src: 'costa/ct_loss.jpg', type: 'img', effect: 'in'}},
+  {dur: 208, kind: 'text', text: 'Its own CEO is confident:|new HQ, iced drinks,|matcha for the young.', highlights: ['matcha'], size: 42, media: {src: 'costa/ct_iced.mp4', type: 'video', effect: 'in'}},
   {dur: 80, kind: 'lines', text: '2023-24 LOSS: £20M|NEW HQ: JAN 2027|OWNER WANTS OUT', highlights: ['£20m'], reveal: [0, 22, 44], media: {src: 'costa/ct_hq.jpg', type: 'img', effect: 'in'}},
   {dur: 51, kind: 'text', text: "Here's exactly|how they do it.", highlights: [], size: 50, media: {src: 'costa/ct_pivot.jpg', type: 'img', effect: 'in'}},
-  {dur: 195, kind: 'text', enter: 'slideUp', text: "Coke's model is syrup.|Bottlers bottle it.|Coke owns the brand.", highlights: ['brand.'], size: 44, media: {src: 'costa/ct_syrup.mp4', type: 'video', effect: 'in'}},
-  {dur: 176, kind: 'text', text: 'Costa is the opposite:|rent, baristas, milk,|2,700 leases.', highlights: ['leases.'], size: 42, media: {src: 'costa/ct_counter.mp4', type: 'video', effect: 'in'}},
-  {dur: 81, kind: 'text', enter: 'slideL', text: 'Coke bought the business|it never knew how to run.|A shop.', highlights: ['shop.'], size: 42, media: {src: 'costa/ct_emptyshop.jpg', type: 'img', effect: 'in'}},
-  {dur: 72, kind: 'text', text: "Coca-Cola didn't|fail at coffee.|It failed at counters.", highlights: ['counters.'], size: 44, media: {src: 'costa/ct_cupcounter.jpg', type: 'img', effect: 'in'}},
-  {dur: 156, kind: 'text', enter: 'slideR', text: 'It spent $5 billion|to own what it avoided|for a century:|the overheads.', highlights: ['overheads.'], size: 42, media: {src: 'costa/ct_overheads.jpg', type: 'img', effect: 'in'}},
-  {dur: 69, kind: 'impact', text: 'The brand|wasn’t the problem.|The lease was.', highlights: ['lease'], redBg: true},
-  {dur: 91, kind: 'text', enter: 'zoom', text: 'Should Coke never have|bought it, or just|can’t run it? Tell me below.', highlights: ['below'], size: 40, media: {src: 'costa/ct_cta.jpg', type: 'img', effect: 'in'}},
+  {dur: 198, kind: 'text', enter: 'slideUp', text: "Coke's model is syrup.|Bottlers bottle it.|Coke owns the brand.", highlights: ['brand.'], size: 44, media: {src: 'costa/ct_syrup.mp4', type: 'video', effect: 'in'}},
+  {dur: 192, kind: 'text', text: 'Costa is the opposite:|rent, baristas, milk,|2,700 leases.', highlights: ['leases.'], size: 42, media: {src: 'costa/ct_counter.mp4', type: 'video', effect: 'in'}},
+  {dur: 94, kind: 'text', enter: 'slideL', text: 'Coke bought the business|it never knew how to run.|A shop.', highlights: ['shop.'], size: 42, media: {src: 'costa/ct_emptyshop.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', text: "Coca-Cola didn't|fail at coffee.|It failed at counters.", highlights: ['counters.'], size: 44, media: {src: 'costa/ct_cupcounter.jpg', type: 'img', effect: 'in'}},
+  {dur: 151, kind: 'text', enter: 'slideR', text: 'It spent $5 billion|to own what it avoided|for a century:|the overheads.', highlights: ['overheads.'], size: 42, media: {src: 'costa/ct_overheads.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'impact', text: 'The brand|wasn’t the problem.|The lease was.', highlights: ['lease'], redBg: true},
+  {dur: 93, kind: 'text', enter: 'zoom', text: 'Should Coke never have|bought it, or just|can’t run it? Tell me below.', highlights: ['below'], size: 40, media: {src: 'costa/ct_cta.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Impacts punch the open, the "chokehold" card,
@@ -142,15 +142,15 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 281, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 432, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 807, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 889, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1276, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1356, src: 'media/sfx_whoosh.mp3', vol: 0.4},
-  {at: 1859, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2087, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2156, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 323, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 502, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 896, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 968, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1362, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1442, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1977, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2210, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2282, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
