@@ -121,7 +121,7 @@ const SCENES: SceneDef[] = [
   {dur: 147, kind: 'text', enter: 'slideUp', text: 'Eight years on, Coke|is trying to sell it.|Again.', highlights: ['again.'], size: 44, media: {src: 'costa/ct_forsale.jpg', type: 'img', effect: 'in'}},
   {dur: 58, kind: 'text', text: 'Late 2025.|Private equity shrugged.', highlights: ['shrugged.'], size: 46, media: {src: 'costa/ct_boardroom.jpg', type: 'img', effect: 'in'}},
   {dur: 158, kind: 'text', enter: 'slideR', text: 'Pulled in January.|One buyer looked|and walked on price.', highlights: ['walked'], size: 44, media: {src: 'costa/ct_walkaway.jpg', type: 'img', effect: 'in'}},
-  {dur: 89, kind: 'lines', text: 'SALE 1: PULLED JAN 2026|SALE 2: NOW|PRICE: UNKNOWN', highlights: ['unknown'], reveal: [0, 22, 44], media: {src: 'costa/ct_auction.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'lines', text: 'PULLED: JAN 2026|RELISTED: NOW|PRICE: UNKNOWN', highlights: ['unknown'], reveal: [0, 22, 44], media: {src: 'costa/ct_auction.jpg', type: 'img', effect: 'in'}},
   {dur: 61, kind: 'text', text: "But that's not even|the craziest part.", highlights: ['craziest'], size: 48, media: {src: 'costa/ct_craziest.jpg', type: 'img', effect: 'in'}},
   {dur: 146, kind: 'text', enter: 'slideL', text: 'Costa lost nearly|£20 million|across 2023 and 2024.', highlights: ['£20'], size: 44, media: {src: 'costa/ct_loss.jpg', type: 'img', effect: 'in'}},
   {dur: 120, kind: 'text', text: 'Its own CEO|says it’s confident.', highlights: ['confident.'], size: 46, media: {src: 'costa/ct_podium.jpg', type: 'img', effect: 'in'}},
@@ -135,7 +135,7 @@ const SCENES: SceneDef[] = [
   {dur: 80, kind: 'text', text: "Coca-Cola didn't|fail at coffee.|It failed at counters.", highlights: ['counters.'], size: 44, media: {src: 'costa/ct_cupcounter.jpg', type: 'img', effect: 'in'}},
   {dur: 166, kind: 'text', enter: 'slideR', text: 'It spent $5 billion|to own what it avoided|for a century:|the overheads.', highlights: ['overheads.'], size: 42, media: {src: 'costa/ct_overheads.jpg', type: 'img', effect: 'in'}},
   {dur: 80, kind: 'impact', text: 'The brand|wasn’t the problem.|The lease was.', highlights: ['lease'], redBg: true},
-  {dur: 96, kind: 'text', enter: 'zoom', text: 'Should Coke never have|bought it — or just|can’t run it? Tell me below.', highlights: ['below'], size: 40, media: {src: 'costa/ct_cta.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', enter: 'zoom', text: 'Should Coke never have|bought it, or just|can’t run it? Tell me below.', highlights: ['below'], size: 40, media: {src: 'costa/ct_cta.jpg', type: 'img', effect: 'in'}},
 ];
 
 // Sound-effect cues (frame, file, gain). Impacts punch the open, the "chokehold" card,
