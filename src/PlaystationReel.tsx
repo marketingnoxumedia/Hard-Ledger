@@ -122,7 +122,7 @@ const SCENES: SceneDef[] = [
   {dur: 43, kind: 'text', enter: 'slideUp', text: "The new one|doesn't exist.", highlights: ['exist.'], size: 50, media: {src: 'ps5/ps_empty.jpg', type: 'img', effect: 'in'}},
   {dur: 73, kind: 'text', text: 'Sold out at list price|almost everywhere.', highlights: ['everywhere.'], size: 46, media: {src: 'ps5/ps_soldout.mp4', type: 'video', effect: 'in'}},
   {dur: 120, kind: 'text', text: 'The few left sell|around fifteen hundred.', highlights: ['fifteen'], size: 46, media: {src: 'ps5/ps_market.jpg', type: 'img', effect: 'in'}},
-  {dur: 123, kind: 'lines', text: 'OPEN MARKET ~$1,500|STILL A DISCOUNT|TO BUY ONE TODAY', highlights: ['~$1,500'], reveal: [0, 22, 44], media: {src: 'ps5/ps_discount.jpg', type: 'img', effect: 'in'}},
+  {dur: 123, kind: 'lines', text: 'OPEN MARKET ~$1,500|STILL A DISCOUNT|TO BUY ONE TODAY', highlights: [], reveal: [0, 22, 44], media: {src: 'ps5/ps_discount.jpg', type: 'img', effect: 'in'}},
   {dur: 65, kind: 'text', text: "But that's not even|the craziest part.", highlights: ['craziest'], size: 48, media: {src: 'ps5/ps_craziest.jpg', type: 'img', effect: 'in'}},
   {dur: 83, kind: 'stat', stat: {pre: 'GAMESTOP PAYS YOU', prefix: '$', value: 800, post: 'TO TRADE ONE IN'}, media: {src: 'ps5/ps_cash.jpg', type: 'img', effect: 'in'}},
   {dur: 135, kind: 'text', enter: 'slideL', text: 'Launched in 2024|at $699.99.', highlights: ['$699.99'], size: 48, media: {src: 'ps5/ps_launch.jpg', type: 'img', effect: 'in'}},
