@@ -3300,6 +3300,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   market), a price rise + memory reason to Sony, a +280% move to Micron, and a Nov 19 GTA 6 date. All
   author-supplied and rendered as written; confirm every figure, the memo, and the "intentional" quote
   against primary sources before publishing.
+- **`OilReel`** — "The handoff" (fast NEWS reel). NEW topic: **why BP sold out of the Bay du Nord
+  offshore oil project ~3 months before Shell bought in.** Thesis: **BP and Shell weren't valuing the
+  same project** — BP saw a **bill due at the 2027 investment decision** and sold; Shell bought a
+  **30% option on 2031 oil** at a price set while **Brent sits near $100.** Beats: Friday — **Shell
+  takes 30%** of Equinor's Bay du Nord (**C$14B**, **500 km** off Newfoundland, Canada's first
+  **deepwater** field, farthest-from-shore project on earth); but in **July BP sold its 37.2%** and
+  walked away, neither deal priced, **90 days apart**; nobody has even **decided to build it** (**FID
+  early 2027, first oil 2031**, shelved 2023, revived when oil hit **$100**, no green light); the
+  mechanism — a **30% option** on 2031 oil, **Iran war month nine**, a *no* loses an entry fee, a
+  *yes* owns a slice of **~170,000 barrels a day for decades**; close — **the field didn't change, the
+  balance sheets did.** **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a
+  short **post-hook pause**; close is a **CTA question** ("Who's right — the one who sold, or the one
+  who bought?"). Sped VO (atempo 1.30) — **2551 frames = ~85s** (final CTA beat extended for a clean
+  tail). **25 beats: 23 media** (incl. **5 video b-roll** — an offshore rig, a deepwater ocean, a
+  barrel row, a markets chart, an oil refinery — **+ 2 cards**: JULY BP OUT 37.2% / OCT SHELL IN 30% /
+  90 DAYS; FID 2027 / FIRST OIL 2031 / SHELVED 2023 — **+ a 170,000 barrels/day stat**) **/ 1 solid-red
+  impact** ("same barrels — liability or asset") **/ 1 black** ("but nobody tells you this part").
+  **Its own distinct footage under `public/oil/` — no reuse of any other reel.** **Footage strictly
+  BRAND-FREE AND FACE-FREE** — a lone rig, a wellhead platform, a relay-baton handoff, a stormy sea, an
+  unfinished build, interlocking gears, unbranded barrels, an oil refinery, a balance scale — **no
+  BP/Shell/Equinor/Exxon/Chevron/Total logos, wordmarks or branded rigs/barrels, no readable tickers or
+  company names on charts, no national flags or Canadian/Newfoundland landmarks, no human faces**
+  (sourcing rejected a "SHELL DRAUGEN" rig wordmark, ASCO/LIEBHERR marks, Gessler/PINTU DARURAT exit
+  signs, Glen Moray whisky, a Form-1040 bill, NVTK/CAKEUSDT tickers, TradingView watermarks, a Logitech
+  logo, and Portuguese/Chinese signage). 23 distinct clips, each used once; all Pexels ids
+  collision-checked against the ledger. Cold commodities-desk news-underscore bed under the cloned
+  voice. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** attributes a 30% Shell buy-in and a
+  37.2% BP sell-out of Bay du Nord to specific dates, the C$14B / 500km / FID 2027 / first-oil 2031 /
+  shelved 2023 / ~160–175k bbl/day figures, and a "Brent near $100 / Iran war month nine" backdrop. All
+  author-supplied and rendered as written; confirm every figure, date and stake against primary sources
+  before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
