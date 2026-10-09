@@ -3269,6 +3269,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   **India's ministry**, and market/subscriber figures (**$1.9B by 2030; >1bn subscriptions**). All
   author-supplied and rendered as written; confirm every claim (and the Musk quote) against primary
   sources before publishing.
+- **`PlaystationReel`** — "The exchange" (fast NEWS reel). NEW topic: **why a used PS5 Pro now sells
+  for more than a new one.** Thesis: **the PlayStation isn't a console right now — it's a memory chip
+  with a controller;** Sony can't make enough, the used market sets the price, and **GameStop is the
+  exchange** running a **~$600 spread** the leaked memo itself calls **"intentional."** Beats: a
+  leaked GameStop memo (**used $1,399.99** vs **new $899.99**, "intentional"); the new one is **sold
+  out**, open market **~$1,500**, so the used price is **still a discount**; GameStop pays **$800** to
+  trade in against a **$699.99 (2024) launch** — an **appreciating asset**; the mechanism — Sony
+  blamed a **memory shortage** (the same chips sending **Micron +280%**), and **GTA 6 lands Nov 19**
+  (finite supply + a hard deadline, buying at $800 and selling at $1,399); close — **not scalping,
+  market-making.** **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a
+  short **post-hook pause**; close is a **CTA question** ("Would you sell your PS5 back at $800?").
+  Sped VO (atempo 1.28) — **2494 frames = ~83s** (final CTA beat extended so the whole VO plays with
+  a clean tail). **27 beats: 24 media** (incl. **5 video b-roll** — an RGB keyboard, empty shelves, a
+  chip macro, an exchange board, a markets dashboard — **+ 3 cards**: USED $1,399.99 / NEW $899.99;
+  OPEN MARKET ~$1,500 / STILL A DISCOUNT; BUY $800 / SELL $1,399 / GTA 6 · NOV 19 — **+ a $800
+  trade-in stat + a +280% Micron stat**) **/ 1 solid-red impact** ("a memory chip with a controller")
+  **/ 2 black** ("but nobody tells you this part" / "an appreciating asset"). **Its own distinct
+  footage under `public/ps5/` — no reuse of any other reel.** **Footage strictly BRAND-FREE AND
+  FACE-FREE** — a leaked contract, a blank price tag, an "intentional" stamp, empty racks, a cardboard
+  unbox, a bare motherboard, cash bundles, a balance scale, a chess pivot — **no PlayStation/PS5
+  console, no DualSense controller shape, no Sony/GameStop/Micron/Xbox/Nintendo/Rockstar/GTA logos,
+  box art or product likenesses, no readable chip/ticker/store labels, no banknote portrait faces, no
+  human faces** (sourcing rejected LivePlan/LG/Intel/Sega/Ingersoll wordmarks, Investing.com/yahoo/
+  Binance/TradingView watermarks, a PlayStation-glyph arcade stick, Coles/Barilla branding, a $50
+  Grant portrait, and a Portuguese "NOVEMBRO" calendar). 24 distinct clips, each used once; all Pexels
+  ids collision-checked against the ledger. Sleek fintech/markets news-underscore bed under the cloned
+  voice. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** attributes a leaked memo and
+  specific prices to GameStop ($1,399.99 / $899.99 / $800 trade-in / $699.99 launch / ~$1,500 open
+  market), a price rise + memory reason to Sony, a +280% move to Micron, and a Nov 19 GTA 6 date. All
+  author-supplied and rendered as written; confirm every figure, the memo, and the "intentional" quote
+  against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
