@@ -3362,6 +3362,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   / 6%=£1,289 / +£233), a +0.2% analyst call, 5m households off a fix by 2028, and the fixed/variable deal
   counts (1,500→9 / 389), plus a causal swap-rate/Middle-East link. All author-supplied and rendered as
   written; confirm every figure against primary sources before publishing.
+- **`CostaReel`** — "The lease" (fast NEWS reel). NEW topic: **how Coca-Cola — the company that sells
+  more drinks than anyone on earth — failed at coffee.** Thesis: it didn't fail at coffee, **it failed
+  at counters.** Coke's model is **selling syrup / the brand** (asset-light); **Costa is the opposite**
+  — rent, baristas, milk, **2,700 leases** — the one business Coke never learned to run; it spent a
+  century avoiding overheads, then **bought them.** The brand was never the problem, **the lease was.**
+  Beats: **2018** — Coke buys Costa from **Whitbread** for **$5.1B** (**2,700 shops**, **20,000 staff**,
+  Britain's biggest); **8 years on** it's trying to sell again (late-2025 process **pulled in January**,
+  a buyer **walked on price**, back on the block **per Semafor**, **price unknown**); Costa lost nearly
+  **£20M** across **2023–24** yet the **CEO is confident** (new HQ, iced drinks + **matcha**), the owner
+  **wants out** anyway; the mechanism — **syrup vs leases.** **Full VERBATIM** of the client's QUESTION /
+  STORY / ANSWER / CTA script with a short **post-hook pause**; close is a **CTA question** ("Should Coke
+  never have bought it, or just can't run it?"). Sped VO (atempo 1.18) — **2494 frames = ~83s** (final
+  CTA beat extended for a clean tail). **23 beats: 21 media** (incl. **5 video b-roll** — fizzing cola,
+  a matcha pour, a syrup pour, a bottling line, a barista counter — **+ 3 cards**: 2,700 SHOPS / 20,000
+  STAFF / BRITAIN'S BIGGEST; SALE 1 PULLED JAN 2026 / SALE 2 NOW / PRICE UNKNOWN; 2023-24 LOSS £20M / NEW
+  HQ JAN 2027 / OWNER WANTS OUT — **+ a $5.1B stat**) **/ 1 solid-red impact** ("the brand wasn't the
+  problem, the lease was") **/ 1 black** ("but nobody tells you this part"). **Its own distinct footage
+  under `public/costa/` — no reuse of `CokeReel`'s (`public/coke/`, the 1985 New Coke reel) or any other
+  reel.** **Footage strictly BRAND-FREE AND FACE-FREE** — fizzing cola in a plain glass, a generic cafe,
+  cash bundles, shuttered shopfronts, an auction gavel, a syrup pour, a bottling line, an empty shop, a
+  plain cup — **no Coca-Cola / Coke (no red cans/bottles/script), no Costa (no maroon logo / branded
+  cups / storefronts), no Whitbread / Pepsi / Starbucks logos, no branded cups or shop signage, no
+  banknote portrait faces, no national flags or landmarks, no faces** (sourcing rejected a Starbucks
+  menu board, Miller & Miller syrup, Coors Light / Heinz / Ohio-Lottery signage, OTH Coffee Roastery /
+  NOMAD / BOON cup wordmarks, euro notes and a $100 Franklin stack, and foreign-language signage). 21
+  distinct clips, each used once; all Pexels ids collision-checked against the ledger. Cold
+  corporate-takeover news-underscore bed under the cloned voice. **TIME-SENSITIVE / UNVERIFIED — verify
+  before publishing:** attributes a 2018 $5.1bn Costa acquisition (2,700 shops / 20,000 staff), a
+  pulled-then-renewed 2025/26 sale process (per Semafor), a ~£20m 2023-24 loss, CEO-confidence / new-HQ
+  claims, and the asset-light-vs-leases framing. All author-supplied and rendered as written; confirm
+  every figure and the sale-process claims against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
