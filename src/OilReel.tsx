@@ -120,7 +120,7 @@ const SCENES: SceneDef[] = [
   {dur: 85, kind: 'text', text: 'Farther from shore|than any project|on earth.', highlights: ['farther'], size: 46, media: {src: 'oil/o_horizon.jpg', type: 'img', effect: 'in'}},
   {dur: 48, kind: 'text', text: 'But nobody tells you|this part.', highlights: ['part.'], size: 54},
   {dur: 160, kind: 'text', enter: 'slideUp', text: 'In July, BP sold its 37%|of the same project|and walked away.', highlights: ['37%'], size: 44, media: {src: 'oil/o_walkaway.jpg', type: 'img', effect: 'in'}},
-  {dur: 164, kind: 'lines', text: 'JULY — BP OUT 37.2%|OCTOBER — SHELL IN 30%|90 DAYS APART', highlights: ['out'], reveal: [0, 22, 44], media: {src: 'oil/o_handoff.jpg', type: 'img', effect: 'in'}},
+  {dur: 164, kind: 'lines', text: 'JULY — BP OUT 37.2%|OCT — SHELL IN 30%|90 DAYS APART', highlights: ['out'], reveal: [0, 22, 44], media: {src: 'oil/o_handoff.jpg', type: 'img', effect: 'in'}},
   {dur: 42, kind: 'text', text: "But that's not even|the craziest part.", highlights: ['craziest'], size: 48, media: {src: 'oil/o_craziest.jpg', type: 'img', effect: 'in'}},
   {dur: 63, kind: 'text', text: 'Nobody has decided|to build it yet.', highlights: ['nobody'], size: 48, media: {src: 'oil/o_idle.jpg', type: 'img', effect: 'in'}},
   {dur: 187, kind: 'lines', text: 'FID — EARLY 2027|FIRST OIL — 2031|SHELVED IN 2023', highlights: ['2031'], reveal: [0, 22, 44], media: {src: 'oil/o_timeline.jpg', type: 'img', effect: 'in'}},
