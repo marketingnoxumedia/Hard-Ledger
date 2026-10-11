@@ -3392,6 +3392,41 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   pulled-then-renewed 2025/26 sale process (per Semafor), a ~£20m 2023-24 loss, CEO-confidence / new-HQ
   claims, and the asset-light-vs-leases framing. All author-supplied and rendered as written; confirm
   every figure and the sale-process claims against primary sources before publishing.
+- **`RulebookReel`** — "The rulebook" (fast NEWS reel). NEW topic: **how Citroën plans to build a
+  brand-new EV for ~£13,000.** Thesis: it isn't a cheaper **car**, it's a cheaper **rulebook** —
+  Citroën isn't beating China on the **factory floor**, it's beating it in **Brussels**, by deleting
+  the parts of a car the law used to insist on. Beats: Citroën's new **2CV**, on sale **end-2028** from
+  **€15,000 / ~£12,700**, electric, with an **egg crate in the door**; the EU is negotiating a looser
+  new **"E-car"** vehicle class (**simpler safety/equipment rules**) so European makers can build
+  something **China-priced** — the 2CV is the first car **designed for rules that don't exist yet**;
+  every spec is a cost cut (**flat glass**, **unpainted injected tailgate**, exposed bumpers, pop-out
+  windows, fabric roof, **steel wheels**, ~**1 tonne**, small battery); **Chinese brands took ~23%** of
+  the UK market last month on price, and Europe can't match Chinese labour/subsidies, so it **changes
+  what a car is legally required to be** — **less car, less cost, same badge.** **Full VERBATIM** of the
+  client's QUESTION / STORY / ANSWER / CTA script with a ~**1.1s post-hook pause**; close is the
+  supplied **CTA question** ("Would you buy a car with fewer rules? Tell me below."). Sped VO (atempo
+  ~1.28) — **2467 frames = ~82s** (final CTA beat extended for a clean tail). **28 beats: 25 media**
+  (incl. **6 video b-roll** — robot arm, EV charge plug, conveyor line, aerial car park, automated
+  production hall, driving POV — **+ 3 cards**: FROM €15,000 / £12,700 / ELECTRIC; A NEW EU CLASS / THE
+  E-CAR; EXPOSED BUMPERS / FABRIC ROOF / STEEL WHEELS — **+ a 1-TONNE stat + a 23% stat**) **/ 1
+  solid-red impact** ("less car, less cost, same badge") **/ 2 black** ("here's the piece you're
+  missing" + "this is the part that makes it work"). **Its own distinct footage under
+  `public/rulebook/` — no reuse of `JaecooReel`'s or any other reel.** **Footage strictly BRAND-FREE
+  AND FACE-FREE** — generic auto-robotics, a covered car, a charge plug, a blank price tag, a moulded
+  egg carton, binders, an empty parliamentary chamber, a checklist, a conveyor, a blank drawing board,
+  a magnifier, an invoice template, automotive glass, black plastic, steel rims, cast weights, battery
+  cells, an aerial car park, a coin stack, a law library, a drafting blueprint, a rubber stamp, a
+  production hall, a red-pen strike-through, an open road — **no Citroën / 2CV or any car badge, logo,
+  wordmark, number plate, EU flag or national seal, no readable brand text, no banknote portrait faces,
+  no faces** (sourcing rejected YASKAWA robot wordmarks on the best weld/assembly clips, a BMW-badged
+  windscreen, tyre sidewall lettering, a ZARA HOME scale dial, peso/Franklin coin portraits, branded
+  bank statements, and foreign-language forms). 25 distinct assets, each used once; all Pexels ids
+  collision-checked against the ledger. Upbeat driving electronic bed under the cloned voice.
+  **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** attributes a new-2CV reveal, an
+  on-sale-end-2028 / €15,000 (~£12,700) price, a proposed EU "E-car" regulatory class, specific
+  design/spec choices, and a ~23% Chinese-brand UK market share "last month." All author-supplied and
+  rendered as written; confirm every figure and the E-car policy claim against primary sources before
+  publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the

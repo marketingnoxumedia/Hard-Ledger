@@ -2280,3 +2280,28 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 37584492 costa/ct_cupcounter.jpg (a plain unbranded white paper cup on a dark cafe counter beside a chrome tap — "it failed at counters", no brand/face)
 38778721 costa/ct_overheads.jpg (empty red/yellow/green cafe chairs against a maroon wall, out-of-focus chair in foreground — "the overheads", no brand/logo/face)
 14055589 costa/ct_cta.jpg (a single finished ribbed-white cup on a wood coaster on a dark table, blurred street window behind — CTA "should Coke have bought it?", no brand/logo/face)
+32386522 rulebook/b00_weld.mp4
+4489769 rulebook/b01_cover.jpg
+9790000 rulebook/b02_charge.mp4
+7967221 rulebook/b03_tag.jpg
+6551352 rulebook/b04_eggcrate.jpg
+357514 rulebook/b06_rulebook.jpg
+15488844 rulebook/b07_chamber.jpg
+416322 rulebook/b08_checklist.jpg
+32386533 rulebook/b09_factory.mp4
+5420971 rulebook/b10_blank.jpg
+221164 rulebook/b11_magnify.jpg
+7688187 rulebook/b12_invoice.jpg
+6872159 rulebook/b13_glass.jpg
+18541876 rulebook/b14_plastic.jpg
+19793975 rulebook/b15_wheel.jpg
+8545561 rulebook/b16_scale.jpg
+698485 rulebook/b17_battery.jpg
+30512240 rulebook/b19_carpark.mp4
+20376766 rulebook/b20_coins.jpg
+6077089 rulebook/b21_legal.jpg
+6615086 rulebook/b23_blueprint.jpg
+3838318 rulebook/b24_stamp.jpg
+32386627 rulebook/b25_assembly.mp4
+6684373 rulebook/b26_redpen.jpg
+16539900 rulebook/b27_road.mp4
