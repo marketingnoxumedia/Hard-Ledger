@@ -3427,6 +3427,43 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   design/spec choices, and a ~23% Chinese-brand UK market share "last month." All author-supplied and
   rendered as written; confirm every figure and the E-car policy claim against primary sources before
   publishing.
+- **`PaperReel`** — "The paper" (fast NEWS reel). NEW topic: **how an AI boom could turn into a
+  banking/credit crisis via circular financing.** Thesis: **2008 wasn't about houses — it was about
+  who was holding the paper when prices stopped rising;** the question isn't whether AI works, **it's
+  who's holding the paper.** Beats: the **IMF** names three risks (**energy, debt, AI** — AI bet on
+  too hard with **borrowed money**); **Nvidia's filing** guaranteed up to **$105B** on an **Ohio**
+  data-centre campus whose tenant is **OpenAI** on a **20-year lease**, running on **Nvidia chips** —
+  so **Nvidia insures its own customer** to keep it buying from Nvidia; **private credit** went from
+  **under $1T (2015) to over $2.5T**; governments and tech giants **borrow against each other**, and
+  the **Fed** chair ties that to **24-year-high yields** — **the money goes round in a circle, chips
+  as collateral.** The answer: **a boom becomes a crisis when the sellers of shovels start guaranteeing
+  the loans of the buyers** — AI doesn't have to fail, **it just has to grow slower than the rent.**
+  **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA script with a ~**1.1s post-hook
+  pause**; close is the supplied **CTA question** ("Who's holding the paper this time? Tell me
+  below."). Sped VO (atempo ~1.04) — **2736 frames = ~91s** (final CTA beat extended for a clean tail).
+  **29 beats: 26 media** (incl. **5 video b-roll** — blinking indicator panel, data-centre aerial,
+  rising chart, aerial roundabout, server — **+ 3 cards**: IMF: ENERGY / DEBT / AI; TENANT: OPENAI /
+  20-YEAR LEASE / OHIO; PRIVATE CREDIT $1T → $2.5T / YIELDS 24-YR HIGH — **+ a $105B stat + a $2.5T
+  stat**) **/ 1 solid-red impact** ("it just has to grow slower than the rent") **/ 2 black** ("here's
+  the piece you're missing" + "this is the part that makes it work"). **Its own distinct footage under
+  `public/paper/` — no reuse of `CageReel`'s (the Nvidia-cages-agentic-AI reel) or any other reel.**
+  **Footage strictly BRAND-FREE AND FACE-FREE** — blinking indicator panel, empty mics/stage, a world
+  globe, poker chips, suburban rooftops, archival paper bundles, a circuit board, hands holding a
+  contract, a printed financial report, a bank vault, a data-centre aerial, a glass office tower, a
+  GPU heatsink, an empty pocket, interlocking gears, a piggy bank, an abstract rising chart, a
+  handshake, a financial-report chart, an aerial roundabout, a gold circuit wafer, toppling dominoes,
+  a steel shovel, a contract signature, cracked glass, a single held sheet — **no Nvidia / OpenAI / any
+  chip or tech brand, no bank/fund names, no stock tickers, no IMF/Fed/central-bank seals or national
+  flags, no readable brand text, no banknote portrait faces, no faces** (sourcing rejected GPU-hub /
+  RTX-5080 shroud logos, SHURE mics, PG&E/utility bills, TradingView/BINANCE/COIN360 ticker screens,
+  and a peso coin portrait). 26 distinct assets, each used once; all Pexels ids collision-checked
+  against the ledger. Tense finance-documentary bed under the cloned voice. **Topic-adjacent to
+  `CageReel`** (also Nvidia/OpenAI) but a different thesis — publish them apart for the same audience.
+  **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** attributes an IMF three-risks warning, a
+  Nvidia filing guaranteeing up to $105B on an Ohio OpenAI data-centre campus on a 20-year lease,
+  private credit <$1T (2015) → >$2.5T, and a Fed-chair link to 24-year-high yields. All author-supplied
+  and rendered as written; confirm every figure, the Nvidia/OpenAI guarantee, and the private-credit /
+  yield claims against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
