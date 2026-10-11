@@ -3464,6 +3464,44 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   private credit <$1T (2015) → >$2.5T, and a Fed-chair link to 24-year-high yields. All author-supplied
   and rendered as written; confirm every figure, the Nvidia/OpenAI guarantee, and the private-credit /
   yield claims against primary sources before publishing.
+- **`ConcreteReel`** — "The invoice" (fast NEWS reel). NEW topic: **why Wall Street is rotating out
+  of AI chips and into industrials/construction.** Thesis: **every gold rush has two trades — the
+  gold and the shovels; the money rotates from the story to the invoice.** Beats: a Monday note from
+  **Morgan Stanley's** top strategist (**Michael Wilson**) calls the next leg **industrials /
+  machinery / capital goods**, not semiconductors; under the surface US valuations have already
+  corrected — **2 in 3 of the largest ~1,000 stocks are down 10%+** from their highs — while
+  **earnings haven't followed**; **Q3 growth is driven by AI infrastructure**, and the **strongest
+  order books aren't the chipmakers** — they're the ones **building the sheds, the power, the steel**,
+  with **backlogs broadening across machinery and metals**; **a chip is priced on what it might do, a
+  backlog on a signed order**; **Nvidia sells the dream, somebody pours the floor it sits on** — and
+  **the building phase is where the signed contracts are.** **Full VERBATIM** of the client's QUESTION
+  / STORY / ANSWER / CTA script with a ~**1.1s post-hook pause**; close is the supplied **CTA
+  question** ("Chips or concrete for the next two years? Tell me below."). Sped VO (atempo ~1.09) —
+  **2729 frames = ~91s** (final CTA beat extended for a clean tail). **27 beats: 24 media** (incl. **4
+  video b-roll** — an excavator, a high-voltage substation, a concrete pour, a concrete viaduct under
+  construction — **+ 3 cards**: IT'S INDUSTRIALS / MACHINERY / CAPITAL GOODS; 2 IN 3 BIG STOCKS / DOWN
+  10%+ / FROM PEAK; Q3 DRIVER AI INFRA / BACKLOGS BROADENING / MACHINERY + METALS) **/ 1 solid-red
+  impact** ("Wall Street is moving to the second") **/ 2 black** ("here's the piece you're missing" +
+  "this is the part that makes it work"). **Its own distinct footage under `public/concrete/` — no
+  reuse of `PaperReel`'s (`public/paper/`, which also uses the shovels metaphor) or any other reel.**
+  **Footage strictly BRAND-FREE AND FACE-FREE** — an unbranded excavator, an analyst report, a chip/
+  wafer, a lathe, a falling market chart, a candlestick board, a financial-district skyline, an
+  iceberg, a magnifier on a chart, an earnings statement, a substation, an order clipboard, steel
+  roof girders, rebar bundles, a microprocessor, a signed order, a balance scale, an invoice, a
+  concrete pour, raw gold ore, work-shovel blades, a tower crane, a dusk construction site, a concrete
+  viaduct — **no Morgan Stanley / Nvidia / any chip or tech brand, no construction-equipment brand
+  logos (CAT/Komatsu/Deere/JCB/GEHL), no stock tickers, no bank/fund names, no seals or flags, no
+  readable brand text, no banknote portrait faces, no faces** (sourcing rejected JCB/GEHL/model-number
+  excavators, an INTEL CORE i5 chip, a GLOBAL INTERGOLD bar set, a 新昌-labelled crane, MetLife/
+  TowerBank skylines, and BINANCE/Deutsche-Bank/forex ticker charts). 24 distinct assets, each used
+  once; all Pexels ids collision-checked against the ledger. Driving industrial-finance bed under the
+  cloned voice. **Shares the "gold rush / shovels" metaphor with `PaperReel`** but a different thesis
+  (a market rotation into industrials, not AI circular-financing) — publish them apart for the same
+  audience. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:** attributes a Monday Morgan
+  Stanley note (Michael Wilson) calling industrials over semiconductors, a valuation drop since June
+  with ~2/3 of the largest ~1,000 stocks >10% off highs, Q3 growth driven by AI infrastructure, and
+  broadening machinery/metals backlogs. All author-supplied and rendered as written; confirm every
+  figure and the Morgan Stanley call against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
