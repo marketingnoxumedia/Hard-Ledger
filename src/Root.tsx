@@ -133,6 +133,7 @@ import {OilReel, DURATION_IN_FRAMES as OIL_FRAMES} from './OilReel';
 import {OnePctReel, DURATION_IN_FRAMES as ONEPCT_FRAMES} from './OnePctReel';
 import {CostaReel, DURATION_IN_FRAMES as COSTA_FRAMES} from './CostaReel';
 import {RulebookReel, DURATION_IN_FRAMES as RULEBOOK_FRAMES} from './RulebookReel';
+import {PaperReel, DURATION_IN_FRAMES as PAPER_FRAMES} from './PaperReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1198,6 +1199,14 @@ export const RemotionRoot: React.FC = () => {
         id="RulebookReel"
         component={RulebookReel}
         durationInFrames={RULEBOOK_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PaperReel"
+        component={PaperReel}
+        durationInFrames={PAPER_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
