@@ -137,7 +137,7 @@ const SCENES: SceneDef[] = [
   // 16 stat 1 tonne
   {dur: 44, kind: 'stat', stat: {pre: 'TARGET WEIGHT', value: 1, post: 'TONNE'}, media: {src: 'rulebook/b16_scale.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 92, kind: 'text', reveal: [2, 40], enter: 'slideUp', text: 'Small battery.|Light cars don’t need big ones.', highlights: ['battery.'], size: 42, media: {src: 'rulebook/b17_battery.mp4', type: 'video', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 40], enter: 'slideUp', text: 'Small battery.|Light cars don’t need big ones.', highlights: ['battery.'], size: 42, media: {src: 'rulebook/b17_battery.jpg', type: 'img', effect: 'in'}},
   // 18 BLACK
   {dur: 52, kind: 'text', reveal: [0, 0], text: 'This is the part|that makes it work.', highlights: ['work.'], size: 48},
   // 19 stat 23%
