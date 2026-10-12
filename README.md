@@ -3540,6 +3540,48 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   care-cost stat, and a triple-lock-from-2030 change by the same PM. All author-supplied and rendered
   as written; confirm every figure and the proposal/party claims against primary sources before
   publishing.
+- **`CarveryReel`** — "The comparison" (fast NEWS reel). NEW topic: **why Britain's biggest hotel
+  company closed ~200 restaurants that new buyers now want to reopen.** Thesis: **the business didn't
+  fail — it lost a comparison.** Beats: **April 2026**, **Whitbread** (owner of **Premier Inn**)
+  shuts every **Beefeater** and **Brewers Fayre** — **197 restaurants / 3,800 jobs**, last closed
+  September; this week **110 are coming back** via **two buyers** (one a new group run by a
+  **doughnut-chain founder**), **1,600 jobs** from **mid-November**; it didn't close them because
+  nobody wanted a **carvery** — it closed them because of **what sits next to them**: most Beefeaters
+  are **bolted on to a Premier Inn**, and in **2024** Whitbread said it would turn **112 restaurants
+  into 3,500 hotel rooms**; a **hotel room earns every night** (two staff per floor), a **restaurant
+  earns twice a day** (a whole kitchen) — **same square footage, different margin**; the sites it
+  **sold** are the ones with **no hotel to turn into** (dead weight to a hotel firm, a restaurant to a
+  restaurant firm). The answer — Whitbread wasn't asking if a Brewers Fayre **makes money**, but if it
+  **makes more than the rooms it's standing on**; it doesn't, so the new owners are **buying the bits
+  a hotel company couldn't use.** **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA
+  script with a ~**1.1s post-hook pause**; close is the supplied **CTA question** ("Would you go back
+  to a reopened Beefeater? Tell me below."). Sped VO (atempo ~1.15) — **2789 frames = ~93s** (final
+  CTA beat extended for a clean tail). **28 beats: 25 media** (incl. **video b-roll** — a dim
+  restaurant interior — **+ 3 cards**: 197 RESTAURANTS / 3,800 JOBS / CLOSED SEPT; 110 REOPENING /
+  1,600 JOBS / FROM MID-NOV; 112 RESTAURANTS → 3,500 HOTEL ROOMS) **/ 1 solid-red impact** ("the
+  business didn't fail, it lost a comparison") **/ 2 black** ("here's the piece you're missing" +
+  "this is the part that makes it work"). **Its own distinct footage under `public/carvery/` — no
+  reuse of `CostaReel`'s (the Coca-Cola/Costa-from-Whitbread reel) or any other reel.** **Footage
+  strictly BRAND-FREE AND FACE-FREE** — a dim restaurant interior, a diary, a generic roadside hotel,
+  a pulled-down shutter, an empty dining room, furniture under dust sheets, a handshake, plain glazed
+  doughnuts, a pro kitchen pass, a magnifier, a carvery roast, two bolted-together buildings, a hotel
+  facade, a gutted interior, a hotel room, a night room, a flaming pan, a floor plan, a standalone
+  restaurant, a stripped floor plate, a calculator + coins, stacked balconies, a vacant room, a set of
+  keys, a "we're open" sign — **no Whitbread / Premier Inn (no purple logo) / Beefeater / Brewers
+  Fayre / Travelodge / any hotel or doughnut-chain logo, no readable brand text, no banknote portrait
+  faces, no flags/seals, no faces** (sourcing rejected Turkish shop signage, an IRS W-9 form, a
+  "Pop's Diner" wordmark, ACE/VISTA-LOCK branded keys, a branded water cooler, and ledger-dupe
+  handshakes). **One flag: the standalone-restaurant still (b20) carries a generic "RESTAURANT"
+  descriptor + a small non-brand cartoon mascot — no company name — kept as the cleanest brand-free
+  standalone-restaurant option; swap if zero logo-shaped elements are required.** 25 distinct assets,
+  each used once; all Pexels ids collision-checked against the ledger. Cool, analytical business bed
+  under the cloned voice. **Whitbread-adjacent to `CostaReel`** (Coca-Cola bought Costa from
+  Whitbread) but a different thesis. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:**
+  attributes an April-2026 Whitbread closure (197 restaurants / 3,800 jobs / last closed September), a
+  110-reopening by two buyers (one a doughnut-chain founder, 1,600 jobs, mid-November), a 2024 plan to
+  convert 112 restaurants into 3,500 hotel rooms, and the room-vs-restaurant margin framing. All
+  author-supplied and rendered as written; confirm every figure and the closure/reopening claims
+  against primary sources before publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
