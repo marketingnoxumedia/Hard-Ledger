@@ -136,6 +136,7 @@ import {RulebookReel, DURATION_IN_FRAMES as RULEBOOK_FRAMES} from './RulebookRee
 import {PaperReel, DURATION_IN_FRAMES as PAPER_FRAMES} from './PaperReel';
 import {ConcreteReel, DURATION_IN_FRAMES as CONCRETE_FRAMES} from './ConcreteReel';
 import {OptoutReel, DURATION_IN_FRAMES as OPTOUT_FRAMES} from './OptoutReel';
+import {CarveryReel, DURATION_IN_FRAMES as CARVERY_FRAMES} from './CarveryReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1225,6 +1226,14 @@ export const RemotionRoot: React.FC = () => {
         id="OptoutReel"
         component={OptoutReel}
         durationInFrames={OPTOUT_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="CarveryReel"
+        component={CarveryReel}
+        durationInFrames={CARVERY_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
