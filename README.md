@@ -3556,8 +3556,9 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   a hotel company couldn't use.** **Full VERBATIM** of the client's QUESTION / STORY / ANSWER / CTA
   script with a ~**1.1s post-hook pause**; close is the supplied **CTA question** ("Would you go back
   to a reopened Beefeater? Tell me below."). Sped VO (atempo ~1.15) — **2789 frames = ~93s** (final
-  CTA beat extended for a clean tail). **28 beats: 25 media** (incl. **video b-roll** — a dim
-  restaurant interior — **+ 3 cards**: 197 RESTAURANTS / 3,800 JOBS / CLOSED SEPT; 110 REOPENING /
+  CTA beat extended for a clean tail). **28 beats: 25 media** (incl. **8 video b-roll** — a dim restaurant interior, a paint roller, a
+  wok over flames, carving a roast, an excavator demolition, a night city skyline, a gas-range flame,
+  a pan across hotel-room balconies — **+ 3 cards**: 197 RESTAURANTS / 3,800 JOBS / CLOSED SEPT; 110 REOPENING /
   1,600 JOBS / FROM MID-NOV; 112 RESTAURANTS → 3,500 HOTEL ROOMS) **/ 1 solid-red impact** ("the
   business didn't fail, it lost a comparison") **/ 2 black** ("here's the piece you're missing" +
   "this is the part that makes it work"). **Its own distinct footage under `public/carvery/` — no
