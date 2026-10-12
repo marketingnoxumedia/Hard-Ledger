@@ -3502,6 +3502,44 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   with ~2/3 of the largest ~1,000 stocks >10% off highs, Q3 growth driven by AI infrastructure, and
   broadening machinery/metals backlogs. All author-supplied and rendered as written; confirm every
   figure and the Morgan Stanley call against primary sources before publishing.
+- **`OptoutReel`** — "The premium" (fast NEWS reel). NEW topic: **how a government could raise
+  income tax without breaking a promise not to — by renaming it a "premium" you can opt out of, and
+  letting inertia collect.** Thesis: **you don't raise the tax; you rename it, make it automatic, and
+  let inertia do the collecting — not a loophole, the design.** Beats: a Monday proposal (from a
+  former pensions minister, via a consultancy) has everyone **over 40, pensioners included,** pay an
+  extra **1p in every £** of taxable income (**avg ~£31/month**) to fund **social care**; it isn't
+  called a tax — it's a **"premium"** with an **opt-out**, so **Labour's manifesto promise stays
+  intact**; the mechanism is **auto-enrolment (the 2012 pensions trick)** — most people never opt out
+  because **most people never do anything**, and the money comes out before you notice; the threat is
+  real (**1 in 7 over-65s face £100,000+ care bills**, so it's sold as **insurance**) and it lands as
+  the same PM proposes changing the **pension triple lock from 2030**; the close — the question isn't
+  whether it's a tax, **it's whether you'll remember to say no.** **Full VERBATIM** of the client's
+  QUESTION / STORY / ANSWER / CTA script with a ~**1.1s post-hook pause**; close is the supplied **CTA
+  question** ("Would you opt out? Tell me below."). Sped VO (atempo ~1.03) — **2825 frames = ~94s**
+  (final CTA beat extended for a clean tail). **30 beats: 27 media** (incl. **video b-roll** — a hand
+  on a calculator over paperwork — **+ 3 cards**: OVER-40s / +1p IN THE £ / £31 A MONTH; "PREMIUM"
+  NOT TAX / OPT-OUT = PROMISE KEPT; AUTO-ENROLMENT IN 2012 — **+ a £100,000+ stat**) **/ 1 solid-red
+  impact** ("it's not a loophole, it's the design") **/ 2 black** ("here's the piece you're missing" +
+  "this is the part that makes it work"). **Its own distinct footage under `public/optout/` — no reuse
+  of any other reel.** **Footage strictly BRAND-FREE AND FACE-FREE** — a calculator on paperwork, a
+  file box, a pensioner walking away, copper pennies, a financial statement, elderly clasped hands, a
+  ballot-slip silhouette, a generic columned facade, an insurance-policy form, blank tick-boxes, a
+  contract with a pen, a magnifier on terms, a coin nest-egg, a calendar, an empty office chair, cupped
+  coins, a hospital corridor, a care wheelchair, a template invoice, a rain umbrella, a brass padlock,
+  an hourglass, red-pen relabelling, precision gears, a question-mark notepad, a YES/NO hand-letter, a
+  pen hovering to sign — **no real politicians, no party logos (no Labour rose), no UK government crest
+  / royal arms, no £ banknote portrait faces, no identifiable landmark (no 10 Downing St / Big Ben),
+  no HMRC/DWP or other readable brand marks, no faces** (sourcing rejected Nike/Honda high-street
+  logos, a govt letterhead, the Rome Vittoriano landmark, US IRS 1040 forms, PG&E/bank-statement
+  brands, a "Donald Trump / FAKE NEWS" French clipping, Chinese/Vietnamese/Ukrainian text, and a
+  Cyrillic-engraved bracelet — and cropped a banknote portrait out of the magnifier shot). 27 distinct
+  assets, each used once; all Pexels ids collision-checked against the ledger. Wry, clock-ticking
+  finance bed under the cloned voice. **TIME-SENSITIVE / UNVERIFIED — verify before publishing:**
+  attributes a Monday social-care "premium" proposal (over-40s, +1p, ~£31/month, opt-out, from a
+  former pensions minister via a consultancy), the auto-enrolment-2012 framing, a 1-in-7 / £100k+
+  care-cost stat, and a triple-lock-from-2030 change by the same PM. All author-supplied and rendered
+  as written; confirm every figure and the proposal/party claims against primary sources before
+  publishing.
 - **`JaecooReel`** — "The silhouette" (fast NEWS reel). NEW topic: **how a Chinese car
   nobody had heard of two years ago became Britain's bestselling car.** Thesis: **Britain
   didn't learn to love Chinese cars — it learned it couldn't afford British ones;** the
