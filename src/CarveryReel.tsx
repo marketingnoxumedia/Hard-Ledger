@@ -119,31 +119,31 @@ const SCENES: SceneDef[] = [
   // 5 BLACK
   {dur: 30, kind: 'text', reveal: [0, 0], text: "Here's the piece|you're missing.", highlights: ['missing.'], size: 50},
   // 6
-  {dur: 88, kind: 'text', reveal: [2, 46], text: 'This week, 110|are coming back.', highlights: ['110'], size: 44, media: {src: 'carvery/b06_renovation.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 46], text: 'This week, 110|are coming back.', highlights: ['110'], size: 44, media: {src: 'carvery/b06v_renovation.mp4', type: 'video', effect: 'in'}},
   // 7
   {dur: 86, kind: 'text', reveal: [0, 0], text: 'Two buyers|step in.', highlights: ['two'], size: 46, media: {src: 'carvery/b07_handshake.jpg', type: 'img', effect: 'in'}},
   // 8
   {dur: 66, kind: 'text', reveal: [2, 40], text: 'One, run by the founder|of a doughnut chain.', highlights: ['doughnut'], size: 42, media: {src: 'carvery/b08_doughnuts.jpg', type: 'img', effect: 'in'}},
   // 9 CARD
-  {dur: 109, kind: 'lines', text: '110 REOPENING|1,600 JOBS|FROM MID-NOV', highlights: ['1,600'], reveal: [0, 26, 58], media: {src: 'carvery/b09_kitchen.jpg', type: 'img', effect: 'in'}},
+  {dur: 109, kind: 'lines', text: '110 REOPENING|1,600 JOBS|FROM MID-NOV', highlights: ['1,600'], reveal: [0, 26, 58], media: {src: 'carvery/b09v_kitchen.mp4', type: 'video', effect: 'in'}},
   // 10
   {dur: 114, kind: 'text', reveal: [0, 0], text: 'And this is where|it gets interesting.', highlights: ['interesting.'], size: 44, media: {src: 'carvery/b10_magnifier.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 99, kind: 'text', reveal: [2, 46], text: 'They didn’t close because|nobody wanted a carvery.', highlights: ['carvery.'], size: 40, media: {src: 'carvery/b11_carvery.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', reveal: [2, 46], text: 'They didn’t close because|nobody wanted a carvery.', highlights: ['carvery.'], size: 40, media: {src: 'carvery/b11v_carvery.mp4', type: 'video', effect: 'in'}},
   // 12
   {dur: 78, kind: 'text', reveal: [2, 44], text: 'They closed because of|what sits next to them.', highlights: ['next'], size: 42, media: {src: 'carvery/b12_adjacency.jpg', type: 'img', effect: 'in'}},
   // 13
   {dur: 119, kind: 'text', reveal: [2, 50], enter: 'slideR', text: 'Most Beefeaters are bolted|onto a Premier Inn.', highlights: ['bolted'], size: 42, media: {src: 'carvery/b13_hotelrestaurant.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 80, kind: 'text', reveal: [2, 44], text: 'In 2024, Whitbread said|it would convert them.', highlights: ['convert'], size: 42, media: {src: 'carvery/b14_construction.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 44], text: 'In 2024, Whitbread said|it would convert them.', highlights: ['convert'], size: 42, media: {src: 'carvery/b14v_construction.mp4', type: 'video', effect: 'in'}},
   // 15 CARD
   {dur: 100, kind: 'lines', text: '112 RESTAURANTS →|3,500 HOTEL ROOMS', highlights: ['3,500'], reveal: [0, 24], media: {src: 'carvery/b15_hotelrooms.jpg', type: 'img', effect: 'in'}},
   // 16 BLACK
   {dur: 51, kind: 'text', reveal: [0, 0], text: 'This is the part|that makes it work.', highlights: ['work.'], size: 48},
   // 17
-  {dur: 127, kind: 'text', reveal: [2, 52], text: 'A hotel room earns every night,|two staff per floor.', highlights: ['night,'], size: 40, media: {src: 'carvery/b17_room_night.jpg', type: 'img', effect: 'in'}},
+  {dur: 127, kind: 'text', reveal: [2, 52], text: 'A hotel room earns every night,|two staff per floor.', highlights: ['night,'], size: 40, media: {src: 'carvery/b17v_night.mp4', type: 'video', effect: 'in'}},
   // 18
-  {dur: 80, kind: 'text', reveal: [2, 44], text: 'A restaurant earns twice a day,|with a whole kitchen.', highlights: ['kitchen.'], size: 40, media: {src: 'carvery/b18_kitchen.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 44], text: 'A restaurant earns twice a day,|with a whole kitchen.', highlights: ['kitchen.'], size: 40, media: {src: 'carvery/b18v_kitchen.mp4', type: 'video', effect: 'in'}},
   // 19
   {dur: 130, kind: 'text', reveal: [2, 52], enter: 'slideL', text: 'Same square footage.|Different margin.', highlights: ['margin.'], size: 44, media: {src: 'carvery/b19_floorplan.jpg', type: 'img', effect: 'in'}},
   // 20
@@ -155,7 +155,7 @@ const SCENES: SceneDef[] = [
   // 23
   {dur: 136, kind: 'text', reveal: [2, 56], text: 'Whitbread wasn’t asking|if it makes money.', highlights: ['money.'], size: 42, media: {src: 'carvery/b23_money.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 68, kind: 'text', reveal: [2, 40], text: 'But if it makes more|than the rooms below it.', highlights: ['more'], size: 42, media: {src: 'carvery/b24_roomstack.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 40], text: 'But if it makes more|than the rooms below it.', highlights: ['more'], size: 42, media: {src: 'carvery/b24v_rooms.mp4', type: 'video', effect: 'in'}},
   // 25
   {dur: 60, kind: 'text', text: 'It doesn’t.', highlights: ['doesn’t.'], size: 58, media: {src: 'carvery/b25_emptyroom.jpg', type: 'img', effect: 'in'}},
   // 26
