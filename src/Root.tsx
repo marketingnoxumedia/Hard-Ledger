@@ -135,6 +135,7 @@ import {CostaReel, DURATION_IN_FRAMES as COSTA_FRAMES} from './CostaReel';
 import {RulebookReel, DURATION_IN_FRAMES as RULEBOOK_FRAMES} from './RulebookReel';
 import {PaperReel, DURATION_IN_FRAMES as PAPER_FRAMES} from './PaperReel';
 import {ConcreteReel, DURATION_IN_FRAMES as CONCRETE_FRAMES} from './ConcreteReel';
+import {OptoutReel, DURATION_IN_FRAMES as OPTOUT_FRAMES} from './OptoutReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1216,6 +1217,14 @@ export const RemotionRoot: React.FC = () => {
         id="ConcreteReel"
         component={ConcreteReel}
         durationInFrames={CONCRETE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="OptoutReel"
+        component={OptoutReel}
+        durationInFrames={OPTOUT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
