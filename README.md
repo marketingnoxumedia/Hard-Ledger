@@ -4095,6 +4095,37 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   100M-by-2000 / ~120x / ~$12.6B (1994) figures are widely cited but approximate (they vary across
   retellings — the same caveat AttReel carries); verify before publishing.
 
+- **`TwiceReel`** — "The bill" (fast NEWS reel). NEW topic: **what it would cost to reopen the 2016
+  Brexit vote**, hung on Andy Burnham's claim that Russia interfered in the referendum and his
+  openness to campaigning to rejoin the EU. 29 beats. Question hook ("What does it cost to reopen a
+  decision 17 million already made?") with a ~1.1s post-hook pause (the hook caption holds through
+  the silence before the reveal — house convention), and a rhetorical-question close ("Would you
+  vote again? Tell me below.") on footage rather than the red card. Three fact cards rendered as
+  `lines` beats (2020 "never assessed" / 2026 "asked. yes."; **17,400,000 votes for Leave**; OBR
+  **≈ −4% of GDP / trade ≈ −15%**), two black reflective beats, and one red
+  "...asked to pay twice." `impact` card as the mid-tail thesis. Continuous cloned voiceover
+  (normalized), durations locked to exact spoken-word STT timestamps; music mixed at 0.17. Entirely
+  its own fresh footage under `public/twice/` — no asset shared with any other reel. Media credits
+  (Pexels, free license) — videos: a hand posting a ballot into a plain white box (7103424), a
+  polling/count scene (37215067), and a working container port (35907894). Photos: a lit podium
+  (6949364), an abstract cyber/network field (36571389), a desk calendar (9036980), a redacted
+  document (12220471), an archive dossier (8371715), an empty committee desk (19165510), a press
+  microphone cluster (13061474), a magnifier over a printed report (17284804), stacked archive
+  boxes (8371705), a crossroads/signpost (17342281), a Europe map (9494908), a blank ballot paper
+  (7103204), scattered ballots (8947495), a government building (38981286), a downward chart
+  (7947698), a stack of coins (7111592), a clock face (9862247), a ledger book (12983115), a
+  weathered "years" calendar block (5417675), a blank price tag (6441572), fog over a road (97065),
+  a gavel (34611943), and a hand ticking a checkbox (36496969). **Brand-safety:** footage was
+  screened for legible marks, flags, and foreign-language text — the hook's original ballot-box clip
+  (a US red/white/blue "I VOTED" sticker), a German-language stamp-catalogue page under the
+  magnifier, and a within-reel duplicate ballot image were all rejected and re-sourced; the shipped
+  assets carry no flags, flag-colour motifs, company marks, or foreign-language text, and no sharp
+  faces. **FLAG — named individuals / contested claims:** Andy Burnham (corrected to **Mayor of
+  Greater Manchester**, not PM, per client), Boris Johnson, the 2020 ISC finding that the government
+  "never assessed" Russian interference in the referendum, the 17.4M Leave figure, and the OBR
+  ≈ −4% GDP / ≈ −15% trade estimates are rendered as written but are a mix of attributed claims and
+  approximate figures that **require a legal/defamation and fact check before publishing**.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
