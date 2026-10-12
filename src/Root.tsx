@@ -137,6 +137,7 @@ import {PaperReel, DURATION_IN_FRAMES as PAPER_FRAMES} from './PaperReel';
 import {ConcreteReel, DURATION_IN_FRAMES as CONCRETE_FRAMES} from './ConcreteReel';
 import {OptoutReel, DURATION_IN_FRAMES as OPTOUT_FRAMES} from './OptoutReel';
 import {CarveryReel, DURATION_IN_FRAMES as CARVERY_FRAMES} from './CarveryReel';
+import {TwiceReel, DURATION_IN_FRAMES as TWICE_FRAMES} from './TwiceReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1234,6 +1235,14 @@ export const RemotionRoot: React.FC = () => {
         id="CarveryReel"
         component={CarveryReel}
         durationInFrames={CARVERY_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="TwiceReel"
+        component={TwiceReel}
+        durationInFrames={TWICE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
