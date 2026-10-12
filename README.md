@@ -4108,18 +4108,21 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   its own fresh footage under `public/twice/` — no asset shared with any other reel. Media credits
   (Pexels, free license) — videos: a hand posting a ballot into a plain white box (7103424), a
   polling/count scene (37215067), and a working container port (35907894). Photos: a lit podium
-  (6949364), an abstract cyber/network field (36571389), a desk calendar (9036980), a redacted
+  (6949364), a fibre-optic patch panel (5354506), a desk calendar (9036980), a redacted
   document (12220471), an archive dossier (8371715), an empty committee desk (19165510), a press
   microphone cluster (13061474), a magnifier over a printed report (17284804), stacked archive
-  boxes (8371705), a crossroads/signpost (17342281), a Europe map (9494908), a blank ballot paper
-  (7103204), scattered ballots (8947495), a government building (38981286), a downward chart
-  (7947698), a stack of coins (7111592), a clock face (9862247), a ledger book (12983115), a
-  weathered "years" calendar block (5417675), a blank price tag (6441572), fog over a road (97065),
-  a gavel (34611943), and a hand ticking a checkbox (36496969). **Brand-safety:** footage was
-  screened for legible marks, flags, and foreign-language text — the hook's original ballot-box clip
-  (a US red/white/blue "I VOTED" sticker), a German-language stamp-catalogue page under the
-  magnifier, and a within-reel duplicate ballot image were all rejected and re-sourced; the shipped
-  assets carry no flags, flag-colour motifs, company marks, or foreign-language text, and no sharp
+  boxes (8371705), a crossroads/signpost (17342281), a Europe map (9494908), a tick-slip with a red
+  checkmark (8850706), scattered ballots (8947495), a government building (38981286), a downward
+  chart (7947698), a pen on a financial chart (13156204), a clock face (9862247), a ledger book
+  (12983115), a weathered "years" calendar block (5417675), a blank price tag (6441572), fog over a
+  road (97065), a gavel (34611943), and a hand ticking a checkbox (36496969). **Brand-safety:**
+  every one of the 26 media beats was audited from the final render for legible marks, flags,
+  country-specific civic/currency imagery, and foreign-language text. Rejected and re-sourced: the
+  hook's original ballot-box clip (a US red/white/blue "I VOTED" sticker), a German-language
+  stamp-catalogue page under the magnifier, a within-reel duplicate ballot image, a US ballot naming
+  "Senator"/"State Representative", a code screen carrying the Spanish word "Clase", and a
+  calculator shot with recognizable US coins. The shipped assets carry no flags, flag-colour motifs,
+  company marks, foreign-language text, or country-specific civic/currency imagery, and no sharp
   faces. **FLAG — named individuals / contested claims:** Andy Burnham (corrected to **Mayor of
   Greater Manchester**, not PM, per client), Boris Johnson, the 2020 ISC finding that the government
   "never assessed" Russian interference in the referendum, the 17.4M Leave figure, and the OBR

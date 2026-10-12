@@ -2411,7 +2411,7 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 # TwiceReel (THE BILL — Brexit pay-twice)
 7103424 twice/b00_ballotbox.mp4
 6949364 twice/b01_podium.jpg
-36571389 twice/b02_cyber.jpg
+5354506 twice/b02_cyber.jpg
 9036980 twice/b03_calendar.jpg
 12220471 twice/b04_redacted.jpg
 8371715 twice/b06_dossier.jpg
@@ -2421,13 +2421,13 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 8371705 twice/b10_archive.jpg
 17342281 twice/b11_crossroads.jpg
 9494908 twice/b12_europemap.jpg
-7103204 twice/b13_ballotpaper.jpg
+8850706 twice/b13_ballotpaper.jpg
 37215067 twice/b14_polling.mp4
 8947495 twice/b15_ballots.jpg
 38981286 twice/b17_govbuilding.jpg
 7947698 twice/b18_chartdown.jpg
 35907894 twice/b19_port.mp4
-7111592 twice/b20_coins.jpg
+13156204 twice/b20_coins.jpg
 9862247 twice/b21_clock.jpg
 12983115 twice/b22_ledger.jpg
 5417675 twice/b23_years.jpg
