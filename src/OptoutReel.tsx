@@ -85,7 +85,7 @@ type SceneDef = {
 // tax, you rename it, make it automatic, and let inertia collect — not a loophole, the design; the
 // question isn't whether it's a tax, it's whether you'll remember to say no. Full VERBATIM QUESTION/
 // STORY/ANSWER/CTA with a ~1.1s post-hook pause; close is the supplied CTA QUESTION ("Would you opt
-// out? Tell me below."). Sped VO (atempo ~1.03) — total ~2825 frames = ~94s (final CTA beat
+// out? Tell me below."). Sped VO (atempo ~1.14, 10% faster) — total ~2568 frames = ~86s (final CTA beat
 // extended for a clean tail). 30 beats: 27 media (incl. video b-roll + 3 cards: OVER-40s/+1p IN
 // THE £/£31 A MONTH; "PREMIUM" NOT TAX/OPT-OUT = PROMISE KEPT; AUTO-ENROLMENT 2012 — plus a
 // £100,000+ stat) / 1 red impact ("It's not a loophole. It's the design.") / 2 black ("Here's the
@@ -104,79 +104,79 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK (held through ~1.1s post-hook pause)
-  {dur: 249, kind: 'hook', reveal: [2, 40, 92], text: 'How do you raise income tax|without breaking a promise|not to raise it?', kicker: 'The premium', highlights: ['promise'], size: 40, media: {src: 'optout/b00_taxform.mp4', type: 'video', effect: 'in'}},
+  {dur: 227, kind: 'hook', reveal: [2, 36, 84], text: 'How do you raise income tax|without breaking a promise|not to raise it?', kicker: 'The premium', highlights: ['promise'], size: 40, media: {src: 'optout/b00_taxform.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 139, kind: 'text', reveal: [2, 52], text: 'Monday. A proposal lands|on the PM’s desk.', highlights: ['proposal'], size: 42, media: {src: 'optout/b01_desk.jpg', type: 'img', effect: 'in'}},
+  {dur: 126, kind: 'text', reveal: [2, 47], text: 'Monday. A proposal lands|on the PM’s desk.', highlights: ['proposal'], size: 42, media: {src: 'optout/b01_desk.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 110, kind: 'text', reveal: [2, 46], enter: 'slideL', text: 'Everyone over 40,|pensioners included.', highlights: ['pensioners'], size: 42, media: {src: 'optout/b02_highstreet.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 42], enter: 'slideL', text: 'Everyone over 40,|pensioners included.', highlights: ['pensioners'], size: 42, media: {src: 'optout/b02_highstreet.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 83, kind: 'text', reveal: [2, 44], text: 'An extra 1p in every pound|of taxable income.', highlights: ['1p'], size: 42, media: {src: 'optout/b03_pennies.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 40], text: 'An extra 1p in every pound|of taxable income.', highlights: ['1p'], size: 42, media: {src: 'optout/b03_pennies.jpg', type: 'img', effect: 'in'}},
   // 4 CARD
-  {dur: 93, kind: 'lines', text: 'OVER-40s|+1p IN THE £|£31 A MONTH', highlights: ['£31'], reveal: [0, 24, 52], media: {src: 'optout/b04_payslip.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'lines', text: 'OVER-40s|+1p IN THE £|£31 A MONTH', highlights: ['£31'], reveal: [0, 22, 47], media: {src: 'optout/b04_payslip.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 30, kind: 'text', text: 'It funds social care.', highlights: ['care.'], size: 44, media: {src: 'optout/b05_care.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', text: 'It funds social care.', highlights: ['care.'], size: 44, media: {src: 'optout/b05_care.jpg', type: 'img', effect: 'in'}},
   // 6 BLACK
-  {dur: 31, kind: 'text', reveal: [0, 0], text: "Here's the piece|you're missing.", highlights: ['missing.'], size: 50},
+  {dur: 29, kind: 'text', reveal: [0, 0], text: "Here's the piece|you're missing.", highlights: ['missing.'], size: 50},
   // 7
-  {dur: 128, kind: 'text', reveal: [2, 50], text: 'Labour promised not|to raise income tax.', highlights: ['promised'], size: 42, media: {src: 'optout/b07_ballot.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 45], text: 'Labour promised not|to raise income tax.', highlights: ['promised'], size: 42, media: {src: 'optout/b07_ballot.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 53, kind: 'text', reveal: [0, 0], text: 'From a former|pensions minister.', highlights: ['minister.'], size: 44, media: {src: 'optout/b08_govbuilding.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [0, 0], text: 'From a former|pensions minister.', highlights: ['minister.'], size: 44, media: {src: 'optout/b08_govbuilding.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 81, kind: 'text', reveal: [2, 42], enter: 'slideUp', text: 'It doesn’t call it a tax.|It calls it a premium.', highlights: ['premium.'], size: 42, media: {src: 'optout/b09_premium.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 38], enter: 'slideUp', text: 'It doesn’t call it a tax.|It calls it a premium.', highlights: ['premium.'], size: 42, media: {src: 'optout/b09_premium.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 109, kind: 'text', reveal: [2, 52], text: 'And you can|opt out.', highlights: ['opt'], size: 46, media: {src: 'optout/b10_optout.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', reveal: [2, 47], text: 'And you can|opt out.', highlights: ['opt'], size: 46, media: {src: 'optout/b10_optout.jpg', type: 'img', effect: 'in'}},
   // 11 CARD
-  {dur: 118, kind: 'lines', text: '“PREMIUM”, NOT TAX|OPT-OUT =|PROMISE KEPT', highlights: ['promise'], reveal: [0, 24, 52], media: {src: 'optout/b11_contract.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'lines', text: '“PREMIUM”, NOT TAX|OPT-OUT =|PROMISE KEPT', highlights: ['promise'], reveal: [0, 22, 47], media: {src: 'optout/b11_contract.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 71, kind: 'text', reveal: [0, 0], text: 'This is where|it gets interesting.', highlights: ['interesting.'], size: 44, media: {src: 'optout/b12_magnifier.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [0, 0], text: 'This is where|it gets interesting.', highlights: ['interesting.'], size: 44, media: {src: 'optout/b12_magnifier.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 114, kind: 'text', reveal: [2, 50], enter: 'slideR', text: 'Opt-out built Britain’s|pension system.', highlights: ['optout'], size: 42, media: {src: 'optout/b13_pension.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 45], enter: 'slideR', text: 'Opt-out built Britain’s|pension system.', highlights: ['optout'], size: 42, media: {src: 'optout/b13_pension.jpg', type: 'img', effect: 'in'}},
   // 14 CARD
-  {dur: 44, kind: 'lines', text: 'AUTO-ENROLMENT|IN 2012', highlights: ['2012'], reveal: [0, 22], media: {src: 'optout/b14_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'lines', text: 'AUTO-ENROLMENT|IN 2012', highlights: ['2012'], reveal: [0, 20], media: {src: 'optout/b14_calendar.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 144, kind: 'text', reveal: [2, 62], text: 'Most never opt out.|Most never do anything.', highlights: ['anything.'], size: 42, media: {src: 'optout/b15_inertia.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 56], text: 'Most never opt out.|Most never do anything.', highlights: ['anything.'], size: 42, media: {src: 'optout/b15_inertia.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 120, kind: 'text', reveal: [2, 52], text: 'The money comes out|before you notice.', highlights: ['before'], size: 42, media: {src: 'optout/b16_deduction.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', reveal: [2, 47], text: 'The money comes out|before you notice.', highlights: ['before'], size: 42, media: {src: 'optout/b16_deduction.jpg', type: 'img', effect: 'in'}},
   // 17 BLACK
-  {dur: 55, kind: 'text', reveal: [0, 0], text: 'This is the part|that makes it work.', highlights: ['work.'], size: 48},
+  {dur: 51, kind: 'text', reveal: [0, 0], text: 'This is the part|that makes it work.', highlights: ['work.'], size: 48},
   // 18
-  {dur: 101, kind: 'text', reveal: [0, 0], enter: 'slideL', text: 'The threat|is real.', highlights: ['real.'], size: 48, media: {src: 'optout/b18_corridor.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [0, 0], enter: 'slideL', text: 'The threat|is real.', highlights: ['real.'], size: 48, media: {src: 'optout/b18_corridor.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 111, kind: 'text', reveal: [2, 46], text: 'One in seven over-65s|face huge care bills.', highlights: ['seven'], size: 40, media: {src: 'optout/b19_elderlycare.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 42], text: 'One in seven over-65s|face huge care bills.', highlights: ['seven'], size: 40, media: {src: 'optout/b19_elderlycare.jpg', type: 'img', effect: 'in'}},
   // 20 STAT
-  {dur: 103, kind: 'stat', stat: {pre: 'CARE BILLS CAN TOP', prefix: '£', value: 100000, post: 'PER PERSON'}, media: {src: 'optout/b20_bills.jpg', type: 'img', effect: 'in'}},
+  {dur: 122, kind: 'stat', stat: {pre: 'CARE BILLS CAN TOP', prefix: '£', value: 100000, post: 'PER PERSON'}, media: {src: 'optout/b20_bills.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [0, 0], text: 'Sold to you|as insurance.', highlights: ['insurance.'], size: 44, media: {src: 'optout/b21_umbrella.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [0, 0], text: 'Sold to you|as insurance.', highlights: ['insurance.'], size: 44, media: {src: 'optout/b21_umbrella.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 98, kind: 'text', reveal: [2, 44], enter: 'slideR', text: 'As the same PM eyes|the triple lock.', highlights: ['triple'], size: 42, media: {src: 'optout/b22_padlock.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], enter: 'slideR', text: 'As the same PM eyes|the triple lock.', highlights: ['triple'], size: 42, media: {src: 'optout/b22_padlock.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 104, kind: 'text', reveal: [0, 0], text: 'Changing it|from 2030.', highlights: ['2030.'], size: 46, media: {src: 'optout/b23_clock2030.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [0, 0], text: 'Changing it|from 2030.', highlights: ['2030.'], size: 46, media: {src: 'optout/b23_clock2030.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 35, kind: 'text', reveal: [0, 0], text: 'You don’t raise the tax.|You rename it.', highlights: ['rename'], size: 42, media: {src: 'optout/b24_rename.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [0, 0], text: 'You don’t raise the tax.|You rename it.', highlights: ['rename'], size: 42, media: {src: 'optout/b24_rename.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 117, kind: 'text', reveal: [2, 52], text: 'Make it automatic.|Let inertia collect.', highlights: ['inertia'], size: 42, media: {src: 'optout/b25_automation.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'text', reveal: [2, 47], text: 'Make it automatic.|Let inertia collect.', highlights: ['inertia'], size: 42, media: {src: 'optout/b25_automation.jpg', type: 'img', effect: 'in'}},
   // 26 RED impact
-  {dur: 86, kind: 'impact', text: 'It’s not a loophole.|It’s the design.', highlights: ['design'], redBg: true},
+  {dur: 79, kind: 'impact', text: 'It’s not a loophole.|It’s the design.', highlights: ['design'], redBg: true},
   // 27
-  {dur: 115, kind: 'text', reveal: [2, 50], text: 'The question isn’t|whether it’s a tax.', highlights: ['tax.'], size: 42, media: {src: 'optout/b27_taxquestion.jpg', type: 'img', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2, 45], text: 'The question isn’t|whether it’s a tax.', highlights: ['tax.'], size: 42, media: {src: 'optout/b27_taxquestion.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 45, kind: 'text', reveal: [0, 0], text: 'It’s whether you’ll|remember to say no.', highlights: ['no.'], size: 44, media: {src: 'optout/b28_nobox.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [0, 0], text: 'It’s whether you’ll|remember to say no.', highlights: ['no.'], size: 44, media: {src: 'optout/b28_nobox.jpg', type: 'img', effect: 'in'}},
   // 29 CTA
-  {dur: 68, kind: 'text', reveal: [2, 40], enter: 'zoom', text: 'Would you opt out?|Tell me below.', highlights: ['opt'], size: 44, media: {src: 'optout/b29_signpen.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 36], enter: 'zoom', text: 'Would you opt out?|Tell me below.', highlights: ['opt'], size: 44, media: {src: 'optout/b29_signpen.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 581, src: 'media/sfx_impact.mp3', vol: 0.45},
-  {at: 916, src: 'media/sfx_impact.mp3', vol: 0.4},
-  {at: 1106, src: 'media/sfx_impact.mp3', vol: 0.45},
-  {at: 1224, src: 'media/sfx_whoosh.mp3', vol: 0.35},
-  {at: 1409, src: 'media/sfx_impact.mp3', vol: 0.4},
-  {at: 1717, src: 'media/sfx_whoosh.mp3', vol: 0.35},
-  {at: 1984, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2511, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2757, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 528, src: 'media/sfx_impact.mp3', vol: 0.45},
+  {at: 833, src: 'media/sfx_impact.mp3', vol: 0.4},
+  {at: 1005, src: 'media/sfx_impact.mp3', vol: 0.45},
+  {at: 1112, src: 'media/sfx_whoosh.mp3', vol: 0.35},
+  {at: 1280, src: 'media/sfx_impact.mp3', vol: 0.4},
+  {at: 1560, src: 'media/sfx_whoosh.mp3', vol: 0.35},
+  {at: 1775, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2282, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2507, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
