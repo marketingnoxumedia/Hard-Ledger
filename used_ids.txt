@@ -2464,3 +2464,32 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 13499020 cargo/b27_lifejacket.jpg
 33520448 cargo/b28_silo.jpg
 32846096 cargo/b29_horizon.jpg
+
+# CentsReel (THREE CENTS — Musk $366M midterm spending)
+33539240 cents/b00_wealth.jpg
+7059620 cents/b01_calendar.jpg
+29858812 cents/b02_podium.jpg
+17482000 cents/b03_capitoldusk.jpg
+6266455 cents/b04_cash.jpg
+7103098 cents/b05_ballotbox.jpg
+5912587 cents/b06_bundles.jpg
+14495721 cents/b07_capitoldome.jpg
+6862443 cents/b09_cheque.jpg
+34824202 cents/b10_chamber.jpg
+6077797 cents/b11_scales.jpg
+7584351 cents/b12_jar.jpg
+6801644 cents/b13_envelopes.jpg
+6310421 cents/b14_redacted.jpg
+7594235 cents/b15_chips.jpg
+13169914 cents/b16_rally.jpg
+14338071 cents/b17_twostacks.jpg
+5668473 cents/b18_gavel.jpg
+23322329 cents/b20_vault.jpg
+20205839 cents/b21_pennies.jpg
+7580753 cents/b22_calculator.jpg
+28953923 cents/b23_rocket.mp4
+10395944 cents/b24_defense.jpg
+16475250 cents/b25_contract.jpg
+6949383 cents/b27_committee.jpg
+5052681 cents/b28_insurance.jpg
+8667547 cents/b29_scales.jpg

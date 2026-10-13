@@ -4173,6 +4173,48 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Legal/defamation-check the Russia-attribution framing and confirm the live figures against primary
   sources before this publishes.
 
+- **`CentsReel`** — "Three cents" (fast NEWS reel). NEW topic: **why the world's only trillionaire
+  spent $366M on a midterm he'd said he was done with** (Elon Musk's October 2026 political giving).
+  Thesis: it isn't a donation, it's a **premium** — when a company's revenue depends on who chairs
+  the committee, $366M (about three cents on every hundred of a >$1T fortune) is the cheapest
+  insurance policy in America; the question was never why he spent it, it's why it's so cheap. 29
+  beats. Question hook ("Why would the only trillionaire spend $366M on an election he quit?") with a
+  ~1.1s post-hook pause, and the supplied CTA question close ("Donation or insurance? Tell me
+  below."). Four number cards rendered as `lines` beats (MAY "DONE ENOUGH" / OCT **$366,000,000**;
+  **$158M** TO ONE PAC / > ALL DEM DONORS; 2024 $290M / 2026 $366M; **$366M ÷ $1T = 0.04%**), two
+  black reflective beats, and one red "This isn't a donation. It's a premium." `impact` card as the
+  mid-tail thesis. Continuous cloned voiceover (normalized), durations locked to exact spoken-word STT
+  timestamps; music mixed at 0.17. Entirely its own fresh footage under `public/cents/` — no asset
+  shared with any other reel. Media credits (Pexels, free license) — video: a rocket lifting off
+  (28953923). Photos: gold bars (33539240), a wall calendar (7059620), a lone mic before stage
+  curtains (29858812), a flag-free capitol dome at dusk (17482000), bills fed into a counting machine
+  (6266455), empty voting booths (7103098), banded cash from the back (5912587), a capitol rotunda
+  dome (14495721), hands with printed cheques (6862443), an empty legislative chamber (34824202),
+  balance scales (6077797), a pile of coins (7584351), cash in a black envelope (6801644), a blurred
+  figure in a dark corridor (6310421), casino chips (7594235), a rally crowd from behind (13169914),
+  stacked cash bundles (14338071), a gavel (5668473), a bank vault (23322329), a small stack of
+  pennies (20205839), a calculator on a financial chart (7580753), a satellite/radar dish
+  (10395944), hands signing a contract (16475250), an empty committee hearing room (6949383), a
+  rain-soaked umbrella (5052681), and a vintage balance scale (8667547). **Brand-safety:** this is a
+  US-politics topic, so every asset was screened — twice at source and again from the final render —
+  for national flags, identifiable faces (no Musk/Trump/Paxton or any politician), party mascots or
+  campaign logos, company logos (no Tesla/SpaceX/X/NASA), banknote portrait faces, and
+  foreign-language text. Rejected and re-sourced: a US flag on a ballot box and below the Capitol
+  dome, a "GLOBAL INTERGOLD"/"FICHET PARIS"/"PREMAX" brand mark, a clear SpaceX logo + "Canada" on an
+  ISS arm, Russian/Portuguese/Polish/Chinese prop-money text, broadcaster and MacBook logos, multiple
+  Franklin/president/monarch banknote-and-coin portraits, blurred recognizable faces, and a near-
+  duplicate insurance flat-lay. The shipped assets carry **no national flag**, no identifiable face,
+  no party/company logo, no banknote portrait, no readable brand/signage, and no foreign-language
+  text. **SENSITIVE — verify + legal-check before publishing:** the donation figures are real Oct
+  2026 reporting (NYT, corroborated by Reuters/CNBC/CNN/NBC/The Hill/Time) — ~$366M cycle / $276M
+  since July / $158M to the Senate Leadership Fund / $76M to America PAC / $20M to the Congressional
+  Leadership Fund / biggest known donor / ~$290M in 2024 / more via non-disclosing groups. Harder to
+  verify or likely overstated: **SpaceX's "$2 trillion" valuation** (reported nearer ~$400B), the
+  $10M-Paxton line, the ">every Dem rival-PAC donor that quarter" comparison, and the Dem-investigation
+  claim; the "three cents" math rides on the >$1T net-worth figure. The motive framing ("it's
+  insurance to protect contracts") is **editorial opinion about a named living person** — run a
+  defamation/fact check before this publishes.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
