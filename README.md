@@ -4129,6 +4129,50 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ≈ −4% GDP / ≈ −15% trade estimates are rendered as written but are a mix of attributed claims and
   approximate figures that **require a legal/defamation and fact check before publishing**.
 
+- **`CargoReel`** — "The cheapest hull" (fast NEWS reel). NEW topic: **what it actually costs to
+  ship grain through a war** — the Black Sea cargo-ship drone attacks of October 2026. Thesis: the
+  real cost of moving cargo through the war isn't the insurance premium (the cargo owner pays that)
+  — it's paid by the people on the ship, and the system is built so that's never anyone expensive;
+  the grain still has to move, so it moves under the cheapest hulls, cheapest flags, cheapest crews
+  (flags of convenience), where the insurance says don't go. 30 beats. Question hook ("What does it
+  cost to ship a cargo of corn through a war?") with a ~1.1s post-hook pause, and the supplied CTA
+  question close ("Who should be paying for this? Tell me below.") on a sea horizon. Four fact cards
+  rendered as `lines` beats (20 MILES OFF BULGARIA / 11 MISSING; 3 ATTACKS / 8 DAYS / **23 DEAD OR
+  MISSING**; GUINEA-BISSAU / TOGO / PALAU; 23 PEOPLE / CORN STILL REACHES ITALY), two black
+  reflective beats, and one red "The bill gets paid by whoever is cheapest to lose." `impact` card
+  as the mid-tail thesis. Continuous cloned voiceover (normalized), durations locked to exact
+  spoken-word STT timestamps; music mixed at 0.17. Entirely its own fresh footage under
+  `public/cargo/` — no asset shared with any other reel. Media credits (Pexels, free license) —
+  videos: a bulk carrier's deck in open sea (36464448), man-overboard rescue floats (20621921), and
+  grain augered into a hold (13125028). Photos: moody dark ocean (6288566), a quadcopter drone
+  (3722737), a rocky coastline (36497146), a marine radar/sonar console (3582597), a life raft in
+  rough sea (33492618), an English "january" calendar (5417669), a derelict shipwreck (37470632), an
+  empty misty sea (18863547), a breakwater harbour at dusk (12202308), golden wheat grain
+  (18378050), a smoke plume over water (34704004), a single candle (6129843), deck mooring bollards
+  and rope (12069410), a vintage world map under a magnifier (7412013), gloved seafarer's hands on a
+  rope (8917046), a rusty peeling hull (35892425), a red-marked nautical chart (2678374), a drone
+  silhouette at dusk (12469812), a neoclassical government facade (13283526), a golden wheat field
+  (17138441), a "home insurance policy" flat-lay (7735632), a weathered life jacket (13499020),
+  grain silos (33520448), and a lone sea horizon at dawn (32846096). **Brand-safety:** the topic is
+  literally ships-and-flags, so every asset was screened — twice at source and again from the final
+  render — for national flags, readable ship names / IMO numbers / company livery / port signage,
+  and foreign-language text. Rejected and re-sourced during sourcing: MSC line livery + a ship name,
+  a "DJI MAVIC" logo, several painted vessel names ("HIND-M", a name on a life ring), a
+  Portuguese "MARÇO" calendar, a French "Rivière Saguenay" chart, a Soviet hammer-and-sickle emblem,
+  facades flying national flags, Cyrillic "NARODNA BIBLIOTEKA" text, a US flag, a branded life-jacket
+  logo, and "JOHN DEERE"/KAMAZ machinery branding. The shipped assets carry **no national flag of any
+  country**, no readable brand/ship-name/signage, no foreign-language text, and no identifiable sharp
+  human face (hands/silhouettes only). **SENSITIVE — VERIFIED REAL, confirm details before
+  publishing:** these are real October 2026 events (drone strikes on cargo ships off Bulgaria in the
+  western Black Sea), corroborated by Reuters/Insurance Journal, Bloomberg, NBC, Euronews, CBC and
+  gCaptain, and the script HEDGES attribution responsibly ("nobody has confirmed who fired the
+  drones; Ukraine says Russia"). Two cautions: Rumen Radev is Bulgaria's **President**, not PM, and
+  the ambassador summons runs through the state/Foreign Ministry (the script's "Bulgaria's PM" is
+  rendered verbatim per client); and casualty counts, ship names and distances were still
+  provisional/disputed across outlets at publication (the 23 total reconciles: 11 + 10 + 2).
+  Legal/defamation-check the Russia-attribution framing and confirm the live figures against primary
+  sources before this publishes.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

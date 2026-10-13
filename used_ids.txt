@@ -2435,3 +2435,32 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 97065 twice/b25_fog.jpg
 34611943 twice/b27_gavel.jpg
 36496969 twice/b28_pencilvote.jpg
+
+# CargoReel (THE CHEAPEST HULL — Black Sea grain/war)
+36464448 cargo/b00_cargoship.mp4
+6288566 cargo/b01_nightsea.jpg
+3722737 cargo/b02_drones.jpg
+36497146 cargo/b03_blacksea.jpg
+3582597 cargo/b04_radar.jpg
+33492618 cargo/b05_liferaft.jpg
+20621921 cargo/b06_lifebuoy.mp4
+5417669 cargo/b08_calendar.jpg
+37470632 cargo/b09_wreck.jpg
+18863547 cargo/b10_emptysea.jpg
+12202308 cargo/b11_port.jpg
+18378050 cargo/b12_graincarrier.jpg
+34704004 cargo/b13_smoke.jpg
+6129843 cargo/b14_candles.jpg
+12069410 cargo/b15_stern.jpg
+7412013 cargo/b16_worldmap.jpg
+8917046 cargo/b17_crewhands.jpg
+35892425 cargo/b18_rustyhull.jpg
+2678374 cargo/b19_riskmap.jpg
+12469812 cargo/b21_dronesky.jpg
+13283526 cargo/b22_govbuilding.jpg
+17138441 cargo/b23_wheatfield.jpg
+13125028 cargo/b24_grainflow.mp4
+7735632 cargo/b26_premium.jpg
+13499020 cargo/b27_lifejacket.jpg
+33520448 cargo/b28_silo.jpg
+32846096 cargo/b29_horizon.jpg
