@@ -139,6 +139,7 @@ import {OptoutReel, DURATION_IN_FRAMES as OPTOUT_FRAMES} from './OptoutReel';
 import {CarveryReel, DURATION_IN_FRAMES as CARVERY_FRAMES} from './CarveryReel';
 import {TwiceReel, DURATION_IN_FRAMES as TWICE_FRAMES} from './TwiceReel';
 import {CargoReel, DURATION_IN_FRAMES as CARGO_FRAMES} from './CargoReel';
+import {CentsReel, DURATION_IN_FRAMES as CENTS_FRAMES} from './CentsReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1252,6 +1253,14 @@ export const RemotionRoot: React.FC = () => {
         id="CargoReel"
         component={CargoReel}
         durationInFrames={CARGO_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="CentsReel"
+        component={CentsReel}
+        durationInFrames={CENTS_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
