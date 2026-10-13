@@ -100,75 +100,83 @@ type SceneDef = {
 // reconciles (11 + 10 + 2). Legal/defamation-check the Russia attribution framing and confirm the
 // live figures against primary sources before this publishes.
 // ---------------------------------------------------------------------------
-// NOTE: durations / line-reveal frames / SFX cues below are PLACEHOLDERS pending the ElevenLabs
-// voiceover + STT anchor pass; they will be locked to spoken-word timestamps once the VO exists.
+// Durations / line-reveal frames / SFX cues below are LOCKED to the ElevenLabs VO via a scribe_v1
+// word-timestamp anchor pass (public/cargo/voiceover.mp3, ~98.95s incl. the post-hook pause).
+// 30 beats: 27 media (incl. 3 video + 4 cards) / 1 red impact / 2 black. The restated-number cards
+// land on the beat where the VO speaks the figure (e.g. "11 MISSING" slams as "eleven" is said).
 const SCENES: SceneDef[] = [
   // 0 HOOK (held through ~1.1s post-hook pause)
-  {dur: 250, kind: 'hook', reveal: [2, 40, 92], text: 'What does it cost|to ship a cargo of corn|through a war?', kicker: 'The cheapest hull', highlights: ['war?'], size: 40, media: {src: 'cargo/b00_cargoship.mp4', type: 'video', effect: 'in'}},
+  {dur: 164, kind: 'hook', reveal: [3, 43, 98], text: 'What does it cost|to ship a cargo of corn|through a war?', kicker: 'The cheapest hull', highlights: ['war?'], size: 40, media: {src: 'cargo/b00_cargoship.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 80, kind: 'text', reveal: [2, 44], text: 'Tuesday.|Three in the morning.', highlights: ['three'], size: 44, media: {src: 'cargo/b01_nightsea.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 22], text: 'Tuesday.|Three in the morning.', highlights: ['three'], size: 44, media: {src: 'cargo/b01_nightsea.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 75, kind: 'text', reveal: [2, 44], enter: 'slideL', text: 'Two cargo ships|hit by drones.', highlights: ['drones.'], size: 44, media: {src: 'cargo/b02_drones.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 32], enter: 'slideL', text: 'Two cargo ships|hit by drones.', highlights: ['drones.'], size: 44, media: {src: 'cargo/b02_drones.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 42], text: 'Twenty miles|off Bulgaria.', highlights: ['twenty'], size: 46, media: {src: 'cargo/b03_blacksea.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 31], text: 'Twenty miles|off Bulgaria.', highlights: ['twenty'], size: 46, media: {src: 'cargo/b03_blacksea.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 78, kind: 'text', reveal: [2, 44], text: "Inside a NATO|country's waters.", highlights: ['nato'], size: 44, media: {src: 'cargo/b04_radar.jpg', type: 'img', effect: 'in'}},
-  // 5
-  {dur: 120, kind: 'text', reveal: [2, 40, 80], text: 'One sinks.|Five rescued.|Eleven missing.', highlights: ['missing.'], size: 44, media: {src: 'cargo/b05_liferaft.jpg', type: 'img', effect: 'in'}},
-  // 6 CARD
-  {dur: 85, kind: 'lines', text: '20 MILES OFF BULGARIA|11 MISSING', highlights: ['11'], reveal: [0, 32], media: {src: 'cargo/b06_lifebuoy.mp4', type: 'video', effect: 'in'}},
-  // 7 BLACK
-  {dur: 82, kind: 'text', reveal: [0, 0], text: "Here's the piece|you're missing.", highlights: ['missing.'], size: 50},
+  {dur: 80, kind: 'text', reveal: [2, 38], text: "Inside a NATO|country's waters.", highlights: ['nato'], size: 44, media: {src: 'cargo/b04_radar.jpg', type: 'img', effect: 'in'}},
+  // 5 CARD (rides "one sinks, five rescued, eleven missing")
+  {dur: 104, kind: 'lines', text: '20 MILES OFF BULGARIA|11 MISSING', highlights: ['11'], reveal: [0, 69], media: {src: 'cargo/b06_lifebuoy.mp4', type: 'video', effect: 'in'}},
+  // 6 BLACK
+  {dur: 39, kind: 'text', reveal: [0, 0], text: "Here's the piece|you're missing.", highlights: ['missing.'], size: 50},
+  // 7
+  {dur: 63, kind: 'text', reveal: [2, 40], text: 'The third attack|in eight days.', highlights: ['third'], size: 44, media: {src: 'cargo/b08_calendar.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 78, kind: 'text', reveal: [2, 44], text: 'The third attack|in eight days.', highlights: ['third'], size: 44, media: {src: 'cargo/b08_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 55], enter: 'slideR', text: 'Last Tuesday, same waters:|one ship sunk.', highlights: ['sunk.'], size: 42, media: {src: 'cargo/b09_wreck.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 95, kind: 'text', reveal: [2, 50], enter: 'slideR', text: 'Last Tuesday, same waters:|one ship sunk.', highlights: ['sunk.'], size: 42, media: {src: 'cargo/b09_wreck.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 52], text: 'Ten crew never found.|Search called off.', highlights: ['ten'], size: 42, media: {src: 'cargo/b10_emptysea.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 100, kind: 'text', reveal: [2, 50], text: 'Ten crew never found.|Search called off.', highlights: ['ten'], size: 42, media: {src: 'cargo/b10_emptysea.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 36], text: 'The day before,|off Romania.', highlights: ['romania.'], size: 44, media: {src: 'cargo/b11_port.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 78, kind: 'text', reveal: [2, 44], text: 'The day before,|off Romania.', highlights: ['romania.'], size: 44, media: {src: 'cargo/b11_port.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 62, 100], enter: 'slideL', text: 'A Turkish-owned ship,|Ukrainian grain,|bound for Italy.', highlights: ['grain,'], size: 40, media: {src: 'cargo/b12_graincarrier.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 128, kind: 'text', reveal: [2, 44, 86], text: 'A Turkish-owned ship,|Ukrainian grain,|bound for Italy.', highlights: ['grain,'], size: 40, media: {src: 'cargo/b12_graincarrier.jpg', type: 'img', effect: 'in'}},
-  // 13
-  {dur: 92, kind: 'text', reveal: [2, 50], text: 'Hit. Burned. Sank.|Two dead.', highlights: ['two'], size: 44, media: {src: 'cargo/b13_smoke.jpg', type: 'img', effect: 'in'}},
-  // 14 CARD
-  {dur: 115, kind: 'lines', text: '3 ATTACKS|8 DAYS|23 DEAD OR MISSING', highlights: ['23'], reveal: [0, 26, 58], media: {src: 'cargo/b14_candles.jpg', type: 'img', effect: 'in'}},
-  // 15
-  {dur: 110, kind: 'text', reveal: [2, 52], text: "This is where it gets interesting:|look at the flags.", highlights: ['flags.'], size: 40, media: {src: 'cargo/b15_stern.jpg', type: 'img', effect: 'in'}},
-  // 16 CARD
-  {dur: 95, kind: 'lines', text: 'GUINEA-BISSAU|TOGO|PALAU', highlights: ['palau'], reveal: [0, 26, 52], media: {src: 'cargo/b16_worldmap.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 41], text: 'Hit. Burned. Sank.|Two dead.', highlights: ['two'], size: 44, media: {src: 'cargo/b13_smoke.jpg', type: 'img', effect: 'in'}},
+  // 13 CARD (the cumulative toll, landing on "two dead")
+  {dur: 56, kind: 'lines', text: '3 ATTACKS|8 DAYS|23 DEAD OR MISSING', highlights: ['23'], reveal: [0, 18, 36], media: {src: 'cargo/b14_candles.jpg', type: 'img', effect: 'in'}},
+  // 14
+  {dur: 34, kind: 'text', reveal: [2], text: 'Look at the flags.', highlights: ['flags.'], size: 50, media: {src: 'cargo/b15_stern.jpg', type: 'img', effect: 'in'}},
+  // 15 CARD
+  {dur: 93, kind: 'lines', text: 'GUINEA-BISSAU|TOGO|PALAU', highlights: ['palau'], reveal: [0, 31, 52], media: {src: 'cargo/b16_worldmap.jpg', type: 'img', effect: 'in'}},
+  // 16
+  {dur: 96, kind: 'text', reveal: [2, 52], text: 'Crews from Azerbaijan,|India, Turkey.', highlights: ['turkey.'], size: 40, media: {src: 'cargo/b17_crewhands.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 95, kind: 'text', reveal: [2, 50], text: 'Crews from Azerbaijan,|India, Turkey.', highlights: ['turkey.'], size: 40, media: {src: 'cargo/b17_crewhands.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 67], text: 'Not the companies|whose grain they carry.', highlights: ['companies'], size: 42, media: {src: 'cargo/b05_liferaft.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 128, kind: 'text', reveal: [2, 44, 86], enter: 'slideL', text: 'The cheapest hulls.|The cheapest flags.|The cheapest crews.', highlights: ['cheapest'], size: 40, media: {src: 'cargo/b18_rustyhull.jpg', type: 'img', effect: 'in'}},
+  {dur: 151, kind: 'text', reveal: [2, 39, 75], enter: 'slideL', text: 'The cheapest hulls.|The cheapest flags.|The cheapest crews.', highlights: ['cheapest'], size: 40, media: {src: 'cargo/b18_rustyhull.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 95, kind: 'text', reveal: [2, 50], text: 'Sent where the insurance|says don’t go.', highlights: ['insurance'], size: 42, media: {src: 'cargo/b19_riskmap.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', reveal: [2, 54], text: 'Sent where the insurance|says don’t go.', highlights: ['insurance'], size: 42, media: {src: 'cargo/b19_riskmap.jpg', type: 'img', effect: 'in'}},
   // 20 BLACK
-  {dur: 80, kind: 'text', reveal: [0, 0], text: 'This is the part|that makes it work.', highlights: ['work.'], size: 48},
+  {dur: 81, kind: 'text', reveal: [0, 0], text: 'This is the part|that makes it work.', highlights: ['work.'], size: 48},
   // 21
-  {dur: 95, kind: 'text', reveal: [2, 50], text: 'Nobody has confirmed|who fired the drones.', highlights: ['nobody'], size: 42, media: {src: 'cargo/b21_dronesky.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 49], text: 'Nobody has confirmed|who fired the drones.', highlights: ['nobody'], size: 42, media: {src: 'cargo/b21_dronesky.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 120, kind: 'text', reveal: [2, 44, 86], text: 'Ukraine says Russia.|Bulgaria called in|the ambassador.', highlights: ['russia.'], size: 40, media: {src: 'cargo/b22_govbuilding.jpg', type: 'img', effect: 'in'}},
+  {dur: 160, kind: 'text', reveal: [2, 57, 100], text: 'Ukraine says Russia.|Bulgaria called in|the ambassador.', highlights: ['russia.'], size: 40, media: {src: 'cargo/b22_govbuilding.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 100, kind: 'text', reveal: [2, 50], text: 'Brussels calls the Black Sea|a lifeline for food.', highlights: ['lifeline'], size: 40, media: {src: 'cargo/b23_wheatfield.jpg', type: 'img', effect: 'in'}},
+  {dur: 152, kind: 'text', reveal: [2, 67], text: 'Brussels calls the Black Sea|a lifeline for food.', highlights: ['lifeline'], size: 40, media: {src: 'cargo/b23_wheatfield.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 78, kind: 'text', reveal: [2, 44], enter: 'slideR', text: 'The grain still|has to move.', highlights: ['move.'], size: 44, media: {src: 'cargo/b24_grainflow.mp4', type: 'video', effect: 'in'}},
-  // 25 RED impact
-  {dur: 115, kind: 'impact', text: 'The bill gets paid by|whoever is|cheapest to lose.', redBg: true},
+  {dur: 68, kind: 'text', reveal: [2, 40], enter: 'slideR', text: 'The grain still|has to move.', highlights: ['move.'], size: 44, media: {src: 'cargo/b24_grainflow.mp4', type: 'video', effect: 'in'}},
+  // 25 RED impact (mid-tail thesis)
+  {dur: 138, kind: 'impact', text: 'The bill gets paid by|whoever is|cheapest to lose.', redBg: true},
   // 26
-  {dur: 130, kind: 'text', reveal: [2, 44, 86], text: 'Shipping through a war|isn’t the premium.|The cargo owner pays that.', highlights: ['premium.'], size: 40, media: {src: 'cargo/b26_premium.jpg', type: 'img', effect: 'in'}},
+  {dur: 181, kind: 'text', reveal: [2, 51, 131], text: 'Shipping through a war|isn’t the premium.|The cargo owner pays that.', highlights: ['premium.'], size: 40, media: {src: 'cargo/b26_premium.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 128, kind: 'text', reveal: [2, 44, 86], text: 'The real cost is the crew.|Built so it’s|never anyone expensive.', highlights: ['crew.'], size: 40, media: {src: 'cargo/b27_lifejacket.jpg', type: 'img', effect: 'in'}},
-  // 28
-  {dur: 120, kind: 'text', reveal: [2, 44, 86], text: '23 people, 8 days.|The corn still|reaches Italy.', highlights: ['23'], size: 40, media: {src: 'cargo/b28_silo.jpg', type: 'img', effect: 'in'}},
+  {dur: 192, kind: 'text', reveal: [2, 124, 151], text: 'The real cost is the crew.|Built so it’s|never anyone expensive.', highlights: ['crew.'], size: 40, media: {src: 'cargo/b27_lifejacket.jpg', type: 'img', effect: 'in'}},
+  // 28 CARD (lands on the spoken "twenty-three")
+  {dur: 111, kind: 'lines', text: '23 PEOPLE, 8 DAYS|THE CORN STILL|REACHES ITALY', highlights: ['23'], reveal: [0, 65, 95], media: {src: 'cargo/b28_silo.jpg', type: 'img', effect: 'in'}},
   // 29 CTA
-  {dur: 95, kind: 'text', reveal: [2, 44, 86], enter: 'zoom', text: 'Who should be paying|for this?|Tell me below.', highlights: ['paying'], size: 42, media: {src: 'cargo/b29_horizon.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28, 43], enter: 'zoom', text: 'Who should be paying|for this?|Tell me below.', highlights: ['paying'], size: 42, media: {src: 'cargo/b29_horizon.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
-// PLACEHOLDER SFX — re-anchor to beat STARTS after the VO/STT timing pass.
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 449, src: 'media/sfx_impact.mp3', vol: 0.45}, // 20 MI / 11 MISSING card
+  {at: 553, src: 'media/sfx_whoosh.mp3', vol: 0.35}, // into the black beat
+  {at: 1067, src: 'media/sfx_impact.mp3', vol: 0.48}, // 3 ATTACKS / 23 toll card
+  {at: 1157, src: 'media/sfx_whoosh.mp3', vol: 0.3}, // flags card
+  {at: 2272, src: 'media/sfx_impact.mp3', vol: 0.55}, // red thesis card
+  {at: 2783, src: 'media/sfx_impact.mp3', vol: 0.5}, // 23 / Italy card
+  {at: 2894, src: 'media/sfx_whoosh.mp3', vol: 0.4}, // CTA
 ];
 
 const STARTS: number[] = (() => {
