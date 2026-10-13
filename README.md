@@ -4215,6 +4215,53 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   insurance to protect contracts") is **editorial opinion about a named living person** — run a
   defamation/fact check before this publishes.
 
+- **`PumpReel`** — "The pump" (fast NEWS reel). NEW topic: **why Washington is pressing Ukraine to
+  stop hitting Russian oil refineries three weeks before the US midterms.** Thesis: Washington isn't
+  managing a war, it's managing a price — Ukraine's refinery strikes are its most effective weapon
+  (they pull Russian diesel off the world market), but they also push US diesel up, and three weeks
+  before an election the only ask that counts is "stop fighting the way that costs us money"; Russia's
+  weakest point is the same as America's — the pump. 28 beats. Question hook ("Why is Washington
+  telling Ukraine to stop hitting Russian refineries?") with a ~1.1s post-hook pause, and the supplied
+  CTA question close ("Should Ukraine stop? Tell me below."). Four cards rendered as `lines` beats
+  (WASHINGTON TO KYIV / STOP THE STRIKES; EXPORTS BANNED / **BRENT $100+** / US DIESEL RECORD; THE
+  THREAT / HALT WEAPONS / CUT INTEL; MIDTERMS NOV 3 / **21 DAYS**), two black reflective beats, and
+  one red "Washington isn't managing a war. It's managing a price." `impact` card as the mid-tail
+  thesis. Continuous cloned voiceover (a hallucinated TTS tail word was trimmed), durations locked to
+  spoken-word STT timestamps; music mixed at 0.17. Entirely its own fresh footage under `public/pump/`
+  — no asset shared with any other reel. Media credits (Pexels, free license) — videos: an aerial
+  refinery at dusk (10407687) and a hand at a fuel pump (15556113). Photos: an empty conference hall
+  (5026349), a studio microphone (1871132), two soldiers in silhouette (11452326), a classical
+  colonnade (36658968), an energy plant lit at night (18016857), a STOP sign (15344629), a tiltrotor
+  silhouette (2962230), fuel storage tanks (11922787), an oil-tanker deck (36563588), a markets
+  candlestick screen (159888), a US "$4.69" roadside fuel board (26840197), rows of oil drums
+  (615670), illegible folded newspaper (5505718), brass rifle cartridges (6092076), a handwritten
+  classified file (8369216), chess pieces (4800923), wire cutters severing a cable (6412542), a geared
+  mechanism (17126404), a masked voter dropping a plain ballot (7103191), a plain "November" calendar
+  (34541911), a US "$/GALLONS" pump display (30743598), an end-on roll of US cash (4386472), and a
+  refinery at dusk (5411674). **Brand-safety:** this is a war/politics topic, so every asset was
+  screened — twice at source and again from the final render — for national flags, identifiable faces
+  (no Grynkewich/Putin/Trump/Zelensky/soldiers), military insignia or unit patches, gas-station /
+  weapon-maker / newspaper-masthead logos, banknote portrait faces, and foreign-language text.
+  Rejected and re-sourced: a US-flag-wrapped ballot box and flags under a Capitol dome, Shell/BP/Exxon
+  /Wawa/Irving/Lukoil/Pumptronics/Coca-Cola station marks, a Cyrillic pumpjack ("ОПАСНО ГАЗ") and a
+  "ST BERNARD PORT"/"KIRBY" refinery, Portuguese "NOVEMBRO"/"SETEMBRO" calendars, a UK "pence per
+  litre" pump, a leprechaun-hat novelty-coin money shot, and many Franklin/Lincoln/Jackson banknote
+  portraits + Russian/Thai/Italian/Arabic money. The shipped assets carry **no national flag**, no
+  identifiable face, no military insignia, no brand/station logo, no banknote portrait, and no
+  foreign-language text. **RE-ATTRIBUTION (client-directed):** the script as supplied pinned the
+  "stop the refinery strikes" ask on **Gen. Alex Grynkewich** (NATO's commander in Europe); reporting
+  attributes that pressure to **Washington / US officials** (the Financial Times, 11 Oct 2026, via
+  CNN/Reuters-relayed coverage), and Grynkewich publicly argued the OPPOSITE (arm Ukraine; Russia
+  won't break Ukraine by hitting its energy sector). Per the client's choice the "stop" ask is
+  re-attributed to Washington; Grynkewich appears only for his real "fight tonight" posture.
+  **SENSITIVE — verify + legal-check before publishing:** the FT threat (halt the PURL weapons
+  mechanism + cut intel sharing to stop refinery strikes, over diesel/oil-price fears) is real,
+  corroborated Oct 2026 reporting, and the strikes' effectiveness (~half of Russian refining capacity,
+  per Ukraine) is reported. STILL CONFIRM independently: **"Brent crossed $100," "Russia banned diesel
+  exports to end-October," and "US diesel record last quarter"** (not verified here); and the motive
+  framing ("managing a price," hurting Trump's polling) is editorial opinion — run a defamation/fact
+  check before this publishes.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

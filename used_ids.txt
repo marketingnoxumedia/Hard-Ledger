@@ -2493,3 +2493,32 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 6949383 cents/b27_committee.jpg
 5052681 cents/b28_insurance.jpg
 8667547 cents/b29_scales.jpg
+
+# PumpReel (THE PUMP — Ukraine refinery strikes / US diesel)
+10407687 pump/b00_refinery.mp4
+5026349 pump/b01_warsaw.jpg
+1871132 pump/b02_podium.jpg
+11452326 pump/b03_soldiers.jpg
+36658968 pump/b04_govbuilding.jpg
+18016857 pump/b05_energynight.jpg
+15344629 pump/b06_stop.jpg
+2962230 pump/b08_drone.jpg
+11922787 pump/b09_diesel.jpg
+36563588 pump/b10_tanker.jpg
+159888 pump/b11_oilchart.jpg
+26840197 pump/b12_gasprice.jpg
+615670 pump/b13_barrels.jpg
+5505718 pump/b15_newspaper.jpg
+6092076 pump/b16_weapons.jpg
+8369216 pump/b17_redacted.jpg
+4800923 pump/b19_chess.jpg
+6412542 pump/b20_chain.jpg
+17126404 pump/b22_gears.jpg
+7103191 pump/b23_ballot.jpg
+34541911 pump/b24_calendar.jpg
+6672308 pump/b25_clock.jpg
+30743598 pump/b27_pumpdigits.jpg
+18905770 pump/b28_derrick.jpg
+5411674 pump/b29_refinerydawn.jpg
+4386472 pump/b30_money.jpg
+15556113 pump/b26_pump.mp4
