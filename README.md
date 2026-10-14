@@ -4296,6 +4296,51 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   and **"GTA 5 is the most profitable entertainment product ever made."** Run a fact-check on all three
   before this publishes.
 
+- **`EscapeReel`** — "The escape route" (fast NEWS reel). NEW topic: **how Marvell Technology — a chip
+  company that never sold a GPU — is up ~214% in 2026, ~10x Nvidia.** Thesis: Marvell isn't an AI-chip
+  company, it's the **escape route from Nvidia**. Every hyperscaler pays Nvidia a **>70% margin on
+  every GPU** (the "Nvidia tax"); the way out is custom silicon — Amazon's Trainium, Microsoft's Maia —
+  but you can't build it alone, so the money that used to go to Nvidia goes to the contractor who can:
+  Marvell (**20+ design wins** across Amazon, Google, Microsoft, Meta). The catch: four customers — lose
+  one design and the escape route becomes a cliff. 33 beats. Question hook ("How is a chip company
+  that's never sold a GPU up 214%, 10x Nvidia?") with a ~1.1s post-hook pause, and the supplied CTA
+  question close ("Nvidia, or the companies trying to leave it? Tell me below."). Three number cards as
+  `lines` beats (**MRVL +214% / NVDA +22% / AVGO +3%**; **20+ DESIGN WINS / AMAZON·GOOGLE / MICROSOFT·
+  META**; **MARKET $75B TO $94B / REVENUE $18B**), two black reflective beats, and one red "The Nvidia
+  tax." `impact` card as the mid-tail thesis. Continuous cloned voiceover, durations/reveals locked to
+  the VO via a scribe_v1 word-timestamp anchor pass (`public/escape/voiceover.mp3`, ~104.0s incl. the
+  pause); music mixed at 0.17. Entirely its own fresh footage under `public/escape/` — no asset shared
+  with any other reel. Media credits (Pexels, free license) — videos: a rainbow oil-swirl macro
+  (26051329), an abstract glowing-circuit animation (31710198), a CNC cutting head throwing sparks
+  (28221363), an aerial data-center campus (38081600), falling green binary "data rain" (19808379), a
+  purple plexus network (33248294), a glowing-red chip with light-trails (36387552), and an abstract
+  tunnel toward light (32934216). Photos: a gold CPU die (2105927), a rising chart on a monitor
+  (30332440), a black chip on a green board (40068136), a copper PCB macro (6755081), a gloved/bare hand
+  holding an iridescent wafer substrate (4705607), blue-lit server racks (17489151), gold CPU pins
+  (270549), a dark circuit board (2182863), an empty auditorium/podium (34476625), a bar chart on paper
+  (7054380), a US dollar Great-Seal/pyramid macro — no portrait (7076318), a descending industrial
+  staircase (33688138), hands soldering a plain green PCB — no face (38145576), a finned heatsink with
+  copper heat-pipes (31665486), a silhouetted lone worker at a red-lit door (7739881), a B&W coin macro
+  — no portrait (7214230), a coastal cliff edge (31511695), a forked forest path (31747084), a copper
+  circuit-trace macro (34924858), a glowing microchip (28767589), a road to a bright horizon (35574108),
+  and four tall stone columns (14557887). **Brand-safety:** this is a named-company semiconductor topic,
+  so every asset was screened — at source and again from the FINAL render (the audit caught five live
+  misses that were re-sourced and re-rendered). Rejected and replaced: a fab clip with Chinese "捷泰科技
+  / JIETAI TECHNOLOGY" signage; a stock heatmap full of real tickers (NVDA/AMD/MSFT/AAPL/MRVL/Micron);
+  an "EUR/USDC" forex ticker; "OMRON" relays on a labelled refrigerator control board; plus (caught at
+  source) Yaskawa/KUKA/FANUC robot-arm logos, Intel/AMD/Realtek/XFCE chip wordmarks, SAMSUNG server
+  labels, a Binance watermark, Bitcoin/crypto coin stacks, and Franklin $100 portraits. The shipped
+  assets carry **no company logo/wordmark, no readable real ticker, no foreign-language text, no
+  identifiable face, no banknote portrait, no national flag, and no crypto symbol.** This reel names
+  **Nvidia** as the foil like `CageReel` / `PaperReel` / the SpaceX-GPU reel — different subject
+  (Marvell) and thesis, but **schedule it apart from those for the same audience.** **SENSITIVE — verify
+  every figure before publishing (named public companies + financials):** the ~214% YTD (vs Nvidia ~22%,
+  Broadcom ~3%), the Barron's "Maia 300 is the next leg up" piece, the "20+ design wins across Amazon/
+  Google/Microsoft/Meta", the investor-day TAM raise ($75B → $94B for 2028) and ~$18B revenue outlook,
+  ~60x forward earnings / "~2x a valuation model" / "−16% off the June high", and the ">70% Nvidia GPU
+  margin" are all rendered as reported and must be confirmed independently. The "escape route / four-
+  customer concentration" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
