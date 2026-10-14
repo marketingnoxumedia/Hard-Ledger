@@ -141,6 +141,7 @@ import {TwiceReel, DURATION_IN_FRAMES as TWICE_FRAMES} from './TwiceReel';
 import {CargoReel, DURATION_IN_FRAMES as CARGO_FRAMES} from './CargoReel';
 import {CentsReel, DURATION_IN_FRAMES as CENTS_FRAMES} from './CentsReel';
 import {PumpReel, DURATION_IN_FRAMES as PUMP_FRAMES} from './PumpReel';
+import {TicketReel, DURATION_IN_FRAMES as TICKET_FRAMES} from './TicketReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1270,6 +1271,14 @@ export const RemotionRoot: React.FC = () => {
         id="PumpReel"
         component={PumpReel}
         durationInFrames={PUMP_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="TicketReel"
+        component={TicketReel}
+        durationInFrames={TICKET_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
