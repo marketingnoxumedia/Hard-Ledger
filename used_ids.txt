@@ -2531,7 +2531,7 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 16781975 ticket/b07_retroconsole.jpg
 5380792 ticket/b08_monitor.jpg
 27962447 ticket/b10_western.jpg
-3943731 ticket/b11_moneyhands.jpg
+8441790 ticket/b11_handshake.jpg
 12706241 ticket/b12_soldout.jpg
 1432677 ticket/b13_chips.jpg
 36522029 ticket/b14_factory.jpg

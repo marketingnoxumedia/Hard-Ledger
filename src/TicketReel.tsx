@@ -119,7 +119,7 @@ const SCENES: SceneDef[] = [
   // 7
   {dur: 118, kind: 'text', reveal: [2, 67], text: 'The exclusivity window|was the business model.', highlights: ['model.'], size: 42, media: {src: 'ticket/b06_coins.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 98, kind: 'text', reveal: [2, 60], enter: 'slideR', text: 'Sony and Microsoft pay.|It sells consoles.', highlights: ['consoles.'], size: 42, media: {src: 'ticket/b11_moneyhands.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 60], enter: 'slideR', text: 'Sony and Microsoft pay.|It sells consoles.', highlights: ['consoles.'], size: 42, media: {src: 'ticket/b11_handshake.jpg', type: 'img', effect: 'in'}},
   // 9 BLACK
   {dur: 43, kind: 'text', reveal: [0, 0], text: 'But that’s not|the craziest part.', highlights: ['craziest'], size: 48},
   // 10

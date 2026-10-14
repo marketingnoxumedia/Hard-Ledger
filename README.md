@@ -4277,7 +4277,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   videos: a backlit PC gaming rig (13549718) and a server/data-centre aisle (39918565). Photos: a wall
   calendar (3226865), a printed list (8581014), a plain console box (9765137), hands on a controller
   (5380584), stacked coins (7584363), a retro console (16781975), a desk monitor (5380792), a cowboy
-  silhouette for the Red Dead line (27962447), cash in hands (3943731), a "SOLD OUT" sign (12706241),
+  silhouette for the Red Dead line (27962447), a business handshake over documents (8441790), a "SOLD OUT" sign (12706241),
   bare memory chips (1432677), a factory line (36522029), a blank price tag (5650026), gold bullion
   coins (8442342), a plain payment card (11316617), a stadium/venue ticket (27639885), a rising graph
   (7947759), a crowd (5193526), a mechanical keyboard (37722338), a bank of screens (34212916), a queue
