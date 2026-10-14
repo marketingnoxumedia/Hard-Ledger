@@ -115,7 +115,7 @@ const SCENES: SceneDef[] = [
   // 5
   {dur: 191, kind: 'text', reveal: [2, 119], text: 'GTA 5 hit consoles in 2013.|PC waited until 2015.', highlights: ['2015.'], size: 42, media: {src: 'ticket/b07_retroconsole.jpg', type: 'img', effect: 'in'}},
   // 6 CARD
-  {dur: 94, kind: 'lines', reveal: [0, 30, 60], text: 'GTA 5: 19 MONTHS|RDR2: 13|GTA 6: ~4', highlights: ['~4'], media: {src: 'ticket/b09_calendar2.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'lines', reveal: [0, 30, 60], text: 'GTA 5: 19 MONTHS|RDR2: 13|GTA 6: ~4', highlights: ['~4'], media: {src: 'ticket/b10_western.jpg', type: 'img', effect: 'in'}},
   // 7
   {dur: 118, kind: 'text', reveal: [2, 67], text: 'The exclusivity window|was the business model.', highlights: ['model.'], size: 42, media: {src: 'ticket/b06_coins.jpg', type: 'img', effect: 'in'}},
   // 8
