@@ -143,6 +143,7 @@ import {CentsReel, DURATION_IN_FRAMES as CENTS_FRAMES} from './CentsReel';
 import {PumpReel, DURATION_IN_FRAMES as PUMP_FRAMES} from './PumpReel';
 import {TicketReel, DURATION_IN_FRAMES as TICKET_FRAMES} from './TicketReel';
 import {EscapeReel, DURATION_IN_FRAMES as ESCAPE_FRAMES} from './EscapeReel';
+import {CounterReel, DURATION_IN_FRAMES as COUNTER_FRAMES} from './CounterReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1288,6 +1289,14 @@ export const RemotionRoot: React.FC = () => {
         id="EscapeReel"
         component={EscapeReel}
         durationInFrames={ESCAPE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="CounterReel"
+        component={CounterReel}
+        durationInFrames={COUNTER_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

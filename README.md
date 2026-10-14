@@ -4341,6 +4341,50 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   margin" are all rendered as reported and must be confirmed independently. The "escape route / four-
   customer concentration" framing is editorial analysis.
 
+- **`CounterReel`** — "The counter" (fast NEWS reel). NEW topic: **why Apple would launch a $299
+  smart-home display ("HomeView") into a category that has never made money** (Amazon's devices
+  division reportedly lost ~$10B in a year; Apple's own HomePod died in 3 years). Thesis: nobody makes
+  money on the box — everyone's fighting to own the **voice that answers** when you ask a question in
+  your kitchen. Apple isn't selling a tablet; it's buying a spot on your kitchen counter, and **$299 is
+  the rent** (a Siri loss-leader land-grab, the same move Amazon made with Alexa). 30 beats. Question
+  hook ("Why is Apple's new CEO launching a $299 version of a product that lost Amazon $10B?") with a
+  ~1.1s post-hook pause, and the supplied CTA question close ("Would you put Siri in your kitchen? Tell
+  me below."). Three cards as `lines` beats (**HOMEVIEW / $299 / 7-INCH / 6 FACES**; **HOMEPOD $349 TO
+  $299 / DEAD IN 3 YEARS**; plus the inline number beats), two black reflective beats, and one red "Two
+  ninety-nine is the rent." `impact` card as the mid-tail thesis. Continuous cloned voiceover,
+  durations/reveals locked to a scribe_v1 word-timestamp anchor pass (`public/counter/voiceover.mp3`,
+  ~103.7s incl. the pause); music mixed at 0.17. Entirely its own fresh footage under `public/counter/`
+  — no asset shared with any other reel (note: this is a DIFFERENT reel from the existing housing
+  `RentReel`). Media credits (Pexels, free license) — videos: an empty counter under warm lights
+  (4691245), a generic smart-home touch panel (39857556), a glowing waveform (34335936), and concentric
+  voice-rings (34202381). Photos: a generic black kiosk tablet on a stand (35985168), an empty circular
+  auditorium (10880677), blank-screen monitors (5499551), a fabric-grille speaker — B&W, not a HomePod
+  shape (31396349), a wall smart-home panel, hand only (16423104), a white wire-mesh head sculpture for
+  the "face recognition" line (38078060), a blank price tag (7967222), an architectural blueprint
+  (4458205), a vintage CRT monitor (8875501), a knotted/unplugged power cord (14071431), a B&W coin
+  macro — no portrait (129492), a hand holding a generic blank-screen phone (6373210), an abstract
+  glowing digital matrix (30547612), a stack of folded newspapers — no masthead (3866816), a purple
+  wireframe-mesh brain (17483868), hands over a kitchen counter — no face (6209336), an empty shopping
+  cart (12323216), a February wall calendar (36014360), a dark marble kitchen counter (8142046), house
+  keys on a counter (37003193), an empty kraft box (7957726), a studio microphone (6878179), and a warm
+  golden-hour kitchen (9794845). **Brand-safety:** this names Apple/Amazon/Google, so every asset was
+  screened at source and again from the FINAL render. Rejected and replaced: Apple devices (an iPad
+  home button, iMac/Apple-logo mockups) swapped for a generic kiosk tablet and blank monitors; a
+  Nest-style branded thermostat; National Panasonic/Sony/Orion/Binatone wordmarks on vintage tech; a
+  "QQQ" ticker on an up-trending chart; a "maono" mic wordmark; a wall A/C wordmark; a "Daily Star"
+  masthead and a readable **coronavirus** newspaper macro (swapped for a generic folded-newspaper
+  stack); crypto (Bitcoin/Ethereum) coins; and Japanese calendar text. The shipped assets carry **no
+  Apple/Amazon/Google logo, no recognizable branded device, no on-screen brand UI, no readable ticker,
+  no identifiable face, no banknote portrait, no foreign-language text, and no flag.** **SENSITIVE —
+  this reel asserts specific, very recent, checkable claims about REAL people and companies; it is
+  rendered as written but MUST be fully fact- and legal-checked before publishing:** that **John Ternus
+  is Apple's new CEO** ("six weeks into the job") and that Apple unveiled a **"$299 HomeView 7-inch
+  smart display, ships November"** this week (NOT verified here — treat as unconfirmed, possibly not yet
+  real); **Amazon's devices division "lost ~$10B in a year"**; the **HomePod price history** ($349 →
+  $299, discontinued in ~3 years); the **Ternus "no product is a better hub than the iPhone" quote**;
+  and the **Bloomberg "boring on purpose" headline**. The "box is the cost / the answer is the
+  business" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
