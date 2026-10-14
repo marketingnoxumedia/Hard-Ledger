@@ -4262,6 +4262,40 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   framing ("managing a price," hurting Trump's polling) is editorial opinion — run a defamation/fact
   check before this publishes.
 
+- **`TicketReel`** — "The ticket" (fast NEWS reel). NEW topic: **why Rockstar would give PC players
+  GTA 6 roughly four months after the console launch when GTA 5 made PC wait nineteen.** Thesis: the
+  console-exclusivity window was only ever a business model that pays when it *sells consoles* — and
+  this time the consoles are already sold out, so the fastest route to the money isn't exclusivity,
+  it's getting GTA Online in front of every screen on earth. The game is the ticket; Online is the
+  business. 27 beats. Question hook ("Why would Rockstar give PC players GTA 6 in four months when GTA
+  5 took nineteen?") with a ~1.1s post-hook pause, and the supplied CTA question close ("Waiting for PC
+  or buying day one? Tell me below."). Four cards rendered as `lines` beats (GTA 5: 19 MONTHS / RDR2:
+  13 / GTA 6: **~4**; and the exclusivity / sold-out / Online beats), two black reflective beats, and
+  one red `impact` card as the mid-tail thesis. Continuous cloned voiceover, durations locked to
+  spoken-word STT timestamps; music mixed at 0.17. Entirely its own fresh footage under
+  `public/ticket/` — no asset shared with any other reel. Media credits (Pexels, free license) —
+  videos: a backlit PC gaming rig (13549718) and a server/data-centre aisle (39918565). Photos: a wall
+  calendar (3226865), a printed list (8581014), a plain console box (9765137), hands on a controller
+  (5380584), stacked coins (7584363), a retro console (16781975), a desk monitor (5380792), a cowboy
+  silhouette for the Red Dead line (27962447), cash in hands (3943731), a "SOLD OUT" sign (12706241),
+  bare memory chips (1432677), a factory line (36522029), a blank price tag (5650026), gold bullion
+  coins (8442342), a plain payment card (11316617), a stadium/venue ticket (27639885), a rising graph
+  (7947759), a crowd (5193526), a mechanical keyboard (37722338), a bank of screens (34212916), a queue
+  (12591405), and a globe (20881520). **Brand-safety:** this is a named-company gaming topic, so every
+  asset was screened — twice at source and again from the final render — for the GTA / Rockstar /
+  Take-Two / Red Dead wordmarks and key art, PlayStation / Xbox / Nintendo / Steam logos and
+  brand-shaped controllers, identifiable faces, banknote portrait faces, and foreign-language store /
+  box text. Rejected and re-sourced: Sony/PS4/PS5, Nintendo, 8BitDo and brand-controller marks, SK
+  hynix / memory-maker logos, and a Franklin $100 banknote stack for the "most profitable" money shot
+  (swapped to brand-free gold coins). The shipped assets carry **no game/console/store brand mark**,
+  no identifiable face, no banknote portrait, and no foreign-language text. **SENSITIVE — verify before
+  publishing:** the console launch date (**19 Nov 2026**) is confirmed. These are NOT confirmed and
+  must be checked (and are framed in the reel as reported, not fact): the **GamesBeat "Q1 2027 PC
+  release" report** (four industry sources; Rockstar/Take-Two have not confirmed, and other estimates
+  skew later into 2027–2028); the **"PS5 Pro sold out / used above new / memory-chip shortage"** claim;
+  and **"GTA 5 is the most profitable entertainment product ever made."** Run a fact-check on all three
+  before this publishes.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
