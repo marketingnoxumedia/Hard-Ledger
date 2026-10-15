@@ -145,6 +145,7 @@ import {TicketReel, DURATION_IN_FRAMES as TICKET_FRAMES} from './TicketReel';
 import {EscapeReel, DURATION_IN_FRAMES as ESCAPE_FRAMES} from './EscapeReel';
 import {CounterReel, DURATION_IN_FRAMES as COUNTER_FRAMES} from './CounterReel';
 import {BridgeReel, DURATION_IN_FRAMES as BRIDGE_FRAMES} from './BridgeReel';
+import {ForgivenReel, DURATION_IN_FRAMES as FORGIVEN_FRAMES} from './ForgivenReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1306,6 +1307,14 @@ export const RemotionRoot: React.FC = () => {
         id="BridgeReel"
         component={BridgeReel}
         durationInFrames={BRIDGE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ForgivenReel"
+        component={ForgivenReel}
+        durationInFrames={FORGIVEN_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

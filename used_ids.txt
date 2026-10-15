@@ -2631,3 +2631,35 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 12025430 bridge/b25_suitcase.jpg
 31709981 bridge/b26_controltower.jpg
 10904752 bridge/b27_runwaylights.mp4
+
+# ForgivenReel (student-loan tax)
+8061011 forgiven/f00_gradcap.mp4
+8292888 forgiven/f01_loandocs.jpg
+6266276 forgiven/f02_calculator.jpg
+8123845 forgiven/f03_parenthands.jpg
+25643188 forgiven/f04_crowd.jpg
+32991337 forgiven/f05_legislature.jpg
+28532883 forgiven/f06_govbuilding.jpg
+7821686 forgiven/f07_taxform.jpg
+4386342 forgiven/f08_moneystack.jpg
+6862446 forgiven/f09_check.jpg
+7318931 forgiven/f10_letter.jpg
+7972506 forgiven/f11_studentswalk.jpg
+9822734 forgiven/f12_amountdue.jpg
+5483233 forgiven/f13_emptyoffice.jpg
+7691731 forgiven/f14_magnifier.jpg
+7927011 forgiven/f15_pastdue.jpg
+12170723 forgiven/f16_clockfiles.jpg
+17846111 forgiven/f17_backlog.jpg
+29279352 forgiven/f18_calendar.jpg
+39924600 forgiven/f19_vetostamp.jpg
+7693153 forgiven/f20_handshake.jpg
+7054413 forgiven/f21_budgetdoc.jpg
+5669602 forgiven/f22_gavel.jpg
+38883416 forgiven/f23_hearingroom.jpg
+7781900 forgiven/f24_scale.jpg
+16037849 forgiven/f25_spreadsheet.jpg
+8088437 forgiven/f26_queue.jpg
+8730987 forgiven/f27_pensign.jpg
+8177929 forgiven/f28_diploma.jpg
+7713415 forgiven/f29_gradcapmoney.jpg

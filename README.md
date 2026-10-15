@@ -4426,6 +4426,58 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   route is cut next, in December", and "30 American destinations in Mexico" must all be verified
   independently. The "lost to geography" framing is editorial analysis.
 
+- **`ForgivenReel`** — "The tax" (fast NEWS reel). NEW topic: **how a student-loan borrower can owe
+  ~$12,000 in tax on debt they never received.** Thesis: last year's "One Big Beautiful Bill" let a tax
+  exemption expire, so forgiven student debt now counts as **income** again — forgive $100K and the IRS
+  treats it like $100K earned; one group estimates ~3M borrowers could face a ~$12K tax bill on debt
+  they'll never see. Meanwhile the Education Dept cut staff and servicer oversight, borrowers got false
+  delinquency notices, and the system that decides the tax can't process the paperwork. Whether the fix
+  survives is now a line item in a budget negotiation decided by the 3 Nov midterms (a Democratic
+  Congress can't repeal the bill — Trump holds the veto — but the budget has to pass). 33 beats.
+  Question hook ("How can a borrower owe $12,000 in tax on money they never received?") with a ~1.1s
+  post-hook pause, and the supplied CTA question close ("Did you know forgiveness is taxable? Tell me
+  below."). Four cards as `lines` beats (**13,000,000 BORROWERS / 0 DEMOCRATIC VOTES**; **FORGIVENESS =
+  INCOME / 3,000,000 BORROWERS / ~$12,000 TAX**; **FALSE DELINQUENCY NOTICES / BACKLOGS: MONTHS TO
+  YEARS**; **3 NOVEMBER / VETO: STANDS / BUDGET: NEGOTIABLE**), two black reflective beats, and one red
+  "They vote on whether relief counts as income." `impact` card as the mid-tail thesis. Continuous
+  cloned voiceover, durations/reveals locked to a scribe_v1 word-timestamp anchor pass
+  (`public/forgiven/voiceover.mp3`, ~104.8s incl. the pause); music mixed at 0.17. Entirely its own
+  fresh footage under `public/forgiven/` — no asset shared with any other reel. Media credits (Pexels,
+  free license) — video: graduates seen from behind tossing caps at sunset (8061011). Photos: a
+  residential loan/mortgage application form (8292888), a calculator with coins (6266276), older hands
+  over financial papers (8123845), two graduates from behind (25643188), an empty legislative chamber
+  (32991337), a white-domed capitol down a mall — no flags (28532883), an income-tax questionnaire form
+  — no agency seal (7821686), a pile of pennies (25961803), hands with paper checks — no face
+  (6862446), a blank letter into an envelope (7318931), three students from behind on campus steps
+  (7972506), a calculator showing "10 000" with coins (9822734), an empty open-plan office (5483233), a
+  magnifying glass over documents (7691731), a past-due/overdue document (7927011), a clock on a stack
+  of books (12170723), stacks of overstuffed files (17846111), an English "October" calendar page
+  (29279352), a hand pressing a rubber stamp (39924600), a business handshake over charts — hands only
+  (7693153), a "Monthly Budget" document with charts (7054413), a gavel and scale on a desk (5669602),
+  rows of empty formal seats (38883416), a brass balance scale (7781900), an itemized "Expenses" ledger
+  (16037849), people seen from behind (8088437), a hand signing with a pen (8730987), a rolled diploma
+  with a ribbon (8177929), and a graduation cap on books (7713415). **Brand-safety (political):** this
+  names real political actors, so every asset was screened — at source and again from the FINAL render
+  — for national flags, identifiable faces, politicians/lookalikes, party symbols, ballots / "VOTE" /
+  "I VOTED" stickers, government agency seals or names (IRS / Dept of Ed / Treasury), bank/lender logos,
+  banknote portrait faces, foreign currency, and foreign-language text. Rejected and replaced: flags in
+  chamber windows and US+state flags with an equestrian statue on a capitol, front-facing graduate
+  faces, a uniformed/military-reading stadium crowd, Polish-zloty + Polish-text receipts, Philippine-
+  peso coins with a portrait, PG&E / East Bay Energy utility bills and $100 Franklin-portrait bills,
+  IRS / Form 1040 / W-9 forms, and Portuguese-month calendars. The shipped assets carry **no national
+  flag, no identifiable face, no politician, no party symbol, no ballot, no agency seal, no bank logo,
+  no banknote portrait, and no foreign-language text.** **SENSITIVE — this reel names real political
+  actors (Trump, Democrats) and asserts specific, checkable policy claims; it is rendered as written
+  but MUST be fully fact- and legal-checked (incl. a political/defamation pass) before publishing:**
+  the 2025 "One Big Beautiful Bill" ending/phasing out income-driven repayment and cutting Parent PLUS
+  forgiveness, "~13M borrowers / 0 Democratic votes"; the expired forgiveness tax exclusion so forgiven
+  debt is taxed as income; the "~3M borrowers / ~$12K tax" estimate (attributed to "one group" — NAME
+  and verify the source); the Education Dept staff/oversight cuts, false delinquency notices and
+  backlogs; the 3 Nov 2026 midterms, the veto math, and the "2% fixed rate / federal refinancing"
+  bipartisan bills. The "line item in a budget negotiation / voting on whether relief counts as income"
+  framing is editorial analysis. **Schedule it APART from the other politics reels (`CentsReel` /
+  `PumpReel` / etc.) for the same audience.**
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
