@@ -101,75 +101,75 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK (held through ~1.1s post-hook pause)
-  {dur: 238, kind: 'hook', reveal: [3, 70, 150], text: 'Why is Big Pharma|betting $28B on|one approved drug?', kicker: 'The option', highlights: ['$28B'], size: 40, media: {src: 'degrader/d00_lab.mp4', type: 'video', effect: 'in'}},
+  {dur: 238, kind: 'hook', reveal: [3, 80, 160], text: 'Why is Big Pharma spending|$28 billion on a class of drugs|that has exactly one approval?', kicker: 'The option', highlights: ['$28'], size: 34, media: {src: 'degrader/d00_lab.mp4', type: 'video', effect: 'in'}},
   // 1
   {dur: 40, kind: 'text', reveal: [2, 20], text: 'Protein|degraders.', highlights: ['degraders.'], size: 64, media: {src: 'degrader/d01_molecule.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 71, kind: 'text', reveal: [2, 36], text: 'Drugs usually block|a bad protein.', highlights: ['block'], size: 44, media: {src: 'degrader/d02_pills.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 36], text: 'Conventional drugs|block a bad protein.', highlights: ['block'], size: 42, media: {src: 'degrader/d02_pills.jpg', type: 'img', effect: 'in'}},
   // 3
   {dur: 41, kind: 'text', reveal: [2, 20], text: 'These ones|destroy it.', highlights: ['destroy'], size: 54, media: {src: 'degrader/d03_dissolve.mp4', type: 'video', effect: 'in'}},
   // 4
   {dur: 61, kind: 'text', reveal: [2, 32], text: 'The idea is|25 years old.', highlights: ['25'], size: 48, media: {src: 'degrader/d04_oldlab.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 94, kind: 'text', reveal: [2, 48], text: 'First approval:|a cancer drug.', highlights: ['approval:'], size: 44, media: {src: 'degrader/d05_vial.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 34, 66], text: 'The first approval —|a breast-cancer drug|from Arvinas and Pfizer.', highlights: ['first'], size: 38, media: {src: 'degrader/d05_vial.jpg', type: 'img', effect: 'in'}},
   // 6 CARD 1
   {dur: 66, kind: 'lines', reveal: [0, 28, 50], text: 'IDEA: 2001|FIRST APPROVAL: 2026|1 DRUG', highlights: ['1'], media: {src: 'degrader/d06_calendar.jpg', type: 'img', effect: 'in'}},
   // 7 BLACK
   {dur: 67, kind: 'text', reveal: [0, 0], text: 'But nobody tells you|this part.', highlights: ['part.'], size: 48},
   // 8
-  {dur: 104, kind: 'text', reveal: [2, 54], text: '$28 billion in deals.|In two years.', highlights: ['$28'], size: 42, media: {src: 'degrader/d08_ticker.mp4', type: 'video', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2, 54], text: 'Over $28 billion in deals,|in two years.', highlights: ['$28'], size: 42, media: {src: 'degrader/d08_ticker.mp4', type: 'video', effect: 'in'}},
   // 9
-  {dur: 139, kind: 'text', reveal: [2, 72], enter: 'slideL', text: 'One giant paid|$1B in cash.', highlights: ['$1B'], size: 46, media: {src: 'degrader/d09_cash.jpg', type: 'img', effect: 'in'}},
+  {dur: 139, kind: 'text', reveal: [2, 48, 96], enter: 'slideL', text: 'Johnson & Johnson bought|a degrader company for|$1 billion in cash.', highlights: ['$1'], size: 38, media: {src: 'degrader/d09_cash.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 86, kind: 'text', reveal: [2, 44], text: 'Another paid|$700M upfront,', highlights: ['$700M'], size: 44, media: {src: 'degrader/d10_contract.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 44], text: 'Roche paid|$700 million upfront.', highlights: ['$700'], size: 42, media: {src: 'degrader/d10_contract.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 103, kind: 'text', reveal: [2, 52], text: 'up to $3B for|one degrader.', highlights: ['$3B'], size: 46, media: {src: 'degrader/d11_moneyvial.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 52], text: 'Up to $3 billion, for one|blood-cancer degrader.', highlights: ['$3'], size: 40, media: {src: 'degrader/d11_moneyvial.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 91, kind: 'text', reveal: [2, 46], text: 'Three more giants|signed in.', highlights: ['Three'], size: 46, media: {src: 'degrader/d12_towers.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 46], text: 'AbbVie, Biogen and Novo|Nordisk each signed', highlights: ['signed'], size: 40, media: {src: 'degrader/d12_towers.jpg', type: 'img', effect: 'in'}},
   // 13 CARD 2
   {dur: 77, kind: 'lines', reveal: [0, 32, 58], text: '$28B / 2 YEARS|J&J $1B · ROCHE $3B|NEOMORPH ×3', highlights: ['$28B'], media: {src: 'degrader/d13_dealdoc.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 79, kind: 'text', reveal: [2, 40], text: 'Same tiny company.|One year.', highlights: ['One'], size: 46, media: {src: 'degrader/d14_smalllab.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 40], text: 'with the same small company,|Neomorph, inside a year.', highlights: ['Neomorph,'], size: 36, media: {src: 'degrader/d14_smalllab.jpg', type: 'img', effect: 'in'}},
   // 15 BLACK
   {dur: 53, kind: 'text', reveal: [0, 0], text: 'But that’s not even|the craziest part.', highlights: ['craziest'], size: 48},
   // 16
   {dur: 79, kind: 'text', reveal: [2, 40], text: 'They’re not buying drugs.|They’re buying platforms.', highlights: ['platforms.'], size: 38, media: {src: 'degrader/d16_factory.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 116, kind: 'text', reveal: [2, 60], text: 'The capability —|not one molecule.', highlights: ['capability'], size: 44, media: {src: 'degrader/d17_robotarm.mp4', type: 'video', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 40, 78], text: 'The capability to make|degraders, not any|single molecule.', highlights: ['capability'], size: 40, media: {src: 'degrader/d17_robotarm.mp4', type: 'video', effect: 'in'}},
   // 18 CARD 3
   {dur: 67, kind: 'lines', reveal: [0, 28, 50], text: 'PLATFORMS, NOT PILLS|SMALL CASH NOW|BILLIONS IF IT WORKS', highlights: ['platforms,'], media: {src: 'degrader/d18_servers.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 88, kind: 'text', reveal: [2, 44], text: 'Small cash now.|Billions if it works.', highlights: ['Billions'], size: 42, media: {src: 'degrader/d19_coinsgrow.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 44], text: 'Small cash now,|billions later if it works.', highlights: ['billions'], size: 40, media: {src: 'degrader/d19_coinsgrow.jpg', type: 'img', effect: 'in'}},
   // 20
   {dur: 39, kind: 'text', reveal: [2, 20], text: 'Here’s exactly|how they do it.', highlights: ['exactly'], size: 48, media: {src: 'degrader/d20_microscope.mp4', type: 'video', effect: 'in'}},
   // 21
-  {dur: 69, kind: 'text', reveal: [2, 36], text: '80% of proteins|can’t be drugged.', highlights: ['80%'], size: 44, media: {src: 'degrader/d21_proteins.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 36], text: 'About 80% of|the proteins', highlights: ['80%'], size: 44, media: {src: 'degrader/d21_proteins.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 103, kind: 'text', reveal: [2, 52], text: 'Most can’t be hit|the conventional way.', highlights: ['Most'], size: 42, media: {src: 'degrader/d22_bindfail.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 52], text: 'in the human body can’t be hit|by a conventional drug.', highlights: ['can’t'], size: 36, media: {src: 'degrader/d22_bindfail.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 58, kind: 'text', reveal: [2, 30], text: 'There’s nowhere|for a pill to bind.', highlights: ['nowhere'], size: 44, media: {src: 'degrader/d23_surface.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 30], text: 'There’s nowhere|for the pill to bind.', highlights: ['nowhere'], size: 44, media: {src: 'degrader/d23_surface.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 36], text: 'Degraders don’t|bind that way.', highlights: ['Degraders'], size: 46, media: {src: 'degrader/d24_tag.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 36], text: 'Degraders don’t need|to bind that way.', highlights: ['Degraders'], size: 44, media: {src: 'degrader/d24_tag.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 84, kind: 'text', reveal: [2, 44], text: 'They tag it for the|cell’s own disposal.', highlights: ['disposal.'], size: 42, media: {src: 'degrader/d25_cell.mp4', type: 'video', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 44], text: 'They tag the protein for the|cell’s own disposal system.', highlights: ['disposal'], size: 36, media: {src: 'degrader/d25_cell.mp4', type: 'video', effect: 'in'}},
   // 26
-  {dur: 116, kind: 'text', reveal: [2, 60], text: 'The undruggable 80%|becomes a market.', highlights: ['market.'], size: 42, media: {src: 'degrader/d26_growth.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 60], text: 'Crack that, and the undruggable|80% becomes a market.', highlights: ['market.'], size: 36, media: {src: 'degrader/d26_growth.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 82, kind: 'text', reveal: [2, 42], text: 'Meanwhile, the big|drugs are expiring.', highlights: ['expiring.'], size: 42, media: {src: 'degrader/d27_pillscal.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 42], text: 'Meanwhile, pharma’s|best-selling drugs', highlights: ['best-selling'], size: 42, media: {src: 'degrader/d27_pillscal.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 85, kind: 'text', reveal: [2, 44], text: 'Patents lapse by|the end of the decade.', highlights: ['Patents'], size: 42, media: {src: 'degrader/d28_patent.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 44], text: 'lose patent protection|by the end of the decade.', highlights: ['patent'], size: 40, media: {src: 'degrader/d28_patent.jpg', type: 'img', effect: 'in'}},
   // 29 CARD 4
   {dur: 99, kind: 'lines', reveal: [0, 48], text: '80% UNDRUGGABLE|PATENT CLIFF: 2030', highlights: ['80%'], media: {src: 'degrader/d29_cliff.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 51, kind: 'text', reveal: [2, 26], text: '$28B isn’t a bet|on one drug.', highlights: ['$28B'], size: 44, media: {src: 'degrader/d30_money.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 26], text: '$28 billion isn’t a bet|on one drug.', highlights: ['bet'], size: 42, media: {src: 'degrader/d30_money.jpg', type: 'img', effect: 'in'}},
   // 31 RED impact (thesis)
-  {dur: 92, kind: 'impact', text: 'An option on|80% of biology.', redBg: true},
+  {dur: 92, kind: 'impact', text: 'It’s an option on|80% of biology.', redBg: true},
   // 32
-  {dur: 51, kind: 'text', reveal: [2, 26], text: 'One approval proved|the mechanism.', highlights: ['proved'], size: 44, media: {src: 'degrader/d32_approve.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 26], text: 'One approval proved|the mechanism works.', highlights: ['proved'], size: 42, media: {src: 'degrader/d32_approve.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 132, kind: 'text', reveal: [2, 68], enter: 'slideR', text: 'Each deal buys a seat|before the price jumps.', highlights: ['seat'], size: 40, media: {src: 'degrader/d33_auction.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 44, 88], enter: 'slideR', text: 'Every deal since is a company|paying for a seat before|the price goes up.', highlights: ['seat'], size: 34, media: {src: 'degrader/d33_auction.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 101, kind: 'text', reveal: [2, 52], text: '25 years of science.|One approval to price it.', highlights: ['One'], size: 38, media: {src: 'degrader/d34_clockmoney.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'text', reveal: [2, 52], text: 'The science took 25 years.|The pricing took one approval.', highlights: ['one'], size: 34, media: {src: 'degrader/d34_clockmoney.jpg', type: 'img', effect: 'in'}},
   // 35 CTA (question close)
   {dur: 75, kind: 'text', reveal: [2, 18], enter: 'zoom', text: 'Breakthrough,|or bubble?', highlights: ['bubble?'], size: 48, media: {src: 'degrader/d35_bubble.mp4', type: 'video', effect: 'in'}},
 ];
