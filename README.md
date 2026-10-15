@@ -4478,6 +4478,52 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   framing is editorial analysis. **Schedule it APART from the other politics reels (`CentsReel` /
   `PumpReel` / etc.) for the same audience.**
 
+- **`DegraderReel`** — "The option" (fast NEWS reel). NEW topic: **why Big Pharma is spending ~$28B on
+  PROTEIN DEGRADERS, a drug class with exactly one approval.** Thesis: degraders *destroy* a target
+  protein instead of just blocking it; the idea is ~25 years old and got its first approval (a breast-
+  cancer drug from Arvinas + Pfizer) in May 2026 — one drug. Yet in two years pharma signed **>$28B** of
+  deals (J&J ~$1B cash; Roche ~$700M upfront / up to $3B; AbbVie, Biogen and Novo Nordisk each ~$1.5B
+  with the same small company, Neomorph). They're buying **platforms, not molecules** — small cash now,
+  big milestones later — because ~**80%** of human proteins are "undruggable" the conventional way and
+  the patent cliff hits by **2030**. Payoff framing: $28B is an *option on 80% of biology*; one approval
+  proved the mechanism and every deal since is paying for a seat before the price rises. 36 beats.
+  Question hook ("Why is Big Pharma spending $28 billion on a class of drugs that has exactly one
+  approval?") with a ~1.1s post-hook pause, and the CTA rephrased as the house rhetorical-question close
+  ("Breakthrough, or bubble?"). Four cards as `lines` beats (**IDEA: 2001 / FIRST APPROVAL: 2026 / 1
+  DRUG**; **$28B / 2 YEARS / J&J $1B · ROCHE $3B / NEOMORPH ×3**; **PLATFORMS, NOT PILLS / SMALL CASH NOW
+  / BILLIONS IF IT WORKS**; **80% UNDRUGGABLE / PATENT CLIFF: 2030**), two black reflective beats, and
+  one red "An option on 80% of biology." `impact` card as the mid-tail thesis. Continuous cloned
+  voiceover, durations/reveals locked to a scribe_v1 word-timestamp anchor pass
+  (`public/degrader/voiceover.mp3`, ~102.2s incl. the pause); music mixed at 0.17. Entirely its own fresh
+  footage under `public/degrader/` — no asset shared with any other reel. Media credits (Pexels, free
+  license) — videos: a spinning lab centrifuge (4114135), an effervescent tablet dissolving in water
+  (4482096), a robotic clean-room automation arm (32386523), a gloved hand on microscope objectives
+  (4267248), microscope footage of a diatom filament (8739082), and a backlit soap-bubble network
+  (4178366). Photos: a 3D ball-and-stick molecule (25626518), plain white pills by an unlabeled bottle
+  (5699522), an antique brass microscope (12236834), clear medical vials in a tray (9259963), a
+  hand-drawn "May" calendar page (15034880), US banknote edges — no portrait (4386379), a hand signing a
+  generic approval form (7735699), a dropper bottle beside US $20s (5632351), low-angle glass office
+  towers — no signage (258160), a colored financial chart printout (7947744), a biotech bench of sample
+  tubes (3735739), an amber glass-bottle production line (36423805), teal fiber-optic patch cables
+  (5073493), stacked plain green chips (7594181), a 3D molecular-structure cluster (25626509), a skeleton
+  key in a keyhole (5485767), a pink microscopic surface texture (8720651), a glowing 3D biomolecule
+  (25626587), a metal diamond-plate up-arrow (9773286), pills beside a digital clock (6943420), an
+  embossed wax-seal document — no agency name (5425649), a coastal cliff edge (13026293), US $100-bill
+  numerals — no portrait (10149291), a green traffic light with an up-arrow sign (11798545), rows of
+  empty auditorium seats (32731350), and an alarm clock with a jar of coins and a featureless wooden
+  mannequin (11348113). **Brand-safety:** this names real companies, so every asset was screened — at
+  source and again from the FINAL render — and is free of pharma/company logos and wordmarks, readable
+  drug names and pill imprints, identifiable faces, foreign-language text, national flags, foreign
+  currency, and banknote portrait faces. Rejected and replaced during sourcing/audit: a "Dell"-logo
+  server rack, an "intel"/"TP-Link"/"BD"/"unifrutti" wordmark, a "PENTALGIN" pill imprint, euro/rupee/
+  zloty + Cyrillic/German-text documents and coins, and multiple Franklin/Washington/Jackson banknote
+  portraits. **UNVERIFIED — names real companies and asserts specific financials and an approval date;
+  rendered as written but MUST be fact-checked before publishing:** the first protein-degrader approval
+  (Arvinas/Pfizer breast-cancer drug, "May 2026"); the >$28B / 2-year deal total; J&J ~$1B cash; Roche
+  ~$700M upfront up to $3B; AbbVie/Biogen/Novo Nordisk each ~$1.5B with Neomorph; the ~80% "undruggable"
+  figure; and the 2030 patent-cliff framing. The "option on 80% of biology / paying for a seat" framing
+  is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
