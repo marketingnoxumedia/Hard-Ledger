@@ -4385,6 +4385,47 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   and the **Bloomberg "boring on purpose" headline**. The "box is the cost / the answer is the
   business" framing is editorial analysis.
 
+- **`BridgeReel`** — "The footbridge" (fast NEWS reel). NEW topic: **why American Airlines killed its
+  one-hour Phoenix–Tijuana flight** (290 miles, its shortest to Mexico; launched Jan 2024, last flight
+  2 Aug 2026 — dead at ~19 months). Thesis: the route didn't lose to a rival airline, it **lost to
+  geography**. Tijuana's airport sits 20 miles from San Diego and, since 2015, the Cross Border Xpress
+  **footbridge** lets you park in California, walk across the border, and board in Mexico — so from the
+  US side Tijuana is a San Diego terminal in another country. Tijuana is also one of Mexico's
+  best-connected domestic airports (Aeromexico ~7–9 flights/day), so the plane was competing with a
+  four-hour drive and a footbridge; a route only survives if the plane is the cheapest way there.
+  31 beats. Question hook ("Why did American Airlines kill a one-hour flight between two cities with
+  family and business ties?") with a ~1.1s post-hook pause, and the supplied CTA question close ("Which
+  route should they cut next? Tell me below."). Three cards as `lines` beats (**PHX TO TIJ / 290 MI / 1
+  HOUR / DEAD AT 19 MONTHS**; **TIJ 20 MI FROM SAN DIEGO / 1 PEDESTRIAN BRIDGE**; **AEROMEXICO / 7-9
+  FLIGHTS A DAY**), two black reflective beats, and one red "It lost to geography." `impact` card as the
+  mid-tail thesis. Continuous cloned voiceover, durations/reveals locked to a scribe_v1 word-timestamp
+  anchor pass (`public/bridge/voiceover.mp3`, ~103.7s incl. the pause); music mixed at 0.17. Entirely
+  its own fresh footage under `public/bridge/` — no asset shared with any other reel. Media credits
+  (Pexels, free license) — videos: a plane silhouette at dusk (28829996), a silhouette walking across a
+  bridge (9756914), an aerial desert road (6335191), and night runway lights with a silhouette plane
+  (10904752). Photos: a saguaro desert (4061938), an empty taxiway (3892808), push-pins on a map
+  (1078850), a split-flap departure board — city names only (36681344), a desk calendar (29509484), an
+  empty gate (54374), an enclosed pedestrian walkway (266041), a steel-slat border wall (11679654), an
+  aerial parking lot (2402235), an empty terminal (8704693), an aerial airport apron — liveries
+  unreadable (38490446), a split-flap schedule board — city names only (38343675), a map of Mexico with
+  a pin (19937220), a covered pedestrian walkway (11788969), a plane silhouette at sunset (1161161), a
+  December calendar (10326670), a chess knight (30182768), legs/feet walking on pavers (11692911), pins
+  across a world map (8828593), an aerial desert river/terrain (35406803), a blank directional signpost
+  (36411807), a wing + engine over clouds (3757137), a vintage suitcase (12025430), and an airport
+  control tower (31709981). **Brand-safety:** this names a real airline in an aviation topic, so every
+  asset was screened at source and again from the FINAL render. Rejected and replaced: easyJet /
+  American / GOL / LATAM / British Airways / oneworld liveries and branded winglets, a "STAR ALLIANCE"
+  aerial, an Ottawa/YOW.CA + French "Départs" board, Portuguese "JANEIRO" / "DEZEMBRO" calendars + a "Z
+  PAPER" logo, an "Alexander Milano" suitcase badge, and readable place-name signposts. The shipped
+  assets carry **no airline livery/logo, no airport brand signage, no readable airline names, no
+  national flag, no identifiable face, no banknote portrait, no foreign-language brand text, and no
+  readable license plate.** **SENSITIVE — names a real company and asserts specific checkable current
+  claims; rendered as written but CONFIRM before publishing:** the PHX–TIJ route dates (launched Jan
+  2024, last flight 2 Aug 2026, ~290 miles / ~1 hour), the Cross Border Xpress bridge (open since Dec
+  2015, ~20 mi from San Diego), "Aeromexico ~7–9 flights a day into TIJ", "American's Phoenix–Monterrey
+  route is cut next, in December", and "30 American destinations in Mexico" must all be verified
+  independently. The "lost to geography" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

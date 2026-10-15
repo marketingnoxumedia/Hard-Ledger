@@ -144,6 +144,7 @@ import {PumpReel, DURATION_IN_FRAMES as PUMP_FRAMES} from './PumpReel';
 import {TicketReel, DURATION_IN_FRAMES as TICKET_FRAMES} from './TicketReel';
 import {EscapeReel, DURATION_IN_FRAMES as ESCAPE_FRAMES} from './EscapeReel';
 import {CounterReel, DURATION_IN_FRAMES as COUNTER_FRAMES} from './CounterReel';
+import {BridgeReel, DURATION_IN_FRAMES as BRIDGE_FRAMES} from './BridgeReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1297,6 +1298,14 @@ export const RemotionRoot: React.FC = () => {
         id="CounterReel"
         component={CounterReel}
         durationInFrames={COUNTER_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="BridgeReel"
+        component={BridgeReel}
+        durationInFrames={BRIDGE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
