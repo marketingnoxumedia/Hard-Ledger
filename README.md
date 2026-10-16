@@ -4524,6 +4524,54 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   figure; and the 2030 patent-cliff framing. The "option on 80% of biology / paying for a seat" framing
   is editorial analysis.
 
+- **`AccountReel`** — "The account" (fast NEWS reel). NEW topic: **why Pepsi bought KFC in 1986 — and why
+  it just lost the fountain account it bought the chain for.** Thesis: KFC is dropping Pepsi for Coca-Cola
+  across ~**3,718** US restaurants (rollout January, done spring 2027), ending a **40-year** tie. In 1986
+  KFC was Coke's #2 US fountain account (behind McDonald's); Pepsi's answer was to **buy the company** (it
+  owned KFC, Pizza Hut, Taco Bell; spun them off in 1997 but kept the soda — 30 years of loyalty to a
+  former parent). Pepsi has also lost Marriott and Costco food courts while Coke added Culver's, Arby's,
+  Panda Express; Pepsi's CEO admits it's fallen behind in soft drinks; one analyst called KFC "the optical
+  straw that breaks the camel's back." The mechanic: a fountain drink costs pennies and sells for dollars
+  — the **highest-margin** menu item — so Coke/Pepsi don't just sell syrup, they **pay for the account**
+  (marketing, equipment, rebates). Payoff: you can buy loyalty once, but keeping it is a payment every
+  contract cycle — and this time Pepsi **lost the auction**. 35 beats. Question hook ("Why did Pepsi buy
+  an entire fried-chicken chain in 1986…?") with a ~1.1s post-hook pause, and the CTA as the house
+  rhetorical-question close ("Do you even notice which cola your fast food serves?"). **Captions match the
+  VO verbatim** (except the three stylized number cards: 3,718 RESTAURANTS / PEPSI OUT, COKE IN / JAN
+  2027; 1986 / PEPSI BUYS KFC / COKE'S #2, GONE; PEPSI LOST: KFC-MARRIOTT-COSTCO / COKE WON: ARBY'S), two
+  black reflective beats, and one red "And this time, Pepsi lost the auction." `impact` card as the
+  mid-tail thesis. Continuous cloned voiceover, durations/reveals locked to a scribe_v1 word-timestamp
+  anchor pass (`public/account/voiceover.mp3`, ~106.6s incl. the pause); music mixed at 0.17. Entirely its
+  own fresh footage under `public/account/` — no asset shared with any other reel. Media credits (Pexels,
+  free license) — videos: dark cola poured over ice (8676987), a cola-fizz/ice macro (8676959), cola
+  poured between plain glasses (8676950), dark syrup flowing (4458579), cola dispensed over ice (9021805).
+  Photos: a "Monday/Thursday" day-planner (7428859), plain fried chicken pieces — no bucket (33254639), a
+  blurred restaurant dining room (8495947), a dry-erase wall month calendar (28891929), a business
+  handshake — hands only (33175653), a retro tiled soda-counter (36486522), a generic burger on a tray
+  (5374419), a desk of binders and papers (15616259), a blue glass office tower — no signage (19279351), a
+  restaurant interior with a skylight (30550197), an antique cash register with price keys (9258000), tree
+  stump rings (37308882), a hotel lobby corridor (33857126), a kraft takeout bag — no logo (4440858), a
+  tug-of-war rope (5851827), white drinking straws (5377155), an unbranded drink-tap spout (30582958), a
+  cash-register till drawer of coins — B&W (38764731), unbranded glass beverage dispensers (26546527),
+  empty diner booths (30251912), a hand signing a contract (7641842), a discarded plain paper cup — B&W
+  (18399845), a "$1,000"-banded cash strap — no portrait (11624762), a pavement U-turn arrow (37357832), an
+  empty retail room (35539060), hands exchanging folded US cash — no face (10400717), and bill envelopes
+  with a calculator (6110309). **Brand-safety:** this reel names a dozen brands, so every asset was
+  screened — at source and again from the FINAL render — and is free of ALL company logos/wordmarks (esp.
+  Pepsi / Coca-Cola / Coke / KFC / McDonald's / Marriott / Costco / Culver's / Arby's / Panda Express /
+  Pizza Hut / Taco Bell), readable cups/signage/menu boards, identifiable faces, foreign-language text,
+  national flags, foreign currency, and banknote portrait faces. Rejected and replaced during
+  sourcing/audit: a Coca-Cola cup on a chicken plate, a "Five Guys" dining room, "National"/"Anker" cash
+  registers, McCafé/McDonald's takeout bags, food courts showing "Texas Chicken"/"Wagamama"/"Panera", a
+  Pepsi/Coca-Cola/Fanta/Sprite dispenser wall, Cyrillic "SOUVENIR PRODUCTION" cash bands, euro notes, and
+  multiple prominent Franklin/Jackson $100/$20 portraits (swapped for banded-strap / till-drawer / folded
+  / blurred shots). **UNVERIFIED — names real companies and asserts specific facts; rendered as written
+  but MUST be fact-checked before publishing:** the KFC→Coca-Cola switch across ~3,718 US restaurants
+  (rollout Jan, done spring 2027); the 40-year tie; the 1986 purchase and KFC being Coke's #2 fountain
+  account behind McDonald's; the 1997 spin-off; Pepsi losing Marriott/Costco and Coke adding
+  Culver's/Arby's/Panda Express; the Pepsi-CEO admission; the "optical straw" analyst line. The "lost the
+  auction / buy loyalty once" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

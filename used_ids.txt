@@ -2698,3 +2698,37 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 32731350 degrader/d33_auction.jpg
 11348113 degrader/d34_clockmoney.jpg
 4178366 degrader/d35_bubble.mp4
+
+# AccountReel (KFC drops Pepsi for Coca-Cola / fountain account)
+8676987 account/a00_fountain.mp4
+7428859 account/a01_calendar.jpg
+33254639 account/a02_chicken.jpg
+8495947 account/a03_diningroom.jpg
+28891929 account/a04_calendar2.jpg
+33175653 account/a05_handshake.jpg
+36486522 account/a07_retrodiner.jpg
+5374419 account/a08_counter.jpg
+15616259 account/a09_documents.jpg
+19279351 account/a10_acquire.jpg
+30550197 account/a11_foodcourt.jpg
+9258000 account/a12_retro.jpg
+8676959 account/a13_cola.mp4
+37308882 account/a14_years.jpg
+33857126 account/a16_hotel.jpg
+4440858 account/a17_drivethru.jpg
+5851827 account/a18_scoreboard.jpg
+5377155 account/a19_straw.jpg
+8676950 account/a20_pour.mp4
+30582958 account/a21_sodagun.jpg
+38764731 account/a22_coins.jpg
+4458579 account/a23_syrup.mp4
+26546527 account/a24_machine.jpg
+30251912 account/a25_emptybooth.jpg
+7641842 account/a26_contract.jpg
+18399845 account/a27_emptycup.jpg
+11624762 account/a28_cash.jpg
+37357832 account/a29_uturn.jpg
+35539060 account/a30_forlease.jpg
+10400717 account/a31_buy.jpg
+6110309 account/a32_bills.jpg
+9021805 account/a34_choose.mp4

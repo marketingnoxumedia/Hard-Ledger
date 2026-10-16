@@ -147,6 +147,7 @@ import {CounterReel, DURATION_IN_FRAMES as COUNTER_FRAMES} from './CounterReel';
 import {BridgeReel, DURATION_IN_FRAMES as BRIDGE_FRAMES} from './BridgeReel';
 import {ForgivenReel, DURATION_IN_FRAMES as FORGIVEN_FRAMES} from './ForgivenReel';
 import {DegraderReel, DURATION_IN_FRAMES as DEGRADER_FRAMES} from './DegraderReel';
+import {AccountReel, DURATION_IN_FRAMES as ACCOUNT_FRAMES} from './AccountReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1324,6 +1325,14 @@ export const RemotionRoot: React.FC = () => {
         id="DegraderReel"
         component={DegraderReel}
         durationInFrames={DEGRADER_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="AccountReel"
+        component={AccountReel}
+        durationInFrames={ACCOUNT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
