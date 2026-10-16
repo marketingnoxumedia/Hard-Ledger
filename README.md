@@ -4572,6 +4572,54 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Culver's/Arby's/Panda Express; the Pepsi-CEO admission; the "optical straw" analyst line. The "lost the
   auction / buy loyalty once" framing is editorial analysis.
 
+- **`MetricReel`** — "The metric" (fast NEWS reel). NEW topic: **why Netflix fired the content chief
+  behind its biggest hits the day after its biggest layoff.** Thesis: Wed Netflix cut ~**1,000** jobs
+  (6%, its largest layoff); Thu chief content officer Bela Bajaria (~10 yrs) is out, replaced by Peter
+  Rice (ex-Disney/Fox, starting "the 26th"). Her slate WAS the hits — Squid Game, Bridgerton, Wednesday,
+  the live-sport push into WWE/NFL — and by the old metric, **subscribers**, she won the streaming war.
+  But the metric changed: total viewing **hours** rose only ~**2%** in H1 2026, and Netflix is under ~**8%**
+  of US TV time while **YouTube** is bigger — it's losing to a platform that pays nothing for most of its
+  content. Because Netflix now sells **ads**, advertisers pay for hours not sign-ups, so flat hours = a
+  flat ad business; the job changed from "find the next hit" to "find the next hundred hours." The layoff
+  and the new chief are the same decision: it retired the metric she was hired for. 40 beats. Question
+  hook ("Why did Netflix fire the executive behind Squid Game and Bridgerton the day after its biggest
+  layoff ever?") with a ~1.1s post-hook pause, and the CTA as the house rhetorical-question close ("How
+  many hours a week do you actually watch Netflix?"). **Captions match the VO verbatim** (except the three
+  stylized number cards: WED −1,000 JOBS / THU CONTENT CHIEF OUT; SQUID GAME / BRIDGERTON / NFL / WWE;
+  ENGAGEMENT +2% / NETFLIX <8% / OF ALL TV TIME), two black reflective beats, and one red "It retired the
+  metric she was hired for." `impact` card as the mid-tail thesis. Continuous cloned voiceover,
+  durations/reveals locked to a scribe_v1 word-timestamp anchor pass (`public/metric/voiceover.mp3`,
+  ~107.4s incl. the pause); music mixed at 0.17. Entirely its own fresh footage under `public/metric/` —
+  no asset shared with any other reel. Media credits (Pexels, free license) — videos: a blank glowing
+  screen in a dark cinema (7989632), a glowing studio light on a stand (3888260), a hand scrolling a
+  generic content grid (6756650), fast-scrolling grayscale data rows (12779321), a hand with a remote by a
+  TV glow — no face (7328516). Photos: moving boxes (4554242), a generic pie chart (7947703), empty office
+  desks (9300765), a glass-door office (6008847), a laptop on a desk — dark screen (9300736), an empty
+  desk by a window (7930485), a blank film clapperboard (918281), stadium floodlights — no team marks
+  (5581856), a gold trophy held in-hand (6250957), a gold medal on a pedestal (7267576), ascending
+  checkered blocks (1329318), a speedometer gauge (19316774), a hand over a modest trend chart (590014),
+  wooden "2026" blocks (32417524), a large painted "2" (38764157), a hand over a viewing-data bar chart
+  (8068691), a thin pie slice (7947715), a row of blank monitors (990423), a ring light + camera on a
+  tripod — no person (4793156), a hand-drawn whiteboard flowchart (1181311), a hand tapping a plain card
+  on a terminal (8475155), a blank billboard on a brick wall (12883028), an hourglass with coin stacks
+  (11899617), a flat ECG trace (415779), a "jobs wanted" classifieds page (9832716), unlabeled video
+  cassettes (157541), moving boxes + a covered chair (4246119), an empty director's chair (30173144), rows
+  of empty stadium seats (13030345), a bin of film reels (8113563), a retro TV with static (6976094), and
+  a wall of glowing screens (8720260). **Brand-safety:** this reel names Netflix, YouTube, Disney, HBO,
+  WWE, NFL and real executives, so every asset was screened — at source and again from the FINAL render —
+  and is free of ALL service/show/network/league/team logos and app UI (no Netflix/YouTube/Disney/HBO/WWE/
+  NFL marks or interfaces, no show stills), identifiable faces (no Bajaria/Rice likeness), foreign text,
+  flags, foreign currency, and banknote portraits. Rejected and replaced during sourcing/audit: a literal
+  Netflix UI with show titles/faces, an Instagram app UI + username, a visible pexels.com URL, Arsenal/
+  Emirates/adidas/Prime stadium boards, SONY/JVC/GoldStar/Panasonic/ASUS/Canon/TILTA wordmarks, Disney/
+  Mickey VHS and real movie titles, a "nicehash.com"/Monero crypto log, a PlayStation-symbol TV wall, and
+  peso/baht coins + Cyrillic/Thai/French/Portuguese text. **UNVERIFIED — names real companies/people and
+  asserts specific figures/dates; rendered as written but MUST be fact-checked before publishing:** the
+  ~1,000-job / 6% layoff and timing; Bela Bajaria's departure and tenure; Peter Rice (ex-Disney/Fox)
+  starting "the 26th"; the Squid Game/Bridgerton/Wednesday/WWE/NFL slate; the "~2% H1 2026 viewing-hours"
+  and "<8% of US TV time / YouTube bigger" figures; and the ad-business framing. The "retired the metric /
+  competing with everything" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
