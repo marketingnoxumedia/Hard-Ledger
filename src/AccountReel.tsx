@@ -104,7 +104,7 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK (held through ~1.1s post-hook pause)
-  {dur: 268, kind: 'hook', reveal: [3, 90, 175], text: 'Why did Pepsi buy a|fried-chicken chain in 1986 —|then lose what it bought it for?', kicker: 'The account', highlights: ['1986'], size: 34, media: {src: 'account/a00_fountain.mp4', type: 'video', effect: 'in'}},
+  {dur: 268, kind: 'hook', reveal: [3, 90, 175], text: 'Why did Pepsi buy a|fried-chicken chain in 1986,|then lose what it bought it for?', kicker: 'The account', highlights: ['1986'], size: 34, media: {src: 'account/a00_fountain.mp4', type: 'video', effect: 'in'}},
   // 1
   {dur: 49, kind: 'text', reveal: [2], text: 'Thursday.', highlights: [], size: 58, media: {src: 'account/a01_calendar.jpg', type: 'img', effect: 'in'}},
   // 2
