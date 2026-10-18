@@ -110,7 +110,8 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK (held through ~1.1s post-hook pause)
-  {dur: 278, kind: 'hook', reveal: [3, 68, 135, 205], text: 'How do the oldest Americans|get 38% richer in three years|while the youngest lose 23%,|in the same economy?', kicker: 'The assets', highlights: ['38%', '23%'], size: 30, media: {src: 'asset/as00_rooftops.mp4', type: 'video', effect: 'in'}},
+  // NOTE: on-screen hook updated per client; the existing VO still speaks the original question (no re-record).
+  {dur: 278, kind: 'hook', reveal: [3, 95, 182], text: 'How did the same three years|make one generation rich|and another one broke?', kicker: 'The assets', highlights: ['rich', 'broke?'], size: 40, media: {src: 'asset/as00_rooftops.mp4', type: 'video', effect: 'in'}},
   // 1
   {dur: 89, kind: 'text', reveal: [2, 46], text: 'The Federal Reserve’s Survey|of Consumer Finances,', highlights: [], size: 36, media: {src: 'asset/as01_columns.jpg', type: 'img', effect: 'in'}},
   // 2
