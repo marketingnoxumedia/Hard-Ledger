@@ -4620,6 +4620,54 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   and "<8% of US TV time / YouTube bigger" figures; and the ad-business framing. The "retired the metric /
   competing with everything" framing is editorial analysis.
 
+- **`DropReel`** — "The drop" (fast NEWS reel). NEW topic: **how Hoover Dam loses ~3/4 of its power while
+  the river still flows through it.** Thesis: capacity fell from ~**1,191 MW** (last month) to a federal
+  forecast of ~**317 MW** next April — a ~**73%** cut — because 12 of 17 turbines were built for a lake
+  at ~1,200 ft; Lake Mead sits at ~**1,037.4 ft** and below ~**1,035 ft** those 12 cavitate (the water
+  vaporises and sandblasts the blades). Only 5 units run below the line and 1 is broken, so **4**. The
+  lake is ~2.4 ft above the line; forecasts cross it ~Nov 2026 (dry: Halloween) and don't recover before
+  Sept 2028; ~$52M of new turbines won't arrive till 2028–2031. Mechanic: a dam sells **HEIGHT**, not
+  water — power = how far the water falls (full ~590 ft of head, today ~391 ft); lose the drop, lose the
+  power even at the same flow. The lights stay on because utilities buy the missing power on the open
+  market — it shows up on the bill. Payoff: Hoover isn't running out of water, it's running out of
+  **gravity**. 44 beats. Question hook ("How does America's most famous dam lose three-quarters of its
+  power while water still flows through it?") with a ~1.1s post-hook pause, and the CTA as the house
+  rhetorical-question close ("Do you live on Hoover's power?"). **Captions match the VO verbatim** (except
+  the four stylized number cards: 1,191 MW → 317 MW / −73%; LAKE 1,037.4 FT / LINE 1,035 FT / BELOW IT 4
+  OF 17; CROSSES NOV 2026 / BACK ABOVE 2028+ / NEW UNITS 2028–31; DROP 590 FT → 391 FT), two black
+  reflective beats, and one red "It's running out of gravity." `impact` card as the mid-tail thesis.
+  Continuous cloned voiceover, durations/reveals locked to a scribe_v1 word-timestamp anchor pass
+  (`public/drop/voiceover.mp3`, ~109.5s incl. the pause); music mixed at 0.17. Entirely its own fresh
+  footage under `public/drop/` — no asset shared with any other reel. Media credits (Pexels, free license)
+  — videos: a concrete dam with spillway chutes (15214494), a weir spilling into a river (28141914), a
+  spillway discharge (29973133), a tall forest waterfall (3209859), water flowing from a brick outlet
+  (33003041), a dam at dusk (38994479). Photos: a dam/spillway apron (18272063), a row of hydro generator
+  housings (12270481), a generator rotor close-up (10143477), a powerhouse floor (17728780), curved
+  turbine blades (25285744), a full reservoir behind a dam (14594593), the Lake Mead "bathtub ring"
+  (8527332), a pitted/corroded metal surface (9291217), a reservoir intake tower (5694768), a worn
+  turbine runner (7565165), a few-unit generator hall (40149844), a low drought reservoir (18314321), a
+  water-level gauge staff (39051919), an English Jan/Feb calendar (5417661), dry cracked earth (1710813),
+  a planner spread (1558691), stacked metal rings/bearings (12951633), a CNC-machined part (28752150), a
+  lathe/machine shop (18569751), an engineering blueprint (10985350), a tall dam face (9720528), penstock
+  pipes down a slope (31502428), a lower canyon reservoir (33038591), a gravity-dam face (18314304), a
+  distant desert city skyline at dusk — no casino signage (13555934), a transmission pylon (230518), an
+  antique "KILOWATT-HOURS" electric meter — no utility name (27862196), churning water (13196420), a
+  canyon river (10136687), a shallow clear stream (5629918), an October-2026 calendar (39724371), a
+  power-plant switchgear hall (15893947), desert transmission lines (17594279), and a monumental dam wall
+  (17993794). The forecast-decline chart (`dp04_forecast.jpg`) is a **generated** minimal red-line graphic
+  on the near-black house background, not a Pexels photo (clean declining charts are saturated in the
+  ledger). **Brand-safety:** every asset was screened — at source and again from the FINAL render — and is
+  free of company/utility logos and wordmarks, readable brand signage, identifiable faces, foreign text,
+  flags, and casino/hotel marks. Rejected and replaced during sourcing/audit: SIEMENS/GE/AEG/ARCHIREX
+  machinery wordmarks, a "PG&E SmartMeter", a FedEx box, Las Vegas casino signage and a Canary Wharf
+  shot with Citi/Barclays/HSBC logos, a Portuguese "ATENÇÃO" sign, a Cyrillic Schengen form, Portuguese
+  calendars, and a museum placard. **UNVERIFIED — asserts specific engineering/forecast figures; rendered
+  as written but MUST be fact-checked before publishing:** the ~1,191 MW last month / ~317 MW next-April
+  forecast / ~73% cut; "12 of 17 turbines built for ~1,200 ft"; Lake Mead ~1,037.4 ft and the ~1,035 ft
+  cavitation line; "5 units below, 1 broken, so 4"; the ~2.4 ft margin and the Nov-2026 / Halloween /
+  Sept-2028 crossing dates; ~$52M new turbines (2028–2031); and the ~590 ft → ~391 ft head figures. The
+  "sells height / running out of gravity / the physics moved" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

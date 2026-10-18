@@ -149,6 +149,7 @@ import {ForgivenReel, DURATION_IN_FRAMES as FORGIVEN_FRAMES} from './ForgivenRee
 import {DegraderReel, DURATION_IN_FRAMES as DEGRADER_FRAMES} from './DegraderReel';
 import {AccountReel, DURATION_IN_FRAMES as ACCOUNT_FRAMES} from './AccountReel';
 import {MetricReel, DURATION_IN_FRAMES as METRIC_FRAMES} from './MetricReel';
+import {DropReel, DURATION_IN_FRAMES as DROP_FRAMES} from './DropReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1342,6 +1343,14 @@ export const RemotionRoot: React.FC = () => {
         id="MetricReel"
         component={MetricReel}
         durationInFrames={METRIC_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="DropReel"
+        component={DropReel}
+        durationInFrames={DROP_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
