@@ -4682,7 +4682,9 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   its least affordable in ~40 years. Payoff: the economy didn't pay *people* for three years, it paid
   *assets* — own the house and the shares and you got paid for sitting still; if your biggest asset had
   wheels, you got charged. The wealth gap isn't old vs young, it's whoever got in before the price went up
-  vs everyone else. Rhetorical-question close ("What's your biggest asset: the car or the house?"). 40
+  vs everyone else. Rhetorical-question close + comment CTA ("What's your biggest asset: the car or the
+  house? Tell me below."). On-screen hook is "How did the same three years make one generation rich and
+  another one broke?" 40
   beats: 37 media (incl. 4 stylized number cards — `75+ +38% / UNDER 35 −23%`; `ALL FAMILIES +2% / OLDEST
   ÷ YOUNGEST 9× → 15×`; `HOUSES↑ STOCKS↑ CARS↓`; `PANDEMIC +140% / THEN −23% / HOUSING 40-YR LOW`), 1 red
   impact ("It paid assets.") mid-tail, 2 black. **Captions match the VO verbatim** (except the stylized
