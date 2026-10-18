@@ -150,6 +150,7 @@ import {DegraderReel, DURATION_IN_FRAMES as DEGRADER_FRAMES} from './DegraderRee
 import {AccountReel, DURATION_IN_FRAMES as ACCOUNT_FRAMES} from './AccountReel';
 import {MetricReel, DURATION_IN_FRAMES as METRIC_FRAMES} from './MetricReel';
 import {DropReel, DURATION_IN_FRAMES as DROP_FRAMES} from './DropReel';
+import {AssetReel, DURATION_IN_FRAMES as ASSET_FRAMES} from './AssetReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1351,6 +1352,14 @@ export const RemotionRoot: React.FC = () => {
         id="DropReel"
         component={DropReel}
         durationInFrames={DROP_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="AssetReel"
+        component={AssetReel}
+        durationInFrames={ASSET_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

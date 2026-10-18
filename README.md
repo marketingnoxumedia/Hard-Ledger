@@ -4668,6 +4668,60 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Sept-2028 crossing dates; ~$52M new turbines (2028–2031); and the ~590 ft → ~391 ft head figures. The
   "sells height / running out of gravity / the physics moved" framing is editorial analysis.
 
+- **`AssetReel`** — "The assets" (fast NEWS reel). NEW topic: **why the oldest Americans got ~38%
+  richer in three years while the youngest got ~23% poorer — in the same economy.** QUESTION/STORY/
+  ANSWER/CTA. Thesis from the Federal Reserve's Survey of Consumer Finances: median net worth for
+  households headed by someone 75+ rose ~38% since 2022 (after inflation) while under-35s fell ~23%; the
+  national median rose only ~2% and every other age band moved <6% either way — the gap is entirely at the
+  two ends (the oldest household now holds ~15× the youngest, up from ~9×). The mechanism is ownership, not
+  income: older households hold homes and portfolios (both rose); younger households are less likely to own
+  a home (~35%) and a bigger share of what they own is a car (which fell). Same economy, opposite results,
+  because the assets moved in opposite directions — the oldest group didn't do anything different, the
+  things they already owned appreciated; the youngest had the biggest jump on record in the pandemic
+  (stimulus + paused loans) then it reversed, with the worst graduate job market on record and housing at
+  its least affordable in ~40 years. Payoff: the economy didn't pay *people* for three years, it paid
+  *assets* — own the house and the shares and you got paid for sitting still; if your biggest asset had
+  wheels, you got charged. The wealth gap isn't old vs young, it's whoever got in before the price went up
+  vs everyone else. Rhetorical-question close ("What's your biggest asset: the car or the house?"). 40
+  beats: 37 media (incl. 4 stylized number cards — `75+ +38% / UNDER 35 −23%`; `ALL FAMILIES +2% / OLDEST
+  ÷ YOUNGEST 9× → 15×`; `HOUSES↑ STOCKS↑ CARS↓`; `PANDEMIC +140% / THEN −23% / HOUSING 40-YR LOW`), 1 red
+  impact ("It paid assets.") mid-tail, 2 black. **Captions match the VO verbatim** (except the stylized
+  number cards; spoken figures rendered as numerals). Durations/reveals/SFX locked to the VO with a
+  scribe_v1 word-timestamp anchor pass (`public/asset/voiceover.mp3`, ~109s incl. the ~1.1s post-hook
+  pause); music mixed at 0.17. Entirely its own fresh footage under `public/asset/` — no asset shared with
+  any other reel. Media credits (Pexels, free license) — videos: an aerial over suburban rooftops
+  (40115701), an aerial of a car in a driveway (19120564), a suburban home at dusk (39547387). Photos: a
+  neoclassical columned facade (15556402), a raw native-gold crystal specimen — unstamped (35497189), a
+  generic financial report with charts (7109203), empty rocking chairs on a craftsman porch (24245767),
+  red "SALE" price tags (7986990), a dark glowing market data-board (27141316), a misty calm lake with a
+  flat horizon (38738831), a canyon/ravine (5717815), an ornate marble mansion staircase (30196215), a
+  Lady Justice statue with scales (6077430), a macro of the US dollar's back / Great Seal — no portrait
+  (7109882), antique keys on a dark board (10473517), a US single-family suburban home (5661019), a rising
+  up-arrow / coins (16091893), a worn rental apartment block (14846410), a "FOR RENT" yard sign (8962329),
+  rows of old cars in a lot (10034076), an open notebook and pen (97076), an empty armchair in a dark room
+  (13232674), a brick house with a red "SOLD" sign (7641828), a monochrome candlestick trading chart
+  (4911411), a row of houses (7475579), a ladder against a wall (6507602), an empty turned-out pocket — no
+  face (7926949), wooden model houses on a dark table (4174740), a car odometer/gauge cluster — no plate
+  (8786461), an old house beside a newer block (8748149), and a "SOLD" sticker on a real-estate sign
+  (8470803). Six on-screen data graphics are **generated** minimal red-line/bar charts on the near-black
+  house background, not Pexels photos (clean charts are saturated in the ledger): the +38% rise
+  (`as05`), the two-tall-ends age-group bars (`as10`), the Card-3 up/up/down background (`as23`), the
+  diverging "opposite directions" lines (`as24`), the pandemic rise-then-crash line (`as29`), and the
+  Card-4 volatility background (`as30`). **Brand-safety:** every asset was screened — at source and again
+  from the FINAL render — and is free of company/bank logos and wordmarks, readable brand signage,
+  identifiable faces, banknote portraits, foreign text, flags, and foreign currency. Rejected and replaced
+  during sourcing/audit: a "GLOBAL INTERGOLD" gold bar, a bright flat-cartoon "Payroll" illustration,
+  house keys with Chinese characters (大吉) and a "VISTA LOCK" tag, a "pen+GEAR" (Walmart) calculator with a
+  readable "7 Reasons to Own / Economics of buying a home" document, a US $100 spread showing Franklin's
+  portrait (swapped to the dollar's back), and a light-beige arrow graphic whose white card text was
+  illegible (swapped to a generated dark background). **UNVERIFIED — asserts specific, checkable figures
+  from the Fed Survey of Consumer Finances; rendered as written but MUST be fact-checked before
+  publishing:** the ~+38% (75+) / ~−23% (under-35) 2022→2025 real changes; the ~+2% national median and
+  "<6% for every other age band"; the ~9× → ~15× oldest/youngest ratio; the ~35% under-35 homeownership;
+  "houses & stocks up, cars down"; the pandemic ~+140% then ~−23% swing; and "housing least affordable in
+  ~40 years / worst graduate job market on record." The "it paid assets, not people / got in before the
+  price went up" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
