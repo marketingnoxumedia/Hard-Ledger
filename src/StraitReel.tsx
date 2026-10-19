@@ -87,7 +87,7 @@ type SceneDef = {
 // Payoff: nobody's refusing to reopen the strait — both sides refuse to go FIRST; the six-day offer is a
 // sequencing dispute with 1/5 of the world's oil as the deposit, and every week unsettled the price is
 // paid at the pump. Full QUESTION/STORY/ANSWER/CTA with a ~1.1s post-hook pause; close is the CTA question
-// + comment ask ("Who should blink first? Tell me below."). 41 beats: 38 media (incl. 4 cards: STRAIT 1/5
+// + comment ask ("Who should blink first? Tell me below."). 50 beats: 47 media (incl. 4 cards: STRAIT 1/5
 // / DAY 6 / MONTH 8; IRAN'S PRICE — PORTS/SANCTIONS/FRONTS/NUCLEAR EXCLUDED; US NUCLEAR FIRST / IRAN
 // STRAIT FIRST; IRAN'S CARD STRAIT / US'S CARD BLOCKADE) / 1 red impact ("It's a sequencing dispute.")
 // mid-tail / 2 black. Captions match the VO verbatim (except the stylized cards). Durations/reveals/SFX
@@ -112,11 +112,15 @@ const SCENES: SceneDef[] = [
   // 1
   {dur: 33, kind: 'text', reveal: [2], text: 'Sunday.', highlights: [], size: 60, media: {src: 'strait/st01_newsdesk.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 105, kind: 'text', reveal: [2, 44], text: 'Iran’s foreign minister says|the offer is still on the table.', highlights: ['offer'], size: 36, media: {src: 'strait/st02_podium.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Iran’s foreign|minister says', highlights: [], size: 42, media: {src: 'strait/st02_podium.jpg', type: 'img', effect: 'in'}},
+  // 2b
+  {dur: 71, kind: 'text', reveal: [2, 32], text: 'the offer is still|on the table.', highlights: ['offer'], size: 40, media: {src: 'strait/st41_dossier.jpg', type: 'img', effect: 'in'}},
   // 3
   {dur: 57, kind: 'text', reveal: [2], text: 'Accept Tehran’s terms,', highlights: ['terms,'], size: 44, media: {src: 'strait/st03_signing.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 106, kind: 'text', reveal: [2, 48], text: 'and the strait, which carried|a fifth of the world’s oil and gas', highlights: ['fifth'], size: 32, media: {src: 'strait/st04_tanker.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'and the strait,|which carried', highlights: [], size: 42, media: {src: 'strait/st04_tanker.jpg', type: 'img', effect: 'in'}},
+  // 4b
+  {dur: 66, kind: 'text', reveal: [2, 40], text: 'a fifth of the world’s|oil and gas', highlights: ['fifth'], size: 38, media: {src: 'strait/st42_oilfield.jpg', type: 'img', effect: 'in'}},
   // 5
   {dur: 31, kind: 'text', reveal: [2], text: 'before the war,', highlights: ['war,'], size: 46, media: {src: 'strait/st05_dusk.jpg', type: 'img', effect: 'in'}},
   // 6
@@ -144,9 +148,13 @@ const SCENES: SceneDef[] = [
   // 17 BLACK
   {dur: 76, kind: 'text', reveal: [0, 0], text: 'And this is where|things get interesting.', highlights: ['interesting.'], size: 46},
   // 18
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'Washington’s position|is the mirror image.', highlights: ['mirror'], size: 38, media: {src: 'strait/st18_capitol.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Washington’s|position', highlights: [], size: 48, media: {src: 'strait/st18_capitol.jpg', type: 'img', effect: 'in'}},
+  // 18b
+  {dur: 60, kind: 'text', reveal: [2, 26], text: 'is the|mirror image.', highlights: ['mirror'], size: 48, media: {src: 'strait/st43_reflection.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 142, kind: 'text', reveal: [2, 44, 88], text: 'Vance: Iran must make|a meaningful cut to enrichment|before anything else.', highlights: ['enrichment'], size: 32, media: {src: 'strait/st19_pipes.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 44], text: 'Vance: Iran must make|a meaningful cut to enrichment', highlights: ['enrichment'], size: 32, media: {src: 'strait/st19_pipes.jpg', type: 'img', effect: 'in'}},
+  // 19b
+  {dur: 40, kind: 'text', reveal: [2, 26], text: 'before|anything else.', highlights: ['before'], size: 46, media: {src: 'strait/st44_hourglass.jpg', type: 'img', effect: 'in'}},
   // 20
   {dur: 59, kind: 'text', reveal: [2, 26], text: 'Nuclear first,|strait after.', highlights: ['Nuclear'], size: 44, media: {src: 'strait/st20_split.jpg', type: 'img', effect: 'in'}},
   // 21 CARD 3
@@ -154,11 +162,15 @@ const SCENES: SceneDef[] = [
   // 22
   {dur: 86, kind: 'text', reveal: [2, 40], text: 'Both sides agree|on the end state.', highlights: ['agree'], size: 40, media: {src: 'strait/st22_twosides.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 91, kind: 'text', reveal: [2, 44], text: 'They’re fighting over|the order of the paperwork.', highlights: ['order'], size: 36, media: {src: 'strait/st23_paperwork.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'They’re|fighting over', highlights: [], size: 46, media: {src: 'strait/st23_paperwork.jpg', type: 'img', effect: 'in'}},
+  // 23b
+  {dur: 56, kind: 'text', reveal: [2, 32], text: 'the order of|the paperwork.', highlights: ['order'], size: 42, media: {src: 'strait/st45_stamp.jpg', type: 'img', effect: 'in'}},
   // 24
   {dur: 67, kind: 'text', reveal: [2, 40], text: 'Now let me show|how to actually do this.', highlights: ['actually'], size: 42, media: {src: 'strait/st24_notebook.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 160, kind: 'text', reveal: [2, 44, 88], text: 'The strait is the only card|Iran holds that the rest|of the world feels.', highlights: ['card'], size: 34, media: {src: 'strait/st25_chokepoint.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 36], text: 'The strait is|the only card', highlights: ['card'], size: 44, media: {src: 'strait/st25_chokepoint.jpg', type: 'img', effect: 'in'}},
+  // 25b
+  {dur: 93, kind: 'text', reveal: [2, 44], text: 'Iran holds that the rest|of the world feels.', highlights: ['feels.'], size: 36, media: {src: 'strait/st46_gauge.jpg', type: 'img', effect: 'in'}},
   // 26
   {dur: 57, kind: 'text', reveal: [2], text: 'Oil near a hundred dollars,', highlights: ['hundred'], size: 40, media: {src: 'strait/st26_barrels.jpg', type: 'img', effect: 'in'}},
   // 27
@@ -166,13 +178,17 @@ const SCENES: SceneDef[] = [
   // 28
   {dur: 63, kind: 'text', reveal: [2, 40], text: 'mortgage rates moving|with the Gulf.', highlights: ['mortgage'], size: 38, media: {src: 'strait/st28_house.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 143, kind: 'text', reveal: [2, 44, 88], text: 'Open it on day six|and that card is gone|before the talks begin.', highlights: ['gone'], size: 34, media: {src: 'strait/st29_departing.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 26], text: 'Open it|on day six,', highlights: ['six'], size: 46, media: {src: 'strait/st29_departing.jpg', type: 'img', effect: 'in'}},
+  // 29b
+  {dur: 100, kind: 'text', reveal: [2, 44], text: 'and that card is gone|before the talks begin.', highlights: ['gone'], size: 34, media: {src: 'strait/st47_card.jpg', type: 'img', effect: 'in'}},
   // 30 CARD 4
   {dur: 148, kind: 'lines', reveal: [0, 30], text: 'IRAN’S CARD: STRAIT|US’S CARD: BLOCKADE', highlights: ['strait', 'blockade'], media: {src: 'strait/st30_sanctions.jpg', type: 'img', effect: 'in'}},
   // 31
   {dur: 91, kind: 'text', reveal: [2, 44], text: 'Whoever moves first|hands over their leverage', highlights: ['leverage'], size: 36, media: {src: 'strait/st31_chess.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 97, kind: 'text', reveal: [2, 44], text: 'and hopes the other side|turns up on day seven.', highlights: ['seven.'], size: 36, media: {src: 'strait/st32_chairs.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'and hopes|the other side', highlights: [], size: 44, media: {src: 'strait/st32_chairs.jpg', type: 'img', effect: 'in'}},
+  // 32b
+  {dur: 53, kind: 'text', reveal: [2, 26], text: 'turns up|on day seven.', highlights: ['seven.'], size: 44, media: {src: 'strait/st48_calendar.jpg', type: 'img', effect: 'in'}},
   // 33
   {dur: 76, kind: 'text', reveal: [2, 40], text: 'Nobody’s refusing|to reopen the strait.', highlights: ['refusing'], size: 40, media: {src: 'strait/st33_strait3.jpg', type: 'img', effect: 'in'}},
   // 34
@@ -184,7 +200,9 @@ const SCENES: SceneDef[] = [
   // 37
   {dur: 97, kind: 'text', reveal: [2, 44], text: 'with a fifth of the world’s oil|as the deposit.', highlights: ['deposit.'], size: 34, media: {src: 'strait/st37_vault.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 116, kind: 'text', reveal: [2, 48], text: 'And every week it stays unsettled,|the price is paid at the pump,', highlights: ['pump,'], size: 32, media: {src: 'strait/st38_gaspump.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'And every week|it stays unsettled,', highlights: [], size: 40, media: {src: 'strait/st38_gaspump.jpg', type: 'img', effect: 'in'}},
+  // 38b
+  {dur: 56, kind: 'text', reveal: [2, 40], text: 'the price is paid|at the pump,', highlights: ['pump,'], size: 40, media: {src: 'strait/st49_forecourt.jpg', type: 'img', effect: 'in'}},
   // 39
   {dur: 49, kind: 'text', reveal: [2, 26], text: 'not in Tehran|or Washington.', highlights: [], size: 44, media: {src: 'strait/st39_globe.jpg', type: 'img', effect: 'in'}},
   // 40 CTA (question close + comment ask)

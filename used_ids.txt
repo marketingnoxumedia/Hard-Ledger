@@ -2882,3 +2882,12 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 11833044 strait/st38_gaspump.jpg
 16035533 strait/st39_globe.jpg
 34780902 strait/st40_duskstrait.mp4
+17262454 strait/st41_dossier.jpg
+6692312 strait/st42_oilfield.jpg
+11408793 strait/st43_reflection.jpg
+4092356 strait/st44_hourglass.jpg
+40292283 strait/st45_stamp.jpg
+21134472 strait/st46_gauge.jpg
+4043022 strait/st47_card.jpg
+7466945 strait/st48_calendar.jpg
+18551982 strait/st49_forecourt.jpg

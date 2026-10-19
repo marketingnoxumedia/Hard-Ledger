@@ -4738,7 +4738,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   in reverse. Payoff: nobody's refusing to reopen the strait, both sides refuse to go FIRST; the six-day
   offer is a sequencing dispute with 1/5 of the world's oil as the deposit, and every week unsettled the
   price is paid at the pump. Rhetorical-question close + comment CTA ("Who should blink first? Tell me
-  below."). 41 beats: 38 media (incl. 4 stylized cards — `STRAIT 1/5 WORLD OIL+LNG / REOPENS DAY 6 / WAR
+  below."). 50 beats: 47 media (incl. 4 stylized cards — `STRAIT 1/5 WORLD OIL+LNG / REOPENS DAY 6 / WAR
   MONTH 8`; `IRAN'S PRICE — PORTS/SANCTIONS/ALL FRONTS/NUCLEAR EXCLUDED`; `US NUCLEAR FIRST / IRAN STRAIT
   FIRST`; `IRAN'S CARD STRAIT / US'S CARD BLOCKADE`), 1 red impact ("It's a sequencing dispute.") mid-tail,
   2 black. **Captions match the VO verbatim** (except the stylized cards). Durations/reveals/SFX locked to
@@ -4760,7 +4760,11 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   empty chairs (30398459), a tanker on a backlit golden-hour sea (12366464), two facing chairs with a floor
   divider (24373601), a wax-sealed agreement with ribbon (28948619), vintage strongroom lockboxes (33583064),
   a mechanical rolling-digit counter — numbers only (11833044), a wireframe globe monument at dusk
-  (16035533). No generated graphics this reel. **Brand-safety (sensitive geopolitics topic — screened hard
+  (16035533), wax-sealed envelopes (17262454), a gas flare stack (6692312), buildings mirrored in a puddle
+  (11408793), a wooden-framed hourglass (4092356), ordered files/ledgers in a rack (40292283), concentric
+  ripples on dark water (21134472), an ace of spades (4043022), an English "June" calendar page with day 7
+  circled (7466945), and a petrol-station forecourt at dusk — no brand (18551982). No generated graphics
+  this reel. **Brand-safety (sensitive geopolitics topic — screened hard
   at source and again from the FINAL render):** free of national flags, identifiable faces/politicians,
   military/weapons/uniforms/propaganda, company/oil-major logos and wordmarks, readable ship names, Farsi/
   Arabic or other foreign text, and labeled maps. Rejected and replaced during sourcing/audit: readable
