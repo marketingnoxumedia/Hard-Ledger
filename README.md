@@ -4828,6 +4828,54 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   skipping CES / cutting 30GB→20GB"; "retail memory 5× in a year"; and the Microsoft/OpenAI/$100B framing.
   The "AI bill delivered to your living room" thesis is editorial analysis.
 
+- **`AskReel`** — "The ask" (fast NEWS reel). NEW topic: **why America's highest-paid airline CEO is
+  calling for an inheritance tax of nearly 100%.** QUESTION/STORY/ANSWER/CTA. Scott Kirby (United) was paid
+  ~$32.3M last year — the most of any US airline boss; in the NYT he calls inequality a danger and wants a
+  national wealth tax and inheritance taxes near 100% ("I would pay them"). But the two taxes he picked are
+  telling: a WEALTH tax hits what you HOLD, an INHERITANCE tax hits what you LEAVE — neither touches what
+  you EARN this year, so a $32M salary is untouched; the only way to dodge both is to SPEND while alive.
+  United's growth strategy is premium (Polaris, first-class suites, caviar) — the customer who spends down
+  a fortune rather than passing it on is its best customer, so a regime that punishes saving/inheriting
+  rewards buying a lie-flat seat. Payoff: he may mean every word, but the taxes a man on $32M volunteered
+  for are the two that don't touch the $32M and nudge the rich toward what his airline sells; sincere and
+  self-interested aren't opposites — in business they travel together, in first class. (Also: he was fired
+  by American — promised the top job in 2016, then let go — took ~$13M severance, phoned a United board
+  member the same day, and spent a decade building the rival.) Rhetorical-question close + comment CTA
+  ("Would you trust a CEO who asks to be taxed? Tell me below."). 41 beats: 38 media (incl. 4 stylized
+  cards — `KIRBY PAY $32.3M / WANTS WEALTH + ~100% INHERITANCE`; `FIRED BY AMERICAN 2016 / $13M SEVERANCE /
+  NOW RUNS THE RIVAL`; `WEALTH TAX ASSETS / INHERITANCE ESTATES / SALARY UNTOUCHED`; `SPEND IT, DON'T LEAVE
+  IT → PREMIUM CABINS`), 1 red impact ("In first class."), 2 black. **Captions match the VO verbatim**
+  (except the stylized cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a
+  scribe_v1 word-timestamp anchor pass (`public/ask/voiceover.mp3`, ~116s incl. the ~1.1s post-hook pause);
+  music mixed at 0.17. Entirely its own fresh footage under `public/ask/` — no asset shared with any other
+  reel. Media credits (Pexels, free license) — videos: a dusk wing/window view — no livery (38043523), a
+  champagne-toast close (11949126). Photos: a plush exec office (35058546), a US $100-bills close-up — no
+  portrait in frame (40222113), a panel/mic desk (6949337), a folded newspaper — no masthead (7611758), a
+  wealth-gap of model houses (31370888), "TAX" tiles on coins + a tax form (6863183), an estate paper with
+  a wax seal (18690576), a gavel + brass Lady Justice (6077123), a hand packing a desk box (7203849), a
+  business handshake — hands only (13801685), an empty chair in a doorway (4214666), torn paper (18718831),
+  a $100-bill corner macro — no portrait (10149290), a dark desk phone (19683578), construction cranes at
+  dusk (14354493), an empty boardroom (9300726), fanned file folders (7414277), a neoclassical mansion
+  (39495896), a grand manor house (12894746), $20 bills in an envelope (4386365), a 1040 tax form +
+  calculator (6929011), a luxury tote bag (5243552), a notebook of sketches (6614748), a premium cabin
+  aisle (27303710), a private-jet suite (14914172), a caviar + champagne plate (32083417), a watch + cigar,
+  arm only (29404552), a window-seat wing view (1547726), a red piggy bank — no coins (7828291), a first-
+  class cabin (4061487), a vintage microphone (4552531), a hand signing a form — text illegible (8470831),
+  numbered vault boxes (25025656), a premium jet seat (20562278), brass balance scales (6077665), a suited
+  traveller with a briefcase — no face (9565852). No generated graphics this reel. **Brand-safety (screened
+  hard at source and from the FINAL render):** free of airline LOGOS/LIVERIES (no tail-logo aircraft), the
+  named CEO's face, any newspaper masthead or "Polaris"/brand wordmark, identifiable faces, banknote
+  portraits, foreign currency, flags and foreign text. Rejected and replaced during sourcing/audit: airline
+  winglet logos, a Turkish masthead, Cyrillic keyboards, "CISCO"/"Nissan Services" signage, a "FICHET
+  PARIS" safe, a Ukrainian "STATE TAX INSPECTORATE" form with a personal name, a fanned-$100 Franklin
+  portrait, foreign coins in a piggy bank, and a gavel id that collided with another reel. **UNVERIFIED /
+  SENSITIVE — names a real living executive (Scott Kirby) and attributes views, pay and a career narrative
+  to him and to United/American; rendered as written but MUST be fact-checked against primary sources
+  before publishing:** the ~$32.3M pay and "highest-paid US airline boss"; the NYT wealth-tax / ~100%
+  inheritance-tax remarks and "I would pay them"; the 2016 American firing, ~$13M severance, "phoned a
+  United board member the same day" and decade-building-the-rival account; and the premium-cabin / "best
+  customer" framing, which is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
