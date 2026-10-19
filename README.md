@@ -4781,6 +4781,53 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   mortgage rates moving with the Gulf." The "sequencing dispute / who blinks first / paid at the pump"
   framing is editorial analysis.
 
+- **`BillReel`** — "The bill" (fast NEWS reel). NEW topic: **why the memory in a PlayStation 6
+  reportedly costs more than an entire PlayStation 5 — the AI memory squeeze.** QUESTION/STORY/ANSWER/CTA.
+  Per hardware leaker KeplerL2, the RAM + storage in Sony's next console now cost ~$680+ per unit — more
+  than a new PS5 ($649). The memory that cost ~$3/GB when the console was designed is now ~$20-23/GB; the
+  APU ("the brain") is only ~$150, so the memory costs ~4× the processor. Reported bill of materials
+  ~$1,000 (was ~$760 in March); Sony won't sell at a loss, its CEO cites component shortages and no launch
+  date, it's skipping CES, and reportedly weighing cutting memory 30GB→20GB. Mechanism: the same chips feed
+  AI servers — Micron et al. sell to the highest bidder, Nvidia's customers pay most, retail memory is ~5×
+  a year ago; Sony isn't bidding against Microsoft, it's bidding against OpenAI (a $100B guarantee behind
+  it). Payoff: the PS6 isn't dear because Sony got greedy — the AI boom bought the memory first; every
+  console/phone/laptop is in a bidding war with a data centre that has more money. The $1,000 PlayStation
+  is the AI bill, delivered to your living room. Rhetorical-question close + comment CTA ("Would you pay
+  $1,000 for a PlayStation? Tell me below."). 38 beats: 35 media (incl. 4 stylized cards — `PS6 RAM+STORAGE
+  $680+ / PS5 $649`; `GDDR7 $3/GB → $20-23/GB / APU ~$150`; `BOM $760 → $1,000 / NO LAUNCH DATE / CES
+  SKIPPED`; `RETAIL DDR5 5× IN A YEAR / SONY vs DATA CENTRES`), 1 red impact ("Delivered to your living
+  room.") , 2 black. **Captions match the VO verbatim** (except the stylized cards; spoken figures as
+  numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/bill/voiceover.mp3`, ~116s incl. the ~1.1s post-hook pause); music mixed at 0.17. Entirely its
+  own fresh footage under `public/bill/` — no asset shared with any other reel. It is a SEPARATE twin of
+  `PlaystationReel` ("The exchange", the used-market angle); this is the AI-bidding / bill-of-materials
+  angle. Media credits (Pexels, free license) — videos: a circuit-board macro (6754820), a glowing CRT at
+  dusk (3290180). Photos: a code screen (6424584), a rising-line chart on paper (590041), a motherboard +
+  RAM macro (27977986), a BGA chip macro (6755086), a storage drive + RAM + CPU (37113174), a green PCB
+  macro (18372336), a circuit module on design notes (3912367), a semiconductor/wafer surface (28215391), a
+  CPU underside (31665489), a chip-die macro (6755145), an analog scale dial (5619064), an electronic-
+  components grid (35686431), a hand-drawn March-2024 calendar (19915938), red "TAXES" on a legal pad
+  (7111607), a black press microphone (4331578), empty storage racks (8910939), an empty exhibition hall
+  (20030193), a hand lifting a PCB module (4705618), a dense motherboard macro (6755080), a whiteboard bar
+  chart (9034997), a blue-lit server front (17489156), a chip pick-and-place line (32778341), a GPU fan +
+  heatsink (7858769), a blue server-cabinet hall (17323801), a gavel (37732188), a raised auction hand
+  (38433064), a stack of US $100 bills — no portrait in frame (11624767), a dark grand boardroom (13609018),
+  a blue-lit AI-server front (37605913), a plain unbranded slab phone (13570137), a compute-warehouse
+  exterior (36006588), a dark living room with a glowing TV (12432202). The memory-price-rise chart
+  (`bl10_pricechart.jpg`) is a **generated** red-line graphic on the near-black house background, not a
+  Pexels photo. **Brand-safety (screened hard at source and from the FINAL render):** free of company
+  logos/wordmarks, especially NO PlayStation/Sony/Xbox/Microsoft consoles or logos and NO Nvidia/AMD/Intel/
+  Micron/Samsung chip, GPU or RAM brand markings; no OpenAI/CES signage; no readable brand on any chip/
+  board/device/screen; no faces, flags or foreign text. Rejected and replaced during sourcing/audit:
+  branded RAM (SK hynix, Kingston, Micron, G.SKILL, GOODRAM…), branded GPUs (ZOTAC, GIGABYTE, SAPPHIRE,
+  NVIDIA RTX FE), an ASUS "TUF" board, a Portuguese "MARÇO" calendar, Russian prop money, an iPhone with
+  an Apple-logo leather case (swapped to a logo-free slab phone), and brighter off-tone options. **UNVERIFIED
+  — asserts specific, checkable reported figures (a leaker's numbers, Sony statements, memory prices);
+  rendered as written but MUST be fact-checked before publishing:** the ~$680+ RAM+storage vs $649 PS5; the
+  ~$3 → ~$20-23/GB and ~$150 APU; the ~$1,000 (was $760) BOM; "won't sell at a loss / no launch date /
+  skipping CES / cutting 30GB→20GB"; "retail memory 5× in a year"; and the Microsoft/OpenAI/$100B framing.
+  The "AI bill delivered to your living room" thesis is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

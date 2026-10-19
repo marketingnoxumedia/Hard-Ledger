@@ -152,6 +152,8 @@ import {MetricReel, DURATION_IN_FRAMES as METRIC_FRAMES} from './MetricReel';
 import {DropReel, DURATION_IN_FRAMES as DROP_FRAMES} from './DropReel';
 import {AssetReel, DURATION_IN_FRAMES as ASSET_FRAMES} from './AssetReel';
 import {StraitReel, DURATION_IN_FRAMES as STRAIT_FRAMES} from './StraitReel';
+import {BillReel, DURATION_IN_FRAMES as BILL_FRAMES} from './BillReel';
+import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1369,6 +1371,22 @@ export const RemotionRoot: React.FC = () => {
         id="StraitReel"
         component={StraitReel}
         durationInFrames={STRAIT_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="BillReel"
+        component={BillReel}
+        durationInFrames={BILL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="AskReel"
+        component={AskReel}
+        durationInFrames={ASK_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
