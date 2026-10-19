@@ -4876,6 +4876,58 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   United board member the same day" and decade-building-the-rival account; and the premium-cabin / "best
   customer" framing, which is editorial analysis.
 
+- **`DebtReel`** — "The number" (fast NEWS reel). NEW topic: **the US just quietly hit "the most expensive
+  number in its history" — the debt/deficit squeeze, and how it reaches your mortgage.** QUESTION/STORY/
+  ANSWER/CTA. Thesis: a single-year deficit of ~$2 TRILLION — ~12% bigger than last year — while total debt
+  just crossed ~$40 TRILLION, roughly the size of the whole economy, a level last seen paying for World War
+  Two. The fastest-growing line item isn't roads or defence, it's INTEREST: ~$1.36T in one year just to
+  service what's already owed, a record. The one thing meant to help — tariffs — went backwards: the Supreme
+  Court struck most of them down and the government had to refund ~$145B, so the windfall became a bill.
+  Washington's only answer is that growth will fix it, with no maths shown; economists don't agree whether
+  growth can outrun a ~6% deficit or where the tipping point is. What's not in dispute: more borrowing ->
+  more bonds -> higher yields, and the 30-year mortgage just hit ~7.40% (a decade ago: 3%). Binary
+  rhetorical-question close + comment CTA ("Is the US still the safest borrower on earth, or is this the
+  start of something? Pick a side below."). **No post-hook pause** this reel (per the client's revision —
+  the claim flows straight into the "make it personal" beat), plus a mid-reel like+follow ask. 36 beats: 33
+  media (incl. **7 count-up stat cards** — `$2 TRILLION` single-year deficit; `+12%` vs last year; `$40
+  TRILLION` total debt; `$1.36 TRILLION` interest in one year; `$145 BILLION` tariff refund; `7.40%` 30-year
+  mortgage; `3%` a decade ago), 1 red impact ("Or is this the start|of something?"), 2 black ("Interest." /
+  "Honestly, the economists don't agree either."). **Captions match the VO verbatim** (except the stat
+  cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp
+  anchor pass (`public/debt/voiceover.mp3`, ~102s, NO inserted pause); music mixed at 0.17. Entirely its own
+  fresh footage under `public/debt/` — no asset shared with any other reel. Media credits (Pexels, free
+  license) — video: a grand civic/government dome at golden hour, no text/flag (40304294). Photos: a dark
+  empty office (12866948), a generic credit-card-debt solicitation — no entity name (7821909), a dark bed +
+  clock (6943990), a suburban house at dusk (18093637), a b&w hourglass (16399375), an old purchase/assembly
+  ledger (12983110), a red warning chart (39262369), a $100-bill reverse — Independence Hall, no portrait
+  (35486294), a rising chart on a dark screen (39295564), a navy field + $100 corner (5912574), a dusk
+  skyline silhouette (352882), sepia vintage gears (19715967), a money-counter processing bills (6266459),
+  aerial highway overpasses (8860492), a tall bound stack of papers (7054757), a vintage typewriter typing
+  "INVESTMENTS" (12244851), a dark multi-screen dashboard (32396570), weathered orange container doors
+  (29533762), a b&w classical colonnade (2935910), two hands passing a US cash bundle — no portrait
+  (6266453), a "PAST DUE" statement (7926653), a hand drawing a rising chart on a whiteboard (5310563), a
+  coffered rotunda dome interior (34192312), a chalkboard of equations (6256063), an empty night running
+  track (886696), a dark trading/indicators chart (39121208), a house with a generic "FOR SALE" sign
+  (7937268), a weathered-old-house-beside-new-framing contrast (33954649), a single hand pointing up
+  (16274575), a grey safe/strongroom door (39704868), a forked forest trail (39380978), and a modest older
+  house at golden hour (17928839). No generated graphics this reel. **Brand-safety (screened hard at source
+  and from the FINAL render):** free of company logos/wordmarks, identifiable faces/politicians, banknote
+  portraits (US bills are the Independence Hall reverse or portrait-free cash bundles), flags, military/
+  propaganda, and foreign text/currency. Rejected and replaced during sourcing/audit: a dome clip with a
+  legible "ACADEMIA" frieze (foreign text / off-message, swapped to a text-free dome); a mislabeled "two
+  doors" clip that was actually an overhead stone marker (swapped to a forked trail for the CTA); a real
+  nonprofit's "Find Aid for the Aged, Inc." financial statement (swapped to a generic credit-card-debt
+  envelope); "BINANCE" / "TradingView" chart screens, Maersk/Hapag-Lloyd/CMA CGM container livery,
+  presidential-portrait bills, "PG&E" / "East Bay Community Energy" utility bills, a "Hallmark" logo,
+  "consumerfinance.gov"/CFPB references, readable "TEXAS" plates, Chinese/Russian/Portuguese text, and
+  mosque/cathedral domes (crescents/crosses) and a flagged Baku government building. **UNVERIFIED — asserts
+  specific, checkable US macro figures and attributes actions to US institutions (Congress/Treasury/Supreme
+  Court); rendered as written but MUST be fact-checked against primary sources before publishing:** the ~$2T
+  single-year deficit and "+12% vs last year"; the ~$40T total debt and "size of the entire economy / last
+  seen in WWII"; the ~$1.36T annual interest "record"; the Supreme Court striking down tariffs and the
+  ~$145B refund; the ~6% deficit and "growth will fix it" framing; and the ~7.40% 30-year mortgage vs 3% a
+  decade ago. The "most expensive number" / "start of something" thesis is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
