@@ -86,7 +86,7 @@ type SceneDef = {
 // Close is a binary question + comment ask ("Is the US still the safest borrower on earth, or is this the
 // start of something? Pick a side below."). QUESTION/STORY/ANSWER/CTA with NO post-hook pause (the claim
 // flows straight into the personal beat), and a mid-reel like+follow ask.
-// 36 beats: 33 media (incl. 7 count-up STAT cards: $2T single-year deficit; +12% vs last year; $40T total
+// 45 beats: 42 media (incl. 7 count-up STAT cards: $2T single-year deficit; +12% vs last year; $40T total
 // debt; $1.36T interest in one year; $145B tariff refund; 30-YEAR MORTGAGE 7.40%; A DECADE AGO 3%) /
 // 1 red impact ("Or is this the start|of something?") / 2 black ("Interest." / "Honestly..."). Captions
 // match the VO verbatim (except the stat cards; spoken figures as numerals). Durations/reveals/SFX locked
@@ -106,97 +106,116 @@ type SceneDef = {
 // thesis is editorial analysis.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  // 0 HOOK / claim (no post-hook pause — flows straight into beat 1)
-  {dur: 170, kind: 'hook', reveal: [3, 46, 92, 138], text: 'We may have just watched|the US quietly hit|the most expensive number|in its history.', kicker: 'The number', highlights: ['number'], size: 31, media: {src: 'debt/db00_dome.mp4', type: 'video', effect: 'in'}},
-  // 1
-  {dur: 64, kind: 'text', reveal: [2, 30], text: 'And almost|nobody noticed.', highlights: ['nobody'], size: 46, media: {src: 'debt/db01_overlooked.jpg', type: 'img', effect: 'in'}},
-  // 2 make it personal
-  {dur: 149, kind: 'text', reveal: [2, 40, 80], text: 'If this were your household,|you’d be spending more on|interest than on anything else.', highlights: ['interest'], size: 32, media: {src: 'debt/db02_bills.jpg', type: 'img', effect: 'panL'}},
-  // 3
-  {dur: 35, kind: 'text', reveal: [2], text: 'You wouldn’t sleep.', highlights: ['sleep.'], size: 50, media: {src: 'debt/db03_awake.jpg', type: 'img', effect: 'in'}},
-  // 4 promise
-  {dur: 97, kind: 'text', reveal: [2, 40], text: 'I’ll walk you through exactly|how it reaches your mortgage.', highlights: ['mortgage.'], size: 36, media: {src: 'debt/db04_house.jpg', type: 'img', effect: 'panR'}},
-  // 5 ask (like + follow)
+  // 0 HOOK a
+  {dur: 92, kind: 'hook', reveal: [3, 44], text: 'We may have just watched|the US quietly hit', kicker: 'The number', highlights: [], size: 42, media: {src: 'debt/db00_dome.mp4', type: 'video', effect: 'in'}},
+  // 1 HOOK b
+  {dur: 78, kind: 'text', reveal: [2, 40], text: 'the most expensive|number in its history.', highlights: ['number'], size: 42, media: {src: 'debt/db37_bignumber.jpg', type: 'img', effect: 'in'}},
+  // 2
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'And almost|nobody noticed.', highlights: ['nobody'], size: 48, media: {src: 'debt/db01_overlooked.jpg', type: 'img', effect: 'in'}},
+  // 3 make it personal a
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'If this were|your household,', highlights: [], size: 48, media: {src: 'debt/db02_bills.jpg', type: 'img', effect: 'panL'}},
+  // 4 make it personal b
+  {dur: 98, kind: 'text', reveal: [2, 40], text: 'you’d be spending more on|interest than on anything else.', highlights: ['interest'], size: 36, media: {src: 'debt/db38_spend.jpg', type: 'img', effect: 'in'}},
+  // 5
+  {dur: 35, kind: 'text', reveal: [2], text: 'You wouldn’t sleep.', highlights: ['sleep.'], size: 54, media: {src: 'debt/db03_awake.jpg', type: 'img', effect: 'in'}},
+  // 6 promise a
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'I’ll walk you|through exactly', highlights: [], size: 44, media: {src: 'debt/db04_house.jpg', type: 'img', effect: 'panR'}},
+  // 7 promise b
+  {dur: 47, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'how it reaches|your mortgage.', highlights: ['mortgage.'], size: 44, media: {src: 'debt/db39_mortgagedoc.jpg', type: 'img', effect: 'in'}},
+  // 8 ask
   {dur: 98, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'debt/db05_hourglass.jpg', type: 'img', effect: 'in'}},
-  // 6
-  {dur: 104, kind: 'text', reveal: [2, 40], text: 'Now, America running a deficit|is nothing new.', highlights: ['deficit'], size: 36, media: {src: 'debt/db06_ledger.jpg', type: 'img', effect: 'panL'}},
-  // 7
-  {dur: 53, kind: 'text', reveal: [2, 30], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'debt/db07_redchart.jpg', type: 'img', effect: 'in'}},
-  // 8 STAT $2T
+  // 9
+  {dur: 104, kind: 'text', reveal: [2, 40], text: 'Now, America running|a deficit is nothing new.', highlights: ['deficit'], size: 38, media: {src: 'debt/db06_ledger.jpg', type: 'img', effect: 'panL'}},
+  // 10
+  {dur: 53, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 50, media: {src: 'debt/db07_redchart.jpg', type: 'img', effect: 'in'}},
+  // 11 STAT $2T
   {dur: 93, kind: 'stat', stat: {pre: 'A SINGLE-YEAR DEFICIT OF', prefix: '$', value: 2, suffix: 'T'}, media: {src: 'debt/db08_cash.jpg', type: 'img', effect: 'in'}},
-  // 9 STAT +12%
+  // 12 STAT +12%
   {dur: 77, kind: 'stat', stat: {pre: 'BIGGER THAN LAST YEAR', prefix: '+', value: 12, suffix: '%'}, media: {src: 'debt/db09_risingchart.jpg', type: 'img', effect: 'in'}},
-  // 10 STAT $40T
+  // 13 STAT $40T
   {dur: 107, kind: 'stat', stat: {pre: 'TOTAL DEBT JUST CROSSED', prefix: '$', value: 40, suffix: 'T'}, media: {src: 'debt/db10_debtpile.jpg', type: 'img', effect: 'in'}},
-  // 11
-  {dur: 103, kind: 'text', reveal: [2, 40], text: 'That’s debt the size|of the entire economy,', highlights: ['entire'], size: 34, media: {src: 'debt/db11_skyline.jpg', type: 'img', effect: 'panR'}},
-  // 12
-  {dur: 97, kind: 'text', reveal: [2, 40], text: 'a level last seen|paying for World War Two.', highlights: ['world', 'war', 'two.'], size: 34, media: {src: 'debt/db12_vintage.jpg', type: 'img', effect: 'in'}},
-  // 13
-  {dur: 40, kind: 'text', reveal: [2, 30], enter: 'slideUp', text: 'Look at where|the money goes.', highlights: ['goes.'], size: 42, media: {src: 'debt/db13_moneyflow.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 49, kind: 'text', reveal: [2, 30], text: 'Not roads.|Not defence.', highlights: [], size: 48, media: {src: 'debt/db14_road.jpg', type: 'img', effect: 'panL'}},
-  // 15 BLACK
-  {dur: 34, kind: 'impact', text: 'Interest.'},
-  // 16 STAT $1.36T
-  {dur: 73, kind: 'stat', stat: {pre: 'INTEREST, IN ONE YEAR', prefix: '$', value: 1.36, decimals: 2, suffix: 'T'}, media: {src: 'debt/db16_interestbill.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 40], text: 'That’s debt the size|of the entire economy,', highlights: ['entire'], size: 36, media: {src: 'debt/db11_skyline.jpg', type: 'img', effect: 'panR'}},
+  // 15
+  {dur: 97, kind: 'text', reveal: [2, 40], text: 'a level last seen|paying for World War Two.', highlights: ['world', 'war', 'two.'], size: 36, media: {src: 'debt/db12_vintage.jpg', type: 'img', effect: 'in'}},
+  // 16
+  {dur: 40, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'Look at where|the money goes.', highlights: ['goes.'], size: 46, media: {src: 'debt/db13_moneyflow.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 102, kind: 'text', reveal: [2, 40, 82], text: 'Just to service|what’s already owed.|A record.', highlights: ['record.'], size: 36, media: {src: 'debt/db17_record.jpg', type: 'img', effect: 'panR'}},
-  // 18
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'debt/db18_dashboard.jpg', type: 'img', effect: 'in'}},
-  // 19
-  {dur: 105, kind: 'text', reveal: [2, 40], enter: 'slideR', text: 'The one thing meant to help,|tariffs, went backwards.', highlights: ['tariffs,'], size: 34, media: {src: 'debt/db19_containers.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2, 28], text: 'Not roads.|Not defence.', highlights: [], size: 50, media: {src: 'debt/db14_road.jpg', type: 'img', effect: 'panL'}},
+  // 18 BLACK
+  {dur: 34, kind: 'impact', text: 'Interest.'},
+  // 19 STAT $1.36T
+  {dur: 73, kind: 'stat', stat: {pre: 'INTEREST, IN ONE YEAR', prefix: '$', value: 1.36, decimals: 2, suffix: 'T'}, media: {src: 'debt/db16_interestbill.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 73, kind: 'text', reveal: [2, 40], text: 'The Supreme Court|struck most of them down.', highlights: ['struck'], size: 36, media: {src: 'debt/db20_courthouse.jpg', type: 'img', effect: 'panL'}},
-  // 21 STAT $145B
-  {dur: 116, kind: 'stat', stat: {pre: 'THE GOVERNMENT HAD TO REFUND', prefix: '$', value: 145, suffix: 'B'}, media: {src: 'debt/db21_refund.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Just to service|what’s already owed.', highlights: ['owed.'], size: 42, media: {src: 'debt/db17_record.jpg', type: 'img', effect: 'panR'}},
+  // 21 punch
+  {dur: 32, kind: 'text', reveal: [2], enter: 'zoom', text: 'A record.', highlights: ['record.'], size: 64, media: {src: 'debt/db40_record.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'The windfall|became a bill.', highlights: ['bill.'], size: 46, media: {src: 'debt/db22_invoice.jpg', type: 'img', effect: 'panR'}},
-  // 23
-  {dur: 109, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a plan.|Cuts, taxes, something.', highlights: ['plan.'], size: 36, media: {src: 'debt/db23_plan.jpg', type: 'img', effect: 'in'}},
-  // 24
-  {dur: 91, kind: 'text', reveal: [2, 40], enter: 'slideL', text: 'Washington’s answer is|that growth will fix it.', highlights: ['growth'], size: 36, media: {src: 'debt/db24_podium.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'debt/db18_dashboard.jpg', type: 'img', effect: 'in'}},
+  // 23 tariffs a
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'The one thing|meant to help,', highlights: [], size: 42, media: {src: 'debt/db19_containers.jpg', type: 'img', effect: 'in'}},
+  // 24 tariffs b
+  {dur: 52, kind: 'text', reveal: [2, 28], enter: 'slideR', text: 'Tariffs,|went backwards.', highlights: ['tariffs,'], size: 46, media: {src: 'debt/db41_reverse.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 125, kind: 'text', reveal: [2, 40, 82], text: 'And the strange part is that|nobody has shown the maths|for how.', highlights: ['maths'], size: 32, media: {src: 'debt/db25_chalkboard.jpg', type: 'img', effect: 'panR'}},
-  // 26
-  {dur: 100, kind: 'text', reveal: [2, 30], text: 'Can growth outrun|a 6% deficit?', highlights: ['6%'], size: 38, media: {src: 'debt/db26_race.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 40], text: 'The Supreme Court|struck most of them down.', highlights: ['struck'], size: 36, media: {src: 'debt/db20_courthouse.jpg', type: 'img', effect: 'panL'}},
+  // 26 STAT $145B
+  {dur: 116, kind: 'stat', stat: {pre: 'THE GOVERNMENT HAD TO REFUND', prefix: '$', value: 145, suffix: 'B'}, media: {src: 'debt/db21_refund.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 47, kind: 'text', reveal: [2, 28], text: 'Is there|a tipping point?', highlights: ['tipping'], size: 44, media: {src: 'debt/db31_oldnew.jpg', type: 'img', effect: 'in'}},
-  // 28 BLACK
-  {dur: 75, kind: 'impact', text: 'Honestly, the economists|don’t agree either.'},
-  // 29
-  {dur: 136, kind: 'text', reveal: [2, 40, 82], enter: 'slideUp', text: 'What we do know:|more borrowing, more bonds,|higher yields.', highlights: ['yields.'], size: 34, media: {src: 'debt/db29_bonds.jpg', type: 'img', effect: 'in'}},
-  // 30 STAT 7.40%
-  {dur: 100, kind: 'stat', stat: {pre: 'THE 30-YEAR MORTGAGE JUST HIT', value: 7.40, decimals: 2, suffix: '%'}, media: {src: 'debt/db30_mortgagehouse.jpg', type: 'img', effect: 'in'}},
-  // 31 STAT 3% (a decade ago)
-  {dur: 86, kind: 'stat', stat: {pre: 'A DECADE AGO IT WAS', value: 3, suffix: '%'}, media: {src: 'debt/db36_decade.jpg', type: 'img', effect: 'in'}},
-  // 32
-  {dur: 28, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'debt/db32_pointing.jpg', type: 'img', effect: 'panL'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'The windfall|became a bill.', highlights: ['bill.'], size: 46, media: {src: 'debt/db22_invoice.jpg', type: 'img', effect: 'panR'}},
+  // 28 plan a
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'Normally you’d|expect a plan.', highlights: ['plan.'], size: 42, media: {src: 'debt/db23_plan.jpg', type: 'img', effect: 'in'}},
+  // 29 plan b
+  {dur: 58, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'Cuts, taxes,|something.', highlights: ['cuts,'], size: 44, media: {src: 'debt/db42_cuts.jpg', type: 'img', effect: 'in'}},
+  // 30
+  {dur: 91, kind: 'text', reveal: [2, 40], text: 'Washington’s answer is|that growth will fix it.', highlights: ['growth'], size: 36, media: {src: 'debt/db24_podium.jpg', type: 'img', effect: 'in'}},
+  // 31 maths a
+  {dur: 95, kind: 'text', reveal: [2, 40], text: 'And the strange part is|that nobody has shown the maths', highlights: ['maths'], size: 32, media: {src: 'debt/db25_chalkboard.jpg', type: 'img', effect: 'panR'}},
+  // 32 maths b punch
+  {dur: 30, kind: 'text', reveal: [2], enter: 'zoom', text: 'for how.', highlights: [], size: 58, media: {src: 'debt/db43_question.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 99, kind: 'text', reveal: [2, 40], text: 'Is the US still the|safest borrower on earth,', highlights: ['safest'], size: 34, media: {src: 'debt/db33_vault.jpg', type: 'img', effect: 'in'}},
-  // 34 RED impact
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'Can growth outrun|a 6% deficit?', highlights: ['6%'], size: 40, media: {src: 'debt/db26_race.jpg', type: 'img', effect: 'in'}},
+  // 34
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'Is there|a tipping point?', highlights: ['tipping'], size: 46, media: {src: 'debt/db31_oldnew.jpg', type: 'img', effect: 'in'}},
+  // 35 BLACK
+  {dur: 75, kind: 'impact', text: 'Honestly, the economists|don’t agree either.'},
+  // 36 yields a
+  {dur: 83, kind: 'text', reveal: [2, 40], text: 'What we do know:|more borrowing, more bonds,', highlights: [], size: 36, media: {src: 'debt/db29_bonds.jpg', type: 'img', effect: 'in'}},
+  // 37 yields b punch
+  {dur: 53, kind: 'text', reveal: [2], enter: 'zoom', text: 'higher yields.', highlights: ['yields.'], size: 56, media: {src: 'debt/db44_yields.jpg', type: 'img', effect: 'in'}},
+  // 38 STAT 7.40%
+  {dur: 100, kind: 'stat', stat: {pre: 'THE 30-YEAR MORTGAGE JUST HIT', value: 7.40, decimals: 2, suffix: '%'}, media: {src: 'debt/db30_mortgagehouse.jpg', type: 'img', effect: 'in'}},
+  // 39 STAT 3%
+  {dur: 86, kind: 'stat', stat: {pre: 'A DECADE AGO IT WAS', value: 3, suffix: '%'}, media: {src: 'debt/db36_decade.jpg', type: 'img', effect: 'in'}},
+  // 40
+  {dur: 28, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 54, media: {src: 'debt/db32_pointing.jpg', type: 'img', effect: 'panL'}},
+  // 41 close a
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'Is the US|still the', highlights: [], size: 48, media: {src: 'debt/db33_vault.jpg', type: 'img', effect: 'in'}},
+  // 42 close b
+  {dur: 54, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'safest borrower|on earth,', highlights: ['safest'], size: 44, media: {src: 'debt/db45_globe.jpg', type: 'img', effect: 'in'}},
+  // 43 RED impact
   {dur: 64, kind: 'impact', redBg: true, text: 'Or is this the start|of something?'},
-  // 35 CTA
-  {dur: 44, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 46, media: {src: 'debt/db34_choice.jpg', type: 'img', effect: 'in'}},
+  // 44 CTA
+  {dur: 44, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 50, media: {src: 'debt/db34_choice.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 613, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 770, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 863, src: 'media/sfx_impact.mp3', vol: 0.42},
-  {at: 940, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1247, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1336, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1370, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1607, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1785, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2438, src: 'media/sfx_impact.mp3', vol: 0.44},
-  {at: 2649, src: 'media/sfx_impact.mp3', vol: 0.52},
-  {at: 2749, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 2962, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3026, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 612, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 769, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 862, src: 'media/sfx_impact.mp3', vol: 0.42},
+  {at: 939, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1246, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1335, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1369, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1512, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1659, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1784, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2436, src: 'media/sfx_impact.mp3', vol: 0.44},
+  {at: 2647, src: 'media/sfx_impact.mp3', vol: 0.52},
+  {at: 2747, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2960, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3024, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
