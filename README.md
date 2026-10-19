@@ -4888,10 +4888,13 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   more bonds -> higher yields, and the 30-year mortgage just hit ~7.40% (a decade ago: 3%). Binary
   rhetorical-question close + comment CTA ("Is the US still the safest borrower on earth, or is this the
   start of something? Pick a side below."). **No post-hook pause** this reel (per the client's revision —
-  the claim flows straight into the "make it personal" beat), plus a mid-reel like+follow ask. 36 beats: 33
-  media (incl. **7 count-up stat cards** — `$2 TRILLION` single-year deficit; `+12%` vs last year; `$40
-  TRILLION` total debt; `$1.36 TRILLION` interest in one year; `$145 BILLION` tariff refund; `7.40%` 30-year
-  mortgage; `3%` a decade ago), 1 red impact ("Or is this the start|of something?"), 2 black ("Interest." /
+  the claim flows straight into the "make it personal" beat), plus a mid-reel like+follow ask. **45 beats**
+  (re-cut from 36 — the wordiest captions, the claim hook and the "make it personal" beat included, were
+  split into shorter 1-2 line beats so the on-screen type sizes up, 32-64px; VO unchanged, durations
+  re-anchored from the cached word-timestamps): 42 media (incl. **7 count-up stat cards** — `$2 TRILLION`
+  single-year deficit; `+12%` vs last year; `$40 TRILLION` total debt; `$1.36 TRILLION` interest in one
+  year; `$145 BILLION` tariff refund; `7.40%` 30-year mortgage; `3%` a decade ago), 1 red impact ("Or is
+  this the start|of something?"), 2 black ("Interest." /
   "Honestly, the economists don't agree either."). **Captions match the VO verbatim** (except the stat
   cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp
   anchor pass (`public/debt/voiceover.mp3`, ~102s, NO inserted pause); music mixed at 0.17. Entirely its own
@@ -4910,7 +4913,12 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   track (886696), a dark trading/indicators chart (39121208), a house with a generic "FOR SALE" sign
   (7937268), a weathered-old-house-beside-new-framing contrast (33954649), a single hand pointing up
   (16274575), a grey safe/strongroom door (39704868), a forked forest trail (39380978), and a modest older
-  house at golden hour (17928839). No generated graphics this reel. **Brand-safety (screened hard at source
+  house at golden hour (17928839). The 45-beat re-cut added 9 split-half backgrounds: a corridor of
+  cascading glowing digits (36040448), a household-budget flat lay — "EXPENSES"/"RECEIPTS" cards
+  (7111517), a template "CONTRACT" document — no real lender name (7841836), vintage numbered filing-cabinet
+  drawers (12485504), a white back-pointing arrow on red (21327131), green scissors cutting a "TAXES" slip
+  (6863324), a hand-painted "?" on crumpled paper (5428826), a bold painted upward arrow (11506752), and
+  Earth from space — no flags/labels (30596249). No generated graphics this reel. **Brand-safety (screened hard at source
   and from the FINAL render):** free of company logos/wordmarks, identifiable faces/politicians, banknote
   portraits (US bills are the Independence Hall reverse or portrait-free cash bundles), flags, military/
   propaganda, and foreign text/currency. Rejected and replaced during sourcing/audit: a dome clip with a

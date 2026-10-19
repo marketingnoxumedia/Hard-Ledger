@@ -2996,3 +2996,12 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 39704868 debt/db33_vault.jpg
 39380978 debt/db34_choice.jpg
 17928839 debt/db36_decade.jpg
+36040448 debt/db37_bignumber.jpg
+7111517 debt/db38_spend.jpg
+7841836 debt/db39_mortgagedoc.jpg
+12485504 debt/db40_record.jpg
+21327131 debt/db41_reverse.jpg
+6863324 debt/db42_cuts.jpg
+5428826 debt/db43_question.jpg
+11506752 debt/db44_yields.jpg
+30596249 debt/db45_globe.jpg
