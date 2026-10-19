@@ -106,7 +106,7 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK (held normally; the ~1.1s post-hook pause falls AFTER beat 1)
-  {dur: 169, kind: 'hook', reveal: [3, 46, 92, 138], text: 'We may have just watched|the US quietly hit|the most expensive number|in its history.', kicker: 'The number', highlights: ['number'], size: 31, media: {src: 'debt/db00_capitol.mp4', type: 'video', effect: 'in'}},
+  {dur: 169, kind: 'hook', reveal: [3, 46, 92, 138], text: 'We may have just watched|the US quietly hit|the most expensive number|in its history.', kicker: 'The number', highlights: ['number'], size: 31, media: {src: 'debt/db00_dome.mp4', type: 'video', effect: 'in'}},
   // 1  (caption holds through the inserted ~1.1s pause before "If this were...")
   {dur: 90, kind: 'text', reveal: [2, 30], text: 'And almost|nobody noticed.', highlights: ['nobody'], size: 46, media: {src: 'debt/db01_overlooked.jpg', type: 'img', effect: 'in'}},
   // 2
