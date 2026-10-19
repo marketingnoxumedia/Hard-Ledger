@@ -4724,6 +4724,59 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~40 years / worst graduate job market on record." The "it paid assets, not people / got in before the
   price went up" framing is editorial analysis.
 
+- **`StraitReel`** — "The strait" (fast NEWS reel). NEW topic: **why the US won't take a standing offer
+  that reopens the Strait of Hormuz in six days.** QUESTION/STORY/ANSWER/CTA. Iran's foreign minister says
+  an offer is on the table: accept Tehran's terms and the strait (which carried ~1/5 of the world's oil &
+  gas before the war) reopens on day 6, talks start day 7, with the war in month 8. The terms — lift the
+  US blockade on Iranian ports, lift sanctions on Iranian oil exports, end hostilities on every regional
+  front; Iran gives back the strait, the US gives back everything else — and the nuclear programme is NOT
+  on the list. Washington's position (attributed to Vance) is the mirror image: a meaningful cut to
+  enrichment BEFORE anything else — nuclear first, strait after; Tehran wants strait first, nuclear later.
+  Both agree on the end state; they're fighting over the ORDER. Mechanism: the strait is the only card Iran
+  holds that the world feels (oil ~$100, record diesel, mortgage rates moving with the Gulf); open it on
+  day 6 and that card is gone before talks begin — for the US, sanctions + the blockade are the same card
+  in reverse. Payoff: nobody's refusing to reopen the strait, both sides refuse to go FIRST; the six-day
+  offer is a sequencing dispute with 1/5 of the world's oil as the deposit, and every week unsettled the
+  price is paid at the pump. Rhetorical-question close + comment CTA ("Who should blink first? Tell me
+  below."). 41 beats: 38 media (incl. 4 stylized cards — `STRAIT 1/5 WORLD OIL+LNG / REOPENS DAY 6 / WAR
+  MONTH 8`; `IRAN'S PRICE — PORTS/SANCTIONS/ALL FRONTS/NUCLEAR EXCLUDED`; `US NUCLEAR FIRST / IRAN STRAIT
+  FIRST`; `IRAN'S CARD STRAIT / US'S CARD BLOCKADE`), 1 red impact ("It's a sequencing dispute.") mid-tail,
+  2 black. **Captions match the VO verbatim** (except the stylized cards). Durations/reveals/SFX locked to
+  the VO with a scribe_v1 word-timestamp anchor pass (`public/strait/voiceover.mp3`, ~116s incl. the ~1.1s
+  post-hook pause); music mixed at 0.17. Entirely its own fresh footage under `public/strait/` — no asset
+  shared with any other reel. Media credits (Pexels, free license) — videos: an aerial cargo ship on open
+  water (28801855), a tanker silhouette at dusk (34780902). Photos: a dark station wall clock (37179006),
+  an empty stage microphone + seats (9547593), a hand signing with a fountain pen (39148380), an oil-tanker
+  deck from above (18115096), a refinery at dusk (15893881), a cargo ship on open sea (9808221), an empty
+  boardroom table (3906592), a spherical LNG/gas storage tank (27404517), a document handled in hard light
+  — text illegible (7054517), port cranes at dusk (14734002), white oil storage tanks (31403876), a calm
+  dark sea (9387744), a tanker fleet at anchor (35421778), a hydraulic lock/barrier gate (5502728), stacked
+  oil drums (10620466), a domed institutional building — no flag (33449126), industrial pipes + red valve
+  wheels (5711732), a road forking around a tree (11273641), a night refinery with a flare stack (3855962),
+  two armchairs by a blinded window (30065112), stacked papers + paperclips (6077886), a blank notebook +
+  an unbranded pen (8250806), an aerial of a narrow canal chokepoint (34441263), stacked blue oil drums
+  (39874186), a green fuel-pump nozzle — no brand (12377481), a suburban house (22485304), a ship's wake on
+  open water (24350002), a padlock + chain on a gate (28901476), a wooden chess king (4576332), rows of
+  empty chairs (30398459), a tanker on a backlit golden-hour sea (12366464), two facing chairs with a floor
+  divider (24373601), a wax-sealed agreement with ribbon (28948619), vintage strongroom lockboxes (33583064),
+  a mechanical rolling-digit counter — numbers only (11833044), a wireframe globe monument at dusk
+  (16035533). No generated graphics this reel. **Brand-safety (sensitive geopolitics topic — screened hard
+  at source and again from the FINAL render):** free of national flags, identifiable faces/politicians,
+  military/weapons/uniforms/propaganda, company/oil-major logos and wordmarks, readable ship names, Farsi/
+  Arabic or other foreign text, and labeled maps. Rejected and replaced during sourcing/audit: readable
+  ship names (CHRISTINA, GNMTC, MTM VANCOUVER, SAGA, BELMAR, AEGEAN UNITY, CHIOS), LNG hull brands (CORAL
+  ENERGY/Gasum), fuel-station brands (LUKOIL, GILBARCO VEEDER-ROOT, Tokheim), a "TANGO"/"MAXSEAL"/"MADE IN
+  SINGAPORE" drum, barrier-gate brands (VW/Hikvision/MÜLLER), a "LAMY" pen wordmark, a readable "At-Will
+  Employment Agreement" document (off-topic), "STATE TAX INSPECTORATE" (Ukrainian) and "Local Sponsor's
+  Name" documents, a national flag on a tanker, and a duplicate Corinth-Canal shot. **UNVERIFIED /
+  SENSITIVE — asserts specific, checkable geopolitical claims and attributes a position to a named official
+  (Vance); rendered as written but MUST be fact-checked before publishing:** the existence/terms of a
+  six-day Strait-of-Hormuz reopening offer; "war in month eight" (note: `OilReel`/`DieselReel` reference
+  the Iran war as "month nine"); a US blockade of Iranian ports; the ~1/5 of world oil & gas figure; the
+  Vance "enrichment cut first" vs Tehran "strait first" positions; and "oil near $100 / record diesel /
+  mortgage rates moving with the Gulf." The "sequencing dispute / who blinks first / paid at the pump"
+  framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

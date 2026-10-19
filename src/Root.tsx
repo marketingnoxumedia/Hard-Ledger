@@ -151,6 +151,7 @@ import {AccountReel, DURATION_IN_FRAMES as ACCOUNT_FRAMES} from './AccountReel';
 import {MetricReel, DURATION_IN_FRAMES as METRIC_FRAMES} from './MetricReel';
 import {DropReel, DURATION_IN_FRAMES as DROP_FRAMES} from './DropReel';
 import {AssetReel, DURATION_IN_FRAMES as ASSET_FRAMES} from './AssetReel';
+import {StraitReel, DURATION_IN_FRAMES as STRAIT_FRAMES} from './StraitReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1360,6 +1361,14 @@ export const RemotionRoot: React.FC = () => {
         id="AssetReel"
         component={AssetReel}
         durationInFrames={ASSET_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="StraitReel"
+        component={StraitReel}
+        durationInFrames={STRAIT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
