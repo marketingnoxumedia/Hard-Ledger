@@ -155,6 +155,7 @@ import {StraitReel, DURATION_IN_FRAMES as STRAIT_FRAMES} from './StraitReel';
 import {BillReel, DURATION_IN_FRAMES as BILL_FRAMES} from './BillReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
+import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
 import {LogoStill} from './Logo';
 
 export const RemotionRoot: React.FC = () => {
@@ -1396,6 +1397,14 @@ export const RemotionRoot: React.FC = () => {
         id="DebtReel"
         component={DebtReel}
         durationInFrames={DEBT_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ListingReel"
+        component={ListingReel}
+        durationInFrames={LISTING_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
