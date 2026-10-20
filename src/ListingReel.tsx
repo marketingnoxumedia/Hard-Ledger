@@ -86,7 +86,7 @@ type SceneDef = {
 // bet on xAI, not on space. Binary close ("Is this the next Nvidia, or the most expensive internet provider
 // ever listed? Pick a side below."). QUESTION/STORY/ANSWER/CTA with NO post-hook pause (claim flows straight
 // into the personal beat) and a mid-reel like+follow ask.
-// 38 beats: 36 media (incl. 10 number cards — DAY ONE -8% / IPO +10%; 68x sales; +92%; $2T; ROCKETS +29% /
+// 41 beats: 39 media (incl. 13 number cards (3 two-figure cards split for pacing) — DAY ONE -8% / IPO +10%; 68x sales; +92%; $2T; ROCKETS +29% /
 // -$542M; STARLINK +66% / +$1.7B; xAI +247% / -$1.3B; ALPHABET $920M/MO / ANTHROPIC $1.25B/MO; $5,000 ->
 // $13,850 / 50%/YR; TARGET $217 / STOCK $148) / 1 red impact ("...ever listed?") / 1 black ("Nobody actually
 // knows."). Captions match the VO verbatim (except the number cards; spoken figures as numerals).
@@ -106,87 +106,111 @@ type SceneDef = {
 // ~$148 price. The "next Nvidia vs most expensive internet provider" close is editorial analysis.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  // 0 HOOK a (no post-hook pause)
-  {dur: 150, kind: 'hook', reveal: [3, 44], text: 'The biggest IPO|of the century', kicker: 'The listing', highlights: [], size: 40, media: {src: 'listing/ls00_floor.mp4', type: 'video', effect: 'in'}},
+  // 0 HOOK a
+  {dur: 59, kind: 'hook', reveal: [3, 30], text: 'The biggest IPO|of the century', kicker: 'The listing', highlights: [], size: 40, media: {src: 'listing/ls00_trading.mp4', type: 'video', effect: 'in'}},
   // 1 HOOK b
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is already|underwater.', highlights: ['underwater.'], size: 46, media: {src: 'listing/ls01_sink.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'is already|underwater.', highlights: ['underwater.'], size: 46, media: {src: 'listing/ls01_underwater.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 110, kind: 'text', reveal: [2, 40], text: 'And the part making it|look valuable', highlights: [], size: 36, media: {src: 'listing/ls02_shine.jpg', type: 'img', effect: 'panL'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'And the part making it|look valuable', highlights: [], size: 36, media: {src: 'listing/ls02_gem.jpg', type: 'img', effect: 'panL'}},
   // 3
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'is the part losing|the most money.', highlights: ['losing'], size: 36, media: {src: 'listing/ls03_burn.jpg', type: 'img', effect: 'in'}},
-  // 4 CARD personal (day one vs IPO)
-  {dur: 150, kind: 'lines', reveal: [0, 22], text: 'DAY ONE: -8%|IPO PRICE: +10%', highlights: ['-8%'], media: {src: 'listing/ls04_portfolio.jpg', type: 'img', effect: 'in'}},
-  // 5
-  {dur: 120, kind: 'text', reveal: [2, 40], text: 'Either way, you’re wondering|what you actually own.', highlights: ['own.'], size: 34, media: {src: 'listing/ls05_box.jpg', type: 'img', effect: 'panR'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'is the part losing|the most money.', highlights: ['losing'], size: 36, media: {src: 'listing/ls03_burning.jpg', type: 'img', effect: 'in'}},
+  // 4 CARD -8%
+  {dur: 106, kind: 'stat', stat: {pre: 'BOUGHT ON DAY ONE', prefix: '−', value: 8, suffix: '%'}, media: {src: 'listing/ls04_phonechart.jpg', type: 'img', effect: 'in'}},
+  // 5 CARD +10%
+  {dur: 101, kind: 'stat', stat: {pre: 'AT THE IPO PRICE', prefix: '+', value: 10, suffix: '%'}, media: {src: 'listing/ls38_gain.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'I’ll show you exactly|what’s inside this company.', highlights: [], size: 36, media: {src: 'listing/ls06_cutaway.jpg', type: 'img', effect: 'in'}},
-  // 7 ask
-  {dur: 110, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'listing/ls07_phone.jpg', type: 'img', effect: 'in'}},
-  // 8
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'Now, a hyped IPO going flat|is nothing new.', highlights: ['flat'], size: 36, media: {src: 'listing/ls08_flat.jpg', type: 'img', effect: 'panL'}},
+  {dur: 95, kind: 'text', reveal: [2, 40], text: 'Either way, you’re wondering|what you actually own.', highlights: ['own.'], size: 34, media: {src: 'listing/ls05_box.jpg', type: 'img', effect: 'panR'}},
+  // 7
+  {dur: 76, kind: 'text', reveal: [2, 40], text: 'I’ll show you exactly|what’s inside this company.', highlights: [], size: 36, media: {src: 'listing/ls06_blueprint.jpg', type: 'img', effect: 'in'}},
+  // 8 ask
+  {dur: 70, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'listing/ls07_phonetap.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 55, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'listing/ls09_breakout.jpg', type: 'img', effect: 'in'}},
-  // 10 STAT 68x
-  {dur: 95, kind: 'stat', stat: {pre: 'TRADING AT', value: 68, suffix: '×', post: 'SALES'}, media: {src: 'listing/ls10_magnifier.jpg', type: 'img', effect: 'in'}},
-  // 11 STAT +92%
-  {dur: 90, kind: 'stat', stat: {pre: 'REVENUE GREW', prefix: '+', value: 92, suffix: '%', post: 'IN ONE QUARTER'}, media: {src: 'listing/ls11_rising.jpg', type: 'img', effect: 'in'}},
-  // 12 STAT $2T
-  {dur: 95, kind: 'stat', stat: {pre: 'WORTH NEARLY', prefix: '$', value: 2, suffix: 'T'}, media: {src: 'listing/ls12_moneypile.jpg', type: 'img', effect: 'in'}},
-  // 13
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'on a business that is|still losing money.', highlights: ['losing'], size: 36, media: {src: 'listing/ls13_leak.jpg', type: 'img', effect: 'panR'}},
+  {dur: 107, kind: 'text', reveal: [2, 40], text: 'Now, a hyped IPO going flat|is nothing new.', highlights: ['flat'], size: 36, media: {src: 'listing/ls08_deflating.jpg', type: 'img', effect: 'panL'}},
+  // 10
+  {dur: 49, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'listing/ls09_standout.jpg', type: 'img', effect: 'in'}},
+  // 11 CARD 68x
+  {dur: 79, kind: 'stat', stat: {pre: 'TRADING AT', value: 68, suffix: '×', post: 'SALES'}, media: {src: 'listing/ls10_magnifier.jpg', type: 'img', effect: 'in'}},
+  // 12 CARD +92%
+  {dur: 107, kind: 'stat', stat: {pre: 'REVENUE GREW', prefix: '+', value: 92, suffix: '%', post: 'IN ONE QUARTER'}, media: {src: 'listing/ls11_rising.jpg', type: 'img', effect: 'in'}},
+  // 13 CARD $2T
+  {dur: 109, kind: 'stat', stat: {pre: 'WORTH NEARLY', prefix: '$', value: 2, suffix: 'T'}, media: {src: 'listing/ls12_skyline.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 55, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'Look at|the three pieces.', highlights: ['three'], size: 46, media: {src: 'listing/ls14_pieces.jpg', type: 'img', effect: 'in'}},
-  // 15 CARD Rockets
-  {dur: 150, kind: 'lines', reveal: [0, 18, 36], text: 'ROCKETS|SALES +29%|LOSS $542M', highlights: ['$542m'], media: {src: 'listing/ls15_rocket.jpg', type: 'img', effect: 'in'}},
-  // 16 CARD Starlink
-  {dur: 140, kind: 'lines', reveal: [0, 18, 36], text: 'STARLINK|SALES +66%|PROFIT $1.7B', highlights: ['$1.7b'], media: {src: 'listing/ls16_satellite.jpg', type: 'img', effect: 'in'}},
-  // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The only one|that makes money.', highlights: ['money.'], size: 42, media: {src: 'listing/ls17_sprout.jpg', type: 'img', effect: 'panL'}},
-  // 18 CARD xAI
-  {dur: 150, kind: 'lines', reveal: [0, 18, 36], text: 'xAI|SALES +247%|LOSS $1.3B', highlights: ['$1.3b'], media: {src: 'listing/ls18_ai.jpg', type: 'img', effect: 'in'}},
-  // 19
-  {dur: 110, kind: 'text', reveal: [2, 40], text: 'The fastest-growing part|is the biggest hole.', highlights: ['hole.'], size: 34, media: {src: 'listing/ls19_hole.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 40], text: 'on a business that is|still losing money.', highlights: ['losing'], size: 36, media: {src: 'listing/ls13_redink.jpg', type: 'img', effect: 'panR'}},
+  // 15
+  {dur: 36, kind: 'text', reveal: [2, 22], enter: 'slideUp', text: 'Look at|the three pieces.', highlights: ['three'], size: 46, media: {src: 'listing/ls14_three.jpg', type: 'img', effect: 'in'}},
+  // 16 CARD Rockets
+  {dur: 149, kind: 'lines', reveal: [0, 18, 36], text: 'ROCKETS|SALES +29%|LOSS $542M', highlights: ['$542m'], media: {src: 'listing/ls15_rocket.jpg', type: 'img', effect: 'in'}},
+  // 17 CARD Starlink
+  {dur: 121, kind: 'lines', reveal: [0, 18, 36], text: 'STARLINK|SALES +66%|PROFIT $1.7B', highlights: ['$1.7b'], media: {src: 'listing/ls16_satellite.jpg', type: 'img', effect: 'in'}},
+  // 18
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'The only one|that makes money.', highlights: ['money.'], size: 42, media: {src: 'listing/ls17_sprout.jpg', type: 'img', effect: 'panL'}},
+  // 19 CARD xAI (thesis peak — held longer)
+  {dur: 228, kind: 'lines', reveal: [0, 20, 44], enter: 'slideUp', text: 'xAI|SALES +247%|LOSS $1.3B', highlights: ['$1.3b'], media: {src: 'listing/ls18_neural.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'listing/ls20_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 24], text: 'The fastest-growing part|is the biggest hole.', highlights: ['hole.'], size: 34, media: {src: 'listing/ls19_pit.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'The valuation isn’t priced|on rockets or satellites.', highlights: [], size: 34, media: {src: 'listing/ls21_crossed.jpg', type: 'img', effect: 'panL'}},
+  {dur: 45, kind: 'text', reveal: [2, 22], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'listing/ls20_gauge.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 60, kind: 'text', reveal: [2, 28], enter: 'slideR', text: 'It’s priced|on the AI unit.', highlights: ['AI'], size: 44, media: {src: 'listing/ls22_chip.jpg', type: 'img', effect: 'in'}},
-  // 23 CARD AI payments
-  {dur: 150, kind: 'lines', reveal: [0, 22], text: 'ALPHABET: $920M/MO|ANTHROPIC: $1.25B/MO', highlights: ['$1.25b/mo'], media: {src: 'listing/ls23_datacentre.jpg', type: 'img', effect: 'in'}},
-  // 24
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'That’s the story|the market is buying.', highlights: ['buying.'], size: 38, media: {src: 'listing/ls24_screen.jpg', type: 'img', effect: 'panR'}},
-  // 25
-  {dur: 120, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect the numbers|to catch up to the hype.', highlights: ['hype.'], size: 32, media: {src: 'listing/ls25_scale.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', reveal: [2, 40], text: 'The valuation isn’t priced|on rockets or satellites.', highlights: [], size: 34, media: {src: 'listing/ls21_notrockets.jpg', type: 'img', effect: 'panL'}},
+  // 23
+  {dur: 67, kind: 'text', reveal: [2, 28], enter: 'slideR', text: 'It’s priced|on the AI unit.', highlights: ['AI'], size: 44, media: {src: 'listing/ls22_aichip.jpg', type: 'img', effect: 'in'}},
+  // 24 CARD Alphabet
+  {dur: 156, kind: 'stat', stat: {pre: 'ALPHABET · DATA CENTRES', prefix: '$', value: 920, suffix: 'M', post: 'A MONTH'}, media: {src: 'listing/ls23_datacenter.jpg', type: 'img', effect: 'in'}},
+  // 25 CARD Anthropic
+  {dur: 97, kind: 'stat', stat: {pre: 'ANTHROPIC', prefix: '$', value: 1.25, decimals: 2, suffix: 'B', post: 'A MONTH'}, media: {src: 'listing/ls39_servers.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 55, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'But run|the maths.', highlights: ['maths.'], size: 48, media: {src: 'listing/ls26_chalk.jpg', type: 'img', effect: 'in'}},
-  // 27 CARD maths
-  {dur: 160, kind: 'lines', reveal: [0, 18, 36], text: '$5,000 → $13,850|BY 2030|50%/YR FOR 5 YEARS', highlights: ['$13,850'], media: {src: 'listing/ls27_timeline.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'That’s the story|the market is buying.', highlights: ['buying.'], size: 38, media: {src: 'listing/ls24_newspaper.jpg', type: 'img', effect: 'panR'}},
+  // 27
+  {dur: 95, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect the numbers|to catch up to the hype.', highlights: ['hype.'], size: 32, media: {src: 'listing/ls25_scale.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And still lose|half its multiple.', highlights: ['half'], size: 42, media: {src: 'listing/ls28_half.jpg', type: 'img', effect: 'panL'}},
-  // 29
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'Does AI spending|hold for five years?', highlights: ['AI'], size: 38, media: {src: 'listing/ls29_spend.jpg', type: 'img', effect: 'in'}},
-  // 30
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'Does the rocket business|ever turn a profit?', highlights: ['profit?'], size: 34, media: {src: 'listing/ls30_rocketledger.jpg', type: 'img', effect: 'in'}},
-  // 31 BLACK
-  {dur: 85, kind: 'impact', text: 'Nobody|actually knows.'},
-  // 32 CARD target/stock
-  {dur: 150, kind: 'lines', reveal: [0, 22], text: 'WALL ST TARGET: $217|THE STOCK: $148', highlights: ['$148'], media: {src: 'listing/ls32_gap.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 22], enter: 'zoom', text: 'But run|the maths.', highlights: ['maths.'], size: 48, media: {src: 'listing/ls26_equations.jpg', type: 'img', effect: 'in'}},
+  // 29 CARD maths target
+  {dur: 149, kind: 'lines', reveal: [0, 22], text: '$5,000 → $13,850|BY 2030', highlights: ['$13,850'], media: {src: 'listing/ls27_coinstacks.jpg', type: 'img', effect: 'in'}},
+  // 30 CARD 50%/yr
+  {dur: 134, kind: 'stat', stat: {pre: 'SPACEX MUST GROW', value: 50, suffix: '%', post: 'A YEAR, FOR 5 YEARS'}, media: {src: 'listing/ls40_compound.jpg', type: 'img', effect: 'in'}},
+  // 31
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'And still lose|half its multiple.', highlights: ['half'], size: 42, media: {src: 'listing/ls28_cutapple.jpg', type: 'img', effect: 'panL'}},
+  // 32
+  {dur: 80, kind: 'text', reveal: [2, 40], text: 'Does AI spending|hold for five years?', highlights: ['AI'], size: 38, media: {src: 'listing/ls29_datacenter.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 110, kind: 'text', reveal: [2, 40], text: 'The gap is a bet on xAI,|not on space.', highlights: ['xAI,'], size: 34, media: {src: 'listing/ls33_bet.jpg', type: 'img', effect: 'panR'}},
-  // 34
-  {dur: 50, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'listing/ls34_point.jpg', type: 'img', effect: 'in'}},
-  // 35
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Is this|the next Nvidia,', highlights: ['Nvidia,'], size: 44, media: {src: 'listing/ls35_gpu.jpg', type: 'img', effect: 'in'}},
-  // 36 RED impact
-  {dur: 120, kind: 'impact', redBg: true, text: 'or the most expensive|internet provider|ever listed?'},
-  // 37 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'listing/ls37_fork.mp4', type: 'video', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'Does the rocket business|ever turn a profit?', highlights: ['profit?'], size: 34, media: {src: 'listing/ls30_rocket.jpg', type: 'img', effect: 'in'}},
+  // 34 BLACK
+  {dur: 35, kind: 'impact', text: 'Nobody|actually knows.'},
+  // 35 CARD target/stock
+  {dur: 152, kind: 'lines', reveal: [0, 22], enter: 'slideUp', text: 'WALL ST TARGET: $217|THE STOCK: $148', highlights: ['$148'], media: {src: 'listing/ls32_chartgap.jpg', type: 'img', effect: 'in'}},
+  // 36
+  {dur: 112, kind: 'text', reveal: [2, 40], text: 'The gap is a bet on xAI,|not on space.', highlights: ['xAI,'], size: 34, media: {src: 'listing/ls33_dice.jpg', type: 'img', effect: 'panR'}},
+  // 37
+  {dur: 31, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'listing/ls34_hand.jpg', type: 'img', effect: 'in'}},
+  // 38
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'Is this|the next Nvidia,', highlights: ['Nvidia,'], size: 44, media: {src: 'listing/ls35_chip.jpg', type: 'img', effect: 'in'}},
+  // 39 RED impact
+  {dur: 91, kind: 'impact', redBg: true, text: 'or the most expensive|internet provider|ever listed?'},
+  // 40 CTA
+  {dur: 40, kind: 'text', reveal: [2, 24], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'listing/ls37_forkroad.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 224, src: 'media/sfx_impact.mp3', vol: 0.44},
+  {at: 330, src: 'media/sfx_impact.mp3', vol: 0.44},
+  {at: 779, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 828, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 907, src: 'media/sfx_impact.mp3', vol: 0.44},
+  {at: 1014, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1254, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1403, src: 'media/sfx_impact.mp3', vol: 0.44},
+  {at: 1585, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2007, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2074, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2230, src: 'media/sfx_impact.mp3', vol: 0.44},
+  {at: 2536, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2685, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3034, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 3069, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3411, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3502, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
