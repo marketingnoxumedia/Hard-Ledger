@@ -4936,6 +4936,58 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$145B refund; the ~6% deficit and "growth will fix it" framing; and the ~7.40% 30-year mortgage vs 3% a
   decade ago. The "most expensive number" / "start of something" thesis is editorial analysis.
 
+- **`ListingReel`** — "The listing" (fast NEWS reel). NEW topic: **the SpaceX IPO — "the biggest IPO of the
+  century" already underwater, and the segment (Rockets / Starlink / xAI) that really drives the
+  valuation.** A/B TWIN of `SpacexReel` ("The belief", the ~$28.5T addressable-market angle); this is the
+  post-IPO valuation / xAI-is-the-real-bet angle. QUESTION/STORY/ANSWER/CTA. Thesis: the stock is down ~8%
+  from day one (up ~10% from the IPO price), trading at ~68x sales, revenue +92% in a quarter, worth nearly
+  ~$2 TRILLION while still losing money. The three pieces — Rockets (sales +29%, LOSS ~$542M), Starlink
+  (sales +66%, PROFIT ~$1.7B, the only profitable unit), xAI (sales +247%, LOSS ~$1.3B, the fastest-growing
+  part is the biggest hole). The valuation isn't priced on rockets or satellites, it's priced on the AI
+  unit: Alphabet reportedly pays it ~$920M/mo and Anthropic ~$1.25B/mo for data centres. The maths: for
+  $5,000 to become $13,850 by 2030, SpaceX must grow ~50%/yr for five years and still lose half its
+  multiple; Wall Street median target ~$217 vs a ~$148 stock — the gap is a bet on xAI, not on space. Binary
+  close ("Is this the next Nvidia, or the most expensive internet provider ever listed? Pick a side below.").
+  **NO post-hook pause** (claim flows straight into the personal beat), mid-reel like+follow ask. 41 beats:
+  39 media (incl. **13 number cards** — three of the two-figure cards were split for pacing: DAY ONE -8%;
+  IPO +10%; 68x; +92%; $2T; ROCKETS +29% / -$542M; STARLINK +66% / +$1.7B; xAI +247% / -$1.3B; ALPHABET
+  $920M/MO; ANTHROPIC $1.25B/MO; $5,000 -> $13,850; 50%/YR; TARGET $217 / STOCK $148), 1 red impact
+  ("...ever listed?"), 1 black ("Nobody actually knows."). **Captions match the VO verbatim** (except the
+  number cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1
+  word-timestamp anchor pass (`public/listing/voiceover.mp3`, ~118s, NO inserted pause); music mixed at 0.17.
+  Entirely its own fresh footage under `public/listing/` — no asset shared with any other reel (incl.
+  SpacexReel). Media credits (Pexels, free license) — videos: an abstract glass tower (7702061), a forked
+  highway (29464615). Photos: a frayed rope into deep water (13010775), a spotlit diamond (38505174), a
+  burning prop bill — "IN PROPS WE TRUST", no real portrait (39463271), a phone candlestick chart — no
+  ticker (34482029), a green bullish chart (38821178), a hand opening a plain box (9594416), a camera
+  patent blueprint (4172287), hands tapping a plain phone (7054507), deflated balloons (5874688), one red
+  piece amid blue (6990048), a magnifier over number columns (4494644), a rising chart (38782895), a vast
+  cityscape (2893771), red ink in a bowl (6273455), three ice cubes (34927438), a generic model rocket +
+  plume (4278308), a satellite dish under stars (6325003), a lone green sprout (4620544), an abstract neural
+  render (17483867), a deep pit/hole (17054321), a red-needle gauge (13785111), a faint vapour trail in sky
+  (27150471), a glowing data-core cube (30547566), blue server blades (17489160), teal fibre-optic patch
+  panel (4373998), a folded newspaper — no masthead (18287623), a Lady Justice scales statue (40342662), a
+  chalkboard of equations (6256072), a field of glowing coins (15854584), ascending block towers (1329317),
+  a black apple with a slice cut out (5395773), top-down server modules (5050305), a retro checkered rocket
+  at sunset (4653960), a candlestick chart with a gap — no ticker (38796150), a red die on felt (15017562),
+  an open palm — hand only, no face (14566859), a red circuit board with an empty socket (6432056). No
+  generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render):** free
+  of company logos/wordmarks — especially NO SpaceX / Starlink / xAI / Tesla / X / Google / Alphabet /
+  Anthropic / OpenAI / Nvidia / NASA / Blue Origin logos or products — NO Elon Musk or any identifiable
+  face, NO readable stock tickers or company names, NO flags, foreign text, banknote portraits, or
+  military/propaganda. Rejected and replaced during sourcing/audit: an unmarked SpaceX Falcon and
+  Shuttle/Saturn-V/Vostok rockets, Dell/HP/IBM/Intel/Nvidia/Nuvoton-branded hardware, "TESLA INC / NASDAQ"
+  and Binance/TradingView/StockRadars tickers, Bitcoin/Ethereum logos, Franklin-portrait cash, foreign
+  currency + Cyrillic/Thai text, Dutch road signs, a partly-obscured face on the "so you tell me" beat
+  (swapped to a hand-only palm), and several intra-reel / cross-reel Pexels-id collisions caught by the
+  ledger check. **UNVERIFIED / ELEVATED RISK — names real companies (SpaceX, Starlink, xAI, Alphabet,
+  Anthropic, Nvidia) and asserts specific, contested financials about a PRIVATE company's IPO; rendered as
+  written but MUST be fact-checked against primary sources before publishing:** the ~8%/~10% price moves;
+  ~68x sales; +92% quarterly revenue; the ~$2T valuation; the Rockets/Starlink/xAI sales-growth and
+  profit/loss figures; the ~$920M/mo (Alphabet) and ~$1.25B/mo (Anthropic) data-centre payments; the
+  $5,000->$13,850 / 50%/yr maths; and the ~$217 target vs ~$148 price. The "next Nvidia vs most expensive
+  internet provider" close is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
