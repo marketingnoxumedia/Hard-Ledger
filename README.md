@@ -5035,6 +5035,54 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~+$75 dollar examples; and the January-lands / late-November-notices timing. The "thermometer / receipt
   for a bad year" framing is editorial analysis.
 
+- **`FieldReel`** — "The field" (fast NEWS reel). NEW topic: **the UK approving the Shell/Equinor Jackdaw
+  North Sea gas field — "the UK is about to approve a gas field it already approved four years ago."**
+  QUESTION/STORY/ANSWER/CTA. Thesis: Jackdaw was approved in 2022, then struck down by a court; the
+  government that pledged no new drilling is waving it through. The numbers: Jackdaw is ~6% of North Sea gas
+  output, but the North Sea is shrinking — in UK demand terms that's ~2%, for roughly ten years, then it's
+  gone. The platform is largely unmanned / remotely operated, so the jobs argument barely applies. The twist:
+  the line is that Jackdaw isn't a *new* licence so the climate pledge "still stands" — technically true,
+  because the court ruling was about the emissions from burning the gas, which haven't changed. Gas is priced
+  globally, so ~2% likely doesn't move your bill. Rosebank decision due later this year. Binary close ("Energy
+  security, or a very expensive way to keep a pledge technically intact? Pick a side below."). **NO post-hook
+  pause** (claim flows straight into the personal beat), mid-reel like+follow ask. 42 beats: 39 media (incl.
+  **4 number cards** — APPROVED 2022 / STRUCK DOWN BY A COURT; ~6% of North Sea gas output; ~2% in UK demand
+  terms; ~10 years), 1 red impact ("or a very expensive way|to keep a pledge|technically intact?"), 1 black
+  ("Technically|true."). **Captions match the VO verbatim** (except the number cards; spoken figures as
+  numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/field/voiceover.mp3`, ~117s, NO inserted pause); music mixed at 0.17. Entirely its own fresh
+  footage under `public/field/` — no asset shared with any other reel. Media credits (Pexels, free license) —
+  videos: an offshore production platform at dusk (11363492), an aerial forked road/junction (40195249).
+  Photos: an offshore rig deck "APPROVED"-style doc beat (8850720), a gas flame/burner (5691944), a domestic
+  gas meter (38730229), industrial pipework (36794533), a magnifier over detail (31222825), a hand signing a
+  blank document (8730977), a hand on a blank phone (6373084), a grey North Sea horizon (19926696), one
+  standout object (38514396), an offshore rig silhouette (15961091), a wooden gavel (37732186), a plain
+  government-style building facade (34083516), a green traffic light (11574912), a page of figures (7688365),
+  a mock pie chart — generic "Company 01/02/03", no real brand (7947711), a bold "big" visual (7762112), a
+  shrinking/receding subject (36500449), a thin sliver/wedge (30836855), a ten-year/calendar cue (5417621),
+  an empty/"gone" frame (34389698), a warning sign (7570526), an empty control room / unmanned platform
+  (25819964), a remote-control console (39536057), hard-hat/jobs b-roll — no faces (8488037), a "barely"
+  minimal visual (8488021), a climate/sky beat (37577545), a blank permit document — no letterhead/seal
+  (8441817), a handshake shown as hands only — no faces (9301860), a smokestack plume (11959368), a gas flare
+  (31316362), gas-meter dials (8872400), a globe (1098518), an offshore rig on the horizon (33366290), an
+  official handshake shown hands-only (5439460), a thin sliver (6402424), a hand pointing toward the viewer —
+  no face (22747400), electricity pylons at dusk (35158378), a bronze Lady Justice / scales statue against
+  open sky — no face, no landmark (27380388). No generated graphics this reel. **Brand-safety (screened hard
+  at source and from the FINAL render):** FACE-FREE (officials/workers shown via hands, backs, hard-hats and
+  objects only — the two justice/handshake beats use a statue and hands), BRAND-FREE (NO Shell / Equinor
+  wordmarks, logos, rig livery or project branding — all footage is generic North Sea / gas / legal b-roll),
+  FLAG-FREE, and free of military imagery, banknote portraits, foreign text and foreign signage; the one
+  on-screen chart is generic mock data ("Company 01/02/03"). Rejected and replaced during sourcing/audit: a
+  person-behind-hand shot (swapped to a hand-only pointing shot, 22747400), a duplicate gas-meter id that
+  collided with another field beat (swapped to a paper "INVOICE" meter-dials shot, 8872400), and several
+  intra-reel / cross-reel Pexels-id collisions caught by the ledger check. **UNVERIFIED — asserts specific,
+  checkable, and politically contested claims about Shell, Equinor, Jackdaw, Rosebank and the UK government;
+  rendered as written but MUST be fact-checked against primary sources before publishing:** that the field was
+  approved in 2022 and struck down by a court; the ~6% of North Sea output, ~2% of UK demand and ~10-year
+  lifespan figures; that the platform will be largely unmanned/remotely operated; the "not a new licence" /
+  emissions-ruling framing; and the Rosebank "decision due later this year" timing. The "expensive way to keep
+  a pledge technically intact" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

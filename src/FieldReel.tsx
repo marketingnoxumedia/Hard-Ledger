@@ -109,92 +109,105 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK a
-  {dur: 90, kind: 'hook', reveal: [3, 40], text: 'The UK is about to approve|a gas field', kicker: 'The field', highlights: [], size: 38, media: {src: 'field/fi00.jpg', type: 'video', effect: 'in'}},
+  {dur: 97, kind: 'hook', reveal: [3, 40], text: 'The UK is about to approve|a gas field', kicker: 'The field', highlights: [], size: 38, media: {src: 'field/fi00_platform.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'it already approved|four years ago.', highlights: ['four'], size: 42, media: {src: 'field/fi01.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'it already approved|four years ago.', highlights: ['four'], size: 42, media: {src: 'field/fi01_approved.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And it’ll cover 2%|of what the country burns.', highlights: ['2%'], size: 36, media: {src: 'field/fi02.jpg', type: 'img', effect: 'panL'}},
+  {dur: 116, kind: 'text', reveal: [2, 40], text: 'And it’ll cover 2%|of what the country burns.', highlights: ['2%'], size: 36, media: {src: 'field/fi02_flame.jpg', type: 'img', effect: 'panL'}},
   // 3
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'If you’re paying|a British energy bill,', highlights: [], size: 36, media: {src: 'field/fi03.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'If you’re paying|a British energy bill,', highlights: [], size: 36, media: {src: 'field/fi03_meter.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'this is the project|you’ve been told will help.', highlights: ['help.'], size: 34, media: {src: 'field/fi04.jpg', type: 'img', effect: 'panR'}},
+  {dur: 74, kind: 'text', reveal: [2, 40], text: 'this is the project|you’ve been told will help.', highlights: ['help.'], size: 34, media: {src: 'field/fi04_pipeline.jpg', type: 'img', effect: 'panR'}},
   // 5
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Look at the size of it|before you believe that.', highlights: ['size'], size: 34, media: {src: 'field/fi05.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 40], text: 'Look at the size of it|before you believe that.', highlights: ['size'], size: 34, media: {src: 'field/fi05_magnifier.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'I’ll show you exactly|what’s being signed off.', highlights: ['signed'], size: 36, media: {src: 'field/fi06.jpg', type: 'img', effect: 'panL'}},
+  {dur: 88, kind: 'text', reveal: [2, 40], text: 'I’ll show you exactly|what’s being signed off.', highlights: ['signed'], size: 36, media: {src: 'field/fi06_signing.jpg', type: 'img', effect: 'panL'}},
   // 7 ask
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'field/fi07.jpg', type: 'img', effect: 'in'}},
+  {dur: 130, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'field/fi07_phone.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Now, a North Sea gas field|is nothing new.', highlights: [], size: 34, media: {src: 'field/fi08.jpg', type: 'img', effect: 'panL'}},
+  {dur: 85, kind: 'text', reveal: [2, 40], text: 'Now, a North Sea gas field|is nothing new.', highlights: [], size: 34, media: {src: 'field/fi08_northsea.jpg', type: 'img', effect: 'panL'}},
   // 9
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'field/fi09.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'field/fi09_standout.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Because it’s Shell|and Equinor’s Jackdaw.', highlights: ['Jackdaw.'], size: 36, media: {src: 'field/fi10.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 40], text: 'Because it’s Shell|and Equinor’s Jackdaw.', highlights: ['Jackdaw.'], size: 36, media: {src: 'field/fi10_rig.jpg', type: 'img', effect: 'in'}},
   // 11 CARD 2022
-  {dur: 90, kind: 'lines', reveal: [0, 22], text: 'APPROVED: 2022|STRUCK DOWN BY A COURT', highlights: ['2022'], media: {src: 'field/fi11.jpg', type: 'img', effect: 'in'}},
+  {dur: 194, kind: 'lines', reveal: [0, 22], text: 'APPROVED: 2022|STRUCK DOWN BY A COURT', highlights: ['2022'], media: {src: 'field/fi11_gavel.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And the government that|pledged no new drilling', highlights: [], size: 32, media: {src: 'field/fi12.jpg', type: 'img', effect: 'panR'}},
+  {dur: 125, kind: 'text', reveal: [2, 40], text: 'And the government that|pledged no new drilling', highlights: [], size: 32, media: {src: 'field/fi12_building.jpg', type: 'img', effect: 'panR'}},
   // 13
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'is the one|waving it through.', highlights: ['waving'], size: 42, media: {src: 'field/fi13.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is the one|waving it through.', highlights: ['waving'], size: 42, media: {src: 'field/fi13_greenlight.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 90, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at the numbers.', highlights: ['numbers.'], size: 46, media: {src: 'field/fi14.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at the numbers.', highlights: ['numbers.'], size: 46, media: {src: 'field/fi14_numbers.jpg', type: 'img', effect: 'in'}},
   // 15 CARD 6%
-  {dur: 90, kind: 'stat', stat: {pre: 'ABOUT', value: 6, suffix: '%', post: 'OF NORTH SEA GAS OUTPUT'}, media: {src: 'field/fi15.jpg', type: 'img', effect: 'in'}},
+  {dur: 122, kind: 'stat', stat: {pre: 'ABOUT', value: 6, suffix: '%', post: 'OF NORTH SEA GAS OUTPUT'}, media: {src: 'field/fi15_output.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 90, kind: 'text', reveal: [2], text: 'Sounds big.', highlights: ['big.'], size: 52, media: {src: 'field/fi16.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'Sounds big.', highlights: ['big.'], size: 52, media: {src: 'field/fi16_big.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'But the North Sea|is shrinking.', highlights: ['shrinking.'], size: 42, media: {src: 'field/fi17.jpg', type: 'img', effect: 'panL'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'But the North Sea|is shrinking.', highlights: ['shrinking.'], size: 42, media: {src: 'field/fi17_shrinking.jpg', type: 'img', effect: 'panL'}},
   // 18 CARD 2%
-  {dur: 90, kind: 'stat', stat: {pre: 'IN UK DEMAND TERMS', value: 2, suffix: '%'}, media: {src: 'field/fi18.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'stat', stat: {pre: 'IN UK DEMAND TERMS', value: 2, suffix: '%'}, media: {src: 'field/fi18_sliver.jpg', type: 'img', effect: 'in'}},
   // 19 CARD 10yr
-  {dur: 90, kind: 'stat', stat: {pre: 'FOR ROUGHLY', value: 10, post: 'YEARS'}, media: {src: 'field/fi19.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'stat', stat: {pre: 'FOR ROUGHLY', value: 10, post: 'YEARS'}, media: {src: 'field/fi19_decade.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 90, kind: 'text', reveal: [2], text: 'Then it’s gone.', highlights: ['gone.'], size: 50, media: {src: 'field/fi20.jpg', type: 'img', effect: 'panR'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'Then it’s gone.', highlights: ['gone.'], size: 50, media: {src: 'field/fi20_gone.jpg', type: 'img', effect: 'panR'}},
   // 21
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'field/fi21.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'field/fi21_warning.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'The platform will be|largely unmanned.', highlights: ['unmanned.'], size: 38, media: {src: 'field/fi22.jpg', type: 'img', effect: 'panL'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'The platform will be|largely unmanned.', highlights: ['unmanned.'], size: 38, media: {src: 'field/fi22_unmanned.jpg', type: 'img', effect: 'panL'}},
   // 23
-  {dur: 90, kind: 'text', reveal: [2], enter: 'slideR', text: 'Remotely operated.', highlights: ['Remotely'], size: 48, media: {src: 'field/fi23.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], enter: 'slideR', text: 'Remotely operated.', highlights: ['Remotely'], size: 48, media: {src: 'field/fi23_control.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'So the jobs argument,|the one used every time', highlights: ['jobs'], size: 34, media: {src: 'field/fi24.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 40], text: 'So the jobs argument,|the one used every time', highlights: ['jobs'], size: 34, media: {src: 'field/fi24_jobs.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'a field gets approved,|barely applies here.', highlights: ['barely'], size: 36, media: {src: 'field/fi25.jpg', type: 'img', effect: 'panR'}},
+  {dur: 107, kind: 'text', reveal: [2, 40], text: 'a field gets approved,|barely applies here.', highlights: ['barely'], size: 36, media: {src: 'field/fi25_barely.jpg', type: 'img', effect: 'panR'}},
   // 26
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a straight|answer on the climate pledge.', highlights: ['pledge.'], size: 32, media: {src: 'field/fi26.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a straight|answer on the climate pledge.', highlights: ['pledge.'], size: 32, media: {src: 'field/fi26_climate.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Instead, the line is that Jackdaw|isn’t a new licence,', highlights: ['licence,'], size: 32, media: {src: 'field/fi27.jpg', type: 'img', effect: 'panL'}},
+  {dur: 124, kind: 'text', reveal: [2, 40], text: 'Instead, the line is that Jackdaw|isn’t a new licence,', highlights: ['licence,'], size: 32, media: {src: 'field/fi27_permit-document.jpg', type: 'img', effect: 'panL'}},
   // 28
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'so the promise|still stands.', highlights: ['stands.'], size: 42, media: {src: 'field/fi28.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'so the promise|still stands.', highlights: ['stands.'], size: 42, media: {src: 'field/fi28_handshake-hands.jpg', type: 'img', effect: 'in'}},
   // 29 BLACK
-  {dur: 90, kind: 'impact', text: 'Technically|true.'},
-  // 30
-  {dur: 90, kind: 'text', reveal: [2, 40, 80], text: 'And the court ruling last year|was about the emissions|from burning the gas,', highlights: ['emissions'], size: 30, media: {src: 'field/fi30.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'impact', text: 'Technically|true.'},
+  // 30a
+  {dur: 108, kind: 'text', reveal: [2, 40], text: 'And the strange part is that|the court ruling last year', highlights: ['strange'], size: 34, media: {src: 'field/fi41_courthouse.jpg', type: 'img', effect: 'in'}},
+  // 30b
+  {dur: 80, kind: 'text', reveal: [2, 40], text: 'was about the emissions|from burning the gas,', highlights: ['emissions'], size: 36, media: {src: 'field/fi30_smokestack-plume.jpg', type: 'img', effect: 'panL'}},
   // 31
-  {dur: 90, kind: 'text', reveal: [2], enter: 'zoom', text: 'which haven’t changed.', highlights: ['changed.'], size: 46, media: {src: 'field/fi31.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], enter: 'zoom', text: 'which haven’t changed.', highlights: ['changed.'], size: 46, media: {src: 'field/fi31_gas-flare.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Does 2% move|your bill at all?', highlights: ['2%'], size: 38, media: {src: 'field/fi32.jpg', type: 'img', effect: 'panR'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'Does 2% move|your bill at all?', highlights: ['2%'], size: 38, media: {src: 'field/fi32_gas-meter-dials.jpg', type: 'img', effect: 'panR'}},
   // 33
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Gas is priced globally,|so probably not.', highlights: ['globally,'], size: 36, media: {src: 'field/fi33.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 40], text: 'Gas is priced globally,|so probably not.', highlights: ['globally,'], size: 36, media: {src: 'field/fi33_globe.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Is Rosebank next?|Decision due later this year.', highlights: ['Rosebank'], size: 34, media: {src: 'field/fi34.jpg', type: 'img', effect: 'panL'}},
+  {dur: 110, kind: 'text', reveal: [2, 40], text: 'Is Rosebank next?|Decision due later this year.', highlights: ['Rosebank'], size: 34, media: {src: 'field/fi34_rig-horizon.jpg', type: 'img', effect: 'panL'}},
   // 35
-  {dur: 90, kind: 'text', reveal: [2, 40, 80], text: 'Four years, one court case,|two ministers in Aberdeen|on Wednesday.', highlights: ['Aberdeen'], size: 30, media: {src: 'field/fi35.jpg', type: 'img', effect: 'in'}},
+  {dur: 136, kind: 'text', reveal: [2, 40, 80], text: 'Four years, one court case,|two ministers in Aberdeen|on Wednesday.', highlights: ['Aberdeen'], size: 30, media: {src: 'field/fi35_official-handshake.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'For 2% of demand,|for a decade.', highlights: ['decade.'], size: 40, media: {src: 'field/fi36.jpg', type: 'img', effect: 'panR'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'For 2% of demand,|for a decade.', highlights: ['decade.'], size: 40, media: {src: 'field/fi36_thin-sliver.jpg', type: 'img', effect: 'panR'}},
   // 37
-  {dur: 90, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'field/fi37.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'field/fi37_hand-pointing.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 90, kind: 'text', reveal: [2], text: 'Energy security,', highlights: ['security,'], size: 46, media: {src: 'field/fi38.jpg', type: 'img', effect: 'panL'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'Energy security,', highlights: ['security,'], size: 46, media: {src: 'field/fi38_pylons-dusk.jpg', type: 'img', effect: 'panL'}},
   // 39 RED
-  {dur: 90, kind: 'impact', redBg: true, text: 'or a very expensive way|to keep a pledge|technically intact?'},
+  {dur: 142, kind: 'impact', redBg: true, text: 'or a very expensive way|to keep a pledge|technically intact?'},
   // 40 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'field/fi40.jpg', type: 'video', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'field/fi40_forked-road.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 810, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 944, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1333, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1367, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1576, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1682, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1903, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2477, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2701, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 3340, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3482, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
