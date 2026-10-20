@@ -4988,6 +4988,53 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   $5,000->$13,850 / 50%/yr maths; and the ~$217 target vs ~$148 price. The "next Nvidia vs most expensive
   internet provider" close is editorial analysis.
 
+- **`RaiseReel`** — "The raise" (fast NEWS reel). NEW topic: **the ~2026 US cost-of-living adjustment (COLA)
+  — "twenty million Americans just got the biggest pay raise in four years, and almost none of them will
+  feel it."** Social Security / VA / military-retiree COLA. QUESTION/STORY/ANSWER/CTA. Thesis: the raise is
+  ~3.6% (vs ~2.8% last year, ~2.5% the year before — the biggest jump since the 2022 inflation spike). In
+  dollars: a retiree on ~$2,500/mo gets ~+$90, a veteran on ~$1,500 VA gets ~+$54, the average Social
+  Security cheque ~+$75. The twist: the COLA isn't a reward, it's a thermometer — it's set by how much
+  prices already rose, so a bigger raise just means prices rose faster; the cheque is catching up to the
+  bill, designed to leave you exactly where you were. If your rent/groceries/insurance rose faster than
+  3.6%, the raise is a cut. It lands in January (notices late November) and disappears into the same prices
+  that created it. Binary close ("Is a 3.6% raise good news, or a receipt for a bad year? Pick a side
+  below."). **NO post-hook pause** (claim flows straight into the personal beat), mid-reel like+follow ask.
+  38 beats: 35 media (incl. **5 number cards** — 3.6% this year; 2.8% last year / 2.5% the year before;
+  retiree $2,500/mo -> +$90; veteran $1,500 VA -> +$54; avg SS cheque +$75), 1 red impact ("or a receipt|
+  for a bad year?"), 2 black ("It's a|thermometer." / "Prices rose|faster."). **Captions match the VO
+  verbatim** (except the number cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO
+  via a scribe_v1 word-timestamp anchor pass (`public/raise/voiceover.mp3`, ~110s, NO inserted pause); music
+  mixed at 0.17. Entirely its own fresh footage under `public/raise/` — no asset shared with any other reel.
+  Media credits (Pexels, free license) — videos: an overhead crosswalk crowd (30935166), an aerial forked
+  road (30013606). Photos: a tablet chart — no ticker (5833843), two open empty palms (2258248), worn
+  leather boots (817052), a hand holding a blank black card (6800944), an empty wallet (36343446), a hand +
+  plain pen over a budget breakdown (7054415), hands on a blank phone (6611934), a hand on a radiator
+  thermostat (12644994), one white egg among brown (8236170), a red "%" balloon (5625107), ascending coin
+  stacks (6289058), an inflation-spike candlestick chart — no ticker (38892301), a magnifier over bar
+  charts (7948058), hands counting a US cash roll — bill BACKS, no portrait (7680555), a dog-tag chain
+  (147637), a black envelope + blank card (6373188), a red crack on black (12051245), a gold trophy
+  (2098604), red "SALE" tags (7986985), a bold arrow sign (6833580), stacks of kraft envelopes/bills
+  (29534962), a red running track + finish line (34368845), feet on a treadmill (5327545), a dartboard
+  bullseye (131017), a template "Agreement" with bracketed placeholders — no real company (7841818), an
+  apartment facade (11631278), groceries spilling from a bag (7705352), hands cutting paper with scissors
+  (7015913), a "January" calendar page (6193328), a residential mailbox bank (11455225), a B&W whirlpool
+  drain (39721532), a hand reaching toward the viewer — no face (40325295), a wooden mannequin hand holding
+  a "?" tile (10981245). No generated graphics this reel. **Brand-safety (screened hard at source and from
+  the FINAL render):** FACE-FREE (retirees/veterans/seniors shown via hands, backs and objects only),
+  SEAL-FREE (NO Social Security Administration / VA / IRS / Treasury seals or letterhead), FLAG-FREE, and
+  free of company logos/wordmarks, military insignia, banknote portraits (US bills are edge-on / backs),
+  foreign text and foreign currency. Rejected and replaced during sourcing/audit: a dog-tags shot with a
+  soldier's face, Franklin/Jackson-portrait cash and a Treasury-seal $20, a crowd/calendar/coin pile with
+  foreign ("Janeiro"/Cyrillic/euro/złoty) text, Nike/Jenga/Goldfish/HP/Yandex and other brand marks, a
+  "PERMANENT MARKER" branded pen on an off-topic geographic market-share pie (swapped to a clean budget
+  breakdown), a hand with a person behind it (swapped to a hand-only shot), and several intra-reel /
+  cross-reel Pexels-id collisions caught by the ledger check. **UNVERIFIED — asserts specific, checkable
+  figures about the US COLA; rendered as written but MUST be fact-checked against primary sources (SSA/VA)
+  before publishing:** the "~20 million" affected and "biggest raise in four years"; the ~3.6% / ~2.8% /
+  ~2.5% COLA rates and "biggest jump since the 2022 spike"; the $2,500->+$90, $1,500->+$54 and avg-cheque
+  ~+$75 dollar examples; and the January-lands / late-November-notices timing. The "thermometer / receipt
+  for a bad year" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
