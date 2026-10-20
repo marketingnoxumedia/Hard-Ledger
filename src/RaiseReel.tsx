@@ -104,99 +104,99 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK a (no post-hook pause)
-  {dur: 127, kind: 'hook', reveal: [3, 40], text: 'Twenty million Americans|got the biggest pay raise', kicker: 'The raise', highlights: [], size: 36, media: {src: 'raise/ra00_crowd.mp4', type: 'video', effect: 'in'}},
+  {dur: 115, kind: 'hook', reveal: [3, 40], text: 'Twenty million Americans|got the biggest pay raise', kicker: 'The raise', highlights: [], size: 36, media: {src: 'raise/ra00_crowd.mp4', type: 'video', effect: 'in'}},
   // 1 HOOK b
-  {dur: 43, kind: 'text', reveal: [2], text: 'in four years.', highlights: ['four'], size: 52, media: {src: 'raise/ra01_raise.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'in four years.', highlights: ['four'], size: 52, media: {src: 'raise/ra01_raise.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'And almost none of them|will feel it.', highlights: ['feel'], size: 42, media: {src: 'raise/ra02_emptyhands.jpg', type: 'img', effect: 'panL'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'And almost none of them|will feel it.', highlights: ['feel'], size: 42, media: {src: 'raise/ra02_emptyhands.jpg', type: 'img', effect: 'panL'}},
   // 3 make it personal
-  {dur: 88, kind: 'text', reveal: [2, 40], text: 'If you’re a military retiree,|a disabled veteran,', highlights: [], size: 34, media: {src: 'raise/ra03_boots.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 40], text: 'If you’re a military retiree,|a disabled veteran,', highlights: [], size: 34, media: {src: 'raise/ra03_boots.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 110, kind: 'text', reveal: [2, 40], text: 'or on Social Security,|this is your money.', highlights: ['money.'], size: 36, media: {src: 'raise/ra04_card.jpg', type: 'img', effect: 'panR'}},
+  {dur: 100, kind: 'text', reveal: [2, 40], text: 'or on Social Security,|this is your money.', highlights: ['money.'], size: 36, media: {src: 'raise/ra04_card.jpg', type: 'img', effect: 'panR'}},
   // 5
-  {dur: 81, kind: 'text', reveal: [2, 40], text: 'And by the time it lands,|it’s already spent.', highlights: ['spent.'], size: 36, media: {src: 'raise/ra05_wallet.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 40], text: 'And by the time it lands,|it’s already spent.', highlights: ['spent.'], size: 36, media: {src: 'raise/ra05_wallet.jpg', type: 'img', effect: 'in'}},
   // 6 promise
-  {dur: 52, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|where it goes.', highlights: ['goes.'], size: 40, media: {src: 'raise/ra06_breakdown.jpg', type: 'img', effect: 'panL'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|where it goes.', highlights: ['goes.'], size: 40, media: {src: 'raise/ra06_breakdown.jpg', type: 'img', effect: 'panL'}},
   // 7 ask
-  {dur: 91, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'raise/ra07_phone.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'raise/ra07_phone.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 139, kind: 'text', reveal: [2, 40], text: 'Now, a cost-of-living bump|every January is nothing new.', highlights: [], size: 34, media: {src: 'raise/ra08_thermostat.jpg', type: 'img', effect: 'panL'}},
+  {dur: 126, kind: 'text', reveal: [2, 40], text: 'Now, a cost-of-living bump|every January is nothing new.', highlights: [], size: 34, media: {src: 'raise/ra08_thermostat.jpg', type: 'img', effect: 'panL'}},
   // 9
-  {dur: 46, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'raise/ra09_standout.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'raise/ra09_standout.jpg', type: 'img', effect: 'in'}},
   // 10 CARD 3.6%
-  {dur: 71, kind: 'stat', stat: {pre: 'THIS YEAR’S RAISE', value: 3.6, decimals: 1, suffix: '%'}, media: {src: 'raise/ra10_percent.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'stat', stat: {pre: 'THIS YEAR’S RAISE', value: 3.6, decimals: 1, suffix: '%'}, media: {src: 'raise/ra10_percent.jpg', type: 'img', effect: 'in'}},
   // 11 CARD 2.8% / 2.5%
-  {dur: 147, kind: 'lines', reveal: [0, 22], text: 'LAST YEAR: 2.8%|YEAR BEFORE: 2.5%', highlights: ['2.5%'], media: {src: 'raise/ra11_bars.jpg', type: 'img', effect: 'in'}},
+  {dur: 133, kind: 'lines', reveal: [0, 22], text: 'LAST YEAR: 2.8%|YEAR BEFORE: 2.5%', highlights: ['2.5%'], media: {src: 'raise/ra11_bars.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 163, kind: 'text', reveal: [2, 40], text: 'And because it’s the biggest jump|since the inflation spike of 2022.', highlights: ['2022.'], size: 30, media: {src: 'raise/ra12_spike.jpg', type: 'img', effect: 'panR'}},
+  {dur: 148, kind: 'text', reveal: [2, 40], text: 'And because it’s the biggest jump|since the inflation spike of 2022.', highlights: ['2022.'], size: 30, media: {src: 'raise/ra12_spike.jpg', type: 'img', effect: 'panR'}},
   // 13
-  {dur: 65, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'Look at|the actual numbers.', highlights: ['numbers.'], size: 46, media: {src: 'raise/ra13_ledger.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'Look at|the actual numbers.', highlights: ['numbers.'], size: 46, media: {src: 'raise/ra13_ledger.jpg', type: 'img', effect: 'in'}},
   // 14 CARD retiree
-  {dur: 185, kind: 'lines', reveal: [0, 22], text: 'RETIREE ON $2,500/MO|GETS ABOUT +$90', highlights: ['+$90'], media: {src: 'raise/ra14_hands.jpg', type: 'img', effect: 'in'}},
+  {dur: 168, kind: 'lines', reveal: [0, 22], text: 'RETIREE ON $2,500/MO|GETS ABOUT +$90', highlights: ['+$90'], media: {src: 'raise/ra14_hands.jpg', type: 'img', effect: 'in'}},
   // 15 CARD veteran
-  {dur: 136, kind: 'lines', reveal: [0, 22], text: 'VETERAN ON $1,500 VA|GETS ABOUT +$54', highlights: ['+$54'], media: {src: 'raise/ra15_veteran.jpg', type: 'img', effect: 'in'}},
+  {dur: 123, kind: 'lines', reveal: [0, 22], text: 'VETERAN ON $1,500 VA|GETS ABOUT +$54', highlights: ['+$54'], media: {src: 'raise/ra15_veteran.jpg', type: 'img', effect: 'in'}},
   // 16 CARD avg cheque
-  {dur: 112, kind: 'stat', stat: {pre: 'AVG SOCIAL SECURITY CHEQUE', prefix: '+$', value: 75}, media: {src: 'raise/ra16_cheque.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'stat', stat: {pre: 'AVG SOCIAL SECURITY CHEQUE', prefix: '+$', value: 75}, media: {src: 'raise/ra16_cheque.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'raise/ra17_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'raise/ra17_warning.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 78, kind: 'text', reveal: [2, 28], text: 'That 3.6%|isn’t a reward.', highlights: ['reward.'], size: 42, media: {src: 'raise/ra18_trophy.jpg', type: 'img', effect: 'panL'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'That 3.6%|isn’t a reward.', highlights: ['reward.'], size: 42, media: {src: 'raise/ra18_trophy.jpg', type: 'img', effect: 'panL'}},
   // 19 BLACK
-  {dur: 35, kind: 'impact', text: 'It’s a|thermometer.'},
+  {dur: 32, kind: 'impact', text: 'It’s a|thermometer.'},
   // 20
-  {dur: 101, kind: 'text', reveal: [2, 40], text: 'The raise is set by|how much prices went up.', highlights: ['prices'], size: 34, media: {src: 'raise/ra20_pricetags.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 40], text: 'The raise is set by|how much prices went up.', highlights: ['prices'], size: 34, media: {src: 'raise/ra20_pricetags.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 74, kind: 'text', reveal: [2, 28], text: 'So a bigger raise|means one thing:', highlights: [], size: 40, media: {src: 'raise/ra21_arrow.jpg', type: 'img', effect: 'panR'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'So a bigger raise|means one thing:', highlights: [], size: 40, media: {src: 'raise/ra21_arrow.jpg', type: 'img', effect: 'panR'}},
   // 22 BLACK
-  {dur: 62, kind: 'impact', text: 'Prices rose|faster.'},
+  {dur: 56, kind: 'impact', text: 'Prices rose|faster.'},
   // 23
-  {dur: 85, kind: 'text', reveal: [2, 40], enter: 'slideR', text: 'The cheque is just|catching up to the bill.', highlights: ['bill.'], size: 36, media: {src: 'raise/ra23_bills.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 40], enter: 'slideR', text: 'The cheque is just|catching up to the bill.', highlights: ['bill.'], size: 36, media: {src: 'raise/ra23_bills.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 94, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a raise|to leave you ahead.', highlights: ['ahead.'], size: 34, media: {src: 'raise/ra24_finish.jpg', type: 'img', effect: 'panL'}},
+  {dur: 86, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a raise|to leave you ahead.', highlights: ['ahead.'], size: 34, media: {src: 'raise/ra24_finish.jpg', type: 'img', effect: 'panL'}},
   // 25
-  {dur: 134, kind: 'text', reveal: [2, 40, 80], text: 'But this one is designed|to leave you exactly|where you were.', highlights: ['exactly'], size: 32, media: {src: 'raise/ra25_treadmill.jpg', type: 'img', effect: 'in'}},
+  {dur: 122, kind: 'text', reveal: [2, 40, 80], text: 'But this one is designed|to leave you exactly|where you were.', highlights: ['exactly'], size: 32, media: {src: 'raise/ra25_treadmill.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 34, kind: 'text', reveal: [2, 28], text: 'That’s the whole|point of it.', highlights: ['point'], size: 44, media: {src: 'raise/ra26_bullseye.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2, 28], text: 'That’s the whole|point of it.', highlights: ['point'], size: 44, media: {src: 'raise/ra26_bullseye.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 110, kind: 'text', reveal: [2, 40], text: 'And the strange part is that|nobody announces it that way.', highlights: ['nobody'], size: 32, media: {src: 'raise/ra27_fineprint.jpg', type: 'img', effect: 'panR'}},
+  {dur: 100, kind: 'text', reveal: [2, 40], text: 'And the strange part is that|nobody announces it that way.', highlights: ['nobody'], size: 32, media: {src: 'raise/ra27_fineprint.jpg', type: 'img', effect: 'panR'}},
   // 28
-  {dur: 118, kind: 'text', reveal: [2, 28], text: 'Does your rent go up|3.6%, or more?', highlights: ['3.6%,'], size: 38, media: {src: 'raise/ra28_apartment.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 28], text: 'Does your rent go up|3.6%, or more?', highlights: ['3.6%,'], size: 38, media: {src: 'raise/ra28_apartment.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 52, kind: 'text', reveal: [2, 28], text: 'Your groceries?|Your insurance?', highlights: [], size: 44, media: {src: 'raise/ra29_cart.jpg', type: 'img', effect: 'panL'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'Your groceries?|Your insurance?', highlights: [], size: 44, media: {src: 'raise/ra29_cart.jpg', type: 'img', effect: 'panL'}},
   // 30
-  {dur: 82, kind: 'text', reveal: [2, 40], text: 'Because if they went up faster,|the raise is a cut.', highlights: ['cut.'], size: 34, media: {src: 'raise/ra30_scissors.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 40], text: 'Because if they went up faster,|the raise is a cut.', highlights: ['cut.'], size: 34, media: {src: 'raise/ra30_scissors.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'It lands|in January.', highlights: ['January.'], size: 46, media: {src: 'raise/ra31_january.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'It lands|in January.', highlights: ['January.'], size: 46, media: {src: 'raise/ra31_january.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'Notices go out|in late November.', highlights: ['November.'], size: 40, media: {src: 'raise/ra32_mailbox.jpg', type: 'img', effect: 'panR'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'Notices go out|in late November.', highlights: ['November.'], size: 40, media: {src: 'raise/ra32_mailbox.jpg', type: 'img', effect: 'panR'}},
   // 33
-  {dur: 145, kind: 'text', reveal: [2, 40, 80], text: 'And the raise disappears|into the same prices|that created it.', highlights: ['disappears'], size: 32, media: {src: 'raise/ra33_coins.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 40, 80], text: 'And the raise disappears|into the same prices|that created it.', highlights: ['disappears'], size: 32, media: {src: 'raise/ra33_coins.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 27, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'raise/ra34_point.jpg', type: 'img', effect: 'panL'}},
+  {dur: 24, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'raise/ra34_point.jpg', type: 'img', effect: 'panL'}},
   // 35
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Is a 3.6% raise|good news,', highlights: ['good'], size: 42, media: {src: 'raise/ra35_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'Is a 3.6% raise|good news,', highlights: ['good'], size: 42, media: {src: 'raise/ra35_question.jpg', type: 'img', effect: 'in'}},
   // 36 RED impact
-  {dur: 50, kind: 'impact', redBg: true, text: 'or a receipt|for a bad year?'},
+  {dur: 45, kind: 'impact', redBg: true, text: 'or a receipt|for a bad year?'},
   // 37 CTA
-  {dur: 40, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'raise/ra37_fork.mp4', type: 'video', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'raise/ra37_fork.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 811, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 857, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 928, src: 'media/sfx_impact.mp3', vol: 0.44},
-  {at: 1238, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1303, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1488, src: 'media/sfx_impact.mp3', vol: 0.44},
-  {at: 1624, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1882, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 2092, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 2154, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 2863, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 3216, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3266, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 737, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 779, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 844, src: 'media/sfx_impact.mp3', vol: 0.44},
+  {at: 1125, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1185, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1353, src: 'media/sfx_impact.mp3', vol: 0.44},
+  {at: 1476, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1711, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1902, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1958, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2603, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2924, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2969, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
