@@ -5,3 +5,7 @@ out/
 
 # Local scratch/preview artifacts (not part of the project)
 scratchpad/
+
+# Sourcing-agent candidate scratch (never ship these)
+public/**/_c_*
+public/**/_cand_*
