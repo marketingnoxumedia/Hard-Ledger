@@ -73,129 +73,140 @@ type SceneDef = {
 
 // ---------------------------------------------------------------------------
 // "The bill" reel (BillReel) — fast NEWS reel, Hard Ledger house format.
-// TOPIC: why the memory in a PlayStation 6 reportedly costs more than an entire PlayStation 5 — the AI
-// memory squeeze. Thesis (per leaker KeplerL2): the RAM + storage in Sony's next console now cost ~$680+
-// per unit, more than a new PS5 ($649). The memory that cost ~$3/GB when the console was designed is now
-// ~$20-23/GB; the APU ("the brain") is only ~$150, so the memory costs ~4x the processor. Reported bill of
-// materials ~$1,000 (was ~$760 in March); Sony won't sell at a loss, its CEO cites component shortages and
-// no launch date, it's skipping CES, and reportedly weighing cutting memory 30GB->20GB. Mechanic: the same
-// chips feed AI servers — Micron et al. sell to the highest bidder, Nvidia's customers pay most, retail
-// memory is ~5x a year ago; Sony isn't bidding against Microsoft, it's bidding against OpenAI (a $100B
-// guarantee behind it). Payoff: the PS6 isn't dear because Sony got greedy — the AI boom bought the memory
-// first; every console/phone/laptop is now in a bidding war with a data centre that has more money. The
-// $1,000 PlayStation is the AI bill, delivered to your living room. Full QUESTION/STORY/ANSWER/CTA with a
-// ~1.1s post-hook pause; close is the CTA question + comment ask ("Would you pay $1,000 for a PlayStation?
-// Tell me below."). 38 beats: 35 media (incl. 4 cards: PS6 RAM+STORAGE $680+ / PS5 $649; GDDR7 $3/GB ->
-// $20-23/GB & APU ~$150; BOM $760 -> $1,000 / NO LAUNCH DATE / CES SKIPPED; RETAIL DDR5 5x IN A YEAR /
-// SONY vs DATA CENTRES) / 1 red impact ("Delivered to your living room.") / 2 black. Captions match the VO
-// verbatim (except the stylized cards; spoken figures rendered as numerals). Durations/reveals/SFX locked
-// to the VO via a scribe_v1 word-timestamp anchor pass (public/bill/voiceover.mp3).
-// NB: OWN distinct footage under public/bill/, NO reuse of any other reel's clips. A near-twin of
-// PlaystationReel ("The exchange", the used-market angle) — this is the SEPARATE AI-bidding / bill-of-
-// materials angle, its own folder + footage.
-// FOOTAGE is BRAND-FREE and FACE-FREE — generic semiconductor / electronics / data-centre / finance b-roll:
-// circuit boards, RAM modules, memory chips, silicon wafers, CPU/GPU PCBs, server racks, data centres, a
-// chip fab, empty shelves, an empty expo hall, an auction gavel, cash/vault, generic devices, a living
-// room with a TV. NO PlayStation/Sony/Xbox/Microsoft consoles or logos, NO Nvidia/AMD/Intel/Micron/Samsung
-// chip or GPU markings, NO OpenAI/CES signage, NO readable brand on any chip/board/device/screen, NO faces,
-// NO flags, NO foreign text.
-// **UNVERIFIED — asserts specific, checkable reported figures (a leaker's numbers, Sony statements, memory
-// prices); render as written but FACT-CHECK before publishing:** the ~$680+ RAM+storage / $649 PS5; the
-// ~$3 -> ~$20-23/GB and ~$150 APU; the ~$1,000 (was $760) BOM; "won't sell at a loss / no launch date /
-// skipping CES / cutting 30GB to 20GB"; "retail memory 5x in a year"; and the Microsoft/OpenAI/$100B
-// framing. The "AI bill delivered to your living room" thesis is editorial analysis.
+// TOPIC: a UK inflation jump feeding the government's record debt-interest bill, one week before the Budget —
+// index-linked debt means the same inflation figure that hits fuel prices also adds billions to what the
+// state owes bondholders.
+// Thesis: UK inflation just jumped, and the government pays the biggest penalty for it, in cash, this month.
+// If you've filled a car lately you know the number; the same number just added billions to the national
+// interest bill, which you also pay. Inflation is ~3.5%, up from ~3.1% in a single month; motor fuel ~+29.8%
+// on the year (petrol highest since 2022) — and it lands one week before the Chancellor's first Budget. The
+// same morning: September debt interest ~£10.9bn (a monthly record), deficit ~£24.5bn, total debt crossing
+// ~£3tn for the first time. Because a chunk of UK debt is index-linked, the interest rises with inflation
+// automatically — the ONS says the jump added ~£4bn to September's interest alone. The twist: normally a
+// Chancellor wants low inflation for voters; this one needs it for the balance sheet — every point of
+// inflation is a bill from bondholders, and the same figure sets next year's pension/benefits uprating, so it
+// costs twice. Open questions: does the Bank of England hike into a Budget? does the Chancellor have room left
+// to spend? Outcome recap: 3.5% / £10.9bn / £3tn / Budget next Wednesday. Binary close ("Is this a fuel-price
+// blip, or the moment the debt starts setting policy? Pick a side below."). QUESTION/STORY/ANSWER/CTA with NO
+// post-hook pause, mid-reel like+follow ask.
+// Number-heavy: card figures 3.5% / 3.1% / 29.8% / £10.9bn / £24.5bn / £3tn / £4bn, plus a 4-line outcome
+// recap card. Captions match the VO verbatim (except the number cards; spoken figures as numerals).
+// Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (public/bill/voiceover.mp3,
+// NO inserted pause); music mixed at 0.17. Built at the house +10% pacing default.
+// NB: OWN distinct footage under public/bill/, NO reuse of ANY other reel's clips (esp. DebtReel (US debt) and
+// PensionReel (UK, references the same uprating) — this reel is UK inflation/debt-interest and must look
+// entirely its own).
+// FOOTAGE is BRAND-FREE, FACE-FREE, FLAG-FREE and LANDMARK-FREE — generic UK money / fuel / markets b-roll: a
+// GENERIC fuel pump/nozzle/gauge (NO station brand, NO price board with a currency/brand), currency-neutral
+// money (coins edge-on, note edges, piggy banks — NO monarch/banknote portraits), a rising chart/ticker with
+// NO readable brand/ticker symbol, a calculator, paperwork, an upward arrow, a balance/scale. **NO bank/fuel/
+// brand logos (NO Shell/BP/Esso/Tesco pumps), NO HMRC/DWP/Treasury/Bank-of-England crests or letterhead, NO
+// flags (Union Jack / any), NO identifiable UK landmarks or buildings (NOT Parliament / Downing St / the Bank
+// / the Treasury), NO identifiable faces, NO foreign text or foreign currency, NO King's-head or any banknote
+// portraits, NO military insignia.**
+// **UNVERIFIED / SENSITIVE — asserts specific, checkable, politically contested UK macro figures and names
+// real institutions; rendered as written but MUST be fact-checked against primary sources (ONS / HM Treasury /
+// OBR / Bank of England / the Budget) before publishing:** the ~3.5% (up from ~3.1%) CPI and ~+29.8% motor
+// fuel / "highest since 2022"; the ~£10.9bn September debt interest "highest ever", ~£24.5bn deficit, ~£3tn
+// total debt "first time"; "index-linked" interest and the ONS ~£4bn attribution; "Budget next Wednesday".
+// **FACTUAL ERROR TO FIX: the script names "Healey" as the one with spending room, implying he is Chancellor
+// — the UK Chancellor is Rachel REEVES (John Healey is Defence Secretary). Rendered verbatim but almost
+// certainly wrong; correct the name before publishing.** The "debt starts setting policy" framing is editorial.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
-  // 0 HOOK (held through ~1.1s post-hook pause)
-  {dur: 222, kind: 'hook', reveal: [3, 55, 110], text: 'How can the memory|in a PlayStation 6 cost more|than an entire PlayStation 5?', kicker: 'The bill', highlights: ['more'], size: 34, media: {src: 'bill/bl00_board.mp4', type: 'video', effect: 'in'}},
+  // 0 HOOK
+  {dur: 90, kind: 'hook', reveal: [3, 36], text: 'UK inflation|just jumped.', kicker: 'The bill', highlights: ['jumped.'], size: 42, media: {src: 'bill/bl00_fuelpump.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 94, kind: 'text', reveal: [2, 40], text: 'Last week,|hardware leaker KeplerL2,', highlights: ['KeplerL2,'], size: 38, media: {src: 'bill/bl01_leak.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And the government is the one|who pays the biggest penalty for it.', highlights: ['penalty'], size: 32, media: {src: 'bill/bl01_downarrow.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 38, kind: 'text', reveal: [2, 26], text: 'who’s been|right before:', highlights: ['right'], size: 46, media: {src: 'bill/bl02_verified.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'In cash.|This month.', highlights: ['cash.'], size: 46, media: {src: 'bill/bl02_cash.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 99, kind: 'text', reveal: [2, 40], text: 'the RAM and storage|in Sony’s next console', highlights: ['RAM'], size: 38, media: {src: 'bill/bl03_ram.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If you’ve filled up a car|in the last month,', highlights: [], size: 34, media: {src: 'bill/bl03_nozzle.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 106, kind: 'text', reveal: [2, 40], text: 'now cost over|680 dollars per unit.', highlights: ['680'], size: 40, media: {src: 'bill/bl04_chipstack.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'you already know|the number.', highlights: ['number.'], size: 42, media: {src: 'bill/bl04_gauge.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 37, kind: 'text', reveal: [2], text: 'Just those two parts.', highlights: ['two'], size: 48, media: {src: 'bill/bl05_twoparts.jpg', type: 'img', effect: 'in'}},
-  // 6 CARD 1
-  {dur: 136, kind: 'lines', reveal: [0, 18, 34, 50], text: 'PS6 RAM + STORAGE:|$680+|PS5 RETAIL: $649|(REPORTED)', highlights: ['$680+'], media: {src: 'bill/bl06_controller.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'What you don’t know is that|the same number', highlights: [], size: 34, media: {src: 'bill/bl05_counter.jpg', type: 'img', effect: 'panL'}},
+  // 6
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'just added billions to|the national interest bill.', highlights: ['billions'], size: 32, media: {src: 'bill/bl06_billgrow.jpg', type: 'img', effect: 'in'}},
   // 7 BLACK
-  {dur: 58, kind: 'text', reveal: [0, 0], text: 'But there’s one thing|most people overlook.', highlights: ['overlook.'], size: 46},
+  {dur: 90, kind: 'impact', text: 'Which you|also pay.'},
   // 8
-  {dur: 62, kind: 'text', reveal: [2, 26], text: 'When Sony designed|the console,', highlights: [], size: 42, media: {src: 'bill/bl08_design.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'I’ll show you exactly|how one feeds the other.', highlights: ['feeds'], size: 34, media: {src: 'bill/bl08_gears.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 101, kind: 'text', reveal: [2, 40], text: 'that memory cost about|3 dollars a gigabyte.', highlights: ['3'], size: 38, media: {src: 'bill/bl09_wafer.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'bill/bl09_phone.jpg', type: 'img', effect: 'panR'}},
   // 10
-  {dur: 61, kind: 'text', reveal: [2, 30], text: 'It’s now around|20 to 23.', highlights: ['20'], size: 44, media: {src: 'bill/bl10_pricechart.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Now, inflation ticking up|is nothing new.', highlights: [], size: 34, media: {src: 'bill/bl10_pricetags.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 79, kind: 'text', reveal: [2, 40], text: 'The processor, the part|you’d think is expensive,', highlights: ['processor,'], size: 34, media: {src: 'bill/bl11_cpu.jpg', type: 'img', effect: 'in'}},
-  // 12 CARD 2
-  {dur: 59, kind: 'lines', reveal: [0, 22, 44], text: 'GDDR7:|$3/GB → $20–23/GB|APU: ~$150', highlights: ['$20–23/GB'], media: {src: 'bill/bl12_die.jpg', type: 'img', effect: 'in'}},
-  // 13
-  {dur: 78, kind: 'text', reveal: [2, 30], text: 'The memory costs|4 times the brain.', highlights: ['4'], size: 42, media: {src: 'bill/bl13_compare.jpg', type: 'img', effect: 'in'}},
-  // 14 BLACK
-  {dur: 61, kind: 'text', reveal: [0, 0], text: 'And this is where|things get interesting.', highlights: ['interesting.'], size: 46},
+  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'bill/bl11_standout.jpg', type: 'img', effect: 'in'}},
+  // 12 CARD 3.5%
+  {dur: 90, kind: 'stat', stat: {pre: 'BECAUSE IT’S', value: 3.5, decimals: 1, suffix: '%'}, media: {src: 'bill/bl12_chartup.jpg', type: 'img', effect: 'in'}},
+  // 13 CARD 3.1%
+  {dur: 90, kind: 'stat', stat: {pre: 'UP FROM', value: 3.1, decimals: 1, suffix: '%', post: 'IN A SINGLE MONTH'}, media: {src: 'bill/bl13_percent.jpg', type: 'img', effect: 'in'}},
+  // 14 CARD 29.8%
+  {dur: 90, kind: 'stat', stat: {pre: 'MOTOR FUEL', value: 29.8, decimals: 1, suffix: '%', post: 'ON THE YEAR'}, media: {src: 'bill/bl14_fuelprice.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 113, kind: 'text', reveal: [2, 40, 82], text: 'Total bill of materials,|reportedly around|a thousand dollars.', highlights: ['thousand'], size: 34, media: {src: 'bill/bl15_bom.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'petrol at its highest|since 2022.', highlights: ['2022.'], size: 38, media: {src: 'bill/bl15_petrolpump.jpg', type: 'img', effect: 'panL'}},
   // 16
-  {dur: 58, kind: 'text', reveal: [2], text: 'In March it was 760.', highlights: ['760.'], size: 44, media: {src: 'bill/bl16_marchprice.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And because it lands|one week before', highlights: [], size: 36, media: {src: 'bill/bl16_calendar.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 82, kind: 'text', reveal: [2, 40], text: 'Sony has said it won’t|sell the PS6 at a loss.', highlights: ['loss.'], size: 36, media: {src: 'bill/bl17_ledger.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'the Chancellor’s|first Budget.', highlights: ['Budget.'], size: 40, media: {src: 'bill/bl17_redbox.jpg', type: 'img', effect: 'panR'}},
   // 18
-  {dur: 75, kind: 'text', reveal: [2, 40], text: 'Its CEO says there’s|no launch date,', highlights: ['no'], size: 38, media: {src: 'bill/bl18_podium.jpg', type: 'img', effect: 'in'}},
-  // 19
-  {dur: 61, kind: 'text', reveal: [2, 26], text: 'because of|component shortages.', highlights: ['shortages.'], size: 42, media: {src: 'bill/bl19_shortage.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Look at the other release|from the same morning.', highlights: [], size: 34, media: {src: 'bill/bl18_release.jpg', type: 'img', effect: 'in'}},
+  // 19 CARD £10.9bn
+  {dur: 90, kind: 'stat', stat: {pre: 'SEPTEMBER DEBT INTEREST', prefix: '£', value: 10.9, decimals: 1, post: 'BILLION'}, media: {src: 'bill/bl19_interest.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 79, kind: 'text', reveal: [2, 30], text: 'Sony’s skipping|CES in January.', highlights: ['CES'], size: 42, media: {src: 'bill/bl20_expo.jpg', type: 'img', effect: 'in'}},
-  // 21
-  {dur: 170, kind: 'text', reveal: [2, 42, 82], text: 'And there are reports it’s|looking at cutting the memory|from 30 gigabytes to 20,', highlights: ['cutting'], size: 30, media: {src: 'bill/bl21_memorymod.jpg', type: 'img', effect: 'in'}},
-  // 22 CARD 3
-  {dur: 45, kind: 'lines', reveal: [0, 22, 44], text: 'BOM: $760 → $1,000|NO LAUNCH DATE|CES: SKIPPED', highlights: ['$1,000'], media: {src: 'bill/bl22_motherboard.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'One month.|The highest ever recorded.', highlights: ['highest'], size: 38, media: {src: 'bill/bl20_spike.jpg', type: 'img', effect: 'in'}},
+  // 21 CARD £24.5bn
+  {dur: 90, kind: 'stat', stat: {pre: 'DEFICIT FOR THE MONTH', prefix: '£', value: 24.5, decimals: 1, post: 'BILLION'}, media: {src: 'bill/bl21_deficit.jpg', type: 'img', effect: 'in'}},
+  // 22 CARD £3tn
+  {dur: 90, kind: 'stat', stat: {pre: 'TOTAL DEBT', prefix: '£', value: 3, post: 'TRILLION'}, media: {src: 'bill/bl22_debtpile.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 72, kind: 'text', reveal: [2, 40], text: 'Now let me show|how to actually do this.', highlights: ['actually'], size: 42, media: {src: 'bill/bl23_diagram.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'First time it’s|crossed that line.', highlights: ['line.'], size: 40, media: {src: 'bill/bl23_crossline.jpg', type: 'img', effect: 'panL'}},
   // 24
-  {dur: 102, kind: 'text', reveal: [2, 30], text: 'The same chips|go into AI servers.', highlights: ['AI'], size: 40, media: {src: 'bill/bl24_server.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'bill/bl24_warning.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 110, kind: 'text', reveal: [2, 42, 82], text: 'Micron and the other memory|makers sell to whoever|pays most,', highlights: ['most,'], size: 32, media: {src: 'bill/bl25_fab.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'A chunk of UK debt|is index-linked.', highlights: ['index-linked.'], size: 36, media: {src: 'bill/bl25_chain.jpg', type: 'img', effect: 'panR'}},
   // 26
-  {dur: 75, kind: 'text', reveal: [2, 30], text: 'and Nvidia’s customers|pay most.', highlights: ['most.'], size: 40, media: {src: 'bill/bl26_gpu.jpg', type: 'img', effect: 'in'}},
-  // 27 CARD 4
-  {dur: 142, kind: 'lines', reveal: [0, 22, 44], text: 'RETAIL DDR5:|5× IN A YEAR|SONY vs DATA CENTRES', highlights: ['5×'], media: {src: 'bill/bl27_datacenter.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The interest rises with|inflation, automatically.', highlights: ['automatically.'], size: 34, media: {src: 'bill/bl26_ratchet.jpg', type: 'img', effect: 'in'}},
+  // 27
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'So that jump to 3.5%|didn’t just hit your fuel.', highlights: ['3.5%'], size: 34, media: {src: 'bill/bl27_fuelchart.jpg', type: 'img', effect: 'panL'}},
   // 28
-  {dur: 100, kind: 'text', reveal: [2, 40], text: 'Sony isn’t bidding|against Microsoft for RAM.', highlights: ['Microsoft'], size: 36, media: {src: 'bill/bl28_auction.jpg', type: 'img', effect: 'in'}},
-  // 29
-  {dur: 53, kind: 'text', reveal: [2, 26], text: 'It’s bidding|against OpenAI.', highlights: ['OpenAI.'], size: 44, media: {src: 'bill/bl29_bid.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2], text: 'The ONS says it added about', highlights: [], size: 36, media: {src: 'bill/bl28_document.jpg', type: 'img', effect: 'in'}},
+  // 29 CARD £4bn
+  {dur: 90, kind: 'stat', stat: {pre: 'TO SEPTEMBER’S INTEREST · ALONE', prefix: '£', value: 4, post: 'BILLION'}, media: {src: 'bill/bl29_addbillion.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 127, kind: 'text', reveal: [2, 40, 82], text: 'And OpenAI has a|100-billion-dollar guarantee|behind it.', highlights: ['100-billion-dollar'], size: 30, media: {src: 'bill/bl30_money.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Normally a Chancellor wants|low inflation for voters.', highlights: [], size: 32, media: {src: 'bill/bl30_ballot.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 108, kind: 'text', reveal: [2, 42, 84], text: 'The PlayStation 6 isn’t|expensive because|Sony got greedy.', highlights: ['greedy.'], size: 36, media: {src: 'bill/bl31_boardroom.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'This one needs it|for the balance sheet.', highlights: ['balance'], size: 36, media: {src: 'bill/bl31_scales.jpg', type: 'img', effect: 'panR'}},
   // 32
-  {dur: 124, kind: 'text', reveal: [2, 42, 84], text: 'It’s expensive because|the AI boom bought|the memory first.', highlights: ['AI'], size: 36, media: {src: 'bill/bl32_aiservers.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Every point of inflation|is a bill from bondholders.', highlights: ['bondholders.'], size: 32, media: {src: 'bill/bl32_bond.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 166, kind: 'text', reveal: [2, 42, 84], text: 'Every console, every phone,|every laptop is now in a|bidding war with a data centre,', highlights: ['bidding'], size: 30, media: {src: 'bill/bl33_devices.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And the strange part is that|the same inflation figure', highlights: ['strange'], size: 32, media: {src: 'bill/bl33_magnifier.jpg', type: 'img', effect: 'panL'}},
   // 34
-  {dur: 74, kind: 'text', reveal: [2, 30], text: 'and the data centre|has more money.', highlights: ['money.'], size: 40, media: {src: 'bill/bl34_bigdc.jpg', type: 'img', effect: 'in'}},
-  // 35
-  {dur: 88, kind: 'text', reveal: [2, 48], text: 'The thousand-dollar PlayStation|is the AI bill,', highlights: ['bill,'], size: 34, media: {src: 'bill/bl35_livingroom.jpg', type: 'img', effect: 'in'}},
-  // 36 RED impact (thesis)
-  {dur: 51, kind: 'impact', text: 'Delivered to|your living room.', redBg: true},
-  // 37 CTA (question close + comment ask)
-  {dur: 106, kind: 'text', reveal: [2, 42, 84], enter: 'zoom', text: 'Would you pay $1,000|for a PlayStation?|Tell me below.', highlights: ['$1,000'], size: 36, media: {src: 'bill/bl37_duskliving.mp4', type: 'video', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'sets next year’s pension rise,|the benefits uprating, the lot.', highlights: [], size: 30, media: {src: 'bill/bl34_envelope.jpg', type: 'img', effect: 'in'}},
+  // 35 BLACK
+  {dur: 90, kind: 'impact', text: 'It costs|twice.'},
+  // 36
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Does the Bank of England|hike into a Budget?', highlights: ['hike'], size: 34, media: {src: 'bill/bl36_ratedial.jpg', type: 'img', effect: 'in'}},
+  // 37
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Markets now|think it might.', highlights: ['might.'], size: 42, media: {src: 'bill/bl37_markets.jpg', type: 'img', effect: 'panR'}},
+  // 38
+  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Does Healey have|any room left to spend?', highlights: [], size: 36, media: {src: 'bill/bl38_emptywallet.jpg', type: 'img', effect: 'in'}},
+  // 39
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Less than he had|a week ago.', highlights: ['Less'], size: 42, media: {src: 'bill/bl39_shrinkstack.jpg', type: 'img', effect: 'panL'}},
+  // 40 CARD recap
+  {dur: 90, kind: 'lines', reveal: [0, 16, 32, 48], text: '3.5% INFLATION|£10.9BN INTEREST|£3TN OWED|BUDGET WEDNESDAY', highlights: ['3.5%'], media: {src: 'bill/bl40_recapbg.jpg', type: 'img', effect: 'in'}},
+  // 41
+  {dur: 90, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'bill/bl41_handpoint.jpg', type: 'img', effect: 'in'}},
+  // 42 RED
+  {dur: 90, kind: 'impact', redBg: true, text: 'Is this a fuel-price blip,|or the moment the debt|starts setting policy?'},
+  // 43 CTA
+  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'bill/bl43_forked-road.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 222, src: 'media/sfx_whoosh.mp3', vol: 0.35},
-  {at: 595, src: 'media/sfx_impact.mp3', vol: 0.46}, // CARD 1
-  {at: 731, src: 'media/sfx_whoosh.mp3', vol: 0.35}, // into black
-  {at: 1093, src: 'media/sfx_impact.mp3', vol: 0.46}, // CARD 2
-  {at: 1230, src: 'media/sfx_whoosh.mp3', vol: 0.35}, // into black
-  {at: 1928, src: 'media/sfx_impact.mp3', vol: 0.46}, // CARD 3
-  {at: 2332, src: 'media/sfx_impact.mp3', vol: 0.46}, // CARD 4
-  {at: 3314, src: 'media/sfx_impact.mp3', vol: 0.55}, // red thesis
-  {at: 3365, src: 'media/sfx_whoosh.mp3', vol: 0.4}, // close
 ];
 
 const STARTS: number[] = (() => {
