@@ -214,6 +214,21 @@ you write the `SCENES`:
      over ~135 (a long sentence on one caption), split it by adding an anchor
      mid-sentence; a beat under ~25 is too quick to read (nudge the split). Re-run
      the generator until the `DURS` are in range, then build.
+   - **House pacing default: +10% speed on every reel (STANDING CLIENT RULE).**
+     After the durations are locked to the natural-pace VO, speed the whole reel up
+     by **10%**: apply `atempo=1.10` to `public/<name>/voiceover.mp3` (overwriting
+     it) and scale every scene `dur` **and** every `SFX` cue `at` by `1/1.10`. Do
+     the scaling via the **start frames** to stay frame-accurate:
+     `new_start[i] = round(old_start[i] / 1.10)`, then
+     `new_dur[i] = new_start[i+1] - new_start[i]` (last beat =
+     `round(total/1.10) - new_start[last]`); `new_at = round(old_at / 1.10)`. The
+     music bed is reused as-is (the reel gets ~10% shorter, so the existing bed
+     still covers it). Because the sped VO ends a hair before the scaled video,
+     **bump the final CTA beat up a few frames** (≈+10) so the close ("…below.")
+     isn't clipped, then re-render. The client asked for this on RaiseReel,
+     FieldReel and PensionReel and then said to apply it to **all succeeding
+     videos** — so bake it into every new reel, and apply it again (another 1.10)
+     only if they ask for "additional" speed on a reel that already has it.
 
 4. **Media (Pexels, unique per scene)** — one distinct asset per media scene:
    - Photos: grab the numeric id from a `pexels.com/photo/...-<id>/` URL; download
