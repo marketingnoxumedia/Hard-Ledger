@@ -5083,6 +5083,58 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   emissions-ruling framing; and the Rosebank "decision due later this year" timing. The "expensive way to keep
   a pledge technically intact" framing is editorial analysis.
 
+- **`PensionReel`** — "The pension" (fast NEWS reel). NEW topic: **the UK's record state-pension rise (triple
+  lock) colliding with the FROZEN personal tax allowance — "the UK just confirmed the biggest state pension in
+  history, and for the first time the government will tax it."** QUESTION/STORY/ANSWER/CTA. Thesis: someone on
+  the full state pension and nothing else has never paid income tax on it; from April that ends. The pension
+  rises ~3.9% (the triple lock) = ~£488/yr, landing the full new state pension at ~£13,036 — but the personal
+  allowance (tax-free amount) is ~£12,570, frozen since 2021, so the pension is now ~£466 over the line, taxed
+  at 20% = ~£93/yr, meaning pensioners with no other income owe HMRC for the first time (paperwork, tax codes,
+  letters, for £93). The institutional twist: the allowance used to rise with the pension; now the freeze
+  holds the line still while the triple lock pushes the pension up — a collision that was always coming. Open
+  questions: does the Chancellor fix it in the Budget? does the freeze run to 2030? Outcome: April 2027,
+  ~£250.70/week — the richest state pension ever paid, the first with a tax bill attached. Binary close ("Is a
+  £488 raise with £93 clawed back still a win, or is the triple lock quietly broken? Pick a side below.").
+  **NO post-hook pause**, mid-reel like+follow ask. 45 beats: 42 media (incl. **7 number cards** — 3.9% rise;
+  £488/yr; £13,036 pension; £12,570 allowance; £466 over; £93 tax; £250.70/week — plus a PENSION £13,036 vs
+  ALLOWANCE £12,570 comparison card), 1 red impact ("or is the triple lock|quietly broken?"), 2 black
+  ("Small." / "It's|happening now."). **Captions match the VO verbatim** (except the number cards; spoken
+  figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/pension/voiceover.mp3`, ~119s, NO inserted pause); music mixed at 0.17. Entirely its own fresh
+  footage under `public/pension/` — no asset shared with any other reel (topically adjacent to RaiseReel's
+  US-COLA reel, but UK-specific and its own footage). Media credits (Pexels, free license) — videos: a slow
+  coin-counting pan (13037032), an aerial forked road (29760616). Photos: a blank clipboard/paperwork
+  (6192334), elderly hands (36730753), an empty wallet (6649420), an April calendar page (6487204), a
+  calculator (17065743), a blank-screen phone (30909364), a piggy bank (11427659), a padlock (36740854), an
+  open planner/diary (636246), a rising line drawn on a whiteboard (6803528), soft-focus loose change —
+  nothing legible (218392), banded note *edges* only, no denomination (7230324), a magnifier over figures
+  (4494641), a generic crest-free application form — tax-allowance stand-in (7735624), a ruler/notebook
+  threshold (8058636), frost on glass (35930150), a balance scale (14742906), a red line crossing a white
+  line (2534499), a mannequin hand holding an exclamation mark (10988366), red "%" balloons (5625119), a hand
+  lifting unmarked gold coins (6328871), an empty armchair (8389904), a kraft envelope + blank letter
+  (7670749), a stack of leather ledgers/files (37100690), printed two-line graphs (8472938), a vintage pocket
+  watch (4256089), icicles over water (16055963), a blue up-arrow sign (27136212), a flat ruler (7718680), an
+  arrow in a bullseye (6620429), a plain red box (33187350), a lone microphone (34505078), a "Business Stages"
+  roadmap graphic (7948029), a document + pen (6326287), an ENGLISH weekly planner page (27622180), novelty
+  treasure coins — English text, no currency/portrait (7080480), a pink piggy bank (11933675), office binders
+  + calculator (8297536), a finger on a camera — no face (7327306), an adult hand on a battle rope — no
+  children (6551188). No generated graphics this reel. **Brand-safety (screened hard at source and from the
+  FINAL render):** FACE-FREE (pensioners/officials shown via hands, backs and objects only), and free of
+  bank/company logos, HMRC/DWP/Treasury crests or letterhead, flags (Union Jack / any), identifiable UK
+  landmarks or buildings, foreign text, and — critically for a £ reel — **monarch/banknote portraits and
+  identifiable foreign currency**: money is shown ONLY as piggy banks, unmarked/soft-focus coins, note edges
+  or novelty (non-currency) coins. Rejected and replaced during sourcing/audit: a first pass that used **euro
+  coins/notes and a $-sign render** for the money beats (all swapped to currency-neutral); a **Spanish "ABRIL"**
+  calendar (swapped to an English planner); a **children-with-faces** tug-of-war (swapped to an adult battle
+  rope); IRS/Treasury/utility-branded tax forms; and several intra-reel / cross-reel Pexels-id collisions
+  caught by the ledger check (incl. a duplicate piggy-bank id). **UNVERIFIED — asserts specific, checkable,
+  and politically contested figures about UK state pension, the triple lock, the frozen personal allowance and
+  HMRC; rendered as written but MUST be fact-checked against primary sources (DWP / HMRC / Budget) before
+  publishing:** "biggest state pension in history" and "for the first time the government will tax it"; the
+  ~3.9% rise, ~£488/yr, ~£13,036 full new state pension, ~£12,570 allowance "frozen since 2021", ~£466 over
+  the threshold, 20% / ~£93/yr; "owe HMRC for the first time"; the freeze running "to 2030"; and "April 2027 /
+  £250.70 a week". The "triple lock quietly broken" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
