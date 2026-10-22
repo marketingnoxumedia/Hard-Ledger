@@ -3336,3 +3336,17 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 12887750 share/sh12_wallst.jpg
 7723784 share/sh13_quarter.jpg
 35601585 share/sh14_ads.jpg
+28772721 share/sh31_overhang.jpg
+27075441 share/sh32_calm.jpg
+34110996 share/sh33_waiting.jpg
+6005149 share/sh34_howmuch.jpg
+7821688 share/sh35_tax.jpg
+5505690 share/sh36_news.jpg
+7986984 share/sh37_discount.jpg
+3408552 share/sh38_fog.jpg
+19306843 share/sh39_beatrev.jpg
+12198525 share/sh40_eps.jpg
+6758919 share/sh41_expected.jpg
+31863693 share/sh42_downcard.jpg
+9017427 share/sh44_point.jpg
+40433618 share/sh46_fork.mp4
