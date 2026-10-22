@@ -107,104 +107,118 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 90, kind: 'hook', reveal: [3, 40], text: 'Meta just beat earnings,|grew ad revenue 26%,', kicker: 'The share', highlights: [], size: 34, media: {src: 'share/sh00_earnings.mp4', type: 'video', effect: 'in'}},
+  {dur: 106, kind: 'hook', reveal: [3, 40], text: 'Meta just beat earnings,|grew ad revenue 26%,', kicker: 'The share', highlights: [], size: 34, media: {src: 'share/sh00_earnings.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 90, kind: 'text', reveal: [2], text: 'and the stock fell.', highlights: ['fell.'], size: 48, media: {src: 'share/sh01_down.jpg', type: 'img', effect: 'panL'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'and the stock fell.', highlights: ['fell.'], size: 48, media: {src: 'share/sh01_down.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Because of a new share|that comes with nothing attached.', highlights: ['nothing'], size: 32, media: {src: 'share/sh02_emptyshare.jpg', type: 'img', effect: 'in'}},
+  {dur: 125, kind: 'text', reveal: [2, 40], text: 'Because of a new share|that comes with nothing attached.', highlights: ['nothing'], size: 32, media: {src: 'share/sh02_emptyshare.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'If you hold Meta,|you’re about to get', highlights: [], size: 36, media: {src: 'share/sh03_hold.jpg', type: 'img', effect: 'panR'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'If you hold Meta,|you’re about to get', highlights: [], size: 36, media: {src: 'share/sh03_hold.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'a second share|for every one you own.', highlights: ['second'], size: 36, media: {src: 'share/sh04_two.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'a second share|for every one you own.', highlights: ['second'], size: 36, media: {src: 'share/sh04_two.jpg', type: 'img', effect: 'in'}},
   // 5 BLACK
-  {dur: 90, kind: 'impact', text: 'It looks like a split.|It isn’t.'},
+  {dur: 56, kind: 'impact', text: 'It looks like a split.|It isn’t.'},
   // 6
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The new one can’t vote,|and that’s the whole point.', highlights: ['whole point.'], size: 32, media: {src: 'share/sh06_mute.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 40], text: 'The new one can’t vote,|and that’s the whole point.', highlights: ['whole point.'], size: 32, media: {src: 'share/sh06_mute.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|what it’s built to do.', highlights: [], size: 34, media: {src: 'share/sh07_mag.jpg', type: 'img', effect: 'panL'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|what it’s built to do.', highlights: [], size: 34, media: {src: 'share/sh07_mag.jpg', type: 'img', effect: 'panL'}},
   // 8
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'share/sh08_phone.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'share/sh08_phone.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Now, companies creating|new share classes is nothing new.', highlights: [], size: 30, media: {src: 'share/sh09_classes.jpg', type: 'img', effect: 'in'}},
+  {dur: 112, kind: 'text', reveal: [2, 40], text: 'Now, companies creating|new share classes is nothing new.', highlights: [], size: 30, media: {src: 'share/sh09_classes.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'share/sh10_standout.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'share/sh10_standout.jpg', type: 'img', effect: 'in'}},
   // 11 CARD $1.7T
-  {dur: 90, kind: 'stat', stat: {pre: 'META —', prefix: '$', value: 1.7, decimals: 1, suffix: 'T', post: 'COMPANY'}, media: {src: 'share/sh11_tower.jpg', type: 'img', effect: 'in'}},
+  {dur: 133, kind: 'stat', stat: {pre: 'META —', prefix: '$', value: 1.7, decimals: 1, suffix: 'T', post: 'COMPANY'}, media: {src: 'share/sh11_tower.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Because nobody on Wall Street|saw it coming.', highlights: [], size: 32, media: {src: 'share/sh12_wallst.jpg', type: 'img', effect: 'panR'}},
+  {dur: 85, kind: 'text', reveal: [2, 40], text: 'Because nobody on Wall Street|saw it coming.', highlights: [], size: 32, media: {src: 'share/sh12_wallst.jpg', type: 'img', effect: 'panR'}},
   // 13
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And because it’s arriving|in the same quarter as', highlights: [], size: 32, media: {src: 'share/sh13_quarter.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 40], text: 'And because it’s arriving|in the same quarter as', highlights: [], size: 32, media: {src: 'share/sh13_quarter.jpg', type: 'img', effect: 'in'}},
   // 14 CARD $64.6B
-  {dur: 90, kind: 'stat', stat: {pre: 'AD BUSINESS', prefix: '$', value: 64.6, decimals: 1, suffix: 'B'}, media: {src: 'share/sh14_ads.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'stat', stat: {pre: 'AD BUSINESS', prefix: '$', value: 64.6, decimals: 1, suffix: 'B'}, media: {src: 'share/sh14_ads.jpg', type: 'img', effect: 'in'}},
   // 15 CARD 26%
-  {dur: 90, kind: 'stat', stat: {pre: 'GROWING', value: 26, suffix: '%'}, media: {src: 'share/sh15_growth.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'stat', stat: {pre: 'GROWING', value: 26, suffix: '%'}, media: {src: 'share/sh15_growth.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 90, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at the mechanics.', highlights: ['mechanics.'], size: 48, media: {src: 'share/sh16_gears.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at the mechanics.', highlights: ['mechanics.'], size: 48, media: {src: 'share/sh16_gears.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Every Class A and Class B holder|gets one Class C share.', highlights: [], size: 30, media: {src: 'share/sh17_everyone.jpg', type: 'img', effect: 'panL'}},
+  {dur: 133, kind: 'text', reveal: [2, 40], text: 'Every Class A and Class B holder|gets one Class C share.', highlights: [], size: 30, media: {src: 'share/sh17_everyone.jpg', type: 'img', effect: 'panL'}},
   // 18 CARD 2027
-  {dur: 90, kind: 'lines', reveal: [0, 22], text: 'CLASS C TRADES FROM|JANUARY 2027', highlights: ['2027'], media: {src: 'share/sh18_calbg.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'lines', reveal: [0, 22], text: 'CLASS C TRADES FROM|JANUARY 2027', highlights: ['2027'], media: {src: 'share/sh18_calbg.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Class C has|zero votes.', highlights: ['zero'], size: 44, media: {src: 'share/sh19_zerovote.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'Class C has|zero votes.', highlights: ['zero'], size: 44, media: {src: 'share/sh19_zerovote.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'So the share count|doubles.', highlights: ['doubles.'], size: 44, media: {src: 'share/sh20_double.jpg', type: 'img', effect: 'panR'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'So the share count|doubles.', highlights: ['doubles.'], size: 44, media: {src: 'share/sh20_double.jpg', type: 'img', effect: 'panR'}},
   // 21
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'The votes|don’t move.', highlights: ['don’t move.'], size: 46, media: {src: 'share/sh21_novote.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'The votes|don’t move.', highlights: ['don’t move.'], size: 46, media: {src: 'share/sh21_novote.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'share/sh22_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'share/sh22_warning.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Those non-voting shares|are a currency.', highlights: ['currency.'], size: 38, media: {src: 'share/sh23_press.jpg', type: 'img', effect: 'panL'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'Those non-voting shares|are a currency.', highlights: ['currency.'], size: 38, media: {src: 'share/sh23_press.jpg', type: 'img', effect: 'panL'}},
   // 24
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Meta can sell them for its AI build-out,|tens of billions,', highlights: [], size: 28, media: {src: 'share/sh24_ai.jpg', type: 'img', effect: 'in'}},
+  {dur: 129, kind: 'text', reveal: [2, 40], text: 'Meta can sell them for its AI build-out,|tens of billions,', highlights: [], size: 28, media: {src: 'share/sh24_ai.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'without Mark Zuckerberg|giving up a single vote.', highlights: ['single vote.'], size: 32, media: {src: 'share/sh25_strings.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 40], text: 'without Mark Zuckerberg|giving up a single vote.', highlights: ['single vote.'], size: 32, media: {src: 'share/sh25_strings.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 90, kind: 'text', reveal: [2], text: 'He keeps control.', highlights: ['control.'], size: 50, media: {src: 'share/sh26_king.jpg', type: 'img', effect: 'panR'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'He keeps control.', highlights: ['control.'], size: 50, media: {src: 'share/sh26_king.jpg', type: 'img', effect: 'panR'}},
   // 27
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Everyone else|gets diluted.', highlights: ['diluted.'], size: 44, media: {src: 'share/sh27_dilute.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'Everyone else|gets diluted.', highlights: ['diluted.'], size: 44, media: {src: 'share/sh27_dilute.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect|investors to object.', highlights: [], size: 34, media: {src: 'share/sh28_object.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect|investors to object.', highlights: [], size: 34, media: {src: 'share/sh28_object.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Instead, JPMorgan’s line is|“the sooner the better.”', highlights: ['sooner'], size: 30, media: {src: 'share/sh29_clock.jpg', type: 'img', effect: 'panL'}},
+  {dur: 123, kind: 'text', reveal: [2, 40], text: 'Instead, JPMorgan’s line is|“the sooner the better.”', highlights: ['sooner'], size: 30, media: {src: 'share/sh29_clock.jpg', type: 'img', effect: 'panL'}},
   // 30
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'They want Meta to sell the stock fast,|before January,', highlights: ['fast,'], size: 30, media: {src: 'share/sh30_fast.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'text', reveal: [2, 40], text: 'They want Meta to sell the stock fast,|before January,', highlights: ['fast,'], size: 30, media: {src: 'share/sh30_fast.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'and get the overhang|out of the way.', highlights: ['overhang'], size: 36, media: {src: 'share/sh31_overhang.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'and get the overhang|out of the way.', highlights: ['overhang'], size: 36, media: {src: 'share/sh31_overhang.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'The market isn’t angry|about dilution.', highlights: [], size: 36, media: {src: 'share/sh32_calm.jpg', type: 'img', effect: 'panR'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'The market isn’t angry|about dilution.', highlights: [], size: 36, media: {src: 'share/sh32_calm.jpg', type: 'img', effect: 'panR'}},
   // 33
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'It’s nervous|about waiting for it.', highlights: ['waiting'], size: 40, media: {src: 'share/sh33_waiting.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'It’s nervous|about waiting for it.', highlights: ['waiting'], size: 40, media: {src: 'share/sh33_waiting.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'How much does Meta raise?|Not said.', highlights: ['Not said.'], size: 36, media: {src: 'share/sh34_howmuch.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 40], text: 'How much does Meta raise?|Not said.', highlights: ['Not said.'], size: 36, media: {src: 'share/sh34_howmuch.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Is there a California|billionaire tax angle?', highlights: [], size: 34, media: {src: 'share/sh35_tax.jpg', type: 'img', effect: 'panL'}},
+  {dur: 95, kind: 'text', reveal: [2, 40], text: 'Is there a California|billionaire tax angle?', highlights: [], size: 34, media: {src: 'share/sh35_tax.jpg', type: 'img', effect: 'panL'}},
   // 36
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'The reporting says|partly, yes.', highlights: ['partly,'], size: 40, media: {src: 'share/sh36_news.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'The reporting says|partly, yes.', highlights: ['partly,'], size: 40, media: {src: 'share/sh36_news.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Does Class C trade at|a discount to Class A?', highlights: ['discount'], size: 32, media: {src: 'share/sh37_discount.jpg', type: 'img', effect: 'panR'}},
+  {dur: 102, kind: 'text', reveal: [2, 40], text: 'Does Class C trade at|a discount to Class A?', highlights: ['discount'], size: 32, media: {src: 'share/sh37_discount.jpg', type: 'img', effect: 'panR'}},
   // 38
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Nobody knows|until January.', highlights: [], size: 42, media: {src: 'share/sh38_fog.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Nobody knows|until January.', highlights: [], size: 42, media: {src: 'share/sh38_fog.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 90, kind: 'text', reveal: [2], text: 'Beat on revenue.', highlights: ['Beat'], size: 48, media: {src: 'share/sh39_beatrev.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'Beat on revenue.', highlights: ['Beat'], size: 48, media: {src: 'share/sh39_beatrev.jpg', type: 'img', effect: 'in'}},
   // 40 CARD $3.83
-  {dur: 90, kind: 'stat', stat: {pre: 'EARNINGS PER SHARE', prefix: '$', value: 3.83, decimals: 2}, media: {src: 'share/sh40_eps.jpg', type: 'img', effect: 'panL'}},
+  {dur: 67, kind: 'stat', stat: {pre: 'EARNINGS PER SHARE', prefix: '$', value: 3.83, decimals: 2}, media: {src: 'share/sh40_eps.jpg', type: 'img', effect: 'panL'}},
   // 41 CARD $3.56
-  {dur: 90, kind: 'stat', stat: {pre: 'AGAINST', prefix: '$', value: 3.56, decimals: 2, post: 'EXPECTED'}, media: {src: 'share/sh41_expected.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'stat', stat: {pre: 'AGAINST', prefix: '$', value: 3.56, decimals: 2, post: 'EXPECTED'}, media: {src: 'share/sh41_expected.jpg', type: 'img', effect: 'in'}},
   // 42 CARD 2%
-  {dur: 90, kind: 'stat', stat: {pre: 'STOCK DOWN', value: 2, suffix: '%', post: 'PREMARKET'}, media: {src: 'share/sh42_downcard.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'stat', stat: {pre: 'STOCK DOWN', value: 2, suffix: '%', post: 'PREMARKET'}, media: {src: 'share/sh42_downcard.jpg', type: 'img', effect: 'in'}},
   // 43 BLACK
-  {dur: 90, kind: 'impact', text: 'One new share class,|zero new votes.'},
+  {dur: 80, kind: 'impact', text: 'One new share class,|zero new votes.'},
   // 44
-  {dur: 90, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'share/sh44_point.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'share/sh44_point.jpg', type: 'img', effect: 'in'}},
   // 45 RED
-  {dur: 90, kind: 'impact', redBg: true, text: 'Smart way to fund AI|without losing the company,|or a second share worth less by design?'},
+  {dur: 158, kind: 'impact', redBg: true, text: 'Smart way to fund AI|without losing the company,|or a second share worth less by design?'},
   // 46 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'share/sh46_fork.mp4', type: 'video', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'share/sh46_fork.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 409, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 842, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 886, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1195, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1294, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1346, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1513, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1778, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3181, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 3248, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3325, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 3395, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 3506, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3664, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
