@@ -3322,3 +3322,17 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 38834389 share/sh28_object.jpg
 35646800 share/sh29_clock.jpg
 12973767 share/sh30_fast.jpg
+5849611 share/sh00_earnings.mp4
+39398847 share/sh01_down.jpg
+5420988 share/sh02_emptyshare.jpg
+8217368 share/sh03_hold.jpg
+7404808 share/sh04_two.jpg
+8923862 share/sh06_mute.jpg
+7947669 share/sh07_mag.jpg
+6611918 share/sh08_phone.jpg
+6620969 share/sh09_classes.jpg
+6990039 share/sh10_standout.jpg
+164370 share/sh11_tower.jpg
+12887750 share/sh12_wallst.jpg
+7723784 share/sh13_quarter.jpg
+35601585 share/sh14_ads.jpg
