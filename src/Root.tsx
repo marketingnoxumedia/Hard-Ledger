@@ -154,6 +154,7 @@ import {AssetReel, DURATION_IN_FRAMES as ASSET_FRAMES} from './AssetReel';
 import {StraitReel, DURATION_IN_FRAMES as STRAIT_FRAMES} from './StraitReel';
 import {BillReel, DURATION_IN_FRAMES as BILL_FRAMES} from './BillReel';
 import {SpiralReel, DURATION_IN_FRAMES as SPIRAL_FRAMES} from './SpiralReel';
+import {ConsoleReel, DURATION_IN_FRAMES as CONSOLE_FRAMES} from './ConsoleReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1393,6 +1394,14 @@ export const RemotionRoot: React.FC = () => {
         id="SpiralReel"
         component={SpiralReel}
         durationInFrames={SPIRAL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ConsoleReel"
+        component={ConsoleReel}
+        durationInFrames={CONSOLE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
