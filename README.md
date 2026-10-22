@@ -5192,6 +5192,57 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   almost certainly wrong; correct the name before publishing.** The "debt starts setting policy" framing is
   editorial analysis.
 
+- **`ConsoleReel`** — "The console" (fast NEWS reel). Topic: **the leaked/rumoured next Xbox ("Helix")
+  price — "The next Xbox could cost more than a used car. And Microsoft already knows you can't afford it,
+  because it's building the financing."** CLAIM/PERSONAL/EVIDENCE/CTA. **Built as a NEW A/B twin of the
+  existing `BillReel`/"The bill"** (the PS6-memory console-pricing reel) — same console-squeeze thesis, its
+  own fresh script + footage, confirmed with the user before building. Thesis: console hardware has outrun the
+  paycheque, and the manufacturer quietly adds instalments + reslices the subscription to hide it. Walks the
+  ladder: Series X launched at $499; an internal projection reportedly puts the next machine at
+  $1,200–$1,800 before any subsidy, targeted for Christmas 2028; this year's rise adds up to ~$150;
+  Sony's next machine's memory + storage alone reportedly tops $680 per console before the chip, case or
+  controller. Second-order: Microsoft now offers buy-now-pay-later on consoles through its own store, and
+  Game Pass is being rebuilt à la carte (pay for cloud, pay for multiplayer). Open questions: does Microsoft
+  eat part of the cost? does the chip shortage ease by 2028? Recap card: HELIX · 2028 / $1,200–$1,800, plus
+  an analyst's "north of a grand is the floor." Binary close ("Would you pay $1,800 for a console, or is this
+  the generation you switch to PC? Pick a side below."). **NO post-hook pause**, mid-reel like+follow ask.
+  47 beats: 42 media (incl. **8 cards** — $499 Series X launch ×2; a "Christmas 2028" lines card; $1,200;
+  $1,800; up-to-$150; $680 memory+storage; and a HELIX·2028 / $1,200–$1,800 recap lines card), 1 red impact
+  ("Would you pay $1,800...switch to PC?"), 2 black ("Nobody's|promising that." / "North of a grand|is the
+  floor."). **Captions match the VO verbatim** (except the number cards; spoken figures as numerals).
+  Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/console/voiceover.mp3`), **built at the house +10% pacing default** (~122s; its own music bed
+  loop-extended to cover the length). Entirely its own fresh footage under `public/console/` — no asset shared
+  with any other reel (incl. the sibling `BillReel`). Media credits (Pexels, free license) — videos: a red
+  arcade control panel (7914769), an aerial forked road through forest (34120914). Photos: an empty wallet
+  (7927411), a credit card (12920742), a plain unbranded device box (17260157), a blank price tag (7967223),
+  internal documents (7841406), a stack of notes — no portraits (7241971), a hardware teardown (31945005), a
+  blank-screen phone (7412033), a rising price readout (12198529), one red standout (9953660), a technical
+  blueprint (25626437), a wall calendar (7059603), banded cash — no portraits (14820450), a cash stack — no
+  portraits (12198524), a "no discount" tag (18978674), a factory assembly rig (18471551), a block staircase/
+  ladder (35381781), a second blank price tag (5625003), an up arrow / rise (31904885), loose coins — no
+  marks (40132858), memory modules (40342988), a RAM/chip macro (30662603), loose PC components (6755079), a
+  caution triangle (33194321), a buy-now-pay-later screen (5240019), a checkout/shopping cart (6214364), an
+  instalments planner (6928996), a paycheque/payslip (7820359), a loss-leader price scene (5502532), blank
+  game discs — no brand (12585558), a bare CPU socket (1432675), a hand holding a blank card (6956818), an à
+  la carte "specialty coffee" menu board (17719778), a sliced rainbow layer cake (8245038), a dot question
+  mark (6266317), a two-way-traffic road sign (6833627), a motherboard/chip (39351698), an unbranded retro
+  handheld (28978366), a 3D floral/butterfly "Helix" arrangement (35400900), a blue recap backdrop (12707786),
+  an analyst's desk with charts (7948038), a 3D pointing hand (8834242). No generated graphics this reel.
+  **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE (people shown via hands,
+  backs, objects, a 3D hand), and — despite being a reel ABOUT named console makers — free of any
+  Xbox / PlayStation / Nintendo / Microsoft / Sony / Game Pass wordmark, logo or recognizable branded product
+  (every controller/handheld/box shown is a GENERIC, unbranded stand-in; the arcade panel's "X A O B" and the
+  handheld's "X Y A B" are standard gaming button labels, not trademarks — no brand name on either device),
+  flags, identifiable landmarks, readable foreign text, military imagery, and banknote/monarch portraits
+  (money shown only as blank tags, loose coins and portrait-free note stacks). USD figures are native to the
+  topic. **UNVERIFIED / SPECULATIVE — the ENTIRE premise is built on leaks and rumours about UNANNOUNCED
+  hardware (an unconfirmed "Helix" next Xbox, a 2028 date, a $1,200–$1,800 internal projection, a Sony
+  memory-cost figure, console buy-now-pay-later, and a Game Pass restructure). Rendered as written but MUST be
+  framed as rumour and fact-checked against primary reporting (Microsoft / Sony statements, the cited Fortune
+  piece, the named analyst) before publishing — none of these prices or the "Helix" name are officially
+  confirmed.** The "building the financing" / "outrun the paycheque" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
