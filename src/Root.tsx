@@ -156,6 +156,7 @@ import {BillReel, DURATION_IN_FRAMES as BILL_FRAMES} from './BillReel';
 import {SpiralReel, DURATION_IN_FRAMES as SPIRAL_FRAMES} from './SpiralReel';
 import {ConsoleReel, DURATION_IN_FRAMES as CONSOLE_FRAMES} from './ConsoleReel';
 import {BuyoutReel, DURATION_IN_FRAMES as BUYOUT_FRAMES} from './BuyoutReel';
+import {ShareReel, DURATION_IN_FRAMES as SHARE_FRAMES} from './ShareReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1411,6 +1412,14 @@ export const RemotionRoot: React.FC = () => {
         id="BuyoutReel"
         component={BuyoutReel}
         durationInFrames={BUYOUT_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ShareReel"
+        component={ShareReel}
+        durationInFrames={SHARE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
