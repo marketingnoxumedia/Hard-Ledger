@@ -3296,7 +3296,6 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 9882203 buyout/bo21_debt.jpg
 762685 buyout/bo23_books.jpg
 8634398 buyout/bo24_warning.jpg
-6120252 buyout/bo26_interest.jpg
 4095200 buyout/bo29_growth.jpg
 7679937 buyout/bo30_reverse.jpg
 35072396 buyout/bo16_cash.jpg
@@ -3306,3 +3305,4 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 39315994 buyout/bo22_downgrade.jpg
 11933551 buyout/bo28_empty.jpg
 12326585 buyout/bo15_oneyear.jpg
+5650025 buyout/bo26_interest.jpg

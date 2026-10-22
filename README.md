@@ -5251,6 +5251,60 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   piece, the named analyst) before publishing — none of these prices or the "Helix" name are officially
   confirmed.** The "building the financing" / "outrun the paycheque" framing is editorial analysis.
 
+- **`BuyoutReel`** — "The buyout" (fast NEWS reel). Topic: **the shutdown of game studio BioWare, one year
+  after its parent EA was taken private in a debt-fuelled leveraged buyout — "The studio that made Mass
+  Effect didn't die because its games stopped selling. It died because of a loan."** CLAIM/PERSONAL/PROMISE/
+  SCALE/EVIDENCE/SECOND-ORDER/TWIST/QUESTIONS/OUTCOME/CTA (the client's 10-part structure). **New standalone
+  reel on a different company/event from the existing `ToysReel`** (which covers the same LBO-debt mechanism
+  for Toys R Us) — confirmed with the user before building. Thesis: a leveraged buyout makes the acquired
+  company pay for its own purchase; when the interest bites, the slow, expensive single-player studios are cut
+  first. Walks the deal: ~400 jobs cut across EA (~3% of staff, ~50 at BioWare Edmonton) with the next Mass
+  Effect cancelled; EA taken private for $55B by Saudi Arabia's PIF, Silver Lake and Affinity, with $20B of
+  junk-rated debt now on EA's own books; ~$2–2.5B/yr of cash increasingly going to lenders before games get
+  funded. Open questions (is Motive next? does the next Sims project survive?), an outcome recap, and a binary
+  close ("Did EA kill BioWare, or did the buyout? Pick a side below."). **NO post-hook pause**, mid-reel
+  like+follow ask. 47 beats: 44 media (incl. **5 cards** — 400 jobs; 3%; $55B; $20B; and a $2–2.5B/yr lines
+  card), 1 red impact ("Did EA kill BioWare, or did the buyout?"), 2 black ("Gone on a Tuesday." / "The
+  company pays for its own purchase."). **Captions match the VO verbatim** (except the number cards; spoken
+  figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/buyout/voiceover.mp3`), **built at the house +10% pacing default** (~105s; its own music bed).
+  Entirely its own fresh footage under `public/buyout/` — no asset shared with any other reel. Media credits
+  (Pexels, free license) — videos: an empty open-plan office (8346903), an aerial forked highway (37404976).
+  Photos: a lease/agreement document (7841424), a generic unbranded game controller (8154772), a backlit
+  gaming keyboard (671629), a blank-screen retro handheld — no wordmark (8762841), a dev desk of generic code
+  (34212896), a desk calendar (11363590), a magnifier over a no-brand chart (7947753), a blank-screen phone
+  (6278759), a closed roller shutter (29602606), one red odd-one-out pawn (38536524), emptied office desks
+  (5483245), a pie-chart slice (7580843), a bold red X (12960358), a calendar pushpin (12326585), gold bokeh
+  (35072396), an architectural floor plan (271667), a metal safe (9662368), glass towers (38748511), gold/
+  black liquid metal (5278711), a "Pay" IOU note (9882203), a red candlestick drop (39315994), stacked books
+  (762685), a caution triangle (8634398), molten gold (26628059), a red "%" balloon (5650025), gold particles
+  cascading (9665186), an empty piggy bank (11933551), a seedling in soil (4095200), opposing arrows
+  (7679937), a metal vice (13765802), scissors cutting paper (7695352), a stool in a spotlight (32085882),
+  toppling dominoes (8673063), a finger on a document (8068716), a model dollhouse — no Sims branding
+  (7400882), a crossed-out notebook word (6193925), a wooden hourglass (14826119), six brown eggs (2959317),
+  empty cinema seats (7991321), an aerial crowd (5191376), dawn light through blinds (30682989), a wooden
+  pointing hand (37976852). No generated graphics this reel. **Brand-safety (screened hard at source and from
+  the FINAL render):** FACE-FREE (people shown via hands, backs, overhead silhouettes, a mannequin hand), and
+  — despite naming EA, BioWare, Mass Effect, Baldur's Gate, Dragon Age, The Sims, PIF, Silver Lake, Affinity —
+  free of any game box/cover/screenshot or studio/publisher logo, any Xbox/PlayStation/Nintendo mark or button
+  symbol (controllers/handheld are generic unbranded stand-ins), company wordmarks, flags (incl. Saudi / US),
+  identifiable landmarks, readable foreign text, military imagery, and **banknote/coin portraits or
+  identifiable currency**. Re-sourced during the render audit: a first money pass that used **euro banknotes**
+  (bo16/20/22/25/27/28) and a **British "two pence" coin** (bo26) were all replaced with currency-neutral
+  imagery (gold-abstract behind the number cards, a clean candlestick, an empty piggy bank, a red "%"
+  balloon); a clip (bo15) that slipped a sourcing gap and had failed the first render was recovered. **UNVERIFIED
+  / SENSITIVE — asserts specific, checkable, current claims about real companies, named funds and a named
+  person's assets; rendered as written but MUST be fact-checked against primary sources before publishing.**
+  Core claims that DO check out against reporting (as of the Oct 2026 build): the **$55B EA take-private** by
+  PIF / Silver Lake / Affinity with **~$20B of debt** (CNBC, EA 8-K), and the **BioWare shutdown / ~400 jobs
+  (~3%, ~50 at BioWare Edmonton) with the next Mass Effect's early development ended** (Gematsu, Variety,
+  Quartz). Still to verify: the **~$2–2.5B/yr cash-flow** figure, the **"junk-rated"** characterization of the
+  debt, the specific **analyst "most exposed" / Motive** claims, the **"next Sims project cancelled"** line,
+  and the loose **"one year after"** timing (deal announced ~Sept 2025, closed ~Aug 2026). BioWare is ~31
+  years old, so "thirty / thirty-plus years" is right. The "pays for its own purchase" framing is editorial
+  analysis. **Also verify on playback that the VO pronounces "EA" as the letters "E-A"** (not a word) — not
+  checkable from the transcript.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
