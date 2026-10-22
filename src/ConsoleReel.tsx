@@ -113,104 +113,118 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 90, kind: 'hook', reveal: [3, 40], text: 'The next Xbox could cost|more than a used car.', kicker: 'The console', highlights: ['car.'], size: 36, media: {src: 'console/cn00_controller.mp4', type: 'video', effect: 'in'}},
+  {dur: 100, kind: 'hook', reveal: [3, 40], text: 'The next Xbox could cost|more than a used car.', kicker: 'The console', highlights: ['car.'], size: 36, media: {src: 'console/cn00_controller.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And Microsoft already knows|you can’t afford it,', highlights: [], size: 34, media: {src: 'console/cn01_emptywallet.jpg', type: 'img', effect: 'panL'}},
+  {dur: 81, kind: 'text', reveal: [2, 40], text: 'And Microsoft already knows|you can’t afford it,', highlights: [], size: 34, media: {src: 'console/cn01_emptywallet.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'because it’s building|the financing.', highlights: ['financing.'], size: 42, media: {src: 'console/cn02_creditcard.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'because it’s building|the financing.', highlights: ['financing.'], size: 42, media: {src: 'console/cn02_creditcard.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If you bought a Series X|at launch, you paid', highlights: [], size: 34, media: {src: 'console/cn03_consolebox.jpg', type: 'img', effect: 'panR'}},
+  {dur: 86, kind: 'text', reveal: [2, 40], text: 'If you bought a Series X|at launch, you paid', highlights: [], size: 34, media: {src: 'console/cn03_consolebox.jpg', type: 'img', effect: 'panR'}},
   // 4 CARD $499
-  {dur: 90, kind: 'stat', stat: {pre: 'SERIES X AT LAUNCH', prefix: '$', value: 499}, media: {src: 'console/cn04_pricetag.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'stat', stat: {pre: 'SERIES X AT LAUNCH', prefix: '$', value: 499}, media: {src: 'console/cn04_pricetag.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The next one, according to Microsoft’s|own internal numbers,', highlights: [], size: 28, media: {src: 'console/cn05_documents.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 40], text: 'The next one, according to Microsoft’s|own internal numbers,', highlights: [], size: 28, media: {src: 'console/cn05_documents.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 90, kind: 'text', reveal: [2], text: 'could be three times that.', highlights: ['three'], size: 42, media: {src: 'console/cn06_stack.jpg', type: 'img', effect: 'panL'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'could be three times that.', highlights: ['three'], size: 42, media: {src: 'console/cn06_stack.jpg', type: 'img', effect: 'panL'}},
   // 7
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'I’ll show you exactly how|a games console got to that price.', highlights: ['price.'], size: 32, media: {src: 'console/cn07_teardown.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 40], text: 'I’ll show you exactly how|a games console got to that price.', highlights: ['price.'], size: 32, media: {src: 'console/cn07_teardown.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'console/cn08_phone.jpg', type: 'img', effect: 'panR'}},
+  {dur: 87, kind: 'text', reveal: [2, 40], text: 'But first, like the video|and make sure to follow.', highlights: ['follow.'], size: 36, media: {src: 'console/cn08_phone.jpg', type: 'img', effect: 'panR'}},
   // 9
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Now, console prices creeping up|is nothing new.', highlights: [], size: 32, media: {src: 'console/cn09_pricecreep.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'Now, console prices creeping up|is nothing new.', highlights: [], size: 32, media: {src: 'console/cn09_pricecreep.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'console/cn10_standout.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'console/cn10_standout.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Because it’s codenamed Helix,', highlights: ['Helix,'], size: 38, media: {src: 'console/cn11_blueprint.jpg', type: 'img', effect: 'panL'}},
+  {dur: 49, kind: 'text', reveal: [2, 28], text: 'Because it’s codenamed Helix,', highlights: ['Helix,'], size: 38, media: {src: 'console/cn11_blueprint.jpg', type: 'img', effect: 'panL'}},
   // 12 CARD 2028
-  {dur: 90, kind: 'lines', reveal: [0, 22], text: 'TARGETED FOR|CHRISTMAS 2028', highlights: ['2028'], media: {src: 'console/cn12_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'lines', reveal: [0, 22], text: 'TARGETED FOR|CHRISTMAS 2028', highlights: ['2028'], media: {src: 'console/cn12_calendar.jpg', type: 'img', effect: 'in'}},
   // 13 CARD $1200
-  {dur: 90, kind: 'stat', stat: {pre: 'INTERNAL PROJECTION', prefix: '$', value: 1200}, media: {src: 'console/cn13_cash.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'stat', stat: {pre: 'INTERNAL PROJECTION', prefix: '$', value: 1200}, media: {src: 'console/cn13_cash.jpg', type: 'img', effect: 'in'}},
   // 14 CARD $1800
-  {dur: 90, kind: 'stat', stat: {pre: 'TO', prefix: '$', value: 1800}, media: {src: 'console/cn14_cashstack.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'stat', stat: {pre: 'TO', prefix: '$', value: 1800}, media: {src: 'console/cn14_cashstack.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And because that’s the number|before any subsidy,', highlights: ['subsidy,'], size: 32, media: {src: 'console/cn15_nodiscount.jpg', type: 'img', effect: 'panR'}},
+  {dur: 86, kind: 'text', reveal: [2, 40], text: 'And because that’s the number|before any subsidy,', highlights: ['subsidy,'], size: 32, media: {src: 'console/cn15_nodiscount.jpg', type: 'img', effect: 'panR'}},
   // 16
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'which means that’s what it|costs to build and ship.', highlights: ['ship.'], size: 32, media: {src: 'console/cn16_assembly.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 40], text: 'which means that’s what it|costs to build and ship.', highlights: ['ship.'], size: 32, media: {src: 'console/cn16_assembly.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 90, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at the ladder.', highlights: ['ladder.'], size: 48, media: {src: 'console/cn17_ladder.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at the ladder.', highlights: ['ladder.'], size: 48, media: {src: 'console/cn17_ladder.jpg', type: 'img', effect: 'in'}},
   // 18 CARD $499b
-  {dur: 90, kind: 'stat', stat: {pre: 'SERIES X AT LAUNCH', prefix: '$', value: 499}, media: {src: 'console/cn18_pricetag2.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'stat', stat: {pre: 'SERIES X AT LAUNCH', prefix: '$', value: 499}, media: {src: 'console/cn18_pricetag2.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'After this year’s rise:', highlights: [], size: 40, media: {src: 'console/cn19_rise.jpg', type: 'img', effect: 'panL'}},
+  {dur: 39, kind: 'text', reveal: [2, 28], text: 'After this year’s rise:', highlights: [], size: 40, media: {src: 'console/cn19_rise.jpg', type: 'img', effect: 'panL'}},
   // 20 CARD $150
-  {dur: 90, kind: 'stat', stat: {pre: 'UP TO', prefix: '$', value: 150, post: 'MORE'}, media: {src: 'console/cn20_coins.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'stat', stat: {pre: 'UP TO', prefix: '$', value: 150, post: 'MORE'}, media: {src: 'console/cn20_coins.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Then Sony’s next machine:|memory and storage alone,', highlights: [], size: 32, media: {src: 'console/cn21_memory.jpg', type: 'img', effect: 'in'}},
+  {dur: 121, kind: 'text', reveal: [2, 40], text: 'Then Sony’s next machine:|memory and storage alone,', highlights: [], size: 32, media: {src: 'console/cn21_memory.jpg', type: 'img', effect: 'in'}},
   // 22 CARD $680
-  {dur: 90, kind: 'stat', stat: {pre: 'MEMORY + STORAGE ALONE · OVER', prefix: '$', value: 680, post: 'PER CONSOLE'}, media: {src: 'console/cn22_ram.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'stat', stat: {pre: 'MEMORY + STORAGE ALONE · OVER', prefix: '$', value: 680, post: 'PER CONSOLE'}, media: {src: 'console/cn22_ram.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 90, kind: 'text', reveal: [2, 40, 80], text: 'Before the chip.|Before the case.|Before the controller.', highlights: [], size: 36, media: {src: 'console/cn23_components.jpg', type: 'img', effect: 'panR'}},
+  {dur: 81, kind: 'text', reveal: [2, 40, 80], text: 'Before the chip.|Before the case.|Before the controller.', highlights: [], size: 36, media: {src: 'console/cn23_components.jpg', type: 'img', effect: 'panR'}},
   // 24
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'console/cn24_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'console/cn24_warning.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Microsoft has started offering|buy now, pay later on consoles', highlights: ['pay later'], size: 30, media: {src: 'console/cn25_bnpl.jpg', type: 'img', effect: 'panL'}},
+  {dur: 146, kind: 'text', reveal: [2, 40], text: 'Microsoft has started offering|buy now, pay later on consoles', highlights: ['pay later'], size: 30, media: {src: 'console/cn25_bnpl.jpg', type: 'img', effect: 'panL'}},
   // 26
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'through its|own store.', highlights: ['store.'], size: 42, media: {src: 'console/cn26_checkout.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], text: 'through its|own store.', highlights: ['store.'], size: 42, media: {src: 'console/cn26_checkout.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'When the manufacturer adds|instalments to a games machine,', highlights: ['instalments'], size: 30, media: {src: 'console/cn27_instalments.jpg', type: 'img', effect: 'panR'}},
+  {dur: 104, kind: 'text', reveal: [2, 40], text: 'When the manufacturer adds|instalments to a games machine,', highlights: ['instalments'], size: 30, media: {src: 'console/cn27_instalments.jpg', type: 'img', effect: 'panR'}},
   // 28
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'it’s telling you the price|has outrun the paycheque.', highlights: ['paycheque.'], size: 32, media: {src: 'console/cn28_paycheque.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 40], text: 'it’s telling you the price|has outrun the paycheque.', highlights: ['paycheque.'], size: 32, media: {src: 'console/cn28_paycheque.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect the console|to be the loss leader', highlights: ['loss leader'], size: 30, media: {src: 'console/cn29_lossleader.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect the console|to be the loss leader', highlights: ['loss leader'], size: 30, media: {src: 'console/cn29_lossleader.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'and the games|to carry it.', highlights: [], size: 42, media: {src: 'console/cn30_games.jpg', type: 'img', effect: 'panL'}},
+  {dur: 41, kind: 'text', reveal: [2, 28], text: 'and the games|to carry it.', highlights: [], size: 42, media: {src: 'console/cn30_games.jpg', type: 'img', effect: 'panL'}},
   // 31
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Here the hardware can’t be|subsidised enough to hide the cost.', highlights: ['cost.'], size: 30, media: {src: 'console/cn31_hardware.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 40], text: 'Here the hardware can’t be|subsidised enough to hide the cost.', highlights: ['cost.'], size: 30, media: {src: 'console/cn31_hardware.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'So Game Pass|is being rebuilt too:', highlights: ['rebuilt'], size: 38, media: {src: 'console/cn32_subscription.jpg', type: 'img', effect: 'panR'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'So Game Pass|is being rebuilt too:', highlights: ['rebuilt'], size: 38, media: {src: 'console/cn32_subscription.jpg', type: 'img', effect: 'panR'}},
   // 33
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'pay for cloud, pay for multiplayer,|à la carte.', highlights: ['à la carte.'], size: 34, media: {src: 'console/cn33_alacarte.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 40], text: 'pay for cloud, pay for multiplayer,|à la carte.', highlights: ['à la carte.'], size: 34, media: {src: 'console/cn33_alacarte.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The console gets dearer|and the subscription gets sliced.', highlights: ['sliced.'], size: 32, media: {src: 'console/cn34_sliced.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'text', reveal: [2, 40], text: 'The console gets dearer|and the subscription gets sliced.', highlights: ['sliced.'], size: 32, media: {src: 'console/cn34_sliced.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Does Microsoft eat|part of the cost?', highlights: ['cost?'], size: 38, media: {src: 'console/cn35_question.jpg', type: 'img', effect: 'panL'}},
+  {dur: 78, kind: 'text', reveal: [2, 40], text: 'Does Microsoft eat|part of the cost?', highlights: ['cost?'], size: 38, media: {src: 'console/cn35_question.jpg', type: 'img', effect: 'panL'}},
   // 36
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Fortune says only|if it chooses to.', highlights: ['chooses'], size: 38, media: {src: 'console/cn36_choice.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 40], text: 'Fortune says only|if it chooses to.', highlights: ['chooses'], size: 38, media: {src: 'console/cn36_choice.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Does the chip shortage|ease by 2028?', highlights: ['2028?'], size: 36, media: {src: 'console/cn37_chipshortage.jpg', type: 'img', effect: 'panR'}},
+  {dur: 83, kind: 'text', reveal: [2, 40], text: 'Does the chip shortage|ease by 2028?', highlights: ['2028?'], size: 36, media: {src: 'console/cn37_chipshortage.jpg', type: 'img', effect: 'panR'}},
   // 38 BLACK
-  {dur: 90, kind: 'impact', text: 'Nobody’s|promising that.'},
+  {dur: 40, kind: 'impact', text: 'Nobody’s|promising that.'},
   // 39
-  {dur: 90, kind: 'text', reveal: [2], text: 'A handheld in 2027.', highlights: ['2027.'], size: 46, media: {src: 'console/cn39_handheld.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'A handheld in 2027.', highlights: ['2027.'], size: 46, media: {src: 'console/cn39_handheld.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 90, kind: 'text', reveal: [2], text: 'Helix in 2028.', highlights: ['2028.'], size: 50, media: {src: 'console/cn40_helix.jpg', type: 'img', effect: 'panL'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Helix in 2028.', highlights: ['2028.'], size: 50, media: {src: 'console/cn40_helix.jpg', type: 'img', effect: 'panL'}},
   // 41 CARD recap
-  {dur: 90, kind: 'lines', reveal: [0, 24], text: 'HELIX · 2028|$1,200 – $1,800', highlights: ['$1,200'], media: {src: 'console/cn41_recapbg.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'lines', reveal: [0, 24], text: 'HELIX · 2028|$1,200 – $1,800', highlights: ['$1,200'], media: {src: 'console/cn41_recapbg.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And one analyst’s line|from earlier this year:', highlights: [], size: 34, media: {src: 'console/cn42_analyst.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 40], text: 'And one analyst’s line|from earlier this year:', highlights: [], size: 34, media: {src: 'console/cn42_analyst.jpg', type: 'img', effect: 'in'}},
   // 43 BLACK
-  {dur: 90, kind: 'impact', text: '“North of a grand|is the floor.”'},
+  {dur: 73, kind: 'impact', text: '“North of a grand|is the floor.”'},
   // 44
-  {dur: 90, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'console/cn44_handpoint.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'console/cn44_handpoint.jpg', type: 'img', effect: 'in'}},
   // 45 RED
-  {dur: 90, kind: 'impact', redBg: true, text: 'Would you pay $1,800|for a console, or is this|the generation you switch to PC?'},
+  {dur: 160, kind: 'impact', redBg: true, text: 'Would you pay $1,800|for a console, or is this|the generation you switch to PC?'},
   // 46 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'console/cn46_forked-road.mp4', type: 'video', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'console/cn46_forked-road.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 339, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 827, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 944, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1023, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1104, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1328, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1359, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1499, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1692, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 3057, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3159, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 3285, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3466, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3636, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
