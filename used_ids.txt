@@ -3254,3 +3254,11 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 7948038 console/cn42_analyst.jpg
 8834242 console/cn44_handpoint.jpg
 34120914 console/cn46_forked-road.mp4
+7298450 console/cn01b_nocash.jpg
+7580852 console/cn05b_internalnumbers.jpg
+4393427 console/cn25b_paylater.jpg
+16445673 console/cn27b_gamepad.jpg
+8454901 console/cn28b_outrun.jpg
+7986977 console/cn29b_lossleader.jpg
+5370914 console/cn31b_hiddencost.jpg
+5420895 console/cn34b_cardcut.jpg

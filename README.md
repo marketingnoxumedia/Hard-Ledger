@@ -5206,13 +5206,16 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   eat part of the cost? does the chip shortage ease by 2028? Recap card: HELIX · 2028 / $1,200–$1,800, plus
   an analyst's "north of a grand is the floor." Binary close ("Would you pay $1,800 for a console, or is this
   the generation you switch to PC? Pick a side below."). **NO post-hook pause**, mid-reel like+follow ask.
-  47 beats: 42 media (incl. **8 cards** — $499 Series X launch ×2; a "Christmas 2028" lines card; $1,200;
+  55 beats: 52 media (incl. **8 cards** — $499 Series X launch ×2; a "Christmas 2028" lines card; $1,200;
   $1,800; up-to-$150; $680 memory+storage; and a HELIX·2028 / $1,200–$1,800 recap lines card), 1 red impact
   ("Would you pay $1,800...switch to PC?"), 2 black ("Nobody's|promising that." / "North of a grand|is the
   floor."). **Captions match the VO verbatim** (except the number cards; spoken figures as numerals).
   Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
-  (`public/console/voiceover.mp3`), **built at the house +10% pacing default** (~122s; its own music bed
-  loop-extended to cover the length). Entirely its own fresh footage under `public/console/` — no asset shared
+  (`public/console/voiceover.mp3`), **built at +21% VO pace — the house +10% default plus a further +10% on
+  this reel at the client's request** (~111s; music bed reused from the longer cut, which still covers it).
+  The 55-beat cut splits 8 of the longest captions into two beats each (each new half gets its own fresh
+  clip), re-anchored against the same scribe_v1 word timestamps. Entirely its own fresh footage under
+  `public/console/` — no asset shared
   with any other reel (incl. the sibling `BillReel`). Media credits (Pexels, free license) — videos: a red
   arcade control panel (7914769), an aerial forked road through forest (34120914). Photos: an empty wallet
   (7927411), a credit card (12920742), a plain unbranded device box (17260157), a blank price tag (7967223),
@@ -5228,7 +5231,12 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   la carte "specialty coffee" menu board (17719778), a sliced rainbow layer cake (8245038), a dot question
   mark (6266317), a two-way-traffic road sign (6833627), a motherboard/chip (39351698), an unbranded retro
   handheld (28978366), a 3D floral/butterfly "Helix" arrangement (35400900), a blue recap backdrop (12707786),
-  an analyst's desk with charts (7948038), a 3D pointing hand (8834242). No generated graphics this reel.
+  an analyst's desk with charts (7948038), a 3D pointing hand (8834242). The 8 added (split-beat) clips: an
+  empty open palm with a couple of coins (7298450), a calculator on a brand-free ruled ledger (7580852), a
+  generic "BANK" card at a no-logo POS terminal — torso only, no face (4393427), an unbranded third-party
+  gamepad — no PS/Xbox/Nintendo marks or button symbols (16445673), a sole-on running shoe on a red track —
+  no shoe logo (8454901), cascading red "SALE" tags (7986977), a magnifier over a handwritten figures ledger
+  (5370914), and scissors beside a blank card (5420895). No generated graphics this reel.
   **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE (people shown via hands,
   backs, objects, a 3D hand), and — despite being a reel ABOUT named console makers — free of any
   Xbox / PlayStation / Nintendo / Microsoft / Sony / Game Pass wordmark, logo or recognizable branded product
