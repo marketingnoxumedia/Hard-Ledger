@@ -5305,6 +5305,57 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   analysis. **Also verify on playback that the VO pronounces "EA" as the letters "E-A"** (not a word) — not
   checkable from the transcript.
 
+- **`ShareReel`** — "The share" (fast NEWS reel). Topic: **Meta is issuing a new NON-VOTING Class C share — "Meta
+  just beat earnings, grew ad revenue 26%, and the stock fell. Because of a new share that comes with nothing
+  attached."** 10-part structure. **New standalone reel** (no prior Meta/share-class reel). Thesis: the new
+  share can't vote, and that's the point — every Class A/B holder gets one Class C share (a one-for-one dividend
+  that "looks like a split"), so the share count doubles but the votes don't move; those non-voting shares are a
+  currency Meta can sell for its AI build-out without Mark Zuckerberg giving up a single vote — he keeps
+  control, everyone else gets diluted. Twist: instead of objecting, JPMorgan's line is "the sooner the better."
+  Binary close ("Smart way to fund AI without losing the company, or a second share worth less by design? Pick a
+  side below."). **NO post-hook pause**, mid-reel like+follow ask. 47 beats: 44 media (incl. **7 cards** —
+  $1.7T; $64.6B; 26%; a "January 2027" lines card; $3.83; $3.56; 2%), 1 red impact, 2 black ("It looks like a
+  split. It isn't." / "One new share class, zero new votes."). **Captions match the VO verbatim** (except the
+  number cards; spoken figures as numerals; card text naming "META" is editorial overlay, not footage).
+  Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/share/voiceover.mp3`), **built at the house +10% pacing default** (~123s; its own music bed).
+  Entirely its own fresh footage under `public/share/` — no asset shared with any other reel. Media credits
+  (Pexels, free license) — videos: an abstract finance dashboard (5849611), an aerial forked road (40433618).
+  Photos: a plunging red decline chart — no numbers/ticker (39353382), a blank certificate (5420988), hands
+  holding blank paper (8217368), two identical eggs (7404808), a taped-off megaphone (8923862), a magnifier
+  over a no-brand chart (7947669), a blank-screen phone (6611918), stacked paper edges (6620969), one red
+  standout meeple (6990039), a glass skyscraper (164370), a bronze bull — no inscription (12887750), a calendar
+  (7723784), gold bokeh (35601585), a green growth sprout (7944406), interlocking gears (9242927), many hands
+  stacked — overhead, no faces (9775854), a calendar grid (2381848), a blank voting slip (7319309), two doubled
+  block stacks (36386917), a stuck gauge dial (8545564), a hazard triangle (18241245), printing-press rollers
+  (1440504), server racks (17489157), marionette strings (7511711), a chess king (131616), ink dispersing in
+  water (6402525), a raised stop palm (38834389), an hourglass (35646800), motion-blur speed (12973767), an
+  overhanging cliff (28772721), calm still water (27075441), an empty waiting room (34110996), letter tiles
+  spelling "QUESTION" (6005149), a blank tax form + calculator (7821688), a folded newspaper stack — no
+  headlines (5505690), red SALE tags (7986984), a foggy path (3408552), a sunset leap silhouette — no face
+  (19306843), gold "$" coins — generic symbol (12198525), a dartboard bullseye (6758919), red down arrows
+  (31863693), a wooden pointing hand (9017427). No generated graphics this reel. **Brand-safety (screened hard
+  at source and from the FINAL render):** FACE-FREE (hands, backs, overhead silhouettes, a marionette carving),
+  and — despite naming Meta / Mark Zuckerberg / JPMorgan / Wall Street / Class A/B/C — free of any Meta /
+  Facebook / Instagram / WhatsApp / JPMorgan or other company logo or wordmark, any identifiable face (no
+  Zuckerberg likeness), stock TICKER symbols or a readable "META"/share price, exchange (NYSE/NASDAQ) signage,
+  flags, identifiable landmarks, readable foreign text, banknote/coin portraits or identifiable currency, and
+  military imagery. Re-sourced during the render audit: the "stock fell" chart (sh01) first carried crypto-range
+  price numbers (~$111k) and was replaced with a number-free red decline chart; candidates were also rejected
+  for tickers, crypto logos, Portuguese/Japanese calendars, US-flag ballot boxes and refinery-stamped gold.
+  **UNVERIFIED / SENSITIVE — names a real company, its founder and a named bank; rendered as written but MUST be
+  fact-checked before publishing. TWO LIKELY ERRORS: (1) the script says the stock FELL / "down 2% premarket,"
+  but reporting had META UP ~3% after-hours on these results
+  ([Yahoo](https://finance.yahoo.com/markets/stocks/articles/meta-stock-jumps-3-hours-212549647.html)); (2)
+  "$3.83 against $3.56 expected / beat on earnings" — the $3.83 GAAP EPS INCLUDES a ~$9.89B legal charge
+  (ex-charge ~$7.40) and the analyst estimate was ~$5.75
+  ([CNBC](https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html)), so on GAAP it was a MISS
+  and the $3.56 figure looks wrong.** Checks out: non-voting Class C effective Jan 2027, one-for-one dividend
+  ("like a 2-for-1 split"), $64.6B revenue +26%, Zuckerberg's control preserved via a Founder Alignment
+  Agreement ([SEC 10-Q](https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066773/meta-20260930.htm)).
+  Still verify: the $1.7T market-cap, the JPMorgan "sooner the better" quote, and the California billionaire-tax
+  angle. "worth less by design" is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload

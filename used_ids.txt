@@ -3323,7 +3323,6 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 35646800 share/sh29_clock.jpg
 12973767 share/sh30_fast.jpg
 5849611 share/sh00_earnings.mp4
-39398847 share/sh01_down.jpg
 5420988 share/sh02_emptyshare.jpg
 8217368 share/sh03_hold.jpg
 7404808 share/sh04_two.jpg
@@ -3350,3 +3349,4 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 31863693 share/sh42_downcard.jpg
 9017427 share/sh44_point.jpg
 40433618 share/sh46_fork.mp4
+39353382 share/sh01_down.jpg
