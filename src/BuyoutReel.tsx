@@ -73,44 +73,34 @@ type SceneDef = {
 
 // ---------------------------------------------------------------------------
 // "The buyout" reel (BuyoutReel) — fast NEWS reel, Hard Ledger house format.
-// TOPIC: the next Xbox ("Helix") could cost $1,200-$1,800 to build, and Microsoft is reportedly building
-// buy-now-pay-later financing into its own store — console prices have outrun the paycheque.
-// Thesis: the next Xbox could cost more than a used car, and Microsoft already knows you can't afford it,
-// because it's building the financing. A Series X was $499 at launch; the next, per Microsoft's own internal
-// numbers, could be ~3x that. It's codenamed Helix, targeted for Christmas 2028; the internal projection is
-// $1,200-$1,800 BEFORE any subsidy (i.e. the build-and-ship cost). The ladder: Series X $499 at launch, up to
-// $150 more after this year's rise; Sony's next machine reportedly >$680 per console in memory+storage ALONE
-// (before chip, case, controller). Microsoft has started offering BNPL on consoles through its own store —
-// when the maker adds instalments to a games machine, the price has outrun the paycheque. The twist: normally
-// the console is the loss-leader and games carry it; here the hardware can't be subsidised enough to hide the
-// cost, so Game Pass is being rebuilt a la carte (pay for cloud, pay for multiplayer) — the console gets
-// dearer and the subscription gets sliced. Open questions: does Microsoft eat part of the cost (Fortune: only
-// if it chooses to)? does the chip shortage ease by 2028 (nobody's promising)? Outcome: a handheld in 2027,
-// Helix in 2028, $1,200-$1,800, and one analyst's line: "north of a grand is the floor." Binary close ("Would
-// you pay $1,800 for a console, or is this the generation you switch to PC? Pick a side below."). QUESTION/
-// STORY/ANSWER/CTA, NO post-hook pause, mid-reel like+follow ask.
-// Number-heavy: card figures $499 / 2028 / $1,200 / $1,800 / $150 / $680. Captions match the VO verbatim
-// (except the number cards; spoken figures as numerals; USD is the native currency here, not foreign).
-// Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
-// (public/console/voiceover.mp3, NO inserted pause); music mixed at 0.17. 55 beats; built at +21% VO pace
-// (the house +10% default plus a further +10% per client request on this reel) — ~111s.
-// NB: A/B TWIN of the existing BillReel ("The bill": PS6 memory costs more than a whole PS5) — SAME console-
-// pricing/memory-squeeze thesis, Xbox angle. OWN distinct footage under public/console/, NO reuse of ANY other
-// reel's clips, ESPECIALLY NOT BillReel's (bill/) chip/console/datacenter footage — ledger-checked.
-// FOOTAGE is BRAND-FREE, FACE-FREE and LANDMARK-FREE — generic gaming / retail / money / financing b-roll: an
-// UNBRANDED/retro game controller or joystick (NO Xbox/PlayStation/Nintendo controller shapes or logos), a
-// generic TV/screen, price tags, a credit card / instalment / POS terminal, an empty wallet, coins, a receipt,
-// a "SOLD OUT" tag, a ladder/steps (the price ladder), a handheld-ish generic device, a subscription/sliced
-// motif. **NO Xbox / PlayStation / Nintendo / Microsoft / Sony / Game Pass / PS Plus logos, wordmarks, console
-// or controller designs or product shots; NO store/brand logos; NO banknote portraits (US bills shown as backs/
-// edges only); NO identifiable faces; NO flags; NO identifiable landmarks; NO military.**
-// **UNVERIFIED / SENSITIVE / SPECULATIVE — the whole premise is leaks and internal projections about UNANNOUNCED
-// hardware and names real companies (Microsoft, Xbox, Sony/PlayStation); rendered as written but MUST be
-// fact-checked / clearly framed as rumour before publishing:** the "Helix" codename and Christmas 2028 target;
-// the $1,200-$1,800 internal projection and "before any subsidy"; "3x" the $499 Series X; the $150 rise; Sony
-// ">$680 memory+storage per console"; "Microsoft BNPL on consoles"; "Game Pass rebuilt a la carte"; the Fortune
-// attribution; "handheld in 2027"; and the "north of a grand is the floor" analyst quote. The "building the
-// financing / outrun the paycheque" framing is editorial analysis.
+// TOPIC: game studio BioWare is shut down one year after its parent EA was taken private in a debt-fuelled
+// leveraged buyout — the studio died of a loan, not of weak sales.
+// Thesis: a leveraged buyout makes the acquired company pay for its own purchase; when the interest bites,
+// the slow, expensive single-player studios get cut first. ~400 jobs across EA (~3%, ~50 at BioWare Edmonton)
+// with the next Mass Effect cancelled; EA taken private for $55B by Saudi Arabia's PIF, Silver Lake and
+// Affinity, with $20B of junk-rated debt now on EA's own books; ~$2-2.5B/yr of cash increasingly going to
+// lenders before games get funded. Open questions: is Motive next? does the next Sims project survive?
+// Outcome recap, binary close ("Did EA kill BioWare, or did the buyout? Pick a side below.").
+// 10-part structure (claim/personal/promise/scale/evidence/second-order/twist/questions/outcome/CTA),
+// NO post-hook pause, mid-reel like+follow ask.
+// Card figures: 400 jobs / 3% / $55B / $20B / $2-2.5B-a-year. Captions match the VO verbatim (except the
+// number cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1
+// word-timestamp anchor pass (public/buyout/voiceover.mp3, NO inserted pause); music mixed at 0.17.
+// 47 beats; built at the house +10% pacing default — ~105s. OWN distinct footage under public/buyout/,
+// NO reuse of any other reel's clips — ledger-checked. New standalone reel, distinct company/event from the
+// existing ToysReel (which covers the same LBO-debt mechanism for Toys R Us).
+// FOOTAGE is BRAND-FREE, FACE-FREE and LANDMARK-FREE despite naming EA / BioWare / Mass Effect / Baldur's Gate
+// / Dragon Age / The Sims / PIF / Silver Lake / Affinity: generic gaming / office / money / debt b-roll.
+// **NO game box/cover/screenshot or studio/publisher logo; NO Xbox/PlayStation/Nintendo mark or button symbol
+// (controllers/handheld are generic unbranded stand-ins); NO company wordmarks; NO flags (incl. Saudi / US);
+// NO identifiable landmarks; NO readable foreign text; NO banknote/coin portraits or identifiable currency
+// (money shown as gold-abstract, a candlestick, a piggy bank, a "%" balloon); NO identifiable faces; NO military.**
+// **UNVERIFIED / SENSITIVE — names real companies, funds and a named person's assets; rendered as written but
+// MUST be fact-checked before publishing.** Core claims that check out (Oct 2026): the $55B EA take-private by
+// PIF/Silver Lake/Affinity with ~$20B debt (CNBC, EA 8-K), and the BioWare shutdown / ~400 jobs (~3%, ~50 in
+// Edmonton) with the next Mass Effect ended (Gematsu, Variety, Quartz). Still to verify: the ~$2-2.5B/yr cash
+// figure; the "junk-rated" label; the analyst "most exposed"/Motive claims; the "next Sims cancelled" line;
+// and the loose "one year after" timing. The "pays for its own purchase" framing is editorial analysis.
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
@@ -506,9 +496,9 @@ export const BuyoutReel: React.FC = () => {
   const globalOpacity = interpolate(frame, [0, 12, DURATION_IN_FRAMES - 16, DURATION_IN_FRAMES], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill style={{backgroundColor: C.bg}}>
-      {HAS_VOICEOVER ? <Audio src={staticFile('console/voiceover.mp3')} /> : null}
+      {HAS_VOICEOVER ? <Audio src={staticFile('buyout/voiceover.mp3')} /> : null}
       <Audio
-        src={staticFile('console/music.mp3')}
+        src={staticFile('buyout/music.mp3')}
         volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.17, 0.17, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       {SFX.map((s, i) => (
