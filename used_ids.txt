@@ -3350,3 +3350,17 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 9017427 share/sh44_point.jpg
 40433618 share/sh46_fork.mp4
 39353382 share/sh01_down.jpg
+31458377 withdrawal/wd31_opposite.jpg
+9822745 withdrawal/wd32_carmoney.jpg
+5640691 withdrawal/wd33_gauge.jpg
+9822733 withdrawal/wd34_margin.jpg
+7251051 withdrawal/wd36_withdrawal.jpg
+33654843 withdrawal/wd37_wheel.jpg
+12920751 withdrawal/wd38_subs.jpg
+17770333 withdrawal/wd39_merger.jpg
+7807298 withdrawal/wd40_mic.jpg
+669610 withdrawal/wd41_recap1.jpg
+19920920 withdrawal/wd42_recap2.jpg
+39606276 withdrawal/wd43_stockdown.jpg
+13817408 withdrawal/wd44_point.jpg
+14239824 withdrawal/wd46_fork.mp4
