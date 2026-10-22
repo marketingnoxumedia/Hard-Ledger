@@ -107,104 +107,122 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 90, kind: 'hook', reveal: [3, 40], text: 'Tesla just posted the same revenue as last year,|and 43% less profit.', kicker: 'The withdrawal', highlights: [], size: 28, media: {src: 'withdrawal/wd00_flat.mp4', type: 'video', effect: 'in'}},
+  {dur: 196, kind: 'hook', reveal: [3, 40], text: 'Tesla just posted the same revenue as last year,|and 43% less profit.', kicker: 'The withdrawal', highlights: [], size: 28, media: {src: 'withdrawal/wd00_flat.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And the company says|that’s the plan.', highlights: ['plan.'], size: 42, media: {src: 'withdrawal/wd01_plan.jpg', type: 'img', effect: 'panL'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'And the company says|that’s the plan.', highlights: ['plan.'], size: 42, media: {src: 'withdrawal/wd01_plan.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If you hold Tesla stock, you don’t|own a car company any more.', highlights: [], size: 30, media: {src: 'withdrawal/wd02_charging.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', reveal: [2, 40], text: 'If you hold Tesla stock, you don’t|own a car company any more.', highlights: [], size: 30, media: {src: 'withdrawal/wd02_charging.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'You own a bet on|robots and robotaxis,', highlights: ['bet'], size: 36, media: {src: 'withdrawal/wd03_robot.jpg', type: 'img', effect: 'panR'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'You own a bet on|robots and robotaxis,', highlights: ['bet'], size: 36, media: {src: 'withdrawal/wd03_robot.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'paid for by|the car company.', highlights: [], size: 40, media: {src: 'withdrawal/wd04_pay.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'paid for by|the car company.', highlights: [], size: 40, media: {src: 'withdrawal/wd04_pay.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 90, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at the receipts.', highlights: ['receipts.'], size: 48, media: {src: 'withdrawal/wd05_receipts.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at the receipts.', highlights: ['receipts.'], size: 48, media: {src: 'withdrawal/wd05_receipts.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|where the money went.', highlights: [], size: 36, media: {src: 'withdrawal/wd06_money.jpg', type: 'img', effect: 'panL'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|where the money went.', highlights: [], size: 36, media: {src: 'withdrawal/wd06_money.jpg', type: 'img', effect: 'panL'}},
   // 7
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'withdrawal/wd07_phone.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'withdrawal/wd07_phone.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Now, Tesla spending big|is nothing new.', highlights: [], size: 34, media: {src: 'withdrawal/wd08_spend.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'Now, Tesla spending big|is nothing new.', highlights: [], size: 34, media: {src: 'withdrawal/wd08_spend.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this quarter|is different.', highlights: ['different.'], size: 48, media: {src: 'withdrawal/wd09_standout.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this quarter|is different.', highlights: ['different.'], size: 48, media: {src: 'withdrawal/wd09_standout.jpg', type: 'img', effect: 'in'}},
   // 10 CARD $28.05B
-  {dur: 90, kind: 'stat', stat: {pre: 'REVENUE', prefix: '$', value: 28.05, decimals: 2, suffix: 'B', post: 'FLAT'}, media: {src: 'withdrawal/wd10_revenue.jpg', type: 'img', effect: 'in'}},
+  {dur: 144, kind: 'stat', stat: {pre: 'REVENUE', prefix: '$', value: 28.05, decimals: 2, suffix: 'B', post: 'FLAT'}, media: {src: 'withdrawal/wd10_revenue.jpg', type: 'img', effect: 'in'}},
   // 11 CARD $787M
-  {dur: 90, kind: 'stat', stat: {pre: 'NET PROFIT', prefix: '$', value: 787, suffix: 'M'}, media: {src: 'withdrawal/wd11_profit.jpg', type: 'img', effect: 'in'}},
+  {dur: 151, kind: 'stat', stat: {pre: 'NET PROFIT', prefix: '$', value: 787, suffix: 'M'}, media: {src: 'withdrawal/wd11_profit.jpg', type: 'img', effect: 'in'}},
   // 12 CARD 43%
-  {dur: 90, kind: 'stat', stat: {pre: 'DOWN', value: 43, suffix: '%'}, media: {src: 'withdrawal/wd12_down.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'stat', stat: {pre: 'DOWN', value: 43, suffix: '%'}, media: {src: 'withdrawal/wd12_down.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And because research|spending alone was', highlights: [], size: 34, media: {src: 'withdrawal/wd13_lab.jpg', type: 'img', effect: 'panR'}},
+  {dur: 57, kind: 'text', reveal: [2, 40], text: 'And because research|spending alone was', highlights: [], size: 34, media: {src: 'withdrawal/wd13_lab.jpg', type: 'img', effect: 'panR'}},
   // 14 CARD $2.76B
-  {dur: 90, kind: 'stat', stat: {pre: 'R&D', prefix: '$', value: 2.76, decimals: 2, suffix: 'B'}, media: {src: 'withdrawal/wd14_rd.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'stat', stat: {pre: 'R&D', prefix: '$', value: 2.76, decimals: 2, suffix: 'B'}, media: {src: 'withdrawal/wd14_rd.jpg', type: 'img', effect: 'in'}},
   // 15 CARD 69%
-  {dur: 90, kind: 'stat', stat: {pre: 'UP', value: 69, suffix: '%'}, media: {src: 'withdrawal/wd15_up.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'stat', stat: {pre: 'UP', value: 69, suffix: '%'}, media: {src: 'withdrawal/wd15_up.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'Look at those two numbers|next to each other.', highlights: [], size: 34, media: {src: 'withdrawal/wd16_compare.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'Look at those two numbers|next to each other.', highlights: [], size: 34, media: {src: 'withdrawal/wd16_compare.jpg', type: 'img', effect: 'in'}},
   // 17 CARD $718M
-  {dur: 90, kind: 'stat', stat: {pre: 'OPERATING INCOME', prefix: '$', value: 718, suffix: 'M'}, media: {src: 'withdrawal/wd17_opinc.jpg', type: 'img', effect: 'in'}},
+  {dur: 161, kind: 'stat', stat: {pre: 'OPERATING INCOME', prefix: '$', value: 718, suffix: 'M'}, media: {src: 'withdrawal/wd17_opinc.jpg', type: 'img', effect: 'in'}},
   // 18 CARD $2.76B
-  {dur: 90, kind: 'stat', stat: {pre: 'R&D', prefix: '$', value: 2.76, decimals: 2, suffix: 'B'}, media: {src: 'withdrawal/wd18_rd2.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'stat', stat: {pre: 'R&D', prefix: '$', value: 2.76, decimals: 2, suffix: 'B'}, media: {src: 'withdrawal/wd18_rd2.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Tesla spent nearly four times|its operating profit on research.', highlights: ['four times'], size: 30, media: {src: 'withdrawal/wd19_fourx.jpg', type: 'img', effect: 'in'}},
+  {dur: 127, kind: 'text', reveal: [2, 40], text: 'Tesla spent nearly four times|its operating profit on research.', highlights: ['four times'], size: 30, media: {src: 'withdrawal/wd19_fourx.jpg', type: 'img', effect: 'in'}},
   // 20 BLACK
-  {dur: 90, kind: 'impact', text: 'In one|quarter.'},
+  {dur: 27, kind: 'impact', text: 'In one|quarter.'},
   // 21 CARD 486532
-  {dur: 90, kind: 'stat', stat: {pre: 'DELIVERIES', value: 486532, post: 'DOWN 2%'}, media: {src: 'withdrawal/wd21_deliveries.jpg', type: 'img', effect: 'in'}},
+  {dur: 137, kind: 'stat', stat: {pre: 'DELIVERIES', value: 486532, post: 'DOWN 2%'}, media: {src: 'withdrawal/wd21_deliveries.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Down 2%.|Cars flat.', highlights: ['flat.'], size: 44, media: {src: 'withdrawal/wd22_flatcars.jpg', type: 'img', effect: 'panL'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'Down 2%.|Cars flat.', highlights: ['flat.'], size: 44, media: {src: 'withdrawal/wd22_flatcars.jpg', type: 'img', effect: 'panL'}},
   // 23
-  {dur: 90, kind: 'text', reveal: [2], text: 'Spending vertical.', highlights: ['vertical.'], size: 48, media: {src: 'withdrawal/wd23_vertical.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'Spending vertical.', highlights: ['vertical.'], size: 48, media: {src: 'withdrawal/wd23_vertical.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'withdrawal/wd24_warning.jpg', type: 'img', effect: 'panR'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'withdrawal/wd24_warning.jpg', type: 'img', effect: 'panR'}},
   // 25 CARD $25B
-  {dur: 90, kind: 'stat', stat: {pre: 'CAPEX GUIDED OVER', prefix: '$', value: 25, suffix: 'B'}, media: {src: 'withdrawal/wd25_capex.jpg', type: 'img', effect: 'in'}},
+  {dur: 150, kind: 'stat', stat: {pre: 'CAPEX GUIDED OVER', prefix: '$', value: 25, suffix: 'B'}, media: {src: 'withdrawal/wd25_capex.jpg', type: 'img', effect: 'in'}},
   // 26 CARD $13B
-  {dur: 90, kind: 'stat', stat: {pre: 'NINE MONTHS IN', prefix: '$', value: 13, suffix: 'B'}, media: {src: 'withdrawal/wd26_ninemo.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'stat', stat: {pre: 'NINE MONTHS IN', prefix: '$', value: 13, suffix: 'B'}, media: {src: 'withdrawal/wd26_ninemo.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Robotaxi fleet,|Optimus production,', highlights: [], size: 36, media: {src: 'withdrawal/wd27_robotaxi.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'Robotaxi fleet,|Optimus production,', highlights: [], size: 36, media: {src: 'withdrawal/wd27_robotaxi.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'AI compute, a chip fab, solar.', highlights: [], size: 34, media: {src: 'withdrawal/wd28_aicompute.jpg', type: 'img', effect: 'panL'}},
+  {dur: 122, kind: 'text', reveal: [2, 28], text: 'AI compute, a chip fab, solar.', highlights: [], size: 34, media: {src: 'withdrawal/wd28_aicompute.jpg', type: 'img', effect: 'panL'}},
   // 29
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The CFO’s words:|capex keeps rising for years.', highlights: ['rising'], size: 32, media: {src: 'withdrawal/wd29_rising.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 40], text: 'The CFO’s words:|capex keeps rising for years.', highlights: ['rising'], size: 32, media: {src: 'withdrawal/wd29_rising.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a company|with flat sales to cut back.', highlights: [], size: 30, media: {src: 'withdrawal/wd30_cutback.jpg', type: 'img', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a company|with flat sales to cut back.', highlights: [], size: 30, media: {src: 'withdrawal/wd30_cutback.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Tesla is doing the opposite,|and it can,', highlights: ['opposite,'], size: 36, media: {src: 'withdrawal/wd31_opposite.jpg', type: 'img', effect: 'panR'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'Tesla is doing the opposite,|and it can,', highlights: ['opposite,'], size: 36, media: {src: 'withdrawal/wd31_opposite.jpg', type: 'img', effect: 'panR'}},
   // 32
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'because the cars|still make money.', highlights: ['money.'], size: 40, media: {src: 'withdrawal/wd32_carmoney.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'because the cars|still make money.', highlights: ['money.'], size: 40, media: {src: 'withdrawal/wd32_carmoney.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Automotive margin|climbed to', highlights: [], size: 40, media: {src: 'withdrawal/wd33_gauge.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Automotive margin|climbed to', highlights: [], size: 40, media: {src: 'withdrawal/wd33_gauge.jpg', type: 'img', effect: 'in'}},
   // 34 CARD 18.1%
-  {dur: 90, kind: 'stat', stat: {pre: 'AUTO MARGIN', value: 18.1, decimals: 1, suffix: '%', post: 'BEST IN A YEAR'}, media: {src: 'withdrawal/wd34_margin.jpg', type: 'img', effect: 'in'}},
+  {dur: 119, kind: 'stat', stat: {pre: 'AUTO MARGIN', value: 18.1, decimals: 1, suffix: '%', post: 'BEST IN A YEAR'}, media: {src: 'withdrawal/wd34_margin.jpg', type: 'img', effect: 'in'}},
   // 35 BLACK
-  {dur: 90, kind: 'impact', text: 'The cars|are the bank.'},
+  {dur: 63, kind: 'impact', text: 'The cars|are the bank.'},
   // 36
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Everything else|is the withdrawal.', highlights: ['withdrawal.'], size: 42, media: {src: 'withdrawal/wd36_withdrawal.jpg', type: 'img', effect: 'panL'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'Everything else|is the withdrawal.', highlights: ['withdrawal.'], size: 42, media: {src: 'withdrawal/wd36_withdrawal.jpg', type: 'img', effect: 'panL'}},
   // 37
-  {dur: 90, kind: 'text', reveal: [2], text: 'Does FSD carry it?', highlights: ['carry it?'], size: 46, media: {src: 'withdrawal/wd37_wheel.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Does FSD carry it?', highlights: ['carry it?'], size: 46, media: {src: 'withdrawal/wd37_wheel.jpg', type: 'img', effect: 'in'}},
   // 38 CARD 1.74M
-  {dur: 90, kind: 'stat', stat: {pre: 'FSD SUBSCRIPTIONS', value: 1.74, decimals: 2, suffix: 'M', post: 'UP 67%'}, media: {src: 'withdrawal/wd38_subs.jpg', type: 'img', effect: 'in'}},
+  {dur: 155, kind: 'stat', stat: {pre: 'FSD SUBSCRIPTIONS', value: 1.74, decimals: 2, suffix: 'M', post: 'UP 67%'}, media: {src: 'withdrawal/wd38_subs.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Does the SpaceX|merger come back?', highlights: [], size: 38, media: {src: 'withdrawal/wd39_merger.jpg', type: 'img', effect: 'panR'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'Does the SpaceX|merger come back?', highlights: [], size: 38, media: {src: 'withdrawal/wd39_merger.jpg', type: 'img', effect: 'panR'}},
   // 40
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Musk says he’s said|what he needs to say.', highlights: [], size: 34, media: {src: 'withdrawal/wd40_mic.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 40], text: 'Musk says he’s said|what he needs to say.', highlights: [], size: 34, media: {src: 'withdrawal/wd40_mic.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Flat revenue.|Profit down 43%.', highlights: ['43%.'], size: 38, media: {src: 'withdrawal/wd41_recap1.jpg', type: 'img', effect: 'in'}},
+  {dur: 115, kind: 'text', reveal: [2, 28], text: 'Flat revenue.|Profit down 43%.', highlights: ['43%.'], size: 38, media: {src: 'withdrawal/wd41_recap1.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'R&D up 69%.|$45 billion in cash.', highlights: ['$45 billion'], size: 34, media: {src: 'withdrawal/wd42_recap2.jpg', type: 'img', effect: 'panL'}},
+  {dur: 130, kind: 'text', reveal: [2, 40], text: 'R&D up 69%.|$45 billion in cash.', highlights: ['$45 billion'], size: 34, media: {src: 'withdrawal/wd42_recap2.jpg', type: 'img', effect: 'panL'}},
   // 43
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Stock down 3%|on the day.', highlights: ['down 3%'], size: 42, media: {src: 'withdrawal/wd43_stockdown.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'Stock down 3%|on the day.', highlights: ['down 3%'], size: 42, media: {src: 'withdrawal/wd43_stockdown.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 90, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'withdrawal/wd44_point.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'withdrawal/wd44_point.jpg', type: 'img', effect: 'in'}},
   // 45 RED
-  {dur: 90, kind: 'impact', redBg: true, text: 'Is this a car company|funding its next act,|or funding someone else’s?'},
+  {dur: 145, kind: 'impact', redBg: true, text: 'Is this a car company|funding its next act,|or funding someone else’s?'},
   // 46 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'withdrawal/wd46_fork.mp4', type: 'video', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'withdrawal/wd46_fork.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 842, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 890, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1034, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1185, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1284, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1355, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1409, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1476, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1637, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1836, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1863, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2160, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2310, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3005, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3124, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 3285, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3945, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 4090, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
