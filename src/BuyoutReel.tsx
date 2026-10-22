@@ -114,104 +114,116 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 90, kind: 'hook', reveal: [3, 60], text: 'The studio that made Mass Effect|didn’t die because its games stopped selling.', kicker: 'The buyout', highlights: [], size: 26, media: {src: 'buyout/bo00_office.mp4', type: 'video', effect: 'in'}},
+  {dur: 135, kind: 'hook', reveal: [3, 60], text: 'The studio that made Mass Effect|didn’t die because its games stopped selling.', kicker: 'The buyout', highlights: [], size: 26, media: {src: 'buyout/bo00_office.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'It died because|of a loan.', highlights: ['loan.'], size: 48, media: {src: 'buyout/bo01_loandoc.jpg', type: 'img', effect: 'panL'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'It died because|of a loan.', highlights: ['loan.'], size: 48, media: {src: 'buyout/bo01_loandoc.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'If you’ve ever played|Baldur’s Gate,', highlights: [], size: 34, media: {src: 'buyout/bo02_pad.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'If you’ve ever played|Baldur’s Gate,', highlights: [], size: 34, media: {src: 'buyout/bo02_pad.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Knights of the|Old Republic,', highlights: [], size: 36, media: {src: 'buyout/bo03_keyboard.jpg', type: 'img', effect: 'panR'}},
+  {dur: 34, kind: 'text', reveal: [2, 28], text: 'Knights of the|Old Republic,', highlights: [], size: 36, media: {src: 'buyout/bo03_keyboard.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Dragon Age,|any of them,', highlights: [], size: 40, media: {src: 'buyout/bo04_handheld.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'Dragon Age,|any of them,', highlights: [], size: 40, media: {src: 'buyout/bo04_handheld.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'this is the company|that made them.', highlights: [], size: 36, media: {src: 'buyout/bo05_devdesk.jpg', type: 'img', effect: 'panL'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'this is the company|that made them.', highlights: [], size: 36, media: {src: 'buyout/bo05_devdesk.jpg', type: 'img', effect: 'panL'}},
   // 6
-  {dur: 90, kind: 'text', reveal: [2], text: 'Thirty years.', highlights: ['Thirty'], size: 50, media: {src: 'buyout/bo06_cal.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Thirty years.', highlights: ['Thirty'], size: 50, media: {src: 'buyout/bo06_cal.jpg', type: 'img', effect: 'in'}},
   // 7 BLACK
-  {dur: 90, kind: 'impact', text: 'Gone on|a Tuesday.'},
+  {dur: 29, kind: 'impact', text: 'Gone on|a Tuesday.'},
   // 8
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|what killed it.', highlights: ['killed'], size: 34, media: {src: 'buyout/bo08_mag.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|what killed it.', highlights: ['killed'], size: 34, media: {src: 'buyout/bo08_mag.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'buyout/bo09_phone.jpg', type: 'img', effect: 'panR'}},
+  {dur: 86, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'buyout/bo09_phone.jpg', type: 'img', effect: 'panR'}},
   // 10
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Now, a publisher closing a studio|is nothing new.', highlights: [], size: 30, media: {src: 'buyout/bo10_closed.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 40], text: 'Now, a publisher closing a studio|is nothing new.', highlights: [], size: 30, media: {src: 'buyout/bo10_closed.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'buyout/bo11_standout.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'buyout/bo11_standout.jpg', type: 'img', effect: 'in'}},
   // 12 CARD 400
-  {dur: 90, kind: 'stat', stat: {pre: 'JOBS ACROSS EA', value: 400}, media: {src: 'buyout/bo12_chairs.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'stat', stat: {pre: 'JOBS ACROSS EA', value: 400}, media: {src: 'buyout/bo12_chairs.jpg', type: 'img', effect: 'in'}},
   // 13 CARD 3%
-  {dur: 90, kind: 'stat', stat: {pre: 'ABOUT', value: 3, suffix: '%', post: 'OF THE COMPANY'}, media: {src: 'buyout/bo13_fraction.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'stat', stat: {pre: 'ABOUT', value: 3, suffix: '%', post: 'OF THE COMPANY'}, media: {src: 'buyout/bo13_fraction.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Because the next Mass Effect|is cancelled with it.', highlights: ['cancelled'], size: 32, media: {src: 'buyout/bo14_cancelled.jpg', type: 'img', effect: 'panR'}},
+  {dur: 84, kind: 'text', reveal: [2, 40], text: 'Because the next Mass Effect|is cancelled with it.', highlights: ['cancelled'], size: 32, media: {src: 'buyout/bo14_cancelled.jpg', type: 'img', effect: 'panR'}},
   // 15
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And because it comes|one year after', highlights: [], size: 36, media: {src: 'buyout/bo15_oneyear.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'And because it comes|one year after', highlights: [], size: 36, media: {src: 'buyout/bo15_oneyear.jpg', type: 'img', effect: 'in'}},
   // 16 CARD $55B
-  {dur: 90, kind: 'stat', stat: {pre: 'EA BOUGHT OUT FOR', prefix: '$', value: 55, suffix: 'B'}, media: {src: 'buyout/bo16_cash.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'stat', stat: {pre: 'EA BOUGHT OUT FOR', prefix: '$', value: 55, suffix: 'B'}, media: {src: 'buyout/bo16_cash.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Look at how|that deal was built.', highlights: [], size: 40, media: {src: 'buyout/bo17_blueprint.jpg', type: 'img', effect: 'panL'}},
+  {dur: 41, kind: 'text', reveal: [2, 28], text: 'Look at how|that deal was built.', highlights: [], size: 40, media: {src: 'buyout/bo17_blueprint.jpg', type: 'img', effect: 'panL'}},
   // 18
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Buyers: Saudi Arabia’s|sovereign fund,', highlights: [], size: 34, media: {src: 'buyout/bo18_vault.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 40], text: 'Buyers: Saudi Arabia’s|sovereign fund,', highlights: [], size: 34, media: {src: 'buyout/bo18_vault.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Silver Lake,|Affinity.', highlights: [], size: 44, media: {src: 'buyout/bo19_towers.jpg', type: 'img', effect: 'panR'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Silver Lake,|Affinity.', highlights: [], size: 44, media: {src: 'buyout/bo19_towers.jpg', type: 'img', effect: 'panR'}},
   // 20
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Price:|$55 billion.', highlights: [], size: 44, media: {src: 'buyout/bo20_bills.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'Price:|$55 billion.', highlights: [], size: 44, media: {src: 'buyout/bo20_bills.jpg', type: 'img', effect: 'in'}},
   // 21 CARD $20B
-  {dur: 90, kind: 'stat', stat: {pre: 'BORROWED TO PAY FOR IT', prefix: '$', value: 20, suffix: 'B'}, media: {src: 'buyout/bo21_debt.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'stat', stat: {pre: 'BORROWED TO PAY FOR IT', prefix: '$', value: 20, suffix: 'B'}, media: {src: 'buyout/bo21_debt.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 90, kind: 'text', reveal: [2], text: 'Junk-rated.', highlights: ['Junk-rated.'], size: 56, media: {src: 'buyout/bo22_downgrade.jpg', type: 'img', effect: 'panL'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'Junk-rated.', highlights: ['Junk-rated.'], size: 56, media: {src: 'buyout/bo22_downgrade.jpg', type: 'img', effect: 'panL'}},
   // 23
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The debt now sits on|EA’s books, not the buyers’.', highlights: [], size: 30, media: {src: 'buyout/bo23_books.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 40], text: 'The debt now sits on|EA’s books, not the buyers’.', highlights: [], size: 30, media: {src: 'buyout/bo23_books.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'buyout/bo24_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'buyout/bo24_warning.jpg', type: 'img', effect: 'in'}},
   // 25 CARD $2-2.5B
-  {dur: 90, kind: 'lines', reveal: [0, 24], text: '$2–2.5 BILLION|IN CASH A YEAR', highlights: ['$2–2.5'], media: {src: 'buyout/bo25_cashflow.jpg', type: 'img', effect: 'in'}},
+  {dur: 152, kind: 'lines', reveal: [0, 24], text: '$2–2.5 BILLION|IN CASH A YEAR', highlights: ['$2–2.5'], media: {src: 'buyout/bo25_cashflow.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Junk debt|costs real interest.', highlights: ['interest.'], size: 40, media: {src: 'buyout/bo26_interest.jpg', type: 'img', effect: 'panR'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'Junk debt|costs real interest.', highlights: ['interest.'], size: 40, media: {src: 'buyout/bo26_interest.jpg', type: 'img', effect: 'panR'}},
   // 27
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'A big share of that cash now goes|out the door to lenders', highlights: ['lenders'], size: 30, media: {src: 'buyout/bo27_outflow.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 40], text: 'A big share of that cash now goes|out the door to lenders', highlights: ['lenders'], size: 30, media: {src: 'buyout/bo27_outflow.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'before a single game|gets funded.', highlights: [], size: 38, media: {src: 'buyout/bo28_empty.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'before a single game|gets funded.', highlights: [], size: 38, media: {src: 'buyout/bo28_empty.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a buyer|to invest in the thing they bought.', highlights: [], size: 28, media: {src: 'buyout/bo29_growth.jpg', type: 'img', effect: 'panL'}},
+  {dur: 109, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a buyer|to invest in the thing they bought.', highlights: [], size: 28, media: {src: 'buyout/bo29_growth.jpg', type: 'img', effect: 'panL'}},
   // 30
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'A leveraged buyout|works the other way.', highlights: ['way.'], size: 40, media: {src: 'buyout/bo30_reverse.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'A leveraged buyout|works the other way.', highlights: ['way.'], size: 40, media: {src: 'buyout/bo30_reverse.jpg', type: 'img', effect: 'in'}},
   // 31 BLACK
-  {dur: 90, kind: 'impact', text: 'The company pays|for its own purchase.'},
+  {dur: 65, kind: 'impact', text: 'The company pays|for its own purchase.'},
   // 32
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And when the maths|gets tight,', highlights: ['tight,'], size: 42, media: {src: 'buyout/bo32_vice.jpg', type: 'img', effect: 'panR'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], text: 'And when the maths|gets tight,', highlights: ['tight,'], size: 42, media: {src: 'buyout/bo32_vice.jpg', type: 'img', effect: 'panR'}},
   // 33
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'the first things cut are the slow,|expensive, single-player studios.', highlights: ['cut'], size: 28, media: {src: 'buyout/bo33_cut.jpg', type: 'img', effect: 'in'}},
+  {dur: 133, kind: 'text', reveal: [2, 40], text: 'the first things cut are the slow,|expensive, single-player studios.', highlights: ['cut'], size: 28, media: {src: 'buyout/bo33_cut.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'One analyst called BioWare the most|exposed name on the list, a year ago.', highlights: ['exposed'], size: 26, media: {src: 'buyout/bo34_exposed.jpg', type: 'img', effect: 'in'}},
+  {dur: 151, kind: 'text', reveal: [2, 40], text: 'One analyst called BioWare the most|exposed name on the list, a year ago.', highlights: ['exposed'], size: 26, media: {src: 'buyout/bo34_exposed.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 90, kind: 'text', reveal: [2], text: 'Is Motive next?', highlights: ['next?'], size: 48, media: {src: 'buyout/bo35_dominoes.jpg', type: 'img', effect: 'panL'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Is Motive next?', highlights: ['next?'], size: 48, media: {src: 'buyout/bo35_dominoes.jpg', type: 'img', effect: 'panL'}},
   // 36
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'That same analyst|named it.', highlights: [], size: 40, media: {src: 'buyout/bo36_named.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: 'That same analyst|named it.', highlights: [], size: 40, media: {src: 'buyout/bo36_named.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Does the next Sims|project survive?', highlights: ['survive?'], size: 36, media: {src: 'buyout/bo37_house.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'Does the next Sims|project survive?', highlights: ['survive?'], size: 36, media: {src: 'buyout/bo37_house.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'One version was just|cancelled too.', highlights: ['cancelled'], size: 38, media: {src: 'buyout/bo38_cancelled2.jpg', type: 'img', effect: 'panR'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'One version was just|cancelled too.', highlights: ['cancelled'], size: 38, media: {src: 'buyout/bo38_cancelled2.jpg', type: 'img', effect: 'panR'}},
   // 39
-  {dur: 90, kind: 'text', reveal: [2], text: 'Thirty-plus years.', highlights: ['Thirty-plus'], size: 46, media: {src: 'buyout/bo39_clock.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'Thirty-plus years.', highlights: ['Thirty-plus'], size: 46, media: {src: 'buyout/bo39_clock.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 90, kind: 'text', reveal: [2], text: 'Six franchises.', highlights: ['Six'], size: 50, media: {src: 'buyout/bo40_six.jpg', type: 'img', effect: 'panL'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'Six franchises.', highlights: ['Six'], size: 50, media: {src: 'buyout/bo40_six.jpg', type: 'img', effect: 'panL'}},
   // 41
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Fifty people|in Edmonton.', highlights: ['Fifty'], size: 42, media: {src: 'buyout/bo41_crowd.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], text: 'Fifty people|in Edmonton.', highlights: ['Fifty'], size: 42, media: {src: 'buyout/bo41_crowd.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Four hundred|across the company.', highlights: ['Four hundred'], size: 40, media: {src: 'buyout/bo42_dots.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'Four hundred|across the company.', highlights: ['Four hundred'], size: 40, media: {src: 'buyout/bo42_dots.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And a loan that’s still there|in the morning.', highlights: ['loan'], size: 32, media: {src: 'buyout/bo43_sunrise.jpg', type: 'img', effect: 'panL'}},
+  {dur: 55, kind: 'text', reveal: [2, 40], text: 'And a loan that’s still there|in the morning.', highlights: ['loan'], size: 32, media: {src: 'buyout/bo43_sunrise.jpg', type: 'img', effect: 'panL'}},
   // 44
-  {dur: 90, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'buyout/bo44_point.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'buyout/bo44_point.jpg', type: 'img', effect: 'in'}},
   // 45 RED
-  {dur: 90, kind: 'impact', redBg: true, text: 'Did EA kill BioWare,|or did the buyout?'},
+  {dur: 66, kind: 'impact', redBg: true, text: 'Did EA kill BioWare,|or did the buyout?'},
   // 46 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'buyout/bo46_fork.mp4', type: 'video', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'buyout/bo46_fork.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 417, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 708, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 759, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 824, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1053, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1395, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1598, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1660, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2216, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2321, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 3059, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3125, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
