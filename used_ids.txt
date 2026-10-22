@@ -3379,3 +3379,16 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 20419412 withdrawal/wd12_down.jpg
 8471982 withdrawal/wd13_lab.jpg
 40270780 withdrawal/wd14_rd.jpg
+28398621 withdrawal/wd15_up.jpg
+32739872 withdrawal/wd16_compare.jpg
+8442649 withdrawal/wd18_rd2.jpg
+29261090 withdrawal/wd19_fourx.jpg
+3848791 withdrawal/wd21_deliveries.jpg
+18124112 withdrawal/wd22_flatcars.jpg
+32842045 withdrawal/wd24_warning.jpg
+31258538 withdrawal/wd25_capex.jpg
+10667530 withdrawal/wd26_ninemo.jpg
+35076211 withdrawal/wd27_robotaxi.jpg
+4597280 withdrawal/wd28_aicompute.jpg
+28576047 withdrawal/wd29_rising.jpg
+5412469 withdrawal/wd30_cutback.jpg
