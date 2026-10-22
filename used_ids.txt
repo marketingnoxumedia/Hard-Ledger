@@ -3276,3 +3276,17 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 30682989 buyout/bo43_sunrise.jpg
 37976852 buyout/bo44_point.jpg
 37404976 buyout/bo46_fork.mp4
+8346903 buyout/bo00_office.mp4
+7841424 buyout/bo01_loandoc.jpg
+8154772 buyout/bo02_pad.jpg
+671629 buyout/bo03_keyboard.jpg
+8762841 buyout/bo04_handheld.jpg
+34212896 buyout/bo05_devdesk.jpg
+11363590 buyout/bo06_cal.jpg
+7947753 buyout/bo08_mag.jpg
+6278759 buyout/bo09_phone.jpg
+29602606 buyout/bo10_closed.jpg
+38536524 buyout/bo11_standout.jpg
+5483245 buyout/bo12_chairs.jpg
+7580843 buyout/bo13_fraction.jpg
+12960358 buyout/bo14_cancelled.jpg
