@@ -5356,6 +5356,60 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Still verify: the $1.7T market-cap, the JPMorgan "sooner the better" quote, and the California billionaire-tax
   angle. "worth less by design" is editorial analysis.
 
+- **`WithdrawalReel`** — "The withdrawal" (fast NEWS reel). Topic: **Tesla Q3 2026 — flat revenue but profit
+  down 43% and R&D up 69%; the car business is funding a bet on robots, robotaxis and AI. "The cars are the
+  bank. Everything else is the withdrawal."** 10-part structure. **New standalone reel on a different quarter/
+  thesis from the existing `TeslaReel`** ("The bar", an earlier quarter where the stock rose on beating a
+  lowered bar). Thesis: if you hold Tesla you don't own a car company any more — you own a bet on robots/
+  robotaxis paid for by the cars. Revenue $28.05B (flat), net profit $787M (−43%), R&D $2.76B (+69%); operating
+  income was just $718M, so R&D was ~4× operating profit in one quarter. Deliveries 486,532 (−2%) — cars flat,
+  spending vertical. Capex guided over $25B this year ($13B nine months in): robotaxi fleet, Optimus, AI
+  compute, a chip fab, solar; the CFO says capex keeps rising for years. Twist: a flat-sales company would
+  normally cut back; Tesla does the opposite because the cars still make money — auto margin climbed to 18.1%
+  (best in over a year). Open questions: does FSD carry it (subs 1.74M, +67%)? does the SpaceX merger come
+  back? Outcome: flat revenue, profit −43%, R&D +69%, $45B cash, stock −3%. Binary close ("Is this a car
+  company funding its next act, or funding someone else's? Pick a side below."). **NO post-hook pause**, mid-
+  reel like+follow ask. 47 beats: 44 media (incl. **12 cards** — $28.05B; $787M; 43%; $2.76B; 69%; $718M;
+  486,532; $25B; $13B; 18.1%; 1.74M — R&D $2.76B appears twice for the side-by-side), 1 red impact, 2 black
+  ("In one quarter." / "The cars are the bank."). **Captions match the VO verbatim** (except the number cards;
+  spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor
+  pass (`public/withdrawal/voiceover.mp3`), **built at the house +10% pacing default** (~138s — the longest
+  reel, a dense earnings teardown; its own music bed). Entirely its own fresh footage under `public/withdrawal/`
+  — no asset shared with any other reel. Media credits (Pexels, free license) — videos: an abstract data-wave
+  (34189433), an aerial forked road (14239824). Photos: architectural blueprints (34573691), an EV charging
+  plug — no badge (9799736), an industrial robot arm — not humanoid (16544054), decorative gold coins
+  (7080555), a blank till roll (13466249), gold bokeh (5804713), a blank phone (5484738), gold foil (6638269),
+  a red standout seat (9771484), neon flat-line grid (8108682), a piggy bank (37498636), red descending steps
+  (20419412), a lab microscope (8471982), a circuit board (40270780), green rising columns (28398621), a
+  Lady-Justice scales statue (32739872), abstract gold (2872168), a lab flask (8442649), unequal chip stacks
+  (29261090), an aerial new-car lot — no badges (3848791), a flat empty road (18124112), a rising candlestick
+  chart — cropped, no numbers (39589930), a caution sign (32842045), construction cranes (31258538), a block
+  calendar (10667530), a rooftop-lidar AV — no badge/not a Tesla (35076211), server cabinets (4597280), a
+  stone staircase (28576047), scissors (5412469), a no-U-turn sign (31458377), a gold toy car (40175775), a
+  climbing dial/watch (5640691), a green climbing trend (14240573), an abstract ATM cash slot (7251051), a
+  plain steering wheel — no logo (33654843), a blank subscription card + coins (12920751), puzzle pieces
+  (17770333), an unbranded mic (7807298), a charts dashboard (669610), a bank vault wall (19920920), cropped
+  red candlesticks (39606276), a mannequin hand (13817408). No generated graphics this reel. **Brand-safety
+  (screened hard at source and from the FINAL render):** FACE-FREE (hands, backs, objects, a mannequin hand;
+  the Lady-Justice statue is an allegorical symbol, not a real person), and — despite naming Tesla / Elon Musk
+  / SpaceX / Optimus / FSD / robotaxi — free of any Tesla logo or vehicle (Model 3/Y/S/X/Cybertruck) or
+  identifiable car badge, Elon Musk or any identifiable face, SpaceX rocket/logo, Optimus/humanoid robot (robot
+  ARMS only), FSD/Autopilot UI, company/bank logo or wordmark, stock TICKER or readable "TSLA"/price, exchange
+  signage, flags, identifiable landmarks, readable foreign text, banknote/coin portraits or identifiable
+  currency, and military. **This reel needed four footage-swap passes** at the render audit: the stock library
+  kept pushing agents toward euro notes/coins (wd06/08/11/32 and the wd17/wd23 coin renders with €/£ glyphs —
+  all replaced with gold-abstract / piggy bank / toy car / currency-neutral charts) and toward already-used
+  images (wd05/wd09/wd34 collided with the cross-reel ledger — including the pre-existing bare-id block — and
+  were re-sourced fresh). **UNVERIFIED / SENSITIVE — names a real company and its CEO; rendered as written but
+  MUST be fact-checked before publishing.** Core numbers CHECK OUT (Oct 2026): revenue $28.05B flat, net profit
+  $787M (EPS $0.22, ~−43%), operating income $718M, R&D $2.76B (+69%), deliveries 486,532 (−2%), FSD subs +67%
+  ([Electrek](https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/),
+  [10-Q/TradingView](https://www.tradingview.com/news/tradingview:66d6bc8123840:0-tesla-3q-2026-revenue-28-05b-net-income-787m-eps-0-22-10-q-summary/),
+  [SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001318605/000162828026066738/exhibit9914.htm)). Still
+  verify: the >$25B capex guide / $13B nine-month, the 18.1% auto margin, the $45B cash, the −3% stock move,
+  and the two quotes (the CFO "capex keeps rising", Musk on the SpaceX merger). "The cars are the bank /
+  everything else is the withdrawal" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
