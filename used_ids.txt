@@ -3392,3 +3392,5 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 4597280 withdrawal/wd28_aicompute.jpg
 28576047 withdrawal/wd29_rising.jpg
 5412469 withdrawal/wd30_cutback.jpg
+2872168 withdrawal/wd17_opinc.jpg
+39589930 withdrawal/wd23_vertical.jpg
