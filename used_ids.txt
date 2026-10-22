@@ -3353,7 +3353,6 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 31458377 withdrawal/wd31_opposite.jpg
 9822745 withdrawal/wd32_carmoney.jpg
 5640691 withdrawal/wd33_gauge.jpg
-9822733 withdrawal/wd34_margin.jpg
 7251051 withdrawal/wd36_withdrawal.jpg
 33654843 withdrawal/wd37_wheel.jpg
 12920751 withdrawal/wd38_subs.jpg
@@ -3369,7 +3368,6 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 9799736 withdrawal/wd02_charging.jpg
 16544054 withdrawal/wd03_robot.jpg
 7080555 withdrawal/wd04_pay.jpg
-4959926 withdrawal/wd05_receipts.jpg
 5804713 withdrawal/wd06_money.jpg
 5484738 withdrawal/wd07_phone.jpg
 6638269 withdrawal/wd08_spend.jpg
@@ -3394,3 +3392,5 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 5412469 withdrawal/wd30_cutback.jpg
 2872168 withdrawal/wd17_opinc.jpg
 39589930 withdrawal/wd23_vertical.jpg
+13466249 withdrawal/wd05_receipts.jpg
+14240573 withdrawal/wd34_margin.jpg
