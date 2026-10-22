@@ -5135,6 +5135,63 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   the threshold, 20% / ~£93/yr; "owe HMRC for the first time"; the freeze running "to 2030"; and "April 2027 /
   £250.70 a week". The "triple lock quietly broken" framing is editorial analysis.
 
+- **`SpiralReel`** — "The spiral" (fast NEWS reel). NEW topic: **a UK inflation jump feeding the government's
+  record debt-interest bill, one week before the Budget — "UK inflation just jumped, and the government is the
+  one who pays the biggest penalty for it. In cash. This month."** QUESTION/STORY/ANSWER/CTA. Thesis: if
+  you've filled a car lately you know the number; the same number just added billions to the national interest
+  bill, which you also pay. Inflation is ~3.5%, up from ~3.1% in a single month; motor fuel ~+29.8% on the year
+  (petrol highest since 2022) — and it lands one week before the Chancellor's first Budget. The same morning:
+  September debt interest ~£10.9bn (a monthly record), deficit ~£24.5bn, total debt crossing ~£3tn for the
+  first time. Because a chunk of UK debt is index-linked, the interest rises with inflation automatically — the
+  ONS says the jump added ~£4bn to September's interest alone. The twist: normally a Chancellor wants low
+  inflation for voters; this one needs it for the balance sheet — every point of inflation is a bill from
+  bondholders, and the same figure sets next year's pension/benefits uprating, so it costs twice. Open
+  questions: does the Bank of England hike into a Budget? does the Chancellor have room left to spend? Outcome
+  recap card: 3.5% / £10.9bn / £3tn / Budget next Wednesday. Binary close ("Is this a fuel-price blip, or the
+  moment the debt starts setting policy? Pick a side below."). **NO post-hook pause**, mid-reel like+follow
+  ask. 44 beats: 41 media (incl. **7 number cards** — 3.5% rise; 3.1% prior; 29.8% motor fuel; £10.9bn debt
+  interest; £24.5bn deficit; £3tn total debt; £4bn added — plus a 4-line outcome recap card), 1 red impact
+  ("Is this a fuel-price blip...setting policy?"), 2 black ("Which you|also pay." / "It costs|twice.").
+  **Captions match the VO verbatim** (except the number cards; spoken figures as numerals). Durations/reveals/
+  SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/spiral/voiceover.mp3`), **built at
+  the house +10% pacing default** (~115s). Entirely its own fresh footage under `public/spiral/` — no asset
+  shared with any other reel (NB: distinct from the existing `BillReel`/"The bill" PS6-memory reel, which it
+  briefly collided with during scaffolding and was renamed away from). Media credits (Pexels, free license) —
+  videos: a hand-held nozzle filling a car (9109484), an aerial forked dirt road (14239825). Photos: a 3D
+  thumbs-down/penalty (8831812), a pink piggy bank (11427660), a green fuel nozzle (12377482), a dashboard fuel
+  gauge (13060769), a digital dash readout (37072314), red/blue dice stacked as a bar chart (6990177),
+  interlocking gears (21854072), a blank-screen phone (6373218), blank white price tags (8058800), one red
+  standout pawn (38537381), a printed line chart — no brand (7054368), red "%" balloons (5625111), a generic
+  pump nozzle in holster (34058522), a petrol forecourt — no brand (34636185), a hand writing on a calendar
+  (6172482), red gift/"budget" boxes (1303087), hands on a plain document (10375945), a red calculator +
+  receipts (7680748), wooden directional arrows (7679944), a red pen on accounts (207756), a black piggy bank +
+  loose coins (3943715), a straight road to the horizon (1955134), a "Not in use" warning sign (5302090),
+  chain links (1363191), machined cogs (7568421), a car instrument cluster (6075494), a hand + pen over a data
+  report (590022), a pink piggy bank on navy (11933676), cut-out "VOTE YES!" letters — no flag (8850884),
+  balanced stacked river stones for "balance" — no justice figure/face (26150937), rolled parchment (6939784),
+  a magnifier over figures (4494634), hands holding kraft envelopes (4968675), a round pressure-gauge dial
+  (462394), a ticker-free candlestick chart (39334006), a small coin purse (28028244), a descending block
+  staircase (1329328, flipped), a gold-bokeh recap backdrop (34725175), a wooden mannequin pointing hand
+  (16748673). No generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL
+  render):** FACE-FREE (people shown via hands, backs, objects, a mannequin hand; one mislabeled bar-scene clip
+  with faces was caught in the render audit and swapped), and free of fuel-station/bank/company logos, HMRC/
+  DWP/Treasury/Bank-of-England/ONS crests or letterhead, flags (Union Jack / US / any), identifiable UK
+  landmarks or buildings, readable stock tickers, foreign text, military imagery, and — for a £ reel —
+  **monarch/banknote portraits and identifiable foreign currency** (money shown only as piggy banks, a coin
+  purse, unmarked loose coins, a gold-bokeh abstract). Rejected and replaced during sourcing/audit: a first
+  pass that used **euro/dollar-marked money and a $-sign render**, a **wine-glass clip** mislabeled as "money
+  growing", a **US-flag/stars "VOTE"** ballot, a **man's face** behind justice scales, a **Portuguese trading
+  screen with live tickers**, children/faces, and several intra-reel / cross-reel Pexels-id collisions caught
+  by the ledger check. **UNVERIFIED / SENSITIVE — asserts specific, checkable, politically contested UK macro
+  figures and names real institutions; rendered as written but MUST be fact-checked against primary sources
+  (ONS / HM Treasury / OBR / Bank of England / the Budget) before publishing:** the ~3.5% (up from ~3.1%) CPI
+  and ~+29.8% motor fuel / "highest since 2022"; the ~£10.9bn September debt interest "highest ever", ~£24.5bn
+  deficit, ~£3tn total debt "first time"; "index-linked" interest and the ONS ~£4bn attribution; "Budget next
+  Wednesday". **FACTUAL ERROR: the script names "Healey" as the one with spending room, implying he is
+  Chancellor — the UK Chancellor is Rachel REEVES (John Healey is Defence Secretary). Rendered verbatim but
+  almost certainly wrong; correct the name before publishing.** The "debt starts setting policy" framing is
+  editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
