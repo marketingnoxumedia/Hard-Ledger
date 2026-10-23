@@ -5457,6 +5457,60 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (Lam −10%, Applied Materials −6%, Intel −5%, Marvell −4%, sector −4% — these vary by source and intraday vs.
   close); and the **"oil up the same morning"** aside (unverified). The "constraint at the top of the supply
   chain / can't fix a missing component with money" framing is editorial analysis.
+- **`ScarcityReel`** — "The scarcity" (fast NEWS reel). NEW topic: **Nvidia CEO Jensen Huang, on CNBC, said the
+  AI slowdown isn't about demand — it's a "scarcity of capital," the working capital to pay for the build-out —
+  and tech sold off. The bottleneck is MONEY, not chips.** 10-part structure. Thesis: the man selling every AI
+  chip said the problem isn't demand, it's that nobody can find the cash to pay for it — and if your pension holds
+  a tech index, that one sentence cost you money. Huang's words: demand for the "neoclouds" is off the charts but
+  the working capital to fuel it is missing ("the demand for capital is much greater than the availability of
+  capital"). Who's paying: Meta lifted its capex floor to ~$135B this year and created non-voting shares to raise
+  more, while Tesla trimmed AI spend ~$25B→$20B — one borrowing to keep up, one stepping back. Twist: the chip
+  supplier is normally last to admit a slowdown; Huang said it out loud and called it temporary ("that's going to
+  get solved") — but if the fix is more capital, the fix is more debt, and the neoclouds buying his chips have the
+  least of it. Open questions: who lends the neoclouds the money; does Meta's new share class sell fast enough; is
+  ~$112 oil the same morning the thing that ends the party. Binary close ("Is 'scarcity of capital' a speed bump,
+  or the first honest word about how this ends? Pick a side below."). **NO post-hook pause**, mid-reel like+follow
+  ask. 47 beats: 44 media (incl. **7 cards** — NASDAQ 100 1.5%; META 5%; NVIDIA 4%; META SPEND FLOOR $135B; TESLA
+  FROM $25B; TO $20B; BRENT $112), 1 red impact, 2 black ("Demand, fine. Money, missing." / "More capital means
+  more debt."). **Captions match the VO verbatim** (except the number cards; spoken figures as numerals).
+  Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/scarcity/voiceover.mp3`), **built at the house +10% VO default** (~110s; its own music bed). Entirely
+  its own fresh footage under `public/scarcity/` — no asset shared with any other reel. **New STANDALONE reel;
+  it is the CAPITAL-scarcity counterpart to `ConstraintReel` ("The constraint"), which is the SUPPLY-constraint
+  angle on the same AI-selloff week — distinct subject/thesis, but publish only one of the two to a given audience
+  to avoid the near-identical "is the AI build-out ending?" close landing twice.** Media credits (Pexels, free
+  license) — videos: an abstract red data-field selloff (34127955), an aerial forked gravel road (32600355).
+  Photos: an empty open palm (8058739), a plain piggy bank — no money (4146007), an English planner page
+  (7723802), a lone microphone under a spotlight (17722679), a blank sheet of paper (6801641), a hand with a
+  blank-screen phone (13570135), a balancing-stone cairn (6226707), one fresh red match among burnt ones
+  (32248356), a red light-streak on black (14212135), a dark geometric grid (28428591), abstract red 3D blocks
+  (29738260), red smoke (16052073), a red geometric lattice (10559023), a broadcast camera / blurred auditorium
+  (26803904), cracked drought earth (36767372), an ascending light-line (8959017), a jigsaw with a missing piece
+  (262488), a tipped empty seesaw (13442292), a wordless yellow hazard triangle (11442941), a hand holding a blank
+  card (6373874), crane jibs against sky (17297091), gold bokeh (8080577), a rolled certificate with a ribbon
+  (7723731), gold scissors cutting paper (8058752), a red paint swirl (6757560), red smoke on black (38808411), a
+  forest path forking in two (13219613), a circuit-board macro (33798614), a retro megaphone (8846789), a hand
+  gripping a wrench (29459133), a dart in a bullseye (13179775), blinking server-rack lights (17489155), an empty
+  glass jar (9477269), a hands-only handshake (33175672), an auction gavel (8693379), an oil pumpjack (20014443),
+  a dark oil abstract (6141905), confetti aftermath (4929511), a declining chart line — numbers cropped out
+  (39228929), a crude-oil sheen (14650696), an hourglass nearly run out (10994725), a hand pointing at the viewer
+  (1259327). No generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL
+  render):** FACE-FREE (hands, objects, backs; one gavel shot has a person with face out of frame), and — despite
+  naming Nvidia / Jensen Huang / Meta / Tesla / CNBC — free of any company logo or wordmark, identifiable face,
+  product/chassis that names a maker, stock TICKER or readable price, exchange/CNBC signage, oil-company logo,
+  flags, identifiable landmarks, readable foreign text, banknote/coin portraits or identifiable currency, and
+  military. The sourcing agents rejected along the way: Dell/HP server chassis + "HP ProLiant" wordmarks, an
+  Apple-logo laptop, a national flag, an Infineon-branded chip, a Neumann-branded mic, a bank statement naming
+  Amazon/Target/Discover, Portuguese/Russian/Chinese text on calendars and scales, "PERGAMON LONDON" / "EGO" /
+  "Ice Cold Drinks" wordmarks, and Jenga/Liebherr marks. A few beats use clean abstract STAND-INS where every
+  literal, brand-free option was already used by another reel: the magnifier-over-document beat is a blank sheet
+  (sc05), and the "falling bars" / "down arrow" / recap-chart beats are abstract red renders / a number-cropped
+  chart (sc09, sc11, sc41). **UNVERIFIED / SENSITIVE — names real companies and a named CEO, quotes him, and
+  asserts same-morning market moves; rendered as written but MUST be fact-checked before publishing.** Verify: the
+  Jensen Huang "scarcity of capital" / "working capital" / "availability of capital" quotes and the CNBC setting;
+  the per-name moves (Nasdaq 100 −1.5%, Meta −5%, Nvidia −4% — vary by source and intraday-vs-close); Meta's
+  ~$135B capex floor and its new non-voting share class; Tesla trimming AI spend ~$25B→$20B; and ~$112 Brent "the
+  same morning." The "scarcity of capital = more debt" framing is editorial analysis.
 
 ## Export note
 
