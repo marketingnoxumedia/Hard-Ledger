@@ -5373,8 +5373,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   486,532; $25B; $13B; 18.1%; 1.74M — R&D $2.76B appears twice for the side-by-side), 1 red impact, 2 black
   ("In one quarter." / "The cars are the bank."). **Captions match the VO verbatim** (except the number cards;
   spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor
-  pass (`public/withdrawal/voiceover.mp3`), **built at the house +10% pacing default** (~138s — the longest
-  reel, a dense earnings teardown; its own music bed). Entirely its own fresh footage under `public/withdrawal/`
+  pass (`public/withdrawal/voiceover.mp3`), **built at +21% VO pace — the house +10% default plus a further
+  +10% on this reel at the client's request** (~125s; its own music bed, reused from the longer cut). Entirely its own fresh footage under `public/withdrawal/`
   — no asset shared with any other reel. Media credits (Pexels, free license) — videos: an abstract data-wave
   (34189433), an aerial forked road (14239824). Photos: architectural blueprints (34573691), an EV charging
   plug — no badge (9799736), an industrial robot arm — not humanoid (16544054), decorative gold coins
