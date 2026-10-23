@@ -110,104 +110,118 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 90, kind: 'hook', reveal: [3, 40], text: 'The man selling every AI chip|just said the problem isn’t demand.', kicker: 'The scarcity', highlights: ['demand.'], size: 30, media: {src: 'scarcity/sc00_selloff.mp4', type: 'video', effect: 'in'}},
+  {dur: 112, kind: 'hook', reveal: [3, 40], text: 'The man selling every AI chip|just said the problem isn’t demand.', kicker: 'The scarcity', highlights: ['demand.'], size: 30, media: {src: 'scarcity/sc00_selloff.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'It’s that nobody can find|the cash to pay for it.', highlights: ['cash'], size: 34, media: {src: 'scarcity/sc01_cash.jpg', type: 'img', effect: 'panL'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'It’s that nobody can find|the cash to pay for it.', highlights: ['cash'], size: 34, media: {src: 'scarcity/sc01_cash.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'If your pension holds|a tech index,', highlights: ['pension'], size: 36, media: {src: 'scarcity/sc02_pension.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'If your pension holds|a tech index,', highlights: ['pension'], size: 36, media: {src: 'scarcity/sc02_pension.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'this is the sentence that cost you|money on Thursday.', highlights: ['money'], size: 30, media: {src: 'scarcity/sc03_thursday.jpg', type: 'img', effect: 'panR'}},
+  {dur: 86, kind: 'text', reveal: [2, 40], text: 'this is the sentence that cost you|money on Thursday.', highlights: ['money'], size: 30, media: {src: 'scarcity/sc03_thursday.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And it came from the one|person who’d know.', highlights: ['know.'], size: 34, media: {src: 'scarcity/sc04_know.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'And it came from the one|person who’d know.', highlights: ['know.'], size: 34, media: {src: 'scarcity/sc04_know.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'I’ll show you what he said|and what it moved.', highlights: ['moved.'], size: 34, media: {src: 'scarcity/sc05_moved.jpg', type: 'img', effect: 'panL'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'I’ll show you what he said|and what it moved.', highlights: ['moved.'], size: 34, media: {src: 'scarcity/sc05_moved.jpg', type: 'img', effect: 'panL'}},
   // 6
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'scarcity/sc06_phone.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'scarcity/sc06_phone.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Now, a tech sell-off|is nothing new.', highlights: [], size: 36, media: {src: 'scarcity/sc07_wobble.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'Now, a tech sell-off|is nothing new.', highlights: [], size: 36, media: {src: 'scarcity/sc07_wobble.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'scarcity/sc08_standout.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'scarcity/sc08_standout.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 90, kind: 'text', reveal: [2], enter: 'slideUp', text: 'The Nasdaq 100 dropped.', highlights: [], size: 40, media: {src: 'scarcity/sc09_drop.jpg', type: 'img', effect: 'panR'}},
+  {dur: 67, kind: 'text', reveal: [2], enter: 'slideUp', text: 'The Nasdaq 100 dropped.', highlights: [], size: 40, media: {src: 'scarcity/sc09_drop.jpg', type: 'img', effect: 'panR'}},
   // 10 CARD 1.5%
-  {dur: 90, kind: 'stat', stat: {pre: 'NASDAQ 100', value: 1.5, decimals: 1, suffix: '%', post: 'DOWN'}, media: {src: 'scarcity/sc10_nasdaq.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'stat', stat: {pre: 'NASDAQ 100', value: 1.5, decimals: 1, suffix: '%', post: 'DOWN'}, media: {src: 'scarcity/sc10_nasdaq.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Meta fell.', highlights: ['fell.'], size: 40, media: {src: 'scarcity/sc11_names.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2, 28], text: 'Meta fell.', highlights: ['fell.'], size: 40, media: {src: 'scarcity/sc11_names.jpg', type: 'img', effect: 'in'}},
   // 12 CARD 5%
-  {dur: 90, kind: 'stat', stat: {pre: 'META', value: 5, suffix: '%', post: 'DOWN'}, media: {src: 'scarcity/sc12_meta.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'stat', stat: {pre: 'META', value: 5, suffix: '%', post: 'DOWN'}, media: {src: 'scarcity/sc12_meta.jpg', type: 'img', effect: 'in'}},
   // 13 CARD 4%
-  {dur: 90, kind: 'stat', stat: {pre: 'NVIDIA', value: 4, suffix: '%', post: 'DOWN'}, media: {src: 'scarcity/sc13_nvidia.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'stat', stat: {pre: 'NVIDIA', value: 4, suffix: '%', post: 'DOWN'}, media: {src: 'scarcity/sc13_nvidia.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The trigger was Jensen Huang,|on CNBC,', highlights: [], size: 32, media: {src: 'scarcity/sc14_studio.jpg', type: 'img', effect: 'panL'}},
+  {dur: 99, kind: 'text', reveal: [2, 40], text: 'The trigger was Jensen Huang,|on CNBC,', highlights: [], size: 32, media: {src: 'scarcity/sc14_studio.jpg', type: 'img', effect: 'panL'}},
   // 15
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'saying the words:|scarcity of capital.', highlights: ['scarcity'], size: 32, media: {src: 'scarcity/sc15_scarcity.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 40], text: 'saying the words:|scarcity of capital.', highlights: ['scarcity'], size: 32, media: {src: 'scarcity/sc15_scarcity.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The demand for the neoclouds|is off the charts.', highlights: ['neoclouds'], size: 30, media: {src: 'scarcity/sc16_demand.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 40], text: 'The demand for the neoclouds|is off the charts.', highlights: ['neoclouds'], size: 30, media: {src: 'scarcity/sc16_demand.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'What’s missing in the middle|is the working capital.', highlights: ['working'], size: 30, media: {src: 'scarcity/sc17_working.jpg', type: 'img', effect: 'panR'}},
+  {dur: 106, kind: 'text', reveal: [2, 40], text: 'What’s missing in the middle|is the working capital.', highlights: ['working'], size: 30, media: {src: 'scarcity/sc17_working.jpg', type: 'img', effect: 'panR'}},
   // 18
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The demand for capital|is greater than the supply.', highlights: ['greater'], size: 30, media: {src: 'scarcity/sc18_supply.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 40], text: 'The demand for capital|is greater than the supply.', highlights: ['greater'], size: 30, media: {src: 'scarcity/sc18_supply.jpg', type: 'img', effect: 'in'}},
   // 19 BLACK
-  {dur: 90, kind: 'impact', text: 'Demand, fine.|Money, missing.'},
+  {dur: 81, kind: 'impact', text: 'Demand, fine.|Money, missing.'},
   // 20
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'scarcity/sc20_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], enter: 'slideUp', text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'scarcity/sc20_warning.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 90, kind: 'text', reveal: [2], text: 'Look at who’s paying.', highlights: [], size: 44, media: {src: 'scarcity/sc21_paying.jpg', type: 'img', effect: 'panL'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'Look at who’s paying.', highlights: [], size: 44, media: {src: 'scarcity/sc21_paying.jpg', type: 'img', effect: 'panL'}},
   // 22
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Meta just lifted its|spending floor to:', highlights: [], size: 34, media: {src: 'scarcity/sc22_floor.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'Meta just lifted its|spending floor to:', highlights: [], size: 34, media: {src: 'scarcity/sc22_floor.jpg', type: 'img', effect: 'in'}},
   // 23 CARD $135B
-  {dur: 90, kind: 'stat', stat: {pre: 'META SPEND FLOOR', prefix: '$', value: 135, suffix: 'B', post: 'THIS YEAR'}, media: {src: 'scarcity/sc23_meta135.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'stat', stat: {pre: 'META SPEND FLOOR', prefix: '$', value: 135, suffix: 'B', post: 'THIS YEAR'}, media: {src: 'scarcity/sc23_meta135.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'and created non-voting shares|to raise more.', highlights: ['shares'], size: 32, media: {src: 'scarcity/sc24_shares.jpg', type: 'img', effect: 'panR'}},
+  {dur: 106, kind: 'text', reveal: [2, 40], text: 'and created non-voting shares|to raise more.', highlights: ['shares'], size: 32, media: {src: 'scarcity/sc24_shares.jpg', type: 'img', effect: 'panR'}},
   // 25
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Tesla went the other way,|cutting AI spend.', highlights: [], size: 34, media: {src: 'scarcity/sc25_cut.jpg', type: 'img', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2, 28], text: 'Tesla went the other way,|cutting AI spend.', highlights: [], size: 34, media: {src: 'scarcity/sc25_cut.jpg', type: 'img', effect: 'in'}},
   // 26 CARD $25B
-  {dur: 90, kind: 'stat', stat: {pre: 'TESLA — FROM', prefix: '$', value: 25, suffix: 'B'}, media: {src: 'scarcity/sc26_from.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'TESLA — FROM', prefix: '$', value: 25, suffix: 'B'}, media: {src: 'scarcity/sc26_from.jpg', type: 'img', effect: 'in'}},
   // 27 CARD $20B
-  {dur: 90, kind: 'stat', stat: {pre: 'TO', prefix: '$', value: 20, suffix: 'B'}, media: {src: 'scarcity/sc27_to.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'stat', stat: {pre: 'TO', prefix: '$', value: 20, suffix: 'B'}, media: {src: 'scarcity/sc27_to.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'One company borrowing to keep up.|One stepping back.', highlights: ['back.'], size: 30, media: {src: 'scarcity/sc28_diverge.jpg', type: 'img', effect: 'panL'}},
+  {dur: 96, kind: 'text', reveal: [2, 40], text: 'One company borrowing to keep up.|One stepping back.', highlights: ['back.'], size: 30, media: {src: 'scarcity/sc28_diverge.jpg', type: 'img', effect: 'panL'}},
   // 29
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Normally the chip supplier|is last to admit a slowdown.', highlights: [], size: 30, media: {src: 'scarcity/sc29_chip.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 40], text: 'Normally the chip supplier|is last to admit a slowdown.', highlights: [], size: 30, media: {src: 'scarcity/sc29_chip.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Huang said it out loud,|and called it temporary.', highlights: ['temporary.'], size: 32, media: {src: 'scarcity/sc30_loud.jpg', type: 'img', effect: 'panR'}},
+  {dur: 75, kind: 'text', reveal: [2, 40], text: 'Huang said it out loud,|and called it temporary.', highlights: ['temporary.'], size: 32, media: {src: 'scarcity/sc30_loud.jpg', type: 'img', effect: 'panR'}},
   // 31
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'That’s going to|get solved.', highlights: ['solved.'], size: 42, media: {src: 'scarcity/sc31_solved.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], text: 'That’s going to|get solved.', highlights: ['solved.'], size: 42, media: {src: 'scarcity/sc31_solved.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 90, kind: 'text', reveal: [2], text: 'Which is the point.', highlights: [], size: 48, media: {src: 'scarcity/sc32_point.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'Which is the point.', highlights: [], size: 48, media: {src: 'scarcity/sc32_point.jpg', type: 'img', effect: 'in'}},
   // 33 BLACK
-  {dur: 90, kind: 'impact', text: 'More capital|means more debt.'},
+  {dur: 50, kind: 'impact', text: 'More capital|means more debt.'},
   // 34
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And the ones buying his chips,|the neoclouds,', highlights: [], size: 32, media: {src: 'scarcity/sc34_neoclouds.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 40], text: 'And the ones buying his chips,|the neoclouds,', highlights: [], size: 32, media: {src: 'scarcity/sc34_neoclouds.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 90, kind: 'text', reveal: [2], text: 'have the least of it.', highlights: ['least'], size: 46, media: {src: 'scarcity/sc35_least.jpg', type: 'img', effect: 'panL'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'have the least of it.', highlights: ['least'], size: 46, media: {src: 'scarcity/sc35_least.jpg', type: 'img', effect: 'panL'}},
   // 36
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Who lends the neoclouds|the money?', highlights: ['money?'], size: 38, media: {src: 'scarcity/sc36_lend.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'Who lends the neoclouds|the money?', highlights: ['money?'], size: 38, media: {src: 'scarcity/sc36_lend.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Does Meta’s new share class|sell fast enough?', highlights: ['enough?'], size: 34, media: {src: 'scarcity/sc37_sell.jpg', type: 'img', effect: 'panR'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'Does Meta’s new share class|sell fast enough?', highlights: ['enough?'], size: 34, media: {src: 'scarcity/sc37_sell.jpg', type: 'img', effect: 'panR'}},
   // 38
-  {dur: 90, kind: 'text', reveal: [2], text: 'And is oil, the same morning,', highlights: [], size: 36, media: {src: 'scarcity/sc38_oil.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'And is oil, the same morning,', highlights: [], size: 36, media: {src: 'scarcity/sc38_oil.jpg', type: 'img', effect: 'in'}},
   // 39 CARD $112
-  {dur: 90, kind: 'stat', stat: {pre: 'BRENT CRUDE', prefix: '$', value: 112, post: 'SAME MORNING'}, media: {src: 'scarcity/sc39_brent.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'stat', stat: {pre: 'BRENT CRUDE', prefix: '$', value: 112, post: 'SAME MORNING'}, media: {src: 'scarcity/sc39_brent.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'the thing that actually|ends the party?', highlights: ['party?'], size: 38, media: {src: 'scarcity/sc40_party.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'the thing that actually|ends the party?', highlights: ['party?'], size: 38, media: {src: 'scarcity/sc40_party.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Nasdaq down 1.5%.|Meta down 5%.', highlights: [], size: 40, media: {src: 'scarcity/sc41_recap.jpg', type: 'img', effect: 'panL'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'Nasdaq down 1.5%.|Meta down 5%.', highlights: [], size: 40, media: {src: 'scarcity/sc41_recap.jpg', type: 'img', effect: 'panL'}},
   // 42
-  {dur: 90, kind: 'text', reveal: [2], text: 'Brent past a hundred and twelve.', highlights: [], size: 34, media: {src: 'scarcity/sc42_brent2.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'Brent past a hundred and twelve.', highlights: [], size: 34, media: {src: 'scarcity/sc42_brent2.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The biggest winner of the boom|saying the money’s short.', highlights: ['short.'], size: 30, media: {src: 'scarcity/sc43_short.jpg', type: 'img', effect: 'panR'}},
+  {dur: 95, kind: 'text', reveal: [2, 40], text: 'The biggest winner of the boom|saying the money’s short.', highlights: ['short.'], size: 30, media: {src: 'scarcity/sc43_short.jpg', type: 'img', effect: 'panR'}},
   // 44
-  {dur: 90, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'scarcity/sc44_point2.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'scarcity/sc44_point2.jpg', type: 'img', effect: 'in'}},
   // 45 RED
-  {dur: 90, kind: 'impact', redBg: true, text: 'Is “scarcity of capital” a speed bump,|or the first honest word|about how this ends?'},
+  {dur: 132, kind: 'impact', redBg: true, text: 'Is “scarcity of capital” a speed bump,|or the first honest word|about how this ends?'},
   // 46 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'scarcity/sc46_fork.mp4', type: 'video', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'scarcity/sc46_fork.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 684, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 724, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 791, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 865, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 893, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1415, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1496, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1683, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1945, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1985, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2355, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2720, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3123, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3255, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
