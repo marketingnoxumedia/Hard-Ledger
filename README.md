@@ -5479,7 +5479,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   it is the CAPITAL-scarcity counterpart to `ConstraintReel` ("The constraint"), which is the SUPPLY-constraint
   angle on the same AI-selloff week — distinct subject/thesis, but publish only one of the two to a given audience
   to avoid the near-identical "is the AI build-out ending?" close landing twice.** Media credits (Pexels, free
-  license) — videos: an abstract red data-field selloff (34127955), an aerial forked gravel road (32600355).
+  license) — videos: an abstract red data-field selloff (34127955), an aerial road fork — a paved road with a diverging dirt track (34731156).
   Photos: an empty open palm (8058739), a plain piggy bank — no money (4146007), an English planner page
   (7723802), a lone microphone under a spotlight (17722679), a blank sheet of paper (6801641), a hand with a
   blank-screen phone (13570135), a balancing-stone cairn (6226707), one fresh red match among burnt ones
