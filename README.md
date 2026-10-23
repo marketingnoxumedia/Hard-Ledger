@@ -5409,6 +5409,54 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   verify: the >$25B capex guide / $13B nine-month, the 18.1% auto margin, the $45B cash, the −3% stock move,
   and the two quotes (the CFO "capex keeps rising", Musk on the SpaceX merger). "The cars are the bank /
   everything else is the withdrawal" framing is editorial analysis.
+- **`ConstraintReel`** — "The constraint" (fast NEWS reel). NEW topic: **Lam Research guided ~$8.6B for the
+  quarter with one line — results "would have been higher if not for near-term supply chain constraints" — and
+  the whole chip sector sold off. The bottleneck isn't demand; it's that the company that makes the machines
+  that make the chips can't build fast enough.** 10-part structure. Thesis: the constraint is at the TOP of the
+  supply chain, not the bottom — every AI data centre needs chips, every chip needs a fab, every fab needs Lam's
+  machines; if Lam can't get its own parts the delay runs downhill through every layer. Unusual because a demand
+  problem shows up as cancelled orders, but this is the opposite (demand fine, supply short) — and that's worse
+  for the AI timeline, because you can fix demand with price, not a missing component with money. Open questions:
+  what's the constraint (Lam didn't say), how long is "near-term", does it show up in Nvidia's numbers next
+  month. Binary close ("Is this a supply blip, or the first sign the AI build-out has hit a physical wall? Pick a
+  side below."). **NO post-hook pause**, mid-reel like+follow ask. 47 beats: 44 media (incl. **7 cards** —
+  GUIDANCE $8.6B; LAM 10% down; APPLIED MATERIALS 6%; INTEL 5%; MARVELL 4%; THE WHOLE SECTOR 4%; GUIDED $8.6B),
+  1 red impact, 2 black ("One sentence from one CFO." / "You can't fix a missing component with money.").
+  **Captions match the VO verbatim** (except the number cards; spoken figures as numerals). Durations/reveals/SFX
+  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/constraint/voiceover.mp3`), **built at the
+  house +10% VO default** (~116s; its own music bed). Entirely its own fresh footage under `public/constraint/`
+  — no asset shared with any other reel. Media credits (Pexels, free license) — videos: an abstract red data-wave
+  (34396621), an aerial forked road (4726226). Photos: a warehouse of boxes — generic size labels only
+  (10834810), a factory production hall (14804699), a glowing candlestick chart — no numbers (35638979), a red
+  falling line (6289066), paper question marks (5428836), a black metal chain (14151825), a blank-screen phone in
+  a hand (4724370), a toppling jenga tower (8762335), one red tulip among white (20924573), stainless plant
+  equipment (18471472), a microchip macro (6636463), a financial report + pen (7054416), abstract decline arrows
+  (27141317), a magnifier over text (8296049), white narrowing funnels (8940478), a toppling domino (8102734), a
+  red candlestick downturn (38821935), a red arrow graphic (3683087), a dense red field (17560491), a deep-red
+  sky (4622458), red falling bars (39121207), a red tulip field (37184830), a yellow hazard triangle (17801403),
+  a fiber-optic patch panel (4486718), a cleanroom photomask handling — bunny-suit, face covered (5118461), a
+  gritty industrial machine (12951623), descending metal stairs (26796714), stacked tiered blocks (20221477), a
+  mountain summit (26799344), a "THE END" stamp (7186206), a two-way-traffic arrows sign — English (29147884), an
+  idle conveyor (6364577), a project-timeline whiteboard — generic planning text (7376), blank hanging price tags
+  (6441571), a red question-mark brushstroke (6757687), an hourglass on a book (37494738), a magnifier over
+  calligraphy (8716069), a binoculars close-up (5537640), coins embedded in wood — no portraits/denominations
+  (34654885), red dollar signs (12920770), an oil pumpjack silhouette (255552), a pointing-hand shadow (1981863).
+  No generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render):**
+  FACE-FREE (hands, backs, objects; the one cleanroom worker is hooded/masked/goggled, face covered), and —
+  despite naming Lam Research / TSMC / Samsung / Nvidia / AMD / Micron / Applied Materials / Intel / Marvell /
+  Qualcomm / Broadcom — free of any company logo or wordmark, product or identifiable chassis, stock TICKER or
+  readable price, exchange signage, flags, identifiable landmarks, readable foreign text, banknote/coin portraits
+  or identifiable currency, and military. **Swaps at the render audit:** the two parallel sourcing agents
+  independently picked the same equipment still for ct10 and ct27 (byte-identical) — ct27 re-sourced to a
+  distinct machine (12951623); and the data-centre beat (ct25) first landed on an identifiable Dell PowerEdge
+  tower (blank badge, no readable wordmark, but the chassis shape is unmistakable) — swapped to a brand-free
+  fiber-optic patch panel (4486718). **UNVERIFIED / SENSITIVE — names a real company and asserts a specific
+  guidance figure, a CFO/company quote, and same-morning stock moves; rendered as written but MUST be
+  fact-checked before publishing.** Verify in particular: the **$8.6B quarterly guidance** and the exact "would
+  have been higher if not for near-term supply chain constraints" wording; the **per-name percentage moves**
+  (Lam −10%, Applied Materials −6%, Intel −5%, Marvell −4%, sector −4% — these vary by source and intraday vs.
+  close); and the **"oil up the same morning"** aside (unverified). The "constraint at the top of the supply
+  chain / can't fix a missing component with money" framing is editorial analysis.
 
 ## Export note
 
