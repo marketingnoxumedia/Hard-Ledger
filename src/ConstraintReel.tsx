@@ -111,104 +111,117 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 90, kind: 'hook', reveal: [3, 40], text: 'The chip stocks just lost|4% in a morning.', kicker: 'The constraint', highlights: ['4%'], size: 34, media: {src: 'constraint/ct00_selloff.mp4', type: 'video', effect: 'in'}},
+  {dur: 87, kind: 'hook', reveal: [3, 40], text: 'The chip stocks just lost|4% in a morning.', kicker: 'The constraint', highlights: ['4%'], size: 34, media: {src: 'constraint/ct00_selloff.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Not because|demand fell.', highlights: ['demand'], size: 44, media: {src: 'constraint/ct01_demand.jpg', type: 'img', effect: 'panL'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'Not because|demand fell.', highlights: ['demand'], size: 44, media: {src: 'constraint/ct01_demand.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Because one company said|it couldn’t build fast enough.', highlights: ['couldn’t'], size: 32, media: {src: 'constraint/ct02_build.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 40], text: 'Because one company said|it couldn’t build fast enough.', highlights: ['couldn’t'], size: 32, media: {src: 'constraint/ct02_build.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If you own Nvidia, AMD, Micron,|or just an index fund,', highlights: [], size: 30, media: {src: 'constraint/ct03_index.jpg', type: 'img', effect: 'panR'}},
+  {dur: 132, kind: 'text', reveal: [2, 40], text: 'If you own Nvidia, AMD, Micron,|or just an index fund,', highlights: [], size: 30, media: {src: 'constraint/ct03_index.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 90, kind: 'text', reveal: [2], text: 'you took that hit.', highlights: ['hit.'], size: 46, media: {src: 'constraint/ct04_hit.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'you took that hit.', highlights: ['hit.'], size: 46, media: {src: 'constraint/ct04_hit.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And the reason is a company|most people have never heard of.', highlights: ['never'], size: 30, media: {src: 'constraint/ct05_unknown.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 40], text: 'And the reason is a company|most people have never heard of.', highlights: ['never'], size: 30, media: {src: 'constraint/ct05_unknown.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|where the chain snapped.', highlights: ['snapped.'], size: 34, media: {src: 'constraint/ct06_chain.jpg', type: 'img', effect: 'panL'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'I’ll show you exactly|where the chain snapped.', highlights: ['snapped.'], size: 34, media: {src: 'constraint/ct06_chain.jpg', type: 'img', effect: 'panL'}},
   // 7
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'constraint/ct07_phone.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 40], text: 'If that’s worth a follow,|you know where the button is.', highlights: ['follow,'], size: 32, media: {src: 'constraint/ct07_phone.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Now, chip stocks wobbling|is nothing new.', highlights: [], size: 32, media: {src: 'constraint/ct08_wobble.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'Now, chip stocks wobbling|is nothing new.', highlights: [], size: 32, media: {src: 'constraint/ct08_wobble.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'constraint/ct09_standout.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2, 28], enter: 'slideL', text: 'But this one|is different.', highlights: ['different.'], size: 48, media: {src: 'constraint/ct09_standout.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Because it’s|Lam Research.', highlights: ['Lam Research.'], size: 42, media: {src: 'constraint/ct10_equipment.jpg', type: 'img', effect: 'panR'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'Because it’s|Lam Research.', highlights: ['Lam Research.'], size: 42, media: {src: 'constraint/ct10_equipment.jpg', type: 'img', effect: 'panR'}},
   // 11
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Lam makes the equipment that|TSMC and Samsung use to make the chips.', highlights: [], size: 28, media: {src: 'constraint/ct11_wafer.jpg', type: 'img', effect: 'in'}},
+  {dur: 131, kind: 'text', reveal: [2, 40], text: 'Lam makes the equipment that|TSMC and Samsung use to make the chips.', highlights: [], size: 28, media: {src: 'constraint/ct11_wafer.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 90, kind: 'text', reveal: [2], text: 'And because its guidance,', highlights: [], size: 38, media: {src: 'constraint/ct12_guidance.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'And because its guidance,', highlights: [], size: 38, media: {src: 'constraint/ct12_guidance.jpg', type: 'img', effect: 'in'}},
   // 13 CARD $8.6B
-  {dur: 90, kind: 'stat', stat: {pre: 'GUIDANCE', prefix: '$', value: 8.6, decimals: 1, suffix: 'B', post: 'FOR THE QUARTER'}, media: {src: 'constraint/ct13_money.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'stat', stat: {pre: 'GUIDANCE', prefix: '$', value: 8.6, decimals: 1, suffix: 'B', post: 'FOR THE QUARTER'}, media: {src: 'constraint/ct13_money.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 90, kind: 'text', reveal: [2], text: 'came with one line:', highlights: [], size: 40, media: {src: 'constraint/ct14_oneline.jpg', type: 'img', effect: 'panL'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'came with one line:', highlights: [], size: 40, media: {src: 'constraint/ct14_oneline.jpg', type: 'img', effect: 'panL'}},
   // 15
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'would have been higher if not for|near-term supply chain constraints.', highlights: ['constraints.'], size: 28, media: {src: 'constraint/ct15_constraint.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 40], text: 'would have been higher if not for|near-term supply chain constraints.', highlights: ['constraints.'], size: 28, media: {src: 'constraint/ct15_constraint.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 90, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at what happened next.', highlights: [], size: 44, media: {src: 'constraint/ct16_next.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], enter: 'slideUp', text: 'Look at what happened next.', highlights: [], size: 44, media: {src: 'constraint/ct16_next.jpg', type: 'img', effect: 'in'}},
   // 17 CARD 10%
-  {dur: 90, kind: 'stat', stat: {pre: 'LAM', value: 10, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct17_lam.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'stat', stat: {pre: 'LAM', value: 10, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct17_lam.jpg', type: 'img', effect: 'in'}},
   // 18 CARD 6%
-  {dur: 90, kind: 'stat', stat: {pre: 'APPLIED MATERIALS', value: 6, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct18_amat.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'stat', stat: {pre: 'APPLIED MATERIALS', value: 6, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct18_amat.jpg', type: 'img', effect: 'in'}},
   // 19 CARD 5%
-  {dur: 90, kind: 'stat', stat: {pre: 'INTEL', value: 5, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct19_intel.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'stat', stat: {pre: 'INTEL', value: 5, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct19_intel.jpg', type: 'img', effect: 'in'}},
   // 20 CARD 4%
-  {dur: 90, kind: 'stat', stat: {pre: 'MARVELL', value: 4, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct20_marvell.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'stat', stat: {pre: 'MARVELL', value: 4, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct20_marvell.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Nvidia, Qualcomm, Broadcom:|all down.', highlights: ['all down.'], size: 34, media: {src: 'constraint/ct21_alldown.jpg', type: 'img', effect: 'panR'}},
+  {dur: 75, kind: 'text', reveal: [2, 40], text: 'Nvidia, Qualcomm, Broadcom:|all down.', highlights: ['all down.'], size: 34, media: {src: 'constraint/ct21_alldown.jpg', type: 'img', effect: 'panR'}},
   // 22 CARD 4%
-  {dur: 90, kind: 'stat', stat: {pre: 'THE WHOLE SECTOR', value: 4, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct22_sector.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'stat', stat: {pre: 'THE WHOLE SECTOR', value: 4, suffix: '%', post: 'DOWN'}, media: {src: 'constraint/ct22_sector.jpg', type: 'img', effect: 'in'}},
   // 23 BLACK
-  {dur: 90, kind: 'impact', text: 'One sentence|from one CFO.'},
+  {dur: 60, kind: 'impact', text: 'One sentence|from one CFO.'},
   // 24
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'constraint/ct24_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'And the problem|doesn’t stop there.', highlights: ['problem'], size: 44, media: {src: 'constraint/ct24_warning.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Every AI data centre|needs chips.', highlights: [], size: 40, media: {src: 'constraint/ct25_datacenter.jpg', type: 'img', effect: 'panL'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Every AI data centre|needs chips.', highlights: [], size: 40, media: {src: 'constraint/ct25_datacenter.jpg', type: 'img', effect: 'panL'}},
   // 26
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Every chip|needs a fab.', highlights: [], size: 44, media: {src: 'constraint/ct26_fab.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Every chip|needs a fab.', highlights: [], size: 44, media: {src: 'constraint/ct26_fab.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Every fab needs|Lam’s machines.', highlights: ['machines.'], size: 42, media: {src: 'constraint/ct27_machines.jpg', type: 'img', effect: 'panR'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Every fab needs|Lam’s machines.', highlights: ['machines.'], size: 42, media: {src: 'constraint/ct27_machines.jpg', type: 'img', effect: 'panR'}},
   // 28
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'If Lam can’t get its own parts,|the delay runs downhill through every layer.', highlights: ['downhill'], size: 26, media: {src: 'constraint/ct28_downhill.jpg', type: 'img', effect: 'in'}},
+  {dur: 143, kind: 'text', reveal: [2, 40], text: 'If Lam can’t get its own parts,|the delay runs downhill through every layer.', highlights: ['downhill'], size: 26, media: {src: 'constraint/ct28_downhill.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The constraint isn’t at the|bottom of the supply chain.', highlights: [], size: 30, media: {src: 'constraint/ct29_pyramid.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 40], text: 'The constraint isn’t at the|bottom of the supply chain.', highlights: [], size: 30, media: {src: 'constraint/ct29_pyramid.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 90, kind: 'text', reveal: [2], text: 'It’s at the top.', highlights: ['top.'], size: 50, media: {src: 'constraint/ct30_top.jpg', type: 'img', effect: 'panL'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'It’s at the top.', highlights: ['top.'], size: 50, media: {src: 'constraint/ct30_top.jpg', type: 'img', effect: 'panL'}},
   // 31
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a demand problem|to show up as cancelled orders.', highlights: ['cancelled'], size: 28, media: {src: 'constraint/ct31_cancelled.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'text', reveal: [2, 40], text: 'Normally you’d expect a demand problem|to show up as cancelled orders.', highlights: ['cancelled'], size: 28, media: {src: 'constraint/ct31_cancelled.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 90, kind: 'text', reveal: [2], text: 'This is the opposite.', highlights: ['opposite.'], size: 48, media: {src: 'constraint/ct32_opposite.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'This is the opposite.', highlights: ['opposite.'], size: 48, media: {src: 'constraint/ct32_opposite.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Demand is fine.|Lam just can’t ship fast enough.', highlights: ['can’t ship'], size: 32, media: {src: 'constraint/ct33_ship.jpg', type: 'img', effect: 'panR'}},
+  {dur: 92, kind: 'text', reveal: [2, 40], text: 'Demand is fine.|Lam just can’t ship fast enough.', highlights: ['can’t ship'], size: 32, media: {src: 'constraint/ct33_ship.jpg', type: 'img', effect: 'panR'}},
   // 34
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And the strange part is|that’s worse for the AI timeline,', highlights: ['worse'], size: 30, media: {src: 'constraint/ct34_timeline.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 40], text: 'And the strange part is|that’s worse for the AI timeline,', highlights: ['worse'], size: 30, media: {src: 'constraint/ct34_timeline.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'because you can fix|demand with price.', highlights: ['price.'], size: 38, media: {src: 'constraint/ct35_price.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'because you can fix|demand with price.', highlights: ['price.'], size: 38, media: {src: 'constraint/ct35_price.jpg', type: 'img', effect: 'in'}},
   // 36 BLACK
-  {dur: 90, kind: 'impact', text: 'You can’t fix a missing|component with money.'},
+  {dur: 71, kind: 'impact', text: 'You can’t fix a missing|component with money.'},
   // 37
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'What’s the constraint?|Lam didn’t say.', highlights: ['didn’t say.'], size: 36, media: {src: 'constraint/ct37_question.jpg', type: 'img', effect: 'panL'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'What’s the constraint?|Lam didn’t say.', highlights: ['didn’t say.'], size: 36, media: {src: 'constraint/ct37_question.jpg', type: 'img', effect: 'panL'}},
   // 38
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'How long is “near-term”?|Also not said.', highlights: [], size: 36, media: {src: 'constraint/ct38_howlong.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'How long is “near-term”?|Also not said.', highlights: [], size: 36, media: {src: 'constraint/ct38_howlong.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Does this show up in Nvidia’s|numbers next month?', highlights: [], size: 32, media: {src: 'constraint/ct39_watch.jpg', type: 'img', effect: 'panR'}},
+  {dur: 78, kind: 'text', reveal: [2, 40], text: 'Does this show up in Nvidia’s|numbers next month?', highlights: [], size: 32, media: {src: 'constraint/ct39_watch.jpg', type: 'img', effect: 'panR'}},
   // 40
-  {dur: 90, kind: 'text', reveal: [2], text: 'That’s the one to watch.', highlights: ['watch.'], size: 44, media: {src: 'constraint/ct40_onetowatch.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'That’s the one to watch.', highlights: ['watch.'], size: 44, media: {src: 'constraint/ct40_onetowatch.jpg', type: 'img', effect: 'in'}},
   // 41 CARD $8.6B
-  {dur: 90, kind: 'stat', stat: {pre: 'GUIDED', prefix: '$', value: 8.6, decimals: 1, suffix: 'B'}, media: {src: 'constraint/ct41_guided.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'stat', stat: {pre: 'GUIDED', prefix: '$', value: 8.6, decimals: 1, suffix: 'B'}, media: {src: 'constraint/ct41_guided.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 90, kind: 'text', reveal: [2, 28], text: '10% off Lam.|4% off the sector.', highlights: [], size: 40, media: {src: 'constraint/ct42_recap.jpg', type: 'img', effect: 'panL'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: '10% off Lam.|4% off the sector.', highlights: [], size: 40, media: {src: 'constraint/ct42_recap.jpg', type: 'img', effect: 'panL'}},
   // 43
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Oil up the same morning,|which doesn’t help anyone.', highlights: ['Oil up'], size: 32, media: {src: 'constraint/ct43_oil.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 40], text: 'Oil up the same morning,|which doesn’t help anyone.', highlights: ['Oil up'], size: 32, media: {src: 'constraint/ct43_oil.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 90, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'constraint/ct44_point.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'So you tell me.', highlights: ['you'], size: 50, media: {src: 'constraint/ct44_point.jpg', type: 'img', effect: 'in'}},
   // 45 RED
-  {dur: 90, kind: 'impact', redBg: true, text: 'Is this a supply blip,|or the first sign the AI build-out|has hit a physical wall?'},
+  {dur: 150, kind: 'impact', redBg: true, text: 'Is this a supply blip,|or the first sign the AI build-out|has hit a physical wall?'},
   // 46 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'constraint/ct46_fork.mp4', type: 'video', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Pick a side|below.', highlights: ['side'], size: 48, media: {src: 'constraint/ct46_fork.mp4', type: 'video', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 759, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1036, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1292, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1328, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1374, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1471, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1513, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1625, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1705, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2704, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 3017, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3294, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3444, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
