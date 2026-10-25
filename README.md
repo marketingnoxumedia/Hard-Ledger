@@ -5530,7 +5530,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   the thousands-comma on a year), 1 red impact, 2 black ("Power. Infrastructure. Defence." / "A tenth of the
   demand is one industry, one state."). **Captions match the VO verbatim** (except the number cards; spoken
   figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
-  (`public/warehouse/voiceover.mp3`), **built at the house +10% VO default** (~118s; its own music bed). Entirely
+  (`public/warehouse/voiceover.mp3`), **built at +21% VO pace — the house +10% default plus a further +10% at the
+  client's request** (~107s; its own music bed, reused from the longer +10% cut). Entirely
   its own fresh footage under `public/warehouse/` — no asset shared with any other reel. **New STANDALONE reel;
   the DEMAND-side / real-estate-footprint companion to `ScarcityReel` and `ConstraintReel` (the same AI-capex
   week), but a wholly distinct subject.** Media credits (Pexels, free license) — videos: a drone pass over a
