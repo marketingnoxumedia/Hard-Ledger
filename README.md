@@ -5511,6 +5511,64 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   the per-name moves (Nasdaq 100 −1.5%, Meta −5%, Nvidia −4% — vary by source and intraday-vs-close); Meta's
   ~$135B capex floor and its new non-voting share class; Tesla trimming AI spend ~$25B→$20B; and ~$112 Brent "the
   same morning." The "scarcity of capital = more debt" framing is editorial analysis.
+- **`WarehouseReel`** — "The warehouse" (fast NEWS reel). NEW topic: **the AI-capex boom is showing up in
+  INDUSTRIAL REAL ESTATE — US big-box warehouse leasing had its biggest quarter in four years, driven by
+  data-centre-adjacent tenants concentrated in Texas. The AI build-out lands as concrete, not just chips.**
+  10-part structure. Thesis: where AI capex actually lands is warehouses — concrete, in Texas — pricing out the
+  companies that used to rent the space. US industrial leasing ~202.6M sq ft in one quarter, up ~38.5% YoY, the
+  biggest quarter since 2022. Who's signing: logistics first (~17.9%), construction materials (~14.7%), then the
+  new names — comms & tech (~7.5%, rising), energy & utilities (~4.6%, rising): power, infrastructure, defence,
+  the supply chain behind the data centre. Second-order: Savills tracked the data-centre-adjacent tenants alone —
+  ~69M sq ft of big-box over two years, ~10.1% of all H1 leasing, concentrated in four metros (Dallas, Houston,
+  Austin, the East Bay). Twist: a 38% jump reads like a boom but it's narrower — vacancy down to ~6.8%, ~317M sq
+  ft under construction (most since early 2024), and a tenth of demand is one industry in one state, building
+  boxes for servers. Open questions: does 10% become 20%; what happens to the Texas warehouse market if AI capital
+  dries up (as Nvidia's CEO warned on Thursday — see ScarcityReel). Binary close ("Is this the AI boom reaching
+  Main Street, or renting Main Street out from under it? Pick a side below."). **NO post-hook pause**, mid-reel
+  like+follow ask. 47 beats: 44 media (incl. **10 cards** — 202.6M SQ FT; 38.5%; 17.9%; 14.7%; 7.5%; 4.6%; 69M SQ
+  FT; 10.1%; 6.8%; 317M SQ FT — the most card-dense reel in the set; "2022" is a TEXT beat, NOT a stat, to avoid
+  the thousands-comma on a year), 1 red impact, 2 black ("Power. Infrastructure. Defence." / "A tenth of the
+  demand is one industry, one state."). **Captions match the VO verbatim** (except the number cards; spoken
+  figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/warehouse/voiceover.mp3`), **built at the house +10% VO default** (~118s; its own music bed). Entirely
+  its own fresh footage under `public/warehouse/` — no asset shared with any other reel. **New STANDALONE reel;
+  the DEMAND-side / real-estate-footprint companion to `ScarcityReel` and `ConstraintReel` (the same AI-capex
+  week), but a wholly distinct subject.** Media credits (Pexels, free license) — videos: a drone pass over a
+  big-box warehouse district (36306203), an aerial dirt path forking in two (14239817). Photos: an empty warehouse
+  interior (236698), an ascending stone staircase (11582936), crane booms lifting (5272744), a blue microchip
+  macro (40270771), a concrete foundation + rebar (36532625), a "rooms to let" sign (20857192), a magnifier over a
+  data/metrics printout (7948002), a hand with a blank-screen phone (12876450), two forklifts + crates (11500419),
+  one blue bulb among yellow (12198522), a row of industrial dock doors (13207872), an aerial of warehouse
+  rooftops (15914881), an abstract upward arrow (12290514), a white stepped-cube stack (12977017), a hand marking
+  an English calendar (6170766), a hand signing a document (8815849), shrink-wrapped goods on pallets (5532843),
+  stacks of blue pallets (10096900), bundled steel rebar (5623179), a seedling sprouting (4173853), a comms/antenna
+  tower (16189543), a high-voltage pylon (34532812), interlinked metal chain (34178925), a wordless warning
+  triangle (14176910), abstract data/chart pages (7948032), an hourglass (4397907), an aerial of industrial
+  rooftops (31729740), an orange cut in half (5223989), coloured powder in pie-like segments (2041707), an
+  anonymous highway interchange aerial (13178602), fireworks on black (1503520), a corridor narrowing to a doorway
+  (10792354), an empty industrial unit (1784543), an empty sunlit factory interior (8551121), two yellow tower
+  cranes (5504311), a construction-site aerial (25461690), a server rear-ports close-up (2881228), abstract
+  ascending steps (37490442), cracked dry earth (9025845), a single microphone on a stand (1745762), full
+  warehouse racks (4483609), a dark empty loading-dock bay (15143512). No generated graphics this reel.
+  **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE (hands, machines, objects,
+  overhead specks only), and — **ESPECIALLY no Amazon/FedEx/UPS/Walmart/DHL or any company name/logo on a
+  warehouse roof, truck, trailer or dock sign** — free of any company logo or wordmark, identifiable face, stock
+  ticker or readable price, exchange signage, flags, identifiable landmarks or skyline, readable foreign text,
+  banknote/coin portraits or identifiable currency, and military. The sourcing agents rejected along the way:
+  Micron / Dell / HP / IBM eServer chip & server logos, Caterpillar (CAT), KLATT / Stertil dock-seal wordmarks,
+  EPAL/UIC pallet stamps, a SHURE SM58 mic, a Google wordmark + a Google-Analytics/Dow-Jones dashboard, a
+  SARGENT ART pencil mark, a Chinese forklift brand, Portuguese calendars and Spanish "ANDEN DE CARGA" / Turkish /
+  Polish signage. A late comprehensive ledger check also caught one slip — wh39 (servers) first landed on 4373998,
+  already used by `ListingReel`; re-sourced to 2881228. Clean abstract STAND-INS where the literal brand-free
+  option didn't exist: the "to let / vacancy" beats use a generic rooms-to-let sign + an empty factory (every
+  commercial lease sign carried agency branding), the "share" beat uses coloured-powder pie segments (chart
+  printouts had readable numbers), and the chip macro (wh04) carries only a non-maker part code. **UNVERIFIED /
+  SENSITIVE — cites a specific Savills industrial-market dataset and a CEO warning; rendered as written but MUST be
+  fact-checked before publishing.** Verify: ~202.6M sq ft quarterly leasing and the ~38.5% YoY jump / "biggest
+  since 2022"; the sector mix (logistics 17.9%, construction materials 14.7%, comms & tech 7.5%, energy &
+  utilities 4.6%); the ~69M sq ft / ~10.1%-of-H1 data-centre-adjacent figures and the four-metro concentration;
+  vacancy ~6.8% and ~317M sq ft under construction ("most since early 2024"); and the Nvidia-CEO "Thursday"
+  cross-reference. The "AI boom renting Main Street out from under it" framing is editorial analysis.
 
 ## Export note
 
