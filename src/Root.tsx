@@ -160,6 +160,7 @@ import {ShareReel, DURATION_IN_FRAMES as SHARE_FRAMES} from './ShareReel';
 import {WithdrawalReel, DURATION_IN_FRAMES as WITHDRAWAL_FRAMES} from './WithdrawalReel';
 import {ConstraintReel, DURATION_IN_FRAMES as CONSTRAINT_FRAMES} from './ConstraintReel';
 import {ScarcityReel, DURATION_IN_FRAMES as SCARCITY_FRAMES} from './ScarcityReel';
+import {WarehouseReel, DURATION_IN_FRAMES as WAREHOUSE_FRAMES} from './WarehouseReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1447,6 +1448,14 @@ export const RemotionRoot: React.FC = () => {
         id="ScarcityReel"
         component={ScarcityReel}
         durationInFrames={SCARCITY_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="WarehouseReel"
+        component={WarehouseReel}
+        durationInFrames={WAREHOUSE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
