@@ -5570,6 +5570,49 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   utilities 4.6%); the ~69M sq ft / ~10.1%-of-H1 data-centre-adjacent figures and the four-metro concentration;
   vacancy ~6.8% and ~317M sq ft under construction ("most since early 2024"); and the Nvidia-CEO "Thursday"
   cross-reference. The "AI boom renting Main Street out from under it" framing is editorial analysis.
+- **`HalfReel`** — "The half" (personal-finance reel, Hard Ledger VISUAL style). Topic: **Michael Burry's advice to
+  buy only HALF the house you can afford — leave room to breathe, because a bank approving a big mortgage doesn't
+  make it the smart move.** Framed around the US affordability gap: a buyer needed ~$110k/yr to afford a typical
+  home while the typical household earned ~$88k — a ~$22k gap, worsened by mortgage rates. A smaller mortgage
+  leaves more to save, invest and absorb the unexpected; the goal is to own a house without it owning you.
+  **BUILT VERBATIM from a client-supplied script that is deliberately NOT in the usual faceless Hard Ledger house
+  voice** — it NAMES Michael Burry, relays his advice (imperatives), and CLOSES on a "let me know in the comments"
+  CTA rather than the house binary "Pick a side below." The client asked for verbatim, so this is the one reel in
+  the set with a comments-CTA and advice language by design; the red beat still poses the would-you-rather choice.
+  32 beats (shorter, calmer than the news reels), **3 stat cards — $110,000 / $88,000 / $22,000** (money, so the
+  thousands-comma is WANTED and rendered), 1 red impact (the would-you-rather), 1 black ("Own the house. Don't let
+  it own you."). **Captions match the VO verbatim** (except the number cards; spoken figures as numerals).
+  Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/half/voiceover.mp3`),
+  **built at the house +10% VO default** (~71s; its own calm music bed). Entirely its own fresh footage under
+  `public/half/` — no asset shared with any other reel. **New STANDALONE reel; thematically adjacent to `RatioReel`
+  ("The goalpost moved", the home-affordability mechanism) but a distinct hook (Burry's "buy half" rule).** Media
+  credits (Pexels, free license) — video: an aerial suburban neighbourhood (38774217). Photos: a wooden toy house
+  + vintage keys (8293715), model houses on finance charts (28738504), a small toy house in grass (9260450), pills
+  arranged as a question mark (3683107), a handwritten to-do list (131979), a single light bulb on black
+  (20766488), a coiled metal spring (7221094), a magnifier over a data chart (7948055), a hand on a column chart
+  (7580704), a pink piggy bank (11618875), gold bokeh (34771372), a craftsman home exterior (6835077), a lived-in
+  modern kitchen (7045356), gold glitter (7629494), cracked concrete slabs — a gap (29102198), a copper-coin
+  savings jar (12644993), a paper percent-sign (8680188), a slim wallet + shopping bags (6633602), hands holding
+  light bulbs (6990487), an open window with leaves (19026351), hands filling a property form (7731326), a single
+  chess piece (40227395), a hand holding a money-plant (10894354), water dripping from a rusty pipe (7190792), a
+  hand holding house keys (27522902), legs under a pile of moving boxes (4553181), two front doors — blue & pink
+  (33775202), a large columned luxury house (8082328), a grid of blank notes with one blue standout (6991345). No
+  generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE
+  (hands, objects, houses; no identifiable faces), and free of any company/bank/realtor logo or wordmark, readable
+  agency sign or phone, stock ticker or readable price, flags, identifiable landmarks, readable foreign text,
+  banknote/coin portraits or identifiable currency, and military. The sourcing agents rejected along the way: a
+  real-estate marketing flyer, Philippine-peso / US-penny / euro-cent coins (portraits + denominations), gold
+  bullion coins ("999.9", country names) + a Bitcoin coin, a Mastercard receipt + a face, a US "Hamilton"
+  banknote, a Cyrillic bank card, an IRS W-9 and a NASDAQ chart, Indonesian textbook text, a PAPAIZ padlock + a
+  Portuguese street sign, a political "UKRAINE" sticker, a readable house address ("1225"), and a framed portrait.
+  Clean STAND-INS where the literal brand-free option didn't exist: coins almost always carry portraits/
+  denominations, so the "earn/afford/gap" money beats use a piggy bank, a copper-coin jar and gold-abstract
+  (bokeh/glitter); the "stretch" beat is a metal spring (rubber-band shots were all people/faces); the "why?" beat
+  is pills arranged as a question mark. **UNVERIFIED / SENSITIVE — attributes specific advice and a 2008-crash
+  claim to a NAMED real person (Michael Burry) and cites affordability figures; rendered as written but MUST be
+  fact-checked before publishing.** Verify: that Burry actually gave this "buy half the house" advice / the "list
+  of life lessons for a 26-year-old" framing; the ~$110k-to-afford vs ~$88k-earned gap (~$22k), its source and
+  date; and the mortgage-rate claim. "Own a house without it owning you" / the save-invest framing is editorial.
 
 ## Export note
 
