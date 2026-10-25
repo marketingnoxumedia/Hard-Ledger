@@ -108,74 +108,81 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 90, kind: 'hook', reveal: [3, 40], text: 'Michael Burry just gave young people|advice about buying a house.', kicker: 'The half', highlights: ['burry'], size: 30, media: {src: 'half/hf00_house.mp4', type: 'video', effect: 'in'}},
+  {dur: 128, kind: 'hook', reveal: [3, 40], text: 'Michael Burry just gave young people|advice about buying a house.', kicker: 'The half', highlights: ['burry'], size: 30, media: {src: 'half/hf00_house.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'It might change how you think|about homeownership.', highlights: ['homeownership.'], size: 32, media: {src: 'half/hf01_think.jpg', type: 'img', effect: 'panL'}},
+  {dur: 71, kind: 'text', reveal: [2, 40], text: 'It might change how you think|about homeownership.', highlights: ['homeownership.'], size: 32, media: {src: 'half/hf01_think.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The investor who called|the 2008 housing crash', highlights: ['2008'], size: 32, media: {src: 'half/hf02_crash.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 40], text: 'The investor who called|the 2008 housing crash', highlights: ['2008'], size: 32, media: {src: 'half/hf02_crash.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'says buy only half the house|you can actually afford.', highlights: ['half'], size: 30, media: {src: 'half/hf03_half.jpg', type: 'img', effect: 'panR'}},
+  {dur: 124, kind: 'text', reveal: [2, 40], text: 'says buy only half the house|you can actually afford.', highlights: ['half'], size: 30, media: {src: 'half/hf03_half.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 90, kind: 'text', reveal: [2], text: 'But why?', highlights: ['why?'], size: 54, media: {src: 'half/hf04_why.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'But why?', highlights: ['why?'], size: 54, media: {src: 'half/hf04_why.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'He shared a list of life lessons|for a 26-year-old.', highlights: [], size: 32, media: {src: 'half/hf05_list.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'text', reveal: [2, 40], text: 'He shared a list of life lessons|for a 26-year-old.', highlights: [], size: 32, media: {src: 'half/hf05_list.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'One of his biggest rules|was surprisingly simple.', highlights: ['simple.'], size: 34, media: {src: 'half/hf06_simple.jpg', type: 'img', effect: 'panL'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'One of his biggest rules|was surprisingly simple.', highlights: ['simple.'], size: 34, media: {src: 'half/hf06_simple.jpg', type: 'img', effect: 'panL'}},
   // 7
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Don’t stretch yourself|just to own a bigger home.', highlights: ['stretch'], size: 32, media: {src: 'half/hf07_stretch.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 40], text: 'Don’t stretch yourself|just to own a bigger home.', highlights: ['stretch'], size: 32, media: {src: 'half/hf07_stretch.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 90, kind: 'text', reveal: [2], text: 'Here’s why that matters.', highlights: [], size: 42, media: {src: 'half/hf08_why2.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'Here’s why that matters.', highlights: [], size: 42, media: {src: 'half/hf08_why2.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'By the figures|in the report,', highlights: [], size: 36, media: {src: 'half/hf09_report.jpg', type: 'img', effect: 'panR'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'By the figures|in the report,', highlights: [], size: 36, media: {src: 'half/hf09_report.jpg', type: 'img', effect: 'panR'}},
   // 10
-  {dur: 90, kind: 'text', reveal: [2], text: 'a buyer needed to earn', highlights: [], size: 40, media: {src: 'half/hf10_earn.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'a buyer needed to earn', highlights: [], size: 40, media: {src: 'half/hf10_earn.jpg', type: 'img', effect: 'in'}},
   // 11 CARD $110K
-  {dur: 90, kind: 'stat', stat: {pre: 'NEEDED TO AFFORD A HOME', prefix: '$', value: 110000, post: 'A YEAR'}, media: {src: 'half/hf11_money110.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'stat', stat: {pre: 'NEEDED TO AFFORD A HOME', prefix: '$', value: 110000, post: 'A YEAR'}, media: {src: 'half/hf11_money110.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'to afford a typical|American home.', highlights: [], size: 36, media: {src: 'half/hf12_home.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'to afford a typical|American home.', highlights: [], size: 36, media: {src: 'half/hf12_home.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 90, kind: 'text', reveal: [2], text: 'The typical household earned', highlights: [], size: 38, media: {src: 'half/hf13_household.jpg', type: 'img', effect: 'panL'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'The typical household earned', highlights: [], size: 38, media: {src: 'half/hf13_household.jpg', type: 'img', effect: 'panL'}},
   // 14 CARD $88K
-  {dur: 90, kind: 'stat', stat: {pre: 'TYPICAL HOUSEHOLD EARNED', prefix: '$', value: 88000, post: 'A YEAR'}, media: {src: 'half/hf14_money88.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'stat', stat: {pre: 'TYPICAL HOUSEHOLD EARNED', prefix: '$', value: 88000, post: 'A YEAR'}, media: {src: 'half/hf14_money88.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 90, kind: 'text', reveal: [2], text: 'That’s a gap of roughly', highlights: [], size: 40, media: {src: 'half/hf15_gap.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'That’s a gap of roughly', highlights: [], size: 40, media: {src: 'half/hf15_gap.jpg', type: 'img', effect: 'in'}},
   // 16 CARD $22K
-  {dur: 90, kind: 'stat', stat: {pre: 'THE GAP', prefix: '$', value: 22000}, media: {src: 'half/hf16_money22.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'stat', stat: {pre: 'THE GAP', prefix: '$', value: 22000}, media: {src: 'half/hf16_money22.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And mortgage rates are pushing|monthly payments higher.', highlights: ['higher.'], size: 30, media: {src: 'half/hf17_rates.jpg', type: 'img', effect: 'panR'}},
+  {dur: 97, kind: 'text', reveal: [2, 40], text: 'And mortgage rates are pushing|monthly payments higher.', highlights: ['higher.'], size: 30, media: {src: 'half/hf17_rates.jpg', type: 'img', effect: 'panR'}},
   // 18
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Even decent incomes|can’t keep up.', highlights: ['keep'], size: 36, media: {src: 'half/hf18_struggle.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'Even decent incomes|can’t keep up.', highlights: ['keep'], size: 36, media: {src: 'half/hf18_struggle.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 90, kind: 'text', reveal: [2], text: 'Burry’s idea is simple:', highlights: [], size: 40, media: {src: 'half/hf19_idea.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'Burry’s idea is simple:', highlights: [], size: 40, media: {src: 'half/hf19_idea.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'leave yourself room|to breathe.', highlights: ['breathe.'], size: 42, media: {src: 'half/hf20_breathe.jpg', type: 'img', effect: 'panL'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], text: 'leave yourself room|to breathe.', highlights: ['breathe.'], size: 42, media: {src: 'half/hf20_breathe.jpg', type: 'img', effect: 'panL'}},
   // 21
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'A bank approving|a big mortgage', highlights: [], size: 34, media: {src: 'half/hf21_bank.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 40], text: 'A bank approving|a big mortgage', highlights: [], size: 34, media: {src: 'half/hf21_bank.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'doesn’t make it|the smart move.', highlights: ['smart'], size: 38, media: {src: 'half/hf22_smart.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'doesn’t make it|the smart move.', highlights: ['smart'], size: 38, media: {src: 'half/hf22_smart.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'A smaller mortgage leaves more|to save and invest,', highlights: ['save'], size: 30, media: {src: 'half/hf23_save.jpg', type: 'img', effect: 'panR'}},
+  {dur: 106, kind: 'text', reveal: [2, 40], text: 'A smaller mortgage leaves more|to save and invest,', highlights: ['save'], size: 30, media: {src: 'half/hf23_save.jpg', type: 'img', effect: 'panR'}},
   // 24
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'and to handle|the unexpected.', highlights: ['unexpected.'], size: 38, media: {src: 'half/hf24_unexpected.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'and to handle|the unexpected.', highlights: ['unexpected.'], size: 38, media: {src: 'half/hf24_unexpected.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'The goal isn’t just|to own a house.', highlights: ['house.'], size: 36, media: {src: 'half/hf25_goal.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'The goal isn’t just|to own a house.', highlights: ['house.'], size: 36, media: {src: 'half/hf25_goal.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'It’s to own one,|not be owned by it.', highlights: ['owned'], size: 34, media: {src: 'half/hf26_own.jpg', type: 'img', effect: 'panL'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'It’s to own one,|not be owned by it.', highlights: ['owned'], size: 34, media: {src: 'half/hf26_own.jpg', type: 'img', effect: 'panL'}},
   // 27 BLACK
-  {dur: 90, kind: 'impact', text: 'Own the house.|Don’t let it own you.'},
+  {dur: 76, kind: 'impact', text: 'Own the house.|Don’t let it own you.'},
   // 28
-  {dur: 90, kind: 'text', reveal: [2], text: 'So, would you rather:', highlights: [], size: 40, media: {src: 'half/hf28_choice.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'So, would you rather:', highlights: [], size: 40, media: {src: 'half/hf28_choice.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'the dream house,|and a stretched budget,', highlights: ['stretched'], size: 32, media: {src: 'half/hf29_dream.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 40], text: 'the dream house,|and a stretched budget,', highlights: ['stretched'], size: 32, media: {src: 'half/hf29_dream.jpg', type: 'img', effect: 'in'}},
   // 30 RED
-  {dur: 90, kind: 'impact', redBg: true, text: 'or something smaller,|with room to breathe?'},
+  {dur: 68, kind: 'impact', redBg: true, text: 'or something smaller,|with room to breathe?'},
   // 31 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments.'], size: 44, media: {src: 'half/hf31_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments.'], size: 44, media: {src: 'half/hf31_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 850, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1038, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1121, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1177, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1828, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2023, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2091, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
