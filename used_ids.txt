@@ -3550,7 +3550,7 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 7045356 half/hf13_household.jpg
 7629494 half/hf14_money88.jpg
 29102198 half/hf15_gap.jpg
-12644993 half/hf16_money22.jpg
+34894234 half/hf16_money22.jpg
 8680188 half/hf17_rates.jpg
 6633602 half/hf18_struggle.jpg
 6990487 half/hf19_idea.jpg

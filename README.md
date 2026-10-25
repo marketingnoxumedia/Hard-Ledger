@@ -5591,8 +5591,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   arranged as a question mark (3683107), a handwritten to-do list (131979), a single light bulb on black
   (20766488), a coiled metal spring (7221094), a magnifier over a data chart (7948055), a hand on a column chart
   (7580704), a pink piggy bank (11618875), gold bokeh (34771372), a craftsman home exterior (6835077), a lived-in
-  modern kitchen (7045356), gold glitter (7629494), cracked concrete slabs — a gap (29102198), a copper-coin
-  savings jar (12644993), a paper percent-sign (8680188), a slim wallet + shopping bags (6633602), hands holding
+  modern kitchen (7045356), gold glitter (7629494), cracked concrete slabs — a gap (29102198), a gold-bokeh
+  abstract (34894234), a paper percent-sign (8680188), a slim wallet + shopping bags (6633602), hands holding
   light bulbs (6990487), an open window with leaves (19026351), hands filling a property form (7731326), a single
   chess piece (40227395), a hand holding a money-plant (10894354), water dripping from a rusty pipe (7190792), a
   hand holding house keys (27522902), legs under a pile of moving boxes (4553181), two front doors — blue & pink
@@ -5605,9 +5605,12 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   bullion coins ("999.9", country names) + a Bitcoin coin, a Mastercard receipt + a face, a US "Hamilton"
   banknote, a Cyrillic bank card, an IRS W-9 and a NASDAQ chart, Indonesian textbook text, a PAPAIZ padlock + a
   Portuguese street sign, a political "UKRAINE" sticker, a readable house address ("1225"), and a framed portrait.
+  One more was caught at the FINAL-render brand audit: the $22k card first sat on a coin jar (12644993) whose
+  handwritten label read as foreign text and whose coins were ambiguous foreign cents — swapped to a clean
+  gold-bokeh abstract (34894234).
   Clean STAND-INS where the literal brand-free option didn't exist: coins almost always carry portraits/
-  denominations, so the "earn/afford/gap" money beats use a piggy bank, a copper-coin jar and gold-abstract
-  (bokeh/glitter); the "stretch" beat is a metal spring (rubber-band shots were all people/faces); the "why?" beat
+  denominations, so the "earn/afford/gap" money beats use a piggy bank and gold-abstract (bokeh/glitter); the
+  "stretch" beat is a metal spring (rubber-band shots were all people/faces); the "why?" beat
   is pills arranged as a question mark. **UNVERIFIED / SENSITIVE — attributes specific advice and a 2008-crash
   claim to a NAMED real person (Michael Burry) and cites affordability figures; rendered as written but MUST be
   fact-checked before publishing.** Verify: that Burry actually gave this "buy half the house" advice / the "list
