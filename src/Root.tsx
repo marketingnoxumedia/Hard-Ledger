@@ -162,6 +162,7 @@ import {ConstraintReel, DURATION_IN_FRAMES as CONSTRAINT_FRAMES} from './Constra
 import {ScarcityReel, DURATION_IN_FRAMES as SCARCITY_FRAMES} from './ScarcityReel';
 import {WarehouseReel, DURATION_IN_FRAMES as WAREHOUSE_FRAMES} from './WarehouseReel';
 import {HalfReel, DURATION_IN_FRAMES as HALF_FRAMES} from './HalfReel';
+import {HavenReel, DURATION_IN_FRAMES as HAVEN_FRAMES} from './HavenReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1465,6 +1466,14 @@ export const RemotionRoot: React.FC = () => {
         id="HalfReel"
         component={HalfReel}
         durationInFrames={HALF_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="HavenReel"
+        component={HavenReel}
+        durationInFrames={HAVEN_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
