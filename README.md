@@ -5628,7 +5628,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   red beat still poses the would-you-rather ("can either protect your wealth?"). 34 beats, **2 stat cards —
   BITCOIN −7.3% / GOLD −7.5%**, 1 red impact, no black beat. **Captions match the VO verbatim** (except the number
   cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor
-  pass (`public/haven/voiceover.mp3`), **built at the house +10% VO default** (~77s; its own tense music bed).
+  pass (`public/haven/voiceover.mp3`), **built at +21% VO pace — the house +10% default plus a further +10% at the client's request** (~70s; its own tense music bed, reused from the +10% cut).
   Entirely its own fresh footage under `public/haven/` — no asset shared with any other reel. **New STANDALONE
   reel; thematically adjacent to `GoldReel` ("Store of value") and `HedgeReel` ("The Fed bet", gold vs rates) but
   a distinct hook (Bitcoin AND gold together / the digital-gold myth).** Media credits (Pexels, free license) —
