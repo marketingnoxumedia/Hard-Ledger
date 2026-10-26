@@ -5665,6 +5665,51 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   "first time both at the bottom of Bilello's rankings in the same year" claim and its date; and that commodities
   "surged" / US stocks were positive the same period. The "digital gold / store of value can't protect wealth"
   framing is editorial analysis.
+- **`SurvivorReel`** — "The survivor" (tech/markets reel, Hard Ledger VISUAL style). Topic: **Elon Musk / SpaceX
+  closed a ~$40B debt deal to buy Nvidia GPUs for AI, while Musk warned that 200+ "neocloud" AI companies could
+  consolidate down to a handful of survivors.** The irony: SpaceX borrows big to expand AI while warning others
+  could collapse — its edge is Starlink/launch revenue, not pure AI-compute dependence. **BUILT VERBATIM from a
+  client-supplied script in the influencer "curiosity-gap" format (like `HalfReel` / `HavenReel`), NOT the
+  faceless house voice** — it NAMES Elon Musk / SpaceX / Starlink / Nvidia, uses an EARLY "follow for more" CTA,
+  and CLOSES on a "let me know in the comments" debate CTA rather than the house binary. The red beat poses the
+  would-you-rather ("dominate AI, or is the race getting dangerously expensive?"). 33 beats, **2 stat cards —
+  SPACEX DEBT DEAL $40B / NEOCLOUD COMPANIES 200**, 1 red impact, no black beat. **Captions match the VO verbatim**
+  (except the number cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1
+  word-timestamp anchor pass (`public/survivor/voiceover.mp3`), **built at the house +10% VO default** (~87s; its
+  own driving music bed). Entirely its own fresh footage under `public/survivor/` — no asset shared with any other
+  reel. **New STANDALONE reel; thematically adjacent to the existing SpaceX reels — `SpacexReel` ("The belief",
+  IPO TAM) and `LandlordReel` ("The landlord", SpaceX as an AI-compute landlord with 1M+ Nvidia GPUs) — and to
+  `ScarcityReel` (the neocloud / AI-capital-crunch angle). Distinct hook: the $40B debt deal + Musk's
+  200-neocloud "only a few survive" warning.** Media credits (Pexels, free license) — video: a generic rocket
+  engine firing (854266). Photos: toppling dominoes (1393972), warm spotlights (10140708), a copper circuit-board
+  macro (6755087), a lone burning candle (5475164), a red stage curtain (4507866), a hand with a blank-screen
+  phone (6611963), a generic rocket-launch light-trail (9710060), a generic radio satellite dish (29781587), blue
+  network patch cables (4716292), a hands-only business handshake (9490632), gold bokeh (39359856), a blue chip
+  macro (40342986), an abstract neural-network sphere (14314636), cracked dry earth (1097016), a weathered
+  "CAUTION" signpost (38243793), an aerial crowd (26690512), an aerial motorway merge (20896696), a lone green
+  tree in a barren field (20207947), a magnifier in a palm (3074542), a fiber-optic patch panel (4280702), an
+  antique balance scale (29746445), a spread of playing cards (12119810), a wall of locked safe-deposit boxes
+  (18725637), a raised "stop" palm (7114349), a winding S-curve road (26800142), a rising wooden staircase
+  (14652792), a finger toppling dominoes (12969405), multiple industrial feed pipes (12380628), a single cracked
+  ancient column (38162814), a white chess king (4038395), a speech bubble over sticky notes (6991502). No
+  generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE
+  (hands, objects, crowds-from-above, backs only), and — despite naming Musk / SpaceX / Starlink / Nvidia — free
+  of any identifiable face (no Musk), SpaceX/Starlink/Nvidia/Tesla logo or wordmark, identifiable SpaceX rocket
+  (generic rockets only), Nvidia-branded GPU, stock ticker or readable price, flags, identifiable landmarks,
+  readable foreign text, banknote/coin portraits or identifiable currency, and military. The three sourcing agents
+  rejected a large pile: a Cyrillic "СССР/ВОСТОК" Vostok monument, a "NASA" SLS wordmark, a SpaceX Dragon capsule
+  (SPACEX wordmark), HP/ProLiant / IBM eServer/xSeries / Intel / NetApp / Schneider server logos, a "SUMITUBE" and
+  "PBI" mark, Micron/TI chip part-markings, a war-memorial roundabout, a Bank-of-Uganda "500 SHILLINGS" coin, an
+  Ethereum coin, a $100-bill portrait, Philippine-Piso coins, Turkish-language earthquake banners, and several
+  identifiable faces. Clean STAND-INS where no brand-free literal source existed: every logo-free wide server-hall
+  shot carried vendor logos, so the "infrastructure / data center" beats use fiber patch-panel + cable macros
+  (sv09, sv20 — both brand-free, so visually similar but distinct assets); the "house of cards" beat is a
+  people-free card spread (card-tower shots had faces); the "borrow/scale-up" beat is a staircase (money shots
+  carried currency portraits). **UNVERIFIED / SENSITIVE — names real people/companies (Elon Musk, SpaceX,
+  Starlink, Nvidia) and asserts a specific debt deal + a market warning; rendered as written but MUST be
+  fact-checked before publishing.** Verify: the ~$40B SpaceX debt deal to buy Nvidia GPUs; Musk's "200+ neoclouds
+  could consolidate, only a few survive" warning and where/when he said it; and the "SpaceX's edge is
+  Starlink/launch revenue" framing. The survival / "dangerously expensive" framing is editorial analysis.
 
 ## Export note
 
