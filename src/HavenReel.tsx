@@ -113,78 +113,83 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 90, kind: 'hook', reveal: [3, 40], text: 'Bitcoin and gold just hit|a historic first.', kicker: 'The haven', highlights: ['first.'], size: 34, media: {src: 'haven/hv00_fall.mp4', type: 'video', effect: 'in'}},
+  {dur: 114, kind: 'hook', reveal: [3, 40], text: 'Bitcoin and gold just hit|a historic first.', kicker: 'The haven', highlights: ['first.'], size: 34, media: {src: 'haven/hv00_fall.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And it’s not the record|investors hoped for.', highlights: ['record'], size: 34, media: {src: 'haven/hv01_record.jpg', type: 'img', effect: 'panL'}},
+  {dur: 74, kind: 'text', reveal: [2, 40], text: 'And it’s not the record|investors hoped for.', highlights: ['record'], size: 34, media: {src: 'haven/hv01_record.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'The two assets people turn to|for protection', highlights: [], size: 32, media: {src: 'haven/hv02_protect.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 40], text: 'The two assets people turn to|for protection', highlights: [], size: 32, media: {src: 'haven/hv02_protect.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'are now the worst performers|of 2026.', highlights: ['worst'], size: 32, media: {src: 'haven/hv03_worst.jpg', type: 'img', effect: 'panR'}},
+  {dur: 118, kind: 'text', reveal: [2, 40], text: 'are now the worst performers|of 2026.', highlights: ['worst'], size: 32, media: {src: 'haven/hv03_worst.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 90, kind: 'text', reveal: [2], text: 'But how did that happen?', highlights: ['happen?'], size: 42, media: {src: 'haven/hv04_how.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'But how did that happen?', highlights: ['happen?'], size: 42, media: {src: 'haven/hv04_how.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Before we break|it down,', highlights: [], size: 38, media: {src: 'haven/hv05_break.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], text: 'Before we break|it down,', highlights: [], size: 38, media: {src: 'haven/hv05_break.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'follow for more stories|that change how you see markets.', highlights: ['follow'], size: 28, media: {src: 'haven/hv06_follow.jpg', type: 'img', effect: 'panL'}},
+  {dur: 121, kind: 'text', reveal: [2, 40], text: 'follow for more stories|that change how you see markets.', highlights: ['follow'], size: 28, media: {src: 'haven/hv06_follow.jpg', type: 'img', effect: 'panL'}},
   // 7
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'According to strategist|Charlie Bilello,', highlights: [], size: 32, media: {src: 'haven/hv07_strategist.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 40], text: 'According to strategist|Charlie Bilello,', highlights: [], size: 32, media: {src: 'haven/hv07_strategist.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'both Bitcoin and gold|have gone negative this year.', highlights: ['negative'], size: 30, media: {src: 'haven/hv08_negative.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 40], text: 'both Bitcoin and gold|have gone negative this year.', highlights: ['negative'], size: 30, media: {src: 'haven/hv08_negative.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'despite their reputation|as safe alternatives.', highlights: [], size: 32, media: {src: 'haven/hv09_safe.jpg', type: 'img', effect: 'panR'}},
+  {dur: 103, kind: 'text', reveal: [2, 40], text: 'despite their reputation|as safe alternatives.', highlights: [], size: 32, media: {src: 'haven/hv09_safe.jpg', type: 'img', effect: 'panR'}},
   // 10
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Here’s how bad|it’s gotten.', highlights: [], size: 36, media: {src: 'haven/hv10_bad.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'Here’s how bad|it’s gotten.', highlights: [], size: 36, media: {src: 'haven/hv10_bad.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 90, kind: 'text', reveal: [2], text: 'Bitcoin is down', highlights: [], size: 42, media: {src: 'haven/hv11_btc.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Bitcoin is down', highlights: [], size: 42, media: {src: 'haven/hv11_btc.jpg', type: 'img', effect: 'in'}},
   // 12 CARD 7.3%
-  {dur: 90, kind: 'stat', stat: {pre: 'BITCOIN', prefix: '−', value: 7.3, decimals: 1, suffix: '%', post: 'THIS YEAR'}, media: {src: 'haven/hv12_btccard.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'stat', stat: {pre: 'BITCOIN', prefix: '−', value: 7.3, decimals: 1, suffix: '%', post: 'THIS YEAR'}, media: {src: 'haven/hv12_btccard.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 90, kind: 'text', reveal: [2], text: 'Gold has fallen', highlights: [], size: 42, media: {src: 'haven/hv13_gold.jpg', type: 'img', effect: 'panL'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'Gold has fallen', highlights: [], size: 42, media: {src: 'haven/hv13_gold.jpg', type: 'img', effect: 'panL'}},
   // 14 CARD 7.5%
-  {dur: 90, kind: 'stat', stat: {pre: 'GOLD', prefix: '−', value: 7.5, decimals: 1, suffix: '%', post: 'THIS YEAR'}, media: {src: 'haven/hv14_goldcard.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'stat', stat: {pre: 'GOLD', prefix: '−', value: 7.5, decimals: 1, suffix: '%', post: 'THIS YEAR'}, media: {src: 'haven/hv14_goldcard.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And by Bilello’s|historical data,', highlights: [], size: 34, media: {src: 'haven/hv15_data.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'And by Bilello’s|historical data,', highlights: [], size: 34, media: {src: 'haven/hv15_data.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'it’s the first time both|finished at the bottom', highlights: ['first'], size: 30, media: {src: 'haven/hv16_bottom.jpg', type: 'img', effect: 'panR'}},
+  {dur: 79, kind: 'text', reveal: [2, 40], text: 'it’s the first time both|finished at the bottom', highlights: ['first'], size: 30, media: {src: 'haven/hv16_bottom.jpg', type: 'img', effect: 'panR'}},
   // 17
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'of his rankings,|the same year.', highlights: [], size: 34, media: {src: 'haven/hv17_rankings.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'of his rankings,|the same year.', highlights: [], size: 34, media: {src: 'haven/hv17_rankings.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'But here’s where it|gets interesting.', highlights: ['interesting.'], size: 36, media: {src: 'haven/hv19_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: 'But here’s where it|gets interesting.', highlights: ['interesting.'], size: 36, media: {src: 'haven/hv19_twist.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'While Bitcoin and gold|struggle,', highlights: [], size: 34, media: {src: 'haven/hv20_struggle.jpg', type: 'img', effect: 'panL'}},
+  {dur: 65, kind: 'text', reveal: [2, 40], text: 'While Bitcoin and gold|struggle,', highlights: [], size: 34, media: {src: 'haven/hv20_struggle.jpg', type: 'img', effect: 'panL'}},
   // 21
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'other investments|did much better.', highlights: ['better.'], size: 36, media: {src: 'haven/hv21_better.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'other investments|did much better.', highlights: ['better.'], size: 36, media: {src: 'haven/hv21_better.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 90, kind: 'text', reveal: [2], text: 'Commodities surged.', highlights: ['surged.'], size: 44, media: {src: 'haven/hv22_commodities.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'Commodities surged.', highlights: ['surged.'], size: 44, media: {src: 'haven/hv22_commodities.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And U.S. stocks|delivered positive returns.', highlights: ['positive'], size: 32, media: {src: 'haven/hv23_stocks.jpg', type: 'img', effect: 'panR'}},
+  {dur: 71, kind: 'text', reveal: [2, 40], text: 'And U.S. stocks|delivered positive returns.', highlights: ['positive'], size: 32, media: {src: 'haven/hv23_stocks.jpg', type: 'img', effect: 'panR'}},
   // 24
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'And there’s a reason|investors are watching.', highlights: [], size: 32, media: {src: 'haven/hv24_watching.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 40], text: 'And there’s a reason|investors are watching.', highlights: [], size: 32, media: {src: 'haven/hv24_watching.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Neither Bitcoin nor gold|pays interest.', highlights: ['interest.'], size: 34, media: {src: 'haven/hv25_nointerest.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', reveal: [2, 28], text: 'Neither Bitcoin nor gold|pays interest.', highlights: ['interest.'], size: 34, media: {src: 'haven/hv25_nointerest.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 90, kind: 'text', reveal: [2], text: 'When rates rise,', highlights: [], size: 44, media: {src: 'haven/hv26_rates.jpg', type: 'img', effect: 'panL'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'When rates rise,', highlights: [], size: 44, media: {src: 'haven/hv26_rates.jpg', type: 'img', effect: 'panL'}},
   // 27
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'money prefers assets|that pay you to hold it.', highlights: ['pay'], size: 30, media: {src: 'haven/hv27_pay.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 40], text: 'money prefers assets|that pay you to hold it.', highlights: ['pay'], size: 30, media: {src: 'haven/hv27_pay.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'This challenges|a popular belief.', highlights: ['belief.'], size: 36, media: {src: 'haven/hv28_belief.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'This challenges|a popular belief.', highlights: ['belief.'], size: 36, media: {src: 'haven/hv28_belief.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Supporters call Bitcoin|digital gold.', highlights: ['digital'], size: 34, media: {src: 'haven/hv29_digital.jpg', type: 'img', effect: 'panR'}},
+  {dur: 66, kind: 'text', reveal: [2, 40], text: 'Supporters call Bitcoin|digital gold.', highlights: ['digital'], size: 34, media: {src: 'haven/hv29_digital.jpg', type: 'img', effect: 'panR'}},
   // 30
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'Traditionalists call gold|a store of value.', highlights: ['value.'], size: 32, media: {src: 'haven/hv30_store.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 40], text: 'Traditionalists call gold|a store of value.', highlights: ['value.'], size: 32, media: {src: 'haven/hv30_store.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 90, kind: 'text', reveal: [2], text: 'But when both fall together,', highlights: [], size: 36, media: {src: 'haven/hv31_together.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'But when both fall together,', highlights: [], size: 36, media: {src: 'haven/hv31_together.jpg', type: 'img', effect: 'in'}},
   // 32 RED
-  {dur: 90, kind: 'impact', redBg: true, text: 'Can either one|really protect|your wealth?'},
+  {dur: 84, kind: 'impact', redBg: true, text: 'Can either one|really protect|your wealth?'},
   // 33
-  {dur: 90, kind: 'text', reveal: [2, 40], text: 'To protect your money:|Bitcoin, gold, or neither?', highlights: ['neither?'], size: 32, media: {src: 'haven/hv33_choice.jpg', type: 'img', effect: 'panL'}},
+  {dur: 91, kind: 'text', reveal: [2, 40], text: 'To protect your money:|Bitcoin, gold, or neither?', highlights: ['neither?'], size: 32, media: {src: 'haven/hv33_choice.jpg', type: 'img', effect: 'panL'}},
   // 34 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments.'], size: 44, media: {src: 'haven/hv34_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments.'], size: 44, media: {src: 'haven/hv34_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 937, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1036, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1266, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2108, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2283, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
