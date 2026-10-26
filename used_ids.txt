@@ -3567,7 +3567,7 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 
 # HavenReel
 34338488 haven/hv00_fall.mp4
-37994066 haven/hv01_record.jpg
+6532362 haven/hv01_record.jpg
 18582300 haven/hv02_protect.jpg
 39032295 haven/hv03_worst.jpg
 2646533 haven/hv04_how.jpg

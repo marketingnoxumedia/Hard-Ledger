@@ -5632,7 +5632,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Entirely its own fresh footage under `public/haven/` — no asset shared with any other reel. **New STANDALONE
   reel; thematically adjacent to `GoldReel` ("Store of value") and `HedgeReel` ("The Fed bet", gold vs rates) but
   a distinct hook (Bitcoin AND gold together / the digital-gold myth).** Media credits (Pexels, free license) —
-  video: abstract red digital particles falling (34338488). Photos: broken vinyl records (37994066), a furled
+  video: abstract red digital particles falling (34338488). Photos: a gold trophy — no engraving (6532362), a furled
   umbrella in a storm (18582300), a steep downward chart (39032295), a chalk question mark (2646533), cracked
   glass (30798595), a hand with a blank-screen phone (6611961), an over-the-shoulder analyst at a desk — no face
   (5831355), a red downward arrow among up-arrows (9408386), a vault wheel on a safe door (12651886), a plunging
@@ -5658,9 +5658,9 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Clean abstract STAND-INS where no brand-free literal source existed: crypto/digital-gold = abstract gold
   particles (hv11/hv29); gold-bar beats = textless gold glitter/molten/crinkled gold (hv13/hv14/hv30); "falling"
   = red light-streaks + a rotated-down arrow (hv20/hv31); "rising/positive" = a green flare + green sprout
-  (hv23/hv27). Two low-level marks survived a sibling agent's judgment and were kept (both non-finance, tiny): a
-  defunct music-label mark on the broken-vinyl beat (hv01) and an incidental "hp" monitor logo on the analyst beat
-  (hv07). **UNVERIFIED / SENSITIVE — names a real strategist (Charlie Bilello) and cites his data; rendered as
+  (hv23/hv27). At the FINAL-render audit one more was caught: the "not the record" beat (hv01) first used broken vinyl with
+  readable "Arcade"/"Polydor" record-label marks — swapped to a brand-free gold trophy close-up (6532362). One
+  tiny non-finance mark was kept: an incidental, unreadable monitor-bezel mark on the analyst beat (hv07). **UNVERIFIED / SENSITIVE — names a real strategist (Charlie Bilello) and cites his data; rendered as
   written but MUST be fact-checked before publishing.** Verify: Bitcoin ~−7.3% and gold ~−7.5% YTD 2026 and the
   "first time both at the bottom of Bilello's rankings in the same year" claim and its date; and that commodities
   "surged" / US stocks were positive the same period. The "digital gold / store of value can't protect wealth"
