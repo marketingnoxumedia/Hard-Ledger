@@ -5710,6 +5710,55 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   fact-checked before publishing.** Verify: the ~$40B SpaceX debt deal to buy Nvidia GPUs; Musk's "200+ neoclouds
   could consolidate, only a few survive" warning and where/when he said it; and the "SpaceX's edge is
   Starlink/launch revenue" framing. The survival / "dangerously expensive" framing is editorial analysis.
+- **`MetaReel`** — "The gamble" (tech/markets reel, Hard Ledger VISUAL style). Topic: **Meta announced (Oct 26) a
+  ~$35B stock offering — ~$22.5B Class A common + ~$12.5B preferred — to fund its AI build-out, plus a separate
+  ~$60B stock-sale program planned for the future; Meta's 2026 capex is guided to ~$135B–$145B.** The tension: big
+  equity raises can dilute shareholders and the infrastructure spend creates pressure to turn AI demand into
+  profit; Meta says its AI is already lifting engagement, ad performance and monetization — and the $60B program
+  is only planned, not guaranteed. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap"
+  format (like `HalfReel` / `HavenReel` / `SurvivorReel`), NOT the faceless house voice** — it NAMES Meta / Mark
+  Zuckerberg / Facebook / Instagram / WhatsApp, uses an EARLY "follow for more" CTA, and CLOSES on a "let me know
+  what you think in the comments" debate CTA rather than the house binary. The red beat poses the would-you-rather
+  ("the right move… or a huge financial gamble?"). 37 beats, **5 stat cards — $35B (two public offerings) / $22.5B
+  (Class A) / $12.5B (preferred) / $60B (future plan) / $135B (2026 capex, up to $145B)**, 1 red impact, no black
+  beat. **Captions match the VO verbatim** (except the number cards; spoken figures as numerals).
+  Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/meta/voiceover.mp3`),
+  **built at the house +10% VO default (~132s / 2:12 — a long, dense verbatim script; its own driving music bed).**
+  Entirely its own fresh footage under `public/meta/` — no asset shared with any other reel. **New STANDALONE reel;
+  thematically adjacent to the AI-capex cluster (`ScarcityReel`, `WarehouseReel`, `SurvivorReel`) but a DISTINCT
+  story: a specific company (Meta), a specific equity raise and capex guide, and the dilution / return-on-AI-spend
+  question.** Media credits (Pexels, free license) — video: an abstract particle-network motion (34912823). Photos:
+  chess king/pawns in red backlight (16256893), a blank-gradient-screen phone (29486053), gold/mauve bokeh
+  (18874025), a generic glass skyscraper (32203763), sprint starting blocks (14585535), a finger tapping a
+  blank-screen phone (24503743), earth at night from space (30596263), a molten-gold pour (6804260), a blue-lit
+  server unit (17489152), hands over a contract (8730986), a high-rise under construction (18078304), a pen set on
+  a blank notepad (7841419), golden bokeh (19756486), an aged certificate-style paper stack (6607100), a riveted
+  steel vault door (36329567), railway tracks forking into fog (6760319), an open road to mountains (2715004), an
+  aerial of a vast crowd (36829130), tall stacks of gold casino chips (7594196), glass skyscrapers in fog
+  (12570674), a fiber-optic cable bundle (28286034), a snow-capped peak through mist (14769110), a multi-arrow
+  directional road sign (30170193), a playground seesaw (28939519), ink dispersing in water (5606167), a vintage
+  bench vise (29404121), seedlings sprouting from soil (985626), hands cradling a glowing phone (19949818), a
+  vintage cash register (5370036), a blindfolded Lady-Justice statue with scales (30483132), stacked steel I-beams
+  (36003962), a megaphone on a stool (8846035), a hand-drafted blueprint (716661), a gold chess king over a toppled
+  king (35835880), and pastel speech-bubble cutouts (31418370). No generated graphics this reel. **Brand-safety
+  (screened hard at source and from the FINAL render):** FACE-FREE (hands, objects, crowds-from-above, allegorical
+  statue only), and — despite naming Meta / Zuckerberg / Facebook / Instagram / WhatsApp — free of any identifiable
+  face (no Zuckerberg), Meta/Facebook/Instagram/WhatsApp/Threads logo, wordmark or app UI, any other brand logo,
+  stock ticker or readable price/chart, exchange signage, flags, identifiable landmarks or corporate HQ, readable
+  foreign text, banknote/coin portraits or identifiable currency, and military. The three sourcing agents rejected
+  a large pile: "plexus" network clips with floating @/envelope icons and a particle clip with readable stock
+  prices; Philippine-peso ("BANGKO SENTRAL") / €2 / French-franc coins, crypto tokens, and "GLOBAL INTERGOLD
+  999.9" / Argor-Heraeus gold bars; a "FIMET" gauge, a "LARIO/AVERY" scale, container-yard BIC codes / Textainer
+  marks, a Cyrillic alarm-clock UI, and vendor logos on wide server-hall shots. Clean STAND-INS where no brand-free
+  literal source existed: the "money/raise" beats use abstract gold bokeh (every coin/bill/bar carried currency
+  portraits or bullion wordmarks); "common stock" is an aged certificate-style paper stack (no brand-safe share
+  certificate exists on Pexels); "preferred stock" is a riveted vault door (clean vault interiors were all on the
+  ledger). One cross-reel id collision was caught by the ledger check and re-sourced (mt23 question-marks →
+  multi-arrow sign), and the FINAL-render audit caught a finance table with readable dollar/percentage figures on
+  the capex beat and swapped it for brand-free gold casino-chip stacks (mt19). **UNVERIFIED / SENSITIVE — names a real company/person (Meta, Mark Zuckerberg) and asserts
+  specific financials (a ~$35B offering split $22.5B/$12.5B, a planned ~$60B program, ~$135B–$145B 2026 capex, an
+  Oct 26 date); rendered as written but MUST be fact-checked before publishing.** The dilution / "profitable
+  business" framing is editorial analysis.
 
 ## Export note
 

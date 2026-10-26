@@ -105,84 +105,92 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Meta just announced|a $35 billion stock offering.', kicker: 'The gamble', highlights: ['$35'], size: 32, media: {src: 'meta/mt00_tech.mp4', type: 'video', effect: 'in'}},
+  {dur: 111, kind: 'hook', reveal: [3, 40], text: 'Meta just announced|a $35 billion stock offering.', kicker: 'The gamble', highlights: ['$35'], size: 32, media: {src: 'meta/mt00_tech.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'to fund its AI ambitions —|and that’s only part of the plan.', highlights: ['plan.'], size: 30, media: {src: 'meta/mt01_plan.jpg', type: 'img', effect: 'panL'}},
+  {dur: 123, kind: 'text', reveal: [2, 40], text: 'to fund its AI ambitions —|and that’s only part of the plan.', highlights: ['plan.'], size: 30, media: {src: 'meta/mt01_plan.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'The company behind Facebook,|Instagram, and WhatsApp', highlights: [], size: 32, media: {src: 'meta/mt02_apps.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 40], text: 'The company behind Facebook,|Instagram, and WhatsApp', highlights: [], size: 32, media: {src: 'meta/mt02_apps.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'wants to raise|even more money.', highlights: ['money.'], size: 36, media: {src: 'meta/mt03_raise.jpg', type: 'img', effect: 'panR'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'wants to raise|even more money.', highlights: ['money.'], size: 36, media: {src: 'meta/mt03_raise.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'But why does one of the world’s|biggest tech companies', highlights: [], size: 30, media: {src: 'meta/mt04_giant.jpg', type: 'img', effect: 'in'}},
+  {dur: 112, kind: 'text', reveal: [2, 40], text: 'But why does one of the world’s|biggest tech companies', highlights: [], size: 30, media: {src: 'meta/mt04_giant.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'need so much cash|to win the AI race?', highlights: ['race?'], size: 32, media: {src: 'meta/mt05_race.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 40], text: 'need so much cash|to win the AI race?', highlights: ['race?'], size: 32, media: {src: 'meta/mt05_race.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Follow for more business|and tech stories', highlights: ['follow'], size: 32, media: {src: 'meta/mt06_follow.jpg', type: 'img', effect: 'panL'}},
+  {dur: 61, kind: 'text', reveal: [2, 40], text: 'Follow for more business|and tech stories', highlights: ['follow'], size: 32, media: {src: 'meta/mt06_follow.jpg', type: 'img', effect: 'panL'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'that could change how|you see the world.', highlights: [], size: 32, media: {src: 'meta/mt07_world.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 40], text: 'that could change how|you see the world.', highlights: [], size: 32, media: {src: 'meta/mt07_world.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Meta has been pouring billions of|dollars into artificial intelligence,', highlights: [], size: 29, media: {src: 'meta/mt08_pour.jpg', type: 'img', effect: 'in'}},
+  {dur: 120, kind: 'text', reveal: [2, 40], text: 'Meta has been pouring billions of|dollars into artificial intelligence,', highlights: [], size: 29, media: {src: 'meta/mt08_pour.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'building massive data centers|and developing AI products.', highlights: ['products.'], size: 30, media: {src: 'meta/mt09_datacenter.jpg', type: 'img', effect: 'panR'}},
+  {dur: 115, kind: 'text', reveal: [2, 40], text: 'building massive data centers|and developing AI products.', highlights: ['products.'], size: 30, media: {src: 'meta/mt09_datacenter.jpg', type: 'img', effect: 'panR'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Now, CEO Mark Zuckerberg’s company|is turning to investors', highlights: [], size: 29, media: {src: 'meta/mt10_investors.jpg', type: 'img', effect: 'in'}},
+  {dur: 109, kind: 'text', reveal: [2, 40], text: 'Now, CEO Mark Zuckerberg’s company|is turning to investors', highlights: [], size: 29, media: {src: 'meta/mt10_investors.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to help finance|its next phase of expansion.', highlights: ['expansion.'], size: 32, media: {src: 'meta/mt11_expansion.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'to help finance|its next phase of expansion.', highlights: ['expansion.'], size: 32, media: {src: 'meta/mt11_expansion.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'On October 26, Meta announced|plans to raise', highlights: [], size: 32, media: {src: 'meta/mt12_announce.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 40], text: 'On October 26, Meta announced|plans to raise', highlights: [], size: 32, media: {src: 'meta/mt12_announce.jpg', type: 'img', effect: 'in'}},
   // 13 CARD $35B
-  {dur: 70, kind: 'stat', stat: {pre: 'TWO PUBLIC OFFERINGS', prefix: '$', value: 35, suffix: 'B', post: 'TO RAISE, IN TOTAL'}, media: {src: 'meta/mt13_offering.jpg', type: 'img', effect: 'in'}},
+  {dur: 139, kind: 'stat', stat: {pre: 'TWO PUBLIC OFFERINGS', prefix: '$', value: 35, suffix: 'B', post: 'TO RAISE, IN TOTAL'}, media: {src: 'meta/mt13_offering.jpg', type: 'img', effect: 'in'}},
   // 14 CARD $22.5B
-  {dur: 70, kind: 'stat', stat: {pre: 'CLASS A COMMON STOCK', prefix: '$', value: 22.5, decimals: 1, suffix: 'B'}, media: {src: 'meta/mt14_classa.jpg', type: 'img', effect: 'in'}},
+  {dur: 111, kind: 'stat', stat: {pre: 'CLASS A COMMON STOCK', prefix: '$', value: 22.5, decimals: 1, suffix: 'B'}, media: {src: 'meta/mt14_classa.jpg', type: 'img', effect: 'in'}},
   // 15 CARD $12.5B
-  {dur: 70, kind: 'stat', stat: {pre: 'PREFERRED STOCK', prefix: '$', value: 12.5, decimals: 1, suffix: 'B'}, media: {src: 'meta/mt15_preferred.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'stat', stat: {pre: 'PREFERRED STOCK', prefix: '$', value: 12.5, decimals: 1, suffix: 'B'}, media: {src: 'meta/mt15_preferred.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'The company also plans|to establish a separate', highlights: [], size: 32, media: {src: 'meta/mt16_separate.jpg', type: 'img', effect: 'panL'}},
+  {dur: 96, kind: 'text', reveal: [2, 40], text: 'The company also plans|to establish a separate', highlights: [], size: 32, media: {src: 'meta/mt16_separate.jpg', type: 'img', effect: 'panL'}},
   // 17 CARD $60B
-  {dur: 70, kind: 'stat', stat: {pre: 'FUTURE STOCK-SALE PLAN', prefix: '$', value: 60, suffix: 'B', post: 'STILL TO COME'}, media: {src: 'meta/mt17_future.jpg', type: 'img', effect: 'in'}},
+  {dur: 115, kind: 'stat', stat: {pre: 'FUTURE STOCK-SALE PLAN', prefix: '$', value: 60, suffix: 'B', post: 'STILL TO COME'}, media: {src: 'meta/mt17_future.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the scale of|this spending is enormous.', highlights: ['enormous.'], size: 34, media: {src: 'meta/mt18_enormous.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'And the scale of|this spending is enormous.', highlights: ['enormous.'], size: 34, media: {src: 'meta/mt18_enormous.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Meta expects its capital|expenditures to reach', highlights: [], size: 32, media: {src: 'meta/mt19_capex.jpg', type: 'img', effect: 'panR'}},
+  {dur: 100, kind: 'text', reveal: [2, 40], text: 'Meta expects its capital|expenditures to reach', highlights: [], size: 32, media: {src: 'meta/mt19_capex.jpg', type: 'img', effect: 'panR'}},
   // 20 CARD $135B
-  {dur: 70, kind: 'stat', stat: {pre: '2026 CAPITAL SPENDING', prefix: '$', value: 135, suffix: 'B', post: 'UP TO $145B'}, media: {src: 'meta/mt20_spending.jpg', type: 'img', effect: 'in'}},
+  {dur: 218, kind: 'stat', stat: {pre: '2026 CAPITAL SPENDING', prefix: '$', value: 135, suffix: 'B', post: 'UP TO $145B'}, media: {src: 'meta/mt20_spending.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'That’s money going toward|infrastructure and computing', highlights: [], size: 31, media: {src: 'meta/mt21_infra.jpg', type: 'img', effect: 'in'}},
+  {dur: 112, kind: 'text', reveal: [2, 40], text: 'That’s money going toward|infrastructure and computing', highlights: [], size: 31, media: {src: 'meta/mt21_infra.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'needed to support|its growing AI ambitions.', highlights: ['ambitions.'], size: 32, media: {src: 'meta/mt22_ambitions.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 40], text: 'needed to support|its growing AI ambitions.', highlights: ['ambitions.'], size: 32, media: {src: 'meta/mt22_ambitions.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s the big question:', highlights: ['question:'], size: 36, media: {src: 'meta/mt23_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'But here’s the big question:', highlights: ['question:'], size: 36, media: {src: 'meta/mt23_question.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'what happens if these investments|don’t generate enough returns?', highlights: ['returns?'], size: 29, media: {src: 'meta/mt24_returns.jpg', type: 'img', effect: 'panL'}},
+  {dur: 137, kind: 'text', reveal: [2, 40], text: 'what happens if these investments|don’t generate enough returns?', highlights: ['returns?'], size: 29, media: {src: 'meta/mt24_returns.jpg', type: 'img', effect: 'panL'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Issuing more stock can dilute|existing shareholders’ ownership,', highlights: ['dilute'], size: 29, media: {src: 'meta/mt25_dilute.jpg', type: 'img', effect: 'in'}},
+  {dur: 131, kind: 'text', reveal: [2, 40], text: 'Issuing more stock can dilute|existing shareholders’ ownership,', highlights: ['dilute'], size: 29, media: {src: 'meta/mt25_dilute.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'while massive infrastructure|spending creates pressure', highlights: [], size: 31, media: {src: 'meta/mt26_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 40], text: 'while massive infrastructure|spending creates pressure', highlights: [], size: 31, media: {src: 'meta/mt26_pressure.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to turn AI demand|into a profitable business.', highlights: ['profitable'], size: 32, media: {src: 'meta/mt27_profit.jpg', type: 'img', effect: 'panR'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'to turn AI demand|into a profitable business.', highlights: ['profitable'], size: 32, media: {src: 'meta/mt27_profit.jpg', type: 'img', effect: 'panR'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Meta insists its AI investments|are already improving engagement,', highlights: [], size: 28, media: {src: 'meta/mt28_engagement.jpg', type: 'img', effect: 'in'}},
+  {dur: 151, kind: 'text', reveal: [2, 40], text: 'Meta insists its AI investments|are already improving engagement,', highlights: [], size: 28, media: {src: 'meta/mt28_engagement.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'advertising performance,|and monetization.', highlights: ['monetization.'], size: 34, media: {src: 'meta/mt29_monetize.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'advertising performance,|and monetization.', highlights: ['monetization.'], size: 34, media: {src: 'meta/mt29_monetize.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'But investors still have to weigh|those potential gains', highlights: [], size: 30, media: {src: 'meta/mt30_weigh.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 40], text: 'But investors still have to weigh|those potential gains', highlights: [], size: 30, media: {src: 'meta/mt30_weigh.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'against the enormous cost of|building the infrastructure behind them.', highlights: ['cost'], size: 28, media: {src: 'meta/mt31_cost.jpg', type: 'img', effect: 'panL'}},
+  {dur: 135, kind: 'text', reveal: [2, 40], text: 'against the enormous cost of|building the infrastructure behind them.', highlights: ['cost'], size: 28, media: {src: 'meta/mt31_cost.jpg', type: 'img', effect: 'panL'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'And while the $35 billion offering|has been announced,', highlights: [], size: 30, media: {src: 'meta/mt32_announced.jpg', type: 'img', effect: 'in'}},
+  {dur: 125, kind: 'text', reveal: [2, 40], text: 'And while the $35 billion offering|has been announced,', highlights: [], size: 30, media: {src: 'meta/mt32_announced.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'the additional $60 billion program|is still planned, rather than guaranteed.', highlights: ['guaranteed.'], size: 28, media: {src: 'meta/mt33_planned.jpg', type: 'img', effect: 'in'}},
+  {dur: 161, kind: 'text', reveal: [2, 40], text: 'the additional $60 billion program|is still planned, rather than guaranteed.', highlights: ['guaranteed.'], size: 28, media: {src: 'meta/mt33_planned.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'So, is Meta making the right move|by raising billions to dominate AI,', highlights: [], size: 28, media: {src: 'meta/mt34_dominate.jpg', type: 'img', effect: 'in'}},
+  {dur: 140, kind: 'text', reveal: [2, 40], text: 'So, is Meta making the right move|by raising billions to dominate AI,', highlights: [], size: 28, media: {src: 'meta/mt34_dominate.jpg', type: 'img', effect: 'in'}},
   // 35 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'or is the company|taking a huge|financial gamble?'},
+  {dur: 113, kind: 'impact', redBg: true, text: 'or is the company|taking a huge|financial gamble?'},
   // 36 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know what you think|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'meta/mt36_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know what you think|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'meta/mt36_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1275, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1414, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1525, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1697, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1979, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2404, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 3810, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3923, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
