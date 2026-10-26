@@ -5759,6 +5759,49 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   specific financials (a ~$35B offering split $22.5B/$12.5B, a planned ~$60B program, ~$135B–$145B 2026 capex, an
   Oct 26 date); rendered as written but MUST be fact-checked before publishing.** The dilution / "profitable
   business" framing is editorial analysis.
+- **`SteamReel`** — "The freeze" (gaming/tech-news reel, Hard Ledger VISUAL style). Topic: **Steam (Valve's PC
+  platform) users report the client getting stuck on a "Loading User Data" screen, locking some out of their game
+  libraries — while Steam's official status dashboard shows no corresponding major outage.** Reports rose Oct 26
+  across multiple countries (PC + Steam Deck); per TechRadar, Downdetector reports spiked to ~500 in the U.S. and
+  ~450 in the U.K., and restarting/reinstalling didn't help. Store/Community may stay up while the client is
+  broken; the cause is unconfirmed (bug, backend, or something else — explicitly flagged as speculation in-script).
+  **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (like `HalfReel` /
+  `HavenReel` / `SurvivorReel` / `MetaReel`), NOT the faceless house voice** — it NAMES Steam / Steam Deck /
+  TechRadar / Downdetector, uses an EARLY "follow for more" CTA, and CLOSES on a "tell us ... in the comments"
+  debate CTA rather than the house binary. The red beat poses the would-you-rather ("working normally ... or stuck
+  on Loading User Data too?"). 31 beats, **2 stat cards — U.S. OUTAGE REPORTS 500 / U.K. OUTAGE REPORTS 450** (each
+  card spans its full spoken phrase so the count-up completes), 1 red impact, no black beat. **Captions match the
+  VO verbatim** (except the number cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a
+  scribe_v1 word-timestamp anchor pass (`public/steam/voiceover.mp3`), **built at the house +10% VO default
+  (~104s); its own driving, urgent music bed.** Entirely its own fresh footage under `public/steam/` — no asset
+  shared with any other reel. **New STANDALONE reel; a tonal/topic DEPARTURE from the finance/AI-capex cluster — a
+  gaming-news / outage story.** Media credits (Pexels, free license) — video: a dark wireframe vortex loop
+  (15886614). Photos: head-down over a glowing keyboard, face hidden (7915244), a blank glowing laptop screen
+  (7864378), a padlock + chain (13429064), smoke forming a question mark (9202292), a dark control console with
+  indicator lights (28292708), a hand on a dark phone, screen turned away (1670035), a B&W block calendar
+  (9403177), earth at night (30596211), a mechanical keyboard (18172216), a vintage CRT showing static (5389621),
+  a dark red glow (720457), a soft amber glow (17603458), an unbranded laptop power key (39481207), a cracked
+  laptop screen (28379995), a clenched fist (6920651), a glowing loading-ring spinner (10187003), a wall of clocks
+  (35165104), spreading data streams (10653941), a padlock on wood (9933020), an unbranded arcade joystick
+  (374914), an empty wire shopping cart (30880205), a dark gaming desk with the screen off (33888376), a hand
+  holding a "?" tile (10988654), a metallic beetle / literal bug (6037798), a hidden-face silhouette in smoke
+  (1480689), an empty vintage microphone (12448179), drifting smoke (11230057), a 3D green-check checklist
+  (20279300), and plain speech bubbles (4176482). No generated graphics this reel. **Brand-safety (screened hard at
+  source and from the FINAL render):** FACE-FREE, and — despite naming Steam / Steam Deck / TechRadar /
+  Downdetector — free of any Steam / Valve / Steam Deck logo, client UI or recognizable device, any console or
+  controller brand mark, any game title / box art / character / IP, any TechRadar or Downdetector logo or UI, any
+  other brand logo, readable error / dashboard / foreign text, flags, identifiable landmarks, and military. The
+  three sourcing agents rejected a large pile: server-rack shots carrying vendor logos, Neumann / Razer / Maono /
+  SteelSeries / ABUS / "stein BRASS" / "Rolens" marks, newspapers with readable mastheads (one showing Queen
+  Elizabeth II), a museum panel with Turkish text, Korean / "CURFEW" / "HIGH" labels, and an on-screen game UI;
+  two late dedup collisions (a server rack and a vintage mic md5-identical to a sibling slot) were re-sourced to a
+  control console and a CRT-static TV. Three assets (st27 "?" tile, st32 green-check checklist, st34 speech
+  bubbles) sit slightly off the near-black palette — brand-safe but brighter; flagged for a possible darker swap.
+  **UNVERIFIED / SENSITIVE — names real entities (Steam/Valve, Steam Deck, TechRadar, Downdetector) and asserts a
+  live, time-sensitive outage with specific figures (~500 U.S. / ~450 U.K. Downdetector reports, an Oct 26 date);
+  rendered as written but MUST be fact-checked before publishing, and the outage data is PERISHABLE (counts and
+  whether it is still down drift by the hour).** The bug/backend cause is explicitly flagged as speculation
+  in-script.
 
 ## Export note
 
