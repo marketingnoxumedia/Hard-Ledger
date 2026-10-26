@@ -104,88 +104,78 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Steam is having a|rough start to the week,', kicker: 'The freeze', highlights: [], size: 34, media: {src: 'steam/st00_loading.mp4', type: 'video', effect: 'in'}},
+  {dur: 72, kind: 'hook', reveal: [3, 40], text: 'Steam is having a|rough start to the week,', kicker: 'The freeze', highlights: [], size: 34, media: {src: 'steam/st00_loading.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'and thousands of gamers are getting|stuck on the same frustrating screen.', highlights: ['stuck'], size: 28, media: {src: 'steam/st01_frustrated.jpg', type: 'img', effect: 'panL'}},
+  {dur: 130, kind: 'text', reveal: [2, 40], text: 'and thousands of gamers are getting|stuck on the same frustrating screen.', highlights: ['stuck'], size: 28, media: {src: 'steam/st01_frustrated.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Players are reporting that Steam|gets trapped on "Loading User Data,"', highlights: ['trapped'], size: 27, media: {src: 'steam/st02_stuckscreen.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 40], text: 'Players are reporting that Steam|gets trapped on "Loading User Data,"', highlights: ['trapped'], size: 27, media: {src: 'steam/st02_stuckscreen.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'leaving some unable to access|their game libraries.', highlights: ['libraries.'], size: 30, media: {src: 'steam/st03_library.jpg', type: 'img', effect: 'panR'}},
+  {dur: 105, kind: 'text', reveal: [2, 28], text: 'leaving some unable to access|their game libraries.', highlights: ['libraries.'], size: 30, media: {src: 'steam/st03_library.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s the strange part:', highlights: ['strange'], size: 36, media: {src: 'steam/st04_strange.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'But here’s the strange part:', highlights: ['strange'], size: 36, media: {src: 'steam/st04_strange.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Steam’s official status dashboard|isn’t showing a corresponding major outage.', highlights: ['outage.'], size: 25, media: {src: 'steam/st05_dashboard.jpg', type: 'img', effect: 'in'}},
+  {dur: 168, kind: 'text', reveal: [2, 40], text: 'Steam’s official status dashboard|isn’t showing a corresponding major outage.', highlights: ['outage.'], size: 25, media: {src: 'steam/st05_dashboard.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Follow for more gaming news|and updates you don’t want to miss.', highlights: ['follow'], size: 28, media: {src: 'steam/st06_follow.jpg', type: 'img', effect: 'panL'}},
+  {dur: 125, kind: 'text', reveal: [2, 40], text: 'Follow for more gaming news|and updates you don’t want to miss.', highlights: ['follow'], size: 28, media: {src: 'steam/st06_follow.jpg', type: 'img', effect: 'panL'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Reports of the problem|started increasing on October 26,', highlights: [], size: 30, media: {src: 'steam/st07_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 40], text: 'Reports of the problem|started increasing on October 26,', highlights: [], size: 30, media: {src: 'steam/st07_calendar.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'with players across multiple countries|saying they couldn’t log in properly.', highlights: [], size: 26, media: {src: 'steam/st08_world.jpg', type: 'img', effect: 'in'}},
+  {dur: 134, kind: 'text', reveal: [2, 40], text: 'with players across multiple countries|saying they couldn’t log in properly.', highlights: [], size: 26, media: {src: 'steam/st08_world.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'The issue appears to affect the Steam|client on both PC and Steam Deck.', highlights: [], size: 26, media: {src: 'steam/st09_setup.jpg', type: 'img', effect: 'panR'}},
+  {dur: 146, kind: 'text', reveal: [2, 40], text: 'The issue appears to affect the Steam|client on both PC and Steam Deck.', highlights: [], size: 26, media: {src: 'steam/st09_setup.jpg', type: 'img', effect: 'panR'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'According to TechRadar, outage reports|climbed sharply on Downdetector,', highlights: [], size: 26, media: {src: 'steam/st10_news.jpg', type: 'img', effect: 'in'}},
-  // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'reaching nearly', highlights: [], size: 38, media: {src: 'steam/st11_spike.jpg', type: 'img', effect: 'in'}},
-  // 12 CARD 500
-  {dur: 70, kind: 'stat', stat: {pre: 'U.S. OUTAGE REPORTS', value: 500, post: 'NEARLY'}, media: {src: 'steam/st12_alert1.jpg', type: 'img', effect: 'in'}},
-  // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'in the United States', highlights: [], size: 36, media: {src: 'steam/st13_map1.jpg', type: 'img', effect: 'panL'}},
-  // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'and around', highlights: [], size: 40, media: {src: 'steam/st14_more.jpg', type: 'img', effect: 'in'}},
-  // 15 CARD 450
-  {dur: 70, kind: 'stat', stat: {pre: 'U.K. OUTAGE REPORTS', value: 450, post: 'AROUND'}, media: {src: 'steam/st15_alert2.jpg', type: 'img', effect: 'in'}},
-  // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'in the United Kingdom.', highlights: [], size: 34, media: {src: 'steam/st16_map2.jpg', type: 'img', effect: 'panR'}},
+  {dur: 141, kind: 'text', reveal: [2, 40], text: 'According to TechRadar, outage reports|climbed sharply on Downdetector,', highlights: [], size: 26, media: {src: 'steam/st10_news.jpg', type: 'img', effect: 'in'}},
+  // 11 CARD 500 — spans "reaching nearly five hundred reports in the United States"
+  {dur: 91, kind: 'stat', stat: {pre: 'U.S. OUTAGE REPORTS', value: 500, post: 'NEARLY'}, media: {src: 'steam/st12_alert1.jpg', type: 'img', effect: 'in'}},
+  // 12 CARD 450 — spans "and around four hundred fifty in the United Kingdom"
+  {dur: 92, kind: 'stat', stat: {pre: 'U.K. OUTAGE REPORTS', value: 450, post: 'AROUND'}, media: {src: 'steam/st15_alert2.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Players also reported that restarting|their computers or reinstalling Steam', highlights: [], size: 26, media: {src: 'steam/st17_restart.jpg', type: 'img', effect: 'in'}},
+  {dur: 138, kind: 'text', reveal: [2, 40], text: 'Players also reported that restarting|their computers or reinstalling Steam', highlights: [], size: 26, media: {src: 'steam/st17_restart.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'didn’t solve|the problem.', highlights: ['problem.'], size: 38, media: {src: 'steam/st18_unsolved.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'didn’t solve|the problem.', highlights: ['problem.'], size: 38, media: {src: 'steam/st18_unsolved.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And it gets|even more frustrating.', highlights: ['frustrating.'], size: 34, media: {src: 'steam/st19_frustrating.jpg', type: 'img', effect: 'panL'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'And it gets|even more frustrating.', highlights: ['frustrating.'], size: 34, media: {src: 'steam/st19_frustrating.jpg', type: 'img', effect: 'panL'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Some users say the loading screen|simply refuses to disappear,', highlights: ['refuses'], size: 28, media: {src: 'steam/st20_refuse.jpg', type: 'img', effect: 'in'}},
+  {dur: 140, kind: 'text', reveal: [2, 40], text: 'Some users say the loading screen|simply refuses to disappear,', highlights: ['refuses'], size: 28, media: {src: 'steam/st20_refuse.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'while reports from different countries|suggest the issue', highlights: [], size: 29, media: {src: 'steam/st21_countries.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 40], text: 'while reports from different countries|suggest the issue', highlights: [], size: 29, media: {src: 'steam/st21_countries.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'may not be limited|to one region.', highlights: ['region.'], size: 34, media: {src: 'steam/st22_region.jpg', type: 'img', effect: 'panR'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'may not be limited|to one region.', highlights: ['region.'], size: 34, media: {src: 'steam/st22_region.jpg', type: 'img', effect: 'panR'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'For affected players, this means|potentially losing access', highlights: [], size: 29, media: {src: 'steam/st23_access.jpg', type: 'img', effect: 'in'}},
+  {dur: 115, kind: 'text', reveal: [2, 40], text: 'For affected players, this means|potentially losing access', highlights: [], size: 29, media: {src: 'steam/st23_access.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'to their libraries through the Steam client,|including games they want to launch.', highlights: [], size: 25, media: {src: 'steam/st24_games.jpg', type: 'img', effect: 'in'}},
+  {dur: 125, kind: 'text', reveal: [2, 40], text: 'to their libraries through the Steam client,|including games they want to launch.', highlights: [], size: 25, media: {src: 'steam/st24_games.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Even when the Store and Community|pages remain accessible,', highlights: [], size: 29, media: {src: 'steam/st25_store.jpg', type: 'img', effect: 'panL'}},
+  {dur: 110, kind: 'text', reveal: [2, 40], text: 'Even when the Store and Community|pages remain accessible,', highlights: [], size: 29, media: {src: 'steam/st25_store.jpg', type: 'img', effect: 'panL'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'a malfunctioning client can disrupt|the entire gaming experience.', highlights: ['experience.'], size: 28, media: {src: 'steam/st26_experience.jpg', type: 'img', effect: 'in'}},
+  {dur: 156, kind: 'text', reveal: [2, 40], text: 'a malfunctioning client can disrupt|the entire gaming experience.', highlights: ['experience.'], size: 28, media: {src: 'steam/st26_experience.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But here’s the|unanswered question:', highlights: ['question:'], size: 34, media: {src: 'steam/st27_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'But here’s the|unanswered question:', highlights: ['question:'], size: 34, media: {src: 'steam/st27_question.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'is this a software bug,|a backend issue,', highlights: [], size: 31, media: {src: 'steam/st28_bug.jpg', type: 'img', effect: 'panR'}},
+  {dur: 78, kind: 'text', reveal: [2, 40], text: 'is this a software bug,|a backend issue,', highlights: [], size: 31, media: {src: 'steam/st28_bug.jpg', type: 'img', effect: 'panR'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'or something else entirely?', highlights: ['entirely?'], size: 32, media: {src: 'steam/st29_entirely.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'or something else entirely?', highlights: ['entirely?'], size: 32, media: {src: 'steam/st29_entirely.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Steam hasn’t publicly|confirmed the cause,', highlights: [], size: 32, media: {src: 'steam/st30_silence.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 40], text: 'Steam hasn’t publicly|confirmed the cause,', highlights: [], size: 32, media: {src: 'steam/st30_silence.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'so claims about what triggered|the problem remain speculation.', highlights: ['speculation.'], size: 28, media: {src: 'steam/st31_speculation.jpg', type: 'img', effect: 'panL'}},
+  {dur: 141, kind: 'text', reveal: [2, 40], text: 'so claims about what triggered|the problem remain speculation.', highlights: ['speculation.'], size: 28, media: {src: 'steam/st31_speculation.jpg', type: 'img', effect: 'panL'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'So, is Steam working|normally for you,', highlights: [], size: 32, media: {src: 'steam/st32_normal.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 40], text: 'So, is Steam working|normally for you,', highlights: [], size: 32, media: {src: 'steam/st32_normal.jpg', type: 'img', effect: 'in'}},
   // 33 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'or are you stuck|on “Loading|User Data” too?'},
+  {dur: 81, kind: 'impact', redBg: true, text: 'or are you stuck|on “Loading|User Data” too?'},
   // 34 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Tell us where you’re playing from|in the comments.', highlights: ['comments.'], size: 32, media: {src: 'steam/st34_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Tell us where you’re playing from|in the comments.', highlights: ['comments.'], size: 32, media: {src: 'steam/st34_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1275, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1414, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1525, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1697, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1979, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2404, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 3810, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3923, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 417, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1286, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1377, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1654, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2995, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3076, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
