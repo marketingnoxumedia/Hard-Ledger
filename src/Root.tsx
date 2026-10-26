@@ -165,6 +165,7 @@ import {HalfReel, DURATION_IN_FRAMES as HALF_FRAMES} from './HalfReel';
 import {HavenReel, DURATION_IN_FRAMES as HAVEN_FRAMES} from './HavenReel';
 import {SurvivorReel, DURATION_IN_FRAMES as SURVIVOR_FRAMES} from './SurvivorReel';
 import {MetaReel, DURATION_IN_FRAMES as META_FRAMES} from './MetaReel';
+import {SteamReel, DURATION_IN_FRAMES as STEAM_FRAMES} from './SteamReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1492,6 +1493,14 @@ export const RemotionRoot: React.FC = () => {
         id="MetaReel"
         component={MetaReel}
         durationInFrames={META_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="SteamReel"
+        component={SteamReel}
+        durationInFrames={STEAM_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
