@@ -5616,6 +5616,55 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   fact-checked before publishing.** Verify: that Burry actually gave this "buy half the house" advice / the "list
   of life lessons for a 26-year-old" framing; the ~$110k-to-afford vs ~$88k-earned gap (~$22k), its source and
   date; and the mortgage-rate claim. "Own a house without it owning you" / the save-invest framing is editorial.
+- **`HavenReel`** — "The haven" (personal-finance / markets reel, Hard Ledger VISUAL style). Topic: **Bitcoin AND
+  gold are BOTH the worst-performing major assets of 2026 — both "safe havens" fell together, challenging the
+  "digital gold" / "store of value" story.** Framed around Charlie Bilello's asset-performance rankings: Bitcoin
+  ~−7.3% YTD, gold ~−7.5% YTD — reportedly the first time both finished at the bottom in the same year.
+  Meanwhile commodities surged and US stocks were positive. The reason: neither pays interest, so when rates rise
+  money prefers assets that pay you to hold it — which challenges "Bitcoin is digital gold" and "gold is a store
+  of value." **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (like
+  `HalfReel`), NOT the faceless house voice** — it NAMES strategist Charlie Bilello, uses an EARLY "follow for
+  more" CTA, and CLOSES on a "let me know in the comments" audience-debate CTA rather than the house binary. The
+  red beat still poses the would-you-rather ("can either protect your wealth?"). 34 beats, **2 stat cards —
+  BITCOIN −7.3% / GOLD −7.5%**, 1 red impact, no black beat. **Captions match the VO verbatim** (except the number
+  cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor
+  pass (`public/haven/voiceover.mp3`), **built at the house +10% VO default** (~77s; its own tense music bed).
+  Entirely its own fresh footage under `public/haven/` — no asset shared with any other reel. **New STANDALONE
+  reel; thematically adjacent to `GoldReel` ("Store of value") and `HedgeReel` ("The Fed bet", gold vs rates) but
+  a distinct hook (Bitcoin AND gold together / the digital-gold myth).** Media credits (Pexels, free license) —
+  video: abstract red digital particles falling (34338488). Photos: broken vinyl records (37994066), a furled
+  umbrella in a storm (18582300), a steep downward chart (39032295), a chalk question mark (2646533), cracked
+  glass (30798595), a hand with a blank-screen phone (6611961), an over-the-shoulder analyst at a desk — no face
+  (5831355), a red downward arrow among up-arrows (9408386), a vault wheel on a safe door (12651886), a plunging
+  candlestick chart (5834234), an abstract gold/silver particle sphere (30895543), dark orange/red digital light
+  rays (20083446), gold glitter/dust (5594992), a molten-gold texture (4880794), a generic bar/pie chart sheet
+  (669621), a winners' podium / last place (16042675), a generic bar/line chart sheet (669612), a studio
+  spotlight (5389616), red light-streaks falling (14434976), a green up-arrow on concrete (9781834), golden wheat
+  (19429312), a green upward flare (30066067), a macro human eye — B&W, unrecognizable (7098932), an open empty
+  palm (20805379), a red balloon with a "%" symbol (5625108), a green sprout (7768447), a crumbling classical
+  statue (14273631), gold-bokeh particles (751374), a crinkled-gold texture (2248589), a blue arrow pointing down
+  (4843911), a brass balance scale (6077520), a speech bubble over blank notes (6991504). No generated graphics
+  this reel. **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE (hands, objects, an
+  unrecognizable macro eye, backs of heads only), and — this being a HIGH-RISK crypto/gold topic — free of any
+  Bitcoin "₿" / Ethereum / crypto logo, exchange or charting-app (Binance / Coinbase / TradingView) screen,
+  ticker or readable price, gold-bullion wordmark or coin portrait, identifiable currency, company logo,
+  identifiable face, flags, landmarks, readable foreign text, and military. The three sourcing agents rejected a
+  large pile along the way: Bitcoin ₿ novelty coins + "BITCOIN/CRYPTOCURRENCY" text, an Ethereum logo, "GLOBAL
+  INTERGOLD" / "ARGOR-HERAEUS / Fine Gold 999.9" bullion wordmarks + serials, Krugerrand / "100 EURO" / "UNITED
+  STATES OF AMERICA" coin text + portraits, forex tickers (EUR/USD, GBP/USD, a "1BTCUSD" and "BNBUSDT"),
+  Dow-Jones / TradingView / S&P-500 / Google-Analytics dashboards with readable prices, a Pound-Sterling pair, a
+  Vietnamese-dong safe shop (DENKO / HOA PHAT / EIKO) + a "FICHET PARIS" vault boss, a "PKO SILESIA MARATHON"
+  podium, $-stamped coins, and many readable price labels (−0.26%, −3.76%, +2.22%, an H/L/C header, "Tue 17 Feb").
+  Clean abstract STAND-INS where no brand-free literal source existed: crypto/digital-gold = abstract gold
+  particles (hv11/hv29); gold-bar beats = textless gold glitter/molten/crinkled gold (hv13/hv14/hv30); "falling"
+  = red light-streaks + a rotated-down arrow (hv20/hv31); "rising/positive" = a green flare + green sprout
+  (hv23/hv27). Two low-level marks survived a sibling agent's judgment and were kept (both non-finance, tiny): a
+  defunct music-label mark on the broken-vinyl beat (hv01) and an incidental "hp" monitor logo on the analyst beat
+  (hv07). **UNVERIFIED / SENSITIVE — names a real strategist (Charlie Bilello) and cites his data; rendered as
+  written but MUST be fact-checked before publishing.** Verify: Bitcoin ~−7.3% and gold ~−7.5% YTD 2026 and the
+  "first time both at the bottom of Bilello's rankings in the same year" claim and its date; and that commodities
+  "surged" / US stocks were positive the same period. The "digital gold / store of value can't protect wealth"
+  framing is editorial analysis.
 
 ## Export note
 
