@@ -5675,7 +5675,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   would-you-rather ("dominate AI, or is the race getting dangerously expensive?"). 33 beats, **2 stat cards —
   SPACEX DEBT DEAL $40B / NEOCLOUD COMPANIES 200**, 1 red impact, no black beat. **Captions match the VO verbatim**
   (except the number cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1
-  word-timestamp anchor pass (`public/survivor/voiceover.mp3`), **built at the house +10% VO default** (~87s; its
+  word-timestamp anchor pass (`public/survivor/voiceover.mp3`), **built at +21% VO** (additional 10% on the house default; ~79s; its
   own driving music bed). Entirely its own fresh footage under `public/survivor/` — no asset shared with any other
   reel. **New STANDALONE reel; thematically adjacent to the existing SpaceX reels — `SpacexReel` ("The belief",
   IPO TAM) and `LandlordReel` ("The landlord", SpaceX as an AI-compute landlord with 1M+ Nvidia GPUs) — and to

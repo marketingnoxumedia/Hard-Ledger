@@ -112,81 +112,81 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 136, kind: 'hook', reveal: [3, 40], text: 'Elon Musk just secured billions|for SpaceX’s AI bet.', kicker: 'The survivor', highlights: ['billions'], size: 32, media: {src: 'survivor/sv00_rocket.mp4', type: 'video', effect: 'in'}},
+  {dur: 124, kind: 'hook', reveal: [3, 40], text: 'Elon Musk just secured billions|for SpaceX’s AI bet.', kicker: 'The survivor', highlights: ['billions'], size: 32, media: {src: 'survivor/sv00_rocket.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 124, kind: 'text', reveal: [2, 40], text: 'And he thinks hundreds of AI firms|could be in serious trouble.', highlights: ['trouble.'], size: 30, media: {src: 'survivor/sv01_trouble.jpg', type: 'img', effect: 'panL'}},
+  {dur: 112, kind: 'text', reveal: [2, 40], text: 'And he thinks hundreds of AI firms|could be in serious trouble.', highlights: ['trouble.'], size: 30, media: {src: 'survivor/sv01_trouble.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 35, kind: 'text', reveal: [2], text: 'But here’s what’s interesting:', highlights: [], size: 38, media: {src: 'survivor/sv02_interesting.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'But here’s what’s interesting:', highlights: [], size: 38, media: {src: 'survivor/sv02_interesting.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 95, kind: 'text', reveal: [2, 40], text: 'while Musk borrows billions|to buy AI chips,', highlights: [], size: 32, media: {src: 'survivor/sv03_chips.jpg', type: 'img', effect: 'panR'}},
+  {dur: 87, kind: 'text', reveal: [2, 40], text: 'while Musk borrows billions|to buy AI chips,', highlights: [], size: 32, media: {src: 'survivor/sv03_chips.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 110, kind: 'text', reveal: [2, 40], text: 'he’s warning most of the industry|might not survive.', highlights: ['survive.'], size: 30, media: {src: 'survivor/sv04_survive.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 40], text: 'he’s warning most of the industry|might not survive.', highlights: ['survive.'], size: 30, media: {src: 'survivor/sv04_survive.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 100, kind: 'text', reveal: [2, 28], text: 'So what’s really happening|behind the AI boom?', highlights: ['boom?'], size: 32, media: {src: 'survivor/sv05_behind.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'So what’s really happening|behind the AI boom?', highlights: ['boom?'], size: 32, media: {src: 'survivor/sv05_behind.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 76, kind: 'text', reveal: [2, 40], text: 'Follow for more tech|and business stories.', highlights: ['follow'], size: 32, media: {src: 'survivor/sv06_follow.jpg', type: 'img', effect: 'panL'}},
+  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Follow for more tech|and business stories.', highlights: ['follow'], size: 32, media: {src: 'survivor/sv06_follow.jpg', type: 'img', effect: 'panL'}},
   // 7
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'SpaceX isn’t just|about rockets anymore.', highlights: ['rockets'], size: 34, media: {src: 'survivor/sv07_rockets.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'SpaceX isn’t just|about rockets anymore.', highlights: ['rockets'], size: 34, media: {src: 'survivor/sv07_rockets.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 102, kind: 'text', reveal: [2, 40], text: 'With Starlink, launches,|and growing AI operations,', highlights: [], size: 30, media: {src: 'survivor/sv08_starlink.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 40], text: 'With Starlink, launches,|and growing AI operations,', highlights: [], size: 30, media: {src: 'survivor/sv08_starlink.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 113, kind: 'text', reveal: [2, 40], text: 'it’s a major player in|AI computing infrastructure.', highlights: ['infrastructure.'], size: 30, media: {src: 'survivor/sv09_infra.jpg', type: 'img', effect: 'panR'}},
+  {dur: 103, kind: 'text', reveal: [2, 40], text: 'it’s a major player in|AI computing infrastructure.', highlights: ['infrastructure.'], size: 30, media: {src: 'survivor/sv09_infra.jpg', type: 'img', effect: 'panR'}},
   // 10
-  {dur: 72, kind: 'text', reveal: [2], text: 'Musk says SpaceX closed', highlights: [], size: 38, media: {src: 'survivor/sv10_deal.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'Musk says SpaceX closed', highlights: [], size: 38, media: {src: 'survivor/sv10_deal.jpg', type: 'img', effect: 'in'}},
   // 11 CARD $40B
-  {dur: 63, kind: 'stat', stat: {pre: 'SPACEX DEBT DEAL', prefix: '$', value: 40, suffix: 'B', post: 'FOR AI CHIPS'}, media: {src: 'survivor/sv11_money.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'stat', stat: {pre: 'SPACEX DEBT DEAL', prefix: '$', value: 40, suffix: 'B', post: 'FOR AI CHIPS'}, media: {src: 'survivor/sv11_money.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 81, kind: 'text', reveal: [2, 28], text: 'to buy Nvidia’s|most powerful GPUs.', highlights: ['GPUs.'], size: 34, media: {src: 'survivor/sv12_gpu.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'to buy Nvidia’s|most powerful GPUs.', highlights: ['GPUs.'], size: 34, media: {src: 'survivor/sv12_gpu.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 84, kind: 'text', reveal: [2, 40], text: 'These chips train|and run advanced AI.', highlights: [], size: 32, media: {src: 'survivor/sv13_train.jpg', type: 'img', effect: 'panL'}},
+  {dur: 76, kind: 'text', reveal: [2, 40], text: 'These chips train|and run advanced AI.', highlights: [], size: 32, media: {src: 'survivor/sv13_train.jpg', type: 'img', effect: 'panL'}},
   // 14
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'But the financial landscape|is changing fast.', highlights: ['fast.'], size: 34, media: {src: 'survivor/sv14_landscape.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'But the financial landscape|is changing fast.', highlights: ['fast.'], size: 34, media: {src: 'survivor/sv14_landscape.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 48, kind: 'text', reveal: [2], text: 'Musk warned that more than', highlights: [], size: 38, media: {src: 'survivor/sv15_warn.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'Musk warned that more than', highlights: [], size: 38, media: {src: 'survivor/sv15_warn.jpg', type: 'img', effect: 'in'}},
   // 16 CARD 200
-  {dur: 65, kind: 'stat', stat: {pre: 'NEOCLOUD COMPANIES', value: 200, post: 'COULD CONSOLIDATE'}, media: {src: 'survivor/sv16_crowd.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'stat', stat: {pre: 'NEOCLOUD COMPANIES', value: 200, post: 'COULD CONSOLIDATE'}, media: {src: 'survivor/sv16_crowd.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 76, kind: 'text', reveal: [2], text: 'could face massive consolidation.', highlights: ['consolidation.'], size: 32, media: {src: 'survivor/sv17_merge.jpg', type: 'img', effect: 'panR'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'could face massive consolidation.', highlights: ['consolidation.'], size: 32, media: {src: 'survivor/sv17_merge.jpg', type: 'img', effect: 'panR'}},
   // 18
-  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Only a small number|surviving.', highlights: ['surviving.'], size: 38, media: {src: 'survivor/sv18_survive2.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'Only a small number|surviving.', highlights: ['surviving.'], size: 38, media: {src: 'survivor/sv18_survive2.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 33, kind: 'text', reveal: [2], text: 'Here’s why that matters.', highlights: [], size: 40, media: {src: 'survivor/sv19_matters.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'Here’s why that matters.', highlights: [], size: 40, media: {src: 'survivor/sv19_matters.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Building AI data centers|costs billions.', highlights: ['billions.'], size: 34, media: {src: 'survivor/sv20_datacenter.jpg', type: 'img', effect: 'panL'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'Building AI data centers|costs billions.', highlights: ['billions.'], size: 34, media: {src: 'survivor/sv20_datacenter.jpg', type: 'img', effect: 'panL'}},
   // 21
-  {dur: 75, kind: 'text', reveal: [2, 40], text: 'And you need revenue|to cover it.', highlights: [], size: 34, media: {src: 'survivor/sv21_revenue.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 40], text: 'And you need revenue|to cover it.', highlights: [], size: 34, media: {src: 'survivor/sv21_revenue.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 89, kind: 'text', reveal: [2, 40], text: 'Firms relying only|on AI demand', highlights: [], size: 32, media: {src: 'survivor/sv22_reliant.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 40], text: 'Firms relying only|on AI demand', highlights: [], size: 32, media: {src: 'survivor/sv22_reliant.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'could struggle to|secure financing,', highlights: ['financing,'], size: 34, media: {src: 'survivor/sv23_financing.jpg', type: 'img', effect: 'panR'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'could struggle to|secure financing,', highlights: ['financing,'], size: 34, media: {src: 'survivor/sv23_financing.jpg', type: 'img', effect: 'panR'}},
   // 24
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'as lenders get|more cautious.', highlights: ['cautious.'], size: 36, media: {src: 'survivor/sv24_cautious.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'as lenders get|more cautious.', highlights: ['cautious.'], size: 36, media: {src: 'survivor/sv24_cautious.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 30, kind: 'text', reveal: [2], text: 'And here’s the twist.', highlights: ['twist.'], size: 42, media: {src: 'survivor/sv25_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'And here’s the twist.', highlights: ['twist.'], size: 42, media: {src: 'survivor/sv25_twist.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 85, kind: 'text', reveal: [2, 40], text: 'SpaceX borrows big|to expand AI,', highlights: [], size: 34, media: {src: 'survivor/sv26_borrow.jpg', type: 'img', effect: 'panL'}},
+  {dur: 77, kind: 'text', reveal: [2, 40], text: 'SpaceX borrows big|to expand AI,', highlights: [], size: 34, media: {src: 'survivor/sv26_borrow.jpg', type: 'img', effect: 'panL'}},
   // 27
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'while warning others|could collapse.', highlights: ['collapse.'], size: 34, media: {src: 'survivor/sv27_collapse.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'while warning others|could collapse.', highlights: ['collapse.'], size: 34, media: {src: 'survivor/sv27_collapse.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 94, kind: 'text', reveal: [2, 40], text: 'Its edge: revenue from|Starlink and launches,', highlights: ['edge:'], size: 32, media: {src: 'survivor/sv28_edge.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 40], text: 'Its edge: revenue from|Starlink and launches,', highlights: ['edge:'], size: 32, media: {src: 'survivor/sv28_edge.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 67, kind: 'text', reveal: [2], text: 'not AI data centers alone.', highlights: ['alone.'], size: 36, media: {src: 'survivor/sv29_alone.jpg', type: 'img', effect: 'panR'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'not AI data centers alone.', highlights: ['alone.'], size: 36, media: {src: 'survivor/sv29_alone.jpg', type: 'img', effect: 'panR'}},
   // 30
-  {dur: 104, kind: 'text', reveal: [2, 40], text: 'So, is Musk positioning SpaceX|to dominate AI,', highlights: [], size: 30, media: {src: 'survivor/sv30_dominate.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 40], text: 'So, is Musk positioning SpaceX|to dominate AI,', highlights: [], size: 30, media: {src: 'survivor/sv30_dominate.jpg', type: 'img', effect: 'in'}},
   // 31 RED
-  {dur: 100, kind: 'impact', redBg: true, text: 'or is the AI race|getting dangerously|expensive?'},
+  {dur: 91, kind: 'impact', redBg: true, text: 'or is the AI race|getting dangerously|expensive?'},
   // 32 CTA
-  {dur: 39, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments.'], size: 44, media: {src: 'survivor/sv32_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments.'], size: 44, media: {src: 'survivor/sv32_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1042, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1410, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2025, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 2466, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2566, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 947, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1282, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1841, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2242, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2333, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
