@@ -5769,7 +5769,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   `HavenReel` / `SurvivorReel` / `MetaReel`), NOT the faceless house voice** — it NAMES Steam / Steam Deck /
   TechRadar / Downdetector, uses an EARLY "follow for more" CTA, and CLOSES on a "tell us ... in the comments"
   debate CTA rather than the house binary. The red beat poses the would-you-rather ("working normally ... or stuck
-  on Loading User Data too?"). 31 beats, **2 stat cards — U.S. OUTAGE REPORTS 500 / U.K. OUTAGE REPORTS 450** (each
+  on Loading User Data too?"). 40 beats, **2 stat cards — U.S. OUTAGE REPORTS 500 / U.K. OUTAGE REPORTS 450** (each
   card spans its full spoken phrase so the count-up completes), 1 red impact, no black beat. **Captions match the
   VO verbatim** (except the number cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a
   scribe_v1 word-timestamp anchor pass (`public/steam/voiceover.mp3`), **built at the house +10% VO default
@@ -5786,7 +5786,11 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (374914), an empty wire shopping cart (30880205), a dark gaming desk with the screen off (33888376), a hand
   holding a "?" tile (10988654), a metallic beetle / literal bug (6037798), a hidden-face silhouette in smoke
   (1480689), an empty vintage microphone (12448179), drifting smoke (11230057), a 3D green-check checklist
-  (20279300), and plain speech bubbles (4176482). No generated graphics this reel. **Brand-safety (screened hard at
+  (20279300), and plain speech bubbles (4176482). Nine finer beat-splits added for the 40-beat cut use: a glowing
+  dark monitor (7720712), a purple LED dot-matrix / loading dots (7293750), a soft green all-clear LED (37222947),
+  a hand pressing a glowing glass panel (34731178), a generic unbranded handheld — not a Steam Deck (4978057),
+  gold gears (3785931), an hourglass (12091109), a lit arcade button (8339264), and red smoke (39164825). No
+  generated graphics this reel. **Brand-safety (screened hard at
   source and from the FINAL render):** FACE-FREE, and — despite naming Steam / Steam Deck / TechRadar /
   Downdetector — free of any Steam / Valve / Steam Deck logo, client UI or recognizable device, any console or
   controller brand mark, any game title / box art / character / IP, any TechRadar or Downdetector logo or UI, any
