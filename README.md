@@ -5863,7 +5863,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   `SurvivorReel` / `MetaReel` / `SteamReel` / `UniteReel`), NOT the faceless house voice** — it NAMES the AMOC /
   New Scientist, uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments" debate CTA. The
   red beat poses the would-you-rather ("an underestimated climate risk ... or worst-case framing before the science
-  is settled?"). 40 beats, **1 stat card — AMOC HAS SLOWED ~18% (over 40 years)**, 1 red impact, no black beat.
+  is settled?"). 46 beats, **1 stat card — AMOC HAS SLOWED ~18% (over 40 years)**, 1 red impact, no black beat.
   **Captions match the VO verbatim** (except the number card; spoken figures as numerals). Durations/reveals/SFX
   locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/amoc/voiceover.mp3`), 
   **built at +21% VO** (additional 10% on the house default; ~123s); its own driving, cinematic science-doc music bed. Entirely its own fresh footage under
