@@ -5911,7 +5911,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   "toward a wider peace agreement?"). 39 beats, **1 stat card — AROUND 2,000 CIVILIANS TRAPPED**, 1 red impact, no
   black beat. **Captions match the VO verbatim** (except the number card; "2,000" as a numeral with its count
   comma, the "2022" year without one). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor
-  pass (`public/corridor/voiceover.mp3`), **built at the house +10% VO** (~131s / 2:11); its own sombre, tense
+  pass (`public/corridor/voiceover.mp3`), **built at +21% VO** (additional 10% on the house default; ~119s / 1:59); its own sombre, tense
   documentary music bed (deliberately NOT upbeat, to respect the subject). Entirely its own fresh footage under
   `public/corridor/` — no asset shared with any other reel. **New STANDALONE reel; a world-news / active-war story
   (the most sensitive topic in the set).** Media credits (Pexels, free license) — video: a single candle flame in
