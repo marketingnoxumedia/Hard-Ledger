@@ -5806,6 +5806,52 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   rendered as written but MUST be fact-checked before publishing, and the outage data is PERISHABLE (counts and
   whether it is still down drift by the hour).** The bug/backend cause is explicitly flagged as speculation
   in-script.
+- **`UniteReel`** — "Game over" (gaming-news reel, Hard Ledger VISUAL style). Topic: **The Pokémon Company confirmed
+  Pokémon UNITE (the free-to-play 5-on-5 MOBA, launched on Nintendo Switch July 2021, later mobile) will END
+  SERVICE on March 23, 2027, on both Switch and mobile** — after which players can't log in or battle. The countdown
+  has started (Aeos Gem sales suspended; new UNITE Club memberships and auto-renewals stopped; remaining
+  gems/benefits usable until the end). To keep records / Pokémon / cosmetics, players must use an upcoming library
+  feature and complete a data download before shutdown. Bittersweet twist: the devs still plan special events and
+  the Aeos Crown 2027 tournament before closing, so competitive play continues a little longer. **BUILT VERBATIM
+  from a client-supplied script in the influencer "curiosity-gap" format (like `HalfReel` / `HavenReel` /
+  `SurvivorReel` / `MetaReel` / `SteamReel`), NOT the faceless house voice** — it NAMES Pokémon / Pokémon UNITE /
+  Nintendo Switch / The Pokémon Company / Aeos, uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in
+  the comments" debate CTA. The red beat poses the would-you-rather ("deserved more years of support ... or time to
+  move on?"). 37 beats, **1 stat card — SERVICE ENDS MARCH 23 (2027)** (count-up on the day, the year as static
+  text to avoid the year-comma bug), 1 red impact, no black beat. **Captions match the VO verbatim** (except the
+  number card; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp
+  anchor pass (`public/unite/voiceover.mp3`), **built at the house +10% VO default (~115s); its own driving-but-
+  bittersweet music bed.** Entirely its own fresh footage under `public/unite/` — no asset shared with any other
+  reel. **New STANDALONE reel; a gaming-news story like `SteamReel` but a DISTINCT topic (a game sunset, not an
+  outage).** Media credits (Pexels, free license) — video: near-black glitch/disintegration streaks (9988884).
+  Photos: a silhouetted crowd from behind (26447527), clashing lightning bolts (13248344), a back-view figure at an
+  ocean sunset (39452113), a magnifying glass on bokeh (1194775), a dimming data-center corridor (17505092), a hand
+  on a reception bell (7820697), a pink firework (13108272), hands holding a blank-screen phone (34956281), a dark
+  mechanical keyboard (29593536), B&W silhouettes one-vs-pair (6064637), a glass office facade (35158336), a wall
+  rocker switch off (7822338), a soft-focus hourglass (7215824), a blank-screen phone (6373169), a bolted door
+  (11483198), arena spotlight beams (5389617), a Roman-numeral clock (355915), tumbled crystals (15803904), two
+  raised open palms (10052843), a hand holding raw crystals (6954663), a blank card on fabric (4862923), dark storm
+  clouds (32637595), a floppy-disk hub (34890888), gems spilling from a box (10582459), wooden archive drawers
+  (6549926), teal fiber-optic connectors (4657267), a dark spiral staircase (12951923), fireworks on black
+  (6942352), generic gold star trophies (6532364), a hallway with a door ajar (3422552), an alarm clock near twelve
+  (33992883), two chess kings facing off (136352), an hourglass on a wooden stand (39585687), hands cradling a
+  glowing lightbulb (2938278), and blank speech bubbles (8015682). No generated graphics this reel. **Brand-safety
+  (screened hard at source and from the FINAL render):** FACE-FREE, and — despite naming Pokémon / Nintendo / UNITE
+  / Aeos — free of ANY Pokémon (no Pikachu, creatures or Poké Ball), any Pokémon / UNITE / Aeos / Nintendo logo,
+  wordmark, character or game UI/screenshot, any Nintendo Switch / Joy-Con / recognizable console, any
+  console/controller brand mark, any game title / box art / IP, readable game / UI / foreign text, other brand
+  logos, flags, identifiable landmarks, and military. The three sourcing agents rejected a large pile across the
+  unforgiving IP bar: an Apple iPad with iOS app icons, a monitor showing a recognizable anime/game character, an
+  "O2" wordmark, "Nasdaq / StockCharts.com" chart text, Dell / HDD part-number + QR labels ("1.2TB", "2.4 TB/SAS",
+  "ASSEMBLED IN MEXICO"), "DOUBLE LOCKING" / "Roto" locks, a "WHAT?" keyhole, a Cyrillic alarm-app UI, and
+  identifiable faces. Clean STAND-INS where no brand-free literal source existed: no safe two-device / handheld shot
+  existed without Apple logos, so the "Switch and mobile" beat uses a single generic blank-screen phone; the "gems"
+  beats use generic tumbled crystals (no Aeos currency), the "cosmetics" beat uses generic gems in a box (no
+  Pokémon). Two off-near-black notes: un29 (trophies) is on a bright background and un25 (archive drawers) has tiny
+  illegible index tags — both fully brand-safe. **UNVERIFIED / SENSITIVE — names real entities (The Pokémon
+  Company, Nintendo, Pokémon UNITE) and asserts a specific shutdown (March 23, 2027 end-of-service on Switch +
+  mobile; Aeos Gem sales suspended; an Aeos Crown 2027 tournament); rendered as written but MUST be fact-checked
+  against the official announcement before publishing.** The "deserved more support" framing is editorial analysis.
 
 ## Export note
 
