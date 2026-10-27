@@ -105,90 +105,89 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'A Pokémon game is|officially shutting down forever,', kicker: 'Game over', highlights: ['forever,'], size: 29, media: {src: 'unite/un00_gameover.mp4', type: 'video', effect: 'in'}},
+  {dur: 115, kind: 'hook', reveal: [3, 40], text: 'A Pokémon game is|officially shutting down forever,', kicker: 'Game over', highlights: ['forever,'], size: 29, media: {src: 'unite/un00_gameover.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and millions of fans|are about to lose', highlights: [], size: 32, media: {src: 'unite/un01_fans.jpg', type: 'img', effect: 'panL'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'and millions of fans|are about to lose', highlights: [], size: 32, media: {src: 'unite/un01_fans.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'one of their ways to battle|with their favorite Pokémon.', highlights: ['battle'], size: 28, media: {src: 'unite/un02_battle.jpg', type: 'img', effect: 'in'}},
+  {dur: 115, kind: 'text', reveal: [2, 28], text: 'one of their ways to battle|with their favorite Pokémon.', highlights: ['battle'], size: 28, media: {src: 'unite/un02_battle.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Pokémon UNITE is coming|to an end in 2027.', highlights: ['2027.'], size: 30, media: {src: 'unite/un03_end2027.jpg', type: 'img', effect: 'panR'}},
+  {dur: 120, kind: 'text', reveal: [2, 28], text: 'Pokémon UNITE is coming|to an end in 2027.', highlights: ['2027.'], size: 30, media: {src: 'unite/un03_end2027.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But there’s one important detail|players need to know', highlights: [], size: 29, media: {src: 'unite/un04_detail.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'But there’s one important detail|players need to know', highlights: [], size: 29, media: {src: 'unite/un04_detail.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'before the servers|go offline.', highlights: ['offline.'], size: 36, media: {src: 'unite/un05_offline.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'before the servers|go offline.', highlights: ['offline.'], size: 36, media: {src: 'unite/un05_offline.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'Follow for more gaming news|and updates you don’t want to miss.', highlights: ['follow'], size: 28, media: {src: 'unite/un06_follow.jpg', type: 'img', effect: 'panL'}},
+  {dur: 119, kind: 'text', reveal: [2, 40], text: 'Follow for more gaming news|and updates you don’t want to miss.', highlights: ['follow'], size: 28, media: {src: 'unite/un06_follow.jpg', type: 'img', effect: 'panL'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Pokémon UNITE launched on|Nintendo Switch in July 2021', highlights: [], size: 28, media: {src: 'unite/un07_launch.jpg', type: 'img', effect: 'in'}},
+  {dur: 153, kind: 'text', reveal: [2, 28], text: 'Pokémon UNITE launched on|Nintendo Switch in July 2021', highlights: [], size: 28, media: {src: 'unite/un07_launch.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'before arriving on|mobile later that year.', highlights: [], size: 31, media: {src: 'unite/un08_mobile.jpg', type: 'img', effect: 'in'}},
+  {dur: 126, kind: 'text', reveal: [2, 28], text: 'before arriving on|mobile later that year.', highlights: [], size: 31, media: {src: 'unite/un08_mobile.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The free-to-play game lets players|team up and battle opponents', highlights: [], size: 27, media: {src: 'unite/un09_teamup.jpg', type: 'img', effect: 'panR'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'The free-to-play game lets players|team up and battle opponents', highlights: [], size: 27, media: {src: 'unite/un09_teamup.jpg', type: 'img', effect: 'panR'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in fast-paced|5-on-5 matches.', highlights: ['5-on-5'], size: 34, media: {src: 'unite/un10_5v5.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'in fast-paced|5-on-5 matches.', highlights: ['5-on-5'], size: 34, media: {src: 'unite/un10_5v5.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The Pokémon Company|has officially confirmed', highlights: [], size: 32, media: {src: 'unite/un11_company.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'The Pokémon Company|has officially confirmed', highlights: [], size: 32, media: {src: 'unite/un11_company.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that Pokémon UNITE|will end service', highlights: [], size: 32, media: {src: 'unite/un12_endservice.jpg', type: 'img', effect: 'panL'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'that Pokémon UNITE|will end service', highlights: [], size: 32, media: {src: 'unite/un12_endservice.jpg', type: 'img', effect: 'panL'}},
   // 13 CARD — shutdown date
-  {dur: 70, kind: 'stat', stat: {pre: 'SERVICE ENDS MARCH', value: 23, post: '2027'}, media: {src: 'unite/un13_date.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'stat', stat: {pre: 'SERVICE ENDS MARCH', value: 23, post: '2027'}, media: {src: 'unite/un13_date.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The shutdown affects both|Nintendo Switch and mobile,', highlights: [], size: 29, media: {src: 'unite/un14_devices.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'The shutdown affects both|Nintendo Switch and mobile,', highlights: [], size: 29, media: {src: 'unite/un14_devices.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'meaning players will no longer|be able to log in', highlights: [], size: 29, media: {src: 'unite/un15_login.jpg', type: 'img', effect: 'panR'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'meaning players will no longer|be able to log in', highlights: [], size: 29, media: {src: 'unite/un15_login.jpg', type: 'img', effect: 'panR'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or participate in battles|after that date.', highlights: ['battles'], size: 32, media: {src: 'unite/un16_battles.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'or participate in battles|after that date.', highlights: ['battles'], size: 32, media: {src: 'unite/un16_battles.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the countdown|has already started.', highlights: ['countdown'], size: 34, media: {src: 'unite/un17_countdown.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'And the countdown|has already started.', highlights: ['countdown'], size: 34, media: {src: 'unite/un17_countdown.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Sales of Aeos Gems|have been suspended,', highlights: ['suspended,'], size: 32, media: {src: 'unite/un18_gems.jpg', type: 'img', effect: 'panL'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'Sales of Aeos Gems|have been suspended,', highlights: ['suspended,'], size: 32, media: {src: 'unite/un18_gems.jpg', type: 'img', effect: 'panL'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 40], text: 'and new UNITE Club memberships|and automatic renewals have also stopped.', highlights: ['stopped.'], size: 25, media: {src: 'unite/un19_stopped.jpg', type: 'img', effect: 'in'}},
+  {dur: 137, kind: 'text', reveal: [2, 40], text: 'and new UNITE Club memberships|and automatic renewals have also stopped.', highlights: ['stopped.'], size: 25, media: {src: 'unite/un19_stopped.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Players can still use|their remaining gems', highlights: [], size: 32, media: {src: 'unite/un20_remaining.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'Players can still use|their remaining gems', highlights: [], size: 32, media: {src: 'unite/un20_remaining.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and existing membership benefits|until service ends.', highlights: ['ends.'], size: 29, media: {src: 'unite/un21_benefits.jpg', type: 'img', effect: 'panR'}},
+  {dur: 104, kind: 'text', reveal: [2, 28], text: 'and existing membership benefits|until service ends.', highlights: ['ends.'], size: 29, media: {src: 'unite/un21_benefits.jpg', type: 'img', effect: 'panR'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But losing access to battles|isn’t the only concern.', highlights: ['concern.'], size: 29, media: {src: 'unite/un22_concern.jpg', type: 'img', effect: 'in'}},
+  {dur: 123, kind: 'text', reveal: [2, 28], text: 'But losing access to battles|isn’t the only concern.', highlights: ['concern.'], size: 29, media: {src: 'unite/un22_concern.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Players who want to preserve|certain in-game records,', highlights: [], size: 29, media: {src: 'unite/un23_records.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', reveal: [2, 28], text: 'Players who want to preserve|certain in-game records,', highlights: [], size: 29, media: {src: 'unite/un23_records.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Pokémon, and cosmetics|will need to use', highlights: [], size: 32, media: {src: 'unite/un24_cosmetics.jpg', type: 'img', effect: 'panL'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'Pokémon, and cosmetics|will need to use', highlights: [], size: 32, media: {src: 'unite/un24_cosmetics.jpg', type: 'img', effect: 'panL'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'the upcoming library feature', highlights: ['library'], size: 32, media: {src: 'unite/un25_library.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'the upcoming library feature', highlights: ['library'], size: 32, media: {src: 'unite/un25_library.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and complete the required data download|before the shutdown.', highlights: ['shutdown.'], size: 25, media: {src: 'unite/un26_download.jpg', type: 'img', effect: 'in'}},
+  {dur: 136, kind: 'text', reveal: [2, 28], text: 'and complete the required data download|before the shutdown.', highlights: ['shutdown.'], size: 25, media: {src: 'unite/un26_download.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'There’s a bittersweet twist:', highlights: ['twist:'], size: 34, media: {src: 'unite/un27_twist.jpg', type: 'img', effect: 'panR'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'There’s a bittersweet twist:', highlights: ['twist:'], size: 34, media: {src: 'unite/un27_twist.jpg', type: 'img', effect: 'panR'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the developers are still planning|special events', highlights: [], size: 30, media: {src: 'unite/un28_events.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'the developers are still planning|special events', highlights: [], size: 30, media: {src: 'unite/un28_events.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and the Pokémon UNITE|Aeos Crown 2027 tournament', highlights: ['tournament'], size: 28, media: {src: 'unite/un29_tournament.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'and the Pokémon UNITE|Aeos Crown 2027 tournament', highlights: ['tournament'], size: 28, media: {src: 'unite/un29_tournament.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'before the game closes.', highlights: ['closes.'], size: 34, media: {src: 'unite/un30_closes.jpg', type: 'img', effect: 'panL'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'before the game closes.', highlights: ['closes.'], size: 34, media: {src: 'unite/un30_closes.jpg', type: 'img', effect: 'panL'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'So even as the end approaches,', highlights: [], size: 31, media: {src: 'unite/un31_approaches.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2], text: 'So even as the end approaches,', highlights: [], size: 31, media: {src: 'unite/un31_approaches.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'competitive play will continue|for a little longer.', highlights: ['longer.'], size: 30, media: {src: 'unite/un32_compete.jpg', type: 'img', effect: 'in'}},
+  {dur: 119, kind: 'text', reveal: [2, 28], text: 'competitive play will continue|for a little longer.', highlights: ['longer.'], size: 30, media: {src: 'unite/un32_compete.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So, do you think Pokémon UNITE|deserved more years of support,', highlights: [], size: 27, media: {src: 'unite/un33_deserved.jpg', type: 'img', effect: 'panR'}},
+  {dur: 124, kind: 'text', reveal: [2, 28], text: 'So, do you think Pokémon UNITE|deserved more years of support,', highlights: [], size: 27, media: {src: 'unite/un33_deserved.jpg', type: 'img', effect: 'panR'}},
   // 34 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'or is it time|for the developers|to move on?'},
+  {dur: 72, kind: 'impact', redBg: true, text: 'or is it time|for the developers|to move on?'},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And what’s your favorite|memory from the game?', highlights: ['memory'], size: 31, media: {src: 'unite/un35_memory.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'And what’s your favorite|memory from the game?', highlights: ['memory'], size: 31, media: {src: 'unite/un35_memory.jpg', type: 'img', effect: 'in'}},
   // 36 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 40, media: {src: 'unite/un36_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 40, media: {src: 'unite/un36_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 416, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1285, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1376, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1653, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 2995, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3076, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1296, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1672, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2630, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 3260, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3398, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
