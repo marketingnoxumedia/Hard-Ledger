@@ -3827,3 +3827,10 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 23331430 corridor/cr35_divide.jpg
 32286784 corridor/cr36_bridge.jpg
 8015684 corridor/cr38_comments.jpg
+11833498 corridor/cr08b_knot.jpg
+5357492 corridor/cr09b_stories.jpg
+701447 corridor/cr16b_track.jpg
+30059049 corridor/cr18b_stay.jpg
+6764882 corridor/cr23b_film.jpg
+13583306 corridor/cr28b_alley.jpg
+1154510 corridor/cr32b_horizon.jpg

@@ -5908,7 +5908,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   `SurvivorReel` / `MetaReel` / `SteamReel` / `UniteReel` / `AmocReel`), NOT the faceless house voice** — it NAMES
   the places/people/outlet, uses an EARLY "follow for more" CTA, and CLOSES on a "share your thoughts in the
   comments" debate CTA. The red beat poses the would-you-rather (can a local ceasefire become a stepping stone
-  "toward a wider peace agreement?"). 39 beats, **1 stat card — AROUND 2,000 CIVILIANS TRAPPED**, 1 red impact, no
+  "toward a wider peace agreement?"). 46 beats, **1 stat card — AROUND 2,000 CIVILIANS TRAPPED**, 1 red impact, no
   black beat. **Captions match the VO verbatim** (except the number card; "2,000" as a numeral with its count
   comma, the "2022" year without one). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor
   pass (`public/corridor/voiceover.mp3`), **built at +21% VO** (additional 10% on the house default; ~119s / 1:59); its own sombre, tense
@@ -5930,7 +5930,11 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   conference room (260689), a two-hand handshake close-up (9488837), an hourglass with running sand (15872365), an
   open road to an overcast horizon (32340333), a lone wooden observation tower in fog (36132996), top-down
   fracturing cracked earth (23331430), stepping stones across a shallow stream (32286784), and two blank paper
-  speech bubbles (8015684). No generated graphics this reel. **Brand-safety (screened hard at source and from the
+  speech bubbles (8015684). Seven finer beat-splits added for the 46-beat cut use: a tight knot in braided rope
+  (11833498), a hand with a pen over a blank notebook (5357492), a bare rutted dirt track into fog (701447), a
+  single warm-lit window in a dark building at dusk (30059049), two reel-to-reel tape spools in B&W (6764882), a
+  dim narrow empty passage into darkness (13583306), and a brooding overcast storm sky over open water (1154510).
+  No generated graphics this reel. **Brand-safety (screened hard at source and from the
   FINAL render — the strictest pass in the set given the active-war subject):** FACE-FREE (hands / silhouettes /
   distant tiny figures / objects / nature only), and — despite citing the Financial Times and naming
   Russia/Ukraine/Crimea/Zelenskyy — free of any national FLAG, any MILITARY (uniforms, weapons, vehicles, guard
