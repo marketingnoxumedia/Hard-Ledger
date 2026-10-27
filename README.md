@@ -5881,8 +5881,10 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (18553972), a rock balanced about to tip (37481507), a towering wave (39123286), a glacier calving (36718305), a
   boat wake into fog (6439497), an ocean beacon/instrument (27042627), layered geological strata (38404924), two
   arrows pointing opposite ways (10059343), a radio-telescope dish (29412940), a silhouette facing the sea
-  (19489408), melting ice (36575340), an apocalyptic storm sky (1118873), and a paper speech bubble (9131059). No
-  generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE
+  (19489408), melting ice (36575340), an apocalyptic storm sky (1118873), and a paper speech bubble (9131059).
+  Six finer beat-splits added for the 46-beat cut use: spreading ripples (17258044), light descending into deep
+  cold water (12730725), swirling storm-cloud bands (1624599), icicle drift ice on a northern sea (29720363), a
+  dissipating vortex (9667974), and cracked drought earth (32827206). No generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE
   (silhouettes / hands / nature only), and — despite citing New Scientist — free of any New Scientist logo/cover or
   masthead, any NASA / ESA / NOAA or space-agency logo or marking on satellites, readable map country labels, stock
   tickers or readable chart/data text, other brand logos, flags, identifiable landmarks, readable foreign text, and
