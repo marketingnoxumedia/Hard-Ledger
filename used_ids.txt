@@ -3789,3 +3789,41 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 29720363 amoc/am43_northatlantic2.jpg (icicle-hung drift ice on a dark cold northern sea — "toward the North Atlantic"; no landmark/text)
 9667974 amoc/am44_slowing.jpg (a vortex dissipating in near-black water — "system is weakening / momentum fading"; no text)
 32827206 amoc/am45_climaterisk.jpg (cracked parched drought earth — "underestimated climate risks"; no text/brand/faces)
+35133765 corridor/cr00_pause.mp4
+1781944 corridor/cr01_truce.jpg
+4132661 corridor/cr02_chance.jpg
+17791358 corridor/cr03_civilians.jpg
+16962784 corridor/cr04_escape.jpg
+11427279 corridor/cr05_cutoff.jpg
+3868136 corridor/cr06_dark.jpg
+12861683 corridor/cr07_fragile.jpg
+8071732 corridor/cr08_complex.jpg
+11391948 corridor/cr09_follow.jpg
+5540508 corridor/cr10_river.jpg
+16829187 corridor/cr11_city.jpg
+29701209 corridor/cr12_line.jpg
+33688140 corridor/cr13_hazard.jpg
+30728709 corridor/cr14_isolated.jpg
+14935583 corridor/cr15_report.jpg
+26731360 corridor/cr16_road.jpg
+14028104 corridor/cr17_bus.jpg
+5025503 corridor/cr18_aid.jpg
+29140417 corridor/cr19_obstacle.jpg
+9464238 corridor/cr20_warn.jpg
+10207902 corridor/cr21_route.jpg
+14201027 corridor/cr22_checkpoint.jpg
+7715783 corridor/cr23_narrative.jpg
+7215816 corridor/cr24_stakes.jpg
+21369951 corridor/cr25_shortage.jpg
+27418970 corridor/cr26_food.jpg
+36333973 corridor/cr27_blocked.jpg
+33959686 corridor/cr28_exposed.jpg
+6920650 corridor/cr29_block.jpg
+260689 corridor/cr30_diplomacy.jpg
+9488837 corridor/cr31_talks.jpg
+15872365 corridor/cr32_pause.jpg
+32340333 corridor/cr33_horizon.jpg
+36132996 corridor/cr34_monitor.jpg
+23331430 corridor/cr35_divide.jpg
+32286784 corridor/cr36_bridge.jpg
+8015684 corridor/cr38_comments.jpg

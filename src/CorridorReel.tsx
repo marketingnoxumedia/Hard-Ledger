@@ -107,93 +107,93 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Russia and Ukraine have agreed to|something rarely seen in this war:', kicker: 'The corridor', highlights: [], size: 26, media: {src: 'corridor/cr00_pause.mp4', type: 'video', effect: 'in'}},
+  {dur: 149, kind: 'hook', reveal: [3, 40], text: 'Russia and Ukraine have agreed to|something rarely seen in this war:', kicker: 'The corridor', highlights: [], size: 26, media: {src: 'corridor/cr00_pause.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'a local ceasefire.', highlights: ['ceasefire.'], size: 42, media: {src: 'corridor/cr01_truce.jpg', type: 'img', effect: 'panL'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'a local ceasefire.', highlights: ['ceasefire.'], size: 42, media: {src: 'corridor/cr01_truce.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And it could be|the only chance', highlights: [], size: 34, media: {src: 'corridor/cr02_chance.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], text: 'And it could be|the only chance', highlights: [], size: 34, media: {src: 'corridor/cr02_chance.jpg', type: 'img', effect: 'in'}},
   // 3 CARD 2000
-  {dur: 70, kind: 'stat', stat: {pre: 'AROUND', value: 2000, post: 'CIVILIANS TRAPPED'}, media: {src: 'corridor/cr03_civilians.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'stat', stat: {pre: 'AROUND', value: 2000, post: 'CIVILIANS TRAPPED'}, media: {src: 'corridor/cr03_civilians.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'trapped in a frontline|city to escape.', highlights: ['escape.'], size: 32, media: {src: 'corridor/cr04_escape.jpg', type: 'img', effect: 'panR'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'trapped in a frontline|city to escape.', highlights: ['escape.'], size: 32, media: {src: 'corridor/cr04_escape.jpg', type: 'img', effect: 'panR'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'In Oleshky, residents|have reportedly been cut off', highlights: [], size: 29, media: {src: 'corridor/cr05_cutoff.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'In Oleshky, residents|have reportedly been cut off', highlights: [], size: 29, media: {src: 'corridor/cr05_cutoff.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'from food, medicine,|electricity, and running water.', highlights: ['water.'], size: 28, media: {src: 'corridor/cr06_dark.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'from food, medicine,|electricity, and running water.', highlights: ['water.'], size: 28, media: {src: 'corridor/cr06_dark.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But even with|a ceasefire in place,', highlights: [], size: 32, media: {src: 'corridor/cr07_fragile.jpg', type: 'img', effect: 'panL'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'But even with|a ceasefire in place,', highlights: [], size: 32, media: {src: 'corridor/cr07_fragile.jpg', type: 'img', effect: 'panL'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'getting them to safety could be|far more complicated than it sounds.', highlights: ['complicated'], size: 26, media: {src: 'corridor/cr08_complex.jpg', type: 'img', effect: 'in'}},
+  {dur: 139, kind: 'text', reveal: [2, 28], text: 'getting them to safety could be|far more complicated than it sounds.', highlights: ['complicated'], size: 26, media: {src: 'corridor/cr08_complex.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Follow for more major world news|and the stories behind the headlines.', highlights: ['follow'], size: 25, media: {src: 'corridor/cr09_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 156, kind: 'text', reveal: [2, 28], text: 'Follow for more major world news|and the stories behind the headlines.', highlights: ['follow'], size: 25, media: {src: 'corridor/cr09_follow.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Oleshky sits along the Dnipro River|in southern Ukraine.', highlights: [], size: 27, media: {src: 'corridor/cr10_river.jpg', type: 'img', effect: 'panR'}},
+  {dur: 105, kind: 'text', reveal: [2, 28], text: 'Oleshky sits along the Dnipro River|in southern Ukraine.', highlights: [], size: 27, media: {src: 'corridor/cr10_river.jpg', type: 'img', effect: 'panR'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Russian forces took control of the city|early in the 2022 invasion,', highlights: [], size: 25, media: {src: 'corridor/cr11_city.jpg', type: 'img', effect: 'in'}},
+  {dur: 141, kind: 'text', reveal: [2, 28], text: 'Russian forces took control of the city|early in the 2022 invasion,', highlights: [], size: 25, media: {src: 'corridor/cr11_city.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and it later became|a frontline area.', highlights: ['frontline'], size: 32, media: {src: 'corridor/cr12_line.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'and it later became|a frontline area.', highlights: ['frontline'], size: 32, media: {src: 'corridor/cr12_line.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Drone strikes and landmines have made|travel dangerously difficult,', highlights: ['dangerously'], size: 26, media: {src: 'corridor/cr13_hazard.jpg', type: 'img', effect: 'panL'}},
+  {dur: 118, kind: 'text', reveal: [2, 28], text: 'Drone strikes and landmines have made|travel dangerously difficult,', highlights: ['dangerously'], size: 26, media: {src: 'corridor/cr13_hazard.jpg', type: 'img', effect: 'panL'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'leaving residents|increasingly isolated.', highlights: ['isolated.'], size: 31, media: {src: 'corridor/cr14_isolated.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'leaving residents|increasingly isolated.', highlights: ['isolated.'], size: 31, media: {src: 'corridor/cr14_isolated.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'According to the Financial Times,|the US-backed agreement', highlights: [], size: 28, media: {src: 'corridor/cr15_report.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'According to the Financial Times,|the US-backed agreement', highlights: [], size: 28, media: {src: 'corridor/cr15_report.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'calls for Russian forces to clear|mines from roads leading out of the city.', highlights: [], size: 24, media: {src: 'corridor/cr16_road.jpg', type: 'img', effect: 'panR'}},
+  {dur: 157, kind: 'text', reveal: [2, 28], text: 'calls for Russian forces to clear|mines from roads leading out of the city.', highlights: [], size: 24, media: {src: 'corridor/cr16_road.jpg', type: 'img', effect: 'panR'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Buses were expected|to evacuate residents,', highlights: ['evacuate'], size: 31, media: {src: 'corridor/cr17_bus.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'Buses were expected|to evacuate residents,', highlights: ['evacuate'], size: 31, media: {src: 'corridor/cr17_bus.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while humanitarian supplies would be|delivered to people who choose to stay.', highlights: [], size: 25, media: {src: 'corridor/cr18_aid.jpg', type: 'img', effect: 'in'}},
+  {dur: 131, kind: 'text', reveal: [2, 28], text: 'while humanitarian supplies would be|delivered to people who choose to stay.', highlights: [], size: 25, media: {src: 'corridor/cr18_aid.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But there’s a|major complication.', highlights: ['complication.'], size: 34, media: {src: 'corridor/cr19_obstacle.jpg', type: 'img', effect: 'panL'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'But there’s a|major complication.', highlights: ['complication.'], size: 34, media: {src: 'corridor/cr19_obstacle.jpg', type: 'img', effect: 'panL'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Ukrainian President Volodymyr Zelenskyy|has warned that evacuees', highlights: [], size: 24, media: {src: 'corridor/cr20_warn.jpg', type: 'img', effect: 'in'}},
+  {dur: 139, kind: 'text', reveal: [2, 28], text: 'Ukrainian President Volodymyr Zelenskyy|has warned that evacuees', highlights: [], size: 24, media: {src: 'corridor/cr20_warn.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could be taken through Crimea or Russia|before they can return', highlights: [], size: 25, media: {src: 'corridor/cr21_route.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 28], text: 'could be taken through Crimea or Russia|before they can return', highlights: [], size: 25, media: {src: 'corridor/cr21_route.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'to Ukrainian-controlled territory.', highlights: ['territory.'], size: 28, media: {src: 'corridor/cr22_checkpoint.jpg', type: 'img', effect: 'panR'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'to Ukrainian-controlled territory.', highlights: ['territory.'], size: 28, media: {src: 'corridor/cr22_checkpoint.jpg', type: 'img', effect: 'panR'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'He fears Moscow could use the evacuation|to shape the narrative of the war.', highlights: ['narrative'], size: 24, media: {src: 'corridor/cr23_narrative.jpg', type: 'img', effect: 'in'}},
+  {dur: 157, kind: 'text', reveal: [2, 28], text: 'He fears Moscow could use the evacuation|to shape the narrative of the war.', highlights: ['narrative'], size: 24, media: {src: 'corridor/cr23_narrative.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'For people trapped inside Oleshky,|the stakes are immediate.', highlights: ['immediate.'], size: 27, media: {src: 'corridor/cr24_stakes.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 28], text: 'For people trapped inside Oleshky,|the stakes are immediate.', highlights: ['immediate.'], size: 27, media: {src: 'corridor/cr24_stakes.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Reports describe severe shortages,|with many residents struggling', highlights: [], size: 27, media: {src: 'corridor/cr25_shortage.jpg', type: 'img', effect: 'panL'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'Reports describe severe shortages,|with many residents struggling', highlights: [], size: 27, media: {src: 'corridor/cr25_shortage.jpg', type: 'img', effect: 'panL'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to find enough food|and basic necessities.', highlights: [], size: 31, media: {src: 'corridor/cr26_food.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'to find enough food|and basic necessities.', highlights: [], size: 31, media: {src: 'corridor/cr26_food.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'If the evacuation fails|or safe routes remain inaccessible,', highlights: [], size: 27, media: {src: 'corridor/cr27_blocked.jpg', type: 'img', effect: 'in'}},
+  {dur: 125, kind: 'text', reveal: [2, 28], text: 'If the evacuation fails|or safe routes remain inaccessible,', highlights: [], size: 27, media: {src: 'corridor/cr27_blocked.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'civilians could remain exposed to danger|with few ways to get help.', highlights: ['danger'], size: 25, media: {src: 'corridor/cr28_exposed.jpg', type: 'img', effect: 'panR'}},
+  {dur: 133, kind: 'text', reveal: [2, 28], text: 'civilians could remain exposed to danger|with few ways to get help.', highlights: ['danger'], size: 25, media: {src: 'corridor/cr28_exposed.jpg', type: 'img', effect: 'panR'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Both sides have accused the other|of obstructing aid.', highlights: ['obstructing'], size: 28, media: {src: 'corridor/cr29_block.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'Both sides have accused the other|of obstructing aid.', highlights: ['obstructing'], size: 28, media: {src: 'corridor/cr29_block.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The ceasefire also comes amid|renewed diplomatic efforts,', highlights: [], size: 28, media: {src: 'corridor/cr30_diplomacy.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'The ceasefire also comes amid|renewed diplomatic efforts,', highlights: [], size: 28, media: {src: 'corridor/cr30_diplomacy.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with peace talks expected|to resume in Abu Dhabi.', highlights: ['peace'], size: 30, media: {src: 'corridor/cr31_talks.jpg', type: 'img', effect: 'panL'}},
+  {dur: 108, kind: 'text', reveal: [2, 28], text: 'with peace talks expected|to resume in Abu Dhabi.', highlights: ['peace'], size: 30, media: {src: 'corridor/cr31_talks.jpg', type: 'img', effect: 'panL'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But a temporary humanitarian pause|does not mean the wider war', highlights: [], size: 26, media: {src: 'corridor/cr32_pause.jpg', type: 'img', effect: 'in'}},
+  {dur: 149, kind: 'text', reveal: [2, 28], text: 'But a temporary humanitarian pause|does not mean the wider war', highlights: [], size: 26, media: {src: 'corridor/cr32_pause.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'is close to ending.', highlights: ['ending.'], size: 38, media: {src: 'corridor/cr33_horizon.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'is close to ending.', highlights: ['ending.'], size: 38, media: {src: 'corridor/cr33_horizon.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Should humanitarian evacuations be allowed|to proceed under international monitoring,', highlights: [], size: 23, media: {src: 'corridor/cr34_monitor.jpg', type: 'img', effect: 'panR'}},
+  {dur: 133, kind: 'text', reveal: [2, 28], text: 'Should humanitarian evacuations be allowed|to proceed under international monitoring,', highlights: [], size: 23, media: {src: 'corridor/cr34_monitor.jpg', type: 'img', effect: 'panR'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'even when both sides|distrust each other?', highlights: ['distrust'], size: 30, media: {src: 'corridor/cr35_divide.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'even when both sides|distrust each other?', highlights: ['distrust'], size: 30, media: {src: 'corridor/cr35_divide.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And can a local ceasefire|become a stepping stone', highlights: [], size: 29, media: {src: 'corridor/cr36_bridge.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'And can a local ceasefire|become a stepping stone', highlights: [], size: 29, media: {src: 'corridor/cr36_bridge.jpg', type: 'img', effect: 'in'}},
   // 37 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'toward a wider|peace agreement?'},
+  {dur: 57, kind: 'impact', redBg: true, text: 'toward a wider|peace agreement?'},
   // 38 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Share your thoughts|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'corridor/cr38_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Share your thoughts|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'corridor/cr38_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 420, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 960, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 2831, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 3578, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3636, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 235, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1914, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 3321, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 3832, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3889, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
