@@ -5852,6 +5852,48 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Company, Nintendo, Pokémon UNITE) and asserts a specific shutdown (March 23, 2027 end-of-service on Switch +
   mobile; Aeos Gem sales suspended; an Aeos Crown 2027 tournament); rendered as written but MUST be fact-checked
   against the official announcement before publishing.** The "deserved more support" framing is editorial analysis.
+- **`AmocReel`** — "The conveyor" (science/climate-news reel, Hard Ledger VISUAL style). Topic: **satellite
+  observations suggest the Atlantic Meridional Overturning Circulation (AMOC) — the "ocean conveyor belt" that
+  carries warm water north and cold water south and helps keep parts of Europe warm — is WEAKENING; scientists
+  estimate it has slowed ~18% over the past 40 years** (a *New Scientist* report finds less heat transported toward
+  the North Atlantic). A weaker AMOC could reshape rainfall, affect storms, raise Atlantic sea levels and disrupt
+  tropical rains; continued weakening could near a tipping point — but no imminent collapse is established, the
+  AMOC is hard to measure, continuous records go back ~2 decades, and studies disagree on the pace. **BUILT
+  VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (like `HalfReel` /
+  `SurvivorReel` / `MetaReel` / `SteamReel` / `UniteReel`), NOT the faceless house voice** — it NAMES the AMOC /
+  New Scientist, uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments" debate CTA. The
+  red beat poses the would-you-rather ("an underestimated climate risk ... or worst-case framing before the science
+  is settled?"). 40 beats, **1 stat card — AMOC HAS SLOWED ~18% (over 40 years)**, 1 red impact, no black beat.
+  **Captions match the VO verbatim** (except the number card; spoken figures as numerals). Durations/reveals/SFX
+  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/amoc/voiceover.mp3`), **built at the house
+  +10% VO default (~135s); its own driving, cinematic science-doc music bed.** Entirely its own fresh footage under
+  `public/amoc/` — no asset shared with any other reel. **New STANDALONE reel; a science/climate-news story (a
+  departure from the finance and gaming reels).** Media credits (Pexels, free license) — video: Earth rotating in
+  space, night side (33430410). Photos: a swirling ocean current (30175211), dark water with a fading glow
+  (14124470), a storm sky over a churning sea (28320730), a lone ocean buoy (35689122), a calm cold-blue surface
+  (38476578), a storm sky meeting the sea (11121564), blue-marble Earth over the Atlantic (30596282), a hand with a
+  blank-screen phone (8217463), blue-marble Earth, Pacific hemisphere (30596214), a vast navy ocean (15305610),
+  warm/cold water meeting (38374603), an industrial conveyor belt (6595775), water flow/contrast (34155535), a
+  warm-vs-cool heat abstract (5739410), Earth / global weather (30596252), an open document on a dark desk
+  (28426413), a satellite-dish silhouette (11724287), steam rising off the sea (6660742), a cold rough northern sea
+  (38350381), fading waves (6914875), a frost/ice scene (30561193), lightning over the sea (40106397), waves on a
+  coastline (5531700), a tropical downpour (38145936), a seasonal landscape (909291), a foreboding seascape
+  (18553972), a rock balanced about to tip (37481507), a towering wave (39123286), a glacier calving (36718305), a
+  boat wake into fog (6439497), an ocean beacon/instrument (27042627), layered geological strata (38404924), two
+  arrows pointing opposite ways (10059343), a radio-telescope dish (29412940), a silhouette facing the sea
+  (19489408), melting ice (36575340), an apocalyptic storm sky (1118873), and a paper speech bubble (9131059). No
+  generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE
+  (silhouettes / hands / nature only), and — despite citing New Scientist — free of any New Scientist logo/cover or
+  masthead, any NASA / ESA / NOAA or space-agency logo or marking on satellites, readable map country labels, stock
+  tickers or readable chart/data text, other brand logos, flags, identifiable landmarks, readable foreign text, and
+  military. The three sourcing agents rejected a pile: a SpaceX Dragon capsule (SPACEX wordmark) and a brand-logo'd
+  dish for the satellite beat (settled on a logo-free dish silhouette), and a "Ridgeway" grandfather clock whose
+  moon dial showed "AMERICA"/"AFRICA" map labels (swapped for text-free rock strata); one dedup collision (am10)
+  was re-sourced. (Three blue-marble Earth-from-space frames across the global-context beats are distinct
+  ids/hemispheres.) **UNVERIFIED / SENSITIVE — cites a real outlet (New Scientist) and specific science claims
+  (AMOC slowed ~18% over 40 years; less heat transported north; tipping-point risk); rendered as written but MUST be
+  fact-checked before publishing.** The reel itself flags the uncertainty (no imminent collapse established; studies
+  disagree); the "underestimated risk" framing is editorial analysis.
 
 ## Export note
 
