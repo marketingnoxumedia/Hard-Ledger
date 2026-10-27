@@ -5897,6 +5897,58 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   fact-checked before publishing.** The reel itself flags the uncertainty (no imminent collapse established; studies
   disagree); the "underestimated risk" framing is editorial analysis.
 
+- **`CorridorReel`** — "The corridor" (world-news / active-war reel, Hard Ledger VISUAL style). Topic: **Russia
+  and Ukraine have reportedly agreed to a rare LOCAL ceasefire to let around 2,000 civilians escape the frontline
+  town of Oleshky** (along the Dnipro River in southern Ukraine, under Russian control since the 2022 invasion),
+  where residents have reportedly been cut off from food, medicine, electricity and water. Per a *Financial Times*
+  report, the US-backed deal has Russian forces clear mines from roads out of the town so buses can evacuate
+  residents and aid can reach those who stay — but President Volodymyr Zelenskyy warns evacuees could be routed
+  through Crimea or Russia, and both sides accuse the other of obstructing aid; peace talks are expected to resume
+  in Abu Dhabi. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (like
+  `SurvivorReel` / `MetaReel` / `SteamReel` / `UniteReel` / `AmocReel`), NOT the faceless house voice** — it NAMES
+  the places/people/outlet, uses an EARLY "follow for more" CTA, and CLOSES on a "share your thoughts in the
+  comments" debate CTA. The red beat poses the would-you-rather (can a local ceasefire become a stepping stone
+  "toward a wider peace agreement?"). 39 beats, **1 stat card — AROUND 2,000 CIVILIANS TRAPPED**, 1 red impact, no
+  black beat. **Captions match the VO verbatim** (except the number card; "2,000" as a numeral with its count
+  comma, the "2022" year without one). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor
+  pass (`public/corridor/voiceover.mp3`), **built at the house +10% VO** (~131s / 2:11); its own sombre, tense
+  documentary music bed (deliberately NOT upbeat, to respect the subject). Entirely its own fresh footage under
+  `public/corridor/` — no asset shared with any other reel. **New STANDALONE reel; a world-news / active-war story
+  (the most sensitive topic in the set).** Media credits (Pexels, free license) — video: a single candle flame in
+  darkness (35133765). Photos: two fingertips reaching / truce (1781944), light outlining an opening door
+  (4132661), an anonymous crowd as distant sunset silhouettes (17791358), an empty road to a barren horizon
+  (16962784), a derelict room with a lone chair by a broken window (11427279), an old dried-out outdoor tap
+  (3868136), cracked dry earth (12861683), a mass of tangled cables (8071732), a finger on a dark out-of-focus
+  phone screen (11391948), a calm river at dusk (5540508), a quiet aged town courtyard (16829187), a line where
+  sand meets asphalt (29701209), hazard-striped stairs (33688140), a lone figure from behind in a foggy field
+  (30728709), a stack of plain blank paper (14935583), a moody empty road through hills (26731360), a dim empty bus
+  interior (14028104), stacked plain cardboard boxes (5025503), barriers across a road (29140417), a single raised
+  hand (9464238), a road cresting into the sky (10207902), a lone red barrier across a rural lane (14201027), a
+  vintage chrome microphone (7715783), a running-down hourglass in B&W (7215816), empty weathered wooden shelves
+  (21369951), a single rustic loaf of bread (27418970), a road sealed off by a line of barriers (36333973), a
+  foggy landscape with a tiny distant figure (33959686), an open palm / "stop" (6920650), an empty formal
+  conference room (260689), a two-hand handshake close-up (9488837), an hourglass with running sand (15872365), an
+  open road to an overcast horizon (32340333), a lone wooden observation tower in fog (36132996), top-down
+  fracturing cracked earth (23331430), stepping stones across a shallow stream (32286784), and two blank paper
+  speech bubbles (8015684). No generated graphics this reel. **Brand-safety (screened hard at source and from the
+  FINAL render — the strictest pass in the set given the active-war subject):** FACE-FREE (hands / silhouettes /
+  distant tiny figures / objects / nature only), and — despite citing the Financial Times and naming
+  Russia/Ukraine/Crimea/Zelenskyy — free of any national FLAG, any MILITARY (uniforms, weapons, vehicles, guard
+  towers — the lone tower is a rustic civilian hunting hide), any Financial Times logo/masthead, readable Cyrillic
+  or any readable foreign text, identifiable landmarks, map country labels, brand logos/wordmarks/licence plates,
+  and identifiable currency. The three sourcing agents rejected a pile under View-QA: a Queen Elizabeth II photo +
+  "SWNS" newspaper wordmark and readable WWII article text (cr15), a VW logo + licence plate and plate-reader
+  screen text on boom gates (cr22), AKG/Neumann/Shure/"maono" wordmarks on microphones (cr23), "real" store logos +
+  German text + shoppers' faces on supermarket shelves (cr25), a readable "65%" + app icons on the phone screen
+  (cr09), a padlock brand, a warship-superstructure candidate, an Apple iPad UI, and Portuguese/Bengali text on
+  other slots. **UNVERIFIED / HIGHLY SENSITIVE — an active-conflict news story citing a real outlet (Financial
+  Times) and specific claims (a local Oleshky ceasefire, ~2,000 civilians trapped, a US-backed mine-clearing/bus
+  evacuation deal, Zelenskyy's Crimea/Russia-routing warning, Abu Dhabi talks); rendered as written but MUST be
+  fact-checked against primary sources before publishing, and the situation can change fast.** Two daytime beats
+  (cr19 barrier, cr22 lane) are brighter than the rest of the near-black reel; darker swap candidates exist, and
+  the evacuation-route / roadblock imagery recurs by design (it IS "the corridor"). Editorial framing is the
+  client's.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
