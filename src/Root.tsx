@@ -168,6 +168,7 @@ import {MetaReel, DURATION_IN_FRAMES as META_FRAMES} from './MetaReel';
 import {SteamReel, DURATION_IN_FRAMES as STEAM_FRAMES} from './SteamReel';
 import {UniteReel, DURATION_IN_FRAMES as UNITE_FRAMES} from './UniteReel';
 import {AmocReel, DURATION_IN_FRAMES as AMOC_FRAMES} from './AmocReel';
+import {CorridorReel, DURATION_IN_FRAMES as CORRIDOR_FRAMES} from './CorridorReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1519,6 +1520,14 @@ export const RemotionRoot: React.FC = () => {
         id="AmocReel"
         component={AmocReel}
         durationInFrames={AMOC_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="CorridorReel"
+        component={CorridorReel}
+        durationInFrames={CORRIDOR_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
