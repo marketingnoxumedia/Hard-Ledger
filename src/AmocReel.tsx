@@ -105,95 +105,95 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 130, kind: 'hook', reveal: [3, 40], text: 'Satellites are revealing a disturbing|change in the Atlantic Ocean.', kicker: 'The conveyor', highlights: ['disturbing'], size: 27, media: {src: 'amoc/am00_satellite.mp4', type: 'video', effect: 'in'}},
+  {dur: 118, kind: 'hook', reveal: [3, 40], text: 'Satellites are revealing a disturbing|change in the Atlantic Ocean.', kicker: 'The conveyor', highlights: ['disturbing'], size: 27, media: {src: 'amoc/am00_satellite.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 105, kind: 'text', reveal: [2, 28], text: 'The massive current system that helps|keep parts of Europe warm', highlights: [], size: 27, media: {src: 'amoc/am01_current.jpg', type: 'img', effect: 'panL'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'The massive current system that helps|keep parts of Europe warm', highlights: [], size: 27, media: {src: 'amoc/am01_current.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 36, kind: 'text', reveal: [2], text: 'may be getting weaker —', highlights: ['weaker'], size: 38, media: {src: 'amoc/am02_weaker.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'may be getting weaker —', highlights: ['weaker'], size: 38, media: {src: 'amoc/am02_weaker.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'and the latest evidence|is raising serious concerns.', highlights: ['concerns.'], size: 30, media: {src: 'amoc/am03_concern.jpg', type: 'img', effect: 'panR'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'and the latest evidence|is raising serious concerns.', highlights: ['concerns.'], size: 30, media: {src: 'amoc/am03_concern.jpg', type: 'img', effect: 'panR'}},
   // 4
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'Scientists estimate the system|has slowed by around', highlights: [], size: 30, media: {src: 'amoc/am04_estimate.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'Scientists estimate the system|has slowed by around', highlights: [], size: 30, media: {src: 'amoc/am04_estimate.jpg', type: 'img', effect: 'in'}},
   // 5 CARD 18%
-  {dur: 79, kind: 'stat', stat: {pre: 'AMOC HAS SLOWED', prefix: '~', value: 18, suffix: '%', post: 'OVER 40 YEARS'}, media: {src: 'amoc/am05_decline.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'stat', stat: {pre: 'AMOC HAS SLOWED', prefix: '~', value: 18, suffix: '%', post: 'OVER 40 YEARS'}, media: {src: 'amoc/am05_decline.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 84, kind: 'text', reveal: [2, 28], text: 'But what does that actually mean|for Earth’s climate,', highlights: [], size: 29, media: {src: 'amoc/am06_climate.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'But what does that actually mean|for Earth’s climate,', highlights: [], size: 29, media: {src: 'amoc/am06_climate.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 139, kind: 'text', reveal: [2, 28], text: 'and could this change trigger|consequences far beyond Europe?', highlights: ['Europe?'], size: 28, media: {src: 'amoc/am07_europe.jpg', type: 'img', effect: 'panL'}},
+  {dur: 125, kind: 'text', reveal: [2, 28], text: 'and could this change trigger|consequences far beyond Europe?', highlights: ['Europe?'], size: 28, media: {src: 'amoc/am07_europe.jpg', type: 'img', effect: 'panL'}},
   // 8
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'Follow for more science stories|and discoveries', highlights: ['follow'], size: 31, media: {src: 'amoc/am08_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'Follow for more science stories|and discoveries', highlights: ['follow'], size: 31, media: {src: 'amoc/am08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 73, kind: 'text', reveal: [2, 28], text: 'that could change how|we see our planet.', highlights: [], size: 32, media: {src: 'amoc/am09_planet.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'that could change how|we see our planet.', highlights: [], size: 32, media: {src: 'amoc/am09_planet.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 116, kind: 'text', reveal: [2, 28], text: 'The system is called the Atlantic|Meridional Overturning Circulation,', highlights: [], size: 25, media: {src: 'amoc/am10_amoc.jpg', type: 'img', effect: 'panR'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'The system is called the Atlantic|Meridional Overturning Circulation,', highlights: [], size: 25, media: {src: 'amoc/am10_amoc.jpg', type: 'img', effect: 'panR'}},
   // 11
-  {dur: 35, kind: 'text', reveal: [2], text: 'or AMOC.', highlights: ['AMOC.'], size: 46, media: {src: 'amoc/am11_amoc2.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'or AMOC.', highlights: ['AMOC.'], size: 46, media: {src: 'amoc/am11_amoc2.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'Think of it as a giant|ocean conveyor belt,', highlights: ['conveyor'], size: 32, media: {src: 'amoc/am12_conveyor.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'Think of it as a giant|ocean conveyor belt,', highlights: ['conveyor'], size: 32, media: {src: 'amoc/am12_conveyor.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 154, kind: 'text', reveal: [2, 28], text: 'carrying warm water northward|and returning colder, deeper water south.', highlights: [], size: 25, media: {src: 'amoc/am13_water.jpg', type: 'img', effect: 'panL'}},
+  {dur: 140, kind: 'text', reveal: [2, 28], text: 'carrying warm water northward|and returning colder, deeper water south.', highlights: [], size: 25, media: {src: 'amoc/am13_water.jpg', type: 'img', effect: 'panL'}},
   // 14
-  {dur: 136, kind: 'text', reveal: [2, 28], text: 'It helps distribute heat around the|planet and influences weather patterns', highlights: [], size: 25, media: {src: 'amoc/am14_heat.jpg', type: 'img', effect: 'in'}},
+  {dur: 124, kind: 'text', reveal: [2, 28], text: 'It helps distribute heat around the|planet and influences weather patterns', highlights: [], size: 25, media: {src: 'amoc/am14_heat.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 59, kind: 'text', reveal: [2], text: 'across multiple continents.', highlights: ['continents.'], size: 32, media: {src: 'amoc/am15_continents.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'across multiple continents.', highlights: ['continents.'], size: 32, media: {src: 'amoc/am15_continents.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'In a report published|by New Scientist,', highlights: [], size: 32, media: {src: 'amoc/am16_report.jpg', type: 'img', effect: 'panR'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'In a report published|by New Scientist,', highlights: [], size: 32, media: {src: 'amoc/am16_report.jpg', type: 'img', effect: 'panR'}},
   // 17
-  {dur: 84, kind: 'text', reveal: [2], text: 'researchers examined satellite observations', highlights: [], size: 26, media: {src: 'amoc/am17_satellite2.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2], text: 'researchers examined satellite observations', highlights: [], size: 26, media: {src: 'amoc/am17_satellite2.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 122, kind: 'text', reveal: [2, 28], text: 'and estimates of how much heat|the ocean releases into the atmosphere.', highlights: [], size: 25, media: {src: 'amoc/am18_oceanheat.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'and estimates of how much heat|the ocean releases into the atmosphere.', highlights: [], size: 25, media: {src: 'amoc/am18_oceanheat.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 167, kind: 'text', reveal: [2, 28], text: 'Their findings suggest the AMOC has been|transporting less heat toward the North Atlantic,', highlights: [], size: 23, media: {src: 'amoc/am19_northatlantic.jpg', type: 'img', effect: 'panL'}},
+  {dur: 152, kind: 'text', reveal: [2, 28], text: 'Their findings suggest the AMOC has been|transporting less heat toward the North Atlantic,', highlights: [], size: 23, media: {src: 'amoc/am19_northatlantic.jpg', type: 'img', effect: 'panL'}},
   // 20
-  {dur: 140, kind: 'text', reveal: [2, 28], text: 'adding to growing evidence that this|crucial circulation system is weakening.', highlights: ['weakening.'], size: 24, media: {src: 'amoc/am20_weakening.jpg', type: 'img', effect: 'in'}},
+  {dur: 128, kind: 'text', reveal: [2, 28], text: 'adding to growing evidence that this|crucial circulation system is weakening.', highlights: ['weakening.'], size: 24, media: {src: 'amoc/am20_weakening.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 102, kind: 'text', reveal: [2, 28], text: 'And the concern isn’t just about|colder weather in Europe.', highlights: [], size: 28, media: {src: 'amoc/am21_cold.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'And the concern isn’t just about|colder weather in Europe.', highlights: [], size: 28, media: {src: 'amoc/am21_cold.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 122, kind: 'text', reveal: [2, 28], text: 'A weaker AMOC could reshape rainfall|patterns, affect storms,', highlights: ['reshape'], size: 27, media: {src: 'amoc/am22_storms.jpg', type: 'img', effect: 'panR'}},
+  {dur: 111, kind: 'text', reveal: [2, 28], text: 'A weaker AMOC could reshape rainfall|patterns, affect storms,', highlights: ['reshape'], size: 27, media: {src: 'amoc/am22_storms.jpg', type: 'img', effect: 'panR'}},
   // 23
-  {dur: 121, kind: 'text', reveal: [2, 28], text: 'and contribute to rising sea levels|along parts of the Atlantic coast.', highlights: ['coast.'], size: 25, media: {src: 'amoc/am23_sealevel.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'and contribute to rising sea levels|along parts of the Atlantic coast.', highlights: ['coast.'], size: 25, media: {src: 'amoc/am23_sealevel.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 118, kind: 'text', reveal: [2, 28], text: 'Changes could also disrupt rainfall|in tropical regions', highlights: [], size: 28, media: {src: 'amoc/am24_tropical.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 28], text: 'Changes could also disrupt rainfall|in tropical regions', highlights: [], size: 28, media: {src: 'amoc/am24_tropical.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'that depend on predictable|seasonal weather.', highlights: [], size: 30, media: {src: 'amoc/am25_seasonal.jpg', type: 'img', effect: 'panL'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'that depend on predictable|seasonal weather.', highlights: [], size: 30, media: {src: 'amoc/am25_seasonal.jpg', type: 'img', effect: 'panL'}},
   // 26
-  {dur: 112, kind: 'text', reveal: [2, 28], text: 'The biggest worry is that continued|weakening could push the system', highlights: [], size: 26, media: {src: 'amoc/am26_worry.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'The biggest worry is that continued|weakening could push the system', highlights: [], size: 26, media: {src: 'amoc/am26_worry.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 56, kind: 'text', reveal: [2], text: 'toward a major tipping point.', highlights: ['tipping'], size: 32, media: {src: 'amoc/am27_tipping.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'toward a major tipping point.', highlights: ['tipping'], size: 32, media: {src: 'amoc/am27_tipping.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 116, kind: 'text', reveal: [2, 28], text: 'If the AMOC weakened dramatically,|the consequences could be severe —', highlights: ['severe'], size: 26, media: {src: 'amoc/am28_severe.jpg', type: 'img', effect: 'panR'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'If the AMOC weakened dramatically,|the consequences could be severe —', highlights: ['severe'], size: 26, media: {src: 'amoc/am28_severe.jpg', type: 'img', effect: 'panR'}},
   // 29
-  {dur: 139, kind: 'text', reveal: [2, 28], text: 'but scientists have not established|that a sudden collapse is imminent,', highlights: ['collapse'], size: 26, media: {src: 'amoc/am29_collapse.jpg', type: 'img', effect: 'in'}},
+  {dur: 126, kind: 'text', reveal: [2, 28], text: 'but scientists have not established|that a sudden collapse is imminent,', highlights: ['collapse'], size: 26, media: {src: 'amoc/am29_collapse.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'and the exact future|remains uncertain.', highlights: ['uncertain.'], size: 32, media: {src: 'amoc/am30_uncertain.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'and the exact future|remains uncertain.', highlights: ['uncertain.'], size: 32, media: {src: 'amoc/am30_uncertain.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 104, kind: 'text', reveal: [2, 28], text: 'Here’s the catch: measuring|the AMOC directly is difficult,', highlights: ['catch:'], size: 27, media: {src: 'amoc/am31_measure.jpg', type: 'img', effect: 'panL'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'Here’s the catch: measuring|the AMOC directly is difficult,', highlights: ['catch:'], size: 27, media: {src: 'amoc/am31_measure.jpg', type: 'img', effect: 'panL'}},
   // 32
-  {dur: 132, kind: 'text', reveal: [2, 28], text: 'and continuous observations|only go back about two decades.', highlights: [], size: 27, media: {src: 'amoc/am32_decades.jpg', type: 'img', effect: 'in'}},
+  {dur: 120, kind: 'text', reveal: [2, 28], text: 'and continuous observations|only go back about two decades.', highlights: [], size: 27, media: {src: 'amoc/am32_decades.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 130, kind: 'text', reveal: [2, 28], text: 'Different studies have reached different|conclusions about the pace of weakening.', highlights: [], size: 24, media: {src: 'amoc/am33_studies.jpg', type: 'img', effect: 'in'}},
+  {dur: 118, kind: 'text', reveal: [2, 28], text: 'Different studies have reached different|conclusions about the pace of weakening.', highlights: [], size: 24, media: {src: 'amoc/am33_studies.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 120, kind: 'text', reveal: [2, 28], text: 'The evidence is concerning, but researchers|still need more observations', highlights: [], size: 24, media: {src: 'amoc/am34_more.jpg', type: 'img', effect: 'panR'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'The evidence is concerning, but researchers|still need more observations', highlights: [], size: 24, media: {src: 'amoc/am34_more.jpg', type: 'img', effect: 'panR'}},
   // 35
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'to understand exactly|what’s happening.', highlights: ['happening.'], size: 32, media: {src: 'amoc/am35_happening.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'to understand exactly|what’s happening.', highlights: ['happening.'], size: 32, media: {src: 'amoc/am35_happening.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 163, kind: 'text', reveal: [2, 28], text: 'So, is the weakening of this ocean current|one of the most underestimated climate risks —', highlights: ['underestimated'], size: 22, media: {src: 'amoc/am36_risk.jpg', type: 'img', effect: 'in'}},
+  {dur: 148, kind: 'text', reveal: [2, 28], text: 'So, is the weakening of this ocean current|one of the most underestimated climate risks —', highlights: ['underestimated'], size: 22, media: {src: 'amoc/am36_risk.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'or is the public being shown|the worst-case scenario', highlights: [], size: 28, media: {src: 'amoc/am37_worstcase.jpg', type: 'img', effect: 'panL'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'or is the public being shown|the worst-case scenario', highlights: [], size: 28, media: {src: 'amoc/am37_worstcase.jpg', type: 'img', effect: 'panL'}},
   // 38 RED
-  {dur: 64, kind: 'impact', redBg: true, text: 'before scientists have|all the answers?'},
+  {dur: 59, kind: 'impact', redBg: true, text: 'before scientists have|all the answers?'},
   // 39 CTA
-  {dur: 56, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'What do you think?|Let us know in the comments.', highlights: ['comments.'], size: 32, media: {src: 'amoc/am39_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'What do you think?|Let us know in the comments.', highlights: ['comments.'], size: 32, media: {src: 'amoc/am39_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 462, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1056, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 3115, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 3935, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3999, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 420, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 960, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2831, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 3577, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3636, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {

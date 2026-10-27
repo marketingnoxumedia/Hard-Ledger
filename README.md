@@ -5267,7 +5267,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   card), 1 red impact ("Did EA kill BioWare, or did the buyout?"), 2 black ("Gone on a Tuesday." / "The
   company pays for its own purchase."). **Captions match the VO verbatim** (except the number cards; spoken
   figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
-  (`public/buyout/voiceover.mp3`), **built at the house +10% pacing default** (~105s; its own music bed).
+  (`public/buyout/voiceover.mp3`),  +10% pacing default** (~105s; its own music bed).
   Entirely its own fresh footage under `public/buyout/` — no asset shared with any other reel. Media credits
   (Pexels, free license) — videos: an empty open-plan office (8346903), an aerial forked highway (37404976).
   Photos: a lease/agreement document (7841424), a generic unbranded game controller (8154772), a backlit
@@ -5318,7 +5318,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   split. It isn't." / "One new share class, zero new votes."). **Captions match the VO verbatim** (except the
   number cards; spoken figures as numerals; card text naming "META" is editorial overlay, not footage).
   Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
-  (`public/share/voiceover.mp3`), **built at the house +10% pacing default** (~123s; its own music bed).
+  (`public/share/voiceover.mp3`),  +10% pacing default** (~123s; its own music bed).
   Entirely its own fresh footage under `public/share/` — no asset shared with any other reel. Media credits
   (Pexels, free license) — videos: an abstract finance dashboard (5849611), an aerial forked road (40433618).
   Photos: a plunging red decline chart — no numbers/ticker (39353382), a blank certificate (5420988), hands
@@ -5474,7 +5474,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   FROM $25B; TO $20B; BRENT $112), 1 red impact, 2 black ("Demand, fine. Money, missing." / "More capital means
   more debt."). **Captions match the VO verbatim** (except the number cards; spoken figures as numerals).
   Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
-  (`public/scarcity/voiceover.mp3`), **built at the house +10% VO default** (~110s; its own music bed). Entirely
+  (`public/scarcity/voiceover.mp3`),  +10% VO default** (~110s; its own music bed). Entirely
   its own fresh footage under `public/scarcity/` — no asset shared with any other reel. **New STANDALONE reel;
   it is the CAPITAL-scarcity counterpart to `ConstraintReel` ("The constraint"), which is the SUPPLY-constraint
   angle on the same AI-selloff week — distinct subject/thesis, but publish only one of the two to a given audience
@@ -5583,7 +5583,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   thousands-comma is WANTED and rendered), 1 red impact (the would-you-rather), 1 black ("Own the house. Don't let
   it own you."). **Captions match the VO verbatim** (except the number cards; spoken figures as numerals).
   Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/half/voiceover.mp3`),
-  **built at the house +10% VO default** (~71s; its own calm music bed). Entirely its own fresh footage under
+   +10% VO default** (~71s; its own calm music bed). Entirely its own fresh footage under
   `public/half/` — no asset shared with any other reel. **New STANDALONE reel; thematically adjacent to `RatioReel`
   ("The goalpost moved", the home-affordability mechanism) but a distinct hook (Burry's "buy half" rule).** Media
   credits (Pexels, free license) — video: an aerial suburban neighbourhood (38774217). Photos: a wooden toy house
@@ -5723,7 +5723,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   (Class A) / $12.5B (preferred) / $60B (future plan) / $135B (2026 capex, up to $145B)**, 1 red impact, no black
   beat. **Captions match the VO verbatim** (except the number cards; spoken figures as numerals).
   Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/meta/voiceover.mp3`),
-  **built at the house +10% VO default (~132s / 2:12 — a long, dense verbatim script; its own driving music bed).**
+   +10% VO default (~132s / 2:12 — a long, dense verbatim script; its own driving music bed).**
   Entirely its own fresh footage under `public/meta/` — no asset shared with any other reel. **New STANDALONE reel;
   thematically adjacent to the AI-capex cluster (`ScarcityReel`, `WarehouseReel`, `SurvivorReel`) but a DISTINCT
   story: a specific company (Meta), a specific equity raise and capex guide, and the dilution / return-on-AI-spend
@@ -5772,7 +5772,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   on Loading User Data too?"). 40 beats, **2 stat cards — U.S. OUTAGE REPORTS 500 / U.K. OUTAGE REPORTS 450** (each
   card spans its full spoken phrase so the count-up completes), 1 red impact, no black beat. **Captions match the
   VO verbatim** (except the number cards; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a
-  scribe_v1 word-timestamp anchor pass (`public/steam/voiceover.mp3`), **built at the house +10% VO default
+  scribe_v1 word-timestamp anchor pass (`public/steam/voiceover.mp3`),  +10% VO default
   (~104s); its own driving, urgent music bed.** Entirely its own fresh footage under `public/steam/` — no asset
   shared with any other reel. **New STANDALONE reel; a tonal/topic DEPARTURE from the finance/AI-capex cluster — a
   gaming-news / outage story.** Media credits (Pexels, free license) — video: a dark wireframe vortex loop
@@ -5865,8 +5865,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   red beat poses the would-you-rather ("an underestimated climate risk ... or worst-case framing before the science
   is settled?"). 40 beats, **1 stat card — AMOC HAS SLOWED ~18% (over 40 years)**, 1 red impact, no black beat.
   **Captions match the VO verbatim** (except the number card; spoken figures as numerals). Durations/reveals/SFX
-  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/amoc/voiceover.mp3`), **built at the house
-  +10% VO default (~135s); its own driving, cinematic science-doc music bed.** Entirely its own fresh footage under
+  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/amoc/voiceover.mp3`), 
+  **built at +21% VO** (additional 10% on the house default; ~123s); its own driving, cinematic science-doc music bed. Entirely its own fresh footage under
   `public/amoc/` — no asset shared with any other reel. **New STANDALONE reel; a science/climate-news story (a
   departure from the finance and gaming reels).** Media credits (Pexels, free license) — video: Earth rotating in
   space, night side (33430410). Photos: a swirling ocean current (30175211), dark water with a fading glow
