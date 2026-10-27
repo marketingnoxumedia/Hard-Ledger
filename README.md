@@ -5820,7 +5820,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   move on?"). 37 beats, **1 stat card — SERVICE ENDS MARCH 23 (2027)** (count-up on the day, the year as static
   text to avoid the year-comma bug), 1 red impact, no black beat. **Captions match the VO verbatim** (except the
   number card; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp
-  anchor pass (`public/unite/voiceover.mp3`), **built at the house +10% VO default (~115s); its own driving-but-
+  anchor pass (`public/unite/voiceover.mp3`), **built at +21% VO** (additional 10% on the house default; ~104s; its own driving-but-
   bittersweet music bed.** Entirely its own fresh footage under `public/unite/` — no asset shared with any other
   reel. **New STANDALONE reel; a gaming-news story like `SteamReel` but a DISTINCT topic (a game sunset, not an
   outage).** Media credits (Pexels, free license) — video: near-black glitch/disintegration streaks (9988884).
