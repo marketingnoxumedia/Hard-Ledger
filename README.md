@@ -6000,6 +6000,63 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   preserves the script's caveat (the CDC changed its methods and data sources, so the new estimates are NOT directly
   comparable with the previous report); the "are we doing enough" framing is editorial analysis.
 
+- **`EbolaReel`** — "The outbreak" (health / world-news reel, Hard Ledger VISUAL style). Topic: **a reported
+  Ebola outbreak — caused by the rare Bundibugyo strain — said to have spread across three regions of Africa (from
+  the Democratic Republic of the Congo to Uganda, Kenya and Nigeria), with an Africa CDC warning (attributed to
+  director general Jean Kaseya via *The Guardian*) that it has passed 10,000 cases and nearly 5,000 deaths, a
+  confirmed imported case in France, and a warning it could reach the UK.** Ebola spreads via contact with an
+  infected person’s bodily fluids; the response faces PPE shortages, unpaid wages, conflict and community
+  mistrust. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (like
+  `SuperbugReel` / `AmocReel` / `CorridorReel`), NOT the faceless house voice** — it NAMES the strain / Africa CDC /
+  Kaseya / The Guardian, uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments" debate
+  CTA. The red beat poses the would-you-rather (prepare for a possible international emergency now "before it spreads
+  further?"). 46 beats, **3 stat cards — OVER 10,000 REPORTED CASES, NEARLY 5,000 DEATHS, 3 AFRICAN REGIONS**, 1 red
+  impact, no black beat. **Captions match the VO verbatim** (except the number cards; spoken figures as numerals,
+  with the repeat "more than 10,000 cases" kept inline as text so no card repeats a figure). Durations/reveals/SFX
+  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/ebola/voiceover.mp3`), **built at the house
+  +10% VO** (~144s / 2:24); its own tense, sombre documentary music bed. **First reel built with the house
+  VARIED CAPTION PLACEMENT convention** — captions are spread across the frame (upper/lower, left/right, corners),
+  not all centered, with the hook and the comments CTA centered as anchors; placements are tuned to clear the
+  top-left HUD label and the bottom-center logo. Entirely its own fresh footage under `public/ebola/` — no asset
+  shared with any other reel (eb00 reuses Pexels id 7542650, which was dropped from SuperbugReel when its
+  gonorrhea beat was swapped to a bacterial micrograph, so it is used in only one shipped reel). Media credits
+  (Pexels, free license) — all stills: a dark virus render (7542650), Earth at night with city lights (30596231), an
+  empty boardroom / press setup (6949367), an airport terminal (2958530), a branching spread network (21847193), a
+  neon virus render on black (26545224), an amber warning glow (10050676), a dark ominous abstract (35133653), a
+  globe (30596246), gloved hands / containment (9545082), a hand with a blank-screen phone (6373205), a second
+  virus micrograph (13966056), a microscope slide (3908181), an African savanna (35327201), a dusty rural road
+  (5852360), a hand pulling on a glove (7337927), red ink diffusing in water (30369538), blank overlapping papers
+  (6991807), a lone podium microphone (26826702), a single candle (14662003), rising amber light streaks (6243497),
+  a dark globe/continents (17931016), the rear of a taxiing airliner (249581), a backlit traveler silhouette with a
+  suitcase (33389722), a hooded Tyvek figure from behind (4176550), surgical masks laid out (5995038), cracked dry
+  earth (30269939), empty lab test tubes (9628843), an empty hospital bed (8410647), water ripples from a droplet
+  (9460333), an Earth-from-space globe (12498815), empty test tubes in a rack (6129866), a hazard-stripe texture
+  (3662579), Earth centered on Africa (30596229), a magnifying glass (17311366), a quiet empty dusk street
+  (19026995), an abstract connection-line network (14314637), a dark door/panel in shadow (6800313), unlabeled
+  amber medicine bottles (9628816), an unlabeled research flask (7722683), a gloved hand with a sterile tray
+  (4270960), a red light glow on black (9265527), a motion-blurred anonymous crowd (11699709), two clasped hands
+  (9196118), and a blank paper speech bubble (1111368). No generated graphics this reel. **Brand-safety (screened
+  hard at source and from the FINAL render — a strict pass given the sensitive outbreak subject):** FACE-FREE
+  (hands / gloved hands / silhouettes / distant blurred crowds / renders / objects / nature only), nothing gory (the
+  "blood and vomit" line is carried by abstract red ink in water, not graphic imagery), and — despite naming Africa
+  CDC / The Guardian / Kaseya / France / the UK — free of any national FLAG, real public figure, outlet logo/masthead,
+  readable text or map country labels, identifiable landmarks, brand logos/licence plates, and real registered
+  biohazard logo. The three sourcing agents rejected a large pile under View-QA: COVID-19-labeled vials, a
+  Malpensa jet-bridge + "BUS" livery, a Dublin shopfront wordmark, a DeWalt-branded kit, a police car with a
+  readable plate, Cyrillic/Estonian/Polish map labels and signage, apothecary bottles with embossed text, and
+  crowds with semi-visible faces. (Two notes: Pexels had no true thread-shaped filovirus render, so the hook uses a
+  generic dark virus render; and eb33/eb36 use an Africa-centered Earth and an abstract connection-line network in
+  place of label-free flat maps, which don’t exist cleanly on stock. The reel leans on globe/Earth imagery across
+  several global-spread beats by design.) **UNVERIFIED / HIGHLY SENSITIVE — a claimed active-outbreak news story
+  with very strong specific figures (a Bundibugyo Ebola outbreak of 10,000+ cases / ~5,000 deaths across DRC,
+  Uganda, Kenya and Nigeria; a Guardian-attributed Africa CDC / Kaseya warning; a confirmed case in France; a
+  warning it could reach the UK). An Ebola outbreak at this scale and geographic spread would be extraordinary —
+  rendered as written but it MUST be fact-checked against primary sources before publishing, and confirmed it is not
+  a hypothetical, outdated, or misattributed scenario.** The reel preserves the script’s own caveat (Ebola has NOT
+  been reported in the UK; the warning is about possible international spread, not a confirmed outbreak there; the
+  Bundibugyo strain has no approved treatment, though vaccine trials are underway). The "should governments prepare
+  now vs. risk of panic" framing is the script’s editorial debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
