@@ -5967,7 +5967,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   black beat. **Captions match the VO verbatim** (except the number cards; spoken figures as numerals, with the
   precise "9.7 million" / "19 pathogens" kept inline as text so no card repeats a figure, and the "2019" year
   without a comma). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
-  (`public/superbug/voiceover.mp3`), **built at the house +10% VO** (~142s / 2:22); its own tense, clinical
+  (`public/superbug/voiceover.mp3`), **built at +21% VO** (additional 10% on the house default; ~129s / 2:09); its own tense, clinical
   science-documentary music bed. Entirely its own fresh footage under `public/superbug/` — no asset shared with any
   other reel. **New STANDALONE reel; a health/science-news story (a first for the set).** Media credits (Pexels,
   free license) — all stills: a dark gloved petri dish (9259938), a red SEM microbe (3992930), a blurred overhead
