@@ -107,103 +107,105 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Some infections are becoming|harder to treat,', kicker: 'The superbugs', highlights: ['harder'], size: 28, media: {src: 'superbug/sb00_petri.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'hook', reveal: [3, 40], text: 'Some infections are becoming|harder to treat,', kicker: 'The superbugs', highlights: ['harder'], size: 28, media: {src: 'superbug/sb00_petri.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and the CDC is warning|that drug resistant superbugs', highlights: ['superbugs'], size: 27, media: {src: 'superbug/sb01_warning.jpg', type: 'img', effect: 'panL'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'and the CDC is warning|that drug resistant superbugs', highlights: ['superbugs'], size: 27, media: {src: 'superbug/sb01_warning.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'are putting millions of Americans|at risk every year.', highlights: ['risk'], size: 28, media: {src: 'superbug/sb02_crowd.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'text', reveal: [2, 28], text: 'are putting millions of Americans|at risk every year.', highlights: ['risk'], size: 28, media: {src: 'superbug/sb02_crowd.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The latest assessment estimates|these germs cause', highlights: [], size: 28, media: {src: 'superbug/sb03_report.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'The latest assessment estimates|these germs cause', highlights: [], size: 28, media: {src: 'superbug/sb03_report.jpg', type: 'img', effect: 'in'}},
   // 4 CARD ~10M
-  {dur: 70, kind: 'stat', stat: {pre: 'NEARLY', value: 10, suffix: ' MILLION', post: 'INFECTIONS A YEAR'}, media: {src: 'superbug/sb04_microbe.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'stat', stat: {pre: 'NEARLY', value: 10, suffix: ' MILLION', post: 'INFECTIONS A YEAR'}, media: {src: 'superbug/sb04_microbe.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'in the United States.', highlights: [], size: 34, media: {src: 'superbug/sb05_map.jpg', type: 'img', effect: 'panR'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'in the United States.', highlights: [], size: 34, media: {src: 'superbug/sb05_map.jpg', type: 'img', effect: 'panR'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And among the most|alarming threats', highlights: ['alarming'], size: 30, media: {src: 'superbug/sb06_alarm.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'And among the most|alarming threats', highlights: ['alarming'], size: 30, media: {src: 'superbug/sb06_alarm.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is a fungus that has spread|rapidly through healthcare facilities.', highlights: ['fungus'], size: 27, media: {src: 'superbug/sb07_fungus.jpg', type: 'img', effect: 'in'}},
+  {dur: 143, kind: 'text', reveal: [2, 28], text: 'is a fungus that has spread|rapidly through healthcare facilities.', highlights: ['fungus'], size: 27, media: {src: 'superbug/sb07_fungus.jpg', type: 'img', effect: 'in'}},
   // 8 CTA early
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Follow for more health and science stories|that could affect your everyday life.', highlights: ['follow'], size: 26, media: {src: 'superbug/sb08_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 155, kind: 'text', reveal: [2, 28], text: 'Follow for more health and science stories|that could affect your everyday life.', highlights: ['follow'], size: 26, media: {src: 'superbug/sb08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Antibiotics and antifungal medicines|are designed to kill germs', highlights: [], size: 27, media: {src: 'superbug/sb09_pills.jpg', type: 'img', effect: 'panL'}},
+  {dur: 134, kind: 'text', reveal: [2, 28], text: 'Antibiotics and antifungal medicines|are designed to kill germs', highlights: [], size: 27, media: {src: 'superbug/sb09_pills.jpg', type: 'img', effect: 'panL'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'or stop them from growing.', highlights: ['growing.'], size: 32, media: {src: 'superbug/sb10_culture.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'or stop them from growing.', highlights: ['growing.'], size: 32, media: {src: 'superbug/sb10_culture.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But some bacteria and fungi|can develop resistance,', highlights: ['resistance,'], size: 29, media: {src: 'superbug/sb11_bacteria.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'But some bacteria and fungi|can develop resistance,', highlights: ['resistance,'], size: 29, media: {src: 'superbug/sb11_bacteria.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'meaning treatments that once worked|may no longer be effective.', highlights: [], size: 27, media: {src: 'superbug/sb12_vial.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 28], text: 'meaning treatments that once worked|may no longer be effective.', highlights: [], size: 27, media: {src: 'superbug/sb12_vial.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'This is known as|antimicrobial resistance,', highlights: ['antimicrobial'], size: 30, media: {src: 'superbug/sb13_micro.jpg', type: 'img', effect: 'panR'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'This is known as|antimicrobial resistance,', highlights: ['antimicrobial'], size: 30, media: {src: 'superbug/sb13_micro.jpg', type: 'img', effect: 'panR'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and it can turn routine infections|into serious medical challenges.', highlights: [], size: 27, media: {src: 'superbug/sb14_ward.jpg', type: 'img', effect: 'in'}},
+  {dur: 125, kind: 'text', reveal: [2, 28], text: 'and it can turn routine infections|into serious medical challenges.', highlights: [], size: 27, media: {src: 'superbug/sb14_ward.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'According to the CDC’s|latest assessment,', highlights: [], size: 30, media: {src: 'superbug/sb15_document.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'According to the CDC’s|latest assessment,', highlights: [], size: 30, media: {src: 'superbug/sb15_document.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: '19 drug resistant pathogens|are responsible', highlights: [], size: 28, media: {src: 'superbug/sb16_cluster.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: '19 drug resistant pathogens|are responsible', highlights: [], size: 28, media: {src: 'superbug/sb16_cluster.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for an estimated|9.7 million infections', highlights: [], size: 30, media: {src: 'superbug/sb17_lab.jpg', type: 'img', effect: 'panL'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'for an estimated|9.7 million infections', highlights: [], size: 30, media: {src: 'superbug/sb17_lab.jpg', type: 'img', effect: 'panL'}},
   // 18 CARD 50,800
-  {dur: 70, kind: 'stat', stat: {value: 50800, post: 'DEATHS A YEAR'}, media: {src: 'superbug/sb18_memorial.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'stat', stat: {value: 50800, post: 'DEATHS A YEAR'}, media: {src: 'superbug/sb18_memorial.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'The agency places', highlights: [], size: 34, media: {src: 'superbug/sb19_clipboard.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'The agency places', highlights: [], size: 34, media: {src: 'superbug/sb19_clipboard.jpg', type: 'img', effect: 'in'}},
   // 20 CARD 4 urgent threats
-  {dur: 70, kind: 'stat', stat: {value: 4, post: 'URGENT THREATS'}, media: {src: 'superbug/sb20_threat.jpg', type: 'img', effect: 'in'}},
+  {dur: 121, kind: 'stat', stat: {value: 4, post: 'URGENT THREATS'}, media: {src: 'superbug/sb20_threat.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'One of them is|Candida auris,', highlights: ['candida'], size: 32, media: {src: 'superbug/sb21_fungus2.jpg', type: 'img', effect: 'panR'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'One of them is|Candida auris,', highlights: ['candida'], size: 32, media: {src: 'superbug/sb21_fungus2.jpg', type: 'img', effect: 'panR'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a fungus that can cause|dangerous infections,', highlights: ['dangerous'], size: 29, media: {src: 'superbug/sb22_infection.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'a fungus that can cause|dangerous infections,', highlights: ['dangerous'], size: 29, media: {src: 'superbug/sb22_infection.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'especially in people|who are already seriously ill.', highlights: [], size: 28, media: {src: 'superbug/sb23_bed.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'especially in people|who are already seriously ill.', highlights: [], size: 28, media: {src: 'superbug/sb23_bed.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The CDC says infections|have increased tenfold since 2019.', highlights: ['tenfold'], size: 27, media: {src: 'superbug/sb24_rise.jpg', type: 'img', effect: 'in'}},
+  {dur: 135, kind: 'text', reveal: [2, 28], text: 'The CDC says infections|have increased tenfold since 2019.', highlights: ['tenfold'], size: 27, media: {src: 'superbug/sb24_rise.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Other urgent threats include|bacteria resistant to some', highlights: [], size: 28, media: {src: 'superbug/sb25_resistant.jpg', type: 'img', effect: 'panL'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'Other urgent threats include|bacteria resistant to some', highlights: [], size: 28, media: {src: 'superbug/sb25_resistant.jpg', type: 'img', effect: 'panL'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'of the strongest antibiotics available,', highlights: [], size: 27, media: {src: 'superbug/sb26_antibiotic.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'of the strongest antibiotics available,', highlights: [], size: 27, media: {src: 'superbug/sb26_antibiotic.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'and drug resistant gonorrhea.', highlights: ['gonorrhea.'], size: 31, media: {src: 'superbug/sb27_cells.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'and drug resistant gonorrhea.', highlights: ['gonorrhea.'], size: 31, media: {src: 'superbug/sb27_cells.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The danger goes beyond|a single infection.', highlights: ['danger'], size: 31, media: {src: 'superbug/sb28_danger.jpg', type: 'img', effect: 'panR'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'The danger goes beyond|a single infection.', highlights: ['danger'], size: 31, media: {src: 'superbug/sb28_danger.jpg', type: 'img', effect: 'panR'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Drug resistance can mean|fewer treatment options,', highlights: [], size: 29, media: {src: 'superbug/sb29_options.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'Drug resistance can mean|fewer treatment options,', highlights: [], size: 29, media: {src: 'superbug/sb29_options.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'longer hospital stays,|and a higher risk of complications.', highlights: [], size: 27, media: {src: 'superbug/sb30_hospital.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'longer hospital stays,|and a higher risk of complications.', highlights: [], size: 27, media: {src: 'superbug/sb30_hospital.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It can also make medical procedures|such as surgery, cancer treatment,', highlights: [], size: 26, media: {src: 'superbug/sb31_surgery.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 28], text: 'It can also make medical procedures|such as surgery, cancer treatment,', highlights: [], size: 26, media: {src: 'superbug/sb31_surgery.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and organ transplants|more difficult to carry out safely.', highlights: [], size: 27, media: {src: 'superbug/sb32_transplant.jpg', type: 'img', effect: 'panL'}},
+  {dur: 112, kind: 'text', reveal: [2, 28], text: 'and organ transplants|more difficult to carry out safely.', highlights: [], size: 27, media: {src: 'superbug/sb32_transplant.jpg', type: 'img', effect: 'panL'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But there is a critical detail|in the new report:', highlights: ['critical'], size: 28, media: {src: 'superbug/sb33_detail.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'But there is a critical detail|in the new report:', highlights: ['critical'], size: 28, media: {src: 'superbug/sb33_detail.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the CDC changed its methods|and data sources.', highlights: ['changed'], size: 29, media: {src: 'superbug/sb34_data.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'the CDC changed its methods|and data sources.', highlights: ['changed'], size: 29, media: {src: 'superbug/sb34_data.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That means the latest estimates|cannot be directly compared', highlights: [], size: 27, media: {src: 'superbug/sb35_compare.jpg', type: 'img', effect: 'in'}},
+  {dur: 120, kind: 'text', reveal: [2, 28], text: 'That means the latest estimates|cannot be directly compared', highlights: [], size: 27, media: {src: 'superbug/sb35_compare.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with the previous report as if the numbers|were measured in exactly the same way.', highlights: [], size: 24, media: {src: 'superbug/sb36_numbers.jpg', type: 'img', effect: 'panR'}},
+  {dur: 146, kind: 'text', reveal: [2, 28], text: 'with the previous report as if the numbers|were measured in exactly the same way.', highlights: [], size: 24, media: {src: 'superbug/sb36_numbers.jpg', type: 'img', effect: 'panR'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Still, experts warn that|antimicrobial resistance', highlights: [], size: 29, media: {src: 'superbug/sb37_expert.jpg', type: 'img', effect: 'in'}},
+  {dur: 119, kind: 'text', reveal: [2, 28], text: 'Still, experts warn that|antimicrobial resistance', highlights: [], size: 29, media: {src: 'superbug/sb37_expert.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'remains a serious|and growing concern.', highlights: ['growing'], size: 31, media: {src: 'superbug/sb38_growing.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'remains a serious|and growing concern.', highlights: ['growing'], size: 31, media: {src: 'superbug/sb38_growing.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So, are we doing enough to protect|the medicines that modern', highlights: [], size: 26, media: {src: 'superbug/sb39_medicine.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 28], text: 'So, are we doing enough to protect|the medicines that modern', highlights: [], size: 26, media: {src: 'superbug/sb39_medicine.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'healthcare depends on?', highlights: [], size: 32, media: {src: 'superbug/sb40_depend.jpg', type: 'img', effect: 'panL'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'healthcare depends on?', highlights: [], size: 32, media: {src: 'superbug/sb40_depend.jpg', type: 'img', effect: 'panL'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And should governments invest more|in developing new antibiotics', highlights: ['antibiotics'], size: 27, media: {src: 'superbug/sb41_research.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'And should governments invest more|in developing new antibiotics', highlights: ['antibiotics'], size: 27, media: {src: 'superbug/sb41_research.jpg', type: 'img', effect: 'in'}},
   // 42 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'before these superbugs become|even harder to treat?'},
+  {dur: 110, kind: 'impact', redBg: true, text: 'before these superbugs become|even harder to treat?'},
   // 43 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know what you think|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'superbug/sb43_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know what you think|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'superbug/sb43_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 214, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 857, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 2233, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 3483, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3536, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 388, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 881, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1795, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1941, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2661, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 4091, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 4201, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
