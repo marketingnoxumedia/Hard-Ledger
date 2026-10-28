@@ -6013,8 +6013,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   further?"). 46 beats, **3 stat cards — OVER 10,000 REPORTED CASES, NEARLY 5,000 DEATHS, 3 AFRICAN REGIONS**, 1 red
   impact, no black beat. **Captions match the VO verbatim** (except the number cards; spoken figures as numerals,
   with the repeat "more than 10,000 cases" kept inline as text so no card repeats a figure). Durations/reveals/SFX
-  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/ebola/voiceover.mp3`), **built at the house
-  +10% VO** (~144s / 2:24); its own tense, sombre documentary music bed. **First reel built with the house
+  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/ebola/voiceover.mp3`), **built at +21% VO**
+  (additional 10% on the house default; ~131s / 2:11); its own tense, sombre documentary music bed. **First reel built with the house
   VARIED CAPTION PLACEMENT convention** — captions are spread across the frame (upper/lower, left/right, corners),
   not all centered, with the hook and the comments CTA centered as anchors; placements are tuned to clear the
   top-left HUD label and the bottom-center logo. Entirely its own fresh footage under `public/ebola/` — no asset

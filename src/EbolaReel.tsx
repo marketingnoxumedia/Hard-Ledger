@@ -108,95 +108,95 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 90, kind: 'hook', reveal: [3, 40], text: 'A deadly Ebola outbreak|has spread across', kicker: 'The outbreak', highlights: ['ebola'], size: 34, media: {src: 'ebola/eb00_virus.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'hook', reveal: [3, 40], text: 'A deadly Ebola outbreak|has spread across', kicker: 'The outbreak', highlights: ['ebola'], size: 34, media: {src: 'ebola/eb00_virus.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 72, kind: 'text', reveal: [2], text: 'three regions of Africa,', highlights: ['africa,'], size: 40, pos: 'upperRight', media: {src: 'ebola/eb01_map.jpg', type: 'img', effect: 'panL'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'three regions of Africa,', highlights: ['africa,'], size: 40, pos: 'upperRight', media: {src: 'ebola/eb01_map.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 93, kind: 'text', reveal: [2, 28], text: 'and one of the continent’s|top health officials is warning', highlights: [], size: 32, pos: 'left', media: {src: 'ebola/eb02_official.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'and one of the continent’s|top health officials is warning', highlights: [], size: 32, pos: 'left', media: {src: 'ebola/eb02_official.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 65, kind: 'text', reveal: [2], text: 'that it could reach the UK.', highlights: ['uk.'], size: 38, pos: 'lowerRight', media: {src: 'ebola/eb03_border.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'that it could reach the UK.', highlights: ['uk.'], size: 38, pos: 'lowerRight', media: {src: 'ebola/eb03_border.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 49, kind: 'text', reveal: [2], text: 'The outbreak has already passed', highlights: [], size: 36, pos: 'upperLeft', media: {src: 'ebola/eb04_spread.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'The outbreak has already passed', highlights: [], size: 36, pos: 'upperLeft', media: {src: 'ebola/eb04_spread.jpg', type: 'img', effect: 'in'}},
   // 5 CARD 10,000
-  {dur: 57, kind: 'stat', stat: {pre: 'OVER', value: 10000, post: 'REPORTED CASES'}, media: {src: 'ebola/eb05_cases.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'stat', stat: {pre: 'OVER', value: 10000, post: 'REPORTED CASES'}, media: {src: 'ebola/eb05_cases.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 95, kind: 'text', reveal: [2, 28], text: 'But what makes this outbreak|especially alarming', highlights: ['alarming'], size: 33, pos: 'right', media: {src: 'ebola/eb06_alarm.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'But what makes this outbreak|especially alarming', highlights: ['alarming'], size: 33, pos: 'right', media: {src: 'ebola/eb06_alarm.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 94, kind: 'text', reveal: [2], text: 'is not just how deadly it is.', highlights: ['deadly'], size: 36, pos: 'lower', media: {src: 'ebola/eb07_deadly.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2], text: 'is not just how deadly it is.', highlights: ['deadly'], size: 36, pos: 'lower', media: {src: 'ebola/eb07_deadly.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It is how far|the virus has spread,', highlights: ['spread,'], size: 34, pos: 'upperRight', media: {src: 'ebola/eb08_global.jpg', type: 'img', effect: 'panR'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'It is how far|the virus has spread,', highlights: ['spread,'], size: 34, pos: 'upperRight', media: {src: 'ebola/eb08_global.jpg', type: 'img', effect: 'panR'}},
   // 9
-  {dur: 93, kind: 'text', reveal: [2, 28], text: 'and how difficult it is|becoming to contain.', highlights: ['contain.'], size: 34, pos: 'lowerLeft', media: {src: 'ebola/eb09_contain.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'and how difficult it is|becoming to contain.', highlights: ['contain.'], size: 34, pos: 'lowerLeft', media: {src: 'ebola/eb09_contain.jpg', type: 'img', effect: 'in'}},
   // 10 CTA early (3 lines)
-  {dur: 109, kind: 'text', reveal: [2, 12, 22], text: 'Follow for more major|health and science stories|that could affect the world.', highlights: ['follow'], size: 36, pos: 'upper', media: {src: 'ebola/eb10_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 12, 22], text: 'Follow for more major|health and science stories|that could affect the world.', highlights: ['follow'], size: 36, pos: 'upper', media: {src: 'ebola/eb10_follow.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 114, kind: 'text', reveal: [2, 28], text: 'The outbreak is being caused|by the Bundibugyo virus,', highlights: ['bundibugyo'], size: 32, pos: 'left', media: {src: 'ebola/eb11_strain.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'The outbreak is being caused|by the Bundibugyo virus,', highlights: ['bundibugyo'], size: 32, pos: 'left', media: {src: 'ebola/eb11_strain.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 60, kind: 'text', reveal: [2], text: 'a rare type of Ebola.', highlights: ['rare'], size: 40, pos: 'lowerRight', media: {src: 'ebola/eb12_rare.jpg', type: 'img', effect: 'panL'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'a rare type of Ebola.', highlights: ['rare'], size: 40, pos: 'lowerRight', media: {src: 'ebola/eb12_rare.jpg', type: 'img', effect: 'panL'}},
   // 13
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'It began in the Democratic|Republic of the Congo', highlights: [], size: 33, pos: 'upperLeft', media: {src: 'ebola/eb13_origin.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'It began in the Democratic|Republic of the Congo', highlights: [], size: 33, pos: 'upperLeft', media: {src: 'ebola/eb13_origin.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 111, kind: 'text', reveal: [2, 28], text: 'and has since spread to|Uganda, Kenya, and Nigeria.', highlights: [], size: 32, pos: 'right', media: {src: 'ebola/eb14_cross.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'text', reveal: [2, 28], text: 'and has since spread to|Uganda, Kenya, and Nigeria.', highlights: [], size: 32, pos: 'right', media: {src: 'ebola/eb14_cross.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 119, kind: 'text', reveal: [2, 28], text: 'Ebola can spread through direct contact|with the bodily fluids', highlights: [], size: 30, pos: 'center', media: {src: 'ebola/eb15_contact.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', reveal: [2, 28], text: 'Ebola can spread through direct contact|with the bodily fluids', highlights: [], size: 30, pos: 'center', media: {src: 'ebola/eb15_contact.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 122, kind: 'text', reveal: [2, 28], text: 'of an infected person,|including blood and vomit.', highlights: [], size: 33, pos: 'lowerLeft', media: {src: 'ebola/eb16_fluids.jpg', type: 'img', effect: 'in'}},
+  {dur: 111, kind: 'text', reveal: [2, 28], text: 'of an infected person,|including blood and vomit.', highlights: [], size: 33, pos: 'lowerLeft', media: {src: 'ebola/eb16_fluids.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 115, kind: 'text', reveal: [2, 28], text: 'According to The Guardian,|Africa CDC director general', highlights: [], size: 31, pos: 'upperRight', media: {src: 'ebola/eb17_report.jpg', type: 'img', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2, 28], text: 'According to The Guardian,|Africa CDC director general', highlights: [], size: 31, pos: 'upperRight', media: {src: 'ebola/eb17_report.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 147, kind: 'text', reveal: [2, 28], text: 'Jean Kaseya says the outbreak|has reached more than 10,000 cases,', highlights: [], size: 29, pos: 'left', media: {src: 'ebola/eb18_briefing.jpg', type: 'img', effect: 'in'}},
+  {dur: 134, kind: 'text', reveal: [2, 28], text: 'Jean Kaseya says the outbreak|has reached more than 10,000 cases,', highlights: [], size: 29, pos: 'left', media: {src: 'ebola/eb18_briefing.jpg', type: 'img', effect: 'in'}},
   // 19 CARD 5,000
-  {dur: 70, kind: 'stat', stat: {pre: 'NEARLY', value: 5000, post: 'DEATHS'}, media: {src: 'ebola/eb19_toll.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'stat', stat: {pre: 'NEARLY', value: 5000, post: 'DEATHS'}, media: {src: 'ebola/eb19_toll.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'He warned that the spread|is unprecedented,', highlights: ['unprecedented,'], size: 33, pos: 'lowerRight', media: {src: 'ebola/eb20_surge.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'He warned that the spread|is unprecedented,', highlights: ['unprecedented,'], size: 33, pos: 'lowerRight', media: {src: 'ebola/eb20_surge.jpg', type: 'img', effect: 'in'}},
   // 21 CARD 3
-  {dur: 105, kind: 'stat', stat: {value: 3, post: 'AFRICAN REGIONS'}, media: {src: 'ebola/eb21_regions.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'stat', stat: {value: 3, post: 'AFRICAN REGIONS'}, media: {src: 'ebola/eb21_regions.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 101, kind: 'text', reveal: [2, 28], text: 'France has also confirmed a case|in a doctor who returned', highlights: [], size: 30, pos: 'upperLeft', media: {src: 'ebola/eb22_france.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'France has also confirmed a case|in a doctor who returned', highlights: [], size: 30, pos: 'upperLeft', media: {src: 'ebola/eb22_france.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'from the Democratic|Republic of the Congo.', highlights: [], size: 33, pos: 'right', media: {src: 'ebola/eb23_return.jpg', type: 'img', effect: 'panR'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'from the Democratic|Republic of the Congo.', highlights: [], size: 33, pos: 'right', media: {src: 'ebola/eb23_return.jpg', type: 'img', effect: 'panR'}},
   // 24
-  {dur: 109, kind: 'text', reveal: [2, 28], text: 'And the response is facing|serious obstacles.', highlights: ['obstacles.'], size: 34, pos: 'upper', media: {src: 'ebola/eb24_response.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', reveal: [2, 28], text: 'And the response is facing|serious obstacles.', highlights: ['obstacles.'], size: 34, pos: 'upper', media: {src: 'ebola/eb24_response.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 128, kind: 'text', reveal: [2, 28], text: 'Health workers are dealing with|shortages of protective equipment,', highlights: [], size: 30, pos: 'lowerLeft', media: {src: 'ebola/eb25_ppe.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 28], text: 'Health workers are dealing with|shortages of protective equipment,', highlights: [], size: 30, pos: 'lowerLeft', media: {src: 'ebola/eb25_ppe.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 132, kind: 'text', reveal: [2, 28], text: 'unpaid wages, conflict,|and mistrust in affected communities.', highlights: ['mistrust'], size: 30, pos: 'left', media: {src: 'ebola/eb26_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 119, kind: 'text', reveal: [2, 28], text: 'unpaid wages, conflict,|and mistrust in affected communities.', highlights: ['mistrust'], size: 30, pos: 'left', media: {src: 'ebola/eb26_pressure.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'These challenges make it harder|to identify infections,', highlights: [], size: 32, pos: 'upperRight', media: {src: 'ebola/eb27_trace.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'These challenges make it harder|to identify infections,', highlights: [], size: 32, pos: 'upperRight', media: {src: 'ebola/eb27_trace.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 84, kind: 'text', reveal: [2, 28], text: 'isolate patients,|and stop transmission.', highlights: ['transmission.'], size: 34, pos: 'lowerRight', media: {src: 'ebola/eb28_isolate.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'isolate patients,|and stop transmission.', highlights: ['transmission.'], size: 34, pos: 'lowerRight', media: {src: 'ebola/eb28_isolate.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 127, kind: 'text', reveal: [2, 28], text: 'The virus could spread further|if countries are not prepared.', highlights: [], size: 32, pos: 'left', media: {src: 'ebola/eb29_further.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 28], text: 'The virus could spread further|if countries are not prepared.', highlights: [], size: 32, pos: 'left', media: {src: 'ebola/eb29_further.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'Kaseya is urging governments|around the world', highlights: [], size: 33, pos: 'upperRight', media: {src: 'ebola/eb30_world.jpg', type: 'img', effect: 'panL'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Kaseya is urging governments|around the world', highlights: [], size: 33, pos: 'upperRight', media: {src: 'ebola/eb30_world.jpg', type: 'img', effect: 'panL'}},
   // 31
-  {dur: 106, kind: 'text', reveal: [2, 28], text: 'to strengthen screening, testing,|and treatment readiness.', highlights: [], size: 31, pos: 'lowerLeft', media: {src: 'ebola/eb31_screen.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', reveal: [2, 28], text: 'to strengthen screening, testing,|and treatment readiness.', highlights: [], size: 31, pos: 'lowerLeft', media: {src: 'ebola/eb31_screen.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'He warns that countries|should not assume they are safe', highlights: [], size: 31, pos: 'right', media: {src: 'ebola/eb32_warn.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'He warns that countries|should not assume they are safe', highlights: [], size: 31, pos: 'right', media: {src: 'ebola/eb32_warn.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 140, kind: 'text', reveal: [2, 28], text: 'simply because the outbreak|is currently concentrated in Africa.', highlights: [], size: 29, pos: 'upperLeft', media: {src: 'ebola/eb33_concentrated.jpg', type: 'img', effect: 'in'}},
+  {dur: 127, kind: 'text', reveal: [2, 28], text: 'simply because the outbreak|is currently concentrated in Africa.', highlights: [], size: 29, pos: 'upperLeft', media: {src: 'ebola/eb33_concentrated.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 50, kind: 'text', reveal: [2, 28], text: 'But there is|an important distinction.', highlights: ['distinction.'], size: 34, pos: 'center', media: {src: 'ebola/eb34_nuance.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'But there is|an important distinction.', highlights: ['distinction.'], size: 34, pos: 'center', media: {src: 'ebola/eb34_nuance.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'Ebola has not been|reported in the UK.', highlights: ['uk.'], size: 35, pos: 'lower', media: {src: 'ebola/eb35_uk.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Ebola has not been|reported in the UK.', highlights: ['uk.'], size: 35, pos: 'lower', media: {src: 'ebola/eb35_uk.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 113, kind: 'text', reveal: [2, 28], text: 'The warning is about the possibility|of international spread,', highlights: [], size: 31, pos: 'upperRight', media: {src: 'ebola/eb36_possible.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'The warning is about the possibility|of international spread,', highlights: [], size: 31, pos: 'upperRight', media: {src: 'ebola/eb36_possible.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 73, kind: 'text', reveal: [2], text: 'not a confirmed outbreak there.', highlights: ['not'], size: 36, pos: 'left', media: {src: 'ebola/eb37_notruled.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'not a confirmed outbreak there.', highlights: ['not'], size: 36, pos: 'left', media: {src: 'ebola/eb37_notruled.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 147, kind: 'text', reveal: [2, 28], text: 'The Bundibugyo virus also|has no approved treatment,', highlights: ['treatment,'], size: 32, pos: 'lowerRight', media: {src: 'ebola/eb38_notreatment.jpg', type: 'img', effect: 'in'}},
+  {dur: 133, kind: 'text', reveal: [2, 28], text: 'The Bundibugyo virus also|has no approved treatment,', highlights: ['treatment,'], size: 32, pos: 'lowerRight', media: {src: 'ebola/eb38_notreatment.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 76, kind: 'text', reveal: [2, 28], text: 'although vaccine trials|are underway.', highlights: ['vaccine'], size: 36, pos: 'upperLeft', media: {src: 'ebola/eb39_vaccine.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'although vaccine trials|are underway.', highlights: ['vaccine'], size: 36, pos: 'upperLeft', media: {src: 'ebola/eb39_vaccine.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'So, should governments be preparing|for a possible', highlights: [], size: 31, pos: 'right', media: {src: 'ebola/eb40_prepare.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'So, should governments be preparing|for a possible', highlights: [], size: 31, pos: 'right', media: {src: 'ebola/eb40_prepare.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 60, kind: 'text', reveal: [2], text: 'international health emergency now,', highlights: ['emergency'], size: 32, pos: 'upper', media: {src: 'ebola/eb41_emergency.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'international health emergency now,', highlights: ['emergency'], size: 32, pos: 'upper', media: {src: 'ebola/eb41_emergency.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 117, kind: 'text', reveal: [2, 28], text: 'or is there a risk of|creating unnecessary panic?', highlights: ['panic?'], size: 33, pos: 'lowerLeft', media: {src: 'ebola/eb42_panic.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'or is there a risk of|creating unnecessary panic?', highlights: ['panic?'], size: 33, pos: 'lowerLeft', media: {src: 'ebola/eb42_panic.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 104, kind: 'text', reveal: [2, 28], text: 'And what should the world do|to help contain the outbreak', highlights: [], size: 31, pos: 'left', media: {src: 'ebola/eb43_help.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'And what should the world do|to help contain the outbreak', highlights: [], size: 31, pos: 'left', media: {src: 'ebola/eb43_help.jpg', type: 'img', effect: 'in'}},
   // 44 RED
-  {dur: 48, kind: 'impact', redBg: true, text: 'before it spreads|further?'},
+  {dur: 44, kind: 'impact', redBg: true, text: 'before it spreads|further?'},
   // 45 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 40, media: {src: 'ebola/eb45_comments.jpg', type: 'img', effect: 'in'}},
 ];
@@ -204,13 +204,13 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 369, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 778, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1772, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1925, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2201, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 4239, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 4287, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 336, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 707, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1611, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1750, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2001, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 3854, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3898, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
