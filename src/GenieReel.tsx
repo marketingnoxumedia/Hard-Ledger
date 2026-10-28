@@ -108,105 +108,103 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Google just upgraded|its AI technology', kicker: 'The world model', highlights: ['ai'], size: 34, media: {src: 'genie/gn00_ai.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'hook', reveal: [3, 40], text: 'Google just upgraded|its AI technology', kicker: 'The world model', highlights: ['ai'], size: 34, media: {src: 'genie/gn00_ai.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to create interactive|virtual worlds,', highlights: ['virtual'], size: 34, pos: 'upperRight', media: {src: 'genie/gn01_world.jpg', type: 'img', effect: 'panL'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'to create interactive|virtual worlds,', highlights: ['virtual'], size: 34, pos: 'upperRight', media: {src: 'genie/gn01_world.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and video game stocks|are feeling the pressure.', highlights: ['pressure.'], size: 32, pos: 'left', media: {src: 'genie/gn02_stocks.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'and video game stocks|are feeling the pressure.', highlights: ['pressure.'], size: 32, pos: 'left', media: {src: 'genie/gn02_stocks.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But is this the beginning|of a gaming revolution,', highlights: ['revolution,'], size: 32, pos: 'lowerRight', media: {src: 'genie/gn03_revolution.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'But is this the beginning|of a gaming revolution,', highlights: ['revolution,'], size: 32, pos: 'lowerRight', media: {src: 'genie/gn03_revolution.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or are investors getting|ahead of themselves?', highlights: [], size: 33, pos: 'upperLeft', media: {src: 'genie/gn04_investors.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'or are investors getting|ahead of themselves?', highlights: [], size: 33, pos: 'upperLeft', media: {src: 'genie/gn04_investors.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The new model can generate|realistic environments,', highlights: [], size: 32, pos: 'right', media: {src: 'genie/gn05_generate.jpg', type: 'img', effect: 'panR'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'The new model can generate|realistic environments,', highlights: [], size: 32, pos: 'right', media: {src: 'genie/gn05_generate.jpg', type: 'img', effect: 'panR'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'respond to your instructions in real time,|and even create sounds and dialogue.', highlights: [], size: 28, pos: 'lower', media: {src: 'genie/gn06_realtime.jpg', type: 'img', effect: 'in'}},
+  {dur: 156, kind: 'text', reveal: [2, 28], text: 'respond to your instructions in real time,|and even create sounds and dialogue.', highlights: [], size: 28, pos: 'lower', media: {src: 'genie/gn06_realtime.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And that raises|a big question:', highlights: [], size: 36, pos: 'upperRight', media: {src: 'genie/gn07_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'And that raises|a big question:', highlights: [], size: 36, pos: 'upperRight', media: {src: 'genie/gn07_question.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could AI eventually change|how video games are made?', highlights: ['ai'], size: 32, pos: 'lowerLeft', media: {src: 'genie/gn08_change.jpg', type: 'img', effect: 'in'}},
+  {dur: 129, kind: 'text', reveal: [2, 28], text: 'could AI eventually change|how video games are made?', highlights: ['ai'], size: 32, pos: 'lowerLeft', media: {src: 'genie/gn08_change.jpg', type: 'img', effect: 'in'}},
   // 9 CTA early (3 lines)
-  {dur: 70, kind: 'text', reveal: [2, 12, 22], text: 'Follow for more gaming|and technology news|that could reshape the industry.', highlights: ['follow'], size: 36, pos: 'upper', media: {src: 'genie/gn09_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 200, kind: 'text', reveal: [2, 12, 22], text: 'Follow for more gaming|and technology news|that could reshape the industry.', highlights: ['follow'], size: 36, pos: 'upper', media: {src: 'genie/gn09_follow.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Google DeepMind’s latest world model|is called Genie 4.', highlights: ['genie'], size: 30, pos: 'left', media: {src: 'genie/gn10_genie.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'Google DeepMind’s latest world model|is called Genie 4.', highlights: ['genie'], size: 30, pos: 'left', media: {src: 'genie/gn10_genie.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Unlike traditional AI video generators|that create clips you simply watch,', highlights: ['watch,'], size: 28, pos: 'lowerRight', media: {src: 'genie/gn11_clips.jpg', type: 'img', effect: 'in'}},
+  {dur: 138, kind: 'text', reveal: [2, 28], text: 'Unlike traditional AI video generators|that create clips you simply watch,', highlights: ['watch,'], size: 28, pos: 'lowerRight', media: {src: 'genie/gn11_clips.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a world model generates an environment|you can explore and interact with.', highlights: ['explore'], size: 28, pos: 'upperLeft', media: {src: 'genie/gn12_explore.jpg', type: 'img', effect: 'in'}},
+  {dur: 143, kind: 'text', reveal: [2, 28], text: 'a world model generates an environment|you can explore and interact with.', highlights: ['explore'], size: 28, pos: 'upperLeft', media: {src: 'genie/gn12_explore.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'You can move through the scene,|change the weather,', highlights: [], size: 31, pos: 'right', media: {src: 'genie/gn13_weather.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'You can move through the scene,|change the weather,', highlights: [], size: 31, pos: 'right', media: {src: 'genie/gn13_weather.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'adjust the camera, or introduce|new characters using text prompts.', highlights: [], size: 29, pos: 'lowerLeft', media: {src: 'genie/gn14_prompt.jpg', type: 'img', effect: 'in'}},
+  {dur: 123, kind: 'text', reveal: [2, 28], text: 'adjust the camera, or introduce|new characters using text prompts.', highlights: [], size: 29, pos: 'lowerLeft', media: {src: 'genie/gn14_prompt.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The new model builds on|Genie 3,', highlights: ['genie'], size: 33, pos: 'upperRight', media: {src: 'genie/gn15_build.jpg', type: 'img', effect: 'panL'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'The new model builds on|Genie 3,', highlights: ['genie'], size: 33, pos: 'upperRight', media: {src: 'genie/gn15_build.jpg', type: 'img', effect: 'panL'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'which previously sparked concerns|among gaming investors.', highlights: ['concerns'], size: 30, pos: 'left', media: {src: 'genie/gn16_concerns.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 28], text: 'which previously sparked concerns|among gaming investors.', highlights: ['concerns'], size: 30, pos: 'left', media: {src: 'genie/gn16_concerns.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Genie 4 adds more realistic physics,|more natural looking characters,', highlights: ['physics,'], size: 28, pos: 'lowerRight', media: {src: 'genie/gn17_physics.jpg', type: 'img', effect: 'in'}},
+  {dur: 140, kind: 'text', reveal: [2, 28], text: 'Genie 4 adds more realistic physics,|more natural looking characters,', highlights: ['physics,'], size: 28, pos: 'lowerRight', media: {src: 'genie/gn17_physics.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and native audio, including ambient|sounds, music, and interactive dialogue.', highlights: [], size: 28, pos: 'center', media: {src: 'genie/gn18_audio.jpg', type: 'img', effect: 'in'}},
+  {dur: 153, kind: 'text', reveal: [2, 28], text: 'and native audio, including ambient|sounds, music, and interactive dialogue.', highlights: [], size: 28, pos: 'center', media: {src: 'genie/gn18_audio.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It can also maintain|a consistent scene for', highlights: [], size: 32, pos: 'upperLeft', media: {src: 'genie/gn19_consistent.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'It can also maintain|a consistent scene for', highlights: [], size: 32, pos: 'upperLeft', media: {src: 'genie/gn19_consistent.jpg', type: 'img', effect: 'in'}},
   // 20 CARD 2 MINUTES
-  {dur: 70, kind: 'stat', stat: {pre: 'UP TO', value: 2, post: 'MINUTES PER SCENE'}, media: {src: 'genie/gn20_duration.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'stat', stat: {pre: 'UP TO', value: 2, post: 'MINUTES PER SCENE'}, media: {src: 'genie/gn20_duration.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'according to reporting|by TechCrunch.', highlights: [], size: 33, pos: 'right', media: {src: 'genie/gn21_report.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'according to reporting|by TechCrunch.', highlights: [], size: 33, pos: 'right', media: {src: 'genie/gn21_report.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That is what has|investors worried.', highlights: ['worried.'], size: 34, pos: 'lowerLeft', media: {src: 'genie/gn22_worried.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'text', reveal: [2, 28], text: 'That is what has|investors worried.', highlights: ['worried.'], size: 34, pos: 'lowerLeft', media: {src: 'genie/gn22_worried.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'If AI can generate virtual|environments on demand,', highlights: ['demand,'], size: 31, pos: 'upperRight', media: {src: 'genie/gn23_ondemand.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'If AI can generate virtual|environments on demand,', highlights: ['demand,'], size: 31, pos: 'upperRight', media: {src: 'genie/gn23_ondemand.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could it eventually reduce the time|and money required to build games?', highlights: ['money'], size: 29, pos: 'left', media: {src: 'genie/gn24_cost.jpg', type: 'img', effect: 'in'}},
+  {dur: 130, kind: 'text', reveal: [2, 28], text: 'could it eventually reduce the time|and money required to build games?', highlights: ['money'], size: 29, pos: 'left', media: {src: 'genie/gn24_cost.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The technology could also change how|developers create prototypes,', highlights: [], size: 29, pos: 'lowerRight', media: {src: 'genie/gn25_prototype.jpg', type: 'img', effect: 'in'}},
+  {dur: 128, kind: 'text', reveal: [2, 28], text: 'The technology could also change how|developers create prototypes,', highlights: [], size: 29, pos: 'lowerRight', media: {src: 'genie/gn25_prototype.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'test ideas, and design|interactive stories.', highlights: [], size: 32, pos: 'upper', media: {src: 'genie/gn26_design.jpg', type: 'img', effect: 'in'}},
+  {dur: 118, kind: 'text', reveal: [2, 28], text: 'test ideas, and design|interactive stories.', highlights: [], size: 32, pos: 'upper', media: {src: 'genie/gn26_design.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But there is|a major limitation.', highlights: ['limitation.'], size: 35, pos: 'center', media: {src: 'genie/gn27_limit.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'But there is|a major limitation.', highlights: ['limitation.'], size: 35, pos: 'center', media: {src: 'genie/gn27_limit.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Genie 4 is still|a research preview,', highlights: ['preview,'], size: 33, pos: 'lowerLeft', media: {src: 'genie/gn28_preview.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'Genie 4 is still|a research preview,', highlights: ['preview,'], size: 33, pos: 'lowerLeft', media: {src: 'genie/gn28_preview.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and its generated worlds|can lose consistency over time.', highlights: ['consistency'], size: 30, pos: 'upperRight', media: {src: 'genie/gn29_lose.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'and its generated worlds|can lose consistency over time.', highlights: ['consistency'], size: 30, pos: 'upperRight', media: {src: 'genie/gn29_lose.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It does not yet provide|the complex systems needed', highlights: [], size: 31, pos: 'left', media: {src: 'genie/gn30_systems.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'It does not yet provide|the complex systems needed', highlights: [], size: 31, pos: 'left', media: {src: 'genie/gn30_systems.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for a full commercial game,|such as persistent progression,', highlights: [], size: 29, pos: 'right', media: {src: 'genie/gn31_commercial.jpg', type: 'img', effect: 'in'}},
+  {dur: 120, kind: 'text', reveal: [2, 28], text: 'for a full commercial game,|such as persistent progression,', highlights: [], size: 29, pos: 'right', media: {src: 'genie/gn31_commercial.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'multiplayer infrastructure,|and reliable game logic.', highlights: [], size: 31, pos: 'lowerRight', media: {src: 'genie/gn32_logic.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'text', reveal: [2, 28], text: 'multiplayer infrastructure,|and reliable game logic.', highlights: [], size: 31, pos: 'lowerRight', media: {src: 'genie/gn32_logic.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And analysts are divided|on what this means', highlights: ['divided'], size: 32, pos: 'upperLeft', media: {src: 'genie/gn33_divided.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'And analysts are divided|on what this means', highlights: ['divided'], size: 32, pos: 'upperLeft', media: {src: 'genie/gn33_divided.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'for established gaming companies.', highlights: [], size: 32, pos: 'lower', media: {src: 'genie/gn34_companies.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'for established gaming companies.', highlights: [], size: 32, pos: 'lower', media: {src: 'genie/gn34_companies.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Some see AI as a potential threat|to traditional development.', highlights: ['threat'], size: 29, pos: 'left', media: {src: 'genie/gn35_threat.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 28], text: 'Some see AI as a potential threat|to traditional development.', highlights: ['threat'], size: 29, pos: 'left', media: {src: 'genie/gn35_threat.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Others argue that tools like Genie 4|could help studios create games faster', highlights: [], size: 27, pos: 'upperRight', media: {src: 'genie/gn36_faster.jpg', type: 'img', effect: 'in'}},
+  {dur: 154, kind: 'text', reveal: [2, 28], text: 'Others argue that tools like Genie 4|could help studios create games faster', highlights: [], size: 27, pos: 'upperRight', media: {src: 'genie/gn36_faster.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'rather than|replace them.', highlights: ['replace'], size: 36, pos: 'lowerLeft', media: {src: 'genie/gn37_replace.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: 'rather than|replace them.', highlights: ['replace'], size: 36, pos: 'lowerLeft', media: {src: 'genie/gn37_replace.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'For now, Google has not announced|that Genie 4 is a replacement', highlights: [], size: 28, pos: 'right', media: {src: 'genie/gn38_notyet.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'text', reveal: [2, 28], text: 'For now, Google has not announced|that Genie 4 is a replacement', highlights: [], size: 28, pos: 'right', media: {src: 'genie/gn38_notyet.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for game engines or|professional game development.', highlights: [], size: 31, pos: 'upper', media: {src: 'genie/gn39_engine.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', reveal: [2, 28], text: 'for game engines or|professional game development.', highlights: [], size: 31, pos: 'upper', media: {src: 'genie/gn39_engine.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So, could AI eventually let anyone|create their own game with just a prompt?', highlights: ['prompt?'], size: 27, pos: 'left', media: {src: 'genie/gn40_anyone.jpg', type: 'img', effect: 'in'}},
+  {dur: 157, kind: 'text', reveal: [2, 28], text: 'So, could AI eventually let anyone|create their own game with just a prompt?', highlights: ['prompt?'], size: 27, pos: 'left', media: {src: 'genie/gn40_anyone.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Or will the best games still|depend on human creativity', highlights: ['creativity'], size: 30, pos: 'upperRight', media: {src: 'genie/gn41_human.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 28], text: 'Or will the best games still|depend on human creativity', highlights: ['creativity'], size: 30, pos: 'upperRight', media: {src: 'genie/gn41_human.jpg', type: 'img', effect: 'in'}},
   // 42 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'and traditional|development?'},
+  {dur: 48, kind: 'impact', redBg: true, text: 'and traditional|development?'},
   // 43 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know what you think|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'genie/gn43_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know what you think|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'genie/gn43_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 336, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 707, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1611, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1750, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2001, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 3854, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3898, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 838, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2165, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2260, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 4370, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 4418, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
