@@ -5953,6 +5953,53 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   the evacuation-route / roadblock imagery recurs by design (it IS "the corridor"). Editorial framing is the
   client's.
 
+- **`SuperbugReel`** — "The superbugs" (health/science-news reel, Hard Ledger VISUAL style). Topic: **the CDC
+  warns that drug-resistant "superbugs" (antimicrobial resistance) threaten millions of Americans — its latest
+  assessment estimates ~9.7 million infections and 50,800 deaths a year from 19 drug-resistant pathogens, names four
+  "urgent threats," and flags the fungus Candida auris (reportedly up ~tenfold since 2019).** Antibiotics/antifungals
+  lose effect as bacteria and fungi develop resistance, turning routine infections serious and making surgery,
+  cancer care and transplants riskier. **BUILT VERBATIM from a client-supplied script in the influencer
+  "curiosity-gap" format (like `SurvivorReel` / `MetaReel` / `SteamReel` / `UniteReel` / `AmocReel` /
+  `CorridorReel`), NOT the faceless house voice** — it NAMES the CDC / Candida auris, uses an EARLY "follow for
+  more" CTA, and CLOSES on a "let us know what you think in the comments" debate CTA. The red beat poses the
+  would-you-rather (invest more in new antibiotics "before these superbugs become even harder to treat?"). 44 beats,
+  **3 stat cards — NEARLY 10 MILLION INFECTIONS A YEAR, 50,800 DEATHS A YEAR, 4 URGENT THREATS**, 1 red impact, no
+  black beat. **Captions match the VO verbatim** (except the number cards; spoken figures as numerals, with the
+  precise "9.7 million" / "19 pathogens" kept inline as text so no card repeats a figure, and the "2019" year
+  without a comma). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/superbug/voiceover.mp3`), **built at the house +10% VO** (~142s / 2:22); its own tense, clinical
+  science-documentary music bed. Entirely its own fresh footage under `public/superbug/` — no asset shared with any
+  other reel. **New STANDALONE reel; a health/science-news story (a first for the set).** Media credits (Pexels,
+  free license) — all stills: a dark gloved petri dish (9259938), a red SEM microbe (3992930), a blurred overhead
+  crowd (31703899), a blank edge-on paper stack (4038653), a green SEM virus on black (3992943), an aerial of
+  anonymous suburbs (12759009), an abstract amber glow (1581186), a mold macro (4195523), a hand with a
+  blank-screen phone (4910129), generic unmarked white pills (3683079), an angled agar plate (8940360), a
+  rod-shaped microbe micrograph (8740297), blank clear vials (5922066), a lab microscope (13949979), an empty
+  hospital room (11782003), a blank edge-on document (6077600), a 3D microbial-colony render (11516492), lab
+  glassware with gloved hands (9243559), a single candle in darkness (695644), a text-free medical clipboard
+  (7723510), red ink/smoke on black (7577820), a fungal/yeast colony macro (8741786), red blood-cell forms
+  (5149400), an empty vintage hospital ward (8410648), an upward arrow of wooden discs (6206451), an abstract
+  resistance/plate visual (6184461), generic antibiotic capsules (31406899), a pathogen-cell micrograph (7542650),
+  a dark ominous abstract (2420164), a lone pill / near-empty blister (12672390), a hospital exterior/corridor
+  (7224921), surgical instruments on a tray (19814026), a medical transport cooler (5922051), a magnifying glass
+  over a surface (7788345), abstract falling-glyph data streams (1089438), a balance scale (267950), an abstract
+  out-of-focus bokeh field (19969626), a podium microphone / faceless expert (6949336), a spreading culture
+  (4031366), a blurred pharmacy shelf (360622), an IV drip / medical equipment (23532633), research pipettes with
+  gloved hands (8540033), and generic paper speech bubbles (1111370). No generated graphics this reel.
+  **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE (hands / gloved hands /
+  silhouettes / distant blurred crowds / objects / lab imagery only), and — despite citing the CDC — free of any
+  CDC/agency logo, any pharma brand name, pill imprint or readable drug/vial/bottle label, readable document or
+  chart text, screen/app UI, a real registered biohazard logo, flags, identifiable hospital signage, and
+  identifiable people/patients. The three sourcing agents rejected a pile under View-QA: COVID-19-labeled ampoules
+  and GOST/Cyrillic-etched tubes, phage product packaging, a police light-bar, a blood-bag with a Red Cross mark,
+  hospital "EMERGENCY/SALIDA/Avenues Clinic" signage, cartoon "BACTERIA"/"DREAM"/"DON'T PANIC" text art, a Lady
+  Justice statue, readable spreadsheets/code, and several identifiable faces/patients; one md5 collision between two
+  agents' microbe picks was re-sourced. **UNVERIFIED / SENSITIVE — cites a real agency (the CDC) and specific
+  figures (~9.7M infections; 50,800 deaths; 19 pathogens; 4 urgent threats; Candida auris up ~tenfold since 2019);
+  rendered as written but MUST be fact-checked against the actual CDC report before publishing.** The reel itself
+  preserves the script's caveat (the CDC changed its methods and data sources, so the new estimates are NOT directly
+  comparable with the previous report); the "are we doing enough" framing is editorial analysis.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
