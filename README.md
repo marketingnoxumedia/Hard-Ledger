@@ -6057,6 +6057,56 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Bundibugyo strain has no approved treatment, though vaccine trials are underway). The "should governments prepare
   now vs. risk of panic" framing is the script’s editorial debate.
 
+- **`GenieReel`** — "The world model" (tech / gaming-news reel, Hard Ledger VISUAL style). Topic: **Google
+  DeepMind’s new AI "world model," Genie 4, can generate interactive virtual environments you explore and change in
+  real time (weather, camera, characters via text prompts) with native audio — and video-game stocks are feeling
+  the pressure.** Genie 4 builds on Genie 3, adds more realistic physics / natural characters / native audio, and
+  (per *TechCrunch*) can hold a consistent scene for up to two minutes. It is still a research preview whose worlds
+  can lose consistency and which lacks the systems a full commercial game needs (persistent progression, multiplayer
+  infrastructure, reliable logic); analysts are divided on whether it threatens or helps studios. **BUILT VERBATIM
+  from a client-supplied script in the influencer "curiosity-gap" format (like `SuperbugReel` / `AmocReel` /
+  `CorridorReel` / `EbolaReel`), NOT the faceless house voice** — it NAMES Google DeepMind / Genie 4 / TechCrunch,
+  uses an EARLY "follow for more" CTA, and CLOSES on a "let us know what you think in the comments" debate CTA. The
+  red beat poses the would-you-rather (will the best games still depend on human creativity "and traditional
+  development?"). 44 beats, **1 stat card — UP TO 2 MINUTES PER SCENE**, 1 red impact, no black beat. **Captions
+  match the VO verbatim** (Genie 4 / Genie 3 rendered as numerals, like a year). Durations/reveals/SFX locked to the
+  VO via a scribe_v1 word-timestamp anchor pass (`public/genie/voiceover.mp3`), **built at the house +10% VO**
+  (~149s / 2:29); its own UPBEAT, driving electronic-tech music bed (mixed a touch louder at 0.20). **Varied caption
+  placement** per the house convention (spread across the frame, hook + CTA centered). Entirely its own fresh
+  footage under `public/genie/` — no asset shared with any other reel. **New STANDALONE reel; a tech / gaming-news
+  story.** Media credits (Pexels, free license) — all stills: a blue translucent brain/AI abstract (17483869), a 3D
+  purple terrain (13568045), red descending streaks (13369703), a dark gamepad macro (14205160), a blue neon data
+  grid (8108679), gold particles forming (9665179), car light trails (4808114), forking forest paths (29389348), red
+  ink morphing in water (7577827), a hand with a blank-screen phone at night (8176115), a glowing glass orb
+  (14636418), a film strip in a red darkroom (7206410), a tunnel vortex (18631428), storm clouds over the sea
+  (12306604), a red backlit keyboard (249203), 3D geometric cubes (29738258), a shattering red crystal (13327877),
+  metal gear teeth (8327690), a wave-streak audio visualizer (6741002), a teal glowing grid (30175347), a gold
+  pocket watch (2922718), a blank sheet of paper (4207708), a red glow behind wire mesh (5150178), light rings
+  assembling (29652325), a wooden hourglass with blue sand (4061722), a blue wireframe sculpture (35050389),
+  interlocking cube frames (28887851), a black brick wall (12998755), lab glassware under blue light (8533037), a
+  glitch/static corruption (9817422), a B&W circuit board (3520697), a generic red arcade joystick (29702648),
+  interconnected node spheres (25626516), cracked earth split by a fissure (6927065), a generic glass office tower
+  (2914759), a white humanoid-robot render (8294630), red speed streaks (8537031), an empty red chair (11161257), a
+  single raised hand (8569752), machine gears (31742337), a hand typing on a keyboard (28993078), a hand reaching
+  toward a ring light (3244608), and a cluster of 3D speech bubbles (31418369). No generated graphics this reel.
+  **Brand-safety (screened hard at source and from the FINAL render):** FACE-FREE (hands / silhouettes / renders /
+  objects / abstracts only), and — despite naming Google DeepMind / Genie / TechCrunch — free of any Google /
+  DeepMind / TechCrunch logo or wordmark, any real GAME IP (no recognizable game characters, screenshots, box art,
+  or worlds), any console/platform brand (no PlayStation / Xbox / Nintendo / Steam marks or branded controllers),
+  readable text / code / stock tickers, screen UI, flags, identifiable currency, and landmarks. The three sourcing
+  agents rejected a large pile under View-QA: PlayStation-branded controllers, an ASUS ROG keyboard, an Apple iMac /
+  iPhone (logo), an arcade bar full of game IP + liquor brands (Guitar Hero / Aliens Armageddon / Stoli), a Pac-Man
+  panel, a fightstick with button-mapping text, a HEUER watch wordmark, an SPX/WTI stock ticker, readable "OUTPUT
+  [V2]" / Cyrillic / street signage, and crowds/hands with visible faces. (Two of the agents’ picks collided on the
+  whole-repo dedup with `SurvivorReel` and a `field` reel — the hook AI visual and the follow-CTA phone — and were
+  re-sourced to the current clean ids 17483869 and 8176115. The circuit board / gears / keyboard carry only ambient
+  micro part-marks and key legends, no readable message.) **UNVERIFIED — cites Google DeepMind, Genie 4, Genie 3,
+  the "up to two minutes" figure, and TechCrunch; rendered as written but MUST be fact-checked against primary
+  sources before publishing.** The reel preserves the script’s own caveats (Genie 4 is a research preview, its
+  worlds lose consistency, and Google has NOT announced it as a replacement for game engines or professional game
+  development); the "could anyone make a game with just a prompt vs. human creativity" framing is the script’s
+  editorial debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
