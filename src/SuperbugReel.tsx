@@ -123,7 +123,7 @@ const SCENES: SceneDef[] = [
   // 7
   {dur: 130, kind: 'text', reveal: [2, 28], text: 'is a fungus that has spread|rapidly through healthcare facilities.', highlights: ['fungus'], size: 33, media: {src: 'superbug/sb07_fungus.jpg', type: 'img', effect: 'in'}},
   // 8 CTA early
-  {dur: 141, kind: 'text', reveal: [2, 28], text: 'Follow for more health and science stories|that could affect your everyday life.', highlights: ['follow'], size: 32, media: {src: 'superbug/sb08_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 141, kind: 'text', reveal: [2, 12, 22, 32], text: 'Follow for more|health and science stories|that could affect|your everyday life.', highlights: ['follow'], size: 42, media: {src: 'superbug/sb08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
   {dur: 121, kind: 'text', reveal: [2, 28], text: 'Antibiotics and antifungal medicines|are designed to kill germs', highlights: [], size: 33, media: {src: 'superbug/sb09_pills.jpg', type: 'img', effect: 'panL'}},
   // 10
@@ -179,7 +179,7 @@ const SCENES: SceneDef[] = [
   // 35
   {dur: 109, kind: 'text', reveal: [2, 28], text: 'That means the latest estimates|cannot be directly compared', highlights: [], size: 33, media: {src: 'superbug/sb35_compare.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 132, kind: 'text', reveal: [2, 28], text: 'with the previous report as if the numbers|were measured in exactly the same way.', highlights: [], size: 29, media: {src: 'superbug/sb36_numbers.jpg', type: 'img', effect: 'panR'}},
+  {dur: 132, kind: 'text', reveal: [2, 12, 22, 32], text: 'with the previous report|as if the numbers|were measured in|exactly the same way.', highlights: [], size: 40, media: {src: 'superbug/sb36_numbers.jpg', type: 'img', effect: 'panR'}},
   // 37
   {dur: 108, kind: 'text', reveal: [2, 28], text: 'Still, experts warn that|antimicrobial resistance', highlights: [], size: 35, media: {src: 'superbug/sb37_expert.jpg', type: 'img', effect: 'in'}},
   // 38
