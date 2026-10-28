@@ -65,6 +65,25 @@ Each entry: `{dur, kind, ...}`. `dur` is in frames. Kinds:
 red (keep it to ONE concept per scene). `media` omitted ⇒ solid black beat.
 `enter` on any scene adds an entrance transition.
 
+**Varied caption placement (house preference — do this on EVERY reel from here on).**
+The client asked that captions NOT all sit dead-center. Spread them across the
+frame: upper-left, upper-right, lower-left, lower-right, left, right, upper, lower,
+and center — vary beat to beat so the text moves around as the reel plays. Keep the
+HOOK and the final comments/question CTA centered as anchors; vary the rest. Two
+hard constraints: never collide with the **top-left HUD brand label** (so upper-left
+captions sit a bit lower, ~top 300px) or the **bottom-center logo + progress bar**
+(so keep lower captions to the lower-LEFT/RIGHT, never lower-center). Side
+placements are left/right-aligned to match their side.
+
+Implementation (already built in `src/SuperbugReel.tsx` — clone from that reel, or
+port these): add `pos?: 'center'|'upper'|'lower'|'left'|'right'|'upperLeft'|'upperRight'|'lowerLeft'|'lowerRight'`
+to `SceneDef`; a `POS` map of `{jc, ai, al, pt, pb}` (justify/align/caption-align +
+top/bottom padding that clears the HUD and logo); `SceneText` reads `pos` and wraps
+the `Caption` in a `maxWidth: 740` box for side placements; `Caption`'s `align`
+supports `'flex-end'` (right-align). Assign a `pos` to each `text` beat for a
+good spread. Verify a few corner beats from the render to confirm no HUD/logo
+overlap before finalizing.
+
 `DURATION_IN_FRAMES` is derived from the sum of `dur`s — no need to set it.
 
 **Media-dense mix (house preference — do this every reel).** The client asked for
