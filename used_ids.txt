@@ -3861,7 +3861,7 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 6206451 superbug/sb24_rise.jpg
 6184461 superbug/sb25_resistant.jpg
 31406899 superbug/sb26_antibiotic.jpg
-7542650 superbug/sb27_cells.jpg
+10448365 superbug/sb27_cells.jpg
 2420164 superbug/sb28_danger.jpg
 12672390 superbug/sb29_options.jpg
 7224921 superbug/sb30_hospital.jpg

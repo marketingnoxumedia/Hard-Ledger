@@ -5979,7 +5979,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   glassware with gloved hands (9243559), a single candle in darkness (695644), a text-free medical clipboard
   (7723510), red ink/smoke on black (7577820), a fungal/yeast colony macro (8741786), red blood-cell forms
   (5149400), an empty vintage hospital ward (8410648), an upward arrow of wooden discs (6206451), an abstract
-  resistance/plate visual (6184461), generic antibiotic capsules (31406899), a pathogen-cell micrograph (7542650),
+  resistance/plate visual (6184461), generic antibiotic capsules (31406899), a rod-shaped bacteria micrograph (10448365),
   a dark ominous abstract (2420164), a lone pill / near-empty blister (12672390), a hospital exterior/corridor
   (7224921), surgical instruments on a tray (19814026), a medical transport cooler (5922051), a magnifying glass
   over a surface (7788345), abstract falling-glyph data streams (1089438), a balance scale (267950), an abstract
