@@ -171,6 +171,7 @@ import {AmocReel, DURATION_IN_FRAMES as AMOC_FRAMES} from './AmocReel';
 import {CorridorReel, DURATION_IN_FRAMES as CORRIDOR_FRAMES} from './CorridorReel';
 import {SuperbugReel, DURATION_IN_FRAMES as SUPERBUG_FRAMES} from './SuperbugReel';
 import {EbolaReel, DURATION_IN_FRAMES as EBOLA_FRAMES} from './EbolaReel';
+import {GenieReel, DURATION_IN_FRAMES as GENIE_FRAMES} from './GenieReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1546,6 +1547,14 @@ export const RemotionRoot: React.FC = () => {
         id="EbolaReel"
         component={EbolaReel}
         durationInFrames={EBOLA_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="GenieReel"
+        component={GenieReel}
+        durationInFrames={GENIE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
