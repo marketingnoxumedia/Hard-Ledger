@@ -88,7 +88,7 @@ type SceneDef = {
 // client's standing choice is "build verbatim." The red beat poses the would-you-rather (stepping stone to peace?).
 // 39 beats. 1 stat card: AROUND 2,000 CIVILIANS TRAPPED. 1 red impact, no black beat. Captions match the VO
 // verbatim (except the number card; spoken figures as numerals). Durations/reveals/SFX locked to the VO via a
-// scribe_v1 word-timestamp anchor pass (public/ebola/voiceover.mp3, NO inserted pause); music mixed at 0.17.
+// scribe_v1 word-timestamp anchor pass (public/ebola/voiceover.mp3, NO inserted pause); music mixed at 0.32 (raised from 0.17 for audibility).
 // Built at the house +10% pacing default. OWN distinct footage under public/ebola/, NO reuse of any other reel's
 // clips — ledger-checked.
 // New STANDALONE reel; a world-news story (a departure from the finance/gaming/science reels). Card text is
@@ -513,7 +513,7 @@ export const EbolaReel: React.FC = () => {
       {HAS_VOICEOVER ? <Audio src={staticFile('ebola/voiceover.mp3')} /> : null}
       <Audio
         src={staticFile('ebola/music.mp3')}
-        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.17, 0.17, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
+        volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.32, 0.32, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       {SFX.map((s, i) => (
         <Sequence key={`sfx${i}`} from={s.at} durationInFrames={60} name={`sfx-${i}`}>
