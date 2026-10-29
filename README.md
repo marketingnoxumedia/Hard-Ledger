@@ -6107,6 +6107,56 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   development); the "could anyone make a game with just a prompt vs. human creativity" framing is the script’s
   editorial debate.
 
+- **`ChipReel`** — "The chip selloff" (finance / tech-news reel, Hard Ledger VISUAL style). Topic: **the biggest
+  chip stocks — Intel, AMD, Broadcom, Micron — fell on AI-capex fears, after a disappointing Samsung earnings
+  signal and below-forecast spending from Microsoft and Alphabet.** The AI boom runs on compute, so chipmakers
+  depend on how much the big cloud companies spend; when Microsoft (~$45.2B capex vs ~$50.7B expected) and Alphabet
+  (~$51.4B vs ~$55.1B) came in light, Micron and Intel fell >3% overnight and AMD/Broadcom ~3%. Intel and Amazon
+  earnings are next; bulls counter that tens of billions are still being spent and investors are just getting more
+  selective. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (like
+  `GenieReel` / `EbolaReel` / `SuperbugReel`), NOT the faceless house voice** — it NAMES the chipmakers / Microsoft /
+  Alphabet / Samsung, uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments" debate CTA.
+  The red beat poses the would-you-rather (a buying opportunity "or a sign to be cautious?"). 46 beats, **3 stat
+  cards — MICROSOFT CAPEX $45.2B (below forecast), ALPHABET CAPEX $51.4B (below forecast), MICRON & INTEL –3%
+  OVERNIGHT**, 1 red impact, no black beat. **Captions match the VO verbatim** (the estimates $50.7B / $55.1B and
+  the AMD/Broadcom 3% render inline as numeral text so no card repeats a figure). Durations/reveals/SFX locked to
+  the VO via a scribe_v1 word-timestamp anchor pass (`public/chip/voiceover.mp3`), **built at the house +10% VO**
+  (~164s / 2:44); its own tense, driving finance-news music bed (mixed at 0.20). **Varied caption placement** per the
+  house convention (hook + CTA centered). Entirely its own fresh footage under `public/chip/` — no asset shared with
+  any other reel. **New STANDALONE reel; a finance / semiconductor-market story.** Media credits (Pexels, free
+  license) — all stills: red downtrend candlesticks (38877607), an AI/circuitry render (30547577), a B&W microchip
+  macro (6477216), a red data-matrix glow (30547576), a red piggy bank (6052014), a hand with a question-mark cutout
+  (10981240), blurred coins + a money box (6534323), red declining candlesticks (39398847), a hand with a
+  blank-screen phone (6612379), data-center fiber connectors (5354507), a dark semiconductor macro (36169778), a
+  blue data-center patch panel (4682187), a RAM gold-contact edge (19693216), a glowing blue data-stream (12489187),
+  a rising green chart (39353383), a red candlestick drop (5831529), generic glass skyscrapers (2908977), gold bokeh
+  on black (35225819), a defocused trading tablet (5831510), a glowing fiber-optic burst (14482085), gold bokeh on
+  dark (37282090), a blurred forecast tablet (5831515), red smoke on black (39121235), a blurred peak-then-drop
+  (5831514), a dark red gradient (13216333), a red-tinted PCB macro (6432107), a red brake caliper (833320), water
+  draining into a vortex (39576792), a magnifying glass on a surface (13143737), an hourglass (17139860), a glowing
+  circuit/data viz (30547569), balanced stacked stones (7352016), concentric water ripples (9302825), a blue
+  circuit-board macro (39808538), a two-tone diagonal split (4253271), flowing golden light streaks (10097616), a
+  fiber-optic burst (12932191), a red stairwell into dark (3010383), a red splash on black (2538508), a magnifier
+  over striped paper (268460), glass skyscrapers from below (10786532), a hazard-stripe texture (37824440),
+  turbulent red smoke (39315949), a glowing green neon arrow (16777130), and paper speech bubbles (6991361). No
+  generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render — a strict pass
+  for a finance reel):** FACE-FREE (hands / objects / renders / abstracts only), and — despite naming Intel / AMD /
+  Broadcom / Micron / Samsung / Microsoft / Alphabet / Amazon — free of any company LOGO or wordmark, any branded /
+  identifiable chip or server, readable STOCK TICKERS / prices / numbers / screen UI, identifiable CURRENCY
+  (banknote portraits / denominations), flags, and landmarks. The three sourcing agents rejected a very large pile
+  under View-QA: RAM/chip brands (Micron, SK hynix, Kingston, Corsair DOMINATOR, G.SKILL, GOODRAM, Netac, Silicon
+  Power, Realtek, Intersil, Marvell), server brands (HP/ProLiant, IBM/xSeries, Dell "1.2TB", Crucial), a ChatGPT
+  screen, gold bullion stamped "Fine Gold 999.9" / Argor-Heraeus / Krugerrand, a Marvell-logo board, HEUER
+  stopwatches, Yahoo Finance / Binance / Betgenius tickers and OHLC readouts, the Shanghai Tower landmark, currency
+  denominations / portraits, and numerous faces. (Clean text-free trading-screen shots are genuinely scarce on
+  stock, so the chart beats use tight-cropped or defocused screens where no numbers/tickers are legible; the chip /
+  PCB macros carry only ambient component reference designators, no brand.) **UNVERIFIED — cites specific
+  figures (Microsoft ~$45.2B vs ~$50.7B; Alphabet ~$51.4B vs ~$55.1B; chip stocks down ~3%) and company
+  attributions (Samsung / Microsoft / Alphabet / Intel / AMD / Broadcom / Micron / Amazon); rendered as written but
+  MUST be fact-checked against primary sources before publishing.** The reel preserves the script’s own both-sides
+  caveat (below-forecast spending is not the same as abandoning AI or chip demand collapsing); the "buying
+  opportunity vs. caution" framing is the script’s editorial debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
