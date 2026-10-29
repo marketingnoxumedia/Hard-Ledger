@@ -108,107 +108,109 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Some of the biggest chip stocks|are suddenly falling,', kicker: 'The chip selloff', highlights: ['falling,'], size: 30, media: {src: 'chip/cp00_fall.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'hook', reveal: [3, 40], text: 'Some of the biggest chip stocks|are suddenly falling,', kicker: 'The chip selloff', highlights: ['falling,'], size: 30, media: {src: 'chip/cp00_fall.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and the reason could shake up|the entire AI boom.', highlights: ['ai'], size: 32, pos: 'upperRight', media: {src: 'chip/cp01_boom.jpg', type: 'img', effect: 'panL'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'and the reason could shake up|the entire AI boom.', highlights: ['ai'], size: 32, pos: 'upperRight', media: {src: 'chip/cp01_boom.jpg', type: 'img', effect: 'panL'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Intel, AMD, Broadcom, and Micron|are all under pressure', highlights: ['pressure'], size: 30, pos: 'left', media: {src: 'chip/cp02_chips.jpg', type: 'img', effect: 'in'}},
+  {dur: 149, kind: 'text', reveal: [2, 28], text: 'Intel, AMD, Broadcom, and Micron|are all under pressure', highlights: ['pressure'], size: 30, pos: 'left', media: {src: 'chip/cp02_chips.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'after a disappointing earnings|signal from Samsung', highlights: ['disappointing'], size: 30, pos: 'lowerRight', media: {src: 'chip/cp03_earnings.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'after a disappointing earnings|signal from Samsung', highlights: ['disappointing'], size: 30, pos: 'lowerRight', media: {src: 'chip/cp03_earnings.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and lower than expected spending|from Microsoft and Alphabet.', highlights: [], size: 29, pos: 'upperLeft', media: {src: 'chip/cp04_spending.jpg', type: 'img', effect: 'in'}},
+  {dur: 130, kind: 'text', reveal: [2, 28], text: 'and lower than expected spending|from Microsoft and Alphabet.', highlights: [], size: 29, pos: 'upperLeft', media: {src: 'chip/cp04_spending.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Here’s the strange part:|these companies are', highlights: [], size: 33, pos: 'right', media: {src: 'chip/cp05_strange.jpg', type: 'img', effect: 'panR'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'Here’s the strange part:|these companies are', highlights: [], size: 33, pos: 'right', media: {src: 'chip/cp05_strange.jpg', type: 'img', effect: 'panR'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'still investing billions into AI.', highlights: ['billions'], size: 32, pos: 'lower', media: {src: 'chip/cp06_invest.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2], text: 'still investing billions into AI.', highlights: ['billions'], size: 32, pos: 'lower', media: {src: 'chip/cp06_invest.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So why are investors selling the very companies|that make the chips powering the AI revolution?', highlights: ['selling'], size: 25, pos: 'upperRight', media: {src: 'chip/cp07_sell.jpg', type: 'img', effect: 'in'}},
+  {dur: 201, kind: 'text', reveal: [2, 28], text: 'So why are investors selling the very companies|that make the chips powering the AI revolution?', highlights: ['selling'], size: 25, pos: 'upperRight', media: {src: 'chip/cp07_sell.jpg', type: 'img', effect: 'in'}},
   // 8 CTA early (4 lines)
-  {dur: 70, kind: 'text', reveal: [2, 10, 18, 26], text: 'Follow for more|market and technology stories|that explain what’s moving|the biggest companies in the world.', highlights: ['follow'], size: 31, pos: 'upper', media: {src: 'chip/cp08_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 201, kind: 'text', reveal: [2, 10, 18, 26], text: 'Follow for more|market and technology stories|that explain what’s moving|the biggest companies in the world.', highlights: ['follow'], size: 31, pos: 'upper', media: {src: 'chip/cp08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The AI boom depends on|enormous amounts of computing power.', highlights: ['computing'], size: 29, pos: 'left', media: {src: 'chip/cp09_compute.jpg', type: 'img', effect: 'in'}},
+  {dur: 133, kind: 'text', reveal: [2, 28], text: 'The AI boom depends on|enormous amounts of computing power.', highlights: ['computing'], size: 29, pos: 'left', media: {src: 'chip/cp09_compute.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That means companies like Intel, AMD,|Broadcom, and Micron', highlights: [], size: 28, pos: 'lowerRight', media: {src: 'chip/cp10_supply.jpg', type: 'img', effect: 'in'}},
+  {dur: 118, kind: 'text', reveal: [2, 28], text: 'That means companies like Intel, AMD,|Broadcom, and Micron', highlights: [], size: 28, pos: 'lowerRight', media: {src: 'chip/cp10_supply.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'supply important pieces|of the infrastructure,', highlights: [], size: 31, pos: 'upperLeft', media: {src: 'chip/cp11_infra.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'supply important pieces|of the infrastructure,', highlights: [], size: 31, pos: 'upperLeft', media: {src: 'chip/cp11_infra.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'from processors and custom chips|to memory.', highlights: ['memory.'], size: 32, pos: 'right', media: {src: 'chip/cp12_memory.jpg', type: 'img', effect: 'panL'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'from processors and custom chips|to memory.', highlights: ['memory.'], size: 32, pos: 'right', media: {src: 'chip/cp12_memory.jpg', type: 'img', effect: 'panL'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But their growth also depends on how much|major cloud companies are willing to spend.', highlights: ['spend.'], size: 26, pos: 'lowerLeft', media: {src: 'chip/cp13_cloud.jpg', type: 'img', effect: 'in'}},
+  {dur: 177, kind: 'text', reveal: [2, 28], text: 'But their growth also depends on how much|major cloud companies are willing to spend.', highlights: ['spend.'], size: 26, pos: 'lowerLeft', media: {src: 'chip/cp13_cloud.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Samsung reported record revenue,|but its quarterly profit', highlights: ['revenue,'], size: 30, pos: 'upperRight', media: {src: 'chip/cp14_revenue.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'Samsung reported record revenue,|but its quarterly profit', highlights: ['revenue,'], size: 30, pos: 'upperRight', media: {src: 'chip/cp14_revenue.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'still missed analysts’|expectations.', highlights: ['missed'], size: 33, pos: 'lowerRight', media: {src: 'chip/cp15_missed.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'still missed analysts’|expectations.', highlights: ['missed'], size: 33, pos: 'lowerRight', media: {src: 'chip/cp15_missed.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'Meanwhile, Microsoft reported', highlights: [], size: 33, pos: 'left', media: {src: 'chip/cp16_microsoft.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'Meanwhile, Microsoft reported', highlights: [], size: 33, pos: 'left', media: {src: 'chip/cp16_microsoft.jpg', type: 'img', effect: 'in'}},
   // 17 CARD Microsoft $45.2B
-  {dur: 70, kind: 'stat', stat: {pre: 'MICROSOFT CAPEX', prefix: '$', value: 45.2, decimals: 1, post: 'BILLION, BELOW FORECAST'}, media: {src: 'chip/cp17_mscapex.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'stat', stat: {pre: 'MICROSOFT CAPEX', prefix: '$', value: 45.2, decimals: 1, post: 'BILLION, BELOW FORECAST'}, media: {src: 'chip/cp17_mscapex.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in capital expenditures, below|estimates of roughly $50.7 billion.', highlights: [], size: 27, pos: 'right', media: {src: 'chip/cp18_estimate.jpg', type: 'img', effect: 'in'}},
+  {dur: 179, kind: 'text', reveal: [2, 28], text: 'in capital expenditures, below|estimates of roughly $50.7 billion.', highlights: [], size: 27, pos: 'right', media: {src: 'chip/cp18_estimate.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Alphabet also reported|capital expenditures of around', highlights: [], size: 30, pos: 'lowerLeft', media: {src: 'chip/cp19_alphabet.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'Alphabet also reported|capital expenditures of around', highlights: [], size: 30, pos: 'lowerLeft', media: {src: 'chip/cp19_alphabet.jpg', type: 'img', effect: 'in'}},
   // 20 CARD Alphabet $51.4B
-  {dur: 70, kind: 'stat', stat: {pre: 'ALPHABET CAPEX', prefix: '$', value: 51.4, decimals: 1, post: 'BILLION, BELOW FORECAST'}, media: {src: 'chip/cp20_googcapex.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'stat', stat: {pre: 'ALPHABET CAPEX', prefix: '$', value: 51.4, decimals: 1, post: 'BILLION, BELOW FORECAST'}, media: {src: 'chip/cp20_googcapex.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'below the roughly $55.1 billion|analysts expected.', highlights: [], size: 29, pos: 'upperRight', media: {src: 'chip/cp21_forecast.jpg', type: 'img', effect: 'in'}},
+  {dur: 150, kind: 'text', reveal: [2, 28], text: 'below the roughly $55.1 billion|analysts expected.', highlights: [], size: 29, pos: 'upperRight', media: {src: 'chip/cp21_forecast.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That combination|spooked investors.', highlights: ['spooked'], size: 34, pos: 'center', media: {src: 'chip/cp22_spook.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'That combination|spooked investors.', highlights: ['spooked'], size: 34, pos: 'center', media: {src: 'chip/cp22_spook.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'Micron and Intel fell more than', highlights: [], size: 30, pos: 'left', media: {src: 'chip/cp23_drop.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'Micron and Intel fell more than', highlights: [], size: 30, pos: 'left', media: {src: 'chip/cp23_drop.jpg', type: 'img', effect: 'in'}},
   // 24 CARD -3%
-  {dur: 70, kind: 'stat', stat: {pre: 'MICRON & INTEL', prefix: '–', value: 3, suffix: '%', post: 'OVERNIGHT'}, media: {src: 'chip/cp24_percent.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'stat', stat: {pre: 'MICRON & INTEL', prefix: '–', value: 3, suffix: '%', post: 'OVERNIGHT'}, media: {src: 'chip/cp24_percent.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in overnight trading, while AMD|and Broadcom dropped around 3%.', highlights: [], size: 28, pos: 'lowerRight', media: {src: 'chip/cp25_amd.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 28], text: 'while AMD and Broadcom|dropped around 3%.', highlights: [], size: 28, pos: 'lowerRight', media: {src: 'chip/cp25_amd.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The concern is that if the biggest|AI companies begin slowing', highlights: ['ai'], size: 29, pos: 'upperLeft', media: {src: 'chip/cp26_slow.jpg', type: 'img', effect: 'in'}},
+  {dur: 126, kind: 'text', reveal: [2, 28], text: 'The concern is that if the biggest|AI companies begin slowing', highlights: ['ai'], size: 29, pos: 'upperLeft', media: {src: 'chip/cp26_slow.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'their infrastructure spending,|chipmakers could see less demand', highlights: ['demand'], size: 28, pos: 'right', media: {src: 'chip/cp27_lessdemand.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'text', reveal: [2, 28], text: 'their infrastructure spending,|chipmakers could see less demand', highlights: ['demand'], size: 28, pos: 'right', media: {src: 'chip/cp27_lessdemand.jpg', type: 'img', effect: 'in'}},
   // 28
   {dur: 70, kind: 'text', reveal: [2], text: 'than investors had been expecting.', highlights: [], size: 31, pos: 'lower', media: {src: 'chip/cp28_expect.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the timing matters.|Intel and Amazon are set', highlights: ['timing'], size: 31, pos: 'left', media: {src: 'chip/cp29_timing.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 28], text: 'And the timing matters.|Intel and Amazon are set', highlights: ['timing'], size: 31, pos: 'left', media: {src: 'chip/cp29_timing.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to report earnings, giving investors|another chance to judge', highlights: [], size: 28, pos: 'upperRight', media: {src: 'chip/cp30_report.jpg', type: 'img', effect: 'in'}},
+  {dur: 123, kind: 'text', reveal: [2, 28], text: 'to report earnings, giving investors|another chance to judge', highlights: [], size: 28, pos: 'upperRight', media: {src: 'chip/cp30_report.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'whether demand for chips|and cloud computing is holding up.', highlights: [], size: 29, pos: 'lowerLeft', media: {src: 'chip/cp31_holding.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'text', reveal: [2, 28], text: 'whether demand for chips|and cloud computing is holding up.', highlights: [], size: 29, pos: 'lowerLeft', media: {src: 'chip/cp31_holding.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'If their results disappoint,|the pressure could spread', highlights: ['disappoint,'], size: 30, pos: 'right', media: {src: 'chip/cp32_spread.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'If their results disappoint,|the pressure could spread', highlights: ['disappoint,'], size: 30, pos: 'right', media: {src: 'chip/cp32_spread.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'further across|the semiconductor sector.', highlights: ['semiconductor'], size: 31, pos: 'upper', media: {src: 'chip/cp33_sector.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'further across|the semiconductor sector.', highlights: ['semiconductor'], size: 31, pos: 'upper', media: {src: 'chip/cp33_sector.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But there’s another side|to this story.', highlights: [], size: 33, pos: 'center', media: {src: 'chip/cp34_otherside.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'But there’s another side|to this story.', highlights: [], size: 33, pos: 'center', media: {src: 'chip/cp34_otherside.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Microsoft and Alphabet are still|spending tens of billions of dollars', highlights: ['billions'], size: 28, pos: 'lowerRight', media: {src: 'chip/cp35_stillspend.jpg', type: 'img', effect: 'in'}},
+  {dur: 158, kind: 'text', reveal: [2, 28], text: 'Microsoft and Alphabet are still|spending tens of billions of dollars', highlights: ['billions'], size: 28, pos: 'lowerRight', media: {src: 'chip/cp35_stillspend.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'on AI infrastructure.', highlights: ['ai'], size: 36, pos: 'upperLeft', media: {src: 'chip/cp36_aiinfra.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'on AI infrastructure.', highlights: ['ai'], size: 36, pos: 'upperLeft', media: {src: 'chip/cp36_aiinfra.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Their spending came in below forecasts,|but that does not automatically mean', highlights: [], size: 27, pos: 'left', media: {src: 'chip/cp37_below.jpg', type: 'img', effect: 'in'}},
+  {dur: 155, kind: 'text', reveal: [2, 28], text: 'Their spending came in below forecasts,|but that does not automatically mean', highlights: [], size: 27, pos: 'left', media: {src: 'chip/cp37_below.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'they are abandoning AI|or that chip demand is collapsing.', highlights: ['collapsing.'], size: 29, pos: 'right', media: {src: 'chip/cp38_collapse.jpg', type: 'img', effect: 'in'}},
+  {dur: 133, kind: 'text', reveal: [2, 28], text: 'they are abandoning AI|or that chip demand is collapsing.', highlights: ['collapsing.'], size: 29, pos: 'right', media: {src: 'chip/cp38_collapse.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Investors may simply be becoming|more selective about how much growth', highlights: ['selective'], size: 27, pos: 'lowerLeft', media: {src: 'chip/cp39_selective.jpg', type: 'img', effect: 'in'}},
+  {dur: 137, kind: 'text', reveal: [2, 28], text: 'Investors may simply be becoming|more selective about how much growth', highlights: ['selective'], size: 27, pos: 'lowerLeft', media: {src: 'chip/cp39_selective.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'they expect from these|massive investments.', highlights: ['massive'], size: 32, pos: 'upperRight', media: {src: 'chip/cp40_massive.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'they expect from these|massive investments.', highlights: ['massive'], size: 32, pos: 'upperRight', media: {src: 'chip/cp40_massive.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So, is this chip stock selloff a warning|that the AI boom is slowing down,', highlights: ['warning'], size: 26, pos: 'left', media: {src: 'chip/cp41_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 168, kind: 'text', reveal: [2, 28], text: 'So, is this chip stock selloff a warning|that the AI boom is slowing down,', highlights: ['warning'], size: 26, pos: 'left', media: {src: 'chip/cp41_warning.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or is Wall Street overreacting|to a temporary spending gap?', highlights: ['overreacting'], size: 29, pos: 'upper', media: {src: 'chip/cp42_overreact.jpg', type: 'img', effect: 'in'}},
+  {dur: 121, kind: 'text', reveal: [2, 28], text: 'or is Wall Street overreacting|to a temporary spending gap?', highlights: ['overreacting'], size: 29, pos: 'upper', media: {src: 'chip/cp42_overreact.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Would you see this as|a buying opportunity,', highlights: ['opportunity,'], size: 31, pos: 'lowerRight', media: {src: 'chip/cp43_opportunity.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'Would you see this as|a buying opportunity,', highlights: ['opportunity,'], size: 31, pos: 'lowerRight', media: {src: 'chip/cp43_opportunity.jpg', type: 'img', effect: 'in'}},
   // 44 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'or a sign|to be cautious?'},
+  {dur: 53, kind: 'impact', redBg: true, text: 'or a sign|to be cautious?'},
   // 45 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'chip/cp45_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 38, media: {src: 'chip/cp45_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 838, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 2165, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2260, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 4370, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 4418, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 929, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1978, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2336, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2564, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2702, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 4838, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 4891, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
