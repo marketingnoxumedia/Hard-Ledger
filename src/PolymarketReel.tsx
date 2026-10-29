@@ -108,149 +108,147 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'A major crypto|prediction market', kicker: 'The Polymarket breach', highlights: [], size: 52, media: {src: 'poly/pm00_market.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'hook', reveal: [3, 40], text: 'A major crypto|prediction market', kicker: 'The Polymarket breach', highlights: [], size: 52, media: {src: 'poly/pm00_market.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'just froze trading|after a security breach,', highlights: ['breach,'], size: 44, pos: 'upperRight', media: {src: 'poly/pm01_frozen.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 28], text: 'just froze trading|after a security breach,', highlights: ['breach,'], size: 44, pos: 'upperRight', media: {src: 'poly/pm01_frozen.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'and some users say money', highlights: [], size: 46, pos: 'left', media: {src: 'poly/pm02_users.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'and some users say money', highlights: [], size: 46, pos: 'left', media: {src: 'poly/pm02_users.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'disappeared from their accounts.', highlights: ['disappeared'], size: 50, pos: 'lowerRight', media: {src: 'poly/pm03_gone.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'disappeared from their accounts.', highlights: ['disappeared'], size: 50, pos: 'lowerRight', media: {src: 'poly/pm03_gone.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s the twist:', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'poly/pm04_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'But here’s the twist:', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'poly/pm04_twist.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'the attack may not have started', highlights: ['attack'], size: 42, pos: 'right', media: {src: 'poly/pm05_attack.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2], text: 'the attack may not have started', highlights: ['attack'], size: 42, pos: 'right', media: {src: 'poly/pm05_attack.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'with Polymarket itself.', highlights: [], size: 52, pos: 'lower', media: {src: 'poly/pm06_notpoly.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'with Polymarket itself.', highlights: [], size: 52, pos: 'lower', media: {src: 'poly/pm06_notpoly.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Polymarket says a|third party was compromised,', highlights: ['compromised,'], size: 44, pos: 'upperLeft', media: {src: 'poly/pm07_thirdparty.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'Polymarket says a|third party was compromised,', highlights: ['compromised,'], size: 44, pos: 'upperLeft', media: {src: 'poly/pm07_thirdparty.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'and the company has promised', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm08_promised.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'and the company has promised', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm08_promised.jpg', type: 'img', effect: 'in'}},
   // 9
   {dur: 70, kind: 'text', reveal: [2], text: 'to reimburse affected traders.', highlights: ['reimburse'], size: 50, pos: 'lowerLeft', media: {src: 'poly/pm09_reimburse.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'But how could a breach', highlights: [], size: 46, pos: 'right', media: {src: 'poly/pm10_how.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'But how could a breach', highlights: [], size: 46, pos: 'right', media: {src: 'poly/pm10_how.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'at an outside provider', highlights: ['outside'], size: 50, pos: 'left', media: {src: 'poly/pm11_provider.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'at an outside provider', highlights: ['outside'], size: 50, pos: 'left', media: {src: 'poly/pm11_provider.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'put users’ funds at risk?', highlights: ['risk?'], size: 46, pos: 'lowerRight', media: {src: 'poly/pm12_risk.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2], text: 'put users’ funds at risk?', highlights: ['risk?'], size: 46, pos: 'lowerRight', media: {src: 'poly/pm12_risk.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Follow for more crypto|and technology news', highlights: ['follow'], size: 44, media: {src: 'poly/pm13_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'Follow for more crypto|and technology news', highlights: ['follow'], size: 44, media: {src: 'poly/pm13_follow.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'that could affect your money.', highlights: ['money.'], size: 46, pos: 'upper', media: {src: 'poly/pm14_yourmoney.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'that could affect your money.', highlights: ['money.'], size: 46, pos: 'upper', media: {src: 'poly/pm14_yourmoney.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Polymarket is a|prediction market', highlights: [], size: 48, pos: 'left', media: {src: 'poly/pm15_predmarket.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'Polymarket is a|prediction market', highlights: [], size: 48, pos: 'left', media: {src: 'poly/pm15_predmarket.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'where users trade on the', highlights: [], size: 46, pos: 'right', media: {src: 'poly/pm16_trade.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'where users trade on the', highlights: [], size: 46, pos: 'right', media: {src: 'poly/pm16_trade.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'outcomes of real world events,', highlights: ['outcomes'], size: 46, pos: 'lowerLeft', media: {src: 'poly/pm17_events.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'outcomes of real world events,', highlights: ['outcomes'], size: 46, pos: 'lowerLeft', media: {src: 'poly/pm17_events.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'from elections and sports|to financial news.', highlights: [], size: 44, pos: 'upperRight', media: {src: 'poly/pm18_elections.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'from elections and sports|to financial news.', highlights: [], size: 44, pos: 'upperRight', media: {src: 'poly/pm18_elections.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Its international platform|uses cryptocurrency,', highlights: ['cryptocurrency,'], size: 48, pos: 'left', media: {src: 'poly/pm19_crypto.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'Its international platform|uses cryptocurrency,', highlights: ['cryptocurrency,'], size: 48, pos: 'left', media: {src: 'poly/pm19_crypto.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'and users can buy and sell', highlights: [], size: 42, pos: 'lowerRight', media: {src: 'poly/pm20_buysell.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'and users can buy and sell', highlights: [], size: 42, pos: 'lowerRight', media: {src: 'poly/pm20_buysell.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'positions based on what', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'poly/pm21_positions.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'positions based on what', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'poly/pm21_positions.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'they think will happen.', highlights: [], size: 50, pos: 'right', media: {src: 'poly/pm22_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'they think will happen.', highlights: [], size: 50, pos: 'right', media: {src: 'poly/pm22_think.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'On October 29,|Polymarket confirmed that', highlights: ['confirmed'], size: 44, pos: 'lower', media: {src: 'poly/pm23_date.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'On October 29,|Polymarket confirmed that', highlights: ['confirmed'], size: 44, pos: 'lower', media: {src: 'poly/pm23_date.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'one of its third party', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm24_oneof.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'one of its third party', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm24_oneof.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'providers had been compromised.', highlights: ['compromised.'], size: 50, pos: 'lowerLeft', media: {src: 'poly/pm25_provcomp.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'providers had been compromised.', highlights: ['compromised.'], size: 50, pos: 'lowerLeft', media: {src: 'poly/pm25_provcomp.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The company temporarily|halted trading', highlights: ['halted'], size: 48, pos: 'left', media: {src: 'poly/pm26_halted.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'The company temporarily|halted trading', highlights: ['halted'], size: 48, pos: 'left', media: {src: 'poly/pm26_halted.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'on its international platform,', highlights: [], size: 50, pos: 'right', media: {src: 'poly/pm27_intl.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'on its international platform,', highlights: [], size: 50, pos: 'right', media: {src: 'poly/pm27_intl.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'referred the incident|to law enforcement,', highlights: ['enforcement,'], size: 44, pos: 'lowerRight', media: {src: 'poly/pm28_law.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'referred the incident|to law enforcement,', highlights: ['enforcement,'], size: 44, pos: 'lowerRight', media: {src: 'poly/pm28_law.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'and said anyone affected', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'poly/pm29_affected.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'and said anyone affected', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'poly/pm29_affected.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'would be made whole.', highlights: ['whole.'], size: 50, pos: 'right', media: {src: 'poly/pm30_wholemade.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'would be made whole.', highlights: ['whole.'], size: 50, pos: 'right', media: {src: 'poly/pm30_wholemade.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Reports suggest the damage|could be significant.', highlights: ['significant.'], size: 44, pos: 'upperRight', media: {src: 'poly/pm31_damage.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 28], text: 'Reports suggest the damage|could be significant.', highlights: ['significant.'], size: 44, pos: 'upperRight', media: {src: 'poly/pm31_damage.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'Blockchain analytics firms estimated', highlights: [], size: 50, pos: 'left', media: {src: 'poly/pm32_analytics.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'Blockchain analytics firms estimated', highlights: [], size: 50, pos: 'left', media: {src: 'poly/pm32_analytics.jpg', type: 'img', effect: 'in'}},
   // 33 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'ESTIMATED', value: 700, post: 'USERS AFFECTED'}, media: {src: 'poly/pm33_700.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'stat', stat: {pre: 'ESTIMATED', value: 700, post: 'USERS AFFECTED'}, media: {src: 'poly/pm33_700.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'may have been affected,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'poly/pm34_mayaffect.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'may have been affected,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'poly/pm34_mayaffect.jpg', type: 'img', effect: 'in'}},
   // 35 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'ROUGHLY', prefix: '$', value: 2.7, decimals: 1, post: 'MILLION WITHDRAWN'}, media: {src: 'poly/pm35_27m.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'stat', stat: {pre: 'ROUGHLY', prefix: '$', value: 2.7, decimals: 1, post: 'MILLION WITHDRAWN'}, media: {src: 'poly/pm35_27m.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Polymarket has not|publicly confirmed', highlights: [], size: 48, pos: 'upper', media: {src: 'poly/pm36_notconfirm.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'Polymarket has not|publicly confirmed', highlights: [], size: 48, pos: 'upper', media: {src: 'poly/pm36_notconfirm.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'the total losses or the', highlights: ['losses'], size: 46, pos: 'right', media: {src: 'poly/pm37_losses.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'the total losses or the', highlights: ['losses'], size: 46, pos: 'right', media: {src: 'poly/pm37_losses.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'number of affected accounts.', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'poly/pm38_accounts.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'number of affected accounts.', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'poly/pm38_accounts.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'The incident raises a serious', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'poly/pm39_raises.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'The incident raises a serious', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'poly/pm39_raises.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'question about security.', highlights: ['security.'], size: 52, pos: 'left', media: {src: 'poly/pm40_security.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'question about security.', highlights: ['security.'], size: 52, pos: 'left', media: {src: 'poly/pm40_security.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'Even if a platform’s own systems', highlights: [], size: 42, pos: 'lowerRight', media: {src: 'poly/pm41_systems.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'Even if a platform’s own systems', highlights: [], size: 42, pos: 'lowerRight', media: {src: 'poly/pm41_systems.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'are not directly breached,', highlights: ['breached,'], size: 50, pos: 'upperRight', media: {src: 'poly/pm42_breached.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'are not directly breached,', highlights: ['breached,'], size: 50, pos: 'upperRight', media: {src: 'poly/pm42_breached.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'an outside service connected', highlights: ['outside'], size: 50, pos: 'right', media: {src: 'poly/pm43_connected.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'an outside service connected', highlights: ['outside'], size: 50, pos: 'right', media: {src: 'poly/pm43_connected.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'to its website could still', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'poly/pm44_website.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'to its website could still', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'poly/pm44_website.jpg', type: 'img', effect: 'in'}},
   // 45 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'create a path|for attackers.'},
+  {dur: 61, kind: 'impact', redBg: true, text: 'create a path|for attackers.'},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'For users, that means trusting', highlights: ['trusting'], size: 46, pos: 'left', media: {src: 'poly/pm46_trust.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'For users, that means trusting', highlights: ['trusting'], size: 46, pos: 'left', media: {src: 'poly/pm46_trust.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'a platform may also involve', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm47_involve.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'a platform may also involve', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm47_involve.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'trusting the companies|behind its technology.', highlights: [], size: 44, pos: 'lower', media: {src: 'poly/pm48_companies.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'trusting the companies|behind its technology.', highlights: [], size: 44, pos: 'lower', media: {src: 'poly/pm48_companies.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'There is an important|distinction here.', highlights: ['distinction'], size: 44, pos: 'right', media: {src: 'poly/pm49_distinction.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'There is an important|distinction here.', highlights: ['distinction'], size: 44, pos: 'right', media: {src: 'poly/pm49_distinction.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Polymarket says the|compromised provider', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'poly/pm50_provresp.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'Polymarket says the|compromised provider', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'poly/pm50_provresp.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'was responsible, and reports', highlights: ['responsible,'], size: 50, pos: 'lowerRight', media: {src: 'poly/pm51_responsible.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'was responsible, and reports', highlights: ['responsible,'], size: 50, pos: 'lowerRight', media: {src: 'poly/pm51_responsible.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'have identified the company|as DebugBear.', highlights: ['debugbear.'], size: 44, pos: 'left', media: {src: 'poly/pm52_debugbear.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'have identified the company|as DebugBear.', highlights: ['debugbear.'], size: 44, pos: 'left', media: {src: 'poly/pm52_debugbear.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2], text: 'But the full technical cause', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm53_cause.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'But the full technical cause', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm53_cause.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'has not been|publicly established.', highlights: [], size: 48, pos: 'right', media: {src: 'poly/pm54_established.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'has not been|publicly established.', highlights: [], size: 48, pos: 'right', media: {src: 'poly/pm54_established.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The incident also follows|another third party', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'poly/pm55_follows.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'The incident also follows|another third party', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'poly/pm55_follows.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 70, kind: 'text', reveal: [2], text: 'security breach earlier this year,', highlights: ['breach'], size: 46, pos: 'upperLeft', media: {src: 'poly/pm56_earlier.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'security breach earlier this year,', highlights: ['breach'], size: 46, pos: 'upperLeft', media: {src: 'poly/pm56_earlier.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 70, kind: 'text', reveal: [2], text: 'putting renewed attention', highlights: ['attention'], size: 52, pos: 'right', media: {src: 'poly/pm57_attention.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'putting renewed attention', highlights: ['attention'], size: 52, pos: 'right', media: {src: 'poly/pm57_attention.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on the platform’s|security practices.', highlights: [], size: 48, pos: 'left', media: {src: 'poly/pm58_practices.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'on the platform’s|security practices.', highlights: [], size: 48, pos: 'left', media: {src: 'poly/pm58_practices.jpg', type: 'img', effect: 'in'}},
   // 59
-  {dur: 70, kind: 'text', reveal: [2], text: 'So, if a crypto platform', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'poly/pm59_ifcrypto.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'So, if a crypto platform', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'poly/pm59_ifcrypto.jpg', type: 'img', effect: 'in'}},
   // 60
-  {dur: 70, kind: 'text', reveal: [2], text: 'relies on outside providers,', highlights: ['outside'], size: 50, pos: 'upperRight', media: {src: 'poly/pm60_relies.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'relies on outside providers,', highlights: ['outside'], size: 50, pos: 'upperRight', media: {src: 'poly/pm60_relies.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'how much responsibility|should it take', highlights: ['responsibility'], size: 44, pos: 'lower', media: {src: 'poly/pm61_responsibility.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'how much responsibility|should it take', highlights: ['responsibility'], size: 44, pos: 'lower', media: {src: 'poly/pm61_responsibility.jpg', type: 'img', effect: 'in'}},
   // 62
-  {dur: 70, kind: 'text', reveal: [2], text: 'when users lose money?', highlights: ['lose'], size: 50, pos: 'left', media: {src: 'poly/pm62_losemoney.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'when users lose money?', highlights: ['lose'], size: 50, pos: 'left', media: {src: 'poly/pm62_losemoney.jpg', type: 'img', effect: 'in'}},
   // 63
-  {dur: 70, kind: 'text', reveal: [2], text: 'And would you still trust', highlights: [], size: 46, pos: 'right', media: {src: 'poly/pm63_stilltrust.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'And would you still trust', highlights: [], size: 46, pos: 'right', media: {src: 'poly/pm63_stilltrust.jpg', type: 'img', effect: 'in'}},
   // 64
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'Polymarket after a breach|like this?', highlights: ['breach'], size: 44, pos: 'upperRight', media: {src: 'poly/pm64_afterbreach.jpg', type: 'img', effect: 'in'}},
   // 65 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'poly/pm65_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'poly/pm65_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 845, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1799, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2125, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2331, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 2457, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 4400, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 4448, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 735, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 2015, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2110, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2686, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3986, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
