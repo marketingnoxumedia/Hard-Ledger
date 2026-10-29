@@ -6116,12 +6116,13 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   selective. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (like
   `GenieReel` / `EbolaReel` / `SuperbugReel`), NOT the faceless house voice** — it NAMES the chipmakers / Microsoft /
   Alphabet / Samsung, uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments" debate CTA.
-  The red beat poses the would-you-rather (a buying opportunity "or a sign to be cautious?"). 46 beats, **3 stat
+  The red beat poses the would-you-rather (a buying opportunity "or a sign to be cautious?"). 55 beats (re-chunked
+  from 46 at the client's request — finer, mostly single-line captions with larger on-screen type), **3 stat
   cards — MICROSOFT CAPEX $45.2B (below forecast), ALPHABET CAPEX $51.4B (below forecast), MICRON & INTEL –3%
   OVERNIGHT**, 1 red impact, no black beat. **Captions match the VO verbatim** (the estimates $50.7B / $55.1B and
   the AMD/Broadcom 3% render inline as numeral text so no card repeats a figure). Durations/reveals/SFX locked to
-  the VO via a scribe_v1 word-timestamp anchor pass (`public/chip/voiceover.mp3`), **built at the house +10% VO**
-  (~164s / 2:44); its own tense, driving finance-news music bed (mixed at 0.20). **Varied caption placement** per the
+  the VO via a scribe_v1 word-timestamp anchor pass (`public/chip/voiceover.mp3`), **re-paced to +21% VO**
+  (~150s / 2:29); its own upbeat, driving finance/tech music bed (mixed at 0.20). **Varied caption placement** per the
   house convention (hook + CTA centered). Entirely its own fresh footage under `public/chip/` — no asset shared with
   any other reel. **New STANDALONE reel; a finance / semiconductor-market story.** Media credits (Pexels, free
   license) — all stills: red downtrend candlesticks (38877607), an AI/circuitry render (30547577), a B&W microchip
@@ -6138,8 +6139,11 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   circuit-board macro (39808538), a two-tone diagonal split (4253271), flowing golden light streaks (10097616), a
   fiber-optic burst (12932191), a red stairwell into dark (3010383), a red splash on black (2538508), a magnifier
   over striped paper (268460), glass skyscrapers from below (10786532), a hazard-stripe texture (37824440),
-  turbulent red smoke (39315949), a glowing green neon arrow (16777130), and paper speech bubbles (6991361). No
-  generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render — a strict pass
+  turbulent red smoke (39315949), a glowing green neon arrow (16777130), and paper speech bubbles (6991361); plus
+  the nine beats added in the 55-beat re-chunk — a cracked molten-red surface (10876557), a robotic hand on blue
+  bokeh (8849287), server drive bays (5489456), a dark subway staircase (34558610), a silver chess knight
+  (38964361), a combination-lock dial macro (36750789), an aerial crossroads (14240462), a glowing Edison-bulb
+  filament (1108812), and a blue plasma energy orb (32526410). No generated graphics this reel. **Brand-safety (screened hard at source and from the FINAL render — a strict pass
   for a finance reel):** FACE-FREE (hands / objects / renders / abstracts only), and — despite naming Intel / AMD /
   Broadcom / Micron / Samsung / Microsoft / Alphabet / Amazon — free of any company LOGO or wordmark, any branded /
   identifiable chip or server, readable STOCK TICKERS / prices / numbers / screen UI, identifiable CURRENCY
