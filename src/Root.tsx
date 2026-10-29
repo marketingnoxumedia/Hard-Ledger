@@ -173,6 +173,7 @@ import {SuperbugReel, DURATION_IN_FRAMES as SUPERBUG_FRAMES} from './SuperbugRee
 import {EbolaReel, DURATION_IN_FRAMES as EBOLA_FRAMES} from './EbolaReel';
 import {GenieReel, DURATION_IN_FRAMES as GENIE_FRAMES} from './GenieReel';
 import {ChipReel, DURATION_IN_FRAMES as CHIP_FRAMES} from './ChipReel';
+import {PolymarketReel, DURATION_IN_FRAMES as POLY_FRAMES} from './PolymarketReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1564,6 +1565,14 @@ export const RemotionRoot: React.FC = () => {
         id="ChipReel"
         component={ChipReel}
         durationInFrames={CHIP_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PolymarketReel"
+        component={PolymarketReel}
+        durationInFrames={POLY_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
