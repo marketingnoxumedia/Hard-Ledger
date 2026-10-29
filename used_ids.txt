@@ -4010,3 +4010,12 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 39315949 chip/cp42_overreact.jpg
 16777130 chip/cp43_opportunity.jpg
 6991361 chip/cp45_comments.jpg
+10876557 chip/cp46_pressure.jpg
+5489456 chip/cp48_cloudspend.jpg
+34558610 chip/cp49_estimate.jpg
+38964361 chip/cp50_analysts.jpg
+36750789 chip/cp51_spend.jpg
+14240462 chip/cp52_transition.jpg
+1108812 chip/cp53_slowing.jpg
+32526410 chip/cp54_world.jpg
+8849287 chip/cp47_aichip.jpg
