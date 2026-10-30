@@ -6277,6 +6277,76 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   leading cloud position, but returns take time and could pressure profitability) and the "would you buy after this
   selloff, or wait for proof" audience debate.
 
+- **`IntelReel`** — "The Intel selloff" (finance / tech-news reel, Hard Ledger VISUAL style). Topic: **Intel's stock
+  plunged as much as 26% (briefly on track for its worst trading day since 1974) even though it BEAT Q3 earnings —
+  the selloff was driven by a weak Q4 forecast and PC-market weakness, not the quarter just reported.** Q3 revenue
+  ~$16.5B and adj EPS 52c (both slightly above); data-center revenue +78% to $7.3B; but Q4 guided to $15-16B vs
+  ~$17.1B expected. PC shipments are seen -12% this year and -10% in 2027 as memory prices rise; an Israel plant
+  incident is expected to cut ~$300M off Q4 revenue; Intel warned of no positive cash flow this year. Bulls note the
+  data-center business is strong but supply-constrained while PC keeps struggling. **BUILT VERBATIM from a
+  client-supplied script in the influencer "curiosity-gap" format (HOOK / CURIOSITY GAP / EARLY CTA / CONTEXT /
+  EVIDENCE / ESCALATION / CONSEQUENCES / CONTROVERSY / AUDIENCE DEBATE), NOT the faceless house voice** — it NAMES
+  Intel (and Wall Street / an Israel facility), uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in
+  the comments" debate CTA. **Per the saved house preference, captions are AT MOST 5-6 WORDS PER BEAT with LARGER
+  on-screen type** (Anton ~42-52), which drives a high beat count. **80 beats**, **4 stat cards — SHARES PLUNGED
+  -26%; DATA CENTER REVENUE +78% (TO $7.3 BILLION); PC SHIPMENTS -12% (THIS YEAR, -10% IN 2027); ISRAEL PLANT
+  INCIDENT -$300M (OFF Q4 REVENUE)**, 1 red impact ("a temporary setback | or a deeper problem?", placed mid-tail so
+  the reel closes on the comments-CTA media beat), no black beat. **Captions match the VO verbatim** (figures appear
+  as numerals only on the four cards). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor
+  pass (`public/intel/voiceover.mp3`), **built at the house +10% VO** (~156s / 2:36); its own driving, tense
+  finance-news music bed (mixed at 0.20). **Varied caption placement** per the house convention (hook + CTAs
+  centered). Entirely its own fresh footage under `public/intel/` (79 stills) — no asset shared with any other reel
+  (distinct from the sector-wide `ChipReel`, which names Intel among AMD/Broadcom/Micron, and from `MicronReel`).
+  **New STANDALONE reel.** Media credits (Pexels, free license) — all stills: red plunging light-streaks (14434978),
+  out-of-focus red bokeh (6418805), red fire/smoke on black (38875180), a blood-red woven texture (10567776), water
+  droplets falling on black (9667643), empty receding railway tracks (3668481), grainy analog film-leak texture
+  (16851158), a lightning bolt over pine silhouettes (6235455), darts clustered on a bullseye (416816), lit office
+  windows at night (35188667), a dark corridor to a bright doorway (5933191), churning storm clouds (38626301),
+  cracks across dark asphalt (2004166), a vast arched industrial hall (28295220), an iridescent holographic cell
+  texture (29703512), a glowing light coil (15082877), motion-blurred light streaks (1273288), low-angle glass
+  skyscrapers (18893526), an hourglass (37113103), construction scaffolding (33998571), a dark circuit-board macro
+  (6842695), fiber-optic data-center cables (4373997), ascending 3D blocks (39531613), a silver precision-metal macro
+  (3520698), a precarious Jenga tower (8762344), a dark unbranded laptop silhouette (986774), a descending blue
+  light-line (34866774), a wilting plant (36743196), a dim old ledger page (5807057), a glowing digital panel
+  (14990059), a molten-gold texture (39463578), a stack of blank dark metal discs (7191424), a bar rising above a
+  line (13800328), a warm-lit server patch-panel (19166565), green upward-energy smoke — card bg (39865095), a glowing
+  trajectory line (7531987), a dim calendar grid (7498084), two glowing vertical bars (10809871), a financial-district
+  street canyon (19715764), a benchmark/target line (6249821), an ominous flame glow on black (11032454), an amber
+  hazard beacon (36425214), a RAM-module macro (6704980), directional sorting arrows (40236472), a glowing particle
+  node-field (2539151), a 3D coin pile with an abstract emblem (7584362), a metal vise compressing (16679590),
+  stacked plain cardboard boxes (17260158), a dark crimson declining abstract — card bg (39244302), a toppled block
+  tower (8762364), electrical sparks on black (9665370), a generic industrial plant silhouette at dusk (38240638),
+  amber rings diminishing inward (5081878), a bold red X on a window (11296590), a near-black red-corner glow — card
+  bg (27059058), a blank red hazard triangle (5403208), cracked dry earth (36723219), water through a concrete
+  channel (8895531), a question mark on misted glass (4913769), a painted road redirect arrow (12160263), sun
+  breaking over a dark ocean (29280267), a glowing blue infrastructure corridor (2542181), diagonal speed light
+  streaks (12060425), a low-angle stone column (30357686), a tangled rope knot (14277668), a rusty chain-link fence
+  (11536259), a worker on a conveyor line — no face (16368437), a dim lantern-lit keyboard + dark monitor (29782350),
+  a lone silhouette on a snowy slope (16355918), bronze balance scales (8112185), a single coin balanced on edge
+  (29222707), a dark churning sea (18415767), an open door spilling golden light (13211967), a lit office-tower
+  facade at night (11576307), night highway light-trails (14864960), a mountain-road hairpin curve (2790919), first
+  light through trees (31083773), a stairwell descending into shadow (9045311), and a desk silhouette at a glowing
+  phone — no identifiable face (17486595). No generated graphics this reel. **Brand-safety (screened hard at source
+  and spot-checked from the FINAL render):** FACE-FREE (hands / silhouettes / objects / abstracts only), and — despite
+  naming Intel — free of any chipmaker/PC LOGO or wordmark (no Intel/AMD/Nvidia marks, no readable chip part numbers),
+  readable STOCK TICKERS / prices / currency (banknote portraits / denominations / crypto marks), flags (esp. for the
+  Israel-facility beat, which is a GENERIC industrial plant — no flag/landmark/text), and recognizable landmarks. The
+  sourcing agents rejected a large pile under View-QA (branded server racks — Dell/HP/Intel/NetApp/APC/Micron; a CPU
+  reading "INTEL CORE i5-9400"; readable chip part designators; trading screens with tickers/prices and
+  TradingView/Binance marks; a PlayStation controller; branded gold bullion with "FINE GOLD 999.9"/serials; real
+  coins with denominations/faces/landmarks and crypto-logo coins; a SZIGET festival crowd; foreign-language calendar
+  text) — and three motif/ID collisions plus two unfillable coin beats were re-sourced (red light-trail → red
+  fire/smoke; a shared forecast image → a trajectory line; a duplicate amber beacon → electrical sparks; a cross-reel
+  ID clash on the processor macro → a textless silver metal macro; and the two coin beats → a molten-gold texture and
+  a stack of blank metal discs). A few beats carry incidental GENERIC, non-brand detail (a small painted "2" on
+  factory equipment, a decorative circuit emboss on a faceless coin) — consistent with the house allowance for
+  ambient, non-brand marks. **UNVERIFIED — cites specific figures (shares -26%; worst day since 1974; Q3 rev ~$16.5B;
+  adj EPS 52c; data-center +78% to $7.3B; Q4 guide $15-16B vs ~$17.1B; PC shipments -12% in 2025 and -10% in 2027;
+  Israel incident ~$300M; no positive cash flow this year); rendered as written but MUST be fact-checked against
+  primary sources before publishing.** The reel preserves the script's own both-sides framing (a strong but
+  supply-constrained data-center business against a struggling PC business) and the "buying opportunity or a deeper
+  problem / can Intel turn it around" audience debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
