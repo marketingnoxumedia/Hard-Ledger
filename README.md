@@ -6161,6 +6161,63 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   caveat (below-forecast spending is not the same as abandoning AI or chip demand collapsing); the "buying
   opportunity vs. caution" framing is the script’s editorial debate.
 
+- **`PolymarketReel`** — "The Polymarket breach" (finance / tech-news reel, Hard Ledger VISUAL style). Topic: **a
+  crypto prediction market, Polymarket, froze trading on its international platform after a THIRD-PARTY provider was
+  compromised; reports estimate ~700 users affected and ~$2.7 million withdrawn.** Polymarket says an outside provider
+  (reports name it as DebugBear) was responsible, referred the incident to law enforcement, and promised to reimburse
+  affected traders; the reel’s thesis is that even when a platform’s own systems aren’t breached, an outside service connected to
+  its site can still "create a path for attackers." **BUILT VERBATIM from a client-supplied script in the influencer
+  "curiosity-gap" format (HOOK / CURIOSITY GAP / EARLY CTA / CONTEXT / EVIDENCE / ESCALATION / CONSEQUENCES /
+  CONTROVERSY / AUDIENCE DEBATE), NOT the faceless house voice** — it NAMES Polymarket / DebugBear / law enforcement,
+  uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments" debate CTA. **At the client’s
+  request for this reel, captions are chunked to AT MOST 5-6 WORDS PER BEAT with noticeably LARGER on-screen type**
+  (Anton sizes ~42-52 vs the ~30s on earlier reels), which drives a high beat count. **66 beats**, **2 stat cards —
+  ESTIMATED 700 USERS AFFECTED, ROUGHLY $2.7 MILLION WITHDRAWN**, 1 red impact ("create a path | for attackers,"
+  placed mid-tail so the reel closes on a media beat), no black beat. **Captions match the VO verbatim** (the only
+  numerals shown as a card are the 700 and $2.7M figures). Durations/reveals/SFX locked to the VO via a scribe_v1
+  word-timestamp anchor pass (`public/poly/voiceover.mp3`), **built at the house +10% VO** (~134s / 2:14); its own
+  tense, driving / urgent cybersecurity-news music bed (mixed at 0.20). **Varied caption placement** per the house
+  convention (hook + CTAs centered). Entirely its own fresh footage under `public/poly/` (65 stills) — no asset
+  shared with any other reel. **New STANDALONE reel; a crypto / security-breach news story.** Media credits (Pexels,
+  free license) — all stills: light-trail filaments (14240656), cracked ice (16052858), white fracture lines
+  (9966703), a network of colored dots (24259646), vanishing pale smoke (12638474), a hexagonal spiral staircase
+  (23480419), a red hacker keyboard + code screen (1933900), a white road arrow (833317), black chain links on wood
+  (18685399), an open/unlocked padlock (30529131), a tangle of copper cables (7564873), a lone satellite dish
+  (34604706), a red warning triangle sign (10644782), a reception/notification bell (7821339), gold money bokeh
+  (9174658), a single red casino die (979722), red light-streak motion (13800329), Earth at night from space
+  (30596260), an empty stadium of seats (13814395), a red translucent tech render (30547616), a garage floor arrow
+  (7580535), wooden chess pieces (16965506), a glowing Edison bulb (2115064), an open planner (7059610), a red-lit
+  doorway (3303491), a heavy steel chain + shackle (17615319), a red STOP button (19667586), a blue cyber-tunnel
+  hologram (28901526), steel handcuffs (6997471), a grid of numbered mailboxes (37846651), a wooden mannequin hand +
+  puzzle piece (10981243), cracked concrete (5264737), a teal data-waveform (12970447), a dark particle field
+  (9665176), grey swirling smoke (10901796), warm gold bokeh (754194), a white smoke bank (9694699), red light beams
+  (1996035), rusted safe-deposit boxes (5511046), a dark 3D fractal labyrinth (12891175), a padlock on a red
+  perforated panel (36698597), blue data-center cooling fans (17155843), a hole punched through a wall (18846879),
+  fiber-optic connection strands (3363556), blurred code on a screen (97077), a robotic hand clasping a gloved hand
+  (8849283), interlocking gears under blue/red light (39415893), glass office towers from below (15113712), a forked
+  forest path (31747092), a single studio spotlight (28534618), a pile of heavy chains (20116569), an office window
+  facade (10186488), a lit magnifier over a circuit board (8471905), an architect’s blueprint (8470847), footprints
+  in sand (11957059), a blue-sand hourglass (39618788), glowing concentric target rings (14160470), a blank
+  clipboard (20900064), red neon tech blocks (18545023), classical stone columns at dusk (8993774), a brass balance
+  scale (12809521), a hand letting sand drain away (10071016), dark shattered glass shards (7191390), glowing embers
+  (38575198), and a paper speech bubble (8015677). No generated graphics this reel. **Brand-safety (screened hard at
+  source and from the FINAL render — a strict pass for a crypto reel):** FACE-FREE (hands / robot hands / objects /
+  abstracts only; only heavily-blurred, unidentifiable distant bystanders), and — despite naming Polymarket /
+  DebugBear — free of any company LOGO or wordmark, any crypto / exchange logo or coin, trading-platform UI, readable
+  STOCK TICKERS / prices / currency (banknote portraits / denominations), flags, and recognizable landmarks. The
+  seven sourcing agents rejected a large pile under View-QA (brand wordmarks on padlocks / locks / keys / server
+  racks — ABUS, Master, HP, IBM, Dell, PBI; a "SCAM"-text code screen; stamped bullion; readable Dutch / German /
+  Spanish signage; Ethereum-logo renders; faces on scales / statues; and a "DOMINO" box label). A handful of beats
+  carry incidental GENERIC text that is not a brand / ticker / price / currency / foreign label (a generic JavaScript
+  code screen on the hacker beat, English month tabs on the planner, the word "STOP" on a stop button, architectural
+  dimensions on a blueprint, and box-ID numbers on the mailbox / safe-box grids) — consistent with the house
+  allowance for ambient, non-brand text. **UNVERIFIED — cites specific figures (~700 users affected; ~$2.7 million
+  withdrawn) and attributions (Polymarket; the compromised provider named in reports as DebugBear; referral to law
+  enforcement); rendered as written but MUST be fact-checked against primary sources before publishing.** The reel
+  preserves the script’s own both-sides caveat (a below-the-surface third-party compromise is not the same as
+  Polymarket’s own systems being breached, and total losses are not publicly confirmed); the "how much responsibility
+  should a platform take / would you still trust it" framing is the script’s editorial debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
