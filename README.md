@@ -6416,6 +6416,68 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   both-sides product summary and the "would you choose it / is the wide body + limited range a dealbreaker / should
   Nissan bring it to more markets" audience debate.
 
+- **`MeltdownReel`** — "The crypto meltdown" (crypto / markets breaking-news reel, Hard Ledger VISUAL style). Topic:
+  **a Binance security breach triggered a crypto market meltdown — Bitcoin and Ether plunged and ~$1.57B in leveraged
+  crypto bets were liquidated.** Per CoinDesk (Oct 30), BTC fell to ~$76,400 after Binance disclosed a breach
+  estimated to affect ~$6.3B in assets; ETH briefly hit ~$2,170. Futures liquidations surged to ~$1.57B (BTC+ETH over
+  half; Binance ~half of forced closures). The thesis is the LEVERAGE CASCADE: forced liquidations add selling
+  pressure, pushing prices lower and triggering more liquidations. Binance froze ~$3B in assets and paused
+  withdrawals during checks; analytics firms linked the attack to North-Korea-affiliated hackers; traders moved to
+  defensive options. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (HOOK /
+  CURIOSITY GAP / EARLY CTA / CONTEXT / EVIDENCE / ESCALATION / CONSEQUENCES / CONTROVERSY / AUDIENCE DEBATE), NOT the
+  faceless house voice** — it NAMES Binance / Bitcoin / Ether / CoinDesk / North Korea, uses an EARLY "follow for
+  more" CTA, and CLOSES on a "let us know in the comments" debate CTA. **Per the saved house preference, captions are
+  AT MOST 5-6 WORDS PER BEAT with LARGER on-screen type** (Anton ~42-52), which drives a high beat count. **75 beats**,
+  **4 stat cards — LIQUIDATED $1.57B; BITCOIN FELL TO ~$76,400; BINANCE BREACH ~$6.3B; ASSETS FROZEN ~$3B**, 1 red
+  impact ("a warning sign for the entire crypto market?", placed mid-tail so the reel closes on the comments-CTA media
+  beat), no black beat. **Captions match the VO verbatim** (figures appear as numerals only on the four cards).
+  Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/melt/voiceover.mp3`),
+  **built at the house +10% VO** (~141s / 2:21); its own tense, urgent crypto-crisis music bed (mixed at 0.20).
+  **Varied caption placement** per the house convention (hook + CTAs centered). Entirely its own fresh footage under
+  `public/melt/` (74 stills) — no asset shared with any other reel, **including the other crypto-breach reel
+  `PolymarketReel`.** **New STANDALONE reel.** Media credits (Pexels, free license) — all stills: a hooded figure at
+  night (9432519), a red molten abstract (11127214), a red crashing line (28176030), falling dominoes (4066131), a
+  blood-red radial gradient — card bg (6985127), dust blown away (9665214), a white spiral vortex (13405814), red
+  descending bars (39105743), shattered glass (7836295), heavy chain links (14651174), a doorway silhouette
+  (32281025), a water splash on black (7480367), red dice (6990179), a bouncing ball (22775591), concentric light
+  rings (36883417), a glowing orb (5665272), a dim number calendar (19311999), newspaper stacks (6907893), a single
+  silver bullion round (4607597), an amber flame — card bg (8738463), a dark industrial aisle (13172736), a padlock on
+  a shutter (30217658), cracked dark rock (7126651), a dark crimson brushstroke — card bg (30455944), falling water
+  droplets (7169730), a red light-trail under a dark sky (13173936), shattered debris (27791223), a glowing
+  data-stream burst (30547579), a red string-art abstract (15094592), a scatter of ornate metal discs (16948117), a
+  sawn log cross-section (15267741), a half-lit data-hall aisle (18395054), corrugated roller doors (6895381), a blue
+  light-ray surge (32505825), an unwinding wire spiral (7019608), shattered dark glass (298846), a night light-streak
+  (8537024), a wooden seesaw (6990404), a balancing stone cairn (10549781), a storm sea on rocks (14821797), a locked
+  lattice grille (40004822), a chained metal door (11628718), a dark tunnel with light at the end (14647338), a metal
+  press compressing (9627951), a phone sinking through water (8481931), a dark crashing wave (16561843), a microphone
+  in a spotlight (17722676), a cracked icy-blue swirl — card bg (34841180), a white frost-crystal texture (6609909), a
+  jeweler's loupe inspection (6263110), a fiber-optic light burst (4001959), interlocking chain links (17615318), an
+  anonymous hooded figure in shadow (5202005), a shifting-motion abstract (17764133), a metal shield plate (31350035),
+  gathering storm clouds (40174484), a turbulent swirl (6138072), a shockwave ripple (7505924), paper question-mark
+  cutouts (5428824), a red crisis-alert glow (14096149), a light beam through dark trees (8206412), cracked glass with
+  ice (15205623), a teetering stone balance (34279942), tennis balls mid-bounce (5740514), a dark hazard/danger motif
+  (13520373), orange bar clamps compressing (6790050), two opposing arrows (272254), interlocking gears (39229005), a
+  crowd surging away — no faces (12375523), a crack across a wall (9990278), a frayed snapped rope (35395500), a
+  dandelion as a central hub (31611872), a red stop light (6942432), and fingers on a glowing phone (11354240). No
+  generated graphics this reel. **Brand-safety (screened hard at source and spot-checked from the FINAL render — a
+  strict pass for a crypto reel that names Binance):** FACE-FREE (hands / silhouettes / objects / abstracts only), and
+  — despite naming Binance / Bitcoin / Ether / North Korea — free of any exchange or crypto LOGO/wordmark/UI, any
+  coin logo or symbol, trading-screen TICKERS / prices / charts with readable figures, FLAGS (incl. any North Korea
+  imagery for the hacker beat, which is a face-free hooded silhouette), identifiable faces, landmarks, and readable or
+  foreign-language text. The sourcing agents rejected a large pile under View-QA (server-rack vendor logos —
+  HP/Intel/NetApp/Schneider; readable trading charts/tickers/timecode; Bitcoin/Ethereum-logo and real-currency /
+  denominated coins — Euro/US/rupee/złoty/peso; a US $20 bill; neon text — "DREAM" / "YOU HAVE BEEN WARNED" / EXIT;
+  SHURE / MASTERCRAFT / RDX / Coca-Cola wordmarks; a MoPOP building; and faces on handshake/tug-of-war shots), and
+  three id collisions (a triple-used glowing-light id, kept once and re-sourced twice to distinct crisis / hazard
+  shots) were resolved. A few beats carry negligible incidental detail (a "10g FINE SILVER 999" purity mark on a
+  bullion round, a faint decorative motif on a metal disc) — not a brand, currency denomination, or ticker, consistent
+  with the house allowance for ambient marks. **UNVERIFIED / SENSITIVE — reports a fast-moving market event and names
+  real entities (Binance, CoinDesk, North Korea) and contested figures (~$1.57B liquidations; BTC ~$76,400; breach
+  ~$6.3B; ETH ~$2,170; ~$3B frozen; attribution to North-Korea-affiliated hackers); rendered as written but MUST be
+  fact-checked against primary reporting before publishing, and the situation is perishable.** The framing is the
+  script's own both-sides question — a Binance security crisis, or proof that leverage makes crypto markets fragile —
+  and the "temporary panic or a warning sign / would you still trust a centralized exchange" audience debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
