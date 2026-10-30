@@ -176,6 +176,7 @@ import {ChipReel, DURATION_IN_FRAMES as CHIP_FRAMES} from './ChipReel';
 import {PolymarketReel, DURATION_IN_FRAMES as POLY_FRAMES} from './PolymarketReel';
 import {AmazonAiReel, DURATION_IN_FRAMES as AZAI_FRAMES} from './AmazonAiReel';
 import {IntelReel, DURATION_IN_FRAMES as INTEL_FRAMES} from './IntelReel';
+import {PixoReel, DURATION_IN_FRAMES as PIXO_FRAMES} from './PixoReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1591,6 +1592,14 @@ export const RemotionRoot: React.FC = () => {
         id="IntelReel"
         component={IntelReel}
         durationInFrames={INTEL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PixoReel"
+        component={PixoReel}
+        durationInFrames={PIXO_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
