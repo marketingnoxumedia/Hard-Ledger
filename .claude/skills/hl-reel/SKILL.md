@@ -84,6 +84,23 @@ supports `'flex-end'` (right-align). Assign a `pos` to each `text` beat for a
 good spread. Verify a few corner beats from the render to confirm no HUD/logo
 overlap before finalizing.
 
+**Short captions + big readable fonts (house preference — do this on EVERY reel from
+here on).** The client asked that captions stay short and the on-screen type be large
+and easy to read. Two rules, together:
+- **At most 5–6 words per beat.** Chunk the script so each beat's caption is ≤6 words.
+  A beat may be ONE line or TWO short lines (via the `|` split), but the total across
+  both lines is still ≤6 words — never cram a long sentence onto one beat. This makes
+  reels run a higher beat count (a ~330-word script lands around 60–70 beats); that's
+  expected and fine. It also means more distinct media (no-reuse still holds), so
+  budget the sourcing accordingly.
+- **Bigger fonts: `size` ≈ 42–52.** Set each `text`/`hook` beat's `size` in the 42–52
+  range (shorter 3–4-word lines toward 50–52, fuller 6-word lines toward 42; the HOOK
+  and CTA a touch larger). This is a clear step up from the ~26–38 used on earlier
+  reels. After render, confirm no line overflows the frame width or collides with the
+  top-left HUD / bottom-center logo (the `pos` padding handles the HUD/logo; wrap or
+  drop a size step if a 6-word line runs to the edge).
+`PolymarketReel` is the reference build for this (66 beats, sizes 42–52).
+
 `DURATION_IN_FRAMES` is derived from the sum of `dur`s — no need to set it.
 
 **Media-dense mix (house preference — do this every reel).** The client asked for
