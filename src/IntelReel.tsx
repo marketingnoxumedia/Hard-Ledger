@@ -100,176 +100,177 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Intel just suffered a brutal', kicker: 'The Intel selloff', highlights: [], size: 50, media: {src: 'intel/in00_selloff.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'hook', reveal: [3, 40], text: 'Intel just suffered a brutal', kicker: 'The Intel selloff', highlights: [], size: 50, media: {src: 'intel/in00_selloff.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'stock market selloff,', highlights: ['selloff,'], size: 52, pos: 'upperRight', media: {src: 'intel/in01_market.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'stock market selloff,', highlights: ['selloff,'], size: 52, pos: 'upperRight', media: {src: 'intel/in01_market.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'with shares plunging', highlights: [], size: 52, pos: 'left', media: {src: 'intel/in02_plunging.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'with shares plunging', highlights: [], size: 52, pos: 'left', media: {src: 'intel/in02_plunging.jpg', type: 'img', effect: 'in'}},
   // 3 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'SHARES PLUNGED', prefix: '-', value: 26, suffix: '%'}, media: {src: 'intel/in03_card26.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'stat', stat: {pre: 'SHARES PLUNGED', prefix: '-', value: 26, suffix: '%'}, media: {src: 'intel/in03_card26.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'The drop briefly put', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in04_drop.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'The drop briefly put', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in04_drop.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'the company on track', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'intel/in05_ontrack.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'the company on track', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'intel/in05_ontrack.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for its worst trading|day since 1974.', highlights: ['worst'], size: 44, pos: 'right', media: {src: 'intel/in06_1974.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'for its worst trading|day since 1974.', highlights: ['worst'], size: 44, pos: 'right', media: {src: 'intel/in06_1974.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'And the shocking part?', highlights: ['shocking'], size: 50, pos: 'lower', media: {src: 'intel/in07_shocking.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'And the shocking part?', highlights: ['shocking'], size: 50, pos: 'lower', media: {src: 'intel/in07_shocking.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Intel actually beat|earnings expectations.', highlights: ['beat'], size: 48, pos: 'upperLeft', media: {src: 'intel/in08_beat.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'Intel actually beat|earnings expectations.', highlights: ['beat'], size: 48, pos: 'upperLeft', media: {src: 'intel/in08_beat.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'So why are investors', highlights: [], size: 50, pos: 'upperRight', media: {src: 'intel/in09_investors.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'So why are investors', highlights: [], size: 50, pos: 'upperRight', media: {src: 'intel/in09_investors.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'running for the exits?', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'intel/in10_exits.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'running for the exits?', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'intel/in10_exits.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The answer is in|Intel’s forecast,', highlights: ['forecast,'], size: 44, pos: 'right', media: {src: 'intel/in11_forecast.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'The answer is in|Intel’s forecast,', highlights: ['forecast,'], size: 44, pos: 'right', media: {src: 'intel/in11_forecast.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and it reveals|a serious problem', highlights: ['problem'], size: 44, pos: 'left', media: {src: 'intel/in12_problem.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'and it reveals|a serious problem', highlights: ['problem'], size: 44, pos: 'left', media: {src: 'intel/in12_problem.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'that could affect the entire', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'intel/in13_entire.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'that could affect the entire', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'intel/in13_entire.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'PC and semiconductor industry.', highlights: ['semiconductor'], size: 50, pos: 'upper', media: {src: 'intel/in14_semi.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2], text: 'PC and semiconductor industry.', highlights: ['semiconductor'], size: 50, pos: 'upper', media: {src: 'intel/in14_semi.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Follow for more business|and technology news', highlights: ['follow'], size: 44, media: {src: 'intel/in15_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'Follow for more business|and technology news', highlights: ['follow'], size: 44, media: {src: 'intel/in15_follow.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'that explains what is moving', highlights: [], size: 46, pos: 'left', media: {src: 'intel/in16_moving.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'that explains what is moving', highlights: [], size: 46, pos: 'left', media: {src: 'intel/in16_moving.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the biggest companies|in the world.', highlights: [], size: 44, pos: 'right', media: {src: 'intel/in17_biggest.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'the biggest companies|in the world.', highlights: [], size: 44, pos: 'right', media: {src: 'intel/in17_biggest.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'Intel has spent years', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'intel/in18_years.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'Intel has spent years', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'intel/in18_years.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'trying to rebuild|its position', highlights: [], size: 48, pos: 'upperRight', media: {src: 'intel/in19_rebuild.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'trying to rebuild|its position', highlights: [], size: 48, pos: 'upperRight', media: {src: 'intel/in19_rebuild.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'in the chip industry.', highlights: ['chip'], size: 50, pos: 'left', media: {src: 'intel/in20_chipind.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'in the chip industry.', highlights: ['chip'], size: 50, pos: 'left', media: {src: 'intel/in20_chipind.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'While AI data centers', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in21_datacenters.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'While AI data centers', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in21_datacenters.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'are driving demand', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'intel/in22_demand.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'are driving demand', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'intel/in22_demand.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'for powerful processors,', highlights: [], size: 52, pos: 'right', media: {src: 'intel/in23_processors.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'for powerful processors,', highlights: [], size: 52, pos: 'right', media: {src: 'intel/in23_processors.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'Intel still depends heavily', highlights: ['heavily'], size: 50, pos: 'lower', media: {src: 'intel/in24_depends.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'Intel still depends heavily', highlights: ['heavily'], size: 50, pos: 'lower', media: {src: 'intel/in24_depends.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'on the traditional PC market.', highlights: ['PC'], size: 46, pos: 'upperRight', media: {src: 'intel/in25_pcmarket.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'on the traditional PC market.', highlights: ['PC'], size: 46, pos: 'upperRight', media: {src: 'intel/in25_pcmarket.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'And that market is now', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'intel/in26_marketnow.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'And that market is now', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'intel/in26_marketnow.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'facing rising costs|and weakening demand.', highlights: ['weakening'], size: 44, pos: 'left', media: {src: 'intel/in27_weakening.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'text', reveal: [2, 28], text: 'facing rising costs|and weakening demand.', highlights: ['weakening'], size: 44, pos: 'left', media: {src: 'intel/in27_weakening.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'Intel reported third quarter revenue', highlights: [], size: 46, pos: 'right', media: {src: 'intel/in28_q3rev.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'Intel reported third quarter revenue', highlights: [], size: 46, pos: 'right', media: {src: 'intel/in28_q3rev.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'of about $16.5 billion,', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in29_165.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2], text: 'of about $16.5 billion,', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in29_165.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'and adjusted earnings of', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'intel/in30_earnings.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'and adjusted earnings of', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'intel/in30_earnings.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: '52 cents per share,', highlights: [], size: 50, pos: 'right', media: {src: 'intel/in31_52c.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: '52 cents per share,', highlights: [], size: 50, pos: 'right', media: {src: 'intel/in31_52c.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'both slightly above expectations.', highlights: ['above'], size: 50, pos: 'upperRight', media: {src: 'intel/in32_above.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2], text: 'both slightly above expectations.', highlights: ['above'], size: 50, pos: 'upperRight', media: {src: 'intel/in32_above.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Its data center revenue|also surged,', highlights: [], size: 44, pos: 'left', media: {src: 'intel/in33_datacenterrev.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'Its data center revenue|also surged,', highlights: [], size: 44, pos: 'left', media: {src: 'intel/in33_datacenterrev.jpg', type: 'img', effect: 'in'}},
   // 34 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'DATA CENTER REVENUE', prefix: '+', value: 78, suffix: '%', post: 'TO $7.3 BILLION'}, media: {src: 'intel/in34_card78.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'stat', stat: {pre: 'DATA CENTER REVENUE', prefix: '+', value: 78, suffix: '%', post: 'TO $7.3 BILLION'}, media: {src: 'intel/in34_card78.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'But the company forecast', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'intel/in35_forecast2.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'But the company forecast', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'intel/in35_forecast2.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'fourth quarter revenue', highlights: [], size: 52, pos: 'upper', media: {src: 'intel/in36_q4rev.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'fourth quarter revenue', highlights: [], size: 52, pos: 'upper', media: {src: 'intel/in36_q4rev.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'between $15 billion|and $16 billion,', highlights: ['$15'], size: 44, pos: 'right', media: {src: 'intel/in37_1516.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'between $15 billion|and $16 billion,', highlights: ['$15'], size: 44, pos: 'right', media: {src: 'intel/in37_1516.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'well below Wall Street’s', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in38_wallst.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'well below Wall Street’s', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in38_wallst.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'expectations of around|$17.1 billion.', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'intel/in39_171.jpg', type: 'img', effect: 'in'}},
+  {dur: 124, kind: 'text', reveal: [2, 28], text: 'expectations of around|$17.1 billion.', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'intel/in39_171.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'The PC market is becoming', highlights: [], size: 46, pos: 'left', media: {src: 'intel/in40_pcbecoming.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'The PC market is becoming', highlights: [], size: 46, pos: 'left', media: {src: 'intel/in40_pcbecoming.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'a major problem.', highlights: ['problem.'], size: 52, pos: 'lowerRight', media: {src: 'intel/in41_major.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'a major problem.', highlights: ['problem.'], size: 52, pos: 'lowerRight', media: {src: 'intel/in41_major.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'Memory prices are rising', highlights: ['rising'], size: 50, pos: 'upperRight', media: {src: 'intel/in42_memory.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'Memory prices are rising', highlights: ['rising'], size: 50, pos: 'upperRight', media: {src: 'intel/in42_memory.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'as manufacturers prioritize chips', highlights: [], size: 50, pos: 'right', media: {src: 'intel/in43_prioritize.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2], text: 'as manufacturers prioritize chips', highlights: [], size: 50, pos: 'right', media: {src: 'intel/in43_prioritize.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'used in AI data centers.', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'intel/in44_aidata.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'used in AI data centers.', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'intel/in44_aidata.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That makes laptops|and desktops more expensive,', highlights: ['expensive,'], size: 44, pos: 'left', media: {src: 'intel/in45_expensive.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'That makes laptops|and desktops more expensive,', highlights: ['expensive,'], size: 44, pos: 'left', media: {src: 'intel/in45_expensive.jpg', type: 'img', effect: 'in'}},
   // 46
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'putting pressure on|consumer demand.', highlights: ['pressure'], size: 48, pos: 'upperRight', media: {src: 'intel/in46_pressure.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Intel expects PC shipments|to fall about', highlights: [], size: 44, pos: 'lower', media: {src: 'intel/in47_shipments.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Intel expects PC shipments|to fall about', highlights: [], size: 44, pos: 'lower', media: {src: 'intel/in47_shipments.jpg', type: 'img', effect: 'in'}},
   // 48 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'PC SHIPMENTS', prefix: '-', value: 12, suffix: '%', post: 'THIS YEAR, -10% IN 2027'}, media: {src: 'intel/in48_card12.jpg', type: 'img', effect: 'in'}},
+  {dur: 118, kind: 'stat', stat: {pre: 'PC SHIPMENTS', prefix: '-', value: 12, suffix: '%', post: 'THIS YEAR, -10% IN 2027'}, media: {src: 'intel/in48_card12.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And Intel is facing|another setback.', highlights: ['setback.'], size: 44, pos: 'right', media: {src: 'intel/in49_setback.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'And Intel is facing|another setback.', highlights: ['setback.'], size: 44, pos: 'right', media: {src: 'intel/in49_setback.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'An incident at its', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'intel/in50_incident.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'An incident at its', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'intel/in50_incident.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'manufacturing facility in Israel', highlights: ['Israel'], size: 50, pos: 'lowerRight', media: {src: 'intel/in51_israel.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2], text: 'manufacturing facility in Israel', highlights: ['Israel'], size: 50, pos: 'lowerRight', media: {src: 'intel/in51_israel.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'is expected to reduce', highlights: [], size: 50, pos: 'left', media: {src: 'intel/in52_reduce.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'is expected to reduce', highlights: [], size: 50, pos: 'left', media: {src: 'intel/in52_reduce.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2], text: 'fourth quarter revenue by', highlights: [], size: 50, pos: 'upperRight', media: {src: 'intel/in53_q4by.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'fourth quarter revenue by', highlights: [], size: 50, pos: 'upperRight', media: {src: 'intel/in53_q4by.jpg', type: 'img', effect: 'in'}},
   // 54 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'ISRAEL PLANT INCIDENT', prefix: '-$', value: 300, suffix: 'M', post: 'OFF Q4 REVENUE'}, media: {src: 'intel/in54_card300.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'stat', stat: {pre: 'ISRAEL PLANT INCIDENT', prefix: '-$', value: 300, suffix: 'M', post: 'OFF Q4 REVENUE'}, media: {src: 'intel/in54_card300.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2], text: 'The company also warned', highlights: [], size: 50, pos: 'right', media: {src: 'intel/in55_warned.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'The company also warned', highlights: [], size: 50, pos: 'right', media: {src: 'intel/in55_warned.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 70, kind: 'text', reveal: [2], text: 'it will not generate', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'intel/in56_notgen.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'it will not generate', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'intel/in56_notgen.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 70, kind: 'text', reveal: [2], text: 'positive cash flow this year,', highlights: ['cash'], size: 46, pos: 'upperLeft', media: {src: 'intel/in57_cashflow.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'positive cash flow this year,', highlights: ['cash'], size: 46, pos: 'upperLeft', media: {src: 'intel/in57_cashflow.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 70, kind: 'text', reveal: [2], text: 'raising more questions about', highlights: [], size: 50, pos: 'right', media: {src: 'intel/in58_questions.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'raising more questions about', highlights: [], size: 50, pos: 'right', media: {src: 'intel/in58_questions.jpg', type: 'img', effect: 'in'}},
   // 59
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'how quickly its turnaround|can succeed.', highlights: ['turnaround'], size: 44, pos: 'left', media: {src: 'intel/in59_turnaround.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'how quickly its turnaround|can succeed.', highlights: ['turnaround'], size: 44, pos: 'left', media: {src: 'intel/in59_turnaround.jpg', type: 'img', effect: 'in'}},
   // 60
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But there is still|a reason for optimism.', highlights: ['optimism.'], size: 44, pos: 'lowerRight', media: {src: 'intel/in60_optimism.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'But there is still|a reason for optimism.', highlights: ['optimism.'], size: 44, pos: 'lowerRight', media: {src: 'intel/in60_optimism.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 70, kind: 'text', reveal: [2], text: 'Intel’s data center business', highlights: [], size: 50, pos: 'upperRight', media: {src: 'intel/in61_dcbiz.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'Intel’s data center business', highlights: [], size: 50, pos: 'upperRight', media: {src: 'intel/in61_dcbiz.jpg', type: 'img', effect: 'in'}},
   // 62
-  {dur: 70, kind: 'text', reveal: [2], text: 'is growing rapidly,', highlights: ['rapidly,'], size: 52, pos: 'lower', media: {src: 'intel/in62_rapidly.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'is growing rapidly,', highlights: ['rapidly,'], size: 52, pos: 'lower', media: {src: 'intel/in62_rapidly.jpg', type: 'img', effect: 'in'}},
   // 63
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and demand for server|processors remains strong.', highlights: ['strong.'], size: 44, pos: 'left', media: {src: 'intel/in63_strong.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'and demand for server|processors remains strong.', highlights: ['strong.'], size: 44, pos: 'left', media: {src: 'intel/in63_strong.jpg', type: 'img', effect: 'in'}},
   // 64
-  {dur: 70, kind: 'text', reveal: [2], text: 'The problem is that Intel', highlights: [], size: 46, pos: 'right', media: {src: 'intel/in64_problemis.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'The problem is that Intel', highlights: [], size: 46, pos: 'right', media: {src: 'intel/in64_problemis.jpg', type: 'img', effect: 'in'}},
   // 65
-  {dur: 70, kind: 'text', reveal: [2], text: 'cannot produce enough chips', highlights: ['cannot'], size: 50, pos: 'upperLeft', media: {src: 'intel/in65_cannot.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'cannot produce enough chips', highlights: ['cannot'], size: 50, pos: 'upperLeft', media: {src: 'intel/in65_cannot.jpg', type: 'img', effect: 'in'}},
   // 66
-  {dur: 70, kind: 'text', reveal: [2], text: 'to meet that demand,', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in66_meetdemand.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'to meet that demand,', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'intel/in66_meetdemand.jpg', type: 'img', effect: 'in'}},
   // 67
-  {dur: 70, kind: 'text', reveal: [2], text: 'while its PC business', highlights: [], size: 50, pos: 'upperRight', media: {src: 'intel/in67_pcbiz.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'while its PC business', highlights: [], size: 50, pos: 'upperRight', media: {src: 'intel/in67_pcbiz.jpg', type: 'img', effect: 'in'}},
   // 68
-  {dur: 70, kind: 'text', reveal: [2], text: 'continues to struggle.', highlights: ['struggle.'], size: 52, pos: 'left', media: {src: 'intel/in68_struggle.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'continues to struggle.', highlights: ['struggle.'], size: 52, pos: 'left', media: {src: 'intel/in68_struggle.jpg', type: 'img', effect: 'in'}},
   // 69
-  {dur: 70, kind: 'text', reveal: [2], text: 'Investors now have to decide', highlights: [], size: 46, pos: 'right', media: {src: 'intel/in69_decide.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'Investors now have to decide', highlights: [], size: 46, pos: 'right', media: {src: 'intel/in69_decide.jpg', type: 'img', effect: 'in'}},
   // 70
-  {dur: 70, kind: 'text', reveal: [2], text: 'whether this is', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'intel/in70_whether.jpg', type: 'img', effect: 'in'}},
+  {dur: 19, kind: 'text', reveal: [2], text: 'whether this is', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'intel/in70_whether.jpg', type: 'img', effect: 'in'}},
   // 71 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'a temporary setback|or a deeper problem?'},
+  {dur: 94, kind: 'impact', redBg: true, text: 'a temporary setback|or a deeper problem?'},
   // 72
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'So, is Intel’s|massive selloff', highlights: ['selloff'], size: 48, pos: 'upper', media: {src: 'intel/in72_massive.jpg', type: 'img', effect: 'in'}},
   // 73
-  {dur: 70, kind: 'text', reveal: [2], text: 'a buying opportunity,', highlights: ['opportunity,'], size: 52, pos: 'lowerRight', media: {src: 'intel/in73_opportunity.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'a buying opportunity,', highlights: ['opportunity,'], size: 52, pos: 'lowerRight', media: {src: 'intel/in73_opportunity.jpg', type: 'img', effect: 'in'}},
   // 74
-  {dur: 70, kind: 'text', reveal: [2], text: 'or is the company', highlights: [], size: 50, pos: 'left', media: {src: 'intel/in74_orcompany.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'or is the company', highlights: [], size: 50, pos: 'left', media: {src: 'intel/in74_orcompany.jpg', type: 'img', effect: 'in'}},
   // 75
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'still too far behind|its competitors?', highlights: ['behind'], size: 44, pos: 'upperRight', media: {src: 'intel/in75_behind.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'still too far behind|its competitors?', highlights: ['behind'], size: 44, pos: 'upperRight', media: {src: 'intel/in75_behind.jpg', type: 'img', effect: 'in'}},
   // 76
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Do you believe Intel|can turn things around,', highlights: ['turn'], size: 44, pos: 'upperRight', media: {src: 'intel/in76_turnaround2.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'Do you believe Intel|can turn things around,', highlights: ['turn'], size: 44, pos: 'upperRight', media: {src: 'intel/in76_turnaround2.jpg', type: 'img', effect: 'in'}},
   // 77
-  {dur: 70, kind: 'text', reveal: [2], text: 'or is this the beginning', highlights: [], size: 46, pos: 'left', media: {src: 'intel/in77_beginning.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'or is this the beginning', highlights: [], size: 46, pos: 'left', media: {src: 'intel/in77_beginning.jpg', type: 'img', effect: 'in'}},
   // 78
-  {dur: 70, kind: 'text', reveal: [2], text: 'of a much bigger decline?', highlights: ['bigger'], size: 46, pos: 'lowerRight', media: {src: 'intel/in78_decline.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'of a much bigger decline?', highlights: ['bigger'], size: 46, pos: 'lowerRight', media: {src: 'intel/in78_decline.jpg', type: 'img', effect: 'in'}},
   // 79 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'intel/in79_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'intel/in79_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 845, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1624, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1917, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2279, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 3897, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 4108, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 158, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 890, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1962, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2838, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3237, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 4161, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 4652, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
