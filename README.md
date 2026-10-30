@@ -6348,6 +6348,74 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   supply-constrained data-center business against a struggling PC business) and the "buying opportunity or a deeper
   problem / can Intel turn it around" audience debate.
 
+- **`PixoReel`** — "The Nissan PIXO" (automotive / new-car-reveal reel, Hard Ledger VISUAL style). Topic: **Nissan
+  unveiled the PIXO, a tiny electric city car for Europe that is under 3.8 m long yet WIDER than the Nissan Serena
+  minivan, with retro video-game-style pixel lights.** It is based on Renault's new Twingo E-Tech Electric but has
+  its own design. Specs: 3,796 mm long / 1,790 mm wide; 356 L cargo (1,221 L with the rear seats down); a 27.5 kWh
+  LFP battery; ~259 km WLTP range; 50 kW DC fast + 11 kW AC charging; Google built-in with Gemini, the MyNissan app,
+  e-Pedal, collision-mitigation braking and lane-keep. Revealed 23 Sep 2026; EU deliveries expected early 2027;
+  pricing after Dec 2026 (the base Renault Twingo starts ~EUR 19,490 in France). Currently Europe-only; no Japan
+  plans announced. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (HOOK /
+  CURIOSITY GAP / EARLY CTA / CONTEXT / EVIDENCE / ESCALATION / CONSEQUENCES / CONTROVERSY / AUDIENCE DEBATE), NOT the
+  faceless house voice** — it NAMES Nissan / PIXO / Renault Twingo / Serena / Leaf / Google / Gemini, uses an EARLY
+  "follow for more" CTA, and CLOSES on a "let us know in the comments" debate CTA. **Per the saved house preference,
+  captions are AT MOST 5-6 WORDS PER BEAT with LARGER on-screen type** (Anton ~42-52), which drives a high beat count.
+  **75 beats**, **4 stat cards — LENGTH 3,796 MM; LFP BATTERY 27.5 KWH; WLTP RANGE 259 KM; BASE TWINGO ~EUR 19,490**
+  (a cha-ching SFX on the price card), 1 red impact ("a wide body, limited range — a dealbreaker?", placed mid-tail
+  so the reel closes on the comments-CTA media beat), no black beat. **Captions match the VO verbatim** (figures
+  appear as numerals only on the four cards). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp
+  anchor pass (`public/pixo/voiceover.mp3`), **built at the house +10% VO** (~147s / 2:27); unlike the finance reels,
+  its music bed is UPBEAT and playful (an energetic automotive-reveal tone), mixed at 0.20. **Varied caption
+  placement** per the house convention (hook + CTAs centered). Entirely its own fresh footage under `public/pixo/`
+  (74 stills) — no asset shared with any other reel. **New STANDALONE reel** (a first automotive / EV-reveal topic).
+  Media credits (Pexels, free license) — all stills: a snow-covered hidden car (14977517), a small city car
+  (10410202), a wide wheel/fender detail (18962352), a tape measure (3143082), two cars head-on in silhouette
+  (20097254), a boxy MPV at dusk (13601011), modern headlights at night (13533016), an abstract neon-tube glow
+  (15166489), a small EV 3/4 rear under lights (24376862), a cobblestone European street (27917116), a car at a
+  cobbled curb (19204308), a hand on a steering wheel (37421212), an open empty car boot (14667486), a glowing
+  circuit/data texture (30547584), a lone car at golden hour (34819356), concentric light rings (10122140), a row of
+  cars in silhouette (15068152), a car on a reveal turntable (20790476), a desk calendar (5408916), an EV battery
+  macro (37177070), a hatchback side silhouette (10077694), a design clay model (14965720), hands sketching a car
+  (38274177), a rounded body-curve detail (40135926), a grid of square pixel light-blocks (30547565), a car LED
+  DRL light-bar at night (17045298), one lit car among silhouettes (28422506), a row of hatchback silhouettes
+  (17314356), a caliper macro (30351214), a dark-blue tech gradient — card bg (6985132), a glowing dimension line
+  (12612814), size-comparison blocks (34817526), a compact fastback rear 3/4 silhouette (14675264), a low car front
+  at night (17245109), an open hatchback boot (10096860), suitcases packed in a trunk (11499417), a flat load bay
+  (4836566), a load bay full of boxes (7843987), a concentric light-ring abstract (29189335), a neural/filament glow
+  (10827984), an EV charging port (9799743), a teal energy gradient — card bg (30676754), an empty road to the
+  horizon (6353861), a road-to-horizon at dusk — card bg (17580573), a hand holding a charging plug (9799725), an
+  indoor EV charging scene (28851165), a home EV wallbox (34800670), a modern car cabin interior (16495991), a
+  glowing digital instrument cluster (36579824), an abstract touchscreen glow (9667550), an audio waveform /
+  voice-assistant glow (17279851), a blank-screen phone in hand (30170004), a car pedal (9787475), a glowing brake
+  disc in motion (34277923), a highway with lane markings (13992748), a transport truck at night (10868785), a
+  sunrise over an open road (2801312), a question mark (6266316), a historic European plaza at dusk (6658058), a car
+  hidden under a cover (32977226), a dense night skyline (27195739), a blank price tag (1111321), a snowy winter
+  scene (14784856), a small car on a wet night road (28487233), an edge-on plain coin stack (5980871), a warm gold
+  gradient — card bg (9280240), a car emerging from headlight glow in fog (38250094), a sliding price-scale gauge
+  (402588), a back-of-head silhouette over city lights (19068086), a small EV in a bright city street (9854856), a
+  first-person windscreen driving view (17785652), a glowing world globe (7635094), a glowing city-lights network
+  map (33803484), and glowing chat/speech bubbles (18160079). No generated graphics this reel. **Brand-safety
+  (screened hard at source and spot-checked from the FINAL render — a strict pass for a reel that names a specific
+  car):** FACE-FREE (hands / silhouettes / objects / abstracts only), and — despite naming the PIXO / Nissan /
+  Renault — free of any car BADGE, emblem, grille mark, wordmark or identifiable model, any LICENSE PLATE, dealership
+  signage, readable infotainment / brand UI (no Google / Gemini / MyNissan marks), flags, landmarks, readable or
+  foreign-language text, and identifiable currency. The sourcing agents rejected a very large pile under View-QA
+  (badges/emblems — Toyota, VW, Mercedes, BMW, KIA, Mazda, Audi, Ferrari, Subaru; wheel/tyre marks — Rotiform,
+  Bridgestone, Falken; readable plates incl. a Russian "M999XP"; charger wordmarks — Alfen/ÖLFLEX; "e-SKYACTIV";
+  foreign calendars; infotainment nav UI; and crypto/real-currency coins), and four motif/ID collisions were
+  re-sourced (two duplicate hatchback-silhouette and card-background IDs, a duplicate car-front, and a pixel-light
+  near-duplicate). A few beats carry incidental GENERIC, non-brand detail (a "FRAGILE" sticker / barcode on a
+  shipping box, inherent numbers on a tape measure, small illegible roadside signs) — consistent with the house
+  allowance for ambient, non-brand marks. A handful of beats are deliberate brand-safe STAND-INS where no literal
+  brand-free shot exists (a snow-covered car for "under wraps," a clay model for the design beat, a pickup load bay
+  for the seat-fold, a transport truck for "deliveries," abstract glows for the touchscreen / HUD). **UNVERIFIED —
+  cites specific figures and specs (under 3.8 m; 3,796 x 1,790 mm; 356 / 1,221 L; 27.5 kWh LFP; ~259 km WLTP; 50 kW /
+  11 kW charging; reveal 23 Sep 2026; EU deliveries early 2027; pricing after Dec 2026; base Twingo ~EUR 19,490) and
+  product/brand claims; rendered as written but MUST be fact-checked against primary sources before publishing, and
+  the specs are preliminary (final pricing/specs expected after Dec 2026).** The framing is the script's own
+  both-sides product summary and the "would you choose it / is the wide body + limited range a dealbreaker / should
+  Nissan bring it to more markets" audience debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
