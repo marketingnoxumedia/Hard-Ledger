@@ -6478,6 +6478,79 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   script's own both-sides question — a Binance security crisis, or proof that leverage makes crypto markets fragile —
   and the "temporary panic or a warning sign / would you still trust a centralized exchange" audience debate.
 
+- **`MiamiReel`** — "The Miami boom" (real-estate / markets news reel, Hard Ledger VISUAL style). Topic: **Miami's
+  luxury real-estate boom and a billionaire-sized vote of confidence.** Ken Griffin (founder of Citadel) is expanding
+  in Miami — he closed ~30 acres in Wynwood for $1.1B and pledged $3B to Carnegie Mellon (incl. $2B for a planned
+  Miami campus). Tyko Capital is financing Faena Residences Miami with an $817M construction loan — two 68-story
+  towers, 434 luxury condos on the Miami River; sales already topped $500M incl. a $30M penthouse; reportedly
+  Florida's largest construction loan ever (surpassing a $772M West Palm Beach deal). Tyko also backed a $570M Miami
+  Beach condo loan. Private credit is stepping in where banks are cautious. Upside: jobs, education, a stronger
+  business ecosystem. Downside: $1-5M buyers priced out; housing less affordable; Florida's pandemic migration boom
+  has slowed. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (HOOK /
+  CURIOSITY GAP / EARLY CTA / CONTEXT / EVIDENCE / ESCALATION / CONSEQUENCES / CONTROVERSY / AUDIENCE DEBATE), NOT the
+  faceless house voice** — it NAMES Ken Griffin / Citadel / Carnegie Mellon / Tyko Capital / Faena / Wynwood / West
+  Palm Beach, uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments" debate CTA. **Per the
+  saved house preference, captions are AT MOST 5-6 WORDS PER BEAT with LARGER on-screen type** (Anton ~42-52), which
+  drives a high beat count. **89 beats** (the longest script to date), **4 stat cards — GRIFFIN, WYNWOOD $1.1B;
+  PLEDGED TO CMU $3B; FAENA CONSTRUCTION LOAN $817M (LARGEST IN FLORIDA); TWO 68-STORY TOWERS 434 UNITS**, 1 red
+  impact ("betting too much on luxury demand?", placed mid-tail so the reel closes on the comments-CTA media beat), no
+  black beat. **Captions match the VO verbatim** (figures appear as numerals only on the four cards). Durations/
+  reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/miami/voiceover.mp3`), **built at
+  the house +10% VO** (~177s / 2:57); its own confident, upbeat business/real-estate music bed (mixed at 0.20).
+  **Varied caption placement** per the house convention (hook + CTAs centered). Entirely its own fresh footage under
+  `public/miami/` (88 stills) — no asset shared with any other reel, **including the CondoReel Miami branded-residences
+  reel.** **New STANDALONE reel.** Media credits (Pexels, free license) — all stills: a glass skyline at dusk
+  (5197964), rising curved glass towers (358549), a suited figure at a high-rise window (35268991), a gold-coins
+  abstract (6764554), a handshake (7734571), silhouetted construction workers (9372231), a hand signing a document
+  (5648030), a condo tower with repeating balconies (16816523), tower cranes over water (11568630), a curved-balcony
+  high-rise (19807688), a skyline mid-construction (37687912), a blue-hour financial district (30375842), a luxury
+  poolside sea view (10923534), a cut-out question mark (10981241), a city glowing at golden hour (37474458),
+  concentric neon rings (7293742), an Earth-from-space crescent (30596239), two suited silhouettes at a window
+  (16116456), low-angle glass towers (5059244), an aerial city grid (36487278), a house-keys handover (31015267), a
+  wordless painted wall (4165349), a moody dusk aerial — card bg (39805588), cupped offering hands (5853339), a warm
+  library interior — card bg (31390421), a blurred gold-coin stack (5980736), a university campus building (37651811),
+  a line-drawing floor plan (9052461), construction scaffolding (33998580), a glowing magnetic skyline (29119504),
+  hands on a laptop (8134095), a gold-capital bokeh (29735307), a wooden figure with a house model and coins
+  (11348119), an orange crane jib — card bg (16600072), a luxury beachfront tower (14199477), an architectural scale
+  model (5583620), two glass towers low-angle (9408397), a repeating balcony facade — card bg (13848785), lit towers
+  reflected in water (13809640), concrete stairs to a dusk sky (34543260), a molten-gold abstract (26628060), a
+  luxury penthouse interior (40134484), a single towering skyscraper (26625446), palm trees at dusk (11224485), a
+  figure gripping banded cash stacks (32540308), twin office towers (16904533), a palm-lined waterfront (36613718), a
+  money-flow abstract (5378422), a construction project with cranes (30278762), a blue-hour construction-crane skyline
+  (38035999), casino chips as a big-money abstract (7594190), an architect's blueprint (5583618), a beachfront row of
+  condo towers (20486030), a vault door (40132887), a figure stepping through a bright doorway (36126924), classical
+  bank columns (20134473), a cautious raised-hand gesture (9017588), a crane lifting forward (532079), a massive
+  construction megaproject (30810999), glowing ascending bars (11742396), silhouetted construction workers (39970082),
+  a vintage lecture hall (19253500), a glowing connected network (8386440), a descending spiral stairwell (5869898), a
+  yacht-deck detail (8356413), a couple in silhouette viewing a building (4747443), a row of suburban houses
+  (15048771), an empty wallet (9707616), a residential-neighborhood aerial (9890041), golden spheres converging
+  (8252605), a warm city-lights bokeh (17580079), a residential street at dusk (35506331), a dark hazard glow
+  (17579374), highway tail-light trails (1499539), a sculptural question mark (29626038), balance scales (6077297), a
+  crowd in silhouette (13951242), structural support columns (10252849), a crane-topped tower rising (16940589), a
+  dense blue-hour cityscape (30123502), edison bulbs (6861127), a lone tall tower above a cluster (13235804), a night
+  financial tower (21581764), a precarious stone cairn (8777914), an antique balance scale (33102084), a warm
+  golden-bokeh glow (19061290), houses at dusk (6735513), and hands on a phone at night (950737). No generated
+  graphics this reel. **Brand-safety (screened hard at source and spot-checked from the FINAL render — a strict pass
+  for a reel that names real people, companies and places):** FACE-FREE (hands / silhouettes / objects / abstracts
+  only), and — despite naming Ken Griffin / Citadel / Carnegie Mellon / Tyko / Faena — free of any identifiable real
+  PERSON (no Griffin), any company LOGO/wordmark, any readable building name / signage, any single recognizable NAMED
+  landmark or named development, readable or foreign-language text, identifiable faces, and identifiable currency. The
+  sourcing agents rejected a very large pile under View-QA (bank/brand wordmarks — CITI/BARCLAYS/HSBC/BNP Paribas/
+  TIAA/Akerman/Media Markt/TELUS; named landmarks — Transamerica Pyramid, One World Trade Center, Millennium Bridge,
+  Hudson Yards; crane brands — LIEBHERR/WOLFF/KIER; Evergrande "恒大" and other foreign signage; Jenga-branded blocks;
+  readable denominations — €50/$10/QUARTER DOLLAR and Bitcoin/Ethereum/Argor-Heraeus coins; and identifiable faces).
+  A production note: a one-beat slug-alignment offset in the mi50-mi71 range (introduced when a redundant CMU caption
+  beat was removed) was reconciled by concept-matched renames, one byte-duplicate was dropped, and the one genuinely
+  unfilled beat ("other South Florida projects") was re-sourced. A few beats are deliberate brand-safe STAND-INS where
+  no literal brand-free shot exists (casino chips / molten gold / banded cash for "big money," a yacht detail for
+  "wealthy buyers," abstract glows for charts). A couple of beats carry tiny, illegible far-background street/parking
+  signs — consistent with the house allowance for ambient, non-brand text. **UNVERIFIED — names real people/entities
+  (Ken Griffin, Citadel, Carnegie Mellon, Tyko Capital, Faena) and cites specific figures ($1.1B Wynwood; $3B CMU
+  incl. $2B; $817M Faena loan; two 68-story towers / 434 units; $500M+ sales; $30M penthouse; $772M WPB; $570M Miami
+  Beach); rendered as written but MUST be fact-checked against primary sources before publishing.** The framing is the
+  script's own both-sides summary and the "next global city or over-betting on luxury demand / should cities
+  prioritize billionaire investment even if housing becomes less affordable" audience debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
