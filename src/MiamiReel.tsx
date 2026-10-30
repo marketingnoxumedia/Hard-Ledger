@@ -105,195 +105,195 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Miami’s real estate market', kicker: 'The Miami boom', highlights: [], size: 54, media: {src: 'miami/mi00_market.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'hook', reveal: [3, 40], text: 'Miami’s real estate market', kicker: 'The Miami boom', highlights: [], size: 54, media: {src: 'miami/mi00_market.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is getting a|billionaire-sized vote of confidence.', highlights: ['billionaire-sized'], size: 44, pos: 'upperRight', media: {src: 'miami/mi01_vote.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', reveal: [2, 28], text: 'is getting a|billionaire-sized vote of confidence.', highlights: ['billionaire-sized'], size: 44, pos: 'upperRight', media: {src: 'miami/mi01_vote.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'Ken Griffin is pouring', highlights: ['Griffin'], size: 50, pos: 'left', media: {src: 'miami/mi02_griffin.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Ken Griffin is pouring', highlights: ['Griffin'], size: 50, pos: 'left', media: {src: 'miami/mi02_griffin.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'billions into the city,', highlights: ['billions'], size: 50, pos: 'lowerRight', media: {src: 'miami/mi03_billions.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'billions into the city,', highlights: ['billions'], size: 50, pos: 'lowerRight', media: {src: 'miami/mi03_billions.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'while a private lender', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'miami/mi04_lender.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'while a private lender', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'miami/mi04_lender.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'just handed developers', highlights: [], size: 52, pos: 'right', media: {src: 'miami/mi05_developers.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'just handed developers', highlights: [], size: 52, pos: 'right', media: {src: 'miami/mi05_developers.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'an $817 million|construction loan', highlights: [], size: 48, pos: 'lower', media: {src: 'miami/mi06_817loan.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 28], text: 'an $817 million|construction loan', highlights: [], size: 48, pos: 'lower', media: {src: 'miami/mi06_817loan.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'for a luxury condo project.', highlights: ['luxury'], size: 46, pos: 'upperLeft', media: {src: 'miami/mi07_luxury.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2], text: 'for a luxury condo project.', highlights: ['luxury'], size: 46, pos: 'upperLeft', media: {src: 'miami/mi07_luxury.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'And this isn’t just about', highlights: [], size: 46, pos: 'upperRight', media: {src: 'miami/mi08_notjust.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'And this isn’t just about', highlights: [], size: 46, pos: 'upperRight', media: {src: 'miami/mi08_notjust.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'building expensive apartments.', highlights: ['expensive'], size: 52, pos: 'lowerLeft', media: {src: 'miami/mi09_apartments.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'building expensive apartments.', highlights: ['expensive'], size: 52, pos: 'lowerLeft', media: {src: 'miami/mi09_apartments.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'These deals could help|reshape Miami', highlights: ['reshape'], size: 44, pos: 'right', media: {src: 'miami/mi10_reshape.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'These deals could help|reshape Miami', highlights: ['reshape'], size: 44, pos: 'right', media: {src: 'miami/mi10_reshape.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'into a major hub for', highlights: [], size: 46, pos: 'left', media: {src: 'miami/mi11_hub.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'into a major hub for', highlights: [], size: 46, pos: 'left', media: {src: 'miami/mi11_hub.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'finance, education,|and wealthy buyers.', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'miami/mi12_wealthy.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'finance, education,|and wealthy buyers.', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'miami/mi12_wealthy.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'But there’s one big question:', highlights: ['question:'], size: 46, pos: 'upper', media: {src: 'miami/mi13_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'But there’s one big question:', highlights: ['question:'], size: 46, pos: 'upper', media: {src: 'miami/mi13_question.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is the city’s luxury boom|built to last?', highlights: ['boom'], size: 44, pos: 'left', media: {src: 'miami/mi14_boom.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'is the city’s luxury boom|built to last?', highlights: ['boom'], size: 44, pos: 'left', media: {src: 'miami/mi14_boom.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Follow for more business|and real estate stories', highlights: ['follow'], size: 44, media: {src: 'miami/mi15_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Follow for more business|and real estate stories', highlights: ['follow'], size: 44, media: {src: 'miami/mi15_follow.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'changing the world.', highlights: [], size: 52, pos: 'right', media: {src: 'miami/mi16_world.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'changing the world.', highlights: [], size: 52, pos: 'right', media: {src: 'miami/mi16_world.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'Billionaire Ken Griffin,', highlights: ['Griffin,'], size: 52, pos: 'lowerLeft', media: {src: 'miami/mi17_billionaire.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'Billionaire Ken Griffin,', highlights: ['Griffin,'], size: 52, pos: 'lowerLeft', media: {src: 'miami/mi17_billionaire.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'founder of Citadel,', highlights: [], size: 52, pos: 'upperRight', media: {src: 'miami/mi18_citadel.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'founder of Citadel,', highlights: [], size: 52, pos: 'upperRight', media: {src: 'miami/mi18_citadel.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'has been expanding|his footprint in Miami.', highlights: [], size: 44, pos: 'left', media: {src: 'miami/mi19_footprint.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'has been expanding|his footprint in Miami.', highlights: [], size: 44, pos: 'left', media: {src: 'miami/mi19_footprint.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'He recently closed on', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'miami/mi20_closed.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'He recently closed on', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'miami/mi20_closed.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'roughly 30 acres in Wynwood', highlights: ['Wynwood'], size: 46, pos: 'upperLeft', media: {src: 'miami/mi21_wynwood.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2], text: 'roughly 30 acres in Wynwood', highlights: ['Wynwood'], size: 46, pos: 'upperLeft', media: {src: 'miami/mi21_wynwood.jpg', type: 'img', effect: 'in'}},
   // 22 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'GRIFFIN, WYNWOOD', prefix: '$', value: 1.1, decimals: 1, suffix: 'B', post: '~30 ACRES'}, media: {src: 'miami/mi22_card11b.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'stat', stat: {pre: 'GRIFFIN, WYNWOOD', prefix: '$', value: 1.1, decimals: 1, suffix: 'B', post: '~30 ACRES'}, media: {src: 'miami/mi22_card11b.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'while also pledging', highlights: [], size: 52, pos: 'right', media: {src: 'miami/mi23_pledging.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'while also pledging', highlights: [], size: 52, pos: 'right', media: {src: 'miami/mi23_pledging.jpg', type: 'img', effect: 'in'}},
   // 24 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'PLEDGED TO CMU', prefix: '$', value: 3, suffix: 'B', post: 'INCL. $2B MIAMI CAMPUS'}, media: {src: 'miami/mi24_card3b.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'stat', stat: {pre: 'PLEDGED TO CMU', prefix: '$', value: 3, suffix: 'B', post: 'INCL. $2B MIAMI CAMPUS'}, media: {src: 'miami/mi24_card3b.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'including $2 billion', highlights: [], size: 52, pos: 'lower', media: {src: 'miami/mi26_2billion.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'including $2 billion', highlights: [], size: 52, pos: 'lower', media: {src: 'miami/mi26_2billion.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'for a planned Miami campus.', highlights: ['campus.'], size: 46, pos: 'upperRight', media: {src: 'miami/mi27_campus.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'for a planned Miami campus.', highlights: ['campus.'], size: 46, pos: 'upperRight', media: {src: 'miami/mi27_campus.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'The move is part of', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'miami/mi28_part.jpg', type: 'img', effect: 'in'}},
+  {dur: 24, kind: 'text', reveal: [2], text: 'The move is part of', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'miami/mi28_part.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'a broader effort to make', highlights: [], size: 46, pos: 'left', media: {src: 'miami/mi29_effort.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'a broader effort to make', highlights: [], size: 46, pos: 'left', media: {src: 'miami/mi29_effort.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'Miami more attractive to', highlights: [], size: 50, pos: 'right', media: {src: 'miami/mi30_attractive.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'Miami more attractive to', highlights: [], size: 50, pos: 'right', media: {src: 'miami/mi30_attractive.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'businesses, talent,|and major investors.', highlights: ['investors.'], size: 48, pos: 'lowerRight', media: {src: 'miami/mi31_investors.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'businesses, talent,|and major investors.', highlights: ['investors.'], size: 48, pos: 'lowerRight', media: {src: 'miami/mi31_investors.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'Meanwhile, Tyko Capital', highlights: ['Tyko'], size: 52, pos: 'upperLeft', media: {src: 'miami/mi32_tyko.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'Meanwhile, Tyko Capital', highlights: ['Tyko'], size: 52, pos: 'upperLeft', media: {src: 'miami/mi32_tyko.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is financing a massive|new development:', highlights: [], size: 44, pos: 'right', media: {src: 'miami/mi33_financing.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'is financing a massive|new development:', highlights: [], size: 44, pos: 'right', media: {src: 'miami/mi33_financing.jpg', type: 'img', effect: 'in'}},
   // 33 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'FAENA CONSTRUCTION LOAN', prefix: '$', value: 817, suffix: 'M', post: 'LARGEST IN FLORIDA'}, media: {src: 'miami/mi34_card817.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'stat', stat: {pre: 'FAENA CONSTRUCTION LOAN', prefix: '$', value: 817, suffix: 'M', post: 'LARGEST IN FLORIDA'}, media: {src: 'miami/mi34_card817.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'for Faena Residences Miami.', highlights: ['Faena'], size: 50, pos: 'upperRight', media: {src: 'miami/mi35_faena.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'for Faena Residences Miami.', highlights: ['Faena'], size: 50, pos: 'upperRight', media: {src: 'miami/mi35_faena.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'The project will feature', highlights: [], size: 50, pos: 'left', media: {src: 'miami/mi36_feature.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'The project will feature', highlights: [], size: 50, pos: 'left', media: {src: 'miami/mi36_feature.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'two 68 story towers', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'miami/mi37_towers.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2], text: 'two 68 story towers', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'miami/mi37_towers.jpg', type: 'img', effect: 'in'}},
   // 37 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'TWO 68-STORY TOWERS', value: 434, suffix: ' UNITS', post: 'ALONG THE MIAMI RIVER'}, media: {src: 'miami/mi38_card434.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'stat', stat: {pre: 'TWO 68-STORY TOWERS', value: 434, suffix: ' UNITS', post: 'ALONG THE MIAMI RIVER'}, media: {src: 'miami/mi38_card434.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'along the Miami River.', highlights: ['River.'], size: 50, pos: 'upper', media: {src: 'miami/mi39_river.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'along the Miami River.', highlights: ['River.'], size: 50, pos: 'upper', media: {src: 'miami/mi39_river.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Developers say sales|have already topped', highlights: [], size: 44, pos: 'right', media: {src: 'miami/mi40_sales.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'Developers say sales|have already topped', highlights: [], size: 44, pos: 'right', media: {src: 'miami/mi40_sales.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: '$500 million,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'miami/mi41_500m.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2], text: '$500 million,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'miami/mi41_500m.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'including a $30 million penthouse.', highlights: ['penthouse.'], size: 46, pos: 'upperLeft', media: {src: 'miami/mi42_penthouse.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'including a $30 million penthouse.', highlights: ['penthouse.'], size: 46, pos: 'upperLeft', media: {src: 'miami/mi42_penthouse.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'It’s reportedly the largest', highlights: ['largest'], size: 50, pos: 'left', media: {src: 'miami/mi43_largest.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'It’s reportedly the largest', highlights: ['largest'], size: 50, pos: 'left', media: {src: 'miami/mi43_largest.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'construction loan ever|recorded in Florida,', highlights: ['Florida,'], size: 44, pos: 'lowerRight', media: {src: 'miami/mi44_florida.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'construction loan ever|recorded in Florida,', highlights: ['Florida,'], size: 44, pos: 'lowerRight', media: {src: 'miami/mi44_florida.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'surpassing the $772 million', highlights: [], size: 50, pos: 'upperRight', media: {src: 'miami/mi45_772m.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2], text: 'surpassing the $772 million', highlights: [], size: 50, pos: 'upperRight', media: {src: 'miami/mi45_772m.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'financing deal for two|office towers', highlights: [], size: 44, pos: 'right', media: {src: 'miami/mi46_offices.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'financing deal for two|office towers', highlights: [], size: 44, pos: 'right', media: {src: 'miami/mi46_offices.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'in West Palm Beach.', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'miami/mi47_wpb.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'in West Palm Beach.', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'miami/mi47_wpb.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the money|isn’t stopping there.', highlights: [], size: 44, pos: 'left', media: {src: 'miami/mi48_notstopping.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'And the money|isn’t stopping there.', highlights: [], size: 44, pos: 'left', media: {src: 'miami/mi48_notstopping.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'Tyko has also backed', highlights: [], size: 50, pos: 'upperRight', media: {src: 'miami/mi49_alsobacked.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'Tyko has also backed', highlights: [], size: 50, pos: 'upperRight', media: {src: 'miami/mi49_alsobacked.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'other major South Florida projects,', highlights: [], size: 46, pos: 'lower', media: {src: 'miami/mi50_sflprojects.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', reveal: [2], text: 'other major South Florida projects,', highlights: [], size: 46, pos: 'lower', media: {src: 'miami/mi50_sflprojects.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'including a $570 million', highlights: [], size: 50, pos: 'right', media: {src: 'miami/mi51_570m.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'including a $570 million', highlights: [], size: 50, pos: 'right', media: {src: 'miami/mi51_570m.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'construction loan for a planned', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'miami/mi52_planned.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'construction loan for a planned', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'miami/mi52_planned.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'Miami Beach condo development.', highlights: ['condo'], size: 50, pos: 'lowerRight', media: {src: 'miami/mi53_miamibeach.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2], text: 'Miami Beach condo development.', highlights: ['condo'], size: 50, pos: 'lowerRight', media: {src: 'miami/mi53_miamibeach.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2], text: 'Private credit lenders', highlights: ['Private'], size: 52, pos: 'left', media: {src: 'miami/mi54_privatecredit.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Private credit lenders', highlights: ['Private'], size: 52, pos: 'left', media: {src: 'miami/mi54_privatecredit.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2], text: 'are stepping into deals', highlights: [], size: 50, pos: 'upperRight', media: {src: 'miami/mi55_stepping.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'are stepping into deals', highlights: [], size: 50, pos: 'upperRight', media: {src: 'miami/mi55_stepping.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2], text: 'that traditional banks', highlights: [], size: 52, pos: 'right', media: {src: 'miami/mi56_banks.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'that traditional banks', highlights: [], size: 52, pos: 'right', media: {src: 'miami/mi56_banks.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 70, kind: 'text', reveal: [2], text: 'may be more cautious about,', highlights: ['cautious'], size: 46, pos: 'lowerLeft', media: {src: 'miami/mi57_cautious.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'may be more cautious about,', highlights: ['cautious'], size: 46, pos: 'lowerLeft', media: {src: 'miami/mi57_cautious.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 70, kind: 'text', reveal: [2], text: 'helping developers push forward', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'miami/mi58_pushforward.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'helping developers push forward', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'miami/mi58_pushforward.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with some of the region’s|biggest projects.', highlights: ['biggest'], size: 44, pos: 'right', media: {src: 'miami/mi59_biggest.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'with some of the region’s|biggest projects.', highlights: ['biggest'], size: 44, pos: 'right', media: {src: 'miami/mi59_biggest.jpg', type: 'img', effect: 'in'}},
   // 59
-  {dur: 70, kind: 'text', reveal: [2], text: 'For Miami, these investments', highlights: [], size: 50, pos: 'left', media: {src: 'miami/mi60_investments.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'For Miami, these investments', highlights: [], size: 50, pos: 'left', media: {src: 'miami/mi60_investments.jpg', type: 'img', effect: 'in'}},
   // 60
-  {dur: 70, kind: 'text', reveal: [2], text: 'could mean more jobs,', highlights: ['jobs,'], size: 50, pos: 'lowerRight', media: {src: 'miami/mi61_jobs.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'could mean more jobs,', highlights: ['jobs,'], size: 50, pos: 'lowerRight', media: {src: 'miami/mi61_jobs.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 70, kind: 'text', reveal: [2], text: 'new educational opportunities,', highlights: [], size: 52, pos: 'upperRight', media: {src: 'miami/mi62_education.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'new educational opportunities,', highlights: [], size: 52, pos: 'upperRight', media: {src: 'miami/mi62_education.jpg', type: 'img', effect: 'in'}},
   // 62
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and a stronger|business ecosystem.', highlights: [], size: 48, pos: 'lower', media: {src: 'miami/mi63_ecosystem.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'and a stronger|business ecosystem.', highlights: [], size: 48, pos: 'lower', media: {src: 'miami/mi63_ecosystem.jpg', type: 'img', effect: 'in'}},
   // 63
-  {dur: 70, kind: 'text', reveal: [2], text: 'But there’s a downside.', highlights: ['downside.'], size: 50, pos: 'left', media: {src: 'miami/mi64_downside.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'But there’s a downside.', highlights: ['downside.'], size: 50, pos: 'left', media: {src: 'miami/mi64_downside.jpg', type: 'img', effect: 'in'}},
   // 64
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Luxury developments are|targeting wealthy buyers,', highlights: ['wealthy'], size: 44, pos: 'right', media: {src: 'miami/mi65_targeting.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'Luxury developments are|targeting wealthy buyers,', highlights: ['wealthy'], size: 44, pos: 'right', media: {src: 'miami/mi65_targeting.jpg', type: 'img', effect: 'in'}},
   // 65
-  {dur: 70, kind: 'text', reveal: [2], text: 'while people shopping for homes', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'miami/mi66_shopping.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'while people shopping for homes', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'miami/mi66_shopping.jpg', type: 'img', effect: 'in'}},
   // 66
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in the one to five|million dollar range', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'miami/mi67_range.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'in the one to five|million dollar range', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'miami/mi67_range.jpg', type: 'img', effect: 'in'}},
   // 67
-  {dur: 70, kind: 'text', reveal: [2], text: 'are reportedly being priced out', highlights: ['priced'], size: 46, pos: 'upperRight', media: {src: 'miami/mi68_pricedout.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'are reportedly being priced out', highlights: ['priced'], size: 46, pos: 'upperRight', media: {src: 'miami/mi68_pricedout.jpg', type: 'img', effect: 'in'}},
   // 68
-  {dur: 70, kind: 'text', reveal: [2], text: 'of some neighborhoods.', highlights: [], size: 52, pos: 'left', media: {src: 'miami/mi69_neighborhoods.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'of some neighborhoods.', highlights: [], size: 52, pos: 'left', media: {src: 'miami/mi69_neighborhoods.jpg', type: 'img', effect: 'in'}},
   // 69
-  {dur: 70, kind: 'text', reveal: [2], text: 'The city could be attracting', highlights: [], size: 46, pos: 'right', media: {src: 'miami/mi70_attracting.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'The city could be attracting', highlights: [], size: 46, pos: 'right', media: {src: 'miami/mi70_attracting.jpg', type: 'img', effect: 'in'}},
   // 70
-  {dur: 70, kind: 'text', reveal: [2], text: 'more capital while making', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'miami/mi71_capital.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'more capital while making', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'miami/mi71_capital.jpg', type: 'img', effect: 'in'}},
   // 71
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'housing less affordable|for many residents.', highlights: ['affordable'], size: 44, pos: 'upper', media: {src: 'miami/mi72_residents.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'housing less affordable|for many residents.', highlights: ['affordable'], size: 44, pos: 'upper', media: {src: 'miami/mi72_residents.jpg', type: 'img', effect: 'in'}},
   // 72
-  {dur: 70, kind: 'text', reveal: [2], text: 'And here’s the risk:', highlights: ['risk:'], size: 50, pos: 'lowerRight', media: {src: 'miami/mi73_risk.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'And here’s the risk:', highlights: ['risk:'], size: 50, pos: 'lowerRight', media: {src: 'miami/mi73_risk.jpg', type: 'img', effect: 'in'}},
   // 73
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Florida’s pandemic era|migration boom has slowed.', highlights: ['slowed.'], size: 44, pos: 'left', media: {src: 'miami/mi74_slowed.jpg', type: 'img', effect: 'in'}},
+  {dur: 123, kind: 'text', reveal: [2, 28], text: 'Florida’s pandemic era|migration boom has slowed.', highlights: ['slowed.'], size: 44, pos: 'left', media: {src: 'miami/mi74_slowed.jpg', type: 'img', effect: 'in'}},
   // 74
-  {dur: 70, kind: 'text', reveal: [2], text: 'So the real question is', highlights: [], size: 46, pos: 'upperRight', media: {src: 'miami/mi75_realquestion.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'So the real question is', highlights: [], size: 46, pos: 'upperRight', media: {src: 'miami/mi75_realquestion.jpg', type: 'img', effect: 'in'}},
   // 75
-  {dur: 70, kind: 'text', reveal: [2], text: 'whether Miami can keep', highlights: [], size: 50, pos: 'upperRight', media: {src: 'miami/mi76_cankeep.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'whether Miami can keep', highlights: [], size: 50, pos: 'upperRight', media: {src: 'miami/mi76_cankeep.jpg', type: 'img', effect: 'in'}},
   // 76
-  {dur: 70, kind: 'text', reveal: [2], text: 'attracting enough wealthy buyers', highlights: [], size: 50, pos: 'left', media: {src: 'miami/mi77_enoughbuyers.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'attracting enough wealthy buyers', highlights: [], size: 50, pos: 'left', media: {src: 'miami/mi77_enoughbuyers.jpg', type: 'img', effect: 'in'}},
   // 77
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to support all these|expensive developments.', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'miami/mi78_support.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'to support all these|expensive developments.', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'miami/mi78_support.jpg', type: 'img', effect: 'in'}},
   // 78
-  {dur: 70, kind: 'text', reveal: [2], text: 'Are billionaires building', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'miami/mi79_building.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'Are billionaires building', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'miami/mi79_building.jpg', type: 'img', effect: 'in'}},
   // 79
-  {dur: 70, kind: 'text', reveal: [2], text: 'the next major global city,', highlights: ['global'], size: 46, pos: 'right', media: {src: 'miami/mi80_globalcity.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2], text: 'the next major global city,', highlights: ['global'], size: 46, pos: 'right', media: {src: 'miami/mi80_globalcity.jpg', type: 'img', effect: 'in'}},
   // 80 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'or betting too much|on luxury demand?'},
+  {dur: 72, kind: 'impact', redBg: true, text: 'or betting too much|on luxury demand?'},
   // 81
-  {dur: 70, kind: 'text', reveal: [2], text: 'What do you think?', highlights: [], size: 50, pos: 'lower', media: {src: 'miami/mi82_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'What do you think?', highlights: [], size: 50, pos: 'lower', media: {src: 'miami/mi82_think.jpg', type: 'img', effect: 'in'}},
   // 82
-  {dur: 70, kind: 'text', reveal: [2], text: 'Is Miami becoming the next', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'miami/mi83_becoming.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'Is Miami becoming the next', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'miami/mi83_becoming.jpg', type: 'img', effect: 'in'}},
   // 83
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'major financial and|real estate powerhouse,', highlights: ['powerhouse,'], size: 44, pos: 'upperRight', media: {src: 'miami/mi84_powerhouse.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'major financial and|real estate powerhouse,', highlights: ['powerhouse,'], size: 44, pos: 'upperRight', media: {src: 'miami/mi84_powerhouse.jpg', type: 'img', effect: 'in'}},
   // 84
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or is this luxury boom|going too far?', highlights: ['boom'], size: 44, pos: 'lowerLeft', media: {src: 'miami/mi85_toofar.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'or is this luxury boom|going too far?', highlights: ['boom'], size: 44, pos: 'lowerLeft', media: {src: 'miami/mi85_toofar.jpg', type: 'img', effect: 'in'}},
   // 85
-  {dur: 70, kind: 'text', reveal: [2], text: 'And should cities prioritize', highlights: [], size: 50, pos: 'right', media: {src: 'miami/mi86_prioritize.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'And should cities prioritize', highlights: [], size: 50, pos: 'right', media: {src: 'miami/mi86_prioritize.jpg', type: 'img', effect: 'in'}},
   // 86
-  {dur: 70, kind: 'text', reveal: [2], text: 'attracting billionaire investment,', highlights: ['billionaire'], size: 52, pos: 'left', media: {src: 'miami/mi87_attractbill.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'attracting billionaire investment,', highlights: ['billionaire'], size: 52, pos: 'left', media: {src: 'miami/mi87_attractbill.jpg', type: 'img', effect: 'in'}},
   // 87
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'even if housing becomes|less affordable?', highlights: ['housing'], size: 44, pos: 'lowerRight', media: {src: 'miami/mi88_housing.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'even if housing becomes|less affordable?', highlights: ['housing'], size: 44, pos: 'lowerRight', media: {src: 'miami/mi88_housing.jpg', type: 'img', effect: 'in'}},
   // 88 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'miami/mi89_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'miami/mi89_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 190, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 845, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1031, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1243, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2638, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 3974, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 4184, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 923, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1342, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1431, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1966, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2220, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 4771, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 5285, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
