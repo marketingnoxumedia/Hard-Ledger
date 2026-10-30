@@ -103,167 +103,167 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'A massive crypto hack', kicker: 'The crypto meltdown', highlights: [], size: 54, media: {src: 'melt/mt00_hack.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'hook', reveal: [3, 40], text: 'A massive crypto hack', kicker: 'The crypto meltdown', highlights: [], size: 54, media: {src: 'melt/mt00_hack.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'just sent the market|into a meltdown.', highlights: ['meltdown.'], size: 44, pos: 'upperRight', media: {src: 'melt/mt01_meltdown.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'just sent the market|into a meltdown.', highlights: ['meltdown.'], size: 44, pos: 'upperRight', media: {src: 'melt/mt01_meltdown.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'Bitcoin plunged,', highlights: ['plunged,'], size: 52, pos: 'left', media: {src: 'melt/mt02_btcplunge.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Bitcoin plunged,', highlights: ['plunged,'], size: 52, pos: 'left', media: {src: 'melt/mt02_btcplunge.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'Ether followed,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'melt/mt03_ether.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'Ether followed,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'melt/mt03_ether.jpg', type: 'img', effect: 'in'}},
   // 4 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'LIQUIDATED', prefix: '$', value: 1.57, decimals: 2, suffix: 'B', post: 'IN LEVERAGED BETS'}, media: {src: 'melt/mt04_card157.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'stat', stat: {pre: 'LIQUIDATED', prefix: '$', value: 1.57, decimals: 2, suffix: 'B', post: 'IN LEVERAGED BETS'}, media: {src: 'melt/mt04_card157.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'were wiped out.', highlights: ['wiped'], size: 52, pos: 'upperLeft', media: {src: 'melt/mt05_wipedout.jpg', type: 'img', effect: 'in'}},
+  {dur: 24, kind: 'text', reveal: [2], text: 'were wiped out.', highlights: ['wiped'], size: 52, pos: 'upperLeft', media: {src: 'melt/mt05_wipedout.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s the twist:', highlights: ['twist:'], size: 50, pos: 'right', media: {src: 'melt/mt06_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'But here’s the twist:', highlights: ['twist:'], size: 50, pos: 'right', media: {src: 'melt/mt06_twist.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'this wasn’t just|a market selloff.', highlights: [], size: 44, pos: 'lower', media: {src: 'melt/mt07_selloff.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'this wasn’t just|a market selloff.', highlights: [], size: 44, pos: 'lower', media: {src: 'melt/mt07_selloff.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'A major exchange breach', highlights: ['breach'], size: 50, pos: 'upperLeft', media: {src: 'melt/mt08_exchbreach.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'A major exchange breach', highlights: ['breach'], size: 50, pos: 'upperLeft', media: {src: 'melt/mt08_exchbreach.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'triggered a chain reaction,', highlights: ['chain'], size: 50, pos: 'upperRight', media: {src: 'melt/mt09_chain.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'triggered a chain reaction,', highlights: ['chain'], size: 50, pos: 'upperRight', media: {src: 'melt/mt09_chain.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'forcing traders out|of their positions.', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'melt/mt10_forcing.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'forcing traders out|of their positions.', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'melt/mt10_forcing.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'And even as prices dropped,', highlights: ['dropped,'], size: 46, pos: 'right', media: {src: 'melt/mt11_dropped.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'And even as prices dropped,', highlights: ['dropped,'], size: 46, pos: 'right', media: {src: 'melt/mt11_dropped.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'some traders betting|against the market', highlights: [], size: 44, pos: 'left', media: {src: 'melt/mt12_betting.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'some traders betting|against the market', highlights: [], size: 44, pos: 'left', media: {src: 'melt/mt12_betting.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'started getting caught|in the rebound.', highlights: ['rebound.'], size: 44, pos: 'lowerRight', media: {src: 'melt/mt13_rebound.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'started getting caught|in the rebound.', highlights: ['rebound.'], size: 44, pos: 'lowerRight', media: {src: 'melt/mt13_rebound.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Follow for more|breaking crypto news', highlights: ['follow'], size: 44, media: {src: 'melt/mt14_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'Follow for more|breaking crypto news', highlights: ['follow'], size: 44, media: {src: 'melt/mt14_follow.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'and market stories that matter.', highlights: [], size: 46, pos: 'upper', media: {src: 'melt/mt15_stories.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2], text: 'and market stories that matter.', highlights: [], size: 46, pos: 'upper', media: {src: 'melt/mt15_stories.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'On October 30,', highlights: [], size: 52, pos: 'left', media: {src: 'melt/mt16_oct30.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'On October 30,', highlights: [], size: 52, pos: 'left', media: {src: 'melt/mt16_oct30.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'CoinDesk reported that', highlights: [], size: 52, pos: 'right', media: {src: 'melt/mt17_coindesk.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'CoinDesk reported that', highlights: [], size: 52, pos: 'right', media: {src: 'melt/mt17_coindesk.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'Bitcoin fell to around', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'melt/mt18_btcfell.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'Bitcoin fell to around', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'melt/mt18_btcfell.jpg', type: 'img', effect: 'in'}},
   // 19 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'BITCOIN FELL TO', prefix: '~$', value: 76400}, media: {src: 'melt/mt19_cardbtc.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'stat', stat: {pre: 'BITCOIN FELL TO', prefix: '~$', value: 76400}, media: {src: 'melt/mt19_cardbtc.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'after Binance disclosed', highlights: ['Binance'], size: 52, pos: 'upperRight', media: {src: 'melt/mt20_binance.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'after Binance disclosed', highlights: ['Binance'], size: 52, pos: 'upperRight', media: {src: 'melt/mt20_binance.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'a security breach', highlights: [], size: 52, pos: 'left', media: {src: 'melt/mt21_secbreach.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'a security breach', highlights: [], size: 52, pos: 'left', media: {src: 'melt/mt21_secbreach.jpg', type: 'img', effect: 'in'}},
   // 22
   {dur: 70, kind: 'text', reveal: [2], text: 'estimated to have affected', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'melt/mt22_affected.jpg', type: 'img', effect: 'in'}},
   // 23 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'BINANCE BREACH', prefix: '~$', value: 6.3, decimals: 1, suffix: 'B', post: 'IN ASSETS'}, media: {src: 'melt/mt23_card63.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'stat', stat: {pre: 'BINANCE BREACH', prefix: '~$', value: 6.3, decimals: 1, suffix: 'B', post: 'IN ASSETS'}, media: {src: 'melt/mt23_card63.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'Ether also dropped,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'melt/mt24_etherdrop.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Ether also dropped,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'melt/mt24_etherdrop.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'briefly reaching|around $2,170.', highlights: [], size: 50, pos: 'right', media: {src: 'melt/mt25_eth2170.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'briefly reaching|around $2,170.', highlights: [], size: 50, pos: 'right', media: {src: 'melt/mt25_eth2170.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The fallout hit|leveraged traders hard.', highlights: ['hard.'], size: 44, pos: 'lower', media: {src: 'melt/mt26_fallout.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'The fallout hit|leveraged traders hard.', highlights: ['hard.'], size: 44, pos: 'lower', media: {src: 'melt/mt26_fallout.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'Crypto futures liquidations surged', highlights: ['liquidations'], size: 50, pos: 'upperRight', media: {src: 'melt/mt27_futures.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2], text: 'Crypto futures liquidations surged', highlights: ['liquidations'], size: 50, pos: 'upperRight', media: {src: 'melt/mt27_futures.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'to approximately $1.57 billion,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'melt/mt28_157again.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2], text: 'to approximately $1.57 billion,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'melt/mt28_157again.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'with Bitcoin and Ether', highlights: [], size: 50, pos: 'left', media: {src: 'melt/mt29_btceth.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'with Bitcoin and Ether', highlights: [], size: 50, pos: 'left', media: {src: 'melt/mt29_btceth.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'accounting for more|than half of the total.', highlights: ['half'], size: 44, pos: 'right', media: {src: 'melt/mt30_half.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'accounting for more|than half of the total.', highlights: ['half'], size: 44, pos: 'right', media: {src: 'melt/mt30_half.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'Binance recorded nearly half', highlights: ['Binance'], size: 50, pos: 'lowerRight', media: {src: 'melt/mt31_binancehalf.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'Binance recorded nearly half', highlights: ['Binance'], size: 50, pos: 'lowerRight', media: {src: 'melt/mt31_binancehalf.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of the market’s|forced closures,', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'melt/mt32_closures.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'of the market’s|forced closures,', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'melt/mt32_closures.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'while trading volume surged', highlights: ['surged'], size: 50, pos: 'right', media: {src: 'melt/mt33_volume.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2], text: 'while trading volume surged', highlights: ['surged'], size: 50, pos: 'right', media: {src: 'melt/mt33_volume.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as positions were|rapidly unwound.', highlights: ['unwound.'], size: 48, pos: 'upperRight', media: {src: 'melt/mt34_unwound.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'as positions were|rapidly unwound.', highlights: ['unwound.'], size: 48, pos: 'upperRight', media: {src: 'melt/mt34_unwound.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'Here’s why the damage', highlights: [], size: 50, pos: 'left', media: {src: 'melt/mt35_damage.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'Here’s why the damage', highlights: [], size: 50, pos: 'left', media: {src: 'melt/mt35_damage.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'spread so quickly.', highlights: ['quickly.'], size: 52, pos: 'lowerLeft', media: {src: 'melt/mt36_quickly.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'spread so quickly.', highlights: ['quickly.'], size: 52, pos: 'lowerLeft', media: {src: 'melt/mt36_quickly.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'Traders using leverage', highlights: ['leverage'], size: 52, pos: 'upper', media: {src: 'melt/mt37_leverage.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Traders using leverage', highlights: ['leverage'], size: 52, pos: 'upper', media: {src: 'melt/mt37_leverage.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'borrow exposure to|make larger bets.', highlights: [], size: 44, pos: 'right', media: {src: 'melt/mt38_borrow.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'borrow exposure to|make larger bets.', highlights: [], size: 44, pos: 'right', media: {src: 'melt/mt38_borrow.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'When prices move|against them,', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'melt/mt39_against.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'When prices move|against them,', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'melt/mt39_against.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'exchanges can automatically', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'melt/mt40_autoclose.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'exchanges can automatically', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'melt/mt40_autoclose.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'close those positions.', highlights: ['close'], size: 52, pos: 'left', media: {src: 'melt/mt41_closepos.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'close those positions.', highlights: ['close'], size: 52, pos: 'left', media: {src: 'melt/mt41_closepos.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'Those forced exits can add', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'melt/mt42_exits.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'Those forced exits can add', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'melt/mt42_exits.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'even more selling pressure,', highlights: ['pressure,'], size: 50, pos: 'upperRight', media: {src: 'melt/mt43_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'even more selling pressure,', highlights: ['pressure,'], size: 50, pos: 'upperRight', media: {src: 'melt/mt43_pressure.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'pushing prices lower', highlights: ['lower'], size: 52, pos: 'right', media: {src: 'melt/mt44_pushing.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'pushing prices lower', highlights: ['lower'], size: 52, pos: 'right', media: {src: 'melt/mt44_pushing.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and triggering another|wave of liquidations.', highlights: ['liquidations.'], size: 44, pos: 'lowerLeft', media: {src: 'melt/mt45_wave.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'and triggering another|wave of liquidations.', highlights: ['liquidations.'], size: 44, pos: 'lowerLeft', media: {src: 'melt/mt45_wave.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'Binance said around', highlights: ['Binance'], size: 52, pos: 'left', media: {src: 'melt/mt46_binancesaid.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Binance said around', highlights: ['Binance'], size: 52, pos: 'left', media: {src: 'melt/mt46_binancesaid.jpg', type: 'img', effect: 'in'}},
   // 47 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'ASSETS FROZEN', prefix: '~$', value: 3, suffix: 'B'}, media: {src: 'melt/mt47_card3b.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'stat', stat: {pre: 'ASSETS FROZEN', prefix: '~$', value: 3, suffix: 'B'}, media: {src: 'melt/mt47_card3b.jpg', type: 'img', effect: 'in'}},
   // 48
   {dur: 70, kind: 'text', reveal: [2], text: 'while withdrawals remained paused', highlights: ['paused'], size: 50, pos: 'upperRight', media: {src: 'melt/mt48_paused.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'during security checks.', highlights: [], size: 52, pos: 'lower', media: {src: 'melt/mt49_checks.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'during security checks.', highlights: [], size: 52, pos: 'lower', media: {src: 'melt/mt49_checks.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'Blockchain analytics firms', highlights: [], size: 52, pos: 'right', media: {src: 'melt/mt50_analytics.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'Blockchain analytics firms', highlights: [], size: 52, pos: 'right', media: {src: 'melt/mt50_analytics.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'linked the attack to', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'melt/mt51_linked.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'linked the attack to', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'melt/mt51_linked.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'North Korea affiliated hackers.', highlights: ['hackers.'], size: 50, pos: 'lowerRight', media: {src: 'melt/mt52_northkorea.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2], text: 'North Korea affiliated hackers.', highlights: ['hackers.'], size: 50, pos: 'lowerRight', media: {src: 'melt/mt52_northkorea.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2], text: 'Meanwhile, traders moved toward', highlights: [], size: 50, pos: 'left', media: {src: 'melt/mt53_movedtoward.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'Meanwhile, traders moved toward', highlights: [], size: 50, pos: 'left', media: {src: 'melt/mt53_movedtoward.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2], text: 'defensive options positions,', highlights: ['defensive'], size: 52, pos: 'upperRight', media: {src: 'melt/mt54_defensive.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'defensive options positions,', highlights: ['defensive'], size: 52, pos: 'upperRight', media: {src: 'melt/mt54_defensive.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2], text: 'signaling growing concern', highlights: [], size: 52, pos: 'right', media: {src: 'melt/mt55_concern.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'signaling growing concern', highlights: [], size: 52, pos: 'right', media: {src: 'melt/mt55_concern.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that the volatility|could continue.', highlights: ['volatility'], size: 48, pos: 'lowerLeft', media: {src: 'melt/mt56_volatility.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'that the volatility|could continue.', highlights: ['volatility'], size: 48, pos: 'lowerLeft', media: {src: 'melt/mt56_volatility.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 70, kind: 'text', reveal: [2], text: 'But the market’s reaction', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'melt/mt57_reaction.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'But the market’s reaction', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'melt/mt57_reaction.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 70, kind: 'text', reveal: [2], text: 'raises a bigger question.', highlights: ['question.'], size: 50, pos: 'right', media: {src: 'melt/mt58_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'raises a bigger question.', highlights: ['question.'], size: 50, pos: 'right', media: {src: 'melt/mt58_question.jpg', type: 'img', effect: 'in'}},
   // 59
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Is this mainly a|Binance security crisis,', highlights: ['Binance'], size: 44, pos: 'left', media: {src: 'melt/mt59_crisis.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'Is this mainly a|Binance security crisis,', highlights: ['Binance'], size: 44, pos: 'left', media: {src: 'melt/mt59_crisis.jpg', type: 'img', effect: 'in'}},
   // 60
-  {dur: 70, kind: 'text', reveal: [2], text: 'or is it exposing', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'melt/mt60_exposing.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'or is it exposing', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'melt/mt60_exposing.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 70, kind: 'text', reveal: [2], text: 'how fragile crypto markets become', highlights: ['fragile'], size: 46, pos: 'upperRight', media: {src: 'melt/mt61_fragile.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2], text: 'how fragile crypto markets become', highlights: ['fragile'], size: 46, pos: 'upperRight', media: {src: 'melt/mt61_fragile.jpg', type: 'img', effect: 'in'}},
   // 62
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'when so much trading|depends on leverage?', highlights: ['depends'], size: 44, pos: 'lower', media: {src: 'melt/mt62_depends.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'when so much trading|depends on leverage?', highlights: ['depends'], size: 44, pos: 'lower', media: {src: 'melt/mt62_depends.jpg', type: 'img', effect: 'in'}},
   // 63
-  {dur: 70, kind: 'text', reveal: [2], text: 'Even a sharp rebound', highlights: [], size: 50, pos: 'left', media: {src: 'melt/mt63_sharprebound.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Even a sharp rebound', highlights: [], size: 50, pos: 'left', media: {src: 'melt/mt63_sharprebound.jpg', type: 'img', effect: 'in'}},
   // 64
-  {dur: 70, kind: 'text', reveal: [2], text: 'can be dangerous', highlights: ['dangerous'], size: 52, pos: 'right', media: {src: 'melt/mt64_dangerous.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'can be dangerous', highlights: ['dangerous'], size: 52, pos: 'right', media: {src: 'melt/mt64_dangerous.jpg', type: 'img', effect: 'in'}},
   // 65
-  {dur: 70, kind: 'text', reveal: [2], text: 'when traders are forced', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'melt/mt65_forced.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'when traders are forced', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'melt/mt65_forced.jpg', type: 'img', effect: 'in'}},
   // 66
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to close positions|on both sides.', highlights: ['both'], size: 44, pos: 'lowerRight', media: {src: 'melt/mt66_bothsides.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'to close positions|on both sides.', highlights: ['both'], size: 44, pos: 'lowerRight', media: {src: 'melt/mt66_bothsides.jpg', type: 'img', effect: 'in'}},
   // 67
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'melt/mt67_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'melt/mt67_think.jpg', type: 'img', effect: 'in'}},
   // 68
-  {dur: 70, kind: 'text', reveal: [2], text: 'Is this a temporary panic', highlights: ['panic'], size: 46, pos: 'left', media: {src: 'melt/mt68_panic.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'Is this a temporary panic', highlights: ['panic'], size: 46, pos: 'left', media: {src: 'melt/mt68_panic.jpg', type: 'img', effect: 'in'}},
   // 69
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'after a major|exchange breach,', highlights: ['breach,'], size: 48, pos: 'right', media: {src: 'melt/mt69_majorbreach.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'after a major|exchange breach,', highlights: ['breach,'], size: 48, pos: 'right', media: {src: 'melt/mt69_majorbreach.jpg', type: 'img', effect: 'in'}},
   // 70 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'a warning sign for|the entire crypto market?'},
+  {dur: 75, kind: 'impact', redBg: true, text: 'a warning sign for|the entire crypto market?'},
   // 71
-  {dur: 70, kind: 'text', reveal: [2], text: 'And would you still trust', highlights: ['trust'], size: 46, pos: 'lowerLeft', media: {src: 'melt/mt71_trust.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'And would you still trust', highlights: ['trust'], size: 46, pos: 'lowerLeft', media: {src: 'melt/mt71_trust.jpg', type: 'img', effect: 'in'}},
   // 72
-  {dur: 70, kind: 'text', reveal: [2], text: 'a centralized exchange', highlights: [], size: 52, pos: 'upper', media: {src: 'melt/mt72_centralized.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'a centralized exchange', highlights: [], size: 52, pos: 'upper', media: {src: 'melt/mt72_centralized.jpg', type: 'img', effect: 'in'}},
   // 73
-  {dur: 70, kind: 'text', reveal: [2], text: 'after an incident like this?', highlights: ['incident'], size: 46, pos: 'lowerRight', media: {src: 'melt/mt73_incident.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'after an incident like this?', highlights: ['incident'], size: 46, pos: 'lowerRight', media: {src: 'melt/mt73_incident.jpg', type: 'img', effect: 'in'}},
   // 74 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'melt/mt74_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'melt/mt74_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 885, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1682, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2293, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2473, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 3814, src: 'media/sfx_chaching.mp3', vol: 0.46},
-  {at: 4190, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 4373, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 190, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 845, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1031, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1243, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2638, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3974, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 4184, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
