@@ -174,6 +174,7 @@ import {EbolaReel, DURATION_IN_FRAMES as EBOLA_FRAMES} from './EbolaReel';
 import {GenieReel, DURATION_IN_FRAMES as GENIE_FRAMES} from './GenieReel';
 import {ChipReel, DURATION_IN_FRAMES as CHIP_FRAMES} from './ChipReel';
 import {PolymarketReel, DURATION_IN_FRAMES as POLY_FRAMES} from './PolymarketReel';
+import {AmazonAiReel, DURATION_IN_FRAMES as AZAI_FRAMES} from './AmazonAiReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1573,6 +1574,14 @@ export const RemotionRoot: React.FC = () => {
         id="PolymarketReel"
         component={PolymarketReel}
         durationInFrames={POLY_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="AmazonAiReel"
+        component={AmazonAiReel}
+        durationInFrames={AZAI_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
