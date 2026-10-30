@@ -6293,7 +6293,8 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   INCIDENT -$300M (OFF Q4 REVENUE)**, 1 red impact ("a temporary setback | or a deeper problem?", placed mid-tail so
   the reel closes on the comments-CTA media beat), no black beat. **Captions match the VO verbatim** (figures appear
   as numerals only on the four cards). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor
-  pass (`public/intel/voiceover.mp3`), **built at the house +10% VO** (~156s / 2:36); its own driving, tense
+  pass (`public/intel/voiceover.mp3`), **built at +21% VO** (the house +10% plus an additional +10% at the client's
+  request; atempo 1.21) (~142s / 2:22); its own driving, tense
   finance-news music bed (mixed at 0.20). **Varied caption placement** per the house convention (hook + CTAs
   centered). Entirely its own fresh footage under `public/intel/` (79 stills) — no asset shared with any other reel
   (distinct from the sector-wide `ChipReel`, which names Intel among AMD/Broadcom/Micron, and from `MicronReel`).
