@@ -6218,6 +6218,64 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   Polymarket’s own systems being breached, and total losses are not publicly confirmed); the "how much responsibility
   should a platform take / would you still trust it" framing is the script’s editorial debate.
 
+- **`AmazonAiReel`** — "The Amazon selloff" (finance / tech-news reel, Hard Ledger VISUAL style). Topic: **Amazon
+  reported one of its strongest cloud-growth rates in years, yet the stock sold off as investors questioned whether
+  AI spending is becoming too expensive.** AWS is growing fast on AI demand, but Amazon is spending hundreds of
+  billions on the infrastructure behind it; the reel’s thesis is the tension between heavy AI capex now and uncertain,
+  delayed returns. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (HOOK /
+  CURIOSITY GAP / EARLY CTA / CONTEXT / EVIDENCE / ESCALATION / CONSEQUENCES / CONTROVERSY / AUDIENCE DEBATE), NOT the
+  faceless house voice** — it NAMES Amazon / AWS / CEO Andy Jassy, uses an EARLY "follow for more" CTA, and CLOSES on
+  a "let us know in the comments" debate CTA. **Per the saved house preference, captions are chunked to AT MOST 5-6
+  WORDS PER BEAT with LARGER on-screen type** (Anton sizes ~42-52), which drives a high beat count. **73 beats**,
+  **3 stat cards — AWS REVENUE +39% (TO ~$46 BILLION), FREE CASH FLOW -$42.4B (OUTFLOW, 12 MONTHS), CAPEX THIS YEAR
+  ~$220B (AND RISING)**, 1 red impact ("spending too much | too soon?", placed mid-tail so the reel closes on a media
+  beat — the comments-CTA), no black beat. **Captions match the VO verbatim** (figures appear as numerals only on the
+  three cards; the "~" prefix on the capex card is "approximately," confirmed in the render). Durations/reveals/SFX
+  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/amzai/voiceover.mp3`), **built at the house
+  +10% VO** (~152s / 2:32); its own driving, tense finance-news music bed (mixed at 0.20). **Varied caption placement**
+  per the house convention (hook + CTAs centered). Entirely its own fresh footage under `public/amzai/` (72 stills) —
+  no asset shared with any other reel. **New STANDALONE reel** (kept separate from the existing `AmazonReel` /
+  `AwsReel`, which cover different theses). Media credits (Pexels, free license) — all stills: glowing line-chart
+  screen (13922614), an upward light trail (117831), moody backlit clouds (33175916), a red downtrend arrow (8358007),
+  a candlestick/graph glow (10279446), a wooden artist-figure holding a carved "?" (10981244), a brass balance scale
+  (6077181), a dark blue-LED corridor (35805443), fiber-optic light streaks (594233), gold coins spilling from a pot
+  (7080498), a padlocked heavy metal door (10400473), a steel-frame building under construction at dusk (38624013),
+  storm clouds over a generic skyline (37136429), dark server/console panels (19825057), a green sprout macro
+  (18286956), concentric light rings (40270759), motion-blurred city lights (18182846), low-angle glass skyscrapers
+  (10586221), a chess king (38563377), a blue light-stream abstract (39194608), a robotic gripper (8439074), a
+  power-line pylon silhouette (12174436), interconnected ink nodes (31916417), ascending blue 3D forms (29506601), a
+  molten-metal foundry pour (6804265), a receding infrastructure corridor (12183368), a circuit-board macro (37005283),
+  a blue bokeh glow (13840288), glowing abstract panels (582490), a radiant golden light burst (29716872), green
+  upward energy/smoke — card bg (8268996), horizontal warp streaks (11774184), an open blank notebook (6561652), water
+  through a wooden channel (11012604), a dark crimson marbled abstract — card bg (14910467), book pages flipping
+  (15419259), a spinning turbine core (16160818), gold circuitry (6704970), a climbing speedometer dial (8405876), a
+  construction crane at dusk (2217214), amber/gold bokeh — card bg (35468833), a window silhouette (15326393), a
+  horizon sunrise (13922023), an ascending stairwell of light (26756405), a blank billboard at golden hour (14780175),
+  a partial pie-segment glow (36552127), a clenched-fist silhouette (7298875), a tech-building facade (31379836), a
+  steel-wool light loop (39402629), an hourglass (7954883), misty mountain ridges at dawn (16466665), an edge-on gold
+  coin stack (35437542), stacked balancing stones (25872370), a red light wedge (29746583), a cut crystal (6944190), a
+  metal spinning top with a gold spiral (34710662), a dark solar-panel grid (8853509), a stone column (30508595), a
+  rocket liftoff (586066), a string of lights (1025410), a glowing network mesh (8386437), a tangle of cables
+  (20604375), glowing light streams (9404662), a seedling in dark soil (7944396), a heavy weight plate (2261481), a
+  desert crossroads at dusk (9701383), a charging bull silhouette (18586251), a glass corporate tower (6650984), a
+  glowing red push-button (14090249), an empty rain-slicked pier in fog (15940453), ripe berries on a branch
+  (13960707), and hands tapping a phone at night with a blank glowing screen (25527040). No generated graphics this
+  reel. **Brand-safety (screened hard at source and spot-checked from the FINAL render):** FACE-FREE (hands /
+  silhouettes / objects / abstracts only), and — despite naming Amazon / AWS / Jassy — free of any company LOGO or
+  wordmark (no Amazon/AWS marks, no server-vendor badges), readable STOCK TICKERS / prices / currency (banknote
+  portraits / denominations), flags, and recognizable landmarks. Sourcing agents rejected a large pile under View-QA
+  (vendor logos on server racks — Dell/HP/Intel/NetApp/Crucial/Micron/Cummins/APC; an Apple logo on a phone back;
+  readable chip part numbers, dashboard readouts, calendar dates, and foreign-language signage), and three
+  motif-duplicate beats were re-sourced (a 2nd chess king → a desert crossroads; a 2nd hourglass → a foggy pier; an
+  abstract dot-field → hands on a phone). A few beats carry incidental GENERIC, non-brand detail (small analog
+  speedometer gradations, faint dark-on-dark embossing on a weight plate) — consistent with the house allowance for
+  ambient, non-brand text. **UNVERIFIED — cites specific figures (Q3 revenue $201.9B; AWS revenue +~39% to ~$46B;
+  free-cash-flow outflow of $42.4B over 12 months; capex ~$220B this year with next year "meaningfully higher"; ad
+  business +12%) and an attribution to CEO Andy Jassy; rendered as written but MUST be fact-checked against primary
+  sources before publishing.** The reel preserves the script’s own both-sides framing (heavy AI capex may secure a
+  leading cloud position, but returns take time and could pressure profitability) and the "would you buy after this
+  selloff, or wait for proof" audience debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
