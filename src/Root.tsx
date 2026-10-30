@@ -178,6 +178,7 @@ import {AmazonAiReel, DURATION_IN_FRAMES as AZAI_FRAMES} from './AmazonAiReel';
 import {IntelReel, DURATION_IN_FRAMES as INTEL_FRAMES} from './IntelReel';
 import {PixoReel, DURATION_IN_FRAMES as PIXO_FRAMES} from './PixoReel';
 import {MeltdownReel, DURATION_IN_FRAMES as MELT_FRAMES} from './MeltdownReel';
+import {MiamiReel, DURATION_IN_FRAMES as MIAMI_FRAMES} from './MiamiReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1609,6 +1610,14 @@ export const RemotionRoot: React.FC = () => {
         id="MeltdownReel"
         component={MeltdownReel}
         durationInFrames={MELT_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="MiamiReel"
+        component={MiamiReel}
+        durationInFrames={MIAMI_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
