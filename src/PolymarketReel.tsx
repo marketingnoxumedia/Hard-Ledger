@@ -112,21 +112,21 @@ const SCENES: SceneDef[] = [
   // 1
   {dur: 98, kind: 'text', reveal: [2, 28], text: 'just froze trading|after a security breach,', highlights: ['breach,'], size: 44, pos: 'upperRight', media: {src: 'poly/pm01_frozen.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 45, kind: 'text', reveal: [2], text: 'and some users say money', highlights: [], size: 46, pos: 'left', media: {src: 'poly/pm02_users.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'and some users say money', highlights: [], size: 46, pos: 'left', media: {src: 'poly/pm03_users.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 43, kind: 'text', reveal: [2], text: 'disappeared from their accounts.', highlights: ['disappeared'], size: 50, pos: 'lowerRight', media: {src: 'poly/pm03_gone.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'disappeared from their accounts.', highlights: ['disappeared'], size: 50, pos: 'lowerRight', media: {src: 'poly/pm04_gone.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 26, kind: 'text', reveal: [2], text: 'But here’s the twist:', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'poly/pm04_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'But here’s the twist:', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'poly/pm05_twist.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 63, kind: 'text', reveal: [2], text: 'the attack may not have started', highlights: ['attack'], size: 42, pos: 'right', media: {src: 'poly/pm05_attack.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2], text: 'the attack may not have started', highlights: ['attack'], size: 42, pos: 'right', media: {src: 'poly/pm06_attack.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 44, kind: 'text', reveal: [2], text: 'with Polymarket itself.', highlights: [], size: 52, pos: 'lower', media: {src: 'poly/pm06_notpoly.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'with Polymarket itself.', highlights: [], size: 52, pos: 'lower', media: {src: 'poly/pm07_notpoly.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 85, kind: 'text', reveal: [2, 28], text: 'Polymarket says a|third party was compromised,', highlights: ['compromised,'], size: 44, pos: 'upperLeft', media: {src: 'poly/pm07_thirdparty.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'Polymarket says a|third party was compromised,', highlights: ['compromised,'], size: 44, pos: 'upperLeft', media: {src: 'poly/pm09_compromised.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 40, kind: 'text', reveal: [2], text: 'and the company has promised', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm08_promised.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'and the company has promised', highlights: [], size: 46, pos: 'upperRight', media: {src: 'poly/pm08_thirdparty.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'to reimburse affected traders.', highlights: ['reimburse'], size: 50, pos: 'lowerLeft', media: {src: 'poly/pm09_reimburse.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'to reimburse affected traders.', highlights: ['reimburse'], size: 50, pos: 'lowerLeft', media: {src: 'poly/pm02_breach.jpg', type: 'img', effect: 'in'}},
   // 10
   {dur: 35, kind: 'text', reveal: [2], text: 'But how could a breach', highlights: [], size: 46, pos: 'right', media: {src: 'poly/pm10_how.jpg', type: 'img', effect: 'in'}},
   // 11
