@@ -6231,8 +6231,9 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   ~$220B (AND RISING)**, 1 red impact ("spending too much | too soon?", placed mid-tail so the reel closes on a media
   beat — the comments-CTA), no black beat. **Captions match the VO verbatim** (figures appear as numerals only on the
   three cards; the "~" prefix on the capex card is "approximately," confirmed in the render). Durations/reveals/SFX
-  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/amzai/voiceover.mp3`), **built at the house
-  +10% VO** (~152s / 2:32); its own driving, tense finance-news music bed (mixed at 0.20). **Varied caption placement**
+  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/amzai/voiceover.mp3`), **built at +21% VO**
+  (the house +10% plus an additional +10% at the client’s request; atempo 1.21) (~138s / 2:18); its own driving, tense
+  finance-news music bed (mixed at 0.20). **Varied caption placement**
   per the house convention (hook + CTAs centered). Entirely its own fresh footage under `public/amzai/` (72 stills) —
   no asset shared with any other reel. **New STANDALONE reel** (kept separate from the existing `AmazonReel` /
   `AwsReel`, which cover different theses). Media credits (Pexels, free license) — all stills: glowing line-chart
