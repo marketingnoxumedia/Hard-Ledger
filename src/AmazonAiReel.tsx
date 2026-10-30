@@ -108,161 +108,162 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Amazon just reported', kicker: 'The Amazon selloff', highlights: [], size: 56, media: {src: 'amzai/az00_report.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'hook', reveal: [3, 40], text: 'Amazon just reported', kicker: 'The Amazon selloff', highlights: [], size: 56, media: {src: 'amzai/az00_report.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'one of its strongest', highlights: [], size: 50, pos: 'upperRight', media: {src: 'amzai/az01_strongest.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'one of its strongest', highlights: [], size: 50, pos: 'upperRight', media: {src: 'amzai/az01_strongest.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'cloud growth rates in years,', highlights: [], size: 46, pos: 'left', media: {src: 'amzai/az02_cloudgrowth.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'cloud growth rates in years,', highlights: [], size: 46, pos: 'left', media: {src: 'amzai/az02_cloudgrowth.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'but its stock is sinking.', highlights: ['sinking.'], size: 46, pos: 'lowerRight', media: {src: 'amzai/az03_sinking.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'but its stock is sinking.', highlights: ['sinking.'], size: 46, pos: 'lowerRight', media: {src: 'amzai/az03_sinking.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'And the reason has investors', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'amzai/az04_investors.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'And the reason has investors', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'amzai/az04_investors.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'asking a major question:', highlights: [], size: 50, pos: 'right', media: {src: 'amzai/az05_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'asking a major question:', highlights: [], size: 50, pos: 'right', media: {src: 'amzai/az05_question.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is the AI boom|becoming too expensive?', highlights: ['expensive?'], size: 44, pos: 'lower', media: {src: 'amzai/az06_expensive.jpg', type: 'img', effect: 'in'}},
+  {dur: 125, kind: 'text', reveal: [2, 28], text: 'is the AI boom|becoming too expensive?', highlights: ['expensive?'], size: 44, pos: 'lower', media: {src: 'amzai/az06_expensive.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Amazon Web Services|is growing rapidly,', highlights: ['rapidly,'], size: 44, pos: 'upperLeft', media: {src: 'amzai/az07_aws.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'Amazon Web Services|is growing rapidly,', highlights: ['rapidly,'], size: 44, pos: 'upperLeft', media: {src: 'amzai/az07_aws.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with demand for AI|computing surging.', highlights: ['surging.'], size: 44, pos: 'upperRight', media: {src: 'amzai/az08_surging.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'with demand for AI|computing surging.', highlights: ['surging.'], size: 44, pos: 'upperRight', media: {src: 'amzai/az08_surging.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'But Amazon is spending', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'amzai/az09_spending.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'But Amazon is spending', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'amzai/az09_spending.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'hundreds of billions of dollars', highlights: ['billions'], size: 46, pos: 'right', media: {src: 'amzai/az10_billions.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2], text: 'hundreds of billions of dollars', highlights: ['billions'], size: 46, pos: 'right', media: {src: 'amzai/az10_billions.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'to build the infrastructure behind it.', highlights: [], size: 42, pos: 'left', media: {src: 'amzai/az11_infra.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'to build the infrastructure behind it.', highlights: [], size: 42, pos: 'left', media: {src: 'amzai/az11_infra.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'So why is Wall Street worried', highlights: ['worried'], size: 42, pos: 'lowerRight', media: {src: 'amzai/az12_worried.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'So why is Wall Street worried', highlights: ['worried'], size: 42, pos: 'lowerRight', media: {src: 'amzai/az12_worried.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'when the cloud business', highlights: [], size: 50, pos: 'upper', media: {src: 'amzai/az13_cloudbiz.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'when the cloud business', highlights: [], size: 50, pos: 'upper', media: {src: 'amzai/az13_cloudbiz.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'is doing so well?', highlights: [], size: 50, pos: 'left', media: {src: 'amzai/az14_sowell.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'is doing so well?', highlights: [], size: 50, pos: 'left', media: {src: 'amzai/az14_sowell.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Follow for more business|and technology news', highlights: ['follow'], size: 44, media: {src: 'amzai/az15_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'Follow for more business|and technology news', highlights: ['follow'], size: 44, media: {src: 'amzai/az15_follow.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'that explains what is moving', highlights: [], size: 46, pos: 'right', media: {src: 'amzai/az16_moving.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'that explains what is moving', highlights: [], size: 46, pos: 'right', media: {src: 'amzai/az16_moving.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'the biggest companies in the world.', highlights: [], size: 42, pos: 'lowerLeft', media: {src: 'amzai/az17_biggest.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'the biggest companies in the world.', highlights: [], size: 42, pos: 'lowerLeft', media: {src: 'amzai/az17_biggest.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'Amazon is one of the biggest', highlights: [], size: 42, pos: 'upperRight', media: {src: 'amzai/az18_player.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'Amazon is one of the biggest', highlights: [], size: 42, pos: 'upperRight', media: {src: 'amzai/az18_player.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'players in the AI race.', highlights: ['ai'], size: 46, pos: 'left', media: {src: 'amzai/az19_airace.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'players in the AI race.', highlights: ['ai'], size: 46, pos: 'left', media: {src: 'amzai/az19_airace.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'Through AWS, it provides', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'amzai/az20_provides.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'Through AWS, it provides', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'amzai/az20_provides.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'cloud computing power to businesses', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'amzai/az21_cloudpower.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'cloud computing power to businesses', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'amzai/az21_cloudpower.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'developing and running AI models.', highlights: [], size: 46, pos: 'right', media: {src: 'amzai/az22_models.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2], text: 'developing and running AI models.', highlights: [], size: 46, pos: 'right', media: {src: 'amzai/az22_models.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'To keep up with demand,', highlights: ['demand,'], size: 46, pos: 'lower', media: {src: 'amzai/az23_demand.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'To keep up with demand,', highlights: ['demand,'], size: 46, pos: 'lower', media: {src: 'amzai/az23_demand.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'Amazon is investing heavily', highlights: ['heavily'], size: 50, pos: 'upperRight', media: {src: 'amzai/az24_heavily.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'Amazon is investing heavily', highlights: ['heavily'], size: 50, pos: 'upperRight', media: {src: 'amzai/az24_heavily.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'in data centers, chips,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'amzai/az25_datacenters.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'in data centers, chips,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'amzai/az25_datacenters.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'and other infrastructure.', highlights: [], size: 52, pos: 'left', media: {src: 'amzai/az26_otherinfra.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'and other infrastructure.', highlights: [], size: 52, pos: 'left', media: {src: 'amzai/az26_otherinfra.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'Amazon reported third quarter revenue', highlights: [], size: 46, pos: 'right', media: {src: 'amzai/az27_q3rev.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'Amazon reported third quarter revenue', highlights: [], size: 46, pos: 'right', media: {src: 'amzai/az27_q3rev.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'of $201.9 billion.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'amzai/az28_revnum.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2], text: 'of $201.9 billion.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'amzai/az28_revnum.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'AWS revenue jumped', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'amzai/az29_awsjump.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'AWS revenue jumped', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'amzai/az29_awsjump.jpg', type: 'img', effect: 'in'}},
   // 30 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'AWS REVENUE', prefix: '+', value: 39, suffix: '%', post: 'TO ~$46 BILLION'}, media: {src: 'amzai/az30_card39.jpg', type: 'img', effect: 'in'}},
+  {dur: 111, kind: 'stat', stat: {pre: 'AWS REVENUE', prefix: '+', value: 39, suffix: '%', post: 'TO ~$46 BILLION'}, media: {src: 'amzai/az30_card39.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'its fastest growth|in almost five years.', highlights: [], size: 44, pos: 'right', media: {src: 'amzai/az31_fastest.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'its fastest growth|in almost five years.', highlights: [], size: 44, pos: 'right', media: {src: 'amzai/az31_fastest.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'But Amazon also reported', highlights: [], size: 50, pos: 'upperRight', media: {src: 'amzai/az32_alsoreported.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'But Amazon also reported', highlights: [], size: 50, pos: 'upperRight', media: {src: 'amzai/az32_alsoreported.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'a free cash flow outflow', highlights: ['outflow'], size: 46, pos: 'left', media: {src: 'amzai/az33_fcf.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'a free cash flow outflow', highlights: ['outflow'], size: 46, pos: 'left', media: {src: 'amzai/az33_fcf.jpg', type: 'img', effect: 'in'}},
   // 34 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'FREE CASH FLOW', prefix: '-$', value: 42.4, decimals: 1, suffix: 'B', post: 'OUTFLOW, 12 MONTHS'}, media: {src: 'amzai/az34_card42.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'stat', stat: {pre: 'FREE CASH FLOW', prefix: '-$', value: 42.4, decimals: 1, suffix: 'B', post: 'OUTFLOW, 12 MONTHS'}, media: {src: 'amzai/az34_card42.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'over the past 12 months,', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'amzai/az35_12months.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'over the past 12 months,', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'amzai/az35_12months.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'largely driven by its growing', highlights: [], size: 46, pos: 'upper', media: {src: 'amzai/az36_driven.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'largely driven by its growing', highlights: [], size: 46, pos: 'upper', media: {src: 'amzai/az36_driven.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'investment in AI infrastructure.', highlights: ['infrastructure.'], size: 50, pos: 'right', media: {src: 'amzai/az37_investai.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2], text: 'investment in AI infrastructure.', highlights: ['infrastructure.'], size: 50, pos: 'right', media: {src: 'amzai/az37_investai.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the spending is|not slowing down.', highlights: ['spending'], size: 44, pos: 'lowerRight', media: {src: 'amzai/az38_notslowing.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'And the spending is|not slowing down.', highlights: ['spending'], size: 44, pos: 'lowerRight', media: {src: 'amzai/az38_notslowing.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'Amazon expects capital expenditures', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'amzai/az39_capex.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2], text: 'Amazon expects capital expenditures', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'amzai/az39_capex.jpg', type: 'img', effect: 'in'}},
   // 40 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'CAPEX THIS YEAR', prefix: '~$', value: 220, suffix: 'B', post: 'AND RISING'}, media: {src: 'amzai/az40_card220.jpg', type: 'img', effect: 'in'}},
+  {dur: 118, kind: 'stat', stat: {pre: 'CAPEX THIS YEAR', prefix: '~$', value: 220, suffix: 'B', post: 'AND RISING'}, media: {src: 'amzai/az40_card220.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'CEO Andy Jassy has also', highlights: [], size: 46, pos: 'left', media: {src: 'amzai/az41_jassy.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'CEO Andy Jassy has also', highlights: [], size: 46, pos: 'left', media: {src: 'amzai/az41_jassy.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'indicated that next year’s spending', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'amzai/az42_nextyear.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'indicated that next year’s spending', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'amzai/az42_nextyear.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'will be meaningfully higher.', highlights: ['higher.'], size: 50, pos: 'upperRight', media: {src: 'amzai/az43_higher.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'will be meaningfully higher.', highlights: ['higher.'], size: 50, pos: 'upperRight', media: {src: 'amzai/az43_higher.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Meanwhile, the company’s|advertising business', highlights: [], size: 48, pos: 'right', media: {src: 'amzai/az44_ads.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'Meanwhile, the company’s|advertising business', highlights: [], size: 48, pos: 'right', media: {src: 'amzai/az44_ads.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'grew just 12%,|missing expectations.', highlights: ['12%,'], size: 48, pos: 'lowerLeft', media: {src: 'amzai/az45_12pct.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'grew just 12%,|missing expectations.', highlights: ['12%,'], size: 48, pos: 'lowerLeft', media: {src: 'amzai/az45_12pct.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That combination is|making investors nervous.', highlights: ['nervous.'], size: 44, pos: 'left', media: {src: 'amzai/az46_nervous.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'That combination is|making investors nervous.', highlights: ['nervous.'], size: 44, pos: 'left', media: {src: 'amzai/az46_nervous.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Amazon is building massive|AI infrastructure,', highlights: [], size: 44, pos: 'upperRight', media: {src: 'amzai/az47_massive.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 28], text: 'Amazon is building massive|AI infrastructure,', highlights: [], size: 44, pos: 'upperRight', media: {src: 'amzai/az47_massive.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'but the returns may', highlights: [], size: 50, pos: 'lower', media: {src: 'amzai/az48_returns.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'but the returns may', highlights: [], size: 50, pos: 'lower', media: {src: 'amzai/az48_returns.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'take time to arrive.', highlights: ['time'], size: 50, pos: 'right', media: {src: 'amzai/az49_taketime.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'take time to arrive.', highlights: ['time'], size: 50, pos: 'right', media: {src: 'amzai/az49_taketime.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'If spending keeps rising', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'amzai/az50_rising.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'If spending keeps rising', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'amzai/az50_rising.jpg', type: 'img', effect: 'in'}},
   // 51
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'faster than the cash|the business generates,', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'amzai/az51_cash.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'investors could become increasingly', highlights: [], size: 50, pos: 'left', media: {src: 'amzai/az52_increasingly.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'investors could become increasingly', highlights: [], size: 50, pos: 'left', media: {src: 'amzai/az52_increasingly.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2], text: 'concerned about profitability', highlights: ['profitability'], size: 52, pos: 'upperRight', media: {src: 'amzai/az53_profit.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'concerned about profitability', highlights: ['profitability'], size: 52, pos: 'upperRight', media: {src: 'amzai/az53_profit.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and the value of|these investments.', highlights: [], size: 44, pos: 'right', media: {src: 'amzai/az54_value.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'and the value of|these investments.', highlights: [], size: 44, pos: 'right', media: {src: 'amzai/az54_value.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s the other side.', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'amzai/az55_otherside.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'But here’s the other side.', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'amzai/az55_otherside.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 70, kind: 'text', reveal: [2], text: 'AWS is growing rapidly,', highlights: ['rapidly,'], size: 50, pos: 'upperLeft', media: {src: 'amzai/az56_awsgrow.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'AWS is growing rapidly,', highlights: ['rapidly,'], size: 50, pos: 'upperLeft', media: {src: 'amzai/az56_awsgrow.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and demand for AI computing|remains strong.', highlights: ['strong.'], size: 44, pos: 'right', media: {src: 'amzai/az57_strong.jpg', type: 'img', effect: 'in'}},
+  {dur: 120, kind: 'text', reveal: [2, 28], text: 'and demand for AI computing|remains strong.', highlights: ['strong.'], size: 44, pos: 'right', media: {src: 'amzai/az57_strong.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 70, kind: 'text', reveal: [2], text: 'Amazon’s spending could help it', highlights: [], size: 46, pos: 'left', media: {src: 'amzai/az58_couldhelp.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Amazon’s spending could help it', highlights: [], size: 46, pos: 'left', media: {src: 'amzai/az58_couldhelp.jpg', type: 'img', effect: 'in'}},
   // 59
-  {dur: 70, kind: 'text', reveal: [2], text: 'secure a leading position', highlights: ['leading'], size: 50, pos: 'lowerRight', media: {src: 'amzai/az59_leading.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'secure a leading position', highlights: ['leading'], size: 50, pos: 'lowerRight', media: {src: 'amzai/az59_leading.jpg', type: 'img', effect: 'in'}},
   // 60
-  {dur: 70, kind: 'text', reveal: [2], text: 'in the cloud market.', highlights: [], size: 50, pos: 'upperRight', media: {src: 'amzai/az60_cloudmkt.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'in the cloud market.', highlights: [], size: 50, pos: 'upperRight', media: {src: 'amzai/az60_cloudmkt.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 70, kind: 'text', reveal: [2], text: 'The question is not simply', highlights: [], size: 46, pos: 'lower', media: {src: 'amzai/az61_notsimply.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'The question is not simply', highlights: [], size: 46, pos: 'lower', media: {src: 'amzai/az61_notsimply.jpg', type: 'img', effect: 'in'}},
   // 62
-  {dur: 70, kind: 'text', reveal: [2], text: 'whether AI demand exists,', highlights: [], size: 50, pos: 'left', media: {src: 'amzai/az62_demandexists.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2], text: 'whether AI demand exists,', highlights: [], size: 50, pos: 'left', media: {src: 'amzai/az62_demandexists.jpg', type: 'img', effect: 'in'}},
   // 63
-  {dur: 70, kind: 'text', reveal: [2], text: 'but whether the returns', highlights: [], size: 50, pos: 'right', media: {src: 'amzai/az63_butreturns.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'but whether the returns', highlights: [], size: 50, pos: 'right', media: {src: 'amzai/az63_butreturns.jpg', type: 'img', effect: 'in'}},
   // 64
-  {dur: 70, kind: 'text', reveal: [2], text: 'will justify the enormous cost.', highlights: ['cost.'], size: 46, pos: 'upperLeft', media: {src: 'amzai/az64_cost.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2], text: 'will justify the enormous cost.', highlights: ['cost.'], size: 46, pos: 'upperLeft', media: {src: 'amzai/az64_cost.jpg', type: 'img', effect: 'in'}},
   // 65
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So, is Amazon making|the right move', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'amzai/az65_rightmove.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'So, is Amazon making|the right move', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'amzai/az65_rightmove.jpg', type: 'img', effect: 'in'}},
   // 66
-  {dur: 70, kind: 'text', reveal: [2], text: 'by investing aggressively in AI,', highlights: ['aggressively'], size: 46, pos: 'upperRight', media: {src: 'amzai/az66_aggressive.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2], text: 'by investing aggressively in AI,', highlights: ['aggressively'], size: 46, pos: 'upperRight', media: {src: 'amzai/az66_aggressive.jpg', type: 'img', effect: 'in'}},
   // 67
-  {dur: 70, kind: 'text', reveal: [2], text: 'or is the company', highlights: [], size: 50, pos: 'left', media: {src: 'amzai/az67_orcompany.jpg', type: 'img', effect: 'in'}},
+  {dur: 22, kind: 'text', reveal: [2], text: 'or is the company', highlights: [], size: 50, pos: 'left', media: {src: 'amzai/az67_orcompany.jpg', type: 'img', effect: 'in'}},
   // 68 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'spending too much|too soon?'},
+  {dur: 59, kind: 'impact', redBg: true, text: 'spending too much|too soon?'},
   // 69
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Would you buy Amazon|after this selloff,', highlights: ['selloff,'], size: 44, pos: 'right', media: {src: 'amzai/az69_buyafter.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'Would you buy Amazon|after this selloff,', highlights: ['selloff,'], size: 44, pos: 'right', media: {src: 'amzai/az69_buyafter.jpg', type: 'img', effect: 'in'}},
   // 70
-  {dur: 70, kind: 'text', reveal: [2], text: 'or wait for proof', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'amzai/az70_waitproof.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'or wait for proof', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'amzai/az70_waitproof.jpg', type: 'img', effect: 'in'}},
   // 71
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that the AI investments|are paying off?', highlights: ['off?'], size: 44, pos: 'upper', media: {src: 'amzai/az71_payingoff.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'that the AI investments|are paying off?', highlights: ['off?'], size: 44, pos: 'upper', media: {src: 'amzai/az71_payingoff.jpg', type: 'img', effect: 'in'}},
   // 72 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'amzai/az72_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'amzai/az72_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 735, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 2015, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2110, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2686, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3986, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 930, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1786, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2109, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2507, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 4286, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 4519, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
