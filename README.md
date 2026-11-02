@@ -6740,14 +6740,21 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   DEBATE), NOT the faceless house voice** — it NAMES real figures (Haley Stevens / Mike Rogers / Abdul El-Sayed /
   Chuck Schumer / the Michigan Democratic Party), uses an EARLY "follow for more" CTA, and CLOSES on a "let us know
   in the comments" debate CTA. **Per the saved house preference, captions are AT MOST 5-6 WORDS PER BEAT with LARGER
-  on-screen type** (Anton ~42-52). **93 beats (the longest to date)**, **1 stat card — ENDORSED ROGERS / 2 DAYS /
-  BEFORE ELECTION DAY (the script's only hard figure)**, 1 red impact (the quoted "a despicable betrayal.",
-  attributed in the VO to Schumer, placed mid-tail so the reel closes on the comments-CTA media beat), no black beat.
-  **Captions match the VO verbatim** — figures appear as numerals only on the single card. Durations/reveals/SFX
-  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/defect/voiceover.mp3`); **built at the house
-  +10% VO** (~182s / 3:02); its own tense, serious political-drama music bed (mixed at 0.20). **Varied caption
+  on-screen type** (Anton ~42-52). **67 beats — TRIMMED to ~2:02 at the client's request from the original 93-beat /
+  3:02 cut**: seven whole sentences were cut at clean sentence boundaries (the sudden-vs-gradual framing; the "remained
+  tense over Israel / outside advertising" context; the "demanded apologize / condemn antisemitic ad" escalation
+  detail; the "days earlier still supporting El-Sayed" beat; the "backlash didn't stop with leaders" line; the
+  "Democrats need key races to retake the Senate" stakes; and the moderate-vs-progressive "Medicare for All / ending
+  aid to Israel" policy contrast), so every kept beat retains its exact original VO timing. **1 stat card — ENDORSED
+  ROGERS / 2 DAYS / BEFORE ELECTION DAY (the script's only hard figure)**, 1 red impact (the quoted "a despicable
+  betrayal.", attributed in the VO to Schumer, placed mid-tail so the reel closes on the comments-CTA media beat), no
+  black beat. **Captions match the VO verbatim** — figures appear as numerals only on the single card.
+  Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/defect/voiceover.mp3`);
+  **re-paced to +16% VO (SCALE 1.155 — an "additional 5%" on top of the house +10%, applied multiplicatively)** (~122s
+  / 2:02); its own tense, serious political-drama music bed (mixed at 0.20). **Varied caption
   placement** per the house convention (hook + CTAs centered). Entirely its own fresh footage under `public/defect/`
-  (92 stills) — no asset shared with any other reel (ledger-checked against `used_ids.txt`). **New STANDALONE reel.**
+  (66 stills used in the trimmed cut, drawn from the 92 sourced) — no asset shared with any other reel (ledger-checked
+  against `used_ids.txt`). **New STANDALONE reel.**
   Media credits (Pexels, free license) — all stills: feet stepping across a painted line (14522799), a government-
   style facade at dusk (12689736), an empty legislative chamber (3866658), a clenched fist in shadow (7298869), a
   lone backlit figure in a spotlight (30692471), three empty chairs on a bare stage (12242087), a dim calendar/clock

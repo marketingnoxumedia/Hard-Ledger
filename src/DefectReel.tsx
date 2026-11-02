@@ -88,13 +88,18 @@ type SceneDef = {
 // the faceless house voice — it NAMES real figures (Haley Stevens / Mike Rogers / Abdul El-Sayed / Chuck Schumer /
 // the Michigan Democratic Party), uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments"
 // debate CTA. The red beat lands the quoted "a despicable betrayal." punch (attributed in the VO to Schumer). Per
-// the saved house preference, captions are <=5-6 words/beat with LARGER on-screen type (Anton ~42-52). 93 beats
-// (the longest to date). 1 stat card: ENDORSED ROGERS / 2 DAYS / BEFORE ELECTION DAY (the script's only hard figure).
-// 1 red impact mid-tail (closes on the comments-CTA media beat), no black beat. Captions match the VO verbatim
-// (figures as numerals only on the single card). Durations/reveals/SFX locked to the VO via a scribe_v1 word-
-// timestamp anchor pass (public/defect/voiceover.mp3). Built at the house +10% pacing default; its own tense,
-// newsy political-drama music mixed at 0.2. OWN distinct footage under public/defect/ (92 stills), NO reuse of any
-// other reel's clips — ledger-checked.
+// the saved house preference, captions are <=5-6 words/beat with LARGER on-screen type (Anton ~42-52). 67 beats
+// (TRIMMED to ~2:02 at the client's request from the original 93-beat / 3:02 cut: SEVEN whole sentences were cut at
+// clean sentence boundaries — the sudden-vs-gradual framing, the "remained tense over Israel / outside advertising"
+// context, the "demanded apologize / condemn antisemitic ad" escalation detail, the "days earlier still supporting
+// El-Sayed" beat, the "backlash didn't stop with leaders" line, the "Democrats need key races to retake the Senate"
+// stakes, and the moderate-vs-progressive "Medicare for All / ending aid to Israel" policy contrast — so every kept
+// beat keeps its exact original VO timing). 1 stat card: ENDORSED ROGERS / 2 DAYS / BEFORE ELECTION DAY (the script's
+// only hard figure). 1 red impact mid-tail (closes on the comments-CTA media beat), no black beat. Captions match the
+// VO verbatim (figures as numerals only on the single card). Durations/reveals/SFX locked to the VO via a scribe_v1
+// word-timestamp anchor pass (public/defect/voiceover.mp3). Re-paced to +16% (SCALE 1.155 — "additional 5%" on top of
+// the house +10%, multiplicative); its own tense, newsy political-drama music mixed at 0.2. OWN distinct footage under
+// public/defect/ (66 stills in the trimmed cut, drawn from the 92 sourced), NO reuse of any other reel's clips — ledger-checked.
 // FOOTAGE is strictly BRAND-FREE, GENERIC and NON-PARTISAN — NO identifiable real politician or person (NO Stevens /
 // Rogers / El-Sayed / Schumer), NO party logos or mascots (no donkey/elephant, no DNC/RNC), NO campaign signs with
 // real names, NO national flags, NO identifiable named landmark (generic "capitol-style" / legislative / government
@@ -108,200 +113,148 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 72, kind: 'hook', reveal: [3, 40], text: 'A Democrat just|crossed party lines', kicker: 'The defection', highlights: ['crossed'], size: 48, media: {src: 'defect/df00_crossed.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'hook', reveal: [3, 40], text: 'A Democrat just|crossed party lines', kicker: 'The defection', highlights: ['crossed'], size: 48, media: {src: 'defect/df00_crossed.jpg', type: 'img', effect: 'in'}},
   // 1
   {dur: 25, kind: 'text', reveal: [2], text: 'in one of the most', highlights: [], size: 46, pos: 'upperRight', media: {src: 'defect/df01_most.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'important Senate races|in the country.', highlights: ['senate'], size: 44, pos: 'left', media: {src: 'defect/df02_races.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'important Senate races|in the country.', highlights: ['senate'], size: 44, pos: 'left', media: {src: 'defect/df02_races.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 87, kind: 'text', reveal: [2, 28], text: 'And her own|party is furious.', highlights: ['furious'], size: 44, pos: 'lowerRight', media: {src: 'defect/df03_furious.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'And her own|party is furious.', highlights: ['furious'], size: 44, pos: 'lowerRight', media: {src: 'defect/df03_furious.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 62, kind: 'text', reveal: [2], text: 'Rep. Haley Stevens has endorsed', highlights: ['stevens'], size: 46, pos: 'upperLeft', media: {src: 'defect/df04_stevens.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'Rep. Haley Stevens has endorsed', highlights: ['stevens'], size: 46, pos: 'upperLeft', media: {src: 'defect/df04_stevens.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 52, kind: 'text', reveal: [2], text: 'Republican Mike Rogers,', highlights: ['rogers'], size: 52, pos: 'right', media: {src: 'defect/df05_rogers.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'Republican Mike Rogers,', highlights: ['rogers'], size: 52, pos: 'right', media: {src: 'defect/df05_rogers.jpg', type: 'img', effect: 'in'}},
   // 6 CARD
-  {dur: 56, kind: 'stat', stat: {pre: 'ENDORSED ROGERS', value: 2, suffix: ' DAYS', post: 'BEFORE ELECTION DAY'}, media: {src: 'defect/df06_card2.jpg', type: 'img', effect: 'in'}},
-  // 7
-  {dur: 86, kind: 'text', reveal: [2, 28], text: 'But this wasn’t|a sudden disagreement', highlights: ['sudden'], size: 44, pos: 'lower', media: {src: 'defect/df07_sudden.jpg', type: 'img', effect: 'in'}},
-  // 8
-  {dur: 43, kind: 'text', reveal: [2], text: 'over one policy.', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'defect/df08_policy.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'stat', stat: {pre: 'ENDORSED ROGERS', value: 2, suffix: ' DAYS', post: 'BEFORE ELECTION DAY'}, media: {src: 'defect/df06_card2.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 78, kind: 'text', reveal: [2, 28], text: 'Stevens had previously|criticized Rogers,', highlights: ['criticized'], size: 48, pos: 'upperRight', media: {src: 'defect/df09_criticized.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Stevens had previously|criticized Rogers,', highlights: ['criticized'], size: 48, pos: 'lower', media: {src: 'defect/df09_criticized.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 55, kind: 'text', reveal: [2, 28], text: 'supported the|Democratic nominee,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'defect/df10_nominee.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'supported the|Democratic nominee,', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'defect/df10_nominee.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 63, kind: 'text', reveal: [2], text: 'and even reassured allies', highlights: [], size: 50, pos: 'right', media: {src: 'defect/df11_allies.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'and even reassured allies', highlights: [], size: 50, pos: 'upperRight', media: {src: 'defect/df11_allies.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'she would vote|for her own party.', highlights: ['own'], size: 44, pos: 'left', media: {src: 'defect/df12_ownparty.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'she would vote|for her own party.', highlights: ['own'], size: 44, pos: 'lowerLeft', media: {src: 'defect/df12_ownparty.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 42, kind: 'text', reveal: [2], text: 'So what changed?', highlights: ['changed?'], size: 52, pos: 'lowerRight', media: {src: 'defect/df13_changed.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'So what changed?', highlights: ['changed?'], size: 52, pos: 'right', media: {src: 'defect/df13_changed.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 53, kind: 'text', reveal: [2], text: 'And could this stunning move', highlights: ['stunning'], size: 46, pos: 'upper', media: {src: 'defect/df14_stunning.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'And could this stunning move', highlights: ['stunning'], size: 46, pos: 'left', media: {src: 'defect/df14_stunning.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'affect who controls|the U.S. Senate?', highlights: ['senate?'], size: 44, pos: 'left', media: {src: 'defect/df15_controls.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'affect who controls|the U.S. Senate?', highlights: ['senate?'], size: 44, pos: 'lowerRight', media: {src: 'defect/df15_controls.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 55, kind: 'text', reveal: [2, 28], text: 'Follow for more|political stories', highlights: ['follow'], size: 48, media: {src: 'defect/df16_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Follow for more|political stories', highlights: ['follow'], size: 48, media: {src: 'defect/df16_follow.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 35, kind: 'text', reveal: [2], text: 'and election developments', highlights: [], size: 52, pos: 'right', media: {src: 'defect/df17_developments.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'and election developments', highlights: [], size: 52, pos: 'upper', media: {src: 'defect/df17_developments.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 26, kind: 'text', reveal: [2], text: 'you need to know.', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'defect/df18_know.jpg', type: 'img', effect: 'in'}},
+  {dur: 25, kind: 'text', reveal: [2], text: 'you need to know.', highlights: [], size: 50, pos: 'left', media: {src: 'defect/df18_know.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 63, kind: 'text', reveal: [2, 28], text: 'Stevens is a|moderate Democrat', highlights: ['moderate'], size: 48, pos: 'upperRight', media: {src: 'defect/df19_moderate.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Stevens is a|moderate Democrat', highlights: ['moderate'], size: 48, pos: 'right', media: {src: 'defect/df19_moderate.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'from Michigan who|narrowly lost', highlights: ['michigan'], size: 48, pos: 'left', media: {src: 'defect/df20_michigan.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'from Michigan who|narrowly lost', highlights: ['michigan'], size: 48, pos: 'lowerLeft', media: {src: 'defect/df20_michigan.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 44, kind: 'text', reveal: [2], text: 'the Democratic Senate primary', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'defect/df21_primary.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'the Democratic Senate primary', highlights: [], size: 50, pos: 'upperRight', media: {src: 'defect/df21_primary.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'to progressive candidate|Abdul El-Sayed.', highlights: ['progressive'], size: 48, pos: 'upperLeft', media: {src: 'defect/df22_elsayed.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'to progressive candidate|Abdul El-Sayed.', highlights: ['progressive'], size: 48, pos: 'left', media: {src: 'defect/df22_elsayed.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 36, kind: 'text', reveal: [2], text: 'After the primary,', highlights: [], size: 52, pos: 'right', media: {src: 'defect/df23_afterprimary.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'After the primary,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'defect/df23_afterprimary.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 71, kind: 'text', reveal: [2], text: 'she initially endorsed El-Sayed,', highlights: ['endorsed'], size: 50, pos: 'lower', media: {src: 'defect/df24_endorsed.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2], text: 'she initially endorsed El-Sayed,', highlights: ['endorsed'], size: 50, pos: 'upperLeft', media: {src: 'defect/df24_endorsed.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'promising to support|the party’s nominee.', highlights: ['nominee'], size: 44, pos: 'upperRight', media: {src: 'defect/df25_promising.jpg', type: 'img', effect: 'in'}},
-  // 26
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'But their relationship|remained tense,', highlights: ['tense'], size: 48, pos: 'lowerLeft', media: {src: 'defect/df26_tense.jpg', type: 'img', effect: 'in'}},
-  // 27
-  {dur: 55, kind: 'text', reveal: [2], text: 'especially over Israel,', highlights: [], size: 52, pos: 'left', media: {src: 'defect/df27_israel.jpg', type: 'img', effect: 'in'}},
-  // 28
-  {dur: 59, kind: 'text', reveal: [2], text: 'outside campaign advertising,', highlights: [], size: 52, pos: 'right', media: {src: 'defect/df28_advertising.jpg', type: 'img', effect: 'in'}},
-  // 29
-  {dur: 84, kind: 'text', reveal: [2, 28], text: 'and their sharply|different political views.', highlights: ['different'], size: 44, pos: 'lowerRight', media: {src: 'defect/df29_views.jpg', type: 'img', effect: 'in'}},
-  // 30
-  {dur: 53, kind: 'text', reveal: [2], text: 'The conflict escalated when', highlights: ['escalated'], size: 50, pos: 'upperLeft', media: {src: 'defect/df30_escalated.jpg', type: 'img', effect: 'in'}},
-  // 31
-  {dur: 50, kind: 'text', reveal: [2], text: 'Stevens demanded that El-Sayed', highlights: ['demanded'], size: 50, pos: 'right', media: {src: 'defect/df31_demanded.jpg', type: 'img', effect: 'in'}},
-  // 32
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'apologize for|remarks about Israel', highlights: [], size: 48, pos: 'upperRight', media: {src: 'defect/df32_apologize.jpg', type: 'img', effect: 'in'}},
-  // 33
-  {dur: 78, kind: 'text', reveal: [2, 28], text: 'and condemn an|outside group’s advertisement', highlights: [], size: 44, pos: 'left', media: {src: 'defect/df33_condemn.jpg', type: 'img', effect: 'in'}},
-  // 34
-  {dur: 87, kind: 'text', reveal: [2], text: 'she described as antisemitic.', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'defect/df34_antisemitic.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'promising to support|the party’s nominee.', highlights: ['nominee'], size: 44, pos: 'right', media: {src: 'defect/df25_promising.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 26, kind: 'text', reveal: [2], text: 'El-Sayed accused her', highlights: [], size: 52, pos: 'upper', media: {src: 'defect/df35_accused.jpg', type: 'img', effect: 'in'}},
+  {dur: 25, kind: 'text', reveal: [2], text: 'El-Sayed accused her', highlights: [], size: 52, pos: 'lower', media: {src: 'defect/df35_accused.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 122, kind: 'text', reveal: [2, 28], text: 'of reopening a primary|that had already ended.', highlights: ['reopening'], size: 44, pos: 'right', media: {src: 'defect/df36_reopening.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 28], text: 'of reopening a primary|that had already ended.', highlights: ['reopening'], size: 44, pos: 'upperRight', media: {src: 'defect/df36_reopening.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 41, kind: 'text', reveal: [2], text: 'Then, on Sunday,', highlights: ['sunday'], size: 52, pos: 'lowerRight', media: {src: 'defect/df37_sunday.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'Then, on Sunday,', highlights: ['sunday'], size: 52, pos: 'lowerLeft', media: {src: 'defect/df37_sunday.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'Stevens appeared alongside|Republican Mike Rogers', highlights: ['rogers'], size: 44, pos: 'upperLeft', media: {src: 'defect/df38_alongside.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'Stevens appeared alongside|Republican Mike Rogers', highlights: ['rogers'], size: 44, pos: 'left', media: {src: 'defect/df38_alongside.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 87, kind: 'text', reveal: [2, 28], text: 'and announced she was|backing him instead.', highlights: ['backing'], size: 44, pos: 'left', media: {src: 'defect/df39_backing.jpg', type: 'img', effect: 'in'}},
-  // 40
-  {dur: 42, kind: 'text', reveal: [2], text: 'Just days earlier,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'defect/df40_daysearlier.jpg', type: 'img', effect: 'in'}},
-  // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'she had reportedly|told allies', highlights: [], size: 48, pos: 'upperRight', media: {src: 'defect/df41_toldallies.jpg', type: 'img', effect: 'in'}},
-  // 42
-  {dur: 71, kind: 'text', reveal: [2, 28], text: 'she was still|supporting El-Sayed.', highlights: ['still'], size: 48, pos: 'right', media: {src: 'defect/df42_stillsupporting.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'and announced she was|backing him instead.', highlights: ['backing'], size: 44, pos: 'right', media: {src: 'defect/df39_backing.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 52, kind: 'text', reveal: [2], text: 'The reaction was immediate.', highlights: ['immediate'], size: 50, pos: 'lowerLeft', media: {src: 'defect/df43_immediate.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'The reaction was immediate.', highlights: ['immediate'], size: 50, pos: 'lowerRight', media: {src: 'defect/df43_immediate.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'Senate Democratic leader|Chuck Schumer', highlights: ['schumer'], size: 48, pos: 'left', media: {src: 'defect/df44_schumer.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Senate Democratic leader|Chuck Schumer', highlights: ['schumer'], size: 48, pos: 'upperLeft', media: {src: 'defect/df44_schumer.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 25, kind: 'text', reveal: [2], text: 'called the move', highlights: [], size: 52, pos: 'upperRight', media: {src: 'defect/df45_calledthemove.jpg', type: 'img', effect: 'in'}},
+  {dur: 23, kind: 'text', reveal: [2], text: 'called the move', highlights: [], size: 52, pos: 'right', media: {src: 'defect/df45_calledthemove.jpg', type: 'img', effect: 'in'}},
   // 46 RED
-  {dur: 57, kind: 'impact', redBg: true, text: 'a despicable|betrayal.'},
+  {dur: 55, kind: 'impact', redBg: true, text: 'a despicable|betrayal.'},
   // 47
-  {dur: 54, kind: 'text', reveal: [2, 28], text: 'The Michigan|Democratic Party said', highlights: [], size: 48, pos: 'lower', media: {src: 'defect/df47_midemparty.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'The Michigan|Democratic Party said', highlights: [], size: 48, pos: 'upperRight', media: {src: 'defect/df47_midemparty.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Stevens was|no longer a member', highlights: ['longer'], size: 44, pos: 'right', media: {src: 'defect/df48_nolonger.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'Stevens was|no longer a member', highlights: ['longer'], size: 44, pos: 'left', media: {src: 'defect/df48_nolonger.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 51, kind: 'text', reveal: [2, 28], text: 'and would not|be welcome back.', highlights: ['welcome'], size: 44, pos: 'upperLeft', media: {src: 'defect/df49_welcome.jpg', type: 'img', effect: 'in'}},
-  // 50
-  {dur: 53, kind: 'text', reveal: [2], text: 'And the backlash didn’t stop', highlights: ['backlash'], size: 46, pos: 'lowerRight', media: {src: 'defect/df50_backlash.jpg', type: 'img', effect: 'in'}},
-  // 51
-  {dur: 53, kind: 'text', reveal: [2], text: 'with party leaders.', highlights: [], size: 52, pos: 'left', media: {src: 'defect/df51_leaders.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'and would not|be welcome back.', highlights: ['welcome'], size: 44, pos: 'lowerLeft', media: {src: 'defect/df49_welcome.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 23, kind: 'text', reveal: [2], text: 'Stevens’ chief of staff', highlights: ['chief'], size: 50, pos: 'upperRight', media: {src: 'defect/df52_chief.jpg', type: 'img', effect: 'in'}},
+  {dur: 23, kind: 'text', reveal: [2], text: 'Stevens’ chief of staff', highlights: ['chief'], size: 50, pos: 'upper', media: {src: 'defect/df52_chief.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 63, kind: 'text', reveal: [2], text: 'and several other aides resigned,', highlights: ['resigned'], size: 46, pos: 'right', media: {src: 'defect/df53_resigned.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'and several other aides resigned,', highlights: ['resigned'], size: 46, pos: 'right', media: {src: 'defect/df53_resigned.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 37, kind: 'text', reveal: [2], text: 'saying they were shocked', highlights: ['shocked'], size: 50, pos: 'lowerLeft', media: {src: 'defect/df54_shocked.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'saying they were shocked', highlights: ['shocked'], size: 50, pos: 'lowerRight', media: {src: 'defect/df54_shocked.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'and heartbroken|by her decision.', highlights: ['heartbroken'], size: 48, pos: 'upperLeft', media: {src: 'defect/df55_heartbroken.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'and heartbroken|by her decision.', highlights: ['heartbroken'], size: 48, pos: 'upperLeft', media: {src: 'defect/df55_heartbroken.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 47, kind: 'text', reveal: [2], text: 'The timing could hardly', highlights: [], size: 50, pos: 'right', media: {src: 'defect/df56_timing.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'The timing could hardly', highlights: [], size: 50, pos: 'left', media: {src: 'defect/df56_timing.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 78, kind: 'text', reveal: [2], text: 'be more consequential.', highlights: ['consequential'], size: 52, pos: 'left', media: {src: 'defect/df57_consequential.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2], text: 'be more consequential.', highlights: ['consequential'], size: 52, pos: 'lowerRight', media: {src: 'defect/df57_consequential.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 57, kind: 'text', reveal: [2, 28], text: 'Michigan’s Senate race|is considered pivotal', highlights: ['pivotal'], size: 44, pos: 'lowerRight', media: {src: 'defect/df58_pivotal.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'Michigan’s Senate race|is considered pivotal', highlights: ['pivotal'], size: 44, pos: 'upperRight', media: {src: 'defect/df58_pivotal.jpg', type: 'img', effect: 'in'}},
   // 59
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'in the battle for|control of the chamber.', highlights: ['control'], size: 44, pos: 'upperRight', media: {src: 'defect/df59_chamber.jpg', type: 'img', effect: 'in'}},
-  // 60
-  {dur: 55, kind: 'text', reveal: [2], text: 'Democrats need to win', highlights: [], size: 50, pos: 'lower', media: {src: 'defect/df60_needtowin.jpg', type: 'img', effect: 'in'}},
-  // 61
-  {dur: 49, kind: 'text', reveal: [2], text: 'key races like this one', highlights: [], size: 46, pos: 'left', media: {src: 'defect/df61_keyraces.jpg', type: 'img', effect: 'in'}},
-  // 62
-  {dur: 66, kind: 'text', reveal: [2], text: 'to have a realistic chance', highlights: [], size: 46, pos: 'right', media: {src: 'defect/df62_chance.jpg', type: 'img', effect: 'in'}},
-  // 63
-  {dur: 62, kind: 'text', reveal: [2], text: 'of taking back the Senate.', highlights: ['senate.'], size: 46, pos: 'upperLeft', media: {src: 'defect/df63_takingback.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'in the battle for|control of the chamber.', highlights: ['control'], size: 44, pos: 'right', media: {src: 'defect/df59_chamber.jpg', type: 'img', effect: 'in'}},
   // 64
-  {dur: 29, kind: 'text', reveal: [2], text: 'Stevens’ endorsement could', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'defect/df64_endorsementcould.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'Stevens’ endorsement could', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'defect/df64_endorsementcould.jpg', type: 'img', effect: 'in'}},
   // 65
-  {dur: 61, kind: 'text', reveal: [2], text: 'energize Rogers’ supporters,', highlights: ['energize'], size: 52, pos: 'upperRight', media: {src: 'defect/df65_energize.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'energize Rogers’ supporters,', highlights: ['energize'], size: 52, pos: 'left', media: {src: 'defect/df65_energize.jpg', type: 'img', effect: 'in'}},
   // 66
-  {dur: 55, kind: 'text', reveal: [2], text: 'deepen Democratic divisions,', highlights: ['divisions'], size: 52, pos: 'left', media: {src: 'defect/df66_divisions.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'deepen Democratic divisions,', highlights: ['divisions'], size: 52, pos: 'upperRight', media: {src: 'defect/df66_divisions.jpg', type: 'img', effect: 'in'}},
   // 67
-  {dur: 88, kind: 'text', reveal: [2, 28], text: 'or simply become|a last-minute distraction', highlights: ['distraction'], size: 44, pos: 'right', media: {src: 'defect/df67_distraction.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'or simply become|a last-minute distraction', highlights: ['distraction'], size: 44, pos: 'lower', media: {src: 'defect/df67_distraction.jpg', type: 'img', effect: 'in'}},
   // 68
-  {dur: 58, kind: 'text', reveal: [2], text: 'in a race already defined', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'defect/df68_defined.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'in a race already defined', highlights: [], size: 46, pos: 'right', media: {src: 'defect/df68_defined.jpg', type: 'img', effect: 'in'}},
   // 69
-  {dur: 59, kind: 'text', reveal: [2], text: 'by fierce disagreements.', highlights: ['fierce'], size: 52, pos: 'upper', media: {src: 'defect/df69_fierce.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'by fierce disagreements.', highlights: ['fierce'], size: 52, pos: 'upperLeft', media: {src: 'defect/df69_fierce.jpg', type: 'img', effect: 'in'}},
   // 70
-  {dur: 50, kind: 'text', reveal: [2], text: 'But here’s the deeper divide.', highlights: ['divide'], size: 46, pos: 'lowerRight', media: {src: 'defect/df70_divide.jpg', type: 'img', effect: 'in'}},
-  // 71
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'Stevens represents a|more moderate wing', highlights: ['moderate'], size: 44, pos: 'left', media: {src: 'defect/df71_wing.jpg', type: 'img', effect: 'in'}},
-  // 72
-  {dur: 71, kind: 'text', reveal: [2], text: 'of the Democratic Party,', highlights: [], size: 50, pos: 'upperRight', media: {src: 'defect/df72_demparty.jpg', type: 'img', effect: 'in'}},
-  // 73
-  {dur: 30, kind: 'text', reveal: [2], text: 'while El-Sayed has campaigned', highlights: [], size: 50, pos: 'upperRight', media: {src: 'defect/df73_campaigned.jpg', type: 'img', effect: 'in'}},
-  // 74
-  {dur: 56, kind: 'text', reveal: [2], text: 'on progressive policies,', highlights: ['progressive'], size: 52, pos: 'left', media: {src: 'defect/df74_policies.jpg', type: 'img', effect: 'in'}},
-  // 75
-  {dur: 40, kind: 'text', reveal: [2], text: 'including Medicare for All', highlights: ['medicare'], size: 50, pos: 'lowerRight', media: {src: 'defect/df75_medicare.jpg', type: 'img', effect: 'in'}},
-  // 76
-  {dur: 98, kind: 'text', reveal: [2, 28], text: 'and ending unconditional|U.S. aid to Israel.', highlights: ['unconditional'], size: 44, pos: 'upperLeft', media: {src: 'defect/df76_aid.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'But here’s the deeper divide.', highlights: ['divide'], size: 46, pos: 'lowerRight', media: {src: 'defect/df70_divide.jpg', type: 'img', effect: 'in'}},
   // 77
-  {dur: 50, kind: 'text', reveal: [2], text: 'Some see Stevens’ move', highlights: [], size: 50, pos: 'right', media: {src: 'defect/df77_somesee.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'Some see Stevens’ move', highlights: [], size: 50, pos: 'left', media: {src: 'defect/df77_somesee.jpg', type: 'img', effect: 'in'}},
   // 78
-  {dur: 37, kind: 'text', reveal: [2], text: 'as a principled break', highlights: ['principled'], size: 50, pos: 'lower', media: {src: 'defect/df78_principled.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'as a principled break', highlights: ['principled'], size: 50, pos: 'upperRight', media: {src: 'defect/df78_principled.jpg', type: 'img', effect: 'in'}},
   // 79
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'with a candidate she|can no longer support.', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'defect/df79_support.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'with a candidate she|can no longer support.', highlights: [], size: 44, pos: 'right', media: {src: 'defect/df79_support.jpg', type: 'img', effect: 'in'}},
   // 80
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Others see it as|political retaliation', highlights: ['retaliation'], size: 44, pos: 'upperRight', media: {src: 'defect/df80_retaliation.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'Others see it as|political retaliation', highlights: ['retaliation'], size: 44, pos: 'lowerLeft', media: {src: 'defect/df80_retaliation.jpg', type: 'img', effect: 'in'}},
   // 81
-  {dur: 51, kind: 'text', reveal: [2], text: 'after losing the primary.', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'defect/df81_losing.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'after losing the primary.', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'defect/df81_losing.jpg', type: 'img', effect: 'in'}},
   // 82
-  {dur: 48, kind: 'text', reveal: [2], text: 'And with Election Day so close,', highlights: ['close'], size: 42, pos: 'right', media: {src: 'defect/df82_close.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'And with Election Day so close,', highlights: ['close'], size: 42, pos: 'right', media: {src: 'defect/df82_close.jpg', type: 'img', effect: 'in'}},
   // 83
-  {dur: 42, kind: 'text', reveal: [2], text: 'there may be little time', highlights: [], size: 46, pos: 'left', media: {src: 'defect/df83_littletime.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'there may be little time', highlights: [], size: 46, pos: 'left', media: {src: 'defect/df83_littletime.jpg', type: 'img', effect: 'in'}},
   // 84
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'for Democrats to|repair the damage.', highlights: ['repair'], size: 44, pos: 'lowerRight', media: {src: 'defect/df84_repair.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'for Democrats to|repair the damage.', highlights: ['repair'], size: 44, pos: 'lowerRight', media: {src: 'defect/df84_repair.jpg', type: 'img', effect: 'in'}},
   // 85
-  {dur: 33, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upper', media: {src: 'defect/df85_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'defect/df85_think.jpg', type: 'img', effect: 'in'}},
   // 86
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'Was Haley Stevens|standing by her principles,', highlights: ['principles'], size: 44, pos: 'left', media: {src: 'defect/df86_principles.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'Was Haley Stevens|standing by her principles,', highlights: ['principles'], size: 44, pos: 'lower', media: {src: 'defect/df86_principles.jpg', type: 'img', effect: 'in'}},
   // 87
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'or did she betray|her own party', highlights: ['betray'], size: 44, pos: 'right', media: {src: 'defect/df87_betray.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'or did she betray|her own party', highlights: ['betray'], size: 44, pos: 'left', media: {src: 'defect/df87_betray.jpg', type: 'img', effect: 'in'}},
   // 88
-  {dur: 59, kind: 'text', reveal: [2], text: 'at the worst possible moment?', highlights: ['worst'], size: 46, pos: 'lowerLeft', media: {src: 'defect/df88_worst.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'at the worst possible moment?', highlights: ['worst'], size: 46, pos: 'right', media: {src: 'defect/df88_worst.jpg', type: 'img', effect: 'in'}},
   // 89
-  {dur: 51, kind: 'text', reveal: [2], text: 'And can Democrats overcome', highlights: [], size: 50, pos: 'upperRight', media: {src: 'defect/df89_overcome.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'And can Democrats overcome', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'defect/df89_overcome.jpg', type: 'img', effect: 'in'}},
   // 90
-  {dur: 35, kind: 'text', reveal: [2], text: 'this internal fight', highlights: ['internal'], size: 52, pos: 'left', media: {src: 'defect/df90_internal.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'this internal fight', highlights: ['internal'], size: 52, pos: 'lowerRight', media: {src: 'defect/df90_internal.jpg', type: 'img', effect: 'in'}},
   // 91
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'to win Michigan’s|Senate seat?', highlights: ['seat?'], size: 48, pos: 'lowerRight', media: {src: 'defect/df91_seat.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'to win Michigan’s|Senate seat?', highlights: ['seat?'], size: 48, pos: 'upperRight', media: {src: 'defect/df91_seat.jpg', type: 'img', effect: 'in'}},
   // 92 CTA
-  {dur: 40, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'defect/df92_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'defect/df92_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 367, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 984, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 2834, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 5430, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 350, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 814, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1837, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3632, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
