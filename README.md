@@ -6726,6 +6726,93 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   both-sides summary and the "should internet-connected equipment face stricter rules / what critical system could be
   targeted next" audience debate.
 
+- **`DefectReel`** — "The defection" (U.S. politics / elections news reel, Hard Ledger VISUAL style). Topic: **a
+  cross-party endorsement in a pivotal U.S. Senate race.** Rep. Haley Stevens — a moderate Michigan Democrat who
+  narrowly lost the Democratic Senate primary to progressive Abdul El-Sayed — endorsed REPUBLICAN Mike Rogers two
+  days before Election Day, after initially backing El-Sayed. The feud escalated over Israel remarks, outside
+  advertising she called antisemitic, and sharply different views; El-Sayed accused her of reopening a settled
+  primary. Reaction: Senate Democratic leader Chuck Schumer called it a "despicable betrayal," the Michigan
+  Democratic Party said she was no longer a member, and her chief of staff and several aides resigned. Stakes:
+  Michigan is pivotal in the fight for Senate control; the move could energize Rogers, deepen Democratic divisions,
+  or be a last-minute distraction. **Framed BOTH WAYS** by the script: a principled break vs. political retaliation
+  after losing the primary. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format
+  (HOOK / CURIOSITY GAP / EARLY CTA / CONTEXT / EVIDENCE / ESCALATION / CONSEQUENCES / CONTROVERSY / AUDIENCE
+  DEBATE), NOT the faceless house voice** — it NAMES real figures (Haley Stevens / Mike Rogers / Abdul El-Sayed /
+  Chuck Schumer / the Michigan Democratic Party), uses an EARLY "follow for more" CTA, and CLOSES on a "let us know
+  in the comments" debate CTA. **Per the saved house preference, captions are AT MOST 5-6 WORDS PER BEAT with LARGER
+  on-screen type** (Anton ~42-52). **93 beats (the longest to date)**, **1 stat card — ENDORSED ROGERS / 2 DAYS /
+  BEFORE ELECTION DAY (the script's only hard figure)**, 1 red impact (the quoted "a despicable betrayal.",
+  attributed in the VO to Schumer, placed mid-tail so the reel closes on the comments-CTA media beat), no black beat.
+  **Captions match the VO verbatim** — figures appear as numerals only on the single card. Durations/reveals/SFX
+  locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/defect/voiceover.mp3`); **built at the house
+  +10% VO** (~182s / 3:02); its own tense, serious political-drama music bed (mixed at 0.20). **Varied caption
+  placement** per the house convention (hook + CTAs centered). Entirely its own fresh footage under `public/defect/`
+  (92 stills) — no asset shared with any other reel (ledger-checked against `used_ids.txt`). **New STANDALONE reel.**
+  Media credits (Pexels, free license) — all stills: feet stepping across a painted line (14522799), a government-
+  style facade at dusk (12689736), an empty legislative chamber (3866658), a clenched fist in shadow (7298869), a
+  lone backlit figure in a spotlight (30692471), three empty chairs on a bare stage (12242087), a dim calendar/clock
+  — card bg (36683335), a lightning bolt on a dark sky (28571996), blank overlapping sheets of paper (28380113), a
+  lone microphone in a spotlight (20539864), a plain dark tiered podium (12915481), two silhouetted figures in
+  discussion (2627060), a large crowd in silhouette from behind (12560346), a painted turn arrow on asphalt
+  (31601977), a lone spotlight beam in darkness (18820283), a marble hallway with receding columns (2083961), a hand
+  holding a blank-screen phone (301718), a dark studio silhouette with a camera (7173774), a soft-focus folded
+  newspaper (518543), a centre line down an empty road (2291428), a wide industrial skyline at dusk (14814691), a
+  plain wooden box on black (366791), a crowd of raised hands in silhouette (21790480), confetti on a dark floor
+  (2077962), a close-up handshake (6077554), a backlit hand in cool rays (9544260), a frayed rope under strain
+  (6419459), Earth from space — a neutral globe (30596216), a blank billboard frame against the sky (2371918), an
+  aerial forked road (9521468), a rising flame on black (6652540), a clenched fist on dark (2258250), a glowing red
+  studio microphone (18114131), a single megaphone (8846036), a torn blank poster on a dark wall (10282622), a raised
+  accusing finger (3081850), a door lever with light at its edge (147634), a blank weekly planner (7718762), two
+  backlit silhouettes in a doorway (18365402), an open raised hand in cool light (17935291), a vintage analog clock
+  (19188894), two silhouettes in a private aside (6800202), a hand resting on a shoulder (29060673), concentric
+  ripples across dark water (17631189), a lone backlit silhouette at a microphone (4073982), a mic-grille close-up
+  (10357576), a generic institutional facade (2793444), a red abstract canvas with crossing strokes (1962555), a
+  closed barred door (16550173), a wave crashing on rocks (40543125), silhouetted figures around a table (6949934),
+  an empty office desk by a window (7658310), a cardboard box of desk belongings (17739893), hands raised to a hidden
+  face in shock (33713856), a lone figure with head bowed in shadow (2099662), an hourglass with a blurred globe
+  behind (30480337), a Lady Justice statue with scales (8112195), a stone balanced on a knife-edge (1192672), an
+  empty legislative chamber interior (16859956), a lone running lane to a finish line (8533636), a cork map with
+  marker pins — no place names (7634433), dice mid-roll (37983583), a hand gripping a frayed rope — a tug-of-war
+  (1458696), a row of dominoes tipping (12969258), a cheering crowd in silhouette (8987059), a crack splitting a
+  concrete wall (13212107), a blurred chaotic motion scene (22743642), a hard dividing line across the ground
+  (27363881), lightning over a dark plain (6537249), a deep canyon chasm (28271603), a figure standing just off-
+  centre (10556296), a generic columned institutional building (16113739), empty chairs on a dark stage — a campaign
+  trail (14487298), a blank clipboard and pen (8099494), a stethoscope (48604), Earth / a world map — diplomacy
+  (30596209), a crowd of silhouettes looking up (34408491), a brass compass (32563237), two hands reaching but not
+  touching (29256690), two chess knights facing off (6969450), a lone figure walking away down a corridor (4336002),
+  a B&W alarm clock near midnight (38072267), a nearly-drained hourglass with a reaching hand (7954870), a hand
+  binding a cracked plate (38045469), a pondering silhouette (9807236), a brass compass — a north-pointing needle
+  (3751306), a frayed unravelling rope (9333874), a rustic clock tower under a storm sky (30548381), a misty
+  suspension footbridge (18585029), a shattered pane of glass (7049027), a single empty ornate high-backed chair
+  (10974988), and hands holding a phone — the comments CTA (13660674). No generated graphics this reel.
+  **Brand-safety (screened EXTRA hard at source, for a reel that names real, living politicians):** FACE-FREE and
+  NON-PARTISAN — no identifiable real person or politician (no Stevens / Rogers / El-Sayed / Schumer; people appear
+  only as silhouettes, backs, hidden faces, statues or objects), no political party logo or mascot (no donkey /
+  elephant, no DNC/RNC), no campaign sign or candidate/party name, no national flag, no government seal / emblem /
+  coat of arms, no identifiable named landmark (the "capitol-style" chambers, columns and institutional buildings are
+  generic, NOT the real U.S. Capitol), no readable signage / headline / screen / masthead, no brand wordmark, no
+  currency, and deliberately NEUTRAL, non-inflammatory stand-ins for the Israel / antisemitism / Medicare / foreign-
+  aid beats (a neutral globe, a stethoscope, a blank torn poster — no flags, religious symbols or conflict imagery).
+  The footage is metaphor-led (gavels/scales, ballot-box, empty chambers, silhouettes, clocks, compasses, divides,
+  storms). The sourcing agents rejected a very large pile under View-QA — identifiable faces, US and other flags,
+  party star-rosettes and "VOTE" text, government seals and coats of arms, a hammer-and-sickle and crucifix/temple
+  religious symbols, named landmarks (the Texas State Capitol), brand/app logos (Nike, Facebook/Instagram, HP/Dell,
+  Sennheiser, Visa), readable mastheads and a headline naming a real politician, and foreign-language signage. **Four
+  stills were re-sourced in dedup to remove duplicates:** two intra-reel byte-dups (a repeated Lady Justice statue →
+  a rope tug-of-war for df63; a repeated wall-crack → shattered glass for df90) and one cross-reel id collision with
+  the `memo` reel (df73 → an empty event stage); a third justice image is retained once. Several beats are deliberate
+  brand-safe STAND-INS where no literal clean shot exists (empty chairs / abstract podiums for lecterns, which almost
+  always carry flags or faces; a plain wooden box for a ballot box; a neutral globe for the foreign-policy beats; a
+  rope / shattered glass / canyon for the "divide" beats). A few beats carry tiny, generic ambient text consistent
+  with the house allowance (a clock dial reading "QUARTZ", a planner reading "THIS WEEK", a faint reflected "EXIT").
+  **UNVERIFIED and POLITICALLY SENSITIVE — this reel names real, living political figures and reports specific recent
+  claims and direct quotes (the two-days-before endorsement; Schumer's "despicable betrayal"; the Michigan party
+  expulsion; staff resignations; the El-Sayed primary history and policy positions). It is rendered VERBATIM as
+  supplied and both-sides framed, but it MUST be fact-checked against primary sources AND edit/legal-reviewed before
+  publishing** — figures, quotes, attributions and the characterization of a named person's conduct on a live,
+  contested race all need verification. The framing is the script's own both-sides summary and the "standing by her
+  principles or betraying her party / can Democrats overcome this internal fight" audience debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
