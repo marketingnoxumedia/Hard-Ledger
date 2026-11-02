@@ -181,6 +181,7 @@ import {MeltdownReel, DURATION_IN_FRAMES as MELT_FRAMES} from './MeltdownReel';
 import {MiamiReel, DURATION_IN_FRAMES as MIAMI_FRAMES} from './MiamiReel';
 import {SocSecReel, DURATION_IN_FRAMES as SOCSEC_FRAMES} from './SocSecReel';
 import {FreezerReel, DURATION_IN_FRAMES as FREEZER_FRAMES} from './FreezerReel';
+import {DefectReel, DURATION_IN_FRAMES as DEFECT_FRAMES} from './DefectReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1636,6 +1637,14 @@ export const RemotionRoot: React.FC = () => {
         id="FreezerReel"
         component={FreezerReel}
         durationInFrames={FREEZER_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="DefectReel"
+        component={DefectReel}
+        durationInFrames={DEFECT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
