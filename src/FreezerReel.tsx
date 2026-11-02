@@ -94,7 +94,7 @@ type SceneDef = {
 // FREEZERS PUSHED TO 122°F; U.S. COMMISSARIES HIT 6+. 1 red impact mid-tail (closes on the comments-CTA media beat),
 // no black beat. Captions match the VO verbatim (figures as numerals only on the two cards). Durations/reveals/SFX
 // locked to the VO via a scribe_v1 word-timestamp anchor pass (public/freezer/voiceover.mp3, NO inserted pause); its
-// own serious, tense cyber-thriller music mixed at 0.2. Built at the house +10% pacing default. OWN distinct footage
+// own serious, tense cyber-thriller music mixed at 0.2. Re-paced to +21% VO ("additional 10%" on the house +10%). OWN distinct footage
 // under public/freezer/ (86 stills), NO reuse of any other reel's clips — ledger-checked.
 // FOOTAGE is strictly BRAND-FREE and generic — NO supermarket/retailer or military-unit logos/insignia, NO readable
 // signage, NO identifiable named base or landmark, NO identifiable real person or politician, NO readable screens/
@@ -107,177 +107,177 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 51, kind: 'hook', reveal: [3, 40], text: 'Hackers may have found', kicker: 'The freezer hack', highlights: ['hackers'], size: 54, media: {src: 'freezer/fz00_hackers.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'hook', reveal: [3, 40], text: 'Hackers may have found', kicker: 'The freezer hack', highlights: ['hackers'], size: 54, media: {src: 'freezer/fz00_hackers.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 73, kind: 'text', reveal: [2, 28], text: 'a terrifying new way|to cause damage.', highlights: ['terrifying'], size: 44, pos: 'upperRight', media: {src: 'freezer/fz01_terrifying.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'a terrifying new way|to cause damage.', highlights: ['terrifying'], size: 44, pos: 'upperRight', media: {src: 'freezer/fz01_terrifying.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 41, kind: 'text', reveal: [2], text: 'Instead of stealing data,', highlights: ['stealing'], size: 50, pos: 'left', media: {src: 'freezer/fz02_stealing.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'Instead of stealing data,', highlights: ['stealing'], size: 50, pos: 'left', media: {src: 'freezer/fz02_stealing.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 99, kind: 'text', reveal: [2, 28], text: 'they allegedly turned|supermarket freezers into ovens,', highlights: ['ovens'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz03_ovens.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'they allegedly turned|supermarket freezers into ovens,', highlights: ['ovens'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz03_ovens.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 31, kind: 'text', reveal: [2], text: 'pushing temperatures to', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'freezer/fz04_pushing.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'pushing temperatures to', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'freezer/fz04_pushing.jpg', type: 'img', effect: 'in'}},
   // 5 CARD
-  {dur: 59, kind: 'stat', stat: {pre: 'FREEZERS PUSHED TO', value: 122, suffix: '°F'}, media: {src: 'freezer/fz05_card122.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'stat', stat: {pre: 'FREEZERS PUSHED TO', value: 122, suffix: '°F'}, media: {src: 'freezer/fz05_card122.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 47, kind: 'text', reveal: [2], text: 'and spoiling food.', highlights: ['spoiling'], size: 52, pos: 'right', media: {src: 'freezer/fz06_spoiling.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'and spoiling food.', highlights: ['spoiling'], size: 52, pos: 'right', media: {src: 'freezer/fz06_spoiling.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 54, kind: 'text', reveal: [2], text: 'Now the Pentagon is investigating', highlights: ['pentagon'], size: 46, pos: 'lower', media: {src: 'freezer/fz07_pentagon.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'Now the Pentagon is investigating', highlights: ['pentagon'], size: 46, pos: 'lower', media: {src: 'freezer/fz07_pentagon.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 59, kind: 'text', reveal: [2], text: 'whether similar freezer failures', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'freezer/fz08_failures.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'whether similar freezer failures', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'freezer/fz08_failures.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 31, kind: 'text', reveal: [2], text: 'at U.S. military bases', highlights: [], size: 50, pos: 'upperRight', media: {src: 'freezer/fz09_bases.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'at U.S. military bases', highlights: [], size: 50, pos: 'upperRight', media: {src: 'freezer/fz09_bases.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 77, kind: 'text', reveal: [2], text: 'were caused by a cyberattack.', highlights: ['cyberattack'], size: 46, pos: 'lowerLeft', media: {src: 'freezer/fz10_cyberattack.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'were caused by a cyberattack.', highlights: ['cyberattack'], size: 46, pos: 'lowerLeft', media: {src: 'freezer/fz10_cyberattack.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 39, kind: 'text', reveal: [2], text: 'And the unsettling part?', highlights: ['unsettling'], size: 50, pos: 'right', media: {src: 'freezer/fz11_unsettling.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'And the unsettling part?', highlights: ['unsettling'], size: 50, pos: 'right', media: {src: 'freezer/fz11_unsettling.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 51, kind: 'text', reveal: [2], text: 'The targets weren’t computers', highlights: [], size: 50, pos: 'left', media: {src: 'freezer/fz12_computers.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'The targets weren’t computers', highlights: [], size: 50, pos: 'left', media: {src: 'freezer/fz12_computers.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 43, kind: 'text', reveal: [2], text: 'or classified networks.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'freezer/fz13_networks.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'or classified networks.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'freezer/fz13_networks.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'They were the systems|keeping food cold.', highlights: ['cold'], size: 44, pos: 'upper', media: {src: 'freezer/fz14_cold.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'They were the systems|keeping food cold.', highlights: ['cold'], size: 44, pos: 'upper', media: {src: 'freezer/fz14_cold.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 72, kind: 'text', reveal: [2, 28], text: 'Follow for more|cybersecurity stories', highlights: ['follow'], size: 48, media: {src: 'freezer/fz15_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'Follow for more|cybersecurity stories', highlights: ['follow'], size: 48, media: {src: 'freezer/fz15_follow.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 53, kind: 'text', reveal: [2], text: 'showing how digital attacks', highlights: [], size: 50, pos: 'left', media: {src: 'freezer/fz16_digital.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'showing how digital attacks', highlights: [], size: 50, pos: 'left', media: {src: 'freezer/fz16_digital.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 60, kind: 'text', reveal: [2], text: 'can affect the real world.', highlights: ['real'], size: 46, pos: 'right', media: {src: 'freezer/fz17_realworld.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'can affect the real world.', highlights: ['real'], size: 46, pos: 'right', media: {src: 'freezer/fz17_realworld.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 40, kind: 'text', reveal: [2], text: 'In October, hundreds', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'freezer/fz18_october.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'In October, hundreds', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'freezer/fz18_october.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 33, kind: 'text', reveal: [2], text: 'of French supermarkets', highlights: ['french'], size: 52, pos: 'upperRight', media: {src: 'freezer/fz19_supermarkets.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'of French supermarkets', highlights: ['french'], size: 52, pos: 'upperRight', media: {src: 'freezer/fz19_supermarkets.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 76, kind: 'text', reveal: [2], text: 'experienced refrigeration failures', highlights: ['failures'], size: 52, pos: 'left', media: {src: 'freezer/fz20_reffailures.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'experienced refrigeration failures', highlights: ['failures'], size: 52, pos: 'left', media: {src: 'freezer/fz20_reffailures.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 47, kind: 'text', reveal: [2], text: 'after hackers reportedly', highlights: ['hackers'], size: 52, pos: 'lowerRight', media: {src: 'freezer/fz21_hackers2.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'after hackers reportedly', highlights: ['hackers'], size: 52, pos: 'lowerRight', media: {src: 'freezer/fz21_hackers2.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 66, kind: 'text', reveal: [2], text: 'took control of freezer systems', highlights: ['control'], size: 46, pos: 'upperLeft', media: {src: 'freezer/fz22_control.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'took control of freezer systems', highlights: ['control'], size: 46, pos: 'upperLeft', media: {src: 'freezer/fz22_control.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 52, kind: 'text', reveal: [2], text: 'and raised their temperatures.', highlights: [], size: 50, pos: 'right', media: {src: 'freezer/fz23_raised.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'and raised their temperatures.', highlights: [], size: 50, pos: 'right', media: {src: 'freezer/fz23_raised.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 53, kind: 'text', reveal: [2], text: 'The disruption forced stores', highlights: [], size: 50, pos: 'lower', media: {src: 'freezer/fz24_disruption.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'The disruption forced stores', highlights: [], size: 50, pos: 'lower', media: {src: 'freezer/fz24_disruption.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 37, kind: 'text', reveal: [2], text: 'to throw away food', highlights: ['throw'], size: 50, pos: 'upperRight', media: {src: 'freezer/fz25_throwaway.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'to throw away food', highlights: ['throw'], size: 50, pos: 'upperRight', media: {src: 'freezer/fz25_throwaway.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 56, kind: 'text', reveal: [2], text: 'and raised serious questions', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'freezer/fz26_questions.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'and raised serious questions', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'freezer/fz26_questions.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 100, kind: 'text', reveal: [2, 28], text: 'about the security|of everyday infrastructure.', highlights: ['infrastructure'], size: 44, pos: 'left', media: {src: 'freezer/fz27_infrastructure.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'about the security|of everyday infrastructure.', highlights: ['infrastructure'], size: 44, pos: 'left', media: {src: 'freezer/fz27_infrastructure.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 33, kind: 'text', reveal: [2], text: 'Then came reports', highlights: [], size: 52, pos: 'right', media: {src: 'freezer/fz28_reports.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'Then came reports', highlights: [], size: 52, pos: 'right', media: {src: 'freezer/fz28_reports.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 74, kind: 'text', reveal: [2], text: 'of similar refrigeration problems', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'freezer/fz29_problems.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2], text: 'of similar refrigeration problems', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'freezer/fz29_problems.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'at U.S. military commissaries|in August.', highlights: ['august'], size: 44, pos: 'upperLeft', media: {src: 'freezer/fz30_august.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'at U.S. military commissaries|in August.', highlights: ['august'], size: 44, pos: 'upperLeft', media: {src: 'freezer/fz30_august.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 28, kind: 'text', reveal: [2], text: 'According to Fortune,', highlights: ['fortune'], size: 52, pos: 'right', media: {src: 'freezer/fz31_fortune.jpg', type: 'img', effect: 'in'}},
+  {dur: 25, kind: 'text', reveal: [2], text: 'According to Fortune,', highlights: ['fortune'], size: 52, pos: 'right', media: {src: 'freezer/fz31_fortune.jpg', type: 'img', effect: 'in'}},
   // 32 CARD
-  {dur: 118, kind: 'stat', stat: {pre: 'U.S. COMMISSARIES HIT', value: 6, suffix: '+'}, media: {src: 'freezer/fz32_card6.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'stat', stat: {pre: 'U.S. COMMISSARIES HIT', value: 6, suffix: '+'}, media: {src: 'freezer/fz32_card6.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 50, kind: 'text', reveal: [2], text: 'including locations at', highlights: [], size: 52, pos: 'upperRight', media: {src: 'freezer/fz33_locations.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'including locations at', highlights: [], size: 52, pos: 'upperRight', media: {src: 'freezer/fz33_locations.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 54, kind: 'text', reveal: [2], text: 'Fort Irwin in California,', highlights: ['irwin'], size: 50, pos: 'left', media: {src: 'freezer/fz34_irwin.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'Fort Irwin in California,', highlights: ['irwin'], size: 50, pos: 'left', media: {src: 'freezer/fz34_irwin.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Holloman Air Force Base|in New Mexico,', highlights: ['holloman'], size: 44, pos: 'lowerLeft', media: {src: 'freezer/fz35_holloman.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'Holloman Air Force Base|in New Mexico,', highlights: ['holloman'], size: 44, pos: 'lowerLeft', media: {src: 'freezer/fz35_holloman.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'and Naval Station Newport|in Rhode Island.', highlights: ['newport'], size: 44, pos: 'upper', media: {src: 'freezer/fz36_newport.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'and Naval Station Newport|in Rhode Island.', highlights: ['newport'], size: 44, pos: 'upper', media: {src: 'freezer/fz36_newport.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 51, kind: 'text', reveal: [2], text: 'Investigators are examining', highlights: [], size: 52, pos: 'right', media: {src: 'freezer/fz37_investigators.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'Investigators are examining', highlights: [], size: 52, pos: 'right', media: {src: 'freezer/fz37_investigators.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'whether the failures|were caused by a cyberattack.', highlights: ['cyberattack'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz38_cyberattack2.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'whether the failures|were caused by a cyberattack.', highlights: ['cyberattack'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz38_cyberattack2.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'The Defense Criminal|Investigative Service', highlights: ['defense'], size: 48, pos: 'upperLeft', media: {src: 'freezer/fz39_dcis.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'The Defense Criminal|Investigative Service', highlights: ['defense'], size: 48, pos: 'upperLeft', media: {src: 'freezer/fz39_dcis.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 64, kind: 'text', reveal: [2], text: 'is leading a joint probe,', highlights: ['probe'], size: 46, pos: 'left', media: {src: 'freezer/fz40_probe.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'is leading a joint probe,', highlights: ['probe'], size: 46, pos: 'left', media: {src: 'freezer/fz40_probe.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 46, kind: 'text', reveal: [2, 28], text: 'and U.S. officials|are coordinating', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'freezer/fz41_officials.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], text: 'and U.S. officials|are coordinating', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'freezer/fz41_officials.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 38, kind: 'text', reveal: [2], text: 'with French authorities.', highlights: ['french'], size: 52, pos: 'upperRight', media: {src: 'freezer/fz42_frenchauth.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'with French authorities.', highlights: ['french'], size: 52, pos: 'upperRight', media: {src: 'freezer/fz42_frenchauth.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'But there is no|confirmed evidence yet', highlights: ['evidence'], size: 44, pos: 'right', media: {src: 'freezer/fz43_evidence.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'But there is no|confirmed evidence yet', highlights: ['evidence'], size: 44, pos: 'right', media: {src: 'freezer/fz43_evidence.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'that the two incidents|are connected,', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'freezer/fz44_connected.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'that the two incidents|are connected,', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'freezer/fz44_connected.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 95, kind: 'text', reveal: [2, 28], text: 'or that the U.S.|failures were a hack.', highlights: ['hack'], size: 44, pos: 'left', media: {src: 'freezer/fz45_hack.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'or that the U.S.|failures were a hack.', highlights: ['hack'], size: 44, pos: 'left', media: {src: 'freezer/fz45_hack.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 60, kind: 'text', reveal: [2], text: 'Here’s why cybersecurity experts', highlights: [], size: 50, pos: 'upperRight', media: {src: 'freezer/fz46_experts.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'Here’s why cybersecurity experts', highlights: [], size: 50, pos: 'upperRight', media: {src: 'freezer/fz46_experts.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 35, kind: 'text', reveal: [2], text: 'are concerned.', highlights: ['concerned'], size: 52, pos: 'lower', media: {src: 'freezer/fz47_concerned.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'are concerned.', highlights: ['concerned'], size: 52, pos: 'lower', media: {src: 'freezer/fz47_concerned.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 51, kind: 'text', reveal: [2], text: 'Commercial refrigeration systems', highlights: [], size: 52, pos: 'right', media: {src: 'freezer/fz48_commercial.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'Commercial refrigeration systems', highlights: [], size: 52, pos: 'right', media: {src: 'freezer/fz48_commercial.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 81, kind: 'text', reveal: [2, 28], text: 'often rely on|internet-connected controllers.', highlights: ['internet-connected'], size: 48, pos: 'upperLeft', media: {src: 'freezer/fz49_controllers.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'often rely on|internet-connected controllers.', highlights: ['internet-connected'], size: 48, pos: 'upperLeft', media: {src: 'freezer/fz49_controllers.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 64, kind: 'text', reveal: [2, 28], text: 'Some may be running|outdated firmware', highlights: ['firmware'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz50_firmware.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'Some may be running|outdated firmware', highlights: ['firmware'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz50_firmware.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'or have weak|security protections.', highlights: ['weak'], size: 48, pos: 'left', media: {src: 'freezer/fz51_weak.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'or have weak|security protections.', highlights: ['weak'], size: 48, pos: 'left', media: {src: 'freezer/fz51_weak.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 53, kind: 'text', reveal: [2], text: 'If attackers gain access,', highlights: ['access'], size: 50, pos: 'upperRight', media: {src: 'freezer/fz52_access.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'If attackers gain access,', highlights: ['access'], size: 50, pos: 'upperRight', media: {src: 'freezer/fz52_access.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 77, kind: 'text', reveal: [2, 28], text: 'they may be able to|change temperatures remotely.', highlights: ['remotely'], size: 44, pos: 'right', media: {src: 'freezer/fz53_remotely.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'they may be able to|change temperatures remotely.', highlights: ['remotely'], size: 44, pos: 'right', media: {src: 'freezer/fz53_remotely.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 50, kind: 'text', reveal: [2], text: 'And unlike stolen data,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'freezer/fz54_stolendata.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'And unlike stolen data,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'freezer/fz54_stolendata.jpg', type: 'img', effect: 'in'}},
   // 55 RED
-  {dur: 67, kind: 'impact', redBg: true, text: 'spoiled food can’t|simply be restored.'},
+  {dur: 61, kind: 'impact', redBg: true, text: 'spoiled food can’t|simply be restored.'},
   // 56
-  {dur: 36, kind: 'text', reveal: [2], text: 'The damage can spread', highlights: ['spread'], size: 50, pos: 'upperLeft', media: {src: 'freezer/fz56_spread.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'The damage can spread', highlights: ['spread'], size: 50, pos: 'upperLeft', media: {src: 'freezer/fz56_spread.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 51, kind: 'text', reveal: [2], text: 'far beyond one store.', highlights: [], size: 50, pos: 'right', media: {src: 'freezer/fz57_store.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'far beyond one store.', highlights: [], size: 50, pos: 'right', media: {src: 'freezer/fz57_store.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 36, kind: 'text', reveal: [2], text: 'A refrigeration attack could', highlights: [], size: 50, pos: 'left', media: {src: 'freezer/fz58_attack.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'A refrigeration attack could', highlights: [], size: 50, pos: 'left', media: {src: 'freezer/fz58_attack.jpg', type: 'img', effect: 'in'}},
   // 59
-  {dur: 42, kind: 'text', reveal: [2], text: 'destroy inventory,', highlights: ['destroy'], size: 52, pos: 'lowerRight', media: {src: 'freezer/fz59_inventory.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'destroy inventory,', highlights: ['destroy'], size: 52, pos: 'lowerRight', media: {src: 'freezer/fz59_inventory.jpg', type: 'img', effect: 'in'}},
   // 60
-  {dur: 44, kind: 'text', reveal: [2], text: 'disrupt food distribution,', highlights: ['disrupt'], size: 52, pos: 'upperRight', media: {src: 'freezer/fz60_distribution.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'disrupt food distribution,', highlights: ['disrupt'], size: 52, pos: 'upperRight', media: {src: 'freezer/fz60_distribution.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 46, kind: 'text', reveal: [2], text: 'create financial losses,', highlights: ['losses'], size: 52, pos: 'lower', media: {src: 'freezer/fz61_losses.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'create financial losses,', highlights: ['losses'], size: 52, pos: 'lower', media: {src: 'freezer/fz61_losses.jpg', type: 'img', effect: 'in'}},
   // 62
-  {dur: 52, kind: 'text', reveal: [2], text: 'and threaten the supply chains', highlights: ['threaten'], size: 46, pos: 'left', media: {src: 'freezer/fz62_supplychains.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'and threaten the supply chains', highlights: ['threaten'], size: 46, pos: 'left', media: {src: 'freezer/fz62_supplychains.jpg', type: 'img', effect: 'in'}},
   // 63
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'that keep communities|and military bases running.', highlights: [], size: 44, pos: 'right', media: {src: 'freezer/fz63_running.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'that keep communities|and military bases running.', highlights: [], size: 44, pos: 'right', media: {src: 'freezer/fz63_running.jpg', type: 'img', effect: 'in'}},
   // 64
-  {dur: 41, kind: 'text', reveal: [2], text: 'At military commissaries,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'freezer/fz64_commissaries.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'At military commissaries,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'freezer/fz64_commissaries.jpg', type: 'img', effect: 'in'}},
   // 65
-  {dur: 50, kind: 'text', reveal: [2], text: 'those stores also serve', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'freezer/fz65_serve.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'those stores also serve', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'freezer/fz65_serve.jpg', type: 'img', effect: 'in'}},
   // 66
-  {dur: 52, kind: 'text', reveal: [2], text: 'personnel and families', highlights: ['families'], size: 52, pos: 'upperRight', media: {src: 'freezer/fz66_families.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'personnel and families', highlights: ['families'], size: 52, pos: 'upperRight', media: {src: 'freezer/fz66_families.jpg', type: 'img', effect: 'in'}},
   // 67
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'who rely on access|to affordable groceries.', highlights: ['affordable'], size: 44, pos: 'left', media: {src: 'freezer/fz67_groceries.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'who rely on access|to affordable groceries.', highlights: ['affordable'], size: 44, pos: 'left', media: {src: 'freezer/fz67_groceries.jpg', type: 'img', effect: 'in'}},
   // 68
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'And this raises|a bigger question:', highlights: ['bigger'], size: 44, pos: 'right', media: {src: 'freezer/fz68_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'And this raises|a bigger question:', highlights: ['bigger'], size: 44, pos: 'right', media: {src: 'freezer/fz68_question.jpg', type: 'img', effect: 'in'}},
   // 69
-  {dur: 45, kind: 'text', reveal: [2], text: 'are governments and businesses', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'freezer/fz69_governments.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'are governments and businesses', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'freezer/fz69_governments.jpg', type: 'img', effect: 'in'}},
   // 70
-  {dur: 77, kind: 'text', reveal: [2, 28], text: 'protecting the systems|that matter most?', highlights: ['most?'], size: 44, pos: 'upper', media: {src: 'freezer/fz70_matter.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'protecting the systems|that matter most?', highlights: ['most?'], size: 44, pos: 'upper', media: {src: 'freezer/fz70_matter.jpg', type: 'img', effect: 'in'}},
   // 71
-  {dur: 65, kind: 'text', reveal: [2], text: 'Cybersecurity often focuses on', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'freezer/fz71_focuses.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'Cybersecurity often focuses on', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'freezer/fz71_focuses.jpg', type: 'img', effect: 'in'}},
   // 72
-  {dur: 70, kind: 'text', reveal: [2], text: 'data, passwords, and networks.', highlights: ['passwords'], size: 50, pos: 'left', media: {src: 'freezer/fz72_passwords.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'data, passwords, and networks.', highlights: ['passwords'], size: 50, pos: 'left', media: {src: 'freezer/fz72_passwords.jpg', type: 'img', effect: 'in'}},
   // 73
-  {dur: 33, kind: 'text', reveal: [2], text: 'But what happens when', highlights: [], size: 50, pos: 'upperRight', media: {src: 'freezer/fz73_whathappens.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'But what happens when', highlights: [], size: 50, pos: 'upperRight', media: {src: 'freezer/fz73_whathappens.jpg', type: 'img', effect: 'in'}},
   // 74
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'attackers target the|physical controls', highlights: ['physical'], size: 48, pos: 'upperRight', media: {src: 'freezer/fz74_physical.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'attackers target the|physical controls', highlights: ['physical'], size: 48, pos: 'upperRight', media: {src: 'freezer/fz74_physical.jpg', type: 'img', effect: 'in'}},
   // 75
-  {dur: 101, kind: 'text', reveal: [2, 28], text: 'behind food, water,|hospitals, or energy?', highlights: ['energy?'], size: 44, pos: 'left', media: {src: 'freezer/fz75_energy.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'behind food, water,|hospitals, or energy?', highlights: ['energy?'], size: 44, pos: 'left', media: {src: 'freezer/fz75_energy.jpg', type: 'img', effect: 'in'}},
   // 76
-  {dur: 95, kind: 'text', reveal: [2, 28], text: 'The threat may not be|about stealing information.', highlights: ['information'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz76_information.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'The threat may not be|about stealing information.', highlights: ['information'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz76_information.jpg', type: 'img', effect: 'in'}},
   // 77
-  {dur: 105, kind: 'text', reveal: [2, 28], text: 'It may be about making|essential services fail.', highlights: ['fail'], size: 44, pos: 'upperLeft', media: {src: 'freezer/fz77_fail.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'It may be about making|essential services fail.', highlights: ['fail'], size: 44, pos: 'upperLeft', media: {src: 'freezer/fz77_fail.jpg', type: 'img', effect: 'in'}},
   // 78
-  {dur: 37, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'right', media: {src: 'freezer/fz78_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'right', media: {src: 'freezer/fz78_think.jpg', type: 'img', effect: 'in'}},
   // 79
-  {dur: 69, kind: 'text', reveal: [2], text: 'Should internet-connected equipment', highlights: [], size: 52, pos: 'lower', media: {src: 'freezer/fz79_equipment.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2], text: 'Should internet-connected equipment', highlights: [], size: 52, pos: 'lower', media: {src: 'freezer/fz79_equipment.jpg', type: 'img', effect: 'in'}},
   // 80
-  {dur: 49, kind: 'text', reveal: [2], text: 'like refrigeration systems', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'freezer/fz80_refsystems.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'like refrigeration systems', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'freezer/fz80_refsystems.jpg', type: 'img', effect: 'in'}},
   // 81
-  {dur: 74, kind: 'text', reveal: [2], text: 'face stricter cybersecurity rules?', highlights: ['stricter'], size: 50, pos: 'upperRight', media: {src: 'freezer/fz81_stricter.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2], text: 'face stricter cybersecurity rules?', highlights: ['stricter'], size: 50, pos: 'upperRight', media: {src: 'freezer/fz81_stricter.jpg', type: 'img', effect: 'in'}},
   // 82
-  {dur: 45, kind: 'text', reveal: [2], text: 'And if hackers can manipulate', highlights: ['hackers'], size: 46, pos: 'lowerLeft', media: {src: 'freezer/fz82_manipulate.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'And if hackers can manipulate', highlights: ['hackers'], size: 46, pos: 'lowerLeft', media: {src: 'freezer/fz82_manipulate.jpg', type: 'img', effect: 'in'}},
   // 83
-  {dur: 77, kind: 'text', reveal: [2, 28], text: 'something as ordinary|as a freezer,', highlights: ['freezer'], size: 44, pos: 'right', media: {src: 'freezer/fz83_ordinary.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'something as ordinary|as a freezer,', highlights: ['freezer'], size: 44, pos: 'right', media: {src: 'freezer/fz83_ordinary.jpg', type: 'img', effect: 'in'}},
   // 84
-  {dur: 37, kind: 'text', reveal: [2], text: 'what critical system', highlights: [], size: 52, pos: 'left', media: {src: 'freezer/fz84_critical.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'what critical system', highlights: [], size: 52, pos: 'left', media: {src: 'freezer/fz84_critical.jpg', type: 'img', effect: 'in'}},
   // 85
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'do you think could|be targeted next?', highlights: ['targeted'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz85_targeted.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'do you think could|be targeted next?', highlights: ['targeted'], size: 44, pos: 'lowerRight', media: {src: 'freezer/fz85_targeted.jpg', type: 'img', effect: 'in'}},
   // 86 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'freezer/fz86_comments.jpg', type: 'img', effect: 'in'}},
 ];
@@ -285,11 +285,11 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 295, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 835, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1790, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 3280, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 5155, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 269, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 759, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1627, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2982, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 4687, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
