@@ -6633,6 +6633,99 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   sources before publishing.** The framing is the script's own both-sides summary and the "should Congress raise
   taxes on higher earners, or should benefits be adjusted / are you worried about 2032" audience debate.
 
+- **`FreezerReel`** — "The freezer hack" (cybersecurity / infrastructure news reel, Hard Ledger VISUAL style). Topic:
+  **a cyber-physical attack on refrigeration.** Hackers allegedly turned supermarket freezers into "ovens," pushing
+  temperatures to ~122°F and spoiling food; in October hundreds of French supermarkets reportedly suffered
+  refrigeration failures after attackers took control of freezer systems. The Pentagon is investigating whether
+  similar failures at U.S. military commissaries in August were a cyberattack — per Fortune, more than half a dozen
+  commissaries were affected (incl. Fort Irwin CA, Holloman AFB NM, Naval Station Newport RI); the Defense Criminal
+  Investigative Service leads a joint probe, coordinating with French authorities. There is NO confirmed link or
+  confirmed hack yet. Why experts worry: commercial refrigeration often runs on internet-connected controllers with
+  outdated firmware / weak protections; attackers could change temperatures remotely, and unlike stolen data, spoiled
+  food can't be restored. Stakes: destroyed inventory, disrupted food distribution, financial loss, and the supply
+  chains that keep communities and bases running. Debate: should internet-connected equipment face stricter
+  cybersecurity rules, and what critical system is next? **BUILT VERBATIM from a client-supplied script in the
+  influencer "curiosity-gap" format (HOOK / CURIOSITY GAP / EARLY CTA / CONTEXT / EVIDENCE / ESCALATION /
+  CONSEQUENCES / CONTROVERSY / AUDIENCE DEBATE), NOT the faceless house voice** — it NAMES the Pentagon / Fortune /
+  Fort Irwin / Holloman AFB / Naval Station Newport / the Defense Criminal Investigative Service, uses an EARLY
+  "follow for more" CTA, and CLOSES on a "let us know in the comments" debate CTA. **Per the saved house preference,
+  captions are AT MOST 5-6 WORDS PER BEAT with LARGER on-screen type** (Anton ~42-52), which drives a high beat
+  count. **87 beats**, **2 stat cards — FREEZERS PUSHED TO 122°F; U.S. COMMISSARIES HIT 6+ (for "more than half a
+  dozen")**, 1 red impact ("spoiled food can't simply be restored.", placed mid-tail so the reel closes on the
+  comments-CTA media beat), no black beat. **Captions match the VO verbatim** — figures appear as numerals ONLY on
+  the two cards. Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+  (`public/freezer/voiceover.mp3`); **a hallucinated ElevenLabs TTS tail ("...know in" after "comments") was trimmed
+  at the silent gap**. **Built at the house +10% VO** (~173s / 2:53); its own dark, tense cyber-thriller music bed
+  (mixed at 0.20). **Varied caption placement** per the house convention (hook + CTAs centered). Entirely its own
+  fresh footage under `public/freezer/` (86 stills) — no asset shared with any other reel (ledger-checked against
+  `used_ids.txt`). **New STANDALONE reel.** Media credits (Pexels, free license) — all stills: a hooded figure with
+  a neon LED mask (14066346), a dark red-lit interior (28118893), a shadowy hand reaching toward a red glow
+  (36215313), a frost-covered freezer interior (9784111), a climate-control dial (12633638), a flame wisp on black —
+  card bg (14082593), spoiled produce (15450930), a dark brutalist government-style tower (6120151), a control panel
+  with a glowing "22.0" readout and amber warning (37685708), a fenced industrial facility at dusk (33041455), a red
+  number-matrix in a dark corridor (8134609), a dark corridor with a distant light (3741565), data-center fiber-optic
+  patch cables (4497197), a teal network-mesh abstract (20087316), frost crystals on metal (6608605), a hand
+  scrolling a phone (8947141), a binary-code facade of 1s and 0s (14956306), a dusk city street (16291798), autumn
+  trees (40593031), a produce display (5498219), cold condensation on glass (20184955), an over-the-shoulder hooded
+  figure at screens (6964348), a yellow industrial pendant control (4487670), a digital thermometer reading high
+  (5712673), an empty "DAIRY" aisle with queue stanchions (7451917), a kitchen counter with a trash bag and veg
+  (8455400), a backlit silhouette (33231304), an electricity pylon at dusk (28697752), stacked aged documents
+  (3927131), a red rooftop warning beacon (19886919), a hazy red sun over a smoggy skyline (8836841), rolled
+  newspapers end-on (3724811), a dark corridor — card bg (28377571), colored flag push-pins as map markers (6969317),
+  a stark desert landscape (29463262), a wet airfield runway (1917065), harbor cranes at sunset (8556067), a hand
+  with a magnifying glass over a map (5302819), red/blue light streaks (39865234), a chair in a bare concrete room
+  (7652511), a magnifier over a braille page (7188560), two silhouettes behind frosted glass (5496969), a
+  neoclassical columned building (38069700), rows of inked fingerprints (11591912), a network-mesh connection
+  abstract (11742984), a CRT showing static (6954359), hands typing on a backlit keyboard (5240547), a seated figure
+  curled with head in arms (4575341), outdoor industrial refrigeration/condenser units (3964692), a circuit board
+  (20442922), dark server hardware (1054397), a pink padlock on chains (157203), a biometric access keypad
+  (37538043), a hand holding a phone (20718273), a breached-database / data-stream abstract (12537427), a dark
+  cracked texture (3122779), a produce bin (33975355), a dark red tunnel / alert (14251843), stocked warehouse boxes
+  (5156696), a warehouse interior with pallet racking (4483610), a red financial-loss abstract (33978450), a
+  container-port aerial with cranes (2226458), highway light trails at night (561783), a macro of frost-covered
+  frozen berries (15048305), a checkout POS terminal over a produce basket (8422732), two shoppers with a cart, heads
+  out of frame (10396600), a paper grocery bag of vegetables (31031843), a paper question mark in a speech bubble
+  (5428831), a columned institutional hallway (15850971), a padlock keyhole (38253536), a magnifier with a phone
+  chart and a clock (6120183), a numeric passcode keypad (39481188), a dark corridor into the unknown (34779656),
+  industrial valves and gauges (40016190), a power-plant smokestack and pylons (14118309), a blue letter/number grid
+  abstract (33158875), an abstract red error glow (14434979), a thinking silhouette with hand to chin (30560359), a
+  network patch panel of cables (2881224), rooftop HVAC condenser units (37913513), a rusty padlock on chains
+  (10805427), an industrial valve control wheel (14344312), an ordinary household freezer interior (38289057), an
+  electrical substation at dusk (12809142), a crosshair / scope reticle (11701577), and a hand holding a phone — the
+  comments CTA (9898360). No generated graphics this reel. **Brand-safety (screened hard at source AND in a
+  pre-render contact-sheet audit — a strict pass for a reel that names the Pentagon, Fortune and specific U.S. bases):
+  ** FACE-FREE (hands / hooded figures / silhouettes / objects / abstracts only; where people appear they are
+  silhouetted, hooded, cropped above the collar, or faces hidden), and free of any supermarket/retailer or
+  tech/security-vendor LOGO, any military unit insignia / service emblem / government seal, any identifiable named
+  military base / ship / recognizable named landmark (the "government-style" towers, columns and airfield/harbor are
+  generic — NOT the real Pentagon or a named base), any national flag, any readable signage / screen / terminal text
+  or foreign-language label, and any identifiable currency. The sourcing agents rejected a very large pile under
+  View-QA — retailer and product brands (Pyaterochka / Lay's / Cheetos / Beck's / Budweiser / Old Parr / Dole / Del
+  Monte / "real" / PnP / T.J.Maxx / HomeGoods / KKV), hardware and vendor wordmarks (HP ProLiant / IBM eServer /
+  TradingView / OKX / Binance / Apple Touch-ID / "DUAL POWER CALCULATOR" / BURG-WACHTER / ABUS / Master / Sensym /
+  POTTERTON / KING DECOR), shipping lines (MAERSK / EVERGREEN / Hapag-Lloyd / ship names), government seals and
+  emblems (a hammer-and-sickle carving, an Ottoman tughra), named landmarks (the Vittoriano), readable mastheads
+  (incl. "ПРАВДА"), flags, and identifiable faces/plates. **Three stills that slipped through at source were caught
+  in the pre-render brand audit and re-sourced before rendering:** a semi-truck with a readable "FREIGHTLINER" grille
+  wordmark + license plate (replaced with a brand-free warehouse racking aisle, 4483610); a frozen aisle with
+  readable "TEXAS BURGER" product packaging (replaced with a frost-covered frozen-berry macro, 15048305); and a CRT
+  with a readable "TOSHIBA" bezel (replaced with an abstract red error glow, 14434979). A one-beat id collision (two
+  beats had picked the same silhouette id) was also reconciled by re-sourcing a distinct distress shot (4575341). A
+  number of beats are deliberate brand-safe STAND-INS where no literal brand-free shot exists: a flame wisp / red
+  light-streaks / dark corridor for abstract card and "breach" beats; a neon-mask hooded figure for "hackers"; a
+  climate-control dial and a "22.0" panel for the thermostat/readout beats; a braille page under a magnifier and
+  inked fingerprints for "probe / evidence"; a numeric passcode keypad for "passwords"; a desert, a wet runway and
+  harbor cranes as generic stand-ins for the named CA / NM / RI base locations; and a scope reticle for "targeted." A
+  few beats carry tiny, illegible ambient text (a far-background blurred screen phrase, a small foreign label on an
+  access panel, generic category signs like "DAIRY" / a freezer "TEMP CONTROL" label, a "FREIGHTLINER"-free truck's
+  maker badge), consistent with the house allowance for ambient, non-brand text. **UNVERIFIED — cites specific
+  claims, figures and institutions (freezers to ~122°F; hundreds of French stores; the Pentagon / DCIS probe;
+  Fortune's "more than half a dozen" commissaries incl. Fort Irwin / Holloman AFB / Naval Station Newport;
+  coordination with French authorities); the script itself states no confirmed link or confirmed hack. Rendered as
+  written but MUST be fact-checked against primary sources before publishing.** The framing is the script's own
+  both-sides summary and the "should internet-connected equipment face stricter rules / what critical system could be
+  targeted next" audience debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
