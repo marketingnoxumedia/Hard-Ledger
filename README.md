@@ -6655,7 +6655,7 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   comments-CTA media beat), no black beat. **Captions match the VO verbatim** — figures appear as numerals ONLY on
   the two cards. Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
   (`public/freezer/voiceover.mp3`); **a hallucinated ElevenLabs TTS tail ("...know in" after "comments") was trimmed
-  at the silent gap**. **Re-paced to +21% VO** ("additional 10%" on the house +10%; ~157s / 2:37); its own dark, tense cyber-thriller music bed
+  at the silent gap**. **Re-paced to ~+15% VO** (+21% then reduced 5%, SCALE 1.1495; ~166s / 2:45); its own dark, tense cyber-thriller music bed
   (mixed at 0.20). **Varied caption placement** per the house convention (hook + CTAs centered). Entirely its own
   fresh footage under `public/freezer/` (86 stills) — no asset shared with any other reel (ledger-checked against
   `used_ids.txt`). **New STANDALONE reel.** Media credits (Pexels, free license) — all stills: a hooded figure with
