@@ -6551,6 +6551,88 @@ background is reused across reels — only the cloned voice, `media/logo.png`, a
   script's own both-sides summary and the "next global city or over-betting on luxury demand / should cities
   prioritize billionaire investment even if housing becomes less affordable" audience debate.
 
+- **`SocSecReel`** — "The 2032 shortfall" (personal-finance / policy news reel, Hard Ledger VISUAL style). Topic:
+  **the projected U.S. Social Security trust-fund shortfall.** Per the latest trustees' projections the retirement
+  trust fund could run out of its reserves in the fourth quarter of 2032; absent Congressional action, automatic
+  benefit reductions of ~22% could follow once the fund is depleted. The Congressional Budget Office is more
+  pessimistic (fund running out earlier in 2032, cuts ~26%); the Committee for a Responsible Federal Budget estimates
+  a ~24% reduction could mean an ~$500 average monthly loss. Drivers: the payroll-tax structure plus demographic
+  change (lower birth rates, reduced immigration). Stakes: retirees' spending on groceries, housing and healthcare,
+  plus knock-on effects on borrowing costs and financial markets. Fix options: raise payroll taxes, lift the income
+  cap on wages subject to Social Security tax, change benefits, or a mix — each with political cost, and lawmakers
+  face elections. **BUILT VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (HOOK /
+  CURIOSITY GAP / EARLY CTA / CONTEXT / EVIDENCE / ESCALATION / CONSEQUENCES / CONTROVERSY / AUDIENCE DEBATE), NOT the
+  faceless house voice** — it NAMES the Social Security trustees / the Congressional Budget Office / the Committee for
+  a Responsible Federal Budget / Congress, uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the
+  comments" debate CTA. **Per the saved house preference, captions are AT MOST 5-6 WORDS PER BEAT with LARGER
+  on-screen type** (Anton ~42-52), which drives a high beat count. **89 beats**, **3 stat cards — THE POTENTIAL CUT
+  ~22%; CBO PROJECTS CUTS ~26%; AVG MONTHLY LOSS ~$500 (AT A ~24% CUT)**, 1 red impact ("easier said than done.",
+  placed mid-tail so the reel closes on the comments-CTA media beat), no black beat. **Captions match the VO
+  verbatim** — figures appear as numerals ONLY on the three cards; years ("2032") and spelled-out percentages ("by
+  22 percent", "around 24 percent") stay as words in the captions and are never rendered as number cards. Durations/
+  reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (`public/socsec/voiceover.mp3`), **built at
+  the house +10% VO** (~157s / 2:37); its own serious, tense policy-news music bed (mixed at 0.20). **Varied caption
+  placement** per the house convention (hook + CTAs centered). Entirely its own fresh footage under `public/socsec/`
+  (88 stills) — no asset shared with any other reel (ledger-checked against `used_ids.txt`). **New STANDALONE reel.**
+  Media credits (Pexels, free license) — all stills: a silhouetted crowd walking (8314619), a hand with a coin frozen
+  in melting ice (5909802), a draining hourglass (34837809), a pair of scissors (8250803), dark storm clouds — card
+  bg (39009375), a figure fading into mist (11522681), an illustrated coin dropped into a jar (6289171), a
+  silhouetted hand-to-chin figure (17594385), rows of empty glass jars (34261339), an overflowing pot of prop gold
+  coins (7080473), a handshake (33175648), a hand scrolling a phone (7054500), hands holding a wallet of edge-on
+  banknotes (34975636), an open road to the horizon (672597), a desk lamp over papers (8872665), an empty boardroom
+  (9300767), rows of safe-deposit lockboxes (17116894), a green-sand hourglass (13632833), a wall clock (29791985),
+  cupped hands offering generic gold coins (4691472), an elderly person's clasped hands (30532180), neoclassical
+  marble columns (28783426), a lone figure walking at sunset (29649581), interlocking red/blue gears (39315866), a
+  hand with a calculator and pen (8276209), a glowing red downward arrow (10009624), a dashboard chronometer dial
+  (12002828), empty glass jars in B&W (36449394), fanned document pages (7654125), gathering storm clouds (17857844),
+  a finger tracing a graph on a screen (11743790), a twin-bell alarm clock (7033933), a crack down a weathered wall
+  (9348582), dark red smoke — card bg (39020434), fanned open-book pages (7054504), a columned institutional facade
+  (33967575), a glowing redline gauge (171195), an open palm holding a single coin (31188751), warm golden bokeh —
+  card bg (9810090), a magnifying glass on blank paper (13072970), a person with face buried in hands (4584045), a
+  receding row of concrete support piers (19784445), a worker grinding metal with sparks (14118227), an elderly
+  woman's clasped hands (5231277), a high-angle aerial of a diverse crowd (20105456), a single baby shoe on black
+  (19953235), travelers silhouetted in an airport hall (28927716), hands tightening a vise (15274461), an hourglass
+  (1095602), a dim narrowing corridor (2556788), a rocky canyon gap (4297440), a spreading water ripple (30258085), a
+  red-and-white bordered envelope (7965294), elderly clasped hands in B&W (8057349), a modest family home (5071177),
+  hands counting a stack of edge-on banknotes (6328941), a few copper coins in cupped hands (3650642), a grocery bag
+  of produce (1992913), a stack of blank envelopes (10202993), a raised open warning hand (19650674), an alarm-clock
+  close-up (18542702), a silhouetted high-rise skyline at dusk (9006849), a business handshake (4963436), a
+  candlestick stock chart with no tickers (39662689), a wooden artist's figure holding a question mark (10988650), a
+  glowing edison bulb (4074955), an illustrated gold coin with an up-arrow (5849588), a steel roof structure
+  (16141294), hands using a calculator over paperwork (8296974), a mechanical control knob (28426244), interlocking
+  puzzle pieces (6147357), a tree beside a country road (31695050), a row of toppling dominoes (9760259), a red-lit
+  worker in a hard hat (35427804), hands opening a wallet at a cafe (5951723), scissors cutting (5794042), a
+  silhouetted elderly figure with a cane (5503981), a ballot box with a generic "VOTE" poster and stickers (5926278),
+  a close clasped handshake (8276369), a backlit thinking silhouette (18249307), a yellow staircase rising into open
+  sky (39497551), a satin suit-button macro (40479985), a hand turning a vintage radio dial (1345630), a gold piggy
+  bank topped with coins (12969339), elderly hands counting coins in B&W (27828635), a figure silhouetted at a beach
+  sunset (39470623), a worried senior with face hidden behind his hands (6937584), and a hand holding a phone — the
+  comments CTA (6593754). No generated graphics this reel. **Brand-safety (screened hard at source AND spot-checked
+  from the FINAL render — a strict pass for a reel that names real U.S. institutions):** FACE-FREE (hands /
+  silhouettes / objects / abstracts only; where people appear they are silhouetted, cropped above the collar, or have
+  faces hidden), and free of any Social Security Administration logo/wordmark, any government seal or emblem, any
+  identifiable politician or real person, any readable check / benefit statement / tax form, any single recognizable
+  named landmark (the "government-style" columns and institutional facades are generic, NOT the real U.S. Capitol),
+  any national flag, any readable brand mark / signage / foreign-language text, and any identifiable currency. The
+  sourcing agents rejected a very large pile under View-QA — readable U.S./EU/UK/PHP/HUF denominations and bank text
+  ("UNITED STATES OF AMERICA", "FEDERAL RESERVE", "Bank of England / Five", "EURO", "BANGKO SENTRAL"), recognizable
+  bill portraits (Washington, Franklin, Lincoln), crypto-branded coins, card-network and other brand wordmarks
+  (Mastercard, TradingView, "DUAL POWER CALCULATOR"), government emblems (a hammer-and-sickle carving), and
+  identifiable faces/landmarks. **Two stills that slipped through at source were caught in the final-render brand
+  audit and re-sourced before delivery:** an identifiable fan of U.S. $1 bills (replaced with a hands-and-calculator
+  payroll shot, 8296974) and an identifiable Bank of England £5 note (replaced with cupped hands offering generic
+  wreath/"$" prop coins, 4691472). A few beats are deliberate brand-safe STAND-INS where no literal brand-free shot
+  exists: dark storm skies / red smoke / golden bokeh for the three stat-card backgrounds; a melting ice cube for
+  "shrinking" value; a pot of prop gold coins for "the full amount"; a glowing red arrow and a redline gauge for
+  "decline / cuts"; a dashboard chronometer and a radio dial for "gauge / adjust"; a yellow rising staircase for
+  "raising taxes"; and a generic, non-partisan "VOTE" ballot box (no candidate, party, flag or wordmark) for the
+  elections beat. A couple of money beats keep banknotes only EDGE-ON with no denomination or bank name legible,
+  consistent with the house allowance for non-identifiable cash. **UNVERIFIED — cites specific figures and
+  institutions (trustees' Q4-2032 depletion & ~22% cut; CBO ~26% / earlier-2032; CRFB ~24% cut / ~$500 avg monthly
+  loss; the payroll-tax and demographic drivers); rendered as written but MUST be fact-checked against primary
+  sources before publishing.** The framing is the script's own both-sides summary and the "should Congress raise
+  taxes on higher earners, or should benefits be adjusted / are you worried about 2032" audience debate.
+
 ## Export note
 
 `out/storage-unit.mp4` is the full-quality master. For platforms with an upload
