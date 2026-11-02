@@ -179,6 +179,7 @@ import {IntelReel, DURATION_IN_FRAMES as INTEL_FRAMES} from './IntelReel';
 import {PixoReel, DURATION_IN_FRAMES as PIXO_FRAMES} from './PixoReel';
 import {MeltdownReel, DURATION_IN_FRAMES as MELT_FRAMES} from './MeltdownReel';
 import {MiamiReel, DURATION_IN_FRAMES as MIAMI_FRAMES} from './MiamiReel';
+import {SocSecReel, DURATION_IN_FRAMES as SOCSEC_FRAMES} from './SocSecReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
 import {ListingReel, DURATION_IN_FRAMES as LISTING_FRAMES} from './ListingReel';
@@ -1618,6 +1619,14 @@ export const RemotionRoot: React.FC = () => {
         id="MiamiReel"
         component={MiamiReel}
         durationInFrames={MIAMI_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="SocSecReel"
+        component={SocSecReel}
+        durationInFrames={SOCSEC_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
