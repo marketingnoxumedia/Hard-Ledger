@@ -107,120 +107,124 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'The XRP Ledger', kicker: 'The gate', highlights: [], size: 56, media: {src: 'token/tk00_xrpl.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'hook', reveal: [3, 40], text: 'The XRP Ledger', kicker: 'The gate', highlights: [], size: 56, media: {src: 'token/tk00_xrpl.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'is tightening the rules', highlights: ['tightening'], size: 50, pos: 'upperRight', media: {src: 'token/tk01_tightening.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'is tightening the rules', highlights: ['tightening'], size: 50, pos: 'upperRight', media: {src: 'token/tk01_tightening.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for who can hold|restricted tokens.', highlights: ['restricted'], size: 44, pos: 'left', media: {src: 'token/tk02_restricted.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'for who can hold|restricted tokens.', highlights: ['restricted'], size: 44, pos: 'left', media: {src: 'token/tk02_restricted.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'And this could change', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'token/tk03_change.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'And this could change', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'token/tk03_change.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'how certain digital assets', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'token/tk04_assets.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'how certain digital assets', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'token/tk04_assets.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'move across the network.', highlights: ['network'], size: 50, pos: 'right', media: {src: 'token/tk05_network.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'move across the network.', highlights: ['network'], size: 50, pos: 'right', media: {src: 'token/tk05_network.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s the twist.', highlights: ['twist'], size: 50, pos: 'lower', media: {src: 'token/tk06_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'But here’s the twist.', highlights: ['twist'], size: 50, pos: 'lower', media: {src: 'token/tk06_twist.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Developers are|closing loopholes,', highlights: ['loopholes'], size: 50, pos: 'upperLeft', media: {src: 'token/tk07_loopholes.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Developers are|closing loopholes,', highlights: ['loopholes'], size: 50, pos: 'upperLeft', media: {src: 'token/tk07_loopholes.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'even though the Foundation', highlights: [], size: 50, pos: 'upperRight', media: {src: 'token/tk08_foundation.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'even though the Foundation', highlights: [], size: 50, pos: 'upperRight', media: {src: 'token/tk08_foundation.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'says it knows of no', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'token/tk09_knows.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'says it knows of no', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'token/tk09_knows.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'outsider exploiting them.', highlights: ['outsider'], size: 52, pos: 'right', media: {src: 'token/tk10_outsider.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'outsider exploiting them.', highlights: ['outsider'], size: 52, pos: 'right', media: {src: 'token/tk10_outsider.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Follow for more updates|on crypto', highlights: ['follow'], size: 44, media: {src: 'token/tk11_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'Follow for more updates|on crypto', highlights: ['follow'], size: 44, media: {src: 'token/tk11_follow.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'and the technology', highlights: [], size: 52, pos: 'left', media: {src: 'token/tk12_technology.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'and the technology', highlights: [], size: 52, pos: 'left', media: {src: 'token/tk12_technology.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'shaping its future.', highlights: ['future'], size: 52, pos: 'lowerRight', media: {src: 'token/tk13_future.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'shaping its future.', highlights: ['future'], size: 52, pos: 'lowerRight', media: {src: 'token/tk13_future.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Some tokens|on the XRP Ledger', highlights: [], size: 44, pos: 'upper', media: {src: 'token/tk14_sometokens.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Some tokens|on the XRP Ledger', highlights: [], size: 44, pos: 'upper', media: {src: 'token/tk14_sometokens.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'can only be held', highlights: [], size: 50, pos: 'left', media: {src: 'token/tk15_held.jpg', type: 'img', effect: 'in'}},
+  {dur: 23, kind: 'text', reveal: [2], text: 'can only be held', highlights: [], size: 50, pos: 'left', media: {src: 'token/tk15_held.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'by accounts approved|by their issuer.', highlights: ['approved'], size: 44, pos: 'right', media: {src: 'token/tk16_issuer.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'by accounts approved|by their issuer.', highlights: ['approved'], size: 44, pos: 'right', media: {src: 'token/tk16_issuer.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'This is|especially important', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'token/tk17_important.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], text: 'This is|especially important', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'token/tk17_important.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'for regulated assets', highlights: ['regulated'], size: 52, pos: 'upperRight', media: {src: 'token/tk18_regulated.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'for regulated assets', highlights: ['regulated'], size: 52, pos: 'upperRight', media: {src: 'token/tk18_regulated.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'like stablecoins|and tokenized funds.', highlights: ['stablecoins'], size: 48, pos: 'left', media: {src: 'token/tk19_stablecoins.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'like stablecoins|and tokenized funds.', highlights: ['stablecoins'], size: 48, pos: 'left', media: {src: 'token/tk19_stablecoins.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'According to CoinDesk,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'token/tk20_coindesk.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'According to CoinDesk,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'token/tk20_coindesk.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'developers proposed', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'token/tk21_proposed.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'developers proposed', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'token/tk21_proposed.jpg', type: 'img', effect: 'in'}},
   // 22 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'DEVELOPERS PROPOSED', value: 4, post: 'FIXES'}, media: {src: 'token/tk22_card4.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'DEVELOPERS PROPOSED', value: 4, post: 'FIXES'}, media: {src: 'token/tk22_card4.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'to close gaps', highlights: ['gaps'], size: 52, pos: 'right', media: {src: 'token/tk23_gaps.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'to close gaps', highlights: ['gaps'], size: 52, pos: 'right', media: {src: 'token/tk23_gaps.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that could let|restricted tokens', highlights: [], size: 48, pos: 'lower', media: {src: 'token/tk24_rt.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'that could let|restricted tokens', highlights: [], size: 48, pos: 'lower', media: {src: 'token/tk24_rt.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'reach unapproved accounts.', highlights: ['unapproved'], size: 52, pos: 'upperRight', media: {src: 'token/tk25_unapproved.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'reach unapproved accounts.', highlights: ['unapproved'], size: 52, pos: 'upperRight', media: {src: 'token/tk25_unapproved.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'One targets|automated trading pools.', highlights: ['automated'], size: 48, pos: 'lowerLeft', media: {src: 'token/tk26_pools.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'One targets|automated trading pools.', highlights: ['automated'], size: 48, pos: 'lowerLeft', media: {src: 'token/tk26_pools.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'Another addresses accounts', highlights: [], size: 52, pos: 'left', media: {src: 'token/tk27_accounts.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'Another addresses accounts', highlights: [], size: 52, pos: 'left', media: {src: 'token/tk27_accounts.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that could keep|receiving tokens', highlights: [], size: 48, pos: 'right', media: {src: 'token/tk28_receiving.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'that could keep|receiving tokens', highlights: [], size: 48, pos: 'right', media: {src: 'token/tk28_receiving.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'simply because they|already had a balance.', highlights: ['balance'], size: 44, pos: 'lowerRight', media: {src: 'token/tk29_balance.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'simply because they|already had a balance.', highlights: ['balance'], size: 44, pos: 'lowerRight', media: {src: 'token/tk29_balance.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'Under the proposed rules,', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'token/tk30_proposedrules.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'Under the proposed rules,', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'token/tk30_proposedrules.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'unapproved holders', highlights: ['unapproved'], size: 52, pos: 'right', media: {src: 'token/tk31_holders.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'unapproved holders', highlights: ['unapproved'], size: 52, pos: 'right', media: {src: 'token/tk31_holders.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'could face restrictions', highlights: ['restrictions'], size: 52, pos: 'upperRight', media: {src: 'token/tk32_restrictions.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'could face restrictions', highlights: ['restrictions'], size: 52, pos: 'upperRight', media: {src: 'token/tk32_restrictions.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on what they do|with those tokens.', highlights: [], size: 44, pos: 'left', media: {src: 'token/tk33_whattheydo.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'on what they do|with those tokens.', highlights: [], size: 44, pos: 'left', media: {src: 'token/tk33_whattheydo.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'Issuer approval', highlights: ['issuer'], size: 52, pos: 'lowerLeft', media: {src: 'token/tk34_issuerapproval.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Issuer approval', highlights: ['issuer'], size: 52, pos: 'lowerLeft', media: {src: 'token/tk34_issuerapproval.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'could restore normal use.', highlights: ['restore'], size: 50, pos: 'upper', media: {src: 'token/tk35_restore.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'could restore normal use.', highlights: ['restore'], size: 50, pos: 'upper', media: {src: 'token/tk35_restore.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'These changes could make', highlights: [], size: 50, pos: 'right', media: {src: 'token/tk36_changes.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2], text: 'These changes could make', highlights: [], size: 50, pos: 'right', media: {src: 'token/tk36_changes.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the XRP Ledger|more reliable', highlights: ['reliable'], size: 48, pos: 'lowerRight', media: {src: 'token/tk37_reliable.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2, 28], text: 'the XRP Ledger|more reliable', highlights: ['reliable'], size: 48, pos: 'lowerRight', media: {src: 'token/tk37_reliable.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for regulated|financial products.', highlights: ['regulated'], size: 50, pos: 'upperLeft', media: {src: 'token/tk38_products.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'for regulated|financial products.', highlights: ['regulated'], size: 50, pos: 'upperLeft', media: {src: 'token/tk38_products.jpg', type: 'img', effect: 'in'}},
   // 39 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'But they are|not live yet.'},
+  {dur: 53, kind: 'impact', redBg: true, text: 'But they are|not live yet.'},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'The proposals still need', highlights: [], size: 50, pos: 'left', media: {src: 'token/tk40_proposals.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'The proposals still need', highlights: [], size: 50, pos: 'left', media: {src: 'token/tk40_proposals.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'to enter the software', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'token/tk41_software.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'to enter the software', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'token/tk41_software.jpg', type: 'img', effect: 'in'}},
   // 42
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'and receive enough|validator support.', highlights: ['validator'], size: 48, pos: 'upperRight', media: {src: 'token/tk42_validator.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'The Foundation describes this', highlights: [], size: 50, pos: 'right', media: {src: 'token/tk43_describes.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'The Foundation describes this', highlights: [], size: 50, pos: 'right', media: {src: 'token/tk43_describes.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as routine|security hardening,', highlights: ['routine'], size: 50, pos: 'lowerLeft', media: {src: 'token/tk44_hardening.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'as routine|security hardening,', highlights: ['routine'], size: 50, pos: 'lowerLeft', media: {src: 'token/tk44_hardening.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'not a response|to a confirmed attack.', highlights: ['attack'], size: 44, pos: 'left', media: {src: 'token/tk45_attack.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'not a response|to a confirmed attack.', highlights: ['attack'], size: 44, pos: 'left', media: {src: 'token/tk45_attack.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'Still, the debate raises', highlights: [], size: 50, pos: 'upperRight', media: {src: 'token/tk46_debate.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'Still, the debate raises', highlights: [], size: 50, pos: 'upperRight', media: {src: 'token/tk46_debate.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'a bigger question', highlights: ['bigger'], size: 52, pos: 'lower', media: {src: 'token/tk47_bigger.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'a bigger question', highlights: ['bigger'], size: 52, pos: 'lower', media: {src: 'token/tk47_bigger.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'about how much control', highlights: ['control'], size: 50, pos: 'right', media: {src: 'token/tk48_control.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'about how much control', highlights: ['control'], size: 50, pos: 'right', media: {src: 'token/tk48_control.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'issuers should have|over digital assets.', highlights: ['issuers'], size: 44, pos: 'upperLeft', media: {src: 'token/tk49_issuers.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'issuers should have|over digital assets.', highlights: ['issuers'], size: 44, pos: 'upperLeft', media: {src: 'token/tk49_issuers.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'token/tk50_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'token/tk50_think.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'Are stricter token rules', highlights: ['stricter'], size: 50, pos: 'left', media: {src: 'token/tk51_stricter.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'Are stricter token rules', highlights: ['stricter'], size: 50, pos: 'left', media: {src: 'token/tk51_stricter.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'necessary for|institutional adoption,', highlights: ['institutional'], size: 50, pos: 'upperRight', media: {src: 'token/tk52_institutional.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'necessary for|institutional adoption,', highlights: ['institutional'], size: 50, pos: 'upperRight', media: {src: 'token/tk52_institutional.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or do they make|crypto less open?', highlights: ['open?'], size: 44, pos: 'right', media: {src: 'token/tk53_open.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'or do they make|crypto less open?', highlights: ['open?'], size: 44, pos: 'right', media: {src: 'token/tk53_open.jpg', type: 'img', effect: 'in'}},
   // 54 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'token/tk54_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'token/tk54_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 544, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1048, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1930, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2739, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
