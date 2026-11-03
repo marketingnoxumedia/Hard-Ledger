@@ -106,118 +106,123 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'NASA’s Voyager 1|is about to reach', kicker: 'The signal', highlights: [], size: 48, media: {src: 'voyager/vy00_voyager.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'hook', reveal: [3, 40], text: 'NASA’s Voyager 1|is about to reach', kicker: 'The signal', highlights: [], size: 48, media: {src: 'voyager/vy00_voyager.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'a distance so enormous', highlights: ['enormous'], size: 50, pos: 'upperRight', media: {src: 'voyager/vy01_distance.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'a distance so enormous', highlights: ['enormous'], size: 50, pos: 'upperRight', media: {src: 'voyager/vy01_distance.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that even a message|from Earth', highlights: [], size: 44, pos: 'left', media: {src: 'voyager/vy02_message.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'that even a message|from Earth', highlights: [], size: 44, pos: 'left', media: {src: 'voyager/vy02_message.jpg', type: 'img', effect: 'in'}},
   // 3
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'will take an entire day|to get there.', highlights: ['day'], size: 44, pos: 'lowerRight', media: {src: 'voyager/vy03_entireday.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the spacecraft|is still running,', highlights: ['running,'], size: 44, pos: 'upperLeft', media: {src: 'voyager/vy04_running.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'And the spacecraft|is still running,', highlights: ['running,'], size: 44, pos: 'upperLeft', media: {src: 'voyager/vy04_running.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'nearly 50 years after launch.', highlights: ['50'], size: 46, pos: 'right', media: {src: 'voyager/vy05_launch.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'nearly 50 years after launch.', highlights: ['50'], size: 46, pos: 'right', media: {src: 'voyager/vy05_launch.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But here’s what’s|even more incredible.', highlights: ['incredible.'], size: 44, pos: 'lower', media: {src: 'voyager/vy06_incredible.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'But here’s what’s|even more incredible.', highlights: ['incredible.'], size: 44, pos: 'lower', media: {src: 'voyager/vy06_incredible.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'NASA recently lost contact', highlights: ['lost'], size: 50, pos: 'upperLeft', media: {src: 'voyager/vy07_lostcontact.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'NASA recently lost contact', highlights: ['lost'], size: 50, pos: 'upperLeft', media: {src: 'voyager/vy07_lostcontact.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'with Voyager 1 for 48 hours.', highlights: [], size: 42, pos: 'upperRight', media: {src: 'voyager/vy08_48hours.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2], text: 'with Voyager 1 for 48 hours.', highlights: [], size: 42, pos: 'upperRight', media: {src: 'voyager/vy08_48hours.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'And engineers are now racing', highlights: ['racing'], size: 46, pos: 'lowerLeft', media: {src: 'voyager/vy09_racing.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'And engineers are now racing', highlights: ['racing'], size: 46, pos: 'lowerLeft', media: {src: 'voyager/vy09_racing.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'to keep the spacecraft alive', highlights: ['alive'], size: 46, pos: 'right', media: {src: 'voyager/vy10_alive.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'to keep the spacecraft alive', highlights: ['alive'], size: 46, pos: 'right', media: {src: 'voyager/vy10_alive.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as its power supply|slowly fades.', highlights: ['fades.'], size: 44, pos: 'left', media: {src: 'voyager/vy11_powerfades.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'as its power supply|slowly fades.', highlights: ['fades.'], size: 44, pos: 'left', media: {src: 'voyager/vy11_powerfades.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'Launched in 1977,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'voyager/vy12_1977.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2], text: 'Launched in 1977,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'voyager/vy12_1977.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Voyager 1 is traveling|through interstellar space', highlights: ['interstellar'], size: 44, pos: 'upper', media: {src: 'voyager/vy13_interstellar.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'Voyager 1 is traveling|through interstellar space', highlights: ['interstellar'], size: 44, pos: 'upper', media: {src: 'voyager/vy13_interstellar.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'at approximately', highlights: [], size: 52, pos: 'left', media: {src: 'voyager/vy14_approximately.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'at approximately', highlights: [], size: 52, pos: 'left', media: {src: 'voyager/vy14_approximately.jpg', type: 'img', effect: 'in'}},
   // 15 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'TRAVELING AT', value: 38000, post: 'MPH'}, media: {src: 'voyager/vy15_card38k.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'TRAVELING AT', value: 38000, post: 'MPH'}, media: {src: 'voyager/vy15_card38k.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It’s already|farther from Earth', highlights: [], size: 48, pos: 'right', media: {src: 'voyager/vy16_farther.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2, 28], text: 'It’s already|farther from Earth', highlights: [], size: 48, pos: 'right', media: {src: 'voyager/vy16_farther.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'than any other|human-made object.', highlights: ['human-made'], size: 48, pos: 'lowerLeft', media: {src: 'voyager/vy17_object.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'than any other|human-made object.', highlights: ['human-made'], size: 48, pos: 'lowerLeft', media: {src: 'voyager/vy17_object.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'And on November 18, 2026,', highlights: [], size: 46, pos: 'upperRight', media: {src: 'voyager/vy18_date.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2], text: 'And on November 18, 2026,', highlights: [], size: 46, pos: 'upperRight', media: {src: 'voyager/vy18_date.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'it’s expected to reach|a distance of one light-day.', highlights: ['light-day.'], size: 44, pos: 'left', media: {src: 'voyager/vy19_lightday.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'it’s expected to reach|a distance of one light-day.', highlights: ['light-day.'], size: 44, pos: 'left', media: {src: 'voyager/vy19_lightday.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'That’s approximately', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'voyager/vy20_thatsapprox.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2], text: 'That’s approximately', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'voyager/vy20_thatsapprox.jpg', type: 'img', effect: 'in'}},
   // 21 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'ROUGHLY', value: 16.09, decimals: 2, post: 'BILLION MILES'}, media: {src: 'voyager/vy21_card1609.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'stat', stat: {pre: 'ROUGHLY', value: 16.09, decimals: 2, post: 'BILLION MILES'}, media: {src: 'voyager/vy21_card1609.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But what does one light-day|actually mean?', highlights: ['mean?'], size: 44, pos: 'upperLeft', media: {src: 'voyager/vy22_whatmean.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'But what does one light-day|actually mean?', highlights: ['mean?'], size: 44, pos: 'upperLeft', media: {src: 'voyager/vy22_whatmean.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'It means light itself', highlights: ['light'], size: 50, pos: 'right', media: {src: 'voyager/vy23_lightitself.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'It means light itself', highlights: ['light'], size: 50, pos: 'right', media: {src: 'voyager/vy23_lightitself.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'takes 24 hours to travel', highlights: [], size: 46, pos: 'lower', media: {src: 'voyager/vy24_24hours.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'takes 24 hours to travel', highlights: [], size: 46, pos: 'lower', media: {src: 'voyager/vy24_24hours.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'from Earth to Voyager 1.', highlights: [], size: 46, pos: 'upperRight', media: {src: 'voyager/vy25_earthtovoyager.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'from Earth to Voyager 1.', highlights: [], size: 46, pos: 'upperRight', media: {src: 'voyager/vy25_earthtovoyager.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So if NASA sends|a command today,', highlights: ['command'], size: 44, pos: 'lowerLeft', media: {src: 'voyager/vy26_command.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'So if NASA sends|a command today,', highlights: ['command'], size: 44, pos: 'lowerLeft', media: {src: 'voyager/vy26_command.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'it takes an entire day|to reach the spacecraft.', highlights: [], size: 44, pos: 'left', media: {src: 'voyager/vy27_reachspacecraft.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'it takes an entire day|to reach the spacecraft.', highlights: [], size: 44, pos: 'left', media: {src: 'voyager/vy27_reachspacecraft.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'And when Voyager responds?', highlights: ['responds?'], size: 50, pos: 'right', media: {src: 'voyager/vy28_responds.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'And when Voyager responds?', highlights: ['responds?'], size: 50, pos: 'right', media: {src: 'voyager/vy28_responds.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'Another 24 hours.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'voyager/vy29_another24.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'Another 24 hours.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'voyager/vy29_another24.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'That’s a', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'voyager/vy30_thatsa.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'That’s a', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'voyager/vy30_thatsa.jpg', type: 'img', effect: 'in'}},
   // 31 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'A', value: 48, post: 'HOUR ROUND TRIP'}, media: {src: 'voyager/vy31_card48.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'A', value: 48, post: 'HOUR ROUND TRIP'}, media: {src: 'voyager/vy31_card48.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'just to communicate.', highlights: ['communicate.'], size: 52, pos: 'right', media: {src: 'voyager/vy32_communicate.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'just to communicate.', highlights: ['communicate.'], size: 52, pos: 'right', media: {src: 'voyager/vy32_communicate.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'And keeping Voyager alive is', highlights: [], size: 46, pos: 'upperRight', media: {src: 'voyager/vy33_keepingalive.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'And keeping Voyager alive is', highlights: [], size: 46, pos: 'upperRight', media: {src: 'voyager/vy33_keepingalive.jpg', type: 'img', effect: 'in'}},
   // 34 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Becoming increasingly|difficult.'},
+  {dur: 71, kind: 'impact', redBg: true, text: 'Becoming increasingly|difficult.'},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Its power supply|is slowly declining,', highlights: ['declining,'], size: 44, pos: 'left', media: {src: 'voyager/vy35_declining.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', reveal: [2, 28], text: 'Its power supply|is slowly declining,', highlights: ['declining,'], size: 44, pos: 'left', media: {src: 'voyager/vy35_declining.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'losing around 4 watts|of electricity every year.', highlights: ['4'], size: 44, pos: 'lowerLeft', media: {src: 'voyager/vy36_4watts.jpg', type: 'img', effect: 'in'}},
+  {dur: 113, kind: 'text', reveal: [2, 28], text: 'losing around 4 watts|of electricity every year.', highlights: ['4'], size: 44, pos: 'lowerLeft', media: {src: 'voyager/vy36_4watts.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So NASA engineers|recently carried out', highlights: [], size: 44, pos: 'upper', media: {src: 'voyager/vy37_engineers.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'So NASA engineers|recently carried out', highlights: [], size: 44, pos: 'upper', media: {src: 'voyager/vy37_engineers.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'a complex energy-saving upgrade', highlights: ['energy-saving'], size: 50, pos: 'right', media: {src: 'voyager/vy38_upgrade.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2], text: 'a complex energy-saving upgrade', highlights: ['energy-saving'], size: 50, pos: 'right', media: {src: 'voyager/vy38_upgrade.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'called the Big Bang.', highlights: ['big'], size: 50, pos: 'lowerRight', media: {src: 'voyager/vy39_bigbang.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'called the Big Bang.', highlights: ['big'], size: 50, pos: 'lowerRight', media: {src: 'voyager/vy39_bigbang.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'The goal?', highlights: ['goal?'], size: 52, pos: 'upperLeft', media: {src: 'voyager/vy40_goal.jpg', type: 'img', effect: 'in'}},
+  {dur: 23, kind: 'text', reveal: [2], text: 'The goal?', highlights: ['goal?'], size: 52, pos: 'upperLeft', media: {src: 'voyager/vy40_goal.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Keep Voyager’s remaining|scientific instruments running', highlights: ['scientific'], size: 44, pos: 'left', media: {src: 'voyager/vy41_instruments.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 28], text: 'Keep Voyager’s remaining|scientific instruments running', highlights: ['scientific'], size: 44, pos: 'left', media: {src: 'voyager/vy41_instruments.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'for as long as possible.', highlights: ['possible.'], size: 46, pos: 'lowerRight', media: {src: 'voyager/vy42_aslong.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'for as long as possible.', highlights: ['possible.'], size: 46, pos: 'lowerRight', media: {src: 'voyager/vy42_aslong.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And here’s what makes|this mission so extraordinary.', highlights: ['extraordinary.'], size: 44, pos: 'upperRight', media: {src: 'voyager/vy43_extraordinary.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 28], text: 'And here’s what makes|this mission so extraordinary.', highlights: ['extraordinary.'], size: 44, pos: 'upperRight', media: {src: 'voyager/vy43_extraordinary.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Voyager 1 is exploring|a region of space', highlights: [], size: 44, pos: 'right', media: {src: 'voyager/vy44_region.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'Voyager 1 is exploring|a region of space', highlights: [], size: 44, pos: 'right', media: {src: 'voyager/vy44_region.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that no other spacecraft|has directly investigated.', highlights: ['investigated.'], size: 44, pos: 'lowerLeft', media: {src: 'voyager/vy45_investigated.jpg', type: 'img', effect: 'in'}},
+  {dur: 129, kind: 'text', reveal: [2, 28], text: 'that no other spacecraft|has directly investigated.', highlights: ['investigated.'], size: 44, pos: 'lowerLeft', media: {src: 'voyager/vy45_investigated.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'Even with fading power,', highlights: ['fading'], size: 50, pos: 'left', media: {src: 'voyager/vy46_fadingpower.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'Even with fading power,', highlights: ['fading'], size: 50, pos: 'left', media: {src: 'voyager/vy46_fadingpower.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'aging equipment,', highlights: ['aging'], size: 52, pos: 'upperRight', media: {src: 'voyager/vy47_aging.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'aging equipment,', highlights: ['aging'], size: 52, pos: 'upperRight', media: {src: 'voyager/vy47_aging.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and mysterious|technical problems,', highlights: ['mysterious'], size: 50, pos: 'lower', media: {src: 'voyager/vy48_mysterious.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'and mysterious|technical problems,', highlights: ['mysterious'], size: 50, pos: 'lower', media: {src: 'voyager/vy48_mysterious.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'it’s still sending|valuable scientific information', highlights: ['valuable'], size: 44, pos: 'right', media: {src: 'voyager/vy49_sending.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'it’s still sending|valuable scientific information', highlights: ['valuable'], size: 44, pos: 'right', media: {src: 'voyager/vy49_sending.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'back to Earth.', highlights: ['earth.'], size: 52, pos: 'upperLeft', media: {src: 'voyager/vy50_backtoearth.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'back to Earth.', highlights: ['earth.'], size: 52, pos: 'upperLeft', media: {src: 'voyager/vy50_backtoearth.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'voyager/vy51_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'voyager/vy51_think.jpg', type: 'img', effect: 'in'}},
   // 52
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'How much longer can|Voyager 1 keep going?', highlights: ['going?'], size: 44, pos: 'left', media: {src: 'voyager/vy52_howlonger.jpg', type: 'img', effect: 'in'}},
   // 53 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'voyager/vy53_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'voyager/vy53_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 982, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1389, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1960, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2090, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3444, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
