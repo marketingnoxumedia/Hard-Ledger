@@ -107,106 +107,110 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Alpine’s next sports car|is going electric.', kicker: 'The powertrain', highlights: ['electric.'], size: 48, media: {src: 'dual/dl00_electric.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'hook', reveal: [3, 40], text: 'Alpine’s next sports car|is going electric.', kicker: 'The powertrain', highlights: ['electric.'], size: 48, media: {src: 'dual/dl00_electric.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But the company|just revealed', highlights: [], size: 48, pos: 'upperRight', media: {src: 'dual/dl01_revealed.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'But the company|just revealed', highlights: [], size: 48, pos: 'upperRight', media: {src: 'dual/dl01_revealed.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'that a gasoline-powered version', highlights: ['gasoline-powered'], size: 50, pos: 'left', media: {src: 'dual/dl02_gasoline.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'that a gasoline-powered version', highlights: ['gasoline-powered'], size: 50, pos: 'left', media: {src: 'dual/dl02_gasoline.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'could still happen.', highlights: ['happen.'], size: 52, pos: 'lowerRight', media: {src: 'dual/dl03_happen.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'could still happen.', highlights: ['happen.'], size: 52, pos: 'lowerRight', media: {src: 'dual/dl03_happen.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And here’s what|makes this interesting.', highlights: ['interesting.'], size: 44, pos: 'upperLeft', media: {src: 'dual/dl04_interesting.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'And here’s what|makes this interesting.', highlights: ['interesting.'], size: 44, pos: 'upperLeft', media: {src: 'dual/dl04_interesting.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The platform for|the new A110', highlights: [], size: 44, pos: 'right', media: {src: 'dual/dl05_platform.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'The platform for|the new A110', highlights: [], size: 44, pos: 'right', media: {src: 'dual/dl05_platform.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'was designed with|the flexibility', highlights: ['flexibility'], size: 48, pos: 'lower', media: {src: 'dual/dl06_flexibility.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'was designed with|the flexibility', highlights: ['flexibility'], size: 48, pos: 'lower', media: {src: 'dual/dl06_flexibility.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to support more than|one type of powertrain.', highlights: ['powertrain.'], size: 44, pos: 'upperLeft', media: {src: 'dual/dl07_powertrain.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'to support more than|one type of powertrain.', highlights: ['powertrain.'], size: 44, pos: 'upperLeft', media: {src: 'dual/dl07_powertrain.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['follow'], size: 50, media: {src: 'dual/dl08_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['follow'], size: 50, media: {src: 'dual/dl08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on the future of|cars and technology.', highlights: ['technology.'], size: 44, pos: 'upperRight', media: {src: 'dual/dl09_technology.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'on the future of|cars and technology.', highlights: ['technology.'], size: 44, pos: 'upperRight', media: {src: 'dual/dl09_technology.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Alpine, the French|sports car brand', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'dual/dl10_brand.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'Alpine, the French|sports car brand', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'dual/dl10_brand.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'owned by Renault,', highlights: [], size: 52, pos: 'right', media: {src: 'dual/dl11_renault.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'owned by Renault,', highlights: [], size: 52, pos: 'right', media: {src: 'dual/dl11_renault.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is developing an|electric successor', highlights: ['electric'], size: 48, pos: 'left', media: {src: 'dual/dl12_successor.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'is developing an|electric successor', highlights: ['electric'], size: 48, pos: 'left', media: {src: 'dual/dl12_successor.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'to its legendary A110.', highlights: ['legendary'], size: 50, pos: 'lowerRight', media: {src: 'dual/dl13_legendary.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'to its legendary A110.', highlights: ['legendary'], size: 50, pos: 'lowerRight', media: {src: 'dual/dl13_legendary.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But not every|car enthusiast', highlights: [], size: 48, pos: 'upper', media: {src: 'dual/dl14_enthusiast.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'But not every|car enthusiast', highlights: [], size: 48, pos: 'upper', media: {src: 'dual/dl14_enthusiast.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'is ready to give up', highlights: [], size: 46, pos: 'left', media: {src: 'dual/dl15_giveup.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'is ready to give up', highlights: [], size: 46, pos: 'left', media: {src: 'dual/dl15_giveup.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the sound and feel|of a combustion engine.', highlights: ['combustion'], size: 44, pos: 'right', media: {src: 'dual/dl16_combustion.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'the sound and feel|of a combustion engine.', highlights: ['combustion'], size: 44, pos: 'right', media: {src: 'dual/dl16_combustion.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'Speaking to Top Gear,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'dual/dl17_interview.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Speaking to Top Gear,', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'dual/dl17_interview.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Alpine’s UK|managing director', highlights: [], size: 50, pos: 'upperRight', media: {src: 'dual/dl18_director.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Alpine’s UK|managing director', highlights: [], size: 50, pos: 'upperRight', media: {src: 'dual/dl18_director.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nicola Burnside said', highlights: [], size: 52, pos: 'left', media: {src: 'dual/dl19_spokesperson.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'Nicola Burnside said', highlights: [], size: 52, pos: 'left', media: {src: 'dual/dl19_spokesperson.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the company hasn’t ruled out|a gas-powered version.', highlights: ['gas-powered'], size: 44, pos: 'lowerRight', media: {src: 'dual/dl20_gaspower.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 28], text: 'the company hasn’t ruled out|a gas-powered version.', highlights: ['gas-powered'], size: 44, pos: 'lowerRight', media: {src: 'dual/dl20_gaspower.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The new Alpine|Performance Platform', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'dual/dl21_platform2.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'The new Alpine|Performance Platform', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'dual/dl21_platform2.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'can accommodate|different powertrain setups.', highlights: ['setups.'], size: 48, pos: 'right', media: {src: 'dual/dl22_setups.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'can accommodate|different powertrain setups.', highlights: ['setups.'], size: 48, pos: 'right', media: {src: 'dual/dl22_setups.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'But the company says', highlights: [], size: 50, pos: 'lower', media: {src: 'dual/dl23_says.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'But the company says', highlights: [], size: 50, pos: 'lower', media: {src: 'dual/dl23_says.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the electric A110|remains the priority.', highlights: ['priority.'], size: 44, pos: 'upperRight', media: {src: 'dual/dl24_priority.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'text', reveal: [2, 28], text: 'the electric A110|remains the priority.', highlights: ['priority.'], size: 44, pos: 'upperRight', media: {src: 'dual/dl24_priority.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Alpine is also targeting|a weight below', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'dual/dl25_weightbelow.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'Alpine is also targeting|a weight below', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'dual/dl25_weightbelow.jpg', type: 'img', effect: 'in'}},
   // 26 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'TARGETING UNDER', value: 1500, post: 'KG'}, media: {src: 'dual/dl26_card1500.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'stat', stat: {pre: 'TARGETING UNDER', value: 1500, post: 'KG'}, media: {src: 'dual/dl26_card1500.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'for the electric model,', highlights: [], size: 50, pos: 'left', media: {src: 'dual/dl27_model.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'for the electric model,', highlights: [], size: 50, pos: 'left', media: {src: 'dual/dl27_model.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with a low|driving position,', highlights: ['low'], size: 48, pos: 'right', media: {src: 'dual/dl28_driving.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'with a low|driving position,', highlights: ['low'], size: 48, pos: 'right', media: {src: 'dual/dl28_driving.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'and a focus on handling', highlights: ['handling'], size: 46, pos: 'lowerRight', media: {src: 'dual/dl29_handling.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'and a focus on handling', highlights: ['handling'], size: 46, pos: 'lowerRight', media: {src: 'dual/dl29_handling.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'rather than just|straight-line speed.', highlights: ['speed.'], size: 48, pos: 'upperLeft', media: {src: 'dual/dl30_speed.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'rather than just|straight-line speed.', highlights: ['speed.'], size: 48, pos: 'upperLeft', media: {src: 'dual/dl30_speed.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'If a gas-powered version', highlights: ['gas-powered'], size: 50, pos: 'right', media: {src: 'dual/dl31_gasversion.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'If a gas-powered version', highlights: ['gas-powered'], size: 50, pos: 'right', media: {src: 'dual/dl31_gasversion.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'eventually arrives,', highlights: [], size: 52, pos: 'upperRight', media: {src: 'dual/dl32_arrives.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'eventually arrives,', highlights: [], size: 52, pos: 'upperRight', media: {src: 'dual/dl32_arrives.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'Alpine could appeal to', highlights: [], size: 50, pos: 'left', media: {src: 'dual/dl33_appeal.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'Alpine could appeal to', highlights: [], size: 50, pos: 'left', media: {src: 'dual/dl33_appeal.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'traditional sports car fans', highlights: ['traditional'], size: 50, pos: 'lowerLeft', media: {src: 'dual/dl34_fans.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'traditional sports car fans', highlights: ['traditional'], size: 50, pos: 'lowerLeft', media: {src: 'dual/dl34_fans.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and potentially|reach markets', highlights: ['markets'], size: 50, pos: 'upper', media: {src: 'dual/dl35_markets.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'and potentially|reach markets', highlights: ['markets'], size: 50, pos: 'upper', media: {src: 'dual/dl35_markets.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'where electric sports cars', highlights: [], size: 50, pos: 'right', media: {src: 'dual/dl36_evsports.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'where electric sports cars', highlights: [], size: 50, pos: 'right', media: {src: 'dual/dl36_evsports.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'face more challenges.', highlights: ['challenges.'], size: 52, pos: 'lowerRight', media: {src: 'dual/dl37_challenges.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'face more challenges.', highlights: ['challenges.'], size: 52, pos: 'lowerRight', media: {src: 'dual/dl37_challenges.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'But there’s a catch.', highlights: ['catch.'], size: 50, pos: 'upperLeft', media: {src: 'dual/dl38_catch.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'But there’s a catch.', highlights: ['catch.'], size: 50, pos: 'upperLeft', media: {src: 'dual/dl38_catch.jpg', type: 'img', effect: 'in'}},
   // 39 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'No gasoline A110|has been confirmed.'},
+  {dur: 95, kind: 'impact', redBg: true, text: 'No gasoline A110|has been confirmed.'},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'Alpine says customers', highlights: [], size: 52, pos: 'left', media: {src: 'dual/dl40_customers.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'Alpine says customers', highlights: [], size: 52, pos: 'left', media: {src: 'dual/dl40_customers.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'should give the electric|version a chance first.', highlights: ['chance'], size: 44, pos: 'lowerRight', media: {src: 'dual/dl41_chance.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'should give the electric|version a chance first.', highlights: ['chance'], size: 44, pos: 'lowerRight', media: {src: 'dual/dl41_chance.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'So this is a possibility,', highlights: ['possibility,'], size: 46, pos: 'upperRight', media: {src: 'dual/dl42_possibility.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'So this is a possibility,', highlights: ['possibility,'], size: 46, pos: 'upperRight', media: {src: 'dual/dl42_possibility.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'not an official|production plan.', highlights: ['official'], size: 48, pos: 'right', media: {src: 'dual/dl43_notofficial.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'not an official|production plan.', highlights: ['official'], size: 48, pos: 'right', media: {src: 'dual/dl43_notofficial.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Would you choose|an electric A110,', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'dual/dl44_chooseev.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Would you choose|an electric A110,', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'dual/dl44_chooseev.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or do you think|this lightweight sports car', highlights: ['lightweight'], size: 44, pos: 'left', media: {src: 'dual/dl45_lightweight.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'or do you think|this lightweight sports car', highlights: ['lightweight'], size: 44, pos: 'left', media: {src: 'dual/dl45_lightweight.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'needs a gasoline engine?', highlights: ['engine?'], size: 50, pos: 'upperRight', media: {src: 'dual/dl46_gasengine.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'needs a gasoline engine?', highlights: ['engine?'], size: 50, pos: 'upperRight', media: {src: 'dual/dl46_gasengine.jpg', type: 'img', effect: 'in'}},
   // 47 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'dual/dl47_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'dual/dl47_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 505, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1633, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2268, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2781, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
