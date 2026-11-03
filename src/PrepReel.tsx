@@ -112,119 +112,119 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 62, kind: 'hook', reveal: [3, 40], text: 'Why are countries|around the world', kicker: 'The stockpile', highlights: [], size: 48, media: {src: 'prep/pn00_world.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'hook', reveal: [3, 40], text: 'Why are countries|around the world', kicker: 'The stockpile', highlights: [], size: 48, media: {src: 'prep/pn00_world.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 37, kind: 'text', reveal: [2], text: 'telling people to stock up', highlights: [], size: 46, pos: 'upperRight', media: {src: 'prep/pr00_90days.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'telling people to stock up', highlights: [], size: 46, pos: 'upperRight', media: {src: 'prep/pr00_90days.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 85, kind: 'text', reveal: [2, 28], text: 'on food, water,|and emergency supplies?', highlights: ['supplies?'], size: 44, pos: 'left', media: {src: 'prep/pr16_howmuch.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'on food, water,|and emergency supplies?', highlights: ['supplies?'], size: 44, pos: 'left', media: {src: 'prep/pr16_howmuch.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 34, kind: 'text', reveal: [2], text: 'And why are some people', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'prep/pr02_conversation.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'And why are some people', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'prep/pr02_conversation.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'suddenly talking about|a 90-day supply?', highlights: ['90-day'], size: 44, pos: 'upperLeft', media: {src: 'prep/pr38_stockpiling.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'suddenly talking about|a 90-day supply?', highlights: ['90-day'], size: 44, pos: 'upperLeft', media: {src: 'prep/pr38_stockpiling.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 46, kind: 'text', reveal: [2], text: 'The recommendations are real.', highlights: ['real'], size: 50, pos: 'right', media: {src: 'prep/pr19_recommends.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'The recommendations are real.', highlights: ['real'], size: 50, pos: 'right', media: {src: 'prep/pr19_recommends.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 43, kind: 'text', reveal: [2], text: 'But the 90-day figure', highlights: [], size: 50, pos: 'lower', media: {src: 'prep/pr07_figure.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'But the 90-day figure', highlights: [], size: 50, pos: 'lower', media: {src: 'prep/pr07_figure.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 49, kind: 'text', reveal: [2], text: 'has a very different meaning', highlights: ['different'], size: 46, pos: 'upperLeft', media: {src: 'prep/pr43_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'has a very different meaning', highlights: ['different'], size: 46, pos: 'upperLeft', media: {src: 'prep/pr43_think.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 39, kind: 'text', reveal: [2], text: 'than many people think.', highlights: ['think'], size: 50, pos: 'upperRight', media: {src: 'prep/pr04_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'than many people think.', highlights: ['think'], size: 50, pos: 'upperRight', media: {src: 'prep/pr04_question.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 36, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['follow'], size: 50, media: {src: 'prep/pr10_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['follow'], size: 50, media: {src: 'prep/pr10_follow.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'explaining the news|behind the headlines.', highlights: ['headlines'], size: 44, pos: 'lowerLeft', media: {src: 'prep/pn08_news.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'explaining the news|behind the headlines.', highlights: ['headlines'], size: 44, pos: 'lowerLeft', media: {src: 'prep/pn08_news.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 44, kind: 'text', reveal: [2], text: 'Across Europe and Asia,', highlights: [], size: 50, pos: 'right', media: {src: 'prep/pn09_map.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'Across Europe and Asia,', highlights: [], size: 50, pos: 'right', media: {src: 'prep/pn09_map.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 56, kind: 'text', reveal: [2], text: 'governments are urging households', highlights: [], size: 50, pos: 'left', media: {src: 'prep/pr09_household.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'governments are urging households', highlights: [], size: 50, pos: 'left', media: {src: 'prep/pr09_household.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 58, kind: 'text', reveal: [2], text: 'to prepare for emergencies.', highlights: ['prepare'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr03_preparedness.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'to prepare for emergencies.', highlights: ['prepare'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr03_preparedness.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 76, kind: 'text', reveal: [2], text: 'The concern is that disasters,', highlights: ['disasters,'], size: 46, pos: 'upper', media: {src: 'prep/pr13_disasters.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2], text: 'The concern is that disasters,', highlights: ['disasters,'], size: 46, pos: 'upper', media: {src: 'prep/pr13_disasters.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 56, kind: 'text', reveal: [2], text: 'cyberattacks, or conflict', highlights: ['cyberattacks,'], size: 52, pos: 'left', media: {src: 'prep/pn12_cyber.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'cyberattacks, or conflict', highlights: ['cyberattacks,'], size: 52, pos: 'left', media: {src: 'prep/pn12_cyber.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 67, kind: 'text', reveal: [2], text: 'could disrupt electricity, water,', highlights: ['electricity,'], size: 50, pos: 'right', media: {src: 'prep/pn13_power.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'could disrupt electricity, water,', highlights: ['electricity,'], size: 50, pos: 'right', media: {src: 'prep/pn13_power.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 72, kind: 'text', reveal: [2, 28], text: 'transportation,|and supply chains.', highlights: ['transportation,'], size: 50, pos: 'lowerLeft', media: {src: 'prep/pn14_cargo.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'transportation,|and supply chains.', highlights: ['transportation,'], size: 50, pos: 'lowerLeft', media: {src: 'prep/pn14_cargo.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 38, kind: 'text', reveal: [2], text: 'The United Kingdom, France,', highlights: [], size: 50, pos: 'upperRight', media: {src: 'prep/pr35_location.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'The United Kingdom, France,', highlights: [], size: 50, pos: 'upperRight', media: {src: 'prep/pr35_location.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 39, kind: 'text', reveal: [2], text: 'and Japan recommend', highlights: [], size: 52, pos: 'left', media: {src: 'prep/pr01_athome.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'and Japan recommend', highlights: [], size: 52, pos: 'left', media: {src: 'prep/pr01_athome.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 61, kind: 'text', reveal: [2], text: 'keeping at least three days', highlights: ['three'], size: 46, pos: 'lowerRight', media: {src: 'prep/pr20_threedays.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'keeping at least three days', highlights: ['three'], size: 46, pos: 'lowerRight', media: {src: 'prep/pr20_threedays.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 47, kind: 'text', reveal: [2], text: 'of essential supplies.', highlights: ['essential'], size: 52, pos: 'upperLeft', media: {src: 'prep/pr45_sensible.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'of essential supplies.', highlights: ['essential'], size: 52, pos: 'upperLeft', media: {src: 'prep/pr45_sensible.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 53, kind: 'text', reveal: [2], text: 'Sweden and Norway recommend', highlights: [], size: 50, pos: 'right', media: {src: 'prep/pr21_evacuation.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Sweden and Norway recommend', highlights: [], size: 50, pos: 'right', media: {src: 'prep/pr21_evacuation.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 51, kind: 'text', reveal: [2], text: 'preparing for about a week,', highlights: ['week,'], size: 46, pos: 'lower', media: {src: 'prep/pr34_twoweeks.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'preparing for about a week,', highlights: ['week,'], size: 46, pos: 'lower', media: {src: 'prep/pr34_twoweeks.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 61, kind: 'text', reveal: [2], text: 'while Germany advises households', highlights: [], size: 50, pos: 'upperRight', media: {src: 'prep/pr17_store.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'while Germany advises households', highlights: [], size: 50, pos: 'upperRight', media: {src: 'prep/pr17_store.jpg', type: 'img', effect: 'in'}},
   // 25 CARD
-  {dur: 76, kind: 'stat', stat: {pre: 'GERMANY — UP TO', value: 10, post: 'DAYS'}, media: {src: 'prep/pr11_prepared.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'stat', stat: {pre: 'GERMANY — UP TO', value: 10, post: 'DAYS'}, media: {src: 'prep/pr11_prepared.jpg', type: 'img', effect: 'in'}},
   // 26
   {dur: 24, kind: 'text', reveal: [2], text: 'The reason?', highlights: ['reason?'], size: 52, pos: 'lowerLeft', media: {src: 'prep/pr05_really.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'Emergency services|may be overwhelmed,', highlights: ['overwhelmed,'], size: 48, pos: 'left', media: {src: 'prep/pn24_ems.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'Emergency services|may be overwhelmed,', highlights: ['overwhelmed,'], size: 48, pos: 'left', media: {src: 'prep/pn24_ems.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 43, kind: 'text', reveal: [2], text: 'and outside assistance', highlights: [], size: 52, pos: 'right', media: {src: 'prep/pr15_access.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'and outside assistance', highlights: [], size: 52, pos: 'right', media: {src: 'prep/pr15_access.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 49, kind: 'text', reveal: [2], text: 'might not arrive immediately.', highlights: ['immediately'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr40_panic.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'might not arrive immediately.', highlights: ['immediately'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr40_panic.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 41, kind: 'text', reveal: [2], text: 'But the 90-day figure', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'prep/pr33_72hours.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'But the 90-day figure', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'prep/pr33_72hours.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 50, kind: 'text', reveal: [2, 28], text: 'comes from|a different plan.', highlights: ['plan'], size: 48, pos: 'right', media: {src: 'prep/pr31_practical.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'comes from|a different plan.', highlights: ['plan'], size: 48, pos: 'right', media: {src: 'prep/pr31_practical.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 55, kind: 'text', reveal: [2], text: 'The United States is preparing', highlights: [], size: 46, pos: 'upperRight', media: {src: 'prep/pr28_wateralone.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'The United States is preparing', highlights: [], size: 46, pos: 'upperRight', media: {src: 'prep/pr28_wateralone.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 50, kind: 'text', reveal: [2], text: 'major military bases', highlights: ['military'], size: 52, pos: 'left', media: {src: 'prep/pn28_base.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'major military bases', highlights: ['military'], size: 52, pos: 'left', media: {src: 'prep/pn28_base.jpg', type: 'img', effect: 'in'}},
   // 34 CARD
-  {dur: 88, kind: 'stat', stat: {pre: 'A MILITARY GOAL —', value: 90, post: 'DAYS'}, media: {src: 'prep/pr26_card90.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'stat', stat: {pre: 'A MILITARY GOAL —', value: 90, post: 'DAYS'}, media: {src: 'prep/pr26_card90.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 87, kind: 'text', reveal: [2, 28], text: 'if supply chains are disrupted|during a conflict.', highlights: ['conflict'], size: 44, pos: 'lowerLeft', media: {src: 'prep/pr14_disruptions.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'if supply chains are disrupted|during a conflict.', highlights: ['conflict'], size: 44, pos: 'lowerLeft', media: {src: 'prep/pr14_disruptions.jpg', type: 'img', effect: 'in'}},
   // 36 RED
-  {dur: 85, kind: 'impact', redBg: true, text: 'That is a|military readiness goal.'},
+  {dur: 81, kind: 'impact', redBg: true, text: 'That is a|military readiness goal.'},
   // 37
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'not a 90-day stockpile|recommendation,', highlights: [], size: 48, pos: 'upper', media: {src: 'prep/pr29_rotated.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'not a 90-day stockpile|recommendation,', highlights: [], size: 48, pos: 'upper', media: {src: 'prep/pr29_rotated.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 44, kind: 'text', reveal: [2], text: 'for American households.', highlights: ['households'], size: 52, pos: 'right', media: {src: 'prep/pr47_families.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'for American households.', highlights: ['households'], size: 52, pos: 'right', media: {src: 'prep/pr47_families.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 40, kind: 'text', reveal: [2], text: 'For ordinary families,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'prep/pr41_spending.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'For ordinary families,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'prep/pr41_spending.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 76, kind: 'text', reveal: [2, 28], text: 'the focus is on having|enough food,', highlights: ['food,'], size: 44, pos: 'upperLeft', media: {src: 'prep/pr23_food.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'the focus is on having|enough food,', highlights: ['food,'], size: 44, pos: 'upperLeft', media: {src: 'prep/pr23_food.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 43, kind: 'text', reveal: [2], text: 'drinking water, medicine,', highlights: ['water,'], size: 52, pos: 'left', media: {src: 'prep/pr24_water.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'drinking water, medicine,', highlights: ['water,'], size: 52, pos: 'left', media: {src: 'prep/pr24_water.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 58, kind: 'text', reveal: [2], text: 'batteries, and other essentials', highlights: ['batteries,'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr25_equipment.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'batteries, and other essentials', highlights: ['batteries,'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr25_equipment.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'to get through|temporary disruptions.', highlights: ['temporary'], size: 48, pos: 'upperRight', media: {src: 'prep/pr06_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'to get through|temporary disruptions.', highlights: ['temporary'], size: 48, pos: 'upperRight', media: {src: 'prep/pr06_twist.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 53, kind: 'text', reveal: [2], text: 'Some people see these advisories', highlights: [], size: 46, pos: 'right', media: {src: 'prep/pr08_recommendation.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Some people see these advisories', highlights: [], size: 46, pos: 'right', media: {src: 'prep/pr08_recommendation.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 101, kind: 'text', reveal: [2, 28], text: 'as signs that governments|expect a major crisis.', highlights: ['crisis'], size: 44, pos: 'lowerLeft', media: {src: 'prep/pr36_risks.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'as signs that governments|expect a major crisis.', highlights: ['crisis'], size: 44, pos: 'lowerLeft', media: {src: 'prep/pr36_risks.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 43, kind: 'text', reveal: [2], text: 'But officials describe them', highlights: [], size: 50, pos: 'left', media: {src: 'prep/pr18_redcross.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'But officials describe them', highlights: [], size: 50, pos: 'left', media: {src: 'prep/pr18_redcross.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 93, kind: 'text', reveal: [2, 28], text: 'as preparedness measures|for multiple risks,', highlights: ['risks,'], size: 44, pos: 'upperRight', media: {src: 'prep/pr32_gradually.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'as preparedness measures|for multiple risks,', highlights: ['risks,'], size: 44, pos: 'upperRight', media: {src: 'prep/pr32_gradually.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 59, kind: 'text', reveal: [2], text: 'including extreme weather', highlights: ['weather'], size: 52, pos: 'lower', media: {src: 'prep/pn43_weather.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'including extreme weather', highlights: ['weather'], size: 52, pos: 'lower', media: {src: 'prep/pn43_weather.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 43, kind: 'text', reveal: [2], text: 'and infrastructure failures.', highlights: ['failures'], size: 52, pos: 'right', media: {src: 'prep/pn44_infra.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'and infrastructure failures.', highlights: ['failures'], size: 52, pos: 'right', media: {src: 'prep/pn44_infra.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 59, kind: 'text', reveal: [2], text: 'The advice itself does not mean', highlights: [], size: 42, pos: 'upperLeft', media: {src: 'prep/pr22_card2wk.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'The advice itself does not mean', highlights: [], size: 42, pos: 'upperLeft', media: {src: 'prep/pr22_card2wk.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 73, kind: 'text', reveal: [2, 28], text: 'a disaster or war|is imminent.', highlights: ['imminent'], size: 44, pos: 'lowerRight', media: {src: 'prep/pr30_waste.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'a disaster or war|is imminent.', highlights: ['imminent'], size: 44, pos: 'lowerRight', media: {src: 'prep/pr30_waste.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 26, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'left', media: {src: 'prep/pr37_necessary.jpg', type: 'img', effect: 'in'}},
+  {dur: 25, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'left', media: {src: 'prep/pr37_necessary.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'Are these emergency|supply recommendations', highlights: [], size: 48, pos: 'upperRight', media: {src: 'prep/pr46_enough.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'Are these emergency|supply recommendations', highlights: [], size: 48, pos: 'upperRight', media: {src: 'prep/pr46_enough.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 48, kind: 'text', reveal: [2], text: 'simply common sense,', highlights: ['sense,'], size: 52, pos: 'right', media: {src: 'prep/pr27_commitment.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'simply common sense,', highlights: ['sense,'], size: 52, pos: 'right', media: {src: 'prep/pr27_commitment.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 43, kind: 'text', reveal: [2], text: 'or do they suggest governments', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'prep/pr12_essential.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'or do they suggest governments', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'prep/pr12_essential.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 48, kind: 'text', reveal: [2, 28], text: 'are preparing for|something bigger?', highlights: ['bigger?'], size: 48, pos: 'upperLeft', media: {src: 'prep/pr44_supply.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'are preparing for|something bigger?', highlights: ['bigger?'], size: 48, pos: 'upperLeft', media: {src: 'prep/pr44_supply.jpg', type: 'img', effect: 'in'}},
   // 57 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'prep/pr48_comments.jpg', type: 'img', effect: 'in'}},
 ];
@@ -232,11 +232,11 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 453, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1337, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1790, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1965, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3241, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 431, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1274, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1705, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1871, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3087, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
