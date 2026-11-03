@@ -183,6 +183,7 @@ import {SocSecReel, DURATION_IN_FRAMES as SOCSEC_FRAMES} from './SocSecReel';
 import {FreezerReel, DURATION_IN_FRAMES as FREEZER_FRAMES} from './FreezerReel';
 import {DefectReel, DURATION_IN_FRAMES as DEFECT_FRAMES} from './DefectReel';
 import {StormReel, DURATION_IN_FRAMES as STORM_FRAMES} from './StormReel';
+import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
 import {DebtReel, DURATION_IN_FRAMES as DEBT_FRAMES} from './DebtReel';
@@ -1655,6 +1656,14 @@ export const RemotionRoot: React.FC = () => {
         id="StormReel"
         component={StormReel}
         durationInFrames={STORM_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="LightReel"
+        component={LightReel}
+        durationInFrames={LIGHT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
