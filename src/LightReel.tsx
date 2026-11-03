@@ -87,13 +87,18 @@ type SceneDef = {
 // the faceless house voice — it names real companies/people (Nvidia / Marvell / Lumentum / Bloomberg / Jensen Huang /
 // Matt Murphy / Michael Hurlston), uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments"
 // debate CTA. Per the saved house preference, captions are <=5-6 words/beat with LARGER on-screen type (Anton 40-52).
-// 87 beats. 2 stat cards: TO A / $115B / DEAL, and MARVELL SHAREHOLDERS / 67% / OF THE COMBINED CO. (the hero
-// figures). 1 red impact mid-tail ("Here's why / this matters." — the ESCALATION hinge; reel closes on the
-// comments-CTA media beat), no black beat. Captions match the VO verbatim — the two hero figures are stat cards; the
-// secondary finance figures ($2 billion, 33 percent, 2028, the $115B repeats) are kept as clean inline numerals, the
-// finance-caption convention. Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
-// (public/light/voiceover.mp3). Built at the house +10% pacing default; its own tense, driving tech/finance music
-// mixed at 0.2. OWN distinct footage under public/light/ (86 stills), NO reuse of any other reel's clips — ledger-checked.
+// 49 beats — TRIMMED to ~1:54 at the client's request from the original 88-beat / 3:25 cut: seven whole sentences
+// were cut at clean sentence boundaries (the formal deal restatement; the Bloomberg phone-call recounting with the
+// CEO names; the Nvidia $2B-in-each stakes; the "what each company makes" detail; the combining-expertise / next-gen
+// elaboration; the merger-position/ecosystem line; and the detailed investor-reaction beats), so every kept beat
+// retains its exact original VO timing. 2 stat cards: TO A / $115B / DEAL, and MARVELL SHAREHOLDERS / 67% / OF THE
+// COMBINED CO. (the hero figures). 1 red impact mid-tail ("Here's why / this matters." — the ESCALATION hinge; reel
+// closes on the comments-CTA media beat), no black beat. Captions match the VO verbatim — the two hero figures are
+// stat cards; the one remaining inline finance figure (2028) is a clean inline numeral per the finance-caption
+// convention. Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
+// (public/light/voiceover.mp3), re-spliced for the trim. Built at the house +10% pacing default; its own tense,
+// driving tech/finance music bed (3:25 bed covers the trimmed reel via the fade envelope). OWN distinct footage under
+// public/light/ (48 stills used in the trimmed cut, drawn from the 87 sourced), NO reuse of any other reel's clips — ledger-checked.
 // FOOTAGE is strictly BRAND-FREE and GENERIC — because the reel names real companies and executives, NONE of their
 // assets appear: NO Nvidia / Marvell / Lumentum / Bloomberg logos, products, chips, or branding, NO identifiable
 // faces (no Huang / Murphy / Hurlston), NO readable tickers / stock charts / headlines / screens / wordmarks, NO
@@ -147,140 +152,62 @@ const SCENES: SceneDef[] = [
   {dur: 61, kind: 'text', reveal: [2, 28], text: 'technology, and|business stories', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'light/lt18_business.jpg', type: 'img', effect: 'in'}},
   // 19
   {dur: 44, kind: 'text', reveal: [2], text: 'shaping the future.', highlights: ['future'], size: 52, pos: 'upperRight', media: {src: 'light/lt19_future.jpg', type: 'img', effect: 'in'}},
-  // 20
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'Marvell Technology|has agreed to acquire', highlights: [], size: 44, pos: 'left', media: {src: 'light/lt20_agreed.jpg', type: 'img', effect: 'in'}},
-  // 21
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'Lumentum in an|all-stock transaction', highlights: ['all-stock'], size: 48, pos: 'lowerRight', media: {src: 'light/lt21_allstock.jpg', type: 'img', effect: 'in'}},
-  // 22
-  {dur: 58, kind: 'text', reveal: [2], text: 'valued at approximately', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'light/lt22_valued.jpg', type: 'img', effect: 'in'}},
-  // 23
-  {dur: 93, kind: 'text', reveal: [2, 28], text: '$115 billion,|including debt.', highlights: ['debt'], size: 50, pos: 'right', media: {src: 'light/lt22b_debt.jpg', type: 'img', effect: 'in'}},
-  // 24
-  {dur: 32, kind: 'text', reveal: [2], text: 'According to Bloomberg,', highlights: [], size: 52, pos: 'lower', media: {src: 'light/lt23_bloomberg.jpg', type: 'img', effect: 'in'}},
-  // 25
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Marvell CEO|Matt Murphy', highlights: [], size: 50, pos: 'upperRight', media: {src: 'light/lt24_murphy.jpg', type: 'img', effect: 'in'}},
-  // 26
-  {dur: 74, kind: 'text', reveal: [2, 28], text: 'and Lumentum CEO|Michael Hurlston', highlights: [], size: 48, pos: 'lowerLeft', media: {src: 'light/lt25_hurlston.jpg', type: 'img', effect: 'in'}},
-  // 27
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'called Jensen Huang|before announcing the deal', highlights: ['huang'], size: 42, pos: 'left', media: {src: 'light/lt26_called.jpg', type: 'img', effect: 'in'}},
-  // 28
-  {dur: 29, kind: 'text', reveal: [2], text: 'to get his view.', highlights: [], size: 50, pos: 'right', media: {src: 'light/lt27_view.jpg', type: 'img', effect: 'in'}},
-  // 29
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'Huang reportedly|responded positively.', highlights: ['positively'], size: 50, pos: 'lowerRight', media: {src: 'light/lt28_positively.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'Marvell shareholders|are expected to own', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'light/lt29_own.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'Marvell shareholders|are expected to own', highlights: [], size: 44, pos: 'left', media: {src: 'light/lt29_own.jpg', type: 'img', effect: 'in'}},
   // 31 CARD
-  {dur: 50, kind: 'stat', stat: {pre: 'MARVELL SHAREHOLDERS', value: 67, suffix: '%', post: 'OF THE COMBINED CO.'}, media: {src: 'light/lt30_card67.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'stat', stat: {pre: 'MARVELL SHAREHOLDERS', value: 67, suffix: '%', post: 'OF THE COMBINED CO.'}, media: {src: 'light/lt30_card67.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 126, kind: 'text', reveal: [2, 28], text: 'while Lumentum shareholders|would hold roughly 33 percent.', highlights: [], size: 42, pos: 'right', media: {src: 'light/lt31_33.jpg', type: 'img', effect: 'in'}},
-  // 33
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'Lumentum makes lasers|and optical components', highlights: ['lasers'], size: 44, pos: 'upperRight', media: {src: 'light/lt32_lasers.jpg', type: 'img', effect: 'in'}},
-  // 34
-  {dur: 118, kind: 'text', reveal: [2, 28], text: 'that help data centers|move huge amounts of information.', highlights: [], size: 42, pos: 'left', media: {src: 'light/lt33_information.jpg', type: 'img', effect: 'in'}},
-  // 35
-  {dur: 104, kind: 'text', reveal: [2, 28], text: 'Marvell designs chips|and connectivity technology', highlights: ['chips'], size: 44, pos: 'lowerLeft', media: {src: 'light/lt34_designs.jpg', type: 'img', effect: 'in'}},
-  // 36
-  {dur: 57, kind: 'text', reveal: [2], text: 'used in AI infrastructure.', highlights: [], size: 50, pos: 'upper', media: {src: 'light/lt35_infra.jpg', type: 'img', effect: 'in'}},
-  // 37
-  {dur: 85, kind: 'text', reveal: [2, 28], text: 'Nvidia already has|a major relationship', highlights: [], size: 44, pos: 'right', media: {src: 'light/lt36_relationship.jpg', type: 'img', effect: 'in'}},
-  // 38
-  {dur: 36, kind: 'text', reveal: [2], text: 'with both companies,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'light/lt37_both.jpg', type: 'img', effect: 'in'}},
-  // 39
-  {dur: 77, kind: 'text', reveal: [2, 28], text: 'including a previously|announced $2 billion', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'light/lt38_2b.jpg', type: 'img', effect: 'in'}},
-  // 40
-  {dur: 44, kind: 'text', reveal: [2], text: 'investment in Lumentum', highlights: ['lumentum'], size: 52, pos: 'left', media: {src: 'light/lt39_invlum.jpg', type: 'img', effect: 'in'}},
-  // 41
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'and a $2 billion|investment in Marvell.', highlights: ['marvell'], size: 42, pos: 'lowerRight', media: {src: 'light/lt40_invmar.jpg', type: 'img', effect: 'in'}},
+  {dur: 126, kind: 'text', reveal: [2, 28], text: 'while Lumentum shareholders|would hold roughly 33 percent.', highlights: [], size: 42, pos: 'lowerRight', media: {src: 'light/lt31_33.jpg', type: 'img', effect: 'in'}},
   // 42 RED
   {dur: 38, kind: 'impact', redBg: true, text: 'Here’s why|this matters.'},
-  // 43
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'AI data centers|are connecting', highlights: [], size: 48, pos: 'upperRight', media: {src: 'light/lt42_connecting.jpg', type: 'img', effect: 'in'}},
-  // 44
-  {dur: 64, kind: 'text', reveal: [2, 28], text: 'thousands of|processors together.', highlights: ['thousands'], size: 50, pos: 'right', media: {src: 'light/lt43_processors.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 57, kind: 'text', reveal: [2, 28], text: 'Copper cables|are increasingly', highlights: ['copper'], size: 50, pos: 'lowerLeft', media: {src: 'light/lt44_copper.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'Copper cables|are increasingly', highlights: ['copper'], size: 50, pos: 'upperLeft', media: {src: 'light/lt44_copper.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 34, kind: 'text', reveal: [2], text: 'running into limits', highlights: ['limits'], size: 52, pos: 'left', media: {src: 'light/lt45_limits.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'running into limits', highlights: ['limits'], size: 52, pos: 'right', media: {src: 'light/lt45_limits.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'around bandwidth, distance,|and power consumption.', highlights: ['power'], size: 44, pos: 'upperRight', media: {src: 'light/lt46_power.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'around bandwidth, distance,|and power consumption.', highlights: ['power'], size: 44, pos: 'lower', media: {src: 'light/lt46_power.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 50, kind: 'text', reveal: [2, 28], text: 'Optical connections|use light', highlights: ['light'], size: 50, pos: 'lower', media: {src: 'light/lt47_light2.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'Optical connections|use light', highlights: ['light'], size: 50, pos: 'upperRight', media: {src: 'light/lt47_light2.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 50, kind: 'text', reveal: [2, 28], text: 'instead of|electrical signals', highlights: [], size: 50, pos: 'right', media: {src: 'light/lt48_signals.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'instead of|electrical signals', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'light/lt48_signals.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'to move data faster|and more efficiently.', highlights: ['faster'], size: 42, pos: 'upperLeft', media: {src: 'light/lt49_faster.jpg', type: 'img', effect: 'in'}},
-  // 51
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'And as AI clusters|become larger,', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'light/lt50_larger.jpg', type: 'img', effect: 'in'}},
-  // 52
-  {dur: 85, kind: 'text', reveal: [2, 28], text: 'that technology|could become essential.', highlights: ['essential'], size: 48, pos: 'left', media: {src: 'light/lt51_essential.jpg', type: 'img', effect: 'in'}},
-  // 53
-  {dur: 99, kind: 'text', reveal: [2, 28], text: 'By combining Marvell’s|chip and connectivity', highlights: [], size: 44, pos: 'upperRight', media: {src: 'light/lt52_combining.jpg', type: 'img', effect: 'in'}},
-  // 54
-  {dur: 63, kind: 'text', reveal: [2, 28], text: 'expertise with|Lumentum’s lasers', highlights: [], size: 50, pos: 'right', media: {src: 'light/lt53_expertise.jpg', type: 'img', effect: 'in'}},
-  // 55
-  {dur: 47, kind: 'text', reveal: [2], text: 'and optical components,', highlights: ['optical'], size: 52, pos: 'lowerLeft', media: {src: 'light/lt54_components.jpg', type: 'img', effect: 'in'}},
-  // 56
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'the companies want to build|more integrated solutions', highlights: ['integrated'], size: 42, pos: 'upperLeft', media: {src: 'light/lt55_integrated.jpg', type: 'img', effect: 'in'}},
-  // 57
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'for next-generation|AI infrastructure.', highlights: [], size: 50, pos: 'right', media: {src: 'light/lt56_nextgen.jpg', type: 'img', effect: 'in'}},
-  // 58
-  {dur: 78, kind: 'text', reveal: [2, 28], text: 'The merger could give|Marvell a stronger position', highlights: ['stronger'], size: 42, pos: 'left', media: {src: 'light/lt57_stronger.jpg', type: 'img', effect: 'in'}},
-  // 59
-  {dur: 74, kind: 'text', reveal: [2, 28], text: 'in the race to supply|AI data centers,', highlights: [], size: 42, pos: 'lowerRight', media: {src: 'light/lt58_supply.jpg', type: 'img', effect: 'in'}},
-  // 60
-  {dur: 100, kind: 'text', reveal: [2, 28], text: 'while helping Nvidia’s|broader ecosystem scale.', highlights: ['ecosystem'], size: 44, pos: 'upperRight', media: {src: 'light/lt59_ecosystem.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'to move data faster|and more efficiently.', highlights: ['faster'], size: 42, pos: 'left', media: {src: 'light/lt49_faster.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 100, kind: 'text', reveal: [2, 28], text: 'But the deal is also|massive and risky.', highlights: ['risky'], size: 42, pos: 'lower', media: {src: 'light/lt60_risky.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'But the deal is also|massive and risky.', highlights: ['risky'], size: 42, pos: 'right', media: {src: 'light/lt60_risky.jpg', type: 'img', effect: 'in'}},
   // 62
-  {dur: 107, kind: 'text', reveal: [2, 28], text: 'It is expected to close|in the first half of 2028,', highlights: ['2028'], size: 42, pos: 'left', media: {src: 'light/lt61_2028.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 28], text: 'It is expected to close|in the first half of 2028,', highlights: ['2028'], size: 42, pos: 'lowerRight', media: {src: 'light/lt61_2028.jpg', type: 'img', effect: 'in'}},
   // 63
-  {dur: 91, kind: 'text', reveal: [2, 28], text: 'subject to shareholder|and regulatory approval.', highlights: ['regulatory'], size: 44, pos: 'right', media: {src: 'light/lt62_approval.jpg', type: 'img', effect: 'in'}},
-  // 64
-  {dur: 63, kind: 'text', reveal: [2], text: 'Investors reacted nervously.', highlights: ['nervously'], size: 52, pos: 'upperLeft', media: {src: 'light/lt63_nervously.jpg', type: 'img', effect: 'in'}},
-  // 65
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'Marvell’s shares|fell sharply', highlights: ['fell'], size: 50, pos: 'lowerRight', media: {src: 'light/lt64_fell.jpg', type: 'img', effect: 'in'}},
-  // 66
-  {dur: 26, kind: 'text', reveal: [2], text: 'after the announcement,', highlights: [], size: 52, pos: 'upperRight', media: {src: 'light/lt65_announcement.jpg', type: 'img', effect: 'in'}},
-  // 67
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'with concerns|about the price,', highlights: ['price'], size: 48, pos: 'left', media: {src: 'light/lt66_price.jpg', type: 'img', effect: 'in'}},
-  // 68
-  {dur: 32, kind: 'text', reveal: [2], text: 'integration challenges,', highlights: ['integration'], size: 52, pos: 'right', media: {src: 'light/lt67_integration.jpg', type: 'img', effect: 'in'}},
-  // 69
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'and whether AI|infrastructure spending', highlights: [], size: 48, pos: 'lowerLeft', media: {src: 'light/lt68_spending.jpg', type: 'img', effect: 'in'}},
-  // 70
-  {dur: 51, kind: 'text', reveal: [2, 28], text: 'will keep growing|fast enough', highlights: [], size: 48, pos: 'upper', media: {src: 'light/lt69_growing.jpg', type: 'img', effect: 'in'}},
-  // 71
-  {dur: 57, kind: 'text', reveal: [2], text: 'to justify the investment.', highlights: ['justify'], size: 50, pos: 'lowerRight', media: {src: 'light/lt70_justify.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'subject to shareholder|and regulatory approval.', highlights: ['regulatory'], size: 44, pos: 'upperLeft', media: {src: 'light/lt62_approval.jpg', type: 'img', effect: 'in'}},
   // 72
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And this raises|a bigger question:', highlights: [], size: 44, pos: 'left', media: {src: 'light/lt71_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And this raises|a bigger question:', highlights: [], size: 44, pos: 'right', media: {src: 'light/lt71_question.jpg', type: 'img', effect: 'in'}},
   // 73
   {dur: 108, kind: 'text', reveal: [2, 28], text: 'is Nvidia helping build|a stronger AI supply chain,', highlights: ['supply'], size: 42, pos: 'upperRight', media: {src: 'light/lt72_supplychain.jpg', type: 'img', effect: 'in'}},
   // 74
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'or is the industry|becoming too dependent', highlights: ['dependent'], size: 42, pos: 'right', media: {src: 'light/lt73_dependent.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'or is the industry|becoming too dependent', highlights: ['dependent'], size: 42, pos: 'left', media: {src: 'light/lt73_dependent.jpg', type: 'img', effect: 'in'}},
   // 75
   {dur: 73, kind: 'text', reveal: [2, 28], text: 'on a handful|of enormous deals?', highlights: ['enormous'], size: 44, pos: 'lowerLeft', media: {src: 'light/lt74_enormous.jpg', type: 'img', effect: 'in'}},
   // 76
-  {dur: 72, kind: 'text', reveal: [2, 28], text: 'The AI boom is|no longer just about', highlights: [], size: 42, pos: 'left', media: {src: 'light/lt75_boom.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'The AI boom is|no longer just about', highlights: [], size: 42, pos: 'upper', media: {src: 'light/lt75_boom.jpg', type: 'img', effect: 'in'}},
   // 77
-  {dur: 64, kind: 'text', reveal: [2, 28], text: 'who makes the|fastest processor.', highlights: ['fastest'], size: 48, pos: 'upperRight', media: {src: 'light/lt76_fastest.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'who makes the|fastest processor.', highlights: ['fastest'], size: 48, pos: 'right', media: {src: 'light/lt76_fastest.jpg', type: 'img', effect: 'in'}},
   // 78
   {dur: 54, kind: 'text', reveal: [2, 28], text: 'It’s also about|who controls', highlights: ['controls'], size: 48, pos: 'lowerRight', media: {src: 'light/lt77_controls.jpg', type: 'img', effect: 'in'}},
   // 79
-  {dur: 101, kind: 'text', reveal: [2, 28], text: 'the networks, optics,|power, and infrastructure', highlights: ['optics'], size: 44, pos: 'upperLeft', media: {src: 'light/lt78_optics.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'the networks, optics,|power, and infrastructure', highlights: ['optics'], size: 44, pos: 'upperLeft', media: {src: 'light/lt78_optics.jpg', type: 'img', effect: 'in'}},
   // 80
-  {dur: 51, kind: 'text', reveal: [2, 28], text: 'that connect|the entire system.', highlights: ['system'], size: 48, pos: 'right', media: {src: 'light/lt79_system.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'that connect|the entire system.', highlights: ['system'], size: 48, pos: 'left', media: {src: 'light/lt79_system.jpg', type: 'img', effect: 'in'}},
   // 81
-  {dur: 35, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lower', media: {src: 'light/lt80_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'light/lt80_think.jpg', type: 'img', effect: 'in'}},
   // 82
-  {dur: 132, kind: 'text', reveal: [2, 28], text: 'Is Marvell’s $115 billion|acquisition of Lumentum', highlights: [], size: 42, pos: 'left', media: {src: 'light/lt81_acq.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 28], text: 'Is Marvell’s $115 billion|acquisition of Lumentum', highlights: [], size: 42, pos: 'upperRight', media: {src: 'light/lt81_acq.jpg', type: 'img', effect: 'in'}},
   // 83
-  {dur: 88, kind: 'text', reveal: [2, 28], text: 'a smart bet|on the future of AI,', highlights: ['smart'], size: 42, pos: 'upperRight', media: {src: 'light/lt82_smart.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'a smart bet|on the future of AI,', highlights: ['smart'], size: 42, pos: 'right', media: {src: 'light/lt82_smart.jpg', type: 'img', effect: 'in'}},
   // 84
   {dur: 100, kind: 'text', reveal: [2, 28], text: 'or is the industry|spending too much, too fast?', highlights: ['fast?'], size: 42, pos: 'lowerLeft', media: {src: 'light/lt83_toofast.jpg', type: 'img', effect: 'in'}},
   // 85
-  {dur: 52, kind: 'text', reveal: [2, 28], text: 'And do you think|optical connections', highlights: ['optical'], size: 44, pos: 'right', media: {src: 'light/lt84_opticalconn.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'And do you think|optical connections', highlights: ['optical'], size: 44, pos: 'left', media: {src: 'light/lt84_opticalconn.jpg', type: 'img', effect: 'in'}},
   // 86
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'will become just as important|as AI chips themselves?', highlights: ['chips'], size: 42, pos: 'upperLeft', media: {src: 'light/lt85_asimportant.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'will become just as important|as AI chips themselves?', highlights: ['chips'], size: 42, pos: 'upperRight', media: {src: 'light/lt85_asimportant.jpg', type: 'img', effect: 'in'}},
   // 87 CTA
   {dur: 39, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'light/lt86_comments.jpg', type: 'img', effect: 'in'}},
 ];
@@ -290,9 +217,9 @@ const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
   {at: 76, src: 'media/sfx_impact.mp3', vol: 0.46},
   {at: 1087, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1995, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2881, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 6124, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1325, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1502, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3397, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
