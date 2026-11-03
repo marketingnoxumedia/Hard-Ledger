@@ -108,198 +108,204 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'World of Warcraft', kicker: 'The relaunch', highlights: [], size: 56, media: {src: 'forever/fv00_wow.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'hook', reveal: [3, 40], text: 'World of Warcraft', kicker: 'The relaunch', highlights: [], size: 56, media: {src: 'forever/fv00_wow.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is getting a|whole new chapter,', highlights: ['new'], size: 44, pos: 'upperRight', media: {src: 'forever/fv01_chapter.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'is getting a|whole new chapter,', highlights: ['new'], size: 44, pos: 'upperRight', media: {src: 'forever/fv01_chapter.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'and Blizzard says', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv02_blizzard.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'and Blizzard says', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv02_blizzard.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'this one is built|to last forever.', highlights: ['forever'], size: 44, pos: 'lowerRight', media: {src: 'forever/fv03_forever.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'this one is built|to last forever.', highlights: ['forever'], size: 44, pos: 'lowerRight', media: {src: 'forever/fv03_forever.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'It launches globally', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv04_launches.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'It launches globally', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv04_launches.jpg', type: 'img', effect: 'in'}},
   // 5 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'LAUNCHES GLOBALLY', prefix: 'NOV ', value: 4}, media: {src: 'forever/fv05_cardnov4.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'LAUNCHES GLOBALLY', prefix: 'NOV ', value: 4}, media: {src: 'forever/fv05_cardnov4.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'bringing a|reimagined Azeroth,', highlights: ['reimagined'], size: 50, pos: 'right', media: {src: 'forever/fv06_azeroth.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'bringing a|reimagined Azeroth,', highlights: ['reimagined'], size: 50, pos: 'right', media: {src: 'forever/fv06_azeroth.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'new adventures,', highlights: [], size: 52, pos: 'lower', media: {src: 'forever/fv07_adventures.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2], text: 'new adventures,', highlights: [], size: 52, pos: 'lower', media: {src: 'forever/fv07_adventures.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and a brand-new|playable race.', highlights: ['race'], size: 48, pos: 'upperLeft', media: {src: 'forever/fv08_race.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2, 28], text: 'and a brand-new|playable race.', highlights: ['race'], size: 48, pos: 'upperLeft', media: {src: 'forever/fv08_race.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But this isn’t|just another', highlights: [], size: 48, pos: 'upperRight', media: {src: 'forever/fv09_another.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2, 28], text: 'But this isn’t|just another', highlights: [], size: 48, pos: 'upperRight', media: {src: 'forever/fv09_another.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Classic update|or limited season.', highlights: ['limited'], size: 48, pos: 'lowerLeft', media: {src: 'forever/fv10_limited.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'Classic update or|limited-time season.', highlights: ['limited-time'], size: 48, pos: 'lowerLeft', media: {src: 'forever/fv10_limited.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'Blizzard is promising', highlights: [], size: 52, pos: 'right', media: {src: 'forever/fv11_promising.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Blizzard is promising', highlights: [], size: 52, pos: 'right', media: {src: 'forever/fv11_promising.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'an evolving version', highlights: ['evolving'], size: 52, pos: 'left', media: {src: 'forever/fv12_evolving.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'an evolving version', highlights: ['evolving'], size: 52, pos: 'left', media: {src: 'forever/fv12_evolving.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'of the original world,', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'forever/fv13_world.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'of the original world,', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'forever/fv13_world.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with new content|planned for years.', highlights: ['years'], size: 44, pos: 'upper', media: {src: 'forever/fv14_years.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'with new content planned|for years to come.', highlights: ['years'], size: 44, pos: 'upper', media: {src: 'forever/fv14_years.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So what exactly|is changing?', highlights: ['changing?'], size: 48, pos: 'left', media: {src: 'forever/fv15_changing.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'So what exactly|is changing?', highlights: ['changing?'], size: 48, pos: 'left', media: {src: 'forever/fv15_changing.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Follow for more|gaming news', highlights: ['follow'], size: 48, media: {src: 'forever/fv16_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'Follow for more|gaming news', highlights: ['follow'], size: 48, media: {src: 'forever/fv16_follow.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and updates on|the biggest releases.', highlights: ['biggest'], size: 44, pos: 'right', media: {src: 'forever/fv17_releases.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'and updates on|the biggest releases.', highlights: ['biggest'], size: 44, pos: 'right', media: {src: 'forever/fv17_releases.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'Blizzard’s new experience', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'forever/fv18_experience.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Blizzard’s new experience', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'forever/fv18_experience.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is called|World of Warcraft: Forever.', highlights: ['forever'], size: 44, pos: 'upperRight', media: {src: 'forever/fv19_called.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'is called|World of Warcraft: Forever.', highlights: ['forever'], size: 44, pos: 'upperRight', media: {src: 'forever/fv19_called.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It takes place|after the events', highlights: [], size: 44, pos: 'left', media: {src: 'forever/fv20_takesplace.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'It takes place|after the events', highlights: [], size: 44, pos: 'left', media: {src: 'forever/fv20_takesplace.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of Warcraft III:|Reforged,', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'forever/fv21_reforged.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'of Warcraft III:|Reforged:', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'forever/fv21_reforged.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'Forsaken Kingdom,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv22_forsaken.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Forsaken Kingdom,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv22_forsaken.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'and before Molten Core.', highlights: ['molten'], size: 50, pos: 'right', media: {src: 'forever/fv23_molten.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'and before Molten Core.', highlights: ['molten'], size: 50, pos: 'right', media: {src: 'forever/fv23_molten.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'Players will journey', highlights: [], size: 52, pos: 'lower', media: {src: 'forever/fv24_journey.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Players will journey', highlights: [], size: 52, pos: 'lower', media: {src: 'forever/fv24_journey.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'across the|original continents', highlights: [], size: 50, pos: 'upperRight', media: {src: 'forever/fv25_continents.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'across the|original continents', highlights: [], size: 50, pos: 'upperRight', media: {src: 'forever/fv25_continents.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of Eastern Kingdoms|and Kalimdor,', highlights: [], size: 48, pos: 'lowerLeft', media: {src: 'forever/fv26_kalimdor.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'of Eastern Kingdoms|and Kalimdor,', highlights: [], size: 48, pos: 'lowerLeft', media: {src: 'forever/fv26_kalimdor.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'leveling from 1 to 60', highlights: [], size: 46, pos: 'left', media: {src: 'forever/fv27_leveling.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'leveling from 1 to 60', highlights: [], size: 46, pos: 'left', media: {src: 'forever/fv27_leveling.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while discovering|new stories', highlights: ['new'], size: 50, pos: 'right', media: {src: 'forever/fv28_stories.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'while discovering|new stories', highlights: ['new'], size: 50, pos: 'right', media: {src: 'forever/fv28_stories.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and revisiting|familiar locations.', highlights: ['familiar'], size: 50, pos: 'lowerRight', media: {src: 'forever/fv29_familiar.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'and revisiting|familiar locations.', highlights: ['familiar'], size: 50, pos: 'lowerRight', media: {src: 'forever/fv29_familiar.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'The launch includes', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv30_includes.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'The launch includes', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv30_includes.jpg', type: 'img', effect: 'in'}},
   // 31 CARD
   {dur: 70, kind: 'stat', stat: {pre: 'MORE THAN', value: 1000, suffix: '+', post: 'NEW QUESTS'}, media: {src: 'forever/fv31_cardquests.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and several|new destinations,', highlights: ['destinations'], size: 50, pos: 'right', media: {src: 'forever/fv32_destinations.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'and several|new destinations,', highlights: ['destinations'], size: 50, pos: 'right', media: {src: 'forever/fv32_destinations.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'including Mount Hyjal,', highlights: [], size: 52, pos: 'upperRight', media: {src: 'forever/fv33_hyjal.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'including Mount Hyjal,', highlights: [], size: 52, pos: 'upperRight', media: {src: 'forever/fv33_hyjal.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'Shen’dralas, Riverglades,', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv34_riverglades.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'Shen’dralas, Riverglades,', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv34_riverglades.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'and Zephras Isle.', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'forever/fv35_zephras.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'and Zephras Isle.', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'forever/fv35_zephras.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And there’s a|major addition', highlights: ['major'], size: 48, pos: 'upper', media: {src: 'forever/fv36_addition.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: 'And there’s a|major addition', highlights: ['major'], size: 48, pos: 'upper', media: {src: 'forever/fv36_addition.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'to character creation:', highlights: [], size: 52, pos: 'right', media: {src: 'forever/fv37_creation.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'to character creation:', highlights: [], size: 52, pos: 'right', media: {src: 'forever/fv37_creation.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'the Skyborne,', highlights: ['skyborne'], size: 52, pos: 'lowerRight', media: {src: 'forever/fv38_skyborne.jpg', type: 'img', effect: 'in'}},
+  {dur: 25, kind: 'text', reveal: [2], text: 'the Skyborne,', highlights: ['skyborne'], size: 52, pos: 'lowerRight', media: {src: 'forever/fv38_skyborne.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'a new playable race', highlights: ['race'], size: 50, pos: 'upperLeft', media: {src: 'forever/fv39_newrace.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'a new playable race', highlights: ['race'], size: 50, pos: 'upperLeft', media: {src: 'forever/fv39_newrace.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with its own|level 1 to 12', highlights: [], size: 44, pos: 'left', media: {src: 'forever/fv40_level12.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'with its own|level 1 to 12', highlights: [], size: 44, pos: 'left', media: {src: 'forever/fv40_level12.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'starting experience.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'forever/fv41_starting.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'starting experience.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'forever/fv41_starting.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Skyborne players|can choose', highlights: ['skyborne'], size: 50, pos: 'upperRight', media: {src: 'forever/fv42_choose.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2, 28], text: 'Skyborne players|can choose', highlights: ['skyborne'], size: 50, pos: 'upperRight', media: {src: 'forever/fv42_choose.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to join the Horde|as Windshapers', highlights: ['horde'], size: 44, pos: 'right', media: {src: 'forever/fv43_horde.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'to join the Horde|as Windshapers', highlights: ['horde'], size: 44, pos: 'right', media: {src: 'forever/fv43_horde.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'or the Alliance', highlights: ['alliance'], size: 52, pos: 'lowerLeft', media: {src: 'forever/fv44_alliance.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'or the Alliance', highlights: ['alliance'], size: 52, pos: 'lowerLeft', media: {src: 'forever/fv44_alliance.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'as High-Order Skyborne,', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv45_highorder.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'as High-Order Skyborne,', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv45_highorder.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with different|class options.', highlights: ['class'], size: 50, pos: 'upperRight', media: {src: 'forever/fv46_class.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'with different|class options.', highlights: ['class'], size: 50, pos: 'upperRight', media: {src: 'forever/fv46_class.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Blizzard is also|giving players', highlights: [], size: 48, pos: 'lower', media: {src: 'forever/fv47_giving.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'Blizzard is also|giving players', highlights: [], size: 48, pos: 'lower', media: {src: 'forever/fv47_giving.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'more control over', highlights: ['control'], size: 52, pos: 'right', media: {src: 'forever/fv48_control.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'more control over', highlights: ['control'], size: 52, pos: 'right', media: {src: 'forever/fv48_control.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'how the game|looks and feels.', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'forever/fv49_looksfeels.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'how the game|looks and feels.', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'forever/fv49_looksfeels.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'You can choose between', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'forever/fv50_choose2.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'You can choose between', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'forever/fv50_choose2.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Classic and Enhanced|presets,', highlights: ['enhanced'], size: 50, pos: 'left', media: {src: 'forever/fv51_presets.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'Classic and Enhanced|experience presets,', highlights: ['enhanced'], size: 48, pos: 'left', media: {src: 'forever/fv51_presets.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'plus high-definition|or standard models.', highlights: [], size: 48, pos: 'upperRight', media: {src: 'forever/fv52_models.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 28], text: 'plus high-definition|or standard character models.', highlights: [], size: 44, pos: 'upperRight', media: {src: 'forever/fv52_models.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2], text: 'The game also introduces', highlights: [], size: 50, pos: 'right', media: {src: 'forever/fv53_introduces.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'The game also introduces', highlights: [], size: 50, pos: 'right', media: {src: 'forever/fv53_introduces.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2], text: 'different rulesets,', highlights: ['rulesets'], size: 52, pos: 'lowerLeft', media: {src: 'forever/fv54_rulesets.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'different rulesets,', highlights: ['rulesets'], size: 52, pos: 'lowerLeft', media: {src: 'forever/fv54_rulesets.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2], text: 'including Normal, PvP,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv55_normalpvp.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'including Normal, PvP,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv55_normalpvp.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Roleplay,|and Roleplay PvP.', highlights: ['roleplay'], size: 50, pos: 'right', media: {src: 'forever/fv56_roleplay.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'Roleplay, and|Roleplay PvP.', highlights: ['roleplay'], size: 50, pos: 'right', media: {src: 'forever/fv56_roleplay.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'For players who want|a tougher challenge,', highlights: ['tougher'], size: 44, pos: 'left', media: {src: 'forever/fv57_challenge.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'For players who want|a tougher challenge,', highlights: ['tougher'], size: 44, pos: 'left', media: {src: 'forever/fv57_challenge.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 70, kind: 'text', reveal: [2], text: 'Hardcore mode is planned', highlights: ['hardcore'], size: 50, pos: 'lowerRight', media: {src: 'forever/fv58_hardcore.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Hardcore mode is planned', highlights: ['hardcore'], size: 50, pos: 'lowerRight', media: {src: 'forever/fv58_hardcore.jpg', type: 'img', effect: 'in'}},
   // 59
-  {dur: 70, kind: 'text', reveal: [2], text: 'to arrive after launch.', highlights: [], size: 50, pos: 'upperRight', media: {src: 'forever/fv59_afterlaunch.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2], text: 'to arrive after launch.', highlights: [], size: 50, pos: 'upperRight', media: {src: 'forever/fv59_afterlaunch.jpg', type: 'img', effect: 'in'}},
   // 60
-  {dur: 70, kind: 'text', reveal: [2], text: 'And this is where', highlights: [], size: 50, pos: 'lower', media: {src: 'forever/fv60_thisiswhere.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'And this is where', highlights: [], size: 50, pos: 'lower', media: {src: 'forever/fv60_thisiswhere.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the Forever promise|gets interesting.', highlights: ['forever'], size: 48, pos: 'left', media: {src: 'forever/fv61_promise.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'the Forever promise|gets interesting.', highlights: ['forever'], size: 48, pos: 'left', media: {src: 'forever/fv61_promise.jpg', type: 'img', effect: 'in'}},
   // 62
-  {dur: 70, kind: 'text', reveal: [2], text: 'Blizzard says new raids', highlights: ['raids'], size: 50, pos: 'right', media: {src: 'forever/fv62_raids.jpg', type: 'img', effect: 'in'}},
+  {dur: 21, kind: 'text', reveal: [2], text: 'Blizzard says new raids', highlights: ['raids'], size: 50, pos: 'right', media: {src: 'forever/fv62_raids.jpg', type: 'img', effect: 'in'}},
   // 63
-  {dur: 70, kind: 'text', reveal: [2], text: 'will begin unlocking', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv63_unlocking.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'will begin unlocking', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv63_unlocking.jpg', type: 'img', effect: 'in'}},
   // 64 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'RAIDS UNLOCK', prefix: 'DEC ', value: 9}, media: {src: 'forever/fv64_carddec9.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'stat', stat: {pre: 'RAIDS UNLOCK', prefix: 'DEC ', value: 9}, media: {src: 'forever/fv64_carddec9.jpg', type: 'img', effect: 'in'}},
   // 65
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'followed by|more dungeons,', highlights: ['dungeons'], size: 50, pos: 'lowerRight', media: {src: 'forever/fv65_dungeons.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'followed by|more dungeons,', highlights: ['dungeons'], size: 50, pos: 'lowerRight', media: {src: 'forever/fv65_dungeons.jpg', type: 'img', effect: 'in'}},
   // 66
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'PvP updates,|world content,', highlights: [], size: 50, pos: 'upperRight', media: {src: 'forever/fv66_worldcontent.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2, 28], text: 'PvP updates,|world content,', highlights: [], size: 50, pos: 'upperRight', media: {src: 'forever/fv66_worldcontent.jpg', type: 'img', effect: 'in'}},
   // 67
-  {dur: 70, kind: 'text', reveal: [2], text: 'and additional quests', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv67_addquests.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'and additional quests', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv67_addquests.jpg', type: 'img', effect: 'in'}},
   // 68
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'throughout the|1 to 60 journey.', highlights: [], size: 44, pos: 'right', media: {src: 'forever/fv68_journey2.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'throughout the level|1 to 60 journey.', highlights: [], size: 44, pos: 'right', media: {src: 'forever/fv68_journey2.jpg', type: 'img', effect: 'in'}},
   // 69
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The goal is to|keep expanding', highlights: ['expanding'], size: 44, pos: 'lowerLeft', media: {src: 'forever/fv69_expanding.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'The goal is to|keep expanding', highlights: ['expanding'], size: 44, pos: 'lowerLeft', media: {src: 'forever/fv69_expanding.jpg', type: 'img', effect: 'in'}},
   // 70
-  {dur: 70, kind: 'text', reveal: [2], text: 'this version of Azeroth,', highlights: ['azeroth'], size: 50, pos: 'upper', media: {src: 'forever/fv70_version.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'this version of Azeroth,', highlights: ['azeroth'], size: 50, pos: 'upper', media: {src: 'forever/fv70_version.jpg', type: 'img', effect: 'in'}},
   // 71
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'rather than a|temporary season', highlights: ['temporary'], size: 48, pos: 'lowerRight', media: {src: 'forever/fv71_temporary.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'text', reveal: [2, 28], text: 'rather than moving players|into a temporary season', highlights: ['temporary'], size: 44, pos: 'lowerRight', media: {src: 'forever/fv71_temporary.jpg', type: 'img', effect: 'in'}},
   // 72
-  {dur: 70, kind: 'text', reveal: [2], text: 'or a short-lived mode.', highlights: [], size: 50, pos: 'left', media: {src: 'forever/fv72_shortlived.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'or a short-lived mode.', highlights: [], size: 50, pos: 'left', media: {src: 'forever/fv72_shortlived.jpg', type: 'img', effect: 'in'}},
   // 73
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But there’s one|important detail:', highlights: [], size: 48, pos: 'upperRight', media: {src: 'forever/fv73_detail.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'But there’s one|important detail:', highlights: [], size: 48, pos: 'upperRight', media: {src: 'forever/fv73_detail.jpg', type: 'img', effect: 'in'}},
   // 74
-  {dur: 70, kind: 'text', reveal: [2], text: 'access is included', highlights: ['included'], size: 52, pos: 'right', media: {src: 'forever/fv74_included.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'access is included', highlights: ['included'], size: 52, pos: 'right', media: {src: 'forever/fv74_included.jpg', type: 'img', effect: 'in'}},
   // 75
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with an active|subscription', highlights: ['subscription'], size: 50, pos: 'lowerLeft', media: {src: 'forever/fv75_subscription.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'with an active|World of Warcraft subscription', highlights: ['subscription'], size: 44, pos: 'lowerLeft', media: {src: 'forever/fv75_subscription.jpg', type: 'img', effect: 'in'}},
   // 76
-  {dur: 70, kind: 'text', reveal: [2], text: 'or game time.', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv76_gametime.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'or game time.', highlights: [], size: 52, pos: 'left', media: {src: 'forever/fv76_gametime.jpg', type: 'img', effect: 'in'}},
   // 77
-  {dur: 70, kind: 'text', reveal: [2], text: 'So while the launch', highlights: [], size: 50, pos: 'upperRight', media: {src: 'forever/fv77_sowhile.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'So while the launch', highlights: [], size: 50, pos: 'upperRight', media: {src: 'forever/fv77_sowhile.jpg', type: 'img', effect: 'in'}},
   // 78
-  {dur: 70, kind: 'text', reveal: [2], text: 'is a major opportunity', highlights: ['opportunity'], size: 50, pos: 'lowerRight', media: {src: 'forever/fv78_opportunity.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'is a major opportunity', highlights: ['opportunity'], size: 50, pos: 'lowerRight', media: {src: 'forever/fv78_opportunity.jpg', type: 'img', effect: 'in'}},
   // 79
-  {dur: 70, kind: 'text', reveal: [2], text: 'for returning players,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv79_returning.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'for returning players,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'forever/fv79_returning.jpg', type: 'img', effect: 'in'}},
   // 80 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'it isn’t|free-to-play.'},
+  {dur: 55, kind: 'impact', redBg: true, text: 'it isn’t a|free-to-play experience.'},
   // 81
-  {dur: 70, kind: 'text', reveal: [2], text: 'And the big question', highlights: [], size: 50, pos: 'right', media: {src: 'forever/fv81_bigquestion.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'And the big question', highlights: [], size: 50, pos: 'right', media: {src: 'forever/fv81_bigquestion.jpg', type: 'img', effect: 'in'}},
   // 82
-  {dur: 70, kind: 'text', reveal: [2], text: 'is whether Blizzard', highlights: [], size: 52, pos: 'lower', media: {src: 'forever/fv82_whether.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'is whether Blizzard', highlights: [], size: 52, pos: 'lower', media: {src: 'forever/fv82_whether.jpg', type: 'img', effect: 'in'}},
   // 83
-  {dur: 70, kind: 'text', reveal: [2], text: 'can keep the world fresh', highlights: ['fresh'], size: 46, pos: 'left', media: {src: 'forever/fv83_fresh.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'can keep the world fresh', highlights: ['fresh'], size: 46, pos: 'left', media: {src: 'forever/fv83_fresh.jpg', type: 'img', effect: 'in'}},
   // 84
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'without losing|the classic feel', highlights: ['classic'], size: 48, pos: 'upperRight', media: {src: 'forever/fv84_classicfeel.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'without losing|the classic feel', highlights: ['classic'], size: 48, pos: 'upperRight', media: {src: 'forever/fv84_classicfeel.jpg', type: 'img', effect: 'in'}},
   // 85
-  {dur: 70, kind: 'text', reveal: [2], text: 'that made it popular.', highlights: ['popular'], size: 50, pos: 'lowerLeft', media: {src: 'forever/fv85_popular.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'that made it popular|in the first place.', highlights: ['popular'], size: 44, pos: 'lowerLeft', media: {src: 'forever/fv85_popular.jpg', type: 'img', effect: 'in'}},
   // 86
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'right', media: {src: 'forever/fv86_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'right', media: {src: 'forever/fv86_think.jpg', type: 'img', effect: 'in'}},
   // 87
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Is World of Warcraft:|Forever', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'forever/fv87_isforever.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Is World of Warcraft:|Forever', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'forever/fv87_isforever.jpg', type: 'img', effect: 'in'}},
   // 88
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the fresh start|Azeroth needs,', highlights: ['fresh'], size: 48, pos: 'lowerRight', media: {src: 'forever/fv88_freshstart.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'the fresh start|Azeroth needs,', highlights: ['fresh'], size: 48, pos: 'lowerRight', media: {src: 'forever/fv88_freshstart.jpg', type: 'img', effect: 'in'}},
   // 89
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or would you|rather Blizzard', highlights: [], size: 48, pos: 'left', media: {src: 'forever/fv89_rather.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'or would you|rather Blizzard', highlights: [], size: 48, pos: 'left', media: {src: 'forever/fv89_rather.jpg', type: 'img', effect: 'in'}},
   // 90
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'keep focusing on|Classic and modern?', highlights: ['classic'], size: 44, pos: 'right', media: {src: 'forever/fv90_focusing.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'keep focusing on|Classic and the modern game?', highlights: ['classic'], size: 44, pos: 'right', media: {src: 'forever/fv90_focusing.jpg', type: 'img', effect: 'in'}},
   // 91
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And which new|zone or race', highlights: [], size: 44, pos: 'upperRight', media: {src: 'forever/fv91_zonerace.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'And which new|zone or race', highlights: [], size: 44, pos: 'upperRight', media: {src: 'forever/fv91_zonerace.jpg', type: 'img', effect: 'in'}},
   // 92
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'are you most excited|to try?', highlights: ['excited'], size: 44, pos: 'lower', media: {src: 'forever/fv92_excited.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'are you most excited|to try?', highlights: ['excited'], size: 44, pos: 'lower', media: {src: 'forever/fv92_excited.jpg', type: 'img', effect: 'in'}},
   // 93 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'forever/fv93_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'forever/fv93_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 238, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 819, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1626, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3389, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 4282, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 4988, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
