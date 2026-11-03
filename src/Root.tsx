@@ -184,6 +184,7 @@ import {FreezerReel, DURATION_IN_FRAMES as FREEZER_FRAMES} from './FreezerReel';
 import {DefectReel, DURATION_IN_FRAMES as DEFECT_FRAMES} from './DefectReel';
 import {StormReel, DURATION_IN_FRAMES as STORM_FRAMES} from './StormReel';
 import {TokenReel, DURATION_IN_FRAMES as TOKEN_FRAMES} from './TokenReel';
+import {PrepReel, DURATION_IN_FRAMES as PREP_FRAMES} from './PrepReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1665,6 +1666,14 @@ export const RemotionRoot: React.FC = () => {
         id="TokenReel"
         component={TokenReel}
         durationInFrames={TOKEN_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PrepReel"
+        component={PrepReel}
+        durationInFrames={PREP_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
