@@ -73,147 +73,165 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// "The stockpile" reel (PrepReel) — Hard Ledger house VISUAL format, emergency-preparedness / household-finance topic.
-// TOPIC: how many days of food and supplies a household should actually keep. A growing preparedness conversation has
-// people asking whether they need 90 days of supplies at home. The TWIST: the 90-day figure may not be a household
-// recommendation at all. Per the AMERICAN RED CROSS, the guidance is at least THREE DAYS of supplies for evacuation and
-// UP TO TWO WEEKS of food and water at home (nonperishable food, drinking water, medications, basic emergency gear). A
-// 90-day stockpile is a much bigger commitment — water is hard to store and food must be rotated to avoid waste. The
-// practical path is to build gradually: start with 72 HOURS of essentials, work toward two weeks, and add more only if
-// location, household needs or risks require it. Debate: is a 90-day supply sensible prudence, or is two weeks enough
-// for most families — with long-term stockpiling risking panic buying, overspending and supplies that expire unused?
+// "The stockpile" reel (PrepReel) — Hard Ledger house VISUAL format, preparedness / geopolitics / household-risk topic.
+// TOPIC: why governments around the world are urging households to stockpile emergency supplies — and what the "90-day"
+// figure actually means. Across Europe and Asia, governments are telling households to prepare for emergencies
+// (disasters, cyberattacks, or conflict that could disrupt electricity, water, transportation and supply chains). The
+// UK, France and Japan recommend at least THREE DAYS of essentials; Sweden and Norway about a WEEK; Germany up to 10
+// DAYS — because emergency services may be overwhelmed and outside help may not arrive immediately. The TWIST: the
+// 90-DAY figure comes from a different plan — the US preparing major MILITARY BASES to operate independently for months
+// if supply chains are disrupted in a conflict. That is a military-readiness goal, NOT a 90-day stockpile recommendation
+// for households. For families the focus is ordinary essentials (food, water, medicine, batteries) to ride out temporary
+// disruptions. Debate: common-sense preparedness for many risks (extreme weather, infrastructure failures), or a sign
+// governments expect something bigger? Officials stress the advice does NOT mean a disaster or war is imminent.
 // NOTE ON VOICE: built VERBATIM from a client-supplied script in the influencer "curiosity-gap" format (HOOK /
 // CURIOSITY GAP / EARLY CTA / CONTEXT / EVIDENCE / ESCALATION / CONSEQUENCES / CONTROVERSY / AUDIENCE DEBATE), NOT the
-// faceless house voice — it names the AMERICAN RED CROSS, uses an EARLY "follow for more" CTA, and CLOSES on a "let me
-// know in the comments" debate CTA. Per the saved house preference, captions are <=5-6 words/beat with LARGER on-screen
-// type (Anton 42-52). 49 beats. 2 stat cards: RED CROSS - UP TO / 2 / WEEKS AT HOME, and A STOCKPILE OF / 90 / DAYS
-// (the hero contrast). 1 red impact near the tail ("And supplies that expire / before they're ever used." — the waste
-// caveat; reel closes on the comments-CTA media beat), no black beat. Captions match the VO verbatim (figures are the
-// two cards; the minor inline "72 hours" / "three days" / "two weeks" read as clean numerals/words as spoken).
-// Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (public/prep/voiceover.mp3). Built
-// at the house +10% pacing default; its own calm/serious documentary music mixed at 0.2. OWN distinct footage under
-// public/prep/ (48 stills), NO reuse of any other reel's clips — ledger-checked.
-// FOOTAGE is strictly BRAND-FREE and GENERIC — because the reel names the American Red Cross, NONE of its assets appear:
-// NO Red Cross emblem / red-cross mark / logo / wordmark, NO other charity/retailer/brand logos, NO readable product
-// labels or packaging text, NO identifiable faces, NO national flags, NO readable text, NO identifiable currency.
-// Preparedness b-roll only: shelves and pantry stock of plain/unlabeled cans and jars, bottled/stored water, a stocked
-// cupboard, a flashlight/torch and batteries, a first-aid kit (no red-cross symbol), candles, a go-bag/backpack, canned
-// goods, storm clouds / power-outage darkness, empty store shelves, a family kitchen pantry, generic emergency gear.
-// **UNVERIFIED — states specific preparedness guidance attributed to the American Red Cross (the "at least three days
-// for evacuation" and "up to two weeks at home" figures, and the 72-hours-first build-up advice). Rendered VERBATIM as
-// supplied, but the Red Cross attribution and every figure MUST be fact-checked against the American Red Cross's own
-// current guidance (and any local emergency-management guidance) before publishing — preparedness advice varies by
-// region and is updated over time. This is general information, not emergency or financial advice.**
+// faceless house voice — it names the UK / France / Japan / Sweden / Norway / Germany / the United States, uses an EARLY
+// "follow for more" CTA, and CLOSES on a "let me know in the comments" debate CTA. Per the saved house preference,
+// captions are <=5-6 words/beat with LARGER on-screen type (Anton 42-52). 58 beats. 2 stat cards: GERMANY — UP TO / 10
+// / DAYS (household high end), and A MILITARY GOAL — / 90 / DAYS (the US bases readiness goal). 1 red impact near the
+// tail ("That is a / military readiness goal." — the myth-bust thesis; reel closes on the comments-CTA media beat), no
+// black beat. Captions match the VO verbatim (hero figures are the two cards; inline "three days"/"about a week" read
+// as spoken). Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (public/prep/
+// voiceover.mp3). Built at the house +10% pacing default; its own serious documentary music mixed at 0.2. OWN distinct
+// footage under public/prep/ — mostly the reel's own preparedness b-roll plus newly sourced news/cyber/grid/cargo/EMS/
+// installation/weather/infrastructure stills; NO reuse of any OTHER reel's clips — ledger-checked.
+// FOOTAGE is strictly BRAND-FREE and GENERIC — because the reel names many COUNTRIES and the US MILITARY, NONE of their
+// assets appear: NO national flags, NO military insignia / uniforms / identifiable bases or weapons, NO government
+// buildings or country-identifying landmarks, NO identifiable faces (officials / soldiers), NO brand logos / wordmarks /
+// shipping-line livery, NO readable text (any language), NO identifiable currency. Metaphor-led preparedness and risk
+// b-roll only: stocked pantries and plain/unlabeled cans and jars, bottled and stored water, go-bags and a packed
+// suitcase, a flashlight and medicine, candles and outage darkness, storm / floodwater / lightning, empty and stripped
+// store shelves, an abstract globe and map, satellite / signal, a dark server room (cyber), high-voltage power lines, a
+// generic container yard, emergency-vehicle lights, a generic fenced installation, a blackout skyline, brand-free phones.
+// **UNVERIFIED — states specific, checkable but fast-moving claims: which governments recommend what (3 days / ~a week /
+// up to 10 days), and the US military-base "operate independently for months / 90-day" readiness characterization.
+// Rendered VERBATIM as supplied, but every country attribution, figure and the military-readiness claim MUST be
+// fact-checked against primary government / official sources before publishing. This is general information, not
+// emergency, security or financial advice.**
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 80, kind: 'hook', reveal: [3, 40], text: 'Should you have|90 days of food', kicker: 'The stockpile', highlights: [], size: 48, media: {src: 'prep/pr00_90days.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Why are countries|around the world', kicker: 'The stockpile', highlights: [], size: 48, media: {src: 'prep/pn00_world.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 52, kind: 'text', reveal: [2], text: 'and supplies at home?', highlights: ['home?'], size: 50, pos: 'upperRight', media: {src: 'prep/pr01_athome.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'telling people to stock up', highlights: [], size: 46, pos: 'upperRight', media: {src: 'prep/pr00_90days.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 42, kind: 'text', reveal: [2], text: 'A growing conversation', highlights: [], size: 52, pos: 'left', media: {src: 'prep/pr02_conversation.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on food, water,|and emergency supplies?', highlights: ['supplies?'], size: 44, pos: 'left', media: {src: 'prep/pr16_howmuch.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 52, kind: 'text', reveal: [2], text: 'about emergency preparedness', highlights: ['preparedness'], size: 52, pos: 'lowerRight', media: {src: 'prep/pr03_preparedness.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'And why are some people', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'prep/pr02_conversation.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'is making people ask|a serious question.', highlights: ['serious'], size: 44, pos: 'upperLeft', media: {src: 'prep/pr04_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'suddenly talking about|a 90-day supply?', highlights: ['90-day'], size: 44, pos: 'upperLeft', media: {src: 'prep/pr38_stockpiling.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'How prepared|are we really?', highlights: ['really?'], size: 48, pos: 'right', media: {src: 'prep/pr05_really.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'The recommendations are real.', highlights: ['real'], size: 50, pos: 'right', media: {src: 'prep/pr19_recommends.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 37, kind: 'text', reveal: [2], text: 'But here’s the twist.', highlights: ['twist'], size: 50, pos: 'lower', media: {src: 'prep/pr06_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'But the 90-day figure', highlights: [], size: 50, pos: 'lower', media: {src: 'prep/pr07_figure.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 42, kind: 'text', reveal: [2], text: 'The 90-day figure', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'prep/pr07_figure.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'has a very different meaning', highlights: ['different'], size: 46, pos: 'upperLeft', media: {src: 'prep/pr43_think.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 48, kind: 'text', reveal: [2, 28], text: 'may not be|a recommendation', highlights: ['recommendation'], size: 48, pos: 'upperRight', media: {src: 'prep/pr08_recommendation.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'than many people think.', highlights: ['think'], size: 50, pos: 'upperRight', media: {src: 'prep/pr04_question.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 54, kind: 'text', reveal: [2], text: 'for your household at all.', highlights: ['household'], size: 46, pos: 'lowerLeft', media: {src: 'prep/pr09_household.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['follow'], size: 50, media: {src: 'prep/pr10_follow.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 38, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['follow'], size: 50, media: {src: 'prep/pr10_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'explaining the news|behind the headlines.', highlights: ['headlines'], size: 44, pos: 'lowerLeft', media: {src: 'prep/pn08_news.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'that help you stay|informed and prepared.', highlights: ['prepared'], size: 44, pos: 'right', media: {src: 'prep/pr11_prepared.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'Across Europe and Asia,', highlights: [], size: 50, pos: 'right', media: {src: 'prep/pn09_map.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'Emergency supplies|can become essential', highlights: ['essential'], size: 48, pos: 'left', media: {src: 'prep/pr12_essential.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'governments are urging households', highlights: [], size: 50, pos: 'left', media: {src: 'prep/pr09_household.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'when disasters,|power outages,', highlights: ['disasters,'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr13_disasters.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'to prepare for emergencies.', highlights: ['prepare'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr03_preparedness.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 52, kind: 'text', reveal: [2], text: 'or supply chain disruptions', highlights: ['disruptions'], size: 50, pos: 'upper', media: {src: 'prep/pr14_disruptions.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'The concern is that disasters,', highlights: ['disasters,'], size: 46, pos: 'upper', media: {src: 'prep/pr13_disasters.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 96, kind: 'text', reveal: [2, 28], text: 'make everyday necessities|harder to access.', highlights: ['access'], size: 44, pos: 'left', media: {src: 'prep/pr15_access.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'cyberattacks, or conflict', highlights: ['cyberattacks,'], size: 52, pos: 'left', media: {src: 'prep/pn12_cyber.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 35, kind: 'text', reveal: [2], text: 'But how much should', highlights: [], size: 50, pos: 'right', media: {src: 'prep/pr16_howmuch.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'could disrupt electricity, water,', highlights: ['electricity,'], size: 50, pos: 'right', media: {src: 'prep/pn13_power.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'an average family|actually store?', highlights: ['store?'], size: 48, pos: 'lowerLeft', media: {src: 'prep/pr17_store.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'transportation,|and supply chains.', highlights: ['transportation,'], size: 50, pos: 'lowerLeft', media: {src: 'prep/pn14_cargo.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 35, kind: 'text', reveal: [2], text: 'The American Red Cross', highlights: [], size: 50, pos: 'upperRight', media: {src: 'prep/pr18_redcross.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'The United Kingdom, France,', highlights: [], size: 50, pos: 'upperRight', media: {src: 'prep/pr35_location.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 23, kind: 'text', reveal: [2], text: 'recommends having', highlights: ['recommends'], size: 52, pos: 'left', media: {src: 'prep/pr19_recommends.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'and Japan recommend', highlights: [], size: 52, pos: 'left', media: {src: 'prep/pr01_athome.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 43, kind: 'text', reveal: [2], text: 'at least three days', highlights: ['three'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr20_threedays.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'keeping at least three days', highlights: ['three'], size: 46, pos: 'lowerRight', media: {src: 'prep/pr20_threedays.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 55, kind: 'text', reveal: [2], text: 'of supplies for evacuation,', highlights: ['evacuation,'], size: 50, pos: 'upperLeft', media: {src: 'prep/pr21_evacuation.jpg', type: 'img', effect: 'in'}},
-  // 22 CARD
-  {dur: 97, kind: 'stat', stat: {pre: 'RED CROSS — UP TO', value: 2, post: 'WEEKS AT HOME'}, media: {src: 'prep/pr22_card2wk.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'of essential supplies.', highlights: ['essential'], size: 52, pos: 'upperLeft', media: {src: 'prep/pr45_sensible.jpg', type: 'img', effect: 'in'}},
+  // 22
+  {dur: 70, kind: 'text', reveal: [2], text: 'Sweden and Norway recommend', highlights: [], size: 50, pos: 'right', media: {src: 'prep/pr21_evacuation.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'That includes|nonperishable food,', highlights: ['food,'], size: 50, pos: 'right', media: {src: 'prep/pr23_food.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'preparing for about a week,', highlights: ['week,'], size: 46, pos: 'lower', media: {src: 'prep/pr34_twoweeks.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 51, kind: 'text', reveal: [2], text: 'drinking water, medications,', highlights: ['water,'], size: 52, pos: 'lower', media: {src: 'prep/pr24_water.jpg', type: 'img', effect: 'in'}},
-  // 25
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'and basic|emergency equipment.', highlights: ['equipment'], size: 50, pos: 'upperRight', media: {src: 'prep/pr25_equipment.jpg', type: 'img', effect: 'in'}},
-  // 26 CARD
-  {dur: 40, kind: 'stat', stat: {pre: 'A STOCKPILE OF', value: 90, post: 'DAYS'}, media: {src: 'prep/pr26_card90.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'while Germany advises households', highlights: [], size: 50, pos: 'upperRight', media: {src: 'prep/pr17_store.jpg', type: 'img', effect: 'in'}},
+  // 25 CARD
+  {dur: 70, kind: 'stat', stat: {pre: 'GERMANY — UP TO', value: 10, post: 'DAYS'}, media: {src: 'prep/pr11_prepared.jpg', type: 'img', effect: 'in'}},
+  // 26
+  {dur: 70, kind: 'text', reveal: [2], text: 'The reason?', highlights: ['reason?'], size: 52, pos: 'lowerLeft', media: {src: 'prep/pr05_really.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'is a much bigger|commitment.', highlights: ['commitment'], size: 48, pos: 'lowerLeft', media: {src: 'prep/pr27_commitment.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Emergency services|may be overwhelmed,', highlights: ['overwhelmed,'], size: 48, pos: 'left', media: {src: 'prep/pn24_ems.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'Water alone|becomes difficult to store,', highlights: ['difficult'], size: 44, pos: 'left', media: {src: 'prep/pr28_wateralone.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'and outside assistance', highlights: [], size: 52, pos: 'right', media: {src: 'prep/pr15_access.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 48, kind: 'text', reveal: [2], text: 'and food must be rotated', highlights: ['rotated'], size: 46, pos: 'right', media: {src: 'prep/pr29_rotated.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'might not arrive immediately.', highlights: ['immediately'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr40_panic.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 34, kind: 'text', reveal: [2], text: 'to prevent waste.', highlights: ['waste'], size: 52, pos: 'lowerRight', media: {src: 'prep/pr30_waste.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'But the 90-day figure', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'prep/pr33_72hours.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 34, kind: 'text', reveal: [2], text: 'The practical approach', highlights: ['practical'], size: 52, pos: 'upperLeft', media: {src: 'prep/pr31_practical.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'comes from|a different plan.', highlights: ['plan'], size: 48, pos: 'right', media: {src: 'prep/pr31_practical.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 50, kind: 'text', reveal: [2], text: 'is to build gradually.', highlights: ['gradually'], size: 50, pos: 'right', media: {src: 'prep/pr32_gradually.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'The United States is preparing', highlights: [], size: 46, pos: 'upperRight', media: {src: 'prep/pr28_wateralone.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'Start with 72 hours|of essentials,', highlights: ['essentials,'], size: 44, pos: 'upperRight', media: {src: 'prep/pr33_72hours.jpg', type: 'img', effect: 'in'}},
-  // 34
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'then work toward|two weeks.', highlights: ['weeks'], size: 48, pos: 'left', media: {src: 'prep/pr34_twoweeks.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'major military bases', highlights: ['military'], size: 52, pos: 'left', media: {src: 'prep/pn28_base.jpg', type: 'img', effect: 'in'}},
+  // 34 CARD
+  {dur: 70, kind: 'stat', stat: {pre: 'A MILITARY GOAL —', value: 90, post: 'DAYS'}, media: {src: 'prep/pr26_card90.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Add more only if|your location,', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'prep/pr35_location.jpg', type: 'img', effect: 'in'}},
-  // 36
-  {dur: 59, kind: 'text', reveal: [2], text: 'household needs, or risks', highlights: ['risks'], size: 50, pos: 'upper', media: {src: 'prep/pr36_risks.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'if supply chains are disrupted|during a conflict.', highlights: ['conflict'], size: 44, pos: 'lowerLeft', media: {src: 'prep/pr14_disruptions.jpg', type: 'img', effect: 'in'}},
+  // 36 RED
+  {dur: 70, kind: 'impact', redBg: true, text: 'That is a|military readiness goal.'},
   // 37
-  {dur: 40, kind: 'text', reveal: [2], text: 'make it necessary.', highlights: ['necessary'], size: 52, pos: 'right', media: {src: 'prep/pr37_necessary.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'not a 90-day stockpile|recommendation,', highlights: [], size: 48, pos: 'upper', media: {src: 'prep/pr29_rotated.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Some people see|long-term stockpiling', highlights: ['stockpiling'], size: 48, pos: 'lowerRight', media: {src: 'prep/pr38_stockpiling.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'for American households.', highlights: ['households'], size: 52, pos: 'right', media: {src: 'prep/pr47_families.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 47, kind: 'text', reveal: [2], text: 'as smart preparation.', highlights: ['smart'], size: 52, pos: 'upperLeft', media: {src: 'prep/pr39_smart.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'For ordinary families,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'prep/pr41_spending.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Others worry it can lead|to panic buying,', highlights: ['panic'], size: 44, pos: 'left', media: {src: 'prep/pr40_panic.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the focus is on having|enough food,', highlights: ['food,'], size: 44, pos: 'upperLeft', media: {src: 'prep/pr23_food.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 41, kind: 'text', reveal: [2], text: 'unnecessary spending,', highlights: ['unnecessary'], size: 52, pos: 'lowerRight', media: {src: 'prep/pr41_spending.jpg', type: 'img', effect: 'in'}},
-  // 42 RED
-  {dur: 104, kind: 'impact', redBg: true, text: 'And supplies that expire|before they’re ever used.'},
+  {dur: 70, kind: 'text', reveal: [2], text: 'drinking water, medicine,', highlights: ['water,'], size: 52, pos: 'left', media: {src: 'prep/pr24_water.jpg', type: 'img', effect: 'in'}},
+  // 42
+  {dur: 70, kind: 'text', reveal: [2], text: 'batteries, and other essentials', highlights: ['batteries,'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr25_equipment.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 24, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'prep/pr43_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to get through|temporary disruptions.', highlights: ['temporary'], size: 48, pos: 'upperRight', media: {src: 'prep/pr06_twist.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 72, kind: 'text', reveal: [2, 28], text: 'Is a 90-day|emergency supply', highlights: [], size: 48, pos: 'right', media: {src: 'prep/pr44_supply.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'Some people see these advisories', highlights: [], size: 46, pos: 'right', media: {src: 'prep/pr08_recommendation.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 42, kind: 'text', reveal: [2], text: 'sensible preparation,', highlights: ['sensible'], size: 52, pos: 'lowerLeft', media: {src: 'prep/pr45_sensible.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as signs that governments|expect a major crisis.', highlights: ['crisis'], size: 44, pos: 'lowerLeft', media: {src: 'prep/pr36_risks.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 39, kind: 'text', reveal: [2], text: 'or is two weeks enough', highlights: ['enough'], size: 46, pos: 'left', media: {src: 'prep/pr46_enough.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'But officials describe them', highlights: [], size: 50, pos: 'left', media: {src: 'prep/pr18_redcross.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 37, kind: 'text', reveal: [2], text: 'for most families?', highlights: ['families?'], size: 52, pos: 'upperRight', media: {src: 'prep/pr47_families.jpg', type: 'img', effect: 'in'}},
-  // 48 CTA
-  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'prep/pr48_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as preparedness measures|for multiple risks,', highlights: ['risks,'], size: 44, pos: 'upperRight', media: {src: 'prep/pr32_gradually.jpg', type: 'img', effect: 'in'}},
+  // 48
+  {dur: 70, kind: 'text', reveal: [2], text: 'including extreme weather', highlights: ['weather'], size: 52, pos: 'lower', media: {src: 'prep/pn43_weather.jpg', type: 'img', effect: 'in'}},
+  // 49
+  {dur: 70, kind: 'text', reveal: [2], text: 'and infrastructure failures.', highlights: ['failures'], size: 52, pos: 'right', media: {src: 'prep/pn44_infra.jpg', type: 'img', effect: 'in'}},
+  // 50
+  {dur: 70, kind: 'text', reveal: [2], text: 'The advice itself does not mean', highlights: [], size: 42, pos: 'upperLeft', media: {src: 'prep/pr22_card2wk.jpg', type: 'img', effect: 'in'}},
+  // 51
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a disaster or war|is imminent.', highlights: ['imminent'], size: 44, pos: 'lowerRight', media: {src: 'prep/pr30_waste.jpg', type: 'img', effect: 'in'}},
+  // 52
+  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'left', media: {src: 'prep/pr37_necessary.jpg', type: 'img', effect: 'in'}},
+  // 53
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Are these emergency|supply recommendations', highlights: [], size: 48, pos: 'upperRight', media: {src: 'prep/pr46_enough.jpg', type: 'img', effect: 'in'}},
+  // 54
+  {dur: 70, kind: 'text', reveal: [2], text: 'simply common sense,', highlights: ['sense,'], size: 52, pos: 'right', media: {src: 'prep/pr27_commitment.jpg', type: 'img', effect: 'in'}},
+  // 55
+  {dur: 70, kind: 'text', reveal: [2], text: 'or do they suggest governments', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'prep/pr12_essential.jpg', type: 'img', effect: 'in'}},
+  // 56
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'are preparing for|something bigger?', highlights: ['bigger?'], size: 48, pos: 'upperLeft', media: {src: 'prep/pr44_supply.jpg', type: 'img', effect: 'in'}},
+  // 57 CTA
+  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'prep/pr48_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 544, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1220, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1497, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2392, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2710, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
