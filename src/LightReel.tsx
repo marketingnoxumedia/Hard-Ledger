@@ -87,7 +87,7 @@ type SceneDef = {
 // the faceless house voice — it names real companies/people (Nvidia / Marvell / Lumentum / Bloomberg / Jensen Huang /
 // Matt Murphy / Michael Hurlston), uses an EARLY "follow for more" CTA, and CLOSES on a "let us know in the comments"
 // debate CTA. Per the saved house preference, captions are <=5-6 words/beat with LARGER on-screen type (Anton 40-52).
-// 49 beats — TRIMMED to ~1:54 at the client's request from the original 88-beat / 3:25 cut: seven whole sentences
+// 49 beats — TRIMMED to ~2 min then RE-PACED to ~1:49 at the client's request, from the original 88-beat / 3:25 cut: seven whole sentences
 // were cut at clean sentence boundaries (the formal deal restatement; the Bloomberg phone-call recounting with the
 // CEO names; the Nvidia $2B-in-each stakes; the "what each company makes" detail; the combining-expertise / next-gen
 // elaboration; the merger-position/ecosystem line; and the detailed investor-reaction beats), so every kept beat
@@ -96,7 +96,8 @@ type SceneDef = {
 // closes on the comments-CTA media beat), no black beat. Captions match the VO verbatim — the two hero figures are
 // stat cards; the one remaining inline finance figure (2028) is a clean inline numeral per the finance-caption
 // convention. Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass
-// (public/light/voiceover.mp3), re-spliced for the trim. Built at the house +10% pacing default; its own tense,
+// (public/light/voiceover.mp3), re-spliced for the trim. RE-PACED to +16% (SCALE 1.155 — an "additional 5%" on top
+// of the house +10%, applied multiplicatively) for a ~1:49 runtime; its own tense,
 // driving tech/finance music bed (3:25 bed covers the trimmed reel via the fade envelope). OWN distinct footage under
 // public/light/ (48 stills used in the trimmed cut, drawn from the 87 sourced), NO reuse of any other reel's clips — ledger-checked.
 // FOOTAGE is strictly BRAND-FREE and GENERIC — because the reel names real companies and executives, NONE of their
@@ -113,113 +114,113 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 39, kind: 'hook', reveal: [3, 40], text: 'Nvidia’s Jensen Huang', kicker: 'The light', highlights: ['huang'], size: 56, media: {src: 'light/lt00_nvidia.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'hook', reveal: [3, 40], text: 'Nvidia’s Jensen Huang', kicker: 'The light', highlights: ['huang'], size: 56, media: {src: 'light/lt00_nvidia.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 37, kind: 'text', reveal: [2], text: 'just gave his blessing', highlights: ['blessing'], size: 50, pos: 'upperRight', media: {src: 'light/lt01_blessing.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'just gave his blessing', highlights: ['blessing'], size: 50, pos: 'upperRight', media: {src: 'light/lt01_blessing.jpg', type: 'img', effect: 'in'}},
   // 2 CARD
-  {dur: 89, kind: 'stat', stat: {pre: 'TO A', prefix: '$', value: 115, suffix: 'B', post: 'DEAL'}, media: {src: 'light/lt02_card115.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'stat', stat: {pre: 'TO A', prefix: '$', value: 115, suffix: 'B', post: 'DEAL'}, media: {src: 'light/lt02_card115.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'that could reshape|the AI chip industry.', highlights: ['chip'], size: 42, pos: 'left', media: {src: 'light/lt03_reshape.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'that could reshape|the AI chip industry.', highlights: ['chip'], size: 42, pos: 'left', media: {src: 'light/lt03_reshape.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 71, kind: 'text', reveal: [2, 28], text: 'And this isn’t about|buying more GPUs.', highlights: ['gpus'], size: 42, pos: 'lowerRight', media: {src: 'light/lt04_gpus.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'And this isn’t about|buying more GPUs.', highlights: ['gpus'], size: 42, pos: 'lowerRight', media: {src: 'light/lt04_gpus.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 36, kind: 'text', reveal: [2], text: 'It’s about something', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'light/lt05_something.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'It’s about something', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'light/lt05_something.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 91, kind: 'text', reveal: [2, 28], text: 'AI data centers|desperately need:', highlights: [], size: 48, pos: 'right', media: {src: 'light/lt06_need.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'AI data centers|desperately need:', highlights: [], size: 48, pos: 'right', media: {src: 'light/lt06_need.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 22, kind: 'text', reveal: [2], text: 'light.', highlights: ['light'], size: 52, pos: 'lower', media: {src: 'light/lt07_light.jpg', type: 'img', effect: 'in'}},
+  {dur: 21, kind: 'text', reveal: [2], text: 'light.', highlights: ['light'], size: 52, pos: 'lower', media: {src: 'light/lt07_light.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'Marvell is|acquiring Lumentum,', highlights: ['lumentum'], size: 50, pos: 'upperLeft', media: {src: 'light/lt08_acquiring.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'Marvell is|acquiring Lumentum,', highlights: ['lumentum'], size: 50, pos: 'upperLeft', media: {src: 'light/lt08_acquiring.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a company that makes|optical technology', highlights: ['optical'], size: 44, pos: 'upperRight', media: {src: 'light/lt09_optical.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'a company that makes|optical technology', highlights: ['optical'], size: 44, pos: 'upperRight', media: {src: 'light/lt09_optical.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 86, kind: 'text', reveal: [2, 28], text: 'used to move data|at incredible speeds.', highlights: ['incredible'], size: 42, pos: 'lowerLeft', media: {src: 'light/lt10_speeds.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'used to move data|at incredible speeds.', highlights: ['incredible'], size: 42, pos: 'lowerLeft', media: {src: 'light/lt10_speeds.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 87, kind: 'text', reveal: [2, 28], text: 'But why would|Nvidia’s CEO care', highlights: [], size: 44, pos: 'right', media: {src: 'light/lt11_care.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'But why would|Nvidia’s CEO care', highlights: [], size: 44, pos: 'right', media: {src: 'light/lt11_care.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 96, kind: 'text', reveal: [2, 28], text: 'so much about a deal|between two other companies?', highlights: ['companies?'], size: 42, pos: 'left', media: {src: 'light/lt12_companies.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'so much about a deal|between two other companies?', highlights: ['companies?'], size: 42, pos: 'left', media: {src: 'light/lt12_companies.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'Because the next|AI bottleneck', highlights: ['bottleneck'], size: 48, pos: 'lowerRight', media: {src: 'light/lt13_bottleneck.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'Because the next|AI bottleneck', highlights: ['bottleneck'], size: 48, pos: 'lowerRight', media: {src: 'light/lt13_bottleneck.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 57, kind: 'text', reveal: [2, 28], text: 'may not be|computing power.', highlights: ['computing'], size: 48, pos: 'upper', media: {src: 'light/lt14_computing.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'may not be|computing power.', highlights: ['computing'], size: 48, pos: 'upper', media: {src: 'light/lt14_computing.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'It may be getting|all those chips', highlights: [], size: 42, pos: 'left', media: {src: 'light/lt15_chips.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'It may be getting|all those chips', highlights: [], size: 42, pos: 'left', media: {src: 'light/lt15_chips.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 42, kind: 'text', reveal: [2, 28], text: 'to communicate|with each other.', highlights: ['communicate'], size: 48, pos: 'right', media: {src: 'light/lt16_communicate.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2, 28], text: 'to communicate|with each other.', highlights: ['communicate'], size: 48, pos: 'right', media: {src: 'light/lt16_communicate.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 42, kind: 'text', reveal: [2], text: 'Follow for more AI,', highlights: ['follow'], size: 50, media: {src: 'light/lt17_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Follow for more AI,', highlights: ['follow'], size: 50, media: {src: 'light/lt17_follow.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'technology, and|business stories', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'light/lt18_business.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'technology, and|business stories', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'light/lt18_business.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 44, kind: 'text', reveal: [2], text: 'shaping the future.', highlights: ['future'], size: 52, pos: 'upperRight', media: {src: 'light/lt19_future.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'shaping the future.', highlights: ['future'], size: 52, pos: 'upperRight', media: {src: 'light/lt19_future.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 91, kind: 'text', reveal: [2, 28], text: 'Marvell shareholders|are expected to own', highlights: [], size: 44, pos: 'left', media: {src: 'light/lt29_own.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'Marvell shareholders|are expected to own', highlights: [], size: 44, pos: 'left', media: {src: 'light/lt29_own.jpg', type: 'img', effect: 'in'}},
   // 31 CARD
-  {dur: 51, kind: 'stat', stat: {pre: 'MARVELL SHAREHOLDERS', value: 67, suffix: '%', post: 'OF THE COMBINED CO.'}, media: {src: 'light/lt30_card67.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'stat', stat: {pre: 'MARVELL SHAREHOLDERS', value: 67, suffix: '%', post: 'OF THE COMBINED CO.'}, media: {src: 'light/lt30_card67.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 126, kind: 'text', reveal: [2, 28], text: 'while Lumentum shareholders|would hold roughly 33 percent.', highlights: [], size: 42, pos: 'lowerRight', media: {src: 'light/lt31_33.jpg', type: 'img', effect: 'in'}},
+  {dur: 119, kind: 'text', reveal: [2, 28], text: 'while Lumentum shareholders|would hold roughly 33 percent.', highlights: [], size: 42, pos: 'lowerRight', media: {src: 'light/lt31_33.jpg', type: 'img', effect: 'in'}},
   // 42 RED
-  {dur: 38, kind: 'impact', redBg: true, text: 'Here’s why|this matters.'},
+  {dur: 37, kind: 'impact', redBg: true, text: 'Here’s why|this matters.'},
   // 45
-  {dur: 56, kind: 'text', reveal: [2, 28], text: 'Copper cables|are increasingly', highlights: ['copper'], size: 50, pos: 'upperLeft', media: {src: 'light/lt44_copper.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Copper cables|are increasingly', highlights: ['copper'], size: 50, pos: 'upperLeft', media: {src: 'light/lt44_copper.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 35, kind: 'text', reveal: [2], text: 'running into limits', highlights: ['limits'], size: 52, pos: 'right', media: {src: 'light/lt45_limits.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'running into limits', highlights: ['limits'], size: 52, pos: 'right', media: {src: 'light/lt45_limits.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 96, kind: 'text', reveal: [2, 28], text: 'around bandwidth, distance,|and power consumption.', highlights: ['power'], size: 44, pos: 'lower', media: {src: 'light/lt46_power.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'around bandwidth, distance,|and power consumption.', highlights: ['power'], size: 44, pos: 'lower', media: {src: 'light/lt46_power.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 50, kind: 'text', reveal: [2, 28], text: 'Optical connections|use light', highlights: ['light'], size: 50, pos: 'upperRight', media: {src: 'light/lt47_light2.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'Optical connections|use light', highlights: ['light'], size: 50, pos: 'upperRight', media: {src: 'light/lt47_light2.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 50, kind: 'text', reveal: [2, 28], text: 'instead of|electrical signals', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'light/lt48_signals.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'instead of|electrical signals', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'light/lt48_signals.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'to move data faster|and more efficiently.', highlights: ['faster'], size: 42, pos: 'left', media: {src: 'light/lt49_faster.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'to move data faster|and more efficiently.', highlights: ['faster'], size: 42, pos: 'left', media: {src: 'light/lt49_faster.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 100, kind: 'text', reveal: [2, 28], text: 'But the deal is also|massive and risky.', highlights: ['risky'], size: 42, pos: 'right', media: {src: 'light/lt60_risky.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'But the deal is also|massive and risky.', highlights: ['risky'], size: 42, pos: 'right', media: {src: 'light/lt60_risky.jpg', type: 'img', effect: 'in'}},
   // 62
-  {dur: 107, kind: 'text', reveal: [2, 28], text: 'It is expected to close|in the first half of 2028,', highlights: ['2028'], size: 42, pos: 'lowerRight', media: {src: 'light/lt61_2028.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'It is expected to close|in the first half of 2028,', highlights: ['2028'], size: 42, pos: 'lowerRight', media: {src: 'light/lt61_2028.jpg', type: 'img', effect: 'in'}},
   // 63
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'subject to shareholder|and regulatory approval.', highlights: ['regulatory'], size: 44, pos: 'upperLeft', media: {src: 'light/lt62_approval.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'subject to shareholder|and regulatory approval.', highlights: ['regulatory'], size: 44, pos: 'upperLeft', media: {src: 'light/lt62_approval.jpg', type: 'img', effect: 'in'}},
   // 72
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And this raises|a bigger question:', highlights: [], size: 44, pos: 'right', media: {src: 'light/lt71_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'And this raises|a bigger question:', highlights: [], size: 44, pos: 'right', media: {src: 'light/lt71_question.jpg', type: 'img', effect: 'in'}},
   // 73
-  {dur: 108, kind: 'text', reveal: [2, 28], text: 'is Nvidia helping build|a stronger AI supply chain,', highlights: ['supply'], size: 42, pos: 'upperRight', media: {src: 'light/lt72_supplychain.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'is Nvidia helping build|a stronger AI supply chain,', highlights: ['supply'], size: 42, pos: 'upperRight', media: {src: 'light/lt72_supplychain.jpg', type: 'img', effect: 'in'}},
   // 74
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'or is the industry|becoming too dependent', highlights: ['dependent'], size: 42, pos: 'left', media: {src: 'light/lt73_dependent.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'or is the industry|becoming too dependent', highlights: ['dependent'], size: 42, pos: 'left', media: {src: 'light/lt73_dependent.jpg', type: 'img', effect: 'in'}},
   // 75
-  {dur: 73, kind: 'text', reveal: [2, 28], text: 'on a handful|of enormous deals?', highlights: ['enormous'], size: 44, pos: 'lowerLeft', media: {src: 'light/lt74_enormous.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'on a handful|of enormous deals?', highlights: ['enormous'], size: 44, pos: 'lowerLeft', media: {src: 'light/lt74_enormous.jpg', type: 'img', effect: 'in'}},
   // 76
-  {dur: 71, kind: 'text', reveal: [2, 28], text: 'The AI boom is|no longer just about', highlights: [], size: 42, pos: 'upper', media: {src: 'light/lt75_boom.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'The AI boom is|no longer just about', highlights: [], size: 42, pos: 'upper', media: {src: 'light/lt75_boom.jpg', type: 'img', effect: 'in'}},
   // 77
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'who makes the|fastest processor.', highlights: ['fastest'], size: 48, pos: 'right', media: {src: 'light/lt76_fastest.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'who makes the|fastest processor.', highlights: ['fastest'], size: 48, pos: 'right', media: {src: 'light/lt76_fastest.jpg', type: 'img', effect: 'in'}},
   // 78
-  {dur: 54, kind: 'text', reveal: [2, 28], text: 'It’s also about|who controls', highlights: ['controls'], size: 48, pos: 'lowerRight', media: {src: 'light/lt77_controls.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'It’s also about|who controls', highlights: ['controls'], size: 48, pos: 'lowerRight', media: {src: 'light/lt77_controls.jpg', type: 'img', effect: 'in'}},
   // 79
-  {dur: 100, kind: 'text', reveal: [2, 28], text: 'the networks, optics,|power, and infrastructure', highlights: ['optics'], size: 44, pos: 'upperLeft', media: {src: 'light/lt78_optics.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'the networks, optics,|power, and infrastructure', highlights: ['optics'], size: 44, pos: 'upperLeft', media: {src: 'light/lt78_optics.jpg', type: 'img', effect: 'in'}},
   // 80
-  {dur: 51, kind: 'text', reveal: [2, 28], text: 'that connect|the entire system.', highlights: ['system'], size: 48, pos: 'left', media: {src: 'light/lt79_system.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'that connect|the entire system.', highlights: ['system'], size: 48, pos: 'left', media: {src: 'light/lt79_system.jpg', type: 'img', effect: 'in'}},
   // 81
-  {dur: 36, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'light/lt80_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'light/lt80_think.jpg', type: 'img', effect: 'in'}},
   // 82
-  {dur: 132, kind: 'text', reveal: [2, 28], text: 'Is Marvell’s $115 billion|acquisition of Lumentum', highlights: [], size: 42, pos: 'upperRight', media: {src: 'light/lt81_acq.jpg', type: 'img', effect: 'in'}},
+  {dur: 126, kind: 'text', reveal: [2, 28], text: 'Is Marvell’s $115 billion|acquisition of Lumentum', highlights: [], size: 42, pos: 'upperRight', media: {src: 'light/lt81_acq.jpg', type: 'img', effect: 'in'}},
   // 83
-  {dur: 88, kind: 'text', reveal: [2, 28], text: 'a smart bet|on the future of AI,', highlights: ['smart'], size: 42, pos: 'right', media: {src: 'light/lt82_smart.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'a smart bet|on the future of AI,', highlights: ['smart'], size: 42, pos: 'right', media: {src: 'light/lt82_smart.jpg', type: 'img', effect: 'in'}},
   // 84
-  {dur: 100, kind: 'text', reveal: [2, 28], text: 'or is the industry|spending too much, too fast?', highlights: ['fast?'], size: 42, pos: 'lowerLeft', media: {src: 'light/lt83_toofast.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'or is the industry|spending too much, too fast?', highlights: ['fast?'], size: 42, pos: 'lowerLeft', media: {src: 'light/lt83_toofast.jpg', type: 'img', effect: 'in'}},
   // 85
-  {dur: 52, kind: 'text', reveal: [2, 28], text: 'And do you think|optical connections', highlights: ['optical'], size: 44, pos: 'left', media: {src: 'light/lt84_opticalconn.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2, 28], text: 'And do you think|optical connections', highlights: ['optical'], size: 44, pos: 'left', media: {src: 'light/lt84_opticalconn.jpg', type: 'img', effect: 'in'}},
   // 86
-  {dur: 93, kind: 'text', reveal: [2, 28], text: 'will become just as important|as AI chips themselves?', highlights: ['chips'], size: 42, pos: 'upperRight', media: {src: 'light/lt85_asimportant.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'will become just as important|as AI chips themselves?', highlights: ['chips'], size: 42, pos: 'upperRight', media: {src: 'light/lt85_asimportant.jpg', type: 'img', effect: 'in'}},
   // 87 CTA
-  {dur: 39, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'light/lt86_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'light/lt86_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 76, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1087, src: 'media/sfx_whoosh.mp3', vol: 0.33},
-  {at: 1325, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1502, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3397, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 73, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1035, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1262, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1430, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3235, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
