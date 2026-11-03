@@ -107,108 +107,113 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Should you have|90 days of food', kicker: 'The stockpile', highlights: [], size: 48, media: {src: 'prep/pr00_90days.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'hook', reveal: [3, 40], text: 'Should you have|90 days of food', kicker: 'The stockpile', highlights: [], size: 48, media: {src: 'prep/pr00_90days.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'and supplies at home?', highlights: ['home?'], size: 50, pos: 'upperRight', media: {src: 'prep/pr01_athome.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'and supplies at home?', highlights: ['home?'], size: 50, pos: 'upperRight', media: {src: 'prep/pr01_athome.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'A growing conversation', highlights: [], size: 52, pos: 'left', media: {src: 'prep/pr02_conversation.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'A growing conversation', highlights: [], size: 52, pos: 'left', media: {src: 'prep/pr02_conversation.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'about emergency preparedness', highlights: ['preparedness'], size: 52, pos: 'lowerRight', media: {src: 'prep/pr03_preparedness.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'about emergency preparedness', highlights: ['preparedness'], size: 52, pos: 'lowerRight', media: {src: 'prep/pr03_preparedness.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is making people ask|a serious question.', highlights: ['serious'], size: 44, pos: 'upperLeft', media: {src: 'prep/pr04_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'is making people ask|a serious question.', highlights: ['serious'], size: 44, pos: 'upperLeft', media: {src: 'prep/pr04_question.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'How prepared|are we really?', highlights: ['really?'], size: 48, pos: 'right', media: {src: 'prep/pr05_really.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'How prepared|are we really?', highlights: ['really?'], size: 48, pos: 'right', media: {src: 'prep/pr05_really.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s the twist.', highlights: ['twist'], size: 50, pos: 'lower', media: {src: 'prep/pr06_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'But here’s the twist.', highlights: ['twist'], size: 50, pos: 'lower', media: {src: 'prep/pr06_twist.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'The 90-day figure', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'prep/pr07_figure.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'The 90-day figure', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'prep/pr07_figure.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'may not be|a recommendation', highlights: ['recommendation'], size: 48, pos: 'upperRight', media: {src: 'prep/pr08_recommendation.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'may not be|a recommendation', highlights: ['recommendation'], size: 48, pos: 'upperRight', media: {src: 'prep/pr08_recommendation.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'for your household at all.', highlights: ['household'], size: 46, pos: 'lowerLeft', media: {src: 'prep/pr09_household.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'for your household at all.', highlights: ['household'], size: 46, pos: 'lowerLeft', media: {src: 'prep/pr09_household.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['follow'], size: 50, media: {src: 'prep/pr10_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['follow'], size: 50, media: {src: 'prep/pr10_follow.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that help you stay|informed and prepared.', highlights: ['prepared'], size: 44, pos: 'right', media: {src: 'prep/pr11_prepared.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'that help you stay|informed and prepared.', highlights: ['prepared'], size: 44, pos: 'right', media: {src: 'prep/pr11_prepared.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Emergency supplies|can become essential', highlights: ['essential'], size: 48, pos: 'left', media: {src: 'prep/pr12_essential.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'Emergency supplies|can become essential', highlights: ['essential'], size: 48, pos: 'left', media: {src: 'prep/pr12_essential.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'when disasters,|power outages,', highlights: ['disasters,'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr13_disasters.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'when disasters,|power outages,', highlights: ['disasters,'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr13_disasters.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'or supply chain disruptions', highlights: ['disruptions'], size: 50, pos: 'upper', media: {src: 'prep/pr14_disruptions.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'or supply chain disruptions', highlights: ['disruptions'], size: 50, pos: 'upper', media: {src: 'prep/pr14_disruptions.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'make everyday necessities|harder to access.', highlights: ['access'], size: 44, pos: 'left', media: {src: 'prep/pr15_access.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'make everyday necessities|harder to access.', highlights: ['access'], size: 44, pos: 'left', media: {src: 'prep/pr15_access.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'But how much should', highlights: [], size: 50, pos: 'right', media: {src: 'prep/pr16_howmuch.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'But how much should', highlights: [], size: 50, pos: 'right', media: {src: 'prep/pr16_howmuch.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'an average family|actually store?', highlights: ['store?'], size: 48, pos: 'lowerLeft', media: {src: 'prep/pr17_store.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'an average family|actually store?', highlights: ['store?'], size: 48, pos: 'lowerLeft', media: {src: 'prep/pr17_store.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'The American Red Cross', highlights: [], size: 50, pos: 'upperRight', media: {src: 'prep/pr18_redcross.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'The American Red Cross', highlights: [], size: 50, pos: 'upperRight', media: {src: 'prep/pr18_redcross.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'recommends having', highlights: ['recommends'], size: 52, pos: 'left', media: {src: 'prep/pr19_recommends.jpg', type: 'img', effect: 'in'}},
+  {dur: 23, kind: 'text', reveal: [2], text: 'recommends having', highlights: ['recommends'], size: 52, pos: 'left', media: {src: 'prep/pr19_recommends.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'at least three days', highlights: ['three'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr20_threedays.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'at least three days', highlights: ['three'], size: 50, pos: 'lowerRight', media: {src: 'prep/pr20_threedays.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'of supplies for evacuation,', highlights: ['evacuation,'], size: 50, pos: 'upperLeft', media: {src: 'prep/pr21_evacuation.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'of supplies for evacuation,', highlights: ['evacuation,'], size: 50, pos: 'upperLeft', media: {src: 'prep/pr21_evacuation.jpg', type: 'img', effect: 'in'}},
   // 22 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'RED CROSS — UP TO', value: 2, post: 'WEEKS AT HOME'}, media: {src: 'prep/pr22_card2wk.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'stat', stat: {pre: 'RED CROSS — UP TO', value: 2, post: 'WEEKS AT HOME'}, media: {src: 'prep/pr22_card2wk.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That includes|nonperishable food,', highlights: ['food,'], size: 50, pos: 'right', media: {src: 'prep/pr23_food.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'That includes|nonperishable food,', highlights: ['food,'], size: 50, pos: 'right', media: {src: 'prep/pr23_food.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'drinking water, medications,', highlights: ['water,'], size: 52, pos: 'lower', media: {src: 'prep/pr24_water.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'drinking water, medications,', highlights: ['water,'], size: 52, pos: 'lower', media: {src: 'prep/pr24_water.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and basic|emergency equipment.', highlights: ['equipment'], size: 50, pos: 'upperRight', media: {src: 'prep/pr25_equipment.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'and basic|emergency equipment.', highlights: ['equipment'], size: 50, pos: 'upperRight', media: {src: 'prep/pr25_equipment.jpg', type: 'img', effect: 'in'}},
   // 26 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'A STOCKPILE OF', value: 90, post: 'DAYS'}, media: {src: 'prep/pr26_card90.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'A STOCKPILE OF', value: 90, post: 'DAYS'}, media: {src: 'prep/pr26_card90.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is a much bigger|commitment.', highlights: ['commitment'], size: 48, pos: 'lowerLeft', media: {src: 'prep/pr27_commitment.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'is a much bigger|commitment.', highlights: ['commitment'], size: 48, pos: 'lowerLeft', media: {src: 'prep/pr27_commitment.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Water alone|becomes difficult to store,', highlights: ['difficult'], size: 44, pos: 'left', media: {src: 'prep/pr28_wateralone.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'Water alone|becomes difficult to store,', highlights: ['difficult'], size: 44, pos: 'left', media: {src: 'prep/pr28_wateralone.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'and food must be rotated', highlights: ['rotated'], size: 46, pos: 'right', media: {src: 'prep/pr29_rotated.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'and food must be rotated', highlights: ['rotated'], size: 46, pos: 'right', media: {src: 'prep/pr29_rotated.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'to prevent waste.', highlights: ['waste'], size: 52, pos: 'lowerRight', media: {src: 'prep/pr30_waste.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'to prevent waste.', highlights: ['waste'], size: 52, pos: 'lowerRight', media: {src: 'prep/pr30_waste.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'The practical approach', highlights: ['practical'], size: 52, pos: 'upperLeft', media: {src: 'prep/pr31_practical.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'The practical approach', highlights: ['practical'], size: 52, pos: 'upperLeft', media: {src: 'prep/pr31_practical.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'is to build gradually.', highlights: ['gradually'], size: 50, pos: 'right', media: {src: 'prep/pr32_gradually.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'is to build gradually.', highlights: ['gradually'], size: 50, pos: 'right', media: {src: 'prep/pr32_gradually.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Start with 72 hours|of essentials,', highlights: ['essentials,'], size: 44, pos: 'upperRight', media: {src: 'prep/pr33_72hours.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'Start with 72 hours|of essentials,', highlights: ['essentials,'], size: 44, pos: 'upperRight', media: {src: 'prep/pr33_72hours.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'then work toward|two weeks.', highlights: ['weeks'], size: 48, pos: 'left', media: {src: 'prep/pr34_twoweeks.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'then work toward|two weeks.', highlights: ['weeks'], size: 48, pos: 'left', media: {src: 'prep/pr34_twoweeks.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Add more only if|your location,', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'prep/pr35_location.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Add more only if|your location,', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'prep/pr35_location.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'household needs, or risks', highlights: ['risks'], size: 50, pos: 'upper', media: {src: 'prep/pr36_risks.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'household needs, or risks', highlights: ['risks'], size: 50, pos: 'upper', media: {src: 'prep/pr36_risks.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'make it necessary.', highlights: ['necessary'], size: 52, pos: 'right', media: {src: 'prep/pr37_necessary.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'make it necessary.', highlights: ['necessary'], size: 52, pos: 'right', media: {src: 'prep/pr37_necessary.jpg', type: 'img', effect: 'in'}},
   // 38
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'Some people see|long-term stockpiling', highlights: ['stockpiling'], size: 48, pos: 'lowerRight', media: {src: 'prep/pr38_stockpiling.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'as smart preparation.', highlights: ['smart'], size: 52, pos: 'upperLeft', media: {src: 'prep/pr39_smart.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'as smart preparation.', highlights: ['smart'], size: 52, pos: 'upperLeft', media: {src: 'prep/pr39_smart.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Others worry it can lead|to panic buying,', highlights: ['panic'], size: 44, pos: 'left', media: {src: 'prep/pr40_panic.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Others worry it can lead|to panic buying,', highlights: ['panic'], size: 44, pos: 'left', media: {src: 'prep/pr40_panic.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'unnecessary spending,', highlights: ['unnecessary'], size: 52, pos: 'lowerRight', media: {src: 'prep/pr41_spending.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'unnecessary spending,', highlights: ['unnecessary'], size: 52, pos: 'lowerRight', media: {src: 'prep/pr41_spending.jpg', type: 'img', effect: 'in'}},
   // 42 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'And supplies that expire|before they’re ever used.'},
+  {dur: 104, kind: 'impact', redBg: true, text: 'And supplies that expire|before they’re ever used.'},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'prep/pr43_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 24, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'prep/pr43_think.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Is a 90-day|emergency supply', highlights: [], size: 48, pos: 'right', media: {src: 'prep/pr44_supply.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'Is a 90-day|emergency supply', highlights: [], size: 48, pos: 'right', media: {src: 'prep/pr44_supply.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'sensible preparation,', highlights: ['sensible'], size: 52, pos: 'lowerLeft', media: {src: 'prep/pr45_sensible.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'sensible preparation,', highlights: ['sensible'], size: 52, pos: 'lowerLeft', media: {src: 'prep/pr45_sensible.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'or is two weeks enough', highlights: ['enough'], size: 46, pos: 'left', media: {src: 'prep/pr46_enough.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'or is two weeks enough', highlights: ['enough'], size: 46, pos: 'left', media: {src: 'prep/pr46_enough.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'for most families?', highlights: ['families?'], size: 52, pos: 'upperRight', media: {src: 'prep/pr47_families.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'for most families?', highlights: ['families?'], size: 52, pos: 'upperRight', media: {src: 'prep/pr47_families.jpg', type: 'img', effect: 'in'}},
   // 48 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'prep/pr48_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'prep/pr48_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 544, src: 'media/sfx_whoosh.mp3', vol: 0.33},
+  {at: 1220, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1497, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2392, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2710, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
