@@ -5109,3 +5109,13 @@ wikimedia:Donald_Trump_official_portrait.jpg diesel/p_trump.jpg (2017 official p
 6590918 prep/pr46_enough.jpg
 3171134 prep/pr47_families.jpg
 6612376 prep/pr48_comments.jpg
+30596223 prep/pn00_world.jpg
+29494815 prep/pn08_news.jpg
+30596210 prep/pn09_map.jpg
+40270826 prep/pn12_cyber.jpg
+16719781 prep/pn13_power.jpg
+18717541 prep/pn14_cargo.jpg
+532001 prep/pn24_ems.jpg
+19124430 prep/pn28_base.jpg
+6783421 prep/pn43_weather.jpg
+4170433 prep/pn44_infra.jpg
