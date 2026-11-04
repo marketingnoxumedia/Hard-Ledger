@@ -108,112 +108,118 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Chinese tech giants|have ordered around', kicker: 'The shortage', highlights: [], size: 48, media: {src: 'china/cn00_tech.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'hook', reveal: [3, 40], text: 'Chinese tech giants|have ordered around', kicker: 'The shortage', highlights: [], size: 48, media: {src: 'china/cn00_tech.jpg', type: 'img', effect: 'in'}},
   // 1 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 70, post: 'BILLION'}, media: {src: 'china/cn01_card70b.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'stat', stat: {prefix: '$', value: 70, post: 'BILLION'}, media: {src: 'china/cn01_card70b.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'worth of Nvidia chips.', highlights: ['chips.'], size: 50, pos: 'upperRight', media: {src: 'china/cn02_chips.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'worth of Nvidia chips.', highlights: ['chips.'], size: 50, pos: 'upperRight', media: {src: 'china/cn02_chips.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s the shocking part:', highlights: ['shocking'], size: 46, pos: 'left', media: {src: 'china/cn03_shock.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'But here’s the shocking part:', highlights: ['shocking'], size: 46, pos: 'left', media: {src: 'china/cn03_shock.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'they may receive just 1%', highlights: ['1%'], size: 46, pos: 'lowerRight', media: {src: 'china/cn04_onepct.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2], text: 'they may receive just 1%', highlights: ['1%'], size: 46, pos: 'lowerRight', media: {src: 'china/cn04_onepct.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'of what they requested', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'china/cn05_requested.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'of what they requested', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'china/cn05_requested.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'over the next four months.', highlights: ['four'], size: 46, pos: 'right', media: {src: 'china/cn06_months.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'over the next four months.', highlights: ['four'], size: 46, pos: 'right', media: {src: 'china/cn06_months.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'So why are companies like', highlights: [], size: 46, pos: 'lower', media: {src: 'china/cn07_companies.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'So why are companies like', highlights: [], size: 46, pos: 'lower', media: {src: 'china/cn07_companies.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'Alibaba, Tencent, and ByteDance', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'china/cn08_giants.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2], text: 'Alibaba, Tencent, and ByteDance', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'china/cn08_giants.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'struggling to get|their hands on these chips,', highlights: ['struggling'], size: 44, pos: 'upperRight', media: {src: 'china/cn09_struggle.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'struggling to get|their hands on these chips,', highlights: ['struggling'], size: 44, pos: 'upperRight', media: {src: 'china/cn09_struggle.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'even with billions of dollars|ready to spend?', highlights: ['billions'], size: 44, pos: 'lowerLeft', media: {src: 'china/cn10_billions.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'even with billions of dollars|ready to spend?', highlights: ['billions'], size: 44, pos: 'lowerLeft', media: {src: 'china/cn10_billions.jpg', type: 'img', effect: 'in'}},
   // 11 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['follow'], size: 50, pos: 'right', media: {src: 'china/cn11_followphone.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['follow'], size: 50, pos: 'right', media: {src: 'china/cn11_followphone.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on the global AI race|and the companies driving it.', highlights: ['race'], size: 44, pos: 'left', media: {src: 'china/cn12_airace.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'on the global AI race|and the companies driving it.', highlights: ['race'], size: 44, pos: 'left', media: {src: 'china/cn12_airace.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'China is desperately trying', highlights: ['desperately'], size: 50, pos: 'lowerRight', media: {src: 'china/cn13_china.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'China is desperately trying', highlights: ['desperately'], size: 50, pos: 'lowerRight', media: {src: 'china/cn13_china.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to expand its artificial|intelligence industry.', highlights: ['intelligence'], size: 44, pos: 'upper', media: {src: 'china/cn14_ai.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'to expand its artificial|intelligence industry.', highlights: ['intelligence'], size: 44, pos: 'upper', media: {src: 'china/cn14_ai.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'But US export restrictions', highlights: ['restrictions'], size: 50, pos: 'left', media: {src: 'china/cn15_restrictions.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'But US export restrictions', highlights: ['restrictions'], size: 50, pos: 'left', media: {src: 'china/cn15_restrictions.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'have blocked access', highlights: ['blocked'], size: 52, pos: 'right', media: {src: 'china/cn16_blocked.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'have blocked access', highlights: ['blocked'], size: 52, pos: 'right', media: {src: 'china/cn16_blocked.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to Nvidia’s most powerful|AI processors,', highlights: ['powerful'], size: 44, pos: 'lowerLeft', media: {src: 'china/cn17_processors.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'to Nvidia’s most powerful|AI processors,', highlights: ['powerful'], size: 44, pos: 'lowerLeft', media: {src: 'china/cn17_processors.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'forcing Chinese companies|to look for alternatives.', highlights: ['alternatives.'], size: 44, pos: 'upperRight', media: {src: 'china/cn18_alternatives.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'forcing Chinese companies|to look for alternatives.', highlights: ['alternatives.'], size: 44, pos: 'upperRight', media: {src: 'china/cn18_alternatives.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'According to Bloomberg,', highlights: [], size: 52, pos: 'left', media: {src: 'china/cn19_news.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'According to Bloomberg,', highlights: [], size: 52, pos: 'left', media: {src: 'china/cn19_news.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Chinese companies have ordered|approximately', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'china/cn20_ordered.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'Chinese companies have ordered|approximately', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'china/cn20_ordered.jpg', type: 'img', effect: 'in'}},
   // 21 CARD
-  {dur: 70, kind: 'stat', stat: {value: 6, post: 'MILLION CHIPS'}, media: {src: 'china/cn21_card6m.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'stat', stat: {value: 6, post: 'MILLION CHIPS'}, media: {src: 'china/cn21_card6m.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nvidia RTX Pro 5500 chips,', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'china/cn22_gpu.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'Nvidia RTX Pro 5500 chips,', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'china/cn22_gpu.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'each costing more than', highlights: [], size: 50, pos: 'right', media: {src: 'china/cn23_costing.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'each costing more than', highlights: [], size: 50, pos: 'right', media: {src: 'china/cn23_costing.jpg', type: 'img', effect: 'in'}},
   // 24 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 11000, post: 'EACH'}, media: {src: 'china/cn24_card11k.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'stat', stat: {prefix: '$', value: 11000, post: 'EACH'}, media: {src: 'china/cn24_card11k.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'But they expect to receive', highlights: [], size: 46, pos: 'lower', media: {src: 'china/cn25_receive.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'But they expect to receive', highlights: [], size: 46, pos: 'lower', media: {src: 'china/cn25_receive.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'only tens of thousands', highlights: ['tens'], size: 50, pos: 'upperRight', media: {src: 'china/cn26_tens.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'only tens of thousands', highlights: ['tens'], size: 50, pos: 'upperRight', media: {src: 'china/cn26_tens.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'over the next four months.', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'china/cn27_months2.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'over the next four months.', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'china/cn27_months2.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'That’s roughly', highlights: [], size: 52, pos: 'left', media: {src: 'china/cn28_roughly.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'That’s roughly', highlights: [], size: 52, pos: 'left', media: {src: 'china/cn28_roughly.jpg', type: 'img', effect: 'in'}},
   // 29 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'JUST', value: 1, suffix: '%', post: 'OF ORDERS'}, media: {src: 'china/cn29_card1pct.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'stat', stat: {pre: 'JUST', value: 1, suffix: '%', post: 'OF ORDERS'}, media: {src: 'china/cn29_card1pct.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the shortage isn’t just|about government restrictions.', highlights: ['shortage'], size: 44, pos: 'right', media: {src: 'china/cn30_govt.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'And the shortage isn’t just|about government restrictions.', highlights: ['shortage'], size: 44, pos: 'right', media: {src: 'china/cn30_govt.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nvidia is prioritizing production', highlights: ['prioritizing'], size: 50, pos: 'lowerRight', media: {src: 'china/cn31_production.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2], text: 'Nvidia is prioritizing production', highlights: ['prioritizing'], size: 50, pos: 'lowerRight', media: {src: 'china/cn31_production.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'of more advanced,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'china/cn32_advanced.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'of more advanced,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'china/cn32_advanced.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'higher-margin chips', highlights: ['higher-margin'], size: 52, pos: 'right', media: {src: 'china/cn33_margin.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'higher-margin chips', highlights: ['higher-margin'], size: 52, pos: 'right', media: {src: 'china/cn33_margin.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for major AI customers|like OpenAI and Anthropic.', highlights: [], size: 44, pos: 'upperRight', media: {src: 'china/cn34_customers.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 28], text: 'for major AI customers|like OpenAI and Anthropic.', highlights: [], size: 44, pos: 'upperRight', media: {src: 'china/cn34_customers.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'This could make it harder', highlights: ['harder'], size: 46, pos: 'left', media: {src: 'china/cn35_harder.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'This could make it harder', highlights: ['harder'], size: 46, pos: 'left', media: {src: 'china/cn35_harder.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for Chinese AI companies|to compete', highlights: ['compete'], size: 44, pos: 'lowerLeft', media: {src: 'china/cn36_compete.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'for Chinese AI companies|to compete', highlights: ['compete'], size: 44, pos: 'lowerLeft', media: {src: 'china/cn36_compete.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'with American technology leaders.', highlights: ['leaders.'], size: 50, pos: 'upper', media: {src: 'china/cn37_leaders.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'with American technology leaders.', highlights: ['leaders.'], size: 50, pos: 'upper', media: {src: 'china/cn37_leaders.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'Meanwhile, local manufacturers', highlights: [], size: 52, pos: 'right', media: {src: 'china/cn38_local.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'Meanwhile, local manufacturers', highlights: [], size: 52, pos: 'right', media: {src: 'china/cn38_local.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'like Huawei and Cambricon', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'china/cn39_makers.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'like Huawei and Cambricon', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'china/cn39_makers.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'are trying to fill the gap.', highlights: ['gap.'], size: 42, pos: 'upperLeft', media: {src: 'china/cn40_gap.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'are trying to fill the gap.', highlights: ['gap.'], size: 42, pos: 'upperLeft', media: {src: 'china/cn40_gap.jpg', type: 'img', effect: 'in'}},
   // 41 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Here’s the bigger|problem.'},
+  {dur: 36, kind: 'impact', redBg: true, text: 'Here’s the bigger|problem.'},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'Washington wants to limit', highlights: [], size: 50, pos: 'left', media: {src: 'china/cn42_limit.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Washington wants to limit', highlights: [], size: 50, pos: 'left', media: {src: 'china/cn42_limit.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'China’s access to advanced|American technology,', highlights: ['access'], size: 44, pos: 'lowerRight', media: {src: 'china/cn43_access.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'China’s access to advanced|American technology,', highlights: ['access'], size: 44, pos: 'lowerRight', media: {src: 'china/cn43_access.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'but those restrictions|could also push', highlights: [], size: 44, pos: 'upperRight', media: {src: 'china/cn44_push.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'but those restrictions|could also push', highlights: [], size: 44, pos: 'upperRight', media: {src: 'china/cn44_push.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Chinese companies to develop|their own chip industry faster.', highlights: ['faster.'], size: 44, pos: 'right', media: {src: 'china/cn45_ownchips.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'text', reveal: [2, 28], text: 'Chinese companies to develop|their own chip industry faster.', highlights: ['faster.'], size: 44, pos: 'right', media: {src: 'china/cn45_ownchips.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'china/cn46_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'china/cn46_think.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Are US chip restrictions|slowing China’s AI ambitions,', highlights: ['slowing'], size: 44, pos: 'left', media: {src: 'china/cn47_slowing.jpg', type: 'img', effect: 'in'}},
+  {dur: 109, kind: 'text', reveal: [2, 28], text: 'Are US chip restrictions|slowing China’s AI ambitions,', highlights: ['slowing'], size: 44, pos: 'left', media: {src: 'china/cn47_slowing.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or are they giving China|an even bigger reason', highlights: ['bigger'], size: 44, pos: 'upperRight', media: {src: 'china/cn48_reason.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', reveal: [2, 28], text: 'or are they giving China|an even bigger reason', highlights: ['bigger'], size: 44, pos: 'upperRight', media: {src: 'china/cn48_reason.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'to build its own technology?', highlights: ['technology?'], size: 46, pos: 'lower', media: {src: 'china/cn49_buildown.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2], text: 'to build its own technology?', highlights: ['technology?'], size: 46, pos: 'lower', media: {src: 'china/cn49_buildown.jpg', type: 'img', effect: 'in'}},
   // 50 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'china/cn50_commentsphone.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'china/cn50_commentsphone.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 77, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1312, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1461, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1679, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2440, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3129, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
