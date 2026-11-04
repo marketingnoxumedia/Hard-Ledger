@@ -188,6 +188,7 @@ import {PrepReel, DURATION_IN_FRAMES as PREP_FRAMES} from './PrepReel';
 import {DualReel, DURATION_IN_FRAMES as DUAL_FRAMES} from './DualReel';
 import {VoyagerReel, DURATION_IN_FRAMES as VOYAGER_FRAMES} from './VoyagerReel';
 import {CarrierReel, DURATION_IN_FRAMES as CARRIER_FRAMES} from './CarrierReel';
+import {AmdReel, DURATION_IN_FRAMES as AMD_FRAMES} from './AmdReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1701,6 +1702,14 @@ export const RemotionRoot: React.FC = () => {
         id="CarrierReel"
         component={CarrierReel}
         durationInFrames={CARRIER_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="AmdReel"
+        component={AmdReel}
+        durationInFrames={AMD_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
