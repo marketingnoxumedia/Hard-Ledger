@@ -73,7 +73,7 @@ type SceneDef = {
 };
 
 // ---------------------------------------------------------------------------
-// "The carrier" reel (SpaceXReel) — Hard Ledger house VISUAL format, tech / space / telecom business news topic.
+// "The carrier" reel (CarrierReel) — Hard Ledger house VISUAL format, tech / space / telecom business news topic.
 // TOPIC: SpaceX / Starlink aiming to become a US cellphone carrier. Beyond satellite internet, SpaceX wants to offer
 // mobile phone service using Starlink satellites, wireless spectrum and traditional cell towers — reportedly targeting
 // at least 80,000 cell sites across the US, negotiating access to cellular infrastructure, and securing an agreement to
@@ -90,9 +90,9 @@ type SceneDef = {
 // A MARKET RULED BY / 3 / MAJOR COMPANIES (the script's hard figures). 1 red impact at the CONTROVERSY pivot
 // ("Aren't / convinced." — the telecom skeptics; reel closes on the comments-CTA media beat, not the red card), no black
 // beat. Captions match the VO verbatim (figures as numerals only on the two cards; "2028" kept inline as spoken).
-// Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (public/spacex/voiceover.mp3).
+// Durations/reveals/SFX locked to the VO via a scribe_v1 word-timestamp anchor pass (public/carrier/voiceover.mp3).
 // Built at the house +10% pacing default; its own driving, cinematic tech/space music mixed at 0.2. OWN distinct footage
-// under public/spacex/ (49 stills), NO reuse of any other reel's clips — ledger-checked.
+// under public/carrier/ (49 stills), NO reuse of any other reel's clips — ledger-checked.
 // FOOTAGE is strictly BRAND-FREE and GENERIC — because the reel names SpaceX, Starlink and three real carriers, NONE of
 // their assets appear: NO SpaceX / Starlink logo / wordmark, NO AT&T / Verizon / T-Mobile logo / store / livery, NO
 // identifiable Falcon / Starship rocket with markings, NO Elon Musk or any identifiable face, NO readable text / signage
@@ -109,110 +109,114 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Elon Musk wants SpaceX|to take on AT&T,', kicker: 'The carrier', highlights: [], size: 48, media: {src: 'spacex/sx00_satnight.jpg', type: 'img', effect: 'in'}},
+  {dur: 112, kind: 'hook', reveal: [3, 40], text: 'Elon Musk wants SpaceX|to take on AT&T,', kicker: 'The carrier', highlights: [], size: 48, media: {src: 'carrier/sx00_satnight.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'Verizon, and T-Mobile.', highlights: [], size: 52, pos: 'upperRight', media: {src: 'spacex/sx01_celltowers.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'Verizon, and T-Mobile.', highlights: [], size: 52, pos: 'upperRight', media: {src: 'carrier/sx01_celltowers.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'And by 2028, Starlink', highlights: ['2028,'], size: 50, pos: 'left', media: {src: 'spacex/sx02_satstreaks.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2], text: 'And by 2028, Starlink', highlights: ['2028,'], size: 50, pos: 'left', media: {src: 'carrier/sx02_satstreaks.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'could become a major competitor', highlights: ['competitor'], size: 46, pos: 'lowerRight', media: {src: 'spacex/sx03_race.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'could become a major competitor', highlights: ['competitor'], size: 46, pos: 'lowerRight', media: {src: 'carrier/sx03_race.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'in America’s cellphone market.', highlights: ['cellphone'], size: 50, pos: 'upperLeft', media: {src: 'spacex/sx04_networkmap.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'in America’s cellphone market.', highlights: ['cellphone'], size: 50, pos: 'upperLeft', media: {src: 'carrier/sx04_networkmap.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But this isn’t just about|connecting phones to satellites.', highlights: ['satellites.'], size: 44, pos: 'right', media: {src: 'spacex/sx05_dishsky.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 28], text: 'But this isn’t just about|connecting phones to satellites.', highlights: ['satellites.'], size: 44, pos: 'right', media: {src: 'carrier/sx05_dishsky.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Musk is planning something|much bigger:', highlights: ['bigger:'], size: 44, pos: 'lower', media: {src: 'spacex/sx06_vastscale.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'Musk is planning something|much bigger:', highlights: ['bigger:'], size: 44, pos: 'lower', media: {src: 'carrier/sx06_vastscale.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'building a nationwide|wireless network.', highlights: ['network.'], size: 48, pos: 'upperLeft', media: {src: 'spacex/sx07_networknodes.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'building a nationwide|wireless network.', highlights: ['network.'], size: 48, pos: 'upperLeft', media: {src: 'carrier/sx07_networknodes.jpg', type: 'img', effect: 'in'}},
   // 8 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['follow'], size: 50, pos: 'upperRight', media: {src: 'spacex/sx08_followphone.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['follow'], size: 50, pos: 'upperRight', media: {src: 'carrier/sx08_followphone.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on technology and the companies|changing the world.', highlights: ['world.'], size: 44, pos: 'lowerLeft', media: {src: 'spacex/sx09_globe.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'text', reveal: [2, 28], text: 'on technology and the companies|changing the world.', highlights: ['world.'], size: 44, pos: 'lowerLeft', media: {src: 'carrier/sx09_globe.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'SpaceX is moving beyond|satellite internet.', highlights: ['internet.'], size: 44, pos: 'right', media: {src: 'spacex/sx10_dishnight.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'SpaceX is moving beyond|satellite internet.', highlights: ['internet.'], size: 44, pos: 'right', media: {src: 'carrier/sx10_dishnight.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It wants to offer|mobile phone service', highlights: ['mobile'], size: 44, pos: 'left', media: {src: 'spacex/sx11_phoneperson.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'It wants to offer|mobile phone service', highlights: ['mobile'], size: 44, pos: 'left', media: {src: 'carrier/sx11_phoneperson.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'using Starlink satellites,', highlights: ['satellites,'], size: 52, pos: 'lowerRight', media: {src: 'spacex/sx12_constellation.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'using Starlink satellites,', highlights: ['satellites,'], size: 52, pos: 'lowerRight', media: {src: 'carrier/sx12_constellation.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'wireless spectrum,', highlights: ['spectrum,'], size: 52, pos: 'upper', media: {src: 'spacex/sx13_spectrumwave.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'wireless spectrum,', highlights: ['spectrum,'], size: 52, pos: 'upper', media: {src: 'carrier/sx13_spectrumwave.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'and traditional cell towers.', highlights: ['towers.'], size: 50, pos: 'left', media: {src: 'spacex/sx14_celltower2.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'and traditional cell towers.', highlights: ['towers.'], size: 50, pos: 'left', media: {src: 'carrier/sx14_celltower2.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'According to reports, SpaceX|is targeting at least', highlights: [], size: 44, pos: 'right', media: {src: 'spacex/sx15_data.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'According to reports, SpaceX|is targeting at least', highlights: [], size: 44, pos: 'right', media: {src: 'carrier/sx15_data.jpg', type: 'img', effect: 'in'}},
   // 16 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'TARGETING AT LEAST', value: 80000, post: 'CELL SITES'}, media: {src: 'spacex/sx16_towerarray.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'stat', stat: {pre: 'TARGETING AT LEAST', value: 80000, post: 'CELL SITES'}, media: {src: 'carrier/sx16_towerarray.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'across the United States', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'spacex/sx17_usnetwork.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'across the United States', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'carrier/sx17_usnetwork.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'and has been negotiating', highlights: ['negotiating'], size: 50, pos: 'upperRight', media: {src: 'spacex/sx18_handshake.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'and has been negotiating', highlights: ['negotiating'], size: 50, pos: 'upperRight', media: {src: 'carrier/sx18_handshake.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'access to cellular infrastructure.', highlights: ['infrastructure.'], size: 50, pos: 'left', media: {src: 'spacex/sx19_infra.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2], text: 'access to cellular infrastructure.', highlights: ['infrastructure.'], size: 50, pos: 'left', media: {src: 'carrier/sx19_infra.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The company has also secured|an agreement to acquire', highlights: ['agreement'], size: 44, pos: 'lowerRight', media: {src: 'spacex/sx20_contract.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'The company has also secured|an agreement to acquire', highlights: ['agreement'], size: 44, pos: 'lowerRight', media: {src: 'carrier/sx20_contract.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'valuable wireless spectrum,', highlights: ['spectrum,'], size: 52, pos: 'upperLeft', media: {src: 'spacex/sx21_spectrum2.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'valuable wireless spectrum,', highlights: ['spectrum,'], size: 52, pos: 'upperLeft', media: {src: 'carrier/sx21_spectrum2.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'helping it expand coverage', highlights: ['coverage'], size: 50, pos: 'right', media: {src: 'spacex/sx22_coveragerings.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'helping it expand coverage', highlights: ['coverage'], size: 50, pos: 'right', media: {src: 'carrier/sx22_coveragerings.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'beyond satellite connections.', highlights: ['connections.'], size: 52, pos: 'lower', media: {src: 'spacex/sx23_satlink.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'beyond satellite connections.', highlights: ['connections.'], size: 52, pos: 'lower', media: {src: 'carrier/sx23_satlink.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'SpaceX is targeting', highlights: [], size: 52, pos: 'upperRight', media: {src: 'spacex/sx24_antennafield.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'SpaceX is targeting', highlights: [], size: 52, pos: 'upperRight', media: {src: 'carrier/sx24_antennafield.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'the first half of 2028', highlights: ['2028'], size: 46, pos: 'lowerLeft', media: {src: 'spacex/sx25_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'the first half of 2028', highlights: ['2028'], size: 46, pos: 'lowerLeft', media: {src: 'carrier/sx25_calendar.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for its own mobile|satellite service.', highlights: ['satellite'], size: 44, pos: 'left', media: {src: 'spacex/sx26_satellite.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'for its own mobile|satellite service.', highlights: ['satellite'], size: 44, pos: 'left', media: {src: 'carrier/sx26_satellite.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Elon Musk believes|the company can build a network', highlights: ['network'], size: 44, pos: 'right', media: {src: 'spacex/sx27_towersrising.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'Elon Musk believes|the company can build a network', highlights: ['network'], size: 44, pos: 'right', media: {src: 'carrier/sx27_towersrising.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'capable of competing', highlights: ['competing'], size: 52, pos: 'lowerRight', media: {src: 'spacex/sx28_arena.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'capable of competing', highlights: ['competing'], size: 52, pos: 'lowerRight', media: {src: 'carrier/sx28_arena.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'with traditional carriers.', highlights: ['carriers.'], size: 52, pos: 'upperLeft', media: {src: 'spacex/sx29_towerrow.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'with traditional carriers.', highlights: ['carriers.'], size: 52, pos: 'upperLeft', media: {src: 'carrier/sx29_towerrow.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'If successful, this could', highlights: [], size: 50, pos: 'right', media: {src: 'spacex/sx30_sunrise.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'If successful, this could', highlights: [], size: 50, pos: 'right', media: {src: 'carrier/sx30_sunrise.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'introduce a powerful|new competitor', highlights: ['powerful'], size: 48, pos: 'upperRight', media: {src: 'spacex/sx31_energy.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'introduce a powerful|new competitor', highlights: ['powerful'], size: 48, pos: 'upperRight', media: {src: 'carrier/sx31_energy.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'into a market dominated by', highlights: [], size: 46, pos: 'left', media: {src: 'spacex/sx32_market.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'into a market dominated by', highlights: [], size: 46, pos: 'left', media: {src: 'carrier/sx32_market.jpg', type: 'img', effect: 'in'}},
   // 33 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'A MARKET RULED BY', value: 3, post: 'MAJOR COMPANIES'}, media: {src: 'spacex/sx33_threepillars.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'A MARKET RULED BY', value: 3, post: 'MAJOR COMPANIES'}, media: {src: 'carrier/sx33_threepillars.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'potentially creating more choices', highlights: ['choices'], size: 50, pos: 'lowerLeft', media: {src: 'spacex/sx34_paths.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'potentially creating more choices', highlights: ['choices'], size: 50, pos: 'lowerLeft', media: {src: 'carrier/sx34_paths.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and price competition|for consumers.', highlights: ['price'], size: 48, pos: 'upper', media: {src: 'spacex/sx35_pricegraph.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'and price competition|for consumers.', highlights: ['price'], size: 48, pos: 'upper', media: {src: 'carrier/sx35_pricegraph.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'But the telecom giants', highlights: ['giants'], size: 50, pos: 'right', media: {src: 'spacex/sx36_bigtowers.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'But the telecom giants', highlights: ['giants'], size: 50, pos: 'right', media: {src: 'carrier/sx36_bigtowers.jpg', type: 'img', effect: 'in'}},
   // 37 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Aren’t|convinced.'},
+  {dur: 26, kind: 'impact', redBg: true, text: 'Aren’t|convinced.'},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'Building a nationwide network', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'spacex/sx38_construction.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'Building a nationwide network', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'carrier/sx38_construction.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'could cost hundreds', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'spacex/sx39_goldbars.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'could cost hundreds', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'carrier/sx39_goldbars.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'of billions of dollars,', highlights: ['billions'], size: 50, pos: 'left', media: {src: 'spacex/sx40_vault.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'of billions of dollars,', highlights: ['billions'], size: 50, pos: 'left', media: {src: 'carrier/sx40_vault.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'and satellites alone cannot', highlights: ['alone'], size: 50, pos: 'lowerRight', media: {src: 'spacex/sx41_lonesat.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'and satellites alone cannot', highlights: ['alone'], size: 50, pos: 'lowerRight', media: {src: 'carrier/sx41_lonesat.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'easily match traditional|cell towers', highlights: ['towers'], size: 48, pos: 'upperRight', media: {src: 'spacex/sx42_towervssat.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'easily match traditional|cell towers', highlights: ['towers'], size: 48, pos: 'upperRight', media: {src: 'carrier/sx42_towervssat.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'in crowded cities', highlights: ['crowded'], size: 52, pos: 'right', media: {src: 'spacex/sx43_cityskyline.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'in crowded cities', highlights: ['crowded'], size: 52, pos: 'right', media: {src: 'carrier/sx43_cityskyline.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'and indoor locations.', highlights: ['indoor'], size: 52, pos: 'lowerLeft', media: {src: 'spacex/sx44_indoor.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'and indoor locations.', highlights: ['indoor'], size: 52, pos: 'lowerLeft', media: {src: 'carrier/sx44_indoor.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'So, could Starlink actually', highlights: [], size: 50, pos: 'left', media: {src: 'spacex/sx45_satquestion.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'So, could Starlink actually', highlights: [], size: 50, pos: 'left', media: {src: 'carrier/sx45_satquestion.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'replace traditional|cellphone providers,', highlights: ['replace'], size: 50, pos: 'upperRight', media: {src: 'spacex/sx46_swap.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'replace traditional|cellphone providers,', highlights: ['replace'], size: 50, pos: 'upperRight', media: {src: 'carrier/sx46_swap.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'or is Musk taking on', highlights: [], size: 46, pos: 'lower', media: {src: 'spacex/sx47_mountain.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'or is Musk taking on', highlights: [], size: 46, pos: 'lower', media: {src: 'carrier/sx47_mountain.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a challenge that’s bigger than|he expects?', highlights: ['bigger'], size: 44, pos: 'right', media: {src: 'spacex/sx48_goliath.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'a challenge that’s bigger than|he expects?', highlights: ['bigger'], size: 44, pos: 'right', media: {src: 'carrier/sx48_goliath.jpg', type: 'img', effect: 'in'}},
   // 49 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'spacex/sx49_commentsphone.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'carrier/sx49_commentsphone.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1175, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2214, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2433, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3058, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
@@ -507,14 +511,14 @@ const renderScene = (s: SceneDef, mode: string) => {
 };
 
 // ---------------------------------------------------------------------------
-export const SpaceXReel: React.FC = () => {
+export const CarrierReel: React.FC = () => {
   const frame = useCurrentFrame();
   const globalOpacity = interpolate(frame, [0, 12, DURATION_IN_FRAMES - 16, DURATION_IN_FRAMES], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill style={{backgroundColor: C.bg}}>
-      {HAS_VOICEOVER ? <Audio src={staticFile('spacex/voiceover.mp3')} /> : null}
+      {HAS_VOICEOVER ? <Audio src={staticFile('carrier/voiceover.mp3')} /> : null}
       <Audio
-        src={staticFile('spacex/music.mp3')}
+        src={staticFile('carrier/music.mp3')}
         volume={(f) => interpolate(f, [0, 20, DURATION_IN_FRAMES - 55, DURATION_IN_FRAMES], [0, 0.2, 0.2, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
       />
       {SFX.map((s, i) => (
