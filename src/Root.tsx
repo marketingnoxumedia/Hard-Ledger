@@ -187,6 +187,7 @@ import {TokenReel, DURATION_IN_FRAMES as TOKEN_FRAMES} from './TokenReel';
 import {PrepReel, DURATION_IN_FRAMES as PREP_FRAMES} from './PrepReel';
 import {DualReel, DURATION_IN_FRAMES as DUAL_FRAMES} from './DualReel';
 import {VoyagerReel, DURATION_IN_FRAMES as VOYAGER_FRAMES} from './VoyagerReel';
+import {SpaceXReel, DURATION_IN_FRAMES as SPACEX_FRAMES} from './SpaceXReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1692,6 +1693,14 @@ export const RemotionRoot: React.FC = () => {
         id="VoyagerReel"
         component={VoyagerReel}
         durationInFrames={VOYAGER_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="SpaceXReel"
+        component={SpaceXReel}
+        durationInFrames={SPACEX_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
