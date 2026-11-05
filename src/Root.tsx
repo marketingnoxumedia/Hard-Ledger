@@ -190,6 +190,7 @@ import {VoyagerReel, DURATION_IN_FRAMES as VOYAGER_FRAMES} from './VoyagerReel';
 import {CarrierReel, DURATION_IN_FRAMES as CARRIER_FRAMES} from './CarrierReel';
 import {AmdReel, DURATION_IN_FRAMES as AMD_FRAMES} from './AmdReel';
 import {ChinaReel, DURATION_IN_FRAMES as CHINA_FRAMES} from './ChinaReel';
+import {SellReel, DURATION_IN_FRAMES as SELL_FRAMES} from './SellReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1719,6 +1720,14 @@ export const RemotionRoot: React.FC = () => {
         id="ChinaReel"
         component={ChinaReel}
         durationInFrames={CHINA_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="SellReel"
+        component={SellReel}
+        durationInFrames={SELL_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
