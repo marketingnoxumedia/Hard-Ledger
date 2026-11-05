@@ -192,6 +192,7 @@ import {AmdReel, DURATION_IN_FRAMES as AMD_FRAMES} from './AmdReel';
 import {ChinaReel, DURATION_IN_FRAMES as CHINA_FRAMES} from './ChinaReel';
 import {SellReel, DURATION_IN_FRAMES as SELL_FRAMES} from './SellReel';
 import {RoboticsReel, DURATION_IN_FRAMES as ROBOTICS_FRAMES} from './RoboticsReel';
+import {SelloffReel, DURATION_IN_FRAMES as SELLOFF_FRAMES} from './SelloffReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1737,6 +1738,14 @@ export const RemotionRoot: React.FC = () => {
         id="RoboticsReel"
         component={RoboticsReel}
         durationInFrames={ROBOTICS_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="SelloffReel"
+        component={SelloffReel}
+        durationInFrames={SELLOFF_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
