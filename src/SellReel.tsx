@@ -104,104 +104,110 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Think selling your house means|collecting a huge profit?', kicker: 'The payout', highlights: ['profit?'], size: 48, media: {src: 'sell/sl00_house.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'hook', reveal: [3, 40], text: 'Think selling your house means|collecting a huge profit?', kicker: 'The payout', highlights: ['profit?'], size: 48, media: {src: 'sell/sl00_house.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'Think again.', highlights: ['again.'], size: 52, pos: 'upperRight', media: {src: 'sell/sl01_again.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Think again.', highlights: ['again.'], size: 52, pos: 'upperRight', media: {src: 'sell/sl01_again.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'American homeowners are spending', highlights: [], size: 50, pos: 'left', media: {src: 'sell/sl02_homeowners.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'American homeowners are spending', highlights: [], size: 50, pos: 'left', media: {src: 'sell/sl02_homeowners.jpg', type: 'img', effect: 'in'}},
   // 3 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'NEARLY', prefix: '$', value: 82000, post: 'TO SELL'}, media: {src: 'sell/sl03_card82k.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'stat', stat: {pre: 'NEARLY', prefix: '$', value: 82000, post: 'TO SELL'}, media: {src: 'sell/sl03_card82k.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'just to sell their homes.', highlights: ['homes.'], size: 46, pos: 'lowerRight', media: {src: 'sell/sl04_forsale.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'just to sell their homes.', highlights: ['homes.'], size: 46, pos: 'lowerRight', media: {src: 'sell/sl04_forsale.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'And the biggest expense', highlights: ['biggest'], size: 50, pos: 'upperLeft', media: {src: 'sell/sl05_expense.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'And the biggest expense', highlights: ['biggest'], size: 50, pos: 'upperLeft', media: {src: 'sell/sl05_expense.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'isn’t what most people expect.', highlights: [], size: 46, pos: 'right', media: {src: 'sell/sl06_expect.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'isn’t what most people expect.', highlights: [], size: 46, pos: 'right', media: {src: 'sell/sl06_expect.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'It’s not even', highlights: [], size: 52, pos: 'lower', media: {src: 'sell/sl07_noteven.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'It’s not even', highlights: [], size: 52, pos: 'lower', media: {src: 'sell/sl07_noteven.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the real estate|agent’s commission.', highlights: ['commission.'], size: 48, pos: 'upperLeft', media: {src: 'sell/sl08_commission.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'the real estate|agent’s commission.', highlights: ['commission.'], size: 48, pos: 'upperLeft', media: {src: 'sell/sl08_commission.jpg', type: 'img', effect: 'in'}},
   // 9 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['follow'], size: 50, pos: 'upperRight', media: {src: 'sell/sl09_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['follow'], size: 50, pos: 'upperRight', media: {src: 'sell/sl09_follow.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'about money, housing,|and the economy.', highlights: ['economy.'], size: 44, pos: 'lowerLeft', media: {src: 'sell/sl10_economy.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'about money, housing,|and the economy.', highlights: ['economy.'], size: 44, pos: 'lowerLeft', media: {src: 'sell/sl10_economy.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'According to new research', highlights: [], size: 50, pos: 'right', media: {src: 'sell/sl11_research.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'According to new research', highlights: [], size: 50, pos: 'right', media: {src: 'sell/sl11_research.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'by Clever Real Estate,', highlights: [], size: 50, pos: 'left', media: {src: 'sell/sl12_clever.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'by Clever Real Estate,', highlights: [], size: 50, pos: 'left', media: {src: 'sell/sl12_clever.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'homeowners who sold|within the past three years', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'sell/sl13_sold.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'homeowners who sold|within the past three years', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'sell/sl13_sold.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'spent an average of|nearly $82,000', highlights: ['$82,000'], size: 44, pos: 'upper', media: {src: 'sell/sl14_avg82k.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'spent an average of|nearly $82,000', highlights: ['$82,000'], size: 44, pos: 'upper', media: {src: 'sell/sl14_avg82k.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'on the entire selling process.', highlights: ['process.'], size: 46, pos: 'left', media: {src: 'sell/sl15_process.jpg', type: 'img', effect: 'in'}},
+  {dur: 125, kind: 'text', reveal: [2], text: 'on the entire selling process.', highlights: ['process.'], size: 46, pos: 'left', media: {src: 'sell/sl15_process.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That’s 22% more|than the previous year’s figure.', highlights: ['22%'], size: 44, pos: 'right', media: {src: 'sell/sl16_22pct.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'That’s 22% more|than the previous year’s figure.', highlights: ['22%'], size: 44, pos: 'right', media: {src: 'sell/sl16_22pct.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'Here’s where the money goes.', highlights: ['money'], size: 46, pos: 'lowerLeft', media: {src: 'sell/sl17_moneygoes.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'Here’s where the money goes.', highlights: ['money'], size: 46, pos: 'lowerLeft', media: {src: 'sell/sl17_moneygoes.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Repairs and renovations|cost an average of', highlights: [], size: 44, pos: 'upperRight', media: {src: 'sell/sl18_repairs.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'Repairs and renovations|cost an average of', highlights: [], size: 44, pos: 'upperRight', media: {src: 'sell/sl18_repairs.jpg', type: 'img', effect: 'in'}},
   // 19 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 27649}, media: {src: 'sell/sl19_card27649.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'stat', stat: {prefix: '$', value: 27649}, media: {src: 'sell/sl19_card27649.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'Agent commissions add another', highlights: [], size: 50, pos: 'left', media: {src: 'sell/sl20_commissions2.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'Agent commissions add another', highlights: [], size: 50, pos: 'left', media: {src: 'sell/sl20_commissions2.jpg', type: 'img', effect: 'in'}},
   // 21 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 27448}, media: {src: 'sell/sl21_card27448.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'stat', stat: {prefix: '$', value: 27448}, media: {src: 'sell/sl21_card27448.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Closing costs average|over $11,000,', highlights: ['$11,000,'], size: 48, pos: 'lowerRight', media: {src: 'sell/sl22_closing.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'Closing costs average|over $11,000,', highlights: ['$11,000,'], size: 48, pos: 'lowerRight', media: {src: 'sell/sl22_closing.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while buyer concessions|can add nearly $10,000.', highlights: ['$10,000.'], size: 44, pos: 'upperLeft', media: {src: 'sell/sl23_concessions.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'while buyer concessions|can add nearly $10,000.', highlights: ['$10,000.'], size: 44, pos: 'upperLeft', media: {src: 'sell/sl23_concessions.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'Moving, marketing, and staging', highlights: [], size: 50, pos: 'right', media: {src: 'sell/sl24_staging.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'Moving, marketing, and staging', highlights: [], size: 50, pos: 'right', media: {src: 'sell/sl24_staging.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'push the total even higher.', highlights: ['higher.'], size: 46, pos: 'lower', media: {src: 'sell/sl25_higher.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'push the total even higher.', highlights: ['higher.'], size: 46, pos: 'lower', media: {src: 'sell/sl25_higher.jpg', type: 'img', effect: 'in'}},
   // 26 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'But here’s the|problem.'},
+  {dur: 28, kind: 'impact', redBg: true, text: 'But here’s the|problem.'},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Sellers expected to spend|less than $27,000.', highlights: ['$27,000.'], size: 44, pos: 'upperRight', media: {src: 'sell/sl27_expected.jpg', type: 'img', effect: 'in'}},
+  {dur: 140, kind: 'text', reveal: [2, 28], text: 'Sellers expected to spend|less than $27,000.', highlights: ['$27,000.'], size: 44, pos: 'upperRight', media: {src: 'sell/sl27_expected.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Their actual expenses were|more than three times', highlights: ['three'], size: 44, pos: 'lowerLeft', media: {src: 'sell/sl28_threetimes.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'Their actual expenses were|more than three times', highlights: ['three'], size: 44, pos: 'lowerLeft', media: {src: 'sell/sl28_threetimes.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'that amount.', highlights: ['amount.'], size: 52, pos: 'left', media: {src: 'sell/sl29_amount.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'that amount.', highlights: ['amount.'], size: 52, pos: 'left', media: {src: 'sell/sl29_amount.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And with mortgage rates|keeping buyers cautious,', highlights: ['cautious,'], size: 44, pos: 'right', media: {src: 'sell/sl30_rates.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'And with mortgage rates|keeping buyers cautious,', highlights: ['cautious,'], size: 44, pos: 'right', media: {src: 'sell/sl30_rates.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'sellers are offering|more concessions', highlights: ['concessions'], size: 48, pos: 'lowerRight', media: {src: 'sell/sl31_offering.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'sellers are offering|more concessions', highlights: ['concessions'], size: 48, pos: 'lowerRight', media: {src: 'sell/sl31_offering.jpg', type: 'img', effect: 'in'}},
   // 32
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'and competing harder|to close deals.', highlights: ['harder'], size: 44, pos: 'upperLeft', media: {src: 'sell/sl32_compete.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nearly', highlights: [], size: 52, pos: 'right', media: {src: 'sell/sl33_nearly.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Nearly', highlights: [], size: 52, pos: 'right', media: {src: 'sell/sl33_nearly.jpg', type: 'img', effect: 'in'}},
   // 34 CARD
-  {dur: 70, kind: 'stat', stat: {value: 39, suffix: '%'}, media: {src: 'sell/sl34_card39.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'stat', stat: {value: 39, suffix: '%'}, media: {src: 'sell/sl34_card39.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'said selling costs|reduced their profits', highlights: ['reduced'], size: 44, pos: 'upperRight', media: {src: 'sell/sl35_reduced.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'said selling costs|reduced their profits', highlights: ['reduced'], size: 44, pos: 'upperRight', media: {src: 'sell/sl35_reduced.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'more than expected.', highlights: ['expected.'], size: 52, pos: 'left', media: {src: 'sell/sl36_expected2.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'more than expected.', highlights: ['expected.'], size: 52, pos: 'left', media: {src: 'sell/sl36_expected2.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'Even after changes intended', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'sell/sl37_changes.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'Even after changes intended', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'sell/sl37_changes.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to make real estate commissions|more competitive,', highlights: ['competitive,'], size: 44, pos: 'upper', media: {src: 'sell/sl38_competitive.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'to make real estate commissions|more competitive,', highlights: ['competitive,'], size: 44, pos: 'upper', media: {src: 'sell/sl38_competitive.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'many sellers still pay|both agents’ fees.', highlights: ['both'], size: 44, pos: 'right', media: {src: 'sell/sl39_bothfees.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'many sellers still pay|both agents’ fees.', highlights: ['both'], size: 44, pos: 'right', media: {src: 'sell/sl39_bothfees.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'That raises questions', highlights: ['questions'], size: 52, pos: 'lowerRight', media: {src: 'sell/sl40_questions.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'That raises questions', highlights: ['questions'], size: 52, pos: 'lowerRight', media: {src: 'sell/sl40_questions.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'about how much homeowners|really save from those reforms.', highlights: ['save'], size: 44, pos: 'upperLeft', media: {src: 'sell/sl41_save.jpg', type: 'img', effect: 'in'}},
+  {dur: 126, kind: 'text', reveal: [2, 28], text: 'about how much homeowners|really save from those reforms.', highlights: ['save'], size: 44, pos: 'upperLeft', media: {src: 'sell/sl41_save.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So, would you still|sell your house', highlights: [], size: 44, pos: 'left', media: {src: 'sell/sl42_wouldyou.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'So, would you still|sell your house', highlights: [], size: 44, pos: 'left', media: {src: 'sell/sl42_wouldyou.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'if it meant spending $80,000', highlights: ['$80,000'], size: 46, pos: 'lowerRight', media: {src: 'sell/sl43_80k.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2], text: 'if it meant spending $80,000', highlights: ['$80,000'], size: 46, pos: 'lowerRight', media: {src: 'sell/sl43_80k.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'before counting your mortgage|payoff and taxes?', highlights: ['taxes?'], size: 44, pos: 'upperRight', media: {src: 'sell/sl44_taxes.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'before counting your mortgage|payoff and taxes?', highlights: ['taxes?'], size: 44, pos: 'upperRight', media: {src: 'sell/sl44_taxes.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Or would you wait|for a better market?', highlights: ['market?'], size: 44, pos: 'right', media: {src: 'sell/sl45_market.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'Or would you wait|for a better market?', highlights: ['market?'], size: 44, pos: 'right', media: {src: 'sell/sl45_market.jpg', type: 'img', effect: 'in'}},
   // 46 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'sell/sl46_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'sell/sl46_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 185, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1112, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1233, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1588, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2129, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2931, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
