@@ -111,109 +111,109 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 84, kind: 'hook', reveal: [3, 40], text: 'Elon Musk’s|futuristic Cybertruck', kicker: 'The pivot', highlights: [], size: 54, media: {src: 'pivot/pv00_reveal.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'hook', reveal: [3, 40], text: 'Elon Musk’s|futuristic Cybertruck', kicker: 'The pivot', highlights: [], size: 54, media: {src: 'pivot/pv00_reveal.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'is facing a|major setback.', highlights: ['setback.'], size: 48, pos: 'upperRight', media: {src: 'pivot/pv01_setback.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2, 28], text: 'is facing a|major setback.', highlights: ['setback.'], size: 48, pos: 'upperRight', media: {src: 'pivot/pv01_setback.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'Tesla plans to|wind down production', highlights: ['production'], size: 44, pos: 'left', media: {src: 'pivot/pv02_winddown.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'Tesla plans to|wind down production', highlights: ['production'], size: 44, pos: 'left', media: {src: 'pivot/pv02_winddown.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 42, kind: 'text', reveal: [2], text: 'at its Texas factory', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'pivot/pv03_factory.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'at its Texas factory', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'pivot/pv03_factory.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 66, kind: 'text', reveal: [2], text: 'by mid-2027,', highlights: ['2027,'], size: 52, pos: 'upperLeft', media: {src: 'pivot/pv04_date.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'by mid-2027,', highlights: ['2027,'], size: 52, pos: 'upperLeft', media: {src: 'pivot/pv04_date.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'just a few years|after launching', highlights: [], size: 44, pos: 'right', media: {src: 'pivot/pv05_launch.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'just a few years|after launching', highlights: [], size: 44, pos: 'right', media: {src: 'pivot/pv05_launch.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'the controversial|electric pickup.', highlights: ['controversial'], size: 50, pos: 'lower', media: {src: 'pivot/pv06_pickup.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'the controversial|electric pickup.', highlights: ['controversial'], size: 50, pos: 'lower', media: {src: 'pivot/pv06_pickup.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 29, kind: 'text', reveal: [2], text: 'But here’s the twist.', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'pivot/pv07_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'But here’s the twist.', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'pivot/pv07_twist.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 42, kind: 'text', reveal: [2], text: 'Musk isn’t simply', highlights: [], size: 52, pos: 'upperRight', media: {src: 'pivot/pv08_notsimple.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'Musk isn’t simply', highlights: [], size: 52, pos: 'upperRight', media: {src: 'pivot/pv08_notsimple.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 50, kind: 'text', reveal: [2, 28], text: 'shutting down|a production line.', highlights: ['shutting'], size: 48, pos: 'lowerLeft', media: {src: 'pivot/pv09_line.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'shutting down|a production line.', highlights: ['shutting'], size: 48, pos: 'lowerLeft', media: {src: 'pivot/pv09_line.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 33, kind: 'text', reveal: [2], text: 'He’s making room', highlights: [], size: 52, pos: 'right', media: {src: 'pivot/pv10_room.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'He’s making room', highlights: [], size: 52, pos: 'right', media: {src: 'pivot/pv10_room.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'for a completely|different vehicle', highlights: ['different'], size: 48, pos: 'left', media: {src: 'pivot/pv11_vehicle.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'for a completely|different vehicle', highlights: ['different'], size: 48, pos: 'left', media: {src: 'pivot/pv11_vehicle.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 66, kind: 'text', reveal: [2, 28], text: 'that could define|Tesla’s future.', highlights: ['future.'], size: 48, pos: 'lowerRight', media: {src: 'pivot/pv12_future.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'that could define|Tesla’s future.', highlights: ['future.'], size: 48, pos: 'lowerRight', media: {src: 'pivot/pv12_future.jpg', type: 'img', effect: 'in'}},
   // 13 FOLLOW
-  {dur: 41, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'upper', media: {src: 'pivot/pv13_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'upper', media: {src: 'pivot/pv13_follow.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 91, kind: 'text', reveal: [2, 28], text: 'on the companies shaping|the future of technology.', highlights: [], size: 44, pos: 'left', media: {src: 'pivot/pv14_tech.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'on the companies shaping|the future of technology.', highlights: [], size: 44, pos: 'left', media: {src: 'pivot/pv14_tech.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 76, kind: 'text', reveal: [2, 28], text: 'When the Cybertruck|was unveiled in 2019,', highlights: ['2019,'], size: 44, pos: 'right', media: {src: 'pivot/pv15_unveiled.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'When the Cybertruck|was unveiled in 2019,', highlights: ['2019,'], size: 44, pos: 'right', media: {src: 'pivot/pv15_unveiled.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 72, kind: 'text', reveal: [2, 28], text: 'Musk predicted|annual sales could reach', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'pivot/pv16_predicted.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'Musk predicted|annual sales could reach', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'pivot/pv16_predicted.jpg', type: 'img', effect: 'in'}},
   // 17 CARD
-  {dur: 80, kind: 'stat', stat: {value: 250000, post: 'VEHICLES'}, media: {src: 'pivot/pv17_card250k.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'stat', stat: {value: 250000, post: 'VEHICLES'}, media: {src: 'pivot/pv17_card250k.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 48, kind: 'text', reveal: [2], text: 'Its futuristic design', highlights: [], size: 52, pos: 'upperRight', media: {src: 'pivot/pv18_design.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'Its futuristic design', highlights: [], size: 52, pos: 'upperRight', media: {src: 'pivot/pv18_design.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 40, kind: 'text', reveal: [2], text: 'was supposed to challenge', highlights: ['challenge'], size: 50, pos: 'left', media: {src: 'pivot/pv19_challenge.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'was supposed to challenge', highlights: ['challenge'], size: 50, pos: 'left', media: {src: 'pivot/pv19_challenge.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 45, kind: 'text', reveal: [2], text: 'traditional pickup makers', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'pivot/pv20_makers.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'traditional pickup makers', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'pivot/pv20_makers.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 72, kind: 'text', reveal: [2], text: 'like Ford and General Motors.', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'pivot/pv21_rivals.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'like Ford and General Motors.', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'pivot/pv21_rivals.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'But the numbers|tell a different story.', highlights: ['numbers'], size: 44, pos: 'right', media: {src: 'pivot/pv22_numbers.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'But the numbers|tell a different story.', highlights: ['numbers'], size: 44, pos: 'right', media: {src: 'pivot/pv22_numbers.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 28, kind: 'text', reveal: [2], text: 'Tesla sold just', highlights: [], size: 52, pos: 'lower', media: {src: 'pivot/pv23_soldjust.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Tesla sold just', highlights: [], size: 52, pos: 'lower', media: {src: 'pivot/pv23_soldjust.jpg', type: 'img', effect: 'in'}},
   // 24 CARD
-  {dur: 86, kind: 'stat', stat: {value: 20237, post: 'CYBERTRUCKS'}, media: {src: 'pivot/pv24_card20k.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'stat', stat: {value: 20237, post: 'CYBERTRUCKS'}, media: {src: 'pivot/pv24_card20k.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 48, kind: 'text', reveal: [2, 28], text: 'in the United States|last year,', highlights: [], size: 44, pos: 'upperRight', media: {src: 'pivot/pv25_lastyear.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'in the United States|last year,', highlights: [], size: 44, pos: 'upperRight', media: {src: 'pivot/pv25_lastyear.jpg', type: 'img', effect: 'in'}},
   // 26 CARD
-  {dur: 84, kind: 'stat', stat: {pre: 'DOWN', value: 48, suffix: '%', post: 'FROM 2024'}, media: {src: 'pivot/pv26_card48.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'stat', stat: {pre: 'DOWN', value: 48, suffix: '%', post: 'FROM 2024'}, media: {src: 'pivot/pv26_card48.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'The truck also faced|repeated recalls,', highlights: ['recalls,'], size: 44, pos: 'lowerLeft', media: {src: 'pivot/pv27_recalls.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'The truck also faced|repeated recalls,', highlights: ['recalls,'], size: 44, pos: 'lowerLeft', media: {src: 'pivot/pv27_recalls.jpg', type: 'img', effect: 'in'}},
   // 28
   {dur: 26, kind: 'text', reveal: [2], text: 'high prices,', highlights: ['prices,'], size: 52, pos: 'left', media: {src: 'pivot/pv28_prices.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 48, kind: 'text', reveal: [2], text: 'and regulatory challenges', highlights: ['regulatory'], size: 52, pos: 'right', media: {src: 'pivot/pv29_regulatory.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'and regulatory challenges', highlights: ['regulatory'], size: 52, pos: 'right', media: {src: 'pivot/pv29_regulatory.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 44, kind: 'text', reveal: [2], text: 'that limited its availability', highlights: ['limited'], size: 50, pos: 'lowerRight', media: {src: 'pivot/pv30_limited.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'that limited its availability', highlights: ['limited'], size: 50, pos: 'lowerRight', media: {src: 'pivot/pv30_limited.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 42, kind: 'text', reveal: [2], text: 'in international markets.', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'pivot/pv31_markets.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'in international markets.', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'pivot/pv31_markets.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 41, kind: 'text', reveal: [2], text: 'Now Musk wants to use', highlights: [], size: 46, pos: 'right', media: {src: 'pivot/pv32_nowuse.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'Now Musk wants to use', highlights: [], size: 46, pos: 'right', media: {src: 'pivot/pv32_nowuse.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 55, kind: 'text', reveal: [2], text: 'the Texas factory space', highlights: [], size: 50, pos: 'upperRight', media: {src: 'pivot/pv33_space.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'the Texas factory space', highlights: [], size: 50, pos: 'upperRight', media: {src: 'pivot/pv33_space.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to increase production|of the Cybercab,', highlights: ['Cybercab,'], size: 44, pos: 'left', media: {src: 'pivot/pv34_cybercab.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'to increase production|of the Cybercab,', highlights: ['Cybercab,'], size: 44, pos: 'left', media: {src: 'pivot/pv34_cybercab.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 99, kind: 'text', reveal: [2, 28], text: 'Tesla’s two-seat|autonomous robotaxi.', highlights: ['robotaxi.'], size: 50, pos: 'lowerLeft', media: {src: 'pivot/pv35_robotaxi.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Tesla’s two-seat|autonomous robotaxi.', highlights: ['robotaxi.'], size: 50, pos: 'lowerLeft', media: {src: 'pivot/pv35_robotaxi.jpg', type: 'img', effect: 'in'}},
   // 36 RED
-  {dur: 58, kind: 'impact', redBg: true, text: 'A major|shift.'},
+  {dur: 53, kind: 'impact', redBg: true, text: 'A major|shift.'},
   // 37
-  {dur: 44, kind: 'text', reveal: [2], text: 'in Tesla’s priorities,', highlights: ['priorities,'], size: 52, pos: 'upper', media: {src: 'pivot/pv37_priorities.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'in Tesla’s priorities,', highlights: ['priorities,'], size: 52, pos: 'upper', media: {src: 'pivot/pv37_priorities.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 67, kind: 'text', reveal: [2], text: 'moving factory capacity away', highlights: [], size: 50, pos: 'right', media: {src: 'pivot/pv38_capacity.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'moving factory capacity away', highlights: [], size: 50, pos: 'right', media: {src: 'pivot/pv38_capacity.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 35, kind: 'text', reveal: [2], text: 'from an electric pickup', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'pivot/pv39_pickup2.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'from an electric pickup', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'pivot/pv39_pickup2.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'that struggled to|meet expectations', highlights: ['struggled'], size: 48, pos: 'upperLeft', media: {src: 'pivot/pv40_struggled.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'that struggled to|meet expectations', highlights: ['struggled'], size: 48, pos: 'upperLeft', media: {src: 'pivot/pv40_struggled.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 81, kind: 'text', reveal: [2, 28], text: 'and toward its|ambitious robotaxi business.', highlights: ['ambitious'], size: 44, pos: 'left', media: {src: 'pivot/pv41_ambitious.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'and toward its|ambitious robotaxi business.', highlights: ['ambitious'], size: 44, pos: 'left', media: {src: 'pivot/pv41_ambitious.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'But there’s an|important distinction.', highlights: ['distinction.'], size: 48, pos: 'lowerRight', media: {src: 'pivot/pv42_distinction.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'But there’s an|important distinction.', highlights: ['distinction.'], size: 48, pos: 'lowerRight', media: {src: 'pivot/pv42_distinction.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Tesla has announced|a production wind-down', highlights: [], size: 44, pos: 'upperRight', media: {src: 'pivot/pv43_announced.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'Tesla has announced|a production wind-down', highlights: [], size: 44, pos: 'upperRight', media: {src: 'pivot/pv43_announced.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 44, kind: 'text', reveal: [2], text: 'at its Texas factory,', highlights: [], size: 50, pos: 'right', media: {src: 'pivot/pv44_factory2.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'at its Texas factory,', highlights: [], size: 50, pos: 'right', media: {src: 'pivot/pv44_factory2.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 86, kind: 'text', reveal: [2, 28], text: 'not a confirmed|worldwide cancellation.', highlights: ['cancellation.'], size: 48, pos: 'lowerLeft', media: {src: 'pivot/pv45_cancel.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'not a confirmed|worldwide cancellation.', highlights: ['cancellation.'], size: 48, pos: 'lowerLeft', media: {src: 'pivot/pv45_cancel.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'It’s still unclear|whether production', highlights: ['unclear'], size: 48, pos: 'left', media: {src: 'pivot/pv46_unclear.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'It’s still unclear|whether production', highlights: ['unclear'], size: 48, pos: 'left', media: {src: 'pivot/pv46_unclear.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'will move elsewhere|or end entirely.', highlights: ['entirely.'], size: 44, pos: 'upperRight', media: {src: 'pivot/pv47_entirely.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'will move elsewhere|or end entirely.', highlights: ['entirely.'], size: 44, pos: 'upperRight', media: {src: 'pivot/pv47_entirely.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 34, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lower', media: {src: 'pivot/pv48_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lower', media: {src: 'pivot/pv48_think.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 87, kind: 'text', reveal: [2, 28], text: 'Was the Cybertruck|ahead of its time,', highlights: ['ahead'], size: 44, pos: 'right', media: {src: 'pivot/pv49_ahead.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'Was the Cybertruck|ahead of its time,', highlights: ['ahead'], size: 44, pos: 'right', media: {src: 'pivot/pv49_ahead.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'or did Tesla|completely misjudge', highlights: ['misjudge'], size: 48, pos: 'upperLeft', media: {src: 'pivot/pv50_misjudge.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'or did Tesla|completely misjudge', highlights: ['misjudge'], size: 48, pos: 'upperLeft', media: {src: 'pivot/pv50_misjudge.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'what truck buyers|actually wanted?', highlights: ['wanted?'], size: 48, pos: 'lowerRight', media: {src: 'pivot/pv51_buyers.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'what truck buyers|actually wanted?', highlights: ['wanted?'], size: 48, pos: 'lowerRight', media: {src: 'pivot/pv51_buyers.jpg', type: 'img', effect: 'in'}},
   // 52 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'pivot/pv52_comments.jpg', type: 'img', effect: 'in'}},
 ];
@@ -221,11 +221,11 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 985, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1373, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1507, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2084, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3149, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 896, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1249, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1370, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1894, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2863, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
