@@ -112,114 +112,119 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'America’s AI boom|is running into', kicker: 'The backlash', highlights: [], size: 48, media: {src: 'backlash/bk00_obstacle.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'hook', reveal: [3, 40], text: 'America’s AI boom|is running into', kicker: 'The backlash', highlights: [], size: 48, media: {src: 'backlash/bk00_obstacle.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'a new obstacle,', highlights: ['obstacle,'], size: 52, pos: 'upperRight', media: {src: 'backlash/bk01_newobstacle.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'a new obstacle,', highlights: ['obstacle,'], size: 52, pos: 'upperRight', media: {src: 'backlash/bk01_newobstacle.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and it isn’t|a shortage of chips.', highlights: ['chips.'], size: 44, pos: 'left', media: {src: 'backlash/bk02_notchips.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'and it isn’t|a shortage of chips.', highlights: ['chips.'], size: 44, pos: 'left', media: {src: 'backlash/bk02_notchips.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'It’s a growing backlash', highlights: ['backlash'], size: 50, pos: 'lowerRight', media: {src: 'backlash/bk03_backlash.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'It’s a growing backlash', highlights: ['backlash'], size: 50, pos: 'lowerRight', media: {src: 'backlash/bk03_backlash.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'from people who don’t want', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'backlash/bk04_people.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'from people who don’t want', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'backlash/bk04_people.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'massive data centers|built in their communities.', highlights: ['communities.'], size: 44, pos: 'right', media: {src: 'backlash/bk05_communities.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'massive data centers|built in their communities.', highlights: ['communities.'], size: 44, pos: 'right', media: {src: 'backlash/bk05_communities.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And one state could become|a major turning point:', highlights: ['turning'], size: 44, pos: 'lower', media: {src: 'backlash/bk06_turningpoint.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'And one state could become|a major turning point:', highlights: ['turning'], size: 44, pos: 'lower', media: {src: 'backlash/bk06_turningpoint.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'Georgia,', highlights: ['Georgia,'], size: 52, pos: 'upperLeft', media: {src: 'backlash/bk07_georgia.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Georgia,', highlights: ['Georgia,'], size: 52, pos: 'upperLeft', media: {src: 'backlash/bk07_georgia.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'where the fight over|electricity bills and Big Tech', highlights: ['fight'], size: 44, pos: 'upperRight', media: {src: 'backlash/bk08_fight.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'where the fight over|electricity bills and Big Tech', highlights: ['fight'], size: 44, pos: 'upperRight', media: {src: 'backlash/bk08_fight.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is becoming|increasingly political.', highlights: ['political.'], size: 50, pos: 'lowerLeft', media: {src: 'backlash/bk09_political.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'is becoming|increasingly political.', highlights: ['political.'], size: 50, pos: 'lowerLeft', media: {src: 'backlash/bk09_political.jpg', type: 'img', effect: 'in'}},
   // 10 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'right', media: {src: 'backlash/bk10_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'right', media: {src: 'backlash/bk10_follow.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on the technology and money|shaping the global economy.', highlights: [], size: 44, pos: 'left', media: {src: 'backlash/bk11_economy.jpg', type: 'img', effect: 'in'}},
+  {dur: 124, kind: 'text', reveal: [2, 28], text: 'on the technology and money|shaping the global economy.', highlights: [], size: 44, pos: 'left', media: {src: 'backlash/bk11_economy.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Georgia has become|one of America’s biggest', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'backlash/bk12_biggest.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'Georgia has become|one of America’s biggest', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'backlash/bk12_biggest.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'data center hotspots,', highlights: ['hotspots,'], size: 52, pos: 'upper', media: {src: 'backlash/bk13_hotspots.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'data center hotspots,', highlights: ['hotspots,'], size: 52, pos: 'upper', media: {src: 'backlash/bk13_hotspots.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with Atlanta leading|the country in construction.', highlights: ['leading'], size: 44, pos: 'left', media: {src: 'backlash/bk14_atlanta.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'with Atlanta leading|the country in construction.', highlights: ['leading'], size: 44, pos: 'left', media: {src: 'backlash/bk14_atlanta.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'But these facilities require', highlights: [], size: 50, pos: 'right', media: {src: 'backlash/bk15_require.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'But these facilities require', highlights: [], size: 50, pos: 'right', media: {src: 'backlash/bk15_require.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'enormous amounts of|electricity and water', highlights: ['enormous'], size: 44, pos: 'lowerLeft', media: {src: 'backlash/bk16_electricwater.jpg', type: 'img', effect: 'in'}},
+  {dur: 119, kind: 'text', reveal: [2, 28], text: 'enormous amounts of|electricity and water', highlights: ['enormous'], size: 44, pos: 'lowerLeft', media: {src: 'backlash/bk16_electricwater.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'raising concerns about whether', highlights: ['concerns'], size: 50, pos: 'upperRight', media: {src: 'backlash/bk17_concerns.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'raising concerns about whether', highlights: ['concerns'], size: 50, pos: 'upperRight', media: {src: 'backlash/bk17_concerns.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'local communities|can afford the expansion.', highlights: ['afford'], size: 44, pos: 'left', media: {src: 'backlash/bk18_afford.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'local communities|can afford the expansion.', highlights: ['afford'], size: 44, pos: 'left', media: {src: 'backlash/bk18_afford.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'One example is|OpenAI’s proposed', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'backlash/bk19_openai.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'One example is|OpenAI’s proposed', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'backlash/bk19_openai.jpg', type: 'img', effect: 'in'}},
   // 20 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 20, post: 'BILLION'}, media: {src: 'backlash/bk20_card20b.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'stat', stat: {prefix: '$', value: 20, post: 'BILLION'}, media: {src: 'backlash/bk20_card20b.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'data center project|near Savannah.', highlights: ['Savannah.'], size: 48, pos: 'upperLeft', media: {src: 'backlash/bk21_savannah.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'data center project|near Savannah.', highlights: ['Savannah.'], size: 48, pos: 'upperLeft', media: {src: 'backlash/bk21_savannah.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The facility could require|approximately', highlights: [], size: 48, pos: 'right', media: {src: 'backlash/bk22_require2.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'The facility could require|approximately', highlights: [], size: 48, pos: 'right', media: {src: 'backlash/bk22_require2.jpg', type: 'img', effect: 'in'}},
   // 23 CARD
-  {dur: 70, kind: 'stat', stat: {value: 3200, post: 'MEGAWATTS'}, media: {src: 'backlash/bk23_card3200.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'stat', stat: {value: 3200, post: 'MEGAWATTS'}, media: {src: 'backlash/bk23_card3200.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'roughly equivalent to', highlights: [], size: 52, pos: 'lower', media: {src: 'backlash/bk24_equivalent.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'roughly equivalent to', highlights: [], size: 52, pos: 'lower', media: {src: 'backlash/bk24_equivalent.jpg', type: 'img', effect: 'in'}},
   // 25 CARD
-  {dur: 70, kind: 'stat', stat: {value: 3, post: 'NUCLEAR REACTORS'}, media: {src: 'backlash/bk25_card3.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'stat', stat: {value: 3, post: 'NUCLEAR REACTORS'}, media: {src: 'backlash/bk25_card3.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Georgia regulators|are now examining', highlights: ['regulators'], size: 48, pos: 'upperRight', media: {src: 'backlash/bk26_regulators.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'Georgia regulators|are now examining', highlights: ['regulators'], size: 48, pos: 'upperRight', media: {src: 'backlash/bk26_regulators.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'whether the power agreement', highlights: ['power'], size: 50, pos: 'lowerLeft', media: {src: 'backlash/bk27_agreement.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'whether the power agreement', highlights: ['power'], size: 50, pos: 'lowerLeft', media: {src: 'backlash/bk27_agreement.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'adequately protects|ordinary customers', highlights: ['protects'], size: 50, pos: 'left', media: {src: 'backlash/bk28_protects.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'adequately protects|ordinary customers', highlights: ['protects'], size: 50, pos: 'left', media: {src: 'backlash/bk28_protects.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'from additional costs.', highlights: ['costs.'], size: 52, pos: 'right', media: {src: 'backlash/bk29_costs.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'from additional costs.', highlights: ['costs.'], size: 52, pos: 'right', media: {src: 'backlash/bk29_costs.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The political pressure|is growing too.', highlights: ['pressure'], size: 44, pos: 'lowerRight', media: {src: 'backlash/bk30_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'The political pressure|is growing too.', highlights: ['pressure'], size: 44, pos: 'lowerRight', media: {src: 'backlash/bk30_pressure.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Georgia voters have elected|a new governor', highlights: ['elected'], size: 44, pos: 'upperLeft', media: {src: 'backlash/bk31_elected.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'Georgia voters have elected|a new governor', highlights: ['elected'], size: 44, pos: 'upperLeft', media: {src: 'backlash/bk31_elected.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'who campaigned partly on', highlights: [], size: 50, pos: 'right', media: {src: 'backlash/bk32_campaigned.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'who campaigned partly on', highlights: [], size: 50, pos: 'right', media: {src: 'backlash/bk32_campaigned.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'stronger oversight of|data center development.', highlights: ['oversight'], size: 44, pos: 'upperRight', media: {src: 'backlash/bk33_oversight.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'stronger oversight of|data center development.', highlights: ['oversight'], size: 44, pos: 'upperRight', media: {src: 'backlash/bk33_oversight.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'If Georgia introduces|stricter rules', highlights: ['stricter'], size: 48, pos: 'left', media: {src: 'backlash/bk34_stricter.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'If Georgia introduces|stricter rules', highlights: ['stricter'], size: 48, pos: 'left', media: {src: 'backlash/bk34_stricter.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'or delays projects,', highlights: ['delays'], size: 52, pos: 'lowerLeft', media: {src: 'backlash/bk35_delays.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'or delays projects,', highlights: ['delays'], size: 52, pos: 'lowerLeft', media: {src: 'backlash/bk35_delays.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'it could slow billions|in AI infrastructure', highlights: ['billions'], size: 44, pos: 'upper', media: {src: 'backlash/bk36_slow.jpg', type: 'img', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 28], text: 'it could slow billions|in AI infrastructure', highlights: ['billions'], size: 44, pos: 'upper', media: {src: 'backlash/bk36_slow.jpg', type: 'img', effect: 'in'}},
   // 37
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'and force companies|to reconsider', highlights: ['reconsider'], size: 48, pos: 'right', media: {src: 'backlash/bk37_reconsider.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'where they build.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'backlash/bk38_wherebuild.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'where they build.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'backlash/bk38_wherebuild.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Supporters argue|data centers bring', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'backlash/bk39_supporters.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'Supporters argue|data centers bring', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'backlash/bk39_supporters.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'investment and|economic growth.', highlights: ['growth.'], size: 50, pos: 'left', media: {src: 'backlash/bk40_growth.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'investment and|economic growth.', highlights: ['growth.'], size: 50, pos: 'left', media: {src: 'backlash/bk40_growth.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Critics say residents|shouldn’t face', highlights: ['Critics'], size: 48, pos: 'lowerRight', media: {src: 'backlash/bk41_critics.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'Critics say residents|shouldn’t face', highlights: ['Critics'], size: 48, pos: 'lowerRight', media: {src: 'backlash/bk41_critics.jpg', type: 'img', effect: 'in'}},
   // 42 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Higher|bills.'},
+  {dur: 45, kind: 'impact', redBg: true, text: 'Higher|bills.'},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'increased water consumption,', highlights: ['water'], size: 52, pos: 'upperRight', media: {src: 'backlash/bk43_water.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'increased water consumption,', highlights: ['water'], size: 52, pos: 'upperRight', media: {src: 'backlash/bk43_water.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'and environmental costs', highlights: ['environmental'], size: 52, pos: 'right', media: {src: 'backlash/bk44_environmental.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'and environmental costs', highlights: ['environmental'], size: 52, pos: 'right', media: {src: 'backlash/bk44_environmental.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'just so technology|companies can expand.', highlights: ['expand.'], size: 44, pos: 'lowerLeft', media: {src: 'backlash/bk45_expand.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'just so technology|companies can expand.', highlights: ['expand.'], size: 44, pos: 'lowerLeft', media: {src: 'backlash/bk45_expand.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'left', media: {src: 'backlash/bk46_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'left', media: {src: 'backlash/bk46_think.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Should communities|have the power', highlights: ['power'], size: 48, pos: 'upperRight', media: {src: 'backlash/bk47_shouldcommunities.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], text: 'Should communities|have the power', highlights: ['power'], size: 48, pos: 'upperRight', media: {src: 'backlash/bk47_shouldcommunities.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'to stop AI data centers,', highlights: ['stop'], size: 46, pos: 'lower', media: {src: 'backlash/bk48_stop.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'to stop AI data centers,', highlights: ['stop'], size: 46, pos: 'lower', media: {src: 'backlash/bk48_stop.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'even if it means slowing', highlights: ['slowing'], size: 46, pos: 'right', media: {src: 'backlash/bk49_slowing.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'even if it means slowing', highlights: ['slowing'], size: 46, pos: 'right', media: {src: 'backlash/bk49_slowing.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'America’s race|for artificial intelligence?', highlights: ['intelligence?'], size: 48, pos: 'upperLeft', media: {src: 'backlash/bk50_airace.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'America’s race|for artificial intelligence?', highlights: ['intelligence?'], size: 48, pos: 'upperLeft', media: {src: 'backlash/bk50_airace.jpg', type: 'img', effect: 'in'}},
   // 51 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'backlash/bk51_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'backlash/bk51_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1384, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1572, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1739, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2862, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3362, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
