@@ -70,6 +70,8 @@ type SceneDef = {
   media?: MediaCfg;
   enter?: 'slideL' | 'slideR' | 'slideUp' | 'zoom';
   pos?: 'center' | 'upper' | 'lower' | 'left' | 'right' | 'upperLeft' | 'upperRight' | 'lowerLeft' | 'lowerRight';
+  cloneRow?: boolean; // tile the still across a horizontal, slowly drifting "clone row" band
+  letterDrive?: boolean; // per-letter horizontal drive-in on the caption
 };
 
 // ---------------------------------------------------------------------------
@@ -141,7 +143,7 @@ const SCENES: SceneDef[] = [
   // 14
   {dur: 48, kind: 'text', reveal: [2, 28], text: 'shaping the|global economy.', highlights: ['economy.'], size: 50, pos: 'upper', media: {src: 'scandal/sc14_economy.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The controversy|involves Alice Huang,', highlights: [], size: 48, pos: 'left', media: {src: 'scandal/sc15_alice.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The controversy|involves Alice Huang,', highlights: [], size: 48, pos: 'left', cloneRow: true, letterDrive: true, media: {src: 'scandal/sc15_alice.jpg', type: 'img', effect: 'in'}},
   // 16
   {dur: 38, kind: 'text', reveal: [2], text: 'a former executive', highlights: ['executive'], size: 52, pos: 'right', media: {src: 'scandal/sc16_exec.jpg', type: 'img', effect: 'in'}},
   // 17
@@ -287,6 +289,38 @@ const MediaBackground: React.FC<{cfg: MediaCfg; enter?: string}> = ({cfg, enter}
   );
 };
 
+// "Clone row" — the same still repeated across a centered horizontal band that
+// slowly drifts sideways, on the dark base. Each tile gets a slight scale offset
+// so the row reads as a filmstrip of clones rather than one seamless image.
+const CloneRowBackground: React.FC<{cfg: MediaCfg; enter?: string; count?: number}> = ({cfg, enter, count = 6}) => {
+  const frame = useCurrentFrame();
+  const {durationInFrames} = useVideoConfig();
+  const src = staticFile(cfg.src);
+  const e = enterTransform(frame, enter);
+  const opacity = interpolate(frame, [0, 6, durationInFrames - 5, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) * e.op;
+  const TILE = 360; // px wide, portrait tiles
+  const GAP = 10;
+  const step = TILE + GAP;
+  const BAND = 1180; // px tall band, vertically centered
+  const drift = interpolate(frame, [0, durationInFrames], [0, -step * 1.6]); // slow sideways travel
+  const intro = interpolate(frame, [0, 12], [60, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+  return (
+    <AbsoluteFill style={{opacity, backgroundColor: C.bg, overflow: 'hidden'}}>
+      <AbsoluteFill style={{justifyContent: 'center'}}>
+        <div style={{height: BAND, display: 'flex', gap: GAP, transform: `translateX(${drift - step + intro}px) scale(${e.sc}) translate(${e.tx}%, ${e.ty}%)`, willChange: 'transform'}}>
+          {Array.from({length: count}).map((_, i) => (
+            <div key={i} style={{width: TILE, height: '100%', flex: '0 0 auto', overflow: 'hidden', boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.06)'}}>
+              <Img src={src} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${1 + (i % 2 ? 0.06 : 0)})`, filter: i % 2 ? 'brightness(0.82)' : 'none'}} />
+            </div>
+          ))}
+        </div>
+      </AbsoluteFill>
+      {/* top/bottom scrims keep captions legible over the band */}
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,10,10,0.55) 0%, rgba(10,10,10,0) 26%, rgba(10,10,10,0) 70%, rgba(10,10,10,0.72) 100%)', pointerEvents: 'none'}} />
+    </AbsoluteFill>
+  );
+};
+
 const Grain: React.FC = () => {
   const frame = useCurrentFrame();
   const shift = (frame * 7) % 200;
@@ -303,12 +337,40 @@ const Treatment: React.FC = () => (
 );
 
 // ---------------------------------------------------------------------------
-const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start' | 'flex-end'; typewriter?: boolean; lineSync?: boolean; lineReveal?: number[]}> = ({text, highlights = [], size = 112, align = 'center', typewriter = false, lineSync = false, lineReveal}) => {
+const Caption: React.FC<{text: string; highlights?: string[]; size?: number; align?: 'center' | 'flex-start' | 'flex-end'; typewriter?: boolean; lineSync?: boolean; lineReveal?: number[]; letterDrive?: boolean}> = ({text, highlights = [], size = 112, align = 'center', typewriter = false, lineSync = false, lineReveal, letterDrive = false}) => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
   const lines = text.split('|');
   const hset = highlights.map((h) => h.toLowerCase());
   const isHi = (w: string) => hset.includes(w.replace(/[.,—…-]/g, '').toLowerCase()) || hset.includes(w.toLowerCase());
+  // Letter-drive: each character slides in horizontally with a staggered delay.
+  if (letterDrive) {
+    let ci = 0;
+    return (
+      <div style={{display: 'flex', flexDirection: 'column', gap: 2, alignItems: align, width: '100%'}}>
+        {lines.map((line, li) => (
+          <div key={li} style={{display: 'flex', flexWrap: 'wrap', justifyContent: align === 'center' ? 'center' : align === 'flex-end' ? 'flex-end' : 'flex-start', gap: '0 18px'}}>
+            {line.split(' ').map((word, wi) => {
+              const hi = isHi(word);
+              return (
+                <span key={wi} style={{display: 'inline-flex', whiteSpace: 'pre'}}>
+                  {word.split('').map((ch, chi) => {
+                    const k = ci++;
+                    const d = interpolate(frame, [k * 1.3, k * 1.3 + 9], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: easeInOut});
+                    return (
+                      <span key={chi} style={{display: 'inline-block', fontFamily: HEAD, fontSize: size, lineHeight: 0.98, letterSpacing: 0.5, textTransform: 'uppercase', color: hi ? C.red : C.ink, textShadow: SH, opacity: d, transform: `translateX(${(1 - d) * 70}px)`}}>
+                        {ch}
+                      </span>
+                    );
+                  })}
+                </span>
+              );
+            })}
+          </div>
+        ))}
+      </div>
+    );
+  }
   const lineOp: number[] = (() => {
     if (typewriter) return lines.map(() => 1);
     if (lineReveal && lineReveal.length === lines.length) {
@@ -375,13 +437,13 @@ const POS: Record<string, {jc: 'center' | 'flex-start' | 'flex-end'; ai: 'center
   lowerLeft:  {jc: 'flex-end',   ai: 'flex-start', al: 'flex-start', pt: 84,  pb: 320},
   lowerRight: {jc: 'flex-end',   ai: 'flex-end',   al: 'flex-end',   pt: 84,  pb: 320},
 };
-const SceneText: React.FC<{text: string; highlights?: string[]; size?: number; reveal?: number[]; pos?: string}> = ({text, highlights, size = 100, reveal, pos = 'center'}) => {
+const SceneText: React.FC<{text: string; highlights?: string[]; size?: number; reveal?: number[]; pos?: string; letterDrive?: boolean}> = ({text, highlights, size = 100, reveal, pos = 'center', letterDrive = false}) => {
   const p = POS[pos] || POS.center;
   const sidey = pos !== 'center' && pos !== 'upper' && pos !== 'lower';
   return (
     <AbsoluteFill style={{justifyContent: p.jc, alignItems: p.ai, paddingLeft: 80, paddingRight: 80, paddingTop: p.pt, paddingBottom: p.pb}}>
       <div style={{maxWidth: sidey ? 740 : '100%'}}>
-        <Caption text={text} highlights={highlights} size={size} align={p.al} typewriter={false} lineSync lineReveal={reveal} />
+        <Caption text={text} highlights={highlights} size={size} align={p.al} typewriter={false} lineSync lineReveal={reveal} letterDrive={letterDrive} />
       </div>
     </AbsoluteFill>
   );
@@ -515,7 +577,7 @@ const renderScene = (s: SceneDef, mode: string) => {
     case 'lines':
       return <SceneLines text={s.text!} highlights={s.highlights} reveal={s.reveal} mode={mode} />;
     case 'text':
-      return <SceneText text={s.text!} highlights={s.highlights} size={s.size} reveal={s.reveal} pos={s.pos} />;
+      return <SceneText text={s.text!} highlights={s.highlights} size={s.size} reveal={s.reveal} pos={s.pos} letterDrive={s.letterDrive} />;
     case 'stat':
       return <SceneStat stat={s.stat!} />;
     case 'impact':
@@ -545,7 +607,7 @@ export const ScandalReel: React.FC = () => {
         {SCENES.map((s, i) =>
           s.media ? (
             <Sequence key={`m${i}`} from={STARTS[i]} durationInFrames={s.dur} name={`bg-${i}-${s.kind}`}>
-              <MediaBackground cfg={s.media} enter={s.enter} />
+              {s.cloneRow ? <CloneRowBackground cfg={s.media} enter={s.enter} /> : <MediaBackground cfg={s.media} enter={s.enter} />}
             </Sequence>
           ) : null,
         )}
@@ -553,7 +615,8 @@ export const ScandalReel: React.FC = () => {
         {SCENES.map((s, i) => {
           const TLEAD = 3;
           const tf = Math.max(0, STARTS[i] - TLEAD);
-          const mode = ANIMS[i % ANIMS.length];
+          // letter-drive beats carry their own per-letter entrance, so use a neutral container anim
+          const mode = s.letterDrive ? 'type' : ANIMS[i % ANIMS.length];
           return (
             <Sequence key={i} from={tf} durationInFrames={STARTS[i] + s.dur - tf} name={`${i}-${s.kind}-${mode}`}>
               <TextAnim mode={mode}>{renderScene(s, mode)}</TextAnim>
