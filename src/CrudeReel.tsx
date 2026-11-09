@@ -111,121 +111,126 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Oil prices|are falling', kicker: 'The slide', highlights: [], size: 54, media: {src: 'crude/cr00_falling.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'hook', reveal: [3, 40], text: 'Oil prices|are falling', kicker: 'The slide', highlights: [], size: 54, media: {src: 'crude/cr00_falling.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'after President|Donald Trump', highlights: ['Trump'], size: 50, pos: 'left', media: {src: 'crude/cr01_trump.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: 'after President|Donald Trump', highlights: ['Trump'], size: 50, pos: 'left', media: {src: 'crude/cr01_trump.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'suggested the United States', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'crude/cr02_us.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'suggested the United States', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'crude/cr02_us.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'may avoid further|attacks on Iran.', highlights: ['Iran.'], size: 44, pos: 'upperLeft', media: {src: 'crude/cr03_iran.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'may avoid further|attacks on Iran.', highlights: ['Iran.'], size: 44, pos: 'upperLeft', media: {src: 'crude/cr03_iran.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But the Middle East|conflict', highlights: [], size: 48, pos: 'right', media: {src: 'crude/cr04_conflict.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'But the Middle East|conflict', highlights: [], size: 48, pos: 'right', media: {src: 'crude/cr04_conflict.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'is far from over.', highlights: ['over.'], size: 50, pos: 'lower', media: {src: 'crude/cr05_over.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'is far from over.', highlights: ['over.'], size: 50, pos: 'lower', media: {src: 'crude/cr05_over.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'And here’s the twist.', highlights: ['twist.'], size: 50, pos: 'upperRight', media: {src: 'crude/cr06_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'And here’s the twist.', highlights: ['twist.'], size: 50, pos: 'upperRight', media: {src: 'crude/cr06_twist.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'Even as oil prices drop,', highlights: ['drop,'], size: 46, pos: 'lowerLeft', media: {src: 'crude/cr07_drop.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'Even as oil prices drop,', highlights: ['drop,'], size: 46, pos: 'lowerLeft', media: {src: 'crude/cr07_drop.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'ships are still|being attacked', highlights: ['attacked'], size: 48, pos: 'left', media: {src: 'crude/cr08_ships.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'ships are still|being attacked', highlights: ['attacked'], size: 48, pos: 'left', media: {src: 'crude/cr08_ships.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'near one of the world’s', highlights: [], size: 46, pos: 'right', media: {src: 'crude/cr09_worlds.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'near one of the world’s', highlights: [], size: 46, pos: 'right', media: {src: 'crude/cr09_worlds.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'most important|oil routes.', highlights: ['routes.'], size: 50, pos: 'upperRight', media: {src: 'crude/cr10_routes.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'most important|oil routes.', highlights: ['routes.'], size: 50, pos: 'upperRight', media: {src: 'crude/cr10_routes.jpg', type: 'img', effect: 'in'}},
   // 11 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'lowerLeft', media: {src: 'crude/cr11_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'lowerLeft', media: {src: 'crude/cr11_follow.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'on the global economy', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'crude/cr12_economy.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'on the global economy', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'crude/cr12_economy.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and major|world events.', highlights: [], size: 50, pos: 'right', media: {src: 'crude/cr13_events.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'and major|world events.', highlights: [], size: 50, pos: 'right', media: {src: 'crude/cr13_events.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The United States|and Iran', highlights: [], size: 48, pos: 'left', media: {src: 'crude/cr14_usiran.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'The United States|and Iran', highlights: [], size: 48, pos: 'left', media: {src: 'crude/cr14_usiran.jpg', type: 'img', effect: 'in'}},
   // 15
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'have been locked in|months of conflict,', highlights: ['conflict,'], size: 44, pos: 'lowerRight', media: {src: 'crude/cr15_locked.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'disrupting oil shipments', highlights: ['disrupting'], size: 52, pos: 'upper', media: {src: 'crude/cr16_shipments.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'disrupting oil shipments', highlights: ['disrupting'], size: 52, pos: 'upper', media: {src: 'crude/cr16_shipments.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and pushing|energy prices higher.', highlights: ['higher.'], size: 48, pos: 'right', media: {src: 'crude/cr17_higher.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'and pushing|energy prices higher.', highlights: ['higher.'], size: 48, pos: 'right', media: {src: 'crude/cr17_higher.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Now, hopes of|a possible', highlights: ['hopes'], size: 48, pos: 'lowerLeft', media: {src: 'crude/cr18_hopes.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], text: 'Now, hopes of|a possible', highlights: ['hopes'], size: 48, pos: 'lowerLeft', media: {src: 'crude/cr18_hopes.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'peace agreement', highlights: ['peace'], size: 52, pos: 'upperRight', media: {src: 'crude/cr19_peace.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'peace agreement', highlights: ['peace'], size: 52, pos: 'upperRight', media: {src: 'crude/cr19_peace.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'are changing|market expectations.', highlights: [], size: 50, pos: 'left', media: {src: 'crude/cr20_market.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'are changing|market expectations.', highlights: [], size: 50, pos: 'left', media: {src: 'crude/cr20_market.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'Trump told CNN', highlights: ['CNN'], size: 52, pos: 'lowerRight', media: {src: 'crude/cr21_cnn.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Trump told CNN', highlights: ['CNN'], size: 52, pos: 'lowerRight', media: {src: 'crude/cr21_cnn.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that additional strikes|on Iran', highlights: [], size: 48, pos: 'right', media: {src: 'crude/cr22_strikes.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'that additional strikes|on Iran', highlights: [], size: 48, pos: 'right', media: {src: 'crude/cr22_strikes.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'were highly unlikely', highlights: ['unlikely'], size: 52, pos: 'upperLeft', media: {src: 'crude/cr23_unlikely.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'were highly unlikely', highlights: ['unlikely'], size: 52, pos: 'upperLeft', media: {src: 'crude/cr23_unlikely.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'if negotiations|made progress.', highlights: ['negotiations'], size: 50, pos: 'lower', media: {src: 'crude/cr24_negotiations.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'if negotiations|made progress.', highlights: ['negotiations'], size: 50, pos: 'lower', media: {src: 'crude/cr24_negotiations.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'Following his comments,', highlights: [], size: 52, pos: 'left', media: {src: 'crude/cr25_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Following his comments,', highlights: [], size: 52, pos: 'left', media: {src: 'crude/cr25_comments.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Brent crude|fell to around', highlights: ['Brent'], size: 48, pos: 'right', media: {src: 'crude/cr26_brent.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'Brent crude|fell to around', highlights: ['Brent'], size: 48, pos: 'right', media: {src: 'crude/cr26_brent.jpg', type: 'img', effect: 'in'}},
   // 27 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 98, post: 'A BARREL'}, media: {src: 'crude/cr27_card98.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'stat', stat: {prefix: '$', value: 98, post: 'A BARREL'}, media: {src: 'crude/cr27_card98.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while US oil|traded near', highlights: [], size: 48, pos: 'upperRight', media: {src: 'crude/cr28_usoil.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'while US oil|traded near', highlights: [], size: 48, pos: 'upperRight', media: {src: 'crude/cr28_usoil.jpg', type: 'img', effect: 'in'}},
   // 29 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 90, post: 'US CRUDE'}, media: {src: 'crude/cr29_card90.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {prefix: '$', value: 90, post: 'US CRUDE'}, media: {src: 'crude/cr29_card90.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Brent had|already plunged', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'crude/cr30_plunged.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'Brent had|already plunged', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'crude/cr30_plunged.jpg', type: 'img', effect: 'in'}},
   // 31 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'DOWN', value: 16, suffix: '%', post: 'LAST WEEK'}, media: {src: 'crude/cr31_card16.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'DOWN', value: 16, suffix: '%', post: 'LAST WEEK'}, media: {src: 'crude/cr31_card16.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'the previous week.', highlights: [], size: 52, pos: 'left', media: {src: 'crude/cr32_prevweek.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'the previous week.', highlights: [], size: 52, pos: 'left', media: {src: 'crude/cr32_prevweek.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'But tensions remain.', highlights: ['tensions'], size: 52, pos: 'lowerRight', media: {src: 'crude/cr33_tensions.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'But tensions remain.', highlights: ['tensions'], size: 52, pos: 'lowerRight', media: {src: 'crude/cr33_tensions.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Both Washington|and Tehran', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'crude/cr34_washtehran.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'Both Washington|and Tehran', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'crude/cr34_washtehran.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'reported attacks on ships', highlights: ['attacks'], size: 50, pos: 'right', media: {src: 'crude/cr35_shipattacks.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'reported attacks on ships', highlights: ['attacks'], size: 50, pos: 'right', media: {src: 'crude/cr35_shipattacks.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'near the Strait|of Hormuz,', highlights: ['Hormuz,'], size: 48, pos: 'upperRight', media: {src: 'crude/cr36_hormuz.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: 'near the Strait|of Hormuz,', highlights: ['Hormuz,'], size: 48, pos: 'upperRight', media: {src: 'crude/cr36_hormuz.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'a critical passage', highlights: ['critical'], size: 52, pos: 'left', media: {src: 'crude/cr37_passage.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'a critical passage', highlights: ['critical'], size: 52, pos: 'left', media: {src: 'crude/cr37_passage.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for global|oil supplies.', highlights: ['supplies.'], size: 50, pos: 'lowerLeft', media: {src: 'crude/cr38_supplies.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'for global|oil supplies.', highlights: ['supplies.'], size: 50, pos: 'lowerLeft', media: {src: 'crude/cr38_supplies.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'If negotiations succeed,', highlights: ['succeed,'], size: 52, pos: 'right', media: {src: 'crude/cr39_succeed.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'If negotiations succeed,', highlights: ['succeed,'], size: 52, pos: 'right', media: {src: 'crude/cr39_succeed.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'oil shipments|could recover,', highlights: ['recover,'], size: 50, pos: 'lower', media: {src: 'crude/cr40_recover.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'oil shipments|could recover,', highlights: ['recover,'], size: 50, pos: 'lower', media: {src: 'crude/cr40_recover.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'potentially easing pressure', highlights: ['easing'], size: 52, pos: 'upperRight', media: {src: 'crude/cr41_easing.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'potentially easing pressure', highlights: ['easing'], size: 52, pos: 'upperRight', media: {src: 'crude/cr41_easing.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on fuel prices|and inflation worldwide.', highlights: ['inflation'], size: 44, pos: 'left', media: {src: 'crude/cr42_inflation.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'on fuel prices|and inflation worldwide.', highlights: ['inflation'], size: 44, pos: 'left', media: {src: 'crude/cr42_inflation.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'However, no final', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'crude/cr43_nofinal.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'However, no final', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'crude/cr43_nofinal.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'peace agreement|has been reached.', highlights: [], size: 48, pos: 'right', media: {src: 'crude/cr44_notreached.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'peace agreement|has been reached.', highlights: [], size: 48, pos: 'right', media: {src: 'crude/cr44_notreached.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Analysts warn|that oil prices', highlights: ['Analysts'], size: 48, pos: 'upperLeft', media: {src: 'crude/cr45_analysts.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'Analysts warn|that oil prices', highlights: ['Analysts'], size: 48, pos: 'upperLeft', media: {src: 'crude/cr45_analysts.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'are falling largely', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'crude/cr46_largely.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'are falling largely', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'crude/cr46_largely.jpg', type: 'img', effect: 'in'}},
   // 47 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Hopes, not|proof.'},
+  {dur: 73, kind: 'impact', redBg: true, text: 'Hopes, not|proof.'},
   // 48
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that the conflict|has ended.', highlights: ['ended.'], size: 48, pos: 'upperRight', media: {src: 'crude/cr48_ended.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'that the conflict|has ended.', highlights: ['ended.'], size: 48, pos: 'upperRight', media: {src: 'crude/cr48_ended.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'left', media: {src: 'crude/cr49_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'left', media: {src: 'crude/cr49_think.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'Is this the beginning', highlights: [], size: 50, pos: 'right', media: {src: 'crude/cr50_beginning.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Is this the beginning', highlights: [], size: 50, pos: 'right', media: {src: 'crude/cr50_beginning.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of a lasting decline|in oil prices,', highlights: ['lasting'], size: 44, pos: 'lowerRight', media: {src: 'crude/cr51_lasting.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'of a lasting decline|in oil prices,', highlights: ['lasting'], size: 44, pos: 'lowerRight', media: {src: 'crude/cr51_lasting.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'or could another escalation', highlights: ['escalation'], size: 50, pos: 'upperLeft', media: {src: 'crude/cr52_escalation.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'or could another escalation', highlights: ['escalation'], size: 50, pos: 'upperLeft', media: {src: 'crude/cr52_escalation.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'send energy costs|soaring again?', highlights: ['soaring'], size: 48, pos: 'left', media: {src: 'crude/cr53_soaring.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'send energy costs|soaring again?', highlights: ['soaring'], size: 48, pos: 'left', media: {src: 'crude/cr53_soaring.jpg', type: 'img', effect: 'in'}},
   // 54 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'crude/cr54_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'crude/cr54_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1422, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1524, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1609, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2380, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2735, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
