@@ -197,6 +197,7 @@ import {PivotReel, DURATION_IN_FRAMES as PIVOT_FRAMES} from './PivotReel';
 import {BacklashReel, DURATION_IN_FRAMES as BACKLASH_FRAMES} from './BacklashReel';
 import {RecordReel, DURATION_IN_FRAMES as RECORD_FRAMES} from './RecordReel';
 import {ScandalReel, DURATION_IN_FRAMES as SCANDAL_FRAMES} from './ScandalReel';
+import {CrudeReel, DURATION_IN_FRAMES as CRUDE_FRAMES} from './CrudeReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1782,6 +1783,14 @@ export const RemotionRoot: React.FC = () => {
         id="ScandalReel"
         component={ScandalReel}
         durationInFrames={SCANDAL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="CrudeReel"
+        component={CrudeReel}
+        durationInFrames={CRUDE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
