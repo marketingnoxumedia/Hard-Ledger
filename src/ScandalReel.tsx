@@ -111,117 +111,117 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 62, kind: 'hook', reveal: [3, 40], text: 'Nvidia CEO|Jensen Huang', kicker: 'The scandal', highlights: [], size: 54, media: {src: 'scandal/sc00_ceo.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'hook', reveal: [3, 40], text: 'Nvidia CEO|Jensen Huang', kicker: 'The scandal', highlights: [], size: 54, media: {src: 'scandal/sc00_ceo.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'is facing one of|the biggest scandals', highlights: ['scandals'], size: 44, pos: 'upperRight', media: {src: 'scandal/sc01_biggest.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'is facing one of|the biggest scandals', highlights: ['scandals'], size: 44, pos: 'upperRight', media: {src: 'scandal/sc01_biggest.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 29, kind: 'text', reveal: [2], text: 'of his career.', highlights: ['career.'], size: 52, pos: 'left', media: {src: 'scandal/sc02_career.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'of his career.', highlights: ['career.'], size: 52, pos: 'left', media: {src: 'scandal/sc02_career.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 56, kind: 'text', reveal: [2, 28], text: 'He has admitted|to an affair,', highlights: ['affair,'], size: 44, pos: 'lowerRight', media: {src: 'scandal/sc03_affair.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'He has admitted|to an affair,', highlights: ['affair,'], size: 44, pos: 'lowerRight', media: {src: 'scandal/sc03_affair.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while his company|investigates allegations', highlights: ['investigates'], size: 48, pos: 'upperLeft', media: {src: 'scandal/sc04_investigates.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'while his company|investigates allegations', highlights: ['investigates'], size: 48, pos: 'upperLeft', media: {src: 'scandal/sc04_investigates.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 40, kind: 'text', reveal: [2, 28], text: 'that he may have|been targeted', highlights: ['targeted'], size: 44, pos: 'right', media: {src: 'scandal/sc05_targeted.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2, 28], text: 'that he may have|been targeted', highlights: ['targeted'], size: 44, pos: 'right', media: {src: 'scandal/sc05_targeted.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 71, kind: 'text', reveal: [2, 28], text: 'by a Chinese|spy operation.', highlights: ['spy'], size: 48, pos: 'lower', media: {src: 'scandal/sc06_spy.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'by a Chinese|spy operation.', highlights: ['spy'], size: 48, pos: 'lower', media: {src: 'scandal/sc06_spy.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 35, kind: 'text', reveal: [2, 28], text: 'But here’s what|makes this', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'scandal/sc07_makesthis.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2, 28], text: 'But here’s what|makes this', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'scandal/sc07_makesthis.jpg', type: 'img', effect: 'in'}},
   // 8 RED
-  {dur: 62, kind: 'impact', redBg: true, text: 'Bigger than|a scandal.'},
+  {dur: 54, kind: 'impact', redBg: true, text: 'Bigger than|a scandal.'},
   // 9
   {dur: 26, kind: 'text', reveal: [2], text: 'the woman involved', highlights: ['woman'], size: 52, pos: 'upperRight', media: {src: 'scandal/sc09_woman.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 46, kind: 'text', reveal: [2], text: 'was reportedly connected', highlights: ['connected'], size: 52, pos: 'lowerLeft', media: {src: 'scandal/sc10_connected.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'was reportedly connected', highlights: ['connected'], size: 52, pos: 'lowerLeft', media: {src: 'scandal/sc10_connected.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'to a major Nvidia|customer in Asia.', highlights: ['Asia.'], size: 44, pos: 'right', media: {src: 'scandal/sc11_asia.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'to a major Nvidia|customer in Asia.', highlights: ['Asia.'], size: 44, pos: 'right', media: {src: 'scandal/sc11_asia.jpg', type: 'img', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 38, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'left', media: {src: 'scandal/sc12_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'left', media: {src: 'scandal/sc12_follow.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 44, kind: 'text', reveal: [2], text: 'on the technology companies', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'scandal/sc13_tech.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'on the technology companies', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'scandal/sc13_tech.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'shaping the|global economy.', highlights: ['economy.'], size: 50, pos: 'upper', media: {src: 'scandal/sc14_economy.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'shaping the|global economy.', highlights: ['economy.'], size: 50, pos: 'upper', media: {src: 'scandal/sc14_economy.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 77, kind: 'text', reveal: [2, 28], text: 'The controversy|involves Alice Huang,', highlights: [], size: 48, pos: 'left', media: {src: 'scandal/sc15_alice.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The controversy|involves Alice Huang,', highlights: [], size: 48, pos: 'left', media: {src: 'scandal/sc15_alice.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 42, kind: 'text', reveal: [2], text: 'a former executive', highlights: ['executive'], size: 52, pos: 'right', media: {src: 'scandal/sc16_exec.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'a former executive', highlights: ['executive'], size: 52, pos: 'right', media: {src: 'scandal/sc16_exec.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 56, kind: 'text', reveal: [2, 28], text: 'at Singapore-based|Megaspeed,', highlights: ['Singapore-based'], size: 52, pos: 'lowerLeft', media: {src: 'scandal/sc17_singapore.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'at Singapore-based|Megaspeed,', highlights: ['Singapore-based'], size: 52, pos: 'lowerLeft', media: {src: 'scandal/sc17_singapore.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 33, kind: 'text', reveal: [2], text: 'a company that buys', highlights: [], size: 50, pos: 'upperRight', media: {src: 'scandal/sc18_buys.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'a company that buys', highlights: [], size: 50, pos: 'upperRight', media: {src: 'scandal/sc18_buys.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Nvidia’s advanced|AI chips.', highlights: ['chips.'], size: 50, pos: 'left', media: {src: 'scandal/sc19_chips.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'Nvidia’s advanced|AI chips.', highlights: ['chips.'], size: 50, pos: 'left', media: {src: 'scandal/sc19_chips.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 72, kind: 'text', reveal: [2, 28], text: 'US intelligence|reportedly believes', highlights: ['intelligence'], size: 50, pos: 'lowerRight', media: {src: 'scandal/sc20_intel.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'US intelligence|reportedly believes', highlights: ['intelligence'], size: 50, pos: 'lowerRight', media: {src: 'scandal/sc20_intel.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 32, kind: 'text', reveal: [2], text: 'she was recruited', highlights: ['recruited'], size: 52, pos: 'upperLeft', media: {src: 'scandal/sc21_recruited.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'she was recruited', highlights: ['recruited'], size: 52, pos: 'upperLeft', media: {src: 'scandal/sc21_recruited.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'by China’s Ministry|of State Security', highlights: ['Ministry'], size: 44, pos: 'right', media: {src: 'scandal/sc22_mss.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'by China’s Ministry|of State Security', highlights: ['Ministry'], size: 44, pos: 'right', media: {src: 'scandal/sc22_mss.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 44, kind: 'text', reveal: [2], text: 'to gather information', highlights: ['information'], size: 52, pos: 'lower', media: {src: 'scandal/sc23_info.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'to gather information', highlights: ['information'], size: 52, pos: 'lower', media: {src: 'scandal/sc23_info.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'and potentially|influence access', highlights: ['influence'], size: 50, pos: 'upperRight', media: {src: 'scandal/sc24_influence.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'and potentially|influence access', highlights: ['influence'], size: 50, pos: 'upperRight', media: {src: 'scandal/sc24_influence.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'to American|AI technology.', highlights: ['technology.'], size: 50, pos: 'lowerLeft', media: {src: 'scandal/sc25_aitech.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'to American|AI technology.', highlights: ['technology.'], size: 50, pos: 'lowerLeft', media: {src: 'scandal/sc25_aitech.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 55, kind: 'text', reveal: [2, 28], text: 'According to reports,|Jensen Huang', highlights: [], size: 48, pos: 'left', media: {src: 'scandal/sc26_reports.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'According to reports,|Jensen Huang', highlights: [], size: 48, pos: 'left', media: {src: 'scandal/sc26_reports.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 57, kind: 'text', reveal: [2, 28], text: 'had a close|personal relationship', highlights: ['relationship'], size: 48, pos: 'right', media: {src: 'scandal/sc27_relationship.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'had a close|personal relationship', highlights: ['relationship'], size: 48, pos: 'right', media: {src: 'scandal/sc27_relationship.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 40, kind: 'text', reveal: [2], text: 'with Alice Huang.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'scandal/sc28_alice2.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'with Alice Huang.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'scandal/sc28_alice2.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 34, kind: 'text', reveal: [2], text: 'On November 8,', highlights: ['November'], size: 52, pos: 'upperLeft', media: {src: 'scandal/sc29_nov8.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'On November 8,', highlights: ['November'], size: 52, pos: 'upperLeft', media: {src: 'scandal/sc29_nov8.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 84, kind: 'text', reveal: [2, 28], text: 'he acknowledged being|unfaithful to his wife', highlights: ['unfaithful'], size: 44, pos: 'right', media: {src: 'scandal/sc30_unfaithful.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'he acknowledged being|unfaithful to his wife', highlights: ['unfaithful'], size: 44, pos: 'right', media: {src: 'scandal/sc30_unfaithful.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'in a message to|Nvidia employees', highlights: [], size: 44, pos: 'upperRight', media: {src: 'scandal/sc31_message.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'in a message to|Nvidia employees', highlights: [], size: 44, pos: 'upperRight', media: {src: 'scandal/sc31_message.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 91, kind: 'text', reveal: [2, 28], text: 'and apologized to his|family and colleagues.', highlights: ['apologized'], size: 44, pos: 'left', media: {src: 'scandal/sc32_apology.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'and apologized to his|family and colleagues.', highlights: ['apologized'], size: 44, pos: 'left', media: {src: 'scandal/sc32_apology.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 47, kind: 'text', reveal: [2, 28], text: 'Nvidia’s board|has now launched', highlights: ['board'], size: 48, pos: 'lowerLeft', media: {src: 'scandal/sc33_board.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], text: 'Nvidia’s board|has now launched', highlights: ['board'], size: 48, pos: 'lowerLeft', media: {src: 'scandal/sc33_board.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'an independent|investigation,', highlights: ['independent'], size: 52, pos: 'upper', media: {src: 'scandal/sc34_investigation.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2, 28], text: 'an independent|investigation,', highlights: ['independent'], size: 52, pos: 'upper', media: {src: 'scandal/sc34_investigation.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 64, kind: 'text', reveal: [2, 28], text: 'involving outside|legal counsel,', highlights: ['legal'], size: 50, pos: 'right', media: {src: 'scandal/sc35_legal.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'involving outside|legal counsel,', highlights: ['legal'], size: 50, pos: 'right', media: {src: 'scandal/sc35_legal.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 91, kind: 'text', reveal: [2, 28], text: 'to examine whether|its CEO was targeted', highlights: ['targeted'], size: 44, pos: 'lowerRight', media: {src: 'scandal/sc36_examine.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'to examine whether|its CEO was targeted', highlights: ['targeted'], size: 44, pos: 'lowerRight', media: {src: 'scandal/sc36_examine.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'by a foreign|intelligence operation.', highlights: ['foreign'], size: 48, pos: 'upperLeft', media: {src: 'scandal/sc37_foreign.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'by a foreign|intelligence operation.', highlights: ['foreign'], size: 48, pos: 'upperLeft', media: {src: 'scandal/sc37_foreign.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'The investigation|could have serious', highlights: [], size: 48, pos: 'left', media: {src: 'scandal/sc38_serious.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'The investigation|could have serious', highlights: [], size: 48, pos: 'left', media: {src: 'scandal/sc38_serious.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 66, kind: 'text', reveal: [2, 28], text: 'implications for|Nvidia’s leadership,', highlights: ['leadership,'], size: 50, pos: 'lowerRight', media: {src: 'scandal/sc39_leadership.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'implications for|Nvidia’s leadership,', highlights: ['leadership,'], size: 50, pos: 'lowerRight', media: {src: 'scandal/sc39_leadership.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 45, kind: 'text', reveal: [2], text: 'investor confidence,', highlights: ['investor'], size: 52, pos: 'upperRight', media: {src: 'scandal/sc40_investor.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'investor confidence,', highlights: ['investor'], size: 52, pos: 'upperRight', media: {src: 'scandal/sc40_investor.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'and America’s efforts|to protect', highlights: ['protect'], size: 48, pos: 'right', media: {src: 'scandal/sc41_protect.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'and America’s efforts|to protect', highlights: ['protect'], size: 48, pos: 'right', media: {src: 'scandal/sc41_protect.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 61, kind: 'text', reveal: [2], text: 'advanced AI technology', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'scandal/sc42_aiprotect.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'advanced AI technology', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'scandal/sc42_aiprotect.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 87, kind: 'text', reveal: [2, 28], text: 'from foreign intelligence|operations.', highlights: ['foreign'], size: 50, pos: 'left', media: {src: 'scandal/sc43_foreignops.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'from foreign intelligence|operations.', highlights: ['foreign'], size: 50, pos: 'left', media: {src: 'scandal/sc43_foreignops.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'But Nvidia says|it has no reason', highlights: [], size: 44, pos: 'upperRight', media: {src: 'scandal/sc44_noreason.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'But Nvidia says|it has no reason', highlights: [], size: 44, pos: 'upperRight', media: {src: 'scandal/sc44_noreason.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 46, kind: 'text', reveal: [2, 28], text: 'to believe|company secrets', highlights: ['secrets'], size: 50, pos: 'lower', media: {src: 'scandal/sc45_secrets.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2, 28], text: 'to believe|company secrets', highlights: ['secrets'], size: 50, pos: 'lower', media: {src: 'scandal/sc45_secrets.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'or national security|information were compromised.', highlights: ['national'], size: 44, pos: 'right', media: {src: 'scandal/sc46_natsec.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'or national security|information were compromised.', highlights: ['national'], size: 44, pos: 'right', media: {src: 'scandal/sc46_natsec.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 111, kind: 'text', reveal: [2, 28], text: 'The alleged espionage|remains under investigation,', highlights: ['espionage'], size: 44, pos: 'upperLeft', media: {src: 'scandal/sc47_espionage.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'The alleged espionage|remains under investigation,', highlights: ['espionage'], size: 44, pos: 'upperLeft', media: {src: 'scandal/sc47_espionage.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'and the company says|it has confidence', highlights: ['confidence'], size: 44, pos: 'lowerRight', media: {src: 'scandal/sc48_confidence.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'and the company says|it has confidence', highlights: ['confidence'], size: 44, pos: 'lowerRight', media: {src: 'scandal/sc48_confidence.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 48, kind: 'text', reveal: [2], text: 'in Huang’s leadership.', highlights: ['leadership.'], size: 52, pos: 'left', media: {src: 'scandal/sc49_huangleader.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'in Huang’s leadership.', highlights: ['leadership.'], size: 52, pos: 'left', media: {src: 'scandal/sc49_huangleader.jpg', type: 'img', effect: 'in'}},
   // 50
   {dur: 26, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'scandal/sc50_think.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 84, kind: 'text', reveal: [2, 28], text: 'Is this primarily|a personal scandal,', highlights: ['personal'], size: 44, pos: 'right', media: {src: 'scandal/sc51_personal.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'Is this primarily|a personal scandal,', highlights: ['personal'], size: 44, pos: 'right', media: {src: 'scandal/sc51_personal.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 43, kind: 'text', reveal: [2], text: 'or should the possibility', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'scandal/sc52_possibility.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'or should the possibility', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'scandal/sc52_possibility.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'of a foreign|intelligence operation', highlights: ['foreign'], size: 48, pos: 'upperLeft', media: {src: 'scandal/sc53_foreignop.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'of a foreign|intelligence operation', highlights: ['foreign'], size: 48, pos: 'upperLeft', media: {src: 'scandal/sc53_foreignop.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 129, kind: 'text', reveal: [2, 28], text: 'involving one of America’s|most powerful tech CEOs', highlights: ['powerful'], size: 44, pos: 'right', media: {src: 'scandal/sc54_powerful.jpg', type: 'img', effect: 'in'}},
+  {dur: 118, kind: 'text', reveal: [2, 28], text: 'involving one of America’s|most powerful tech CEOs', highlights: ['powerful'], size: 44, pos: 'right', media: {src: 'scandal/sc54_powerful.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 85, kind: 'text', reveal: [2, 28], text: 'raise serious national|security concerns?', highlights: ['security'], size: 48, pos: 'left', media: {src: 'scandal/sc55_security.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'raise serious national|security concerns?', highlights: ['security'], size: 48, pos: 'left', media: {src: 'scandal/sc55_security.jpg', type: 'img', effect: 'in'}},
   // 56 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'scandal/sc56_comments.jpg', type: 'img', effect: 'in'}},
 ];
@@ -230,8 +230,8 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 431, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3419, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 392, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3108, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
