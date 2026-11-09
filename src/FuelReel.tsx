@@ -108,119 +108,119 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 75, kind: 'hook', reveal: [3, 40], text: 'Gas prices are|finally falling', kicker: 'The holiday', highlights: [], size: 52, media: {src: 'fuel/fu00_falling.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'hook', reveal: [3, 40], text: 'Gas prices are|finally falling', kicker: 'The holiday', highlights: [], size: 52, media: {src: 'fuel/fu00_falling.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 37, kind: 'text', reveal: [2], text: 'across America.', highlights: ['America.'], size: 52, pos: 'upperRight', media: {src: 'fuel/fu01_america.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'across America.', highlights: ['America.'], size: 52, pos: 'upperRight', media: {src: 'fuel/fu01_america.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 47, kind: 'text', reveal: [2], text: 'But millions of drivers', highlights: ['millions'], size: 50, pos: 'left', media: {src: 'fuel/fu02_drivers.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'But millions of drivers', highlights: ['millions'], size: 50, pos: 'left', media: {src: 'fuel/fu02_drivers.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 28, kind: 'text', reveal: [2], text: 'could still face', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'fuel/fu03_stillface.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'could still face', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'fuel/fu03_stillface.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 100, kind: 'text', reveal: [2, 28], text: 'the most expensive|Thanksgiving fuel prices', highlights: ['expensive'], size: 44, pos: 'upperLeft', media: {src: 'fuel/fu04_expensive.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'the most expensive|Thanksgiving fuel prices', highlights: ['expensive'], size: 44, pos: 'upperLeft', media: {src: 'fuel/fu04_expensive.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 33, kind: 'text', reveal: [2], text: 'in history.', highlights: ['history.'], size: 52, pos: 'right', media: {src: 'fuel/fu05_history.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'in history.', highlights: ['history.'], size: 52, pos: 'right', media: {src: 'fuel/fu05_history.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 45, kind: 'text', reveal: [2, 28], text: 'Here’s the|surprising part:', highlights: [], size: 50, pos: 'lower', media: {src: 'fuel/fu06_surprising.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2, 28], text: 'Here’s the|surprising part:', highlights: [], size: 50, pos: 'lower', media: {src: 'fuel/fu06_surprising.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 35, kind: 'text', reveal: [2], text: 'gasoline has dropped', highlights: ['dropped'], size: 52, pos: 'lowerLeft', media: {src: 'fuel/fu07_dropped.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'gasoline has dropped', highlights: ['dropped'], size: 52, pos: 'lowerLeft', media: {src: 'fuel/fu07_dropped.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 56, kind: 'text', reveal: [2], text: 'for six straight weeks,', highlights: ['six'], size: 50, pos: 'upperRight', media: {src: 'fuel/fu08_sixweeks.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'for six straight weeks,', highlights: ['six'], size: 50, pos: 'upperRight', media: {src: 'fuel/fu08_sixweeks.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'yet this year’s|holiday prices', highlights: [], size: 48, pos: 'left', media: {src: 'fuel/fu09_holiday.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'yet this year’s|holiday prices', highlights: [], size: 48, pos: 'left', media: {src: 'fuel/fu09_holiday.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'are still expected|to beat', highlights: ['beat'], size: 48, pos: 'right', media: {src: 'fuel/fu10_beat.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'are still expected|to beat', highlights: ['beat'], size: 48, pos: 'right', media: {src: 'fuel/fu10_beat.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 38, kind: 'text', reveal: [2], text: 'the previous record.', highlights: ['record.'], size: 52, pos: 'upperLeft', media: {src: 'fuel/fu11_record.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'the previous record.', highlights: ['record.'], size: 52, pos: 'upperLeft', media: {src: 'fuel/fu11_record.jpg', type: 'img', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 35, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'lowerRight', media: {src: 'fuel/fu12_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'lowerRight', media: {src: 'fuel/fu12_follow.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 71, kind: 'text', reveal: [2, 28], text: 'on the economy|and the everyday costs', highlights: [], size: 44, pos: 'upper', media: {src: 'fuel/fu13_costs.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'on the economy|and the everyday costs', highlights: [], size: 44, pos: 'upper', media: {src: 'fuel/fu13_costs.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'affecting|American families.', highlights: [], size: 52, pos: 'left', media: {src: 'fuel/fu14_families.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'affecting|American families.', highlights: [], size: 52, pos: 'left', media: {src: 'fuel/fu14_families.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 36, kind: 'text', reveal: [2], text: 'As millions of Americans', highlights: [], size: 50, pos: 'right', media: {src: 'fuel/fu15_americans.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'As millions of Americans', highlights: [], size: 50, pos: 'right', media: {src: 'fuel/fu15_americans.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'prepare to travel|for Thanksgiving,', highlights: ['Thanksgiving,'], size: 48, pos: 'lowerLeft', media: {src: 'fuel/fu16_travel.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'prepare to travel|for Thanksgiving,', highlights: ['Thanksgiving,'], size: 48, pos: 'lowerLeft', media: {src: 'fuel/fu16_travel.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 81, kind: 'text', reveal: [2, 28], text: 'fuel prices are moving|in the right direction.', highlights: ['right'], size: 44, pos: 'upperRight', media: {src: 'fuel/fu17_direction.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'fuel prices are moving|in the right direction.', highlights: ['right'], size: 44, pos: 'upperRight', media: {src: 'fuel/fu17_direction.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 48, kind: 'text', reveal: [2, 28], text: 'But the relief|at the pump', highlights: ['relief'], size: 44, pos: 'left', media: {src: 'fuel/fu18_pump.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], text: 'But the relief|at the pump', highlights: ['relief'], size: 44, pos: 'left', media: {src: 'fuel/fu18_pump.jpg', type: 'img', effect: 'in'}},
   // 19
   {dur: 26, kind: 'text', reveal: [2], text: 'may not be enough', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'fuel/fu19_enough.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 48, kind: 'text', reveal: [2, 28], text: 'to make this|holiday affordable.', highlights: ['affordable.'], size: 48, pos: 'upperLeft', media: {src: 'fuel/fu20_affordable.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], text: 'to make this|holiday affordable.', highlights: ['affordable.'], size: 48, pos: 'upperLeft', media: {src: 'fuel/fu20_affordable.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 37, kind: 'text', reveal: [2], text: 'According to AAA,', highlights: ['AAA,'], size: 52, pos: 'right', media: {src: 'fuel/fu21_aaa.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'According to AAA,', highlights: ['AAA,'], size: 52, pos: 'right', media: {src: 'fuel/fu21_aaa.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 49, kind: 'text', reveal: [2], text: 'regular gasoline averaged', highlights: [], size: 52, pos: 'lower', media: {src: 'fuel/fu22_averaged.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'regular gasoline averaged', highlights: [], size: 52, pos: 'lower', media: {src: 'fuel/fu22_averaged.jpg', type: 'img', effect: 'in'}},
   // 23 CARD
   {dur: 40, kind: 'stat', stat: {prefix: '$', value: 4.01, decimals: 2, post: 'REGULAR GAS'}, media: {src: 'fuel/fu23_card401.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'per gallon|on November 9,', highlights: [], size: 48, pos: 'upperRight', media: {src: 'fuel/fu24_nov9.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'per gallon|on November 9,', highlights: [], size: 48, pos: 'upperRight', media: {src: 'fuel/fu24_nov9.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 105, kind: 'text', reveal: [2, 28], text: 'down from nearly|$4.48 in late September.', highlights: ['$4.48'], size: 44, pos: 'lowerLeft', media: {src: 'fuel/fu25_sept.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'down from nearly|$4.48 in late September.', highlights: ['$4.48'], size: 44, pos: 'lowerLeft', media: {src: 'fuel/fu25_sept.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'But the highest|Thanksgiving-week average', highlights: ['highest'], size: 48, pos: 'left', media: {src: 'fuel/fu26_highest.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'But the highest|Thanksgiving-week average', highlights: ['highest'], size: 48, pos: 'left', media: {src: 'fuel/fu26_highest.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 51, kind: 'text', reveal: [2, 28], text: 'in government records|was just', highlights: [], size: 48, pos: 'right', media: {src: 'fuel/fu27_records.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'in government records|was just', highlights: [], size: 48, pos: 'right', media: {src: 'fuel/fu27_records.jpg', type: 'img', effect: 'in'}},
   // 28 CARD
   {dur: 40, kind: 'stat', stat: {prefix: '$', value: 3.65, decimals: 2, post: '2022 RECORD'}, media: {src: 'fuel/fu28_card365.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 49, kind: 'text', reveal: [2], text: 'set in 2022.', highlights: ['2022.'], size: 52, pos: 'lowerRight', media: {src: 'fuel/fu29_2022.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'set in 2022.', highlights: ['2022.'], size: 52, pos: 'lowerRight', media: {src: 'fuel/fu29_2022.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 40, kind: 'text', reveal: [2, 28], text: 'The latest|weekly reading was', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'fuel/fu30_latest.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2, 28], text: 'The latest|weekly reading was', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'fuel/fu30_latest.jpg', type: 'img', effect: 'in'}},
   // 31 CARD
   {dur: 40, kind: 'stat', stat: {prefix: '$', value: 4.15, decimals: 2, post: 'LATEST WEEK'}, media: {src: 'fuel/fu31_card415.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 42, kind: 'text', reveal: [2], text: 'meaning this year’s holiday', highlights: [], size: 50, pos: 'right', media: {src: 'fuel/fu32_thisyear.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'meaning this year’s holiday', highlights: [], size: 50, pos: 'right', media: {src: 'fuel/fu32_thisyear.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 91, kind: 'text', reveal: [2, 28], text: 'is still on track|to break that record.', highlights: ['break'], size: 44, pos: 'upperRight', media: {src: 'fuel/fu33_ontrack.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'is still on track|to break that record.', highlights: ['break'], size: 44, pos: 'upperRight', media: {src: 'fuel/fu33_ontrack.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 34, kind: 'text', reveal: [2], text: 'And diesel drivers', highlights: ['diesel'], size: 52, pos: 'left', media: {src: 'fuel/fu34_diesel.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'And diesel drivers', highlights: ['diesel'], size: 52, pos: 'left', media: {src: 'fuel/fu34_diesel.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 64, kind: 'text', reveal: [2, 28], text: 'have an even|bigger problem.', highlights: ['bigger'], size: 48, pos: 'lowerLeft', media: {src: 'fuel/fu35_bigger.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'have an even|bigger problem.', highlights: ['bigger'], size: 48, pos: 'lowerLeft', media: {src: 'fuel/fu35_bigger.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 37, kind: 'text', reveal: [2], text: 'Prices remain', highlights: [], size: 52, pos: 'upper', media: {src: 'fuel/fu36_remain.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Prices remain', highlights: [], size: 52, pos: 'upper', media: {src: 'fuel/fu36_remain.jpg', type: 'img', effect: 'in'}},
   // 37 CARD
   {dur: 40, kind: 'stat', stat: {pre: 'ABOVE', prefix: '$', value: 6, post: 'DIESEL'}, media: {src: 'fuel/fu37_card6.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'per gallon,|while US diesel inventories', highlights: [], size: 44, pos: 'right', media: {src: 'fuel/fu38_inventories.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'per gallon,|while US diesel inventories', highlights: [], size: 44, pos: 'right', media: {src: 'fuel/fu38_inventories.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 54, kind: 'text', reveal: [2, 28], text: 'have fallen to|their lowest level', highlights: ['lowest'], size: 44, pos: 'lowerRight', media: {src: 'fuel/fu39_lowest.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'have fallen to|their lowest level', highlights: ['lowest'], size: 44, pos: 'lowerRight', media: {src: 'fuel/fu39_lowest.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 44, kind: 'text', reveal: [2], text: 'since 2003.', highlights: ['2003.'], size: 52, pos: 'upperLeft', media: {src: 'fuel/fu40_2003.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'since 2003.', highlights: ['2003.'], size: 52, pos: 'upperLeft', media: {src: 'fuel/fu40_2003.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 40, kind: 'text', reveal: [2], text: 'Higher fuel costs', highlights: ['costs'], size: 52, pos: 'left', media: {src: 'fuel/fu41_costs2.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Higher fuel costs', highlights: ['costs'], size: 52, pos: 'left', media: {src: 'fuel/fu41_costs2.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'affect more than|family road trips.', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'fuel/fu42_roadtrips.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'affect more than|family road trips.', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'fuel/fu42_roadtrips.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'They increase|transportation expenses', highlights: ['transportation'], size: 50, pos: 'upperRight', media: {src: 'fuel/fu43_transport.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'They increase|transportation expenses', highlights: ['transportation'], size: 50, pos: 'upperRight', media: {src: 'fuel/fu43_transport.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 27, kind: 'text', reveal: [2], text: 'for businesses,', highlights: [], size: 52, pos: 'right', media: {src: 'fuel/fu44_businesses.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'for businesses,', highlights: [], size: 52, pos: 'right', media: {src: 'fuel/fu44_businesses.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 29, kind: 'text', reveal: [2], text: 'pushing up the cost', highlights: ['cost'], size: 50, pos: 'lowerLeft', media: {src: 'fuel/fu45_cost.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'pushing up the cost', highlights: ['cost'], size: 50, pos: 'lowerLeft', media: {src: 'fuel/fu45_cost.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 44, kind: 'text', reveal: [2], text: 'of moving food, products,', highlights: [], size: 50, pos: 'left', media: {src: 'fuel/fu46_food.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'of moving food, products,', highlights: [], size: 50, pos: 'left', media: {src: 'fuel/fu46_food.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 76, kind: 'text', reveal: [2, 28], text: 'and other everyday|necessities.', highlights: ['necessities.'], size: 50, pos: 'upperRight', media: {src: 'fuel/fu47_necessities.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'and other everyday|necessities.', highlights: ['necessities.'], size: 50, pos: 'upperRight', media: {src: 'fuel/fu47_necessities.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'The six-week decline|offers some relief,', highlights: ['relief,'], size: 44, pos: 'lower', media: {src: 'fuel/fu48_decline.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'The six-week decline|offers some relief,', highlights: ['relief,'], size: 44, pos: 'lower', media: {src: 'fuel/fu48_decline.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'but experts say|the outlook', highlights: ['experts'], size: 48, pos: 'right', media: {src: 'fuel/fu49_outlook.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'but experts say|the outlook', highlights: ['experts'], size: 48, pos: 'right', media: {src: 'fuel/fu49_outlook.jpg', type: 'img', effect: 'in'}},
   // 50 RED
-  {dur: 67, kind: 'impact', redBg: true, text: 'Hinges on|oil.'},
+  {dur: 61, kind: 'impact', redBg: true, text: 'Hinges on|oil.'},
   // 51
-  {dur: 29, kind: 'text', reveal: [2], text: 'and whether tensions', highlights: ['tensions'], size: 52, pos: 'upperLeft', media: {src: 'fuel/fu51_tensions.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'and whether tensions', highlights: ['tensions'], size: 52, pos: 'upperLeft', media: {src: 'fuel/fu51_tensions.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'in the Middle East|escalate again.', highlights: ['escalate'], size: 44, pos: 'lowerRight', media: {src: 'fuel/fu52_escalate.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'in the Middle East|escalate again.', highlights: ['escalate'], size: 44, pos: 'lowerRight', media: {src: 'fuel/fu52_escalate.jpg', type: 'img', effect: 'in'}},
   // 53
   {dur: 26, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'left', media: {src: 'fuel/fu53_think.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 93, kind: 'text', reveal: [2, 28], text: 'Are falling gas prices|finally bringing relief,', highlights: ['bringing'], size: 44, pos: 'upperRight', media: {src: 'fuel/fu54_bringing.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'Are falling gas prices|finally bringing relief,', highlights: ['bringing'], size: 44, pos: 'upperRight', media: {src: 'fuel/fu54_bringing.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'or will Americans|still feel the pain', highlights: ['pain'], size: 44, pos: 'right', media: {src: 'fuel/fu55_pain.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'or will Americans|still feel the pain', highlights: ['pain'], size: 44, pos: 'right', media: {src: 'fuel/fu55_pain.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 51, kind: 'text', reveal: [2, 28], text: 'at the pump|this Thanksgiving?', highlights: ['Thanksgiving?'], size: 48, pos: 'lowerLeft', media: {src: 'fuel/fu56_pumppain.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'at the pump|this Thanksgiving?', highlights: ['Thanksgiving?'], size: 48, pos: 'lowerLeft', media: {src: 'fuel/fu56_pumppain.jpg', type: 'img', effect: 'in'}},
   // 57 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'fuel/fu57_comments.jpg', type: 'img', effect: 'in'}},
 ];
@@ -229,12 +229,12 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1148, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1464, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1593, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1901, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2600, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3014, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1044, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1328, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1448, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1728, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2364, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2740, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
