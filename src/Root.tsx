@@ -195,6 +195,7 @@ import {RoboticsReel, DURATION_IN_FRAMES as ROBOTICS_FRAMES} from './RoboticsRee
 import {SelloffReel, DURATION_IN_FRAMES as SELLOFF_FRAMES} from './SelloffReel';
 import {PivotReel, DURATION_IN_FRAMES as PIVOT_FRAMES} from './PivotReel';
 import {BacklashReel, DURATION_IN_FRAMES as BACKLASH_FRAMES} from './BacklashReel';
+import {RecordReel, DURATION_IN_FRAMES as RECORD_FRAMES} from './RecordReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1764,6 +1765,14 @@ export const RemotionRoot: React.FC = () => {
         id="BacklashReel"
         component={BacklashReel}
         durationInFrames={BACKLASH_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="RecordReel"
+        component={RecordReel}
+        durationInFrames={RECORD_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
