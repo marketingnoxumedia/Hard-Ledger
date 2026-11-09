@@ -155,7 +155,7 @@ const SCENES: SceneDef[] = [
   // 21
   {dur: 32, kind: 'text', reveal: [2], text: 'she was recruited', highlights: ['recruited'], size: 52, pos: 'upperLeft', media: {src: 'scandal/sc21_recruited.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'by China’s Ministry|of State Security', highlights: ['China's'], size: 44, pos: 'right', media: {src: 'scandal/sc22_mss.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'by China’s Ministry|of State Security', highlights: ['Ministry'], size: 44, pos: 'right', media: {src: 'scandal/sc22_mss.jpg', type: 'img', effect: 'in'}},
   // 23
   {dur: 44, kind: 'text', reveal: [2], text: 'to gather information', highlights: ['information'], size: 52, pos: 'lower', media: {src: 'scandal/sc23_info.jpg', type: 'img', effect: 'in'}},
   // 24
