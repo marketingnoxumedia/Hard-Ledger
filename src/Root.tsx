@@ -198,6 +198,7 @@ import {BacklashReel, DURATION_IN_FRAMES as BACKLASH_FRAMES} from './BacklashRee
 import {RecordReel, DURATION_IN_FRAMES as RECORD_FRAMES} from './RecordReel';
 import {ScandalReel, DURATION_IN_FRAMES as SCANDAL_FRAMES} from './ScandalReel';
 import {CrudeReel, DURATION_IN_FRAMES as CRUDE_FRAMES} from './CrudeReel';
+import {ChipWarReel, DURATION_IN_FRAMES as CHIPWAR_FRAMES} from './ChipWarReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1791,6 +1792,14 @@ export const RemotionRoot: React.FC = () => {
         id="CrudeReel"
         component={CrudeReel}
         durationInFrames={CRUDE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ChipWarReel"
+        component={ChipWarReel}
+        durationInFrames={CHIPWAR_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
