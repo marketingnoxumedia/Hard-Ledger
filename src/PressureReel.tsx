@@ -117,129 +117,131 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Donald Trump|is defending', kicker: 'The pressure', highlights: [], size: 54, media: {src: 'pressure/pr00_defending.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'hook', reveal: [3, 40], text: 'Donald Trump|is defending', kicker: 'The pressure', highlights: [], size: 54, media: {src: 'pressure/pr00_defending.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Nvidia CEO|Jensen Huang.', highlights: [], size: 50, pos: 'left', media: {src: 'pressure/pr01_ceo.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'Nvidia CEO|Jensen Huang.', highlights: [], size: 50, pos: 'left', media: {src: 'pressure/pr01_ceo.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But some Republicans|in Congress', highlights: ['Republicans'], size: 48, pos: 'lowerRight', media: {src: 'pressure/pr02_republicans.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'But some Republicans|in Congress', highlights: ['Republicans'], size: 48, pos: 'lowerRight', media: {src: 'pressure/pr02_republicans.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'are demanding answers,', highlights: ['answers,'], size: 52, pos: 'upperLeft', media: {src: 'pressure/pr03_answers.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'are demanding answers,', highlights: ['answers,'], size: 52, pos: 'upperLeft', media: {src: 'pressure/pr03_answers.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and this controversy|could become a serious', highlights: [], size: 44, pos: 'right', media: {src: 'pressure/pr04_controversy.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'and this controversy|could become a serious', highlights: [], size: 44, pos: 'right', media: {src: 'pressure/pr04_controversy.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'national security issue', highlights: ['security'], size: 52, pos: 'lower', media: {src: 'pressure/pr05_natsec.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'national security issue', highlights: ['security'], size: 52, pos: 'lower', media: {src: 'pressure/pr05_natsec.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for America’s biggest|AI chipmaker.', highlights: ['chipmaker.'], size: 48, pos: 'upperRight', media: {src: 'pressure/pr06_chipmaker.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'for America’s biggest|AI chipmaker.', highlights: ['chipmaker.'], size: 48, pos: 'upperRight', media: {src: 'pressure/pr06_chipmaker.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'Here’s the twist:', highlights: ['twist:'], size: 52, pos: 'lowerLeft', media: {src: 'pressure/pr07_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'Here’s the twist:', highlights: ['twist:'], size: 52, pos: 'lowerLeft', media: {src: 'pressure/pr07_twist.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the president|is standing by Huang,', highlights: [], size: 44, pos: 'left', media: {src: 'pressure/pr08_standingby.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'the president|is standing by Huang,', highlights: [], size: 44, pos: 'left', media: {src: 'pressure/pr08_standingby.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'but members|of his own party', highlights: [], size: 44, pos: 'right', media: {src: 'pressure/pr09_ownparty.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'but members|of his own party', highlights: [], size: 44, pos: 'right', media: {src: 'pressure/pr09_ownparty.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'want him to explain', highlights: ['explain'], size: 50, pos: 'upperRight', media: {src: 'pressure/pr10_explain.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'want him to explain', highlights: ['explain'], size: 50, pos: 'upperRight', media: {src: 'pressure/pr10_explain.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'his connections to a woman', highlights: ['connections'], size: 46, pos: 'lowerLeft', media: {src: 'pressure/pr11_connections.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'his connections to a woman', highlights: ['connections'], size: 46, pos: 'lowerLeft', media: {src: 'pressure/pr11_connections.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'suspected of|spying for China.', highlights: ['spying'], size: 48, pos: 'upperLeft', media: {src: 'pressure/pr12_spying.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'suspected of|spying for China.', highlights: ['spying'], size: 48, pos: 'upperLeft', media: {src: 'pressure/pr12_spying.jpg', type: 'img', effect: 'in'}},
   // 13 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'right', media: {src: 'pressure/pr13_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'right', media: {src: 'pressure/pr13_follow.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on the technology|and politics', highlights: [], size: 48, pos: 'left', media: {src: 'pressure/pr14_politics.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'on the technology|and politics', highlights: [], size: 48, pos: 'left', media: {src: 'pressure/pr14_politics.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'shaping the|global AI race.', highlights: ['race.'], size: 48, pos: 'lowerRight', media: {src: 'pressure/pr15_airace.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'shaping the|global AI race.', highlights: ['race.'], size: 48, pos: 'lowerRight', media: {src: 'pressure/pr15_airace.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The controversy began|after reports alleged', highlights: ['alleged'], size: 44, pos: 'upper', media: {src: 'pressure/pr16_reports.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'The controversy began|after reports alleged', highlights: ['alleged'], size: 44, pos: 'upper', media: {src: 'pressure/pr16_reports.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'that Alice Huang,', highlights: [], size: 52, pos: 'right', media: {src: 'pressure/pr17_alice.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'that Alice Huang,', highlights: [], size: 52, pos: 'right', media: {src: 'pressure/pr17_alice.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a Chinese businesswoman|and former executive', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'pressure/pr18_exec.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'a Chinese businesswoman|and former executive', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'pressure/pr18_exec.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'at Singapore-based|Megaspeed,', highlights: ['Singapore-based'], size: 52, pos: 'upperRight', media: {src: 'pressure/pr19_megaspeed.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'at Singapore-based|Megaspeed,', highlights: ['Singapore-based'], size: 52, pos: 'upperRight', media: {src: 'pressure/pr19_megaspeed.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'was gathering|information for Beijing.', highlights: ['Beijing.'], size: 48, pos: 'left', media: {src: 'pressure/pr20_beijing.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'was gathering|information for Beijing.', highlights: ['Beijing.'], size: 48, pos: 'left', media: {src: 'pressure/pr20_beijing.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Jensen Huang|has admitted', highlights: ['admitted'], size: 50, pos: 'lowerRight', media: {src: 'pressure/pr21_admitted.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'Jensen Huang|has admitted', highlights: ['admitted'], size: 50, pos: 'lowerRight', media: {src: 'pressure/pr21_admitted.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to having|an affair with her,', highlights: ['affair'], size: 44, pos: 'right', media: {src: 'pressure/pr22_affair.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2, 28], text: 'to having|an affair with her,', highlights: ['affair'], size: 44, pos: 'right', media: {src: 'pressure/pr22_affair.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while Nvidia’s board|has launched', highlights: ['board'], size: 48, pos: 'upperLeft', media: {src: 'pressure/pr23_board.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'while Nvidia’s board|has launched', highlights: ['board'], size: 48, pos: 'upperLeft', media: {src: 'pressure/pr23_board.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'an independent investigation.', highlights: ['independent'], size: 52, pos: 'lower', media: {src: 'pressure/pr24_investigation.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'an independent investigation.', highlights: ['independent'], size: 52, pos: 'lower', media: {src: 'pressure/pr24_investigation.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Trump called Huang|an honorable person', highlights: ['honorable'], size: 44, pos: 'left', media: {src: 'pressure/pr25_honorable.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'Trump called Huang|an honorable person', highlights: ['honorable'], size: 44, pos: 'left', media: {src: 'pressure/pr25_honorable.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and praised his|contributions to America.', highlights: [], size: 44, pos: 'right', media: {src: 'pressure/pr26_contributions.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'and praised his|contributions to America.', highlights: [], size: 44, pos: 'right', media: {src: 'pressure/pr26_contributions.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But Republican|committee leaders', highlights: ['Republican'], size: 50, pos: 'upperRight', media: {src: 'pressure/pr27_committee.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'But Republican|committee leaders', highlights: ['Republican'], size: 50, pos: 'upperRight', media: {src: 'pressure/pr27_committee.jpg', type: 'img', effect: 'in'}},
   // 28
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'have requested|a congressional briefing', highlights: ['congressional'], size: 48, pos: 'lowerLeft', media: {src: 'pressure/pr28_briefing.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'from the Nvidia CEO', highlights: [], size: 50, pos: 'left', media: {src: 'pressure/pr29_fromceo.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'from the Nvidia CEO', highlights: [], size: 50, pos: 'left', media: {src: 'pressure/pr29_fromceo.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'on November 18.', highlights: ['18.'], size: 52, pos: 'lowerRight', media: {src: 'pressure/pr30_nov18.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'on November 18.', highlights: ['18.'], size: 52, pos: 'lowerRight', media: {src: 'pressure/pr30_nov18.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'They want answers|about possible', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'pressure/pr31_possible.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'They want answers|about possible', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'pressure/pr31_possible.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'intelligence risks', highlights: ['intelligence'], size: 52, pos: 'right', media: {src: 'pressure/pr32_intelrisks.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'intelligence risks', highlights: ['intelligence'], size: 52, pos: 'right', media: {src: 'pressure/pr32_intelrisks.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and Nvidia’s|security procedures.', highlights: ['security'], size: 50, pos: 'upperRight', media: {src: 'pressure/pr33_procedures.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'and Nvidia’s|security procedures.', highlights: ['security'], size: 50, pos: 'upperRight', media: {src: 'pressure/pr33_procedures.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'Democratic lawmakers', highlights: ['Democratic'], size: 52, pos: 'left', media: {src: 'pressure/pr34_democratic.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'Democratic lawmakers', highlights: ['Democratic'], size: 52, pos: 'left', media: {src: 'pressure/pr34_democratic.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'are also demanding|accountability,', highlights: ['accountability,'], size: 50, pos: 'lowerLeft', media: {src: 'pressure/pr35_accountability.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'are also demanding|accountability,', highlights: ['accountability,'], size: 50, pos: 'lowerLeft', media: {src: 'pressure/pr35_accountability.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'meaning Huang could|face pressure', highlights: ['pressure'], size: 48, pos: 'right', media: {src: 'pressure/pr36_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'meaning Huang could|face pressure', highlights: ['pressure'], size: 48, pos: 'right', media: {src: 'pressure/pr36_pressure.jpg', type: 'img', effect: 'in'}},
   // 37 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Both sides|of Congress.'},
+  {dur: 66, kind: 'impact', redBg: true, text: 'Both sides|of Congress.'},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'This matters because Nvidia', highlights: ['matters'], size: 50, pos: 'lower', media: {src: 'pressure/pr38_matters.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2], text: 'This matters because Nvidia', highlights: ['matters'], size: 50, pos: 'lower', media: {src: 'pressure/pr38_matters.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'controls critical technology', highlights: ['critical'], size: 52, pos: 'upperRight', media: {src: 'pressure/pr39_critical.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'controls critical technology', highlights: ['critical'], size: 52, pos: 'upperRight', media: {src: 'pressure/pr39_critical.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'used in America’s|AI infrastructure.', highlights: ['infrastructure.'], size: 48, pos: 'left', media: {src: 'pressure/pr40_infrastructure.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'used in America’s|AI infrastructure.', highlights: ['infrastructure.'], size: 48, pos: 'left', media: {src: 'pressure/pr40_infrastructure.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Any evidence that|sensitive information', highlights: ['sensitive'], size: 48, pos: 'lowerRight', media: {src: 'pressure/pr41_sensitive.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'Any evidence that|sensitive information', highlights: ['sensitive'], size: 48, pos: 'lowerRight', media: {src: 'pressure/pr41_sensitive.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'reached China', highlights: ['China'], size: 52, pos: 'right', media: {src: 'pressure/pr42_reachedchina.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'reached China', highlights: ['China'], size: 52, pos: 'right', media: {src: 'pressure/pr42_reachedchina.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'could trigger serious', highlights: ['trigger'], size: 52, pos: 'upperLeft', media: {src: 'pressure/pr43_trigger.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'could trigger serious', highlights: ['trigger'], size: 52, pos: 'upperLeft', media: {src: 'pressure/pr43_trigger.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'political and|regulatory consequences.', highlights: ['consequences.'], size: 50, pos: 'lowerLeft', media: {src: 'pressure/pr44_consequences.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'political and|regulatory consequences.', highlights: ['consequences.'], size: 50, pos: 'lowerLeft', media: {src: 'pressure/pr44_consequences.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Nvidia says|it has no reason', highlights: [], size: 44, pos: 'upperRight', media: {src: 'pressure/pr45_noreason.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'Nvidia says|it has no reason', highlights: [], size: 44, pos: 'upperRight', media: {src: 'pressure/pr45_noreason.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to believe|company secrets', highlights: ['secrets'], size: 50, pos: 'left', media: {src: 'pressure/pr46_secrets.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'to believe|company secrets', highlights: ['secrets'], size: 50, pos: 'left', media: {src: 'pressure/pr46_secrets.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or national security|information were compromised.', highlights: ['national'], size: 44, pos: 'right', media: {src: 'pressure/pr47_natsec2.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'or national security|information were compromised.', highlights: ['national'], size: 44, pos: 'right', media: {src: 'pressure/pr47_natsec2.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'The espionage allegations', highlights: ['espionage'], size: 52, pos: 'lowerRight', media: {src: 'pressure/pr48_espionage.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'The espionage allegations', highlights: ['espionage'], size: 52, pos: 'lowerRight', media: {src: 'pressure/pr48_espionage.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'also remain unproven.', highlights: ['unproven.'], size: 52, pos: 'upperLeft', media: {src: 'pressure/pr49_unproven.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'also remain unproven.', highlights: ['unproven.'], size: 52, pos: 'upperLeft', media: {src: 'pressure/pr49_unproven.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'But Trump’s support', highlights: ['support'], size: 52, pos: 'left', media: {src: 'pressure/pr50_support.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'But Trump’s support', highlights: ['support'], size: 52, pos: 'left', media: {src: 'pressure/pr50_support.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'cannot stop Congress|from investigating.', highlights: ['Congress'], size: 48, pos: 'right', media: {src: 'pressure/pr51_investigating.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'cannot stop Congress|from investigating.', highlights: ['Congress'], size: 48, pos: 'right', media: {src: 'pressure/pr51_investigating.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'pressure/pr52_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'pressure/pr52_think.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Should Jensen Huang|remain in charge', highlights: ['charge'], size: 44, pos: 'upperRight', media: {src: 'pressure/pr53_charge.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'Should Jensen Huang|remain in charge', highlights: ['charge'], size: 44, pos: 'upperRight', media: {src: 'pressure/pr53_charge.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while the investigation|continues,', highlights: ['continues,'], size: 50, pos: 'right', media: {src: 'pressure/pr54_continues.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'while the investigation|continues,', highlights: ['continues,'], size: 50, pos: 'right', media: {src: 'pressure/pr54_continues.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2], text: 'or should Congress demand', highlights: ['demand'], size: 50, pos: 'left', media: {src: 'pressure/pr55_demand.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'or should Congress demand', highlights: ['demand'], size: 50, pos: 'left', media: {src: 'pressure/pr55_demand.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 70, kind: 'text', reveal: [2], text: 'stronger accountability', highlights: ['accountability'], size: 52, pos: 'lowerRight', media: {src: 'pressure/pr56_accountability2.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'stronger accountability', highlights: ['accountability'], size: 52, pos: 'lowerRight', media: {src: 'pressure/pr56_accountability2.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'from one of America’s|most powerful tech executives?', highlights: ['powerful'], size: 44, pos: 'upperLeft', media: {src: 'pressure/pr57_powerful.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', reveal: [2, 28], text: 'from one of America’s|most powerful tech executives?', highlights: ['powerful'], size: 44, pos: 'upperLeft', media: {src: 'pressure/pr57_powerful.jpg', type: 'img', effect: 'in'}},
   // 58 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'pressure/pr58_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'pressure/pr58_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2174, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3473, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
