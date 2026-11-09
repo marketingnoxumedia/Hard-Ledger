@@ -109,109 +109,109 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 57, kind: 'hook', reveal: [3, 40], text: 'An electric car|just crossed', kicker: 'The record', highlights: [], size: 52, media: {src: 'record/rc00_crossed.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'hook', reveal: [3, 40], text: 'An electric car|just crossed', kicker: 'The record', highlights: [], size: 52, media: {src: 'record/rc00_crossed.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 46, kind: 'text', reveal: [2, 28], text: '500 kilometers|per hour.', highlights: ['500'], size: 50, pos: 'upperRight', media: {src: 'record/rc01_500.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: '500 kilometers|per hour.', highlights: ['500'], size: 50, pos: 'upperRight', media: {src: 'record/rc01_500.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 52, kind: 'text', reveal: [2], text: 'And it wasn’t Tesla.', highlights: ['Tesla.'], size: 50, pos: 'left', media: {src: 'record/rc02_nottesla.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'And it wasn’t Tesla.', highlights: ['Tesla.'], size: 50, pos: 'left', media: {src: 'record/rc02_nottesla.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'It was China’s BYD,', highlights: ['BYD,'], size: 50, pos: 'lowerRight', media: {src: 'record/rc03_byd.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'It was China’s BYD,', highlights: ['BYD,'], size: 50, pos: 'lowerRight', media: {src: 'record/rc03_byd.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 32, kind: 'text', reveal: [2], text: 'with a hypercar', highlights: ['hypercar'], size: 52, pos: 'upperLeft', media: {src: 'record/rc04_hypercar.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'with a hypercar', highlights: ['hypercar'], size: 52, pos: 'upperLeft', media: {src: 'record/rc04_hypercar.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 76, kind: 'text', reveal: [2, 28], text: 'that just made|automotive history.', highlights: ['history.'], size: 48, pos: 'right', media: {src: 'record/rc05_history.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'that just made|automotive history.', highlights: ['history.'], size: 48, pos: 'right', media: {src: 'record/rc05_history.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'But here’s what makes this|even more impressive:', highlights: [], size: 44, pos: 'lower', media: {src: 'record/rc06_impressive.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'But here’s what makes this|even more impressive:', highlights: [], size: 44, pos: 'lower', media: {src: 'record/rc06_impressive.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 36, kind: 'text', reveal: [2], text: 'it didn’t just beat', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'record/rc07_beat.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'it didn’t just beat', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'record/rc07_beat.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 74, kind: 'text', reveal: [2, 28], text: 'the previous|electric car record.', highlights: ['record.'], size: 48, pos: 'upperRight', media: {src: 'record/rc08_record.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'the previous|electric car record.', highlights: ['record.'], size: 48, pos: 'upperRight', media: {src: 'record/rc08_record.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 53, kind: 'text', reveal: [2], text: 'It crossed a speed barrier', highlights: ['barrier'], size: 46, pos: 'lowerLeft', media: {src: 'record/rc09_barrier.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'It crossed a speed barrier', highlights: ['barrier'], size: 46, pos: 'lowerLeft', media: {src: 'record/rc09_barrier.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 38, kind: 'text', reveal: [2], text: 'that production cars', highlights: [], size: 52, pos: 'right', media: {src: 'record/rc10_production.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'that production cars', highlights: [], size: 52, pos: 'right', media: {src: 'record/rc10_production.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'have struggled to reach|for decades.', highlights: ['decades.'], size: 44, pos: 'left', media: {src: 'record/rc11_decades.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'have struggled to reach|for decades.', highlights: ['decades.'], size: 44, pos: 'left', media: {src: 'record/rc11_decades.jpg', type: 'img', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 56, kind: 'text', reveal: [2], text: 'Follow for more|incredible stories', highlights: ['follow'], size: 48, pos: 'lowerRight', media: {src: 'record/rc12_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'Follow for more|incredible stories', highlights: ['follow'], size: 48, pos: 'lowerRight', media: {src: 'record/rc12_follow.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 48, kind: 'text', reveal: [2], text: 'about cars and technology.', highlights: [], size: 50, pos: 'upper', media: {src: 'record/rc13_tech.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'about cars and technology.', highlights: [], size: 50, pos: 'upper', media: {src: 'record/rc13_tech.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 110, kind: 'text', reveal: [2, 28], text: 'The car is the|Yangwang U9 Xtreme,', highlights: [], size: 44, pos: 'left', media: {src: 'record/rc14_u9.jpg', type: 'img', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2, 28], text: 'The car is the|Yangwang U9 Xtreme,', highlights: [], size: 44, pos: 'left', media: {src: 'record/rc14_u9.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'a high-performance|electric hypercar', highlights: ['performance'], size: 50, pos: 'right', media: {src: 'record/rc15_perf.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'a high-performance|electric hypercar', highlights: ['performance'], size: 50, pos: 'right', media: {src: 'record/rc15_perf.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'developed by|BYD’s luxury brand.', highlights: ['luxury'], size: 48, pos: 'lowerLeft', media: {src: 'record/rc16_luxury.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'developed by|BYD’s luxury brand.', highlights: ['luxury'], size: 48, pos: 'lowerLeft', media: {src: 'record/rc16_luxury.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 39, kind: 'text', reveal: [2], text: 'It was built to push', highlights: ['push'], size: 46, pos: 'upperRight', media: {src: 'record/rc17_push.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'It was built to push', highlights: ['push'], size: 46, pos: 'upperRight', media: {src: 'record/rc17_push.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 54, kind: 'text', reveal: [2], text: 'electric vehicle technology', highlights: [], size: 52, pos: 'left', media: {src: 'record/rc18_evtech.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'electric vehicle technology', highlights: [], size: 52, pos: 'left', media: {src: 'record/rc18_evtech.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 50, kind: 'text', reveal: [2], text: 'to its absolute limits.', highlights: ['limits.'], size: 50, pos: 'lowerRight', media: {src: 'record/rc19_limits.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'to its absolute limits.', highlights: ['limits.'], size: 50, pos: 'lowerRight', media: {src: 'record/rc19_limits.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 61, kind: 'text', reveal: [2], text: 'On November 1, 2026,', highlights: ['2026,'], size: 50, pos: 'upperLeft', media: {src: 'record/rc20_date.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'On November 1, 2026,', highlights: ['2026,'], size: 50, pos: 'upperLeft', media: {src: 'record/rc20_date.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'German racing driver|Marc Basseng', highlights: [], size: 48, pos: 'right', media: {src: 'record/rc21_driver.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'German racing driver|Marc Basseng', highlights: [], size: 48, pos: 'right', media: {src: 'record/rc21_driver.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 30, kind: 'text', reveal: [2], text: 'took the car to', highlights: [], size: 50, pos: 'lower', media: {src: 'record/rc22_took.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'took the car to', highlights: [], size: 50, pos: 'lower', media: {src: 'record/rc22_took.jpg', type: 'img', effect: 'in'}},
   // 23 CARD
-  {dur: 88, kind: 'stat', stat: {value: 503.17, decimals: 2, post: 'KM/H'}, media: {src: 'record/rc23_card503.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'stat', stat: {value: 503.17, decimals: 2, post: 'KM/H'}, media: {src: 'record/rc23_card503.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 56, kind: 'text', reveal: [2, 28], text: 'on a closed road|in Abu Dhabi.', highlights: ['Dhabi.'], size: 44, pos: 'upperRight', media: {src: 'record/rc24_abudhabi.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'on a closed road|in Abu Dhabi.', highlights: ['Dhabi.'], size: 44, pos: 'upperRight', media: {src: 'record/rc24_abudhabi.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 85, kind: 'text', reveal: [2, 28], text: 'The FIA officially|recognized the achievement,', highlights: ['FIA'], size: 44, pos: 'lowerLeft', media: {src: 'record/rc25_fia.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'The FIA officially|recognized the achievement,', highlights: ['FIA'], size: 44, pos: 'lowerLeft', media: {src: 'record/rc25_fia.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 42, kind: 'text', reveal: [2], text: 'while Guinness World Records', highlights: ['Guinness'], size: 50, pos: 'left', media: {src: 'record/rc26_guinness.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'while Guinness World Records', highlights: ['Guinness'], size: 50, pos: 'left', media: {src: 'record/rc26_guinness.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 51, kind: 'text', reveal: [2], text: 'awarded it two records', highlights: ['two'], size: 50, pos: 'right', media: {src: 'record/rc27_tworecords.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'awarded it two records', highlights: ['two'], size: 50, pos: 'right', media: {src: 'record/rc27_tworecords.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 63, kind: 'text', reveal: [2, 28], text: 'for the highest|single-direction speed', highlights: ['highest'], size: 48, pos: 'lowerRight', media: {src: 'record/rc28_speed.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'for the highest|single-direction speed', highlights: ['highest'], size: 48, pos: 'lowerRight', media: {src: 'record/rc28_speed.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 57, kind: 'text', reveal: [2], text: 'achieved by a production car', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'record/rc29_prodcar.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'achieved by a production car', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'record/rc29_prodcar.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'and an electric|production car.', highlights: [], size: 48, pos: 'right', media: {src: 'record/rc30_evprod.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'and an electric|production car.', highlights: [], size: 48, pos: 'right', media: {src: 'record/rc30_evprod.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 29, kind: 'text', reveal: [2], text: 'The machine produces', highlights: ['machine'], size: 52, pos: 'upperRight', media: {src: 'record/rc31_machine.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'The machine produces', highlights: ['machine'], size: 52, pos: 'upperRight', media: {src: 'record/rc31_machine.jpg', type: 'img', effect: 'in'}},
   // 32 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'MORE THAN', value: 3000, post: 'HORSEPOWER'}, media: {src: 'record/rc32_card3000.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'stat', stat: {pre: 'MORE THAN', value: 3000, post: 'HORSEPOWER'}, media: {src: 'record/rc32_card3000.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 55, kind: 'text', reveal: [2, 28], text: 'through four|electric motors', highlights: ['four'], size: 50, pos: 'left', media: {src: 'record/rc33_motors.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'through four|electric motors', highlights: ['four'], size: 50, pos: 'left', media: {src: 'record/rc33_motors.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 58, kind: 'text', reveal: [2], text: 'and uses a', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'record/rc34_uses.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'and uses a', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'record/rc34_uses.jpg', type: 'img', effect: 'in'}},
   // 35 CARD
   {dur: 40, kind: 'stat', stat: {value: 1200, post: 'VOLT ARCHITECTURE'}, media: {src: 'record/rc35_card1200.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'to handle its|extreme performance.', highlights: ['extreme'], size: 48, pos: 'upper', media: {src: 'record/rc36_extreme.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'to handle its|extreme performance.', highlights: ['extreme'], size: 48, pos: 'upper', media: {src: 'record/rc36_extreme.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 61, kind: 'text', reveal: [2], text: 'This achievement puts BYD', highlights: [], size: 50, pos: 'right', media: {src: 'record/rc37_byd2.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'This achievement puts BYD', highlights: [], size: 50, pos: 'right', media: {src: 'record/rc37_byd2.jpg', type: 'img', effect: 'in'}},
   // 38 RED
-  {dur: 49, kind: 'impact', redBg: true, text: 'A different|conversation.'},
+  {dur: 46, kind: 'impact', redBg: true, text: 'A different|conversation.'},
   // 39
-  {dur: 78, kind: 'text', reveal: [2, 28], text: 'Chinese automakers|are no longer competing', highlights: ['automakers'], size: 44, pos: 'lowerRight', media: {src: 'record/rc39_automakers.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Chinese automakers|are no longer competing', highlights: ['automakers'], size: 44, pos: 'lowerRight', media: {src: 'record/rc39_automakers.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'only on affordable|electric vehicles.', highlights: ['affordable'], size: 48, pos: 'upperLeft', media: {src: 'record/rc40_affordable.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'only on affordable|electric vehicles.', highlights: ['affordable'], size: 48, pos: 'upperLeft', media: {src: 'record/rc40_affordable.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 28, kind: 'text', reveal: [2], text: 'They’re challenging', highlights: ['challenging'], size: 52, pos: 'left', media: {src: 'record/rc41_challenging.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'They’re challenging', highlights: ['challenging'], size: 52, pos: 'left', media: {src: 'record/rc41_challenging.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 96, kind: 'text', reveal: [2, 28], text: 'the world’s most|exclusive performance brands.', highlights: ['exclusive'], size: 44, pos: 'lowerRight', media: {src: 'record/rc42_exclusive.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'the world’s most|exclusive performance brands.', highlights: ['exclusive'], size: 44, pos: 'lowerRight', media: {src: 'record/rc42_exclusive.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'But there’s an|important distinction.', highlights: ['distinction.'], size: 48, pos: 'upperRight', media: {src: 'record/rc43_distinction.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'But there’s an|important distinction.', highlights: ['distinction.'], size: 48, pos: 'upperRight', media: {src: 'record/rc43_distinction.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 78, kind: 'text', reveal: [2, 28], text: 'This was a|single-direction record,', highlights: ['single-direction'], size: 48, pos: 'right', media: {src: 'record/rc44_singledir.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'This was a|single-direction record,', highlights: ['single-direction'], size: 48, pos: 'right', media: {src: 'record/rc44_singledir.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'not the traditional|two-way average', highlights: ['two-way'], size: 48, pos: 'lowerLeft', media: {src: 'record/rc45_twoway.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'not the traditional|two-way average', highlights: ['two-way'], size: 48, pos: 'lowerLeft', media: {src: 'record/rc45_twoway.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'used for some|production-car records.', highlights: [], size: 48, pos: 'left', media: {src: 'record/rc46_records.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'used for some|production-car records.', highlights: [], size: 48, pos: 'left', media: {src: 'record/rc46_records.jpg', type: 'img', effect: 'in'}},
   // 47
   {dur: 26, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'record/rc47_think.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Is this proof|electric cars', highlights: ['proof'], size: 48, pos: 'lower', media: {src: 'record/rc48_proof.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'Is this proof|electric cars', highlights: ['proof'], size: 48, pos: 'lower', media: {src: 'record/rc48_proof.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'are the future|of hypercars,', highlights: ['future'], size: 48, pos: 'right', media: {src: 'record/rc49_future.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'are the future|of hypercars,', highlights: ['future'], size: 48, pos: 'right', media: {src: 'record/rc49_future.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 46, kind: 'text', reveal: [2], text: 'or will gasoline machines', highlights: ['gasoline'], size: 50, pos: 'upperLeft', media: {src: 'record/rc50_gasoline.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'or will gasoline machines', highlights: ['gasoline'], size: 50, pos: 'upperLeft', media: {src: 'record/rc50_gasoline.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'always have a special|place at the top?', highlights: ['top?'], size: 44, pos: 'lowerRight', media: {src: 'record/rc51_top.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'always have a special|place at the top?', highlights: ['top?'], size: 44, pos: 'lowerRight', media: {src: 'record/rc51_top.jpg', type: 'img', effect: 'in'}},
   // 52 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'record/rc52_comments.jpg', type: 'img', effect: 'in'}},
 ];
@@ -220,11 +220,11 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1373, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1905, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2088, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2256, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3072, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1307, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1815, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1989, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2149, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2926, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
