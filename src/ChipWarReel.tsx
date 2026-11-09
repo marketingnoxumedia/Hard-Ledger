@@ -109,127 +109,129 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Nvidia has dominated', kicker: 'The chip war', highlights: ['dominated'], size: 56, media: {src: 'chipwar/cw00_dominated.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'hook', reveal: [3, 40], text: 'Nvidia has dominated', kicker: 'The chip war', highlights: ['dominated'], size: 56, media: {src: 'chipwar/cw00_dominated.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the AI chip market|for years.', highlights: ['years.'], size: 44, pos: 'upperRight', media: {src: 'chipwar/cw01_market.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'the AI chip market|for years.', highlights: ['years.'], size: 44, pos: 'upperRight', media: {src: 'chipwar/cw01_market.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'But Google is making', highlights: ['Google'], size: 50, pos: 'left', media: {src: 'chipwar/cw02_google.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'But Google is making', highlights: ['Google'], size: 50, pos: 'left', media: {src: 'chipwar/cw02_google.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a serious move|to challenge that dominance,', highlights: ['challenge'], size: 44, pos: 'lowerRight', media: {src: 'chipwar/cw03_challenge.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'a serious move|to challenge that dominance,', highlights: ['challenge'], size: 44, pos: 'lowerRight', media: {src: 'chipwar/cw03_challenge.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and it could change|who controls the future', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'chipwar/cw04_future.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'and it could change|who controls the future', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'chipwar/cw04_future.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'of artificial intelligence.', highlights: ['intelligence.'], size: 52, pos: 'right', media: {src: 'chipwar/cw05_ai.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'of artificial intelligence.', highlights: ['intelligence.'], size: 52, pos: 'right', media: {src: 'chipwar/cw05_ai.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Here’s the|interesting part:', highlights: [], size: 50, pos: 'lower', media: {src: 'chipwar/cw06_interesting.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2, 28], text: 'Here’s the|interesting part:', highlights: [], size: 50, pos: 'lower', media: {src: 'chipwar/cw06_interesting.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Google isn’t just|building faster chips.', highlights: ['faster'], size: 44, pos: 'lowerLeft', media: {src: 'chipwar/cw07_faster.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'Google isn’t just|building faster chips.', highlights: ['faster'], size: 44, pos: 'lowerLeft', media: {src: 'chipwar/cw07_faster.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It’s creating|specialized processors', highlights: ['specialized'], size: 50, pos: 'upperRight', media: {src: 'chipwar/cw08_processors.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'It’s creating|specialized processors', highlights: ['specialized'], size: 50, pos: 'upperRight', media: {src: 'chipwar/cw08_processors.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'designed to take on Nvidia', highlights: ['Nvidia'], size: 46, pos: 'left', media: {src: 'chipwar/cw09_takeon.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'designed to take on Nvidia', highlights: ['Nvidia'], size: 46, pos: 'left', media: {src: 'chipwar/cw09_takeon.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in different areas|of AI computing.', highlights: [], size: 44, pos: 'right', media: {src: 'chipwar/cw10_computing.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'in different areas|of AI computing.', highlights: [], size: 44, pos: 'right', media: {src: 'chipwar/cw10_computing.jpg', type: 'img', effect: 'in'}},
   // 11 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'upperLeft', media: {src: 'chipwar/cw11_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'upperLeft', media: {src: 'chipwar/cw11_follow.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on the technology|and companies', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'chipwar/cw12_tech.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'on the technology|and companies', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'chipwar/cw12_tech.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'driving the AI race.', highlights: ['race.'], size: 50, pos: 'upper', media: {src: 'chipwar/cw13_race.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'driving the AI race.', highlights: ['race.'], size: 50, pos: 'upper', media: {src: 'chipwar/cw13_race.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Google has spent|more than a decade', highlights: ['decade'], size: 44, pos: 'left', media: {src: 'chipwar/cw14_decade.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'Google has spent|more than a decade', highlights: ['decade'], size: 44, pos: 'left', media: {src: 'chipwar/cw14_decade.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'developing its own|AI processors,', highlights: [], size: 48, pos: 'right', media: {src: 'chipwar/cw15_developing.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'developing its own|AI processors,', highlights: [], size: 48, pos: 'right', media: {src: 'chipwar/cw15_developing.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'known as Tensor|Processing Units,', highlights: ['Tensor'], size: 48, pos: 'lowerLeft', media: {src: 'chipwar/cw16_tensor.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'known as Tensor|Processing Units,', highlights: ['Tensor'], size: 48, pos: 'lowerLeft', media: {src: 'chipwar/cw16_tensor.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'or TPUs.', highlights: ['TPUs.'], size: 52, pos: 'upperRight', media: {src: 'chipwar/cw17_tpus.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'or TPUs.', highlights: ['TPUs.'], size: 52, pos: 'upperRight', media: {src: 'chipwar/cw17_tpus.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Originally designed for|Google’s internal services,', highlights: [], size: 44, pos: 'left', media: {src: 'chipwar/cw18_internal.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'Originally designed for|Google’s internal services,', highlights: [], size: 44, pos: 'left', media: {src: 'chipwar/cw18_internal.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'these chips are|now becoming', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'chipwar/cw19_becoming.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'these chips are|now becoming', highlights: [], size: 48, pos: 'lowerRight', media: {src: 'chipwar/cw19_becoming.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a major|commercial business.', highlights: ['commercial'], size: 50, pos: 'upperLeft', media: {src: 'chipwar/cw20_commercial.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'a major|commercial business.', highlights: ['commercial'], size: 50, pos: 'upperLeft', media: {src: 'chipwar/cw20_commercial.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'On November 9,', highlights: ['November'], size: 52, pos: 'right', media: {src: 'chipwar/cw21_nov9.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'On November 9,', highlights: ['November'], size: 52, pos: 'right', media: {src: 'chipwar/cw21_nov9.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Google introduced two|specialized configurations:', highlights: ['two'], size: 48, pos: 'lower', media: {src: 'chipwar/cw22_two.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'Google introduced two|specialized configurations:', highlights: ['two'], size: 48, pos: 'lower', media: {src: 'chipwar/cw22_two.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'the TPU 8tx,', highlights: ['8tx,'], size: 52, pos: 'upperRight', media: {src: 'chipwar/cw23_8tx.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'the TPU 8tx,', highlights: ['8tx,'], size: 52, pos: 'upperRight', media: {src: 'chipwar/cw23_8tx.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'designed for secure|and confidential computing,', highlights: ['confidential'], size: 44, pos: 'lowerLeft', media: {src: 'chipwar/cw24_confidential.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', reveal: [2, 28], text: 'designed for secure|and confidential computing,', highlights: ['confidential'], size: 44, pos: 'lowerLeft', media: {src: 'chipwar/cw24_confidential.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'and the 8i Max,', highlights: ['8i'], size: 50, pos: 'left', media: {src: 'chipwar/cw25_8imax.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'and the 8i Max,', highlights: ['8i'], size: 50, pos: 'left', media: {src: 'chipwar/cw25_8imax.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'built for AI applications', highlights: [], size: 50, pos: 'right', media: {src: 'chipwar/cw26_applications.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'built for AI applications', highlights: [], size: 50, pos: 'right', media: {src: 'chipwar/cw26_applications.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'that need to process', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'chipwar/cw27_process.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'that need to process', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'chipwar/cw27_process.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'much longer amounts|of information.', highlights: ['longer'], size: 48, pos: 'upperLeft', media: {src: 'chipwar/cw28_longer.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'much longer amounts|of information.', highlights: ['longer'], size: 48, pos: 'upperLeft', media: {src: 'chipwar/cw28_longer.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'These capabilities|could attract', highlights: ['attract'], size: 50, pos: 'right', media: {src: 'chipwar/cw29_attract.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'These capabilities|could attract', highlights: ['attract'], size: 50, pos: 'right', media: {src: 'chipwar/cw29_attract.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'government agencies,', highlights: ['government'], size: 52, pos: 'upperRight', media: {src: 'chipwar/cw30_government.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'government agencies,', highlights: ['government'], size: 52, pos: 'upperRight', media: {src: 'chipwar/cw30_government.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'financial institutions,', highlights: ['financial'], size: 52, pos: 'left', media: {src: 'chipwar/cw31_financial.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'financial institutions,', highlights: ['financial'], size: 52, pos: 'left', media: {src: 'chipwar/cw31_financial.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and companies developing|advanced AI systems.', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'chipwar/cw32_advanced.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'and companies developing|advanced AI systems.', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'chipwar/cw32_advanced.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But Google has an|even bigger ambition.', highlights: ['ambition.'], size: 44, pos: 'upper', media: {src: 'chipwar/cw33_ambition.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'But Google has an|even bigger ambition.', highlights: ['ambition.'], size: 44, pos: 'upper', media: {src: 'chipwar/cw33_ambition.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'It is reportedly approaching', highlights: ['reportedly'], size: 50, pos: 'right', media: {src: 'chipwar/cw34_approaching.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'It is reportedly approaching', highlights: ['reportedly'], size: 50, pos: 'right', media: {src: 'chipwar/cw34_approaching.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'companies like Meta', highlights: ['Meta'], size: 52, pos: 'lowerRight', media: {src: 'chipwar/cw35_meta.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'companies like Meta', highlights: ['Meta'], size: 52, pos: 'lowerRight', media: {src: 'chipwar/cw35_meta.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'about installing its TPUs', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'chipwar/cw36_installing.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'about installing its TPUs', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'chipwar/cw36_installing.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'directly inside|their own data centers,', highlights: [], size: 44, pos: 'left', media: {src: 'chipwar/cw37_datacenters.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'directly inside|their own data centers,', highlights: [], size: 44, pos: 'left', media: {src: 'chipwar/cw37_datacenters.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'rather than forcing customers', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'chipwar/cw38_forcing.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'rather than forcing customers', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'chipwar/cw38_forcing.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'to use Google Cloud.', highlights: ['Cloud.'], size: 50, pos: 'upperRight', media: {src: 'chipwar/cw39_cloud.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'to use Google Cloud.', highlights: ['Cloud.'], size: 50, pos: 'upperRight', media: {src: 'chipwar/cw39_cloud.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'If successful, Google could', highlights: [], size: 50, pos: 'right', media: {src: 'chipwar/cw40_successful.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'If successful, Google could', highlights: [], size: 50, pos: 'right', media: {src: 'chipwar/cw40_successful.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'take business|away from Nvidia', highlights: [], size: 48, pos: 'lowerLeft', media: {src: 'chipwar/cw41_takebiz.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'take business|away from Nvidia', highlights: [], size: 48, pos: 'lowerLeft', media: {src: 'chipwar/cw41_takebiz.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'while giving AI companies', highlights: [], size: 50, pos: 'left', media: {src: 'chipwar/cw42_giving.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'while giving AI companies', highlights: [], size: 50, pos: 'left', media: {src: 'chipwar/cw42_giving.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'another option for', highlights: ['option'], size: 52, pos: 'upperRight', media: {src: 'chipwar/cw43_option.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'another option for', highlights: ['option'], size: 52, pos: 'upperRight', media: {src: 'chipwar/cw43_option.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'training and|running their models.', highlights: [], size: 48, pos: 'lower', media: {src: 'chipwar/cw44_training.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'training and|running their models.', highlights: [], size: 48, pos: 'lower', media: {src: 'chipwar/cw44_training.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'However, Nvidia still has', highlights: [], size: 50, pos: 'right', media: {src: 'chipwar/cw45_however.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'However, Nvidia still has', highlights: [], size: 50, pos: 'right', media: {src: 'chipwar/cw45_however.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'a major advantage:', highlights: ['advantage:'], size: 52, pos: 'upperLeft', media: {src: 'chipwar/cw46_advantage.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'a major advantage:', highlights: ['advantage:'], size: 52, pos: 'upperLeft', media: {src: 'chipwar/cw46_advantage.jpg', type: 'img', effect: 'in'}},
   // 47 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'The CUDA|moat.'},
+  {dur: 62, kind: 'impact', redBg: true, text: 'The CUDA|moat.'},
   // 48
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'which millions of developers|already use.', highlights: ['millions'], size: 44, pos: 'lowerRight', media: {src: 'chipwar/cw48_millions.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'which millions of developers|already use.', highlights: ['millions'], size: 44, pos: 'lowerRight', media: {src: 'chipwar/cw48_millions.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Google’s chips may|offer alternatives,', highlights: ['alternatives,'], size: 48, pos: 'left', media: {src: 'chipwar/cw49_alternatives.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'Google’s chips may|offer alternatives,', highlights: ['alternatives,'], size: 48, pos: 'left', media: {src: 'chipwar/cw49_alternatives.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'but convincing companies|to switch', highlights: ['switch'], size: 48, pos: 'upperRight', media: {src: 'chipwar/cw50_switch.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'but convincing companies|to switch', highlights: ['switch'], size: 48, pos: 'upperRight', media: {src: 'chipwar/cw50_switch.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'their infrastructure|won’t happen overnight.', highlights: ['overnight.'], size: 48, pos: 'right', media: {src: 'chipwar/cw51_overnight.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'their infrastructure|won’t happen overnight.', highlights: ['overnight.'], size: 48, pos: 'right', media: {src: 'chipwar/cw51_overnight.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'chipwar/cw52_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'chipwar/cw52_think.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Can Google’s custom|AI chips', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'chipwar/cw53_custom.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Can Google’s custom|AI chips', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'chipwar/cw53_custom.jpg', type: 'img', effect: 'in'}},
   // 54
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'seriously challenge|Nvidia’s dominance,', highlights: ['challenge'], size: 50, pos: 'right', media: {src: 'chipwar/cw54_challenge2.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or is Nvidia’s|software advantage', highlights: ['software'], size: 48, pos: 'left', media: {src: 'chipwar/cw55_software.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'or is Nvidia’s|software advantage', highlights: ['software'], size: 48, pos: 'left', media: {src: 'chipwar/cw55_software.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 70, kind: 'text', reveal: [2], text: 'too strong to overcome?', highlights: ['overcome?'], size: 50, pos: 'lowerRight', media: {src: 'chipwar/cw56_overcome.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'too strong to overcome?', highlights: ['overcome?'], size: 50, pos: 'lowerRight', media: {src: 'chipwar/cw56_overcome.jpg', type: 'img', effect: 'in'}},
   // 57 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'chipwar/cw57_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'chipwar/cw57_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2695, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3325, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
