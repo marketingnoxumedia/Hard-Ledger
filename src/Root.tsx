@@ -203,6 +203,7 @@ import {PressureReel, DURATION_IN_FRAMES as PRESSURE_FRAMES} from './PressureRee
 import {FuelReel, DURATION_IN_FRAMES as FUEL_FRAMES} from './FuelReel';
 import {FedReel, DURATION_IN_FRAMES as FED_FRAMES} from './FedReel';
 import {SurplusReel, DURATION_IN_FRAMES as SURPLUS_FRAMES} from './SurplusReel';
+import {GtaReel, DURATION_IN_FRAMES as GTA_FRAMES} from './GtaReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1836,6 +1837,14 @@ export const RemotionRoot: React.FC = () => {
         id="SurplusReel"
         component={SurplusReel}
         durationInFrames={SURPLUS_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="GtaReel"
+        component={GtaReel}
+        durationInFrames={GTA_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
