@@ -111,95 +111,95 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 79, kind: 'hook', reveal: [3, 40], text: 'After years|of delays,', kicker: 'The launch', highlights: ['delays,'], size: 54, media: {src: 'gta/gt00_delays.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'hook', reveal: [3, 40], text: 'After years|of delays,', kicker: 'The launch', highlights: ['delays,'], size: 54, media: {src: 'gta/gt00_delays.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'GTA 6 is finally|just days away.', highlights: ['days'], size: 44, pos: 'upperRight', media: {src: 'gta/gt01_daysaway.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'GTA 6 is finally|just days away.', highlights: ['days'], size: 44, pos: 'upperRight', media: {src: 'gta/gt01_daysaway.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'And according to|Take-Two’s CEO,', highlights: [], size: 48, pos: 'left', media: {src: 'gta/gt02_ceo.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'And according to|Take-Two’s CEO,', highlights: [], size: 48, pos: 'left', media: {src: 'gta/gt02_ceo.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 34, kind: 'text', reveal: [2], text: 'this launch could change', highlights: ['change'], size: 50, pos: 'lowerRight', media: {src: 'gta/gt03_launch.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'this launch could change', highlights: ['change'], size: 50, pos: 'lowerRight', media: {src: 'gta/gt03_launch.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'the future of|the entire franchise.', highlights: ['franchise.'], size: 44, pos: 'upperLeft', media: {src: 'gta/gt04_franchise.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'the future of|the entire franchise.', highlights: ['franchise.'], size: 44, pos: 'upperLeft', media: {src: 'gta/gt04_franchise.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 31, kind: 'text', reveal: [2], text: 'But here’s what makes', highlights: [], size: 50, pos: 'right', media: {src: 'gta/gt05_makes.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'But here’s what makes', highlights: [], size: 50, pos: 'right', media: {src: 'gta/gt05_makes.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 57, kind: 'text', reveal: [2, 28], text: 'his latest comments|interesting.', highlights: ['interesting.'], size: 50, pos: 'lower', media: {src: 'gta/gt06_interesting.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'his latest comments|interesting.', highlights: ['interesting.'], size: 50, pos: 'lower', media: {src: 'gta/gt06_interesting.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'The company isn’t just|preparing for GTA 6.', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'gta/gt07_preparing.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'The company isn’t just|preparing for GTA 6.', highlights: [], size: 44, pos: 'lowerLeft', media: {src: 'gta/gt07_preparing.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 33, kind: 'text', reveal: [2], text: 'It’s thinking about', highlights: [], size: 52, pos: 'upperRight', media: {src: 'gta/gt08_thinking.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'It’s thinking about', highlights: [], size: 52, pos: 'upperRight', media: {src: 'gta/gt08_thinking.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 47, kind: 'text', reveal: [2], text: 'how Rockstar will deliver', highlights: ['Rockstar'], size: 50, pos: 'left', media: {src: 'gta/gt09_deliver.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'how Rockstar will deliver', highlights: ['Rockstar'], size: 50, pos: 'left', media: {src: 'gta/gt09_deliver.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 81, kind: 'text', reveal: [2, 28], text: 'content over the|next ten years.', highlights: ['ten'], size: 44, pos: 'right', media: {src: 'gta/gt10_tenyears.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'content over the|next ten years.', highlights: ['ten'], size: 44, pos: 'right', media: {src: 'gta/gt10_tenyears.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 40, kind: 'text', reveal: [2, 28], text: 'Before we|break it down,', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'gta/gt11_breakitdown.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2, 28], text: 'Before we|break it down,', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'gta/gt11_breakitdown.jpg', type: 'img', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 86, kind: 'text', reveal: [2], text: 'follow for more|gaming and technology news.', highlights: ['follow'], size: 44, pos: 'lowerRight', media: {src: 'gta/gt12_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2], text: 'follow for more|gaming and technology news.', highlights: ['follow'], size: 44, pos: 'lowerRight', media: {src: 'gta/gt12_follow.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 106, kind: 'text', reveal: [2, 28], text: 'In an interview|with IGN,', highlights: ['IGN,'], size: 48, pos: 'upper', media: {src: 'gta/gt13_ign.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'In an interview|with IGN,', highlights: ['IGN,'], size: 48, pos: 'upper', media: {src: 'gta/gt13_ign.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 39, kind: 'text', reveal: [2, 28], text: 'Take-Two CEO|Strauss Zelnick said', highlights: ['Zelnick'], size: 48, pos: 'left', media: {src: 'gta/gt14_zelnick.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2, 28], text: 'Take-Two CEO|Strauss Zelnick said', highlights: ['Zelnick'], size: 48, pos: 'left', media: {src: 'gta/gt14_zelnick.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 42, kind: 'text', reveal: [2], text: 'he feels optimistic', highlights: ['optimistic'], size: 52, pos: 'right', media: {src: 'gta/gt15_optimistic.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'he feels optimistic', highlights: ['optimistic'], size: 52, pos: 'right', media: {src: 'gta/gt15_optimistic.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 55, kind: 'text', reveal: [2, 28], text: 'about the|November 19 launch.', highlights: ['November'], size: 48, pos: 'lowerLeft', media: {src: 'gta/gt16_nov19.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'about the|November 19 launch.', highlights: ['November'], size: 48, pos: 'lowerLeft', media: {src: 'gta/gt16_nov19.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 31, kind: 'text', reveal: [2], text: 'He also confirmed', highlights: [], size: 52, pos: 'upperRight', media: {src: 'gta/gt17_confirmed.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'He also confirmed', highlights: [], size: 52, pos: 'upperRight', media: {src: 'gta/gt17_confirmed.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'that the game will|not be delayed again.', highlights: ['delayed'], size: 44, pos: 'left', media: {src: 'gta/gt18_notdelayed.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'that the game will|not be delayed again.', highlights: ['delayed'], size: 44, pos: 'left', media: {src: 'gta/gt18_notdelayed.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'The company says|GTA 6 preorders', highlights: ['preorders'], size: 44, pos: 'lowerRight', media: {src: 'gta/gt19_preorders.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'The company says|GTA 6 preorders', highlights: ['preorders'], size: 44, pos: 'lowerRight', media: {src: 'gta/gt19_preorders.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 60, kind: 'text', reveal: [2], text: 'are tracking far beyond', highlights: ['beyond'], size: 50, pos: 'upperLeft', media: {src: 'gta/gt20_tracking.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'are tracking far beyond', highlights: ['beyond'], size: 50, pos: 'upperLeft', media: {src: 'gta/gt20_tracking.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 53, kind: 'text', reveal: [2], text: 'its initial expectations.', highlights: ['expectations.'], size: 52, pos: 'right', media: {src: 'gta/gt21_expectations.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'its initial expectations.', highlights: ['expectations.'], size: 52, pos: 'right', media: {src: 'gta/gt21_expectations.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 28, kind: 'text', reveal: [2], text: 'And Zelnick revealed', highlights: ['revealed'], size: 52, pos: 'lower', media: {src: 'gta/gt22_revealed.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'And Zelnick revealed', highlights: ['revealed'], size: 52, pos: 'lower', media: {src: 'gta/gt22_revealed.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 74, kind: 'text', reveal: [2, 28], text: 'that Rockstar plans|to keep supporting', highlights: ['supporting'], size: 44, pos: 'upperRight', media: {src: 'gta/gt23_supporting.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'that Rockstar plans|to keep supporting', highlights: ['supporting'], size: 44, pos: 'upperRight', media: {src: 'gta/gt23_supporting.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 47, kind: 'text', reveal: [2], text: 'GTA Online,', highlights: ['Online,'], size: 52, pos: 'lowerLeft', media: {src: 'gta/gt24_gtaonline.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'GTA Online,', highlights: ['Online,'], size: 52, pos: 'lowerLeft', media: {src: 'gta/gt24_gtaonline.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'even after the|new game arrives.', highlights: [], size: 44, pos: 'left', media: {src: 'gta/gt25_newgame.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'even after the|new game arrives.', highlights: [], size: 44, pos: 'left', media: {src: 'gta/gt25_newgame.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 37, kind: 'text', reveal: [2], text: 'But the biggest statement', highlights: ['biggest'], size: 50, pos: 'right', media: {src: 'gta/gt26_biggest.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'But the biggest statement', highlights: ['biggest'], size: 50, pos: 'right', media: {src: 'gta/gt26_biggest.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'was about|what comes next.', highlights: ['next.'], size: 48, pos: 'lowerRight', media: {src: 'gta/gt27_whatnext.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'was about|what comes next.', highlights: ['next.'], size: 48, pos: 'lowerRight', media: {src: 'gta/gt27_whatnext.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Zelnick expects|the pace and nature', highlights: ['pace'], size: 44, pos: 'upperLeft', media: {src: 'gta/gt28_pace.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Zelnick expects|the pace and nature', highlights: ['pace'], size: 44, pos: 'upperLeft', media: {src: 'gta/gt28_pace.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 66, kind: 'text', reveal: [2, 28], text: 'of content from|major franchises,', highlights: [], size: 48, pos: 'right', media: {src: 'gta/gt29_franchises.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'of content from|major franchises,', highlights: [], size: 48, pos: 'right', media: {src: 'gta/gt29_franchises.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 40, kind: 'text', reveal: [2], text: 'including GTA,', highlights: ['GTA,'], size: 52, pos: 'upperRight', media: {src: 'gta/gt30_includinggta.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'including GTA,', highlights: ['GTA,'], size: 52, pos: 'upperRight', media: {src: 'gta/gt30_includinggta.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'to look|dramatically different', highlights: ['dramatically'], size: 50, pos: 'left', media: {src: 'gta/gt31_different.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'to look|dramatically different', highlights: ['dramatically'], size: 50, pos: 'left', media: {src: 'gta/gt31_different.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 39, kind: 'text', reveal: [2], text: 'over the next decade.', highlights: ['decade.'], size: 50, pos: 'lowerLeft', media: {src: 'gta/gt32_decade.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'over the next decade.', highlights: ['decade.'], size: 50, pos: 'lowerLeft', media: {src: 'gta/gt32_decade.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 64, kind: 'text', reveal: [2, 28], text: 'That could mean|more ways to reach players,', highlights: ['players,'], size: 44, pos: 'upper', media: {src: 'gta/gt33_players.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'That could mean|more ways to reach players,', highlights: ['players,'], size: 44, pos: 'upper', media: {src: 'gta/gt33_players.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'stronger|post-launch experiences,', highlights: ['stronger'], size: 52, pos: 'right', media: {src: 'gta/gt34_postlaunch.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'stronger|post-launch experiences,', highlights: ['stronger'], size: 52, pos: 'right', media: {src: 'gta/gt34_postlaunch.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'and potentially a|faster flow of content.', highlights: ['faster'], size: 44, pos: 'lowerRight', media: {src: 'gta/gt35_faster.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'and potentially a|faster flow of content.', highlights: ['faster'], size: 44, pos: 'lowerRight', media: {src: 'gta/gt35_faster.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 89, kind: 'text', reveal: [2], text: 'But it does not confirm', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'gta/gt36_notconfirm.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2], text: 'But it does not confirm', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'gta/gt36_notconfirm.jpg', type: 'img', effect: 'in'}},
   // 37
   {dur: 26, kind: 'text', reveal: [2, 28], text: 'a GTA 7|release date.', highlights: ['7'], size: 48, pos: 'left', media: {src: 'gta/gt37_gta7.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 31, kind: 'text', reveal: [2], text: 'The big question is', highlights: ['question'], size: 50, pos: 'lowerRight', media: {src: 'gta/gt38_bigquestion.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'The big question is', highlights: ['question'], size: 50, pos: 'lowerRight', media: {src: 'gta/gt38_bigquestion.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 43, kind: 'text', reveal: [2], text: 'whether Rockstar can deliver', highlights: [], size: 50, pos: 'upperRight', media: {src: 'gta/gt39_frequent.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'whether Rockstar can deliver', highlights: [], size: 50, pos: 'upperRight', media: {src: 'gta/gt39_frequent.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 39, kind: 'text', reveal: [2], text: 'more frequent releases', highlights: ['frequent'], size: 52, pos: 'right', media: {src: 'gta/gt40_releases.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'more frequent releases', highlights: ['frequent'], size: 52, pos: 'right', media: {src: 'gta/gt40_releases.jpg', type: 'img', effect: 'in'}},
   // 41 RED
-  {dur: 145, kind: 'impact', redBg: true, text: 'Without sacrificing|quality?'},
+  {dur: 132, kind: 'impact', redBg: true, text: 'Without sacrificing|quality?'},
   // 42
-  {dur: 28, kind: 'text', reveal: [2], text: 'Would you rather wait', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'gta/gt42_rather.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Would you rather wait', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'gta/gt42_rather.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'another decade|for a masterpiece,', highlights: ['masterpiece,'], size: 48, pos: 'left', media: {src: 'gta/gt43_masterpiece.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'another decade|for a masterpiece,', highlights: ['masterpiece,'], size: 48, pos: 'left', media: {src: 'gta/gt43_masterpiece.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'or get new GTA|experiences more often?', highlights: ['often?'], size: 44, pos: 'upperRight', media: {src: 'gta/gt44_moreoften.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'or get new GTA|experiences more often?', highlights: ['often?'], size: 44, pos: 'upperRight', media: {src: 'gta/gt44_moreoften.jpg', type: 'img', effect: 'in'}},
   // 45 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know|below.', highlights: ['below.'], size: 52, media: {src: 'gta/gt45_below.jpg', type: 'img', effect: 'in'}},
 ];
@@ -208,8 +208,8 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 2363, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2692, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 2148, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2447, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
