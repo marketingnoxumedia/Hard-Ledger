@@ -202,6 +202,7 @@ import {ChipWarReel, DURATION_IN_FRAMES as CHIPWAR_FRAMES} from './ChipWarReel';
 import {PressureReel, DURATION_IN_FRAMES as PRESSURE_FRAMES} from './PressureReel';
 import {FuelReel, DURATION_IN_FRAMES as FUEL_FRAMES} from './FuelReel';
 import {FedReel, DURATION_IN_FRAMES as FED_FRAMES} from './FedReel';
+import {SurplusReel, DURATION_IN_FRAMES as SURPLUS_FRAMES} from './SurplusReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1827,6 +1828,14 @@ export const RemotionRoot: React.FC = () => {
         id="FedReel"
         component={FedReel}
         durationInFrames={FED_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="SurplusReel"
+        component={SurplusReel}
+        durationInFrames={SURPLUS_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
