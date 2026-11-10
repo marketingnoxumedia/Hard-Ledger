@@ -110,125 +110,128 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Wall Street is helping|the Federal Reserve', kicker: 'The Fed', highlights: ['helping'], size: 48, media: {src: 'fed/fd00_wallst.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'hook', reveal: [3, 40], text: 'Wall Street is helping|the Federal Reserve', kicker: 'The Fed', highlights: ['helping'], size: 48, media: {src: 'fed/fd00_wallst.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'fight inflation,', highlights: ['inflation,'], size: 52, pos: 'upperRight', media: {src: 'fed/fd01_inflation.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'fight inflation,', highlights: ['inflation,'], size: 52, pos: 'upperRight', media: {src: 'fed/fd01_inflation.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'and it’s doing something', highlights: [], size: 50, pos: 'left', media: {src: 'fed/fd02_something.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'and it’s doing something', highlights: [], size: 50, pos: 'left', media: {src: 'fed/fd02_something.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the Fed doesn’t|have to do itself:', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'fed/fd03_itself.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'the Fed doesn’t|have to do itself:', highlights: [], size: 44, pos: 'lowerRight', media: {src: 'fed/fd03_itself.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'making investors|and businesses', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'fed/fd04_investors.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'making investors|and businesses', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'fed/fd04_investors.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'think twice|before spending.', highlights: ['twice'], size: 50, pos: 'right', media: {src: 'fed/fd05_twice.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'think twice|before spending.', highlights: ['twice'], size: 50, pos: 'right', media: {src: 'fed/fd05_twice.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Here’s the|surprising part.', highlights: [], size: 50, pos: 'lower', media: {src: 'fed/fd06_surprising.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2, 28], text: 'Here’s the|surprising part.', highlights: [], size: 50, pos: 'lower', media: {src: 'fed/fd06_surprising.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'A falling stock market', highlights: ['falling'], size: 50, pos: 'lowerLeft', media: {src: 'fed/fd07_falling.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'A falling stock market', highlights: ['falling'], size: 50, pos: 'lowerLeft', media: {src: 'fed/fd07_falling.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'could reduce the need', highlights: ['reduce'], size: 50, pos: 'upperRight', media: {src: 'fed/fd08_reduce.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'could reduce the need', highlights: ['reduce'], size: 50, pos: 'upperRight', media: {src: 'fed/fd08_reduce.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for additional|interest rate hikes,', highlights: ['hikes,'], size: 48, pos: 'left', media: {src: 'fed/fd09_hikes.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'for additional|interest rate hikes,', highlights: ['hikes,'], size: 48, pos: 'left', media: {src: 'fed/fd09_hikes.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'potentially changing', highlights: [], size: 52, pos: 'right', media: {src: 'fed/fd10_changing.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'potentially changing', highlights: [], size: 52, pos: 'right', media: {src: 'fed/fd10_changing.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the Fed’s|entire strategy.', highlights: ['strategy.'], size: 50, pos: 'upperLeft', media: {src: 'fed/fd11_strategy.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'the Fed’s|entire strategy.', highlights: ['strategy.'], size: 50, pos: 'upperLeft', media: {src: 'fed/fd11_strategy.jpg', type: 'img', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'lowerRight', media: {src: 'fed/fd12_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'lowerRight', media: {src: 'fed/fd12_follow.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on the economy,|markets,', highlights: [], size: 50, pos: 'upper', media: {src: 'fed/fd13_markets.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'on the economy,|markets,', highlights: [], size: 50, pos: 'upper', media: {src: 'fed/fd13_markets.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and the decisions|affecting your money.', highlights: ['money.'], size: 44, pos: 'left', media: {src: 'fed/fd14_money.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'and the decisions|affecting your money.', highlights: ['money.'], size: 44, pos: 'left', media: {src: 'fed/fd14_money.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The Federal Reserve|has been trying', highlights: [], size: 44, pos: 'right', media: {src: 'fed/fd15_reserve.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2, 28], text: 'The Federal Reserve|has been trying', highlights: [], size: 44, pos: 'right', media: {src: 'fed/fd15_reserve.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to control|stubborn inflation', highlights: ['stubborn'], size: 50, pos: 'lowerLeft', media: {src: 'fed/fd16_stubborn.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'to control|stubborn inflation', highlights: ['stubborn'], size: 50, pos: 'lowerLeft', media: {src: 'fed/fd16_stubborn.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'by keeping|borrowing costs high.', highlights: ['high.'], size: 48, pos: 'upperRight', media: {src: 'fed/fd17_high.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'by keeping|borrowing costs high.', highlights: ['high.'], size: 48, pos: 'upperRight', media: {src: 'fed/fd17_high.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But after recent|market volatility,', highlights: ['volatility,'], size: 48, pos: 'left', media: {src: 'fed/fd18_volatility.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'But after recent|market volatility,', highlights: ['volatility,'], size: 48, pos: 'left', media: {src: 'fed/fd18_volatility.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'investors are|pulling back', highlights: ['pulling'], size: 50, pos: 'lowerRight', media: {src: 'fed/fd19_pullback.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2, 28], text: 'investors are|pulling back', highlights: ['pulling'], size: 50, pos: 'lowerRight', media: {src: 'fed/fd19_pullback.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'from risky assets,', highlights: ['risky'], size: 52, pos: 'upperLeft', media: {src: 'fed/fd20_risky.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'from risky assets,', highlights: ['risky'], size: 52, pos: 'upperLeft', media: {src: 'fed/fd20_risky.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'particularly|technology stocks.', highlights: ['technology'], size: 52, pos: 'right', media: {src: 'fed/fd21_tech.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'particularly|technology stocks.', highlights: ['technology'], size: 52, pos: 'right', media: {src: 'fed/fd21_tech.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'According to|DataTrek Research,', highlights: ['DataTrek'], size: 50, pos: 'lower', media: {src: 'fed/fd22_datatrek.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'According to|DataTrek Research,', highlights: ['DataTrek'], size: 50, pos: 'lower', media: {src: 'fed/fd22_datatrek.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'falling share prices', highlights: ['falling'], size: 52, pos: 'upperRight', media: {src: 'fed/fd23_shareprices.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'falling share prices', highlights: ['falling'], size: 52, pos: 'upperRight', media: {src: 'fed/fd23_shareprices.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and increased|market volatility', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'fed/fd24_volatility2.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'and increased|market volatility', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'fed/fd24_volatility2.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'are tightening|financial conditions.', highlights: ['tightening'], size: 50, pos: 'left', media: {src: 'fed/fd25_tightening.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'are tightening|financial conditions.', highlights: ['tightening'], size: 50, pos: 'left', media: {src: 'fed/fd25_tightening.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'That means businesses', highlights: [], size: 52, pos: 'right', media: {src: 'fed/fd26_businesses.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'That means businesses', highlights: [], size: 52, pos: 'right', media: {src: 'fed/fd26_businesses.jpg', type: 'img', effect: 'in'}},
   // 27
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'may find it harder|to raise money,', highlights: ['harder'], size: 44, pos: 'lowerRight', media: {src: 'fed/fd27_harder.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'while households facing', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'fed/fd28_households.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'while households facing', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'fed/fd28_households.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'lower investment values', highlights: ['lower'], size: 52, pos: 'right', media: {src: 'fed/fd29_lower.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'lower investment values', highlights: ['lower'], size: 52, pos: 'right', media: {src: 'fed/fd29_lower.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could become|more cautious', highlights: ['cautious'], size: 50, pos: 'upperRight', media: {src: 'fed/fd30_cautious.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2, 28], text: 'could become|more cautious', highlights: ['cautious'], size: 50, pos: 'upperRight', media: {src: 'fed/fd30_cautious.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'about spending.', highlights: ['spending.'], size: 52, pos: 'left', media: {src: 'fed/fd31_spending.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'about spending.', highlights: ['spending.'], size: 52, pos: 'left', media: {src: 'fed/fd31_spending.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Markets are now|pricing in', highlights: [], size: 48, pos: 'lowerLeft', media: {src: 'fed/fd32_pricing.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Markets are now|pricing in', highlights: [], size: 48, pos: 'lowerLeft', media: {src: 'fed/fd32_pricing.jpg', type: 'img', effect: 'in'}},
   // 33 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '+', value: 0.25, decimals: 2, suffix: '%', post: 'DEC. HIKE'}, media: {src: 'fed/fd33_card025.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'stat', stat: {prefix: '+', value: 0.25, decimals: 2, suffix: '%', post: 'DEC. HIKE'}, media: {src: 'fed/fd33_card025.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'at the Fed’s|December meeting.', highlights: ['December'], size: 48, pos: 'upper', media: {src: 'fed/fd34_december.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2, 28], text: 'at the Fed’s|December meeting.', highlights: ['December'], size: 48, pos: 'upper', media: {src: 'fed/fd34_december.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'But investors see', highlights: [], size: 52, pos: 'right', media: {src: 'fed/fd35_investors2.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'But investors see', highlights: [], size: 52, pos: 'right', media: {src: 'fed/fd35_investors2.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'fewer additional hikes|in 2027,', highlights: ['fewer'], size: 48, pos: 'lowerRight', media: {src: 'fed/fd36_fewer.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'fewer additional hikes|in 2027,', highlights: ['fewer'], size: 48, pos: 'lowerRight', media: {src: 'fed/fd36_fewer.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'partly because|the stock market', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'fed/fd37_stockmarket.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], text: 'partly because|the stock market', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'fed/fd37_stockmarket.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is already|putting pressure', highlights: ['pressure'], size: 50, pos: 'left', media: {src: 'fed/fd38_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], text: 'is already|putting pressure', highlights: ['pressure'], size: 50, pos: 'left', media: {src: 'fed/fd38_pressure.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'on the economy.', highlights: ['economy.'], size: 52, pos: 'lowerRight', media: {src: 'fed/fd39_economy.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'on the economy.', highlights: ['economy.'], size: 52, pos: 'lowerRight', media: {src: 'fed/fd39_economy.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'If financial conditions|remain tight,', highlights: ['tight,'], size: 48, pos: 'upperRight', media: {src: 'fed/fd40_tight.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'If financial conditions|remain tight,', highlights: ['tight,'], size: 48, pos: 'upperRight', media: {src: 'fed/fd40_tight.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'the Fed may not need', highlights: [], size: 46, pos: 'right', media: {src: 'fed/fd41_mayneed.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'the Fed may not need', highlights: [], size: 46, pos: 'right', media: {src: 'fed/fd41_mayneed.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to raise rates|as aggressively', highlights: ['aggressively'], size: 48, pos: 'lowerLeft', media: {src: 'fed/fd42_aggressively.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'to raise rates|as aggressively', highlights: ['aggressively'], size: 48, pos: 'lowerLeft', media: {src: 'fed/fd42_aggressively.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to slow demand|and fight inflation.', highlights: ['inflation.'], size: 44, pos: 'left', media: {src: 'fed/fd43_fightinflation.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'to slow demand|and fight inflation.', highlights: ['inflation.'], size: 44, pos: 'left', media: {src: 'fed/fd43_fightinflation.jpg', type: 'img', effect: 'in'}},
   // 44 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'A dangerous|balance.'},
+  {dur: 73, kind: 'impact', redBg: true, text: 'A dangerous|balance.'},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'A moderate|market decline', highlights: ['moderate'], size: 50, pos: 'upperRight', media: {src: 'fed/fd45_moderate.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'A moderate|market decline', highlights: ['moderate'], size: 50, pos: 'upperRight', media: {src: 'fed/fd45_moderate.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'can help|control inflation.', highlights: ['control'], size: 50, pos: 'lower', media: {src: 'fed/fd46_control.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'can help|control inflation.', highlights: ['control'], size: 50, pos: 'lower', media: {src: 'fed/fd46_control.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'A much deeper crash', highlights: ['deeper'], size: 50, pos: 'right', media: {src: 'fed/fd47_deeper.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'A much deeper crash', highlights: ['deeper'], size: 50, pos: 'right', media: {src: 'fed/fd47_deeper.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could damage|business confidence,', highlights: ['damage'], size: 50, pos: 'upperLeft', media: {src: 'fed/fd48_damage.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'could damage|business confidence,', highlights: ['damage'], size: 50, pos: 'upperLeft', media: {src: 'fed/fd48_damage.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'weaken|economic growth,', highlights: ['weaken'], size: 52, pos: 'lowerRight', media: {src: 'fed/fd49_weaken.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], text: 'weaken|economic growth,', highlights: ['weaken'], size: 52, pos: 'lowerRight', media: {src: 'fed/fd49_weaken.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and force the|Fed to respond.', highlights: ['respond.'], size: 44, pos: 'left', media: {src: 'fed/fd50_respond.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'and force the|Fed to respond.', highlights: ['respond.'], size: 44, pos: 'left', media: {src: 'fed/fd50_respond.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'fed/fd51_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperRight', media: {src: 'fed/fd51_think.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Is Wall Street|helping the Fed', highlights: ['helping'], size: 44, pos: 'right', media: {src: 'fed/fd52_helping2.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'Is Wall Street|helping the Fed', highlights: ['helping'], size: 44, pos: 'right', media: {src: 'fed/fd52_helping2.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2], text: 'control inflation,', highlights: ['inflation,'], size: 52, pos: 'lowerLeft', media: {src: 'fed/fd53_control2.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'control inflation,', highlights: ['inflation,'], size: 52, pos: 'lowerLeft', media: {src: 'fed/fd53_control2.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or is the|market sell-off', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'fed/fd54_selloff.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'or is the|market sell-off', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'fed/fd54_selloff.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'creating a bigger|economic problem?', highlights: ['problem?'], size: 48, pos: 'right', media: {src: 'fed/fd55_problem.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'creating a bigger|economic problem?', highlights: ['problem?'], size: 48, pos: 'right', media: {src: 'fed/fd55_problem.jpg', type: 'img', effect: 'in'}},
   // 56 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'fed/fd56_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'fed/fd56_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1704, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2289, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2914, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
