@@ -111,123 +111,127 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'China has generated|more than $1 trillion', kicker: 'The surplus', highlights: ['trillion'], size: 48, media: {src: 'surplus/su00_generated.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'hook', reveal: [3, 40], text: 'China has generated|more than $1 trillion', kicker: 'The surplus', highlights: ['trillion'], size: 48, media: {src: 'surplus/su00_generated.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'in trade surplus', highlights: ['surplus'], size: 52, pos: 'upperRight', media: {src: 'surplus/su01_surplus.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'in trade surplus', highlights: ['surplus'], size: 52, pos: 'upperRight', media: {src: 'surplus/su01_surplus.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'in just 10 months.', highlights: ['10'], size: 50, pos: 'left', media: {src: 'surplus/su02_months.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'in just 10 months.', highlights: ['10'], size: 50, pos: 'left', media: {src: 'surplus/su02_months.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'And that record', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'surplus/su03_record.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'And that record', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'surplus/su03_record.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could create a|new economic battle', highlights: ['battle'], size: 44, pos: 'upperLeft', media: {src: 'surplus/su04_battle.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'could create a|new economic battle', highlights: ['battle'], size: 44, pos: 'upperLeft', media: {src: 'surplus/su04_battle.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with the United States|and Europe.', highlights: [], size: 44, pos: 'right', media: {src: 'surplus/su05_useurope.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'with the United States|and Europe.', highlights: [], size: 44, pos: 'right', media: {src: 'surplus/su05_useurope.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But here’s the|surprising part:', highlights: [], size: 48, pos: 'lower', media: {src: 'surplus/su06_surprising.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'But here’s the|surprising part:', highlights: [], size: 48, pos: 'lower', media: {src: 'surplus/su06_surprising.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'China’s export boom', highlights: ['boom'], size: 52, pos: 'lowerLeft', media: {src: 'surplus/su07_boom.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'China’s export boom', highlights: ['boom'], size: 52, pos: 'lowerLeft', media: {src: 'surplus/su07_boom.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'is happening while', highlights: [], size: 52, pos: 'upperRight', media: {src: 'surplus/su08_happening.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'is happening while', highlights: [], size: 52, pos: 'upperRight', media: {src: 'surplus/su08_happening.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'its own consumers', highlights: ['consumers'], size: 52, pos: 'left', media: {src: 'surplus/su09_consumers.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'its own consumers', highlights: ['consumers'], size: 52, pos: 'left', media: {src: 'surplus/su09_consumers.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'are struggling|to spend money.', highlights: ['struggling'], size: 48, pos: 'right', media: {src: 'surplus/su10_struggling.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'are struggling|to spend money.', highlights: ['struggling'], size: 48, pos: 'right', media: {src: 'surplus/su10_struggling.jpg', type: 'img', effect: 'in'}},
   // 11 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'upperLeft', media: {src: 'surplus/su11_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'Follow for|more updates', highlights: ['follow'], size: 50, pos: 'upperLeft', media: {src: 'surplus/su11_follow.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'on the global economy', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'surplus/su12_economy.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'on the global economy', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'surplus/su12_economy.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'and the competition', highlights: ['competition'], size: 52, pos: 'upper', media: {src: 'surplus/su13_competition.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'and the competition', highlights: ['competition'], size: 52, pos: 'upper', media: {src: 'surplus/su13_competition.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'between the world’s|biggest powers.', highlights: ['powers.'], size: 48, pos: 'left', media: {src: 'surplus/su14_powers.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'between the world’s|biggest powers.', highlights: ['powers.'], size: 48, pos: 'left', media: {src: 'surplus/su14_powers.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'China sells|enormous amounts', highlights: ['enormous'], size: 50, pos: 'right', media: {src: 'surplus/su15_enormous.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'China sells|enormous amounts', highlights: ['enormous'], size: 50, pos: 'right', media: {src: 'surplus/su15_enormous.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'of products overseas,', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'surplus/su16_overseas.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'of products overseas,', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'surplus/su16_overseas.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'from electric vehicles|and batteries', highlights: ['batteries'], size: 48, pos: 'upperRight', media: {src: 'surplus/su17_evs.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'from electric vehicles|and batteries', highlights: ['batteries'], size: 48, pos: 'upperRight', media: {src: 'surplus/su17_evs.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to electronics and|AI infrastructure equipment.', highlights: ['AI'], size: 44, pos: 'left', media: {src: 'surplus/su18_ai.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'to electronics and|AI infrastructure equipment.', highlights: ['AI'], size: 44, pos: 'left', media: {src: 'surplus/su18_ai.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But weak|domestic demand', highlights: ['weak'], size: 50, pos: 'lowerRight', media: {src: 'surplus/su19_weak.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'But weak|domestic demand', highlights: ['weak'], size: 50, pos: 'lowerRight', media: {src: 'surplus/su19_weak.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'means manufacturers', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'surplus/su20_manufacturers.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'means manufacturers', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'surplus/su20_manufacturers.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'increasingly depend|on international customers.', highlights: ['depend'], size: 48, pos: 'right', media: {src: 'surplus/su21_depend.jpg', type: 'img', effect: 'in'}},
+  {dur: 109, kind: 'text', reveal: [2, 28], text: 'increasingly depend|on international customers.', highlights: ['depend'], size: 48, pos: 'right', media: {src: 'surplus/su21_depend.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'According to|China’s customs data,', highlights: ['customs'], size: 48, pos: 'lower', media: {src: 'surplus/su22_customs.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'According to|China’s customs data,', highlights: ['customs'], size: 48, pos: 'lower', media: {src: 'surplus/su22_customs.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'its trade surplus reached', highlights: [], size: 50, pos: 'upperRight', media: {src: 'surplus/su23_reached.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'its trade surplus reached', highlights: [], size: 50, pos: 'upperRight', media: {src: 'surplus/su23_reached.jpg', type: 'img', effect: 'in'}},
   // 24 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 1.04, decimals: 2, suffix: 'T', post: 'TRADE SURPLUS'}, media: {src: 'surplus/su24_card104.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'stat', stat: {prefix: '$', value: 1.04, decimals: 2, suffix: 'T', post: 'TRADE SURPLUS'}, media: {src: 'surplus/su24_card104.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'between January|and October 2026.', highlights: ['2026.'], size: 48, pos: 'lowerLeft', media: {src: 'surplus/su25_janoct.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'between January|and October 2026.', highlights: ['2026.'], size: 48, pos: 'lowerLeft', media: {src: 'surplus/su25_janoct.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'Exports jumped', highlights: ['jumped'], size: 52, pos: 'left', media: {src: 'surplus/su26_jumped.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Exports jumped', highlights: ['jumped'], size: 52, pos: 'left', media: {src: 'surplus/su26_jumped.jpg', type: 'img', effect: 'in'}},
   // 27 CARD
   {dur: 70, kind: 'stat', stat: {value: 35.2, decimals: 1, suffix: '%', post: 'OCT EXPORTS'}, media: {src: 'surplus/su27_card352.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in October|compared with last year.', highlights: [], size: 44, pos: 'right', media: {src: 'surplus/su28_lastyear.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], text: 'in October|compared with last year.', highlights: [], size: 44, pos: 'right', media: {src: 'surplus/su28_lastyear.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Semiconductor exports|also surged,', highlights: ['surged,'], size: 50, pos: 'lowerRight', media: {src: 'surplus/su29_surged.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'Semiconductor exports|also surged,', highlights: ['surged,'], size: 50, pos: 'lowerRight', media: {src: 'surplus/su29_surged.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'fueled by global demand', highlights: ['demand'], size: 50, pos: 'upperLeft', media: {src: 'surplus/su30_demand.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'fueled by global demand', highlights: ['demand'], size: 50, pos: 'upperLeft', media: {src: 'surplus/su30_demand.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'for AI infrastructure.', highlights: ['AI'], size: 52, pos: 'right', media: {src: 'surplus/su31_aiinfra.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'for AI infrastructure.', highlights: ['AI'], size: 52, pos: 'right', media: {src: 'surplus/su31_aiinfra.jpg', type: 'img', effect: 'in'}},
   // 32
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'But this growth|is creating tension.', highlights: ['tension.'], size: 44, pos: 'upperRight', media: {src: 'surplus/su32_tension.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'China is exporting|more goods', highlights: [], size: 48, pos: 'left', media: {src: 'surplus/su33_moregoods.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'China is exporting|more goods', highlights: [], size: 48, pos: 'left', media: {src: 'surplus/su33_moregoods.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'to major markets,', highlights: ['major'], size: 52, pos: 'lowerLeft', media: {src: 'surplus/su34_markets.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'to major markets,', highlights: ['major'], size: 52, pos: 'lowerLeft', media: {src: 'surplus/su34_markets.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'including the United States|and European Union,', highlights: [], size: 44, pos: 'upper', media: {src: 'surplus/su35_useu.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'including the United States|and European Union,', highlights: [], size: 44, pos: 'upper', media: {src: 'surplus/su35_useu.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'raising concerns|about competition', highlights: ['concerns'], size: 50, pos: 'right', media: {src: 'surplus/su36_concerns.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'raising concerns|about competition', highlights: ['concerns'], size: 50, pos: 'right', media: {src: 'surplus/su36_concerns.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'and trade imbalances.', highlights: ['imbalances.'], size: 52, pos: 'lowerRight', media: {src: 'surplus/su37_imbalances.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'and trade imbalances.', highlights: ['imbalances.'], size: 52, pos: 'lowerRight', media: {src: 'surplus/su37_imbalances.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'More countries|could respond', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'surplus/su38_respond.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2, 28], text: 'More countries|could respond', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'surplus/su38_respond.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with tariffs and|trade restrictions,', highlights: ['tariffs'], size: 48, pos: 'left', media: {src: 'surplus/su39_tariffs.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'with tariffs and|trade restrictions,', highlights: ['tariffs'], size: 48, pos: 'left', media: {src: 'surplus/su39_tariffs.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'potentially making|Chinese products', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'surplus/su40_products.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'potentially making|Chinese products', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'surplus/su40_products.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'more expensive', highlights: ['expensive'], size: 52, pos: 'upperRight', media: {src: 'surplus/su41_expensive.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'more expensive', highlights: ['expensive'], size: 52, pos: 'upperRight', media: {src: 'surplus/su41_expensive.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and disrupting|global supply chains.', highlights: ['disrupting'], size: 48, pos: 'right', media: {src: 'surplus/su42_supplychains.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'and disrupting|global supply chains.', highlights: ['disrupting'], size: 48, pos: 'right', media: {src: 'surplus/su42_supplychains.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Supporters see|China’s export strength', highlights: ['strength'], size: 48, pos: 'lowerLeft', media: {src: 'surplus/su43_strength.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'Supporters see|China’s export strength', highlights: ['strength'], size: 48, pos: 'lowerLeft', media: {src: 'surplus/su43_strength.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as proof of its|manufacturing power.', highlights: ['power.'], size: 44, pos: 'left', media: {src: 'surplus/su44_power.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'as proof of its|manufacturing power.', highlights: ['power.'], size: 44, pos: 'left', media: {src: 'surplus/su44_power.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'Critics argue that', highlights: [], size: 52, pos: 'upperRight', media: {src: 'surplus/su45_critics.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'Critics argue that', highlights: [], size: 52, pos: 'upperRight', media: {src: 'surplus/su45_critics.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'weak domestic consumption', highlights: ['weak'], size: 52, pos: 'lower', media: {src: 'surplus/su46_weakdom.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'weak domestic consumption', highlights: ['weak'], size: 52, pos: 'lower', media: {src: 'surplus/su46_weakdom.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and heavy reliance|on exports', highlights: ['reliance'], size: 48, pos: 'right', media: {src: 'surplus/su47_reliance.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'and heavy reliance|on exports', highlights: ['reliance'], size: 48, pos: 'right', media: {src: 'surplus/su47_reliance.jpg', type: 'img', effect: 'in'}},
   // 48 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'A dangerous|imbalance.'},
+  {dur: 133, kind: 'impact', redBg: true, text: 'A dangerous|imbalance.'},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'surplus/su49_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'surplus/su49_think.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Is China’s $1 trillion|trade surplus', highlights: ['trillion'], size: 44, pos: 'lowerRight', media: {src: 'surplus/su50_onet.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'Is China’s $1 trillion|trade surplus', highlights: ['trillion'], size: 44, pos: 'lowerRight', media: {src: 'surplus/su50_onet.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'proof of|economic dominance,', highlights: ['dominance,'], size: 50, pos: 'left', media: {src: 'surplus/su51_dominance.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'proof of|economic dominance,', highlights: ['dominance,'], size: 50, pos: 'left', media: {src: 'surplus/su51_dominance.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'or a warning sign', highlights: ['warning'], size: 50, pos: 'upperRight', media: {src: 'surplus/su52_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'or a warning sign', highlights: ['warning'], size: 50, pos: 'upperRight', media: {src: 'surplus/su52_warning.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that the global|trade system', highlights: [], size: 48, pos: 'right', media: {src: 'surplus/su53_system.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'that the global|trade system', highlights: [], size: 48, pos: 'right', media: {src: 'surplus/su53_system.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is becoming|increasingly unbalanced?', highlights: ['unbalanced?'], size: 50, pos: 'lowerLeft', media: {src: 'surplus/su54_unbalanced.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'is becoming|increasingly unbalanced?', highlights: ['unbalanced?'], size: 50, pos: 'lowerLeft', media: {src: 'surplus/su54_unbalanced.jpg', type: 'img', effect: 'in'}},
   // 55 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'surplus/su55_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments'], size: 46, media: {src: 'surplus/su55_comments.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1297, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1477, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2658, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3110, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
