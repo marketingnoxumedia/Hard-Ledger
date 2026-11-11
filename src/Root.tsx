@@ -205,6 +205,7 @@ import {FedReel, DURATION_IN_FRAMES as FED_FRAMES} from './FedReel';
 import {SurplusReel, DURATION_IN_FRAMES as SURPLUS_FRAMES} from './SurplusReel';
 import {GtaReel, DURATION_IN_FRAMES as GTA_FRAMES} from './GtaReel';
 import {DoomReel, DURATION_IN_FRAMES as DOOM_FRAMES} from './DoomReel';
+import {TourReel, DURATION_IN_FRAMES as TOUR_FRAMES} from './TourReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1854,6 +1855,14 @@ export const RemotionRoot: React.FC = () => {
         id="DoomReel"
         component={DoomReel}
         durationInFrames={DOOM_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="TourReel"
+        component={TourReel}
+        durationInFrames={TOUR_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
