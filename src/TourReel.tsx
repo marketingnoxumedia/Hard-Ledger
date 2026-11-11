@@ -108,121 +108,124 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Two more|stadium concerts', kicker: 'The tour', highlights: [], size: 54, media: {src: 'tour/tr00_stadium.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'hook', reveal: [3, 40], text: 'Two more|stadium concerts', kicker: 'The tour', highlights: [], size: 54, media: {src: 'tour/tr00_stadium.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'have been canceled.', highlights: ['canceled.'], size: 52, pos: 'upperRight', media: {src: 'tour/tr01_canceled.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'have been canceled.', highlights: ['canceled.'], size: 52, pos: 'upperRight', media: {src: 'tour/tr01_canceled.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'And this time,', highlights: [], size: 52, pos: 'left', media: {src: 'tour/tr02_thistime.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'And this time,', highlights: [], size: 52, pos: 'left', media: {src: 'tour/tr02_thistime.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'Usher and Chris Brown', highlights: ['Usher'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr03_names.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'Usher and Chris Brown', highlights: ['Usher'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr03_names.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'are at the center', highlights: ['center'], size: 50, pos: 'upperLeft', media: {src: 'tour/tr04_center.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'are at the center', highlights: ['center'], size: 50, pos: 'upperLeft', media: {src: 'tour/tr04_center.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'of growing questions', highlights: ['questions'], size: 52, pos: 'right', media: {src: 'tour/tr05_questions.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'of growing questions', highlights: ['questions'], size: 52, pos: 'right', media: {src: 'tour/tr05_questions.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'about their relationship.', highlights: ['relationship.'], size: 52, pos: 'lower', media: {src: 'tour/tr06_relationship.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'about their relationship.', highlights: ['relationship.'], size: 52, pos: 'lower', media: {src: 'tour/tr06_relationship.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The timing|is raising eyebrows', highlights: ['eyebrows'], size: 48, pos: 'lowerLeft', media: {src: 'tour/tr07_timing.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'The timing|is raising eyebrows', highlights: ['eyebrows'], size: 48, pos: 'lowerLeft', media: {src: 'tour/tr07_timing.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'because the cancellations', highlights: [], size: 52, pos: 'upperRight', media: {src: 'tour/tr08_cancellations.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'because the cancellations', highlights: [], size: 52, pos: 'upperRight', media: {src: 'tour/tr08_cancellations.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'come just days after', highlights: ['days'], size: 50, pos: 'left', media: {src: 'tour/tr09_daysafter.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'come just days after', highlights: ['days'], size: 50, pos: 'left', media: {src: 'tour/tr09_daysafter.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'reports of a|heated disagreement', highlights: ['heated'], size: 48, pos: 'right', media: {src: 'tour/tr10_disagreement.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'reports of a|heated disagreement', highlights: ['heated'], size: 48, pos: 'right', media: {src: 'tour/tr10_disagreement.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'between the two|R&B superstars.', highlights: ['superstars.'], size: 48, pos: 'upperLeft', media: {src: 'tour/tr11_superstars.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'between the two|R&B superstars.', highlights: ['superstars.'], size: 48, pos: 'upperLeft', media: {src: 'tour/tr11_superstars.jpg', type: 'img', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more|entertainment news', highlights: ['follow'], size: 48, pos: 'lowerRight', media: {src: 'tour/tr12_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'Follow for more|entertainment news', highlights: ['follow'], size: 48, pos: 'lowerRight', media: {src: 'tour/tr12_follow.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'and celebrity updates.', highlights: [], size: 52, pos: 'upper', media: {src: 'tour/tr13_celebrity.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'and celebrity updates.', highlights: [], size: 52, pos: 'upper', media: {src: 'tour/tr13_celebrity.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The artists|are currently', highlights: [], size: 50, pos: 'left', media: {src: 'tour/tr14_artists.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2, 28], text: 'The artists|are currently', highlights: [], size: 50, pos: 'left', media: {src: 'tour/tr14_artists.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'co-headlining|The R&B Tour,', highlights: ['Tour,'], size: 50, pos: 'right', media: {src: 'tour/tr15_rnbtour.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'co-headlining|The R&B Tour,', highlights: ['Tour,'], size: 50, pos: 'right', media: {src: 'tour/tr15_rnbtour.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'bringing their biggest hits', highlights: ['biggest'], size: 50, pos: 'lowerLeft', media: {src: 'tour/tr16_hits.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'bringing their biggest hits', highlights: ['biggest'], size: 50, pos: 'lowerLeft', media: {src: 'tour/tr16_hits.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to stadiums|across the United States.', highlights: [], size: 44, pos: 'upperRight', media: {src: 'tour/tr17_stadiums.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'to stadiums|across the United States.', highlights: [], size: 44, pos: 'upperRight', media: {src: 'tour/tr17_stadiums.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'But the latest cancellations', highlights: ['latest'], size: 50, pos: 'left', media: {src: 'tour/tr18_latest.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'But the latest cancellations', highlights: ['latest'], size: 50, pos: 'left', media: {src: 'tour/tr18_latest.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'affect two major stops:', highlights: ['two'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr19_stops.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'affect two major stops:', highlights: ['two'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr19_stops.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'SoFi Stadium|in Los Angeles', highlights: ['SoFi'], size: 48, pos: 'upperLeft', media: {src: 'tour/tr20_sofi.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2, 28], text: 'SoFi Stadium|in Los Angeles', highlights: ['SoFi'], size: 48, pos: 'upperLeft', media: {src: 'tour/tr20_sofi.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'on November 16,', highlights: ['November'], size: 52, pos: 'right', media: {src: 'tour/tr21_nov16.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'on November 16,', highlights: ['November'], size: 52, pos: 'right', media: {src: 'tour/tr21_nov16.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and Hard Rock Stadium|in Miami', highlights: ['Miami'], size: 44, pos: 'lower', media: {src: 'tour/tr22_miami.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'and Hard Rock Stadium|in Miami', highlights: ['Miami'], size: 44, pos: 'lower', media: {src: 'tour/tr22_miami.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'on December 6.', highlights: ['December'], size: 52, pos: 'upperRight', media: {src: 'tour/tr23_dec6.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'on December 6.', highlights: ['December'], size: 52, pos: 'upperRight', media: {src: 'tour/tr23_dec6.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'Ticketmaster listings show', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'tour/tr24_ticketmaster.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'Ticketmaster listings show', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'tour/tr24_ticketmaster.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'both events|have been canceled.', highlights: ['canceled.'], size: 48, pos: 'left', media: {src: 'tour/tr25_bothcanceled.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'both events|have been canceled.', highlights: ['canceled.'], size: 48, pos: 'left', media: {src: 'tour/tr25_bothcanceled.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'Affected ticket holders', highlights: [], size: 52, pos: 'right', media: {src: 'tour/tr26_holders.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'Affected ticket holders', highlights: [], size: 52, pos: 'right', media: {src: 'tour/tr26_holders.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'are being offered refunds', highlights: ['refunds'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr27_refunds.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'are being offered refunds', highlights: ['refunds'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr27_refunds.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to their original|payment methods.', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'tour/tr28_payment.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'to their original|payment methods.', highlights: [], size: 48, pos: 'upperLeft', media: {src: 'tour/tr28_payment.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'This isn’t the first time', highlights: ['first'], size: 46, pos: 'right', media: {src: 'tour/tr29_firsttime.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'This isn’t the first time', highlights: ['first'], size: 46, pos: 'right', media: {src: 'tour/tr29_firsttime.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'the tour has lost dates.', highlights: ['lost'], size: 46, pos: 'upperRight', media: {src: 'tour/tr30_lostdates.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'the tour has lost dates.', highlights: ['lost'], size: 46, pos: 'upperRight', media: {src: 'tour/tr30_lostdates.jpg', type: 'img', effect: 'in'}},
   // 31 CARD
-  {dur: 70, kind: 'stat', stat: {value: 4, post: 'OCTOBER SHOWS'}, media: {src: 'tour/tr31_card4.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'stat', stat: {value: 4, post: 'OCTOBER SHOWS'}, media: {src: 'tour/tr31_card4.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'in Baltimore, Cincinnati,', highlights: [], size: 52, pos: 'left', media: {src: 'tour/tr32_cities1.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'in Baltimore, Cincinnati,', highlights: [], size: 52, pos: 'left', media: {src: 'tour/tr32_cities1.jpg', type: 'img', effect: 'in'}},
   // 33
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'South Carolina,|and Indianapolis', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'tour/tr33_cities2.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'were also canceled.', highlights: ['canceled.'], size: 52, pos: 'upper', media: {src: 'tour/tr34_alsocanceled.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'were also canceled.', highlights: ['canceled.'], size: 52, pos: 'upper', media: {src: 'tour/tr34_alsocanceled.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'Organizers previously cited', highlights: ['Organizers'], size: 52, pos: 'right', media: {src: 'tour/tr35_organizers.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'Organizers previously cited', highlights: ['Organizers'], size: 52, pos: 'right', media: {src: 'tour/tr35_organizers.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'the health and well-being', highlights: ['health'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr36_health.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'the health and well-being', highlights: ['health'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr36_health.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'of the touring crew.', highlights: ['crew.'], size: 50, pos: 'upperLeft', media: {src: 'tour/tr37_crew.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'of the touring crew.', highlights: ['crew.'], size: 50, pos: 'upperLeft', media: {src: 'tour/tr37_crew.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'Now, reports of tension', highlights: ['tension'], size: 50, pos: 'left', media: {src: 'tour/tr38_tension.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'Now, reports of tension', highlights: ['tension'], size: 50, pos: 'left', media: {src: 'tour/tr38_tension.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'have added another|layer of uncertainty.', highlights: ['uncertainty.'], size: 44, pos: 'lowerRight', media: {src: 'tour/tr39_uncertainty.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'have added another|layer of uncertainty.', highlights: ['uncertainty.'], size: 44, pos: 'lowerRight', media: {src: 'tour/tr39_uncertainty.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'Sources have claimed', highlights: ['claimed'], size: 52, pos: 'upperRight', media: {src: 'tour/tr40_claimed.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'Sources have claimed', highlights: ['claimed'], size: 52, pos: 'upperRight', media: {src: 'tour/tr40_claimed.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'the singers argued', highlights: ['argued'], size: 52, pos: 'right', media: {src: 'tour/tr41_argued.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'the singers argued', highlights: ['argued'], size: 52, pos: 'right', media: {src: 'tour/tr41_argued.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'over whether to delay|an Atlanta performance', highlights: ['delay'], size: 44, pos: 'lowerLeft', media: {src: 'tour/tr42_atlanta.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'over whether to delay|an Atlanta performance', highlights: ['delay'], size: 44, pos: 'lowerLeft', media: {src: 'tour/tr42_atlanta.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'because of traffic.', highlights: ['traffic.'], size: 52, pos: 'left', media: {src: 'tour/tr43_traffic.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'because of traffic.', highlights: ['traffic.'], size: 52, pos: 'left', media: {src: 'tour/tr43_traffic.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The show|eventually started late,', highlights: ['late,'], size: 48, pos: 'upperRight', media: {src: 'tour/tr44_late.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'The show|eventually started late,', highlights: ['late,'], size: 48, pos: 'upperRight', media: {src: 'tour/tr44_late.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'and the two reportedly', highlights: [], size: 50, pos: 'lower', media: {src: 'tour/tr45_reportedly.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'and the two reportedly', highlights: [], size: 50, pos: 'lower', media: {src: 'tour/tr45_reportedly.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'did not perform|together that night.', highlights: ['together'], size: 44, pos: 'right', media: {src: 'tour/tr46_together.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'did not perform|together that night.', highlights: ['together'], size: 44, pos: 'right', media: {src: 'tour/tr46_together.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But here’s what|we still don’t know:', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'tour/tr47_dontknow.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'But here’s what|we still don’t know:', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'tour/tr47_dontknow.jpg', type: 'img', effect: 'in'}},
   // 48 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'No official|explanation.'},
+  {dur: 128, kind: 'impact', redBg: true, text: 'No official|explanation.'},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'and no confirmed evidence', highlights: ['evidence'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr49_evidence.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'and no confirmed evidence', highlights: ['evidence'], size: 50, pos: 'lowerRight', media: {src: 'tour/tr49_evidence.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that the reported disagreement|caused them.', highlights: ['caused'], size: 44, pos: 'left', media: {src: 'tour/tr50_caused.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'that the reported disagreement|caused them.', highlights: ['caused'], size: 44, pos: 'left', media: {src: 'tour/tr50_caused.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Is this simply|a demanding stadium tour', highlights: ['demanding'], size: 44, pos: 'upperRight', media: {src: 'tour/tr51_demanding.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'Is this simply|a demanding stadium tour', highlights: ['demanding'], size: 44, pos: 'upperRight', media: {src: 'tour/tr51_demanding.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'facing scheduling changes,', highlights: ['scheduling'], size: 52, pos: 'right', media: {src: 'tour/tr52_scheduling.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'facing scheduling changes,', highlights: ['scheduling'], size: 52, pos: 'right', media: {src: 'tour/tr52_scheduling.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or is there more|going on behind the scenes?', highlights: ['behind'], size: 44, pos: 'lowerLeft', media: {src: 'tour/tr53_behind.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'or is there more|going on behind the scenes?', highlights: ['behind'], size: 44, pos: 'lowerLeft', media: {src: 'tour/tr53_behind.jpg', type: 'img', effect: 'in'}},
   // 54 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'What do you think?', highlights: ['think?'], size: 52, media: {src: 'tour/tr54_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'What do you think?', highlights: ['think?'], size: 52, media: {src: 'tour/tr54_think.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1483, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2406, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2879, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
