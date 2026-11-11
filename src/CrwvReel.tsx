@@ -108,109 +108,116 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'CoreWeave stock|is surging', kicker: 'The burn', highlights: [], size: 54, media: {src: 'crwv/cw00_surge.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'hook', reveal: [3, 40], text: 'CoreWeave stock|is surging', kicker: 'The burn', highlights: [], size: 54, media: {src: 'crwv/cw00_surge.jpg', type: 'img', effect: 'in'}},
   // 1 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '+', value: 13, suffix: '%', post: 'IN PREMARKET'}, media: {src: 'crwv/cw01_premkt.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'stat', stat: {prefix: '+', value: 13, suffix: '%', post: 'IN PREMARKET'}, media: {src: 'crwv/cw01_premkt.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'But behind this AI boom', highlights: ['boom'], size: 46, pos: 'upperRight', media: {src: 'crwv/cw02_boom.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'But behind this AI boom', highlights: ['boom'], size: 46, pos: 'upperRight', media: {src: 'crwv/cw02_boom.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'is a company carrying', highlights: [], size: 50, pos: 'left', media: {src: 'crwv/cw03_carrying.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'is a company carrying', highlights: [], size: 50, pos: 'left', media: {src: 'crwv/cw03_carrying.jpg', type: 'img', effect: 'in'}},
   // 4 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'NEARLY', prefix: '$', value: 47, suffix: 'B', post: 'IN DEBT'}, media: {src: 'crwv/cw04_debt.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'stat', stat: {pre: 'NEARLY', prefix: '$', value: 47, suffix: 'B', post: 'IN DEBT'}, media: {src: 'crwv/cw04_debt.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'So why are investors', highlights: ['why'], size: 50, pos: 'lowerRight', media: {src: 'crwv/cw05_why.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'So why are investors', highlights: ['why'], size: 50, pos: 'lowerRight', media: {src: 'crwv/cw05_why.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'suddenly buying back into a stock', highlights: ['buying'], size: 42, pos: 'upperLeft', media: {src: 'crwv/cw06_buying.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2], text: 'suddenly buying back into a stock', highlights: ['buying'], size: 42, pos: 'upperLeft', media: {src: 'crwv/cw06_buying.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that recently suffered|a brutal selloff?', highlights: ['selloff?'], size: 44, pos: 'right', media: {src: 'crwv/cw07_selloff.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'that recently suffered|a brutal selloff?', highlights: ['selloff?'], size: 44, pos: 'right', media: {src: 'crwv/cw07_selloff.jpg', type: 'img', effect: 'in'}},
   // 8 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more stock market|and technology news.', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'crwv/cw08_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 109, kind: 'text', reveal: [2], text: 'Follow for more stock market|and technology news.', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'crwv/cw08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'CoreWeave,|a cloud computing company', highlights: ['cloud'], size: 48, pos: 'lowerLeft', media: {src: 'crwv/cw09_cloud.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'CoreWeave,|a cloud computing company', highlights: ['cloud'], size: 48, pos: 'lowerLeft', media: {src: 'crwv/cw09_cloud.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'that rents powerful', highlights: ['powerful'], size: 52, pos: 'upperRight', media: {src: 'crwv/cw10_rents.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'that rents powerful', highlights: ['powerful'], size: 52, pos: 'upperRight', media: {src: 'crwv/cw10_rents.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nvidia-based infrastructure', highlights: ['Nvidia-based'], size: 52, pos: 'left', media: {src: 'crwv/cw11_infra.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'Nvidia-based infrastructure', highlights: ['Nvidia-based'], size: 52, pos: 'left', media: {src: 'crwv/cw11_infra.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'to AI developers,', highlights: ['AI'], size: 52, pos: 'right', media: {src: 'crwv/cw12_devs.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'to AI developers,', highlights: ['AI'], size: 52, pos: 'right', media: {src: 'crwv/cw12_devs.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'just reported its|third-quarter results.', highlights: ['third-quarter'], size: 48, pos: 'upperLeft', media: {src: 'crwv/cw13_results.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'just reported its|third-quarter results.', highlights: ['third-quarter'], size: 48, pos: 'upperLeft', media: {src: 'crwv/cw13_results.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'Revenue reached', highlights: ['Revenue'], size: 52, pos: 'lowerRight', media: {src: 'crwv/cw14_revenue.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'Revenue reached', highlights: ['Revenue'], size: 52, pos: 'lowerRight', media: {src: 'crwv/cw14_revenue.jpg', type: 'img', effect: 'in'}},
   // 15 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 3.66, decimals: 2, suffix: 'B', post: 'Q3 REVENUE'}, media: {src: 'crwv/cw15_rev366.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'stat', stat: {prefix: '$', value: 3.66, decimals: 2, suffix: 'B', post: 'Q3 REVENUE'}, media: {src: 'crwv/cw15_rev366.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'up 168%|from a year earlier,', highlights: ['168%'], size: 44, pos: 'upper', media: {src: 'crwv/cw16_168.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'up 168%|from a year earlier,', highlights: ['168%'], size: 44, pos: 'upper', media: {src: 'crwv/cw16_168.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'beating analyst expectations.', highlights: ['beating'], size: 52, pos: 'left', media: {src: 'crwv/cw17_beat.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'beating analyst expectations.', highlights: ['beating'], size: 52, pos: 'left', media: {src: 'crwv/cw17_beat.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'Even more striking,', highlights: ['striking,'], size: 52, pos: 'right', media: {src: 'crwv/cw18_striking.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'Even more striking,', highlights: ['striking,'], size: 52, pos: 'right', media: {src: 'crwv/cw18_striking.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'its contracted|revenue backlog', highlights: ['backlog'], size: 50, pos: 'lowerLeft', media: {src: 'crwv/cw19_backlog.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'its contracted|revenue backlog', highlights: ['backlog'], size: 50, pos: 'lowerLeft', media: {src: 'crwv/cw19_backlog.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'climbed to', highlights: [], size: 52, pos: 'upperRight', media: {src: 'crwv/cw20_climbed.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'climbed to', highlights: [], size: 52, pos: 'upperRight', media: {src: 'crwv/cw20_climbed.jpg', type: 'img', effect: 'in'}},
   // 21 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 132.5, decimals: 1, suffix: 'B', post: 'REVENUE BACKLOG'}, media: {src: 'crwv/cw21_card132.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'stat', stat: {prefix: '$', value: 132.5, decimals: 1, suffix: 'B', post: 'REVENUE BACKLOG'}, media: {src: 'crwv/cw21_card132.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'The company also raised', highlights: ['raised'], size: 50, pos: 'left', media: {src: 'crwv/cw22_raised.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'The company also raised', highlights: ['raised'], size: 50, pos: 'left', media: {src: 'crwv/cw22_raised.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'its 2026 revenue forecast', highlights: ['2026'], size: 50, pos: 'lowerRight', media: {src: 'crwv/cw23_forecast.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'its 2026 revenue forecast', highlights: ['2026'], size: 50, pos: 'lowerRight', media: {src: 'crwv/cw23_forecast.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to between $13 billion|and $13.3 billion.', highlights: ['$13.3'], size: 44, pos: 'upperLeft', media: {src: 'crwv/cw24_guide.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'to between $13 billion|and $13.3 billion.', highlights: ['$13.3'], size: 44, pos: 'upperLeft', media: {src: 'crwv/cw24_guide.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But there’s another side|to the numbers.', highlights: ['another'], size: 44, pos: 'right', media: {src: 'crwv/cw25_otherside.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'But there’s another side|to the numbers.', highlights: ['another'], size: 44, pos: 'right', media: {src: 'crwv/cw25_otherside.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'CoreWeave reported', highlights: [], size: 52, pos: 'lower', media: {src: 'crwv/cw26_reported.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'CoreWeave reported', highlights: [], size: 52, pos: 'lower', media: {src: 'crwv/cw26_reported.jpg', type: 'img', effect: 'in'}},
   // 27 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 709, suffix: 'M', post: 'NET LOSS'}, media: {src: 'crwv/cw27_card709.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'stat', stat: {prefix: '$', value: 709, suffix: 'M', post: 'NET LOSS'}, media: {src: 'crwv/cw27_card709.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while interest expenses|reached $846 million', highlights: ['$846'], size: 44, pos: 'upperRight', media: {src: 'crwv/cw28_interest.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 28], text: 'while interest expenses|reached $846 million', highlights: ['$846'], size: 44, pos: 'upperRight', media: {src: 'crwv/cw28_interest.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'for the quarter.', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'crwv/cw29_quarter.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'for the quarter.', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'crwv/cw29_quarter.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'And it expects to spend', highlights: ['spend'], size: 46, pos: 'left', media: {src: 'crwv/cw30_spend.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'And it expects to spend', highlights: ['spend'], size: 46, pos: 'left', media: {src: 'crwv/cw30_spend.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'between $37 billion|and $39 billion this year', highlights: ['$39'], size: 44, pos: 'right', media: {src: 'crwv/cw31_capex.jpg', type: 'img', effect: 'in'}},
+  {dur: 129, kind: 'text', reveal: [2, 28], text: 'between $37 billion|and $39 billion this year', highlights: ['$39'], size: 44, pos: 'right', media: {src: 'crwv/cw31_capex.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'expanding its data center|infrastructure.', highlights: ['infrastructure.'], size: 48, pos: 'lowerRight', media: {src: 'crwv/cw32_datacenter.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'expanding its data center|infrastructure.', highlights: ['infrastructure.'], size: 48, pos: 'lowerRight', media: {src: 'crwv/cw32_datacenter.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'Management says demand', highlights: ['demand'], size: 52, pos: 'upperLeft', media: {src: 'crwv/cw33_demand.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'Management says demand', highlights: ['demand'], size: 52, pos: 'upperLeft', media: {src: 'crwv/cw33_demand.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is roughly ten times|its available capacity.', highlights: ['ten'], size: 44, pos: 'right', media: {src: 'crwv/cw34_tenx.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'is roughly ten times|its available capacity.', highlights: ['ten'], size: 44, pos: 'right', media: {src: 'crwv/cw34_tenx.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It also expects|around $9 billion', highlights: ['$9'], size: 44, pos: 'upperRight', media: {src: 'crwv/cw35_nineb.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'It also expects|around $9 billion', highlights: ['$9'], size: 44, pos: 'upperRight', media: {src: 'crwv/cw35_nineb.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in customer prepayments|and deposits', highlights: ['prepayments'], size: 48, pos: 'left', media: {src: 'crwv/cw36_prepay.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'in customer prepayments|and deposits', highlights: ['prepayments'], size: 48, pos: 'left', media: {src: 'crwv/cw36_prepay.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'over the next three months', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'crwv/cw37_months.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'over the next three months', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'crwv/cw37_months.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'to help fund expansion.', highlights: ['expansion.'], size: 50, pos: 'upper', media: {src: 'crwv/cw38_fund.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'to help fund expansion.', highlights: ['expansion.'], size: 50, pos: 'upper', media: {src: 'crwv/cw38_fund.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'The question is whether', highlights: [], size: 50, pos: 'right', media: {src: 'crwv/cw39_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'The question is whether', highlights: [], size: 50, pos: 'right', media: {src: 'crwv/cw39_question.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'CoreWeave can turn|this enormous demand', highlights: ['enormous'], size: 44, pos: 'lowerRight', media: {src: 'crwv/cw40_enormous.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'CoreWeave can turn|this enormous demand', highlights: ['enormous'], size: 44, pos: 'lowerRight', media: {src: 'crwv/cw40_enormous.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'into sustainable profits', highlights: ['sustainable'], size: 52, pos: 'upperLeft', media: {src: 'crwv/cw41_profits.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'into sustainable profits', highlights: ['sustainable'], size: 52, pos: 'upperLeft', media: {src: 'crwv/cw41_profits.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'before its borrowing costs', highlights: ['borrowing'], size: 50, pos: 'left', media: {src: 'crwv/cw42_borrowing.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'before its borrowing costs', highlights: ['borrowing'], size: 50, pos: 'left', media: {src: 'crwv/cw42_borrowing.jpg', type: 'img', effect: 'in'}},
   // 43 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'become a|bigger problem.'},
+  {dur: 57, kind: 'impact', redBg: true, text: 'become a|bigger problem.'},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'Is CoreWeave one of', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'crwv/cw44_isone.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'Is CoreWeave one of', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'crwv/cw44_isone.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'the biggest opportunities', highlights: ['biggest'], size: 52, pos: 'upperRight', media: {src: 'crwv/cw45_biggest.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'the biggest opportunities', highlights: ['biggest'], size: 52, pos: 'upperRight', media: {src: 'crwv/cw45_biggest.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'in the AI boom,', highlights: [], size: 50, pos: 'right', media: {src: 'crwv/cw46_aiboom.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'in the AI boom,', highlights: [], size: 50, pos: 'right', media: {src: 'crwv/cw46_aiboom.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or is its debt|becoming too dangerous?', highlights: ['dangerous?'], size: 44, pos: 'lowerLeft', media: {src: 'crwv/cw47_dangerous.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'or is its debt|becoming too dangerous?', highlights: ['dangerous?'], size: 44, pos: 'lowerLeft', media: {src: 'crwv/cw47_dangerous.jpg', type: 'img', effect: 'in'}},
   // 48 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Would you buy CRWV|at these levels?', highlights: ['CRWV'], size: 46, media: {src: 'crwv/cw48_crwv.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Would you buy CRWV|at these levels?', highlights: ['CRWV'], size: 46, media: {src: 'crwv/cw48_crwv.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 49, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 216, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 892, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1238, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1585, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2696, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2940, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
