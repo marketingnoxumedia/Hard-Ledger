@@ -110,111 +110,111 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 71, kind: 'hook', reveal: [3, 40], text: 'Marvel may have|just brought back', kicker: 'The reveal', highlights: [], size: 48, media: {src: 'doom/dm00_marvel.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'hook', reveal: [3, 40], text: 'Marvel may have|just brought back', kicker: 'The reveal', highlights: [], size: 48, media: {src: 'doom/dm00_marvel.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'one of its most|powerful characters.', highlights: ['powerful'], size: 44, pos: 'upperRight', media: {src: 'doom/dm01_powerful.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'one of its most|powerful characters.', highlights: ['powerful'], size: 44, pos: 'upperRight', media: {src: 'doom/dm01_powerful.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 43, kind: 'text', reveal: [2], text: 'And the person responsible', highlights: [], size: 50, pos: 'left', media: {src: 'doom/dm02_responsible.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'And the person responsible', highlights: [], size: 50, pos: 'left', media: {src: 'doom/dm02_responsible.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 95, kind: 'text', reveal: [2, 28], text: 'could be the MCU’s|next major villain:', highlights: ['villain:'], size: 44, pos: 'lowerRight', media: {src: 'doom/dm03_villain.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'could be the MCU’s|next major villain:', highlights: ['villain:'], size: 44, pos: 'lowerRight', media: {src: 'doom/dm03_villain.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 28, kind: 'text', reveal: [2], text: 'Doctor Doom.', highlights: ['Doom.'], size: 52, pos: 'upperLeft', media: {src: 'doom/dm04_doom.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Doctor Doom.', highlights: ['Doom.'], size: 52, pos: 'upperLeft', media: {src: 'doom/dm04_doom.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'The reveal came|in a surprise', highlights: ['surprise'], size: 44, pos: 'right', media: {src: 'doom/dm05_surprise.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'The reveal came|in a surprise', highlights: ['surprise'], size: 44, pos: 'right', media: {src: 'doom/dm05_surprise.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 42, kind: 'text', reveal: [2], text: 'post-credits scene', highlights: [], size: 52, pos: 'lower', media: {src: 'doom/dm06_postcredits.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'post-credits scene', highlights: [], size: 52, pos: 'lower', media: {src: 'doom/dm06_postcredits.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 49, kind: 'text', reveal: [2, 28], text: 'from the|VisionQuest finale,', highlights: ['VisionQuest'], size: 50, pos: 'lowerLeft', media: {src: 'doom/dm07_visionquest.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'from the|VisionQuest finale,', highlights: ['VisionQuest'], size: 50, pos: 'lowerLeft', media: {src: 'doom/dm07_visionquest.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'and it could|completely change', highlights: ['change'], size: 48, pos: 'upperRight', media: {src: 'doom/dm08_change.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'and it could|completely change', highlights: ['change'], size: 48, pos: 'upperRight', media: {src: 'doom/dm08_change.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 48, kind: 'text', reveal: [2], text: 'what we expect from', highlights: [], size: 50, pos: 'left', media: {src: 'doom/dm09_expect.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'what we expect from', highlights: [], size: 50, pos: 'left', media: {src: 'doom/dm09_expect.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 27, kind: 'text', reveal: [2], text: 'Avengers: Doomsday.', highlights: ['Doomsday.'], size: 52, pos: 'right', media: {src: 'doom/dm10_doomsday.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Avengers: Doomsday.', highlights: ['Doomsday.'], size: 52, pos: 'right', media: {src: 'doom/dm10_doomsday.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'If you’re following|the future of the MCU,', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'doom/dm11_future.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'If you’re following|the future of the MCU,', highlights: [], size: 44, pos: 'upperLeft', media: {src: 'doom/dm11_future.jpg', type: 'img', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'follow for more|entertainment updates.', highlights: ['follow'], size: 48, pos: 'lowerRight', media: {src: 'doom/dm12_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'follow for more|entertainment updates.', highlights: ['follow'], size: 48, pos: 'lowerRight', media: {src: 'doom/dm12_follow.jpg', type: 'img', effect: 'in'}},
   // 13
   {dur: 26, kind: 'text', reveal: [2], text: 'At the end of', highlights: [], size: 50, pos: 'upper', media: {src: 'doom/dm13_atend.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'Doctor Strange in the|Multiverse of Madness,', highlights: ['Multiverse'], size: 44, pos: 'left', media: {src: 'doom/dm14_multiverse.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'Doctor Strange in the|Multiverse of Madness,', highlights: ['Multiverse'], size: 44, pos: 'left', media: {src: 'doom/dm14_multiverse.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 40, kind: 'text', reveal: [2], text: 'Wanda Maximoff appeared', highlights: ['Wanda'], size: 52, pos: 'right', media: {src: 'doom/dm15_wanda.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'Wanda Maximoff appeared', highlights: ['Wanda'], size: 52, pos: 'right', media: {src: 'doom/dm15_wanda.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 48, kind: 'text', reveal: [2], text: 'to sacrifice herself', highlights: ['sacrifice'], size: 52, pos: 'lowerLeft', media: {src: 'doom/dm16_sacrifice.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'to sacrifice herself', highlights: ['sacrifice'], size: 52, pos: 'lowerLeft', media: {src: 'doom/dm16_sacrifice.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'when Mount Wundagore|collapsed.', highlights: ['collapsed.'], size: 50, pos: 'upperRight', media: {src: 'doom/dm17_collapsed.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'when Mount Wundagore|collapsed.', highlights: ['collapsed.'], size: 50, pos: 'upperRight', media: {src: 'doom/dm17_collapsed.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 64, kind: 'text', reveal: [2, 28], text: 'For years, fans|have questioned', highlights: ['fans'], size: 48, pos: 'left', media: {src: 'doom/dm18_fans.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'For years, fans|have questioned', highlights: ['fans'], size: 48, pos: 'left', media: {src: 'doom/dm18_fans.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 37, kind: 'text', reveal: [2], text: 'whether the Scarlet Witch', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'doom/dm19_scarlet.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'whether the Scarlet Witch', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'doom/dm19_scarlet.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 41, kind: 'text', reveal: [2], text: 'was truly gone.', highlights: ['gone.'], size: 52, pos: 'upperLeft', media: {src: 'doom/dm20_gone.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'was truly gone.', highlights: ['gone.'], size: 52, pos: 'upperLeft', media: {src: 'doom/dm20_gone.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 81, kind: 'text', reveal: [2, 28], text: 'Now, the VisionQuest|post-credits scene', highlights: [], size: 48, pos: 'right', media: {src: 'doom/dm21_revisit.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Now, the VisionQuest|post-credits scene', highlights: [], size: 48, pos: 'right', media: {src: 'doom/dm21_revisit.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 74, kind: 'text', reveal: [2], text: 'revisits that moment.', highlights: ['revisits'], size: 52, pos: 'lower', media: {src: 'doom/dm22_moment.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'revisits that moment.', highlights: ['revisits'], size: 52, pos: 'lower', media: {src: 'doom/dm22_moment.jpg', type: 'img', effect: 'in'}},
   // 23
   {dur: 26, kind: 'text', reveal: [2, 28], text: 'But this time,|Doctor Doom appears,', highlights: ['Doom'], size: 44, pos: 'upperRight', media: {src: 'doom/dm23_doomappears.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 48, kind: 'text', reveal: [2, 28], text: 'lifts the rubble|covering Wanda,', highlights: ['rubble'], size: 48, pos: 'lowerLeft', media: {src: 'doom/dm24_rubble.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], text: 'lifts the rubble|covering Wanda,', highlights: ['rubble'], size: 48, pos: 'lowerLeft', media: {src: 'doom/dm24_rubble.jpg', type: 'img', effect: 'in'}},
   // 25
   {dur: 26, kind: 'text', reveal: [2], text: 'and commands:', highlights: [], size: 52, pos: 'left', media: {src: 'doom/dm25_commands.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 58, kind: 'text', reveal: [2], text: 'Scarlet Witch, awaken.', highlights: ['awaken.'], size: 52, pos: 'right', media: {src: 'doom/dm26_awaken.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Scarlet Witch, awaken.', highlights: ['awaken.'], size: 52, pos: 'right', media: {src: 'doom/dm26_awaken.jpg', type: 'img', effect: 'in'}},
   // 27 RED
-  {dur: 69, kind: 'impact', redBg: true, text: 'Your power|will be mine.'},
+  {dur: 63, kind: 'impact', redBg: true, text: 'Your power|will be mine.'},
   // 28
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'Then Wanda|opens her eyes.', highlights: ['eyes.'], size: 48, pos: 'lowerRight', media: {src: 'doom/dm28_eyes.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'Then Wanda|opens her eyes.', highlights: ['eyes.'], size: 48, pos: 'lowerRight', media: {src: 'doom/dm28_eyes.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 63, kind: 'text', reveal: [2, 28], text: 'That is more than|a nostalgic cameo.', highlights: ['cameo.'], size: 44, pos: 'upperLeft', media: {src: 'doom/dm29_cameo.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'That is more than|a nostalgic cameo.', highlights: ['cameo.'], size: 44, pos: 'upperLeft', media: {src: 'doom/dm29_cameo.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 76, kind: 'text', reveal: [2, 28], text: 'It suggests Doom|knows exactly', highlights: ['exactly'], size: 48, pos: 'right', media: {src: 'doom/dm30_exactly.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'It suggests Doom|knows exactly', highlights: ['exactly'], size: 48, pos: 'right', media: {src: 'doom/dm30_exactly.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 34, kind: 'text', reveal: [2], text: 'who Wanda is', highlights: [], size: 52, pos: 'upperRight', media: {src: 'doom/dm31_whois.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'who Wanda is', highlights: [], size: 52, pos: 'upperRight', media: {src: 'doom/dm31_whois.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 32, kind: 'text', reveal: [2], text: 'and may have plans', highlights: ['plans'], size: 50, pos: 'left', media: {src: 'doom/dm32_plans.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'and may have plans', highlights: ['plans'], size: 50, pos: 'left', media: {src: 'doom/dm32_plans.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'to use her|extraordinary powers.', highlights: ['extraordinary'], size: 48, pos: 'lowerLeft', media: {src: 'doom/dm33_powers.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'to use her|extraordinary powers.', highlights: ['extraordinary'], size: 48, pos: 'lowerLeft', media: {src: 'doom/dm33_powers.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'Her return could|connect directly', highlights: ['connect'], size: 48, pos: 'upper', media: {src: 'doom/dm34_connect.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'Her return could|connect directly', highlights: ['connect'], size: 48, pos: 'upper', media: {src: 'doom/dm34_connect.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 50, kind: 'text', reveal: [2, 28], text: 'to the next|Avengers storyline,', highlights: ['Avengers'], size: 48, pos: 'right', media: {src: 'doom/dm35_storyline.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'to the next|Avengers storyline,', highlights: ['Avengers'], size: 48, pos: 'right', media: {src: 'doom/dm35_storyline.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 43, kind: 'text', reveal: [2], text: 'especially with her sons', highlights: ['sons'], size: 50, pos: 'lowerRight', media: {src: 'doom/dm36_sons.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'especially with her sons', highlights: ['sons'], size: 50, pos: 'lowerRight', media: {src: 'doom/dm36_sons.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 29, kind: 'text', reveal: [2], text: 'Billy and Tommy', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'doom/dm37_billytommy.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Billy and Tommy', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'doom/dm37_billytommy.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 45, kind: 'text', reveal: [2], text: 'now reunited with Vision', highlights: ['Vision'], size: 50, pos: 'left', media: {src: 'doom/dm38_vision.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'now reunited with Vision', highlights: ['Vision'], size: 50, pos: 'left', media: {src: 'doom/dm38_vision.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 34, kind: 'text', reveal: [2], text: 'in VisionQuest.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'doom/dm39_invq.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'in VisionQuest.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'doom/dm39_invq.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'But there’s still|a major question:', highlights: ['question:'], size: 44, pos: 'upperRight', media: {src: 'doom/dm40_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'But there’s still|a major question:', highlights: ['question:'], size: 44, pos: 'upperRight', media: {src: 'doom/dm40_question.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'is Doom bringing|Wanda back', highlights: [], size: 48, pos: 'right', media: {src: 'doom/dm41_bringback.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'is Doom bringing|Wanda back', highlights: [], size: 48, pos: 'right', media: {src: 'doom/dm41_bringback.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 28, kind: 'text', reveal: [2], text: 'to control her,', highlights: ['control'], size: 52, pos: 'lowerLeft', media: {src: 'doom/dm42_control.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'to control her,', highlights: ['control'], size: 52, pos: 'lowerLeft', media: {src: 'doom/dm42_control.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 59, kind: 'text', reveal: [2], text: 'or does he need her power', highlights: ['power'], size: 42, pos: 'left', media: {src: 'doom/dm43_needpower.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'or does he need her power', highlights: ['power'], size: 42, pos: 'left', media: {src: 'doom/dm43_needpower.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 54, kind: 'text', reveal: [2, 28], text: 'to accomplish|something even bigger?', highlights: ['bigger?'], size: 48, pos: 'upperRight', media: {src: 'doom/dm44_bigger.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'to accomplish|something even bigger?', highlights: ['bigger?'], size: 48, pos: 'upperRight', media: {src: 'doom/dm44_bigger.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'Should Wanda become|Doctor Doom’s weapon,', highlights: ['weapon,'], size: 44, pos: 'lower', media: {src: 'doom/dm45_weapon.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'Should Wanda become|Doctor Doom’s weapon,', highlights: ['weapon,'], size: 44, pos: 'lower', media: {src: 'doom/dm45_weapon.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 48, kind: 'text', reveal: [2, 28], text: 'or will she|turn against him?', highlights: ['against'], size: 44, pos: 'right', media: {src: 'doom/dm46_against.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'or will she|turn against him?', highlights: ['against'], size: 44, pos: 'right', media: {src: 'doom/dm46_against.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 47, kind: 'text', reveal: [2], text: 'And could the Scarlet Witch', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'doom/dm47_couldshe.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'And could the Scarlet Witch', highlights: [], size: 46, pos: 'upperLeft', media: {src: 'doom/dm47_couldshe.jpg', type: 'img', effect: 'in'}},
   // 48 CTA
-  {dur: 50, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'become the key|to defeating him?', highlights: ['key'], size: 46, media: {src: 'doom/dm48_key.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'become the key|to defeating him?', highlights: ['key'], size: 46, media: {src: 'doom/dm48_key.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1428, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2537, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1298, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2307, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
