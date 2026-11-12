@@ -112,131 +112,135 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Nvidia is facing|a leadership crisis,', kicker: 'The rotation', highlights: [], size: 48, media: {src: 'rotation/rt00_crisis.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'hook', reveal: [3, 40], text: 'Nvidia is facing|a leadership crisis,', kicker: 'The rotation', highlights: [], size: 48, media: {src: 'rotation/rt00_crisis.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and two of its|biggest competitors', highlights: ['competitors'], size: 44, pos: 'upperRight', media: {src: 'rotation/rt01_competitors.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'and two of its|biggest competitors', highlights: ['competitors'], size: 44, pos: 'upperRight', media: {src: 'rotation/rt01_competitors.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'are already benefiting.', highlights: ['benefiting.'], size: 52, pos: 'left', media: {src: 'rotation/rt02_benefiting.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'are already benefiting.', highlights: ['benefiting.'], size: 52, pos: 'left', media: {src: 'rotation/rt02_benefiting.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'AMD and Broadcom|shares jumped', highlights: ['jumped'], size: 48, pos: 'lowerRight', media: {src: 'rotation/rt03_jumped.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'AMD and Broadcom|shares jumped', highlights: ['jumped'], size: 48, pos: 'lowerRight', media: {src: 'rotation/rt03_jumped.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'as investors started looking', highlights: ['looking'], size: 50, pos: 'upperLeft', media: {src: 'rotation/rt04_looking.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'as investors started looking', highlights: ['looking'], size: 50, pos: 'upperLeft', media: {src: 'rotation/rt04_looking.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for alternatives|to the AI chip giant.', highlights: ['alternatives'], size: 44, pos: 'right', media: {src: 'rotation/rt05_alternatives.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'for alternatives|to the AI chip giant.', highlights: ['alternatives'], size: 44, pos: 'right', media: {src: 'rotation/rt05_alternatives.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But this could be|about more', highlights: [], size: 44, pos: 'lower', media: {src: 'rotation/rt06_more.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'But this could be|about more', highlights: [], size: 44, pos: 'lower', media: {src: 'rotation/rt06_more.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'than a temporary|stock market reaction.', highlights: ['temporary'], size: 44, pos: 'lowerLeft', media: {src: 'rotation/rt07_temporary.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'than a temporary|stock market reaction.', highlights: ['temporary'], size: 44, pos: 'lowerLeft', media: {src: 'rotation/rt07_temporary.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'It could signal a shift', highlights: ['shift'], size: 46, pos: 'upperRight', media: {src: 'rotation/rt08_shift.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'It could signal a shift', highlights: ['shift'], size: 46, pos: 'upperRight', media: {src: 'rotation/rt08_shift.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'in who gets to profit', highlights: ['profit'], size: 46, pos: 'left', media: {src: 'rotation/rt09_profit.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'in who gets to profit', highlights: ['profit'], size: 46, pos: 'left', media: {src: 'rotation/rt09_profit.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'from the next phase|of the AI boom.', highlights: ['boom.'], size: 44, pos: 'right', media: {src: 'rotation/rt10_nextphase.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'from the next phase|of the AI boom.', highlights: ['boom.'], size: 44, pos: 'right', media: {src: 'rotation/rt10_nextphase.jpg', type: 'img', effect: 'in'}},
   // 11 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more technology|and stock market news.', highlights: ['follow'], size: 44, pos: 'upperLeft', media: {src: 'rotation/rt11_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 111, kind: 'text', reveal: [2], text: 'Follow for more technology|and stock market news.', highlights: ['follow'], size: 44, pos: 'upperLeft', media: {src: 'rotation/rt11_follow.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'The turmoil began', highlights: ['turmoil'], size: 52, pos: 'lowerRight', media: {src: 'rotation/rt12_turmoil.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'The turmoil began', highlights: ['turmoil'], size: 52, pos: 'lowerRight', media: {src: 'rotation/rt12_turmoil.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'after reports claimed', highlights: ['claimed'], size: 52, pos: 'upper', media: {src: 'rotation/rt13_claimed.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'after reports claimed', highlights: ['claimed'], size: 52, pos: 'upper', media: {src: 'rotation/rt13_claimed.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nvidia’s board was preparing', highlights: ['preparing'], size: 50, pos: 'left', media: {src: 'rotation/rt14_board.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Nvidia’s board was preparing', highlights: ['preparing'], size: 50, pos: 'left', media: {src: 'rotation/rt14_board.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'to remove CEO Jensen Huang', highlights: ['remove'], size: 46, pos: 'right', media: {src: 'rotation/rt15_remove.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2], text: 'to remove CEO Jensen Huang', highlights: ['remove'], size: 46, pos: 'right', media: {src: 'rotation/rt15_remove.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'following allegations', highlights: ['allegations'], size: 52, pos: 'lowerLeft', media: {src: 'rotation/rt16_allegations.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'following allegations', highlights: ['allegations'], size: 52, pos: 'lowerLeft', media: {src: 'rotation/rt16_allegations.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'involving two|extramarital affairs.', highlights: ['extramarital'], size: 50, pos: 'upperRight', media: {src: 'rotation/rt17_affairs.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'involving two|extramarital affairs.', highlights: ['extramarital'], size: 50, pos: 'upperRight', media: {src: 'rotation/rt17_affairs.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The reports have|created uncertainty', highlights: ['uncertainty'], size: 48, pos: 'left', media: {src: 'rotation/rt18_uncertainty.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'The reports have|created uncertainty', highlights: ['uncertainty'], size: 48, pos: 'left', media: {src: 'rotation/rt18_uncertainty.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'around the leadership', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'rotation/rt19_leadership.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'around the leadership', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'rotation/rt19_leadership.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'of one of the world’s most', highlights: [], size: 42, pos: 'upperLeft', media: {src: 'rotation/rt20_worldsmost.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'of one of the world’s most', highlights: [], size: 42, pos: 'upperLeft', media: {src: 'rotation/rt20_worldsmost.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'influential technology companies.', highlights: ['influential'], size: 52, pos: 'right', media: {src: 'rotation/rt21_influential.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2], text: 'influential technology companies.', highlights: ['influential'], size: 52, pos: 'right', media: {src: 'rotation/rt21_influential.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'According to Bloomberg,', highlights: ['Bloomberg,'], size: 52, pos: 'lower', media: {src: 'rotation/rt22_bloomberg.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'According to Bloomberg,', highlights: ['Bloomberg,'], size: 52, pos: 'lower', media: {src: 'rotation/rt22_bloomberg.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nvidia shares dropped', highlights: ['dropped'], size: 52, pos: 'upperRight', media: {src: 'rotation/rt23_dropped.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'Nvidia shares dropped', highlights: ['dropped'], size: 52, pos: 'upperRight', media: {src: 'rotation/rt23_dropped.jpg', type: 'img', effect: 'in'}},
   // 24 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'NVIDIA', prefix: '-', value: 9, suffix: '%', post: 'AFTER HOURS'}, media: {src: 'rotation/rt24_card9.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'stat', stat: {pre: 'NVIDIA', prefix: '-', value: 9, suffix: '%', post: 'AFTER HOURS'}, media: {src: 'rotation/rt24_card9.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'in after-hours trading,', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'rotation/rt25_afterhours.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'in after-hours trading,', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'rotation/rt25_afterhours.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'while AMD and Broadcom', highlights: ['AMD'], size: 50, pos: 'left', media: {src: 'rotation/rt26_amdbroadcom.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'while AMD and Broadcom', highlights: ['AMD'], size: 50, pos: 'left', media: {src: 'rotation/rt26_amdbroadcom.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'each gained', highlights: [], size: 52, pos: 'right', media: {src: 'rotation/rt27_gained.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'each gained', highlights: [], size: 52, pos: 'right', media: {src: 'rotation/rt27_gained.jpg', type: 'img', effect: 'in'}},
   // 28 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'AMD & BROADCOM', prefix: '+', value: 3, suffix: '%', post: 'EACH'}, media: {src: 'rotation/rt28_card3.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'stat', stat: {pre: 'AMD & BROADCOM', prefix: '+', value: 3, suffix: '%', post: 'EACH'}, media: {src: 'rotation/rt28_card3.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'AMD is Nvidia’s|closest rival', highlights: ['closest'], size: 48, pos: 'lowerRight', media: {src: 'rotation/rt29_rival.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'AMD is Nvidia’s|closest rival', highlights: ['closest'], size: 48, pos: 'lowerRight', media: {src: 'rotation/rt29_rival.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'in AI accelerators,', highlights: ['accelerators,'], size: 52, pos: 'upperLeft', media: {src: 'rotation/rt30_accelerators.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'in AI accelerators,', highlights: ['accelerators,'], size: 52, pos: 'upperLeft', media: {src: 'rotation/rt30_accelerators.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'while Broadcom designs', highlights: ['Broadcom'], size: 52, pos: 'right', media: {src: 'rotation/rt31_designs.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'while Broadcom designs', highlights: ['Broadcom'], size: 52, pos: 'right', media: {src: 'rotation/rt31_designs.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'custom AI chips', highlights: ['custom'], size: 52, pos: 'upperRight', media: {src: 'rotation/rt32_customchips.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'custom AI chips', highlights: ['custom'], size: 52, pos: 'upperRight', media: {src: 'rotation/rt32_customchips.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'and networking technology', highlights: ['networking'], size: 52, pos: 'left', media: {src: 'rotation/rt33_networking.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'and networking technology', highlights: ['networking'], size: 52, pos: 'left', media: {src: 'rotation/rt33_networking.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'for major cloud companies.', highlights: ['cloud'], size: 50, pos: 'lowerLeft', media: {src: 'rotation/rt34_cloud.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'for major cloud companies.', highlights: ['cloud'], size: 50, pos: 'lowerLeft', media: {src: 'rotation/rt34_cloud.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'Alphabet is also expanding', highlights: ['Alphabet'], size: 50, pos: 'upper', media: {src: 'rotation/rt35_alphabet.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'Alphabet is also expanding', highlights: ['Alphabet'], size: 50, pos: 'upper', media: {src: 'rotation/rt35_alphabet.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'its own AI chip business', highlights: [], size: 46, pos: 'right', media: {src: 'rotation/rt36_chipbusiness.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'its own AI chip business', highlights: [], size: 46, pos: 'right', media: {src: 'rotation/rt36_chipbusiness.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'through its Tensor|Processing Units.', highlights: ['Tensor'], size: 48, pos: 'lowerRight', media: {src: 'rotation/rt37_tpu.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'through its Tensor|Processing Units.', highlights: ['Tensor'], size: 48, pos: 'lowerRight', media: {src: 'rotation/rt37_tpu.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'If customers begin reducing', highlights: ['reducing'], size: 50, pos: 'upperLeft', media: {src: 'rotation/rt38_reducing.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'If customers begin reducing', highlights: ['reducing'], size: 50, pos: 'upperLeft', media: {src: 'rotation/rt38_reducing.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'their dependence on Nvidia,', highlights: ['dependence'], size: 50, pos: 'left', media: {src: 'rotation/rt39_dependence.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'their dependence on Nvidia,', highlights: ['dependence'], size: 50, pos: 'left', media: {src: 'rotation/rt39_dependence.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'these competitors could', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'rotation/rt40_couldcapture.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'these competitors could', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'rotation/rt40_couldcapture.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'capture more business.', highlights: ['capture'], size: 52, pos: 'upperRight', media: {src: 'rotation/rt41_business.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'capture more business.', highlights: ['capture'], size: 52, pos: 'upperRight', media: {src: 'rotation/rt41_business.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'That could gradually reshape', highlights: ['reshape'], size: 50, pos: 'right', media: {src: 'rotation/rt42_reshape.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'That could gradually reshape', highlights: ['reshape'], size: 50, pos: 'right', media: {src: 'rotation/rt42_reshape.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'the AI hardware market.', highlights: ['hardware'], size: 50, pos: 'lowerLeft', media: {src: 'rotation/rt43_market.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'the AI hardware market.', highlights: ['hardware'], size: 50, pos: 'lowerLeft', media: {src: 'rotation/rt43_market.jpg', type: 'img', effect: 'in'}},
   // 44 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'But there’s|a catch.'},
+  {dur: 38, kind: 'impact', redBg: true, text: 'But there’s|a catch.'},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nvidia’s software ecosystem,', highlights: ['ecosystem,'], size: 52, pos: 'left', media: {src: 'rotation/rt45_ecosystem.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'Nvidia’s software ecosystem,', highlights: ['ecosystem,'], size: 52, pos: 'left', media: {src: 'rotation/rt45_ecosystem.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'hardware performance,', highlights: ['performance,'], size: 52, pos: 'upperRight', media: {src: 'rotation/rt46_performance.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'hardware performance,', highlights: ['performance,'], size: 52, pos: 'upperRight', media: {src: 'rotation/rt46_performance.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'and customer relationships', highlights: [], size: 52, pos: 'lower', media: {src: 'rotation/rt47_relationships.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'and customer relationships', highlights: [], size: 52, pos: 'lower', media: {src: 'rotation/rt47_relationships.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'are difficult to replace.', highlights: ['difficult'], size: 50, pos: 'right', media: {src: 'rotation/rt48_replace.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'are difficult to replace.', highlights: ['difficult'], size: 50, pos: 'right', media: {src: 'rotation/rt48_replace.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Switching suppliers|is expensive', highlights: ['expensive'], size: 50, pos: 'upperLeft', media: {src: 'rotation/rt49_switching.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'Switching suppliers|is expensive', highlights: ['expensive'], size: 50, pos: 'upperLeft', media: {src: 'rotation/rt49_switching.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'and takes time.', highlights: ['time.'], size: 52, pos: 'lowerRight', media: {src: 'rotation/rt50_time.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'and takes time.', highlights: ['time.'], size: 52, pos: 'lowerRight', media: {src: 'rotation/rt50_time.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'A leadership crisis', highlights: ['crisis'], size: 52, pos: 'left', media: {src: 'rotation/rt51_leadershipcrisis.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'A leadership crisis', highlights: ['crisis'], size: 52, pos: 'left', media: {src: 'rotation/rt51_leadershipcrisis.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'does not automatically mean', highlights: [], size: 50, pos: 'upperRight', media: {src: 'rotation/rt52_notautomatic.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'does not automatically mean', highlights: [], size: 50, pos: 'upperRight', media: {src: 'rotation/rt52_notautomatic.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'customers will|abandon Nvidia.', highlights: ['abandon'], size: 50, pos: 'right', media: {src: 'rotation/rt53_abandon.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'customers will|abandon Nvidia.', highlights: ['abandon'], size: 50, pos: 'right', media: {src: 'rotation/rt53_abandon.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2], text: 'Is this the beginning', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'rotation/rt54_beginning.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'Is this the beginning', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'rotation/rt54_beginning.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2], text: 'of a new opportunity', highlights: ['opportunity'], size: 50, pos: 'upperLeft', media: {src: 'rotation/rt55_opportunity.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'of a new opportunity', highlights: ['opportunity'], size: 50, pos: 'upperLeft', media: {src: 'rotation/rt55_opportunity.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 70, kind: 'text', reveal: [2], text: 'for AMD and Broadcom,', highlights: [], size: 50, pos: 'right', media: {src: 'rotation/rt56_foramd.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'for AMD and Broadcom,', highlights: [], size: 50, pos: 'right', media: {src: 'rotation/rt56_foramd.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 70, kind: 'text', reveal: [2], text: 'or will Nvidia remain', highlights: [], size: 50, pos: 'left', media: {src: 'rotation/rt57_remain.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'or will Nvidia remain', highlights: [], size: 50, pos: 'left', media: {src: 'rotation/rt57_remain.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 70, kind: 'text', reveal: [2], text: 'too powerful to challenge?', highlights: ['challenge?'], size: 50, pos: 'lowerRight', media: {src: 'rotation/rt58_challenge.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'too powerful to challenge?', highlights: ['challenge?'], size: 50, pos: 'lowerRight', media: {src: 'rotation/rt58_challenge.jpg', type: 'img', effect: 'in'}},
   // 59 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Which company|would you bet on?', highlights: ['bet'], size: 46, media: {src: 'rotation/rt59_beton.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Which company|would you bet on?', highlights: ['bet'], size: 46, media: {src: 'rotation/rt59_beton.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1354, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1526, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2343, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3054, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
