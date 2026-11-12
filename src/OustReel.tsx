@@ -113,137 +113,140 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'The man who|built Nvidia', kicker: 'The ouster', highlights: [], size: 52, media: {src: 'oust/ou00_builder.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'hook', reveal: [3, 40], text: 'The man who|built Nvidia', kicker: 'The ouster', highlights: [], size: 52, media: {src: 'oust/ou00_builder.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'into the world’s|AI chip powerhouse', highlights: ['powerhouse'], size: 44, pos: 'upperRight', media: {src: 'oust/ou01_powerhouse.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'into the world’s|AI chip powerhouse', highlights: ['powerhouse'], size: 44, pos: 'upperRight', media: {src: 'oust/ou01_powerhouse.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'could be facing', highlights: [], size: 52, pos: 'left', media: {src: 'oust/ou02_facing.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'could be facing', highlights: [], size: 52, pos: 'left', media: {src: 'oust/ou02_facing.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the biggest crisis|of his career.', highlights: ['crisis'], size: 44, pos: 'lowerRight', media: {src: 'oust/ou03_crisis.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'the biggest crisis|of his career.', highlights: ['crisis'], size: 44, pos: 'lowerRight', media: {src: 'oust/ou03_crisis.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'And now, his own board', highlights: ['board'], size: 46, pos: 'upperLeft', media: {src: 'oust/ou04_board.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'And now, his own board', highlights: ['board'], size: 46, pos: 'upperLeft', media: {src: 'oust/ou04_board.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'is reportedly considering', highlights: ['reportedly'], size: 52, pos: 'right', media: {src: 'oust/ou05_considering.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'is reportedly considering', highlights: ['reportedly'], size: 52, pos: 'right', media: {src: 'oust/ou05_considering.jpg', type: 'img', effect: 'in'}},
   // 6
   {dur: 70, kind: 'text', reveal: [2], text: 'removing him as CEO.', highlights: ['removing'], size: 50, pos: 'lower', media: {src: 'oust/ou06_removing.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'But this isn’t just', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'oust/ou07_notjust.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'But this isn’t just', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'oust/ou07_notjust.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'about personal controversy.', highlights: ['controversy.'], size: 52, pos: 'upperRight', media: {src: 'oust/ou08_personal.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'about personal controversy.', highlights: ['controversy.'], size: 52, pos: 'upperRight', media: {src: 'oust/ou08_personal.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The allegations have|raised questions', highlights: ['questions'], size: 48, pos: 'left', media: {src: 'oust/ou09_questions.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'The allegations have|raised questions', highlights: ['questions'], size: 48, pos: 'left', media: {src: 'oust/ou09_questions.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'about corporate leadership,', highlights: ['leadership,'], size: 52, pos: 'right', media: {src: 'oust/ou10_leadership.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'about corporate leadership,', highlights: ['leadership,'], size: 52, pos: 'right', media: {src: 'oust/ou10_leadership.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'national security,', highlights: ['security,'], size: 52, pos: 'upperLeft', media: {src: 'oust/ou11_natsec.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'national security,', highlights: ['security,'], size: 52, pos: 'upperLeft', media: {src: 'oust/ou11_natsec.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'and the future of one', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'oust/ou12_future.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'and the future of one', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'oust/ou12_future.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of the world’s most|valuable technology companies.', highlights: ['valuable'], size: 44, pos: 'upper', media: {src: 'oust/ou13_valuable.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'of the world’s most|valuable technology companies.', highlights: ['valuable'], size: 44, pos: 'upper', media: {src: 'oust/ou13_valuable.jpg', type: 'img', effect: 'in'}},
   // 14 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more breaking|technology and business news.', highlights: ['follow'], size: 44, pos: 'left', media: {src: 'oust/ou14_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2], text: 'Follow for more breaking|technology and business news.', highlights: ['follow'], size: 44, pos: 'left', media: {src: 'oust/ou14_follow.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'Jensen Huang co-founded', highlights: ['Jensen'], size: 52, pos: 'right', media: {src: 'oust/ou15_cofounded.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'Jensen Huang co-founded', highlights: ['Jensen'], size: 52, pos: 'right', media: {src: 'oust/ou15_cofounded.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nvidia in 1993', highlights: ['1993'], size: 52, pos: 'lowerLeft', media: {src: 'oust/ou16_1993.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2], text: 'Nvidia in 1993', highlights: ['1993'], size: 52, pos: 'lowerLeft', media: {src: 'oust/ou16_1993.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'and has led the company', highlights: [], size: 46, pos: 'upperRight', media: {src: 'oust/ou17_led.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'and has led the company', highlights: [], size: 46, pos: 'upperRight', media: {src: 'oust/ou17_led.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'through its transformation', highlights: ['transformation'], size: 52, pos: 'left', media: {src: 'oust/ou18_transform.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'through its transformation', highlights: ['transformation'], size: 52, pos: 'left', media: {src: 'oust/ou18_transform.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'from a graphics-chip maker', highlights: ['graphics-chip'], size: 50, pos: 'lowerRight', media: {src: 'oust/ou19_graphics.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'from a graphics-chip maker', highlights: ['graphics-chip'], size: 50, pos: 'lowerRight', media: {src: 'oust/ou19_graphics.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'into a central player', highlights: ['central'], size: 50, pos: 'upperLeft', media: {src: 'oust/ou20_central.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'into a central player', highlights: ['central'], size: 50, pos: 'upperLeft', media: {src: 'oust/ou20_central.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in the artificial|intelligence boom.', highlights: ['boom.'], size: 48, pos: 'right', media: {src: 'oust/ou21_aiboom.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'in the artificial|intelligence boom.', highlights: ['boom.'], size: 48, pos: 'right', media: {src: 'oust/ou21_aiboom.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'The controversy began', highlights: ['controversy'], size: 52, pos: 'lower', media: {src: 'oust/ou22_began.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'The controversy began', highlights: ['controversy'], size: 52, pos: 'lower', media: {src: 'oust/ou22_began.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'after reports linked Huang', highlights: ['linked'], size: 50, pos: 'upperRight', media: {src: 'oust/ou23_linked.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'after reports linked Huang', highlights: ['linked'], size: 50, pos: 'upperRight', media: {src: 'oust/ou23_linked.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'to Alice Huang,', highlights: ['Alice'], size: 52, pos: 'lowerLeft', media: {src: 'oust/ou24_alice.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'to Alice Huang,', highlights: ['Alice'], size: 52, pos: 'lowerLeft', media: {src: 'oust/ou24_alice.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'a former executive', highlights: [], size: 52, pos: 'left', media: {src: 'oust/ou25_exec.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'a former executive', highlights: [], size: 52, pos: 'left', media: {src: 'oust/ou25_exec.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'at Singapore-based Megaspeed,', highlights: ['Megaspeed,'], size: 52, pos: 'right', media: {src: 'oust/ou26_megaspeed.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'at Singapore-based Megaspeed,', highlights: ['Megaspeed,'], size: 52, pos: 'right', media: {src: 'oust/ou26_megaspeed.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'who U.S. intelligence officials', highlights: ['intelligence'], size: 50, pos: 'lowerRight', media: {src: 'oust/ou27_intel.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'who U.S. intelligence officials', highlights: ['intelligence'], size: 50, pos: 'lowerRight', media: {src: 'oust/ou27_intel.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'reportedly suspect|of acting as', highlights: ['suspect'], size: 48, pos: 'upperLeft', media: {src: 'oust/ou28_suspect.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'reportedly suspect|of acting as', highlights: ['suspect'], size: 48, pos: 'upperLeft', media: {src: 'oust/ou28_suspect.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a Chinese|intelligence asset.', highlights: ['Chinese'], size: 50, pos: 'right', media: {src: 'oust/ou29_asset.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'a Chinese|intelligence asset.', highlights: ['Chinese'], size: 50, pos: 'right', media: {src: 'oust/ou29_asset.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'Huang later acknowledged', highlights: ['acknowledged'], size: 52, pos: 'upperRight', media: {src: 'oust/ou30_acknowledged.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'Huang later acknowledged', highlights: ['acknowledged'], size: 52, pos: 'upperRight', media: {src: 'oust/ou30_acknowledged.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'being unfaithful|to his wife.', highlights: ['unfaithful'], size: 48, pos: 'left', media: {src: 'oust/ou31_unfaithful.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'being unfaithful|to his wife.', highlights: ['unfaithful'], size: 48, pos: 'left', media: {src: 'oust/ou31_unfaithful.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'Then came another report', highlights: ['another'], size: 50, pos: 'lowerLeft', media: {src: 'oust/ou32_anotherreport.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'Then came another report', highlights: ['another'], size: 50, pos: 'lowerLeft', media: {src: 'oust/ou32_anotherreport.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'alleging a relationship', highlights: ['relationship'], size: 52, pos: 'upper', media: {src: 'oust/ou33_relationship.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'alleging a relationship', highlights: ['relationship'], size: 52, pos: 'upper', media: {src: 'oust/ou33_relationship.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with Nvidia healthcare|executive Kimberly Powell,', highlights: ['Kimberly'], size: 44, pos: 'right', media: {src: 'oust/ou34_kimberly.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'with Nvidia healthcare|executive Kimberly Powell,', highlights: ['Kimberly'], size: 44, pos: 'right', media: {src: 'oust/ou34_kimberly.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'who reportedly|reports to him.', highlights: ['reports'], size: 48, pos: 'lowerRight', media: {src: 'oust/ou35_reportsto.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'who reportedly|reports to him.', highlights: ['reports'], size: 48, pos: 'lowerRight', media: {src: 'oust/ou35_reportsto.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'Following that report,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'oust/ou36_following.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Following that report,', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'oust/ou36_following.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'The Wall Street Journal said', highlights: ['Journal'], size: 46, pos: 'left', media: {src: 'oust/ou37_wsj.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'The Wall Street Journal said', highlights: ['Journal'], size: 46, pos: 'left', media: {src: 'oust/ou37_wsj.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Nvidia’s board|was preparing to meet', highlights: ['preparing'], size: 44, pos: 'lowerRight', media: {src: 'oust/ou38_meet.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Nvidia’s board|was preparing to meet', highlights: ['preparing'], size: 44, pos: 'lowerRight', media: {src: 'oust/ou38_meet.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to determine|Huang’s future.', highlights: ['future.'], size: 50, pos: 'upperRight', media: {src: 'oust/ou39_determine.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'to determine|Huang’s future.', highlights: ['future.'], size: 50, pos: 'upperRight', media: {src: 'oust/ou39_determine.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'Investors reacted immediately.', highlights: ['immediately.'], size: 52, pos: 'right', media: {src: 'oust/ou40_investors.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'Investors reacted immediately.', highlights: ['immediately.'], size: 52, pos: 'right', media: {src: 'oust/ou40_investors.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'Nvidia shares fell', highlights: ['fell'], size: 52, pos: 'lowerLeft', media: {src: 'oust/ou41_sharesfell.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Nvidia shares fell', highlights: ['fell'], size: 52, pos: 'lowerLeft', media: {src: 'oust/ou41_sharesfell.jpg', type: 'img', effect: 'in'}},
   // 42 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '-', value: 8, suffix: '%', post: 'AFTER HOURS'}, media: {src: 'oust/ou42_card8.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {prefix: '-', value: 8, suffix: '%', post: 'AFTER HOURS'}, media: {src: 'oust/ou42_card8.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'in after-hours trading.', highlights: [], size: 52, pos: 'left', media: {src: 'oust/ou43_afterhours.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'in after-hours trading.', highlights: [], size: 52, pos: 'left', media: {src: 'oust/ou43_afterhours.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The company is now|facing questions', highlights: ['questions'], size: 44, pos: 'upperRight', media: {src: 'oust/ou44_facingq.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'The company is now|facing questions', highlights: ['questions'], size: 44, pos: 'upperRight', media: {src: 'oust/ou44_facingq.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'about leadership continuity,', highlights: ['continuity,'], size: 52, pos: 'lower', media: {src: 'oust/ou45_continuity.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'about leadership continuity,', highlights: ['continuity,'], size: 52, pos: 'lower', media: {src: 'oust/ou45_continuity.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'especially because Huang', highlights: [], size: 52, pos: 'right', media: {src: 'oust/ou46_especially.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'especially because Huang', highlights: [], size: 52, pos: 'right', media: {src: 'oust/ou46_especially.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'has been at the helm', highlights: ['helm'], size: 46, pos: 'upperLeft', media: {src: 'oust/ou47_helm.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'has been at the helm', highlights: ['helm'], size: 46, pos: 'upperLeft', media: {src: 'oust/ou47_helm.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for more than|three decades.', highlights: ['three'], size: 48, pos: 'lowerRight', media: {src: 'oust/ou48_decades.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'for more than|three decades.', highlights: ['three'], size: 48, pos: 'lowerRight', media: {src: 'oust/ou48_decades.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Nvidia says an|independent investigation', highlights: ['independent'], size: 48, pos: 'left', media: {src: 'oust/ou49_probe.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'Nvidia says an|independent investigation', highlights: ['independent'], size: 48, pos: 'left', media: {src: 'oust/ou49_probe.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'is underway,', highlights: ['underway,'], size: 52, pos: 'upperRight', media: {src: 'oust/ou50_underway.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'is underway,', highlights: ['underway,'], size: 52, pos: 'upperRight', media: {src: 'oust/ou50_underway.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'but the board previously', highlights: [], size: 50, pos: 'right', media: {src: 'oust/ou51_previously.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'but the board previously', highlights: [], size: 50, pos: 'right', media: {src: 'oust/ou51_previously.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'stated it had no reason', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'oust/ou52_noreason.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'stated it had no reason', highlights: [], size: 46, pos: 'lowerLeft', media: {src: 'oust/ou52_noreason.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2], text: 'to believe company secrets', highlights: ['secrets'], size: 50, pos: 'upperLeft', media: {src: 'oust/ou53_secrets.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'to believe company secrets', highlights: ['secrets'], size: 50, pos: 'upperLeft', media: {src: 'oust/ou53_secrets.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2], text: 'or national security', highlights: ['national'], size: 52, pos: 'right', media: {src: 'oust/ou54_natsec2.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'or national security', highlights: ['national'], size: 52, pos: 'right', media: {src: 'oust/ou54_natsec2.jpg', type: 'img', effect: 'in'}},
   // 55 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Had been|compromised.'},
+  {dur: 39, kind: 'impact', redBg: true, text: 'Had been|compromised.'},
   // 56
-  {dur: 70, kind: 'text', reveal: [2], text: 'China has also rejected', highlights: ['rejected'], size: 50, pos: 'left', media: {src: 'oust/ou56_rejected.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'China has also rejected', highlights: ['rejected'], size: 50, pos: 'left', media: {src: 'oust/ou56_rejected.jpg', type: 'img', effect: 'in'}},
   // 57
-  {dur: 70, kind: 'text', reveal: [2], text: 'the espionage allegations.', highlights: ['espionage'], size: 52, pos: 'lowerRight', media: {src: 'oust/ou57_espionage.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'the espionage allegations.', highlights: ['espionage'], size: 52, pos: 'lowerRight', media: {src: 'oust/ou57_espionage.jpg', type: 'img', effect: 'in'}},
   // 58
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'If Nvidia loses|Jensen Huang,', highlights: ['loses'], size: 48, pos: 'upperRight', media: {src: 'oust/ou58_loses.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'If Nvidia loses|Jensen Huang,', highlights: ['loses'], size: 48, pos: 'upperRight', media: {src: 'oust/ou58_loses.jpg', type: 'img', effect: 'in'}},
   // 59
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could the company|maintain its momentum', highlights: ['momentum'], size: 44, pos: 'left', media: {src: 'oust/ou59_momentum.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'could the company|maintain its momentum', highlights: ['momentum'], size: 44, pos: 'left', media: {src: 'oust/ou59_momentum.jpg', type: 'img', effect: 'in'}},
   // 60
-  {dur: 70, kind: 'text', reveal: [2], text: 'in the AI race?', highlights: ['race?'], size: 50, pos: 'lowerRight', media: {src: 'oust/ou60_airace.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'in the AI race?', highlights: ['race?'], size: 50, pos: 'lowerRight', media: {src: 'oust/ou60_airace.jpg', type: 'img', effect: 'in'}},
   // 61
-  {dur: 70, kind: 'text', reveal: [2], text: 'Or has its success', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'oust/ou61_success.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'Or has its success', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'oust/ou61_success.jpg', type: 'img', effect: 'in'}},
   // 62 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'become too closely tied|to one person?', highlights: ['person?'], size: 46, media: {src: 'oust/ou62_oneperson.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'become too closely tied|to one person?', highlights: ['person?'], size: 46, media: {src: 'oust/ou62_oneperson.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2293, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2896, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3257, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
