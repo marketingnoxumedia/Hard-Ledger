@@ -107,123 +107,128 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Worried that artificial intelligence|could take your job?', kicker: 'The reinvention', highlights: [], size: 48, media: {src: 'reinvent/rv00_worried.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'hook', reveal: [3, 40], text: 'Worried that artificial intelligence|could take your job?', kicker: 'The reinvention', highlights: [], size: 48, media: {src: 'reinvent/rv00_worried.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'Tony Robbins says', highlights: ['Robbins'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv01_robbins.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'Tony Robbins says', highlights: ['Robbins'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv01_robbins.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'waiting until you’re replaced', highlights: ['replaced'], size: 50, pos: 'left', media: {src: 'reinvent/rv02_replaced.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'waiting until you’re replaced', highlights: ['replaced'], size: 50, pos: 'left', media: {src: 'reinvent/rv02_replaced.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'could be your biggest mistake.', highlights: ['mistake.'], size: 46, pos: 'lowerRight', media: {src: 'reinvent/rv03_mistake.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'could be your biggest mistake.', highlights: ['mistake.'], size: 46, pos: 'lowerRight', media: {src: 'reinvent/rv03_mistake.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'His advice isn’t to fight AI', highlights: ['fight'], size: 42, pos: 'upperLeft', media: {src: 'reinvent/rv04_fight.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'His advice isn’t to fight AI', highlights: ['fight'], size: 42, pos: 'upperLeft', media: {src: 'reinvent/rv04_fight.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'or hope it disappears.', highlights: ['disappears.'], size: 50, pos: 'right', media: {src: 'reinvent/rv05_disappears.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'or hope it disappears.', highlights: ['disappears.'], size: 50, pos: 'right', media: {src: 'reinvent/rv05_disappears.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'It’s to figure out', highlights: [], size: 50, pos: 'lower', media: {src: 'reinvent/rv06_figureout.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'It’s to figure out', highlights: [], size: 50, pos: 'lower', media: {src: 'reinvent/rv06_figureout.jpg', type: 'img', effect: 'in'}},
   // 7
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'whether your job|is becoming obsolete,', highlights: ['obsolete,'], size: 44, pos: 'lowerLeft', media: {src: 'reinvent/rv07_obsolete.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'or whether learning AI', highlights: ['learning'], size: 50, pos: 'upperRight', media: {src: 'reinvent/rv08_learning.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'or whether learning AI', highlights: ['learning'], size: 50, pos: 'upperRight', media: {src: 'reinvent/rv08_learning.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could actually make you|more valuable.', highlights: ['valuable.'], size: 44, pos: 'left', media: {src: 'reinvent/rv09_valuable.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'could actually make you|more valuable.', highlights: ['valuable.'], size: 44, pos: 'left', media: {src: 'reinvent/rv09_valuable.jpg', type: 'img', effect: 'in'}},
   // 10 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more business,|technology, and career news.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'reinvent/rv10_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 120, kind: 'text', reveal: [2], text: 'Follow for more business,|technology, and career news.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'reinvent/rv10_follow.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'In an interview|with Yahoo Finance,', highlights: ['Yahoo'], size: 44, pos: 'upperLeft', media: {src: 'reinvent/rv11_yahoo.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'In an interview|with Yahoo Finance,', highlights: ['Yahoo'], size: 44, pos: 'upperLeft', media: {src: 'reinvent/rv11_yahoo.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'Robbins warned that', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'reinvent/rv12_warned.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Robbins warned that', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'reinvent/rv12_warned.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'AI-driven job disruption', highlights: ['disruption'], size: 52, pos: 'upper', media: {src: 'reinvent/rv13_disruption.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'AI-driven job disruption', highlights: ['disruption'], size: 52, pos: 'upper', media: {src: 'reinvent/rv13_disruption.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could become|a much bigger issue', highlights: ['bigger'], size: 44, pos: 'left', media: {src: 'reinvent/rv14_bigger.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'could become|a much bigger issue', highlights: ['bigger'], size: 44, pos: 'left', media: {src: 'reinvent/rv14_bigger.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'over the next', highlights: [], size: 52, pos: 'right', media: {src: 'reinvent/rv15_overnext.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'over the next', highlights: [], size: 52, pos: 'right', media: {src: 'reinvent/rv15_overnext.jpg', type: 'img', effect: 'in'}},
   // 16 CARD
-  {dur: 70, kind: 'stat', stat: {value: 24, post: 'MONTHS'}, media: {src: 'reinvent/rv16_card24.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {value: 24, post: 'MONTHS'}, media: {src: 'reinvent/rv16_card24.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'He says workers need', highlights: ['workers'], size: 50, pos: 'lowerLeft', media: {src: 'reinvent/rv17_workers.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'He says workers need', highlights: ['workers'], size: 50, pos: 'lowerLeft', media: {src: 'reinvent/rv17_workers.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'to take an honest look', highlights: ['honest'], size: 46, pos: 'upperRight', media: {src: 'reinvent/rv18_honest.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'to take an honest look', highlights: ['honest'], size: 46, pos: 'upperRight', media: {src: 'reinvent/rv18_honest.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'at their careers.', highlights: [], size: 52, pos: 'left', media: {src: 'reinvent/rv19_careers.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'at their careers.', highlights: [], size: 52, pos: 'left', media: {src: 'reinvent/rv19_careers.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'If AI can perform', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'reinvent/rv20_perform.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'If AI can perform', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'reinvent/rv20_perform.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'most of their work,', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'reinvent/rv21_mostwork.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'most of their work,', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'reinvent/rv21_mostwork.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'they should start retraining now.', highlights: ['retraining'], size: 46, pos: 'right', media: {src: 'reinvent/rv22_retrain.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'they should start retraining now.', highlights: ['retraining'], size: 46, pos: 'right', media: {src: 'reinvent/rv22_retrain.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'But if AI can make them', highlights: [], size: 42, pos: 'lower', media: {src: 'reinvent/rv23_makethem.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'But if AI can make them', highlights: [], size: 42, pos: 'lower', media: {src: 'reinvent/rv23_makethem.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'more productive,', highlights: ['productive,'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv24_productive.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'more productive,', highlights: ['productive,'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv24_productive.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'learning to use it', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'reinvent/rv25_usingit.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'learning to use it', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'reinvent/rv25_usingit.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'could create new opportunities.', highlights: ['opportunities.'], size: 50, pos: 'left', media: {src: 'reinvent/rv26_opportunities.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'could create new opportunities.', highlights: ['opportunities.'], size: 50, pos: 'left', media: {src: 'reinvent/rv26_opportunities.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Robbins pointed to|software engineering', highlights: ['software'], size: 48, pos: 'right', media: {src: 'reinvent/rv27_software.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'Robbins pointed to|software engineering', highlights: ['software'], size: 48, pos: 'right', media: {src: 'reinvent/rv27_software.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'as an example,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'reinvent/rv28_example.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'as an example,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'reinvent/rv28_example.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'arguing that developers', highlights: ['developers'], size: 52, pos: 'upperLeft', media: {src: 'reinvent/rv29_developers.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'arguing that developers', highlights: ['developers'], size: 52, pos: 'upperLeft', media: {src: 'reinvent/rv29_developers.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'need to adapt toward', highlights: ['adapt'], size: 50, pos: 'right', media: {src: 'reinvent/rv30_adapt.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'need to adapt toward', highlights: ['adapt'], size: 50, pos: 'right', media: {src: 'reinvent/rv30_adapt.jpg', type: 'img', effect: 'in'}},
   // 31
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'AI engineering|and cybersecurity.', highlights: ['cybersecurity.'], size: 50, pos: 'upperRight', media: {src: 'reinvent/rv31_cybersecurity.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'He also highlighted|skilled trades,', highlights: ['skilled'], size: 48, pos: 'left', media: {src: 'reinvent/rv32_trades.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'He also highlighted|skilled trades,', highlights: ['skilled'], size: 48, pos: 'left', media: {src: 'reinvent/rv32_trades.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'including electricians,', highlights: ['electricians,'], size: 52, pos: 'lowerLeft', media: {src: 'reinvent/rv33_electricians.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'including electricians,', highlights: ['electricians,'], size: 52, pos: 'lowerLeft', media: {src: 'reinvent/rv33_electricians.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'and healthcare careers', highlights: ['healthcare'], size: 52, pos: 'upper', media: {src: 'reinvent/rv34_healthcare.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'and healthcare careers', highlights: ['healthcare'], size: 52, pos: 'upper', media: {src: 'reinvent/rv34_healthcare.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'such as nursing.', highlights: ['nursing.'], size: 52, pos: 'right', media: {src: 'reinvent/rv35_nursing.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'such as nursing.', highlights: ['nursing.'], size: 52, pos: 'right', media: {src: 'reinvent/rv35_nursing.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And this isn’t just|motivational advice.', highlights: ['motivational'], size: 44, pos: 'lowerRight', media: {src: 'reinvent/rv36_motivational.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'And this isn’t just|motivational advice.', highlights: ['motivational'], size: 44, pos: 'lowerRight', media: {src: 'reinvent/rv36_motivational.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'Gartner recently projected', highlights: ['Gartner'], size: 52, pos: 'upperLeft', media: {src: 'reinvent/rv37_gartner.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'Gartner recently projected', highlights: ['Gartner'], size: 52, pos: 'upperLeft', media: {src: 'reinvent/rv37_gartner.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'that AI could create', highlights: [], size: 50, pos: 'left', media: {src: 'reinvent/rv38_couldcreate.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'that AI could create', highlights: [], size: 50, pos: 'left', media: {src: 'reinvent/rv38_couldcreate.jpg', type: 'img', effect: 'in'}},
   // 39 CARD
-  {dur: 70, kind: 'stat', stat: {value: 10.6, decimals: 1, suffix: 'M', post: 'JOBS CREATED'}, media: {src: 'reinvent/rv39_card106.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'stat', stat: {value: 10.6, decimals: 1, suffix: 'M', post: 'JOBS CREATED'}, media: {src: 'reinvent/rv39_card106.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'while eliminating', highlights: ['eliminating'], size: 52, pos: 'lowerRight', media: {src: 'reinvent/rv40_eliminating.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'while eliminating', highlights: ['eliminating'], size: 52, pos: 'lowerRight', media: {src: 'reinvent/rv40_eliminating.jpg', type: 'img', effect: 'in'}},
   // 41 CARD
-  {dur: 70, kind: 'stat', stat: {value: 8.9, decimals: 1, suffix: 'M', post: 'JOBS ELIMINATED'}, media: {src: 'reinvent/rv41_card89.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {value: 8.9, decimals: 1, suffix: 'M', post: 'JOBS ELIMINATED'}, media: {src: 'reinvent/rv41_card89.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'worldwide by 2030.', highlights: ['2030.'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv42_by2030.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'worldwide by 2030.', highlights: ['2030.'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv42_by2030.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'Millions more workers', highlights: ['Millions'], size: 52, pos: 'right', media: {src: 'reinvent/rv43_millions.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'Millions more workers', highlights: ['Millions'], size: 52, pos: 'right', media: {src: 'reinvent/rv43_millions.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'may see their|existing roles transformed.', highlights: ['transformed.'], size: 44, pos: 'lowerLeft', media: {src: 'reinvent/rv44_transformed.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'may see their|existing roles transformed.', highlights: ['transformed.'], size: 44, pos: 'lowerLeft', media: {src: 'reinvent/rv44_transformed.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'But there’s a bigger question:', highlights: ['question:'], size: 46, pos: 'left', media: {src: 'reinvent/rv45_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'But there’s a bigger question:', highlights: ['question:'], size: 46, pos: 'left', media: {src: 'reinvent/rv45_question.jpg', type: 'img', effect: 'in'}},
   // 46 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Who should|pay for this?'},
+  {dur: 57, kind: 'impact', redBg: true, text: 'Who should|pay for this?'},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'Robbins argues companies', highlights: ['companies'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv47_companies.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'Robbins argues companies', highlights: ['companies'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv47_companies.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'and governments may need', highlights: ['governments'], size: 50, pos: 'lower', media: {src: 'reinvent/rv48_governments.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'and governments may need', highlights: ['governments'], size: 50, pos: 'lower', media: {src: 'reinvent/rv48_governments.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'to help workers retrain', highlights: ['retrain'], size: 50, pos: 'right', media: {src: 'reinvent/rv49_helpretrain.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'to help workers retrain', highlights: ['retrain'], size: 50, pos: 'right', media: {src: 'reinvent/rv49_helpretrain.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'instead of simply|laying them off.', highlights: ['laying'], size: 44, pos: 'upperLeft', media: {src: 'reinvent/rv50_layoff.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'instead of simply|laying them off.', highlights: ['laying'], size: 44, pos: 'upperLeft', media: {src: 'reinvent/rv50_layoff.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'If AI changed|your industry tomorrow,', highlights: ['tomorrow,'], size: 44, pos: 'lowerRight', media: {src: 'reinvent/rv51_tomorrow.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'If AI changed|your industry tomorrow,', highlights: ['tomorrow,'], size: 44, pos: 'lowerRight', media: {src: 'reinvent/rv51_tomorrow.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'would you learn to work', highlights: [], size: 46, pos: 'left', media: {src: 'reinvent/rv52_learntowork.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'would you learn to work', highlights: [], size: 46, pos: 'left', media: {src: 'reinvent/rv52_learntowork.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2], text: 'alongside it,', highlights: ['alongside'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv53_alongside.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'alongside it,', highlights: ['alongside'], size: 52, pos: 'upperRight', media: {src: 'reinvent/rv53_alongside.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2], text: 'or start building', highlights: [], size: 52, pos: 'right', media: {src: 'reinvent/rv54_building.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'or start building', highlights: [], size: 52, pos: 'right', media: {src: 'reinvent/rv54_building.jpg', type: 'img', effect: 'in'}},
   // 55 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'an entirely new career?', highlights: ['career?'], size: 52, media: {src: 'reinvent/rv55_newcareer.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'an entirely new career?', highlights: ['career?'], size: 52, media: {src: 'reinvent/rv55_newcareer.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 955, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2016, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2108, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2365, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2788, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
