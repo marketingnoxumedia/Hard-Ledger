@@ -209,6 +209,7 @@ import {TourReel, DURATION_IN_FRAMES as TOUR_FRAMES} from './TourReel';
 import {CrwvReel, DURATION_IN_FRAMES as CRWV_FRAMES} from './CrwvReel';
 import {OustReel, DURATION_IN_FRAMES as OUST_FRAMES} from './OustReel';
 import {RotationReel, DURATION_IN_FRAMES as ROTATION_FRAMES} from './RotationReel';
+import {ReinventReel, DURATION_IN_FRAMES as REINVENT_FRAMES} from './ReinventReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1890,6 +1891,14 @@ export const RemotionRoot: React.FC = () => {
         id="RotationReel"
         component={RotationReel}
         durationInFrames={ROTATION_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="ReinventReel"
+        component={ReinventReel}
+        durationInFrames={REINVENT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
