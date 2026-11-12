@@ -207,6 +207,7 @@ import {GtaReel, DURATION_IN_FRAMES as GTA_FRAMES} from './GtaReel';
 import {DoomReel, DURATION_IN_FRAMES as DOOM_FRAMES} from './DoomReel';
 import {TourReel, DURATION_IN_FRAMES as TOUR_FRAMES} from './TourReel';
 import {CrwvReel, DURATION_IN_FRAMES as CRWV_FRAMES} from './CrwvReel';
+import {OustReel, DURATION_IN_FRAMES as OUST_FRAMES} from './OustReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1872,6 +1873,14 @@ export const RemotionRoot: React.FC = () => {
         id="CrwvReel"
         component={CrwvReel}
         durationInFrames={CRWV_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="OustReel"
+        component={OustReel}
+        durationInFrames={OUST_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
