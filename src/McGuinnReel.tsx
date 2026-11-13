@@ -111,119 +111,124 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Country music|has lost', kicker: 'The tribute', highlights: [], size: 54, media: {src: 'mcguinn/mg00_haslost.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'hook', reveal: [3, 40], text: 'Country music|has lost', kicker: 'The tribute', highlights: [], size: 54, media: {src: 'mcguinn/mg00_haslost.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a singer-songwriter|whose biggest hit', highlights: ['biggest'], size: 48, pos: 'upperRight', media: {src: 'mcguinn/mg01_songwriter.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'a singer-songwriter|whose biggest hit', highlights: ['biggest'], size: 48, pos: 'upperRight', media: {src: 'mcguinn/mg01_songwriter.jpg', type: 'img', effect: 'in'}},
   // 2
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'became one of the|memorable songs', highlights: ['memorable'], size: 44, pos: 'left', media: {src: 'mcguinn/mg02_memorable.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'of the early 2000s.', highlights: ['2000s.'], size: 50, pos: 'lowerRight', media: {src: 'mcguinn/mg03_early2000s.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'of the early 2000s.', highlights: ['2000s.'], size: 50, pos: 'lowerRight', media: {src: 'mcguinn/mg03_early2000s.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'Mark McGuinn has died', highlights: ['McGuinn'], size: 50, pos: 'upperLeft', media: {src: 'mcguinn/mg04_died.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'Mark McGuinn has died', highlights: ['McGuinn'], size: 50, pos: 'upperLeft', media: {src: 'mcguinn/mg04_died.jpg', type: 'img', effect: 'in'}},
   // 5 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'AT JUST', value: 58, post: 'YEARS OLD'}, media: {src: 'mcguinn/mg05_card58.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'stat', stat: {pre: 'AT JUST', value: 58, post: 'YEARS OLD'}, media: {src: 'mcguinn/mg05_card58.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But what makes|his story unusual', highlights: ['unusual'], size: 44, pos: 'right', media: {src: 'mcguinn/mg06_unusual.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'But what makes|his story unusual', highlights: ['unusual'], size: 44, pos: 'right', media: {src: 'mcguinn/mg06_unusual.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'is that his breakthrough', highlights: ['breakthrough'], size: 50, pos: 'lower', media: {src: 'mcguinn/mg07_breakthrough.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'is that his breakthrough', highlights: ['breakthrough'], size: 50, pos: 'lower', media: {src: 'mcguinn/mg07_breakthrough.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'almost happened by accident,', highlights: ['accident,'], size: 50, pos: 'lowerLeft', media: {src: 'mcguinn/mg08_accident.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'almost happened by accident,', highlights: ['accident,'], size: 50, pos: 'lowerLeft', media: {src: 'mcguinn/mg08_accident.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'and his influence', highlights: ['influence'], size: 52, pos: 'upperRight', media: {src: 'mcguinn/mg09_influence.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'and his influence', highlights: ['influence'], size: 52, pos: 'upperRight', media: {src: 'mcguinn/mg09_influence.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'went far beyond|his own recordings.', highlights: ['beyond'], size: 44, pos: 'left', media: {src: 'mcguinn/mg10_recordings.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'went far beyond|his own recordings.', highlights: ['beyond'], size: 44, pos: 'left', media: {src: 'mcguinn/mg10_recordings.jpg', type: 'img', effect: 'in'}},
   // 11 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more entertainment|and music news.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'mcguinn/mg11_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2], text: 'Follow for more entertainment|and music news.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'mcguinn/mg11_follow.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'McGuinn was born|in Greensboro,', highlights: ['Greensboro,'], size: 48, pos: 'upperLeft', media: {src: 'mcguinn/mg12_greensboro.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'McGuinn was born|in Greensboro,', highlights: ['Greensboro,'], size: 48, pos: 'upperLeft', media: {src: 'mcguinn/mg12_greensboro.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'North Carolina,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'mcguinn/mg13_ncarolina.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'North Carolina,', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'mcguinn/mg13_ncarolina.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'and originally pursued', highlights: ['originally'], size: 52, pos: 'upper', media: {src: 'mcguinn/mg14_pursued.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'and originally pursued', highlights: ['originally'], size: 52, pos: 'upper', media: {src: 'mcguinn/mg14_pursued.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'professional soccer.', highlights: ['soccer.'], size: 52, pos: 'left', media: {src: 'mcguinn/mg15_soccer.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'professional soccer.', highlights: ['soccer.'], size: 52, pos: 'left', media: {src: 'mcguinn/mg15_soccer.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'After a knee injury', highlights: ['knee'], size: 50, pos: 'right', media: {src: 'mcguinn/mg16_knee.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'After a knee injury', highlights: ['knee'], size: 50, pos: 'right', media: {src: 'mcguinn/mg16_knee.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'ended that dream,', highlights: ['dream,'], size: 52, pos: 'lowerLeft', media: {src: 'mcguinn/mg17_dream.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'ended that dream,', highlights: ['dream,'], size: 52, pos: 'lowerLeft', media: {src: 'mcguinn/mg17_dream.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'he moved to Nashville', highlights: ['Nashville'], size: 50, pos: 'upperRight', media: {src: 'mcguinn/mg18_nashville.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'he moved to Nashville', highlights: ['Nashville'], size: 50, pos: 'upperRight', media: {src: 'mcguinn/mg18_nashville.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'in 1994', highlights: ['1994'], size: 52, pos: 'left', media: {src: 'mcguinn/mg19_1994.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'in 1994', highlights: ['1994'], size: 52, pos: 'left', media: {src: 'mcguinn/mg19_1994.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'to focus on songwriting.', highlights: ['songwriting.'], size: 50, pos: 'lowerRight', media: {src: 'mcguinn/mg20_songwriting.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'to focus on songwriting.', highlights: ['songwriting.'], size: 50, pos: 'lowerRight', media: {src: 'mcguinn/mg20_songwriting.jpg', type: 'img', effect: 'in'}},
   // 21
   {dur: 70, kind: 'text', reveal: [2], text: 'His breakthrough came in 2001', highlights: ['2001'], size: 46, pos: 'upperLeft', media: {src: 'mcguinn/mg21_2001.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'with Mrs. Steven Rudy.', highlights: ['Rudy.'], size: 50, pos: 'right', media: {src: 'mcguinn/mg22_rudy.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'with Mrs. Steven Rudy.', highlights: ['Rudy.'], size: 50, pos: 'right', media: {src: 'mcguinn/mg22_rudy.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'The song reached', highlights: [], size: 52, pos: 'lower', media: {src: 'mcguinn/mg23_reached.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'The song reached', highlights: [], size: 52, pos: 'lower', media: {src: 'mcguinn/mg23_reached.jpg', type: 'img', effect: 'in'}},
   // 24 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'REACHED No.', value: 6, post: 'BILLBOARD COUNTRY'}, media: {src: 'mcguinn/mg24_card6.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'REACHED No.', value: 6, post: 'BILLBOARD COUNTRY'}, media: {src: 'mcguinn/mg24_card6.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'on Billboard’s country chart', highlights: ['Billboard’s'], size: 50, pos: 'upperRight', media: {src: 'mcguinn/mg25_billboard.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'on Billboard’s country chart', highlights: ['Billboard’s'], size: 50, pos: 'upperRight', media: {src: 'mcguinn/mg25_billboard.jpg', type: 'img', effect: 'in'}},
   // 26 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'AND No.', value: 44, post: 'HOT 100'}, media: {src: 'mcguinn/mg26_card44.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'stat', stat: {pre: 'AND No.', value: 44, post: 'HOT 100'}, media: {src: 'mcguinn/mg26_card44.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'on the all-genre Hot 100.', highlights: ['Hot'], size: 46, pos: 'lowerLeft', media: {src: 'mcguinn/mg27_hot100.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'on the all-genre Hot 100.', highlights: ['Hot'], size: 46, pos: 'lowerLeft', media: {src: 'mcguinn/mg27_hot100.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'But McGuinn wasn’t just', highlights: [], size: 50, pos: 'left', media: {src: 'mcguinn/mg28_wasntjust.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'But McGuinn wasn’t just', highlights: [], size: 50, pos: 'left', media: {src: 'mcguinn/mg28_wasntjust.jpg', type: 'img', effect: 'in'}},
   // 29 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'More than|one hit.'},
+  {dur: 38, kind: 'impact', redBg: true, text: 'More than|one hit.'},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'He co-wrote|Unusually Unusual,', highlights: ['co-wrote'], size: 50, pos: 'right', media: {src: 'mcguinn/mg30_cowrote.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'He co-wrote|Unusually Unusual,', highlights: ['co-wrote'], size: 50, pos: 'right', media: {src: 'mcguinn/mg30_cowrote.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'recorded by Lonestar,', highlights: ['Lonestar,'], size: 52, pos: 'lowerRight', media: {src: 'mcguinn/mg31_lonestar.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'recorded by Lonestar,', highlights: ['Lonestar,'], size: 52, pos: 'lowerRight', media: {src: 'mcguinn/mg31_lonestar.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'and You and Me and Time,', highlights: [], size: 42, pos: 'upperLeft', media: {src: 'mcguinn/mg32_youandme.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2], text: 'and You and Me and Time,', highlights: [], size: 42, pos: 'upperLeft', media: {src: 'mcguinn/mg32_youandme.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'recorded by country legend', highlights: ['legend'], size: 50, pos: 'right', media: {src: 'mcguinn/mg33_legend.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'recorded by country legend', highlights: ['legend'], size: 50, pos: 'right', media: {src: 'mcguinn/mg33_legend.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'George Jones.', highlights: ['Jones.'], size: 52, pos: 'upperRight', media: {src: 'mcguinn/mg34_georgejones.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'George Jones.', highlights: ['Jones.'], size: 52, pos: 'upperRight', media: {src: 'mcguinn/mg34_georgejones.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'He eventually stepped away', highlights: ['stepped'], size: 50, pos: 'left', media: {src: 'mcguinn/mg35_steppedaway.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'He eventually stepped away', highlights: ['stepped'], size: 50, pos: 'left', media: {src: 'mcguinn/mg35_steppedaway.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'from the national spotlight', highlights: ['spotlight'], size: 50, pos: 'lowerLeft', media: {src: 'mcguinn/mg36_spotlight.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'from the national spotlight', highlights: ['spotlight'], size: 50, pos: 'lowerLeft', media: {src: 'mcguinn/mg36_spotlight.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'to focus on his family.', highlights: ['family.'], size: 46, pos: 'upper', media: {src: 'mcguinn/mg37_family.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'to focus on his family.', highlights: ['family.'], size: 46, pos: 'upper', media: {src: 'mcguinn/mg37_family.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'His second album,', highlights: [], size: 52, pos: 'right', media: {src: 'mcguinn/mg38_secondalbum.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'His second album,', highlights: [], size: 52, pos: 'right', media: {src: 'mcguinn/mg38_secondalbum.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'One Man’s Crazy,|arrived in 2006,', highlights: ['2006,'], size: 44, pos: 'lowerRight', media: {src: 'mcguinn/mg39_2006.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'One Man’s Crazy,|arrived in 2006,', highlights: ['2006,'], size: 44, pos: 'lowerRight', media: {src: 'mcguinn/mg39_2006.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'but his early hit', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'mcguinn/mg40_earlyhit.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'but his early hit', highlights: [], size: 50, pos: 'upperLeft', media: {src: 'mcguinn/mg40_earlyhit.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'continued to define his place', highlights: ['define'], size: 46, pos: 'left', media: {src: 'mcguinn/mg41_define.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'continued to define his place', highlights: ['define'], size: 46, pos: 'left', media: {src: 'mcguinn/mg41_define.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'in country music.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'mcguinn/mg42_countrymusic.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'in country music.', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'mcguinn/mg42_countrymusic.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'His death was reported|in November,', highlights: ['November,'], size: 44, pos: 'upperRight', media: {src: 'mcguinn/mg43_november.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'His death was reported|in November,', highlights: ['November,'], size: 44, pos: 'upperRight', media: {src: 'mcguinn/mg43_november.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'but his obituary says', highlights: ['obituary'], size: 50, pos: 'right', media: {src: 'mcguinn/mg44_obituary.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'but his obituary says', highlights: ['obituary'], size: 50, pos: 'right', media: {src: 'mcguinn/mg44_obituary.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'he actually passed away', highlights: ['passed'], size: 50, pos: 'lowerLeft', media: {src: 'mcguinn/mg45_passed.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'he actually passed away', highlights: ['passed'], size: 50, pos: 'lowerLeft', media: {src: 'mcguinn/mg45_passed.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on October 26|in Greensboro.', highlights: ['October'], size: 48, pos: 'left', media: {src: 'mcguinn/mg46_october26.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'on October 26|in Greensboro.', highlights: ['October'], size: 48, pos: 'left', media: {src: 'mcguinn/mg46_october26.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'His family has not', highlights: [], size: 50, pos: 'upperRight', media: {src: 'mcguinn/mg47_familynot.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'His family has not', highlights: [], size: 50, pos: 'upperRight', media: {src: 'mcguinn/mg47_familynot.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'publicly disclosed|the cause of death.', highlights: ['cause'], size: 44, pos: 'lower', media: {src: 'mcguinn/mg48_cause.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'publicly disclosed|the cause of death.', highlights: ['cause'], size: 44, pos: 'lower', media: {src: 'mcguinn/mg48_cause.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Do you remember|Mrs. Steven Rudy?', highlights: ['remember'], size: 44, pos: 'right', media: {src: 'mcguinn/mg49_remember.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Do you remember|Mrs. Steven Rudy?', highlights: ['remember'], size: 44, pos: 'right', media: {src: 'mcguinn/mg49_remember.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'And which country artist', highlights: ['artist'], size: 50, pos: 'upperLeft', media: {src: 'mcguinn/mg50_artist.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'And which country artist', highlights: ['artist'], size: 50, pos: 'upperLeft', media: {src: 'mcguinn/mg50_artist.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'from the 2000s', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'mcguinn/mg51_from2000s.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'from the 2000s', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'mcguinn/mg51_from2000s.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'do you think deserves', highlights: ['deserves'], size: 50, pos: 'left', media: {src: 'mcguinn/mg52_deserves.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'do you think deserves', highlights: ['deserves'], size: 50, pos: 'left', media: {src: 'mcguinn/mg52_deserves.jpg', type: 'img', effect: 'in'}},
   // 53 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'more recognition today?', highlights: ['recognition'], size: 54, media: {src: 'mcguinn/mg53_recognition.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'more recognition today?', highlights: ['recognition'], size: 54, media: {src: 'mcguinn/mg53_recognition.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 285, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1153, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1219, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1355, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2545, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
