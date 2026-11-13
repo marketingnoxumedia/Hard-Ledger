@@ -210,6 +210,7 @@ import {CrwvReel, DURATION_IN_FRAMES as CRWV_FRAMES} from './CrwvReel';
 import {OustReel, DURATION_IN_FRAMES as OUST_FRAMES} from './OustReel';
 import {RotationReel, DURATION_IN_FRAMES as ROTATION_FRAMES} from './RotationReel';
 import {ReinventReel, DURATION_IN_FRAMES as REINVENT_FRAMES} from './ReinventReel';
+import {OutageReel, DURATION_IN_FRAMES as OUTAGE_FRAMES} from './OutageReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1899,6 +1900,14 @@ export const RemotionRoot: React.FC = () => {
         id="ReinventReel"
         component={ReinventReel}
         durationInFrames={REINVENT_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="OutageReel"
+        component={OutageReel}
+        durationInFrames={OUTAGE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
