@@ -110,119 +110,123 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Wall Street is betting', kicker: 'The target', highlights: [], size: 54, media: {src: 'target/tg00_betting.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'hook', reveal: [3, 40], text: 'Wall Street is betting', kicker: 'The target', highlights: [], size: 54, media: {src: 'target/tg00_betting.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the stock market has|more room to run.', highlights: ['room'], size: 44, pos: 'upperRight', media: {src: 'target/tg01_room.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'the stock market has|more room to run.', highlights: ['room'], size: 44, pos: 'upperRight', media: {src: 'target/tg01_room.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'Goldman Sachs believes', highlights: ['Goldman'], size: 52, pos: 'left', media: {src: 'target/tg02_goldman.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'Goldman Sachs believes', highlights: ['Goldman'], size: 52, pos: 'left', media: {src: 'target/tg02_goldman.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the S&P 500|could climb even higher,', highlights: ['higher,'], size: 44, pos: 'lowerRight', media: {src: 'target/tg03_higher.jpg', type: 'img', effect: 'in'}},
+  {dur: 109, kind: 'text', reveal: [2, 28], text: 'the S&P 500|could climb even higher,', highlights: ['higher,'], size: 44, pos: 'lowerRight', media: {src: 'target/tg03_higher.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'despite growing fears', highlights: ['fears'], size: 52, pos: 'upperLeft', media: {src: 'target/tg04_fears.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'despite growing fears', highlights: ['fears'], size: 52, pos: 'upperLeft', media: {src: 'target/tg04_fears.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that the AI boom|is getting overheated.', highlights: ['overheated.'], size: 44, pos: 'right', media: {src: 'target/tg05_overheated.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'that the AI boom|is getting overheated.', highlights: ['overheated.'], size: 44, pos: 'right', media: {src: 'target/tg05_overheated.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But here’s|the interesting part:', highlights: ['interesting'], size: 48, pos: 'lower', media: {src: 'target/tg06_interesting.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'But here’s|the interesting part:', highlights: ['interesting'], size: 48, pos: 'lower', media: {src: 'target/tg06_interesting.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'Goldman isn’t counting on', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'target/tg07_counting.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'Goldman isn’t counting on', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'target/tg07_counting.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'investors simply|paying more for stocks.', highlights: ['paying'], size: 44, pos: 'upperRight', media: {src: 'target/tg08_paying.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'investors simply|paying more for stocks.', highlights: ['paying'], size: 44, pos: 'upperRight', media: {src: 'target/tg08_paying.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It’s betting that|American companies', highlights: ['American'], size: 48, pos: 'left', media: {src: 'target/tg09_american.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'It’s betting that|American companies', highlights: ['American'], size: 48, pos: 'left', media: {src: 'target/tg09_american.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'will keep making more money.', highlights: ['money.'], size: 46, pos: 'right', media: {src: 'target/tg10_money.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'will keep making more money.', highlights: ['money.'], size: 46, pos: 'right', media: {src: 'target/tg10_money.jpg', type: 'img', effect: 'in'}},
   // 11 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more financial news|and market analysis.', highlights: ['follow'], size: 44, pos: 'upperLeft', media: {src: 'target/tg11_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', reveal: [2], text: 'Follow for more financial news|and market analysis.', highlights: ['follow'], size: 44, pos: 'upperLeft', media: {src: 'target/tg11_follow.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'Goldman Sachs strategist', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'target/tg12_strategist.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Goldman Sachs strategist', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'target/tg12_strategist.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'Ben Snider has maintained', highlights: ['Snider'], size: 50, pos: 'upper', media: {src: 'target/tg13_snider.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'Ben Snider has maintained', highlights: ['Snider'], size: 50, pos: 'upper', media: {src: 'target/tg13_snider.jpg', type: 'img', effect: 'in'}},
   // 14 CARD
-  {dur: 70, kind: 'stat', stat: {value: 8000, post: 'YEAR-END TARGET'}, media: {src: 'target/tg14_card8000.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'stat', stat: {value: 8000, post: 'YEAR-END TARGET'}, media: {src: 'target/tg14_card8000.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'for the S&P 500', highlights: ['S&P'], size: 50, pos: 'left', media: {src: 'target/tg15_sp500.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'for the S&P 500', highlights: ['S&P'], size: 50, pos: 'left', media: {src: 'target/tg15_sp500.jpg', type: 'img', effect: 'in'}},
   // 16
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'and sees the index|potentially reaching', highlights: ['reaching'], size: 44, pos: 'right', media: {src: 'target/tg16_reaching.jpg', type: 'img', effect: 'in'}},
   // 17 CARD
-  {dur: 70, kind: 'stat', stat: {value: 8700, post: 'BY END OF 2027'}, media: {src: 'target/tg17_card8700.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'stat', stat: {value: 8700, post: 'BY END OF 2027'}, media: {src: 'target/tg17_card8700.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'The bank’s outlook', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'target/tg18_outlook.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'The bank’s outlook', highlights: [], size: 52, pos: 'lowerLeft', media: {src: 'target/tg18_outlook.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is built around|strong corporate earnings.', highlights: ['earnings.'], size: 44, pos: 'upperRight', media: {src: 'target/tg19_earnings.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'is built around|strong corporate earnings.', highlights: ['earnings.'], size: 44, pos: 'upperRight', media: {src: 'target/tg19_earnings.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'Its analysts expect', highlights: ['analysts'], size: 52, pos: 'left', media: {src: 'target/tg20_analysts.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'Its analysts expect', highlights: ['analysts'], size: 52, pos: 'left', media: {src: 'target/tg20_analysts.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'earnings growth to remain|a major driver,', highlights: ['driver,'], size: 44, pos: 'lowerRight', media: {src: 'target/tg21_driver.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'earnings growth to remain|a major driver,', highlights: ['driver,'], size: 44, pos: 'lowerRight', media: {src: 'target/tg21_driver.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'with artificial intelligence', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'target/tg22_ai.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'with artificial intelligence', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'target/tg22_ai.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'infrastructure companies', highlights: ['infrastructure'], size: 52, pos: 'right', media: {src: 'target/tg23_infra.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'infrastructure companies', highlights: ['infrastructure'], size: 52, pos: 'right', media: {src: 'target/tg23_infra.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'contributing a significant|share of profits.', highlights: ['profits.'], size: 44, pos: 'lower', media: {src: 'target/tg24_profits.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'contributing a significant|share of profits.', highlights: ['profits.'], size: 44, pos: 'lower', media: {src: 'target/tg24_profits.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'Companies are pouring', highlights: ['pouring'], size: 52, pos: 'upperRight', media: {src: 'target/tg25_pouring.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'Companies are pouring', highlights: ['pouring'], size: 52, pos: 'upperRight', media: {src: 'target/tg25_pouring.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'hundreds of billions of dollars', highlights: ['billions'], size: 46, pos: 'lowerLeft', media: {src: 'target/tg26_billions.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'hundreds of billions of dollars', highlights: ['billions'], size: 46, pos: 'lowerLeft', media: {src: 'target/tg26_billions.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'into AI data centers,', highlights: ['data'], size: 50, pos: 'left', media: {src: 'target/tg27_datacenters.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'into AI data centers,', highlights: ['data'], size: 50, pos: 'left', media: {src: 'target/tg27_datacenters.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'chips, and|computing infrastructure.', highlights: ['chips,'], size: 50, pos: 'right', media: {src: 'target/tg28_chips.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'chips, and|computing infrastructure.', highlights: ['chips,'], size: 50, pos: 'right', media: {src: 'target/tg28_chips.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'Goldman believes businesses', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'target/tg29_businesses.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'Goldman believes businesses', highlights: [], size: 52, pos: 'lowerRight', media: {src: 'target/tg29_businesses.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'supplying that technology', highlights: ['supplying'], size: 52, pos: 'upperLeft', media: {src: 'target/tg30_supplying.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'supplying that technology', highlights: ['supplying'], size: 52, pos: 'upperLeft', media: {src: 'target/tg30_supplying.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'could continue benefiting', highlights: ['benefiting'], size: 52, pos: 'right', media: {src: 'target/tg31_benefiting.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'could continue benefiting', highlights: ['benefiting'], size: 52, pos: 'right', media: {src: 'target/tg31_benefiting.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'as AI adoption expands.', highlights: ['adoption'], size: 50, pos: 'upperRight', media: {src: 'target/tg32_adoption.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'as AI adoption expands.', highlights: ['adoption'], size: 50, pos: 'upperRight', media: {src: 'target/tg32_adoption.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'If earnings keep growing,', highlights: ['growing,'], size: 50, pos: 'left', media: {src: 'target/tg33_growing.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'If earnings keep growing,', highlights: ['growing,'], size: 50, pos: 'left', media: {src: 'target/tg33_growing.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'the market could rise', highlights: ['rise'], size: 50, pos: 'lowerLeft', media: {src: 'target/tg34_rise.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'the market could rise', highlights: ['rise'], size: 50, pos: 'lowerLeft', media: {src: 'target/tg34_rise.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'even without stocks|becoming more expensive', highlights: ['expensive'], size: 44, pos: 'upper', media: {src: 'target/tg35_expensive.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'even without stocks|becoming more expensive', highlights: ['expensive'], size: 44, pos: 'upper', media: {src: 'target/tg35_expensive.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'relative to profits.', highlights: [], size: 52, pos: 'right', media: {src: 'target/tg36_relative.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'relative to profits.', highlights: [], size: 52, pos: 'right', media: {src: 'target/tg36_relative.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'But if AI investments', highlights: ['investments'], size: 50, pos: 'lowerRight', media: {src: 'target/tg37_investments.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'But if AI investments', highlights: ['investments'], size: 50, pos: 'lowerRight', media: {src: 'target/tg37_investments.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'fail to generate|the expected returns,', highlights: ['fail'], size: 44, pos: 'upperLeft', media: {src: 'target/tg38_fail.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'fail to generate|the expected returns,', highlights: ['fail'], size: 44, pos: 'upperLeft', media: {src: 'target/tg38_fail.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that optimism|could quickly weaken.', highlights: ['weaken.'], size: 48, pos: 'left', media: {src: 'target/tg39_weaken.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'that optimism|could quickly weaken.', highlights: ['weaken.'], size: 48, pos: 'left', media: {src: 'target/tg39_weaken.jpg', type: 'img', effect: 'in'}},
   // 40 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Warning|signs.'},
+  {dur: 39, kind: 'impact', redBg: true, text: 'Warning|signs.'},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'Market gains are concentrated', highlights: ['concentrated'], size: 50, pos: 'lowerRight', media: {src: 'target/tg41_concentrated.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'Market gains are concentrated', highlights: ['concentrated'], size: 50, pos: 'lowerRight', media: {src: 'target/tg41_concentrated.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in a relatively|small group of companies,', highlights: ['small'], size: 44, pos: 'upperRight', media: {src: 'target/tg42_smallgroup.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'in a relatively|small group of companies,', highlights: ['small'], size: 44, pos: 'upperRight', media: {src: 'target/tg42_smallgroup.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'valuations remain elevated,', highlights: ['elevated,'], size: 52, pos: 'right', media: {src: 'target/tg43_elevated.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'valuations remain elevated,', highlights: ['elevated,'], size: 52, pos: 'right', media: {src: 'target/tg43_elevated.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'and investors are questioning', highlights: ['questioning'], size: 50, pos: 'lowerLeft', media: {src: 'target/tg44_questioning.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'and investors are questioning', highlights: ['questioning'], size: 50, pos: 'lowerLeft', media: {src: 'target/tg44_questioning.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'whether AI spending', highlights: ['spending'], size: 52, pos: 'left', media: {src: 'target/tg45_spending.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'whether AI spending', highlights: ['spending'], size: 52, pos: 'left', media: {src: 'target/tg45_spending.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'can deliver enough revenue', highlights: ['revenue'], size: 50, pos: 'upperRight', media: {src: 'target/tg46_revenue.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'can deliver enough revenue', highlights: ['revenue'], size: 50, pos: 'upperRight', media: {src: 'target/tg46_revenue.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to justify its|enormous cost.', highlights: ['enormous'], size: 48, pos: 'lower', media: {src: 'target/tg47_cost.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'to justify its|enormous cost.', highlights: ['enormous'], size: 48, pos: 'lower', media: {src: 'target/tg47_cost.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'Is Goldman right', highlights: [], size: 52, pos: 'right', media: {src: 'target/tg48_isright.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'Is Goldman right', highlights: [], size: 52, pos: 'right', media: {src: 'target/tg48_isright.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'that corporate earnings', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'target/tg49_corpearnings.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'that corporate earnings', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'target/tg49_corpearnings.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'will keep pushing stocks higher,', highlights: ['pushing'], size: 46, pos: 'lowerRight', media: {src: 'target/tg50_pushing.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'will keep pushing stocks higher,', highlights: ['pushing'], size: 46, pos: 'lowerRight', media: {src: 'target/tg50_pushing.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or is Wall Street|underestimating the risks', highlights: ['underestimating'], size: 44, pos: 'left', media: {src: 'target/tg51_risks.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'text', reveal: [2, 28], text: 'or is Wall Street|underestimating the risks', highlights: ['underestimating'], size: 44, pos: 'left', media: {src: 'target/tg51_risks.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'of an AI-driven market?', highlights: ['AI-driven'], size: 50, pos: 'upperRight', media: {src: 'target/tg52_aidriven.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2], text: 'of an AI-driven market?', highlights: ['AI-driven'], size: 50, pos: 'upperRight', media: {src: 'target/tg52_aidriven.jpg', type: 'img', effect: 'in'}},
   // 53 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Would you buy stocks|at these levels?', highlights: ['buy'], size: 46, media: {src: 'target/tg53_buystocks.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Would you buy stocks|at these levels?', highlights: ['buy'], size: 46, media: {src: 'target/tg53_buystocks.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 895, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1075, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2438, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3168, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
