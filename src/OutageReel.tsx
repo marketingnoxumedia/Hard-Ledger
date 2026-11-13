@@ -111,125 +111,128 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Imagine waking up|and discovering', kicker: 'The outage', highlights: [], size: 52, media: {src: 'outage/og00_waking.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'hook', reveal: [3, 40], text: 'Imagine waking up|and discovering', kicker: 'The outage', highlights: [], size: 52, media: {src: 'outage/og00_waking.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'you can’t access your emails,', highlights: ['emails,'], size: 46, pos: 'upperRight', media: {src: 'outage/og01_emails.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2], text: 'you can’t access your emails,', highlights: ['emails,'], size: 46, pos: 'upperRight', media: {src: 'outage/og01_emails.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'join a work meeting,', highlights: [], size: 50, pos: 'left', media: {src: 'outage/og02_meeting.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'join a work meeting,', highlights: [], size: 50, pos: 'left', media: {src: 'outage/og02_meeting.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'or even use the tools', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'outage/og03_tools.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'or even use the tools', highlights: [], size: 46, pos: 'lowerRight', media: {src: 'outage/og03_tools.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'your company depends on.', highlights: ['depends'], size: 50, pos: 'upperLeft', media: {src: 'outage/og04_depends.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'your company depends on.', highlights: ['depends'], size: 50, pos: 'upperLeft', media: {src: 'outage/og04_depends.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'That’s exactly what happened', highlights: [], size: 50, pos: 'right', media: {src: 'outage/og05_happened.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'That’s exactly what happened', highlights: [], size: 50, pos: 'right', media: {src: 'outage/og05_happened.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'during Microsoft’s|massive global outage.', highlights: ['outage.'], size: 48, pos: 'lower', media: {src: 'outage/og06_outage.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'during Microsoft’s|massive global outage.', highlights: ['outage.'], size: 48, pos: 'lower', media: {src: 'outage/og06_outage.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'And the surprising part?', highlights: ['surprising'], size: 50, pos: 'lowerLeft', media: {src: 'outage/og07_surprising.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'And the surprising part?', highlights: ['surprising'], size: 50, pos: 'lowerLeft', media: {src: 'outage/og07_surprising.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'This wasn’t just|an Outlook problem.', highlights: ['Outlook'], size: 44, pos: 'upperRight', media: {src: 'outage/og08_outlook.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'This wasn’t just|an Outlook problem.', highlights: ['Outlook'], size: 44, pos: 'upperRight', media: {src: 'outage/og08_outlook.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'The disruption spread', highlights: ['disruption'], size: 52, pos: 'left', media: {src: 'outage/og09_spread.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'The disruption spread', highlights: ['disruption'], size: 52, pos: 'left', media: {src: 'outage/og09_spread.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'across services used by', highlights: [], size: 50, pos: 'right', media: {src: 'outage/og10_services.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'across services used by', highlights: [], size: 50, pos: 'right', media: {src: 'outage/og10_services.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'businesses, schools, governments,', highlights: ['governments,'], size: 52, pos: 'upperLeft', media: {src: 'outage/og11_sectors.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'businesses, schools, governments,', highlights: ['governments,'], size: 52, pos: 'upperLeft', media: {src: 'outage/og11_sectors.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'and even other AI companies.', highlights: ['AI'], size: 46, pos: 'lowerRight', media: {src: 'outage/og12_aicompanies.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'and even other AI companies.', highlights: ['AI'], size: 46, pos: 'lowerRight', media: {src: 'outage/og12_aicompanies.jpg', type: 'img', effect: 'in'}},
   // 13 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more technology|and business news.', highlights: ['follow'], size: 44, pos: 'upper', media: {src: 'outage/og13_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2], text: 'Follow for more technology|and business news.', highlights: ['follow'], size: 44, pos: 'upper', media: {src: 'outage/og13_follow.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'On November 12,', highlights: ['November'], size: 52, pos: 'left', media: {src: 'outage/og14_nov12.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'On November 12,', highlights: ['November'], size: 52, pos: 'left', media: {src: 'outage/og14_nov12.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'Microsoft experienced', highlights: [], size: 52, pos: 'right', media: {src: 'outage/og15_experienced.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'Microsoft experienced', highlights: [], size: 52, pos: 'right', media: {src: 'outage/og15_experienced.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'a widespread disruption', highlights: ['widespread'], size: 52, pos: 'lowerLeft', media: {src: 'outage/og16_widespread.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'a widespread disruption', highlights: ['widespread'], size: 52, pos: 'lowerLeft', media: {src: 'outage/og16_widespread.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'affecting Microsoft 365, Outlook,', highlights: ['365,'], size: 50, pos: 'upperRight', media: {src: 'outage/og17_365.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2], text: 'affecting Microsoft 365, Outlook,', highlights: ['365,'], size: 50, pos: 'upperRight', media: {src: 'outage/og17_365.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Teams, SharePoint, OneDrive,|and Copilot.', highlights: ['Copilot.'], size: 48, pos: 'left', media: {src: 'outage/og18_copilot.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'Teams, SharePoint, OneDrive,|and Copilot.', highlights: ['Copilot.'], size: 48, pos: 'left', media: {src: 'outage/og18_copilot.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Users across|multiple countries', highlights: ['countries'], size: 50, pos: 'lowerRight', media: {src: 'outage/og19_countries.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Users across|multiple countries', highlights: ['countries'], size: 50, pos: 'lowerRight', media: {src: 'outage/og19_countries.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'reported problems accessing', highlights: ['problems'], size: 52, pos: 'upperLeft', media: {src: 'outage/og20_accessing.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'reported problems accessing', highlights: ['problems'], size: 52, pos: 'upperLeft', media: {src: 'outage/og20_accessing.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'essential services.', highlights: ['essential'], size: 52, pos: 'right', media: {src: 'outage/og21_essential.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'essential services.', highlights: ['essential'], size: 52, pos: 'right', media: {src: 'outage/og21_essential.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'Downdetector recorded', highlights: ['Downdetector'], size: 52, pos: 'lower', media: {src: 'outage/og22_downdetector.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Downdetector recorded', highlights: ['Downdetector'], size: 52, pos: 'lower', media: {src: 'outage/og22_downdetector.jpg', type: 'img', effect: 'in'}},
   // 23 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'NEARLY', value: 130000, post: 'OUTLOOK REPORTS'}, media: {src: 'outage/og23_card130k.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'stat', stat: {pre: 'NEARLY', value: 130000, post: 'OUTLOOK REPORTS'}, media: {src: 'outage/og23_card130k.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of Outlook problems|at the peak.', highlights: ['peak.'], size: 44, pos: 'upperRight', media: {src: 'outage/og24_peak.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'of Outlook problems|at the peak.', highlights: ['peak.'], size: 44, pos: 'upperRight', media: {src: 'outage/og24_peak.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'The disruption also affected', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'outage/og25_alsoaffected.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'The disruption also affected', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'outage/og25_alsoaffected.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'organizations in Australia,', highlights: ['Australia,'], size: 52, pos: 'left', media: {src: 'outage/og26_australia.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'organizations in Australia,', highlights: ['Australia,'], size: 52, pos: 'left', media: {src: 'outage/og26_australia.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'Japan, and other regions.', highlights: ['Japan,'], size: 50, pos: 'right', media: {src: 'outage/og27_japan.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'Japan, and other regions.', highlights: ['Japan,'], size: 50, pos: 'right', media: {src: 'outage/og27_japan.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'Microsoft initially struggled', highlights: ['struggled'], size: 52, pos: 'lowerRight', media: {src: 'outage/og28_struggled.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'Microsoft initially struggled', highlights: ['struggled'], size: 52, pos: 'lowerRight', media: {src: 'outage/og28_struggled.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'to restore its servers.', highlights: ['servers.'], size: 50, pos: 'upperLeft', media: {src: 'outage/og29_servers.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'to restore its servers.', highlights: ['servers.'], size: 50, pos: 'upperLeft', media: {src: 'outage/og29_servers.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Some systems that were|brought back online', highlights: [], size: 44, pos: 'right', media: {src: 'outage/og30_backonline.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'Some systems that were|brought back online', highlights: [], size: 44, pos: 'right', media: {src: 'outage/og30_backonline.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'became unresponsive again', highlights: ['unresponsive'], size: 52, pos: 'upperRight', media: {src: 'outage/og31_unresponsive.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2], text: 'became unresponsive again', highlights: ['unresponsive'], size: 52, pos: 'upperRight', media: {src: 'outage/og31_unresponsive.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'once traffic returned.', highlights: ['traffic'], size: 52, pos: 'left', media: {src: 'outage/og32_traffic.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'once traffic returned.', highlights: ['traffic'], size: 52, pos: 'left', media: {src: 'outage/og32_traffic.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That meant even|its recovery efforts', highlights: ['recovery'], size: 44, pos: 'lowerLeft', media: {src: 'outage/og33_recovery.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'That meant even|its recovery efforts', highlights: ['recovery'], size: 44, pos: 'lowerLeft', media: {src: 'outage/og33_recovery.jpg', type: 'img', effect: 'in'}},
   // 34 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Weren’t working|as expected.'},
+  {dur: 46, kind: 'impact', redBg: true, text: 'Weren’t working|as expected.'},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The impact went beyond|missed emails.', highlights: ['beyond'], size: 44, pos: 'upper', media: {src: 'outage/og35_beyond.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'The impact went beyond|missed emails.', highlights: ['beyond'], size: 44, pos: 'upper', media: {src: 'outage/og35_beyond.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Some schools couldn’t|hold online classes,', highlights: ['schools'], size: 44, pos: 'right', media: {src: 'outage/og36_schools.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'Some schools couldn’t|hold online classes,', highlights: ['schools'], size: 44, pos: 'right', media: {src: 'outage/og36_schools.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'businesses struggled|with operations,', highlights: ['operations,'], size: 50, pos: 'lowerRight', media: {src: 'outage/og37_operations.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'businesses struggled|with operations,', highlights: ['operations,'], size: 50, pos: 'lowerRight', media: {src: 'outage/og37_operations.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'and government services', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'outage/og38_govservices.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'and government services', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'outage/og38_govservices.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'experienced disruptions.', highlights: ['disruptions.'], size: 52, pos: 'left', media: {src: 'outage/og39_disruptions.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'experienced disruptions.', highlights: ['disruptions.'], size: 52, pos: 'left', media: {src: 'outage/og39_disruptions.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'Even integrations used by', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'outage/og40_integrations.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'Even integrations used by', highlights: [], size: 50, pos: 'lowerRight', media: {src: 'outage/og40_integrations.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'AI companies like|OpenAI and Anthropic', highlights: ['OpenAI'], size: 44, pos: 'upperRight', media: {src: 'outage/og41_aicos.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'AI companies like|OpenAI and Anthropic', highlights: ['OpenAI'], size: 44, pos: 'upperRight', media: {src: 'outage/og41_aicos.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'were affected.', highlights: ['affected.'], size: 52, pos: 'right', media: {src: 'outage/og42_affected.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'were affected.', highlights: ['affected.'], size: 52, pos: 'right', media: {src: 'outage/og42_affected.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'Microsoft said there was', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'outage/og43_saidthere.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Microsoft said there was', highlights: [], size: 50, pos: 'lowerLeft', media: {src: 'outage/og43_saidthere.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'no indication|of a cyberattack.', highlights: ['cyberattack.'], size: 48, pos: 'left', media: {src: 'outage/og44_cyberattack.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'no indication|of a cyberattack.', highlights: ['cyberattack.'], size: 48, pos: 'left', media: {src: 'outage/og44_cyberattack.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2], text: 'Its investigation pointed to', highlights: ['investigation'], size: 50, pos: 'upperRight', media: {src: 'outage/og45_investigation.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'Its investigation pointed to', highlights: ['investigation'], size: 50, pos: 'upperRight', media: {src: 'outage/og45_investigation.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'server and|infrastructure problems,', highlights: ['infrastructure'], size: 50, pos: 'lower', media: {src: 'outage/og46_infra.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'server and|infrastructure problems,', highlights: ['infrastructure'], size: 50, pos: 'lower', media: {src: 'outage/og46_infra.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'including a process|responsible for', highlights: [], size: 48, pos: 'right', media: {src: 'outage/og47_process.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'including a process|responsible for', highlights: [], size: 48, pos: 'right', media: {src: 'outage/og47_process.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'establishing secure connections', highlights: ['secure'], size: 52, pos: 'upperLeft', media: {src: 'outage/og48_secure.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'establishing secure connections', highlights: ['secure'], size: 52, pos: 'upperLeft', media: {src: 'outage/og48_secure.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'becoming overwhelmed.', highlights: ['overwhelmed.'], size: 52, pos: 'lowerRight', media: {src: 'outage/og49_overwhelmed.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'becoming overwhelmed.', highlights: ['overwhelmed.'], size: 52, pos: 'lowerRight', media: {src: 'outage/og49_overwhelmed.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'Here’s the bigger question:', highlights: ['question:'], size: 50, pos: 'left', media: {src: 'outage/og50_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'Here’s the bigger question:', highlights: ['question:'], size: 50, pos: 'left', media: {src: 'outage/og50_question.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'if one technology company', highlights: ['one'], size: 50, pos: 'upperRight', media: {src: 'outage/og51_onecompany.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'if one technology company', highlights: ['one'], size: 50, pos: 'upperRight', media: {src: 'outage/og51_onecompany.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'can disrupt so much', highlights: ['disrupt'], size: 50, pos: 'right', media: {src: 'outage/og52_disruptmuch.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'can disrupt so much', highlights: ['disrupt'], size: 50, pos: 'right', media: {src: 'outage/og52_disruptmuch.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of the world’s|digital infrastructure,', highlights: ['digital'], size: 48, pos: 'lowerLeft', media: {src: 'outage/og53_digitalinfra.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'of the world’s|digital infrastructure,', highlights: ['digital'], size: 48, pos: 'lowerLeft', media: {src: 'outage/og53_digitalinfra.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 70, kind: 'text', reveal: [2], text: 'are businesses becoming', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'outage/og54_becoming.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'are businesses becoming', highlights: [], size: 52, pos: 'upperLeft', media: {src: 'outage/og54_becoming.jpg', type: 'img', effect: 'in'}},
   // 55
-  {dur: 70, kind: 'text', reveal: [2], text: 'too dependent on Microsoft?', highlights: ['dependent'], size: 50, pos: 'right', media: {src: 'outage/og55_dependent.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'too dependent on Microsoft?', highlights: ['dependent'], size: 50, pos: 'right', media: {src: 'outage/og55_dependent.jpg', type: 'img', effect: 'in'}},
   // 56 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Should companies have|backup systems ready?', highlights: ['backup'], size: 46, media: {src: 'outage/og56_backup.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Should companies have|backup systems ready?', highlights: ['backup'], size: 46, media: {src: 'outage/og56_backup.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1313, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1969, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3236, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
