@@ -113,103 +113,103 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 125, kind: 'hook', reveal: [3, 40], text: 'Bitcoin is struggling|to break back above $65,000,', kicker: 'The crypto slide', highlights: ['$65,000,'], size: 48, media: {src: 'slide/sl00_struggling.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'hook', reveal: [3, 40], text: 'Bitcoin is struggling|to break back above $65,000,', kicker: 'The crypto slide', highlights: ['$65,000,'], size: 48, media: {src: 'slide/sl00_struggling.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 40, kind: 'text', reveal: [2], text: 'and the latest selloff', highlights: ['selloff'], size: 50, pos: 'upperRight', media: {src: 'slide/sl01_selloff.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'and the latest selloff', highlights: ['selloff'], size: 50, pos: 'upperRight', media: {src: 'slide/sl01_selloff.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 71, kind: 'text', reveal: [2], text: 'is raising a serious question:', highlights: ['question:'], size: 46, pos: 'left', media: {src: 'slide/sl02_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'is raising a serious question:', highlights: ['question:'], size: 46, pos: 'left', media: {src: 'slide/sl02_question.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 134, kind: 'text', reveal: [2, 28], text: 'is the crypto market heading|into another major downturn?', highlights: ['major'], size: 44, pos: 'lowerRight', media: {src: 'slide/sl03_downturn.jpg', type: 'img', effect: 'in'}},
+  {dur: 121, kind: 'text', reveal: [2, 28], text: 'is the crypto market heading|into another major downturn?', highlights: ['major'], size: 44, pos: 'lowerRight', media: {src: 'slide/sl03_downturn.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 32, kind: 'text', reveal: [2], text: 'The surprising part is', highlights: ['surprising'], size: 50, pos: 'upperLeft', media: {src: 'slide/sl04_surprising.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'The surprising part is', highlights: ['surprising'], size: 50, pos: 'upperLeft', media: {src: 'slide/sl04_surprising.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 99, kind: 'text', reveal: [2, 28], text: 'that even as Bitcoin|attempts a small recovery,', highlights: ['recovery,'], size: 44, pos: 'right', media: {src: 'slide/sl05_recovery.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'that even as Bitcoin|attempts a small recovery,', highlights: ['recovery,'], size: 44, pos: 'right', media: {src: 'slide/sl05_recovery.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'institutional investors are|continuing to pull', highlights: ['institutional'], size: 44, pos: 'lower', media: {src: 'slide/sl06_institutional.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'institutional investors are|continuing to pull', highlights: ['institutional'], size: 44, pos: 'lower', media: {src: 'slide/sl06_institutional.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 74, kind: 'text', reveal: [2, 28], text: 'billions of dollars|out of the market.', highlights: ['billions'], size: 44, pos: 'lowerLeft', media: {src: 'slide/sl07_billions.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'billions of dollars|out of the market.', highlights: ['billions'], size: 44, pos: 'lowerLeft', media: {src: 'slide/sl07_billions.jpg', type: 'img', effect: 'in'}},
   // 8 FOLLOW
-  {dur: 111, kind: 'text', reveal: [2], text: 'Follow for more cryptocurrency|and financial market news.', highlights: ['follow'], size: 44, pos: 'upperRight', media: {src: 'slide/sl08_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'text', reveal: [2], text: 'Follow for more cryptocurrency|and financial market news.', highlights: ['follow'], size: 44, pos: 'upperRight', media: {src: 'slide/sl08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 43, kind: 'text', reveal: [2], text: 'On Monday, November 16,', highlights: ['November'], size: 50, pos: 'left', media: {src: 'slide/sl09_monday.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'On Monday, November 16,', highlights: ['November'], size: 50, pos: 'left', media: {src: 'slide/sl09_monday.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 40, kind: 'text', reveal: [2], text: 'Bitcoin traded around', highlights: ['traded'], size: 52, pos: 'right', media: {src: 'slide/sl10_traded.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Bitcoin traded around', highlights: ['traded'], size: 52, pos: 'right', media: {src: 'slide/sl10_traded.jpg', type: 'img', effect: 'in'}},
   // 11 CARD
-  {dur: 83, kind: 'stat', stat: {prefix: '$', value: 64866, post: 'MONDAY'}, media: {src: 'slide/sl11_card64866.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'stat', stat: {prefix: '$', value: 64866, post: 'MONDAY'}, media: {src: 'slide/sl11_card64866.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 86, kind: 'text', reveal: [2, 28], text: 'close to its lowest levels|in three months.', highlights: ['lowest'], size: 44, pos: 'upperLeft', media: {src: 'slide/sl12_lowest.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'close to its lowest levels|in three months.', highlights: ['lowest'], size: 44, pos: 'upperLeft', media: {src: 'slide/sl12_lowest.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 63, kind: 'text', reveal: [2, 28], text: 'The cryptocurrency|has been under pressure', highlights: ['pressure'], size: 44, pos: 'lowerRight', media: {src: 'slide/sl13_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'The cryptocurrency|has been under pressure', highlights: ['pressure'], size: 44, pos: 'lowerRight', media: {src: 'slide/sl13_pressure.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 51, kind: 'text', reveal: [2], text: 'after weeks of losses', highlights: ['losses'], size: 50, pos: 'upper', media: {src: 'slide/sl14_losses.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'after weeks of losses', highlights: ['losses'], size: 50, pos: 'upper', media: {src: 'slide/sl14_losses.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 84, kind: 'text', reveal: [2, 28], text: 'across the broader|digital asset market.', highlights: ['digital'], size: 44, pos: 'left', media: {src: 'slide/sl15_digital.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'across the broader|digital asset market.', highlights: ['digital'], size: 44, pos: 'left', media: {src: 'slide/sl15_digital.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 115, kind: 'text', reveal: [2, 28], text: 'One major warning sign|is Bitcoin ETFs.', highlights: ['warning'], size: 44, pos: 'right', media: {src: 'slide/sl16_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'text', reveal: [2, 28], text: 'One major warning sign|is Bitcoin ETFs.', highlights: ['warning'], size: 44, pos: 'right', media: {src: 'slide/sl16_warning.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 48, kind: 'text', reveal: [2], text: 'According to SoSoValue,', highlights: ['SoSoValue,'], size: 52, pos: 'lowerLeft', media: {src: 'slide/sl17_sosovalue.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'According to SoSoValue,', highlights: ['SoSoValue,'], size: 52, pos: 'lowerLeft', media: {src: 'slide/sl17_sosovalue.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 59, kind: 'text', reveal: [2], text: 'U.S. spot Bitcoin funds', highlights: ['spot'], size: 50, pos: 'upperRight', media: {src: 'slide/sl18_spot.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'U.S. spot Bitcoin funds', highlights: ['spot'], size: 50, pos: 'upperRight', media: {src: 'slide/sl18_spot.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 43, kind: 'text', reveal: [2], text: 'recorded approximately', highlights: ['approximately'], size: 52, pos: 'left', media: {src: 'slide/sl19_recorded.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'recorded approximately', highlights: ['approximately'], size: 52, pos: 'left', media: {src: 'slide/sl19_recorded.jpg', type: 'img', effect: 'in'}},
   // 20 CARD
-  {dur: 59, kind: 'stat', stat: {prefix: '$', value: 1.07, decimals: 2, suffix: 'B', post: 'IN OUTFLOWS'}, media: {src: 'slide/sl20_card107.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'stat', stat: {prefix: '$', value: 1.07, decimals: 2, suffix: 'B', post: 'IN OUTFLOWS'}, media: {src: 'slide/sl20_card107.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 96, kind: 'text', reveal: [2, 28], text: 'in outflows during the week|ending November 13.', highlights: ['outflows'], size: 44, pos: 'lowerRight', media: {src: 'slide/sl21_outflows.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'in outflows during the week|ending November 13.', highlights: ['outflows'], size: 44, pos: 'lowerRight', media: {src: 'slide/sl21_outflows.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'That marked their|third consecutive week', highlights: ['third'], size: 44, pos: 'upperLeft', media: {src: 'slide/sl22_third.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'That marked their|third consecutive week', highlights: ['third'], size: 44, pos: 'upperLeft', media: {src: 'slide/sl22_third.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 29, kind: 'text', reveal: [2], text: 'of withdrawals.', highlights: ['withdrawals.'], size: 52, pos: 'right', media: {src: 'slide/sl23_withdrawals.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'of withdrawals.', highlights: ['withdrawals.'], size: 52, pos: 'right', media: {src: 'slide/sl23_withdrawals.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 104, kind: 'text', reveal: [2, 28], text: 'But ETF selling|isn’t the only problem.', highlights: ['problem.'], size: 44, pos: 'lower', media: {src: 'slide/sl24_problem.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'But ETF selling|isn’t the only problem.', highlights: ['problem.'], size: 44, pos: 'lower', media: {src: 'slide/sl24_problem.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 31, kind: 'text', reveal: [2, 28], text: 'Stronger-than-expected|U.S. inflation', highlights: ['inflation'], size: 52, pos: 'upperRight', media: {src: 'slide/sl25_inflation.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2, 28], text: 'Stronger-than-expected|U.S. inflation', highlights: ['inflation'], size: 52, pos: 'upperRight', media: {src: 'slide/sl25_inflation.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 65, kind: 'text', reveal: [2], text: 'has increased expectations', highlights: ['expectations'], size: 52, pos: 'lowerLeft', media: {src: 'slide/sl26_expectations.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'has increased expectations', highlights: ['expectations'], size: 52, pos: 'lowerLeft', media: {src: 'slide/sl26_expectations.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 34, kind: 'text', reveal: [2], text: 'that the Federal Reserve', highlights: ['Federal'], size: 50, pos: 'left', media: {src: 'slide/sl27_fed.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'that the Federal Reserve', highlights: ['Federal'], size: 50, pos: 'left', media: {src: 'slide/sl27_fed.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 77, kind: 'text', reveal: [2, 28], text: 'could raise interest rates|in December.', highlights: ['rates'], size: 44, pos: 'right', media: {src: 'slide/sl28_rates.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'could raise interest rates|in December.', highlights: ['rates'], size: 44, pos: 'right', media: {src: 'slide/sl28_rates.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 47, kind: 'text', reveal: [2], text: 'Higher borrowing costs', highlights: ['borrowing'], size: 52, pos: 'lowerRight', media: {src: 'slide/sl29_borrowing.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'Higher borrowing costs', highlights: ['borrowing'], size: 52, pos: 'lowerRight', media: {src: 'slide/sl29_borrowing.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'generally make|speculative investments', highlights: ['speculative'], size: 50, pos: 'upperLeft', media: {src: 'slide/sl30_speculative.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'generally make|speculative investments', highlights: ['speculative'], size: 50, pos: 'upperLeft', media: {src: 'slide/sl30_speculative.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 61, kind: 'text', reveal: [2], text: 'like Bitcoin less attractive.', highlights: ['attractive.'], size: 50, pos: 'right', media: {src: 'slide/sl31_attractive.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'like Bitcoin less attractive.', highlights: ['attractive.'], size: 50, pos: 'right', media: {src: 'slide/sl31_attractive.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 36, kind: 'text', reveal: [2], text: 'There’s also pressure', highlights: ['pressure'], size: 52, pos: 'upperRight', media: {src: 'slide/sl32_alsopressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'There’s also pressure', highlights: ['pressure'], size: 52, pos: 'upperRight', media: {src: 'slide/sl32_alsopressure.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 53, kind: 'text', reveal: [2], text: 'from MSCI’s decision', highlights: ['decision'], size: 52, pos: 'left', media: {src: 'slide/sl33_msci.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'from MSCI’s decision', highlights: ['decision'], size: 52, pos: 'left', media: {src: 'slide/sl33_msci.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 78, kind: 'text', reveal: [2, 28], text: 'to remove Bitcoin|treasury companies,', highlights: ['treasury'], size: 48, pos: 'lowerLeft', media: {src: 'slide/sl34_treasury.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'to remove Bitcoin|treasury companies,', highlights: ['treasury'], size: 48, pos: 'lowerLeft', media: {src: 'slide/sl34_treasury.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 48, kind: 'text', reveal: [2], text: 'including Strategy,', highlights: ['Strategy,'], size: 52, pos: 'upper', media: {src: 'slide/sl35_strategy.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'including Strategy,', highlights: ['Strategy,'], size: 52, pos: 'upper', media: {src: 'slide/sl35_strategy.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 77, kind: 'text', reveal: [2, 28], text: 'from its indexes|at the end of November.', highlights: ['indexes'], size: 44, pos: 'right', media: {src: 'slide/sl36_indexes.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'from its indexes|at the end of November.', highlights: ['indexes'], size: 44, pos: 'right', media: {src: 'slide/sl36_indexes.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 40, kind: 'text', reveal: [2], text: 'That could make it harder', highlights: ['harder'], size: 46, pos: 'lowerRight', media: {src: 'slide/sl37_harder.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'That could make it harder', highlights: ['harder'], size: 46, pos: 'lowerRight', media: {src: 'slide/sl37_harder.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 92, kind: 'text', reveal: [2, 28], text: 'for these companies to attract|institutional capital.', highlights: ['capital.'], size: 44, pos: 'upperLeft', media: {src: 'slide/sl38_capital.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'for these companies to attract|institutional capital.', highlights: ['capital.'], size: 44, pos: 'upperLeft', media: {src: 'slide/sl38_capital.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 42, kind: 'text', reveal: [2], text: 'And here’s the big debate:', highlights: ['debate:'], size: 46, pos: 'left', media: {src: 'slide/sl39_debate.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'And here’s the big debate:', highlights: ['debate:'], size: 46, pos: 'left', media: {src: 'slide/sl39_debate.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 103, kind: 'text', reveal: [2, 28], text: 'some investors see this|as a temporary correction,', highlights: ['temporary'], size: 44, pos: 'lowerRight', media: {src: 'slide/sl40_temporary.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'some investors see this|as a temporary correction,', highlights: ['temporary'], size: 44, pos: 'lowerRight', media: {src: 'slide/sl40_temporary.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'while others believe|the combination', highlights: ['combination'], size: 48, pos: 'upperRight', media: {src: 'slide/sl41_others.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'while others believe|the combination', highlights: ['combination'], size: 48, pos: 'upperRight', media: {src: 'slide/sl41_others.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 43, kind: 'text', reveal: [2], text: 'of ETF withdrawals,', highlights: ['withdrawals,'], size: 52, pos: 'right', media: {src: 'slide/sl42_etfwithdrawals.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'of ETF withdrawals,', highlights: ['withdrawals,'], size: 52, pos: 'right', media: {src: 'slide/sl42_etfwithdrawals.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 45, kind: 'text', reveal: [2], text: 'tighter monetary policy,', highlights: ['monetary'], size: 52, pos: 'lowerLeft', media: {src: 'slide/sl43_monetary.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'tighter monetary policy,', highlights: ['monetary'], size: 52, pos: 'lowerLeft', media: {src: 'slide/sl43_monetary.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 47, kind: 'text', reveal: [2], text: 'and weaker market confidence', highlights: ['confidence'], size: 50, pos: 'left', media: {src: 'slide/sl44_confidence.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'and weaker market confidence', highlights: ['confidence'], size: 50, pos: 'left', media: {src: 'slide/sl44_confidence.jpg', type: 'img', effect: 'in'}},
   // 45 RED
-  {dur: 64, kind: 'impact', redBg: true, text: 'Even|lower.'},
+  {dur: 58, kind: 'impact', redBg: true, text: 'Even|lower.'},
   // 46
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'Is Bitcoin getting ready|for another recovery,', highlights: ['recovery,'], size: 44, pos: 'upperRight', media: {src: 'slide/sl46_recovery2.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'Is Bitcoin getting ready|for another recovery,', highlights: ['recovery,'], size: 44, pos: 'upperRight', media: {src: 'slide/sl46_recovery2.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 110, kind: 'text', reveal: [2, 28], text: 'or could $65,000 become|the level', highlights: ['$65,000'], size: 44, pos: 'lower', media: {src: 'slide/sl47_level.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'or could $65,000 become|the level', highlights: ['$65,000'], size: 44, pos: 'lower', media: {src: 'slide/sl47_level.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'that marks the beginning|of a deeper crypto crash?', highlights: ['deeper'], size: 44, pos: 'right', media: {src: 'slide/sl48_crash.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'that marks the beginning|of a deeper crypto crash?', highlights: ['deeper'], size: 44, pos: 'right', media: {src: 'slide/sl48_crash.jpg', type: 'img', effect: 'in'}},
   // 49 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'What do you think?', highlights: ['you'], size: 52, media: {src: 'slide/sl49_think.jpg', type: 'img', effect: 'in'}},
 ];
@@ -218,10 +218,10 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 863, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1495, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 3000, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3352, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 784, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1359, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2727, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3047, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
