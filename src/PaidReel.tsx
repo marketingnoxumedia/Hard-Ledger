@@ -109,109 +109,114 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'While millions are struggling|to afford a home,', kicker: 'Paid off', highlights: ['struggling'], size: 48, media: {src: 'paid/pd00_struggling.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'hook', reveal: [3, 40], text: 'While millions are struggling|to afford a home,', kicker: 'Paid off', highlights: ['struggling'], size: 48, media: {src: 'paid/pd00_struggling.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'a growing number of homeowners', highlights: ['homeowners'], size: 46, pos: 'upperRight', media: {src: 'paid/pd01_homeowners.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'a growing number of homeowners', highlights: ['homeowners'], size: 46, pos: 'upperRight', media: {src: 'paid/pd01_homeowners.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'have already paid theirs off.', highlights: ['paid'], size: 46, pos: 'left', media: {src: 'paid/pd02_paid.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2], text: 'have already paid theirs off.', highlights: ['paid'], size: 46, pos: 'left', media: {src: 'paid/pd02_paid.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'And the latest data reveals', highlights: ['data'], size: 46, pos: 'lowerRight', media: {src: 'paid/pd03_data.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'And the latest data reveals', highlights: ['data'], size: 46, pos: 'lowerRight', media: {src: 'paid/pd03_data.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'just how big|that group has become.', highlights: ['big'], size: 44, pos: 'upperLeft', media: {src: 'paid/pd04_big.jpg', type: 'img', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'just how big|that group has become.', highlights: ['big'], size: 44, pos: 'upperLeft', media: {src: 'paid/pd04_big.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'We’re talking about|more than 4 in 10', highlights: ['10'], size: 44, pos: 'right', media: {src: 'paid/pd05_fourin10.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'We’re talking about|more than 4 in 10', highlights: ['10'], size: 44, pos: 'right', media: {src: 'paid/pd05_fourin10.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'American homeowners who|no longer have', highlights: ['American'], size: 44, pos: 'lower', media: {src: 'paid/pd06_american.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'American homeowners who|no longer have', highlights: ['American'], size: 44, pos: 'lower', media: {src: 'paid/pd06_american.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'a mortgage payment.', highlights: ['mortgage'], size: 52, pos: 'lowerLeft', media: {src: 'paid/pd07_mortgage.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'a mortgage payment.', highlights: ['mortgage'], size: 52, pos: 'lowerLeft', media: {src: 'paid/pd07_mortgage.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'But this trend could have', highlights: ['trend'], size: 46, pos: 'upperRight', media: {src: 'paid/pd08_trend.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'But this trend could have', highlights: ['trend'], size: 46, pos: 'upperRight', media: {src: 'paid/pd08_trend.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a major impact|on the housing market.', highlights: ['housing'], size: 44, pos: 'left', media: {src: 'paid/pd09_housing.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'a major impact|on the housing market.', highlights: ['housing'], size: 44, pos: 'left', media: {src: 'paid/pd09_housing.jpg', type: 'img', effect: 'in'}},
   // 10 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more real estate|and financial news.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'paid/pd10_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2], text: 'Follow for more real estate|and financial news.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'paid/pd10_follow.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'According to a new|Realtor.com analysis', highlights: ['Realtor.com'], size: 44, pos: 'upperLeft', media: {src: 'paid/pd11_realtor.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'According to a new|Realtor.com analysis', highlights: ['Realtor.com'], size: 44, pos: 'upperLeft', media: {src: 'paid/pd11_realtor.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'of US Census Bureau data,', highlights: ['Census'], size: 46, pos: 'lowerRight', media: {src: 'paid/pd12_census.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'of US Census Bureau data,', highlights: ['Census'], size: 46, pos: 'lowerRight', media: {src: 'paid/pd12_census.jpg', type: 'img', effect: 'in'}},
   // 13 CARD
-  {dur: 70, kind: 'stat', stat: {value: 41, suffix: '%', post: 'MORTGAGE-FREE IN 2025'}, media: {src: 'paid/pd13_card41.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {value: 41, suffix: '%', post: 'MORTGAGE-FREE IN 2025'}, media: {src: 'paid/pd13_card41.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of owner-occupied homes|were mortgage-free in 2025.', highlights: ['mortgage-free'], size: 44, pos: 'upper', media: {src: 'paid/pd14_owneroccupied.jpg', type: 'img', effect: 'in'}},
+  {dur: 114, kind: 'text', reveal: [2, 28], text: 'of owner-occupied homes|were mortgage-free in 2025.', highlights: ['mortgage-free'], size: 44, pos: 'upper', media: {src: 'paid/pd14_owneroccupied.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'That’s up from just', highlights: ['up'], size: 50, pos: 'left', media: {src: 'paid/pd15_upfrom.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'That’s up from just', highlights: ['up'], size: 50, pos: 'left', media: {src: 'paid/pd15_upfrom.jpg', type: 'img', effect: 'in'}},
   // 16 CARD
-  {dur: 70, kind: 'stat', stat: {value: 32.8, decimals: 1, suffix: '%', post: 'IN 2010'}, media: {src: 'paid/pd16_card328.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'stat', stat: {value: 32.8, decimals: 1, suffix: '%', post: 'IN 2010'}, media: {src: 'paid/pd16_card328.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'West Virginia|leads the country,', highlights: ['leads'], size: 48, pos: 'right', media: {src: 'paid/pd17_westvirginia.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'West Virginia|leads the country,', highlights: ['leads'], size: 48, pos: 'right', media: {src: 'paid/pd17_westvirginia.jpg', type: 'img', effect: 'in'}},
   // 18 CARD
-  {dur: 70, kind: 'stat', stat: {value: 56.6, decimals: 1, suffix: '%', post: 'WEST VIRGINIA'}, media: {src: 'paid/pd18_card566.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'stat', stat: {value: 56.6, decimals: 1, suffix: '%', post: 'WEST VIRGINIA'}, media: {src: 'paid/pd18_card566.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'owning their|properties outright.', highlights: ['outright.'], size: 50, pos: 'lowerLeft', media: {src: 'paid/pd19_outright.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2, 28], text: 'owning their|properties outright.', highlights: ['outright.'], size: 50, pos: 'lowerLeft', media: {src: 'paid/pd19_outright.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'Mississippi follows at 52.7%,', highlights: ['52.7%'], size: 50, pos: 'upperRight', media: {src: 'paid/pd20_mississippi.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2], text: 'Mississippi follows at 52.7%,', highlights: ['52.7%'], size: 50, pos: 'upperRight', media: {src: 'paid/pd20_mississippi.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'while New Mexico reaches 50%.', highlights: ['50%'], size: 46, pos: 'left', media: {src: 'paid/pd21_newmexico.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'while New Mexico reaches 50%.', highlights: ['50%'], size: 46, pos: 'left', media: {src: 'paid/pd21_newmexico.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'At the other end,', highlights: ['other'], size: 50, pos: 'lowerRight', media: {src: 'paid/pd22_otherend.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'At the other end,', highlights: ['other'], size: 50, pos: 'lowerRight', media: {src: 'paid/pd22_otherend.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Washington, DC|has the lowest share,', highlights: ['lowest'], size: 44, pos: 'upperLeft', media: {src: 'paid/pd23_dc.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'Washington, DC|has the lowest share,', highlights: ['lowest'], size: 44, pos: 'upperLeft', media: {src: 'paid/pd23_dc.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'with only 26.5% of homes', highlights: ['26.5%'], size: 46, pos: 'right', media: {src: 'paid/pd24_265.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2], text: 'with only 26.5% of homes', highlights: ['26.5%'], size: 46, pos: 'right', media: {src: 'paid/pd24_265.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'owned free and clear.', highlights: ['free'], size: 50, pos: 'lower', media: {src: 'paid/pd25_freeclear.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'owned free and clear.', highlights: ['free'], size: 50, pos: 'lower', media: {src: 'paid/pd25_freeclear.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'And here’s why this matters.', highlights: ['matters.'], size: 46, pos: 'upperRight', media: {src: 'paid/pd26_matters.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'And here’s why this matters.', highlights: ['matters.'], size: 46, pos: 'upperRight', media: {src: 'paid/pd26_matters.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'Homeowners without mortgages', highlights: ['without'], size: 52, pos: 'lowerLeft', media: {src: 'paid/pd27_without.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'Homeowners without mortgages', highlights: ['without'], size: 52, pos: 'lowerLeft', media: {src: 'paid/pd27_without.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'are less exposed|to rising interest rates.', highlights: ['rates.'], size: 44, pos: 'left', media: {src: 'paid/pd28_rates.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'are less exposed|to rising interest rates.', highlights: ['rates.'], size: 44, pos: 'left', media: {src: 'paid/pd28_rates.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'They can sell, downsize,', highlights: ['downsize,'], size: 50, pos: 'right', media: {src: 'paid/pd29_downsize.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'They can sell, downsize,', highlights: ['downsize,'], size: 50, pos: 'right', media: {src: 'paid/pd29_downsize.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'or purchase another property', highlights: ['purchase'], size: 50, pos: 'lowerRight', media: {src: 'paid/pd30_purchase.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'or purchase another property', highlights: ['purchase'], size: 50, pos: 'lowerRight', media: {src: 'paid/pd30_purchase.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'without worrying about|giving up a low-rate mortgage.', highlights: ['low-rate'], size: 44, pos: 'upperLeft', media: {src: 'paid/pd31_lowrate.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', reveal: [2, 28], text: 'without worrying about|giving up a low-rate mortgage.', highlights: ['low-rate'], size: 44, pos: 'upperLeft', media: {src: 'paid/pd31_lowrate.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'That flexibility could help', highlights: ['flexibility'], size: 50, pos: 'right', media: {src: 'paid/pd32_flexibility.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'That flexibility could help', highlights: ['flexibility'], size: 50, pos: 'right', media: {src: 'paid/pd32_flexibility.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'bring more homes|onto the market.', highlights: ['market.'], size: 44, pos: 'upperRight', media: {src: 'paid/pd33_market.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'bring more homes|onto the market.', highlights: ['market.'], size: 44, pos: 'upperRight', media: {src: 'paid/pd33_market.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Meanwhile, homeowners|with existing low-rate loans', highlights: ['existing'], size: 44, pos: 'left', media: {src: 'paid/pd34_existing.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'text', reveal: [2, 28], text: 'Meanwhile, homeowners|with existing low-rate loans', highlights: ['existing'], size: 44, pos: 'left', media: {src: 'paid/pd34_existing.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'may refuse to sell', highlights: ['refuse'], size: 50, pos: 'lowerLeft', media: {src: 'paid/pd35_refuse.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'may refuse to sell', highlights: ['refuse'], size: 50, pos: 'lowerLeft', media: {src: 'paid/pd35_refuse.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'because replacing their mortgage', highlights: ['replacing'], size: 50, pos: 'upper', media: {src: 'paid/pd36_replacing.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'because replacing their mortgage', highlights: ['replacing'], size: 50, pos: 'upper', media: {src: 'paid/pd36_replacing.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could mean taking on|a much more expensive payment.', highlights: ['expensive'], size: 44, pos: 'right', media: {src: 'paid/pd37_expensive.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', reveal: [2, 28], text: 'could mean taking on|a much more expensive payment.', highlights: ['expensive'], size: 44, pos: 'right', media: {src: 'paid/pd37_expensive.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'But owning a home outright', highlights: ['outright'], size: 46, pos: 'lowerRight', media: {src: 'paid/pd38_outright2.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'But owning a home outright', highlights: ['outright'], size: 46, pos: 'lowerRight', media: {src: 'paid/pd38_outright2.jpg', type: 'img', effect: 'in'}},
   // 39 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Not|free.'},
+  {dur: 46, kind: 'impact', redBg: true, text: 'Not|free.'},
   // 40
-  {dur: 70, kind: 'text', reveal: [2], text: 'Property taxes, insurance,', highlights: ['taxes,'], size: 52, pos: 'upperLeft', media: {src: 'paid/pd40_taxes.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'Property taxes, insurance,', highlights: ['taxes,'], size: 52, pos: 'upperLeft', media: {src: 'paid/pd40_taxes.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'utilities, and maintenance|still cost money.', highlights: ['maintenance'], size: 44, pos: 'left', media: {src: 'paid/pd41_maintenance.jpg', type: 'img', effect: 'in'}},
+  {dur: 97, kind: 'text', reveal: [2, 28], text: 'utilities, and maintenance|still cost money.', highlights: ['maintenance'], size: 44, pos: 'left', media: {src: 'paid/pd41_maintenance.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And in expensive|housing markets,', highlights: ['expensive'], size: 48, pos: 'lowerRight', media: {src: 'paid/pd42_expensivemkt.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'And in expensive|housing markets,', highlights: ['expensive'], size: 48, pos: 'lowerRight', media: {src: 'paid/pd42_expensivemkt.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'paying off a home|remains a difficult goal', highlights: ['difficult'], size: 44, pos: 'upperRight', media: {src: 'paid/pd43_difficult.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'paying off a home|remains a difficult goal', highlights: ['difficult'], size: 44, pos: 'upperRight', media: {src: 'paid/pd43_difficult.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'for many families.', highlights: ['families.'], size: 52, pos: 'right', media: {src: 'paid/pd44_families.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'for many families.', highlights: ['families.'], size: 52, pos: 'right', media: {src: 'paid/pd44_families.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'If you could eliminate|your mortgage today,', highlights: ['eliminate'], size: 44, pos: 'lowerLeft', media: {src: 'paid/pd45_eliminate.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'If you could eliminate|your mortgage today,', highlights: ['eliminate'], size: 44, pos: 'lowerLeft', media: {src: 'paid/pd45_eliminate.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'would you stay in|your current home,', highlights: ['stay'], size: 44, pos: 'left', media: {src: 'paid/pd46_stay.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'would you stay in|your current home,', highlights: ['stay'], size: 44, pos: 'left', media: {src: 'paid/pd46_stay.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or sell and buy|another property?', highlights: ['sell'], size: 44, pos: 'upperRight', media: {src: 'paid/pd47_sell.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'or sell and buy|another property?', highlights: ['sell'], size: 44, pos: 'upperRight', media: {src: 'paid/pd47_sell.jpg', type: 'img', effect: 'in'}},
   // 48 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know.', highlights: ['know.'], size: 54, media: {src: 'paid/pd48_letusknow.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let us know.', highlights: ['know.'], size: 54, media: {src: 'paid/pd48_letusknow.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 905, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1085, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1199, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2533, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3099, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
