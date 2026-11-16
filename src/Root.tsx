@@ -215,6 +215,7 @@ import {McGuinnReel, DURATION_IN_FRAMES as MCGUINN_FRAMES} from './McGuinnReel';
 import {TargetReel, DURATION_IN_FRAMES as TARGET_FRAMES} from './TargetReel';
 import {ComebackReel, DURATION_IN_FRAMES as COMEBACK_FRAMES} from './ComebackReel';
 import {SlideReel, DURATION_IN_FRAMES as SLIDE_FRAMES} from './SlideReel';
+import {PaidReel, DURATION_IN_FRAMES as PAID_FRAMES} from './PaidReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -1944,6 +1945,14 @@ export const RemotionRoot: React.FC = () => {
         id="SlideReel"
         component={SlideReel}
         durationInFrames={SLIDE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="PaidReel"
+        component={PaidReel}
+        durationInFrames={PAID_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
