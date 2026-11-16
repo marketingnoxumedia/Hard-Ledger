@@ -113,111 +113,116 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Blackstone is making|a $5 billion bet', kicker: 'The leaseback', highlights: ['billion'], size: 48, media: {src: 'leaseback/lb00_bet.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'hook', reveal: [3, 40], text: 'Blackstone is making|a $5 billion bet', kicker: 'The leaseback', highlights: ['billion'], size: 48, media: {src: 'leaseback/lb00_bet.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'on Amazon’s data centers.', highlights: ['data'], size: 50, pos: 'upperRight', media: {src: 'leaseback/lb01_datacenters.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'on Amazon’s data centers.', highlights: ['data'], size: 50, pos: 'upperRight', media: {src: 'leaseback/lb01_datacenters.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But here’s|the interesting part:', highlights: ['interesting'], size: 48, pos: 'left', media: {src: 'leaseback/lb02_interesting.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'But here’s|the interesting part:', highlights: ['interesting'], size: 48, pos: 'left', media: {src: 'leaseback/lb02_interesting.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Amazon isn’t walking away|from the buildings.', highlights: ['buildings.'], size: 44, pos: 'lowerRight', media: {src: 'leaseback/lb03_buildings.jpg', type: 'img', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'Amazon isn’t walking away|from the buildings.', highlights: ['buildings.'], size: 44, pos: 'lowerRight', media: {src: 'leaseback/lb03_buildings.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It’s going to keep|using every single one.', highlights: ['every'], size: 44, pos: 'upperLeft', media: {src: 'leaseback/lb04_every.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'It’s going to keep|using every single one.', highlights: ['every'], size: 44, pos: 'upperLeft', media: {src: 'leaseback/lb04_every.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So why would Amazon|sell most of its ownership,', highlights: ['sell'], size: 44, pos: 'right', media: {src: 'leaseback/lb05_sell.jpg', type: 'img', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2, 28], text: 'So why would Amazon|sell most of its ownership,', highlights: ['sell'], size: 44, pos: 'right', media: {src: 'leaseback/lb05_sell.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'only to lease|the facilities back?', highlights: ['lease'], size: 44, pos: 'lower', media: {src: 'leaseback/lb06_leaseback.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'only to lease|the facilities back?', highlights: ['lease'], size: 44, pos: 'lower', media: {src: 'leaseback/lb06_leaseback.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And what does Blackstone|see in this deal?', highlights: ['Blackstone'], size: 44, pos: 'lowerLeft', media: {src: 'leaseback/lb07_deal.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'And what does Blackstone|see in this deal?', highlights: ['Blackstone'], size: 44, pos: 'lowerLeft', media: {src: 'leaseback/lb07_deal.jpg', type: 'img', effect: 'in'}},
   // 8 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more stories|shaping tech and finance.', highlights: ['follow'], size: 44, pos: 'upperRight', media: {src: 'leaseback/lb08_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 192, kind: 'text', reveal: [2], text: 'Follow for more stories|shaping tech and finance.', highlights: ['follow'], size: 44, pos: 'upperRight', media: {src: 'leaseback/lb08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Blackstone Digital|Infrastructure Trust', highlights: ['Infrastructure'], size: 50, pos: 'left', media: {src: 'leaseback/lb09_bxdc.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'Blackstone Digital|Infrastructure Trust', highlights: ['Infrastructure'], size: 50, pos: 'left', media: {src: 'leaseback/lb09_bxdc.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'has agreed to acquire', highlights: ['acquire'], size: 50, pos: 'right', media: {src: 'leaseback/lb10_acquire.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'has agreed to acquire', highlights: ['acquire'], size: 50, pos: 'right', media: {src: 'leaseback/lb10_acquire.jpg', type: 'img', effect: 'in'}},
   // 11 CARD
-  {dur: 70, kind: 'stat', stat: {value: 75, suffix: '%', post: 'CONTROLLING INTEREST'}, media: {src: 'leaseback/lb11_card75.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'stat', stat: {value: 75, suffix: '%', post: 'CONTROLLING INTEREST'}, media: {src: 'leaseback/lb11_card75.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'in two joint ventures', highlights: ['joint'], size: 50, pos: 'upperLeft', media: {src: 'leaseback/lb12_jv.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'in two joint ventures', highlights: ['joint'], size: 50, pos: 'upperLeft', media: {src: 'leaseback/lb12_jv.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'holding 13 newly constructed', highlights: ['13'], size: 50, pos: 'lowerRight', media: {src: 'leaseback/lb13_thirteen.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2], text: 'holding 13 newly constructed', highlights: ['13'], size: 50, pos: 'lowerRight', media: {src: 'leaseback/lb13_thirteen.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'data center buildings', highlights: ['buildings'], size: 52, pos: 'upper', media: {src: 'leaseback/lb14_buildings2.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'data center buildings', highlights: ['buildings'], size: 52, pos: 'upper', media: {src: 'leaseback/lb14_buildings2.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'across campuses in|northern Indiana and Mississippi.', highlights: ['Indiana'], size: 44, pos: 'left', media: {src: 'leaseback/lb15_campuses.jpg', type: 'img', effect: 'in'}},
+  {dur: 107, kind: 'text', reveal: [2, 28], text: 'across campuses in|northern Indiana and Mississippi.', highlights: ['Indiana'], size: 44, pos: 'left', media: {src: 'leaseback/lb15_campuses.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'The portfolio is valued', highlights: ['valued'], size: 50, pos: 'right', media: {src: 'leaseback/lb16_valued.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'The portfolio is valued', highlights: ['valued'], size: 50, pos: 'right', media: {src: 'leaseback/lb16_valued.jpg', type: 'img', effect: 'in'}},
   // 17 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 5, suffix: 'B', post: 'PORTFOLIO VALUE'}, media: {src: 'leaseback/lb17_card5b.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'stat', stat: {prefix: '$', value: 5, suffix: 'B', post: 'PORTFOLIO VALUE'}, media: {src: 'leaseback/lb17_card5b.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Amazon Web Services|will retain', highlights: ['retain'], size: 48, pos: 'lowerLeft', media: {src: 'leaseback/lb18_retain.jpg', type: 'img', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'Amazon Web Services|will retain', highlights: ['retain'], size: 48, pos: 'lowerLeft', media: {src: 'leaseback/lb18_retain.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2], text: 'the remaining 25 percent.', highlights: ['25'], size: 50, pos: 'upperRight', media: {src: 'leaseback/lb19_twentyfive.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'the remaining 25 percent.', highlights: ['25'], size: 50, pos: 'upperRight', media: {src: 'leaseback/lb19_twentyfive.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'According to the agreement,', highlights: ['agreement,'], size: 50, pos: 'left', media: {src: 'leaseback/lb20_agreement.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'According to the agreement,', highlights: ['agreement,'], size: 50, pos: 'left', media: {src: 'leaseback/lb20_agreement.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'AWS will lease back|the entire portfolio', highlights: ['lease'], size: 44, pos: 'lowerRight', media: {src: 'leaseback/lb21_leaseportfolio.jpg', type: 'img', effect: 'in'}},
+  {dur: 108, kind: 'text', reveal: [2, 28], text: 'AWS will lease back|the entire portfolio', highlights: ['lease'], size: 44, pos: 'lowerRight', media: {src: 'leaseback/lb21_leaseportfolio.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'under a triple-net arrangement,', highlights: ['triple-net'], size: 50, pos: 'upperLeft', media: {src: 'leaseback/lb22_triplenet.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'under a triple-net arrangement,', highlights: ['triple-net'], size: 50, pos: 'upperLeft', media: {src: 'leaseback/lb22_triplenet.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'with an initial lease term|of 12 years', highlights: ['12'], size: 44, pos: 'right', media: {src: 'leaseback/lb23_twelveyears.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'with an initial lease term|of 12 years', highlights: ['12'], size: 44, pos: 'right', media: {src: 'leaseback/lb23_twelveyears.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and extensions that could|bring it to 32 years.', highlights: ['32'], size: 44, pos: 'lower', media: {src: 'leaseback/lb24_thirtytwo.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'and extensions that could|bring it to 32 years.', highlights: ['32'], size: 44, pos: 'lower', media: {src: 'leaseback/lb24_thirtytwo.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'The deal carries a', highlights: ['deal'], size: 50, pos: 'upperRight', media: {src: 'leaseback/lb25_dealcarries.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'The deal carries a', highlights: ['deal'], size: 50, pos: 'upperRight', media: {src: 'leaseback/lb25_dealcarries.jpg', type: 'img', effect: 'in'}},
   // 26 CARD
-  {dur: 70, kind: 'stat', stat: {value: 7, suffix: '%', post: 'INITIAL CAP RATE'}, media: {src: 'leaseback/lb26_card7.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'stat', stat: {value: 7, suffix: '%', post: 'INITIAL CAP RATE'}, media: {src: 'leaseback/lb26_card7.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and annual rent increases|of 2.75 percent.', highlights: ['2.75'], size: 44, pos: 'lowerLeft', media: {src: 'leaseback/lb27_rentincrease.jpg', type: 'img', effect: 'in'}},
+  {dur: 125, kind: 'text', reveal: [2, 28], text: 'and annual rent increases|of 2.75 percent.', highlights: ['2.75'], size: 44, pos: 'lowerLeft', media: {src: 'leaseback/lb27_rentincrease.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'That means Blackstone gets', highlights: ['Blackstone'], size: 50, pos: 'left', media: {src: 'leaseback/lb28_means.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'That means Blackstone gets', highlights: ['Blackstone'], size: 50, pos: 'left', media: {src: 'leaseback/lb28_means.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a majority stake|in valuable infrastructure,', highlights: ['majority'], size: 44, pos: 'right', media: {src: 'leaseback/lb29_majority.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'a majority stake|in valuable infrastructure,', highlights: ['majority'], size: 44, pos: 'right', media: {src: 'leaseback/lb29_majority.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'while Amazon remains the tenant', highlights: ['tenant'], size: 46, pos: 'lowerRight', media: {src: 'leaseback/lb30_tenant.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'while Amazon remains the tenant', highlights: ['tenant'], size: 46, pos: 'lowerRight', media: {src: 'leaseback/lb30_tenant.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and continues operating|the facilities.', highlights: ['operating'], size: 48, pos: 'upperLeft', media: {src: 'leaseback/lb31_operating.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'and continues operating|the facilities.', highlights: ['operating'], size: 48, pos: 'upperLeft', media: {src: 'leaseback/lb31_operating.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'For Blackstone, this is', highlights: ['Blackstone,'], size: 50, pos: 'right', media: {src: 'leaseback/lb32_forblackstone.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'For Blackstone, this is', highlights: ['Blackstone,'], size: 50, pos: 'right', media: {src: 'leaseback/lb32_forblackstone.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2], text: 'its first investment through BXDC', highlights: ['BXDC'], size: 46, pos: 'upperRight', media: {src: 'leaseback/lb33_bxdcfirst.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2], text: 'its first investment through BXDC', highlights: ['BXDC'], size: 46, pos: 'upperRight', media: {src: 'leaseback/lb33_bxdcfirst.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'and a major step into', highlights: ['major'], size: 46, pos: 'left', media: {src: 'leaseback/lb34_majorstep.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'and a major step into', highlights: ['major'], size: 46, pos: 'left', media: {src: 'leaseback/lb34_majorstep.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the rapidly growing|AI infrastructure market.', highlights: ['AI'], size: 44, pos: 'lowerLeft', media: {src: 'leaseback/lb35_aimarket.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'the rapidly growing|AI infrastructure market.', highlights: ['AI'], size: 44, pos: 'lowerLeft', media: {src: 'leaseback/lb35_aimarket.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'For Amazon, the arrangement', highlights: ['Amazon,'], size: 50, pos: 'upper', media: {src: 'leaseback/lb36_foramazon.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'For Amazon, the arrangement', highlights: ['Amazon,'], size: 50, pos: 'upper', media: {src: 'leaseback/lb36_foramazon.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'provides a way|to unlock capital', highlights: ['capital'], size: 44, pos: 'right', media: {src: 'leaseback/lb37_unlock.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'provides a way|to unlock capital', highlights: ['capital'], size: 44, pos: 'right', media: {src: 'leaseback/lb37_unlock.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'while retaining access to', highlights: ['access'], size: 50, pos: 'lowerRight', media: {src: 'leaseback/lb38_access.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'while retaining access to', highlights: ['access'], size: 50, pos: 'lowerRight', media: {src: 'leaseback/lb38_access.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'the data center capacity it needs.', highlights: ['capacity'], size: 42, pos: 'upperLeft', media: {src: 'leaseback/lb39_capacity.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'the data center capacity it needs.', highlights: ['capacity'], size: 42, pos: 'upperLeft', media: {src: 'leaseback/lb39_capacity.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But the expansion|of data centers', highlights: ['expansion'], size: 44, pos: 'left', media: {src: 'leaseback/lb40_expansion.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'But the expansion|of data centers', highlights: ['expansion'], size: 44, pos: 'left', media: {src: 'leaseback/lb40_expansion.jpg', type: 'img', effect: 'in'}},
   // 41 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Growing|resistance.'},
+  {dur: 71, kind: 'impact', redBg: true, text: 'Growing|resistance.'},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'Communities are raising concerns', highlights: ['Communities'], size: 50, pos: 'lowerRight', media: {src: 'leaseback/lb42_communities.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2], text: 'Communities are raising concerns', highlights: ['Communities'], size: 50, pos: 'lowerRight', media: {src: 'leaseback/lb42_communities.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'about electricity demand,', highlights: ['electricity'], size: 52, pos: 'upperRight', media: {src: 'leaseback/lb43_electricity.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'about electricity demand,', highlights: ['electricity'], size: 52, pos: 'upperRight', media: {src: 'leaseback/lb43_electricity.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'infrastructure pressure,', highlights: ['pressure,'], size: 52, pos: 'right', media: {src: 'leaseback/lb44_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'infrastructure pressure,', highlights: ['pressure,'], size: 52, pos: 'right', media: {src: 'leaseback/lb44_pressure.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and the resources|these facilities require.', highlights: ['resources'], size: 44, pos: 'lowerLeft', media: {src: 'leaseback/lb45_resources.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'and the resources|these facilities require.', highlights: ['resources'], size: 44, pos: 'lowerLeft', media: {src: 'leaseback/lb45_resources.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So who’s making|the smarter move here?', highlights: ['smarter'], size: 44, pos: 'left', media: {src: 'leaseback/lb46_smarter.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'So who’s making|the smarter move here?', highlights: ['smarter'], size: 44, pos: 'left', media: {src: 'leaseback/lb46_smarter.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'Blackstone, collecting long-term rent', highlights: ['rent'], size: 50, pos: 'upperRight', media: {src: 'leaseback/lb47_rent.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'Blackstone, collecting long-term rent', highlights: ['rent'], size: 50, pos: 'upperRight', media: {src: 'leaseback/lb47_rent.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'from the AI boom,', highlights: ['boom,'], size: 50, pos: 'lower', media: {src: 'leaseback/lb48_boom.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'from the AI boom,', highlights: ['boom,'], size: 50, pos: 'lower', media: {src: 'leaseback/lb48_boom.jpg', type: 'img', effect: 'in'}},
   // 49 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'or Amazon, freeing up capital|while keeping control?', highlights: ['capital'], size: 46, media: {src: 'leaseback/lb49_control.jpg', type: 'img', effect: 'in'}},
+  {dur: 132, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'or Amazon, freeing up capital|while keeping control?', highlights: ['capital'], size: 46, media: {src: 'leaseback/lb49_control.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 941, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1328, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1950, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2973, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3433, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
