@@ -117,107 +117,110 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Jensen Huang could be|making a comeback', kicker: 'The comeback', highlights: ['comeback'], size: 48, media: {src: 'comeback/cb00_comeback.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'hook', reveal: [3, 40], text: 'Jensen Huang could be|making a comeback', kicker: 'The comeback', highlights: ['comeback'], size: 48, media: {src: 'comeback/cb00_comeback.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'at Nvidia.', highlights: ['Nvidia.'], size: 52, pos: 'upperRight', media: {src: 'comeback/cb01_nvidia.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'at Nvidia.', highlights: ['Nvidia.'], size: 52, pos: 'upperRight', media: {src: 'comeback/cb01_nvidia.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Just days after|resigning as CEO,', highlights: ['resigning'], size: 44, pos: 'left', media: {src: 'comeback/cb02_resigning.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'Just days after|resigning as CEO,', highlights: ['resigning'], size: 44, pos: 'left', media: {src: 'comeback/cb02_resigning.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the man behind|the AI chip revolution', highlights: ['revolution'], size: 44, pos: 'lowerRight', media: {src: 'comeback/cb03_revolution.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'the man behind|the AI chip revolution', highlights: ['revolution'], size: 44, pos: 'lowerRight', media: {src: 'comeback/cb03_revolution.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is reportedly|considering returning.', highlights: ['returning.'], size: 50, pos: 'upperLeft', media: {src: 'comeback/cb04_returning.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'is reportedly|considering returning.', highlights: ['returning.'], size: 50, pos: 'upperLeft', media: {src: 'comeback/cb04_returning.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And Elon Musk|wants him back.', highlights: ['back.'], size: 44, pos: 'right', media: {src: 'comeback/cb05_musk.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'And Elon Musk|wants him back.', highlights: ['back.'], size: 44, pos: 'right', media: {src: 'comeback/cb05_musk.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s the problem:', highlights: ['problem:'], size: 50, pos: 'lower', media: {src: 'comeback/cb06_problem.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'But here’s the problem:', highlights: ['problem:'], size: 50, pos: 'lower', media: {src: 'comeback/cb06_problem.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Nvidia’s board may not be|ready to reverse its decision,', highlights: ['reverse'], size: 44, pos: 'lowerLeft', media: {src: 'comeback/cb07_reverse.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'Nvidia’s board may not be|ready to reverse its decision,', highlights: ['reverse'], size: 44, pos: 'lowerLeft', media: {src: 'comeback/cb07_reverse.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'and Washington is pushing', highlights: ['Washington'], size: 50, pos: 'upperRight', media: {src: 'comeback/cb08_washington.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'and Washington is pushing', highlights: ['Washington'], size: 50, pos: 'upperRight', media: {src: 'comeback/cb08_washington.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for a very different|kind of leadership change.', highlights: ['leadership'], size: 44, pos: 'left', media: {src: 'comeback/cb09_leadership.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'for a very different|kind of leadership change.', highlights: ['leadership'], size: 44, pos: 'left', media: {src: 'comeback/cb09_leadership.jpg', type: 'img', effect: 'in'}},
   // 10 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more technology|and stock market news.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'comeback/cb10_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2], text: 'Follow for more technology|and stock market news.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'comeback/cb10_follow.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Huang stepped down|on November 12', highlights: ['November'], size: 44, pos: 'upperLeft', media: {src: 'comeback/cb11_steppeddown.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'Huang stepped down|on November 12', highlights: ['November'], size: 44, pos: 'upperLeft', media: {src: 'comeback/cb11_steppeddown.jpg', type: 'img', effect: 'in'}},
   // 12
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'following reports|of extramarital affairs,', highlights: ['affairs,'], size: 48, pos: 'lowerRight', media: {src: 'comeback/cb12_affairs.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'including one involving|a former executive', highlights: ['executive'], size: 44, pos: 'upper', media: {src: 'comeback/cb13_executive.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'including one involving|a former executive', highlights: ['executive'], size: 44, pos: 'upper', media: {src: 'comeback/cb13_executive.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'at a Singapore-based company', highlights: ['Singapore-based'], size: 50, pos: 'left', media: {src: 'comeback/cb14_singapore.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'at a Singapore-based company', highlights: ['Singapore-based'], size: 50, pos: 'left', media: {src: 'comeback/cb14_singapore.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'suspected by U.S. officials', highlights: ['suspected'], size: 50, pos: 'right', media: {src: 'comeback/cb15_suspected.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'suspected by U.S. officials', highlights: ['suspected'], size: 50, pos: 'right', media: {src: 'comeback/cb15_suspected.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of having links|to Chinese intelligence.', highlights: ['intelligence.'], size: 44, pos: 'lowerLeft', media: {src: 'comeback/cb16_intelligence.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'of having links|to Chinese intelligence.', highlights: ['intelligence.'], size: 44, pos: 'lowerLeft', media: {src: 'comeback/cb16_intelligence.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'According to|the Financial Times,', highlights: ['Financial'], size: 48, pos: 'upperRight', media: {src: 'comeback/cb17_ft.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'According to|the Financial Times,', highlights: ['Financial'], size: 48, pos: 'upperRight', media: {src: 'comeback/cb17_ft.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Huang has discussed returning|with people close to him.', highlights: ['returning'], size: 44, pos: 'left', media: {src: 'comeback/cb18_discussed.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'Huang has discussed returning|with people close to him.', highlights: ['returning'], size: 44, pos: 'left', media: {src: 'comeback/cb18_discussed.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'His supporters are reportedly|organizing a campaign', highlights: ['campaign'], size: 44, pos: 'lowerRight', media: {src: 'comeback/cb19_campaign.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'His supporters are reportedly|organizing a campaign', highlights: ['campaign'], size: 44, pos: 'lowerRight', media: {src: 'comeback/cb19_campaign.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2], text: 'to persuade Nvidia’s board', highlights: ['persuade'], size: 50, pos: 'upperLeft', media: {src: 'comeback/cb20_persuade.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'to persuade Nvidia’s board', highlights: ['persuade'], size: 50, pos: 'upperLeft', media: {src: 'comeback/cb20_persuade.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'and even the White House', highlights: ['White', 'House'], size: 46, pos: 'right', media: {src: 'comeback/cb21_whitehouse.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'and even the White House', highlights: ['White', 'House'], size: 46, pos: 'right', media: {src: 'comeback/cb21_whitehouse.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'to support his comeback.', highlights: ['comeback.'], size: 50, pos: 'lower', media: {src: 'comeback/cb22_support.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'to support his comeback.', highlights: ['comeback.'], size: 50, pos: 'lower', media: {src: 'comeback/cb22_support.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Elon Musk has also|publicly backed the effort,', highlights: ['backed'], size: 44, pos: 'upperRight', media: {src: 'comeback/cb23_backed.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'Elon Musk has also|publicly backed the effort,', highlights: ['backed'], size: 44, pos: 'upperRight', media: {src: 'comeback/cb23_backed.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'saying he is|signing a petition', highlights: ['petition'], size: 44, pos: 'lowerLeft', media: {src: 'comeback/cb24_petition.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'saying he is|signing a petition', highlights: ['petition'], size: 44, pos: 'lowerLeft', media: {src: 'comeback/cb24_petition.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'to bring Jensen back.', highlights: ['Jensen'], size: 50, pos: 'left', media: {src: 'comeback/cb25_bringback.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'to bring Jensen back.', highlights: ['Jensen'], size: 50, pos: 'left', media: {src: 'comeback/cb25_bringback.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2], text: 'But not everyone agrees.', highlights: ['everyone'], size: 50, pos: 'right', media: {src: 'comeback/cb26_notagree.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'But not everyone agrees.', highlights: ['everyone'], size: 50, pos: 'right', media: {src: 'comeback/cb26_notagree.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Treasury Secretary|Scott Bessent', highlights: ['Bessent'], size: 50, pos: 'lowerRight', media: {src: 'comeback/cb27_bessent.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'Treasury Secretary|Scott Bessent', highlights: ['Bessent'], size: 50, pos: 'lowerRight', media: {src: 'comeback/cb27_bessent.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'has called for a|dramatic leadership shake-up,', highlights: ['shake-up,'], size: 44, pos: 'upperLeft', media: {src: 'comeback/cb28_shakeup.jpg', type: 'img', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'has called for a|dramatic leadership shake-up,', highlights: ['shake-up,'], size: 44, pos: 'upperLeft', media: {src: 'comeback/cb28_shakeup.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while Nvidia’s board|has reportedly explored', highlights: ['explored'], size: 44, pos: 'right', media: {src: 'comeback/cb29_explored.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'while Nvidia’s board|has reportedly explored', highlights: ['explored'], size: 44, pos: 'right', media: {src: 'comeback/cb29_explored.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'other candidates, including', highlights: ['candidates,'], size: 52, pos: 'upperRight', media: {src: 'comeback/cb30_candidates.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'other candidates, including', highlights: ['candidates,'], size: 52, pos: 'upperRight', media: {src: 'comeback/cb30_candidates.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'Arm CEO Rene Haas.', highlights: ['Haas.'], size: 50, pos: 'left', media: {src: 'comeback/cb31_haas.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2], text: 'Arm CEO Rene Haas.', highlights: ['Haas.'], size: 50, pos: 'left', media: {src: 'comeback/cb31_haas.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'Investors are watching closely.', highlights: ['watching'], size: 50, pos: 'lowerLeft', media: {src: 'comeback/cb32_watching.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2], text: 'Investors are watching closely.', highlights: ['watching'], size: 50, pos: 'lowerLeft', media: {src: 'comeback/cb32_watching.jpg', type: 'img', effect: 'in'}},
   // 33 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'DOWN', value: 12, suffix: '%', post: 'LAST WEEK'}, media: {src: 'comeback/cb33_card12.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'stat', stat: {pre: 'DOWN', value: 12, suffix: '%', post: 'LAST WEEK'}, media: {src: 'comeback/cb33_card12.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and the company has billions|in market value at stake.', highlights: ['billions'], size: 44, pos: 'upper', media: {src: 'comeback/cb34_billions.jpg', type: 'img', effect: 'in'}},
+  {dur: 111, kind: 'text', reveal: [2, 28], text: 'and the company has billions|in market value at stake.', highlights: ['billions'], size: 44, pos: 'upper', media: {src: 'comeback/cb34_billions.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2], text: 'Its upcoming earnings report', highlights: ['earnings'], size: 50, pos: 'right', media: {src: 'comeback/cb35_earnings.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'Its upcoming earnings report', highlights: ['earnings'], size: 50, pos: 'right', media: {src: 'comeback/cb35_earnings.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'will also be the first', highlights: ['first'], size: 46, pos: 'lowerRight', media: {src: 'comeback/cb36_first.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'will also be the first', highlights: ['first'], size: 46, pos: 'lowerRight', media: {src: 'comeback/cb36_first.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'under interim CEO|Colette Kress.', highlights: ['Colette'], size: 48, pos: 'upperLeft', media: {src: 'comeback/cb37_kress.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'under interim CEO|Colette Kress.', highlights: ['Colette'], size: 48, pos: 'upperLeft', media: {src: 'comeback/cb37_kress.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And here’s|the biggest obstacle:', highlights: ['biggest'], size: 48, pos: 'left', media: {src: 'comeback/cb38_obstacle.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2, 28], text: 'And here’s|the biggest obstacle:', highlights: ['biggest'], size: 48, pos: 'left', media: {src: 'comeback/cb38_obstacle.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Musk cannot|reinstate Huang himself.', highlights: ['cannot'], size: 48, pos: 'lowerRight', media: {src: 'comeback/cb39_cannot.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'Musk cannot|reinstate Huang himself.', highlights: ['cannot'], size: 48, pos: 'lowerRight', media: {src: 'comeback/cb39_cannot.jpg', type: 'img', effect: 'in'}},
   // 40 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'The board|decides.'},
+  {dur: 75, kind: 'impact', redBg: true, text: 'The board|decides.'},
   // 41
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'which must weigh|Huang’s importance', highlights: ['weigh'], size: 48, pos: 'upperRight', media: {src: 'comeback/cb41_weigh.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'which must weigh|Huang’s importance', highlights: ['weigh'], size: 48, pos: 'upperRight', media: {src: 'comeback/cb41_weigh.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2], text: 'against the ongoing investigations', highlights: ['investigations'], size: 50, pos: 'right', media: {src: 'comeback/cb42_investigations.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2], text: 'against the ongoing investigations', highlights: ['investigations'], size: 50, pos: 'right', media: {src: 'comeback/cb42_investigations.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'and national security concerns.', highlights: ['security'], size: 50, pos: 'lowerLeft', media: {src: 'comeback/cb43_security.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'and national security concerns.', highlights: ['security'], size: 50, pos: 'lowerLeft', media: {src: 'comeback/cb43_security.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'Should Nvidia bring back', highlights: ['back'], size: 50, pos: 'left', media: {src: 'comeback/cb44_bringbackfounder.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Should Nvidia bring back', highlights: ['back'], size: 50, pos: 'left', media: {src: 'comeback/cb44_bringbackfounder.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the founder who built|its AI empire,', highlights: ['empire,'], size: 44, pos: 'upperRight', media: {src: 'comeback/cb45_empire.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'the founder who built|its AI empire,', highlights: ['empire,'], size: 44, pos: 'upperRight', media: {src: 'comeback/cb45_empire.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or is it time|for a completely new leader?', highlights: ['new'], size: 44, pos: 'lower', media: {src: 'comeback/cb46_newleader.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'or is it time|for a completely new leader?', highlights: ['new'], size: 44, pos: 'lower', media: {src: 'comeback/cb46_newleader.jpg', type: 'img', effect: 'in'}},
   // 47 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'What would you do|if you were on the board?', highlights: ['you'], size: 46, media: {src: 'comeback/cb47_yourcall.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'What would you do|if you were on the board?', highlights: ['you'], size: 46, media: {src: 'comeback/cb47_yourcall.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 2288, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2830, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3294, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
