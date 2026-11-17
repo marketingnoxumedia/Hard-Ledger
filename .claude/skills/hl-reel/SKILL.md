@@ -421,6 +421,73 @@ Each reel is its own composition so earlier ones stay intact. To add one:
   its own footage under `public/<name>/` — confirm with the grep below before
   rendering.
 
+## Topical real-footage variant (client preset — "use footage on the topic")
+
+Some reels override the default **metaphor-led, strictly brand-free** sourcing.
+When the client says to use **relevant/real footage closely tied to the topic**,
+to **mix videos and photos**, and/or to **search beyond Pexels** (and explicitly
+relaxes brand-safety — e.g. "ignore copyright, use what's on-topic"), build the
+reel this way instead. First reel built like this: **`StarshipReel`** ("The
+catch", SpaceX Starship Nov-14 orbital flight + tower-catch) — 40 beats, 20 video
++ 19 photo, mostly NASA public-domain.
+
+**What changes vs the default:**
+- **Literal, on-subject visuals**, not metaphors: for a space reel, real rockets,
+  launches, launch towers, spacecraft in orbit, Earth-from-space, satellites,
+  engines/boosters, mission/launch control. Relevance to the beat is the #1 pick
+  criterion.
+- **Brand-free is RELAXED** at the client's instruction: real agency/company
+  hardware and the odd readable launch-clock/analyst-screen label are allowed.
+  Note it in the reel's header + README.
+- **Mix video + photo.** Prefer VIDEO for dynamic beats (launches, landings,
+  orbit, stage-sep, boosters); photo for static/abstract (card backdrops, the
+  FOLLOW phone, charts).
+
+**Sources (go past Pexels):**
+- **NASA public-domain is the best on-topic space/science source, zero copyright
+  risk.** Images API is reachable:
+  - search `https://images-api.nasa.gov/search?q=<terms>&media_type=video` (or
+    `image`) → `collection.items[].data[0].nasa_id` (+ title/description to judge).
+  - asset `https://images-api.nasa.gov/asset/<nasa_id>` → `items[].href`; pick a
+    `.mp4` (`~medium`/`~large`) or `~orig.jpg`/`~large.jpg`. **Rewrite the returned
+    `http://images-assets.nasa.gov` URLs to `https://`** before curl (plain http
+    may be proxy-blocked).
+- **Openverse** (`https://api.openverse.org/v1/images/?q=...`) aggregates CC
+  images (returns Flickr etc.) — reachable, but `live.staticflickr.com` downloads
+  were proxy-blocked in testing, so treat it as discovery only.
+- **Pexels** still works for the non-space beats (trading screens, phone, dishes)
+  — same photo URL + video download-redirect recipes as the default.
+- Pixabay / Wikimedia: often 403 on the web page via curl; don't get stuck.
+
+**Video → 9:16 (files must be exactly 1080x1920):**
+```bash
+ffmpeg -ss <start> -i raw.mp4 -t 6 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920" \
+  -r 30 -an -c:v libx264 -crf 23 -pix_fmt yuv420p public/<name>/<slug>.mp4
+```
+Pick `<start>` on the interesting moment (ignition/liftoff); `-an` strips audio.
+NASA "medium" variants can be 250-900MB — download one at a time and delete each
+raw after cropping (the shared volume runs ~1GB free).
+
+**Wire video beats into the composition.** The comp already supports
+`type: 'video'` (renders via `OffthreadVideo`, with optional `media.from`). The
+scene generator emits every beat as `type: 'img'`/`.jpg`; after sourcing, for each
+slug delivered as a video, patch the tsx: `src: '<name>/<slug>.jpg', type: 'img'`
+→ `src: '<name>/<slug>.mp4', type: 'video'`. (Long caption holds read fine over
+video b-roll, so protecting over-long narrative beats from the dur clamp is
+acceptable — see `rebuild_*.py` `LONG={...}`.)
+
+**Still frame-audit every beat from the final render.** Relevance + one
+journalism guardrail that survives the relaxed brand rule: **never show an
+identifiable stock-photo FACE next to a named real person** — a generic model
+beside an on-screen "analyst Jane Doe" reads as a portrait of that person. Swap to
+a face-free/thematic shot (StarshipReel used an empty NASA launch-control firing
+room for the "Evercore analyst" beat). Agents must inspect each finalist (images
+via Read; videos via a mid-frame grab).
+
+**Ledger.** NASA ids are a new namespace (no cross-reel collision) but can contain
+spaces — **sanitize spaces→underscores** before writing `used_ids.txt`
+(`<id> <name>/<slug>.<ext>`). Still check any **Pexels** ids against the ledger.
+
 ## Adapting the look
 
 Swap the `HUD` label, tune `SH`, or change the accent by editing `C.red`. Keep the

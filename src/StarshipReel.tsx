@@ -105,96 +105,96 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 202, kind: 'hook', reveal: [3, 40], text: 'One of the most important|moments in SpaceX’s history.', kicker: 'The catch', highlights: ['important'], size: 48, media: {src: 'starship/ss00_moment.mp4', type: 'video', effect: 'in'}},
+  {dur: 183, kind: 'hook', reveal: [3, 40], text: 'One of the most important|moments in SpaceX’s history.', kicker: 'The catch', highlights: ['important'], size: 48, media: {src: 'starship/ss00_moment.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 113, kind: 'text', reveal: [2, 28], text: 'Investors might be looking|at the wrong part.', highlights: ['wrong'], size: 44, pos: 'upperRight', media: {src: 'starship/ss01_wrongpart.jpg', type: 'img', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'Investors might be looking|at the wrong part.', highlights: ['wrong'], size: 44, pos: 'upperRight', media: {src: 'starship/ss01_wrongpart.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 48, kind: 'text', reveal: [2], text: 'Because what happened this weekend', highlights: ['weekend'], size: 46, pos: 'left', media: {src: 'starship/ss02_weekend.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'Because what happened this weekend', highlights: ['weekend'], size: 46, pos: 'left', media: {src: 'starship/ss02_weekend.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 156, kind: 'text', reveal: [2], text: 'wasn’t just another rocket launch.', highlights: ['just'], size: 46, pos: 'lowerRight', media: {src: 'starship/ss03_justlaunch.mp4', type: 'video', effect: 'in'}},
+  {dur: 142, kind: 'text', reveal: [2], text: 'wasn’t just another rocket launch.', highlights: ['just'], size: 46, pos: 'lowerRight', media: {src: 'starship/ss03_justlaunch.mp4', type: 'video', effect: 'in'}},
   // 4
-  {dur: 143, kind: 'text', reveal: [2, 28], text: 'It could change|SpaceX’s entire future.', highlights: ['future.'], size: 44, pos: 'upperLeft', media: {src: 'starship/ss04_future.mp4', type: 'video', effect: 'in'}},
+  {dur: 130, kind: 'text', reveal: [2, 28], text: 'It could change|SpaceX’s entire future.', highlights: ['future.'], size: 44, pos: 'upperLeft', media: {src: 'starship/ss04_future.mp4', type: 'video', effect: 'in'}},
   // 5 FOLLOW
-  {dur: 176, kind: 'text', reveal: [2], text: 'Follow for more stories|on tech and business.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'starship/ss05_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 160, kind: 'text', reveal: [2], text: 'Follow for more stories|on tech and business.', highlights: ['follow'], size: 44, pos: 'right', media: {src: 'starship/ss05_follow.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 64, kind: 'text', reveal: [2], text: 'On November 14,', highlights: ['November'], size: 52, pos: 'lower', media: {src: 'starship/ss06_nov14.mp4', type: 'video', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'On November 14,', highlights: ['November'], size: 52, pos: 'lower', media: {src: 'starship/ss06_nov14.mp4', type: 'video', effect: 'in'}},
   // 7
-  {dur: 97, kind: 'text', reveal: [2, 28], text: 'SpaceX pulled off something|it had never done.', highlights: ['never'], size: 44, pos: 'lowerLeft', media: {src: 'starship/ss07_never.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'SpaceX pulled off something|it had never done.', highlights: ['never'], size: 44, pos: 'lowerLeft', media: {src: 'starship/ss07_never.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 76, kind: 'text', reveal: [2, 28], text: 'Its Starship spacecraft|returned from orbit', highlights: ['orbit'], size: 44, pos: 'upperRight', media: {src: 'starship/ss08_orbit.mp4', type: 'video', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'Its Starship spacecraft|returned from orbit', highlights: ['orbit'], size: 44, pos: 'upperRight', media: {src: 'starship/ss08_orbit.mp4', type: 'video', effect: 'in'}},
   // 9
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'and was caught|by giant mechanical arms', highlights: ['caught'], size: 44, pos: 'left', media: {src: 'starship/ss09_caught.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'and was caught|by giant mechanical arms', highlights: ['caught'], size: 44, pos: 'left', media: {src: 'starship/ss09_caught.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 54, kind: 'text', reveal: [2], text: 'of its launch tower in Texas.', highlights: ['tower'], size: 42, pos: 'right', media: {src: 'starship/ss10_tower.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'of its launch tower in Texas.', highlights: ['tower'], size: 42, pos: 'right', media: {src: 'starship/ss10_tower.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 78, kind: 'text', reveal: [2, 28], text: 'And this wasn’t|just a short test flight.', highlights: ['short'], size: 44, pos: 'upperLeft', media: {src: 'starship/ss11_testflight.mp4', type: 'video', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'And this wasn’t|just a short test flight.', highlights: ['short'], size: 44, pos: 'upperLeft', media: {src: 'starship/ss11_testflight.mp4', type: 'video', effect: 'in'}},
   // 12
-  {dur: 43, kind: 'text', reveal: [2], text: 'Starship spent more than', highlights: ['Starship'], size: 50, pos: 'lowerRight', media: {src: 'starship/ss12_spent.mp4', type: 'video', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'Starship spent more than', highlights: ['Starship'], size: 50, pos: 'lowerRight', media: {src: 'starship/ss12_spent.mp4', type: 'video', effect: 'in'}},
   // 13 CARD
-  {dur: 68, kind: 'stat', stat: {value: 22, post: 'HOURS IN SPACE'}, media: {src: 'starship/ss13_card22.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'stat', stat: {value: 22, post: 'HOURS IN SPACE'}, media: {src: 'starship/ss13_card22.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 99, kind: 'text', reveal: [2], text: 'completed 14 orbits around Earth,', highlights: ['14'], size: 46, pos: 'upper', media: {src: 'starship/ss14_orbits.mp4', type: 'video', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2], text: 'completed 14 orbits around Earth,', highlights: ['14'], size: 46, pos: 'upper', media: {src: 'starship/ss14_orbits.mp4', type: 'video', effect: 'in'}},
   // 15 CARD
-  {dur: 82, kind: 'stat', stat: {value: 26, post: 'STARLINK SATELLITES'}, media: {src: 'starship/ss15_card26.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'stat', stat: {value: 26, post: 'STARLINK SATELLITES'}, media: {src: 'starship/ss15_card26.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'before coming back|for that historic catch.', highlights: ['historic'], size: 44, pos: 'left', media: {src: 'starship/ss16_historic.mp4', type: 'video', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'before coming back|for that historic catch.', highlights: ['historic'], size: 44, pos: 'left', media: {src: 'starship/ss16_historic.mp4', type: 'video', effect: 'in'}},
   // 17
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'But here’s where|things get interesting.', highlights: ['interesting.'], size: 44, pos: 'right', media: {src: 'starship/ss17_interesting.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'But here’s where|things get interesting.', highlights: ['interesting.'], size: 44, pos: 'right', media: {src: 'starship/ss17_interesting.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 76, kind: 'text', reveal: [2, 28], text: 'SpaceX isn’t just trying|to build a bigger rocket.', highlights: ['bigger'], size: 44, pos: 'lowerLeft', media: {src: 'starship/ss18_bigger.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'SpaceX isn’t just trying|to build a bigger rocket.', highlights: ['bigger'], size: 44, pos: 'lowerLeft', media: {src: 'starship/ss18_bigger.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 37, kind: 'text', reveal: [2], text: 'It’s trying to build a rocket', highlights: ['rocket'], size: 42, pos: 'upperRight', media: {src: 'starship/ss19_buildrocket.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'It’s trying to build a rocket', highlights: ['rocket'], size: 42, pos: 'upperRight', media: {src: 'starship/ss19_buildrocket.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 96, kind: 'text', reveal: [2, 28], text: 'that can be reused|again and again,', highlights: ['reused'], size: 44, pos: 'left', media: {src: 'starship/ss20_reused.mp4', type: 'video', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'that can be reused|again and again,', highlights: ['reused'], size: 44, pos: 'left', media: {src: 'starship/ss20_reused.mp4', type: 'video', effect: 'in'}},
   // 21
-  {dur: 104, kind: 'text', reveal: [2, 28], text: 'making access to space|dramatically cheaper.', highlights: ['cheaper.'], size: 44, pos: 'lowerRight', media: {src: 'starship/ss21_cheaper.mp4', type: 'video', effect: 'in'}},
+  {dur: 94, kind: 'text', reveal: [2, 28], text: 'making access to space|dramatically cheaper.', highlights: ['cheaper.'], size: 44, pos: 'lowerRight', media: {src: 'starship/ss21_cheaper.mp4', type: 'video', effect: 'in'}},
   // 22
-  {dur: 105, kind: 'text', reveal: [2, 28], text: 'And according to Evercore|analyst Kutgun Maral,', highlights: ['Evercore'], size: 44, pos: 'upperLeft', media: {src: 'starship/ss22_evercore.jpg', type: 'img', effect: 'in'}},
+  {dur: 95, kind: 'text', reveal: [2, 28], text: 'And according to Evercore|analyst Kutgun Maral,', highlights: ['Evercore'], size: 44, pos: 'upperLeft', media: {src: 'starship/ss22_evercore.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 111, kind: 'text', reveal: [2, 28], text: 'that’s what could|determine SpaceX’s value.', highlights: ['value.'], size: 44, pos: 'right', media: {src: 'starship/ss23_determine.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'that’s what could|determine SpaceX’s value.', highlights: ['value.'], size: 44, pos: 'right', media: {src: 'starship/ss23_determine.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 129, kind: 'text', reveal: [2, 28], text: 'Not just its next|Starlink contract or AI,', highlights: ['AI,'], size: 44, pos: 'lower', media: {src: 'starship/ss24_aicontract.jpg', type: 'img', effect: 'in'}},
+  {dur: 116, kind: 'text', reveal: [2, 28], text: 'Not just its next|Starlink contract or AI,', highlights: ['AI,'], size: 44, pos: 'lower', media: {src: 'starship/ss24_aicontract.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 61, kind: 'text', reveal: [2], text: 'but how cheaply and frequently', highlights: ['cheaply'], size: 46, pos: 'upperRight', media: {src: 'starship/ss25_cheaply.mp4', type: 'video', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'but how cheaply and frequently', highlights: ['cheaply'], size: 46, pos: 'upperRight', media: {src: 'starship/ss25_cheaply.mp4', type: 'video', effect: 'in'}},
   // 26
-  {dur: 54, kind: 'text', reveal: [2], text: 'it can send payloads into orbit.', highlights: ['payloads'], size: 42, pos: 'lowerLeft', media: {src: 'starship/ss26_payloads.mp4', type: 'video', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'it can send payloads into orbit.', highlights: ['payloads'], size: 42, pos: 'lowerLeft', media: {src: 'starship/ss26_payloads.mp4', type: 'video', effect: 'in'}},
   // 27 RED
-  {dur: 54, kind: 'impact', redBg: true, text: 'Still a|catch.'},
+  {dur: 49, kind: 'impact', redBg: true, text: 'Still a|catch.'},
   // 28
-  {dur: 93, kind: 'text', reveal: [2, 28], text: 'The Super Heavy booster|wasn’t recovered.', highlights: ['booster'], size: 44, pos: 'left', media: {src: 'starship/ss28_booster.mp4', type: 'video', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'The Super Heavy booster|wasn’t recovered.', highlights: ['booster'], size: 44, pos: 'left', media: {src: 'starship/ss28_booster.mp4', type: 'video', effect: 'in'}},
   // 29
-  {dur: 173, kind: 'text', reveal: [2], text: 'SpaceX still has to prove', highlights: ['prove'], size: 46, pos: 'right', media: {src: 'starship/ss29_prove.jpg', type: 'img', effect: 'in'}},
+  {dur: 157, kind: 'text', reveal: [2], text: 'SpaceX still has to prove', highlights: ['prove'], size: 46, pos: 'right', media: {src: 'starship/ss29_prove.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 86, kind: 'text', reveal: [2, 28], text: 'it can reuse|both stages reliably.', highlights: ['reliably.'], size: 44, pos: 'lowerRight', media: {src: 'starship/ss30_stages.mp4', type: 'video', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'it can reuse|both stages reliably.', highlights: ['reliably.'], size: 44, pos: 'lowerRight', media: {src: 'starship/ss30_stages.mp4', type: 'video', effect: 'in'}},
   // 31
-  {dur: 93, kind: 'text', reveal: [2, 28], text: 'Meanwhile, rival|United Launch Alliance', highlights: ['rival'], size: 48, pos: 'upperLeft', media: {src: 'starship/ss31_rival.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'Meanwhile, rival|United Launch Alliance', highlights: ['rival'], size: 48, pos: 'upperLeft', media: {src: 'starship/ss31_rival.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 53, kind: 'text', reveal: [2], text: 'suffered a major setback', highlights: ['setback'], size: 50, pos: 'right', media: {src: 'starship/ss32_setback.mp4', type: 'video', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'suffered a major setback', highlights: ['setback'], size: 50, pos: 'right', media: {src: 'starship/ss32_setback.mp4', type: 'video', effect: 'in'}},
   // 33
-  {dur: 39, kind: 'text', reveal: [2], text: 'when its Vulcan rocket', highlights: ['Vulcan'], size: 50, pos: 'upperRight', media: {src: 'starship/ss33_vulcan.mp4', type: 'video', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'when its Vulcan rocket', highlights: ['Vulcan'], size: 50, pos: 'upperRight', media: {src: 'starship/ss33_vulcan.mp4', type: 'video', effect: 'in'}},
   // 34
-  {dur: 37, kind: 'text', reveal: [2], text: 'failed to deliver', highlights: ['failed'], size: 52, pos: 'left', media: {src: 'starship/ss34_failed.mp4', type: 'video', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'failed to deliver', highlights: ['failed'], size: 52, pos: 'left', media: {src: 'starship/ss34_failed.mp4', type: 'video', effect: 'in'}},
   // 35 CARD
-  {dur: 46, kind: 'stat', stat: {value: 40, post: 'AMAZON LEO SATELLITES'}, media: {src: 'starship/ss35_card40.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'stat', stat: {value: 40, post: 'AMAZON LEO SATELLITES'}, media: {src: 'starship/ss35_card40.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 48, kind: 'text', reveal: [2], text: 'into orbit.', highlights: ['orbit.'], size: 52, pos: 'lowerLeft', media: {src: 'starship/ss36_intoorbit.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'into orbit.', highlights: ['orbit.'], size: 52, pos: 'lowerLeft', media: {src: 'starship/ss36_intoorbit.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 128, kind: 'text', reveal: [2, 28], text: 'So what will make SpaceX|more valuable long term?', highlights: ['valuable'], size: 44, pos: 'upper', media: {src: 'starship/ss37_valuable.mp4', type: 'video', effect: 'in'}},
+  {dur: 117, kind: 'text', reveal: [2, 28], text: 'So what will make SpaceX|more valuable long term?', highlights: ['valuable'], size: 44, pos: 'upper', media: {src: 'starship/ss37_valuable.mp4', type: 'video', effect: 'in'}},
   // 38
-  {dur: 40, kind: 'text', reveal: [2], text: 'Starlink and AI,', highlights: ['AI,'], size: 52, pos: 'right', media: {src: 'starship/ss38_starlinkai.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'Starlink and AI,', highlights: ['AI,'], size: 52, pos: 'right', media: {src: 'starship/ss38_starlinkai.jpg', type: 'img', effect: 'in'}},
   // 39 CTA
-  {dur: 149, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'or reusable rockets, the backbone|of the space industry?', highlights: ['industry?'], size: 46, media: {src: 'starship/ss39_industry.mp4', type: 'video', effect: 'in'}},
+  {dur: 136, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'or reusable rockets, the backbone|of the space industry?', highlights: ['industry?'], size: 46, media: {src: 'starship/ss39_industry.mp4', type: 'video', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1332, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1499, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 2509, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3137, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 3399, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1211, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1363, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2281, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2852, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3090, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
