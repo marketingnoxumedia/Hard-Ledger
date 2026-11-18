@@ -6923,3 +6923,8 @@ pexels stress/st41_fragile.mp4
 9141587 ban/bn41_think.jpg
 30106869 ban/bn42_ready.mp4
 17215135 ban/bn43_longway.mp4
+13244344 ban/bn44_trust.mp4
+3779415 ban/bn45_drive.mp4
+34268861 ban/bn46_fixproblem.mp4
+29749364 ban/bn47_statefreeway.mp4
+4430417 ban/bn48_handle.mp4
