@@ -6928,3 +6928,13 @@ pexels stress/st41_fragile.mp4
 34268861 ban/bn46_fixproblem.mp4
 29749364 ban/bn47_statefreeway.mp4
 4430417 ban/bn48_handle.mp4
+35186909 ban/bn49_situation.mp4
+40541811 ban/bn50_world.mp4
+31767906 ban/bn51_business.mp4
+33763771 ban/bn52_operating.mp4
+9977360 ban/bn53_statetest.mp4
+10029631 ban/bn54_trafficbreak.mp4
+11178810 ban/bn55_commercial.mp4
+6611949 ban/bn56_customers.mp4
+6529464 ban/bn57_humandrivers.mp4
+36079508 ban/bn58_autonomous.mp4
