@@ -104,95 +104,100 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Finally launch day—|then you can’t download it.', kicker: 'The stress test', highlights: ['download'], size: 48, media: {src: 'stress/st00_launchday.mp4', type: 'video', effect: 'in'}},
+  {dur: 228, kind: 'hook', reveal: [3, 40], text: 'Finally launch day—|then you can’t download it.', kicker: 'The stress test', highlights: ['download'], size: 48, media: {src: 'stress/st00_launchday.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'That’s the problem tech companies|are preparing for.', highlights: ['preparing'], size: 44, pos: 'upperRight', media: {src: 'stress/st01_prepare.mp4', type: 'video', effect: 'in'}},
+  {dur: 113, kind: 'text', reveal: [2, 28], text: 'That’s the problem tech companies|are preparing for.', highlights: ['preparing'], size: 44, pos: 'upperRight', media: {src: 'stress/st01_prepare.mp4', type: 'video', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'GTA VI isn’t just|another game release.', highlights: ['just'], size: 44, pos: 'left', media: {src: 'stress/st02_notjust.jpg', type: 'img', effect: 'in'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'GTA VI isn’t just|another game release.', highlights: ['just'], size: 44, pos: 'left', media: {src: 'stress/st02_notjust.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It’s a massive test|of the internet itself.', highlights: ['test'], size: 44, pos: 'lowerRight', media: {src: 'stress/st03_test.mp4', type: 'video', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'It’s a massive test|of the internet itself.', highlights: ['test'], size: 44, pos: 'lowerRight', media: {src: 'stress/st03_test.mp4', type: 'video', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The biggest question isn’t|whether people will play it.', highlights: ['question'], size: 44, pos: 'upperLeft', media: {src: 'stress/st04_question.mp4', type: 'video', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'The biggest question isn’t|whether people will play it.', highlights: ['question'], size: 44, pos: 'upperLeft', media: {src: 'stress/st04_question.mp4', type: 'video', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It’s whether the infrastructure|can handle everyone at once.', highlights: ['handle'], size: 44, pos: 'right', media: {src: 'stress/st05_handle.mp4', type: 'video', effect: 'in'}},
+  {dur: 139, kind: 'text', reveal: [2, 28], text: 'It’s whether the infrastructure|can handle everyone at once.', highlights: ['handle'], size: 44, pos: 'right', media: {src: 'stress/st05_handle.mp4', type: 'video', effect: 'in'}},
   // 6 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more|tech and business stories.', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'stress/st06_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 167, kind: 'text', reveal: [2], text: 'Follow for more|tech and business stories.', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'stress/st06_follow.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Grand Theft Auto VI|launches Thursday,', highlights: ['Thursday,'], size: 44, pos: 'lowerLeft', media: {src: 'stress/st07_launches.mp4', type: 'video', effect: 'in'}},
+  {dur: 111, kind: 'text', reveal: [2, 28], text: 'Grand Theft Auto VI|launches Thursday,', highlights: ['Thursday,'], size: 44, pos: 'lowerLeft', media: {src: 'stress/st07_launches.mp4', type: 'video', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'November 19,', highlights: ['November'], size: 52, pos: 'upperRight', media: {src: 'stress/st08_nov19.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'November 19,', highlights: ['November'], size: 52, pos: 'upperRight', media: {src: 'stress/st08_nov19.jpg', type: 'img', effect: 'in'}},
   // 9 CARD
-  {dur: 70, kind: 'stat', stat: {value: 13, suffix: ' YRS', post: 'SINCE GTA V'}, media: {src: 'stress/st09_card13.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'stat', stat: {value: 13, suffix: ' YRS', post: 'SINCE GTA V'}, media: {src: 'stress/st09_card13.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'since GTA V arrived in 2013.', highlights: ['2013.'], size: 42, pos: 'left', media: {src: 'stress/st10_2013.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'since GTA V arrived in 2013.', highlights: ['2013.'], size: 42, pos: 'left', media: {src: 'stress/st10_2013.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the excitement|is already enormous.', highlights: ['enormous.'], size: 44, pos: 'right', media: {src: 'stress/st11_excitement.mp4', type: 'video', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'And the excitement|is already enormous.', highlights: ['enormous.'], size: 44, pos: 'right', media: {src: 'stress/st11_excitement.mp4', type: 'video', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Sony and Microsoft|reportedly call it', highlights: ['Sony'], size: 44, pos: 'upperLeft', media: {src: 'stress/st12_sonymsft.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Sony and Microsoft|reportedly call it', highlights: ['Sony'], size: 44, pos: 'upperLeft', media: {src: 'stress/st12_sonymsft.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'the most pre-ordered game ever.', highlights: ['pre-ordered'], size: 46, pos: 'lowerRight', media: {src: 'stress/st13_mostpre.mp4', type: 'video', effect: 'in'}},
+  {dur: 142, kind: 'text', reveal: [2], text: 'the most pre-ordered game ever.', highlights: ['pre-ordered'], size: 46, pos: 'lowerRight', media: {src: 'stress/st13_mostpre.mp4', type: 'video', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'By late last week, estimates', highlights: ['estimates'], size: 46, pos: 'upper', media: {src: 'stress/st14_bylate.mp4', type: 'video', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'By late last week, estimates', highlights: ['estimates'], size: 46, pos: 'upper', media: {src: 'stress/st14_bylate.mp4', type: 'video', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'suggested more than', highlights: ['more'], size: 52, pos: 'left', media: {src: 'stress/st15_suggest.mp4', type: 'video', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'suggested more than', highlights: ['more'], size: 52, pos: 'left', media: {src: 'stress/st15_suggest.mp4', type: 'video', effect: 'in'}},
   // 16 CARD
-  {dur: 70, kind: 'stat', stat: {value: 11, suffix: ' MILLION', post: 'COPIES PRE-SOLD'}, media: {src: 'stress/st16_card11.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {value: 11, suffix: ' MILLION', post: 'COPIES PRE-SOLD'}, media: {src: 'stress/st16_card11.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'copies sold through pre-orders,', highlights: ['pre-orders,'], size: 50, pos: 'right', media: {src: 'stress/st17_copies.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2], text: 'copies sold through pre-orders,', highlights: ['pre-orders,'], size: 50, pos: 'right', media: {src: 'stress/st17_copies.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'generating over', highlights: ['generating'], size: 52, pos: 'lowerLeft', media: {src: 'stress/st18_generating.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'generating over', highlights: ['generating'], size: 52, pos: 'lowerLeft', media: {src: 'stress/st18_generating.jpg', type: 'img', effect: 'in'}},
   // 19 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 1, suffix: ' BILLION', post: 'IN PRE-ORDERS'}, media: {src: 'stress/st19_card1b.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'stat', stat: {prefix: '$', value: 1, suffix: ' BILLION', post: 'IN PRE-ORDERS'}, media: {src: 'stress/st19_card1b.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And players have already|started downloading.', highlights: ['downloading.'], size: 44, pos: 'upperRight', media: {src: 'stress/st20_downloading.mp4', type: 'video', effect: 'in'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'And players have already|started downloading.', highlights: ['downloading.'], size: 44, pos: 'upperRight', media: {src: 'stress/st20_downloading.mp4', type: 'video', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But those downloads are|pressuring internet networks.', highlights: ['pressuring'], size: 44, pos: 'left', media: {src: 'stress/st21_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 139, kind: 'text', reveal: [2, 28], text: 'But those downloads are|pressuring internet networks.', highlights: ['pressuring'], size: 44, pos: 'left', media: {src: 'stress/st21_pressure.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Cybersecurity expert|Arun Vishwanath says', highlights: ['Cybersecurity'], size: 48, pos: 'lowerRight', media: {src: 'stress/st22_expert.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'Cybersecurity expert|Arun Vishwanath says', highlights: ['Cybersecurity'], size: 48, pos: 'lowerRight', media: {src: 'stress/st22_expert.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'the bigger challenge comes', highlights: ['bigger'], size: 50, pos: 'upperLeft', media: {src: 'stress/st23_bigger.mp4', type: 'video', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'the bigger challenge comes', highlights: ['bigger'], size: 50, pos: 'upperLeft', media: {src: 'stress/st23_bigger.mp4', type: 'video', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'when the game becomes playable', highlights: ['playable'], size: 46, pos: 'right', media: {src: 'stress/st24_playable.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'when the game becomes playable', highlights: ['playable'], size: 46, pos: 'right', media: {src: 'stress/st24_playable.jpg', type: 'img', effect: 'in'}},
   // 25 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Everyone,|at once.'},
+  {dur: 38, kind: 'impact', redBg: true, text: 'Everyone,|at once.'},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'millions trying to access it|at the same time.', highlights: ['millions'], size: 44, pos: 'lower', media: {src: 'stress/st26_millions.mp4', type: 'video', effect: 'in'}},
+  {dur: 115, kind: 'text', reveal: [2, 28], text: 'millions trying to access it|at the same time.', highlights: ['millions'], size: 44, pos: 'lower', media: {src: 'stress/st26_millions.mp4', type: 'video', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Internet providers believe|they have enough capacity.', highlights: ['capacity.'], size: 44, pos: 'upperRight', media: {src: 'stress/st27_providers.jpg', type: 'img', effect: 'in'}},
+  {dur: 124, kind: 'text', reveal: [2, 28], text: 'Internet providers believe|they have enough capacity.', highlights: ['capacity.'], size: 44, pos: 'upperRight', media: {src: 'stress/st27_providers.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But localized slowdowns|could still happen.', highlights: ['slowdowns'], size: 44, pos: 'lowerLeft', media: {src: 'stress/st28_slowdowns.mp4', type: 'video', effect: 'in'}},
+  {dur: 119, kind: 'text', reveal: [2, 28], text: 'But localized slowdowns|could still happen.', highlights: ['slowdowns'], size: 44, pos: 'lowerLeft', media: {src: 'stress/st28_slowdowns.mp4', type: 'video', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the risks aren’t limited|to internet connections.', highlights: ['risks'], size: 44, pos: 'left', media: {src: 'stress/st29_notlimited.mp4', type: 'video', effect: 'in'}},
+  {dur: 93, kind: 'text', reveal: [2, 28], text: 'And the risks aren’t limited|to internet connections.', highlights: ['risks'], size: 44, pos: 'left', media: {src: 'stress/st29_notlimited.mp4', type: 'video', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Cybercriminals could|exploit the excitement', highlights: ['Cybercriminals'], size: 48, pos: 'right', media: {src: 'stress/st30_criminals.mp4', type: 'video', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'Cybercriminals could|exploit the excitement', highlights: ['Cybercriminals'], size: 48, pos: 'right', media: {src: 'stress/st30_criminals.mp4', type: 'video', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'with fake early access,', highlights: ['fake'], size: 50, pos: 'lowerRight', media: {src: 'stress/st31_fake.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2], text: 'with fake early access,', highlights: ['fake'], size: 50, pos: 'lowerRight', media: {src: 'stress/st31_fake.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'suspicious discounts,|or fraudulent downloads.', highlights: ['fraudulent'], size: 48, pos: 'upperLeft', media: {src: 'stress/st32_fraud.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'text', reveal: [2, 28], text: 'suspicious discounts,|or fraudulent downloads.', highlights: ['fraudulent'], size: 48, pos: 'upperLeft', media: {src: 'stress/st32_fraud.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Rockstar itself|was hacked in 2022,', highlights: ['hacked'], size: 44, pos: 'right', media: {src: 'stress/st33_hacked.mp4', type: 'video', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'Rockstar itself|was hacked in 2022,', highlights: ['hacked'], size: 44, pos: 'right', media: {src: 'stress/st33_hacked.mp4', type: 'video', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'when attackers used|social engineering', highlights: ['social'], size: 48, pos: 'upperRight', media: {src: 'stress/st34_social.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'when attackers used|social engineering', highlights: ['social'], size: 48, pos: 'upperRight', media: {src: 'stress/st34_social.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to obtain and release|early game footage.', highlights: ['release'], size: 44, pos: 'left', media: {src: 'stress/st35_leaked.mp4', type: 'video', effect: 'in'}},
+  {dur: 106, kind: 'text', reveal: [2, 28], text: 'to obtain and release|early game footage.', highlights: ['release'], size: 44, pos: 'left', media: {src: 'stress/st35_leaked.mp4', type: 'video', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'The advice is simple:', highlights: ['advice'], size: 50, pos: 'lowerLeft', media: {src: 'stress/st36_advice.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'The advice is simple:', highlights: ['advice'], size: 50, pos: 'lowerLeft', media: {src: 'stress/st36_advice.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2], text: 'avoid unofficial offers,', highlights: ['avoid'], size: 52, pos: 'upper', media: {src: 'stress/st37_avoid.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'avoid unofficial offers,', highlights: ['avoid'], size: 52, pos: 'upper', media: {src: 'stress/st37_avoid.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'download only through|official stores.', highlights: ['official'], size: 48, pos: 'right', media: {src: 'stress/st38_official.jpg', type: 'img', effect: 'in'}},
+  {dur: 143, kind: 'text', reveal: [2, 28], text: 'download only through|official stores.', highlights: ['official'], size: 48, pos: 'right', media: {src: 'stress/st38_official.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: ['think?'], size: 46, pos: 'lowerRight', media: {src: 'stress/st39_sowhat.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: ['think?'], size: 46, pos: 'lowerRight', media: {src: 'stress/st39_sowhat.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Is the internet ready|for the biggest launch ever?', highlights: ['ready'], size: 44, pos: 'upperLeft', media: {src: 'stress/st40_ready.mp4', type: 'video', effect: 'in'}},
+  {dur: 103, kind: 'text', reveal: [2, 28], text: 'Is the internet ready|for the biggest launch ever?', highlights: ['ready'], size: 44, pos: 'upperLeft', media: {src: 'stress/st40_ready.mp4', type: 'video', effect: 'in'}},
   // 41 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Or could millions expose|how fragile our infrastructure is?', highlights: ['fragile'], size: 46, media: {src: 'stress/st41_fragile.mp4', type: 'video', effect: 'in'}},
+  {dur: 166, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Or could millions expose|how fragile our infrastructure is?', highlights: ['fragile'], size: 46, media: {src: 'stress/st41_fragile.mp4', type: 'video', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1117, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1641, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1810, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2273, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3649, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
