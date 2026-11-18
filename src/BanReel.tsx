@@ -108,136 +108,136 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 86, kind: 'hook', reveal: [3, 40], text: 'Imagine getting into|a self-driving taxi,', kicker: 'The ban', highlights: ['self-driving'], size: 48, media: {src: 'ban/bn00_taxi.mp4', type: 'video', effect: 'in'}},
+  {dur: 79, kind: 'hook', reveal: [3, 40], text: 'Imagine getting into|a self-driving taxi,', kicker: 'The ban', highlights: ['self-driving'], size: 48, media: {src: 'ban/bn00_taxi.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 99, kind: 'text', reveal: [2, 28], text: 'trusting it to take you|safely to your destination,', highlights: ['safely'], size: 44, pos: 'upperRight', media: {src: 'ban/bn44_trust.mp4', type: 'video', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'trusting it to take you|safely to your destination,', highlights: ['safely'], size: 44, pos: 'upperRight', media: {src: 'ban/bn44_trust.mp4', type: 'video', effect: 'in'}},
   // 2
-  {dur: 52, kind: 'text', reveal: [2], text: 'and then watching it drive', highlights: ['watching'], size: 46, pos: 'left', media: {src: 'ban/bn45_drive.mp4', type: 'video', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'and then watching it drive', highlights: ['watching'], size: 46, pos: 'left', media: {src: 'ban/bn45_drive.mp4', type: 'video', effect: 'in'}},
   // 3
-  {dur: 87, kind: 'text', reveal: [2, 28], text: 'straight into an active|construction zone.', highlights: ['construction'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn00_zone.mp4', type: 'video', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'straight into an active|construction zone.', highlights: ['construction'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn00_zone.mp4', type: 'video', effect: 'in'}},
   // 4
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'That’s exactly the kind|of situation', highlights: ['situation'], size: 44, pos: 'upperLeft', media: {src: 'ban/bn49_situation.mp4', type: 'video', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'That’s exactly the kind|of situation', highlights: ['situation'], size: 44, pos: 'upperLeft', media: {src: 'ban/bn49_situation.mp4', type: 'video', effect: 'in'}},
   // 5
-  {dur: 71, kind: 'text', reveal: [2, 28], text: 'putting Waymo under pressure|right now.', highlights: ['pressure'], size: 44, pos: 'right', media: {src: 'ban/bn01_pressure.mp4', type: 'video', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'putting Waymo under pressure|right now.', highlights: ['pressure'], size: 44, pos: 'right', media: {src: 'ban/bn01_pressure.mp4', type: 'video', effect: 'in'}},
   // 6
-  {dur: 48, kind: 'text', reveal: [2, 28], text: 'And what’s even|more surprising', highlights: ['surprising'], size: 48, pos: 'lower', media: {src: 'ban/bn02_surprising.mp4', type: 'video', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'And what’s even|more surprising', highlights: ['surprising'], size: 48, pos: 'lower', media: {src: 'ban/bn02_surprising.mp4', type: 'video', effect: 'in'}},
   // 7
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'is that California didn’t|just tell the company', highlights: ['tell'], size: 44, pos: 'lowerLeft', media: {src: 'ban/bn03_fix.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'is that California didn’t|just tell the company', highlights: ['tell'], size: 44, pos: 'lowerLeft', media: {src: 'ban/bn03_fix.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 44, kind: 'text', reveal: [2], text: 'to fix the problem.', highlights: ['fix'], size: 50, pos: 'upperRight', media: {src: 'ban/bn46_fixproblem.mp4', type: 'video', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'to fix the problem.', highlights: ['fix'], size: 50, pos: 'upperRight', media: {src: 'ban/bn46_fixproblem.mp4', type: 'video', effect: 'in'}},
   // 9
-  {dur: 76, kind: 'text', reveal: [2, 28], text: 'It ordered Waymo’s|driverless vehicles', highlights: ['driverless'], size: 48, pos: 'left', media: {src: 'ban/bn04_off.mp4', type: 'video', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'It ordered Waymo’s|driverless vehicles', highlights: ['driverless'], size: 48, pos: 'left', media: {src: 'ban/bn04_off.mp4', type: 'video', effect: 'in'}},
   // 10
-  {dur: 45, kind: 'text', reveal: [2], text: 'off the state’s freeways.', highlights: ['freeways.'], size: 50, pos: 'right', media: {src: 'ban/bn47_statefreeway.mp4', type: 'video', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'off the state’s freeways.', highlights: ['freeways.'], size: 50, pos: 'right', media: {src: 'ban/bn47_statefreeway.mp4', type: 'video', effect: 'in'}},
   // 11
-  {dur: 117, kind: 'text', reveal: [2, 28], text: 'But the consequences are now|spreading beyond California.', highlights: ['spreading'], size: 44, pos: 'upperLeft', media: {src: 'ban/bn05_spreading.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'text', reveal: [2, 28], text: 'But the consequences are now|spreading beyond California.', highlights: ['spreading'], size: 44, pos: 'upperLeft', media: {src: 'ban/bn05_spreading.jpg', type: 'img', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 90, kind: 'text', reveal: [2], text: 'Follow for more stories|about the technology', highlights: ['follow'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn06_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2], text: 'Follow for more stories|about the technology', highlights: ['follow'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn06_follow.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 63, kind: 'text', reveal: [2, 28], text: 'and companies|changing our world.', highlights: ['world.'], size: 48, pos: 'upper', media: {src: 'ban/bn50_world.mp4', type: 'video', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'and companies|changing our world.', highlights: ['world.'], size: 48, pos: 'upper', media: {src: 'ban/bn50_world.mp4', type: 'video', effect: 'in'}},
   // 14
-  {dur: 56, kind: 'text', reveal: [2, 28], text: 'Waymo — Google’s|parent company', highlights: ['parent'], size: 48, pos: 'left', media: {src: 'ban/bn07_alphabet.mp4', type: 'video', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'Waymo — Google’s|parent company', highlights: ['parent'], size: 48, pos: 'left', media: {src: 'ban/bn07_alphabet.mp4', type: 'video', effect: 'in'}},
   // 15
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'Alphabet’s autonomous-driving|business,', highlights: ['business,'], size: 52, pos: 'right', media: {src: 'ban/bn51_business.mp4', type: 'video', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2, 28], text: 'Alphabet’s autonomous-driving|business,', highlights: ['business,'], size: 52, pos: 'right', media: {src: 'ban/bn51_business.mp4', type: 'video', effect: 'in'}},
   // 16
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'has temporarily restricted|its robotaxis', highlights: ['restricted'], size: 48, pos: 'lowerLeft', media: {src: 'ban/bn08_restricted.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'has temporarily restricted|its robotaxis', highlights: ['restricted'], size: 48, pos: 'lowerLeft', media: {src: 'ban/bn08_restricted.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 51, kind: 'text', reveal: [2], text: 'from operating on freeways', highlights: ['operating'], size: 50, pos: 'upperRight', media: {src: 'ban/bn52_operating.mp4', type: 'video', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'from operating on freeways', highlights: ['operating'], size: 50, pos: 'upperRight', media: {src: 'ban/bn52_operating.mp4', type: 'video', effect: 'in'}},
   // 18
-  {dur: 58, kind: 'text', reveal: [2], text: 'across the United States.', highlights: ['States.'], size: 50, pos: 'left', media: {src: 'ban/bn09_usfreeways.mp4', type: 'video', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'across the United States.', highlights: ['States.'], size: 50, pos: 'left', media: {src: 'ban/bn09_usfreeways.mp4', type: 'video', effect: 'in'}},
   // 19
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'This comes after|California regulators', highlights: ['regulators'], size: 48, pos: 'lowerRight', media: {src: 'ban/bn10_stop.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'This comes after|California regulators', highlights: ['regulators'], size: 48, pos: 'lowerRight', media: {src: 'ban/bn10_stop.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 91, kind: 'text', reveal: [2, 28], text: 'ordered the company to stop|operating and testing', highlights: ['stop'], size: 44, pos: 'upperLeft', media: {src: 'ban/bn11_testing.mp4', type: 'video', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'ordered the company to stop|operating and testing', highlights: ['stop'], size: 44, pos: 'upperLeft', media: {src: 'ban/bn11_testing.mp4', type: 'video', effect: 'in'}},
   // 21
-  {dur: 101, kind: 'text', reveal: [2, 28], text: 'its driverless vehicles|on state freeways.', highlights: ['state'], size: 44, pos: 'right', media: {src: 'ban/bn53_statetest.mp4', type: 'video', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'its driverless vehicles|on state freeways.', highlights: ['state'], size: 44, pos: 'right', media: {src: 'ban/bn53_statetest.mp4', type: 'video', effect: 'in'}},
   // 22
-  {dur: 30, kind: 'text', reveal: [2], text: 'So what went wrong?', highlights: ['wrong?'], size: 50, pos: 'lower', media: {src: 'ban/bn12_wrong.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'So what went wrong?', highlights: ['wrong?'], size: 50, pos: 'lower', media: {src: 'ban/bn12_wrong.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 88, kind: 'text', reveal: [2, 28], text: 'The California DMV|pointed to an incident', highlights: ['DMV'], size: 44, pos: 'upperRight', media: {src: 'ban/bn13_dmv.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'The California DMV|pointed to an incident', highlights: ['DMV'], size: 44, pos: 'upperRight', media: {src: 'ban/bn13_dmv.jpg', type: 'img', effect: 'in'}},
   // 24 CARD
-  {dur: 53, kind: 'stat', stat: {value: 3, post: 'WAYMO VEHICLES'}, media: {src: 'ban/bn14_card3.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'stat', stat: {value: 3, post: 'WAYMO VEHICLES'}, media: {src: 'ban/bn14_card3.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 66, kind: 'text', reveal: [2, 28], text: 'entered an active|construction zone', highlights: ['construction'], size: 48, pos: 'lowerLeft', media: {src: 'ban/bn15_entered.mp4', type: 'video', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2, 28], text: 'entered an active|construction zone', highlights: ['construction'], size: 48, pos: 'lowerLeft', media: {src: 'ban/bn15_entered.mp4', type: 'video', effect: 'in'}},
   // 26 CARD
-  {dur: 73, kind: 'stat', stat: {pre: 'HIGHWAY', value: 101, post: 'NEAR BURLINGAME'}, media: {src: 'ban/bn16_card101.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'stat', stat: {pre: 'HIGHWAY', value: 101, post: 'NEAR BURLINGAME'}, media: {src: 'ban/bn16_card101.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 107, kind: 'text', reveal: [2, 28], text: 'putting workers, equipment,|and other vehicles at risk.', highlights: ['risk.'], size: 44, pos: 'left', media: {src: 'ban/bn17_risk.mp4', type: 'video', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 28], text: 'putting workers, equipment,|and other vehicles at risk.', highlights: ['risk.'], size: 44, pos: 'left', media: {src: 'ban/bn17_risk.mp4', type: 'video', effect: 'in'}},
   // 28
-  {dur: 85, kind: 'text', reveal: [2, 28], text: 'Another incident involved|a Waymo vehicle', highlights: ['Another'], size: 44, pos: 'right', media: {src: 'ban/bn18_another.mp4', type: 'video', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'Another incident involved|a Waymo vehicle', highlights: ['Another'], size: 44, pos: 'right', media: {src: 'ban/bn18_another.mp4', type: 'video', effect: 'in'}},
   // 29
-  {dur: 107, kind: 'text', reveal: [2, 28], text: 'attempting to pass|California Highway Patrol cars', highlights: ['pass'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn19_pass.mp4', type: 'video', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 28], text: 'attempting to pass|California Highway Patrol cars', highlights: ['pass'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn19_pass.mp4', type: 'video', effect: 'in'}},
   // 30
-  {dur: 39, kind: 'text', reveal: [2], text: 'conducting a traffic break', highlights: ['break'], size: 50, pos: 'upperLeft', media: {src: 'ban/bn54_trafficbreak.mp4', type: 'video', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'conducting a traffic break', highlights: ['break'], size: 50, pos: 'upperLeft', media: {src: 'ban/bn54_trafficbreak.mp4', type: 'video', effect: 'in'}},
   // 31
-  {dur: 57, kind: 'text', reveal: [2], text: 'on Interstate 280.', highlights: ['280.'], size: 52, pos: 'right', media: {src: 'ban/bn20_i280.mp4', type: 'video', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'on Interstate 280.', highlights: ['280.'], size: 52, pos: 'right', media: {src: 'ban/bn20_i280.mp4', type: 'video', effect: 'in'}},
   // 32
-  {dur: 78, kind: 'text', reveal: [2, 28], text: 'And this wasn’t just|a local restriction.', highlights: ['local'], size: 44, pos: 'upperRight', media: {src: 'ban/bn21_local.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'And this wasn’t just|a local restriction.', highlights: ['local'], size: 44, pos: 'upperRight', media: {src: 'ban/bn21_local.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 95, kind: 'text', reveal: [2, 28], text: 'Waymo responded by|temporarily suspending', highlights: ['suspending'], size: 48, pos: 'left', media: {src: 'ban/bn22_suspended.mp4', type: 'video', effect: 'in'}},
+  {dur: 87, kind: 'text', reveal: [2, 28], text: 'Waymo responded by|temporarily suspending', highlights: ['suspending'], size: 48, pos: 'left', media: {src: 'ban/bn22_suspended.mp4', type: 'video', effect: 'in'}},
   // 34
-  {dur: 42, kind: 'text', reveal: [2], text: 'commercial freeway rides', highlights: ['commercial'], size: 52, pos: 'lowerLeft', media: {src: 'ban/bn55_commercial.mp4', type: 'video', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'commercial freeway rides', highlights: ['commercial'], size: 52, pos: 'lowerLeft', media: {src: 'ban/bn55_commercial.mp4', type: 'video', effect: 'in'}},
   // 35
-  {dur: 99, kind: 'text', reveal: [2, 28], text: 'across all the markets|where it offers that service,', highlights: ['markets'], size: 44, pos: 'upper', media: {src: 'ban/bn23_markets.mp4', type: 'video', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'across all the markets|where it offers that service,', highlights: ['markets'], size: 44, pos: 'upper', media: {src: 'ban/bn23_markets.mp4', type: 'video', effect: 'in'}},
   // 36
-  {dur: 85, kind: 'text', reveal: [2, 28], text: 'including cities|outside California.', highlights: ['outside'], size: 50, pos: 'right', media: {src: 'ban/bn24_outside.mp4', type: 'video', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'including cities|outside California.', highlights: ['outside'], size: 50, pos: 'right', media: {src: 'ban/bn24_outside.mp4', type: 'video', effect: 'in'}},
   // 37
-  {dur: 74, kind: 'text', reveal: [2, 28], text: 'That means customers|can still use Waymo', highlights: ['customers'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn56_customers.mp4', type: 'video', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'That means customers|can still use Waymo', highlights: ['customers'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn56_customers.mp4', type: 'video', effect: 'in'}},
   // 38
-  {dur: 35, kind: 'text', reveal: [2], text: 'on surface streets,', highlights: ['surface'], size: 52, pos: 'upperLeft', media: {src: 'ban/bn25_surface.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'on surface streets,', highlights: ['surface'], size: 52, pos: 'upperLeft', media: {src: 'ban/bn25_surface.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 110, kind: 'text', reveal: [2, 28], text: 'but freeway rides are|temporarily off the table.', highlights: ['off'], size: 44, pos: 'left', media: {src: 'ban/bn26_offtable.mp4', type: 'video', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'but freeway rides are|temporarily off the table.', highlights: ['off'], size: 44, pos: 'left', media: {src: 'ban/bn26_offtable.mp4', type: 'video', effect: 'in'}},
   // 40
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'The company says|it is evaluating its performance', highlights: ['evaluating'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn27_evaluating.mp4', type: 'video', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'The company says|it is evaluating its performance', highlights: ['evaluating'], size: 44, pos: 'lowerRight', media: {src: 'ban/bn27_evaluating.mp4', type: 'video', effect: 'in'}},
   // 41
-  {dur: 108, kind: 'text', reveal: [2, 28], text: 'and working with regulators|to restore freeway operations.', highlights: ['regulators'], size: 44, pos: 'upperRight', media: {src: 'ban/bn28_restore.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', reveal: [2, 28], text: 'and working with regulators|to restore freeway operations.', highlights: ['regulators'], size: 44, pos: 'upperRight', media: {src: 'ban/bn28_restore.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 33, kind: 'text', reveal: [2], text: 'Here’s the bigger problem:', highlights: ['bigger'], size: 50, pos: 'right', media: {src: 'ban/bn29_problem.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'Here’s the bigger problem:', highlights: ['bigger'], size: 50, pos: 'right', media: {src: 'ban/bn29_problem.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 57, kind: 'text', reveal: [2, 28], text: 'the DMV says|these vehicles pose', highlights: ['pose'], size: 44, pos: 'lowerLeft', media: {src: 'ban/bn30_dmvsays.jpg', type: 'img', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'the DMV says|these vehicles pose', highlights: ['pose'], size: 44, pos: 'lowerLeft', media: {src: 'ban/bn30_dmvsays.jpg', type: 'img', effect: 'in'}},
   // 44 RED
-  {dur: 57, kind: 'impact', redBg: true, text: 'An imminent|hazard.'},
+  {dur: 52, kind: 'impact', redBg: true, text: 'An imminent|hazard.'},
   // 45
-  {dur: 35, kind: 'text', reveal: [2], text: 'to public safety,', highlights: ['safety,'], size: 52, pos: 'left', media: {src: 'ban/bn32_safety.mp4', type: 'video', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'to public safety,', highlights: ['safety,'], size: 52, pos: 'left', media: {src: 'ban/bn32_safety.mp4', type: 'video', effect: 'in'}},
   // 46
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'because of recurring|construction-zone incidents.', highlights: ['recurring'], size: 48, pos: 'upperRight', media: {src: 'ban/bn33_recurring.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'because of recurring|construction-zone incidents.', highlights: ['recurring'], size: 48, pos: 'upperRight', media: {src: 'ban/bn33_recurring.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 42, kind: 'text', reveal: [2, 28], text: 'And this isn’t|the first time', highlights: ['first'], size: 44, pos: 'lower', media: {src: 'ban/bn34_firsttime.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], text: 'And this isn’t|the first time', highlights: ['first'], size: 44, pos: 'lower', media: {src: 'ban/bn34_firsttime.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'Waymo has faced|restrictions', highlights: ['restrictions'], size: 50, pos: 'right', media: {src: 'ban/bn35_restrictions.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'Waymo has faced|restrictions', highlights: ['restrictions'], size: 50, pos: 'right', media: {src: 'ban/bn35_restrictions.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 94, kind: 'text', reveal: [2, 28], text: 'over how its cars|handle road construction.', highlights: ['construction.'], size: 44, pos: 'upperLeft', media: {src: 'ban/bn48_handle.mp4', type: 'video', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'over how its cars|handle road construction.', highlights: ['construction.'], size: 44, pos: 'upperLeft', media: {src: 'ban/bn48_handle.mp4', type: 'video', effect: 'in'}},
   // 50
-  {dur: 77, kind: 'text', reveal: [2, 28], text: 'The latest incidents|reportedly involved', highlights: ['latest'], size: 48, pos: 'lowerRight', media: {src: 'ban/bn36_latest.mp4', type: 'video', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The latest incidents|reportedly involved', highlights: ['latest'], size: 48, pos: 'lowerRight', media: {src: 'ban/bn36_latest.mp4', type: 'video', effect: 'in'}},
   // 51 CARD
-  {dur: 58, kind: 'stat', stat: {value: 0, post: 'INJURIES OR COLLISIONS'}, media: {src: 'ban/bn37_card0.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'stat', stat: {value: 0, post: 'INJURIES OR COLLISIONS'}, media: {src: 'ban/bn37_card0.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 49, kind: 'text', reveal: [2], text: 'but regulators want proof', highlights: ['proof'], size: 50, pos: 'left', media: {src: 'ban/bn38_proof.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'but regulators want proof', highlights: ['proof'], size: 50, pos: 'left', media: {src: 'ban/bn38_proof.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'that the company has fixed|the underlying problems', highlights: ['fixed'], size: 44, pos: 'right', media: {src: 'ban/bn39_fixed.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'that the company has fixed|the underlying problems', highlights: ['fixed'], size: 44, pos: 'right', media: {src: 'ban/bn39_fixed.jpg', type: 'img', effect: 'in'}},
   // 54
-  {dur: 121, kind: 'text', reveal: [2, 28], text: 'before allowing driverless|freeway operations again.', highlights: ['driverless'], size: 44, pos: 'upperRight', media: {src: 'ban/bn40_return.mp4', type: 'video', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'before allowing driverless|freeway operations again.', highlights: ['driverless'], size: 44, pos: 'upperRight', media: {src: 'ban/bn40_return.mp4', type: 'video', effect: 'in'}},
   // 55
-  {dur: 41, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: ['think?'], size: 46, pos: 'lowerLeft', media: {src: 'ban/bn41_think.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'So what do you think?', highlights: ['think?'], size: 46, pos: 'lowerLeft', media: {src: 'ban/bn41_think.jpg', type: 'img', effect: 'in'}},
   // 56
-  {dur: 49, kind: 'text', reveal: [2], text: 'Are self-driving taxis ready', highlights: ['ready'], size: 50, pos: 'upperLeft', media: {src: 'ban/bn42_ready.mp4', type: 'video', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'Are self-driving taxis ready', highlights: ['ready'], size: 50, pos: 'upperLeft', media: {src: 'ban/bn42_ready.mp4', type: 'video', effect: 'in'}},
   // 57
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'to share the highway|with human drivers,', highlights: ['human'], size: 44, pos: 'right', media: {src: 'ban/bn57_humandrivers.mp4', type: 'video', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'to share the highway|with human drivers,', highlights: ['human'], size: 44, pos: 'right', media: {src: 'ban/bn57_humandrivers.mp4', type: 'video', effect: 'in'}},
   // 58
-  {dur: 79, kind: 'text', reveal: [2, 28], text: 'or is this proof|that autonomous technology', highlights: ['autonomous'], size: 44, pos: 'lower', media: {src: 'ban/bn58_autonomous.mp4', type: 'video', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'or is this proof|that autonomous technology', highlights: ['autonomous'], size: 44, pos: 'lower', media: {src: 'ban/bn58_autonomous.mp4', type: 'video', effect: 'in'}},
   // 59 CTA
-  {dur: 67, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'still has a long|way to go?', highlights: ['go?'], size: 46, media: {src: 'ban/bn43_longway.mp4', type: 'video', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'still has a long|way to go?', highlights: ['go?'], size: 46, media: {src: 'ban/bn43_longway.mp4', type: 'video', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 1767, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1886, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 3260, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 3717, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 4264, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 1607, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1715, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2964, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 3379, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 3876, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
