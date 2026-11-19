@@ -104,78 +104,78 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 59, kind: 'hook', reveal: [3, 40], text: 'Walmart is getting hit', kicker: 'The squeeze', highlights: ['hit'], size: 54, media: {src: 'squeeze/sq00_walmart.mp4', type: 'video', effect: 'in'}},
+  {dur: 54, kind: 'hook', reveal: [3, 40], text: 'Walmart is getting hit', kicker: 'The squeeze', highlights: ['hit'], size: 54, media: {src: 'squeeze/sq00_walmart.mp4', type: 'video', effect: 'in'}},
   // 1 CARD
-  {dur: 51, kind: 'stat', stat: {prefix: '$', value: 2, suffix: 'B', post: 'PROBLEM'}, media: {src: 'squeeze/sq01_problem.mp4', type: 'video', effect: 'in'}},
+  {dur: 46, kind: 'stat', stat: {prefix: '$', value: 2, suffix: 'B', post: 'PROBLEM'}, media: {src: 'squeeze/sq01_problem.mp4', type: 'video', effect: 'in'}},
   // 2
-  {dur: 93, kind: 'text', reveal: [2, 28], text: 'and it could eventually affect|the price of your groceries.', highlights: ['groceries.'], size: 44, pos: 'upperRight', media: {src: 'squeeze/sq02_groceries.mp4', type: 'video', effect: 'in'}},
+  {dur: 84, kind: 'text', reveal: [2, 28], text: 'and it could eventually affect|the price of your groceries.', highlights: ['groceries.'], size: 44, pos: 'upperRight', media: {src: 'squeeze/sq02_groceries.mp4', type: 'video', effect: 'in'}},
   // 3
-  {dur: 36, kind: 'text', reveal: [2], text: 'The surprising part?', highlights: ['surprising'], size: 52, pos: 'left', media: {src: 'squeeze/sq03_surprising.mp4', type: 'video', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'The surprising part?', highlights: ['surprising'], size: 52, pos: 'left', media: {src: 'squeeze/sq03_surprising.mp4', type: 'video', effect: 'in'}},
   // 4
-  {dur: 73, kind: 'text', reveal: [2, 28], text: 'It’s not coming from|shoppers buying less.', highlights: ['less.'], size: 44, pos: 'lowerRight', media: {src: 'squeeze/sq04_less.mp4', type: 'video', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'It’s not coming from|shoppers buying less.', highlights: ['less.'], size: 44, pos: 'lowerRight', media: {src: 'squeeze/sq04_less.mp4', type: 'video', effect: 'in'}},
   // 5
-  {dur: 40, kind: 'text', reveal: [2], text: 'It’s coming from the fuel', highlights: ['fuel'], size: 46, pos: 'upperLeft', media: {src: 'squeeze/sq05_fuel.mp4', type: 'video', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'It’s coming from the fuel', highlights: ['fuel'], size: 46, pos: 'upperLeft', media: {src: 'squeeze/sq05_fuel.mp4', type: 'video', effect: 'in'}},
   // 6
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'needed to get products|onto store shelves.', highlights: ['shelves.'], size: 44, pos: 'right', media: {src: 'squeeze/sq06_shelves.mp4', type: 'video', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'needed to get products|onto store shelves.', highlights: ['shelves.'], size: 44, pos: 'right', media: {src: 'squeeze/sq06_shelves.mp4', type: 'video', effect: 'in'}},
   // 7 FOLLOW
-  {dur: 97, kind: 'text', reveal: [2], text: 'Follow for more stories|about the business forces', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'squeeze/sq07_follow.mp4', type: 'video', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2], text: 'Follow for more stories|about the business forces', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'squeeze/sq07_follow.mp4', type: 'video', effect: 'in'}},
   // 8
-  {dur: 66, kind: 'text', reveal: [2], text: 'affecting your everyday life.', highlights: ['everyday'], size: 50, pos: 'lowerLeft', media: {src: 'squeeze/sq08_everyday.mp4', type: 'video', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'affecting your everyday life.', highlights: ['everyday'], size: 50, pos: 'lowerLeft', media: {src: 'squeeze/sq08_everyday.mp4', type: 'video', effect: 'in'}},
   // 9
-  {dur: 54, kind: 'text', reveal: [2], text: 'Diesel prices have surged,', highlights: ['surged,'], size: 50, pos: 'upperRight', media: {src: 'squeeze/sq09_surged.mp4', type: 'video', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'Diesel prices have surged,', highlights: ['surged,'], size: 50, pos: 'upperRight', media: {src: 'squeeze/sq09_surged.mp4', type: 'video', effect: 'in'}},
   // 10
-  {dur: 45, kind: 'text', reveal: [2], text: 'putting enormous pressure', highlights: ['pressure'], size: 52, pos: 'left', media: {src: 'squeeze/sq10_pressure.mp4', type: 'video', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'putting enormous pressure', highlights: ['pressure'], size: 52, pos: 'left', media: {src: 'squeeze/sq10_pressure.mp4', type: 'video', effect: 'in'}},
   // 11
-  {dur: 106, kind: 'text', reveal: [2, 28], text: 'on Walmart’s transportation|and supply chain operations.', highlights: ['transportation'], size: 44, pos: 'right', media: {src: 'squeeze/sq11_supplychain.mp4', type: 'video', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'on Walmart’s transportation|and supply chain operations.', highlights: ['transportation'], size: 44, pos: 'right', media: {src: 'squeeze/sq11_supplychain.mp4', type: 'video', effect: 'in'}},
   // 12
-  {dur: 102, kind: 'text', reveal: [2, 28], text: 'Walmart says higher diesel|and transportation costs', highlights: ['higher'], size: 44, pos: 'upperLeft', media: {src: 'squeeze/sq12_costs.mp4', type: 'video', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'Walmart says higher diesel|and transportation costs', highlights: ['higher'], size: 44, pos: 'upperLeft', media: {src: 'squeeze/sq12_costs.mp4', type: 'video', effect: 'in'}},
   // 13
-  {dur: 62, kind: 'text', reveal: [2], text: 'have added more than', highlights: ['added'], size: 50, pos: 'lowerRight', media: {src: 'squeeze/sq13_added.mp4', type: 'video', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'have added more than', highlights: ['added'], size: 50, pos: 'lowerRight', media: {src: 'squeeze/sq13_added.mp4', type: 'video', effect: 'in'}},
   // 14
-  {dur: 37, kind: 'text', reveal: [2], text: 'in expenses this year.', highlights: ['expenses'], size: 50, pos: 'upper', media: {src: 'squeeze/sq14_year.mp4', type: 'video', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'in expenses this year.', highlights: ['expenses'], size: 50, pos: 'upper', media: {src: 'squeeze/sq14_year.mp4', type: 'video', effect: 'in'}},
   // 15
-  {dur: 37, kind: 'text', reveal: [2], text: 'And it’s not just Walmart.', highlights: ['Walmart.'], size: 46, pos: 'left', media: {src: 'squeeze/sq15_notjust.mp4', type: 'video', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'And it’s not just Walmart.', highlights: ['Walmart.'], size: 46, pos: 'left', media: {src: 'squeeze/sq15_notjust.mp4', type: 'video', effect: 'in'}},
   // 16
-  {dur: 84, kind: 'text', reveal: [2, 28], text: 'Suppliers are also facing|higher fuel costs,', highlights: ['Suppliers'], size: 44, pos: 'right', media: {src: 'squeeze/sq16_suppliers.mp4', type: 'video', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'Suppliers are also facing|higher fuel costs,', highlights: ['Suppliers'], size: 44, pos: 'right', media: {src: 'squeeze/sq16_suppliers.mp4', type: 'video', effect: 'in'}},
   // 17
-  {dur: 45, kind: 'text', reveal: [2], text: 'which means they’re passing', highlights: ['passing'], size: 50, pos: 'lowerLeft', media: {src: 'squeeze/sq17_passing.mp4', type: 'video', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'which means they’re passing', highlights: ['passing'], size: 50, pos: 'lowerLeft', media: {src: 'squeeze/sq17_passing.mp4', type: 'video', effect: 'in'}},
   // 18
-  {dur: 65, kind: 'text', reveal: [2, 28], text: 'some of that pressure|along to retailers.', highlights: ['retailers.'], size: 44, pos: 'upperRight', media: {src: 'squeeze/sq18_retailers.mp4', type: 'video', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'some of that pressure|along to retailers.', highlights: ['retailers.'], size: 44, pos: 'upperRight', media: {src: 'squeeze/sq18_retailers.mp4', type: 'video', effect: 'in'}},
   // 19
-  {dur: 55, kind: 'text', reveal: [2, 28], text: 'Walmart has been|cutting prices', highlights: ['cutting'], size: 48, pos: 'left', media: {src: 'squeeze/sq19_cutting.mp4', type: 'video', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'Walmart has been|cutting prices', highlights: ['cutting'], size: 48, pos: 'left', media: {src: 'squeeze/sq19_cutting.mp4', type: 'video', effect: 'in'}},
   // 20
-  {dur: 64, kind: 'text', reveal: [2, 28], text: 'to attract|budget-conscious shoppers.', highlights: ['budget-conscious'], size: 50, pos: 'lowerRight', media: {src: 'squeeze/sq20_shoppers.mp4', type: 'video', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'to attract|budget-conscious shoppers.', highlights: ['budget-conscious'], size: 50, pos: 'lowerRight', media: {src: 'squeeze/sq20_shoppers.mp4', type: 'video', effect: 'in'}},
   // 21
-  {dur: 56, kind: 'text', reveal: [2], text: 'But rising transportation costs', highlights: ['rising'], size: 50, pos: 'upperLeft', media: {src: 'squeeze/sq21_rising.mp4', type: 'video', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'But rising transportation costs', highlights: ['rising'], size: 50, pos: 'upperLeft', media: {src: 'squeeze/sq21_rising.mp4', type: 'video', effect: 'in'}},
   // 22
-  {dur: 73, kind: 'text', reveal: [2, 28], text: 'could make those discounts|harder to maintain.', highlights: ['harder'], size: 44, pos: 'right', media: {src: 'squeeze/sq22_discounts.mp4', type: 'video', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'could make those discounts|harder to maintain.', highlights: ['harder'], size: 44, pos: 'right', media: {src: 'squeeze/sq22_discounts.mp4', type: 'video', effect: 'in'}},
   // 23
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'The company wants to protect|its reputation', highlights: ['protect'], size: 44, pos: 'lower', media: {src: 'squeeze/sq23_reputation.mp4', type: 'video', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'The company wants to protect|its reputation', highlights: ['protect'], size: 44, pos: 'lower', media: {src: 'squeeze/sq23_reputation.mp4', type: 'video', effect: 'in'}},
   // 24 RED
-  {dur: 68, kind: 'impact', redBg: true, text: 'Everyday|low prices.'},
+  {dur: 62, kind: 'impact', redBg: true, text: 'Everyday|low prices.'},
   // 25
-  {dur: 55, kind: 'text', reveal: [2], text: 'But how long can it absorb', highlights: ['absorb'], size: 42, pos: 'upperRight', media: {src: 'squeeze/sq25_absorb.mp4', type: 'video', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'But how long can it absorb', highlights: ['absorb'], size: 42, pos: 'upperRight', media: {src: 'squeeze/sq25_absorb.mp4', type: 'video', effect: 'in'}},
   // 26
-  {dur: 56, kind: 'text', reveal: [2], text: 'billions in extra expenses', highlights: ['billions'], size: 50, pos: 'lowerLeft', media: {src: 'squeeze/sq26_billions.mp4', type: 'video', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'billions in extra expenses', highlights: ['billions'], size: 50, pos: 'lowerLeft', media: {src: 'squeeze/sq26_billions.mp4', type: 'video', effect: 'in'}},
   // 27
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'without eventually passing|some of the cost', highlights: ['cost'], size: 44, pos: 'left', media: {src: 'squeeze/sq27_passcost.mp4', type: 'video', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'without eventually passing|some of the cost', highlights: ['cost'], size: 44, pos: 'left', media: {src: 'squeeze/sq27_passcost.mp4', type: 'video', effect: 'in'}},
   // 28
-  {dur: 28, kind: 'text', reveal: [2], text: 'to customers?', highlights: ['customers?'], size: 52, pos: 'right', media: {src: 'squeeze/sq28_customers.mp4', type: 'video', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'to customers?', highlights: ['customers?'], size: 52, pos: 'right', media: {src: 'squeeze/sq28_customers.mp4', type: 'video', effect: 'in'}},
   // 29
-  {dur: 58, kind: 'text', reveal: [2, 28], text: 'So who’s gonna pay|for expensive diesel?', highlights: ['diesel?'], size: 44, pos: 'lowerRight', media: {src: 'squeeze/sq29_whopays.mp4', type: 'video', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'So who’s gonna pay|for expensive diesel?', highlights: ['diesel?'], size: 44, pos: 'lowerRight', media: {src: 'squeeze/sq29_whopays.mp4', type: 'video', effect: 'in'}},
   // 30
-  {dur: 46, kind: 'text', reveal: [2], text: 'Walmart, its suppliers,', highlights: ['suppliers,'], size: 52, pos: 'upperLeft', media: {src: 'squeeze/sq30_suppliers2.mp4', type: 'video', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'Walmart, its suppliers,', highlights: ['suppliers,'], size: 52, pos: 'upperLeft', media: {src: 'squeeze/sq30_suppliers2.mp4', type: 'video', effect: 'in'}},
   // 31 CTA
-  {dur: 60, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'or the shoppers standing|at the checkout?', highlights: ['checkout?'], size: 46, media: {src: 'squeeze/sq31_checkout.mp4', type: 'video', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'or the shoppers standing|at the checkout?', highlights: ['checkout?'], size: 46, media: {src: 'squeeze/sq31_checkout.mp4', type: 'video', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 59, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1551, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 1921, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 54, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1410, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1746, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
