@@ -105,71 +105,71 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 86, kind: 'hook', reveal: [3, 40], text: 'An AI company|just went public', kicker: 'The IPO', highlights: ['public'], size: 48, media: {src: 'ipo/ip00_public.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'hook', reveal: [3, 40], text: 'An AI company|just went public', kicker: 'The IPO', highlights: ['public'], size: 48, media: {src: 'ipo/ip00_public.mp4', type: 'video', effect: 'in'}},
   // 1 CARD
-  {dur: 105, kind: 'stat', stat: {prefix: '$', value: 1.5, decimals: 1, suffix: 'T', post: 'VALUATION'}, media: {src: 'ipo/ip01_valuation.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'stat', stat: {prefix: '$', value: 1.5, decimals: 1, suffix: 'T', post: 'VALUATION'}, media: {src: 'ipo/ip01_valuation.mp4', type: 'video', effect: 'in'}},
   // 2
-  {dur: 46, kind: 'text', reveal: [2], text: 'But there’s a massive risk', highlights: ['risk'], size: 46, pos: 'upperRight', media: {src: 'ipo/ip02_risk.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'But there’s a massive risk', highlights: ['risk'], size: 46, pos: 'upperRight', media: {src: 'ipo/ip02_risk.mp4', type: 'video', effect: 'in'}},
   // 3
-  {dur: 58, kind: 'text', reveal: [2], text: 'investors need to understand.', highlights: ['understand.'], size: 50, pos: 'left', media: {src: 'ipo/ip03_understand.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'investors need to understand.', highlights: ['understand.'], size: 50, pos: 'left', media: {src: 'ipo/ip03_understand.mp4', type: 'video', effect: 'in'}},
   // 4
-  {dur: 89, kind: 'text', reveal: [2, 28], text: 'Because behind|Anthropic’s historic IPO', highlights: ['IPO'], size: 48, pos: 'lowerRight', media: {src: 'ipo/ip04_ipo.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2, 28], text: 'Because behind|Anthropic’s historic IPO', highlights: ['IPO'], size: 48, pos: 'lowerRight', media: {src: 'ipo/ip04_ipo.mp4', type: 'video', effect: 'in'}},
   // 5
-  {dur: 85, kind: 'text', reveal: [2, 28], text: 'is a business spending|hundreds of billions', highlights: ['billions'], size: 44, pos: 'upperLeft', media: {src: 'ipo/ip05_billions.jpg', type: 'img', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], text: 'is a business spending|hundreds of billions', highlights: ['billions'], size: 44, pos: 'upperLeft', media: {src: 'ipo/ip05_billions.mp4', type: 'video', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to stay ahead|in the AI race.', highlights: ['race.'], size: 44, pos: 'right', media: {src: 'ipo/ip06_race.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to stay ahead|in the AI race.', highlights: ['race.'], size: 44, pos: 'right', media: {src: 'ipo/ip06_race.mp4', type: 'video', effect: 'in'}},
   // 7 FOLLOW
-  {dur: 80, kind: 'text', reveal: [2], text: 'Follow for more stories|about the biggest moves', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'ipo/ip07_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2], text: 'Follow for more stories|about the biggest moves', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'ipo/ip07_follow.mp4', type: 'video', effect: 'in'}},
   // 8
-  {dur: 59, kind: 'text', reveal: [2], text: 'in technology and finance.', highlights: ['finance.'], size: 50, pos: 'lowerLeft', media: {src: 'ipo/ip08_finance.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'in technology and finance.', highlights: ['finance.'], size: 50, pos: 'lowerLeft', media: {src: 'ipo/ip08_finance.mp4', type: 'video', effect: 'in'}},
   // 9
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'Anthropic, the company|behind Claude AI,', highlights: ['Claude'], size: 44, pos: 'upperRight', media: {src: 'ipo/ip09_claude.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'Anthropic, the company|behind Claude AI,', highlights: ['Claude'], size: 44, pos: 'upperRight', media: {src: 'ipo/ip09_claude.mp4', type: 'video', effect: 'in'}},
   // 10
-  {dur: 45, kind: 'text', reveal: [2], text: 'priced its IPO', highlights: ['priced'], size: 52, pos: 'left', media: {src: 'ipo/ip10_priced.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'priced its IPO', highlights: ['priced'], size: 52, pos: 'left', media: {src: 'ipo/ip10_priced.mp4', type: 'video', effect: 'in'}},
   // 11 CARD
-  {dur: 45, kind: 'stat', stat: {prefix: '$', value: 83, post: 'PER SHARE'}, media: {src: 'ipo/ip11_pershare.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'stat', stat: {prefix: '$', value: 83, post: 'PER SHARE'}, media: {src: 'ipo/ip11_pershare.mp4', type: 'video', effect: 'in'}},
   // 12
-  {dur: 62, kind: 'text', reveal: [2], text: 'above its expected range.', highlights: ['range.'], size: 50, pos: 'right', media: {src: 'ipo/ip12_range.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'above its expected range.', highlights: ['range.'], size: 50, pos: 'right', media: {src: 'ipo/ip12_range.mp4', type: 'video', effect: 'in'}},
   // 13
-  {dur: 31, kind: 'text', reveal: [2], text: 'The company reported', highlights: ['reported'], size: 52, pos: 'upperLeft', media: {src: 'ipo/ip13_reported.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'The company reported', highlights: ['reported'], size: 52, pos: 'upperLeft', media: {src: 'ipo/ip13_reported.mp4', type: 'video', effect: 'in'}},
   // 14 CARD
-  {dur: 67, kind: 'stat', stat: {prefix: '$', value: 33.2, decimals: 1, suffix: 'B', post: 'IN REVENUE'}, media: {src: 'ipo/ip14_revenue.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'stat', stat: {prefix: '$', value: 33.2, decimals: 1, suffix: 'B', post: 'IN REVENUE'}, media: {src: 'ipo/ip14_revenue.mp4', type: 'video', effect: 'in'}},
   // 15
-  {dur: 62, kind: 'text', reveal: [2, 28], text: 'during the first|nine months of 2026,', highlights: ['nine'], size: 44, pos: 'lowerRight', media: {src: 'ipo/ip15_ninemonths.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'during the first|nine months of 2026,', highlights: ['nine'], size: 44, pos: 'lowerRight', media: {src: 'ipo/ip15_ninemonths.mp4', type: 'video', effect: 'in'}},
   // 16
-  {dur: 26, kind: 'text', reveal: [2], text: 'compared with just', highlights: ['just'], size: 52, pos: 'upper', media: {src: 'ipo/ip16_compared.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'compared with just', highlights: ['just'], size: 52, pos: 'upper', media: {src: 'ipo/ip16_compared.mp4', type: 'video', effect: 'in'}},
   // 17 CARD
-  {dur: 101, kind: 'stat', stat: {prefix: '$', value: 2.5, decimals: 1, suffix: 'B', post: 'FOR ALL OF 2025'}, media: {src: 'ipo/ip17_lastyear.jpg', type: 'img', effect: 'in'}},
+  {dur: 101, kind: 'stat', stat: {prefix: '$', value: 2.5, decimals: 1, suffix: 'B', post: 'FOR ALL OF 2025'}, media: {src: 'ipo/ip17_lastyear.mp4', type: 'video', effect: 'in'}},
   // 18 CARD
-  {dur: 59, kind: 'stat', stat: {pre: 'NEARLY', value: 12000, post: 'CUSTOMERS'}, media: {src: 'ipo/ip18_customers.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'stat', stat: {pre: 'NEARLY', value: 12000, post: 'CUSTOMERS'}, media: {src: 'ipo/ip18_customers.mp4', type: 'video', effect: 'in'}},
   // 19
-  {dur: 39, kind: 'text', reveal: [2, 28], text: 'are now spending|more than', highlights: ['spending'], size: 48, pos: 'left', media: {src: 'ipo/ip19_spending.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2, 28], text: 'are now spending|more than', highlights: ['spending'], size: 48, pos: 'left', media: {src: 'ipo/ip19_spending.mp4', type: 'video', effect: 'in'}},
   // 20 CARD
-  {dur: 63, kind: 'stat', stat: {prefix: '$', value: 100000, post: 'ANNUALLY'}, media: {src: 'ipo/ip20_annual.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'stat', stat: {prefix: '$', value: 100000, post: 'ANNUALLY'}, media: {src: 'ipo/ip20_annual.mp4', type: 'video', effect: 'in'}},
   // 21
-  {dur: 29, kind: 'text', reveal: [2], text: 'on its products.', highlights: ['products.'], size: 52, pos: 'right', media: {src: 'ipo/ip21_products.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'on its products.', highlights: ['products.'], size: 52, pos: 'right', media: {src: 'ipo/ip21_products.mp4', type: 'video', effect: 'in'}},
   // 22
-  {dur: 32, kind: 'text', reveal: [2, 28], text: 'But Anthropic|has committed', highlights: ['committed'], size: 50, pos: 'lowerLeft', media: {src: 'ipo/ip22_committed.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2, 28], text: 'But Anthropic|has committed', highlights: ['committed'], size: 50, pos: 'lowerLeft', media: {src: 'ipo/ip22_committed.mp4', type: 'video', effect: 'in'}},
   // 23 CARD
-  {dur: 110, kind: 'stat', stat: {prefix: '$', value: 895, suffix: 'B', post: 'COMMITTED'}, media: {src: 'ipo/ip23_commit.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'stat', stat: {prefix: '$', value: 895, suffix: 'B', post: 'COMMITTED'}, media: {src: 'ipo/ip23_commit.mp4', type: 'video', effect: 'in'}},
   // 24
-  {dur: 59, kind: 'text', reveal: [2], text: 'toward future computing', highlights: ['computing'], size: 52, pos: 'upperRight', media: {src: 'ipo/ip24_computing.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'toward future computing', highlights: ['computing'], size: 52, pos: 'upperRight', media: {src: 'ipo/ip24_computing.mp4', type: 'video', effect: 'in'}},
   // 25
-  {dur: 45, kind: 'text', reveal: [2], text: 'and infrastructure spending.', highlights: ['infrastructure'], size: 52, pos: 'left', media: {src: 'ipo/ip25_infra.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'and infrastructure spending.', highlights: ['infrastructure'], size: 52, pos: 'left', media: {src: 'ipo/ip25_infra.mp4', type: 'video', effect: 'in'}},
   // 26
-  {dur: 54, kind: 'text', reveal: [2, 28], text: 'Despite its|explosive growth,', highlights: ['explosive'], size: 50, pos: 'lowerRight', media: {src: 'ipo/ip26_growth.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'Despite its|explosive growth,', highlights: ['explosive'], size: 50, pos: 'lowerRight', media: {src: 'ipo/ip26_growth.mp4', type: 'video', effect: 'in'}},
   // 27 RED
   {dur: 55, kind: 'impact', redBg: true, text: 'Remains|unprofitable.'},
   // 28
-  {dur: 56, kind: 'text', reveal: [2, 28], text: 'and faces|fierce competition', highlights: ['fierce'], size: 50, pos: 'upperLeft', media: {src: 'ipo/ip28_competition.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'and faces|fierce competition', highlights: ['fierce'], size: 50, pos: 'upperLeft', media: {src: 'ipo/ip28_competition.mp4', type: 'video', effect: 'in'}},
   // 29
-  {dur: 73, kind: 'text', reveal: [2, 28], text: 'from OpenAI, Google,|and Meta.', highlights: ['OpenAI,'], size: 48, pos: 'right', media: {src: 'ipo/ip29_rivals.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'from OpenAI, Google,|and Meta.', highlights: ['OpenAI,'], size: 48, pos: 'right', media: {src: 'ipo/ip29_rivals.mp4', type: 'video', effect: 'in'}},
   // 30
-  {dur: 105, kind: 'text', reveal: [2], text: 'So is Anthropic worth', highlights: ['worth'], size: 50, pos: 'lower', media: {src: 'ipo/ip30_worth.jpg', type: 'img', effect: 'in'}},
+  {dur: 105, kind: 'text', reveal: [2], text: 'So is Anthropic worth', highlights: ['worth'], size: 50, pos: 'lower', media: {src: 'ipo/ip30_worth.mp4', type: 'video', effect: 'in'}},
   // 31
-  {dur: 67, kind: 'text', reveal: [2, 28], text: 'or are investors|getting carried away', highlights: ['carried'], size: 44, pos: 'upperRight', media: {src: 'ipo/ip31_carried.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'text', reveal: [2, 28], text: 'or are investors|getting carried away', highlights: ['carried'], size: 44, pos: 'upperRight', media: {src: 'ipo/ip31_carried.mp4', type: 'video', effect: 'in'}},
   // 32 CTA
-  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'with the AI hype?', highlights: ['hype?'], size: 52, media: {src: 'ipo/ip32_hype.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'with the AI hype?', highlights: ['hype?'], size: 52, media: {src: 'ipo/ip32_hype.mp4', type: 'video', effect: 'in'}},
 ];
 
 
