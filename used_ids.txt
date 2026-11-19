@@ -6981,7 +6981,7 @@ pexels stress/st41_fragile.mp4
 854621 squeeze/sq08_everyday.mp4
 34934690 squeeze/sq09_surged.mp4
 9174928 squeeze/sq10_pressure.mp4
-32536402 squeeze/sq11_supplychain.mp4
+15978611 squeeze/sq11_supplychain.mp4
 29576552 squeeze/sq12_costs.mp4
 9056542 squeeze/sq13_added.mp4
 4378032 squeeze/sq14_year.mp4
