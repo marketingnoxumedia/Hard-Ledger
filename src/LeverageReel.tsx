@@ -109,77 +109,85 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'SpaceX just raised', kicker: 'The leverage', highlights: ['SpaceX'], size: 56, media: {src: 'leverage/lv00_spacex.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'hook', reveal: [3, 40], text: 'SpaceX just raised', kicker: 'The leverage', highlights: ['SpaceX'], size: 56, media: {src: 'leverage/lv00_spacex.jpg', type: 'img', effect: 'in'}},
   // 1 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 32, suffix: 'B', post: 'IN DEBT'}, media: {src: 'leverage/lv01_debt.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'stat', stat: {prefix: '$', value: 32, suffix: 'B', post: 'IN DEBT'}, media: {src: 'leverage/lv01_debt.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'to buy AI chips.', highlights: ['chips.'], size: 50, pos: 'upperRight', media: {src: 'leverage/lv02_chips.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2], text: 'to buy AI chips.', highlights: ['chips.'], size: 50, pos: 'upperRight', media: {src: 'leverage/lv02_chips.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And investors are|charging it', highlights: ['charging'], size: 48, pos: 'left', media: {src: 'leverage/lv03_charging.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'And investors are|charging it', highlights: ['charging'], size: 48, pos: 'left', media: {src: 'leverage/lv03_charging.jpg', type: 'img', effect: 'in'}},
   // 4 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'MORE THAN', value: 8, suffix: '%', post: 'INTEREST'}, media: {src: 'leverage/lv04_interest.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'stat', stat: {pre: 'MORE THAN', value: 8, suffix: '%', post: 'INTEREST'}, media: {src: 'leverage/lv04_interest.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'But here’s what’s unusual:', highlights: ['unusual:'], size: 50, pos: 'lowerRight', media: {src: 'leverage/lv05_unusual.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'But here’s what’s unusual:', highlights: ['unusual:'], size: 50, pos: 'lowerRight', media: {src: 'leverage/lv05_unusual.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'SpaceX structured the deal', highlights: ['structured'], size: 50, pos: 'upperLeft', media: {src: 'leverage/lv06_structured.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'SpaceX structured the deal', highlights: ['structured'], size: 50, pos: 'upperLeft', media: {src: 'leverage/lv06_structured.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to keep the borrowing|off its balance sheet.', highlights: ['off'], size: 44, pos: 'right', media: {src: 'leverage/lv07_offbalance.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'to keep the borrowing|off its balance sheet.', highlights: ['off'], size: 44, pos: 'right', media: {src: 'leverage/lv07_offbalance.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So why are lenders still|demanding such high returns?', highlights: ['returns?'], size: 44, pos: 'lower', media: {src: 'leverage/lv08_returns.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], text: 'So why are lenders still|demanding such high returns?', highlights: ['returns?'], size: 44, pos: 'lower', media: {src: 'leverage/lv08_returns.jpg', type: 'img', effect: 'in'}},
   // 9 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more stories|about the biggest moves', highlights: ['follow'], size: 44, pos: 'lowerLeft', media: {src: 'leverage/lv09_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2], text: 'Follow for more stories|about the biggest moves', highlights: ['follow'], size: 44, pos: 'lowerLeft', media: {src: 'leverage/lv09_follow.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'in technology and business.', highlights: ['business.'], size: 50, pos: 'upperRight', media: {src: 'leverage/lv10_business.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'in technology and business.', highlights: ['business.'], size: 50, pos: 'upperRight', media: {src: 'leverage/lv10_business.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Bloomberg reports|SpaceX sold', highlights: ['Bloomberg'], size: 50, pos: 'left', media: {src: 'leverage/lv11_bloomberg.jpg', type: 'img', effect: 'in'}},
+  {dur: 137, kind: 'text', reveal: [2, 28], text: 'Bloomberg reports|SpaceX sold', highlights: ['Bloomberg'], size: 50, pos: 'left', media: {src: 'leverage/lv11_bloomberg.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as part of a|financing package', highlights: ['financing'], size: 44, pos: 'right', media: {src: 'leverage/lv12_package.jpg', type: 'img', effect: 'in'}},
+  {dur: 96, kind: 'text', reveal: [2, 28], text: 'as part of a|financing package', highlights: ['financing'], size: 44, pos: 'right', media: {src: 'leverage/lv12_package.jpg', type: 'img', effect: 'in'}},
   // 13 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'MORE THAN', prefix: '$', value: 40, suffix: 'B', post: 'PACKAGE'}, media: {src: 'leverage/lv13_package40.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'MORE THAN', prefix: '$', value: 40, suffix: 'B', post: 'PACKAGE'}, media: {src: 'leverage/lv13_package40.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'The money will help finance', highlights: ['finance'], size: 46, pos: 'upperLeft', media: {src: 'leverage/lv14_finance.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'The money will help finance', highlights: ['finance'], size: 46, pos: 'upperLeft', media: {src: 'leverage/lv14_finance.jpg', type: 'img', effect: 'in'}},
   // 15 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'APPROX.', prefix: '$', value: 47.3, decimals: 1, suffix: 'B', post: 'OF NVIDIA CHIPS'}, media: {src: 'leverage/lv15_chips47.jpg', type: 'img', effect: 'in'}},
+  {dur: 164, kind: 'stat', stat: {pre: 'APPROX.', prefix: '$', value: 47.3, decimals: 1, suffix: 'B', post: 'OF NVIDIA CHIPS'}, media: {src: 'leverage/lv15_chips47.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'which SpaceX plans to lease', highlights: ['lease'], size: 46, pos: 'lowerRight', media: {src: 'leverage/lv16_lease.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'which SpaceX plans to lease', highlights: ['lease'], size: 46, pos: 'lowerRight', media: {src: 'leverage/lv16_lease.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'for about five years.', highlights: ['five'], size: 50, pos: 'upper', media: {src: 'leverage/lv17_fiveyears.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'for about five years.', highlights: ['five'], size: 50, pos: 'upper', media: {src: 'leverage/lv17_fiveyears.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'The biggest bond portion', highlights: ['biggest'], size: 50, pos: 'left', media: {src: 'leverage/lv18_portion.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'The biggest bond portion', highlights: ['biggest'], size: 50, pos: 'left', media: {src: 'leverage/lv18_portion.jpg', type: 'img', effect: 'in'}},
   // 19 CARD
-  {dur: 70, kind: 'stat', stat: {value: 8.259, decimals: 3, suffix: '%', post: 'YIELD'}, media: {src: 'leverage/lv19_yield.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'stat', stat: {value: 8.259, decimals: 3, suffix: '%', post: 'YIELD'}, media: {src: 'leverage/lv19_yield.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'compared with|an average of', highlights: ['average'], size: 48, pos: 'right', media: {src: 'leverage/lv20_average.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2, 28], text: 'compared with|an average of', highlights: ['average'], size: 48, pos: 'right', media: {src: 'leverage/lv20_average.jpg', type: 'img', effect: 'in'}},
   // 21 CARD
-  {dur: 70, kind: 'stat', stat: {value: 5.95, decimals: 2, suffix: '%', post: 'US IG BONDS'}, media: {src: 'leverage/lv21_igbonds.jpg', type: 'img', effect: 'in'}},
+  {dur: 118, kind: 'stat', stat: {value: 5.95, decimals: 2, suffix: '%', post: 'US IG BONDS'}, media: {src: 'leverage/lv21_igbonds.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'This gives SpaceX access', highlights: ['access'], size: 50, pos: 'lowerLeft', media: {src: 'leverage/lv22_access.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'This gives SpaceX access', highlights: ['access'], size: 50, pos: 'lowerLeft', media: {src: 'leverage/lv22_access.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to enormous computing power|for its AI ambitions,', highlights: ['ambitions,'], size: 44, pos: 'upperRight', media: {src: 'leverage/lv23_compute.jpg', type: 'img', effect: 'in'}},
+  {dur: 104, kind: 'text', reveal: [2, 28], text: 'to enormous computing power|for its AI ambitions,', highlights: ['ambitions,'], size: 44, pos: 'upperRight', media: {src: 'leverage/lv23_compute.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'while the financing structure', highlights: ['structure'], size: 50, pos: 'left', media: {src: 'leverage/lv24_structure.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'while the financing structure', highlights: ['structure'], size: 50, pos: 'left', media: {src: 'leverage/lv24_structure.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is designed to protect its|investment-grade credit rating.', highlights: ['protect'], size: 44, pos: 'lowerRight', media: {src: 'leverage/lv25_rating.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'is designed to protect its|investment-grade credit rating.', highlights: ['protect'], size: 44, pos: 'lowerRight', media: {src: 'leverage/lv25_rating.jpg', type: 'img', effect: 'in'}},
   // 26 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'But there’s|a catch.'},
+  {dur: 68, kind: 'impact', redBg: true, text: 'But there’s|a catch.'},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'SpaceX remains responsible|for lease payments', highlights: ['responsible'], size: 44, pos: 'upperLeft', media: {src: 'leverage/lv27_responsible.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'SpaceX remains responsible|for lease payments', highlights: ['responsible'], size: 44, pos: 'upperLeft', media: {src: 'leverage/lv27_responsible.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'even if the equipment fails.', highlights: ['fails.'], size: 46, pos: 'right', media: {src: 'leverage/lv28_fails.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'even if the equipment fails.', highlights: ['fails.'], size: 46, pos: 'right', media: {src: 'leverage/lv28_fails.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And investors are still|questioning how easily', highlights: ['questioning'], size: 44, pos: 'lower', media: {src: 'leverage/lv29_questioning.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'And investors are still|questioning how easily', highlights: ['questioning'], size: 44, pos: 'lower', media: {src: 'leverage/lv29_questioning.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'these expensive chips|can be recovered or resold.', highlights: ['recovered'], size: 44, pos: 'upperRight', media: {src: 'leverage/lv30_resold.jpg', type: 'img', effect: 'in'}},
+  {dur: 91, kind: 'text', reveal: [2, 28], text: 'these expensive chips|can be recovered or resold.', highlights: ['recovered'], size: 44, pos: 'upperRight', media: {src: 'leverage/lv30_resold.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So is this a clever way|to finance the AI boom,', highlights: ['clever'], size: 44, pos: 'lowerLeft', media: {src: 'leverage/lv31_clever.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 28], text: 'So is this a clever way|to finance the AI boom,', highlights: ['clever'], size: 44, pos: 'lowerLeft', media: {src: 'leverage/lv31_clever.jpg', type: 'img', effect: 'in'}},
   // 32 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'or is SpaceX taking on too much|debt to stay ahead?', highlights: ['ahead?'], size: 46, media: {src: 'leverage/lv32_ahead.jpg', type: 'img', effect: 'in'}},
+  {dur: 102, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'or is SpaceX taking on too much|debt to stay ahead?', highlights: ['ahead?'], size: 46, media: {src: 'leverage/lv32_ahead.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 48, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 199, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 914, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 991, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1293, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1406, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1798, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2290, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
