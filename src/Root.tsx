@@ -225,6 +225,7 @@ import {SqueezeReel, DURATION_IN_FRAMES as SQUEEZE_FRAMES} from './SqueezeReel';
 import {FadeReel, DURATION_IN_FRAMES as FADE_FRAMES} from './FadeReel';
 import {LeverageReel, DURATION_IN_FRAMES as LEVERAGE_FRAMES} from './LeverageReel';
 import {PricedReel, DURATION_IN_FRAMES as PRICED_FRAMES} from './PricedReel';
+import {BattleReel, DURATION_IN_FRAMES as BATTLE_FRAMES} from './BattleReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -2034,6 +2035,14 @@ export const RemotionRoot: React.FC = () => {
         id="PricedReel"
         component={PricedReel}
         durationInFrames={PRICED_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="BattleReel"
+        component={BattleReel}
+        durationInFrames={BATTLE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
