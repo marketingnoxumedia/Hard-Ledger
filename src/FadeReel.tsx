@@ -108,77 +108,84 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Anthropic just pulled off', kicker: 'The fade', highlights: ['Anthropic'], size: 54, media: {src: 'fade/fd00_debut.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'hook', reveal: [3, 40], text: 'Anthropic just pulled off', kicker: 'The fade', highlights: ['Anthropic'], size: 54, media: {src: 'fade/fd00_debut.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'one of the biggest IPOs|in history.', highlights: ['biggest'], size: 44, pos: 'upperRight', media: {src: 'fade/fd01_history.jpg', type: 'img', effect: 'in'}},
+  {dur: 80, kind: 'text', reveal: [2, 28], text: 'one of the biggest IPOs|in history.', highlights: ['biggest'], size: 44, pos: 'upperRight', media: {src: 'fade/fd01_history.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2], text: 'But one day later,', highlights: ['later,'], size: 50, pos: 'left', media: {src: 'fade/fd02_daylater.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'But one day later,', highlights: ['later,'], size: 50, pos: 'left', media: {src: 'fade/fd02_daylater.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'investors were already|heading for the exit.', highlights: ['exit.'], size: 44, pos: 'lowerRight', media: {src: 'fade/fd03_exit.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'investors were already|heading for the exit.', highlights: ['exit.'], size: 44, pos: 'lowerRight', media: {src: 'fade/fd03_exit.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the reason goes|beyond one company’s stock.', highlights: ['beyond'], size: 44, pos: 'upperLeft', media: {src: 'fade/fd04_beyond.jpg', type: 'img', effect: 'in'}},
+  {dur: 110, kind: 'text', reveal: [2, 28], text: 'And the reason goes|beyond one company’s stock.', highlights: ['beyond'], size: 44, pos: 'upperLeft', media: {src: 'fade/fd04_beyond.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It’s raising a much bigger|question about the entire AI boom.', highlights: ['bigger'], size: 44, pos: 'right', media: {src: 'fade/fd05_question.jpg', type: 'img', effect: 'in'}},
+  {dur: 127, kind: 'text', reveal: [2, 28], text: 'It’s raising a much bigger|question about the entire AI boom.', highlights: ['bigger'], size: 44, pos: 'right', media: {src: 'fade/fd05_question.jpg', type: 'img', effect: 'in'}},
   // 6 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more stories|about the biggest moves', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'fade/fd06_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2], text: 'Follow for more stories|about the biggest moves', highlights: ['follow'], size: 44, pos: 'lower', media: {src: 'fade/fd06_follow.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2], text: 'in technology and finance.', highlights: ['finance.'], size: 50, pos: 'lowerLeft', media: {src: 'fade/fd07_finance.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'in technology and finance.', highlights: ['finance.'], size: 50, pos: 'lowerLeft', media: {src: 'fade/fd07_finance.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'The company behind Claude AI', highlights: ['Claude'], size: 46, pos: 'upperRight', media: {src: 'fade/fd08_claude.jpg', type: 'img', effect: 'in'}},
+  {dur: 57, kind: 'text', reveal: [2], text: 'The company behind Claude AI', highlights: ['Claude'], size: 46, pos: 'upperRight', media: {src: 'fade/fd08_claude.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'made its Nasdaq debut Thursday', highlights: ['Nasdaq'], size: 46, pos: 'left', media: {src: 'fade/fd09_nasdaq.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'made its Nasdaq debut Thursday', highlights: ['Nasdaq'], size: 46, pos: 'left', media: {src: 'fade/fd09_nasdaq.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'at an IPO price of', highlights: ['IPO'], size: 46, pos: 'right', media: {src: 'fade/fd10_ipoprice.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'at an IPO price of', highlights: ['IPO'], size: 46, pos: 'right', media: {src: 'fade/fd10_ipoprice.jpg', type: 'img', effect: 'in'}},
   // 11 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 83, post: 'PER SHARE'}, media: {src: 'fade/fd11_card83.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'stat', stat: {prefix: '$', value: 83, post: 'PER SHARE'}, media: {src: 'fade/fd11_card83.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'Shares initially surged to', highlights: ['surged'], size: 50, pos: 'upperLeft', media: {src: 'fade/fd12_surged.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'Shares initially surged to', highlights: ['surged'], size: 50, pos: 'upperLeft', media: {src: 'fade/fd12_surged.jpg', type: 'img', effect: 'in'}},
   // 13 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 111.5, decimals: 2, post: 'INTRADAY HIGH'}, media: {src: 'fade/fd13_high.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'stat', stat: {prefix: '$', value: 111.5, decimals: 2, post: 'INTRADAY HIGH'}, media: {src: 'fade/fd13_high.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'before closing at', highlights: ['closing'], size: 52, pos: 'lowerRight', media: {src: 'fade/fd14_closing.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'before closing at', highlights: ['closing'], size: 52, pos: 'lowerRight', media: {src: 'fade/fd14_closing.jpg', type: 'img', effect: 'in'}},
   // 15 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 97.17, decimals: 2, post: 'AT THE CLOSE'}, media: {src: 'fade/fd15_close.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'stat', stat: {prefix: '$', value: 97.17, decimals: 2, post: 'AT THE CLOSE'}, media: {src: 'fade/fd15_close.jpg', type: 'img', effect: 'in'}},
   // 16 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '+', value: 17, suffix: '%', post: 'OPENING DAY'}, media: {src: 'fade/fd16_up17.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'stat', stat: {prefix: '+', value: 17, suffix: '%', post: 'OPENING DAY'}, media: {src: 'fade/fd16_up17.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'But Friday morning,', highlights: ['Friday'], size: 52, pos: 'upper', media: {src: 'fade/fd17_friday.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'But Friday morning,', highlights: ['Friday'], size: 52, pos: 'upper', media: {src: 'fade/fd17_friday.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2], text: 'the stock dropped around', highlights: ['dropped'], size: 50, pos: 'left', media: {src: 'fade/fd18_dropped.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'the stock dropped around', highlights: ['dropped'], size: 50, pos: 'left', media: {src: 'fade/fd18_dropped.jpg', type: 'img', effect: 'in'}},
   // 19 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '-', value: 6, suffix: '%', post: 'PREMARKET'}, media: {src: 'fade/fd19_down6.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'stat', stat: {prefix: '-', value: 6, suffix: '%', post: 'PREMARKET'}, media: {src: 'fade/fd19_down6.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as investors|locked in profits.', highlights: ['profits.'], size: 48, pos: 'right', media: {src: 'fade/fd20_profits.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'as investors|locked in profits.', highlights: ['profits.'], size: 48, pos: 'right', media: {src: 'fade/fd20_profits.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the pressure wasn’t|limited to Anthropic.', highlights: ['pressure'], size: 44, pos: 'lowerLeft', media: {src: 'fade/fd21_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 90, kind: 'text', reveal: [2, 28], text: 'And the pressure wasn’t|limited to Anthropic.', highlights: ['pressure'], size: 44, pos: 'lowerLeft', media: {src: 'fade/fd21_pressure.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Major technology|and semiconductor stocks', highlights: ['semiconductor'], size: 48, pos: 'upperRight', media: {src: 'fade/fd22_semis.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'Major technology|and semiconductor stocks', highlights: ['semiconductor'], size: 48, pos: 'upperRight', media: {src: 'fade/fd22_semis.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'were also falling', highlights: ['falling'], size: 52, pos: 'left', media: {src: 'fade/fd23_falling.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'were also falling', highlights: ['falling'], size: 52, pos: 'left', media: {src: 'fade/fd23_falling.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as Wall Street questioned|the AI industry’s growth prospects.', highlights: ['questioned'], size: 44, pos: 'lowerRight', media: {src: 'fade/fd24_wallst.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'as Wall Street questioned|the AI industry’s growth prospects.', highlights: ['questioned'], size: 44, pos: 'lowerRight', media: {src: 'fade/fd24_wallst.jpg', type: 'img', effect: 'in'}},
   // 25 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'The bigger|concern.'},
+  {dur: 78, kind: 'impact', redBg: true, text: 'The bigger|concern.'},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'AI companies are committing|enormous sums', highlights: ['enormous'], size: 44, pos: 'upperLeft', media: {src: 'fade/fd26_sums.jpg', type: 'img', effect: 'in'}},
+  {dur: 88, kind: 'text', reveal: [2, 28], text: 'AI companies are committing|enormous sums', highlights: ['enormous'], size: 44, pos: 'upperLeft', media: {src: 'fade/fd26_sums.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to data centers|and computing infrastructure.', highlights: ['infrastructure.'], size: 44, pos: 'right', media: {src: 'fade/fd27_datacenters.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'to data centers|and computing infrastructure.', highlights: ['infrastructure.'], size: 44, pos: 'right', media: {src: 'fade/fd27_datacenters.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But will future revenue|be enough to justify that spending?', highlights: ['revenue'], size: 44, pos: 'lower', media: {src: 'fade/fd28_revenue.jpg', type: 'img', effect: 'in'}},
+  {dur: 111, kind: 'text', reveal: [2, 28], text: 'But will future revenue|be enough to justify that spending?', highlights: ['revenue'], size: 44, pos: 'lower', media: {src: 'fade/fd28_revenue.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So was Anthropic’s IPO|the beginning', highlights: ['beginning'], size: 44, pos: 'upperRight', media: {src: 'fade/fd29_beginning.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'So was Anthropic’s IPO|the beginning', highlights: ['beginning'], size: 44, pos: 'upperRight', media: {src: 'fade/fd29_beginning.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'of a new AI|investment boom,', highlights: ['investment'], size: 44, pos: 'lowerLeft', media: {src: 'fade/fd30_boom.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'of a new AI|investment boom,', highlights: ['investment'], size: 44, pos: 'lowerLeft', media: {src: 'fade/fd30_boom.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'or an early warning', highlights: ['warning'], size: 50, pos: 'left', media: {src: 'fade/fd31_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'or an early warning', highlights: ['warning'], size: 50, pos: 'left', media: {src: 'fade/fd31_warning.jpg', type: 'img', effect: 'in'}},
   // 32 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'that investors are getting|ahead of themselves?', highlights: ['themselves?'], size: 46, media: {src: 'fade/fd32_ahead.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'that investors are getting|ahead of themselves?', highlights: ['themselves?'], size: 46, media: {src: 'fade/fd32_ahead.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 756, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 851, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 941, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 984, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1115, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1517, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2057, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
