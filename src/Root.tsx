@@ -222,6 +222,7 @@ import {StressReel, DURATION_IN_FRAMES as STRESS_FRAMES} from './StressReel';
 import {BanReel, DURATION_IN_FRAMES as BAN_FRAMES} from './BanReel';
 import {IpoReel, DURATION_IN_FRAMES as IPO_FRAMES} from './IpoReel';
 import {SqueezeReel, DURATION_IN_FRAMES as SQUEEZE_FRAMES} from './SqueezeReel';
+import {FadeReel, DURATION_IN_FRAMES as FADE_FRAMES} from './FadeReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -2007,6 +2008,14 @@ export const RemotionRoot: React.FC = () => {
         id="SqueezeReel"
         component={SqueezeReel}
         durationInFrames={SQUEEZE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="FadeReel"
+        component={FadeReel}
+        durationInFrames={FADE_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
