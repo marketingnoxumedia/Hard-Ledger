@@ -106,79 +106,86 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'AI is making people rich.', kicker: 'Priced out', highlights: ['rich.'], size: 50, media: {src: 'priced/pr00_rich.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'hook', reveal: [3, 40], text: 'AI is making people rich.', kicker: 'Priced out', highlights: ['rich.'], size: 50, media: {src: 'priced/pr00_rich.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2], text: 'But it’s also making it harder', highlights: ['harder'], size: 42, pos: 'upperRight', media: {src: 'priced/pr01_harder.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2], text: 'But it’s also making it harder', highlights: ['harder'], size: 42, pos: 'upperRight', media: {src: 'priced/pr01_harder.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for ordinary people|to afford a home', highlights: ['afford'], size: 44, pos: 'left', media: {src: 'priced/pr02_afford.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'for ordinary people|to afford a home', highlights: ['afford'], size: 44, pos: 'left', media: {src: 'priced/pr02_afford.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2], text: 'in San Francisco.', highlights: ['Francisco.'], size: 52, pos: 'lowerRight', media: {src: 'priced/pr03_sf.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'in San Francisco.', highlights: ['Francisco.'], size: 52, pos: 'lowerRight', media: {src: 'priced/pr03_sf.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2], text: 'And the surprising part?', highlights: ['surprising'], size: 50, pos: 'upperLeft', media: {src: 'priced/pr04_surprising.jpg', type: 'img', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'And the surprising part?', highlights: ['surprising'], size: 50, pos: 'upperLeft', media: {src: 'priced/pr04_surprising.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The impact isn’t just|showing up in home prices.', highlights: ['prices.'], size: 44, pos: 'right', media: {src: 'priced/pr05_prices.jpg', type: 'img', effect: 'in'}},
+  {dur: 98, kind: 'text', reveal: [2, 28], text: 'The impact isn’t just|showing up in home prices.', highlights: ['prices.'], size: 44, pos: 'right', media: {src: 'priced/pr05_prices.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2], text: 'It’s changing how much', highlights: ['changing'], size: 50, pos: 'lower', media: {src: 'priced/pr06_changing.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'It’s changing how much', highlights: ['changing'], size: 50, pos: 'lower', media: {src: 'priced/pr06_changing.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'buyers are willing|to put down.', highlights: ['down.'], size: 44, pos: 'lowerLeft', media: {src: 'priced/pr07_down.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'buyers are willing|to put down.', highlights: ['down.'], size: 44, pos: 'lowerLeft', media: {src: 'priced/pr07_down.jpg', type: 'img', effect: 'in'}},
   // 8 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more stories|about how technology', highlights: ['follow'], size: 44, pos: 'upperRight', media: {src: 'priced/pr08_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2], text: 'Follow for more stories|about how technology', highlights: ['follow'], size: 44, pos: 'upperRight', media: {src: 'priced/pr08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2], text: 'is changing our economy.', highlights: ['economy.'], size: 50, pos: 'left', media: {src: 'priced/pr09_economy.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'is changing our economy.', highlights: ['economy.'], size: 50, pos: 'left', media: {src: 'priced/pr09_economy.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'Anthropic’s blockbuster IPO', highlights: ['IPO'], size: 52, pos: 'right', media: {src: 'priced/pr10_ipo.jpg', type: 'img', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2], text: 'Anthropic’s blockbuster IPO', highlights: ['IPO'], size: 52, pos: 'right', media: {src: 'priced/pr10_ipo.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'has created thousands|of new millionaires,', highlights: ['millionaires,'], size: 44, pos: 'upperLeft', media: {src: 'priced/pr11_millionaires.jpg', type: 'img', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'has created thousands|of new millionaires,', highlights: ['millionaires,'], size: 44, pos: 'upperLeft', media: {src: 'priced/pr11_millionaires.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'adding fuel to an already|competitive housing market.', highlights: ['competitive'], size: 44, pos: 'lowerRight', media: {src: 'priced/pr12_competitive.jpg', type: 'img', effect: 'in'}},
+  {dur: 99, kind: 'text', reveal: [2, 28], text: 'adding fuel to an already|competitive housing market.', highlights: ['competitive'], size: 44, pos: 'lowerRight', media: {src: 'priced/pr12_competitive.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'In San Francisco, San Mateo,|and Santa Clara,', highlights: ['Clara,'], size: 44, pos: 'upper', media: {src: 'priced/pr13_cities.jpg', type: 'img', effect: 'in'}},
+  {dur: 100, kind: 'text', reveal: [2, 28], text: 'In San Francisco, San Mateo,|and Santa Clara,', highlights: ['Clara,'], size: 44, pos: 'upper', media: {src: 'priced/pr13_cities.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the typical homebuyer|now puts down', highlights: ['homebuyer'], size: 44, pos: 'left', media: {src: 'priced/pr14_homebuyer.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], text: 'the typical homebuyer|now puts down', highlights: ['homebuyer'], size: 44, pos: 'left', media: {src: 'priced/pr14_homebuyer.jpg', type: 'img', effect: 'in'}},
   // 15 CARD
-  {dur: 70, kind: 'stat', stat: {value: 25, suffix: '%', post: 'OF THE PURCHASE PRICE'}, media: {src: 'priced/pr15_25pct.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'stat', stat: {value: 25, suffix: '%', post: 'OF THE PURCHASE PRICE'}, media: {src: 'priced/pr15_25pct.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'up from around', highlights: ['up'], size: 52, pos: 'right', media: {src: 'priced/pr16_upfrom.jpg', type: 'img', effect: 'in'}},
+  {dur: 89, kind: 'text', reveal: [2], text: 'up from around', highlights: ['up'], size: 52, pos: 'right', media: {src: 'priced/pr16_upfrom.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'before the AI boom.', highlights: ['boom.'], size: 50, pos: 'lowerLeft', media: {src: 'priced/pr17_boom.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'before the AI boom.', highlights: ['boom.'], size: 50, pos: 'lowerLeft', media: {src: 'priced/pr17_boom.jpg', type: 'img', effect: 'in'}},
   // 18 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '$', value: 1.33, decimals: 2, suffix: 'M', post: 'HOME'}, media: {src: 'priced/pr18_home133.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'stat', stat: {prefix: '$', value: 1.33, decimals: 2, suffix: 'M', post: 'HOME'}, media: {src: 'priced/pr18_home133.jpg', type: 'img', effect: 'in'}},
   // 19
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that extra five|percentage points means', highlights: ['five'], size: 44, pos: 'upperRight', media: {src: 'priced/pr19_five.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'that extra five|percentage points means', highlights: ['five'], size: 44, pos: 'upperRight', media: {src: 'priced/pr19_five.jpg', type: 'img', effect: 'in'}},
   // 20 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'MORE THAN', prefix: '$', value: 60000, post: 'IN CASH'}, media: {src: 'priced/pr20_60k.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'stat', stat: {pre: 'MORE THAN', prefix: '$', value: 60000, post: 'IN CASH'}, media: {src: 'priced/pr20_60k.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2], text: 'Renters are feeling it too.', highlights: ['Renters'], size: 46, pos: 'left', media: {src: 'priced/pr21_renters.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2], text: 'Renters are feeling it too.', highlights: ['Renters'], size: 46, pos: 'left', media: {src: 'priced/pr21_renters.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2], text: 'October rents climbed', highlights: ['climbed'], size: 52, pos: 'lowerRight', media: {src: 'priced/pr22_climbed.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'October rents climbed', highlights: ['climbed'], size: 52, pos: 'lowerRight', media: {src: 'priced/pr22_climbed.jpg', type: 'img', effect: 'in'}},
   // 23 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '+', value: 6.3, decimals: 1, suffix: '%', post: 'SAN FRANCISCO'}, media: {src: 'priced/pr23_sf63.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'stat', stat: {prefix: '+', value: 6.3, decimals: 1, suffix: '%', post: 'SAN FRANCISCO'}, media: {src: 'priced/pr23_sf63.jpg', type: 'img', effect: 'in'}},
   // 24 CARD
-  {dur: 70, kind: 'stat', stat: {prefix: '+', value: 6.2, decimals: 1, suffix: '%', post: 'SAN JOSE'}, media: {src: 'priced/pr24_sj62.jpg', type: 'img', effect: 'in'}},
+  {dur: 67, kind: 'stat', stat: {prefix: '+', value: 6.2, decimals: 1, suffix: '%', post: 'SAN JOSE'}, media: {src: 'priced/pr24_sj62.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'while national rents|barely moved.', highlights: ['barely'], size: 48, pos: 'upperLeft', media: {src: 'priced/pr25_barely.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'while national rents|barely moved.', highlights: ['barely'], size: 48, pos: 'upperLeft', media: {src: 'priced/pr25_barely.jpg', type: 'img', effect: 'in'}},
   // 26
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The AI boom is creating|enormous wealth,', highlights: ['wealth,'], size: 44, pos: 'right', media: {src: 'priced/pr26_wealth.jpg', type: 'img', effect: 'in'}},
+  {dur: 83, kind: 'text', reveal: [2, 28], text: 'The AI boom is creating|enormous wealth,', highlights: ['wealth,'], size: 44, pos: 'right', media: {src: 'priced/pr26_wealth.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'but that wealth|is concentrating', highlights: ['concentrating'], size: 48, pos: 'lower', media: {src: 'priced/pr27_concentrating.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'but that wealth|is concentrating', highlights: ['concentrating'], size: 48, pos: 'lower', media: {src: 'priced/pr27_concentrating.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in the hands of people|who can afford to', highlights: ['afford'], size: 44, pos: 'upperRight', media: {src: 'priced/pr28_hands.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'in the hands of people|who can afford to', highlights: ['afford'], size: 44, pos: 'upperRight', media: {src: 'priced/pr28_hands.jpg', type: 'img', effect: 'in'}},
   // 29 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'Outbid|everyone else.'},
+  {dur: 61, kind: 'impact', redBg: true, text: 'Outbid|everyone else.'},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'So is AI making cities', highlights: ['AI'], size: 46, pos: 'lowerLeft', media: {src: 'priced/pr30_prosperous.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2], text: 'So is AI making cities', highlights: ['AI'], size: 46, pos: 'lowerLeft', media: {src: 'priced/pr30_prosperous.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'like San Francisco|more prosperous,', highlights: ['prosperous,'], size: 48, pos: 'left', media: {src: 'priced/pr31_sfpros.jpg', type: 'img', effect: 'in'}},
+  {dur: 73, kind: 'text', reveal: [2, 28], text: 'like San Francisco|more prosperous,', highlights: ['prosperous,'], size: 48, pos: 'left', media: {src: 'priced/pr31_sfpros.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or is it pricing|ordinary people out', highlights: ['pricing'], size: 44, pos: 'right', media: {src: 'priced/pr32_pricing.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'or is it pricing|ordinary people out', highlights: ['pricing'], size: 44, pos: 'right', media: {src: 'priced/pr32_pricing.jpg', type: 'img', effect: 'in'}},
   // 33 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'of their own neighborhoods?', highlights: ['neighborhoods?'], size: 52, media: {src: 'priced/pr33_neighborhoods.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'of their own neighborhoods?', highlights: ['neighborhoods?'], size: 52, media: {src: 'priced/pr33_neighborhoods.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 1018, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1215, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1359, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1537, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1612, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1940, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2206, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
