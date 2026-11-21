@@ -109,84 +109,84 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 92, kind: 'hook', reveal: [3, 40], text: 'Elon Musk wants|to take on Verizon.', kicker: 'The battle', highlights: ['Verizon.'], size: 48, media: {src: 'battle/bt00_musk.mp4', type: 'video', effect: 'in'}},
+  {dur: 87, kind: 'hook', reveal: [3, 40], text: 'Elon Musk wants|to take on Verizon.', kicker: 'The battle', highlights: ['Verizon.'], size: 48, media: {src: 'battle/bt00_musk.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 53, kind: 'text', reveal: [2], text: 'But Verizon’s CEO says', highlights: ['CEO'], size: 50, pos: 'upperRight', media: {src: 'battle/bt01_ceo.mp4', type: 'video', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'But Verizon’s CEO says', highlights: ['CEO'], size: 50, pos: 'upperRight', media: {src: 'battle/bt01_ceo.mp4', type: 'video', effect: 'in'}},
   // 2
-  {dur: 49, kind: 'text', reveal: [2], text: 'it could cost him', highlights: ['cost'], size: 50, pos: 'left', media: {src: 'battle/bt02_cost.mp4', type: 'video', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'it could cost him', highlights: ['cost'], size: 50, pos: 'left', media: {src: 'battle/bt02_cost.mp4', type: 'video', effect: 'in'}},
   // 3 CARD
-  {dur: 48, kind: 'stat', stat: {pre: 'MORE THAN', prefix: '$', value: 300, suffix: 'B'}, media: {src: 'battle/bt03_300b.mp4', type: 'video', effect: 'in'}},
+  {dur: 46, kind: 'stat', stat: {pre: 'MORE THAN', prefix: '$', value: 300, suffix: 'B'}, media: {src: 'battle/bt03_300b.mp4', type: 'video', effect: 'in'}},
   // 4
-  {dur: 44, kind: 'text', reveal: [2], text: 'And here’s the surprising part:', highlights: ['surprising'], size: 46, pos: 'lowerRight', media: {src: 'battle/bt04_surprising.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'And here’s the surprising part:', highlights: ['surprising'], size: 46, pos: 'lowerRight', media: {src: 'battle/bt04_surprising.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 54, kind: 'text', reveal: [2, 28], text: 'even after spending|all that money,', highlights: ['money,'], size: 44, pos: 'upperLeft', media: {src: 'battle/bt05_money.mp4', type: 'video', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'even after spending|all that money,', highlights: ['money,'], size: 44, pos: 'upperLeft', media: {src: 'battle/bt05_money.mp4', type: 'video', effect: 'in'}},
   // 6
-  {dur: 69, kind: 'text', reveal: [2, 28], text: 'Musk might end up|with a network', highlights: ['network'], size: 44, pos: 'right', media: {src: 'battle/bt06_network.mp4', type: 'video', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'Musk might end up|with a network', highlights: ['network'], size: 44, pos: 'right', media: {src: 'battle/bt06_network.mp4', type: 'video', effect: 'in'}},
   // 7
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'that looks just|like Verizon’s.', highlights: ['just'], size: 48, pos: 'lower', media: {src: 'battle/bt07_verizon.mp4', type: 'video', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'that looks just|like Verizon’s.', highlights: ['just'], size: 48, pos: 'lower', media: {src: 'battle/bt07_verizon.mp4', type: 'video', effect: 'in'}},
   // 8 FOLLOW
-  {dur: 72, kind: 'text', reveal: [2], text: 'Follow for more stories|about the biggest moves', highlights: ['follow'], size: 44, pos: 'lowerLeft', media: {src: 'battle/bt08_follow.mp4', type: 'video', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2], text: 'Follow for more stories|about the biggest moves', highlights: ['follow'], size: 44, pos: 'lowerLeft', media: {src: 'battle/bt08_follow.mp4', type: 'video', effect: 'in'}},
   // 9
-  {dur: 58, kind: 'text', reveal: [2], text: 'in technology and business.', highlights: ['business.'], size: 50, pos: 'upperRight', media: {src: 'battle/bt09_business.mp4', type: 'video', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2], text: 'in technology and business.', highlights: ['business.'], size: 50, pos: 'upperRight', media: {src: 'battle/bt09_business.mp4', type: 'video', effect: 'in'}},
   // 10
-  {dur: 58, kind: 'text', reveal: [2], text: 'SpaceX wants to turn Starlink', highlights: ['Starlink'], size: 46, pos: 'left', media: {src: 'battle/bt10_starlink.mp4', type: 'video', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2], text: 'SpaceX wants to turn Starlink', highlights: ['Starlink'], size: 46, pos: 'left', media: {src: 'battle/bt10_starlink.mp4', type: 'video', effect: 'in'}},
   // 11
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'into a major|U.S. mobile carrier,', highlights: ['carrier,'], size: 44, pos: 'right', media: {src: 'battle/bt11_carrier.mp4', type: 'video', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'into a major|U.S. mobile carrier,', highlights: ['carrier,'], size: 44, pos: 'right', media: {src: 'battle/bt11_carrier.mp4', type: 'video', effect: 'in'}},
   // 12
-  {dur: 50, kind: 'text', reveal: [2, 28], text: 'putting it in|direct competition', highlights: ['competition'], size: 48, pos: 'upperLeft', media: {src: 'battle/bt12_competition.mp4', type: 'video', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'putting it in|direct competition', highlights: ['competition'], size: 48, pos: 'upperLeft', media: {src: 'battle/bt12_competition.mp4', type: 'video', effect: 'in'}},
   // 13
-  {dur: 90, kind: 'text', reveal: [2, 28], text: 'with Verizon, AT&T,|and T-Mobile.', highlights: ['T-Mobile.'], size: 48, pos: 'lowerRight', media: {src: 'battle/bt13_carriers.mp4', type: 'video', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'with Verizon, AT&T,|and T-Mobile.', highlights: ['T-Mobile.'], size: 48, pos: 'lowerRight', media: {src: 'battle/bt13_carriers.mp4', type: 'video', effect: 'in'}},
   // 14
-  {dur: 64, kind: 'text', reveal: [2], text: 'Verizon CEO Dan Schulman', highlights: ['Schulman'], size: 50, pos: 'upper', media: {src: 'battle/bt14_schulman.mp4', type: 'video', effect: 'in'}},
+  {dur: 60, kind: 'text', reveal: [2], text: 'Verizon CEO Dan Schulman', highlights: ['Schulman'], size: 50, pos: 'upper', media: {src: 'battle/bt14_schulman.mp4', type: 'video', effect: 'in'}},
   // 15
-  {dur: 67, kind: 'text', reveal: [2], text: 'estimates SpaceX would need', highlights: ['estimates'], size: 50, pos: 'left', media: {src: 'battle/bt15_estimates.mp4', type: 'video', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2], text: 'estimates SpaceX would need', highlights: ['estimates'], size: 50, pos: 'left', media: {src: 'battle/bt15_estimates.mp4', type: 'video', effect: 'in'}},
   // 16 CARD
-  {dur: 102, kind: 'stat', stat: {pre: '65,000–', value: 80000, post: 'CELL SITES'}, media: {src: 'battle/bt16_cellsites.mp4', type: 'video', effect: 'in'}},
+  {dur: 97, kind: 'stat', stat: {pre: '65,000–', value: 80000, post: 'CELL SITES'}, media: {src: 'battle/bt16_cellsites.mp4', type: 'video', effect: 'in'}},
   // 17
-  {dur: 40, kind: 'text', reveal: [2], text: 'and four to six years', highlights: ['four'], size: 46, pos: 'right', media: {src: 'battle/bt17_years.mp4', type: 'video', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'and four to six years', highlights: ['four'], size: 46, pos: 'right', media: {src: 'battle/bt17_years.mp4', type: 'video', effect: 'in'}},
   // 18
-  {dur: 54, kind: 'text', reveal: [2, 28], text: 'to build a|nationwide network.', highlights: ['nationwide'], size: 48, pos: 'lowerLeft', media: {src: 'battle/bt18_nationwide.mp4', type: 'video', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2, 28], text: 'to build a|nationwide network.', highlights: ['nationwide'], size: 48, pos: 'lowerLeft', media: {src: 'battle/bt18_nationwide.mp4', type: 'video', effect: 'in'}},
   // 19
-  {dur: 45, kind: 'text', reveal: [2], text: 'His estimated price tag?', highlights: ['price'], size: 50, pos: 'upperRight', media: {src: 'battle/bt19_pricetag.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'His estimated price tag?', highlights: ['price'], size: 50, pos: 'upperRight', media: {src: 'battle/bt19_pricetag.jpg', type: 'img', effect: 'in'}},
   // 20 CARD
-  {dur: 84, kind: 'stat', stat: {pre: '$300B–', prefix: '$', value: 500, suffix: 'B', post: 'PRICE TAG'}, media: {src: 'battle/bt20_300500.mp4', type: 'video', effect: 'in'}},
+  {dur: 79, kind: 'stat', stat: {pre: '$300B–', prefix: '$', value: 500, suffix: 'B', post: 'PRICE TAG'}, media: {src: 'battle/bt20_300500.mp4', type: 'video', effect: 'in'}},
   // 21
   {dur: 26, kind: 'text', reveal: [2], text: 'And even then,', highlights: ['then,'], size: 52, pos: 'left', media: {src: 'battle/bt21_eventhen.mp4', type: 'video', effect: 'in'}},
   // 22
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'Schulman says SpaceX|would essentially become', highlights: ['essentially'], size: 44, pos: 'lowerRight', media: {src: 'battle/bt22_become.mp4', type: 'video', effect: 'in'}},
+  {dur: 79, kind: 'text', reveal: [2, 28], text: 'Schulman says SpaceX|would essentially become', highlights: ['essentially'], size: 44, pos: 'lowerRight', media: {src: 'battle/bt22_become.mp4', type: 'video', effect: 'in'}},
   // 23
-  {dur: 55, kind: 'text', reveal: [2], text: 'another wireless carrier,', highlights: ['wireless'], size: 52, pos: 'upperLeft', media: {src: 'battle/bt23_wireless.mp4', type: 'video', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'another wireless carrier,', highlights: ['wireless'], size: 52, pos: 'upperLeft', media: {src: 'battle/bt23_wireless.mp4', type: 'video', effect: 'in'}},
   // 24
-  {dur: 54, kind: 'text', reveal: [2, 28], text: 'without a major|cost advantage.', highlights: ['advantage.'], size: 48, pos: 'right', media: {src: 'battle/bt24_advantage.mp4', type: 'video', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'without a major|cost advantage.', highlights: ['advantage.'], size: 48, pos: 'right', media: {src: 'battle/bt24_advantage.mp4', type: 'video', effect: 'in'}},
   // 25 RED
-  {dur: 53, kind: 'impact', redBg: true, text: 'Musk|disagrees.'},
+  {dur: 52, kind: 'impact', redBg: true, text: 'Musk|disagrees.'},
   // 26
-  {dur: 83, kind: 'text', reveal: [2, 28], text: 'He believes SpaceX|could build the network', highlights: ['believes'], size: 44, pos: 'lower', media: {src: 'battle/bt26_believes.mp4', type: 'video', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'He believes SpaceX|could build the network', highlights: ['believes'], size: 44, pos: 'lower', media: {src: 'battle/bt26_believes.mp4', type: 'video', effect: 'in'}},
   // 27
-  {dur: 51, kind: 'text', reveal: [2], text: 'in just two to three years.', highlights: ['two'], size: 42, pos: 'upperRight', media: {src: 'battle/bt27_fast.mp4', type: 'video', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'in just two to three years.', highlights: ['two'], size: 42, pos: 'upperRight', media: {src: 'battle/bt27_fast.mp4', type: 'video', effect: 'in'}},
   // 28
-  {dur: 75, kind: 'text', reveal: [2, 28], text: 'He’s also exploring|smaller cell towers', highlights: ['smaller'], size: 44, pos: 'lowerLeft', media: {src: 'battle/bt28_towers.mp4', type: 'video', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'He’s also exploring|smaller cell towers', highlights: ['smaller'], size: 44, pos: 'lowerLeft', media: {src: 'battle/bt28_towers.mp4', type: 'video', effect: 'in'}},
   // 29
-  {dur: 46, kind: 'text', reveal: [2], text: 'to accelerate the rollout.', highlights: ['accelerate'], size: 50, pos: 'left', media: {src: 'battle/bt29_rollout.mp4', type: 'video', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'to accelerate the rollout.', highlights: ['accelerate'], size: 50, pos: 'left', media: {src: 'battle/bt29_rollout.mp4', type: 'video', effect: 'in'}},
   // 30
-  {dur: 80, kind: 'text', reveal: [2, 28], text: 'So can Elon Musk|really disrupt', highlights: ['disrupt'], size: 44, pos: 'right', media: {src: 'battle/bt30_disrupt.mp4', type: 'video', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2, 28], text: 'So can Elon Musk|really disrupt', highlights: ['disrupt'], size: 44, pos: 'right', media: {src: 'battle/bt30_disrupt.mp4', type: 'video', effect: 'in'}},
   // 31
-  {dur: 55, kind: 'text', reveal: [2], text: 'America’s wireless giants,', highlights: ['giants,'], size: 52, pos: 'lowerRight', media: {src: 'battle/bt31_giants.mp4', type: 'video', effect: 'in'}},
+  {dur: 52, kind: 'text', reveal: [2], text: 'America’s wireless giants,', highlights: ['giants,'], size: 52, pos: 'lowerRight', media: {src: 'battle/bt31_giants.mp4', type: 'video', effect: 'in'}},
   // 32
-  {dur: 50, kind: 'text', reveal: [2], text: 'or is Verizon right', highlights: ['Verizon'], size: 50, pos: 'upperLeft', media: {src: 'battle/bt32_right.mp4', type: 'video', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2], text: 'or is Verizon right', highlights: ['Verizon'], size: 50, pos: 'upperLeft', media: {src: 'battle/bt32_right.mp4', type: 'video', effect: 'in'}},
   // 33 CTA
-  {dur: 90, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'that this could become|a very expensive battle?', highlights: ['battle?'], size: 46, media: {src: 'battle/bt33_battle.mp4', type: 'video', effect: 'in'}},
+  {dur: 85, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'that this could become|a very expensive battle?', highlights: ['battle?'], size: 46, media: {src: 'battle/bt33_battle.mp4', type: 'video', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 194, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1019, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1260, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1562, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2055, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 184, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 971, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1200, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1487, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 1957, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {

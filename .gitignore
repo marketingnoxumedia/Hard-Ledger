@@ -9,3 +9,4 @@ scratchpad/
 # Sourcing-agent candidate scratch (never ship these)
 public/**/_c_*
 public/**/_cand_*
+pub_*/
