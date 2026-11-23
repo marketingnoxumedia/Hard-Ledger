@@ -106,71 +106,97 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Bitcoin just had|a brutal weekend.', kicker: 'The bounce', highlights: ['brutal'], size: 48, media: {src: 'bounce/bn00_crash.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Bitcoin just suffered|one of its worst', kicker: 'The bounce', highlights: ['worst'], size: 48, media: {src: 'bounce/bn00_crash.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'At one point,|it was crashing.', highlights: ['crashing.'], size: 44, pos: 'upperRight', media: {src: 'bounce/bn01_falling.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'weekend drops, crashing|close to $55,000.', highlights: ['$55,000.'], size: 44, pos: 'upperRight', media: {src: 'bounce/bn01_candlestick.jpg', type: 'img', effect: 'in'}},
   // 2 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'FELL TO', prefix: '$', value: 55326}, media: {src: 'bounce/bn02_low.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'stat', stat: {pre: 'BACK ABOVE', prefix: '$', value: 61000}, media: {src: 'bounce/bn02_rebound.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The lowest|in over a year.', highlights: ['lowest'], size: 44, pos: 'left', media: {src: 'bounce/bn03_calendar.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But don’t mistake|this rebound', highlights: ['rebound'], size: 48, pos: 'left', media: {src: 'bounce/bn03_doubt.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Then it|bounced back.', highlights: ['bounced'], size: 50, pos: 'lowerRight', media: {src: 'bounce/bn04_bounce.jpg', type: 'img', effect: 'in'}},
-  // 5 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'BOUNCED +9%', prefix: '$', value: 61000}, media: {src: 'bounce/bn05_rebound.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for a recovery|just yet.', highlights: ['recovery'], size: 48, pos: 'lowerRight', media: {src: 'bounce/bn04_caution.jpg', type: 'img', effect: 'in'}},
+  // 5
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Billions of dollars|have already been', highlights: ['Billions'], size: 44, pos: 'upperLeft', media: {src: 'bounce/bn05_billions.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So what|actually happened?', highlights: ['happened?'], size: 50, pos: 'upperLeft', media: {src: 'bounce/bn06_question.jpg', type: 'img', effect: 'in'}},
-  // 7 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more|on markets and money.', highlights: ['Follow'], size: 44, pos: 'right', media: {src: 'bounce/bn07_follow.jpg', type: 'img', effect: 'in'}},
-  // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It started with|forced selling.', highlights: ['forced'], size: 48, pos: 'lower', media: {src: 'bounce/bn08_selling.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'wiped out,', highlights: ['wiped'], size: 52, pos: 'right', media: {src: 'bounce/bn06_gone.jpg', type: 'img', effect: 'in'}},
+  // 7
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and investors|are still nervous.', highlights: ['nervous.'], size: 48, pos: 'lower', media: {src: 'bounce/bn07_nervous.jpg', type: 'img', effect: 'in'}},
+  // 8 FOLLOW
+  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['Follow'], size: 50, pos: 'lowerLeft', media: {src: 'bounce/bn08_follow.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Traders borrowed|to bet big.', highlights: ['borrowed'], size: 48, pos: 'lowerLeft', media: {src: 'bounce/bn09_leverage.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on the biggest moves|in cryptocurrency', highlights: ['cryptocurrency'], size: 44, pos: 'upperRight', media: {src: 'bounce/bn09_moves.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Falling prices|wiped them out.', highlights: ['wiped'], size: 48, pos: 'upperRight', media: {src: 'bounce/bn10_wiped.jpg', type: 'img', effect: 'in'}},
-  // 11 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'LIQUIDATED', prefix: '$', value: 1.8, decimals: 1, suffix: 'B'}, media: {src: 'bounce/bn11_liquidated.jpg', type: 'img', effect: 'in'}},
-  // 12
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Most were betting|on higher prices.', highlights: ['higher'], size: 44, pos: 'left', media: {src: 'bounce/bn12_bull.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'and financial markets.', highlights: ['markets.'], size: 52, pos: 'left', media: {src: 'bounce/bn10_markets.jpg', type: 'img', effect: 'in'}},
+  // 11
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Bitcoin plunged|on Saturday', highlights: ['plunged'], size: 50, pos: 'right', media: {src: 'bounce/bn11_plunge.jpg', type: 'img', effect: 'in'}},
+  // 12 CARD
+  {dur: 70, kind: 'stat', stat: {pre: 'PLUNGED TO', prefix: '$', value: 55326}, media: {src: 'bounce/bn12_low.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So the selling|fed on itself.', highlights: ['fed'], size: 44, pos: 'right', media: {src: 'bounce/bn13_domino.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'its weakest level|since September 2024,', highlights: ['weakest'], size: 44, pos: 'upperLeft', media: {src: 'bounce/bn13_calendar.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But it’s not|just crypto.', highlights: ['crypto.'], size: 48, pos: 'upperLeft', media: {src: 'bounce/bn14_stocks.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'before recovering|more than 9%.', highlights: ['9%.'], size: 48, pos: 'lowerRight', media: {src: 'bounce/bn14_recover.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Stocks are|sliding too.', highlights: ['sliding'], size: 50, pos: 'lowerRight', media: {src: 'bounce/bn15_sliding.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'According to CoinGlass data', highlights: ['CoinGlass'], size: 50, pos: 'upper', media: {src: 'bounce/bn15_data.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'On Friday,|the Nasdaq tumbled.', highlights: ['tumbled.'], size: 48, pos: 'upper', media: {src: 'bounce/bn16_nasdaq.jpg', type: 'img', effect: 'in'}},
-  // 17
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Meanwhile,|the dollar is surging.', highlights: ['surging.'], size: 48, pos: 'left', media: {src: 'bounce/bn17_dollar.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'cited by Investing.com,', highlights: ['Investing.com,'], size: 52, pos: 'left', media: {src: 'bounce/bn16_source.jpg', type: 'img', effect: 'in'}},
+  // 17 CARD
+  {dur: 70, kind: 'stat', stat: {pre: 'LIQUIDATED', prefix: '$', value: 1.8, decimals: 1, suffix: 'B'}, media: {src: 'bounce/bn17_liquidated.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And big investors|are pulling out.', highlights: ['pulling'], size: 44, pos: 'right', media: {src: 'bounce/bn18_outflow.jpg', type: 'img', effect: 'in'}},
-  // 19 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'ETF OUTFLOWS', prefix: '$', value: 1.8, decimals: 1, suffix: 'B'}, media: {src: 'bounce/bn19_etf.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'in leveraged|crypto positions', highlights: ['leveraged'], size: 50, pos: 'right', media: {src: 'bounce/bn18_leverage.jpg', type: 'img', effect: 'in'}},
+  // 19
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'were liquidated|in just 24 hours.', highlights: ['liquidated'], size: 44, pos: 'lowerLeft', media: {src: 'bounce/bn19_clock.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Here’s the|real pressure.', highlights: ['real'], size: 50, pos: 'lowerLeft', media: {src: 'bounce/bn20_pressure.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'About $1.3 billion', highlights: ['$1.3'], size: 52, pos: 'upperRight', media: {src: 'bounce/bn20_longs.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Rising|interest rates.', highlights: ['interest'], size: 52, pos: 'upperRight', media: {src: 'bounce/bn21_rates.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'came from traders|betting Bitcoin would rise.', highlights: ['betting'], size: 44, pos: 'left', media: {src: 'bounce/bn21_bull.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Safe returns|are going up.', highlights: ['Safe'], size: 48, pos: 'left', media: {src: 'bounce/bn22_yield.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The pressure isn’t|coming', highlights: ['pressure'], size: 50, pos: 'lowerRight', media: {src: 'bounce/bn22_pressure.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So an asset that|pays nothing', highlights: ['nothing'], size: 44, pos: 'lowerRight', media: {src: 'bounce/bn23_coin.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'from crypto alone.', highlights: ['crypto'], size: 52, pos: 'upperLeft', media: {src: 'bounce/bn23_crypto.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'looks a lot|less attractive.', highlights: ['less'], size: 48, pos: 'upperLeft', media: {src: 'bounce/bn24_down.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Technology stocks|have been selling off', highlights: ['selling'], size: 44, pos: 'right', media: {src: 'bounce/bn24_stocks.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the Fed|might hike again.', highlights: ['Fed'], size: 44, pos: 'right', media: {src: 'bounce/bn25_fed.jpg', type: 'img', effect: 'in'}},
-  // 26 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'The pressure|hasn’t eased.'},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'as investors question|massive AI spending', highlights: ['AI'], size: 44, pos: 'lower', media: {src: 'bounce/bn25_ai.jpg', type: 'img', effect: 'in'}},
+  // 26
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and worry about|stretched valuations.', highlights: ['stretched'], size: 48, pos: 'upperRight', media: {src: 'bounce/bn26_valuations.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So is this|the real bottom?', highlights: ['bottom?'], size: 44, pos: 'lower', media: {src: 'bounce/bn27_bottom.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'There’s another|warning sign:', highlights: ['warning'], size: 50, pos: 'lowerLeft', media: {src: 'bounce/bn27_warning.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Or just|a pause?', highlights: ['pause?'], size: 50, pos: 'upperRight', media: {src: 'bounce/bn28_pause.jpg', type: 'img', effect: 'in'}},
-  // 29
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Before the|next drop?', highlights: ['drop?'], size: 50, pos: 'lowerLeft', media: {src: 'bounce/bn29_drop.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'U.S. spot Bitcoin ETFs', highlights: ['ETFs'], size: 50, pos: 'left', media: {src: 'bounce/bn28_etf.jpg', type: 'img', effect: 'in'}},
+  // 29 CARD
+  {dur: 70, kind: 'stat', stat: {pre: 'ETF OUTFLOWS', prefix: '$', value: 1.8, decimals: 1, suffix: 'B'}, media: {src: 'bounce/bn29_outflow.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'A buying|opportunity?', highlights: ['opportunity?'], size: 52, pos: 'left', media: {src: 'bounce/bn30_opportunity.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'net outflows|over the past week.', highlights: ['outflows'], size: 44, pos: 'right', media: {src: 'bounce/bn30_drain.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Or a deeper|crypto winter?', highlights: ['winter?'], size: 48, pos: 'right', media: {src: 'bounce/bn31_winter.jpg', type: 'img', effect: 'in'}},
-  // 32 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Let me know|in the comments.', highlights: ['comments.'], size: 46, media: {src: 'bounce/bn32_comments.jpg', type: 'img', effect: 'in'}},
+  {dur: 70, kind: 'text', reveal: [2], text: 'That’s a major source', highlights: ['major'], size: 50, pos: 'lowerRight', media: {src: 'bounce/bn31_bigmoney.jpg', type: 'img', effect: 'in'}},
+  // 32
+  {dur: 70, kind: 'text', reveal: [2], text: 'of institutional demand', highlights: ['institutional'], size: 52, pos: 'upperLeft', media: {src: 'bounce/bn32_institution.jpg', type: 'img', effect: 'in'}},
+  // 33 RED
+  {dur: 70, kind: 'impact', redBg: true, text: 'moving in the|wrong direction.'},
+  // 34
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And with markets|increasingly expecting', highlights: ['markets'], size: 48, pos: 'right', media: {src: 'bounce/bn33_fed1.jpg', type: 'img', effect: 'in'}},
+  // 35
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'a possible|Federal Reserve rate hike', highlights: ['Federal'], size: 44, pos: 'upperRight', media: {src: 'bounce/bn34_fed2.jpg', type: 'img', effect: 'in'}},
+  // 36
+  {dur: 70, kind: 'text', reveal: [2], text: 'next month,', highlights: ['month,'], size: 52, pos: 'left', media: {src: 'bounce/bn35_month.jpg', type: 'img', effect: 'in'}},
+  // 37
+  {dur: 70, kind: 'text', reveal: [2], text: 'higher borrowing costs', highlights: ['borrowing'], size: 52, pos: 'lowerLeft', media: {src: 'bounce/bn36_costs.jpg', type: 'img', effect: 'in'}},
+  // 38
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could put even|more pressure', highlights: ['pressure'], size: 48, pos: 'upper', media: {src: 'bounce/bn37_squeeze.jpg', type: 'img', effect: 'in'}},
+  // 39
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'on risky assets|like Bitcoin.', highlights: ['risky'], size: 48, pos: 'right', media: {src: 'bounce/bn38_risk.jpg', type: 'img', effect: 'in'}},
+  // 40
+  {dur: 70, kind: 'text', reveal: [2, 28], text: 'So is Bitcoin|finally finding', highlights: ['finding'], size: 48, pos: 'lowerRight', media: {src: 'bounce/bn39_finding.jpg', type: 'img', effect: 'in'}},
+  // 41
+  {dur: 70, kind: 'text', reveal: [2], text: 'its bottom,', highlights: ['bottom,'], size: 52, pos: 'upperLeft', media: {src: 'bounce/bn40_floor.jpg', type: 'img', effect: 'in'}},
+  // 42
+  {dur: 70, kind: 'text', reveal: [2], text: 'or is this just', highlights: ['this'], size: 50, pos: 'left', media: {src: 'bounce/bn41_or.jpg', type: 'img', effect: 'in'}},
+  // 43
+  {dur: 70, kind: 'text', reveal: [2], text: 'a temporary bounce', highlights: ['bounce'], size: 52, pos: 'lowerRight', media: {src: 'bounce/bn42_bounce2.jpg', type: 'img', effect: 'in'}},
+  // 44
+  {dur: 70, kind: 'text', reveal: [2], text: 'before another crash?', highlights: ['crash?'], size: 52, pos: 'upperRight', media: {src: 'bounce/bn43_crash2.jpg', type: 'img', effect: 'in'}},
+  // 45 CTA
+  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'Would you buy|at these levels?', highlights: ['levels?'], size: 46, media: {src: 'bounce/bn44_levels.jpg', type: 'img', effect: 'in'}},
 ];
 
 
