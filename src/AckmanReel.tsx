@@ -107,121 +107,127 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Billionaire investor|Bill Ackman', kicker: 'The warning', highlights: ['Ackman'], size: 54, media: {src: 'ackman/ak00_ackman.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'hook', reveal: [3, 40], text: 'Billionaire investor|Bill Ackman', kicker: 'The warning', highlights: ['Ackman'], size: 54, media: {src: 'ackman/ak00_ackman.jpg', type: 'img', effect: 'in'}},
   // 1
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'is sounding|the alarm.', highlights: ['alarm.'], size: 50, pos: 'upperRight', media: {src: 'ackman/ak01_alarm.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'is sounding|the alarm.', highlights: ['alarm.'], size: 50, pos: 'upperRight', media: {src: 'ackman/ak01_alarm.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'He says|the Federal Reserve', highlights: ['Federal'], size: 48, pos: 'left', media: {src: 'ackman/ak02_fed.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'He says|the Federal Reserve', highlights: ['Federal'], size: 48, pos: 'left', media: {src: 'ackman/ak02_fed.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could make|one decision', highlights: ['one'], size: 50, pos: 'lowerRight', media: {src: 'ackman/ak03_decision.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'could make|one decision', highlights: ['one'], size: 50, pos: 'lowerRight', media: {src: 'ackman/ak03_decision.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that pushes|the U.S. economy', highlights: ['economy'], size: 48, pos: 'upperLeft', media: {src: 'ackman/ak04_economy.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'that pushes|the U.S. economy', highlights: ['economy'], size: 48, pos: 'upperLeft', media: {src: 'ackman/ak04_economy.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'toward a recession.', highlights: ['recession.'], size: 52, pos: 'right', media: {src: 'ackman/ak05_recession.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'toward a recession.', highlights: ['recession.'], size: 52, pos: 'right', media: {src: 'ackman/ak05_recession.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the|surprising part?', highlights: ['surprising'], size: 50, pos: 'lower', media: {src: 'ackman/ak06_surprising.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'And the|surprising part?', highlights: ['surprising'], size: 50, pos: 'lower', media: {src: 'ackman/ak06_surprising.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Ackman believes|the Fed’s fight', highlights: ['fight'], size: 48, pos: 'lowerLeft', media: {src: 'ackman/ak07_fight.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'Ackman believes|the Fed’s fight', highlights: ['fight'], size: 48, pos: 'lowerLeft', media: {src: 'ackman/ak07_fight.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2], text: 'against inflation', highlights: ['inflation'], size: 52, pos: 'upperRight', media: {src: 'ackman/ak08_inflation.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'against inflation', highlights: ['inflation'], size: 52, pos: 'upperRight', media: {src: 'ackman/ak08_inflation.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could actually|be making', highlights: ['actually'], size: 50, pos: 'left', media: {src: 'ackman/ak09_actually.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2, 28], text: 'could actually|be making', highlights: ['actually'], size: 50, pos: 'left', media: {src: 'ackman/ak09_actually.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'the problem worse.', highlights: ['worse.'], size: 52, pos: 'right', media: {src: 'ackman/ak10_worse.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'the problem worse.', highlights: ['worse.'], size: 52, pos: 'right', media: {src: 'ackman/ak10_worse.jpg', type: 'img', effect: 'in'}},
   // 11 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['Follow'], size: 50, pos: 'upperLeft', media: {src: 'ackman/ak11_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'Follow for more stories', highlights: ['Follow'], size: 50, pos: 'upperLeft', media: {src: 'ackman/ak11_follow.jpg', type: 'img', effect: 'in'}},
   // 12
-  {dur: 70, kind: 'text', reveal: [2], text: 'about the biggest moves', highlights: ['biggest'], size: 50, pos: 'lowerRight', media: {src: 'ackman/ak12_moves.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'about the biggest moves', highlights: ['biggest'], size: 50, pos: 'lowerRight', media: {src: 'ackman/ak12_moves.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'in business, finance,', highlights: ['finance,'], size: 52, pos: 'upper', media: {src: 'ackman/ak13_finance.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'in business, finance,', highlights: ['finance,'], size: 52, pos: 'upper', media: {src: 'ackman/ak13_finance.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'and the global economy.', highlights: ['global'], size: 50, pos: 'left', media: {src: 'ackman/ak14_global.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'and the global economy.', highlights: ['global'], size: 50, pos: 'left', media: {src: 'ackman/ak14_global.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'In a new warning,', highlights: ['warning,'], size: 50, pos: 'right', media: {src: 'ackman/ak15_warning.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'In a new warning,', highlights: ['warning,'], size: 50, pos: 'right', media: {src: 'ackman/ak15_warning.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2], text: 'the Pershing Square CEO', highlights: ['Pershing'], size: 50, pos: 'lowerLeft', media: {src: 'ackman/ak16_pershing.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'the Pershing Square CEO', highlights: ['Pershing'], size: 50, pos: 'lowerLeft', media: {src: 'ackman/ak16_pershing.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'says the Federal Reserve', highlights: ['Federal'], size: 50, pos: 'upperRight', media: {src: 'ackman/ak17_fed2.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'says the Federal Reserve', highlights: ['Federal'], size: 50, pos: 'upperRight', media: {src: 'ackman/ak17_fed2.jpg', type: 'img', effect: 'in'}},
   // 18
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could make|another mistake', highlights: ['mistake'], size: 50, pos: 'left', media: {src: 'ackman/ak18_mistake.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2, 28], text: 'could make|another mistake', highlights: ['mistake'], size: 50, pos: 'left', media: {src: 'ackman/ak18_mistake.jpg', type: 'img', effect: 'in'}},
   // 19 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'DECEMBER', value: 9, post: 'MEETING'}, media: {src: 'ackman/ak19_dec9.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'stat', stat: {pre: 'DECEMBER', value: 9, post: 'MEETING'}, media: {src: 'ackman/ak19_dec9.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'by raising|interest rates again.', highlights: ['raising'], size: 48, pos: 'lowerRight', media: {src: 'ackman/ak20_hike.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'by raising|interest rates again.', highlights: ['raising'], size: 48, pos: 'lowerRight', media: {src: 'ackman/ak20_hike.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Ackman points to|tightening financial conditions.', highlights: ['tightening'], size: 44, pos: 'upperLeft', media: {src: 'ackman/ak21_tightening.jpg', type: 'img', effect: 'in'}},
+  {dur: 81, kind: 'text', reveal: [2, 28], text: 'Ackman points to|tightening financial conditions.', highlights: ['tightening'], size: 44, pos: 'upperLeft', media: {src: 'ackman/ak21_tightening.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'He highlights|SpaceX’s recent debt', highlights: ['debt'], size: 48, pos: 'right', media: {src: 'ackman/ak22_spacex.jpg', type: 'img', effect: 'in'}},
+  {dur: 66, kind: 'text', reveal: [2, 28], text: 'He highlights|SpaceX’s recent debt', highlights: ['debt'], size: 48, pos: 'right', media: {src: 'ackman/ak22_spacex.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2], text: 'financing, which carried', highlights: ['financing,'], size: 52, pos: 'lower', media: {src: 'ackman/ak23_financing.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'financing, which carried', highlights: ['financing,'], size: 52, pos: 'lower', media: {src: 'ackman/ak23_financing.jpg', type: 'img', effect: 'in'}},
   // 24 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'SPACEX DEBT', value: 8.259, decimals: 3, suffix: '%'}, media: {src: 'ackman/ak24_rate8.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'stat', stat: {pre: 'SPACEX DEBT', value: 8.259, decimals: 3, suffix: '%'}, media: {src: 'ackman/ak24_rate8.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'interest rate,|compared with', highlights: ['compared'], size: 50, pos: 'upperRight', media: {src: 'ackman/ak25_compared.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2, 28], text: 'interest rate,|compared with', highlights: ['compared'], size: 50, pos: 'upperRight', media: {src: 'ackman/ak25_compared.jpg', type: 'img', effect: 'in'}},
   // 26 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'VS. BELOW', value: 6, suffix: '%'}, media: {src: 'ackman/ak26_rate6.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'stat', stat: {pre: 'VS. BELOW', value: 6, suffix: '%'}, media: {src: 'ackman/ak26_rate6.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'for its|unsecured bond offering', highlights: ['unsecured'], size: 48, pos: 'lowerLeft', media: {src: 'ackman/ak27_bond.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'for its|unsecured bond offering', highlights: ['unsecured'], size: 48, pos: 'lowerLeft', media: {src: 'ackman/ak27_bond.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2], text: 'around its IPO.', highlights: ['IPO.'], size: 52, pos: 'left', media: {src: 'ackman/ak28_ipo.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'around its IPO.', highlights: ['IPO.'], size: 52, pos: 'left', media: {src: 'ackman/ak28_ipo.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'He also argues', highlights: ['argues'], size: 52, pos: 'right', media: {src: 'ackman/ak29_argues.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'He also argues', highlights: ['argues'], size: 52, pos: 'right', media: {src: 'ackman/ak29_argues.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'that rising|geopolitical risks,', highlights: ['geopolitical'], size: 50, pos: 'lowerRight', media: {src: 'ackman/ak30_geopolitical.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'text', reveal: [2, 28], text: 'that rising|geopolitical risks,', highlights: ['geopolitical'], size: 50, pos: 'lowerRight', media: {src: 'ackman/ak30_geopolitical.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'tariffs,|military spending,', highlights: ['tariffs,'], size: 52, pos: 'upperLeft', media: {src: 'ackman/ak31_tariffs.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'tariffs,|military spending,', highlights: ['tariffs,'], size: 52, pos: 'upperLeft', media: {src: 'ackman/ak31_tariffs.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and massive|AI infrastructure', highlights: ['AI'], size: 50, pos: 'right', media: {src: 'ackman/ak32_ai.jpg', type: 'img', effect: 'in'}},
+  {dur: 56, kind: 'text', reveal: [2, 28], text: 'and massive|AI infrastructure', highlights: ['AI'], size: 50, pos: 'right', media: {src: 'ackman/ak32_ai.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'investments are keeping|costs elevated.', highlights: ['elevated.'], size: 48, pos: 'upperRight', media: {src: 'ackman/ak33_elevated.jpg', type: 'img', effect: 'in'}},
+  {dur: 86, kind: 'text', reveal: [2, 28], text: 'investments are keeping|costs elevated.', highlights: ['elevated.'], size: 48, pos: 'upperRight', media: {src: 'ackman/ak33_elevated.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Ackman warns that|pushing rates higher', highlights: ['higher'], size: 44, pos: 'left', media: {src: 'ackman/ak34_higher.jpg', type: 'img', effect: 'in'}},
+  {dur: 65, kind: 'text', reveal: [2, 28], text: 'Ackman warns that|pushing rates higher', highlights: ['higher'], size: 44, pos: 'left', media: {src: 'ackman/ak34_higher.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to force|inflation', highlights: ['inflation'], size: 52, pos: 'lowerLeft', media: {src: 'ackman/ak35_force.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2, 28], text: 'to force|inflation', highlights: ['inflation'], size: 52, pos: 'lowerLeft', media: {src: 'ackman/ak35_force.jpg', type: 'img', effect: 'in'}},
   // 36 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'INFLATION TO', value: 2, suffix: '%'}, media: {src: 'ackman/ak36_target2.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'INFLATION TO', value: 2, suffix: '%'}, media: {src: 'ackman/ak36_target2.jpg', type: 'img', effect: 'in'}},
   // 37
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could trigger|a recession', highlights: ['recession'], size: 50, pos: 'upper', media: {src: 'ackman/ak37_trigger.jpg', type: 'img', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2, 28], text: 'could trigger|a recession', highlights: ['recession'], size: 50, pos: 'upper', media: {src: 'ackman/ak37_trigger.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'in the United States', highlights: ['United'], size: 50, pos: 'right', media: {src: 'ackman/ak38_us.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'in the United States', highlights: ['United'], size: 50, pos: 'right', media: {src: 'ackman/ak38_us.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'and around the world.', highlights: ['world.'], size: 50, pos: 'lowerRight', media: {src: 'ackman/ak39_world.jpg', type: 'img', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'and around the world.', highlights: ['world.'], size: 50, pos: 'lowerRight', media: {src: 'ackman/ak39_world.jpg', type: 'img', effect: 'in'}},
   // 40 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'But there’s|a catch.'},
+  {dur: 38, kind: 'impact', redBg: true, text: 'But there’s|a catch.'},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'Lower interest rates', highlights: ['Lower'], size: 52, pos: 'upperLeft', media: {src: 'ackman/ak40_lower.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Lower interest rates', highlights: ['Lower'], size: 52, pos: 'upperLeft', media: {src: 'ackman/ak40_lower.jpg', type: 'img', effect: 'in'}},
   // 42
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'would also benefit|Ackman’s investments,', highlights: ['benefit'], size: 48, pos: 'left', media: {src: 'ackman/ak41_benefit.jpg', type: 'img', effect: 'in'}},
+  {dur: 78, kind: 'text', reveal: [2, 28], text: 'would also benefit|Ackman’s investments,', highlights: ['benefit'], size: 48, pos: 'left', media: {src: 'ackman/ak41_benefit.jpg', type: 'img', effect: 'in'}},
   // 43
-  {dur: 70, kind: 'text', reveal: [2], text: 'including major holdings', highlights: ['holdings'], size: 52, pos: 'lowerRight', media: {src: 'ackman/ak42_holdings.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2], text: 'including major holdings', highlights: ['holdings'], size: 52, pos: 'lowerRight', media: {src: 'ackman/ak42_holdings.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'like Microsoft|and Netflix.', highlights: ['Microsoft'], size: 50, pos: 'upperRight', media: {src: 'ackman/ak43_bigtech.jpg', type: 'img', effect: 'in'}},
+  {dur: 68, kind: 'text', reveal: [2, 28], text: 'like Microsoft|and Netflix.', highlights: ['Microsoft'], size: 50, pos: 'upperRight', media: {src: 'ackman/ak43_bigtech.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And inflation remains|stubbornly high,', highlights: ['stubbornly'], size: 48, pos: 'right', media: {src: 'ackman/ak44_stubborn.jpg', type: 'img', effect: 'in'}},
+  {dur: 77, kind: 'text', reveal: [2, 28], text: 'And inflation remains|stubbornly high,', highlights: ['stubbornly'], size: 48, pos: 'right', media: {src: 'ackman/ak44_stubborn.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'giving the Fed reasons', highlights: ['Fed'], size: 50, pos: 'lowerLeft', media: {src: 'ackman/ak45_fed3.jpg', type: 'img', effect: 'in'}},
+  {dur: 46, kind: 'text', reveal: [2], text: 'giving the Fed reasons', highlights: ['Fed'], size: 50, pos: 'lowerLeft', media: {src: 'ackman/ak45_fed3.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2], text: 'to remain cautious.', highlights: ['cautious.'], size: 52, pos: 'left', media: {src: 'ackman/ak46_cautious.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'to remain cautious.', highlights: ['cautious.'], size: 52, pos: 'left', media: {src: 'ackman/ak46_cautious.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'So who’s right?', highlights: ['right?'], size: 52, pos: 'upperRight', media: {src: 'ackman/ak47_right.jpg', type: 'img', effect: 'in'}},
+  {dur: 29, kind: 'text', reveal: [2], text: 'So who’s right?', highlights: ['right?'], size: 52, pos: 'upperRight', media: {src: 'ackman/ak47_right.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Should the Fed|accept higher inflation', highlights: ['accept'], size: 44, pos: 'lower', media: {src: 'ackman/ak48_accept.jpg', type: 'img', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'Should the Fed|accept higher inflation', highlights: ['accept'], size: 44, pos: 'lower', media: {src: 'ackman/ak48_accept.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to protect|economic growth,', highlights: ['growth,'], size: 50, pos: 'right', media: {src: 'ackman/ak49_growth.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'to protect|economic growth,', highlights: ['growth,'], size: 50, pos: 'right', media: {src: 'ackman/ak49_growth.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2], text: 'or keep fighting', highlights: ['fighting'], size: 52, pos: 'upperLeft', media: {src: 'ackman/ak50_fighting.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'or keep fighting', highlights: ['fighting'], size: 52, pos: 'upperLeft', media: {src: 'ackman/ak50_fighting.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'until inflation|returns to 2%?', highlights: ['2%?'], size: 48, pos: 'lowerRight', media: {src: 'ackman/ak51_returns2.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], text: 'until inflation|returns to 2%?', highlights: ['2%?'], size: 48, pos: 'lowerRight', media: {src: 'ackman/ak51_returns2.jpg', type: 'img', effect: 'in'}},
   // 53
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Could another|rate hike', highlights: ['hike'], size: 50, pos: 'left', media: {src: 'ackman/ak52_hike2.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2, 28], text: 'Could another|rate hike', highlights: ['hike'], size: 50, pos: 'left', media: {src: 'ackman/ak52_hike2.jpg', type: 'img', effect: 'in'}},
   // 54 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'push the economy|over the edge?', highlights: ['edge?'], size: 46, media: {src: 'ackman/ak53_edge.jpg', type: 'img', effect: 'in'}},
+  {dur: 58, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'push the economy|over the edge?', highlights: ['edge?'], size: 46, media: {src: 'ackman/ak53_edge.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 835, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1128, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1246, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1766, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1905, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2624, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
