@@ -228,6 +228,7 @@ import {PricedReel, DURATION_IN_FRAMES as PRICED_FRAMES} from './PricedReel';
 import {BattleReel, DURATION_IN_FRAMES as BATTLE_FRAMES} from './BattleReel';
 import {BounceReel, DURATION_IN_FRAMES as BOUNCE_FRAMES} from './BounceReel';
 import {AckmanReel, DURATION_IN_FRAMES as ACKMAN_FRAMES} from './AckmanReel';
+import {GlutReel, DURATION_IN_FRAMES as GLUT_FRAMES} from './GlutReel';
 import {LightReel, DURATION_IN_FRAMES as LIGHT_FRAMES} from './LightReel';
 import {ForeverReel, DURATION_IN_FRAMES as FOREVER_FRAMES} from './ForeverReel';
 import {AskReel, DURATION_IN_FRAMES as ASK_FRAMES} from './AskReel';
@@ -2061,6 +2062,14 @@ export const RemotionRoot: React.FC = () => {
         id="AckmanReel"
         component={AckmanReel}
         durationInFrames={ACKMAN_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="GlutReel"
+        component={GlutReel}
+        durationInFrames={GLUT_FRAMES}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
