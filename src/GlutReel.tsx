@@ -107,119 +107,125 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 70, kind: 'hook', reveal: [3, 40], text: 'Oil prices|just suffered', kicker: 'The glut', highlights: ['Oil'], size: 54, media: {src: 'glut/gl00_oildrop.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'hook', reveal: [3, 40], text: 'Oil prices|just suffered', kicker: 'The glut', highlights: ['Oil'], size: 54, media: {src: 'glut/gl00_oildrop.jpg', type: 'img', effect: 'in'}},
   // 1 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'NEARLY', value: 4, suffix: '%', post: 'DROP'}, media: {src: 'glut/gl01_fourpct.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'stat', stat: {pre: 'NEARLY', value: 4, suffix: '%', post: 'DROP'}, media: {src: 'glut/gl01_fourpct.jpg', type: 'img', effect: 'in'}},
   // 2
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'And the reason|isn’t just', highlights: ['reason'], size: 48, pos: 'upperRight', media: {src: 'glut/gl02_reason.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2, 28], text: 'And the reason|isn’t just', highlights: ['reason'], size: 48, pos: 'upperRight', media: {src: 'glut/gl02_reason.jpg', type: 'img', effect: 'in'}},
   // 3
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'what’s happening|in the Middle East.', highlights: ['Middle'], size: 44, pos: 'left', media: {src: 'glut/gl03_mideast.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2, 28], text: 'what’s happening|in the Middle East.', highlights: ['Middle'], size: 44, pos: 'left', media: {src: 'glut/gl03_mideast.jpg', type: 'img', effect: 'in'}},
   // 4
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'It’s the growing|possibility', highlights: ['possibility'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl04_possibility.jpg', type: 'img', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'It’s the growing|possibility', highlights: ['possibility'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl04_possibility.jpg', type: 'img', effect: 'in'}},
   // 5
-  {dur: 70, kind: 'text', reveal: [2], text: 'that the war with Iran', highlights: ['Iran'], size: 46, pos: 'upperLeft', media: {src: 'glut/gl05_iran.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'that the war with Iran', highlights: ['Iran'], size: 46, pos: 'upperLeft', media: {src: 'glut/gl05_iran.jpg', type: 'img', effect: 'in'}},
   // 6
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could finally|move toward an end.', highlights: ['end.'], size: 44, pos: 'right', media: {src: 'glut/gl06_end.jpg', type: 'img', effect: 'in'}},
+  {dur: 92, kind: 'text', reveal: [2, 28], text: 'could finally|move toward an end.', highlights: ['end.'], size: 44, pos: 'right', media: {src: 'glut/gl06_end.jpg', type: 'img', effect: 'in'}},
   // 7
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'But here’s|the twist:', highlights: ['twist:'], size: 50, pos: 'lower', media: {src: 'glut/gl07_twist.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2, 28], text: 'But here’s|the twist:', highlights: ['twist:'], size: 50, pos: 'lower', media: {src: 'glut/gl07_twist.jpg', type: 'img', effect: 'in'}},
   // 8
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'even with tensions|still running high,', highlights: ['tensions'], size: 44, pos: 'lowerLeft', media: {src: 'glut/gl08_tensions.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'even with tensions|still running high,', highlights: ['tensions'], size: 44, pos: 'lowerLeft', media: {src: 'glut/gl08_tensions.jpg', type: 'img', effect: 'in'}},
   // 9
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'the bigger threat|to oil prices', highlights: ['threat'], size: 44, pos: 'upperRight', media: {src: 'glut/gl09_threat.jpg', type: 'img', effect: 'in'}},
+  {dur: 55, kind: 'text', reveal: [2, 28], text: 'the bigger threat|to oil prices', highlights: ['threat'], size: 44, pos: 'upperRight', media: {src: 'glut/gl09_threat.jpg', type: 'img', effect: 'in'}},
   // 10
-  {dur: 70, kind: 'text', reveal: [2], text: 'may be an approaching', highlights: ['approaching'], size: 50, pos: 'left', media: {src: 'glut/gl10_approaching.jpg', type: 'img', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'may be an approaching', highlights: ['approaching'], size: 50, pos: 'left', media: {src: 'glut/gl10_approaching.jpg', type: 'img', effect: 'in'}},
   // 11
-  {dur: 70, kind: 'text', reveal: [2], text: 'global supply glut.', highlights: ['glut.'], size: 52, pos: 'right', media: {src: 'glut/gl11_glut.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'global supply glut.', highlights: ['glut.'], size: 52, pos: 'right', media: {src: 'glut/gl11_glut.jpg', type: 'img', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 70, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['Follow'], size: 50, pos: 'upperLeft', media: {src: 'glut/gl12_follow.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['Follow'], size: 50, pos: 'upperLeft', media: {src: 'glut/gl12_follow.jpg', type: 'img', effect: 'in'}},
   // 13
-  {dur: 70, kind: 'text', reveal: [2], text: 'on the biggest moves', highlights: ['biggest'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl13_moves.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'on the biggest moves', highlights: ['biggest'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl13_moves.jpg', type: 'img', effect: 'in'}},
   // 14
-  {dur: 70, kind: 'text', reveal: [2], text: 'in energy, business,', highlights: ['energy,'], size: 52, pos: 'upper', media: {src: 'glut/gl14_energy.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2], text: 'in energy, business,', highlights: ['energy,'], size: 52, pos: 'upper', media: {src: 'glut/gl14_energy.jpg', type: 'img', effect: 'in'}},
   // 15
-  {dur: 70, kind: 'text', reveal: [2], text: 'and global markets.', highlights: ['markets.'], size: 52, pos: 'left', media: {src: 'glut/gl15_markets.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'and global markets.', highlights: ['markets.'], size: 52, pos: 'left', media: {src: 'glut/gl15_markets.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Oil steadied after|Monday’s sharp decline,', highlights: ['steadied'], size: 44, pos: 'right', media: {src: 'glut/gl16_steadied.jpg', type: 'img', effect: 'in'}},
+  {dur: 82, kind: 'text', reveal: [2, 28], text: 'Oil steadied after|Monday’s sharp decline,', highlights: ['steadied'], size: 44, pos: 'right', media: {src: 'glut/gl16_steadied.jpg', type: 'img', effect: 'in'}},
   // 17
-  {dur: 70, kind: 'text', reveal: [2], text: 'with U.S. crude trading', highlights: ['crude'], size: 50, pos: 'lowerLeft', media: {src: 'glut/gl17_crude.jpg', type: 'img', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'with U.S. crude trading', highlights: ['crude'], size: 50, pos: 'lowerLeft', media: {src: 'glut/gl17_crude.jpg', type: 'img', effect: 'in'}},
   // 18 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'U.S. CRUDE', prefix: '$', value: 80, post: 'A BARREL'}, media: {src: 'glut/gl18_usd80.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'stat', stat: {pre: 'U.S. CRUDE', prefix: '$', value: 80, post: 'A BARREL'}, media: {src: 'glut/gl18_usd80.jpg', type: 'img', effect: 'in'}},
   // 19 CARD
   {dur: 70, kind: 'stat', stat: {pre: 'BRENT ABOVE', prefix: '$', value: 89}, media: {src: 'glut/gl19_brent89.jpg', type: 'img', effect: 'in'}},
   // 20
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Vice President|JD Vance', highlights: ['Vance'], size: 50, pos: 'upperRight', media: {src: 'glut/gl20_vance.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'Vice President|JD Vance', highlights: ['Vance'], size: 50, pos: 'upperRight', media: {src: 'glut/gl20_vance.jpg', type: 'img', effect: 'in'}},
   // 21
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'met with Qatar’s|prime minister', highlights: ['minister'], size: 48, pos: 'left', media: {src: 'glut/gl21_minister.jpg', type: 'img', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'met with Qatar’s|prime minister', highlights: ['minister'], size: 48, pos: 'left', media: {src: 'glut/gl21_minister.jpg', type: 'img', effect: 'in'}},
   // 22
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to discuss|negotiations with Iran.', highlights: ['negotiations'], size: 48, pos: 'lowerRight', media: {src: 'glut/gl22_negotiations.jpg', type: 'img', effect: 'in'}},
+  {dur: 72, kind: 'text', reveal: [2, 28], text: 'to discuss|negotiations with Iran.', highlights: ['negotiations'], size: 48, pos: 'lowerRight', media: {src: 'glut/gl22_negotiations.jpg', type: 'img', effect: 'in'}},
   // 23
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Qatar has been|acting', highlights: ['Qatar'], size: 50, pos: 'upperLeft', media: {src: 'glut/gl23_qatar.jpg', type: 'img', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2, 28], text: 'Qatar has been|acting', highlights: ['Qatar'], size: 50, pos: 'upperLeft', media: {src: 'glut/gl23_qatar.jpg', type: 'img', effect: 'in'}},
   // 24
-  {dur: 70, kind: 'text', reveal: [2], text: 'as a mediator', highlights: ['mediator'], size: 52, pos: 'right', media: {src: 'glut/gl24_mediator.jpg', type: 'img', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'as a mediator', highlights: ['mediator'], size: 52, pos: 'right', media: {src: 'glut/gl24_mediator.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 70, kind: 'text', reveal: [2], text: 'in efforts to end', highlights: ['end'], size: 50, pos: 'lower', media: {src: 'glut/gl25_efforts.jpg', type: 'img', effect: 'in'}},
+  {dur: 36, kind: 'text', reveal: [2], text: 'in efforts to end', highlights: ['end'], size: 50, pos: 'lower', media: {src: 'glut/gl25_efforts.jpg', type: 'img', effect: 'in'}},
   // 26 CARD
-  {dur: 70, kind: 'stat', stat: {pre: 'NEARLY', value: 9, post: 'MONTH CONFLICT'}, media: {src: 'glut/gl26_ninemonth.jpg', type: 'img', effect: 'in'}},
+  {dur: 61, kind: 'stat', stat: {pre: 'NEARLY', value: 9, post: 'MONTH CONFLICT'}, media: {src: 'glut/gl26_ninemonth.jpg', type: 'img', effect: 'in'}},
   // 27
-  {dur: 70, kind: 'text', reveal: [2], text: 'At the same time,', highlights: ['time,'], size: 50, pos: 'upperRight', media: {src: 'glut/gl27_sametime.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'At the same time,', highlights: ['time,'], size: 50, pos: 'upperRight', media: {src: 'glut/gl27_sametime.jpg', type: 'img', effect: 'in'}},
   // 28
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'oil exports|from the Persian Gulf', highlights: ['Persian'], size: 44, pos: 'lowerLeft', media: {src: 'glut/gl28_persian.jpg', type: 'img', effect: 'in'}},
+  {dur: 59, kind: 'text', reveal: [2, 28], text: 'oil exports|from the Persian Gulf', highlights: ['Persian'], size: 44, pos: 'lowerLeft', media: {src: 'glut/gl28_persian.jpg', type: 'img', effect: 'in'}},
   // 29
-  {dur: 70, kind: 'text', reveal: [2], text: 'have surged', highlights: ['surged'], size: 52, pos: 'left', media: {src: 'glut/gl29_surged.jpg', type: 'img', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'have surged', highlights: ['surged'], size: 52, pos: 'left', media: {src: 'glut/gl29_surged.jpg', type: 'img', effect: 'in'}},
   // 30
-  {dur: 70, kind: 'text', reveal: [2], text: 'despite continued attacks', highlights: ['attacks'], size: 52, pos: 'right', media: {src: 'glut/gl30_attacks.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2], text: 'despite continued attacks', highlights: ['attacks'], size: 52, pos: 'right', media: {src: 'glut/gl30_attacks.jpg', type: 'img', effect: 'in'}},
   // 31
-  {dur: 70, kind: 'text', reveal: [2], text: 'on tankers passing through', highlights: ['tankers'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl31_tankers.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'on tankers passing through', highlights: ['tankers'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl31_tankers.jpg', type: 'img', effect: 'in'}},
   // 32
-  {dur: 70, kind: 'text', reveal: [2], text: 'the Strait of Hormuz.', highlights: ['Hormuz.'], size: 50, pos: 'upperLeft', media: {src: 'glut/gl32_hormuz.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2], text: 'the Strait of Hormuz.', highlights: ['Hormuz.'], size: 50, pos: 'upperLeft', media: {src: 'glut/gl32_hormuz.jpg', type: 'img', effect: 'in'}},
   // 33
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'The International|Energy Agency', highlights: ['Energy'], size: 50, pos: 'right', media: {src: 'glut/gl33_iea.jpg', type: 'img', effect: 'in'}},
+  {dur: 47, kind: 'text', reveal: [2, 28], text: 'The International|Energy Agency', highlights: ['Energy'], size: 50, pos: 'right', media: {src: 'glut/gl33_iea.jpg', type: 'img', effect: 'in'}},
   // 34
-  {dur: 70, kind: 'text', reveal: [2], text: 'expects global oil supply', highlights: ['supply'], size: 50, pos: 'upperRight', media: {src: 'glut/gl34_supply.jpg', type: 'img', effect: 'in'}},
+  {dur: 76, kind: 'text', reveal: [2], text: 'expects global oil supply', highlights: ['supply'], size: 50, pos: 'upperRight', media: {src: 'glut/gl34_supply.jpg', type: 'img', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'to exceed demand|this quarter,', highlights: ['exceed'], size: 48, pos: 'left', media: {src: 'glut/gl35_exceed.jpg', type: 'img', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'to exceed demand|this quarter,', highlights: ['exceed'], size: 48, pos: 'left', media: {src: 'glut/gl35_exceed.jpg', type: 'img', effect: 'in'}},
   // 36
-  {dur: 70, kind: 'text', reveal: [2], text: 'while Goldman Sachs', highlights: ['Goldman'], size: 52, pos: 'lowerLeft', media: {src: 'glut/gl36_goldman.jpg', type: 'img', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'while Goldman Sachs', highlights: ['Goldman'], size: 52, pos: 'lowerLeft', media: {src: 'glut/gl36_goldman.jpg', type: 'img', effect: 'in'}},
   // 37
   {dur: 70, kind: 'text', reveal: [2, 28], text: 'has warned of|a possible surplus', highlights: ['surplus'], size: 44, pos: 'upper', media: {src: 'glut/gl37_surplus.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2], text: 'next year.', highlights: ['year.'], size: 52, pos: 'right', media: {src: 'glut/gl38_nextyear.jpg', type: 'img', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'next year.', highlights: ['year.'], size: 52, pos: 'right', media: {src: 'glut/gl38_nextyear.jpg', type: 'img', effect: 'in'}},
   // 39
-  {dur: 70, kind: 'text', reveal: [2], text: 'More available oil', highlights: ['More'], size: 52, pos: 'lowerRight', media: {src: 'glut/gl39_moreoil.jpg', type: 'img', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'More available oil', highlights: ['More'], size: 52, pos: 'lowerRight', media: {src: 'glut/gl39_moreoil.jpg', type: 'img', effect: 'in'}},
   // 40
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'could put further|downward pressure', highlights: ['downward'], size: 48, pos: 'upperLeft', media: {src: 'glut/gl40_downward.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'could put further|downward pressure', highlights: ['downward'], size: 48, pos: 'upperLeft', media: {src: 'glut/gl40_downward.jpg', type: 'img', effect: 'in'}},
   // 41
-  {dur: 70, kind: 'text', reveal: [2], text: 'on prices.', highlights: ['prices.'], size: 52, pos: 'left', media: {src: 'glut/gl41_prices.jpg', type: 'img', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2], text: 'on prices.', highlights: ['prices.'], size: 52, pos: 'left', media: {src: 'glut/gl41_prices.jpg', type: 'img', effect: 'in'}},
   // 42 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'But peace is|far from guaranteed.'},
+  {dur: 51, kind: 'impact', redBg: true, text: 'But peace is|far from guaranteed.'},
   // 43
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'Iran wants|sanctions eased,', highlights: ['sanctions'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl42_sanctions.jpg', type: 'img', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'Iran wants|sanctions eased,', highlights: ['sanctions'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl42_sanctions.jpg', type: 'img', effect: 'in'}},
   // 44
-  {dur: 70, kind: 'text', reveal: [2], text: 'frozen assets released,', highlights: ['frozen'], size: 52, pos: 'upperRight', media: {src: 'glut/gl43_frozen.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'frozen assets released,', highlights: ['frozen'], size: 52, pos: 'upperRight', media: {src: 'glut/gl43_frozen.jpg', type: 'img', effect: 'in'}},
   // 45
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and the U.S.|naval blockade lifted.', highlights: ['blockade'], size: 44, pos: 'right', media: {src: 'glut/gl44_blockade.jpg', type: 'img', effect: 'in'}},
+  {dur: 71, kind: 'text', reveal: [2, 28], text: 'and the U.S.|naval blockade lifted.', highlights: ['blockade'], size: 44, pos: 'right', media: {src: 'glut/gl44_blockade.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 70, kind: 'text', reveal: [2], text: 'Washington is demanding', highlights: ['Washington'], size: 52, pos: 'lowerLeft', media: {src: 'glut/gl45_washington.jpg', type: 'img', effect: 'in'}},
+  {dur: 45, kind: 'text', reveal: [2], text: 'Washington is demanding', highlights: ['Washington'], size: 52, pos: 'lowerLeft', media: {src: 'glut/gl45_washington.jpg', type: 'img', effect: 'in'}},
   // 47
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'concessions on Iran’s|nuclear program.', highlights: ['nuclear'], size: 48, pos: 'left', media: {src: 'glut/gl46_nuclear.jpg', type: 'img', effect: 'in'}},
+  {dur: 75, kind: 'text', reveal: [2, 28], text: 'concessions on Iran’s|nuclear program.', highlights: ['nuclear'], size: 48, pos: 'left', media: {src: 'glut/gl46_nuclear.jpg', type: 'img', effect: 'in'}},
   // 48
-  {dur: 70, kind: 'text', reveal: [2], text: 'So what will move', highlights: ['move'], size: 50, pos: 'upperRight', media: {src: 'glut/gl47_move.jpg', type: 'img', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2], text: 'So what will move', highlights: ['move'], size: 50, pos: 'upperRight', media: {src: 'glut/gl47_move.jpg', type: 'img', effect: 'in'}},
   // 49
-  {dur: 70, kind: 'text', reveal: [2], text: 'oil prices next:', highlights: ['next:'], size: 52, pos: 'lower', media: {src: 'glut/gl48_next.jpg', type: 'img', effect: 'in'}},
+  {dur: 49, kind: 'text', reveal: [2], text: 'oil prices next:', highlights: ['next:'], size: 52, pos: 'lower', media: {src: 'glut/gl48_next.jpg', type: 'img', effect: 'in'}},
   // 50
-  {dur: 70, kind: 'text', reveal: [2], text: 'a possible peace deal', highlights: ['peace'], size: 50, pos: 'right', media: {src: 'glut/gl49_peace.jpg', type: 'img', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'a possible peace deal', highlights: ['peace'], size: 50, pos: 'right', media: {src: 'glut/gl49_peace.jpg', type: 'img', effect: 'in'}},
   // 51
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'or a growing|supply surplus?', highlights: ['surplus?'], size: 48, pos: 'upperLeft', media: {src: 'glut/gl50_surplus2.jpg', type: 'img', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'or a growing|supply surplus?', highlights: ['surplus?'], size: 48, pos: 'upperLeft', media: {src: 'glut/gl50_surplus2.jpg', type: 'img', effect: 'in'}},
   // 52
-  {dur: 70, kind: 'text', reveal: [2], text: 'And could cheaper oil', highlights: ['cheaper'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl51_cheaper.jpg', type: 'img', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'And could cheaper oil', highlights: ['cheaper'], size: 50, pos: 'lowerRight', media: {src: 'glut/gl51_cheaper.jpg', type: 'img', effect: 'in'}},
   // 53 CTA
-  {dur: 70, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'be coming sooner|than expected?', highlights: ['expected?'], size: 50, media: {src: 'glut/gl52_expected.jpg', type: 'img', effect: 'in'}},
+  {dur: 69, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'be coming sooner|than expected?', highlights: ['expected?'], size: 50, media: {src: 'glut/gl52_expected.jpg', type: 'img', effect: 'in'}},
 ];
 
 
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
+  {at: 59, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 880, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 931, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1264, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 2060, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2628, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
