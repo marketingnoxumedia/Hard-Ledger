@@ -106,105 +106,105 @@ type SceneDef = {
 // ---------------------------------------------------------------------------
 const SCENES: SceneDef[] = [
   // 0 HOOK
-  {dur: 74, kind: 'hook', reveal: [3, 40], text: 'Oil prices|are falling again,', kicker: 'The overhang', highlights: ['falling'], size: 52, media: {src: 'overhang/ov00_falling.mp4', type: 'video', effect: 'in'}},
+  {dur: 67, kind: 'hook', reveal: [3, 40], text: 'Oil prices|are falling again,', kicker: 'The overhang', highlights: ['falling'], size: 52, media: {src: 'overhang/ov00_falling.mp4', type: 'video', effect: 'in'}},
   // 1
-  {dur: 47, kind: 'text', reveal: [2, 28], text: 'even as ships|come under attack', highlights: ['attack'], size: 44, pos: 'upperRight', media: {src: 'overhang/ov01_attack.mp4', type: 'video', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: 'even as ships|come under attack', highlights: ['attack'], size: 44, pos: 'upperRight', media: {src: 'overhang/ov01_attack.mp4', type: 'video', effect: 'in'}},
   // 2
   {dur: 26, kind: 'text', reveal: [2], text: 'in the Middle East.', highlights: ['Middle'], size: 50, pos: 'left', media: {src: 'overhang/ov02_mideast.mp4', type: 'video', effect: 'in'}},
   // 3
-  {dur: 72, kind: 'text', reveal: [2, 28], text: 'And the reason|is a growing fear', highlights: ['fear'], size: 44, pos: 'lowerRight', media: {src: 'overhang/ov03_fear.mp4', type: 'video', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'And the reason|is a growing fear', highlights: ['fear'], size: 44, pos: 'lowerRight', media: {src: 'overhang/ov03_fear.mp4', type: 'video', effect: 'in'}},
   // 4
-  {dur: 56, kind: 'text', reveal: [2, 28], text: 'that the world|could soon have', highlights: ['world'], size: 44, pos: 'upperLeft', media: {src: 'overhang/ov04_world.mp4', type: 'video', effect: 'in'}},
+  {dur: 51, kind: 'text', reveal: [2, 28], text: 'that the world|could soon have', highlights: ['world'], size: 44, pos: 'upperLeft', media: {src: 'overhang/ov04_world.mp4', type: 'video', effect: 'in'}},
   // 5
-  {dur: 34, kind: 'text', reveal: [2], text: 'too much oil.', highlights: ['too'], size: 52, pos: 'right', media: {src: 'overhang/ov05_toomuch.mp4', type: 'video', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'too much oil.', highlights: ['too'], size: 52, pos: 'right', media: {src: 'overhang/ov05_toomuch.mp4', type: 'video', effect: 'in'}},
   // 6
   {dur: 26, kind: 'text', reveal: [2], text: 'Here’s the twist:', highlights: ['twist:'], size: 52, pos: 'lower', media: {src: 'overhang/ov06_twist.mp4', type: 'video', effect: 'in'}},
   // 7
-  {dur: 61, kind: 'text', reveal: [2, 28], text: 'traders are becoming|more worried', highlights: ['worried'], size: 48, pos: 'lowerLeft', media: {src: 'overhang/ov07_traders.mp4', type: 'video', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'traders are becoming|more worried', highlights: ['worried'], size: 48, pos: 'lowerLeft', media: {src: 'overhang/ov07_traders.mp4', type: 'video', effect: 'in'}},
   // 8
-  {dur: 36, kind: 'text', reveal: [2], text: 'about a supply glut', highlights: ['glut'], size: 50, pos: 'upperRight', media: {src: 'overhang/ov08_glut.mp4', type: 'video', effect: 'in'}},
+  {dur: 33, kind: 'text', reveal: [2], text: 'about a supply glut', highlights: ['glut'], size: 50, pos: 'upperRight', media: {src: 'overhang/ov08_glut.mp4', type: 'video', effect: 'in'}},
   // 9
-  {dur: 28, kind: 'text', reveal: [2], text: 'than the conflict', highlights: ['conflict'], size: 52, pos: 'left', media: {src: 'overhang/ov09_conflict.mp4', type: 'video', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'than the conflict', highlights: ['conflict'], size: 52, pos: 'left', media: {src: 'overhang/ov09_conflict.mp4', type: 'video', effect: 'in'}},
   // 10
-  {dur: 39, kind: 'text', reveal: [2, 28], text: 'threatening one of|the world’s', highlights: ['threatening'], size: 48, pos: 'right', media: {src: 'overhang/ov10_routes.mp4', type: 'video', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2, 28], text: 'threatening one of|the world’s', highlights: ['threatening'], size: 48, pos: 'right', media: {src: 'overhang/ov10_routes.mp4', type: 'video', effect: 'in'}},
   // 11
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'most important|oil routes.', highlights: ['routes.'], size: 50, pos: 'upperLeft', media: {src: 'overhang/ov11_oilroutes.mp4', type: 'video', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'most important|oil routes.', highlights: ['routes.'], size: 50, pos: 'upperLeft', media: {src: 'overhang/ov11_oilroutes.mp4', type: 'video', effect: 'in'}},
   // 12 FOLLOW
-  {dur: 44, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['Follow'], size: 50, pos: 'lowerRight', media: {src: 'overhang/ov12_follow.mp4', type: 'video', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'Follow for more updates', highlights: ['Follow'], size: 50, pos: 'lowerRight', media: {src: 'overhang/ov12_follow.mp4', type: 'video', effect: 'in'}},
   // 13
-  {dur: 28, kind: 'text', reveal: [2], text: 'on the biggest moves', highlights: ['biggest'], size: 50, pos: 'upper', media: {src: 'overhang/ov13_moves.mp4', type: 'video', effect: 'in'}},
+  {dur: 26, kind: 'text', reveal: [2], text: 'on the biggest moves', highlights: ['biggest'], size: 50, pos: 'upper', media: {src: 'overhang/ov13_moves.mp4', type: 'video', effect: 'in'}},
   // 14
-  {dur: 46, kind: 'text', reveal: [2, 28], text: 'in energy|and global markets.', highlights: ['energy'], size: 48, pos: 'left', media: {src: 'overhang/ov14_energy.mp4', type: 'video', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2, 28], text: 'in energy|and global markets.', highlights: ['energy'], size: 48, pos: 'left', media: {src: 'overhang/ov14_energy.mp4', type: 'video', effect: 'in'}},
   // 15
-  {dur: 55, kind: 'text', reveal: [2, 28], text: 'On Wednesday,|November 25,', highlights: ['Wednesday,'], size: 50, pos: 'right', media: {src: 'overhang/ov15_wednesday.jpg', type: 'img', effect: 'in'}},
+  {dur: 50, kind: 'text', reveal: [2, 28], text: 'On Wednesday,|November 25,', highlights: ['Wednesday,'], size: 50, pos: 'right', media: {src: 'overhang/ov15_wednesday.jpg', type: 'img', effect: 'in'}},
   // 16
-  {dur: 34, kind: 'text', reveal: [2], text: 'Brent crude fell', highlights: ['Brent'], size: 52, pos: 'lowerLeft', media: {src: 'overhang/ov16_brentfell.mp4', type: 'video', effect: 'in'}},
+  {dur: 31, kind: 'text', reveal: [2], text: 'Brent crude fell', highlights: ['Brent'], size: 52, pos: 'lowerLeft', media: {src: 'overhang/ov16_brentfell.mp4', type: 'video', effect: 'in'}},
   // 17 CARD
-  {dur: 80, kind: 'stat', stat: {pre: 'BRENT −1%', prefix: '$', value: 90.58, decimals: 2}, media: {src: 'overhang/ov17_brent90.mp4', type: 'video', effect: 'in'}},
+  {dur: 73, kind: 'stat', stat: {pre: 'BRENT −1%', prefix: '$', value: 90.58, decimals: 2}, media: {src: 'overhang/ov17_brent90.mp4', type: 'video', effect: 'in'}},
   // 18
-  {dur: 59, kind: 'text', reveal: [2, 28], text: 'a barrel, while|U.S. crude dropped', highlights: ['crude'], size: 44, pos: 'upperRight', media: {src: 'overhang/ov18_uscrude.mp4', type: 'video', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'a barrel, while|U.S. crude dropped', highlights: ['crude'], size: 44, pos: 'upperRight', media: {src: 'overhang/ov18_uscrude.mp4', type: 'video', effect: 'in'}},
   // 19 CARD
-  {dur: 99, kind: 'stat', stat: {pre: 'U.S. CRUDE −1.3%', prefix: '$', value: 80.96, decimals: 2}, media: {src: 'overhang/ov19_usd80.mp4', type: 'video', effect: 'in'}},
+  {dur: 90, kind: 'stat', stat: {pre: 'U.S. CRUDE −1.3%', prefix: '$', value: 80.96, decimals: 2}, media: {src: 'overhang/ov19_usd80.mp4', type: 'video', effect: 'in'}},
   // 20
-  {dur: 35, kind: 'text', reveal: [2, 28], text: 'The American|Petroleum Institute', highlights: ['Petroleum'], size: 50, pos: 'left', media: {src: 'overhang/ov20_api.mp4', type: 'video', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2, 28], text: 'The American|Petroleum Institute', highlights: ['Petroleum'], size: 50, pos: 'left', media: {src: 'overhang/ov20_api.mp4', type: 'video', effect: 'in'}},
   // 21
-  {dur: 46, kind: 'text', reveal: [2], text: 'reported U.S. crude inventories', highlights: ['inventories'], size: 50, pos: 'lowerRight', media: {src: 'overhang/ov21_inventories.mp4', type: 'video', effect: 'in'}},
+  {dur: 41, kind: 'text', reveal: [2], text: 'reported U.S. crude inventories', highlights: ['inventories'], size: 50, pos: 'lowerRight', media: {src: 'overhang/ov21_inventories.mp4', type: 'video', effect: 'in'}},
   // 22
   {dur: 26, kind: 'text', reveal: [2], text: 'rose by', highlights: ['rose'], size: 52, pos: 'upperLeft', media: {src: 'overhang/ov22_roseby.mp4', type: 'video', effect: 'in'}},
   // 23 CARD
-  {dur: 46, kind: 'stat', stat: {pre: 'INVENTORIES ROSE', prefix: '+', value: 126000, post: 'BARRELS'}, media: {src: 'overhang/ov23_126k.mp4', type: 'video', effect: 'in'}},
+  {dur: 40, kind: 'stat', stat: {pre: 'INVENTORIES ROSE', prefix: '+', value: 126000, post: 'BARRELS'}, media: {src: 'overhang/ov23_126k.mp4', type: 'video', effect: 'in'}},
   // 24
-  {dur: 38, kind: 'text', reveal: [2], text: 'barrels last week.', highlights: ['week.'], size: 52, pos: 'right', media: {src: 'overhang/ov24_lastweek.jpg', type: 'img', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'barrels last week.', highlights: ['week.'], size: 52, pos: 'right', media: {src: 'overhang/ov24_lastweek.jpg', type: 'img', effect: 'in'}},
   // 25
-  {dur: 33, kind: 'text', reveal: [2], text: 'Analysts had expected', highlights: ['Analysts'], size: 52, pos: 'lower', media: {src: 'overhang/ov25_analysts.mp4', type: 'video', effect: 'in'}},
+  {dur: 30, kind: 'text', reveal: [2], text: 'Analysts had expected', highlights: ['Analysts'], size: 52, pos: 'lower', media: {src: 'overhang/ov25_analysts.mp4', type: 'video', effect: 'in'}},
   // 26
-  {dur: 41, kind: 'text', reveal: [2], text: 'a much larger increase', highlights: ['larger'], size: 50, pos: 'upperRight', media: {src: 'overhang/ov26_larger.mp4', type: 'video', effect: 'in'}},
+  {dur: 37, kind: 'text', reveal: [2], text: 'a much larger increase', highlights: ['larger'], size: 50, pos: 'upperRight', media: {src: 'overhang/ov26_larger.mp4', type: 'video', effect: 'in'}},
   // 27 CARD
-  {dur: 65, kind: 'stat', stat: {pre: 'ANALYSTS EXPECTED', value: 1.5, decimals: 1, post: 'MILLION BBL'}, media: {src: 'overhang/ov27_expected15m.mp4', type: 'video', effect: 'in'}},
+  {dur: 60, kind: 'stat', stat: {pre: 'ANALYSTS EXPECTED', value: 1.5, decimals: 1, post: 'MILLION BBL'}, media: {src: 'overhang/ov27_expected15m.mp4', type: 'video', effect: 'in'}},
   // 28
-  {dur: 43, kind: 'text', reveal: [2], text: 'Meanwhile, oil exports', highlights: ['exports'], size: 52, pos: 'lowerLeft', media: {src: 'overhang/ov28_exports.mp4', type: 'video', effect: 'in'}},
+  {dur: 39, kind: 'text', reveal: [2], text: 'Meanwhile, oil exports', highlights: ['exports'], size: 52, pos: 'lowerLeft', media: {src: 'overhang/ov28_exports.mp4', type: 'video', effect: 'in'}},
   // 29
-  {dur: 48, kind: 'text', reveal: [2, 28], text: 'from the Middle East|are recovering,', highlights: ['recovering,'], size: 44, pos: 'left', media: {src: 'overhang/ov29_recovering.mp4', type: 'video', effect: 'in'}},
+  {dur: 43, kind: 'text', reveal: [2, 28], text: 'from the Middle East|are recovering,', highlights: ['recovering,'], size: 44, pos: 'left', media: {src: 'overhang/ov29_recovering.mp4', type: 'video', effect: 'in'}},
   // 30
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'and Libya’s|Sharara pipeline', highlights: ['Sharara'], size: 50, pos: 'right', media: {src: 'overhang/ov30_libya.mp4', type: 'video', effect: 'in'}},
+  {dur: 54, kind: 'text', reveal: [2, 28], text: 'and Libya’s|Sharara pipeline', highlights: ['Sharara'], size: 50, pos: 'right', media: {src: 'overhang/ov30_libya.mp4', type: 'video', effect: 'in'}},
   // 31
   {dur: 26, kind: 'text', reveal: [2], text: 'has reopened,', highlights: ['reopened,'], size: 52, pos: 'lowerRight', media: {src: 'overhang/ov31_reopened.mp4', type: 'video', effect: 'in'}},
   // 32
-  {dur: 60, kind: 'text', reveal: [2, 28], text: 'adding more supply|to the market.', highlights: ['supply'], size: 44, pos: 'upperLeft', media: {src: 'overhang/ov32_moresupply.mp4', type: 'video', effect: 'in'}},
+  {dur: 53, kind: 'text', reveal: [2, 28], text: 'adding more supply|to the market.', highlights: ['supply'], size: 44, pos: 'upperLeft', media: {src: 'overhang/ov32_moresupply.mp4', type: 'video', effect: 'in'}},
   // 33
-  {dur: 53, kind: 'text', reveal: [2, 28], text: 'The International|Energy Agency’s', highlights: ['Energy'], size: 50, pos: 'right', media: {src: 'overhang/ov33_iea.mp4', type: 'video', effect: 'in'}},
+  {dur: 48, kind: 'text', reveal: [2, 28], text: 'The International|Energy Agency’s', highlights: ['Energy'], size: 50, pos: 'right', media: {src: 'overhang/ov33_iea.mp4', type: 'video', effect: 'in'}},
   // 34
-  {dur: 44, kind: 'text', reveal: [2], text: 'outlook has reinforced', highlights: ['reinforced'], size: 52, pos: 'upperRight', media: {src: 'overhang/ov34_outlook.mp4', type: 'video', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'outlook has reinforced', highlights: ['reinforced'], size: 52, pos: 'upperRight', media: {src: 'overhang/ov34_outlook.mp4', type: 'video', effect: 'in'}},
   // 35
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'expectations that|global oil supply', highlights: ['supply'], size: 48, pos: 'left', media: {src: 'overhang/ov35_globalsupply.mp4', type: 'video', effect: 'in'}},
+  {dur: 63, kind: 'text', reveal: [2, 28], text: 'expectations that|global oil supply', highlights: ['supply'], size: 48, pos: 'left', media: {src: 'overhang/ov35_globalsupply.mp4', type: 'video', effect: 'in'}},
   // 36
-  {dur: 38, kind: 'text', reveal: [2], text: 'could exceed demand', highlights: ['exceed'], size: 52, pos: 'lowerLeft', media: {src: 'overhang/ov36_exceed.mp4', type: 'video', effect: 'in'}},
+  {dur: 35, kind: 'text', reveal: [2], text: 'could exceed demand', highlights: ['exceed'], size: 52, pos: 'lowerLeft', media: {src: 'overhang/ov36_exceed.mp4', type: 'video', effect: 'in'}},
   // 37
-  {dur: 31, kind: 'text', reveal: [2], text: 'in the fourth quarter', highlights: ['fourth'], size: 50, pos: 'upper', media: {src: 'overhang/ov37_fourthquarter.jpg', type: 'img', effect: 'in'}},
+  {dur: 28, kind: 'text', reveal: [2], text: 'in the fourth quarter', highlights: ['fourth'], size: 50, pos: 'upper', media: {src: 'overhang/ov37_fourthquarter.jpg', type: 'img', effect: 'in'}},
   // 38
-  {dur: 70, kind: 'text', reveal: [2, 28], text: 'and potentially|into 2027.', highlights: ['2027.'], size: 50, pos: 'right', media: {src: 'overhang/ov38_2027.mp4', type: 'video', effect: 'in'}},
+  {dur: 64, kind: 'text', reveal: [2, 28], text: 'and potentially|into 2027.', highlights: ['2027.'], size: 50, pos: 'right', media: {src: 'overhang/ov38_2027.mp4', type: 'video', effect: 'in'}},
   // 39 RED
-  {dur: 70, kind: 'impact', redBg: true, text: 'But the risks|haven’t disappeared.'},
+  {dur: 64, kind: 'impact', redBg: true, text: 'But the risks|haven’t disappeared.'},
   // 40
-  {dur: 43, kind: 'text', reveal: [2, 28], text: 'Ships are still|being targeted', highlights: ['targeted'], size: 48, pos: 'lowerRight', media: {src: 'overhang/ov39_targeted.mp4', type: 'video', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2, 28], text: 'Ships are still|being targeted', highlights: ['targeted'], size: 48, pos: 'lowerRight', media: {src: 'overhang/ov39_targeted.mp4', type: 'video', effect: 'in'}},
   // 41
-  {dur: 34, kind: 'text', reveal: [2, 28], text: 'near the Strait|of Hormuz,', highlights: ['Hormuz,'], size: 48, pos: 'upperLeft', media: {src: 'overhang/ov40_hormuz.mp4', type: 'video', effect: 'in'}},
+  {dur: 32, kind: 'text', reveal: [2, 28], text: 'near the Strait|of Hormuz,', highlights: ['Hormuz,'], size: 48, pos: 'upperLeft', media: {src: 'overhang/ov40_hormuz.mp4', type: 'video', effect: 'in'}},
   // 42
-  {dur: 43, kind: 'text', reveal: [2], text: 'and OPEC+ producers', highlights: ['OPEC+'], size: 52, pos: 'left', media: {src: 'overhang/ov41_opec.mp4', type: 'video', effect: 'in'}},
+  {dur: 38, kind: 'text', reveal: [2], text: 'and OPEC+ producers', highlights: ['OPEC+'], size: 52, pos: 'left', media: {src: 'overhang/ov41_opec.mp4', type: 'video', effect: 'in'}},
   // 43
-  {dur: 43, kind: 'text', reveal: [2], text: 'are preparing to decide', highlights: ['preparing'], size: 50, pos: 'lowerRight', media: {src: 'overhang/ov42_preparing.mp4', type: 'video', effect: 'in'}},
+  {dur: 40, kind: 'text', reveal: [2], text: 'are preparing to decide', highlights: ['preparing'], size: 50, pos: 'lowerRight', media: {src: 'overhang/ov42_preparing.mp4', type: 'video', effect: 'in'}},
   // 44
-  {dur: 82, kind: 'text', reveal: [2, 28], text: 'their 2027|output policy', highlights: ['output'], size: 50, pos: 'upperRight', media: {src: 'overhang/ov43_output.mp4', type: 'video', effect: 'in'}},
+  {dur: 74, kind: 'text', reveal: [2, 28], text: 'their 2027|output policy', highlights: ['output'], size: 50, pos: 'upperRight', media: {src: 'overhang/ov43_output.mp4', type: 'video', effect: 'in'}},
   // 45
-  {dur: 36, kind: 'text', reveal: [2], text: 'on November 29.', highlights: ['November'], size: 52, pos: 'right', media: {src: 'overhang/ov44_nov29.jpg', type: 'img', effect: 'in'}},
+  {dur: 34, kind: 'text', reveal: [2], text: 'on November 29.', highlights: ['November'], size: 52, pos: 'right', media: {src: 'overhang/ov44_nov29.jpg', type: 'img', effect: 'in'}},
   // 46
-  {dur: 31, kind: 'text', reveal: [2], text: 'So what will win:', highlights: ['win:'], size: 50, pos: 'lowerLeft', media: {src: 'overhang/ov45_win.mp4', type: 'video', effect: 'in'}},
+  {dur: 27, kind: 'text', reveal: [2], text: 'So what will win:', highlights: ['win:'], size: 50, pos: 'lowerLeft', media: {src: 'overhang/ov45_win.mp4', type: 'video', effect: 'in'}},
   // 47
-  {dur: 46, kind: 'text', reveal: [2], text: 'a growing oil surplus', highlights: ['surplus'], size: 50, pos: 'left', media: {src: 'overhang/ov46_surplus.mp4', type: 'video', effect: 'in'}},
+  {dur: 42, kind: 'text', reveal: [2], text: 'a growing oil surplus', highlights: ['surplus'], size: 50, pos: 'left', media: {src: 'overhang/ov46_surplus.mp4', type: 'video', effect: 'in'}},
   // 48
-  {dur: 68, kind: 'text', reveal: [2, 28], text: 'or continued|Middle East disruptions?', highlights: ['disruptions?'], size: 48, pos: 'upperRight', media: {src: 'overhang/ov47_disruptions.mp4', type: 'video', effect: 'in'}},
+  {dur: 62, kind: 'text', reveal: [2, 28], text: 'or continued|Middle East disruptions?', highlights: ['disruptions?'], size: 48, pos: 'upperRight', media: {src: 'overhang/ov47_disruptions.mp4', type: 'video', effect: 'in'}},
   // 49
-  {dur: 48, kind: 'text', reveal: [2], text: 'And could oil prices', highlights: ['prices'], size: 50, pos: 'lower', media: {src: 'overhang/ov48_oilprices.mp4', type: 'video', effect: 'in'}},
+  {dur: 44, kind: 'text', reveal: [2], text: 'And could oil prices', highlights: ['prices'], size: 50, pos: 'lower', media: {src: 'overhang/ov48_oilprices.mp4', type: 'video', effect: 'in'}},
   // 50 CTA
   {dur: 38, kind: 'text', reveal: [2, 28], enter: 'zoom', text: 'fall even further?', highlights: ['further?'], size: 54, media: {src: 'overhang/ov49_further.mp4', type: 'video', effect: 'in'}},
 ];
@@ -213,12 +213,12 @@ const SCENES: SceneDef[] = [
 type SfxCue = {at: number; src: string; vol: number};
 const SFX: SfxCue[] = [
   {at: 0, src: 'media/sfx_impact.mp3', vol: 0.5},
-  {at: 759, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 898, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1104, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1262, src: 'media/sfx_impact.mp3', vol: 0.46},
-  {at: 1870, src: 'media/sfx_impact.mp3', vol: 0.55},
-  {at: 2414, src: 'media/sfx_whoosh.mp3', vol: 0.4},
+  {at: 690, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 816, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1005, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1147, src: 'media/sfx_impact.mp3', vol: 0.46},
+  {at: 1700, src: 'media/sfx_impact.mp3', vol: 0.55},
+  {at: 2195, src: 'media/sfx_whoosh.mp3', vol: 0.4},
 ];
 
 const STARTS: number[] = (() => {
